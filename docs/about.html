@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · Index Gentium</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bg: 'var(--bg)',
+            fg: 'var(--fg)',
+            muted: 'var(--muted)',
+            accent: 'var(--accent)',
+            card: 'var(--card)',
+            border: 'var(--border)',
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            body: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #FAFBFC;
+      --fg: #1A2B3C;
+      --muted: #5C7089;
+      --accent: #3D6B99;
+      --card: #FFFFFF;
+      --border: #D8E1EB;
+      --status-pending: #8A9FB0;
+      --bg-subtle: #F1F5F9;
+    }
+
+    .dark {
+      --bg: #0F172A;
+      --fg: #E4EBF2;
+      --muted: #8BA3BC;
+      --accent: #93C5FD;
+      --card: #1E293B;
+      --border: #334155;
+      --status-pending: #64748B;
+      --bg-subtle: #172033;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg-subtle); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      border-top: 3px solid var(--accent);
+      -webkit-font-smoothing: antialiased;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: 
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(61, 107, 153, 0.04) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(61, 107, 153, 0.03) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .dark body::before {
+      background-image: 
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(147, 197, 253, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(147, 197, 253, 0.04) 0%, transparent 50%);
+    }
+
+    .main-content { flex: 1 0 auto; width: 100%; position: relative; z-index: 1; }
+    .site-footer { flex-shrink: 0; position: relative; z-index: 1; }
+
+    /* Header Styles */
+    .project-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: color-mix(in srgb, var(--card) 85%, transparent);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: box-shadow 0.3s ease, background 0.3s ease;
+    }
+    
+    .project-header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .project-header.scrolled::after { opacity: 0.4; }
+    .project-header.scrolled { box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06); background: var(--card); }
+    .dark .project-header.scrolled { box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25); }
+
+    .project-header-inner {
+      max-width: 56rem;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .project-identity {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      text-decoration: none;
+      transition: opacity 0.25s ease;
+    }
+    .project-identity:hover { opacity: 0.85; }
+    .project-identity:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+
+    .project-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 4px;
+      overflow: hidden;
+      flex-shrink: 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+    .project-identity:hover .project-logo { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+    .project-logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .project-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: var(--fg);
+      letter-spacing: 0.02em;
+      line-height: 1.2;
+    }
+
+    .project-subtitle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.625rem;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 1px;
+    }
+
+    .nav-controls { display: flex; align-items: center; gap: 1.25rem; }
+
+    .breadcrumb-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6875rem;
+      letter-spacing: 0.04em;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--muted);
+      text-decoration: none;
+      padding: 0.25rem 0.5rem;
+      border-radius: 2px;
+      transition: all 0.2s ease;
+    }
+    .breadcrumb-nav a:hover { color: var(--fg); }
+    .breadcrumb-nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+    .breadcrumb-separator { color: var(--border); font-weight: 300; user-select: none; }
+    .breadcrumb-current {
+      color: var(--fg);
+      font-weight: 500;
+      padding: 0.25rem 0.5rem;
+      background: var(--bg-subtle);
+      border-radius: 2px;
+      border: 1px solid var(--border);
+    }
+
+    /* Theme Toggle */
+    .theme-toggle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .theme-toggle:hover { color: var(--fg); border-color: var(--accent); transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    
+    .theme-toggle .icon-sun, 
+    .theme-toggle .icon-moon { 
+      position: absolute; 
+      transition: opacity 0.25s ease, transform 0.25s ease; 
+      width: 18px !important; 
+      height: 18px !important;
+    }
+
+    .theme-toggle .icon-moon { opacity: 1; transform: scale(1); }
+    .theme-toggle .icon-sun { opacity: 0; transform: scale(0.5); }
+    .dark .theme-toggle .icon-moon { opacity: 0; transform: scale(0.5); }
+    .dark .theme-toggle .icon-sun { opacity: 1; transform: scale(1); }
+
+    /* Animations & Reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    
+    .delay-1 { transition-delay: 0.15s; }
+    .delay-2 { transition-delay: 0.3s; }
+    .delay-3 { transition-delay: 0.45s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
+
+    /* Typography */
+    .font-display { font-family: 'Cormorant Garamond', Georgia, serif; font-feature-settings: "kern", "liga"; }
+    .font-body { font-family: 'Inter', system-ui, sans-serif; }
+    .font-meta { font-family: 'JetBrains Mono', monospace; }
+
+    .type-hero { font-size: 3.25rem; line-height: 1.1; letter-spacing: -0.02em; }
+    @media (min-width: 768px) { .type-hero { font-size: 4rem; } }
+    .type-section { font-size: 1.5rem; line-height: 1.3; }
+    .type-card-title { font-size: 1.25rem; line-height: 1.3; }
+    .type-body { font-size: 1rem; line-height: 1.75; letter-spacing: 0.01em; }
+    .type-secondary { font-size: 0.875rem; line-height: 1.5; }
+    .type-label { font-size: 0.75rem; line-height: 1.4; letter-spacing: 0.05em; }
+    
+    /* Section Divider */
+    .section-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .section-divider::before, .section-divider::after {
+      content: '';
+      height: 1px;
+      flex: 1;
+      max-width: 120px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+    }
+    .section-divider .diamond { width: 6px; height: 6px; background: var(--border); transform: rotate(45deg); }
+
+    /* Definition/Lead Text */
+    .definition-lead {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.35rem;
+      line-height: 1.6;
+      color: var(--fg);
+      font-weight: 400;
+      position: relative;
+      hyphens: auto;
+      max-width: 52rem; 
+    }
+    
+    .definition-lead::before {
+      content: '';
+      position: absolute;
+      left: -1.5rem;
+      top: 0.25rem;
+      bottom: 0.25rem;
+      width: 2px;
+      background: var(--border);
+      transition: background 0.3s ease;
+    }
+    .definition-lead:hover::before { background: var(--accent); }
+
+    @media (max-width: 768px) {
+      .definition-lead::before { display: none; }
+      .definition-lead { font-size: 1.25rem; }
+    }
+
+    /* Info Card */
+    .info-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.5rem;
+      height: 100%;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .info-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .info-icon {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
+      opacity: 0.8;
+      margin-bottom: 0.75rem;
+    }
+    
+    /* Footer */
+    .site-footer { background: var(--card); border-top: 1px solid var(--border); }
+    .footer-identity { color: var(--fg); }
+    .footer-muted { color: var(--muted); }
+    .footer-label { color: var(--muted); opacity: 0.7; }
+    
+    .footer-link { 
+      color: var(--muted); 
+      transition: color 0.2s ease; 
+      text-decoration: none;
+    }
+    .footer-link:hover { color: var(--fg); }
+    .footer-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .footer-value { color: var(--fg); opacity: 0.85; }
+    .footer-divider { border-color: var(--border); }
+
+    .scroll-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: var(--accent);
+      z-index: 101;
+      transform-origin: left;
+      transform: scaleX(0);
+      transition: transform 0.1s linear;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Project Header -->
+  <header class="project-header" id="projectHeader">
+    <div class="project-header-inner">
+      <a href="index.html" class="project-identity" aria-label="Return to Index Gentium">
+        <div class="project-logo">
+          <img src="logo.png" alt="Index Gentium Logo" onerror="this.style.display='none'">
+        </div>
+        <div>
+          <div class="project-title">Index Gentium</div>
+          <div class="project-subtitle">Laboratorium · Arbitristae</div>
+        </div>
+      </a>
+
+      <div class="nav-controls">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html"><span>Gentium</span></a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-current">About</span>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" type="button">
+          <svg class="icon-moon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/>
+          </svg>
+          <svg class="icon-sun" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0a3.75 3.75 0 017.5 0z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="main-content w-full max-w-4xl mx-auto px-6 py-16 md:py-24">
+    
+    <!-- [1] Hero Section -->
+    <header class="mb-12 reveal">
+      <h1 class="font-display type-hero font-medium text-fg mb-2">De Origine</h1>
+      <p class="font-display type-section italic text-muted">On the Nature of the Project</p>
+    </header>
+
+    <!-- [2] Intro Text -->
+    <section class="reveal delay-1 mb-12">
+      <div class="definition-lead text-muted">
+        The <strong class="text-fg font-medium">Index Gentium</strong> is a systematic effort to construct a comprehensive, multi-dimensional representation of sovereign entities. It serves as a public utility for structured inquiry, designed to render the complexity of nations into intelligible, comparable, and actionable data.
+      </div>
+    </section>
+
+    <div class="section-divider reveal delay-1">
+      <span class="diamond"></span>
+    </div>
+
+    <!-- [3] Mission Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-5 reveal delay-2 mb-12">
+      
+      <!-- Vision -->
+      <div class="info-card">
+        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/>
+          <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+        </svg>
+        <h3 class="font-display text-lg font-medium text-fg mb-2">The Vision</h3>
+        <p class="font-body text-sm text-muted leading-relaxed">
+          To establish a "Lingua Franca" for sovereign data—unifying disparate datasets into a coherent architectural model that supports deep analysis and cross-border comparison.
+        </p>
+      </div>
+
+      <!-- The Challenge -->
+      <div class="info-card">
+        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605"/>
+        </svg>
+        <h3 class="font-display text-lg font-medium text-fg mb-2">The Challenge</h3>
+        <p class="font-body text-sm text-muted leading-relaxed">
+          Information regarding nations is often siloed, unstructured, or locked behind proprietary barriers. The Index breaks these walls through open, inference-driven methodologies.
+        </p>
+      </div>
+
+      <!-- The Laboratory -->
+      <div class="info-card">
+        <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/>
+        </svg>
+        <h3 class="font-display text-lg font-medium text-fg mb-2">The Laboratory</h3>
+        <p class="font-body text-sm text-muted leading-relaxed">
+          Maintained by <em>Arbitristae</em>—independent researchers and engineers dedicated to building instruments of clarity for the public good.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="section-divider reveal delay-2">
+      <span class="diamond"></span>
+    </div>
+
+    <!-- [4] Architecture Section -->
+    <section class="reveal delay-3">
+      <div class="text-center mb-8">
+        <h2 class="font-display type-section text-fg mb-1">The Architecture</h2>
+        <p class="font-body type-secondary text-muted">Structural Integrity</p>
+      </div>
+
+      <div class="bg-card border border-border rounded-sm p-8 shadow-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <p class="font-body text-muted leading-relaxed mb-4">
+              The project is constructed upon a robust framework of <strong class="text-fg font-medium">Representation Spaces</strong>. We do not merely list statistics; we map the relationships between Legal, Economic, and Physical realities.
+            </p>
+            <p class="font-body text-muted leading-relaxed">
+              By defining clear <strong class="text-fg font-medium">Technique Spaces</strong>, we ensure that every data point is derived from a reproducible, transparent methodology—bridging the gap between raw data and structured intelligence.
+            </p>
+          </div>
+          <div class="font-mono text-xs text-muted border-l border-border pl-4">
+            <p class="mb-2">/* Core Dependencies */</p>
+            <p class="text-fg">const SPACES = [</p>
+            <p class="pl-4">"Product Space",</p>
+            <p class="pl-4">"Legal Space",</p>
+            <p class="pl-4">"Actor Set",</p>
+            <p class="pl-4">"Physical Substrate"</p>
+            <p>];</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer py-12 md:py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-6 mb-10">
+        <div class="md:col-span-5 text-center md:text-left">
+          <p class="font-display text-lg font-medium tracking-[0.2em] uppercase mb-2 footer-identity">Arbitristae</p>
+          <p class="font-body text-xs leading-relaxed max-w-xs mx-auto md:mx-0 footer-muted">
+            A research laboratory dedicated to the structured classification and comparative analysis of sovereign systems.
+          </p>
+        </div>
+        
+        <div class="md:col-span-3 text-center md:text-left">
+          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-3 footer-label">Navigation</p>
+          <nav class="flex flex-col items-center md:items-start gap-1.5" aria-label="Footer navigation">
+            <a href="about.html" class="footer-link font-body text-xs">About</a>
+            <a href="methodology.html" class="footer-link font-body text-xs">Methodology</a>
+            <a href="contact.html" class="footer-link font-body text-xs">Contact</a>
+          </nav>
+        </div>
+
+        <div class="md:col-span-4 text-center md:text-right">
+          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-3 footer-label">Status</p>
+          <div class="space-y-1.5 font-mono text-xs">
+            <div class="flex justify-center md:justify-end items-baseline gap-3">
+              <span class="footer-muted">Status</span>
+              <span class="footer-value">Operational</span>
+            </div>
+            <div class="flex justify-center md:justify-end items-baseline gap-3">
+              <span class="footer-muted">Version</span>
+              <span class="footer-value">v1.2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="pt-6 border-t flex flex-col sm:flex-row items-center justify-between gap-3 footer-divider">
+        <p class="font-mono text-[10px] tracking-[0.15em] uppercase footer-muted">Index Gentium <span>v1.2</span></p>
+        <p class="font-display text-sm italic tracking-wide footer-muted">Ordo ex comparatione.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme & Scroll Logic
+    const themeToggle = document.getElementById('themeToggle');
+    const scrollProgress = document.getElementById('scrollProgress');
+    const projectHeader = document.getElementById('projectHeader');
+    const htmlElement = document.documentElement;
+
+    const getSystemTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    const getStoredTheme = () => localStorage.getItem('index-gentium-theme');
+
+    function setTheme(theme) {
+      htmlElement.classList.toggle('dark', theme === 'dark');
+      localStorage.setItem('index-gentium-theme', theme);
+    }
+    
+    setTheme(getStoredTheme() || getSystemTheme());
+
+    themeToggle.addEventListener('click', () => {
+      const newTheme = htmlElement.classList.contains('dark') ? 'light' : 'dark';
+      setTheme(newTheme);
+    });
+
+    function updateScrollProgress() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? scrollTop / docHeight : 0;
+      scrollProgress.style.transform = `scaleX(${progress})`;
+      if (scrollTop > 10) projectHeader.classList.add('scrolled');
+      else projectHeader.classList.remove('scrolled');
+    }
+
+    window.addEventListener('scroll', updateScrollProgress, { passive: true });
+    updateScrollProgress();
+
+    // Reveal Animation
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce').matches;
+    if (!prefersReducedMotion) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    }
+  </script>
+</body>
+</html>
