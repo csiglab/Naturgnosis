@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intel Corporation | Firm Representation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0d12;
+      --bg-elevated: #0f1319;
+      --bg-card: #141920;
+      --fg: #e8eaed;
+      --fg-muted: #8b929d;
+      --accent: #00d4aa;
+      --accent-dim: rgba(0, 212, 170, 0.15);
+      --border: #1e2530;
+      --border-light: #2a3342;
+      --highlight: #00ffd0;
+      --warning: #ff6b4a;
+      --info: #4a9eff;
+    }
+
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--border-light) var(--bg);
+    }
+
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      background: var(--bg);
+      color: var(--fg);
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .bg-noise {
+      background-image: 
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 212, 170, 0.08), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(74, 158, 255, 0.05), transparent);
+    }
+
+    .grid-pattern {
+      background-image: 
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: 0.3;
+    }
+
+    .nav-item {
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 3px;
+      height: 0;
+      background: var(--accent);
+      transition: height 0.3s ease;
+    }
+
+    .nav-item:hover::before,
+    .nav-item.active::before {
+      height: 100%;
+    }
+
+    .nav-item.active {
+      color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card:hover {
+      border-color: var(--border-light);
+      transform: translateY(-2px);
+    }
+
+    .data-row {
+      border-left: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    .data-row:hover {
+      border-left-color: var(--accent);
+      background: rgba(0, 212, 170, 0.03);
+    }
+
+    .timeline-dot {
+      width: 12px;
+      height: 12px;
+      background: var(--bg-card);
+      border: 2px solid var(--accent);
+      border-radius: 50%;
+      position: relative;
+      z-index: 2;
+      transition: all 0.3s ease;
+    }
+
+    .timeline-dot:hover {
+      background: var(--accent);
+      transform: scale(1.3);
+      box-shadow: 0 0 20px var(--accent);
+    }
+
+    .timeline-line {
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--accent), var(--border));
+    }
+
+    .metric-bar {
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .metric-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--highlight));
+      border-radius: 2px;
+      transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .section-reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .section-reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tag {
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 2px;
+      background: var(--accent-dim);
+      color: var(--accent);
+      border: 1px solid rgba(0, 212, 170, 0.3);
+    }
+
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .stagger-1 { transition-delay: 0.1s; }
+    .stagger-2 { transition-delay: 0.2s; }
+    .stagger-3 { transition-delay: 0.3s; }
+    .stagger-4 { transition-delay: 0.4s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .accordion-content.open {
+      max-height: 2000px;
+    }
+
+    .floating-orb {
+      position: fixed;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      filter: blur(100px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .tab-indicator {
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+  </style>
+</head>
+<body class="bg-noise min-h-screen">
+  <!-- Floating Background Orbs -->
+  <div class="floating-orb" style="background: rgba(0, 212, 170, 0.05); top: -100px; right: -100px;"></div>
+  <div class="floating-orb" style="background: rgba(74, 158, 255, 0.03); bottom: 20%; left: -150px;"></div>
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 border-b border-[var(--border)] bg-[var(--bg)]/90 backdrop-blur-xl">
+    <div class="max-w-[1800px] mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded bg-gradient-to-br from-[var(--accent)] to-[var(--info)] flex items-center justify-center">
+          <svg class="w-5 h-5 text-[var(--bg)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-lg font-semibold tracking-tight">Intel Corporation</h1>
+          <p class="text-xs text-[var(--fg-muted)]">Firm Representation Framework</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-6">
+        <span class="tag">Semiconductor</span>
+        <span class="text-xs text-[var(--fg-muted)]">Last Updated: 2024</span>
+        <button id="theme-toggle" class="w-9 h-9 rounded border border-[var(--border)] flex items-center justify-center hover:border-[var(--accent)] transition-colors" aria-label="Toggle theme">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="flex pt-16">
+    <!-- Sidebar Navigation -->
+    <nav class="fixed left-0 top-16 bottom-0 w-64 border-r border-[var(--border)] bg-[var(--bg)]/80 backdrop-blur-lg overflow-y-auto z-40">
+      <div class="p-4">
+        <p class="text-[0.65rem] text-[var(--fg-muted)] uppercase tracking-widest mb-4 px-3">Navigation</p>
+        <div class="space-y-1" id="nav-menu">
+          <a href="#overview" class="nav-item active block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Firm Overview</a>
+          <a href="#genesis" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Firm Genesis</a>
+          <a href="#technical" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Technical Profile</a>
+          <a href="#products" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Product Catalog</a>
+          <a href="#organization" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Organization</a>
+          <a href="#capital" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Capital Structure</a>
+          <a href="#capabilities" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Capabilities</a>
+          
+          <div class="my-4 border-t border-[var(--border)]"></div>
+          
+          <a href="#evolution" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Firm Evolution</a>
+          
+          <div class="my-4 border-t border-[var(--border)]"></div>
+          
+          <a href="#environment" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Environment State</a>
+          <a href="#env-evolution" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Environment Evolution</a>
+          
+          <div class="my-4 border-t border-[var(--border)]"></div>
+          
+          <a href="#interaction" class="nav-item block px-3 py-2.5 text-sm rounded-r hover:bg-[var(--accent-dim)]">Firm-Environment</a>
+        </div>
+      </div>
+      
+      <div class="p-4 border-t border-[var(--border)] mt-auto">
+        <div class="text-xs text-[var(--fg-muted)]">
+          <p class="mb-1">Framework Version</p>
+          <p class="text-[var(--accent)]">v2.4.1</p>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="ml-64 flex-1 min-h-screen relative">
+      <div class="absolute inset-0 grid-pattern pointer-events-none"></div>
+      
+      <div class="relative z-10 max-w-6xl mx-auto px-8 py-12">
+        
+        <!-- Hero Stats -->
+        <section class="mb-16 section-reveal">
+          <div class="grid grid-cols-4 gap-4">
+            <div class="card p-6 rounded-lg">
+              <p class="text-xs text-[var(--fg-muted)] uppercase tracking-wider mb-2">Founded</p>
+              <p class="text-3xl font-light">1968</p>
+              <p class="text-xs text-[var(--accent)] mt-2">56 Years Active</p>
+            </div>
+            <div class="card p-6 rounded-lg">
+              <p class="text-xs text-[var(--fg-muted)] uppercase tracking-wider mb-2">Revenue</p>
+              <p class="text-3xl font-light">$54.2B</p>
+              <p class="text-xs text-[var(--warning)] mt-2">-15% YoY</p>
+            </div>
+            <div class="card p-6 rounded-lg">
+              <p class="text-xs text-[var(--fg-muted)] uppercase tracking-wider mb-2">Employees</p>
+              <p class="text-3xl font-light">124,800</p>
+              <p class="text-xs text-[var(--fg-muted)] mt-2">Global Workforce</p>
+            </div>
+            <div class="card p-6 rounded-lg">
+              <p class="text-xs text-[var(--fg-muted)] uppercase tracking-wider mb-2">Market Cap</p>
+              <p class="text-3xl font-light">$128B</p>
+              <p class="text-xs text-[var(--info)] mt-2">NASDAQ: INTC</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Firm Overview -->
+        <section id="overview" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Firm Overview</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.1</span>
+          </div>
+          
+          <div class="card rounded-lg overflow-hidden">
+            <div class="p-8 border-b border-[var(--border)]">
+              <h3 class="text-xl mb-4">Intel Corporation</h3>
+              <p class="text-[var(--fg-muted)] leading-relaxed max-w-3xl">
+                Intel Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California. It is one of the world's largest semiconductor chip manufacturers by revenue and one of the developers of the x86 series of instruction sets found in most personal computers.
+              </p>
+            </div>
+            
+            <div class="divide-y divide-[var(--border)]">
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Legal Form</span>
+                <span>Public Corporation (Delaware)</span>
+              </div>
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Founding Year</span>
+                <span>July 18, 1968</span>
+              </div>
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Headquarters</span>
+                <span>Santa Clara, California, USA</span>
+              </div>
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Operational Regions</span>
+                <div class="flex gap-2">
+                  <span class="tag">Americas</span>
+                  <span class="tag">EMEA</span>
+                  <span class="tag">APAC</span>
+                </div>
+              </div>
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Industry Classification</span>
+                <span>Semiconductors / Technology Hardware</span>
+              </div>
+              <div class="data-row p-4 px-8 flex justify-between items-center">
+                <span class="text-[var(--fg-muted)]">Strategic Description</span>
+                <span class="text-right max-w-md">Integrated device manufacturer transitioning to foundry model under IDM 2.0 strategy</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Firm Genesis -->
+        <section id="genesis" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Firm Genesis</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.2</span>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-6">
+            <div class="card rounded-lg p-8">
+              <h4 class="text-sm uppercase tracking-wider text-[var(--fg-muted)] mb-6">Founding Configuration</h4>
+              
+              <div class="space-y-4">
+                <div class="data-row p-3 -mx-3 rounded">
+                  <p class="text-xs text-[var(--fg-muted)]">Founders</p>
+                  <p class="mt-1">Gordon Moore, Robert Noyce</p>
+                </div>
+                <div class="data-row p-3 -mx-3 rounded">
+                  <p class="text-xs text-[var(--fg-muted)]">Initial Mission</p>
+                  <p class="mt-1">Semiconductor memory manufacturing</p>
+                </div>
+                <div class="data-row p-3 -mx-3 rounded">
+                  <p class="text-xs text-[var(--fg-muted)]">Initial Market Focus</p>
+                  <p class="mt-1">DRAM and SRAM memory chips</p>
+                </div>
+                <div class="data-row p-3 -mx-3 rounded">
+                  <p class="text-xs text-[var(--fg-muted)]">Initial Capital</p>
+                  <p class="mt-1">$2.5M (Arthur Rock funding)</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg p-8">
+              <h4 class="text-sm uppercase tracking-wider text-[var(--fg-muted)] mb-6">Initial Structural Profiles</h4>
+              
+              <div class="space-y-6">
+                <div>
+                  <p class="text-xs text-[var(--accent)] mb-2">Technical Profile</p>
+                  <p class="text-sm text-[var(--fg-muted)]">Metal-oxide semiconductor (MOS) process technology, photolithography expertise</p>
+                </div>
+                <div>
+                  <p class="text-xs text-[var(--accent)] mb-2">Product Catalog</p>
+                  <p class="text-sm text-[var(--fg-muted)]">3101 SRAM (64-bit), 1101 DRAM (1Kbit), 1103 DRAM (1Kbit)</p>
+                </div>
+                <div>
+                  <p class="text-xs text-[var(--accent)] mb-2">Organizational Structure</p>
+                  <p class="text-sm text-[var(--fg-muted)]">Founder-led, flat hierarchy, engineering-centric culture</p>
+                </div>
+                <div>
+                  <p class="text-xs text-[var(--accent)] mb-2">Capability Profile</p>
+                  <p class="text-sm text-[var(--fg-muted)]">Process engineering, silicon manufacturing, product design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Technical Profile -->
+        <section id="technical" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Technical Profile</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.3</span>
+          </div>
+          
+          <div class="card rounded-lg overflow-hidden">
+            <div class="grid grid-cols-3 divide-x divide-[var(--border)]">
+              <div class="p-6">
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Core Technologies</h4>
+                <div class="space-y-2">
+                  <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                    <span class="text-sm">x86 Architecture</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                    <span class="text-sm">Intel 4/3/20A/18A Nodes</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                    <span class="text-sm">EUV Lithography</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                    <span class="text-sm">Foveros 3D Packaging</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-[var(--accent)]"></div>
+                    <span class="text-sm">EMIB Interconnect</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="p-6">
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Production Processes</h4>
+                <div class="space-y-2 text-sm text-[var(--fg-muted)]">
+                  <p>Wafer fabrication (300mm)</p>
+                  <p>Assembly and test</p>
+                  <p>Multi-chip packaging</p>
+                  <p>Chiplet architecture assembly</p>
+                  <p>Foundry services</p>
+                </div>
+              </div>
+              
+              <div class="p-6">
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">R&D Focus Areas</h4>
+                <div class="space-y-2 text-sm text-[var(--fg-muted)]">
+                  <p>Next-gen process nodes</p>
+                  <p>Quantum computing</p>
+                  <p>Neuromorphic computing</p>
+                  <p>Advanced packaging</p>
+                  <p>AI accelerators</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="border-t border-[var(--border)] p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Intellectual Property Portfolio</h4>
+              <div class="grid grid-cols-4 gap-4">
+                <div class="text-center p-4 bg-[var(--bg)] rounded">
+                  <p class="text-2xl font-light text-[var(--accent)]">70,000+</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">Active Patents</p>
+                </div>
+                <div class="text-center p-4 bg-[var(--bg)] rounded">
+                  <p class="text-2xl font-light text-[var(--accent)]">15,000+</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">Patent Applications</p>
+                </div>
+                <div class="text-center p-4 bg-[var(--bg)] rounded">
+                  <p class="text-2xl font-light text-[var(--accent)]">#1</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">US Patent Grants 2023</p>
+                </div>
+                <div class="text-center p-4 bg-[var(--bg)] rounded">
+                  <p class="text-2xl font-light text-[var(--accent)]">x86</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">Core Architecture</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Product Catalog -->
+        <section id="products" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Product Catalog</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.4</span>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-6">
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Client Computing</h4>
+              </div>
+              <div class="p-6 space-y-4">
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Core Ultra (Meteor Lake)</span>
+                    <span class="text-[var(--accent)]">Active</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Core i9/i7/i5 (Raptor Lake)</span>
+                    <span class="text-[var(--accent)]">Active</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Intel Arc Graphics</span>
+                    <span class="text-[var(--info)]">Growing</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 45%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Data Center & AI</h4>
+              </div>
+              <div class="p-6 space-y-4">
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Xeon Scalable (Emerald Rapids)</span>
+                    <span class="text-[var(--accent)]">Active</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 78%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Gaudi AI Accelerators</span>
+                    <span class="text-[var(--info)]">Growing</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 55%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Xeon 6 (Sierra Forest)</span>
+                    <span class="text-[var(--warning)]">Launching</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 25%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Network & Edge</h4>
+              </div>
+              <div class="p-6 space-y-4 text-sm text-[var(--fg-muted)]">
+                <p>Intel Ethernet Controllers</p>
+                <p>5G Infrastructure Processors</p>
+                <p>Industrial IoT Solutions</p>
+                <p>Edge AI Processors</p>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Intel Foundry Services</h4>
+              </div>
+              <div class="p-6 space-y-4 text-sm text-[var(--fg-muted)]">
+                <p>Wafer Fabrication (Intel 3, 18A)</p>
+                <p>Advanced Packaging Services</p>
+                <p>Design Support & IP</p>
+                <p>US/EU Manufacturing Hub</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Organizational Structure -->
+        <section id="organization" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Organizational Structure</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.5</span>
+          </div>
+          
+          <div class="card rounded-lg overflow-hidden">
+            <div class="p-6 border-b border-[var(--border)]">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Executive Leadership</h4>
+              <div class="grid grid-cols-2 gap-4">
+                <div class="flex items-center gap-4 p-3 bg-[var(--bg)] rounded">
+                  <div class="w-10 h-10 rounded-full bg-[var(--accent-dim)] flex items-center justify-center text-[var(--accent)]">PH</div>
+                  <div>
+                    <p class="font-medium">Pat Gelsinger</p>
+                    <p class="text-xs text-[var(--fg-muted)]">Chief Executive Officer</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-[var(--bg)] rounded">
+                  <div class="w-10 h-10 rounded-full bg-[var(--accent-dim)] flex items-center justify-center text-[var(--accent)]">DZ</div>
+                  <div>
+                    <p class="font-medium">David Zinsner</p>
+                    <p class="text-xs text-[var(--fg-muted)]">Chief Financial Officer</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-[var(--bg)] rounded">
+                  <div class="w-10 h-10 rounded-full bg-[var(--accent-dim)] flex items-center justify-center text-[var(--accent)]">MH</div>
+                  <div>
+                    <p class="font-medium">Michelle Johnston Holthaus</p>
+                    <p class="text-xs text-[var(--fg-muted)]">CEO, Intel Products</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 p-3 bg-[var(--bg)] rounded">
+                  <div class="w-10 h-10 rounded-full bg-[var(--accent-dim)] flex items-center justify-center text-[var(--accent)]">NP</div>
+                  <div>
+                    <p class="font-medium">Naga Chandrasekaran</p>
+                    <p class="text-xs text-[var(--fg-muted)]">Chief Global Operations Officer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Business Units</h4>
+              <div class="grid grid-cols-4 gap-3">
+                <div class="p-4 bg-[var(--bg)] rounded border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+                  <p class="font-medium text-sm">Client Computing</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">$30.1B Revenue</p>
+                </div>
+                <div class="p-4 bg-[var(--bg)] rounded border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+                  <p class="font-medium text-sm">Data Center</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">$15.5B Revenue</p>
+                </div>
+                <div class="p-4 bg-[var(--bg)] rounded border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+                  <p class="font-medium text-sm">Intel Foundry</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">$18.9B Revenue</p>
+                </div>
+                <div class="p-4 bg-[var(--bg)] rounded border border-[var(--border)] hover:border-[var(--accent)] transition-colors">
+                  <p class="font-medium text-sm">Network & Edge</p>
+                  <p class="text-xs text-[var(--fg-muted)] mt-1">$5.8B Revenue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Capital Structure -->
+        <section id="capital" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Capital Structure</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.6</span>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-6">
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Ownership Structure</h4>
+              <div class="space-y-3">
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Institutional</span>
+                    <span>64.2%</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 64.2%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-1">
+                    <span>Retail</span>
+                    <span>35.8%</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 35.8%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4 pt-4 border-t border-[var(--border)] text-xs text-[var(--fg-muted)]">
+                <p>Major Holders: Vanguard, BlackRock, State Street</p>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Equity Composition</h4>
+              <div class="space-y-3 text-sm">
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Shares Outstanding</span>
+                  <span>4.27B</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Float</span>
+                  <span>4.25B</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Dividend Yield</span>
+                  <span class="text-[var(--accent)]">1.2%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Debt Structure</h4>
+              <div class="space-y-3 text-sm">
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Total Debt</span>
+                  <span>$48.6B</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Cash & Equivalents</span>
+                  <span>$24.8B</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Credit Rating</span>
+                  <span class="text-[var(--warning)]">BBB+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Capability Profile -->
+        <section id="capabilities" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Capability Profile</h2>
+            <span class="text-xs text-[var(--fg-muted)]">1.7</span>
+          </div>
+          
+          <div class="card rounded-lg p-6">
+            <div class="grid grid-cols-3 gap-8">
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Manufacturing</h4>
+                <div class="space-y-4">
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Process Technology</span>
+                      <span class="text-[var(--accent)]">Advanced</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 88%"></div>
+                    </div>
+                  </div>
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Fabrication Capacity</span>
+                      <span class="text-[var(--accent)]">High</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 82%"></div>
+                    </div>
+                  </div>
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Advanced Packaging</span>
+                      <span class="text-[var(--accent)]">Leading</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 92%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">R&D</h4>
+                <div class="space-y-4">
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Architecture Design</span>
+                      <span class="text-[var(--accent)]">World-class</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Process R&D</span>
+                      <span class="text-[var(--accent)]">Advanced</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="capability-item">
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Emerging Tech</span>
+                      <span class="text-[var(--info)]">Investing</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 70%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Workforce</h4>
+                <div class="space-y-3 text-sm text-[var(--fg-muted)]">
+                  <p>124,800 employees globally</p>
+                  <p>~60,000 engineers</p>
+                  <p>R&D spending: $16B (29% of revenue)</p>
+                  <p>Manufacturing footprint: 6 countries</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Firm Evolution -->
+        <section id="evolution" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Firm Evolution</h2>
+            <span class="text-xs text-[var(--fg-muted)]">Section 2</span>
+          </div>
+          
+          <div class="card rounded-lg overflow-hidden">
+            <div class="p-6 border-b border-[var(--border)]">
+              <div class="flex items-center justify-between">
+                <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)]">Historical Timeline</h4>
+                <div class="flex gap-2">
+                  <button class="timeline-filter active px-3 py-1 text-xs rounded border border-[var(--accent)] text-[var(--accent)]" data-filter="all">All</button>
+                  <button class="timeline-filter px-3 py-1 text-xs rounded border border-[var(--border)] text-[var(--fg-muted)] hover:border-[var(--accent)]" data-filter="technical">Technical</button>
+                  <button class="timeline-filter px-3 py-1 text-xs rounded border border-[var(--border)] text-[var(--fg-muted)] hover:border-[var(--accent)]" data-filter="product">Product</button>
+                  <button class="timeline-filter px-3 py-1 text-xs rounded border border-[var(--border)] text-[var(--fg-muted)] hover:border-[var(--accent)]" data-filter="org">Organizational</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-6 relative">
+              <div class="timeline-line"></div>
+              
+              <div class="space-y-6 relative">
+                <div class="timeline-item flex gap-4 pl-8" data-type="org">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2024</span>
+                      <span class="tag">Organizational</span>
+                    </div>
+                    <p class="text-sm">IDM 2.0 transformation: Separation of Intel Foundry as independent subsidiary</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="technical">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2023</span>
+                      <span class="tag">Technical</span>
+                    </div>
+                    <p class="text-sm">Launch of Intel 4 process; Meteor Lake debuts chiplet architecture</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="product">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2022</span>
+                      <span class="tag">Product</span>
+                    </div>
+                    <p class="text-sm">Intel Arc GPU launch; Acquisition of Habana Labs for AI accelerators</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="org">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2021</span>
+                      <span class="tag">Organizational</span>
+                    </div>
+                    <p class="text-sm">Pat Gelsinger returns as CEO; IDM 2.0 strategy announced</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="technical">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2019</span>
+                      <span class="tag">Technical</span>
+                    </div>
+                    <p class="text-sm">10nm process volume production; Ice Lake server launch</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="product">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2008</span>
+                      <span class="tag">Product</span>
+                    </div>
+                    <p class="text-sm">Atom processor for mobile; Core i7 (Nehalem) architecture</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="technical">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">2006</span>
+                      <span class="tag">Technical</span>
+                    </div>
+                    <p class="text-sm">Core architecture debut; End of NetBurst architecture</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="product">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">1971</span>
+                      <span class="tag">Product</span>
+                    </div>
+                    <p class="text-sm">4004: World's first commercial microprocessor</p>
+                  </div>
+                </div>
+                
+                <div class="timeline-item flex gap-4 pl-8" data-type="org">
+                  <div class="timeline-dot absolute left-0"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                      <span class="text-[var(--accent)] font-medium">1968</span>
+                      <span class="tag">Genesis</span>
+                    </div>
+                    <p class="text-sm">Intel founded by Gordon Moore and Robert Noyce in Mountain View, California</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Environment State -->
+        <section id="environment" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Environment State</h2>
+            <span class="text-xs text-[var(--fg-muted)]">Section 3</span>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-6">
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Industry Profile</h4>
+              </div>
+              <div class="p-6 space-y-4">
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Industry Size</span>
+                  <span>$600B+ (Global Semiconductors)</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Growth Rate</span>
+                  <span class="text-[var(--accent)]">~7% CAGR</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Industry Concentration</span>
+                  <span>High (Top 10 = 55% market)</span>
+                </div>
+                <div class="pt-4 border-t border-[var(--border)]">
+                  <p class="text-xs text-[var(--fg-muted)] mb-2">Key Competitors</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">TSMC</span>
+                    <span class="tag">Samsung</span>
+                    <span class="tag">AMD</span>
+                    <span class="tag">NVIDIA</span>
+                    <span class="tag">Qualcomm</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Market Profile</h4>
+              </div>
+              <div class="p-6 space-y-4">
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Total Addressable Market</span>
+                  <span>$1T+ (by 2030)</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Key Segments</span>
+                  <span>Computing, Data Center, AI, Auto</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-[var(--fg-muted)]">Geographic Markets</span>
+                  <span>Global (US, China, EU primary)</span>
+                </div>
+                <div class="pt-4 border-t border-[var(--border)]">
+                  <p class="text-xs text-[var(--fg-muted)] mb-2">Demand Drivers</p>
+                  <p class="text-sm">AI/ML workloads, cloud computing, automotive electronics, IoT proliferation</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Technological Landscape</h4>
+              </div>
+              <div class="p-6">
+                <div class="space-y-4">
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Core Technologies</p>
+                    <p class="text-sm text-[var(--fg-muted)]">EUV lithography, 3D packaging, Chiplet architectures</p>
+                  </div>
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Emerging Technologies</p>
+                    <p class="text-sm text-[var(--fg-muted)]">GAA transistors, backside power delivery, 2nm nodes</p>
+                  </div>
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Disruptions</p>
+                    <p class="text-sm text-[var(--fg-muted)]">AI-specific accelerators, open-source RISC-V, geopolitical supply chain shifts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Regulatory Environment</h4>
+              </div>
+              <div class="p-6">
+                <div class="space-y-4">
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Key Regulations</p>
+                    <p class="text-sm text-[var(--fg-muted)]">CHIPS Act (US), EU Chips Act, Export controls (China)</p>
+                  </div>
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Trade Policies</p>
+                    <p class="text-sm text-[var(--fg-muted)]">US-China technology restrictions, supply chain localization requirements</p>
+                  </div>
+                  <div>
+                    <p class="text-xs text-[var(--accent)] mb-1">Compliance</p>
+                    <p class="text-sm text-[var(--fg-muted)]">Export licensing, semiconductor fab security requirements</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Environment Evolution -->
+        <section id="env-evolution" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Environment Evolution</h2>
+            <span class="text-xs text-[var(--fg-muted)]">Section 4</span>
+          </div>
+          
+          <div class="card rounded-lg p-6">
+            <div class="grid grid-cols-2 gap-8">
+              <div class="accordion-section">
+                <button class="accordion-trigger w-full flex items-center justify-between p-4 bg-[var(--bg)] rounded hover:bg-[var(--bg-elevated)] transition-colors" aria-expanded="true">
+                  <span class="font-medium">Market Evolution</span>
+                  <svg class="w-4 h-4 transition-transform accordion-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+                <div class="accordion-content open p-4 text-sm text-[var(--fg-muted)] space-y-2">
+                  <p>2020s: AI boom creates massive new demand for accelerators</p>
+                  <p>2020s: Data center buildout accelerates globally</p>
+                  <p>2010s: Mobile computing shifts market dynamics</p>
+                  <p>2000s: PC market maturation and commoditization</p>
+                </div>
+              </div>
+              
+              <div class="accordion-section">
+                <button class="accordion-trigger w-full flex items-center justify-between p-4 bg-[var(--bg)] rounded hover:bg-[var(--bg-elevated)] transition-colors" aria-expanded="false">
+                  <span class="font-medium">Technological Evolution</span>
+                  <svg class="w-4 h-4 transition-transform accordion-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+                <div class="accordion-content p-4 text-sm text-[var(--fg-muted)] space-y-2">
+                  <p>2020s: EUV lithography enables sub-7nm nodes</p>
+                  <p>2020s: Chiplet architectures emerge as standard</p>
+                  <p>2010s: FinFET becomes mainstream</p>
+                  <p>2000s: Multi-core processors introduced</p>
+                </div>
+              </div>
+              
+              <div class="accordion-section">
+                <button class="accordion-trigger w-full flex items-center justify-between p-4 bg-[var(--bg)] rounded hover:bg-[var(--bg-elevated)] transition-colors" aria-expanded="false">
+                  <span class="font-medium">Regulatory Evolution</span>
+                  <svg class="w-4 h-4 transition-transform accordion-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+                <div class="accordion-content p-4 text-sm text-[var(--fg-muted)] space-y-2">
+                  <p>2022: CHIPS Act passed - $52B for US semiconductor manufacturing</p>
+                  <p>2023: EU Chips Act - €43B investment target</p>
+                  <p>2022+: Export controls on advanced chips to China</p>
+                  <p>Ongoing: Supply chain security requirements</p>
+                </div>
+              </div>
+              
+              <div class="accordion-section">
+                <button class="accordion-trigger w-full flex items-center justify-between p-4 bg-[var(--bg)] rounded hover:bg-[var(--bg-elevated)] transition-colors" aria-expanded="false">
+                  <span class="font-medium">Demand Evolution</span>
+                  <svg class="w-4 h-4 transition-transform accordion-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+                <div class="accordion-content p-4 text-sm text-[var(--fg-muted)] space-y-2">
+                  <p>AI training/inference now dominant demand driver</p>
+                  <p>Edge computing creating new market segments</p>
+                  <p>Automotive electronics rapidly expanding</p>
+                  <p>Consumer PC market mature with replacement cycles</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Firm-Environment Interaction -->
+        <section id="interaction" class="mb-20 section-reveal">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="w-1 h-8 bg-[var(--accent)]"></div>
+            <h2 class="text-2xl font-semibold">Firm-Environment Interaction</h2>
+            <span class="text-xs text-[var(--fg-muted)]">Section 5</span>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-6 mb-6">
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Sales Evolution</h4>
+              </div>
+              <div class="p-6">
+                <div class="space-y-4">
+                  <div>
+                    <div class="flex justify-between text-sm mb-2">
+                      <span>Revenue (2023)</span>
+                      <span>$54.2B</span>
+                    </div>
+                    <div class="metric-bar">
+                      <div class="metric-fill" style="width: 72%"></div>
+                    </div>
+                  </div>
+                  <div class="grid grid-cols-2 gap-4 pt-4 border-t border-[var(--border)]">
+                    <div>
+                      <p class="text-xs text-[var(--fg-muted)]">Client Computing</p>
+                      <p class="text-lg">$30.1B</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-[var(--fg-muted)]">Data Center</p>
+                      <p class="text-lg">$15.5B</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-[var(--fg-muted)]">Foundry</p>
+                      <p class="text-lg">$18.9B</p>
+                    </div>
+                    <div>
+                      <p class="text-xs text-[var(--fg-muted)]">Network & Edge</p>
+                      <p class="text-lg">$5.8B</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg overflow-hidden">
+              <div class="p-6 border-b border-[var(--border)] bg-[var(--bg)]">
+                <h4 class="font-medium">Competitive Position</h4>
+              </div>
+              <div class="p-6 space-y-4">
+                <div>
+                  <div class="flex justify-between text-sm mb-2">
+                    <span>Relative Scale</span>
+                    <span class="text-[var(--accent)]">Top 5 Global</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-2">
+                    <span>Innovation Position</span>
+                    <span class="text-[var(--info)]">Recovering</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-sm mb-2">
+                    <span>Process Technology</span>
+                    <span class="text-[var(--warning)]">Catching Up</span>
+                  </div>
+                  <div class="metric-bar">
+                    <div class="metric-fill" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-6">
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Market Share Evolution</h4>
+              <div class="space-y-3">
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">x86 CPU Market</span>
+                  <span class="text-[var(--accent)]">~62%</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Foundry Market</span>
+                  <span>~6%</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">GPU Market</span>
+                  <span>~4%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Market Coverage</h4>
+              <div class="space-y-3">
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Geographic</span>
+                  <span>Global (100+ countries)</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Segments</span>
+                  <span>Consumer, Enterprise, Cloud</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Fab Locations</span>
+                  <span>US, Ireland, Israel, Vietnam</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card rounded-lg p-6">
+              <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">Profitability Evolution</h4>
+              <div class="space-y-3">
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Gross Margin</span>
+                  <span class="text-[var(--warning)]">40.0%</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">Operating Margin</span>
+                  <span class="text-[var(--warning)]">-5.2%</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-[var(--fg-muted)]">ROIC</span>
+                  <span class="text-[var(--warning)]">-4.8%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- References -->
+        <section class="mb-12 section-reveal">
+          <div class="card rounded-lg p-6">
+            <h4 class="text-xs uppercase tracking-wider text-[var(--fg-muted)] mb-4">References</h4>
+            <a href="https://www.bremontix.xyz/lab/pro/Firm/" class="text-[var(--accent)] hover:underline text-sm" target="_blank" rel="noopener noreferrer">
+              Firm Representation Framework →
+            </a>
+          </div>
+        </section>
+        
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Initialize all variables first
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('#nav-menu a');
+    const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+    const timelineFilters = document.querySelectorAll('.timeline-filter');
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const metricFills = document.querySelectorAll('.metric-fill');
+    
+    // Check for reduced motion preference
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Scroll reveal observer
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          if (prefersReducedMotion) {
+            entry.target.classList.add('visible');
+          } else {
+            setTimeout(() => {
+              entry.target.classList.add('visible');
+            }, index * 100);
+          }
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.section-reveal').forEach(section => {
+      revealObserver.observe(section);
+    });
+
+    // Active nav highlighting
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+
+    sections.forEach(section => {
+      navObserver.observe(section);
+    });
+
+    // Smooth scroll for nav links
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href');
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+        }
+      });
+    });
+
+    // Accordion functionality
+    accordionTriggers.forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const content = trigger.nextElementSibling;
+        const icon = trigger.querySelector('.accordion-icon');
+        const isOpen = content.classList.contains('open');
+        
+        trigger.setAttribute('aria-expanded', !isOpen);
+        
+        if (isOpen) {
+          content.classList.remove('open');
+          if (icon) icon.style.transform = 'rotate(0deg)';
+        } else {
+          content.classList.add('open');
+          if (icon) icon.style.transform = 'rotate(180deg)';
+        }
+      });
+    });
+
+    // Timeline filter functionality
+    timelineFilters.forEach(filter => {
+      filter.addEventListener('click', () => {
+        const filterType = filter.getAttribute('data-filter');
+        
+        // Update active state
+        timelineFilters.forEach(f => {
+          f.classList.remove('active');
+          f.classList.remove('border-[var(--accent)]', 'text-[var(--accent)]');
+          f.classList.add('border-[var(--border)]', 'text-[var(--fg-muted)]');
+        });
+        filter.classList.add('active', 'border-[var(--accent)]', 'text-[var(--accent)]');
+        filter.classList.remove('border-[var(--border)]', 'text-[var(--fg-muted)]');
+        
+        // Filter items
+        timelineItems.forEach(item => {
+          const itemType = item.getAttribute('data-type');
+          if (filterType === 'all' || itemType === filterType) {
+            item.style.display = 'flex';
+            if (!prefersReducedMotion) {
+              item.style.opacity = '0';
+              setTimeout(() => {
+                item.style.opacity = '1';
+              }, 50);
+            }
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Animate metric bars on scroll
+    const metricObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const width = entry.target.style.width;
+          entry.target.style.width = '0%';
+          if (!prefersReducedMotion) {
+            setTimeout(() => {
+              entry.target.style.width = width;
+            }, 100);
+          } else {
+            entry.target.style.width = width;
+          }
+        }
+      });
+    }, { threshold: 0.5 });
+
+    metricFills.forEach(fill => {
+      metricObserver.observe(fill);
+    });
+
+    // Parallax effect for floating orbs
+    if (!prefersReducedMotion) {
+      document.addEventListener('mousemove', (e) => {
+        const orbs = document.querySelectorAll('.floating-orb');
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
+        
+        orbs.forEach((orb, index) => {
+          const speed = (index + 1) * 20;
+          orb.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
+        });
+      });
+    }
+  </script>
+</body>
+</html>
