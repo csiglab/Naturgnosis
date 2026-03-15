@@ -630,7 +630,7 @@
   <nav class="nav-bar">
     <div class="nav-content">
       <a href="#" class="nav-brand">
-        <img src="logo.png" alt="Logo" onerror="this.style.display='none'">
+        <img src="img/logo.png" alt="Logo" onerror="this.style.display='none'">
         <h1>Ontologia Socialis</h1>
       </a>
       <div class="flex items-center gap-6">
@@ -977,6 +977,37 @@
     const getTags = (item) => item.tags || [];
 
     // =============================================
+    // RELEVANCE SCORING (NEW)
+    // =============================================
+    function getRelevanceScore(entity, term) {
+      if (!term) return 0;
+      let score = 0;
+      const lowerTerm = term.toLowerCase();
+      
+      // 1. Match Title (5 points)
+      if (entity.name && entity.name.toLowerCase().includes(lowerTerm)) {
+        score += 5;
+      }
+      
+      // 2. Match Categories (3 points)
+      if (getCategories(entity).some(c => c.toLowerCase().includes(lowerTerm))) {
+        score += 3;
+      }
+      
+      // 3. Match Tags (2 points)
+      if (getTags(entity).some(t => t.toLowerCase().includes(lowerTerm))) {
+        score += 2;
+      }
+      
+      // 4. Match Description (1 point)
+      if (entity.desc && entity.desc.toLowerCase().includes(lowerTerm)) {
+        score += 1;
+      }
+      
+      return score;
+    }
+
+    // =============================================
     // DATA FETCHING
     // =============================================
     async function loadData() {
@@ -1240,7 +1271,6 @@
       
       const totalEntities = entities.length;
       
-      // Simple horizontal layout
       let statsHTML = `
         <div class="analysis-row">
           <div class="analysis-item">
@@ -1265,7 +1295,6 @@
       const matchCount = currentMatches.length;
       const coverage = totalEntities > 0 ? ((matchCount / totalEntities) * 100).toFixed(1) : 0;
       
-      // Compact horizontal layout
       let statsHTML = `
         <div class="analysis-row">
           <div class="analysis-item">
@@ -1278,7 +1307,6 @@
           <div class="analysis-divider"></div>
           <div class="analysis-item">
             <svg class="analysis-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-               <!-- Replaced with Pie Chart Icon -->
                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6z" />
                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5z" />
             </svg>
@@ -1311,13 +1339,16 @@
         return;
       }
 
-      currentMatches = entities.filter(e => {
-        const nameMatch = e.name.toLowerCase().includes(term);
-        const catMatch = getCategories(e).some(c => c.toLowerCase().includes(term));
-        const tagMatch = getTags(e).some(t => t.toLowerCase().includes(term));
-        const descMatch = e.desc && e.desc.toLowerCase().includes(term);
-        return nameMatch || catMatch || tagMatch || descMatch;
-      });
+      // --- NEW SCORING LOGIC ---
+      // 1. Map entities to their scores
+      // 2. Filter out 0 scores
+      // 3. Sort by score descending (highest relevance first)
+      currentMatches = entities
+        .map(e => ({ entity: e, score: getRelevanceScore(e, term) }))
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map(item => item.entity);
+      // -------------------------
 
       renderAnalysisStats(term);
 
@@ -1551,19 +1582,23 @@
 
     function filterEntities() {
       const term = searchInput.value.toLowerCase();
-      filteredEntities = entities.filter(e => {
+      
+      // 1. Filter by Category first
+      const categoryFiltered = entities.filter(e => {
         const cats = getCategories(e);
-        const tags = getTags(e);
-        
-        const matchFilter = currentFilter === 'all' || cats.includes(currentFilter);
-        const matchSearch = 
-          e.name.toLowerCase().includes(term) || 
-          (e.desc && e.desc.toLowerCase().includes(term)) || 
-          cats.some(c => c.toLowerCase().includes(term)) ||
-          tags.some(t => t.toLowerCase().includes(term));
-          
-        return matchFilter && matchSearch;
+        return currentFilter === 'all' || cats.includes(currentFilter);
       });
+
+      // 2. Apply Search Scoring & Sorting
+      if (term.length > 0) {
+         filteredEntities = categoryFiltered
+          .map(e => ({ entity: e, score: getRelevanceScore(e, term) }))
+          .filter(item => item.score > 0)
+          .sort((a, b) => b.score - a.score) // Sort descending by score
+          .map(item => item.entity);
+      } else {
+        filteredEntities = categoryFiltered;
+      }
       
       const totalPages = Math.ceil(filteredEntities.length / itemsPerPage);
       if (currentPage > totalPages) currentPage = 1;
