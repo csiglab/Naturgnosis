@@ -34,42 +34,16 @@ High-level description of the firm.
 
 **Fields**
 
-* Founding year
+* Founding Year
+* Founding Date
+* Founding Context
+* Founding Location
 * Founders
-* Initial mission / strategy
-* Initial market focus
-
-**Structural Profiles**
-
-* **Technical Profile**
-
-  * Production technologies
-  * Core technical competencies
-  * R&D capabilities
-
-* **Product Catalog Profile**
-
-  * Initial products/services
-  * Product categories
-  * Target segments
-
-* **Organizational Structure**
-
-  * Governance structure
-  * Ownership structure
-  * Key organizational units
-
-* **Capital Structure**
-
-  * Initial capital sources
-  * Debt/equity composition
-  * Investors
-
-* **Capability Profile**
-
-  * Operational capabilities
-  * Managerial capabilities
-  * Technical talent base
+* Initial Strategic Intent
+* Initial Market Configuration
+* Initial Technical System
+* Initial Product Portfolio
+* Organizational Architecture
 
 ### 1.2 Technical Profile
 

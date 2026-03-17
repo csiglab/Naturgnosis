@@ -100,6 +100,16 @@ Firm–Environment Interaction:
 - Market Coverage Evolution
 - Profitability Evolution
 
+## Implementation
+
+- We need a section based design - when a section is just a lense over the firm.
+- A Group of section is called a ...
+
+Site Architecture:
+
+- The **Shell** : Contains the global CSS definitions, the page layout (header, sidebar, footer), and the JavaScript logic to load content.
+- The **Fragment**: A plain HTML file containing only the content structure (no <html>, <style>, or <body> tags). It relies entirely on the CSS classes defined in the Shell.
+
 ## References
 
 - ...

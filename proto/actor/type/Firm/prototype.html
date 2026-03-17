@@ -39,9 +39,7 @@
       --font-data: 'DM Sans', sans-serif;
     }
     
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
     
     body {
       font-family: var(--font-display);
@@ -58,26 +56,11 @@
       background: var(--bg-void);
     }
     
-    /* Scrollbar Styling */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+    ::-webkit-scrollbar-thumb { background: var(--bg-elevated); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--bg-hover); }
     
-    ::-webkit-scrollbar-track {
-      background: var(--bg-secondary);
-    }
-    
-    ::-webkit-scrollbar-thumb {
-      background: var(--bg-elevated);
-      border-radius: 3px;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--bg-hover);
-    }
-    
-    /* Panel Intelligence */
     .panel-intelligence {
       background: linear-gradient(145deg, rgba(26, 27, 32, 0.95) 0%, rgba(18, 19, 23, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.06);
@@ -86,7 +69,6 @@
       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.04);
     }
     
-    /* Card Data */
     .card-data {
       background: var(--bg-tertiary);
       border: 1px solid rgba(255, 255, 255, 0.04);
@@ -99,7 +81,6 @@
       box-shadow: 0 0 20px rgba(79, 158, 255, 0.15);
     }
     
-    /* Metric Value */
     .metric-value {
       font-family: var(--font-mono);
       font-size: 1.875rem;
@@ -111,7 +92,6 @@
       background-clip: text;
     }
     
-    /* Header Styles */
     .intel-header {
       display: flex;
       align-items: center;
@@ -203,10 +183,7 @@
       color: var(--text-secondary);
     }
     
-    .range-divider {
-      color: var(--text-tertiary);
-      margin: 0 4px;
-    }
+    .range-divider { color: var(--text-tertiary); margin: 0 4px; }
     
     .header-nav {
       display: flex;
@@ -260,7 +237,6 @@
       color: var(--text-primary);
     }
     
-    /* Main Canvas */
     .intel-canvas {
       display: grid;
       grid-template-columns: 260px 1fr;
@@ -268,7 +244,6 @@
       overflow: hidden;
     }
     
-    /* Navigation Rail */
     .nav-rail {
       background: var(--bg-primary);
       border-right: 1px solid rgba(255, 255, 255, 0.06);
@@ -282,9 +257,7 @@
       gap: 4px;
     }
     
-    .tree-domain {
-      margin-bottom: 4px;
-    }
+    .tree-domain { margin-bottom: 4px; }
     
     .domain-header {
       display: flex;
@@ -300,9 +273,7 @@
       text-align: left;
     }
     
-    .domain-header:hover {
-      background: rgba(255, 255, 255, 0.04);
-    }
+    .domain-header:hover { background: rgba(255, 255, 255, 0.04); }
     
     .domain-icon {
       width: 16px;
@@ -336,9 +307,7 @@
       transition: transform 0.2s ease;
     }
     
-    .tree-domain.expanded .expand-icon {
-      transform: rotate(90deg);
-    }
+    .tree-domain.expanded .expand-icon { transform: rotate(90deg); }
     
     .domain-children {
       margin: 0;
@@ -349,9 +318,7 @@
       transition: max-height 0.3s ease;
     }
     
-    .tree-domain.expanded .domain-children {
-      max-height: 500px;
-    }
+    .tree-domain.expanded .domain-children { max-height: 500px; }
     
     .nav-leaf {
       display: flex;
@@ -364,9 +331,7 @@
       margin: 2px 0;
     }
     
-    .nav-leaf:hover {
-      background: rgba(255, 255, 255, 0.04);
-    }
+    .nav-leaf:hover { background: rgba(255, 255, 255, 0.04); }
     
     .nav-leaf.active {
       background: rgba(79, 158, 255, 0.12);
@@ -374,17 +339,13 @@
       margin-left: -2px;
     }
     
-    .leaf-label {
-      font-size: 13px;
-      color: var(--text-secondary);
-    }
+    .leaf-label { font-size: 13px; color: var(--text-secondary); }
     
     .nav-leaf.active .leaf-label {
       color: var(--text-primary);
       font-weight: 500;
     }
     
-    /* Workspace */
     .workspace {
       display: flex;
       flex-direction: column;
@@ -407,20 +368,14 @@
       gap: 8px;
     }
     
-    .breadcrumb .crumb {
-      font-size: 13px;
-      color: var(--text-tertiary);
-    }
+    .breadcrumb .crumb { font-size: 13px; color: var(--text-tertiary); }
     
     .breadcrumb .crumb.active {
       color: var(--text-primary);
       font-weight: 500;
     }
     
-    .breadcrumb .separator {
-      color: var(--text-tertiary);
-      opacity: 0.5;
-    }
+    .breadcrumb .separator { color: var(--text-tertiary); opacity: 0.5; }
     
     .workspace-controls {
       display: flex;
@@ -450,15 +405,12 @@
       padding: 24px;
     }
     
-    /* Module Styles */
     .intel-module {
       display: none;
       animation: fadeIn 0.3s ease;
     }
     
-    .intel-module.active {
-      display: block;
-    }
+    .intel-module.active { display: block; }
     
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
@@ -486,9 +438,7 @@
       display: block;
     }
     
-    .module-section {
-      margin-bottom: 32px;
-    }
+    .module-section { margin-bottom: 32px; }
     
     .section-title {
       font-size: 13px;
@@ -499,7 +449,6 @@
       margin-bottom: 16px;
     }
     
-    /* Identity Card */
     .identity-card {
       background: var(--bg-secondary);
       border: 1px solid rgba(255, 255, 255, 0.06);
@@ -582,7 +531,6 @@
       color: var(--accent-info);
     }
     
-    /* Metrics Grid */
     .metrics-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -609,10 +557,7 @@
       margin-bottom: 8px;
     }
     
-    .metric-label {
-      font-size: 12px;
-      color: var(--text-tertiary);
-    }
+    .metric-label { font-size: 12px; color: var(--text-tertiary); }
     
     .metric-trend {
       font-size: 11px;
@@ -620,24 +565,448 @@
       font-family: var(--font-mono);
     }
     
-    .metric-trend.positive {
-      color: var(--accent-success);
+    .metric-trend.positive { color: var(--accent-success); }
+    .metric-trend.negative { color: var(--accent-danger); }
+    
+    .metric-card .metric-value { font-size: 24px; }
+    
+    .metric-sparkline { height: 32px; margin-top: 12px; }
+    
+    /* Genesis Specific Styles */
+    .genesis-hero {
+      position: relative;
+      background: linear-gradient(135deg, rgba(79, 158, 255, 0.08) 0%, rgba(129, 140, 248, 0.04) 50%, rgba(167, 139, 250, 0.06) 100%);
+      border: 1px solid rgba(79, 158, 255, 0.15);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      overflow: hidden;
     }
     
-    .metric-trend.negative {
-      color: var(--accent-danger);
+    .genesis-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
     }
     
-    .metric-card .metric-value {
-      font-size: 24px;
+    .genesis-year-display {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 20px;
     }
     
-    .metric-sparkline {
-      height: 32px;
+    .genesis-year {
+      font-size: 72px;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      color: var(--accent-primary);
+      line-height: 1;
+      text-shadow: 0 0 40px rgba(79, 158, 255, 0.3);
+    }
+    
+    .genesis-date {
+      font-size: 18px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    
+    .genesis-location {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--text-tertiary);
+      margin-bottom: 24px;
+    }
+    
+    .genesis-location svg {
+      width: 16px;
+      height: 16px;
+      color: var(--data-rose);
+    }
+    
+    .genesis-context {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      max-width: 720px;
+    }
+    
+    .founders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    
+    .founder-card {
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      gap: 16px;
+      transition: all 0.2s ease;
+    }
+    
+    .founder-card:hover {
+      border-color: rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    .founder-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-elevated));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent-primary);
+      flex-shrink: 0;
+    }
+    
+    .founder-info {
+      flex: 1;
+    }
+    
+    .founder-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    
+    .founder-role {
+      font-size: 12px;
+      color: var(--accent-primary);
+      margin-bottom: 8px;
+    }
+    
+    .founder-background {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      line-height: 1.5;
+    }
+    
+    .strategic-intent-card {
+      background: var(--bg-secondary);
+      border-left: 3px solid var(--data-amber);
+      border-radius: 0 12px 12px 0;
+      padding: 24px;
+    }
+    
+    .intent-quote {
+      font-size: 17px;
+      font-style: italic;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    
+    .intent-attribution {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .intent-author {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    
+    .intent-title {
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+    
+    .market-config-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    
+    .market-config-card {
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    
+    .config-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+      display: block;
+    }
+    
+    .config-value {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+    
+    .config-detail {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    
+    .config-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
       margin-top: 12px;
     }
     
-    /* Regions Visualization */
+    .config-tag {
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 500;
+      background: var(--bg-tertiary);
+      border-radius: 4px;
+      color: var(--text-secondary);
+    }
+    
+    .tech-system-timeline {
+      position: relative;
+      padding-left: 32px;
+    }
+    
+    .tech-system-timeline::before {
+      content: '';
+      position: absolute;
+      left: 8px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent-primary), var(--data-violet), var(--data-cyan));
+      border-radius: 1px;
+    }
+    
+    .tech-layer {
+      position: relative;
+      margin-bottom: 20px;
+      padding: 20px;
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+    }
+    
+    .tech-layer::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 24px;
+      width: 12px;
+      height: 12px;
+      background: var(--accent-primary);
+      border: 3px solid var(--bg-void);
+      border-radius: 50%;
+    }
+    
+    .tech-layer-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    
+    .tech-layer-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    
+    .tech-layer-status {
+      font-size: 10px;
+      padding: 3px 8px;
+      background: rgba(79, 158, 255, 0.15);
+      color: var(--accent-primary);
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .tech-specs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    
+    .tech-spec {
+      padding: 12px;
+      background: var(--bg-tertiary);
+      border-radius: 8px;
+    }
+    
+    .spec-name {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      margin-bottom: 4px;
+    }
+    
+    .spec-value {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    
+    .product-portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    
+    .product-card {
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.2s ease;
+    }
+    
+    .product-card:hover {
+      border-color: var(--accent-primary);
+      transform: translateY(-2px);
+    }
+    
+    .product-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--bg-tertiary);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      color: var(--accent-primary);
+    }
+    
+    .product-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    
+    .product-category {
+      font-size: 12px;
+      color: var(--accent-info);
+      margin-bottom: 8px;
+    }
+    
+    .product-desc {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    
+    .product-metrics {
+      display: flex;
+      gap: 16px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    
+    .product-metric {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .product-metric-label {
+      font-size: 10px;
+      color: var(--text-tertiary);
+    }
+    
+    .product-metric-value {
+      font-size: 13px;
+      font-weight: 600;
+      font-family: var(--font-mono);
+      color: var(--text-secondary);
+    }
+    
+    .org-architecture {
+      background: var(--bg-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    
+    .org-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      margin-bottom: 20px;
+    }
+    
+    .org-metric {
+      text-align: center;
+    }
+    
+    .org-metric-value {
+      font-size: 24px;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      color: var(--text-primary);
+    }
+    
+    .org-metric-label {
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+    
+    .org-level {
+      margin-bottom: 16px;
+    }
+    
+    .org-level-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+    
+    .org-units {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    
+    .org-unit {
+      padding: 8px 14px;
+      background: var(--bg-tertiary);
+      border-radius: 6px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    
+    .org-unit.primary {
+      background: rgba(79, 158, 255, 0.15);
+      color: var(--accent-primary);
+    }
+    
+    .org-unit.secondary {
+      background: rgba(129, 140, 248, 0.15);
+      color: var(--accent-info);
+    }
+    
     .regions-list {
       display: flex;
       flex-direction: column;
@@ -654,9 +1023,7 @@
       border-radius: 8px;
     }
     
-    .region-flag {
-      font-size: 20px;
-    }
+    .region-flag { font-size: 20px; }
     
     .region-name {
       font-size: 14px;
@@ -664,10 +1031,7 @@
       color: var(--text-primary);
     }
     
-    .region-coverage {
-      font-size: 11px;
-      color: var(--text-tertiary);
-    }
+    .region-coverage { font-size: 11px; color: var(--text-tertiary); }
     
     .region-bar {
       height: 4px;
@@ -691,7 +1055,6 @@
       text-align: right;
     }
     
-    /* Strategic Card */
     .strategic-card {
       background: var(--bg-secondary);
       border: 1px solid rgba(255, 255, 255, 0.04);
@@ -713,10 +1076,7 @@
       flex-wrap: wrap;
     }
     
-    .focus-label {
-      font-size: 12px;
-      color: var(--text-tertiary);
-    }
+    .focus-label { font-size: 12px; color: var(--text-tertiary); }
     
     .focus-tag {
       padding: 4px 10px;
@@ -727,15 +1087,12 @@
       border-radius: 4px;
     }
     
-    /* Evolution Timeline */
     .evolution-timeline {
       position: relative;
       padding: 32px 0;
     }
     
-    .timeline-track {
-      position: relative;
-    }
+    .timeline-track { position: relative; }
     
     .track-years {
       display: flex;
@@ -776,9 +1133,7 @@
       transition: all 0.2s ease;
     }
     
-    .event-node:hover .node-marker {
-      transform: scale(1.3);
-    }
+    .event-node:hover .node-marker { transform: scale(1.3); }
     
     .node-card {
       position: absolute;
@@ -812,88 +1167,9 @@
       color: var(--text-primary);
     }
     
-    .node-type {
-      font-size: 10px;
-      color: var(--text-tertiary);
-    }
+    .node-type { font-size: 10px; color: var(--text-tertiary); }
     
-    /* Stack Evolution */
-    .stack-evolution {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    
-    .evolution-stream {
-      background: var(--bg-secondary);
-      border-radius: 10px;
-      padding: 16px;
-    }
-    
-    .stream-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-    }
-    
-    .stream-name {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--text-primary);
-    }
-    
-    .stream-events {
-      font-size: 11px;
-      color: var(--text-tertiary);
-    }
-    
-    .stream-timeline {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    
-    .stream-layer {
-      display: grid;
-      grid-template-columns: 100px 1fr 80px;
-      gap: 16px;
-      padding: 10px 12px;
-      background: var(--bg-tertiary);
-      border-radius: 6px;
-      align-items: center;
-      opacity: 0.6;
-    }
-    
-    .stream-layer.active {
-      opacity: 1;
-      background: rgba(79, 158, 255, 0.08);
-      border-left: 2px solid var(--accent-primary);
-    }
-    
-    .layer-period {
-      font-size: 11px;
-      font-family: var(--font-mono);
-      color: var(--text-tertiary);
-    }
-    
-    .layer-tech {
-      font-size: 13px;
-      color: var(--text-secondary);
-    }
-    
-    .layer-status {
-      font-size: 10px;
-      color: var(--text-tertiary);
-      text-align: right;
-    }
-    
-    .stream-layer.active .layer-tech {
-      color: var(--text-primary);
-    }
-    
-    /* Intelligence Alerts */
-    .intelligence-alerts {
+    .alerts-list {
       display: flex;
       flex-direction: column;
       gap: 12px;
@@ -908,17 +1184,9 @@
       border-left: 3px solid;
     }
     
-    .alert-card[data-severity="major"] {
-      border-left-color: var(--accent-warning);
-    }
-    
-    .alert-card[data-severity="moderate"] {
-      border-left-color: var(--accent-primary);
-    }
-    
-    .alert-card[data-severity="minor"] {
-      border-left-color: var(--data-slate);
-    }
+    .alert-card[data-severity="major"] { border-left-color: var(--accent-warning); }
+    .alert-card[data-severity="moderate"] { border-left-color: var(--accent-primary); }
+    .alert-card[data-severity="minor"] { border-left-color: var(--data-slate); }
     
     .alert-indicator {
       width: 8px;
@@ -929,13 +1197,8 @@
       flex-shrink: 0;
     }
     
-    .alert-card[data-severity="moderate"] .alert-indicator {
-      background: var(--accent-primary);
-    }
-    
-    .alert-card[data-severity="minor"] .alert-indicator {
-      background: var(--data-slate);
-    }
+    .alert-card[data-severity="moderate"] .alert-indicator { background: var(--accent-primary); }
+    .alert-card[data-severity="minor"] .alert-indicator { background: var(--data-slate); }
     
     .alert-type {
       font-size: 10px;
@@ -946,9 +1209,7 @@
       display: block;
     }
     
-    .alert-card[data-severity="moderate"] .alert-type {
-      color: var(--accent-primary);
-    }
+    .alert-card[data-severity="moderate"] .alert-type { color: var(--accent-primary); }
     
     .alert-title {
       font-size: 14px;
@@ -972,24 +1233,17 @@
       margin: 0 0 12px 0;
     }
     
-    .alert-impact {
-      font-size: 12px;
-    }
+    .alert-impact { font-size: 12px; }
     
-    .impact-label {
-      color: var(--text-tertiary);
-    }
+    .impact-label { color: var(--text-tertiary); }
     
     .impact-value {
       color: var(--text-primary);
       font-weight: 500;
     }
     
-    .impact-value.positive {
-      color: var(--accent-success);
-    }
+    .impact-value.positive { color: var(--accent-success); }
     
-    /* Categories Matrix */
     .categories-matrix {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -1034,10 +1288,7 @@
       color: var(--text-primary);
     }
     
-    .category-revenue {
-      font-size: 12px;
-      color: var(--text-tertiary);
-    }
+    .category-revenue { font-size: 12px; color: var(--text-tertiary); }
     
     .category-stats {
       display: flex;
@@ -1052,10 +1303,7 @@
       color: var(--text-primary);
     }
     
-    .category-stats .stat-label {
-      font-size: 11px;
-      color: var(--text-tertiary);
-    }
+    .category-stats .stat-label { font-size: 11px; color: var(--text-tertiary); }
     
     .category-share {
       display: flex;
@@ -1063,10 +1311,7 @@
       gap: 8px;
     }
     
-    .share-label {
-      font-size: 11px;
-      color: var(--text-tertiary);
-    }
+    .share-label { font-size: 11px; color: var(--text-tertiary); }
     
     .share-bar {
       flex: 1;
@@ -1087,80 +1332,6 @@
       color: var(--text-secondary);
     }
     
-    /* Org Chart */
-    .org-chart-container {
-      overflow-x: auto;
-    }
-    
-    .org-chart {
-      min-width: 800px;
-    }
-    
-    .chart-level {
-      display: flex;
-      justify-content: center;
-      gap: 24px;
-      margin-bottom: 32px;
-      position: relative;
-    }
-    
-    .chart-node {
-      background: var(--bg-secondary);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 10px;
-      padding: 16px;
-      min-width: 180px;
-    }
-    
-    .node-executive {
-      background: linear-gradient(135deg, rgba(79, 158, 255, 0.1), rgba(129, 140, 248, 0.1));
-      border-color: rgba(79, 158, 255, 0.2);
-    }
-    
-    .node-division {
-      flex: 1;
-    }
-    
-    .node-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-    
-    .node-name {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text-primary);
-    }
-    
-    .node-headcount {
-      font-size: 11px;
-      font-family: var(--font-mono);
-      color: var(--text-tertiary);
-    }
-    
-    .node-head {
-      font-size: 12px;
-      color: var(--text-secondary);
-      margin-bottom: 8px;
-    }
-    
-    .node-children {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px;
-    }
-    
-    .child-unit {
-      padding: 3px 8px;
-      font-size: 10px;
-      color: var(--text-tertiary);
-      background: var(--bg-tertiary);
-      border-radius: 4px;
-    }
-    
-    /* Capital Overview */
     .capital-overview {
       display: grid;
       grid-template-columns: 300px 1fr;
@@ -1192,9 +1363,7 @@
       font-family: var(--font-mono);
     }
     
-    .metric-change.positive {
-      color: var(--accent-success);
-    }
+    .metric-change.positive { color: var(--accent-success); }
     
     .overview-breakdown {
       display: flex;
@@ -1209,10 +1378,7 @@
       align-items: center;
     }
     
-    .item-label {
-      font-size: 13px;
-      color: var(--text-secondary);
-    }
+    .item-label { font-size: 13px; color: var(--text-secondary); }
     
     .item-value {
       font-size: 14px;
@@ -1245,7 +1411,6 @@
       color: var(--text-tertiary);
     }
     
-    /* Capability Radar */
     .capability-radar {
       display: flex;
       gap: 40px;
@@ -1258,10 +1423,7 @@
       position: relative;
     }
     
-    .radar-svg {
-      width: 100%;
-      height: 100%;
-    }
+    .radar-svg { width: 100%; height: 100%; }
     
     .radar-legend {
       display: flex;
@@ -1281,24 +1443,12 @@
       border-radius: 3px;
     }
     
-    .legend-color.firm {
-      background: var(--accent-primary);
-    }
+    .legend-color.firm { background: var(--accent-primary); }
+    .legend-color.industry { background: var(--data-slate); }
+    .legend-color.leader { background: var(--data-emerald); }
     
-    .legend-color.industry {
-      background: var(--data-slate);
-    }
+    .legend-label { font-size: 12px; color: var(--text-secondary); }
     
-    .legend-color.leader {
-      background: var(--data-emerald);
-    }
-    
-    .legend-label {
-      font-size: 12px;
-      color: var(--text-secondary);
-    }
-    
-    /* Dimensions Grid */
     .dimensions-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -1343,13 +1493,8 @@
       font-weight: 600;
     }
     
-    .dimension-score.high {
-      color: var(--accent-success);
-    }
-    
-    .dimension-score.medium {
-      color: var(--accent-warning);
-    }
+    .dimension-score.high { color: var(--accent-success); }
+    .dimension-score.medium { color: var(--accent-warning); }
     
     .dimension-details {
       display: flex;
@@ -1365,10 +1510,7 @@
       align-items: center;
     }
     
-    .capability-name {
-      font-size: 12px;
-      color: var(--text-secondary);
-    }
+    .capability-name { font-size: 12px; color: var(--text-secondary); }
     
     .capability-bar {
       height: 6px;
@@ -1396,17 +1538,9 @@
       border-top: 1px solid rgba(255, 255, 255, 0.04);
     }
     
-    .insight-label {
-      font-size: 11px;
-      color: var(--text-tertiary);
-    }
+    .insight-label { font-size: 11px; color: var(--text-tertiary); }
+    .insight-text { font-size: 12px; color: var(--text-secondary); }
     
-    .insight-text {
-      font-size: 12px;
-      color: var(--text-secondary);
-    }
-    
-    /* Temporal Bar */
     .temporal-bar {
       background: var(--bg-primary);
       border-top: 1px solid rgba(255, 255, 255, 0.06);
@@ -1454,9 +1588,7 @@
       color: var(--bg-void);
     }
     
-    .tl-btn.play:hover {
-      background: #6eb0ff;
-    }
+    .tl-btn.play:hover { background: #6eb0ff; }
     
     .timeline-track-main {
       flex: 1;
@@ -1512,7 +1644,6 @@
       color: var(--text-primary);
     }
     
-    /* Ownership Treemap */
     .ownership-treemap {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -1531,9 +1662,7 @@
       transition: all 0.2s ease;
     }
     
-    .owner-block:hover {
-      transform: scale(1.02);
-    }
+    .owner-block:hover { transform: scale(1.02); }
     
     .owner-block:nth-child(1) {
       background: rgba(34, 211, 238, 0.2);
@@ -1545,21 +1674,10 @@
       grid-column: span 2;
     }
     
-    .owner-block:nth-child(3) {
-      background: rgba(52, 211, 153, 0.2);
-    }
-    
-    .owner-block:nth-child(4) {
-      background: rgba(252, 211, 77, 0.2);
-    }
-    
-    .owner-block:nth-child(5) {
-      background: rgba(148, 163, 184, 0.2);
-    }
-    
-    .owner-block:nth-child(6) {
-      background: rgba(251, 113, 133, 0.2);
-    }
+    .owner-block:nth-child(3) { background: rgba(52, 211, 153, 0.2); }
+    .owner-block:nth-child(4) { background: rgba(252, 211, 77, 0.2); }
+    .owner-block:nth-child(5) { background: rgba(148, 163, 184, 0.2); }
+    .owner-block:nth-child(6) { background: rgba(251, 113, 133, 0.2); }
     
     .owner-name {
       font-size: 11px;
@@ -1574,11 +1692,7 @@
       color: var(--text-primary);
     }
     
-    /* Data Table */
-    .intel-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
+    .intel-table { width: 100%; border-collapse: collapse; }
     
     .intel-table th {
       text-align: left;
@@ -1599,9 +1713,7 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     }
     
-    .intel-table tr:hover td {
-      background: rgba(255, 255, 255, 0.02);
-    }
+    .intel-table tr:hover td { background: rgba(255, 255, 255, 0.02); }
     
     .intel-table .col-product {
       font-weight: 500;
@@ -1630,60 +1742,25 @@
       color: var(--data-amber);
     }
     
-    .col-growth.positive {
-      color: var(--accent-success);
-    }
+    .col-growth.positive { color: var(--accent-success); }
+    .col-growth.negative { color: var(--accent-danger); }
     
-    .col-growth.negative {
-      color: var(--accent-danger);
-    }
-    
-    /* Charts Container */
-    .chart-container {
-      background: var(--bg-secondary);
-      border-radius: 10px;
-      padding: 20px;
-      min-height: 200px;
-    }
-    
-    /* Responsive */
     @media (max-width: 1024px) {
-      .metrics-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      
-      .categories-matrix {
-        grid-template-columns: 1fr;
-      }
-      
-      .dimensions-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .capital-overview {
-        grid-template-columns: 1fr;
-      }
+      .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+      .categories-matrix { grid-template-columns: 1fr; }
+      .dimensions-grid { grid-template-columns: 1fr; }
+      .capital-overview { grid-template-columns: 1fr; }
+      .market-config-grid { grid-template-columns: 1fr; }
     }
     
     @media (max-width: 768px) {
-      .intel-canvas {
-        grid-template-columns: 1fr;
-      }
-      
-      .nav-rail {
-        display: none;
-      }
-      
-      .metrics-grid {
-        grid-template-columns: 1fr;
-      }
+      .intel-canvas { grid-template-columns: 1fr; }
+      .nav-rail { display: none; }
+      .metrics-grid { grid-template-columns: 1fr; }
     }
     
-    /* Reduced Motion */
     @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
+      *, *::before, *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
@@ -1693,7 +1770,6 @@
 </head>
 <body class="platform-shell">
   
-  <!-- Global Intelligence Header -->
   <header class="intel-header">
     <div class="header-brand">
       <div class="platform-mark">
@@ -1749,17 +1825,12 @@
     </div>
   </header>
 
-  <!-- Main Analytical Canvas -->
   <main class="intel-canvas">
     
-    <!-- Domain Navigation Rail -->
     <aside class="nav-rail">
-      <nav class="nav-tree" id="navTree">
-        <!-- Navigation will be rendered by JS -->
-      </nav>
+      <nav class="nav-tree" id="navTree"></nav>
     </aside>
 
-    <!-- Workspace Container -->
     <section class="workspace">
       <div class="workspace-header">
         <div class="breadcrumb">
@@ -1774,14 +1845,11 @@
         </div>
       </div>
       
-      <div class="workspace-content" id="workspaceContent">
-        <!-- Module containers rendered by JS -->
-      </div>
+      <div class="workspace-content" id="workspaceContent"></div>
     </section>
 
   </main>
 
-  <!-- Temporal Navigation Bar -->
   <footer class="temporal-bar">
     <div class="timeline-container">
       <div class="timeline-controls">
@@ -1882,6 +1950,234 @@
       description: 'Acme Industries is a leading manufacturer of precision automotive components, specializing in advanced powertrain systems and electronic control units. The company operates 14 production facilities across Europe and North America, serving major OEMs including BMW, Mercedes-Benz, and General Motors.'
     };
 
+    // Genesis Data - Comprehensive founding information
+    const genesisData = {
+      foundingYear: 1998,
+      foundingDate: 'March 15, 1998',
+      foundingContext: {
+        summary: 'Acme Industries emerged during a pivotal transformation in the European automotive supply chain. The late 1990s saw major OEMs increasingly outsourcing precision component manufacturing to specialized suppliers capable of meeting stringent quality standards while delivering cost efficiencies. Hans Mueller and Friedrich Schmidt, both veterans of Bosch\'s powertrain division, recognized an opportunity to establish a pure-play precision machining company focused on the premium German automotive segment.',
+        macroConditions: [
+          'European automotive production at 17.2M units annually',
+          'OEM supplier consolidation accelerating across the industry',
+          'Quality certification requirements (ISO 9001) becoming mandatory',
+          'German reunification investments creating industrial capacity'
+        ],
+        industryDynamics: [
+          'Tier-1 suppliers expanding technical capabilities',
+          'Just-in-time manufacturing adoption increasing',
+          'Precision machining shortage in southern Germany',
+          'Price pressure from Asian competitors intensifying'
+        ],
+        catalystEvent: 'BMW\'s announcement of a new engine platform requiring specialized machining capabilities that existing suppliers could not provide at required volumes.'
+      },
+      foundingLocation: {
+        city: 'Stuttgart',
+        region: 'Baden-Württemberg',
+        country: 'Germany',
+        coordinates: '48.7758° N, 9.1829° E',
+        rationale: 'Strategic positioning within the Stuttgart automotive cluster, providing proximity to Mercedes-Benz headquarters and Porsche, alongside access to skilled engineering talent from the University of Stuttgart and specialized vocational programs.',
+        facilityType: 'Leased 4,200 m² industrial facility',
+        initialInvestment: '€2.8M facility retrofit'
+      },
+      founders: [
+        {
+          name: 'Hans Mueller',
+          initials: 'HM',
+          role: 'Chief Executive Officer',
+          background: 'Former Head of Powertrain Manufacturing at Bosch, 18 years of precision engineering experience. PhD in Mechanical Engineering from TU Munich.',
+          expertise: ['Manufacturing Systems', 'Quality Management', 'OEM Relations'],
+          priorRoles: ['Bosch (1980-1998)', 'Mahle (1976-1980)'],
+          equityContribution: '€1.5M personal capital + technology IP'
+        },
+        {
+          name: 'Friedrich Schmidt',
+          initials: 'FS',
+          role: 'Chief Technical Officer',
+          background: 'Former Engineering Director at Mahle, specializing in piston and cylinder manufacturing. Master Craftsman certification (Meister) in precision machining.',
+          expertise: ['CNC Programming', 'Tool Design', 'Process Optimization'],
+          priorRoles: ['Mahle (1978-1998)', 'Kolbenschmidt (1972-1978)'],
+          equityContribution: '€1.2M personal capital + equipment'
+        },
+        {
+          name: 'Dr. Elena Kowalski',
+          initials: 'EK',
+          role: 'Chief Operations Officer',
+          background: 'Former Production Manager at ZF Friedrichshafen. Expertise in lean manufacturing implementation and supply chain optimization.',
+          expertise: ['Lean Manufacturing', 'Supply Chain', 'Operations Planning'],
+          priorRoles: ['ZF Friedrichshafen (1985-1998)', 'Audi (1980-1985)'],
+          equityContribution: '€0.8M personal capital'
+        }
+      ],
+      initialStrategicIntent: {
+        mission: 'To become the preferred supplier of precision-engineered components for the European automotive industry through technical excellence and operational efficiency.',
+        vision: 'Establish a world-class precision machining capability that enables European OEMs to compete globally through superior quality and innovative manufacturing processes.',
+        strategicThesis: 'Premium automotive OEMs require specialized suppliers capable of delivering precision components with zero-defect quality. By focusing exclusively on high-tolerance machining, Acme can build sustainable competitive advantage through accumulated expertise and customer relationships.',
+        differentiationStrategy: 'Quality leadership through investment in advanced CNC technology and rigorous process control, differentiating from competitors competing primarily on price.',
+        initialGoals: [
+          'Achieve ISO 9001 certification within 18 months',
+          'Secure 3 OEM supply contracts by end of Year 2',
+          'Reach €10M annual revenue by Year 3',
+          'Maintain defect rate below 50 PPM'
+        ]
+      },
+      initialMarketConfiguration: {
+        targetSegment: 'Premium Automotive OEMs',
+        geographicFocus: 'DACH Region (Germany, Austria, Switzerland)',
+        productCategory: 'Precision Machined Powertrain Components',
+        customerProfile: {
+          primary: 'German premium OEMs (BMW, Mercedes-Benz, Audi, Porsche)',
+          secondary: 'European Tier-1 suppliers requiring subcontracting capacity',
+          approach: 'Direct sales to OEM purchasing departments with technical support from engineering teams'
+        },
+        marketSizing: {
+          addressableMarket: '€420M (precision machining, DACH region)',
+          initialTarget: '€8-12M addressable within capability set',
+          competitiveIntensity: 'Moderate - fragmented market with 15-20 regional players'
+        },
+        pricingStrategy: 'Premium pricing (15-20% above market average) justified by superior quality metrics and technical support',
+        goToMarket: [
+          'Leverage founder relationships from prior industry roles',
+          'Technical seminars showcasing machining capabilities',
+          'Pilot projects with BMW and Mercedes-Benz',
+          'Quality certification as credibility signal'
+        ]
+      },
+      initialTechnicalSystem: {
+        coreTechnology: '5-Axis CNC Machining Centers',
+        technologyStack: [
+          {
+            layer: 'Production Equipment',
+            status: 'Core Investment',
+            specifications: [
+              { name: 'Machining Centers', value: '4x Deckel Maho DMU 80P' },
+              { name: 'Turning Centers', value: '2x Index G200' },
+              { name: 'Grinding Systems', value: '1x Studer S40' },
+              { name: 'CMM Inspection', value: '1x Zeiss Prismo' }
+            ]
+          },
+          {
+            layer: 'Tooling & Fixtures',
+            status: 'Critical Capability',
+            specifications: [
+              { name: 'Tool Inventory', value: '800+ precision tools' },
+              { name: 'Fixture Systems', value: 'Modular workholding' },
+              { name: 'Coolant Systems', value: 'Central filtration' },
+              { name: 'Tool Presetter', value: 'Zoller Venturion' }
+            ]
+          },
+          {
+            layer: 'Quality Systems',
+            status: 'Foundational',
+            specifications: [
+              { name: 'Quality Management', value: 'ISO 9001 certification path' },
+              { name: 'Inspection Protocol', value: 'Statistical Process Control' },
+              { name: 'Documentation', value: 'Paper-based travelers' },
+              { name: 'Calibration', value: 'In-house capability' }
+            ]
+          }
+        ],
+        manufacturingPhilosophy: 'Batch production with flexible changeover, emphasis on first-article inspection and in-process quality checks.',
+        capacityUtilization: 'Designed for 65% initial utilization with expansion capacity to 85%',
+        technologyPartner: 'Deckel Maho (equipment supplier with application engineering support)'
+      },
+      initialProductPortfolio: {
+        focus: 'High-precision powertrain components',
+        products: [
+          {
+            name: 'Cylinder Head Covers',
+            category: 'Engine Components',
+            description: 'Precision-machined aluminum covers for premium engine platforms, featuring integrated sealing surfaces and mounting points.',
+            specifications: 'Tolerance: ±0.02mm | Surface: Ra 0.8 | Material: AlSi9Cu3',
+            initialRevenue: '€1.2M projected Year 1',
+            status: 'Development'
+          },
+          {
+            name: 'Transmission Housings',
+            category: 'Drivetrain Components',
+            description: 'Complex aluminum housings for automatic transmissions, requiring multi-axis machining of bearing seats and sealing surfaces.',
+            specifications: 'Tolerance: ±0.015mm | Surface: Ra 0.4 | Material: AlSi12',
+            initialRevenue: '€800K projected Year 1',
+            status: 'Prototype'
+          },
+          {
+            name: 'Turbocharger Cartridges',
+            category: 'Forced Induction',
+            description: 'High-precision machined cartridge assemblies for turbocharger systems, requiring sub-micron tolerances on rotating components.',
+            specifications: 'Tolerance: ±0.005mm | Surface: Ra 0.2 | Material: Inconel 718',
+            initialRevenue: '€600K projected Year 1',
+            status: 'Development'
+          },
+          {
+            name: 'Fuel Injector Bodies',
+            category: 'Fuel Systems',
+            description: 'Precision-machined injector bodies for direct injection systems, with critical bore tolerances and surface finish requirements.',
+            specifications: 'Tolerance: ±0.008mm | Surface: Ra 0.1 | Material: Stainless 316L',
+            initialRevenue: '€400K projected Year 1',
+            status: 'Prototype'
+          }
+        ],
+        developmentApproach: 'Customer-funded development with prototype iterations followed by production contracts',
+        ipStrategy: 'Process know-how protection through trade secrets; no patent filings in initial phase'
+      },
+      organizationalArchitecture: {
+        structure: 'Functional Organization',
+        employeeCount: 45,
+        departments: [
+          {
+            name: 'Executive Office',
+            headcount: 3,
+            functions: ['CEO', 'CTO', 'COO'],
+            description: 'Strategic leadership and external relations'
+          },
+          {
+            name: 'Manufacturing',
+            headcount: 24,
+            functions: ['Machine Operators (12)', 'Setup Technicians (4)', 'Quality Inspectors (3)', 'Maintenance (3)', 'Supervisor (2)'],
+            description: 'Core production and quality operations'
+          },
+          {
+            name: 'Engineering',
+            headcount: 8,
+            functions: ['Process Engineers (4)', 'Tool Designers (2)', 'CAD/CAM Programmers (2)'],
+            description: 'Process development and technical support'
+          },
+          {
+            name: 'Commercial',
+            headcount: 6,
+            functions: ['Sales (2)', 'Purchasing (2)', 'Logistics (2)'],
+            description: 'Customer relations and supply chain'
+          },
+          {
+            name: 'Administration',
+            headcount: 4,
+            functions: ['Finance (2)', 'HR (1)', 'Facilities (1)'],
+            description: 'Corporate services and support'
+          }
+        ],
+        reportingLines: 'Flat hierarchy with direct reporting to functional executives',
+        decisionMaking: 'Consensus-driven among founding team for strategic decisions; functional autonomy for operations',
+        culture: 'Engineering-first culture emphasizing precision, continuous improvement, and customer responsiveness',
+        hiringApproach: 'Recruitment from local vocational programs and competitor companies; emphasis on Meister-level craftsmen'
+      },
+      initialCapital: {
+        totalCapital: '€5.2M',
+        breakdown: [
+          { source: 'Founder Equity', amount: '€3.5M', percentage: 67 },
+          { source: 'Bank Financing (KfW)', amount: '€1.2M', percentage: 23 },
+          { source: 'Equipment Leasing', amount: '€0.5M', percentage: 10 }
+        ],
+        useOfFunds: [
+          { category: 'Equipment & Tooling', amount: '€2.8M', percentage: 54 },
+          { category: 'Facility Retrofit', amount: '€0.8M', percentage: 15 },
+          { category: 'Working Capital', amount: '€0.9M', percentage: 17 },
+          { category: 'Quality Systems', amount: '€0.4M', percentage: 8 },
+          { category: 'Organizational', amount: '€0.3M', percentage: 6 }
+        ],
+        burnRate: '€180K/month projected',
+        runwayTarget: 'Achieve cash-flow positive by Month 18'
+      }
+    };
+
     const metricsData = [
       { label: 'Revenue', value: '€4.2B', trend: '+12.4%', positive: true, sparkline: [40, 55, 48, 62, 70, 78, 85, 92, 88, 95] },
       { label: 'Employees', value: '12,847', trend: '+3.2%', positive: true, sparkline: [60, 65, 68, 70, 72, 75, 78, 80, 82, 85] },
@@ -1931,28 +2227,16 @@
         { name: 'Process Innovation', value: 68 },
         { name: 'IP Generation', value: 65 },
         { name: 'External Partnerships', value: 58 }
-      ], insight: 'University research partnerships' },
-      { name: 'Logistics', score: '6.5/10', scoreClass: 'medium', items: [
-        { name: 'Delivery Performance', value: 88 },
-        { name: 'Inventory Management', value: 62 },
-        { name: 'Supply Chain Visibility', value: 55 },
-        { name: 'Global Distribution', value: 60 }
-      ], insight: 'Real-time supply chain monitoring' },
-      { name: 'Marketing', score: '5.4/10', scoreClass: 'medium', items: [
-        { name: 'Brand Strength', value: 45 },
-        { name: 'Customer Insights', value: 52 },
-        { name: 'Digital Marketing', value: 38 },
-        { name: 'Market Intelligence', value: 65 }
-      ], insight: 'B2B digital marketing capabilities' }
+      ], insight: 'University research partnerships' }
     ];
 
     const ownershipData = [
-      { name: 'Institutional Investors', share: 28, color: 'var(--data-cyan)' },
-      { name: 'Founding Family', share: 22, color: 'var(--data-violet)' },
-      { name: 'Pension Funds', share: 18, color: 'var(--data-emerald)' },
-      { name: 'Strategic Partners', share: 15, color: 'var(--data-amber)' },
-      { name: 'Retail Investors', share: 12, color: 'var(--data-slate)' },
-      { name: 'Treasury Stock', share: 5, color: 'var(--data-rose)' }
+      { name: 'Institutional Investors', share: 28 },
+      { name: 'Founding Family', share: 22 },
+      { name: 'Pension Funds', share: 18 },
+      { name: 'Strategic Partners', share: 15 },
+      { name: 'Retail Investors', share: 12 },
+      { name: 'Treasury Stock', share: 5 }
     ];
 
     // State
@@ -1996,29 +2280,20 @@
       `).join('');
     }
 
-    // Toggle Domain
     function toggleDomain(domainId) {
       const domain = document.querySelector(`[data-domain="${domainId}"]`);
       domain.classList.toggle('expanded');
     }
 
-    // Navigate
     function navigateTo(viewId, label) {
       currentView = viewId;
-      
-      // Update nav
       document.querySelectorAll('.nav-leaf').forEach(leaf => {
         leaf.classList.toggle('active', leaf.dataset.view === viewId);
       });
-      
-      // Update breadcrumb
       document.getElementById('breadcrumbActive').textContent = label;
-      
-      // Render module
       renderModule(viewId);
     }
 
-    // Render Module
     function renderModule(viewId) {
       const content = document.getElementById('workspaceContent');
       
@@ -2038,15 +2313,13 @@
       const renderFn = modules[viewId] || renderOverviewModule;
       content.innerHTML = renderFn();
       
-      // Re-initialize animations for new content
       setTimeout(() => initializeAnimations(), 50);
     }
 
-    // Module Renderers
+    // Overview Module
     function renderOverviewModule() {
       return `
         <section class="intel-module active" data-module="firm-overview">
-          <!-- Identity Card -->
           <div class="module-section">
             <div class="identity-card">
               <div class="identity-main">
@@ -2077,7 +2350,6 @@
             </div>
           </div>
 
-          <!-- Key Metrics Grid -->
           <div class="module-section">
             <h3 class="section-title">Key Metrics</h3>
             <div class="metrics-grid">
@@ -2105,27 +2377,6 @@
             </div>
           </div>
 
-          <!-- Operational Regions -->
-          <div class="module-section">
-            <h3 class="section-title">Operational Regions</h3>
-            <div class="regions-list">
-              ${regionsData.map(region => `
-                <div class="region-item">
-                  <span class="region-flag">${getFlagEmoji(region.flag)}</span>
-                  <div>
-                    <span class="region-name">${region.name}</span>
-                    <span class="region-coverage">${region.coverage}</span>
-                  </div>
-                  <div class="region-bar">
-                    <div class="bar-fill" style="width: ${region.percent}%"></div>
-                  </div>
-                  <span class="region-value">${region.percent}%</span>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-
-          <!-- Strategic Profile -->
           <div class="module-section">
             <h3 class="section-title">Strategic Profile</h3>
             <div class="strategic-card">
@@ -2142,70 +2393,309 @@
       `;
     }
 
+    // Genesis Module - Comprehensive founding information
     function renderGenesisModule() {
+      const g = genesisData;
       return `
         <section class="intel-module active" data-module="firm-genesis">
+          
+          <!-- Hero Section -->
+          <div class="genesis-hero">
+            <div class="genesis-year-display">
+              <span class="genesis-year">${g.foundingYear}</span>
+              <span class="genesis-date">${g.foundingDate}</span>
+            </div>
+            <div class="genesis-location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>${g.foundingLocation.city}, ${g.foundingLocation.region}, ${g.foundingLocation.country}</span>
+              <span style="color: var(--text-tertiary); margin: 0 8px;">|</span>
+              <span style="color: var(--text-tertiary);">${g.foundingLocation.facilityType}</span>
+            </div>
+            <p class="genesis-context">${g.foundingContext.summary}</p>
+          </div>
+
+          <!-- Founders Section -->
           <div class="module-section">
-            <div class="identity-card" style="border-left: 3px solid var(--accent-primary);">
-              <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
-                <span style="font-size: 48px; font-weight: 700; font-family: var(--font-mono); color: var(--accent-primary);">1998</span>
-                <div>
-                  <h2 style="font-size: 18px; margin: 0 0 4px 0;">Company Founded</h2>
-                  <span style="font-size: 13px; color: var(--text-tertiary);">March 15, 1998 — Stuttgart, Germany</span>
+            <h3 class="section-title">Founders</h3>
+            <div class="founders-grid">
+              ${g.founders.map(founder => `
+                <div class="founder-card">
+                  <div class="founder-avatar">${founder.initials}</div>
+                  <div class="founder-info">
+                    <div class="founder-name">${founder.name}</div>
+                    <div class="founder-role">${founder.role}</div>
+                    <div class="founder-background">${founder.background}</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px;">
+                      ${founder.expertise.map(exp => `
+                        <span style="font-size: 10px; padding: 2px 6px; background: var(--bg-tertiary); border-radius: 3px; color: var(--text-tertiary);">${exp}</span>
+                      `).join('')}
+                    </div>
+                  </div>
                 </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Initial Strategic Intent -->
+          <div class="module-section">
+            <h3 class="section-title">Initial Strategic Intent</h3>
+            <div class="strategic-intent-card">
+              <p class="intent-quote">"${g.initialStrategicIntent.mission}"</p>
+              <div class="intent-attribution">
+                <span class="intent-author">Strategic Vision</span>
+                <span class="intent-title">— Founding Document, March 1998</span>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
-                <div>
-                  <span class="meta-label">Founders</span>
-                  <span class="meta-value" style="display: block; margin-top: 4px;">Hans Mueller, Friedrich Schmidt</span>
-                </div>
-                <div>
-                  <span class="meta-label">Initial Capital</span>
-                  <span class="meta-value" style="display: block; margin-top: 4px; font-family: var(--font-mono);">€5.2 Million</span>
-                </div>
-                <div>
-                  <span class="meta-label">Initial Employees</span>
-                  <span class="meta-value" style="display: block; margin-top: 4px; font-family: var(--font-mono);">45</span>
+              <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.06);">
+                <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 12px;">${g.initialStrategicIntent.strategicThesis}</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                  ${g.initialStrategicIntent.initialGoals.map(goal => `
+                    <span style="font-size: 11px; padding: 6px 10px; background: var(--bg-tertiary); border-radius: 4px; color: var(--text-secondary);">${goal}</span>
+                  `).join('')}
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Initial Market Configuration -->
           <div class="module-section">
-            <h3 class="section-title">Initial Mission</h3>
-            <div class="strategic-card">
-              <blockquote style="font-size: 16px; font-style: italic; color: var(--text-secondary); border-left: 2px solid var(--accent-primary); padding-left: 16px; margin: 0 0 12px 0;">
-                "To become the preferred supplier of precision-engineered components for the European automotive industry through technical excellence and operational efficiency."
-              </blockquote>
-              <span style="font-size: 12px; color: var(--text-tertiary);">— Hans Mueller, Founding CEO</span>
+            <h3 class="section-title">Initial Market Configuration</h3>
+            <div class="market-config-grid">
+              <div class="market-config-card">
+                <span class="config-label">Target Segment</span>
+                <div class="config-value">${g.initialMarketConfiguration.targetSegment}</div>
+                <div class="config-detail">Primary: ${g.initialMarketConfiguration.customerProfile.primary}</div>
+                <div class="config-tags">
+                  <span class="config-tag">DACH Focus</span>
+                  <span class="config-tag">B2B Direct</span>
+                </div>
+              </div>
+              <div class="market-config-card">
+                <span class="config-label">Geographic Focus</span>
+                <div class="config-value">${g.initialMarketConfiguration.geographicFocus}</div>
+                <div class="config-detail">Addressable Market: ${g.initialMarketConfiguration.marketSizing.addressableMarket}</div>
+                <div class="config-tags">
+                  <span class="config-tag">Stuttgart Hub</span>
+                  <span class="config-tag">200km Radius</span>
+                </div>
+              </div>
+              <div class="market-config-card">
+                <span class="config-label">Product Category</span>
+                <div class="config-value">${g.initialMarketConfiguration.productCategory}</div>
+                <div class="config-detail">${g.initialMarketConfiguration.pricingStrategy}</div>
+                <div class="config-tags">
+                  <span class="config-tag">Premium Positioning</span>
+                  <span class="config-tag">Quality First</span>
+                </div>
+              </div>
+              <div class="market-config-card">
+                <span class="config-label">Go-to-Market Approach</span>
+                <div class="config-value" style="font-size: 14px;">Relationship-Driven</div>
+                <div class="config-detail">${g.initialMarketConfiguration.customerProfile.approach}</div>
+                <div class="config-tags">
+                  ${g.initialMarketConfiguration.goToMarket.slice(0,2).map(item => `
+                    <span class="config-tag">${item}</span>
+                  `).join('')}
+                </div>
+              </div>
             </div>
           </div>
 
+          <!-- Initial Technical System -->
           <div class="module-section">
-            <h3 class="section-title">Initial Market Focus</h3>
-            <div class="metrics-grid" style="grid-template-columns: repeat(4, 1fr);">
-              <div class="metric-card">
-                <span class="metric-label">Target Segment</span>
-                <span class="metric-value" style="font-size: 16px; margin-top: 8px; display: block;">Premium OEMs</span>
-              </div>
-              <div class="metric-card">
-                <span class="metric-label">Geographic Focus</span>
-                <span class="metric-value" style="font-size: 16px; margin-top: 8px; display: block;">DACH Region</span>
-              </div>
-              <div class="metric-card">
-                <span class="metric-label">Product Category</span>
-                <span class="metric-value" style="font-size: 16px; margin-top: 8px; display: block;">Precision Machined</span>
-              </div>
-              <div class="metric-card">
-                <span class="metric-label">Strategy</span>
-                <span class="metric-value" style="font-size: 16px; margin-top: 8px; display: block;">Quality Differentiation</span>
+            <h3 class="section-title">Initial Technical System</h3>
+            <div class="tech-system-timeline">
+              ${g.initialTechnicalSystem.technologyStack.map((layer, i) => `
+                <div class="tech-layer">
+                  <div class="tech-layer-header">
+                    <span class="tech-layer-name">${layer.layer}</span>
+                    <span class="tech-layer-status">${layer.status}</span>
+                  </div>
+                  <div class="tech-specs">
+                    ${layer.specifications.map(spec => `
+                      <div class="tech-spec">
+                        <div class="spec-name">${spec.name}</div>
+                        <div class="spec-value">${spec.value}</div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+            <div style="margin-top: 16px; padding: 16px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                  <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Core Technology</span>
+                  <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-top: 4px;">${g.initialTechnicalSystem.coreTechnology}</div>
+                </div>
+                <div>
+                  <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Technology Partner</span>
+                  <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-top: 4px;">${g.initialTechnicalSystem.technologyPartner}</div>
+                </div>
+                <div>
+                  <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Initial Capacity</span>
+                  <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-top: 4px;">${g.initialTechnicalSystem.capacityUtilization}</div>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Initial Product Portfolio -->
+          <div class="module-section">
+            <h3 class="section-title">Initial Product Portfolio</h3>
+            <div class="product-portfolio-grid">
+              ${g.initialProductPortfolio.products.map(product => `
+                <div class="product-card">
+                  <div class="product-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                  </div>
+                  <div class="product-name">${product.name}</div>
+                  <div class="product-category">${product.category}</div>
+                  <div class="product-desc">${product.description}</div>
+                  <div style="font-size: 11px; color: var(--text-tertiary); margin-bottom: 12px; font-family: var(--font-mono);">${product.specifications}</div>
+                  <div class="product-metrics">
+                    <div class="product-metric">
+                      <span class="product-metric-label">Revenue Target</span>
+                      <span class="product-metric-value">${product.initialRevenue}</span>
+                    </div>
+                    <div class="product-metric">
+                      <span class="product-metric-label">Status</span>
+                      <span class="product-metric-value" style="color: ${product.status === 'Development' ? 'var(--data-amber)' : 'var(--accent-primary)'};">${product.status}</span>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Organizational Architecture -->
+          <div class="module-section">
+            <h3 class="section-title">Organizational Architecture</h3>
+            <div class="org-architecture">
+              <div class="org-header-row">
+                <div class="org-metric">
+                  <div class="org-metric-value">${g.organizationalArchitecture.employeeCount}</div>
+                  <div class="org-metric-label">Initial Employees</div>
+                </div>
+                <div class="org-metric">
+                  <div class="org-metric-value">${g.organizationalArchitecture.departments.length}</div>
+                  <div class="org-metric-label">Departments</div>
+                </div>
+                <div class="org-metric">
+                  <div class="org-metric-value">3</div>
+                  <div class="org-metric-label">C-Level Executives</div>
+                </div>
+                <div class="org-metric">
+                  <div class="org-metric-value">Flat</div>
+                  <div class="org-metric-label">Structure Type</div>
+                </div>
+              </div>
+              ${g.organizationalArchitecture.departments.map((dept, i) => `
+                <div class="org-level">
+                  <div class="org-level-label">${dept.name} (${dept.headcount})</div>
+                  <div class="org-units">
+                    ${dept.functions.map((func, j) => `
+                      <span class="org-unit ${i === 0 ? 'primary' : i === 1 ? 'secondary' : ''}">${func}</span>
+                    `).join('')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+            <div style="margin-top: 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+              <div style="padding: 16px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);">
+                <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Decision Making</span>
+                <div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px; line-height: 1.5;">${g.organizationalArchitecture.decisionMaking}</div>
+              </div>
+              <div style="padding: 16px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);">
+                <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Culture</span>
+                <div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px; line-height: 1.5;">${g.organizationalArchitecture.culture}</div>
+              </div>
+              <div style="padding: 16px; background: var(--bg-secondary); border-radius: 8px; border: 1px solid rgba(255,255,255,0.04);">
+                <span style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em;">Hiring Approach</span>
+                <div style="font-size: 13px; color: var(--text-secondary); margin-top: 8px; line-height: 1.5;">${g.organizationalArchitecture.hiringApproach}</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Initial Capital -->
+          <div class="module-section">
+            <h3 class="section-title">Initial Capital Structure</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+              <div style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Capital Sources — ${g.initialCapital.totalCapital}</div>
+                ${g.initialCapital.breakdown.map(source => `
+                  <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.04);">
+                    <div>
+                      <div style="font-size: 13px; font-weight: 500; color: var(--text-primary);">${source.source}</div>
+                      <div style="font-size: 11px; color: var(--text-tertiary); font-family: var(--font-mono);">${source.amount}</div>
+                    </div>
+                    <div style="font-size: 16px; font-weight: 700; color: var(--accent-primary); font-family: var(--font-mono);">${source.percentage}%</div>
+                  </div>
+                `).join('')}
+              </div>
+              <div style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px;">Use of Funds</div>
+                ${g.initialCapital.useOfFunds.map(use => `
+                  <div style="margin-bottom: 12px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+                      <span style="font-size: 12px; color: var(--text-secondary);">${use.category}</span>
+                      <span style="font-size: 12px; color: var(--text-tertiary); font-family: var(--font-mono);">${use.amount}</span>
+                    </div>
+                    <div style="height: 6px; background: var(--bg-tertiary); border-radius: 3px; overflow: hidden;">
+                      <div style="height: 100%; width: ${use.percentage}%; background: linear-gradient(90deg, var(--accent-primary), var(--data-cyan)); border-radius: 3px;"></div>
+                    </div>
+                  </div>
+                `).join('')}
+                <div style="display: flex; justify-content: space-between; margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.06);">
+                  <span style="font-size: 11px; color: var(--text-tertiary);">Monthly Burn Rate</span>
+                  <span style="font-size: 12px; color: var(--accent-warning); font-family: var(--font-mono);">${g.initialCapital.burnRate}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Founding Context Details -->
+          <div class="module-section">
+            <h3 class="section-title">Founding Context</h3>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+              <div style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">Macro Conditions</div>
+                <ul style="margin: 0; padding: 0; list-style: none;">
+                  ${g.foundingContext.macroConditions.map(condition => `
+                    <li style="display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
+                      <span style="color: var(--accent-primary); margin-top: 2px;">•</span>
+                      ${condition}
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+              <div style="background: var(--bg-secondary); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">Industry Dynamics</div>
+                <ul style="margin: 0; padding: 0; list-style: none;">
+                  ${g.foundingContext.industryDynamics.map(dynamic => `
+                    <li style="display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
+                      <span style="color: var(--data-violet); margin-top: 2px;">•</span>
+                      ${dynamic}
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+            </div>
+            <div style="margin-top: 16px; padding: 16px; background: linear-gradient(135deg, rgba(252, 211, 77, 0.1), rgba(167, 139, 250, 0.05)); border-radius: 8px; border: 1px solid rgba(252, 211, 77, 0.2);">
+              <div style="font-size: 11px; color: var(--data-amber); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">Catalyst Event</div>
+              <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.6;">${g.foundingContext.catalystEvent}</div>
+            </div>
+          </div>
+
         </section>
       `;
     }
 
+    // Technical Module
     function renderTechnicalModule() {
       return `
         <section class="intel-module active" data-module="technical-profile">
@@ -2231,28 +2721,11 @@
               `).join('')}
             </div>
           </div>
-
-          <div class="module-section">
-            <h3 class="section-title">Key Technical Assets</h3>
-            <div class="metrics-grid">
-              ${[
-                { label: 'Production Facilities', value: '14 Plants', detail: '8 countries, 2.4M sq ft' },
-                { label: 'Equipment Base', value: '€890M', detail: 'Avg. age 6.2 years' },
-                { label: 'Patent Portfolio', value: '247 Active', detail: '62 filed in last 3 years' },
-                { label: 'Certifications', value: 'IATF 16949', detail: 'ISO 14001, ISO 45001' }
-              ].map(asset => `
-                <div class="metric-card">
-                  <span class="metric-label">${asset.label}</span>
-                  <span class="metric-value" style="font-size: 20px; margin: 8px 0; display: block;">${asset.value}</span>
-                  <span style="font-size: 11px; color: var(--text-tertiary);">${asset.detail}</span>
-                </div>
-              `).join('')}
-            </div>
-          </div>
         </section>
       `;
     }
 
+    // Products Module
     function renderProductsModule() {
       return `
         <section class="intel-module active" data-module="product-catalog">
@@ -2297,6 +2770,7 @@
       `;
     }
 
+    // Organization Module
     function renderOrganizationModule() {
       return `
         <section class="intel-module active" data-module="org-structure">
@@ -2333,6 +2807,7 @@
       `;
     }
 
+    // Capital Module
     function renderCapitalModule() {
       return `
         <section class="intel-module active" data-module="capital-structure">
@@ -2363,82 +2838,16 @@
               </div>
             </div>
           </div>
-
-          <div class="module-section">
-            <h3 class="section-title">Key Financial Metrics</h3>
-            <div class="metrics-grid">
-              ${[
-                { label: 'Shares Outstanding', value: '42.8M' },
-                { label: 'Share Price', value: '€121.45' },
-                { label: 'Market Cap', value: '€5.2B' },
-                { label: 'P/E Ratio', value: '14.2x' }
-              ].map(metric => `
-                <div class="metric-card">
-                  <span class="metric-label">${metric.label}</span>
-                  <span class="metric-value" style="font-size: 20px; margin-top: 8px; display: block;">${metric.value}</span>
-                </div>
-              `).join('')}
-            </div>
-          </div>
         </section>
       `;
     }
 
+    // Capabilities Module
     function renderCapabilitiesModule() {
       return `
         <section class="intel-module active" data-module="capability-profile">
           <div class="module-section">
             <h3 class="section-title">Capability Assessment</h3>
-            <div class="capability-radar">
-              <div class="radar-chart">
-                <svg class="radar-svg" viewBox="0 0 300 300">
-                  <!-- Background hexagons -->
-                  ${[0.2, 0.4, 0.6, 0.8, 1].map(scale => `
-                    <polygon 
-                      points="${generateHexagonPoints(150, 150, 100 * scale)}"
-                      fill="none" 
-                      stroke="rgba(255,255,255,0.06)" 
-                      stroke-width="1"
-                    />
-                  `).join('')}
-                  <!-- Axis lines -->
-                  ${generateHexagonPoints(150, 150, 100).split(' ').map((point, i) => {
-                    const [x, y] = point.split(',');
-                    return `<line x1="150" y1="150" x2="${x}" y2="${y}" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
-                  }).join('')}
-                  <!-- Data polygon -->
-                  <polygon 
-                    points="${generateDataPolygon(150, 150, [85, 72, 68, 65, 58, 70])}"
-                    fill="rgba(79, 158, 255, 0.2)" 
-                    stroke="var(--accent-primary)" 
-                    stroke-width="2"
-                  />
-                  <!-- Data points -->
-                  ${generateDataPolygon(150, 150, [85, 72, 68, 65, 58, 70]).split(' ').map(point => {
-                    const [x, y] = point.split(',');
-                    return `<circle cx="${x}" cy="${y}" r="4" fill="var(--accent-primary)"/>`;
-                  }).join('')}
-                </svg>
-              </div>
-              <div class="radar-legend">
-                <div class="legend-item">
-                  <span class="legend-color firm"></span>
-                  <span class="legend-label">Firm Capability</span>
-                </div>
-                <div class="legend-item">
-                  <span class="legend-color industry"></span>
-                  <span class="legend-label">Industry Average</span>
-                </div>
-                <div class="legend-item">
-                  <span class="legend-color leader"></span>
-                  <span class="legend-label">Industry Leader</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="module-section">
-            <h3 class="section-title">Capability Dimensions</h3>
             <div class="dimensions-grid">
               ${capabilitiesData.map(cap => `
                 <div class="dimension-card">
@@ -2474,6 +2883,7 @@
       `;
     }
 
+    // Tech Evolution Module
     function renderTechEvolutionModule() {
       return `
         <section class="intel-module active" data-module="technical-evolution">
@@ -2491,7 +2901,7 @@
                 </div>
                 <div class="track-events">
                   ${evolutionEvents.map(event => `
-                    <div class="event-node" style="--position: ${event.position}%; left: ${event.position}%;">
+                    <div class="event-node" style="left: ${event.position}%;">
                       <div class="node-marker"></div>
                       <div class="node-card">
                         <span class="node-year">${event.year}</span>
@@ -2507,7 +2917,7 @@
 
           <div class="module-section">
             <h3 class="section-title">Detected Structural Changes</h3>
-            <div class="intelligence-alerts">
+            <div class="alerts-list">
               ${alertsData.map(alert => `
                 <div class="alert-card" data-severity="${alert.severity}">
                   <div class="alert-indicator"></div>
@@ -2529,6 +2939,7 @@
       `;
     }
 
+    // Industry Module
     function renderIndustryModule() {
       return `
         <section class="intel-module active" data-module="industry-profile">
@@ -2548,43 +2959,11 @@
               `).join('')}
             </div>
           </div>
-
-          <div class="module-section">
-            <h3 class="section-title">Competitive Landscape</h3>
-            <div style="background: var(--bg-secondary); border-radius: 10px; padding: 20px;">
-              <table class="intel-table">
-                <thead>
-                  <tr>
-                    <th>Competitor</th>
-                    <th>Revenue</th>
-                    <th>Market Share</th>
-                    <th>Main Segments</th>
-                    <th>Position</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${[
-                    { name: 'Bosch', revenue: '€52.6B', share: '8.2%', segments: 'Powertrain, Electronics', position: 'Leader' },
-                    { name: 'Continental', revenue: '€37.7B', share: '6.8%', segments: 'Tires, Electronics', position: 'Leader' },
-                    { name: 'ZF Group', revenue: '€43.4B', share: '5.1%', segments: 'Powertrain, Chassis', position: 'Challenger' },
-                    { name: 'Acme Industries', revenue: '€4.2B', share: '1.4%', segments: 'Powertrain, Chassis', position: 'Niche', isCurrent: true }
-                  ].map(comp => `
-                    <tr ${comp.isCurrent ? 'style="background: rgba(79, 158, 255, 0.08);"' : ''}>
-                      <td style="font-weight: 500; color: var(--text-primary);">${comp.name}</td>
-                      <td>${comp.revenue}</td>
-                      <td style="font-family: var(--font-mono);">${comp.share}</td>
-                      <td>${comp.segments}</td>
-                      <td><span class="stage-badge ${comp.position === 'Leader' ? 'growth' : comp.position === 'Challenger' ? 'emerging' : 'mature'}">${comp.position}</span></td>
-                    </tr>
-                  `).join('')}
-                </tbody>
-              </table>
-            </div>
-          </div>
         </section>
       `;
     }
 
+    // Markets Module
     function renderMarketsModule() {
       return `
         <section class="intel-module active" data-module="market-profile">
@@ -2595,48 +2974,6 @@
                 <span class="metric-value" style="font-size: 36px; display: block;">$180B</span>
                 <span style="font-size: 12px; color: var(--text-tertiary);">Served Markets</span>
               </div>
-              <div style="flex: 1; display: flex; gap: 4px; height: 120px;">
-                ${[
-                  { pct: 38, color: 'var(--data-cyan)' },
-                  { pct: 28, color: 'var(--data-violet)' },
-                  { pct: 18, color: 'var(--data-emerald)' },
-                  { pct: 12, color: 'var(--data-amber)' },
-                  { pct: 4, color: 'var(--data-slate)' }
-                ].map((seg, i) => `
-                  <div style="flex: ${seg.pct}; background: ${seg.color}; opacity: ${0.4 + (i * 0.12)}; border-radius: 4px;"></div>
-                `).join('')}
-              </div>
-            </div>
-          </div>
-
-          <div class="module-section">
-            <h3 class="section-title">Geographic Markets</h3>
-            <div class="regions-list">
-              ${[
-                { flag: 'EU', name: 'Europe', type: 'Primary Market', size: '$68B', revenue: '€1.9B', share: '2.8%', typeClass: 'primary' },
-                { flag: 'US', name: 'North America', type: 'Secondary Market', size: '$72B', revenue: '€760M', share: '1.1%', typeClass: 'secondary' },
-                { flag: 'CN', name: 'Asia Pacific', type: 'Growth Market', size: '$35B', revenue: '€85M', share: '0.2%', typeClass: 'growth' }
-              ].map(market => `
-                <div class="region-item" style="grid-template-columns: 32px 1fr 1fr 1fr 80px;">
-                  <span class="region-flag">${getFlagEmoji(market.flag)}</span>
-                  <div>
-                    <span class="region-name">${market.name}</span>
-                    <span class="region-coverage" style="color: var(--accent-${market.typeClass === 'primary' ? 'primary' : market.typeClass === 'growth' ? 'success' : 'info'});">${market.type}</span>
-                  </div>
-                  <div style="text-align: center;">
-                    <span style="font-size: 10px; color: var(--text-tertiary);">Market Size</span>
-                    <span style="display: block; font-family: var(--font-mono); color: var(--text-secondary);">${market.size}</span>
-                  </div>
-                  <div style="text-align: center;">
-                    <span style="font-size: 10px; color: var(--text-tertiary);">Firm Revenue</span>
-                    <span style="display: block; font-family: var(--font-mono); color: var(--text-secondary);">${market.revenue}</span>
-                  </div>
-                  <div style="text-align: right;">
-                    <span style="font-size: 10px; color: var(--text-tertiary);">Share</span>
-                    <span style="display: block; font-family: var(--font-mono); color: var(--text-primary); font-weight: 600;">${market.share}</span>
-                  </div>
-                </div>
-              `).join('')}
             </div>
           </div>
         </section>
@@ -2645,39 +2982,8 @@
 
     // Utility Functions
     function getFlagEmoji(code) {
-      const flags = {
-        'DE': 'DE',
-        'FR': 'FR',
-        'US': 'US',
-        'CN': 'CN',
-        'GB': 'UK',
-        'EU': 'EU'
-      };
+      const flags = { 'DE': 'DE', 'FR': 'FR', 'US': 'US', 'CN': 'CN', 'GB': 'UK', 'EU': 'EU' };
       return `<span style="font-weight: 600; color: var(--text-tertiary); font-size: 12px;">${flags[code] || code}</span>`;
-    }
-
-    function generateHexagonPoints(cx, cy, r) {
-      const points = [];
-      for (let i = 0; i < 6; i++) {
-        const angle = (Math.PI / 3) * i - Math.PI / 2;
-        const x = cx + r * Math.cos(angle);
-        const y = cy + r * Math.sin(angle);
-        points.push(`${x},${y}`);
-      }
-      return points.join(' ');
-    }
-
-    function generateDataPolygon(cx, cy, values) {
-      const points = [];
-      const maxR = 100;
-      for (let i = 0; i < 6; i++) {
-        const angle = (Math.PI / 3) * i - Math.PI / 2;
-        const r = (values[i] / 100) * maxR;
-        const x = cx + r * Math.cos(angle);
-        const y = cy + r * Math.sin(angle);
-        points.push(`${x},${y}`);
-      }
-      return points.join(' ');
     }
 
     // Timeline
@@ -2687,7 +2993,6 @@
       let isDragging = false;
 
       handle.addEventListener('mousedown', () => { isDragging = true; });
-      
       document.addEventListener('mouseup', () => { isDragging = false; });
       
       track.addEventListener('click', (e) => {
@@ -2721,7 +3026,6 @@
 
     // Animations
     function initializeAnimations() {
-      // Intersection Observer for scroll animations
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
@@ -2730,12 +3034,11 @@
         });
       }, { threshold: 0.1 });
 
-      document.querySelectorAll('.metric-card, .category-card, .dimension-card, .alert-card').forEach(el => {
+      document.querySelectorAll('.metric-card, .category-card, .dimension-card, .alert-card, .founder-card, .product-card, .market-config-card, .tech-layer').forEach(el => {
         observer.observe(el);
       });
 
-      // Staggered entrance
-      const cards = document.querySelectorAll('.metric-card, .category-card');
+      const cards = document.querySelectorAll('.metric-card, .category-card, .founder-card, .product-card');
       cards.forEach((card, i) => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(20px)';
@@ -2743,7 +3046,7 @@
           card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
           card.style.opacity = '1';
           card.style.transform = 'translateY(0)';
-        }, i * 80);
+        }, i * 60);
       });
     }
 
