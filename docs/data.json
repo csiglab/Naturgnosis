@@ -20546,6 +20546,21 @@
       "desc": "China Unicom is one of the major state-owned telecommunications operators in China, providing mobile, broadband, and other network services nationwide.",
       "link": "https://www.chinaunicom.com.cn/",
       "icon": "📡"
+    },
+    {
+      "id": 1450,
+      "name": "Policy Coordination Body",
+      "categories": [
+        "Interagency Council",
+        "Executive Branch Organization",
+        "Advisory Body"
+      ],
+      "tags": [
+        "type"
+      ],
+      "desc": "A Policy Coordination Body is an organization, typically within the Executive Branch of the U.S. government, that brings together officials from multiple agencies to coordinate, develop, and advise on policy in a specific domain. These bodies are primarily advisory and focus on ensuring coherent and consistent policy implementation across departments. Examples include the National Security Council (NSC), Domestic Policy Council (DPC), and National Economic Council (NEC).",
+      "link": "https://github.com/csiglab/research-OntologiaSocialis",
+      "icon": "🗂️"
     }
   ]
 }
