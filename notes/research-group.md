@@ -1,4 +1,4 @@
-# Research Groups
+# Research Group
 
 **"Research Groups"** as **quasi-firms** refer to the concept where research groups within academic institutions or other organizations operate similarly to firms. They exhibit characteristics such as:
 

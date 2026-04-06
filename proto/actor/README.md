@@ -1,3 +1,3 @@
-# Actor Type Template & Templates for Each Actor Type
+# Actor Type Template
 
-> ...
+> That is a template for each author.
