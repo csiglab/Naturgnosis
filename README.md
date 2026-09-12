@@ -2,7 +2,7 @@
 
 > **Naturgnosis** aims to identify and formalize the set of epistemic elements that enable an agent to effectively navigate (undertanding and action) reality - specally social.
 
-> **Naturgnosis** will serve as the main index of the world’s **technique** and **episteme**, while **Epistemica** will focus on what man intentionally pursues through deep study and some level of mastery, specifically for **@dbremont**.
+> **Naturgnosis** will serve as the main index of the world’s **technique** and **episteme**, while **Epistecnica** will focus on what man intentionally pursues through deep study and some level of mastery, specifically for **@dbremont**.
 
 
 Goals:
