@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "🇺🇾 Uruguay",
+    "flagEmoji": "🇺🇾",
+    "breadcrumbName": "Uruguay"
+  },
+  "identity": {
+    "category": "Country",
+    "name": "Uruguay",
+    "nativeName": "República Oriental del Uruguay",
+    "tags": [
+      "South America",
+      "Mercosur",
+      "Upper-Middle-Income",
+      "Agro-Export",
+      "Renewable Energy",
+      "Presidential Republic"
+    ]
+  },
+  "definition": {
+    "text": "Uruguay is a sovereign presidential republic in South America located between Brazil and Argentina along the Atlantic coast. Historically shaped by livestock-based exports and early welfare-state development, it has evolved into a relatively stable democracy with strong institutions, diversified agricultural exports, growing services sectors, and a high share of renewable energy generation in its electricity matrix."
+  },
+  "statistics": [
+    {
+      "id": "population",
+      "value": "3.5 million",
+      "label": "Population (approx.)",
+      "hasIndicator": true,
+      "indicatorValue": 3500000
+    },
+    {
+      "id": "gdp_nominal",
+      "value": "USD 80 billion",
+      "label": "GDP (Nominal, approx.)",
+      "hasIndicator": true,
+      "indicatorValue": 80000000000
+    },
+    {
+      "id": "area",
+      "value": "176,215 km²",
+      "label": "Total Area",
+      "hasIndicator": true,
+      "indicatorValue": 176215
+    },
+    {
+      "id": "capital",
+      "value": "Montevideo",
+      "label": "Capital City",
+      "hasIndicator": false
+    },
+    {
+      "id": "government_type",
+      "value": "Presidential Republic",
+      "label": "System of Government",
+      "hasIndicator": false
+    }
+  ],
+  "works": [
+    {
+      "id": "actor_set_evolution",
+      "type": "Temporal",
+      "status": "pending",
+      "title": "Actor Set Evolution of Uruguay",
+      "description": "Temporal mapping of Uruguay’s actor space from 19th-century state formation and livestock oligarchies to welfare-state consolidation, military rule, democratic restoration, and contemporary regulatory institutions.",      "link": null
+    },
+    {
+      "id": "agro_export_network",
+      "type": "Network",
+      "status": "pending",
+      "title": "Agro-Export and Energy Network Structure",
+      "description": "Network analysis of beef, soy, forestry, and cellulose exports, alongside renewable energy infrastructure and integration into Mercosur trade flows.",
+      "link": null
+    },
+    {
+      "id": "regional_spatial_structure",
+      "type": "Spatial",
+      "status": "pending",
+      "title": "Regional Spatial-Administrative Structure",
+      "description": "Geospatial representation of departments, agricultural zones, port infrastructure, and population concentration patterns.",
+      "link": null
+    }
+  ],
+  "footer": {
+    "entityCode": "URY",
+    "region": "Latin America & Caribbean",
+    "lastRevised": "2026-02-15",
+    "links": [
+      { "label": "About", "href": "../about.html" },
+      { "label": "Methodology", "href": "../methodology.html" },
+      { "label": "Contact", "href": "../contact.html" }
+    ]
+  }
+}

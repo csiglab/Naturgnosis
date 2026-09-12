@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "🇦🇷 Argentina",
+    "flagEmoji": "🇦🇷",
+    "breadcrumbName": "Argentina"
+  },
+  "identity": {
+    "category": "Regio Socialis · Collectio",
+    "name": "Argentina",
+    "nativeName": "República Argentina",
+    "tags": ["Sovereign State", "Federal Republic", "South America"]
+  },
+  "definition": {
+    "text": "A federal presidential republic and the second-largest country in South America. Defined by its immigrant heritage, complex federal structure, and oscillation between developmentalist and neoliberal economic models."
+  },
+  "statistics": [
+    {
+      "id": "iso",
+      "value": "ARG",
+      "label": "ISO Code",
+      "hasIndicator": false
+    },
+    {
+      "id": "population",
+      "value": "46M",
+      "label": "Population",
+      "hasIndicator": true,
+      "indicatorValue": 65
+    },
+    {
+      "id": "independence",
+      "value": "1816",
+      "label": "Independence",
+      "hasIndicator": false
+    },
+    {
+      "id": "area",
+      "value": "2.8M",
+      "label": "Area km²",
+      "hasIndicator": true,
+      "indicatorValue": 33
+    }
+  ],
+  "works": [
+    {
+      "id": "actor-evolution",
+      "type": "Temporal",
+      "status": "pending",
+      "title": "Actor Set Evolution",
+      "description": "From Viceroyalty to Confederation and Peronist era transitions, 1816 to present.",
+      "link": null
+    },
+    {
+      "id": "institutional-map",
+      "type": "Spatial",
+      "status": "pending",
+      "title": "Institutional Map",
+      "description": "Province and autonomous city distribution across the federal structure.",
+      "link": null
+    },
+    {
+      "id": "inter-agency-graph",
+      "type": "Network",
+      "status": "pending",
+      "title": "Inter-Agency Graph",
+      "description": "Federal-provincial fiscal relations and co-participation dynamics.",
+      "link": null
+    }
+  ],
+  "footer": {
+    "entityCode": "ARG-001",
+    "region": "South America",
+    "lastRevised": "2025-01-16",
+    "links": [
+      { "label": "About", "href": "../about.html" },
+      { "label": "Methodology", "href": "../methodology.html" },
+      { "label": "Contact", "href": "../contact.html" }
+    ]
+  }
+}

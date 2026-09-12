@@ -1,8 +1,8 @@
-# Global Theme — Sociognosis Design System
+# Global Theme — Naturgnosis Design System
 
-> The shared visual language for every Sociognosis surface. It is a dark, scholarly, *"Oxford Common Room"* aesthetic: a deep indigo-black canvas, warm gilt (copper) bookbinding edges, parchment text, and a muted Senior Common Room palette for categorical color.
+> The shared visual language for every Naturgnosis surface. It is a dark, scholarly, *"Oxford Common Room"* aesthetic: a deep indigo-black canvas, warm gilt (copper) bookbinding edges, parchment text, and a muted Senior Common Room palette for categorical color.
 
-**Source of truth:** [`docs/idx/index.html`](../../docs/idx/index.html) (`:root` token block, lines ~13–65). `docs/idx/edit.html` shares the same tokens; both must stay in sync. Any new page or component **must** derive its styling from the tokens below, never from one-off colors.
+**Source of truth:** [`app/shared/theme.css`](../../app/shared/theme.css). The graph modules (`app/social/web/`, `app/production/web/`) keep an identical inline `:root` block; all three must stay in sync. Any new page or component **must** link `theme.css` (or copy the canonical token block), never use one-off colors.
 
 ## Design Principles
 
@@ -69,7 +69,7 @@ Accent usage at low alpha is idiomatic — e.g. focus ring `0 0 0 3px rgba(201,1
 
 ### Categorical palette — "Senior Common Room"
 
-Twelve muted scholarly tones (~10–25% saturation, 20–35% lightness). Categories map **deterministically** to these via an FNV-1a hash of the category name (see `categoryColorIndex` in `docs/idx/index.html`), so colors are stable across reloads and decoupled from the fixed category list.
+Twelve muted scholarly tones (~10–25% saturation, 20–35% lightness). Categories map **deterministically** to these via an FNV-1a hash of the category name (see `categoryColorIndex` in `app/social/web/index.html`), so colors are stable across reloads and decoupled from the fixed category list.
 
 | # | Hex | Name | Visual reference |
 | --- | --- | --- | --- |
@@ -212,9 +212,28 @@ All motion collapses to `0.01ms` under `@media (prefers-reduced-motion: reduce)`
 - **ARIA:** detail panel is `aria-live="polite"`; modals are `role="dialog"` with `aria-label`; icon-only buttons carry `aria-label` and `title`.
 - **Keyboard:** `F` fits view, `S` opens stats; canvas supports pan/zoom; tab order follows the visual order.
 
+## Index Gentium theme variant (Nation Space)
+
+The Nation Space catalog (`app/nation/web/`) is a **faithful port** of the Index Gentium
+(research-CountryIndex) pages: the source stylesheet and Tailwind configuration are carried over
+verbatim (light-first institutional theme + dark toggle), with only branding and data-source
+adaptations. It is an explicitly created variant, intentionally different from the Oxford Common
+Room canvas above.
+
+- **Palettes** — light `--bg #FAFBFC / --fg #1E293B / --accent #4A6FA5`, dark `--bg #0D1926 /
+  --fg #E8EDF3 / --accent #6B9BD1` (plus card/border/footer tokens, inline in the nation pages).
+- **Engine** — `cdn.tailwindcss.com` + the source's utility classes (fidelity first). This is a
+  view-time internet dependency, exactly as the source project ships; vendor a prebuilt CSS copy
+  if offline rendering is ever required.
+- **Typography** — Cormorant Garamond / Inter / JetBrains Mono (same three voices as the Oxford
+  system).
+- Theme choice persists per browser (`localStorage: naturgnosis-nation-theme`).
+
 ## Canonical token block
 
-Copy verbatim into any new page's `:root`. This is the single source; do not introduce variants.
+New pages link [`app/shared/theme.css`](../../app/shared/theme.css) directly — do not copy tokens.
+The block below is the canonical `:root` (identical to `theme.css` and to the inline blocks in the
+graph modules). This is the single source; do not introduce variants.
 
 ```css
 :root {
@@ -261,7 +280,7 @@ Copy verbatim into any new page's `:root`. This is the single source; do not int
 }
 ```
 
-Categorical palette (JS array, see `COMMUNITY_COLORS` in `docs/idx/index.html`):
+Categorical palette (JS array, see `COMMUNITY_COLORS` in `app/social/web/index.html`):
 
 ```js
 const COMMUNITY_COLORS = [
@@ -277,5 +296,5 @@ const FALLBACK_COLOR = COMMUNITY_COLORS[8]; // charcoal
 2. **Copper is rationed.** Reserve `--accent-copper` for focus, selection, active, eyebrows, and gilt edges. Use sage/plum/rose/cyan for their semantic roles. Do not copper-tint arbitrary decoration.
 3. **Category color is computed, not chosen.** Always derive categorical color via the `categoryColorIndex` hash → `COMMUNITY_COLORS` lookup. Never hand-assign category colors.
 4. **Depth by shadow, not glow.** Matte velvet nodes; graphite threads; dark mask shadows behind labels. The only permitted "glow" is the copper time-fill and the copper-bleed box-shadow on elevated containers.
-5. **Keep pages in sync.** `index.html` and `edit.html` render identically by importing the shared renderer (`docs/idx/vendor/socio-graph.js`) and the same `:root`. Any token change must be applied to **both** HTML files (and any future page) simultaneously.
+5. **Keep pages in sync.** `index.html` and `edit.html` render identically by importing the shared renderer (`app/social/web/vendor/socio-graph.js`) and the same `:root`. Any token change must be applied to **both** HTML files (and any future page) simultaneously.
 6. **Verify contrast.** Before merging a new text/background pairing, confirm ≥ 4.5:1 (AA) for body, ≥ 3:1 for large display text.

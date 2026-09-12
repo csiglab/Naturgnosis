@@ -28,10 +28,11 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
+          file: deploy/Dockerfile
           push: true
           tags: |
-            ghcr.io/csiglab/sociognosis:${{ github.sha }}
-            ghcr.io/csiglab/sociognosis:latest
+            ghcr.io/csiglab/naturgnosis:${{ github.sha }}
+            ghcr.io/csiglab/naturgnosis:latest
 
 #  deploy:
 #    name: Deploy to server
@@ -45,5 +46,5 @@ jobs:
 #          username: ${{ secrets.SERVER_USER }}
 #          key: ${{ secrets.SERVER_SSH_KEY }}
 #          script: |
-#            cd /opt/sociognosis
-#            ./deploy.sh
+#            cd /opt/naturgnosis
+#            ./deploy/deploy_server.sh

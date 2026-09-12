@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 *.log
 .env
+.venv/
+venv/
+.DS_Store

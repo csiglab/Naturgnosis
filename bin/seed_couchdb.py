@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Seed CouchDB from the dataset files under docs/data/<dataset>/data.json.
+Seed CouchDB from the dataset files under app/<module>/data/data.json.
 
-Loads every dataset (e.g. 'idx' and 'prd') into the CouchDB database, one
-document per node with ids namespaced as '{dataset}:{node_id}'. Idempotent:
-re-running updates existing docs and inserts missing ones. The data.json
-files stay in place — they are NOT deleted.
+Loads every module dataset (e.g. 'social', 'production', 'phrases') into the
+CouchDB database, one document per node with ids namespaced as
+'{dataset}:{node_id}'. Idempotent: re-running updates existing docs and
+inserts missing ones. The data.json files stay in place — they are NOT deleted.
 
     python bin/seed_couchdb.py
-    python bin/seed_couchdb.py --docs-root docs --dataset idx
+    python bin/seed_couchdb.py --app-root app --dataset social
 """
 
 import argparse
@@ -26,18 +26,18 @@ def main(argv=None):
     p = argparse.ArgumentParser(prog="seed_couchdb.py")
     here = Path(__file__).resolve().parent
     repo = here.parent
-    p.add_argument("--docs-root", default=str(repo / "docs"))
+    p.add_argument("--app-root", default=str(repo / "app"))
     p.add_argument(
         "--dataset",
         default=None,
-        help="Seed only this dataset (default: all datasets under docs/data/).",
+        help="Seed only this dataset (default: all module datasets under app/).",
     )
     args = p.parse_args(argv)
 
-    datasets = discover_datasets(args.docs_root)
+    datasets = discover_datasets(args.app_root)
     if not datasets:
         print(
-            f"ERROR: no datasets found under {args.docs_root}/data/*/data.json",
+            f"ERROR: no datasets found under {args.app_root}/*/data/data.json",
             file=sys.stderr,
         )
         return 1
@@ -53,7 +53,7 @@ def main(argv=None):
 
     couch = CouchClient(
         os.environ.get("COUCHDB_URL", "http://localhost:5984"),
-        os.environ.get("COUCHDB_DB", "sociognosis"),
+        os.environ.get("COUCHDB_DB", "naturgnosis"),
         user=os.environ.get("COUCHDB_USER"),
         password=os.environ.get("COUCHDB_PASSWORD"),
     )
@@ -77,9 +77,8 @@ def main(argv=None):
 
         nodes = [n for n in seed if isinstance(n, dict) and n.get("id")]
         if not nodes:
-            print(f"ERROR: no node records with an id in {data_file}",
+            print(f"WARNING: no nodes in {data_file} (empty scaffold); skipping",
                   file=sys.stderr)
-            failed = True
             continue
 
         try:

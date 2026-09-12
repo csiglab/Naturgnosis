@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturgnosis · Index of Technique &amp; Episteme</title>
+    <link rel="icon" href="/shared/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/shared/theme.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ---------------- Navbar ---------------- */
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(11, 14, 20, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-medium);
+        }
+
+        .nav-inner {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            min-height: 52px;
+        }
+
+        .nav .brand {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav .brand:hover {
+            text-decoration: none;
+            color: var(--accent-copper-light);
+        }
+
+        .page {
+            flex: 1;
+            width: 100%;
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 56px 32px 40px;
+        }
+
+        .masthead {
+            margin-bottom: 56px;
+        }
+
+        .masthead h1 {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 300;
+            font-size: 3rem;
+            color: var(--text-primary);
+            line-height: 1.1;
+            background: linear-gradient(90deg, var(--accent-copper), transparent) bottom left / 240px 1px no-repeat;
+            padding-bottom: 18px;
+        }
+
+        .masthead .lede {
+            margin-top: 22px;
+            max-width: 46em;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .masthead .lede em {
+            font-family: var(--font-display);
+            color: var(--parchment);
+        }
+
+        .registry {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 18px;
+        }
+
+        .module {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 22px 24px;
+            color: inherit;
+            text-decoration: none;
+            border-left: 2px solid rgba(201, 149, 108, 0.3);
+        }
+
+        .module:hover {
+            text-decoration: none;
+            border-left-color: var(--accent-copper);
+        }
+
+        .module .ng-eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            font-family: var(--font-mono);
+            font-style: normal;
+            font-size: 0.58rem;
+        }
+
+        .module h2 {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.45rem;
+            color: var(--text-primary);
+        }
+
+        .module p {
+            font-size: 0.76rem;
+            line-height: 1.55;
+            color: var(--text-secondary);
+        }
+
+        .module .links {
+            margin-top: auto;
+            padding-top: 10px;
+            display: flex;
+            gap: 14px;
+        }
+
+        .module .links span {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent-cyan);
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px 32px;
+            border-top: 1px solid var(--border-subtle);
+            max-width: 1080px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav" aria-label="Naturgnosis">
+        <div class="nav-inner">
+            <a class="brand" href="/">Naturgnosis</a>
+        </div>
+    </nav>
+
+    <main class="page">
+        <header class="masthead">
+            <p class="ng-eyebrow">Laboratorium · Research</p>
+            <h1>Naturgnosis</h1>
+            <p class="lede">
+                Naturgnosis identifies and formalizes the set of epistemic elements that enable an agent to
+                effectively navigate — <em>understanding and action</em> — reality, especially social reality.
+                It serves as the main index of the world's <em>technique</em> and <em>episteme</em>.
+                <a href="https://github.com/csiglab/Naturgnosis#epistecnica">Epistecnica</a>, its sibling,
+                records what is intentionally pursued through deep study and mastery — specifically for
+                @dbremont.
+            </p>
+        </header>
+
+        <section class="registry" aria-label="Module registry">
+            <a class="module ng-card" href="/social/">
+                <span class="ng-eyebrow">Module 01 · Main</span>
+                <h2>Social Space</h2>
+                <p>The ontic–agentic–epistemic elements that render social reality intelligible: actors,
+                    institutions, roles, norms, beliefs, relationships — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/production/">
+                <span class="ng-eyebrow">Module 02</span>
+                <h2>Production Space</h2>
+                <p>The production sphere rendered intelligible: techniques, products, firms, processes and the
+                    capabilities that bind them — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/research/">
+                <span class="ng-eyebrow">Module 03</span>
+                <h2>Research Space</h2>
+                <p>The world's research apparatus: public research institutes, laboratories, funding agencies,
+                    universities and their intersections — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/epistemica/">
+                <span class="ng-eyebrow">Module 04</span>
+                <h2>Epistemic Space</h2>
+                <p>The space of episteme: disciplines, fields, and bodies of knowledge that deep study
+                    and mastery can pursue — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/technique/">
+                <span class="ng-eyebrow">Module 05</span>
+                <h2>Technique Space</h2>
+                <p>Fine-grained technique: technical artifacts, engineering principles, methods and
+                    implementation details beneath the production layer — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/glossary/">
+                <span class="ng-eyebrow">Module 06</span>
+                <h2>Glossary</h2>
+                <p>Terms of art across episteme and technique: physical markdown notes with a generated entry
+                    index and full-text search.</p>
+                <div class="links"><span>Index</span><span>Search</span></div>
+            </a>
+
+            <a class="module ng-card" href="/phrases/">
+                <span class="ng-eyebrow">Module 07</span>
+                <h2>Phrases Catalog</h2>
+                <p>Aphorisms, proverbs and locutions worth keeping — a searchable catalog persisted as a
+                    CouchDB dataset.</p>
+                <div class="links"><span>Catalog</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/nation/">
+                <span class="ng-eyebrow">Module 08</span>
+                <h2>Nation Space</h2>
+                <p>A structured registry of sovereign systems — an illustrated index of nations with
+                    per-nation entries, in the Index Gentium grammar.</p>
+                <div class="links"><span>Index</span><span>Editor</span></div>
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span class="ng-caption">Naturgnosis · csiglab</span>
+        <span class="ng-caption"><a href="https://github.com/csiglab/Naturgnosis">source</a> ·
+            <a href="/api/health">status</a></span>
+    </footer>
+</body>
+
+</html>

@@ -1,83 +1,111 @@
 # Naturgnosis
 
-> **Naturgnosis** aims to identify and formalize the set of epistemic elements that enable an agent to effectively navigate (undertanding and action) reality - specally social.
+> **Naturgnosis** aims to identify and formalize the set of epistemic elements that enable an agent to
+> effectively navigate (understanding and action) reality — especially social reality.
 
-> **Naturgnosis** will serve as the main index of the world’s **technique** and **episteme**, while **Epistecnica** will focus on what man intentionally pursues through deep study and some level of mastery, specifically for **@dbremont**.
-
+> **Naturgnosis** will serve as the main index of the world's **technique** and **episteme**, while
+> **Epistecnica** will focus on what man intentionally pursues through deep study and some level of
+> mastery, specifically for **@dbremont**.
 
 Goals:
 
-- We aim to stabilize a generative system that produces a **Domain Epistemic Artifact Set (DESA)** representing social reality and rendering it intelligible as a structured domain of analysis and action.
-- We aim to study, **refine, and improve the underlying generative system** that produces and organizes the Domain Epistemic Artifact Set (DESA), with emphasis on consistency, expressiveness, and explanatory power.
-- We aim to connect the DESA to practical **activity systems**, such that epistemic artifacts are systematically linked to real-world actions, interventions, and decision-making processes within social domains.
+- We aim to stabilize a generative system that produces a **Domain Epistemic Artifact Set (DESA)**
+  representing social reality and rendering it intelligible as a structured domain of analysis and
+  action.
+- We aim to study, **refine, and improve the underlying generative system** that produces and
+  organizes the DESA, with emphasis on consistency, expressiveness, and explanatory power.
+- We aim to connect the DESA to practical **activity systems**, such that epistemic artifacts are
+  systematically linked to real-world actions, interventions, and decision-making processes within
+  social domains.
 
-Sub Projects:
+## Modules
 
-- Main: Social Space
-    - Space Explorer
-    - Node Editor
-- Product Space
-    - Space Explorer
-    - Node Editor
-- Research Space
-- Technique Space
-- Glosarry
+Every module is a complete app under `app/<module>/` (views + data + spec + AGENTS.md), served by one
+server (`bin/sync.py`) and shipped as one image.
 
-## Data Sync
+| Module | Route | Editor | Storage |
+| ------ | ----- | ------ | ------- |
+| Social Space (main) | `/social/` | `/social/edit.html` | CouchDB `dataset=social` + mirror |
+| Production Space | `/production/` | `/production/edit.html` | CouchDB `dataset=production` + mirror |
+| Research Space | `/research/` | `/research/edit.html` | CouchDB `dataset=research` + mirror |
+| Technique Space | `/technique/` | `/technique/edit.html` | CouchDB `dataset=technique` + mirror |
+| Glossary | `/glossary/` | — | Physical markdown (`app/glossary/entries/`) + generated index |
+| Phrases Catalog | `/phrases/` | `/phrases/edit.html` | CouchDB `dataset=phrases` + mirror |
 
-> Changes are stored on the server, which is not connected to GitHub. Therefore, you must download the latest data file before committing updates.
-
-```bash
-curl https://bremontix.xyz/lab/research/onto/data/idx/data.json --output docs/data/idx/data.json
-ga docs
-gc docs -m "feat: udpate data"
-```
+See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 
 ## Deployment
 
-The app is published as a Docker image on GHCR (`ghcr.io/csiglab/sociognosis:latest`), built automatically by GitHub Actions on every push to `main`.
+One image (`ghcr.io/csiglab/naturgnosis:latest`, built by GitHub Actions on push to `main`), two
+targets. **CouchDB is a persistent dependency of the execution environment — no workflow ever
+provisions, redeploys, or removes it.** Both targets only connect to it via `COUCHDB_*` variables
+and preflight-check it before deploying; see `deploy/README.md` for the full contract.
 
-### Prerequisites
+### Local
 
-- Docker
-- A running CouchDB instance (default: `http://127.0.0.1:5984`, published via port mapping)
-  - e.g. `docker run -d --name couchdb --restart unless-stopped -p 5984:5984 -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=admin -v couchdb-data:/opt/couchdb/data couchdb:3.5`
-  - Use a **named volume** (`couchdb-data`) — never an anonymous one — so data survives container recreation.
+```sh
+cp .env.example .env            # set COUCHDB_* credentials of the running CouchDB
+./deploy/deploy_local.sh
+```
 
-### Setup
+`deploy/deploy_local.sh` verifies CouchDB is reachable (clear failure log if not), builds and
+starts the app (compose, host network), and seeds all datasets. App: <http://localhost:8011/>.
+Override the port with `NATURGNOSIS_PORT`.
 
-1. Create a `.env` file in the repo root (read by the sync server):
+### Server
 
-   ```sh
-   COUCHDB_URL=http://127.0.0.1:5984
-   COUCHDB_DB=sociognosis
-   COUCHDB_USER=...
-   COUCHDB_PASSWORD=...
-   ```
+CouchDB must already run on the host; put credentials in a repo-root `.env`:
 
-2. Load the dataset data (`docs/data/idx/data.json` and `docs/data/prd/data.json`) into CouchDB:
+```sh
+COUCHDB_URL=http://127.0.0.1:5984
+COUCHDB_DB=naturgnosis
+COUCHDB_USER=...
+COUCHDB_PASSWORD=...
+```
 
-   ```sh
-   python3 bin/seed_couchdb.py
-   ```
+Then:
 
-3. Run `./deploy.sh` — it pulls the latest image from GHCR and starts the container with `--network host`, mounting `.env` into it.
+```sh
+./deploy/deploy_server.sh       # preflights CouchDB, pulls the GHCR image, runs with --network host on :8011
+```
 
-   The port defaults to **8011**; override with `SOCIOGNOSIS_PORT=<port> ./deploy.sh`.
+### Development
 
-### Usage
+```sh
+python bin/sync.py --no-couch   # offline: static serving only (API returns 503)
+python bin/sync.py              # full: needs CouchDB + .env
+make build                      # regenerate glossary index + graph layouts
+make seed                       # push mirrors into CouchDB
+```
 
-Once deployed, open <http://localhost:8011>.
+## Data Sync
 
-- App: `http://localhost:8011/index.html`
-- Editors: `http://localhost:8011/idx/edit.html`, `http://localhost:8011/prd/edit.html`
-- Health check: `GET http://localhost:8011/api/health`
-- Graph load endpoint: `GET http://localhost:8011/api/graph?dataset=idx|prd`
-- Graph save endpoint (set in editor Settings → "Backend Sync" → "Backend Save URL"): `POST http://localhost:8011/api/graph/save`
+> Changes are stored on the server (CouchDB), which is not connected to GitHub. Therefore, download
+> the latest mirror before committing dataset updates.
+
+```bash
+# on the server, after editors have saved:
+rsync server:naturgnosis/app/social/data/data.json   app/social/data/data.json
+rsync server:naturgnosis/app/phrases/data/data.json  app/phrases/data/data.json
+git add app && git commit -m "feat(data): update mirrors"
+```
+
+(`bin/sync.py` rewrites `app/<module>/data/data.json` after every editor save; never edit those
+files by hand. The glossary is the exception: `entries/` is hand-edited source of truth, regenerate
+`data/index.json` with `python bin/build_glossary_index.py`.)
+
+## API
+
+- `GET  /api/health` — service + CouchDB status
+- `GET  /api/graph?dataset=social|production|research|technique|phrases` — nodes
+- `POST /api/graph/save` — `{dataset, nodes[], delete_ids?[]}` (upsert/delete + mirror)
+- `POST /api/layout/recompute?dataset=…` — regenerate `layout.json`
 
 ## Notes
 
- - **Sociognosis** Space will support market analysis — not the direct analysis of production processes or technology.
+- **Social Space** will support market analysis — not the direct analysis of production processes or
+  technology (that is Production/Technique Space).
+- The served root is `app/`; there is no `docs/` directory anymore.
 
 ## References
 

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrases Catalog · Naturgnosis</title>
+    <link rel="icon" href="/shared/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/shared/theme.css">
+    <style>
+        .page {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 56px 32px 96px;
+        }
+
+        .masthead .back {
+            color: var(--text-muted);
+        }
+
+        .masthead h1 {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 300;
+            font-size: 2.6rem;
+            color: var(--text-primary);
+            background: linear-gradient(90deg, var(--accent-copper), transparent) bottom left / 200px 1px no-repeat;
+            padding-bottom: 14px;
+            margin: 8px 0 22px;
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .toolbar .ng-search {
+            flex: 1;
+            min-width: 220px;
+        }
+
+        .count {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        .status {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent-amber);
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 16px;
+        }
+
+        .phrase-card {
+            padding: 20px 22px;
+            border-left: 2px solid rgba(201, 149, 108, 0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .phrase-card:hover {
+            border-left-color: var(--accent-copper);
+        }
+
+        .phrase-card .phrase {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.15rem;
+            line-height: 1.35;
+            color: var(--parchment);
+        }
+
+        .phrase-card .meaning {
+            font-size: 0.74rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .phrase-card .meta {
+            margin-top: auto;
+            padding-top: 8px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            font-family: var(--font-mono);
+            font-size: 0.56rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent-plum);
+            border: 1px solid rgba(155, 126, 176, 0.25);
+            border-radius: 3px;
+            padding: 2px 7px;
+        }
+
+        .ref {
+            font-family: var(--font-mono);
+            font-size: 0.56rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent-cyan);
+        }
+
+        .empty {
+            padding: 60px 0;
+            text-align: center;
+            font-style: italic;
+            color: var(--text-ghost);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page">
+        <header class="masthead">
+            <a class="ng-caption back" href="/">← Naturgnosis</a>
+            <h1>Phrases Catalog</h1>
+        </header>
+
+        <div class="toolbar">
+            <input type="search" id="search" class="ng-search" placeholder="Search phrases and meanings…"
+                autocomplete="off" aria-label="Search phrases">
+            <span class="count" id="count">…</span>
+            <a class="ng-button" href="edit.html">Editor</a>
+        </div>
+
+        <div class="status" id="status" hidden></div>
+        <section class="cards" id="cards" aria-label="Phrase catalog"></section>
+        <div class="empty" id="empty" hidden>No phrases found.</div>
+    </main>
+
+    <script>
+        (function () {
+            'use strict';
+            const DATASET = 'phrases';
+
+            const cardsEl = document.getElementById('cards');
+            const emptyEl = document.getElementById('empty');
+            const countEl = document.getElementById('count');
+            const statusEl = document.getElementById('status');
+            const searchEl = document.getElementById('search');
+
+            let phrases = [];
+
+            function setStatus(msg) {
+                statusEl.textContent = msg || '';
+                statusEl.hidden = !msg;
+            }
+
+            /* Prefer the live backend (CouchDB); fall back to the static mirror. */
+            fetch('/api/graph?dataset=' + DATASET, { cache: 'no-cache' })
+                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .catch(function () {
+                    return fetch('../data/data.json', { cache: 'no-cache' })
+                        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+                })
+                .then(function (data) {
+                    if (!Array.isArray(data)) throw new Error('unexpected payload');
+                    phrases = data;
+                    countEl.textContent = phrases.length + ' phrases';
+                    render('');
+                })
+                .catch(function (err) {
+                    setStatus('Failed to load phrases: ' + err.message);
+                    countEl.textContent = 'unavailable';
+                });
+
+            function esc(s) {
+                return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            }
+
+            function render(query) {
+                const q = query.trim().toLowerCase();
+                const visible = phrases.filter(function (p) {
+                    if (!q) return true;
+                    return (p.name || '').toLowerCase().indexOf(q) !== -1 ||
+                        (p.description || '').toLowerCase().indexOf(q) !== -1 ||
+                        (p.tags || []).join(' ').toLowerCase().indexOf(q) !== -1;
+                });
+
+                cardsEl.innerHTML = visible.map(function (p) {
+                    const refs = (p.references || []).slice(0, 2).map(function (r) {
+                        return '<a class="ref" href="' + esc(r) + '" target="_blank" rel="noopener">ref ↗</a>';
+                    }).join('');
+                    const tags = (p.tags || []).map(function (t) {
+                        return '<span class="tag">' + esc(t) + '</span>';
+                    }).join('');
+                    return '<article class="phrase-card ng-card">' +
+                        '<div class="phrase">' + esc(p.name) + '</div>' +
+                        '<div class="meaning">' + esc(p.description) + '</div>' +
+                        '<div class="meta">' + tags + refs + '</div>' +
+                        '</article>';
+                }).join('');
+
+                emptyEl.hidden = visible.length > 0;
+            }
+
+            searchEl.addEventListener('input', function () { render(searchEl.value); });
+        })();
+    </script>
+</body>
+
+</html>

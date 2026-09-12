@@ -1,14 +1,30 @@
 .git
+.github
+.env
+.env.example
 .gitignore
+.dockerignore
 .vscode
-env
-.venv
-web
 spec
-img
-scripts
+deploy/docker-compose.yml
+deploy/deploy_local.sh
+deploy/deploy_server.sh
+deploy/preflight.sh
+deploy/README.md
 Makefile
 build.sh
-.env
+AGENTS.md
+README.md
+LICENSE
+todo.md
+log.md
+guideline.md
 __pycache__/
 *.pyc
+node_modules/
+.venv
+# Development-only module content: never shipped in the image. The deployed
+# surface is web/ + data/ (+ landing + shared); see deploy/README.md.
+app/*/entries
+app/*/view
+app/*/import

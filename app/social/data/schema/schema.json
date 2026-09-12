@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/naturgnosis-node.schema.json",
+  "title": "Sociognosis Space Node Schema",
+  "description": "A formal schema for nodes in the Sociognosis space—an ontic-agentic-epistemic model of social reality. Each node identifies and formalizes an element that enables an agent to effectively navigate (understanding and acting in) social reality.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "tags",
+    "category",
+    "description",
+    "chronology",
+    "relationships",
+    "specific",
+    "metadata",
+    "references"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier."
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical name of the concept."
+    },
+    "tags": {
+      "type": "array",
+      "description": "A set of semantic labels associated with the concept for categorization, navigation, filtering, and search.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "layer": {
+      "type": "string",
+      "description": "The primary sociognostic layer in which the element operates.",
+      "enum": [
+        "Ontic",
+        "Agentic",
+        "Relational",
+        "Epistemic",
+        "Normative",
+        "Synontic",
+        "External Observer"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "description": "The direct conceptual category of the element.",
+      "enum": [
+        "Actor",
+        "Role",
+        "Position",
+        "Identity",
+        "Institution",
+        "Institutional Arrangement",
+        "Organization",
+        "Group",
+        "Movement",
+        "Relationship",
+        "Network",
+        "Norm",
+        "Rule",
+        "Value",
+        "Belief",
+        "Knowledge",
+        "Ideology",
+        "Narrative",
+        "Habitus",
+        "Symbol",
+        "Language",
+        "Medium",
+        "Resource",
+        "Capital",
+        "Capability",
+        "Technical Element",
+        "Infrastructure",
+        "Goal",
+        "Interest",
+        "Strategy",
+        "Policy",
+        "Practice",
+        "Activity",
+        "Process",
+        "Mechanism",
+        "Event",
+        "Phenomenon",
+        "Transaction",
+        "Conflict",
+        "Cooperation",
+        "Power Relation",
+        "Authority",
+        "Status",
+        "Incentive",
+        "Constraint",
+        "Collective Decision Mechanism",
+        "Governance Structure",
+        "Jurisdiction",
+        "Polity",
+        "Regime",
+        "System",
+        "Structure",
+        "Culture",
+        "Social Field",
+        "Domain",
+        "Region",
+        "Environment",
+        "Collective Representation",
+        "Convention",
+        "Dynamical",
+        "Property",
+        "Interaction"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description—concise summary of the concept."
+    },
+    "longDescription": {
+      "type": "string",
+      "description": "Long description—detailed explanatory description of the concept."
+    },
+    "chronology": {
+      "type": "object",
+      "description": "Historical emergence, evolution, and temporal characteristics of the concept.",
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "year",
+              "event"
+            ],
+            "properties": {
+              "year": {
+                "type": "number"
+              },
+              "event": {
+                "type": "string"
+              },
+              "context": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "description": "Relationship Set—how this node relates to other nodes.",
+      "items": {
+        "type": "object",
+        "required": [
+          "targetNodeId",
+          "relationshipType"
+        ],
+        "properties": {
+          "targetNodeId": {
+            "type": "string",
+            "description": "ID of the related node."
+          },
+          "relationshipFamily": {
+            "type": "string",
+            "description": "The family/category of the relationship (e.g., ontological, causal, dependency, classification, interaction)."
+          },
+          "relationshipType": {
+            "type": "string",
+            "description": "The specific type of relationship (e.g., subtype_of, depends_on, enables, interacts_with, part_of)."
+          },
+          "description": {
+            "type": "string",
+            "description": "Explanation of why this relationship is relevant."
+          }
+        }
+      }
+    },
+    "specific": {
+      "type": "object",
+      "description": "Particular Characterization—category-specific attributes not covered by the generic schema."
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Administrative and descriptive metadata such as author, creation date, status, version, provenance, confidence, and maintenance information.",
+      "properties": {
+        "inheritanceLevel": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "confidenceScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "sourceReference": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "auditTrail": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reviewDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "reviewNote": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "Sources, literature, theories, frameworks, empirical evidence, and supporting documentation.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "link": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

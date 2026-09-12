@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sociognosis graph layout pre-computer (Python port).
+Naturgnosis graph layout pre-computer (Python port).
 
 Produces layout.json : { "<id>": [x, y], ... }
 
@@ -17,8 +17,8 @@ is both expensive and pointless. Instead:
 
 Usage:
     python bin/layout.py \\
-        --data-file docs/data/idx/data.json \\
-        --layout-file docs/data/idx/layout.json
+        --data-file app/social/data/data.json \\
+        --layout-file app/social/data/layout.json
 
 Defaults resolve relative to the repository root (parent of bin/).
 """
@@ -35,8 +35,8 @@ from pathlib import Path
 GOLDEN_ANGLE = math.pi * (3.0 - math.sqrt(5.0))
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DATA = ROOT / "docs" / "data" / "idx" / "data.json"
-DEFAULT_LAYOUT = ROOT / "docs" / "data" / "idx" / "layout.json"
+DEFAULT_DATA = ROOT / "app" / "social" / "data" / "data.json"
+DEFAULT_LAYOUT = ROOT / "app" / "social" / "data" / "layout.json"
 
 SPACING = 60.0  # approximate nearest-neighbour distance on the spiral
 
@@ -306,7 +306,7 @@ def recompute(data_file, layout_file):
 def main(argv=None):
     parser = argparse.ArgumentParser(
         prog="layout.py",
-        description="Pre-compute Sociognosis graph layout (sunflower + per-component FR).",
+        description="Pre-compute Naturgnosis graph layout (sunflower + per-component FR).",
     )
     parser.add_argument("--data-file", default=str(DEFAULT_DATA), help="Path to data.json.")
     parser.add_argument(

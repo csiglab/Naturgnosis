@@ -1,161 +1,107 @@
-# Prototype
+# Naturgnosis — Global Specification
 
+> **Naturgnosis** aims to identify and formalize the set of epistemic elements that enable an agent to
+> effectively navigate — understanding and action — reality, especially social reality.
 
-> In this project we attempt to represent the abstract space of social actors at the planetary scale.
-The objective is to identify the most relevant actors across multiple categories—including individuals, firms, states, NGOs, and other organized entities.
-> By constructing this index, we aim to establish comparative metrics and analytical frameworks that allow systematic analysis of actors, their capacities, and their roles within global socio-economic systems.
+> Naturgnosis is the main index of the world's **technique** and **episteme**. Its sibling project,
+> **Epistecnica**, records what man intentionally pursues through deep study and some level of mastery —
+> specifically for **@dbremont**. Epistecnica is a separate repository; nothing of it is built here,
+> and content must not leak between the two without explicit intent.
 
-Goals:
+## Goals
 
-- **Create a modeling template for each actor type**, specifying its structural components (state) and dynamical components (processes and behaviors).
-- **Represent individual actors** by applying the template derived from their actor type in order to produce a structured model of the actor.
+- Stabilize a generative system that produces a **Domain Epistemic Artifact Set (DESA)** representing
+  social reality and rendering it intelligible as a structured domain of analysis and action.
+- Study, refine, and improve the underlying generative system that produces and organizes the DESA,
+  with emphasis on consistency, expressiveness, and explanatory power.
+- Connect the DESA to practical **activity systems**, such that epistemic artifacts are systematically
+  linked to real-world actions, interventions, and decision-making processes within social domains.
 
-## Overview
+## Module Registry
 
-1. We need an introduction page (that points to two index: Actor Type Index, and Actor Index.)
-2. We need the Actor Type Index - in which we can search, and select - to view (in a separate page) for the type of actor.
-3. We need the Actor Index - in which we can search, and select - to view (in a separate page) for the actor.
-4. We need a template page that uses json - to represent a type of actor.
-5. We need a template page that uses json - to represent an actor.
+Every module is a self-contained app under `app/<module>/` (code + views + data + spec + AGENTS.md),
+served by the single sync server (`bin/sync.py`) and deployed as one image.
 
-## Introduction Page
+| # | Module | Path | Kind | Storage | Status |
+|---|--------|------|------|---------|--------|
+| 1 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
+| 2 | Production Space | `app/production/` | Graph explorer + editor | CouchDB (`dataset=production`) + disk mirror | active |
+| 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | scaffold |
+| 4 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
+| 5 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
+| 6 | Glossary | `app/glossary/` | Entry index + search + reader | Physical markdown (`entries/*.md`) + generated `data/index.json` | active |
+| 7 | Phrases Catalog | `app/phrases/` | Catalog UI + form editor | CouchDB (`dataset=phrases`) + disk mirror | active |
+| 8 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
 
-- Project Intro
-- Goals
-- An Overview  of Actor Type plus link
-- An Overview  of Actor plus link
+## Architecture
 
-## Index
+```
+app/                      the product — one directory per module
+  <module>/web/           views (static html/js)
+  <module>/data/          dataset mirror + schema (graph modules); generated index (glossary)
+  <module>/entries/       source-of-truth markdown (glossary only)
+  <module>/import/        raw third-party exports kept for provenance
+  <module>/view/          long-form notes attached to the module (social only, today)
+  shared/theme.css        Oxford Common Room tokens (source of truth: spec/theme)
+bin/                      shared tooling: sync server, seeders, importers, index builders
+deploy/                   Dockerfile, docker-compose.yml, deploy scripts (local + server)
+spec/                     this spec + per-module specs + theme spec
+```
 
-- An index with all of the actor types, actors-> they must come from a json structure (do 15 for the prototype).
-- We need a search-based index with (...) next page - each page with 4 examples max, with 3 lines per page.
+### Server (`bin/sync.py`)
 
-## Actor Type Page
+One process serves everything:
 
-- We need  a web site for representing an abstract actor - that is a type.
+- **Static**: `/` → `app/index.html`; `/<module>/x` 301-redirects to `app/<module>/web/x` so
+  relative fetches inside pages resolve at the correct depth; physical subdirectories `web/`,
+  `data/`, `view/`, `entries/`, `import/` are served as-is.
+- **Graph API** (same origin):
+  - `GET  /api/graph?dataset=<id>` — nodes from CouchDB
+  - `POST /api/graph/save` — `{dataset, nodes[], delete_ids?[]}` upsert/delete; mirrors the full
+    dataset back to `app/<module>/data/data.json`
+  - `POST /api/layout/recompute?dataset=<id>` — regenerate `layout.json`
+  - `GET  /api/health` — service + CouchDB status
+- **Offline mode**: `--no-couch` serves statically and answers the API with 503 — for development and CI.
+- **Bootstrap**: on start, a dataset whose CouchDB range is empty is seeded from its `data.json`.
 
-## Actor Page
+### Data policy
 
-- We need a template for each type of actor - just one example will be sufficient.
-- We need also a general template - that can serve to visualize any type of actor.
+| Kind | Source of truth | Derived | Notes |
+|------|-----------------|---------|-------|
+| Graph modules | CouchDB docs (`{dataset}:{node_id}`) | `data.json` mirror, `layout.json` | Download server data before committing (see README). |
+| Phrases | CouchDB (`dataset=phrases`) | `data.json` mirror | Seed from Notion exports via `bin/import_phrases.py` (one-shot). |
+| Glossary | Physical markdown (`app/glossary/entries/`) | `data/index.json` | Rebuild with `bin/build_glossary_index.py`; index is committed so the static viewer works without a backend. |
 
-## UX / UI Evaluation Model
+### Node model
 
-| Dimension                | Subdimension        | Evaluation Criterion                      |
-| ------------------------ | ------------------- | ----------------------------------------- |
-| Utility                  | Purpose             | Clear value proposition                   |
-| Utility                  | Purpose             | User goals identifiable                   |
-| Utility                  | Purpose             | Features aligned with goals               |
-| Utility                  | Purpose             | No unnecessary functionality              |
-| Utility                  | Purpose             | Important tasks supported                 |
-| Utility                  | Task Success        | Users can complete core tasks             |
-| Utility                  | Task Success        | Minimal task friction                     |
-| Utility                  | Task Success        | Minimal cognitive overhead                |
-| Utility                  | Task Success        | Low error frequency                       |
-| Utility                  | Task Success        | Fast task completion                      |
-| Usability                | Learnability        | Interface understandable without training |
-| Usability                | Learnability        | Predictable interactions                  |
-| Usability                | Learnability        | Familiar conventions used                 |
-| Usability                | Learnability        | Discoverable functionality                |
-| Usability                | Learnability        | Good onboarding                           |
-| Usability                | Efficiency          | Minimal clicks                            |
-| Usability                | Efficiency          | Keyboard shortcuts                        |
-| Usability                | Efficiency          | Progressive disclosure                    |
-| Usability                | Efficiency          | Fast navigation                           |
-| Usability                | Efficiency          | Low interaction cost                      |
-| Usability                | Error Handling      | Prevents mistakes                         |
-| Usability                | Error Handling      | Clear validation                          |
-| Usability                | Error Handling      | Good recovery mechanisms                  |
-| Usability                | Error Handling      | Informative error messages                |
-| Usability                | Error Handling      | Undo available                            |
-| Information Architecture | Structure           | Clear hierarchy                           |
-| Information Architecture | Structure           | Logical grouping                          |
-| Information Architecture | Structure           | Consistent categorization                 |
-| Information Architecture | Structure           | Scalable organization                     |
-| Information Architecture | Navigation          | Users know where they are                 |
-| Information Architecture | Navigation          | Users know where to go                    |
-| Information Architecture | Navigation          | Users know how to return                  |
-| Information Architecture | Navigation          | Navigation depth reasonable               |
-| Information Architecture | Navigation          | Search available when needed              |
-| Visual Hierarchy         | Attention Control   | Primary actions obvious                   |
-| Visual Hierarchy         | Attention Control   | Secondary actions visible but subordinate |
-| Visual Hierarchy         | Attention Control   | Clear reading order                       |
-| Visual Hierarchy         | Attention Control   | Important information emphasized          |
-| Visual Hierarchy         | Attention Control   | Visual noise minimized                    |
-| Visual Hierarchy         | Layout              | Strong alignment                          |
-| Visual Hierarchy         | Layout              | Consistent spacing                        |
-| Visual Hierarchy         | Layout              | Effective use of whitespace               |
-| Visual Hierarchy         | Layout              | Balanced composition                      |
-| Visual Hierarchy         | Layout              | Responsive structure                      |
-| Visual Design Quality    | Typography          | Appropriate font selection                |
-| Visual Design Quality    | Typography          | Consistent typography scale               |
-| Visual Design Quality    | Typography          | Proper line height                        |
-| Visual Design Quality    | Typography          | Readable contrast                         |
-| Visual Design Quality    | Typography          | Clear heading hierarchy                   |
-| Visual Design Quality    | Color               | Cohesive palette                          |
-| Visual Design Quality    | Color               | Semantic color usage                      |
-| Visual Design Quality    | Color               | Sufficient contrast                       |
-| Visual Design Quality    | Color               | Limited color count                       |
-| Visual Design Quality    | Color               | Brand consistency                         |
-| Visual Design Quality    | Components          | Consistent buttons                        |
-| Visual Design Quality    | Components          | Consistent inputs                         |
-| Visual Design Quality    | Components          | Consistent cards                          |
-| Visual Design Quality    | Components          | Consistent icons                          |
-| Visual Design Quality    | Components          | Consistent states                         |
-| Design Sophistication    | System Thinking     | Design system exists                      |
-| Design Sophistication    | System Thinking     | Tokenized spacing                         |
-| Design Sophistication    | System Thinking     | Tokenized typography                      |
-| Design Sophistication    | System Thinking     | Tokenized colors                          |
-| Design Sophistication    | System Thinking     | Reusable components                       |
-| Design Sophistication    | Refinement          | Pixel-level attention                     |
-| Design Sophistation      | Refinement          | Consistent spacing rhythm                 |
-| Design Sophistication    | Refinement          | Consistent border radii                   |
-| Design Sophistication    | Refinement          | Consistent shadows                        |
-| Design Sophistication    | Refinement          | Consistent interaction patterns           |
-| Design Sophistication    | Information Density | High signal-to-noise ratio                |
-| Design Sophistication    | Information Density | Dense but readable                        |
-| Design Sophistication    | Information Density | No wasted space                           |
-| Design Sophistication    | Information Density | Content prioritized                       |
-| Design Sophistication    | Information Density | Progressive complexity                    |
-| Interaction Design       | Feedback            | Immediate response                        |
-| Interaction Design       | Feedback            | Loading states                            |
-| Interaction Design       | Feedback            | Hover states                              |
-| Interaction Design       | Feedback            | Focus states                              |
-| Interaction Design       | Feedback            | Success states                            |
-| Interaction Design       | Motion              | Purposeful animation                      |
-| Interaction Design       | Motion              | Smooth transitions                        |
-| Interaction Design       | Motion              | Motion aids understanding                 |
-| Interaction Design       | Motion              | No distracting effects                    |
-| Interaction Design       | Motion              | Performance maintained                    |
-| Accessibility            | Visual              | WCAG contrast                             |
-| Accessibility            | Visual              | Color-independent communication           |
-| Accessibility            | Visual              | Resizable text                            |
-| Accessibility            | Visual              | Screen reader support                     |
-| Accessibility            | Interaction         | Keyboard navigable                        |
-| Accessibility            | Interaction         | Focus indicators                          |
-| Accessibility            | Interaction         | Logical tab order                         |
-| Accessibility            | Interaction         | Accessible forms                          |
-| Emotional Design         | Trust               | Professional appearance                   |
-| Emotional Design         | Trust               | Consistent behavior                       |
-| Emotional Design         | Trust               | Quality microcopy                         |
-| Emotional Design         | Trust               | No deceptive patterns                     |
-| Emotional Design         | Delight             | Pleasant interactions                     |
-| Emotional Design         | Delight             | Memorable details                         |
-| Emotional Design         | Delight             | Polished micro-interactions               |
-| Emotional Design         | Delight             | Personality where appropriate             |
-| Beauty                   | Harmony             | Visual coherence                          |
-| Beauty                   | Harmony             | Consistent language                       |
-| Beauty                   | Harmony             | Balanced composition                      |
-| Beauty                   | Harmony             | Controlled complexity                     |
-| Beauty                   | Proportion          | Good visual balance                       |
-| Beauty                   | Proportion          | Appropriate scale relationships           |
-| Beauty                   | Proportion          | Strong typography ratios                  |
-| Beauty                   | Proportion          | Effective spacing ratios                  |
-| Beauty                   | Elegance            | Simplicity without loss of capability     |
-| Beauty                   | Elegance            | Minimal visual clutter                    |
-| Beauty                   | Elegance            | Refined details                           |
-| Beauty                   | Elegance            | High craftsmanship                        |
-| Beauty                   | Timelessness        | Not dependent on trends                   |
-| Beauty                   | Timelessness        | Durable visual language                   |
-| Beauty                   | Timelessness        | Strong fundamentals                       |
-| Beauty                   | Timelessness        | Long-term maintainability                 |
+Graph datasets (social, production, research, technique) and phrases share the Naturgnosis node model:
+`id, name, tags, category, description, chronology, relationships, specific, metadata, references`.
+Canonical JSON Schema: `app/social/data/schema/schema.json` (per-module copies under
+`app/<module>/data/schema/`). Changes to the model must be mirrored in every module schema and noted
+in the module spec.
+
+## Deployment
+
+Single image, two targets. **CouchDB is a persistent dependency of the execution environment —
+never provisioned, redeployed, or removed by any workflow here**; deployments preflight-check it
+and fail with a clear log when unreachable. Contract and failure modes: `deploy/README.md`.
+
+- **Local**: `deploy/docker-compose.yml` (app only, host network) via `deploy/deploy_local.sh`
+  (preflight → build/up → seed).
+- **Server**: `deploy/deploy_server.sh` (preflight →) pulls `ghcr.io/csiglab/naturgnosis:latest`
+  (built by GitHub Actions on push to `main`) and runs it with `--network host`, mounting `.env`.
+  Port: `NATURGNOSIS_PORT` (default 8011).
+
+Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`, `COUCHDB_USER`,
+`COUCHDB_PASSWORD`.
+
+## Conventions
+
+- **Commits**: follow `~/configs/global/git/guideline.md` — `<type>(<optional scope>): <description>`
+  with types `feat, fix, docs, style, refactor, test, chore`. Global hooks are active.
+- **Style**: all pages derive from the Oxford Common Room tokens (`spec/theme`, `app/shared/theme.css`);
+  never hardcode colors.
+- **Data sync**: the server is the write path; before committing dataset changes, pull the server
+  mirror (see README "Data Sync").
+- **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`, `technique`,
+  `glossary`, `phrases`); dataset id = module name.

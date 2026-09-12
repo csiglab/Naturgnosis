@@ -1,26 +1,11 @@
 #!/usr/bin/env bash
+# Regenerate all derived artifacts: glossary index + graph layouts.
+# (The old mkdocs build is gone; the served root is app/.)
+set -eu
 
-echo "Building the project..."
+cd "$(dirname "$0")"
 
-# Check if the virtual environment exists
-if [ ! -d ".venv" ]; then
-    echo "Virtual environment not found. Running uv sync..."
-    uv sync
-fi
-
-# Activate the virtual environment
-source .venv/bin/activate
-
-# Updating Repository
-git pull origin main
-
-# Build the project
-cd web || { echo "Failed to enter web directory"; exit 1; }
-mkdocs build
-cd ..
-
-# Deactivate the virtual environment
-deactivate
+echo "Building Naturgnosis artifacts…"
+make build
 
 echo "Build complete."
-exit 0

@@ -1,32 +1,42 @@
 #!/usr/bin/env python3
 """
-Minimal sync server for the Sociognosis Editor.
+Minimal sync server for the Naturgnosis modules.
 
-A single instance serves every dataset found under the docs root
-(one directory per dataset under <docs-root>/data/, e.g. prd and idx),
+A single instance serves every module found under the app root
+(one directory per module under <app-root>/, e.g. social and production),
 exposes a small graph API, and persists nodes to a CouchDB database
 (one document per node). A mirror copy of each dataset is also written
 to disk so the read-only viewers (index.html) keep working.
 
+Static serving (module-aware):
+
+    /                       -> app/index.html (module registry landing)
+    /<module>/              -> 301 /<module>/web/ (relative fetches keep working)
+    /<module>/<file>        -> 301 /<module>/web/<file>
+    /<module>/web/<file>    -> <app-root>/<module>/web/<file>
+    /<module>/data/<file>   -> <app-root>/<module>/data/<file>   (physical path)
+    /<module>/view/<file>   -> <app-root>/<module>/view/<file>   (physical path)
+    /shared/<file>          -> <app-root>/shared/<file>          (physical path)
+
 API (all same origin):
 
-    GET  /api/graph?dataset=prd      -> nodes array for a dataset
+    GET  /api/graph?dataset=social   -> nodes array for a dataset
     POST /api/graph/save             -> upsert {nodes:[...], dataset} into CouchDB
     POST /api/layout/recompute       -> regenerate layout.json (?dataset= optional)
     GET  /api/health                 -> service + CouchDB status
 
 Usage:
 
-    # Serves both docs/prd/edit.html and docs/idx/edit.html from one server:
+    # Serves every module (web + data + API) from one server:
     python sync.py \
-        --docs-root docs \
+        --app-root app \
         --couch-url http://localhost:5984 \
-        --couch-db sociognosis
+        --couch-db naturgnosis
 
     # Legacy single-dataset mode still works:
-    python sync.py --data-file docs/data/prd/data.json
+    python sync.py --data-file app/social/data/data.json
 
-In the editor's Settings -> "Backend Sync" -> "Backend Save URL", enter:
+In an editor's Settings -> "Backend Sync" -> "Backend Save URL", enter:
 
     http://localhost:8000/api/graph/save
 """
@@ -211,17 +221,53 @@ class CouchClient:
                 saved += 1
         return saved
 
+    def bulk_delete(self, dataset, node_ids):
+        """Delete node docs by logical id. Returns the number removed."""
+        ids = [i for i in (node_ids or []) if i]
+        if not ids:
+            return 0
+
+        couch_ids = [f"{dataset}:{i}" for i in ids]
+        url = f"{self.base_url}/{self.db}/_all_docs"
+        result = self._request("POST", url, {"keys": couch_ids})
+
+        docs = []
+        for row in result.get("rows", []):
+            value = row.get("value") or {}
+            if row.get("id") and value.get("rev"):
+                docs.append(
+                    {
+                        "_id": row["id"],
+                        "_rev": value["rev"],
+                        "_deleted": True,
+                    }
+                )
+
+        if not docs:
+            return 0
+
+        url = f"{self.base_url}/{self.db}/_bulk_docs"
+        outcomes = self._request("POST", url, {"docs": docs})
+        return sum(1 for res in outcomes if res.get("ok"))
+
 
 class SyncHandler(SimpleHTTPRequestHandler):
     """Serves static files and handles graph sync requests.
 
-    A single instance serves every dataset discovered under the docs root
-    (one directory per dataset under <docs-root>/data/). Each dataset is
+    A single instance serves every module discovered under the app root
+    (one directory per module, each with a data/data.json). Each dataset is
     mirrored to its own data.json so the read-only viewers keep working.
+    Module URLs are rewritten: /<module>/x -> /<module>/web/x unless the
+    second segment is a non-web subdirectory (data, view, entries, import).
     """
 
     couch = None                  # CouchClient
-    datasets = None               # {dataset_name: Path(data.json)}
+    datasets = None               # {module_name: Path(data.json)}
+    modules = None                # set of module names (for URL rewriting)
+
+    # Static subdirectories served directly from the module directory
+    # (i.e. NOT rewritten into <module>/web/).
+    NON_WEB_SUBDIRS = ("web", "data", "view", "entries", "import")
 
     # ------------------------------------------------------------------
     # CORS
@@ -261,19 +307,76 @@ class SyncHandler(SimpleHTTPRequestHandler):
             self._handle_graph(params)
             return
 
+        # Module URLs redirect to their physical location so that relative
+        # fetches inside the pages (e.g. '../data/data.json') resolve at the
+        # correct depth. Rewriting content in place would serve pages at a
+        # URL depth that does not match the real layout, breaking them.
+        if self._is_module_url(self.path):
+            target = self._module_redirect_target(self.path)
+            if target:
+                self.send_response(301)
+                self.send_header("Location", target)
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
+
         super().do_GET()
+
+    # ------------------------------------------------------------------
+    # Module-aware static redirects
+    # ------------------------------------------------------------------
+
+    def _is_module_url(self, raw):
+        """True if the URL's first segment names a known module."""
+        seg = raw.split("?", 1)[0].strip("/").split("/", 1)[0]
+        return bool(seg) and seg in (self.modules or set())
+
+    def _module_redirect_target(self, raw):
+        """301 target for /<module>/... -> /<module>/web/..., or None.
+
+        Paths already at their physical location (web/, data/, view/,
+        entries/, import/ subpaths) need no redirect.
+        """
+        parts = raw.split("?", 1)
+        path, query = parts[0], (parts[1] if len(parts) > 1 else "")
+
+        segs = [s for s in path.split("/") if s]
+        module, rest = segs[0], segs[1:]
+
+        if not rest:
+            new = f"/{module}/web/"
+        elif rest[0] in self.NON_WEB_SUBDIRS:
+            return None
+        else:
+            new = "/" + "/".join([module, "web"] + rest)
+            if path.endswith("/"):
+                new += "/"
+
+        if query:
+            new += "?" + query
+        return new
 
     def _default_dataset(self):
         names = sorted(self.datasets or {})
         return names[0] if names else None
 
     def _handle_graph(self, params):
-        """GET /api/graph?dataset=prd|idx -> nodes array from CouchDB."""
+        """GET /api/graph?dataset=social|production -> nodes from CouchDB."""
         dataset = (params.get("dataset") or [self._default_dataset()])[0]
         if not dataset:
             self._send_json(
                 {"status": "error", "message": "No datasets configured."},
                 500,
+            )
+            return
+        if self.couch is None:
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": "Offline mode (--no-couch): no backend.",
+                    "dataset": dataset,
+                },
+                503,
             )
             return
         try:
@@ -293,11 +396,14 @@ class SyncHandler(SimpleHTTPRequestHandler):
     def _handle_health(self):
         couch_ok = False
         couch_info = None
-        try:
-            couch_info = self.couch.db_info()
-            couch_ok = True
-        except Exception as exc:
-            couch_info = {"error": str(exc)}
+        if self.couch is not None:
+            try:
+                couch_info = self.couch.db_info()
+                couch_ok = True
+            except Exception as exc:
+                couch_info = {"error": str(exc)}
+        else:
+            couch_info = {"error": "offline mode (--no-couch)"}
 
         datasets_info = {}
         for name, path in (self.datasets or {}).items():
@@ -310,10 +416,14 @@ class SyncHandler(SimpleHTTPRequestHandler):
         self._send_json(
             {
                 "status": "ok" if couch_ok else "degraded",
-                "service": "sociognosis-sync",
+                "service": "naturgnosis-sync",
                 "datasets": datasets_info,
                 "couchdb": {
-                    "url": f"{self.couch.base_url}/{self.couch.db}",
+                    "url": (
+                        f"{self.couch.base_url}/{self.couch.db}"
+                        if self.couch is not None
+                        else None
+                    ),
                     "ok": couch_ok,
                     "info": couch_info,
                 },
@@ -344,15 +454,27 @@ class SyncHandler(SimpleHTTPRequestHandler):
 
             patch = json.loads(raw)
             changed = patch.get("nodes", [])
+            deleted_ids = patch.get("delete_ids", [])
             dataset = patch.get("dataset") or self._default_dataset()
 
-            if not changed:
+            if self.couch is None:
+                self._send_json(
+                    {
+                        "status": "error",
+                        "message": "Offline mode (--no-couch): saves disabled.",
+                    },
+                    503,
+                )
+                return
+
+            if not changed and not deleted_ids:
                 self._send_json(
                     {"status": "ok", "saved": 0, "dataset": dataset}
                 )
                 return
 
             saved = self.couch.bulk_upsert(dataset, changed)
+            deleted = self.couch.bulk_delete(dataset, deleted_ids)
 
             # Mirror the full dataset to disk so the read-only viewers
             # (index.html) keep working off the static data.json.
@@ -372,6 +494,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
                 {
                     "status": "ok",
                     "saved": saved,
+                    "deleted": deleted,
                     "timestamp": patch.get("timestamp", ""),
                     "dataset": dataset,
                     "mirrored": mirrored,
@@ -446,7 +569,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
     # ------------------------------------------------------------------
 
     def _handle_layout_recompute(self, params):
-        """POST /api/layout/recompute?dataset=prd|idx -> regenerate layout.json.
+        """POST /api/layout/recompute?dataset=social -> regenerate layout.json.
 
         If no dataset is given, every known dataset is recomputed. Decoupled
         from save so saves stay fast; the editor calls this explicitly (e.g. its
@@ -583,14 +706,41 @@ def maybe_bootstrap(couch, dataset, data_file):
     )
 
 
-def discover_datasets(docs_root):
-    """Return {dataset_name: Path(data.json)} for <docs_root>/data/*/data.json."""
-    docs_root = Path(docs_root)
-    data_dir = docs_root / "data"
+NON_MODULE_DIRS = ("shared",)
+
+
+def discover_modules(app_root):
+    """Return the set of module names: every directory under <app_root>/.
+
+    Used for static URL rewriting (/<module>/... -> <module>/web/...) so that
+    modules WITHOUT a graph dataset (e.g. glossary, which serves a generated
+    index instead of data.json) still get clean module URLs.
+    """
+    app_root = Path(app_root)
+    modules = set()
+    if app_root.is_dir():
+        for child in sorted(app_root.iterdir()):
+            if child.is_dir() and child.name not in NON_MODULE_DIRS:
+                modules.add(child.name)
+    return modules
+
+
+def discover_datasets(app_root):
+    """Return {module_name: Path(data.json)} for <app_root>/<module>/data/data.json.
+
+    The subset of modules that carry a graph dataset: these drive the sync
+    API (load/save), CouchDB bootstrap, and seeding. The module name doubles
+    as the dataset id.
+    """
+    app_root = Path(app_root)
     datasets = {}
-    if data_dir.is_dir():
-        for path in sorted(data_dir.glob("*/data.json")):
-            datasets[path.parent.name] = path.resolve()
+    if app_root.is_dir():
+        for child in sorted(app_root.iterdir()):
+            if not child.is_dir() or child.name in NON_MODULE_DIRS:
+                continue
+            data_file = child / "data" / "data.json"
+            if data_file.exists():
+                datasets[child.name] = data_file.resolve()
     return datasets
 
 
@@ -598,17 +748,17 @@ def main():
     parser = argparse.ArgumentParser(
         prog="sync.py",
         description=(
-            "Sync server for the Sociognosis Editor. Serves every dataset "
-            "under <docs-root>/data/ from a single instance."
+            "Sync server for the Naturgnosis modules. Serves every module "
+            "under <app-root>/ from a single instance."
         ),
     )
 
     parser.add_argument(
-        "--docs-root",
+        "--app-root",
         default=None,
         help=(
-            "Directory served statically and parent of data/<dataset>/. "
-            "Defaults to the repo 'docs' dir (or derived from --data-file)."
+            "Directory served statically; contains one directory per module. "
+            "Defaults to the repo 'app' dir (or derived from --data-file)."
         ),
     )
 
@@ -617,7 +767,7 @@ def main():
         default=None,
         help=(
             "Optional legacy path to a single dataset's data.json. Used to "
-            "derive --docs-root; modern usage prefers --docs-root."
+            "derive --app-root; modern usage prefers --app-root."
         ),
     )
 
@@ -646,8 +796,8 @@ def main():
 
     parser.add_argument(
         "--couch-db",
-        default=os.environ.get("COUCHDB_DB", "sociognosis"),
-        help="CouchDB database name (default: $COUCHDB_DB or sociognosis).",
+        default=os.environ.get("COUCHDB_DB", "naturgnosis"),
+        help="CouchDB database name (default: $COUCHDB_DB or naturgnosis).",
     )
 
     parser.add_argument(
@@ -659,72 +809,94 @@ def main():
     parser.add_argument(
         "--couch-password",
         default=os.environ.get("COUCHDB_PASSWORD"),
-        help="CouchDB password (optional; default: $COUCHDB_PASSWORD).",
+        help="CouchDB user (optional; default: $COUCHDB_PASSWORD).",
+    )
+
+    parser.add_argument(
+        "--no-couch",
+        action="store_true",
+        help=(
+            "Offline mode: skip CouchDB entirely. Static serving works; "
+            "graph read/save endpoints answer with an error. Useful for "
+            "local development and CI checks."
+        ),
     )
 
     args = parser.parse_args()
 
-    # Resolve the docs root (the static-serving directory).
-    if args.docs_root:
-        docs_root = Path(args.docs_root).resolve()
+    # Resolve the app root (the static-serving directory).
+    if args.app_root:
+        app_root = Path(args.app_root).resolve()
     elif args.data_file:
-        # docs/data/<dataset>/data.json -> docs
-        docs_root = Path(args.data_file).resolve().parents[2]
+        # app/<module>/data/data.json -> app
+        app_root = Path(args.data_file).resolve().parents[2]
     else:
-        # Default: <repo>/docs (bin/ is a sibling of docs/).
-        docs_root = (Path(__file__).resolve().parent.parent / "docs").resolve()
+        # Default: <repo>/app (bin/ is a sibling of app/).
+        app_root = (Path(__file__).resolve().parent.parent / "app").resolve()
 
-    if not docs_root.is_dir():
+    if not app_root.is_dir():
         print(
-            f"ERROR: docs root not found: {docs_root}",
+            f"ERROR: app root not found: {app_root}",
             file=sys.stderr,
         )
         sys.exit(1)
 
-    datasets = discover_datasets(docs_root)
+    datasets = discover_datasets(app_root)
+    modules = discover_modules(app_root)
 
     # Legacy --data-file: make sure that specific dataset is included even if
     # it lives outside the discovered tree.
     if args.data_file:
         df = Path(args.data_file).resolve()
-        datasets.setdefault(df.parent.name, df)
+        datasets.setdefault(df.parent.parent.name, df)
 
     if not datasets:
         print(
-            f"WARNING: no datasets found under {docs_root}/data/*/data.json",
+            f"WARNING: no datasets found under {app_root}/*/data/data.json",
             file=sys.stderr,
         )
 
-    couch = CouchClient(
-        args.couch_url,
-        args.couch_db,
-        user=args.couch_user,
-        password=args.couch_password,
-    )
+    if args.no_couch:
+        couch = None
+        print(
+            "[sync] --no-couch: running offline (static serving only)",
+            file=sys.stderr,
+        )
+    else:
+        couch = CouchClient(
+            args.couch_url,
+            args.couch_db,
+            user=args.couch_user,
+            password=args.couch_password,
+        )
 
-    try:
-        created = couch.ensure_db()
-        if created:
+        try:
+            created = couch.ensure_db()
+            if created:
+                print(
+                    f"[sync] created CouchDB database '{args.couch_db}'",
+                    file=sys.stderr,
+                )
+        except CouchError as exc:
             print(
-                f"[sync] created CouchDB database '{args.couch_db}'",
+                f"ERROR: cannot reach CouchDB at {args.couch_url}: {exc}\n"
+                f"       CouchDB is a persistent dependency of the execution "
+                f"environment and is NOT provisioned by deployment workflows — "
+                f"start it or fix COUCHDB_* in .env (see deploy/README.md).",
                 file=sys.stderr,
             )
-    except CouchError as exc:
-        print(
-            f"ERROR: cannot reach CouchDB at {args.couch_url}: {exc}",
-            file=sys.stderr,
-        )
-        sys.exit(1)
+            sys.exit(1)
 
-    for name, data_file in datasets.items():
-        maybe_bootstrap(couch, name, data_file)
+        for name, data_file in datasets.items():
+            maybe_bootstrap(couch, name, data_file)
 
     SyncHandler.couch = couch
     SyncHandler.datasets = datasets
+    SyncHandler.modules = modules
 
     handler = partial(
         SyncHandler,
-        directory=str(docs_root),
+        directory=str(app_root),
     )
 
     server = HTTPServer(
@@ -741,13 +913,16 @@ def main():
     ds_list = ", ".join(sorted(datasets)) or "(none)"
 
     print("══════════════════════════════════════════════")
-    print("  Sociognosis Sync Server")
+    print("  Naturgnosis Sync Server")
     print("──────────────────────────────────────────────")
-    print(f"  Datasets: {ds_list}  (CouchDB: {args.couch_db})")
-    print(f"  Root:     {docs_root}")
+    print(f"  Modules:  {ds_list}  (CouchDB: {args.couch_db})")
+    print(f"  Root:     {app_root}")
     for name in sorted(datasets):
         print(
             f"  Load:    http://{display_host}:{args.port}{LOAD_ENDPOINT}?dataset={name}"
+        )
+        print(
+            f"  App:     http://{display_host}:{args.port}/{name}/"
         )
     print(
         f"  Save:    http://{display_host}:{args.port}{SAVE_ENDPOINT}"

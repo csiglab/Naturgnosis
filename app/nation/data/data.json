@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "arg",
+    "name": "Argentina",
+    "tags": [
+      "Sovereign State",
+      "Federal Republic",
+      "South America"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "A federal presidential republic and the second-largest country in South America. Defined by its immigrant heritage, complex federal structure, and oscillation between developmentalist and neoliberal economic models.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "República Argentina",
+      "flagEmoji": "🇦🇷",
+      "statistics": [
+        {
+          "id": "iso",
+          "value": "ARG",
+          "label": "ISO Code",
+          "hasIndicator": false
+        },
+        {
+          "id": "population",
+          "value": "46M",
+          "label": "Population",
+          "hasIndicator": true,
+          "indicatorValue": 65
+        },
+        {
+          "id": "independence",
+          "value": "1816",
+          "label": "Independence",
+          "hasIndicator": false
+        },
+        {
+          "id": "area",
+          "value": "2.8M",
+          "label": "Area km²",
+          "hasIndicator": true,
+          "indicatorValue": 33
+        }
+      ],
+      "works": [
+        {
+          "id": "actor-evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution",
+          "description": "From Viceroyalty to Confederation and Peronist era transitions, 1816 to present.",
+          "link": null
+        },
+        {
+          "id": "institutional-map",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Institutional Map",
+          "description": "Province and autonomous city distribution across the federal structure.",
+          "link": null
+        },
+        {
+          "id": "inter-agency-graph",
+          "type": "Network",
+          "status": "pending",
+          "title": "Inter-Agency Graph",
+          "description": "Federal-provincial fiscal relations and co-participation dynamics.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ARG-001",
+        "region": "South America",
+        "lastRevised": "2025-01-16",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "bra",
+    "name": "Brazil",
+    "tags": [
+      "South America",
+      "Federation",
+      "Emerging Economy",
+      "BRICS",
+      "Portuguese-Speaking",
+      "Amazon Basin"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Brazil is a federal presidential republic in South America and the largest country in both area and population in the region. It possesses a diversified economy spanning agriculture, mining, manufacturing, and services, and plays a central geopolitical and ecological role due to the Amazon rainforest and its membership in major multilateral groupings.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "República Federativa do Brasil",
+      "flagEmoji": "🇧🇷",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "203 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 203000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 2.1 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 2100000000000
+        },
+        {
+          "id": "area",
+          "value": "8.5 million km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 8516000
+        },
+        {
+          "id": "capital",
+          "value": "Brasília",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Brazil",
+          "description": "Temporal visualization of Brazil’s public, private, and civil actors from independence to the present, highlighting structural transformations in the state, industrial sector, and financial system.",
+          "link": null
+        },
+        {
+          "id": "product_space",
+          "type": "Network",
+          "status": "active",
+          "title": "Brazilian Product Space Mapping",
+          "description": "Network representation of Brazil’s export structure and industrial diversification patterns, with emphasis on commodities, agribusiness, energy, and advanced manufacturing.",
+          "link": null
+        },
+        {
+          "id": "territorial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Spatial-Administrative Structure",
+          "description": "Geospatial representation of federal units, metropolitan regions, and economic corridors, including Amazonian, coastal, and southern industrial zones.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "BRA",
+        "region": "Latin America & Caribbean",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "chn",
+    "name": "China",
+    "tags": [
+      "East Asia",
+      "Upper-Middle-Income",
+      "Industrial & Manufacturing Powerhouse",
+      "Export-Oriented Economy",
+      "Party-State",
+      "Technological Superpower"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "China is Party-State polity in East Asia and the world's most populous major state. Governed by a single-party system under the Chinese Communist Party, it has transformed over the past four decades from a largely agrarian economy into a global industrial and technological power. China plays a central role in global manufacturing, trade, infrastructure development, and emerging technologies.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "中华人民共和国",
+      "flagEmoji": "🇨🇳",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "1.41 billion",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1410000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 17.7 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 17700000000000
+        },
+        {
+          "id": "area",
+          "value": "9,596,961 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 9596961
+        },
+        {
+          "id": "capital",
+          "value": "Beijing",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Single-Party State",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution of China",
+          "description": "Temporal mapping of China’s actor space from imperial dynasties and bureaucratic elites to revolutionary transformation under the Chinese Communist Party, followed by reform-era technocratic governance and contemporary state-capitalist institutional structures.",
+          "link": "rep/actor.html?code=chn"
+        },
+        {
+          "id": "industrial_technology_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Industrial and Technology Network Structure",
+          "description": "Network analysis of China’s manufacturing clusters, state-owned enterprises, private technology firms, export logistics networks, and global infrastructure initiatives such as the Belt and Road.",
+          "link": null
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of China's provinces, major metropolitan clusters, industrial corridors, port systems, and internal economic zones.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "CHN",
+        "region": "East Asia",
+        "lastRevised": "2026-03-08",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "dom",
+    "name": "Dominican Republic",
+    "tags": [
+      "Caribbean",
+      "CARICOM Associate",
+      "Upper-Middle-Income",
+      "Tourism & Agro-Export",
+      "Renewable Energy Potential",
+      "Presidential Republic"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "The Dominican Republic is a sovereign presidential republic on the island of Hispaniola in the Caribbean, sharing its territory with Haiti. Historically shaped by sugarcane, mining, and tourism, it has evolved into a dynamic economy with strong remittance inflows, diversified services and industrial sectors, and growing investments in renewable energy and infrastructure.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "República Dominicana",
+      "flagEmoji": "🇩🇴",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "11.3 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 11300000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 153 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 153000000000
+        },
+        {
+          "id": "area",
+          "value": "48,670 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 48670
+        },
+        {
+          "id": "capital",
+          "value": "Santo Domingo",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of the Dominican Republic",
+          "description": "Temporal mapping of the Dominican Republic’s actor space from colonial-era plantation elites and early independence movements to Trujillo dictatorship, democratic transitions, and contemporary institutional consolidation.",
+          "link": null
+        },
+        {
+          "id": "agro_export_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Agro-Export and Energy Network Structure",
+          "description": "Network analysis of sugar, cacao, coffee, and free-trade zone exports, alongside renewable energy infrastructure and integration into Caribbean and global trade flows.",
+          "link": null
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of provinces, agricultural zones, urban concentration, port infrastructure, and tourism hubs.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "DOM",
+        "region": "Latin America & Caribbean",
+        "lastRevised": "2026-02-27",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "grb",
+    "name": "England",
+    "tags": [
+      "United Kingdom",
+      "Western Europe",
+      "Industrial Revolution",
+      "Common Law",
+      "Maritime Power",
+      "Financial Center"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "England is a constituent country of the United Kingdom located in Western Europe. It was the core territorial and institutional base of the early modern English state and later the British Empire. England played a central role in the Industrial Revolution, the development of parliamentary governance, common law traditions, and the formation of modern financial and industrial capitalism.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "England",
+      "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "56 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 56000000
+        },
+        {
+          "id": "area",
+          "value": "130,279 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 130279
+        },
+        {
+          "id": "capital",
+          "value": "London",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "sovereign_state",
+          "value": "United Kingdom",
+          "label": "Sovereign State",
+          "hasIndicator": false
+        },
+        {
+          "id": "legal_tradition",
+          "value": "Common Law",
+          "label": "Legal Tradition",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of England",
+          "description": "Temporal analysis of England’s evolving actor space from medieval monarchy and landed aristocracy to industrial capitalists, financial institutions, parliamentary structures, and modern regulatory bodies.",
+          "link": null
+        },
+        {
+          "id": "industrial_transformation",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Industrial Transformation Dynamics",
+          "description": "Structured timeline of England’s transition from agrarian economy to industrial capitalism, including textile mechanization, coal-energy systems, rail infrastructure, and urbanization.",
+          "link": null
+        },
+        {
+          "id": "financial_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Financial and Commercial Network Structure",
+          "description": "Network representation of merchant banks, trading companies, insurance markets, and global commercial linkages centered in London.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ENG",
+        "region": "Western Europe",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "hkg",
+    "name": "Hong Kong",
+    "tags": [
+      "East Asia",
+      "Global Financial Hub",
+      "High-Income",
+      "Service-Oriented",
+      "Special Administrative Region",
+      "Innovation and Technology"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Hong Kong is a Special Administrative Region of the People’s Republic of China, located on the southern coast of China. It has a highly developed, service-oriented economy, historically rooted in trade, finance, and logistics. Hong Kong is a major global financial center and port, with strong legal and regulatory institutions inherited from its colonial history under the United Kingdom. In recent years, there has been a push to develop technology and innovation sectors alongside traditional finance and professional services.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "香港特別行政區 (Heung Kong Dak Bit Hang Jing Keui) / Hong Kong SAR",
+      "flagEmoji": "🇭🇰",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "7.5 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 7500000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 440 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 440000000000
+        },
+        {
+          "id": "area",
+          "value": "1,106 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 1106
+        },
+        {
+          "id": "capital",
+          "value": "Hong Kong Island / Central",
+          "label": "Administrative Center",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Special Administrative Region (Under ‘One Country, Two Systems’)",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Hong Kong",
+          "description": "Temporal mapping of Hong Kong’s actor space from colonial administration and trade networks to financial institutions, multinational corporates, and contemporary regulatory authorities.",
+          "link": "rep/actor.html?code=hkg"
+        },
+        {
+          "id": "industrial_and_trade_network",
+          "type": "Network",
+          "status": "active",
+          "title": "Industrial and Trade Network Structure",
+          "description": "Network analysis of Hong Kong’s financial, logistics, and emerging technology sectors, including integration into regional and global production and trade networks.",
+          "link": "pending.html?back=entry.html%3Fcode%3Dhkg"
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of Hong Kong’s administrative districts, urban centers, ports, technology parks, and transport infrastructure.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "HKG",
+        "region": "East Asia",
+        "lastRevised": "2026-03-29",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "ind",
+    "name": "India",
+    "tags": [
+      "South Asia",
+      "Federal Republic",
+      "Emerging Economy",
+      "BRICS",
+      "G20",
+      "Civilizational State"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "India is a sovereign federal parliamentary republic in South Asia and the world’s most populous country. It combines a long civilizational history with modern constitutional governance established in 1950. India has a structurally diversified economy spanning agriculture, manufacturing, and a globally competitive services and technology sector, and plays an increasingly central role in Indo-Pacific geopolitics and multilateral institutions.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Bhārat (भारत) / Republic of India",
+      "flagEmoji": "🇮🇳",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "1.43 billion",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1430000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 3.7 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 3700000000000
+        },
+        {
+          "id": "area",
+          "value": "3.29 million km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 3287263
+        },
+        {
+          "id": "capital",
+          "value": "New Delhi",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of India",
+          "description": "Temporal mapping of India’s actor space from colonial administration and nationalist movements to post-independence state-building, economic liberalization (post-1991), and contemporary public-private institutional configurations.",
+          "link": "rep/actor.html?code=ind"
+        },
+        {
+          "id": "federal_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Federal Spatial-Administrative Structure",
+          "description": "Geospatial representation of states and union territories, demographic density gradients, industrial corridors, and regional development asymmetries.",
+          "link": "pending.html?back=entry.html%3Fcode%3Dind"
+        },
+        {
+          "id": "technology_and_services_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Technology and Services Network Structure",
+          "description": "Network analysis of India’s IT services, pharmaceutical production, startup ecosystems, and integration into global value chains.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "IND",
+        "region": "South Asia",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "idn",
+    "name": "Indonesia",
+    "tags": [
+      "Southeast Asia",
+      "Archipelagic State",
+      "Emerging Economy",
+      "ASEAN",
+      "G20",
+      "Resource-Rich"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Indonesia is a sovereign archipelagic republic in Southeast Asia composed of more than 17,000 islands. It is the world’s largest Muslim-majority country and one of the most populous nations globally. Indonesia has a diversified economy based on natural resources, manufacturing, and services, and plays a central geopolitical role within ASEAN and the broader Indo-Pacific region.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Republik Indonesia",
+      "flagEmoji": "🇮🇩",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "277 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 277000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.4 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1400000000000
+        },
+        {
+          "id": "area",
+          "value": "1.9 million km²",
+          "label": "Total Land Area",
+          "hasIndicator": true,
+          "indicatorValue": 1904569
+        },
+        {
+          "id": "capital",
+          "value": "Jakarta (transitioning to Nusantara)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Indonesia",
+          "description": "Temporal mapping of Indonesia’s actor space from colonial administration and independence-era leadership to the New Order regime, post-1998 reforms, decentralization, and contemporary political-economic coalitions.",
+          "link": null
+        },
+        {
+          "id": "archipelagic_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Archipelagic Spatial-Administrative Structure",
+          "description": "Geospatial representation of Indonesia’s provinces, maritime corridors, resource basins, and inter-island economic integration patterns.",
+          "link": null
+        },
+        {
+          "id": "commodity_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Commodity and Industrial Network Structure",
+          "description": "Network analysis of Indonesia’s commodity exports (coal, palm oil, nickel), downstream industrialization strategies, and integration into global value chains.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "IDN",
+        "region": "Southeast Asia",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "irl",
+    "name": "Ireland",
+    "tags": [
+      "Western Europe",
+      "European Union",
+      "Small Open Economy",
+      "FDI-Driven",
+      "Eurozone",
+      "Common Law"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Ireland is a sovereign parliamentary republic in Western Europe occupying most of the island of Ireland. Since the late 20th century, it has transformed into a high-income, small open economy characterized by strong foreign direct investment inflows, a competitive corporate tax regime, and specialization in pharmaceuticals, information technology, and financial services within the European Union framework.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Éire / Ireland",
+      "flagEmoji": "🇮🇪",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "5.3 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 5300000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 550 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 550000000000
+        },
+        {
+          "id": "area",
+          "value": "70,273 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 70273
+        },
+        {
+          "id": "capital",
+          "value": "Dublin",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Ireland",
+          "description": "Temporal mapping of Ireland’s actor space from colonial administration and independence to state-led development, EU integration, and FDI-driven multinational clustering.",
+          "link": "rep/actor.html?code=irl"
+        },
+        {
+          "id": "economic_transformation",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Economic Transformation Dynamics",
+          "description": "Structured timeline of Ireland’s shift from agrarian economy to export-oriented, knowledge-intensive sectors during the Celtic Tiger period and beyond.",
+          "link": null
+        },
+        {
+          "id": "multinational_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Multinational Corporate Network Structure",
+          "description": "Network analysis of multinational enterprises operating in Ireland, sectoral concentration patterns, and integration into EU and global value chains.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "IRL",
+        "region": "Western Europe",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "mys",
+    "name": "Malaysia",
+    "tags": [
+      "Southeast Asia",
+      "ASEAN",
+      "Upper-Middle-Income",
+      "Export-Oriented",
+      "Electronics Manufacturing",
+      "Multicultural Federation"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Malaysia is a federal constitutional monarchy in Southeast Asia composed of Peninsular Malaysia and East Malaysian states on the island of Borneo. Since independence, it has transitioned from a commodity-based economy to an export-oriented manufacturing and services hub, with strong specialization in electronics, palm oil, and petroleum, supported by industrial policy and integration into regional and global value chains.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Malaysia",
+      "flagEmoji": "🇲🇾",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "34 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 34000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 450 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 450000000000
+        },
+        {
+          "id": "area",
+          "value": "330,803 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 330803
+        },
+        {
+          "id": "capital",
+          "value": "Kuala Lumpur (administrative: Putrajaya)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Malaysia",
+          "description": "Temporal mapping of Malaysia’s actor space from colonial administration and resource extraction to post-independence federal consolidation, New Economic Policy reforms, and export-oriented industrialization.",
+          "link": "rep/actor.html?code=mys"
+        },
+        {
+          "id": "industrial_and_trade_structure",
+          "type": "Network",
+          "status": "pending",
+          "title": "Industrial and Trade Network Structure",
+          "description": "Network representation of Malaysia’s electronics clusters, palm oil value chains, energy sector, and integration into ASEAN and global production networks.",
+          "link": null
+        },
+        {
+          "id": "federal_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Federal Spatial-Administrative Structure",
+          "description": "Geospatial analysis of Peninsular and East Malaysian states, economic corridors, port infrastructure, and regional development differentials.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "MYS",
+        "region": "Southeast Asia",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "nld",
+    "name": "Netherlands",
+    "tags": [
+      "Western Europe",
+      "European Union",
+      "Eurozone",
+      "Trade-Oriented",
+      "Logistics Hub",
+      "Constitutional Monarchy"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "The Netherlands is a constitutional monarchy in Western Europe known for its advanced, trade-oriented economy and long-standing maritime and commercial tradition. Historically central to early modern global trade and finance, it remains a major logistics and distribution hub within Europe, with strong sectors in agriculture, chemicals, high-tech manufacturing, and financial services.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Nederland",
+      "flagEmoji": "🇳🇱",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "18 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 18000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.1 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1100000000000
+        },
+        {
+          "id": "area",
+          "value": "41,865 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 41865
+        },
+        {
+          "id": "capital",
+          "value": "Amsterdam (government seat: The Hague)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Constitutional Monarchy with Parliamentary System",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of the Netherlands",
+          "description": "Temporal mapping of the Netherlands’ actor space from merchant republic institutions and chartered trading companies to modern parliamentary governance, multinational corporations, and EU-integrated regulatory bodies.",
+          "link": null
+        },
+        {
+          "id": "trade_and_logistics_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Trade and Logistics Network Structure",
+          "description": "Network analysis of ports, shipping routes, distribution centers, and integration into European and global value chains.",
+          "link": null
+        },
+        {
+          "id": "spatial_water_management",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Spatial and Water Management Structure",
+          "description": "Geospatial representation of provinces, delta works, reclaimed land (polders), and infrastructure systems supporting flood control and urban-economic concentration.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "NLD",
+        "region": "Western Europe",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "nzl",
+    "name": "New Zealand",
+    "tags": [
+      "Oceania",
+      "Island Nation",
+      "Common Law",
+      "Agricultural Exporter",
+      "OECD",
+      "Parliamentary Democracy"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "New Zealand is a sovereign island nation in Oceania composed primarily of the North and South Islands. It operates as a parliamentary democracy and constitutional monarchy. Historically shaped by Māori settlement and later British colonization, New Zealand developed a high-income, export-oriented economy centered on agriculture, agri-technology, tourism, and services, with strong institutional quality and regulatory transparency.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "New Zealand · Aotearoa",
+      "flagEmoji": "🇳🇿",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "5.2 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 5200000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 250 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 250000000000
+        },
+        {
+          "id": "area",
+          "value": "268,838 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 268838
+        },
+        {
+          "id": "capital",
+          "value": "Wellington",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Parliamentary Democracy and Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of New Zealand’s actor space from Māori polities and colonial administration to welfare-state expansion, economic liberalization (post-1984 reforms), and contemporary regulatory institutions.",
+          "link": "rep/actor.html?code=nzl"
+        },
+        {
+          "id": "product_space",
+          "type": "Network",
+          "status": "pending",
+          "title": "Product Space Evolution",
+          "description": "Network analysis of dairy, meat, forestry, and agri-technology sectors, including export linkages to Asia-Pacific markets.",
+          "link": "pending.html?back=entry.html%3Fcode%3Dnzl"
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of regions, major urban centers, infrastructure networks, and environmental management systems.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "NZL",
+        "region": "Oceania",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "kor",
+    "name": "South Korea",
+    "tags": [
+      "East Asia",
+      "OECD",
+      "High-Income Economy",
+      "Export-Oriented",
+      "Technology-Driven",
+      "G20"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "South Korea is a sovereign presidential republic in East Asia located on the southern portion of the Korean Peninsula. Following the Korean War, it transitioned from a low-income agrarian economy to a high-income, export-oriented industrial and technological power. Its development model combined state-led industrial policy, chaebol-centered conglomerate growth, human capital accumulation, and deep integration into global value chains.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "대한민국 (Daehan Minguk) / Republic of Korea",
+      "flagEmoji": "🇰🇷",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "51 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 51000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.8 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1800000000000
+        },
+        {
+          "id": "area",
+          "value": "100,210 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 100210
+        },
+        {
+          "id": "capital",
+          "value": "Seoul",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of South Korea",
+          "description": "Temporal mapping of South Korea’s actor space from post-war military governance and state-led industrialization to democratization, chaebol consolidation, and contemporary regulatory and innovation ecosystems.",
+          "link": null
+        },
+        {
+          "id": "industrial_policy_dynamics",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Industrial Policy and Structural Transformation",
+          "description": "Structured timeline of heavy and chemical industry drives, export promotion strategies, technology upgrading, and transition toward advanced manufacturing and digital sectors.",
+          "link": null
+        },
+        {
+          "id": "chaebol_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Chaebol and Innovation Network Structure",
+          "description": "Network analysis of major conglomerates, supplier ecosystems, research institutions, and integration into global semiconductor, automotive, and electronics value chains.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "KOR",
+        "region": "East Asia",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "swe",
+    "name": "Sweden",
+    "tags": [
+      "Nordic",
+      "European Union",
+      "High-Income Economy",
+      "Welfare State",
+      "Export-Oriented",
+      "Constitutional Monarchy"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Sweden is a constitutional monarchy in Northern Europe characterized by a high-income, export-oriented economy and a comprehensive welfare state. Historically transitioning from agrarian society to industrial power in the late 19th and early 20th centuries, Sweden developed globally competitive firms in engineering, automotive, telecommunications, and life sciences, supported by strong institutions, human capital formation, and social partnership models.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Konungariket Sverige",
+      "flagEmoji": "🇸🇪",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "10.5 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 10500000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 650 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 650000000000
+        },
+        {
+          "id": "area",
+          "value": "450,295 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 450295
+        },
+        {
+          "id": "capital",
+          "value": "Stockholm",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Constitutional Monarchy with Parliamentary System",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Sweden",
+          "description": "Temporal mapping of Sweden’s actor space from agrarian estates and monarchy to industrial conglomerates, labor unions, welfare-state institutions, and innovation-driven enterprises.",
+          "link": null
+        },
+        {
+          "id": "industrial_and_innovation_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Industrial and Innovation Network Structure",
+          "description": "Network analysis of Sweden’s engineering firms, automotive and telecom sectors, research institutions, and integration into European and global value chains.",
+          "link": null
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of counties, metropolitan regions, transport infrastructure, and spatial concentration of industrial and knowledge clusters.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "SWE",
+        "region": "Northern Europe",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "tha",
+    "name": "Thailand",
+    "tags": [
+      "Southeast Asia",
+      "ASEAN",
+      "Upper-Middle-Income",
+      "Export-Oriented",
+      "Constitutional Monarchy",
+      "Manufacturing Hub"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Thailand is a constitutional monarchy in Southeast Asia with a diversified, export-oriented economy. Historically the Kingdom of Siam, it avoided formal colonization and underwent gradual modernization in the late 19th and early 20th centuries. Since the late 20th century, Thailand has developed strong manufacturing sectors—particularly automotive and electronics—alongside tourism and agro-industrial exports, integrated into regional and global value chains.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "ราชอาณาจักรไทย (Ratcha-anachak Thai) / Kingdom of Thailand",
+      "flagEmoji": "🇹🇭",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "71 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 71000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 540 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 540000000000
+        },
+        {
+          "id": "area",
+          "value": "513,120 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 513120
+        },
+        {
+          "id": "capital",
+          "value": "Bangkok",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Thailand",
+          "description": "Temporal mapping of Thailand’s actor space from monarchical-administrative structures and military influence to export-oriented industrialization, business conglomerates, and contemporary regulatory institutions.",
+          "link": "rep/actor.html?code=tha"
+        },
+        {
+          "id": "industrial_and_trade_network",
+          "type": "Network",
+          "status": "active",
+          "title": "Industrial and Trade Network Structure",
+          "description": "Network analysis of Thailand’s automotive clusters, electronics manufacturing, agro-industrial exports, and integration into ASEAN and global production networks.",
+          "link": "pending.html?back=entry.html%3Fcode%3Dtha"
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of provinces, economic corridors (including the Eastern Economic Corridor), infrastructure systems, and regional development patterns.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "THA",
+        "region": "Southeast Asia",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "ury",
+    "name": "Uruguay",
+    "tags": [
+      "South America",
+      "Mercosur",
+      "Upper-Middle-Income",
+      "Agro-Export",
+      "Renewable Energy",
+      "Presidential Republic"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Uruguay is a sovereign presidential republic in South America located between Brazil and Argentina along the Atlantic coast. Historically shaped by livestock-based exports and early welfare-state development, it has evolved into a relatively stable democracy with strong institutions, diversified agricultural exports, growing services sectors, and a high share of renewable energy generation in its electricity matrix.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "República Oriental del Uruguay",
+      "flagEmoji": "🇺🇾",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "3.5 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 3500000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 80 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 80000000000
+        },
+        {
+          "id": "area",
+          "value": "176,215 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 176215
+        },
+        {
+          "id": "capital",
+          "value": "Montevideo",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "pending",
+          "title": "Actor Set Evolution of Uruguay",
+          "description": "Temporal mapping of Uruguay’s actor space from 19th-century state formation and livestock oligarchies to welfare-state consolidation, military rule, democratic restoration, and contemporary regulatory institutions.",
+          "link": null
+        },
+        {
+          "id": "agro_export_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Agro-Export and Energy Network Structure",
+          "description": "Network analysis of beef, soy, forestry, and cellulose exports, alongside renewable energy infrastructure and integration into Mercosur trade flows.",
+          "link": null
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of departments, agricultural zones, port infrastructure, and population concentration patterns.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "URY",
+        "region": "Latin America & Caribbean",
+        "lastRevised": "2026-02-15",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "vnm",
+    "name": "Vietnam",
+    "tags": [
+      "Southeast Asia",
+      "One-Party State",
+      "Emerging Economy",
+      "Rice Exporter",
+      "One-Party State",
+      "ASEAN"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Vietnam is a One-Party State polity located in Southeast Asia, bordered by China, Laos, and Cambodia, with an extensive coastline along the South China Sea. It operates under a one-party system led by the Communist Party of Vietnam. Historically shaped by Chinese rule, French colonization, and the Vietnam War, the country has transitioned into a rapidly growing emerging economy with key sectors including agriculture, manufacturing, electronics, and services. Institutional development and regulatory frameworks remain evolving, with strong state involvement in strategic economic sectors.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Việt Nam",
+      "flagEmoji": "🇻🇳",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "100.5 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 100500000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 450 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 450000000000
+        },
+        {
+          "id": "area",
+          "value": "331,212 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 331212
+        },
+        {
+          "id": "capital",
+          "value": "Hanoi",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Socialist Republic, One-Party State",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Vietnam’s political and economic actors, from traditional dynasties and colonial administration to socialist state structures, Doi Moi reforms, and contemporary governance institutions.",
+          "link": "rep/actor.html?code=vnm"
+        },
+        {
+          "id": "product_space",
+          "type": "Network",
+          "status": "pending",
+          "title": "Product Space Evolution",
+          "description": "Network analysis of rice, coffee, electronics, and manufacturing sectors, including trade linkages within ASEAN and global markets.",
+          "link": "pending.html?back=entry.html%3Fcode%3Dvnm"
+        },
+        {
+          "id": "regional_spatial_structure",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Spatial-Administrative Structure",
+          "description": "Geospatial representation of provinces, major urban centers, transport infrastructure, and economic zones.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "VNM",
+        "region": "Southeast Asia",
+        "lastRevised": "2026-03-22",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "research-CountryIndex",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  }
+]
