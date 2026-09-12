@@ -8,8 +8,7 @@
   <title id="docTitle">Actor Space · Naturgnosis</title>
   <script>
     (function () {
-      const theme = localStorage.getItem('index-gentium-theme') ||
-        (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      const theme = localStorage.getItem('naturgnosis-theme') || 'dark';
       document.documentElement.classList.toggle('dark', theme === 'dark');
     })();
   </script>
@@ -19,6 +18,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="/shared/theme.css">
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -43,31 +43,34 @@
   </script>
   <style>
     :root {
-      --bg: #F8FAFC;
-      --fg: #0F172A;
-      --muted: #475569;
-      --accent: #2563EB;
-      --card: #FFFFFF;
-      --border: #CBD5E1;
-      --bg-subtle: #F1F5F9;
-      --panel-bg: rgba(248, 250, 252, 0.6);
-      --private: #0F172A;
-      --hybrid: #0F172A;
-      --public: #64748B;
+      /* Light — parchment companion of the Oxford Common Room system
+         (see spec/theme/README.md). Dark mode maps to /shared/theme.css. */
+      --bg: #F6F3EC;
+      --fg: #2B2620;
+      --muted: #6E6659;
+      --accent: #A87A50;
+      --card: #FCFBF7;
+      --border: rgba(43, 38, 32, 0.14);
+      --bg-subtle: #EFEAE0;
+      --panel-bg: rgba(246, 243, 236, 0.6);
+      --private: #2B2620;
+      --hybrid: #2B2620;
+      --public: #6E6659;
     }
 
     .dark {
-      --bg: #0F172A;
-      --fg: #E4EBF2;
-      --muted: #8BA3BC;
-      --accent: #93C5FD;
-      --card: #1E293B;
-      --border: #334155;
-      --bg-subtle: #172033;
-      --panel-bg: rgba(15, 23, 42, 0.5);
-      --private: #E2E8F0;
-      --hybrid: #E2E8F0;
-      --public: #94A3B8;
+      /* Dark — canonical Oxford Common Room tokens (app/shared/theme.css) */
+      --bg: var(--bg-void);
+      --fg: var(--text-primary);
+      --muted: var(--text-muted);
+      --accent: var(--accent-copper);
+      --card: var(--bg-card);
+      --border: var(--border-medium);
+      --bg-subtle: var(--bg-surface);
+      --panel-bg: rgba(11, 14, 20, 0.5);
+      --private: var(--text-primary);
+      --hybrid: var(--text-primary);
+      --public: var(--text-muted);
     }
 
     * {
@@ -1759,15 +1762,14 @@
     const projectHeader = document.getElementById('projectHeader');
     const htmlElement = document.documentElement;
 
-    const getSystemTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const getStoredTheme = () => localStorage.getItem('index-gentium-theme');
+    const getStoredTheme = () => localStorage.getItem('naturgnosis-theme');
 
     function setTheme(theme) {
       htmlElement.classList.toggle('dark', theme === 'dark');
-      localStorage.setItem('index-gentium-theme', theme);
+      localStorage.setItem('naturgnosis-theme', theme);
     }
 
-    setTheme(getStoredTheme() || getSystemTheme());
+    setTheme(getStoredTheme() || 'dark');
 
     themeToggle.addEventListener('click', () => {
       const newTheme = htmlElement.classList.contains('dark') ? 'light' : 'dark';
@@ -2318,9 +2320,11 @@
 
         ctx.clearRect(0, 0, w, h);
 
-        const textColor = isDark ? '#94a3b8' : '#475569';
-        const tickColor = isDark ? '#64748b' : '#94a3b8';
-        const majorTickColor = isDark ? '#94a3b8' : '#64748b';
+        const cssVar = (name) =>
+          getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+        const textColor = cssVar('--muted');
+        const tickColor = cssVar('--muted');
+        const majorTickColor = cssVar(isDark ? '--text-secondary' : '--fg');
 
         const range = (2025 - 1800) / this.state.zoom;
         const center = (1800 + 2025) / 2 - this.state.panY * range;
@@ -2355,7 +2359,7 @@
               : '500 11px "Cormorant Garamond", Georgia, serif';
             ctx.textAlign = 'right';
             ctx.textBaseline = 'middle';
-            ctx.fillStyle = isCentury ? (isDark ? '#e2e8f0' : '#334155') : textColor;
+            ctx.fillStyle = isCentury ? cssVar('--fg') : textColor;
             ctx.fillText(y.toString(), tickAnchorX - 6, py);
           } else {
             ctx.strokeStyle = tickColor;

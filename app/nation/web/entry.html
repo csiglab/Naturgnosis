@@ -8,6 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <script>
+    document.documentElement.classList.toggle('dark', (localStorage.getItem('naturgnosis-theme') || 'dark') === 'dark');
+  </script>
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -32,31 +36,44 @@
   </script>
   <style>
     :root {
-      --bg: #FAFBFC;
-      --fg: #1A2B3C;
-      --muted: #5C7089;
-      --accent: #3D6B99;
-      --card: #FFFFFF;
-      --border: #D8E1EB;
-      --status-pending: #8A9FB0;
-      --bg-subtle: #F1F5F9;
-      --type-temporal: #6B4C9A;
-      --type-spatial: #2D7D9A;
-      --type-network: #9A6B4C;
+      /* Light — parchment companion of the Oxford Common Room system
+         (see spec/theme/README.md). Dark mode maps to /shared/theme.css. */
+      --bg: #F6F3EC;
+      --fg: #2B2620;
+      --muted: #6E6659;
+      --accent: #A87A50;
+      --card: #FCFBF7;
+      --border: rgba(43, 38, 32, 0.14);
+      --status-pending: #A99E8B;
+      --bg-subtle: #EFEAE0;
+      --type-temporal: #6E5A8C;
+      --type-spatial: #4E6E8C;
+      --type-network: #9A7434;
+      --footer-bg: #2B2620;
+      --footer-text: #F0EBDF;
+      --footer-text-light: #CFC8B8;
+      --footer-muted: #A99E8B;
+      --footer-border: rgba(207, 200, 184, 0.16);
     }
 
     .dark {
-      --bg: #0F172A;
-      --fg: #E4EBF2;
-      --muted: #8BA3BC;
-      --accent: #93C5FD;
-      --card: #1E293B;
-      --border: #334155;
-      --status-pending: #64748B;
-      --bg-subtle: #172033;
-      --type-temporal: #A78BFA;
-      --type-spatial: #22D3EE;
-      --type-network: #FBBF24;
+      /* Dark — canonical Oxford Common Room tokens (app/shared/theme.css) */
+      --bg: var(--bg-void);
+      --fg: var(--text-primary);
+      --muted: var(--text-muted);
+      --accent: var(--accent-copper);
+      --card: var(--bg-card);
+      --border: var(--border-medium);
+      --status-pending: var(--text-muted);
+      --bg-subtle: var(--bg-surface);
+      --type-temporal: var(--accent-plum);
+      --type-spatial: var(--accent-steel);
+      --type-network: var(--accent-amber);
+      --footer-bg: var(--bg-void);
+      --footer-text: var(--text-primary);
+      --footer-text-light: var(--text-secondary);
+      --footer-muted: var(--text-muted);
+      --footer-border: var(--border-subtle);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -700,31 +717,31 @@
     .entity-card[data-state="active"]:hover .card-cta { gap: 0.75rem; }
 
     /* ========================================
-       FOOTER STYLES - ARBITRISTAE INSTITUTIONAL
+       FOOTER STYLES - INSTITUTIONAL LAYER
        ======================================== */
     .site-footer {
-      background-color: #0B1A2B; /* Fixed dark navy background */
+      background-color: var(--footer-bg);
       border-top: none;
     }
 
     .footer-link {
       text-decoration: none;
-      color: #B8C5D4;
+      color: var(--footer-text-light);
       transition: color 150ms ease-out;
     }
 
     .footer-link:hover {
       text-decoration: underline;
       text-underline-offset: 4px;
-      color: #E8EDF3;
+      color: var(--footer-text);
     }
 
     .footer-meta-label {
-      color: #5A7089;
+      color: var(--footer-muted);
     }
 
     .footer-meta-value {
-      color: #B8C5D4;
+      color: var(--footer-text-light);
     }
 
     .scroll-progress {
@@ -836,17 +853,17 @@
         
         <!-- Column I: Identity (5 cols) -->
         <div class="md:col-span-5 text-center md:text-left">
-          <p class="font-display text-lg font-medium tracking-[0.25em] uppercase mb-3" style="color: #E8EDF3;">
-            ARBITRISTAE
+          <p class="font-display text-lg font-medium tracking-[0.25em] uppercase mb-3" style="color: var(--footer-text);">
+            NATURGNOSIS
           </p>
-          <p class="font-body text-xs leading-relaxed max-w-xs mx-auto md:mx-0" style="color: #6B8299;">
+          <p class="font-body text-xs leading-relaxed max-w-xs mx-auto md:mx-0" style="color: var(--footer-text-light);">
             A research laboratory dedicated to the structured classification and comparative analysis of sovereign systems.
           </p>
         </div>
         
         <!-- Column II: Navigation (3 cols) -->
         <div class="md:col-span-3 text-center md:text-left">
-          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: #4A6075;">Navigation</p>
+          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: var(--footer-muted);">Navigation</p>
           <nav id="footerLinks" class="flex flex-col items-center md:items-start gap-2" aria-label="Footer navigation">
             <!-- Links populated by JS -->
           </nav>
@@ -854,7 +871,7 @@
 
         <!-- Column III: Registry Metadata (4 cols) -->
         <div class="md:col-span-4 text-center md:text-right">
-          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: #4A6075;">Registry Status</p>
+          <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: var(--footer-muted);">Registry Status</p>
           <div class="space-y-2 font-mono text-xs" id="footerMetadata">
             <!-- Metadata populated by JS -->
           </div>
@@ -863,11 +880,11 @@
       </div>
       
       <!-- Subtle Divider and Bottom Bar -->
-      <div class="pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style="border-color: rgba(90, 112, 137, 0.15);">
-         <p class="font-mono text-[10px] tracking-[0.15em] uppercase" style="color: #4A6075;">
+      <div class="pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style="border-color: var(--footer-border);">
+         <p class="font-mono text-[10px] tracking-[0.15em] uppercase" style="color: var(--footer-muted);">
            Naturgnosis · Nation Space <span>v1.2</span>
          </p>
-         <p class="font-display text-sm italic tracking-wide" style="color: #5A7089;">
+         <p class="font-display text-sm italic tracking-wide" style="color: var(--footer-muted);">
            Ordo ex comparatione.
          </p>
       </div>
@@ -896,15 +913,14 @@
     const projectHeader = document.getElementById('projectHeader');
     const htmlElement = document.documentElement;
 
-    const getSystemTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const getStoredTheme = () => localStorage.getItem('index-gentium-theme');
+    const getStoredTheme = () => localStorage.getItem('naturgnosis-theme');
 
     function setTheme(theme) {
       htmlElement.classList.toggle('dark', theme === 'dark');
-      localStorage.setItem('index-gentium-theme', theme);
+      localStorage.setItem('naturgnosis-theme', theme);
     }
     
-    setTheme(getStoredTheme() || getSystemTheme());
+    setTheme(getStoredTheme() || 'dark');
 
     themeToggle.addEventListener('click', () => {
       const newTheme = htmlElement.classList.contains('dark') ? 'light' : 'dark';

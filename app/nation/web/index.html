@@ -8,6 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/shared/theme.css">
+  <script>
+    document.documentElement.classList.toggle('dark', (localStorage.getItem('naturgnosis-theme') || 'dark') === 'dark');
+  </script>
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -21,7 +25,6 @@
             accentDark: 'var(--accent-dark)',
             card: 'var(--card)',
             border: 'var(--border)',
-            navy: '#1B2838',
           },
           fontFamily: {
             display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
@@ -34,46 +37,56 @@
   </script>
   <style>
     :root {
-      --bg: #FAFBFC;
-      --fg: #1E293B;
-      --muted: #64748B;
-      --accent: #4A6FA5;
-      --accent-dark: #3A5A8A;
-      --accent-glow: rgba(74, 111, 165, 0.15);
-      --card: #FFFFFF;
-      --border: #E2E8F0;
-      --border-hover: #CBD5E1;
+      /* Light — parchment companion of the Oxford Common Room system
+         (see spec/theme/README.md). Dark mode maps to /shared/theme.css. */
+      --bg: #F6F3EC;
+      --fg: #2B2620;
+      --muted: #6E6659;
+      --accent: #A87A50;
+      --accent-dark: #8A6240;
+      --accent-glow: rgba(168, 122, 80, 0.14);
+      --card: #FCFBF7;
+      --border: rgba(43, 38, 32, 0.14);
+      --border-hover: rgba(43, 38, 32, 0.28);
       --input-bg: #FFFFFF;
-      --skeleton-from: #f1f5f9;
-      --skeleton-to: #e2e8f0;
-      --footer-bg: #0B1A2B;
-      --footer-text: #B8C5D4;
-      --footer-text-light: #E8EDF3;
-      --footer-muted: #5A7089;
-      --status-active: #22c55e;
-      --dropdown-shadow: rgba(0, 0, 0, 0.12);
-      --card-shadow: rgba(0, 0, 0, 0.06);
-      --tag-bg: rgba(30, 41, 59, 0.06);
-      --tag-selected-border: #1E293B;
+      --skeleton-from: #EFEAE0;
+      --skeleton-to: #E3DCCD;
+      --footer-bg: #2B2620;
+      --footer-text: #F0EBDF;
+      --footer-text-light: #CFC8B8;
+      --footer-muted: #A99E8B;
+      --footer-border: rgba(207, 200, 184, 0.16);
+      --status-active: var(--accent-sage);
+      --dropdown-shadow: rgba(43, 38, 32, 0.18);
+      --card-shadow: rgba(43, 38, 32, 0.08);
+      --tag-bg: rgba(168, 122, 80, 0.10);
+      --tag-selected-border: #8A6240;
     }
 
     .dark {
-      --bg: #0D1926;
-      --fg: #E8EDF3;
-      --muted: #8BA3BC;
-      --accent: #6B9BD1;
-      --accent-dark: #4A7AB0;
-      --accent-glow: rgba(107, 155, 209, 0.2);
-      --card: #152238;
-      --border: #243B55;
-      --border-hover: #3A5470;
-      --input-bg: #0F1D2D;
-      --skeleton-from: #1a2d45;
-      --skeleton-to: #243B55;
+      /* Dark — canonical Oxford Common Room tokens (app/shared/theme.css) */
+      --bg: var(--bg-void);
+      --fg: var(--text-primary);
+      --muted: var(--text-muted);
+      --accent: var(--accent-copper);
+      --accent-dark: var(--accent-copper-light);
+      --accent-glow: rgba(201, 149, 108, 0.16);
+      --card: var(--bg-card);
+      --border: var(--border-medium);
+      --border-hover: var(--border-strong);
+      --input-bg: var(--bg-surface);
+      --skeleton-from: var(--bg-surface);
+      --skeleton-to: var(--bg-elevated);
+      --footer-bg: var(--bg-void);
+      --footer-text: var(--text-primary);
+      --footer-text-light: var(--text-secondary);
+      --footer-muted: var(--text-muted);
+      --footer-border: var(--border-subtle);
+      --status-active: var(--accent-sage);
       --dropdown-shadow: rgba(0, 0, 0, 0.4);
       --card-shadow: rgba(0, 0, 0, 0.3);
-      --tag-bg: rgba(107, 155, 209, 0.12);
-      --tag-selected-border: #6B9BD1;
+      --tag-bg: rgba(201, 149, 108, 0.12);
+      --tag-selected-border: var(--accent-copper);
     }
 
     * {
@@ -627,21 +640,21 @@
     /* Footer styles */
     .footer-link {
       text-decoration: none;
-      color: #B8C5D4;
+      color: var(--footer-text-light);
     }
 
     .footer-link:hover {
       text-decoration: underline;
       text-underline-offset: 4px;
-      color: #E8EDF3;
+      color: var(--footer-text);
     }
 
     .footer-meta-label {
-      color: #5A7089;
+      color: var(--footer-muted);
     }
 
     .footer-meta-value {
-      color: #B8C5D4;
+      color: var(--footer-text-light);
     }
 
     /* Screen reader only */
@@ -894,7 +907,7 @@
   </div>
 
   <!-- [10] Footer — Institutional Layer -->
-<footer class="site-footer mt-12 py-16 md:py-20 px-6" style="background-color: #0B1A2B;">
+<footer class="site-footer mt-12 py-16 md:py-20 px-6" style="background-color: var(--footer-bg);">
   <div class="max-w-6xl mx-auto">
     
     <!-- Main Footer Grid -->
@@ -902,43 +915,43 @@
       
       <!-- Column I: Identity (5 cols) -->
       <div class="md:col-span-5 text-center md:text-left">
-        <p class="font-display text-lg font-medium tracking-[0.25em] uppercase mb-3" style="color: #E8EDF3;">
+        <p class="font-display text-lg font-medium tracking-[0.25em] uppercase mb-3" style="color: var(--footer-text);">
           NATURGNOSIS
         </p>
-        <p class="font-body text-xs leading-relaxed max-w-xs mx-auto md:mx-0" style="color: #6B8299;">
+        <p class="font-body text-xs leading-relaxed max-w-xs mx-auto md:mx-0" style="color: var(--footer-text-light);">
           A research laboratory dedicated to the structured classification and comparative analysis of sovereign systems.
         </p>
       </div>
       
       <!-- Column II: Navigation (3 cols) -->
       <div class="md:col-span-3 text-center md:text-left">
-        <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: #4A6075;">Navigation</p>
+        <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: var(--footer-muted);">Navigation</p>
         <nav class="flex flex-col items-center md:items-start gap-2" aria-label="Footer navigation">
-          <a href="/" class="font-body text-xs transition-colors duration-150 hover:text-white" style="color: #8A9DB0;">About</a>
-          <a href="https://github.com/csiglab/Naturgnosis" class="font-body text-xs transition-colors duration-150 hover:text-white" style="color: #8A9DB0;">Source</a>
-          <a href="/nation/edit.html" class="font-body text-xs transition-colors duration-150 hover:text-white" style="color: #8A9DB0;">Editor</a>
+          <a href="/" class="footer-link font-body text-xs transition-colors duration-150">About</a>
+          <a href="https://github.com/csiglab/Naturgnosis" class="footer-link font-body text-xs transition-colors duration-150">Source</a>
+          <a href="/nation/edit.html" class="footer-link font-body text-xs transition-colors duration-150">Editor</a>
         </nav>
       </div>
 
       <!-- Column III: Registry Metadata (4 cols) -->
       <div class="md:col-span-4 text-center md:text-right">
-        <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: #4A6075;">Registry Status</p>
+        <p class="font-mono text-[10px] tracking-[0.2em] uppercase mb-4" style="color: var(--footer-muted);">Registry Status</p>
         <div class="space-y-2 font-mono text-xs">
           <div class="flex justify-center md:justify-end items-baseline gap-3">
-            <span style="color: #5A7089;">Entities Indexed</span>
-            <span class="font-medium tabular-nums" style="color: #B8C5D4;" id="footerEntityCount">—</span>
+            <span style="color: var(--footer-muted);">Entities Indexed</span>
+            <span class="font-medium tabular-nums" style="color: var(--footer-text-light);" id="footerEntityCount">—</span>
           </div>
           <div class="flex justify-center md:justify-end items-baseline gap-3">
-            <span style="color: #5A7089;">Classifications</span>
-            <span class="font-medium tabular-nums" style="color: #B8C5D4;" id="footerClassificationCount">—</span>
+            <span style="color: var(--footer-muted);">Classifications</span>
+            <span class="font-medium tabular-nums" style="color: var(--footer-text-light);" id="footerClassificationCount">—</span>
           </div>
           <div class="flex justify-center md:justify-end items-baseline gap-3">
-            <span style="color: #5A7089;">Regions</span>
-            <span class="font-medium tabular-nums" style="color: #B8C5D4;" id="footerRegionCount">—</span>
+            <span style="color: var(--footer-muted);">Regions</span>
+            <span class="font-medium tabular-nums" style="color: var(--footer-text-light);" id="footerRegionCount">—</span>
           </div>
           <div class="flex justify-center md:justify-end items-baseline gap-3">
-            <span style="color: #5A7089;">Last Revised</span>
-            <span style="color: #8A9DB0;" id="footerLastRevision">—</span>
+            <span style="color: var(--footer-muted);">Last Revised</span>
+            <span style="color: var(--footer-text-light);" id="footerLastRevision">—</span>
           </div>
         </div>
       </div>
@@ -946,11 +959,11 @@
     </div>
     
     <!-- Subtle Divider and Bottom Bar -->
-    <div class="pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style="border-color: rgba(90, 112, 137, 0.15);">
-       <p class="font-mono text-[10px] tracking-[0.15em] uppercase" style="color: #4A6075;">
+    <div class="pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4" style="border-color: var(--footer-border);">
+       <p class="font-mono text-[10px] tracking-[0.15em] uppercase" style="color: var(--footer-muted);">
          Naturgnosis · Nation Space <span id="footerVersion">v1.0</span>
        </p>
-       <p class="font-display text-sm italic tracking-wide" style="color: #5A7089;">
+       <p class="font-display text-sm italic tracking-wide" style="color: var(--footer-muted);">
          Ordo ex comparatione.
        </p>
     </div>
@@ -961,16 +974,14 @@
   <script>
     // =============================================
     // Theme Management
+    // (storage key is global — shared across modules)
     // =============================================
+    const THEME_KEY = 'naturgnosis-theme';
     const themeToggle = document.getElementById('themeToggle');
     const htmlElement = document.documentElement;
     
-    function getSystemTheme() {
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-    
     function getStoredTheme() {
-      return localStorage.getItem('index-gentium-theme');
+      return localStorage.getItem(THEME_KEY);
     }
     
     function setTheme(theme) {
@@ -979,32 +990,21 @@
       } else {
         htmlElement.classList.remove('dark');
       }
-      localStorage.setItem('index-gentium-theme', theme);
+      localStorage.setItem(THEME_KEY, theme);
       
       // Update aria label
       themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
     }
     
     function initTheme() {
-      const storedTheme = getStoredTheme();
-      if (storedTheme) {
-        setTheme(storedTheme);
-      } else {
-        setTheme(getSystemTheme());
-      }
+      // Dark is the default (Oxford Common Room identity); stored preference wins
+      setTheme(getStoredTheme() || 'dark');
     }
     
     themeToggle.addEventListener('click', () => {
       const currentTheme = htmlElement.classList.contains('dark') ? 'dark' : 'light';
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
       setTheme(newTheme);
-    });
-    
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-      if (!getStoredTheme()) {
-        setTheme(e.matches ? 'dark' : 'light');
-      }
     });
     
     // Initialize theme immediately

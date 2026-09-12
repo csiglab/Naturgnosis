@@ -212,22 +212,29 @@ All motion collapses to `0.01ms` under `@media (prefers-reduced-motion: reduce)`
 - **ARIA:** detail panel is `aria-live="polite"`; modals are `role="dialog"` with `aria-label`; icon-only buttons carry `aria-label` and `title`.
 - **Keyboard:** `F` fits view, `S` opens stats; canvas supports pan/zoom; tab order follows the visual order.
 
-## Index Gentium theme variant (Nation Space)
+## Nation Space — light/dark toggle on the global scheme
 
-The Nation Space catalog (`app/nation/web/`) is a **faithful port** of the Index Gentium
-(research-CountryIndex) pages: the source stylesheet and Tailwind configuration are carried over
-verbatim (light-first institutional theme + dark toggle), with only branding and data-source
-adaptations. It is an explicitly created variant, intentionally different from the Oxford Common
-Room canvas above.
+The Nation Space catalog (`app/nation/web/`) uses the **Oxford Common Room scheme as its dark
+mode** and keeps the light/dark toggle inherited from the Index Gentium (research-CountryIndex)
+source. Dark mode maps the pages' local variables directly onto the canonical tokens above
+(`--bg` → `--bg-void`, `--card` → `--bg-card`, `--accent` → `--accent-copper`, …). The one
+sanctioned variant is the **light mode**: a parchment companion of the same system — a warm paper
+canvas instead of indigo-black, ink instead of parchment text, and a darkened copper accent for
+contrast on light surfaces.
 
-- **Palettes** — light `--bg #FAFBFC / --fg #1E293B / --accent #4A6FA5`, dark `--bg #0D1926 /
-  --fg #E8EDF3 / --accent #6B9BD1` (plus card/border/footer tokens, inline in the nation pages).
+- **Dark (default)** — canonical tokens from `/shared/theme.css`, referenced per page via
+  `<link>`; local variables alias them (no second palette).
+- **Light (parchment companion)** — `--bg #F6F3EC / --fg #2B2620 / --muted #6E6659 /
+  --accent #A87A50`, card `#FCFBF7`, warm borders `rgba(43,38,32,0.14)`, footer slab `#2B2620`
+  with parchment text. Semantic accents reuse the global system: sage (active), plum/steel/amber
+  (entry type colors), copper (links/focus).
 - **Engine** — `cdn.tailwindcss.com` + the source's utility classes (fidelity first). This is a
   view-time internet dependency, exactly as the source project ships; vendor a prebuilt CSS copy
   if offline rendering is ever required.
 - **Typography** — Cormorant Garamond / Inter / JetBrains Mono (same three voices as the Oxford
   system).
-- Theme choice persists per browser (`localStorage: naturgnosis-nation-theme`).
+- Theme choice persists per browser under the **global** key `localStorage:
+  naturgnosis-theme` (shared across modules; default `dark` when unset).
 
 ## Canonical token block
 

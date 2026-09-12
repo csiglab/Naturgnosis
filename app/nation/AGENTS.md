@@ -28,6 +28,8 @@ curl /api/graph?dataset=nation        # nodes
 ## Invariants
 
 - Dataset id is `nation`.
-- The public face is the Index Gentium–style catalog (index + entries), NOT a graph explorer; its
-  light/dark tokens are an explicit theme variant documented in `spec/theme/README.md`.
+- The public face is the Index Gentium–style catalog (index + entries), NOT a graph explorer. Its
+  dark mode uses the global Oxford Common Room scheme (`/shared/theme.css`); the toggle's light
+  mode is the parchment companion documented in `spec/theme/README.md`. Theme persists under the
+  global `localStorage` key `naturgnosis-theme` (default dark).
 - Entries render from `data.json` only — no dependency on `import/` at runtime.
