@@ -113,6 +113,56 @@ Before declaring done: `python bin/sync.py --no-couch` and check every touched m
 returns 200 (`/, /<module>/, /<module>/edit.html`); `curl /api/health` returns JSON. There is no
 test suite; the server run + route checks are the smoke test.
 
+## Git Workflow
+
+Global git configuration lives in `~/configs/global/git` (hooks via `core.hooksPath`) and
+`~/configs/bin` (helper scripts). Every commit passes through four active hooks.
+
+### Check-in policy (`pre-commit.d/00-authorization-policy.sh`)
+
+A staged file is only accepted if it carries the extended attribute `user.checkin=1` — otherwise
+the commit is rejected with "Required check mark is missing".
+
+```sh
+mark-for-commit <file>…        # mark files (alias: mfc; ~/configs/bin/mark-for-commit)
+mark-for-commit --list         # list marked files
+mark-for-commit --unmark <f>…  # remove the mark
+git diff --cached --name-only -z --diff-filter=ACM | xargs -0 mark-for-commit   # bulk-mark staged
+```
+
+The mark is a filesystem xattr: it survives staging, is not versioned, and must be re-applied on
+new files.
+
+### Annotation policy (`pre-commit.d/01-annotation-policy.sh`)
+
+Staged source files (patterns in `annotations.conf`) must not contain BLOCK annotations —
+`@WORKING`, `@FIXME`, `@QUESTION`, `@VERIFY` — or the commit is rejected. `@TODO`, `@HACK`,
+`@WORKAROUND` only warn; `@TECH-DEBT`, `@NOTE`, etc. are informational.
+
+### Encoding policy (`pre-commit.d/02-encoding-policy.sh`)
+
+Staged text files must be UTF-8, without a BOM, with LF line endings only. Fix with
+`dos2unix <file>` / `sed -i '1s/^\xEF\xBB\xBF//' <file>` / `iconv`.
+
+### Commit message hook (`prepare-commit-msg`)
+
+`git commit -m "…"` is **overwritten** by the template `type(<ref>): message` (plus the staged
+file list), where `<ref>` is the branch name or the Jira key extracted from it (e.g. branch
+`feature/20260624-SGF-11181-login` → scope `SGF-11181`). The intended flow: run `git commit`,
+let the editor open with the pre-filled template, replace it with the real message, save.
+Amending with `-m` is clobbered the same way (`-m` counts as a message source); to supply a full
+message programmatically, use the editor flow:
+
+```sh
+GIT_EDITOR='<script that writes your message into $1>' git commit --amend
+```
+
+### Signing & branches
+
+- Commits are SSH-signed via 1Password (`gpg.format=ssh`, `commit.gpgsign=true`).
+- Branches: `<type>/<slug>` (see `guideline.md`); a Jira key in the branch name becomes the
+  commit-message scope automatically.
+
 ## When to Ask
 
 - Renaming modules, dataset ids, or the CouchDB database (breaks running deployments).
