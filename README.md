@@ -1,6 +1,9 @@
-# Sociognosis
+# Naturgnosis
 
-> **Sociognosis** aims to identify and formalize the set of epistemic elements that enable an agent to effectively navigate (undertanding and action) social reality.
+> **Naturgnosis** aims to identify and formalize the set of epistemic elements that enable an agent to effectively navigate (undertanding and action) reality - specally social.
+
+> **Naturgnosis** will serve as the main index of the world’s **technique** and **episteme**, while **Epistemica** will focus on what man intentionally pursues through deep study and some level of mastery, specifically for **@dbremont**.
+
 
 Goals:
 
@@ -10,12 +13,15 @@ Goals:
 
 Sub Projects:
 
-- Main: Sociognosis Space
+- Main: Social Space
     - Space Explorer
     - Node Editor
 - Product Space
     - Space Explorer
     - Node Editor
+- Research Space
+- Technique Space
+- Glosarry
 
 ## Data Sync
 
