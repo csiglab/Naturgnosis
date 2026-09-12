@@ -26,7 +26,7 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 |---|--------|------|------|---------|--------|
 | 1 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
 | 2 | Production Space | `app/production/` | Graph explorer + editor | CouchDB (`dataset=production`) + disk mirror | active |
-| 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | scaffold |
+| 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
 | 4 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
 | 5 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
 | 6 | Glossary | `app/glossary/` | Entry index + search + reader | Physical markdown (`entries/*.md`) + generated `data/index.json` | active |

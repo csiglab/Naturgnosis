@@ -1,1 +1,497 @@
-[]
+[
+  {
+    "id": "kuhn_1962_structure_scientific_revolutions",
+    "name": "The Structure of Scientific Revolutions",
+    "tags": ["philosophy of science", "paradigms", "book", "history of science"],
+    "category": "Book",
+    "description": "Thomas S. Kuhn's account of normal science, anomalies, and paradigm shifts — the work that moved 'paradigm' into general circulation and reframed scientific change as revolutionary rather than cumulative.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1962, "event": "Published by the University of Chicago Press" }] },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "CITES",
+        "targetNodeId": "popper_1959_logic_scientific_discovery",
+        "description": "Engages Popper's falsificationism as the dominant account of scientific method that the historical record challenges."
+      }
+    ],
+    "specific": {
+      "kind": "monograph",
+      "creators": ["Thomas S. Kuhn"],
+      "year": 1962,
+      "venue": "University of Chicago Press",
+      "identifier": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.95,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "The Structure of Scientific Revolutions — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+        "description": "Overview, reception, and editions."
+      }
+    ]
+  },
+  {
+    "id": "popper_1959_logic_scientific_discovery",
+    "name": "The Logic of Scientific Discovery",
+    "tags": ["philosophy of science", "falsificationism", "book", "epistemology"],
+    "category": "Book",
+    "description": "Karl Popper's systematic statement of falsifiability as the demarcation criterion between science and non-science, first published in English translation of his Logik der Forschung (1934).",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1959, "event": "First English edition published by Hutchinson" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": ["Karl Popper"],
+      "year": 1959,
+      "venue": "Hutchinson",
+      "identifier": "https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.95,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "The Logic of Scientific Discovery — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery",
+        "description": "Overview of Popper's demarcation criterion."
+      }
+    ]
+  },
+  {
+    "id": "latour_1987_science_in_action",
+    "name": "Science in Action",
+    "tags": ["science studies", "laboratory studies", "book", "sociology of science"],
+    "category": "Book",
+    "description": "Bruno Latour's field guide to following scientists and engineers through society — a programmatic statement of laboratory studies and the anatomy of scientific 'facts in the making'.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1987, "event": "Published by Harvard University Press" }] },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "EXTENDS",
+        "targetNodeId": "kuhn_1962_structure_scientific_revolutions",
+        "description": "Science and technology studies takes Kuhn's historicized account of science as a point of departure and moves it into ethnographic detail."
+      }
+    ],
+    "specific": {
+      "kind": "monograph",
+      "creators": ["Bruno Latour"],
+      "year": 1987,
+      "venue": "Harvard University Press",
+      "identifier": "https://en.wikipedia.org/wiki/Science_in_Action_(book)",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.9,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Science in Action — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Science_in_Action_(book)",
+        "description": "Overview and reception in STS."
+      }
+    ]
+  },
+  {
+    "id": "darwin_1859_origin_of_species",
+    "name": "On the Origin of Species",
+    "tags": ["evolution", "natural selection", "book", "biology"],
+    "category": "Book",
+    "description": "Charles Darwin's presentation of descent with modification and natural selection — the foundational synthesis of evolutionary biology.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1859, "event": "Published by John Murray, London" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": ["Charles Darwin"],
+      "year": 1859,
+      "venue": "John Murray",
+      "identifier": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.98,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "On the Origin of Species — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "description": "Publication history and argument structure."
+      }
+    ]
+  },
+  {
+    "id": "newton_1687_principia",
+    "name": "Philosophiæ Naturalis Principia Mathematica",
+    "tags": ["mechanics", "gravity", "book", "physics", "mathematics"],
+    "category": "Book",
+    "description": "Isaac Newton's statement of the laws of motion and universal gravitation — the charter document of mathematical physics.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1687, "event": "First edition published" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": ["Isaac Newton"],
+      "year": 1687,
+      "venue": "Royal Society (printed by Joseph Streater)",
+      "identifier": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "language": "Latin"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.98,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Principia — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+        "description": "Contents and editions of the Principia."
+      }
+    ]
+  },
+  {
+    "id": "shannon_1948_mathematical_theory_communication",
+    "name": "A Mathematical Theory of Communication",
+    "tags": ["information theory", "entropy", "article", "mathematics"],
+    "category": "Article",
+    "description": "Claude Shannon's founding paper of information theory — entropy as a measure of information, channel capacity, and the separation of source and channel coding.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1948, "event": "Published in two parts in the Bell System Technical Journal" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "journal-article",
+      "creators": ["Claude E. Shannon"],
+      "year": 1948,
+      "venue": "Bell System Technical Journal 27",
+      "identifier": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.97,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "A Mathematical Theory of Communication — DOI record",
+        "link": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+        "description": "Canonical record of the two-part paper."
+      }
+    ]
+  },
+  {
+    "id": "einstein_1905_electrodynamics_moving_bodies",
+    "name": "On the Electrodynamics of Moving Bodies",
+    "tags": ["special relativity", "physics", "article", "annus mirabilis"],
+    "category": "Article",
+    "description": "Albert Einstein's special relativity paper — the two postulates from which the Lorentz transformations, relativity of simultaneity, and the invariance of the speed of light follow.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1905, "event": "Published in Annalen der Physik 17" }] },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "EXTENDS",
+        "targetNodeId": "newton_1687_principia",
+        "description": "Generalizes and corrects Newtonian mechanics: inertial-frame relativity holds, but with the speed of light invariant rather than absolute time shared."
+      }
+    ],
+    "specific": {
+      "kind": "journal-article",
+      "creators": ["Albert Einstein"],
+      "year": 1905,
+      "venue": "Annalen der Physik 17:891",
+      "identifier": "https://doi.org/10.1002/andp.19053221004",
+      "language": "German"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.97,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Zur Elektrodynamik bewegter Körper — DOI record",
+        "link": "https://doi.org/10.1002/andp.19053221004",
+        "description": "Canonical record of the special relativity paper."
+      }
+    ]
+  },
+  {
+    "id": "watson_crick_1953_molecular_structure_nucleic_acids",
+    "name": "Molecular Structure of Nucleic Acids",
+    "tags": ["DNA", "molecular biology", "article", "double helix"],
+    "category": "Article",
+    "description": "Watson and Crick's one-page Nature communication of the B-form DNA double helix — the structural basis for genetic replication stated with 'novel features which are of considerable biological interest'.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1953, "event": "Published in Nature 171:737" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "journal-article",
+      "creators": ["James D. Watson", "Francis Crick"],
+      "year": 1953,
+      "venue": "Nature 171:737",
+      "identifier": "https://doi.org/10.1038/171737a0",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.98,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Molecular Structure of Nucleic Acids — DOI record",
+        "link": "https://doi.org/10.1038/171737a0",
+        "description": "Canonical record of the double-helix paper."
+      }
+    ]
+  },
+  {
+    "id": "mendel_1866_experiments_plant_hybridization",
+    "name": "Experiments on Plant Hybridization",
+    "tags": ["genetics", "inheritance", "article", "pea plants"],
+    "category": "Article",
+    "description": "Gregor Mendel's pea-plant experiments establishing particulate inheritance — the segregation and independent assortment of traits, overlooked for a generation and then foundational to genetics.",
+    "longDescription": "",
+    "chronology": {
+      "events": [
+        { "year": 1865, "event": "Read to the Natural History Society of Brünn" },
+        { "year": 1866, "event": "Published in the society's Verhandlungen" }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "CITES",
+        "targetNodeId": "darwin_1859_origin_of_species",
+        "description": "Mendel read and annotated a copy of the Origin; his hybridization experiments respond to the open question of the mechanism of heredity."
+      }
+    ],
+    "specific": {
+      "kind": "journal-article",
+      "creators": ["Gregor Mendel"],
+      "year": 1866,
+      "venue": "Verhandlungen des naturforschenden Vereines in Brünn 4",
+      "identifier": "https://www.mendelweb.org/",
+      "language": "German"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.9,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "MendelWeb",
+        "link": "https://www.mendelweb.org/",
+        "description": "Electronic edition and apparatus for the 1866 paper."
+      }
+    ]
+  },
+  {
+    "id": "genbank",
+    "name": "GenBank",
+    "tags": ["sequence data", "bioinformatics", "dataset", "database"],
+    "category": "Dataset",
+    "description": "The NIH genetic sequence database — an annotated collection of all publicly available DNA sequences, exchanged daily with the EMBL and DDBJ archives.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1982, "event": "Established at Los Alamos National Laboratory; public releases begin" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "reference-dataset",
+      "creators": ["National Center for Biotechnology Information (NCBI)"],
+      "year": 1982,
+      "venue": "National Library of Medicine",
+      "identifier": "https://www.ncbi.nlm.nih.gov/genbank/",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.95,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "GenBank Overview",
+        "link": "https://www.ncbi.nlm.nih.gov/genbank/",
+        "description": "Scope, growth, and access to the archive."
+      }
+    ]
+  },
+  {
+    "id": "hgp_2003_reference_sequence",
+    "name": "Human Genome Project Reference Sequence",
+    "tags": ["genomics", "human genome", "dataset", "reference sequence"],
+    "category": "Dataset",
+    "description": "The finished euchromatic human genome reference sequence produced by the International Human Genome Sequencing Consortium — the anchor against which human genomic variation is still read.",
+    "longDescription": "",
+    "chronology": {
+      "events": [
+        { "year": 2001, "event": "Draft sequence published" },
+        { "year": 2003, "event": "Finished euchromatic sequence announced" }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "EXTENDS",
+        "targetNodeId": "watson_crick_1953_molecular_structure_nucleic_acids",
+        "description": "Sequencing the human genome operationalizes the double-helix structure at whole-organism scale."
+      }
+    ],
+    "specific": {
+      "kind": "reference-dataset",
+      "creators": ["International Human Genome Sequencing Consortium"],
+      "year": 2003,
+      "venue": "NHGRI / EMBL-EBI / NCBI",
+      "identifier": "https://www.genome.gov/human-genome-project",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.95,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Human Genome Project — NHGRI",
+        "link": "https://www.genome.gov/human-genome-project",
+        "description": "Project history and data products."
+      }
+    ]
+  },
+  {
+    "id": "cern_open_data_portal",
+    "name": "CERN Open Data Portal",
+    "tags": ["particle physics", "open data", "dataset", "LHC"],
+    "category": "Dataset",
+    "description": "CERN's public release of LHC collision datasets, simulated samples, and analysis software — the flagship open-data commitment of experimental particle physics.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 2014, "event": "Portal launched with first CMS open data releases" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "repository",
+      "creators": ["CERN"],
+      "year": 2014,
+      "venue": "CERN",
+      "identifier": "https://opendata.cern.ch/",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.9,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "CERN Open Data Portal",
+        "link": "https://opendata.cern.ch/",
+        "description": "Datasets, tools, and usage policies."
+      }
+    ]
+  },
+  {
+    "id": "meadows_1972_limits_to_growth",
+    "name": "The Limits to Growth",
+    "tags": ["systems dynamics", "sustainability", "report", "Club of Rome"],
+    "category": "Report",
+    "description": "The Club of Rome's World3 model report on population, industrial growth, pollution, food, and resource constraints — the twentieth century's most contested global-futures scenario study.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1972, "event": "Presented at the Smithsonian; published by Universe Books" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "assessment",
+      "creators": ["Donella H. Meadows", "Dennis L. Meadows", "Jørgen Randers", "William W. Behrens III"],
+      "year": 1972,
+      "venue": "Universe Books (for the Club of Rome)",
+      "identifier": "https://en.wikipedia.org/wiki/The_Limits_to_Growth",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.9,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "The Limits to Growth — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/The_Limits_to_Growth",
+        "description": "Model, scenarios, and reception."
+      }
+    ]
+  },
+  {
+    "id": "ipcc_2021_ar6_wg1",
+    "name": "Climate Change 2021: The Physical Science Basis (IPCC AR6 WG1)",
+    "tags": ["climate science", "assessment", "report", "IPCC"],
+    "category": "Report",
+    "description": "Working Group I's contribution to the IPCC Sixth Assessment Report — the consensus physical-science baseline on observed warming, attribution, and projected climate futures.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 2021, "event": "Approved line-by-line and released at IPCC-54" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "assessment",
+      "creators": ["Intergovernmental Panel on Climate Change (IPCC)"],
+      "year": 2021,
+      "venue": "Cambridge University Press",
+      "identifier": "https://doi.org/10.1017/9781009157896",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.95,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "IPCC AR6 WG1 — DOI record",
+        "link": "https://doi.org/10.1017/9781009157896",
+        "description": "Canonical record of the assessment report."
+      }
+    ]
+  },
+  {
+    "id": "philosophical_transactions_1665",
+    "name": "Philosophical Transactions of the Royal Society (founding issue)",
+    "tags": ["scientific journal", "publishing", "document", "Royal Society"],
+    "category": "Document",
+    "description": "Henry Oldenburg's founding number of the Philosophical Transactions — the first journal dedicated to science, which established priority-of-publication and the scientific paper as an institution.",
+    "longDescription": "",
+    "chronology": { "events": [{ "year": 1665, "event": "First number published in London" }] },
+    "relationships": [],
+    "specific": {
+      "kind": "periodical-founding-issue",
+      "creators": ["Henry Oldenburg (ed.)", "Royal Society"],
+      "year": 1665,
+      "venue": "Royal Society, London",
+      "identifier": "https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society",
+      "language": "English"
+    },
+    "metadata": {
+      "createdAt": "2026-09-12T00:00:00Z",
+      "confidenceScore": 0.9,
+      "sourceReference": "hand-authored seed corpus"
+    },
+    "references": [
+      {
+        "title": "Philosophical Transactions — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society",
+        "description": "History of the first scientific journal."
+      }
+    ]
+  }
+]

@@ -1,40 +1,55 @@
 # Research Space
 
-> The world's research apparatus rendered as a navigable graph: public research institutes (PRIs),
-> laboratories, funding agencies, universities, firms' research arms, and their intersections.
+> The world's research artifacts rendered as a navigable graph: the documents, books, articles,
+> datasets, and reports through which research is recorded, transmitted, and reused.
 
-## Status: scaffold
+## Status: bootstrapped
 
-The module is scaffolded from the Social Space app (explorer + editor, `dataset=research`) with an
-empty dataset. The space formulation below is the working agenda.
+Explorer + editor are copies of the Social Space app (`dataset=research`). The dataset is a
+hand-authored seed corpus (`app/research/data/data.json`, ~15 canonical artifacts) seeded to
+CouchDB (`research:<id>` docs); the space formulation below is settled for the artifact facet.
 
 ## Formulation
 
-> Which are the set of concepts useful to describe the research dimension of reality? Which are the
-> main categories?
+> Which artifacts record and carry research? Which kinds matter, and how do they relate?
 
-### Candidate layers
+### Categories
 
-| Layer | Core question |
-| ----- | ------------- |
-| Institutional | Who performs research? (PRIs, universities, firm labs, institutes) |
-| Funding | Who pays, through which instruments? (agencies, foundations, missions) |
-| Knowledge | What is produced? (fields, programmes, publications, datasets) |
-| Relational | How are actors connected? (consortia, intersections, mobility, co-authorship) |
-| Policy | Under which regime? (science policy, evaluation, national systems) |
+| Category | Description | Instance |
+| -------- | ----------- | -------- |
+| **Book** | Extended monographic synthesis of a field or theory. | *The Structure of Scientific Revolutions* |
+| **Article** | Periodical paper announcing a result or analysis. | Shannon, *A Mathematical Theory of Communication* |
+| **Document** | Foundational or institutional record that shapes practice. | *Philosophical Transactions* (founding number) |
+| **Dataset** | Curated, addressable body of research data. | GenBank |
+| **Report** | Institutional assessment or programme output. | IPCC AR6 |
 
-### Candidate categories
+### Node specifics (`specific`)
 
-Research Institute, Laboratory, Funding Agency, University, Research Programme, Researcher,
-Research Group, Publication, Dataset, Instrument, Intersection (shared appointment/affiliation).
+| Field | Description |
+| ----- | ----------- |
+| `kind` | Finer-grained type within the category (e.g. `monograph`, `journal-article`, `reference-dataset`, `repository`, `assessment`). |
+| `creators` | List of creators (authors/issuing bodies). |
+| `year` | Primary publication year. |
+| `venue` | Journal, publisher, or hosting institution. |
+| `identifier` | Persistent identifier or canonical URL (DOI/ISBN/URL). |
+| `language` | Primary language. |
 
-## Sources
+### Relationship vocabulary
 
-- Existing actor notes under `app/social/view/actor/technique/` (Instance/Intersection pages)
-  describe national research systems and are the seed corpus for this space.
-- Index Gentium (country index) for national-system context.
+`CITES`, `CITED_BY`, `EXTENDS`, `DOCUMENTS` (artifact records an event/series), `PUBLISHED_IN`,
+`PRECEDES`. Keep relationships sparse and evidence-backed; the seed graph carries a few small
+components so the layout clusters visibly.
+
+## Data flow
+
+- `app/research/data/data.json` — hand-authored seed (canonical node model; `category` restricted
+  to the five artifact categories above).
+- `python bin/layout.py --data-file app/research/data/data.json --layout-file app/research/data/layout.json`
+  regenerates the explorer layout.
+- `python bin/seed_couchdb.py --dataset research` pushes nodes to CouchDB (docs keyed
+  `research:<node_id>`).
 
 ## Editor / Explorer
 
 - Explorer: `/research/` — read-only graph viewer.
-- Editor: `/research/edit.html` — node editor; syncs to CouchDB `dataset=research`.
+- Editor: `/research/edit.html` — node editor (`const DATASET = 'research'`); syncs to CouchDB.
