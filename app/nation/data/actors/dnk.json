@@ -1,0 +1,826 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Danish actors (organizations and institutions) since 1400.",
+    "country": "Denmark",
+    "region": "Northern Europe"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Danish Crown and Monarchy",
+      "type": "public",
+      "role": "Monarchy",
+      "regionOfActivity": "Copenhagen",
+      "description": "Millennium-old monarchy constitutionalized in 1849.",
+      "events": [
+        {
+          "date": "1448-09-28",
+          "category": "milestone",
+          "description": "Christian I elected; Oldenburg dynasty begins"
+        },
+        {
+          "date": "1849-06-05",
+          "category": "transformation",
+          "description": "June Constitution ends absolutism"
+        },
+        {
+          "date": "1953-06-05",
+          "category": "milestone",
+          "description": "Female succession admitted"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Folketing",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "Copenhagen",
+      "description": "Unicameral legislature of Danish democracy.",
+      "events": [
+        {
+          "date": "1849-06-05",
+          "category": "birth",
+          "description": "Rigsdagen created by the June Constitution"
+        },
+        {
+          "date": "1953-06-05",
+          "category": "transformation",
+          "description": "Landstinget abolished; unicameral Folketing"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Danmarks Nationalbank",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "Copenhagen",
+      "description": "Independent central bank pegging the krone to the euro.",
+      "events": [
+        {
+          "date": "1818-08-04",
+          "category": "birth",
+          "description": "Nationalbanken chartered after state bankruptcy"
+        },
+        {
+          "date": "1936-01-01",
+          "category": "transformation",
+          "description": "Independence statute enacted"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Danske Bank",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Copenhagen",
+      "description": "Merchant-bank lineage leading Nordic banking.",
+      "events": [
+        {
+          "date": "1871-10-05",
+          "category": "birth",
+          "description": "Den Danske Landmandsbank founded"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "founding",
+          "description": "Den Danske Bank merger; Danske Bank brand follows"
+        },
+        {
+          "date": "2018-09-19",
+          "category": "transformation",
+          "description": "Estonia laundromat scandal forces overhaul"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Nordea Denmark",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "Copenhagen",
+      "description": "Pan-Nordic group with deep Danish savings-bank roots.",
+      "events": [
+        {
+          "date": "1820-05-12",
+          "category": "birth",
+          "description": "Sparekassen Bikuben founded"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "founding",
+          "description": "Merita-Nordbanken-Unidanmark merger forms Nordea"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Jyske Bank",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Silkeborg",
+      "description": "Jutland challenger bank.",
+      "events": [
+        {
+          "date": "1967-07-07",
+          "category": "birth",
+          "description": "Four Jutland banks merge"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Tryg",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Copenhagen",
+      "description": "Nordic non-life insurer from mutual roots.",
+      "events": [
+        {
+          "date": "1731-01-01",
+          "category": "birth",
+          "description": "Kjøbenhavns Brandforsikring founded"
+        },
+        {
+          "date": "2005-10-14",
+          "category": "transformation",
+          "description": "Listing on the Copenhagen exchange"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Topdanmark",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "Copenhagen",
+      "description": "Life and non-life group.",
+      "events": [
+        {
+          "date": "1898-01-01",
+          "category": "birth",
+          "description": "Mejeriernes Ulykkesforsikring founded"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Novo Nordisk",
+      "type": "private",
+      "role": "Pharmaceutical group",
+      "regionOfActivity": "Bagsværd",
+      "description": "Insulin discoverer turned obesity-care giant.",
+      "events": [
+        {
+          "date": "1923-01-01",
+          "category": "birth",
+          "description": "Nordisk Insulinlaboratorium founded"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "founding",
+          "description": "Novo-Nordisk merger"
+        },
+        {
+          "date": "2023-01-01",
+          "category": "expansion",
+          "description": "Wegovy demand makes it Europe's most valuable firm"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Novonesis",
+      "type": "private",
+      "role": "Biosolutions group",
+      "regionOfActivity": "Copenhagen",
+      "description": "Novozymes-Chr. Hansen merger in enzymes and cultures.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "Novo Terapeutisk Laboratorium enzyme venture begins"
+        },
+        {
+          "date": "2024-01-29",
+          "category": "founding",
+          "description": "Novozymes-Chr. Hansen merger completes"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Lundbeck",
+      "type": "private",
+      "role": "Pharmaceutical company",
+      "regionOfActivity": "Copenhagen",
+      "description": "Brain-disease drug specialist.",
+      "events": [
+        {
+          "date": "1915-01-01",
+          "category": "birth",
+          "description": "Hans Lundbeck trading house founded; pharma era follows"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Genmab",
+      "type": "private",
+      "role": "Biotech company",
+      "regionOfActivity": "Copenhagen",
+      "description": "Antibody-therapeutics developer.",
+      "events": [
+        {
+          "date": "1999-02-01",
+          "category": "birth",
+          "description": "Genmab founded"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Coloplast",
+      "type": "private",
+      "role": "Medtech group",
+      "regionOfActivity": "Humlebæk",
+      "description": "Ostomy and continence-care leader.",
+      "events": [
+        {
+          "date": "1957-01-01",
+          "category": "birth",
+          "description": "Aage Louis-Hansen founds Dansk Coloplast"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "William Demant",
+      "type": "private",
+      "role": "Hearing-health group",
+      "regionOfActivity": "Smørum",
+      "description": "Hearing-aid group behind Oticon.",
+      "events": [
+        {
+          "date": "1904-01-01",
+          "category": "birth",
+          "description": "Oticon founded"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "milestone",
+          "description": "William Demont holding name adopted"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Vestas",
+      "type": "private",
+      "role": "Wind-turbine manufacturer",
+      "regionOfActivity": "Aarhus",
+      "description": "Blacksmith workshop grown into the wind world leader.",
+      "events": [
+        {
+          "date": "1945-01-01",
+          "category": "birth",
+          "description": "Vestjysk Stålteknik founded"
+        },
+        {
+          "date": "1979-01-01",
+          "category": "technical",
+          "description": "First V10 turbine installed"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "founding",
+          "description": "NEG Micon merger forms modern Vestas"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Ørsted",
+      "type": "hybrid",
+      "role": "Energy utility",
+      "regionOfActivity": "Copenhagen",
+      "description": "State-anchored oil-gas utility converted to offshore-wind leader.",
+      "events": [
+        {
+          "date": "1972-03-27",
+          "category": "birth",
+          "description": "DONG founded to manage North Sea gas"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "transformation",
+          "description": "Oil-gas divestment; Ørsted rebrand"
+        },
+        {
+          "date": "2002-01-01",
+          "category": "technical",
+          "description": "Horns Rev, among first large offshore farms"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Mærsk",
+      "type": "private",
+      "role": "Shipping and logistics group",
+      "regionOfActivity": "Copenhagen",
+      "description": "Family conglomerate running the world's great container line.",
+      "events": [
+        {
+          "date": "1904-04-16",
+          "category": "birth",
+          "description": "Dampskibsselskabet Svendborg founded"
+        },
+        {
+          "date": "1973-01-01",
+          "category": "expansion",
+          "description": "Containerization era begins with Adrian Mærsk"
+        },
+        {
+          "date": "2016-09-22",
+          "category": "transformation",
+          "description": "Oil-tanker split focuses transport and logistics"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "DSV",
+      "type": "private",
+      "role": "Freight forwarder",
+      "regionOfActivity": "Hedehusene",
+      "description": "Acquisition-built global forwarder.",
+      "events": [
+        {
+          "date": "1976-07-13",
+          "category": "birth",
+          "description": "Nine hauliers found De Sammensluttede Vognmænd"
+        },
+        {
+          "date": "2019-08-16",
+          "category": "expansion",
+          "description": "Panalpina takeover; Schenker follows in 2025"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "DFDS",
+      "type": "private",
+      "role": "Ferry operator",
+      "regionOfActivity": "Copenhagen",
+      "description": "Baltic-North Sea ferry group.",
+      "events": [
+        {
+          "date": "1866-12-11",
+          "category": "birth",
+          "description": "Det Forenede Dampskibs-Selskab founded"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Carlsberg",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Copenhagen",
+      "description": "Lager pioneer with foundation ownership and Asian reach.",
+      "events": [
+        {
+          "date": "1847-11-10",
+          "category": "birth",
+          "description": "J.C. Jacobsen founds the brewery"
+        },
+        {
+          "date": "1875-01-01",
+          "category": "research",
+          "description": "Pure-yeast method (Saccharomyces carlsbergensis) isolated"
+        },
+        {
+          "date": "2008-04-28",
+          "category": "expansion",
+          "description": "Scottish & Newcastle takeover"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Arla Foods",
+      "type": "hybrid",
+      "role": "Dairy cooperative",
+      "regionOfActivity": "Aarhus",
+      "description": "Farmer-owned dairy multinational.",
+      "events": [
+        {
+          "date": "1881-01-01",
+          "category": "birth",
+          "description": "First Danish cooperative dairies formed"
+        },
+        {
+          "date": "2000-04-17",
+          "category": "founding",
+          "description": "MD Foods-Arla merger creates Arla Foods"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Danish Crown",
+      "type": "hybrid",
+      "role": "Meat cooperative",
+      "regionOfActivity": "Randers",
+      "description": "Farmer-owned pork exporter.",
+      "events": [
+        {
+          "date": "1887-01-01",
+          "category": "birth",
+          "description": "Horsens cooperative slaughterhouse opens"
+        },
+        {
+          "date": "1990-01-01",
+          "category": "founding",
+          "description": "National mergers form Danish Crown"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "LEGO",
+      "type": "private",
+      "role": "Toy manufacturer",
+      "regionOfActivity": "Billund",
+      "description": "Carpenter workshop grown into the world's most valuable toy brand.",
+      "events": [
+        {
+          "date": "1932-08-10",
+          "category": "birth",
+          "description": "Ole Kirk Christiansen founds LEGO"
+        },
+        {
+          "date": "1958-01-28",
+          "category": "technical",
+          "description": "Modern brick patent filed"
+        },
+        {
+          "date": "2004-01-01",
+          "category": "transformation",
+          "description": "Near-bankruptcy turnaround begins"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Bang & Olufsen",
+      "type": "private",
+      "role": "Audio-visual brand",
+      "regionOfActivity": "Struer",
+      "description": "Design-led acoustics house.",
+      "events": [
+        {
+          "date": "1925-11-17",
+          "category": "birth",
+          "description": "B&O founded in Struer"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "GN Store Nord",
+      "type": "private",
+      "role": "Audio technology group",
+      "regionOfActivity": "Copenhagen",
+      "description": "Telegraph company reinvented in headsets and hearing aids.",
+      "events": [
+        {
+          "date": "1869-06-01",
+          "category": "birth",
+          "description": "Det Store Nordiske Telegraf-Selskab founded"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "transformation",
+          "description": "Jabra acquisition pivots to audio"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "ISS",
+      "type": "private",
+      "role": "Facility-services group",
+      "regionOfActivity": "Copenhagen",
+      "description": "Copenhagen security firm grown into global facility services.",
+      "events": [
+        {
+          "date": "1901-12-20",
+          "category": "birth",
+          "description": "Kjøbenhavn-Frederiksberg Nattevagt founded"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Danfoss",
+      "type": "private",
+      "role": "Engineering group",
+      "regionOfActivity": "Nordborg",
+      "description": "Thermostatic-valve inventor in climate and drives.",
+      "events": [
+        {
+          "date": "1933-09-01",
+          "category": "birth",
+          "description": "Mads Clausen founds Dansk Køleautomatik"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Grundfos",
+      "type": "private",
+      "role": "Pump manufacturer",
+      "regionOfActivity": "Bjerringbro",
+      "description": "Foundation-owned circulator-pump world leader.",
+      "events": [
+        {
+          "date": "1945-01-01",
+          "category": "birth",
+          "description": "Bjerringbro Pumpefabrik founded"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "F.L. Smidth",
+      "type": "private",
+      "role": "Cement-plant supplier",
+      "regionOfActivity": "Copenhagen",
+      "description": "Cement-technology exporter.",
+      "events": [
+        {
+          "date": "1882-01-02",
+          "category": "birth",
+          "description": "F.L. Smidth & Co. founded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Haldor Topsoe and Topsoe",
+      "type": "private",
+      "role": "Catalysis group",
+      "regionOfActivity": "Copenhagen",
+      "description": "Catalyst and Power-to-X technology house.",
+      "events": [
+        {
+          "date": "1940-01-01",
+          "category": "birth",
+          "description": "Haldor Topsøe founds the company"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Rockwool",
+      "type": "private",
+      "role": "Insulation manufacturer",
+      "regionOfActivity": "Hedehusene",
+      "description": "Stone-wool insulation leader.",
+      "events": [
+        {
+          "date": "1909-06-20",
+          "category": "birth",
+          "description": "Københavns Grusgrav founded; wool era follows"
+        },
+        {
+          "date": "1937-01-01",
+          "category": "technical",
+          "description": "First stone-wool production"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "SAS Denmark and Danish aviation",
+      "type": "hybrid",
+      "role": "Airline system",
+      "regionOfActivity": "Copenhagen",
+      "description": "State-linked Scandinavian carrier hubbed at Kastrup.",
+      "events": [
+        {
+          "date": "1946-08-01",
+          "category": "birth",
+          "description": "Det Danske Luftfartselskab joins SAS consortium"
+        },
+        {
+          "date": "2001-01-01",
+          "category": "transformation",
+          "description": "Single SAS Group structure"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "DSB",
+      "type": "public",
+      "role": "State railways",
+      "regionOfActivity": "Copenhagen",
+      "description": "National passenger-rail operator.",
+      "events": [
+        {
+          "date": "1885-10-01",
+          "category": "birth",
+          "description": "De Danske Statsbaner formed"
+        },
+        {
+          "date": "2000-01-01",
+          "category": "transformation",
+          "description": "Freight split; independent public company"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "PostNord Denmark",
+      "type": "hybrid",
+      "role": "Postal operator",
+      "regionOfActivity": "Copenhagen",
+      "description": "Danish-Swedish postal merger coping with digital decline.",
+      "events": [
+        {
+          "date": "1624-12-24",
+          "category": "birth",
+          "description": "Christian IV founds Postvesenet"
+        },
+        {
+          "date": "2009-06-24",
+          "category": "transformation",
+          "description": "Post Danmark-Posten AB merger forms PostNord"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "DR",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Copenhagen",
+      "description": "Licence-funded radio-television institution.",
+      "events": [
+        {
+          "date": "1925-04-01",
+          "category": "birth",
+          "description": "Statsradiofonien starts"
+        },
+        {
+          "date": "1951-10-02",
+          "category": "milestone",
+          "description": "Television service launches"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "University of Copenhagen",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Copenhagen",
+      "description": "Nordic research university founded by papal bull.",
+      "events": [
+        {
+          "date": "1479-06-01",
+          "category": "birth",
+          "description": "University inaugurated"
+        },
+        {
+          "date": "1932-01-01",
+          "category": "expansion",
+          "description": "Niels Bohr Institute era globalizes physics"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Technical University of Denmark",
+      "type": "public",
+      "role": "Technical university",
+      "regionOfActivity": "Lyngby",
+      "description": "Polytechnic institute turned research university.",
+      "events": [
+        {
+          "date": "1829-11-05",
+          "category": "birth",
+          "description": "College of Advanced Technology founded by Ørsted"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Aarhus University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Aarhus",
+      "description": "Municipally founded research university.",
+      "events": [
+        {
+          "date": "1928-09-11",
+          "category": "birth",
+          "description": "University instruction begins in Aarhus"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Carlsberg Foundation",
+      "type": "hybrid",
+      "role": "Research foundation",
+      "regionOfActivity": "Copenhagen",
+      "description": "Brewery-owner funding basic science.",
+      "events": [
+        {
+          "date": "1876-09-25",
+          "category": "birth",
+          "description": "J.C. Jacobsen charters the foundation"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Novo Nordisk Foundation",
+      "type": "hybrid",
+      "role": "Enterprise foundation",
+      "regionOfActivity": "Copenhagen",
+      "description": "Controlling owner funding health and sustainability science.",
+      "events": [
+        {
+          "date": "1951-01-01",
+          "category": "birth",
+          "description": "Novo Foundation established"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "founding",
+          "description": "Novo Nordisk Foundation formed by merger"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "LO and FH unions",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Copenhagen",
+      "description": "September-compromise corporatism anchor.",
+      "events": [
+        {
+          "date": "1899-09-05",
+          "category": "birth",
+          "description": "September Agreement founds the bargaining system"
+        },
+        {
+          "date": "2019-01-01",
+          "category": "founding",
+          "description": "LO-FTF merger forms FH"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Dansk Industri",
+      "type": "private",
+      "role": "Employers' confederation",
+      "regionOfActivity": "Copenhagen",
+      "description": "Industry lobby inside the flexicurity model.",
+      "events": [
+        {
+          "date": "1992-04-01",
+          "category": "birth",
+          "description": "Industrirådet-Dansk Arbejdsgiverforening merger forms DI"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "Energinet",
+      "type": "public",
+      "role": "Grid operator",
+      "regionOfActivity": "Copenhagen",
+      "description": "State electricity-gas transmission operator.",
+      "events": [
+        {
+          "date": "2005-08-24",
+          "category": "birth",
+          "description": "Energinet.dk created by merger"
+        }
+      ]
+    }
+  ]
+}

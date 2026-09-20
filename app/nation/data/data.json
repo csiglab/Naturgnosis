@@ -48,10 +48,10 @@
         {
           "id": "actor-evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "From Viceroyalty to Confederation and Peronist era transitions, 1816 to present.",
-          "link": null
+          "link": "rep/actor.html?code=arg"
         },
         {
           "id": "institutional-map",
@@ -93,6 +93,113 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "aus",
+    "name": "Australia",
+    "tags": [
+      "Oceania",
+      "Federation",
+      "Commonwealth Realm",
+      "Resource Exporter",
+      "Services Economy",
+      "Indo-Pacific Anchor"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Australia is a federal parliamentary constitutional monarchy and the only country that is also a continent. A resource-exporting powerhouse deeply tied to Indo-Pacific demand, it combines mining and agriculture with advanced services, education exports and a large pension-capital pool. Six states and two territories share power under a stable federal system.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Australia",
+      "flagEmoji": "🇦🇺",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "27 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 27000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.8 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1800000000000
+        },
+        {
+          "id": "area",
+          "value": "7,692,024 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 7692024
+        },
+        {
+          "id": "capital",
+          "value": "Canberra",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Parliamentary Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Australia's actor space from colonial pastoral companies and gold-rush banks through tariff-era manufacturers to diversified miners, Big Four banks, and superannuation asset owners.",
+          "link": "rep/actor.html?code=aus"
+        },
+        {
+          "id": "mining_export_corridors",
+          "type": "Network",
+          "status": "pending",
+          "title": "Mining Export Corridor Network",
+          "description": "Network analysis of Pilbara iron ore, Bowen Basin coal and LNG trains flowing through dedicated rail-port corridors to Asian steel mills and utilities.",
+          "link": null
+        },
+        {
+          "id": "state_territory",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "State and Territory Federal Structure",
+          "description": "Geospatial representation of six states and two territories, GST redistribution, and the coastal concentration of population against an empty interior.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "AUS",
+        "region": "Oceania",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -155,10 +262,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal visualization of Brazil’s public, private, and civil actors from independence to the present, highlighting structural transformations in the state, industrial sector, and financial system.",
-          "link": null
+          "link": "rep/actor.html?code=bra"
         },
         {
           "id": "product_space",
@@ -200,6 +307,113 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "can",
+    "name": "Canada",
+    "tags": [
+      "North America",
+      "Federation",
+      "Commonwealth Realm",
+      "Resource Economy",
+      "Bilingual State",
+      "Parliamentary Monarchy"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Canada is a federal parliamentary constitutional monarchy and the world's second-largest country by area. A Commonwealth realm with English-French bilingualism, it combines vast natural-resource endowments with an advanced services economy deeply integrated with the United States. Key sectors include energy, mining, forestry, banking and technology, under a decentralized federal system.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Canada",
+      "flagEmoji": "🇨🇦",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "41 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 41000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 2.2 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 2200000000000
+        },
+        {
+          "id": "area",
+          "value": "9,984,670 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 9984670
+        },
+        {
+          "id": "capital",
+          "value": "Ottawa",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Parliamentary Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Canada's actor space from Hudson's Bay fur-trade enterprise and railway nation-building through crown corporations to energy majors, chartered banks, and provincial innovation agencies.",
+          "link": "rep/actor.html?code=can"
+        },
+        {
+          "id": "resource_trade_corridors",
+          "type": "Network",
+          "status": "pending",
+          "title": "Resource and Trade Corridor Network",
+          "description": "Network analysis of oil sands, mining flows, rail-port corridors and cross-border supply chains tying provincial resource basins to US and Asian markets.",
+          "link": null
+        },
+        {
+          "id": "federal_provincial",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Federal Provincial Structure",
+          "description": "Geospatial representation of ten provinces and three territories, equalization transfers, and the jurisdictional split over resources, health and education.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "CAN",
+        "region": "North America",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -311,6 +525,113 @@
     "references": []
   },
   {
+    "id": "dnk",
+    "name": "Denmark",
+    "tags": [
+      "Northern Europe",
+      "European Union",
+      "Parliamentary Monarchy",
+      "Wind Energy Pioneer",
+      "Nordic Welfare Model",
+      "Design and Pharma"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Denmark is a parliamentary constitutional monarchy in Northern Europe and a pioneer of wind energy. Its Nordic welfare model pairs flexible labor markets with broad social protection, while the economy specializes in pharmaceuticals, shipping, food and design. An EU member outside the eurozone, it anchors the Realm community with Greenland and the Faroe Islands.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Danmark",
+      "flagEmoji": "🇩🇰",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "6 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 6000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 430 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 430000000000
+        },
+        {
+          "id": "area",
+          "value": "43,094 km² (excl. Greenland and Faroe Islands)",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 43094
+        },
+        {
+          "id": "capital",
+          "value": "Copenhagen",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Constitutional Monarchy with Parliamentary System",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Denmark's actor space from cooperative dairies and shipping lines through flexicurity labor-market institutions to wind-turbine manufacturers, Novo-group pharma, and Realm-wide governance.",
+          "link": "rep/actor.html?code=dnk"
+        },
+        {
+          "id": "wind_pharma_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Wind Energy and Pharma Network",
+          "description": "Network analysis of turbine OEMs, offshore wind farms, insulin and enzyme pipelines, and cooperative ownership models exporting worldwide.",
+          "link": null
+        },
+        {
+          "id": "realm_municipal",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Realm and Municipal Structure",
+          "description": "Geospatial representation of five regions and ninety-eight municipalities alongside Greenland-Faroe Realm ties, straits geography and island interconnectors.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "DNK",
+        "region": "Northern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
     "id": "dom",
     "name": "Dominican Republic",
     "tags": [
@@ -369,10 +690,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of the Dominican Republic’s actor space from colonial-era plantation elites and early independence movements to Trujillo dictatorship, democratic transitions, and contemporary institutional consolidation.",
-          "link": null
+          "link": "rep/actor.html?code=dom"
         },
         {
           "id": "agro_export_network",
@@ -475,10 +796,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal analysis of England’s evolving actor space from medieval monarchy and landed aristocracy to industrial capitalists, financial institutions, parliamentary structures, and modern regulatory bodies.",
-          "link": null
+          "link": "rep/actor.html?code=grb"
         },
         {
           "id": "industrial_transformation",
@@ -520,6 +841,220 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "fin",
+    "name": "Finland",
+    "tags": [
+      "Northern Europe",
+      "European Union",
+      "Eurozone",
+      "Parliamentary Republic",
+      "Education Leader",
+      "Forestry and ICT"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Finland is a unitary parliamentary republic in Northern Europe and a global reference for education. Independent since 1917, it transformed from forestry dependence into an ICT and engineering economy led by Nokia-era successors, while retaining strong welfare institutions. EU and eurozone membership, plus 2023 NATO accession, frame its open, innovation-driven economy.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Finland / Suomi",
+      "flagEmoji": "🇫🇮",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "5.6 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 5600000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 310 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 310000000000
+        },
+        {
+          "id": "area",
+          "value": "338,455 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 338455
+        },
+        {
+          "id": "capital",
+          "value": "Helsinki",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Finland's actor space from forest companies and Nokia's industrial rise through startup-ecosystem policy to gaming studios, clean-tech engineering, and comprehensive-school human capital.",
+          "link": "rep/actor.html?code=fin"
+        },
+        {
+          "id": "forest_ict_clusters",
+          "type": "Network",
+          "status": "pending",
+          "title": "Forestry and ICT Cluster Network",
+          "description": "Network analysis of pulp-paper biorefineries, mobile-era engineering talent, and gaming and software clusters funded by patient public-private capital.",
+          "link": null
+        },
+        {
+          "id": "regional_state",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional State Structure",
+          "description": "Geospatial representation of regional state agencies, municipal service provision, eastern-border security geography, and Arctic logistical interests.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "FIN",
+        "region": "Northern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "fra",
+    "name": "France",
+    "tags": [
+      "Western Europe",
+      "European Union",
+      "Eurozone",
+      "Semi-Presidential Republic",
+      "Nuclear Energy",
+      "Aerospace and Luxury"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "France is a unitary semi-presidential republic and the European Union's second-largest economy. Combining a strong central state with global cultural influence, it leads in aerospace, luxury goods, nuclear energy and agriculture. EU integration, high public investment and a large welfare state shape its coordinated market economy.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "France / République française",
+      "flagEmoji": "🇫🇷",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "68.4 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 68400000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 3.2 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 3200000000000
+        },
+        {
+          "id": "area",
+          "value": "551,695 km² (metropolitan)",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 551695
+        },
+        {
+          "id": "capital",
+          "value": "Paris",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Semi-Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of France's actor space from royal manufactures and Napoleonic administration through postwar planning commissions and national champions to EU-embedded regulators and CAC 40 groups.",
+          "link": "rep/actor.html?code=fra"
+        },
+        {
+          "id": "aerospace_luxury_chains",
+          "type": "Network",
+          "status": "pending",
+          "title": "Aerospace and Luxury Value Chains",
+          "description": "Network analysis of aircraft assembly, defense procurement, and luxury conglomerates linking provincial production basins to Parisian finance and global retail.",
+          "link": null
+        },
+        {
+          "id": "metro_regional",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Metropolitan-Regional Structure",
+          "description": "Geospatial representation of metropolitan France's regions, high-speed rail radials, nuclear fleet siting, and the Paris-province economic gradient.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "FRA",
+        "region": "Western Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -582,7 +1117,7 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Hong Kong’s actor space from colonial administration and trade networks to financial institutions, multinational corporates, and contemporary regulatory authorities.",
           "link": "rep/actor.html?code=hkg"
@@ -689,7 +1224,7 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of India’s actor space from colonial administration and nationalist movements to post-independence state-building, economic liberalization (post-1991), and contemporary public-private institutional configurations.",
           "link": "rep/actor.html?code=ind"
@@ -796,10 +1331,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Indonesia’s actor space from colonial administration and independence-era leadership to the New Order regime, post-1998 reforms, decentralization, and contemporary political-economic coalitions.",
-          "link": null
+          "link": "rep/actor.html?code=idn"
         },
         {
           "id": "archipelagic_spatial_structure",
@@ -903,7 +1438,7 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Ireland’s actor space from colonial administration and independence to state-led development, EU integration, and FDI-driven multinational clustering.",
           "link": "rep/actor.html?code=irl"
@@ -948,6 +1483,327 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "isr",
+    "name": "Israel",
+    "tags": [
+      "Middle East",
+      "Parliamentary Republic",
+      "Startup Nation",
+      "Defense Technology",
+      "Water Innovation",
+      "Disputed Borders"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Israel is a unitary parliamentary republic in the Middle East known for its technology and defense sectors. Founded in 1948, it built a startup-nation economy on R&D intensity, venture capital and military-civilian technology transfer, alongside strengths in water, agriculture and diamonds. Regional conflict and disputed borders remain central to its political economy.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Israel / Yisra'el",
+      "flagEmoji": "🇮🇱",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "10 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 10000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 540 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 540000000000
+        },
+        {
+          "id": "area",
+          "value": "22,072 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 22072
+        },
+        {
+          "id": "capital",
+          "value": "Jerusalem (disputed)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Israel's actor space from pre-state institutions and Histadrut enterprises through defense-led R&D to venture-backed technology firms, desalination utilities, and coalition parliamentary governance.",
+          "link": "rep/actor.html?code=isr"
+        },
+        {
+          "id": "startup_defense_tech",
+          "type": "Network",
+          "status": "pending",
+          "title": "Startup and Defense Technology Network",
+          "description": "Network analysis of military R&D spillovers, venture funds, multinational R&D centers and incubators binding Tel Aviv's ecosystem to Nasdaq exits.",
+          "link": null
+        },
+        {
+          "id": "territorial_admin",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Territorial-Administrative Structure",
+          "description": "Geospatial representation of districts, development towns, contested boundaries, and infrastructure arbitrating water, land and security.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ISR",
+        "region": "Middle East",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "ita",
+    "name": "Italy",
+    "tags": [
+      "Southern Europe",
+      "European Union",
+      "Eurozone",
+      "Parliamentary Republic",
+      "Manufacturing Heartland",
+      "Cultural Heritage"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Italy is a unitary parliamentary republic and a founding member of the European Communities. Its economy pairs northern industrial districts — machinery, automotive, fashion — with a vast cultural-heritage tourism sector and persistent southern structural challenges. A G7 economy in the eurozone, it balances manufacturing excellence with high public debt and demographic aging.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Italia",
+      "flagEmoji": "🇮🇹",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "59 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 59000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 2.4 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 2400000000000
+        },
+        {
+          "id": "area",
+          "value": "302,073 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 302073
+        },
+        {
+          "id": "capital",
+          "value": "Rome",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Italy's actor space from city-state mercantile networks and IRI state holdings through postwar industrial districts to family-owned multinationals and EU fiscal supervision.",
+          "link": "rep/actor.html?code=ita"
+        },
+        {
+          "id": "industrial_districts",
+          "type": "Network",
+          "status": "pending",
+          "title": "Industrial District Network Structure",
+          "description": "Network analysis of machinery, textile and food clusters, cooperative banks, and export consortia binding small-firm districts to global buyers.",
+          "link": null
+        },
+        {
+          "id": "regional_autonomy",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Regional Autonomy Structure",
+          "description": "Geospatial representation of twenty regions with asymmetric autonomy, the north-south productivity divide, and logistics corridors to central Europe.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ITA",
+        "region": "Southern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "jpn",
+    "name": "Japan",
+    "tags": [
+      "East Asia",
+      "Island Nation",
+      "Parliamentary Monarchy",
+      "Advanced Manufacturing",
+      "Robotics Leader",
+      "Aging Society"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Japan is a parliamentary constitutional monarchy and one of the world's largest economies. Postwar industrial policy produced global leaders in automotive, electronics and robotics, organized around keiretsu networks and coordinated business-government councils. It now navigates rapid demographic aging, high public debt and energy import dependence while leading in automation and materials science.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Japan / Nihon",
+      "flagEmoji": "🇯🇵",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "124 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 124000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 4.0 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 4000000000000
+        },
+        {
+          "id": "area",
+          "value": "377,975 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 377975
+        },
+        {
+          "id": "capital",
+          "value": "Tokyo",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Constitutional Monarchy with Parliamentary System",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Japan's actor space from Meiji-era zaibatsu and MITI-guided industrialization through post-bubble restructuring to keiretsu successor groups, trading houses, and robotics-led manufacturers.",
+          "link": "rep/actor.html?code=jpn"
+        },
+        {
+          "id": "keiretsu_supply",
+          "type": "Network",
+          "status": "pending",
+          "title": "Keiretsu and Supply-Chain Network",
+          "description": "Network analysis of cross-shareholdings, tiered suppliers, and trading-company intermediation linking assembly hubs to Asian production networks.",
+          "link": null
+        },
+        {
+          "id": "prefectural_metro",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Prefectural and Metropolitan Structure",
+          "description": "Geospatial representation of forty-seven prefectures, the Tokyo Bay megaregion's demographic weight, and Shinkansen-integrated industrial corridors.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "JPN",
+        "region": "East Asia",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -1010,7 +1866,7 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Malaysia’s actor space from colonial administration and resource extraction to post-independence federal consolidation, New Economic Policy reforms, and export-oriented industrialization.",
           "link": "rep/actor.html?code=mys"
@@ -1055,6 +1911,113 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "mex",
+    "name": "Mexico",
+    "tags": [
+      "North America",
+      "Federation",
+      "Presidential Republic",
+      "Manufacturing Hub",
+      "Oil Economy",
+      "Spanish-Speaking"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Mexico is a federal presidential republic and Latin America's second-largest economy. Deeply integrated with the United States through USMCA supply chains, it is a manufacturing hub for automotive, electronics and aerospace alongside oil, mining and massive remittance inflows. Thirty-one states plus Mexico City share power in a democratic federal system consolidated since 2000.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "México",
+      "flagEmoji": "🇲🇽",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "130 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 130000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.9 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1900000000000
+        },
+        {
+          "id": "area",
+          "value": "1,964,375 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 1964375
+        },
+        {
+          "id": "capital",
+          "value": "Mexico City",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Mexico's actor space from Porfirian railways and post-revolutionary state enterprises through maquiladora industrialization and NAFTA integration to nearshoring manufacturers and fintech entrants.",
+          "link": "rep/actor.html?code=mex"
+        },
+        {
+          "id": "maquila_remittance",
+          "type": "Network",
+          "status": "pending",
+          "title": "Maquiladora and Remittance Network",
+          "description": "Network analysis of border assembly plants, auto-electronics suppliers, and household remittance circuits binding US labor markets to Mexican regions.",
+          "link": null
+        },
+        {
+          "id": "federal_states",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Federal State Structure",
+          "description": "Geospatial representation of thirty-one states and the capital, fiscal centralization, and the north-center-south development gradient.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "MEX",
+        "region": "North America",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -1117,10 +2080,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of the Netherlands’ actor space from merchant republic institutions and chartered trading companies to modern parliamentary governance, multinational corporations, and EU-integrated regulatory bodies.",
-          "link": null
+          "link": "rep/actor.html?code=nld"
         },
         {
           "id": "trade_and_logistics_network",
@@ -1273,6 +2236,106 @@
     "references": []
   },
   {
+    "id": "oto",
+    "name": "Ottoman Empire",
+    "tags": [
+      "Historical Empire",
+      "Defunct State",
+      "Islamic Caliphate",
+      "Balkan-Anatolian Core",
+      "Tributary Economy",
+      "Early Modern Great Power"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "The Ottoman Empire (1299–1922) was a transcontinental Islamic empire centered on Anatolia, the Balkans and the Middle East, ruled by a sultan-caliph from Constantinople. At its early modern peak it commanded major Eurasian trade routes and a tributary provincial order. Military defeat, nationalist secessions and World War I reduced it to Anatolia, ending with the Turkish Republic's proclamation in 1923. Figures below are a c.1914 snapshot.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Ottoman Empire / Devlet-i Aliyye",
+      "flagEmoji": "",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "18 million (c.1914)",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 18000000
+        },
+        {
+          "id": "area",
+          "value": "1.8 million km² (c.1914)",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 1800000
+        },
+        {
+          "id": "capital",
+          "value": "Constantinople (Istanbul)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Absolute Monarchy (Sultanate, 1299–1922)",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of the Ottoman actor space from frontier ghazi retinues and Janissary-administrator cadres through Tanzimat ministries and Hamidian centralization to Committee of Union and Progress rule and dissolution.",
+          "link": "rep/actor.html?code=oto"
+        },
+        {
+          "id": "tributary_trade_routes",
+          "type": "Network",
+          "status": "pending",
+          "title": "Tributary and Trade Route Network",
+          "description": "Network analysis of Silk Road termini, capitulatory trade privileges, tax-farming circuits and foreign debt administration binding provinces to Istanbul and European creditors.",
+          "link": null
+        },
+        {
+          "id": "vilayet_provinces",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Vilayet Provincial Structure",
+          "description": "Geospatial representation of vilayet-sanjak administration, millet communal autonomy, railway penetration, and the empire's contraction to its Anatolian core.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "OTO",
+        "region": "Eastern Mediterranean",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
     "id": "prt",
     "name": "Portugal",
     "tags": [
@@ -1331,10 +2394,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Portugal's actor space from Age of Discovery maritime institutions and colonial trading networks through the Estado Novo corporatist state to democratic governance, EU-integrated regulatory bodies, and contemporary firms and public institutions.",
-          "link": null
+          "link": "rep/actor.html?code=prt"
         },
         {
           "id": "lusophone_economic_network",
@@ -1356,6 +2419,220 @@
       "footer": {
         "entityCode": "PRT",
         "region": "Southern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "sct",
+    "name": "Scotland",
+    "tags": [
+      "Northern Europe",
+      "United Kingdom",
+      "Devolved Nation",
+      "North Sea Energy",
+      "Financial Services",
+      "Whisky Exports"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Scotland is a devolved nation within the United Kingdom with its own parliament, legal system and distinct cultural identity. Center of the Enlightenment and nineteenth-century heavy industry, it now blends North Sea energy, whisky and food exports, financial services in Edinburgh, and growing renewables. Devolution since 1999 gives Holyrood powers over health, education and justice.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Scotland / Alba",
+      "flagEmoji": "",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "5.5 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 5500000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "GBP 210 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 210000000000
+        },
+        {
+          "id": "area",
+          "value": "77,933 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 77933
+        },
+        {
+          "id": "capital",
+          "value": "Edinburgh",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Devolved Parliament within Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Scotland's actor space from Enlightenment institutions and imperial-era shipbuilding through nationalized industries to the devolved parliament, energy operators, and Edinburgh's fund-management cluster.",
+          "link": "rep/actor.html?code=sct"
+        },
+        {
+          "id": "north_sea_exports",
+          "type": "Network",
+          "status": "pending",
+          "title": "North Sea Energy and Export Network",
+          "description": "Network analysis of offshore oil, gas and wind assets, distilling and food-export supply chains, and their fiscal and employment linkages across the UK.",
+          "link": null
+        },
+        {
+          "id": "devolved_territory",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Devolved Territorial Structure",
+          "description": "Geospatial representation of council areas, island authorities, and the reserved-devolved boundary shaping infrastructure, energy consenting and public services.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "SCT",
+        "region": "Northern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "sgp",
+    "name": "Singapore",
+    "tags": [
+      "Southeast Asia",
+      "City-State",
+      "Trade Hub",
+      "Financial Centre",
+      "Port Economy",
+      "Parliamentary Republic"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Singapore is a sovereign city-state at the southern tip of the Malay Peninsula and one of the world's leading trade and financial hubs. Independent since 1965 after separation from Malaysia, it built prosperity on its strategic strait-side port, rule of law, and openness to capital and talent. Its advanced economy centers on shipping and logistics, financial services, electronics and petrochemicals, with a state-guided development model.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Singapore / Singapura",
+      "flagEmoji": "🇸🇬",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "6.1 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 6100000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 550 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 550000000000
+        },
+        {
+          "id": "area",
+          "value": "735 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 735
+        },
+        {
+          "id": "capital",
+          "value": "Singapore",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Unitary Parliamentary Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Singapore's actor space from colonial entrepot and post-independence industrialization agencies to sovereign wealth funds, multinational regional headquarters, and integrated port-finance governance.",
+          "link": "rep/actor.html?code=sgp"
+        },
+        {
+          "id": "port_finance_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Port and Financial Network Structure",
+          "description": "Network analysis of container terminals, shipping lanes, commodity trading desks, and banking linkages binding the strait-side hub to regional and global value chains.",
+          "link": null
+        },
+        {
+          "id": "city_state_spatial",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "City-State Spatial Structure",
+          "description": "Geospatial representation of port-industrial zones, public housing estates, water reclamation, and land-use intensification on a constrained island territory.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "SGP",
+        "region": "Southeast Asia",
         "lastRevised": "2026-09-20",
         "links": [
           {
@@ -1438,10 +2715,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of South Korea’s actor space from post-war military governance and state-led industrialization to democratization, chaebol consolidation, and contemporary regulatory and innovation ecosystems.",
-          "link": null
+          "link": "rep/actor.html?code=kor"
         },
         {
           "id": "industrial_policy_dynamics",
@@ -1483,6 +2760,113 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "esp",
+    "name": "Spain",
+    "tags": [
+      "Southern Europe",
+      "European Union",
+      "Eurozone",
+      "Parliamentary Monarchy",
+      "Tourism Powerhouse",
+      "Decentralized State"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Spain is a parliamentary constitutional monarchy in Southern Europe and one of the eurozone's largest economies. Restored to democracy after Franco's death in 1975 and an EU member since 1986, it is organized as a highly decentralized state of autonomous communities. Tourism, automotive manufacturing, banking and renewable energy anchor an open, services-led economy.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "España",
+      "flagEmoji": "🇪🇸",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "48.6 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 48600000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.7 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1700000000000
+        },
+        {
+          "id": "area",
+          "value": "505,990 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 505990
+        },
+        {
+          "id": "capital",
+          "value": "Madrid",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Parliamentary Constitutional Monarchy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Spain's actor space from imperial-era institutions through Francoist corporatism and democratic transition to autonomous-community governments, IBEX multinationals, and EU-integrated regulators.",
+          "link": "rep/actor.html?code=esp"
+        },
+        {
+          "id": "tourism_auto_chains",
+          "type": "Network",
+          "status": "pending",
+          "title": "Tourism and Automotive Value Chains",
+          "description": "Network analysis of visitor-economy circuits, assembly plants and supplier parks, and banking groups connecting domestic demand to European markets.",
+          "link": null
+        },
+        {
+          "id": "autonomous_communities",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Autonomous Communities Structure",
+          "description": "Geospatial representation of seventeen autonomous communities and two autonomous cities, fiscal asymmetries, and infrastructure radiating from the Madrid hub.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ESP",
+        "region": "Southern Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -1545,10 +2929,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Sweden’s actor space from agrarian estates and monarchy to industrial conglomerates, labor unions, welfare-state institutions, and innovation-driven enterprises.",
-          "link": null
+          "link": "rep/actor.html?code=swe"
         },
         {
           "id": "industrial_and_innovation_network",
@@ -1590,6 +2974,113 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "che",
+    "name": "Switzerland",
+    "tags": [
+      "Western Europe",
+      "Neutral State",
+      "Financial Centre",
+      "Direct Democracy",
+      "Alpine Economy",
+      "Pharma Hub"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "Switzerland is a neutral federal republic renowned for direct democracy, banking and precision industries. Its consensus-driven cantonal federalism underpins political stability and openness, hosting global finance, pharmaceuticals, watchmaking and commodity trading. Outside the EU but deeply integrated via bilateral accords, it runs persistent surpluses on high-value services and manufacturing.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Schweiz / Suisse / Svizzera",
+      "flagEmoji": "🇨🇭",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "9 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 9000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 1.0 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 1000000000000
+        },
+        {
+          "id": "area",
+          "value": "41,285 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 41285
+        },
+        {
+          "id": "capital",
+          "value": "Bern (de facto)",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Republic with Direct Democracy",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of Switzerland's actor space from cantonal leagues and mercenary entrepreneurship through railway-era banks to Basel pharma groups, commodity traders, and referendum-constrained federal governance.",
+          "link": "rep/actor.html?code=che"
+        },
+        {
+          "id": "banking_pharma_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Banking and Pharma Network Structure",
+          "description": "Network analysis of universal banks, private wealth managers, pharmaceutical pipelines and trading houses linking Alpine headquarters to global capital flows.",
+          "link": null
+        },
+        {
+          "id": "cantonal_federal",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Cantonal Federal Structure",
+          "description": "Geospatial representation of twenty-six cantons, fiscal competition, Alpine transit corridors, and the urban triangle of Zurich, Basel and Geneva.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "CHE",
+        "region": "Western Europe",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -1652,7 +3143,7 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Thailand’s actor space from monarchical-administrative structures and military influence to export-oriented industrialization, business conglomerates, and contemporary regulatory institutions.",
           "link": "rep/actor.html?code=tha"
@@ -1697,6 +3188,220 @@
     "metadata": {
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "are",
+    "name": "United Arab Emirates",
+    "tags": [
+      "Middle East",
+      "Gulf Monarchies",
+      "Federation of Emirates",
+      "Oil and Finance Hub",
+      "Logistics Crossroads",
+      "Diversification Drive"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "The United Arab Emirates is a federal monarchy of seven emirates on the Arabian Gulf's southern shore. Since federation in 1971, oil wealth has funded diversification into finance, aviation, logistics and tourism, with Dubai and Abu Dhabi as global hubs. Its open, expatriate-majority economy pairs sovereign-wealth investment with ambitious technology and energy-transition bets.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "UAE / Al-Imārāt",
+      "flagEmoji": "🇦🇪",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "11 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 11000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 550 billion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 550000000000
+        },
+        {
+          "id": "area",
+          "value": "83,600 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 83600
+        },
+        {
+          "id": "capital",
+          "value": "Abu Dhabi",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Monarchy of Seven Emirates",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of the Emirati actor space from pearling and trading dhow networks through oil-concession state-building to sovereign wealth funds, flag carriers, and free-zone regulators.",
+          "link": "rep/actor.html?code=are"
+        },
+        {
+          "id": "oil_finance_diversification",
+          "type": "Network",
+          "status": "pending",
+          "title": "Oil-to-Finance Diversification Network",
+          "description": "Network analysis of national oil companies, sovereign portfolios, aviation groups and fintech licensing drawing Gulf surpluses into global assets.",
+          "link": null
+        },
+        {
+          "id": "emirate_federal",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Emirate Federal Structure",
+          "description": "Geospatial representation of seven emirates' uneven endowments, federal-supreme-council bargaining, and port-airport urbanism along the Gulf coast.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "ARE",
+        "region": "Middle East",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
+    },
+    "references": []
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "tags": [
+      "North America",
+      "Federal Republic",
+      "Presidential System",
+      "Largest Economy",
+      "Technological Leader",
+      "Global Reserve Currency"
+    ],
+    "layer": "Ontic",
+    "category": "Nation-State",
+    "description": "The United States is a federal presidential republic and the world's largest economy, spanning North America from the Atlantic to the Pacific. Founded on constitutional federalism with separation of powers, it became the center of twentieth-century industrial, financial and technological power. Its economy leads in technology, capital markets, higher education and defense industries, with the dollar as the global reserve currency.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "United States of America",
+      "flagEmoji": "🇺🇸",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "340 million",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 340000000
+        },
+        {
+          "id": "gdp_nominal",
+          "value": "USD 29 trillion",
+          "label": "GDP (Nominal, approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 29000000000000
+        },
+        {
+          "id": "area",
+          "value": "9,833,520 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 9833520
+        },
+        {
+          "id": "capital",
+          "value": "Washington, D.C.",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Presidential Republic",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of the American actor space from founding constitutional institutions and industrial trusts through New Deal agencies to platform-technology firms, federal laboratories, and the modern administrative state.",
+          "link": "rep/actor.html?code=usa"
+        },
+        {
+          "id": "tech_capital_network",
+          "type": "Network",
+          "status": "pending",
+          "title": "Technology and Capital Markets Network",
+          "description": "Network analysis of venture funding, public listings, research universities and platform ecosystems linking innovation clusters to Wall Street allocation.",
+          "link": null
+        },
+        {
+          "id": "federal_territorial",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Federal Territorial-Administrative Structure",
+          "description": "Geospatial representation of fifty states, federal districts and territories, interstate infrastructure, and the fiscal division of labor between Washington and state capitals.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "USA",
+        "region": "North America",
+        "lastRevised": "2026-09-20",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "naturgnosis",
+      "imported": "2026-09-20"
     },
     "references": []
   },
@@ -1759,10 +3464,10 @@
         {
           "id": "actor_set_evolution",
           "type": "Temporal",
-          "status": "pending",
+          "status": "active",
           "title": "Actor Set Evolution",
           "description": "Temporal mapping of Uruguay’s actor space from 19th-century state formation and livestock oligarchies to welfare-state consolidation, military rule, democratic restoration, and contemporary regulatory institutions.",
-          "link": null
+          "link": "rep/actor.html?code=ury"
         },
         {
           "id": "agro_export_network",

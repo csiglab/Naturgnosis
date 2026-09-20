@@ -35,7 +35,7 @@ Division, Language, Currency, Treaty, Alliance, Disputed Territory.
 
 ## Data provenance
 
-Bootstrapped from **Index Gentium (research-CountryIndex)**: 17 nodes. Raw exports are archival in `app/nation/import/`; regenerate `data/data.json` with `bin/import_nation.py` (reads only from `import/`). After edits in the app, the sync server owns `data.json` — do not re-run the import over editor work.
+Bootstrapped from **Index Gentium (research-CountryIndex)**: 17 nodes, extended in-repo with hand-authored entries (now 34). Raw exports are archival in `app/nation/import/`; regenerate `data/data.json` with `bin/import_nation.py` (reads only from `import/`). After edits in the app, the sync server owns `data.json` — do not re-run the import over editor work.
 
 ## UI
 

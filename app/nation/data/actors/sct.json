@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Scottish actors (organizations and institutions) since 1400.",
+    "country": "Scotland",
+    "region": "Northern Europe"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Parliament of Scotland",
+      "type": "public",
+      "role": "Devolved parliament",
+      "regionOfActivity": "Edinburgh",
+      "description": "Estates tradition reborn as the devolved Holyrood legislature.",
+      "events": [
+        {
+          "date": "1424-01-01",
+          "category": "milestone",
+          "description": "Early Stewart parliaments legislate in Scots"
+        },
+        {
+          "date": "1707-03-25",
+          "category": "death",
+          "description": "Union adjourns the old parliament sine die"
+        },
+        {
+          "date": "1999-05-12",
+          "category": "founding",
+          "description": "Devolved parliament convenes"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Court of Session",
+      "type": "public",
+      "role": "Supreme civil court",
+      "regionOfActivity": "Edinburgh",
+      "description": "College of Justice lineage heading Scots civil law.",
+      "events": [
+        {
+          "date": "1532-05-17",
+          "category": "birth",
+          "description": "College of Justice erected by papal bull"
+        },
+        {
+          "date": "1808-01-01",
+          "category": "transformation",
+          "description": "Inner-Outer House division settled"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Kirk and the Church of Scotland",
+      "type": "hybrid",
+      "role": "National church",
+      "regionOfActivity": "Edinburgh",
+      "description": "Presbyterian establishment disestablished in courts but culturally central.",
+      "events": [
+        {
+          "date": "1560-08-17",
+          "category": "milestone",
+          "description": "Reformation Parliament adopts the Confession"
+        },
+        {
+          "date": "1843-05-18",
+          "category": "transformation",
+          "description": "Disruption splits the Free Church"
+        },
+        {
+          "date": "1929-10-02",
+          "category": "founding",
+          "description": "Reunion forms the modern Kirk"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Bank of Scotland",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Edinburgh",
+      "description": "Parliament-chartered bank inside Lloyds Banking Group.",
+      "events": [
+        {
+          "date": "1695-07-17",
+          "category": "birth",
+          "description": "Act of the old parliament founds the bank"
+        },
+        {
+          "date": "2009-01-19",
+          "category": "transformation",
+          "description": "HBOS rescue folds it into Lloyds"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Royal Bank of Scotland",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Edinburgh",
+      "description": "Jacobite-era rival grown into NatWest Group.",
+      "events": [
+        {
+          "date": "1727-05-31",
+          "category": "birth",
+          "description": "Royal charter incorporates the bank"
+        },
+        {
+          "date": "2007-10-10",
+          "category": "expansion",
+          "description": "ABN Amro takeover peaks the balance sheet"
+        },
+        {
+          "date": "2008-10-13",
+          "category": "transformation",
+          "description": "State recapitalization rescues the group"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Scottish Widows",
+      "type": "private",
+      "role": "Life insurer",
+      "regionOfActivity": "Edinburgh",
+      "description": "Widows-fund mutual demutualized into Lloyds.",
+      "events": [
+        {
+          "date": "1815-01-01",
+          "category": "birth",
+          "description": "Scottish Widows Fund founded"
+        },
+        {
+          "date": "2000-03-03",
+          "category": "transformation",
+          "description": "Lloyds TSB takeover"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Standard Life",
+      "type": "private",
+      "role": "Life insurer",
+      "regionOfActivity": "Edinburgh",
+      "description": "Mutual assurer demutualized and merged with Aberdeen.",
+      "events": [
+        {
+          "date": "1825-01-01",
+          "category": "birth",
+          "description": "Standard Life Assurance Company founded"
+        },
+        {
+          "date": "2006-07-10",
+          "category": "transformation",
+          "description": "Demutualization and listing"
+        },
+        {
+          "date": "2017-08-14",
+          "category": "founding",
+          "description": "Aberdeen merger forms Standard Life Aberdeen"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Baillie Gifford",
+      "type": "private",
+      "role": "Fund manager",
+      "regionOfActivity": "Edinburgh",
+      "description": "Partnership managing global growth trusts.",
+      "events": [
+        {
+          "date": "1908-01-01",
+          "category": "birth",
+          "description": "Baillie Gifford partnership formed"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "expansion",
+          "description": "Scottish Mortgage global mandate era"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Scottish Mortgage Trust",
+      "type": "private",
+      "role": "Investment trust",
+      "regionOfActivity": "Edinburgh",
+      "description": "Flagship closed-end fund of the partnership.",
+      "events": [
+        {
+          "date": "1909-03-18",
+          "category": "birth",
+          "description": "Strand Hotel meeting launches the trust"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "SSE",
+      "type": "private",
+      "role": "Energy utility",
+      "regionOfActivity": "Perth",
+      "description": "Hydro-board lineage turned renewables developer.",
+      "events": [
+        {
+          "date": "1943-01-01",
+          "category": "birth",
+          "description": "North of Scotland Hydro-Electric Board created"
+        },
+        {
+          "date": "1998-09-07",
+          "category": "founding",
+          "description": "Scottish Hydro-Southern merger forms SSE"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "ScottishPower",
+      "type": "private",
+      "role": "Energy utility",
+      "regionOfActivity": "Glasgow",
+      "description": "South-board lineage inside Iberdrola.",
+      "events": [
+        {
+          "date": "1990-09-01",
+          "category": "birth",
+          "description": "South of Scotland Board privatized"
+        },
+        {
+          "date": "2007-04-23",
+          "category": "transformation",
+          "description": "Iberdrola takeover"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "North Sea oil operators",
+      "type": "private",
+      "role": "Offshore industry",
+      "regionOfActivity": "Aberdeen",
+      "description": "Forties-era operators anchoring Europe's oil capital.",
+      "events": [
+        {
+          "date": "1975-11-03",
+          "category": "technical",
+          "description": "Forties field first oil flows ashore"
+        },
+        {
+          "date": "2014-01-01",
+          "category": "transformation",
+          "description": "Basin maturity shifts majors to independents"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Whitelee and onshore wind",
+      "type": "hybrid",
+      "role": "Wind-farm fleet",
+      "regionOfActivity": "Glasgow",
+      "description": "Europe-scale onshore wind build-out on moorland estates.",
+      "events": [
+        {
+          "date": "2009-01-01",
+          "category": "technical",
+          "description": "Whitelee, then Europe's largest onshore farm, opens"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "William Baird and textiles",
+      "type": "private",
+      "role": "Textile lineage",
+      "regionOfActivity": "Glasgow",
+      "description": "Paisley shawls to technical-textiles heritage.",
+      "events": [
+        {
+          "date": "1805-01-01",
+          "category": "technical",
+          "description": "Paisley pattern looms industrialize shawl weaving"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Shipbuilding on the Clyde",
+      "type": "private",
+      "role": "Shipyard cluster",
+      "regionOfActivity": "Glasgow",
+      "description": "John Brown, Fairfield and Govan yards building ocean liners and warships.",
+      "events": [
+        {
+          "date": "1860-01-01",
+          "category": "expansion",
+          "description": "Iron-shipbuilding boom along the Clyde"
+        },
+        {
+          "date": "1971-07-01",
+          "category": "policy",
+          "description": "UCS work-in saves Govan; nationalization follows"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "transformation",
+          "description": "BAE Systems consolidates the surface fleet yards"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Whisky distillers",
+      "type": "private",
+      "role": "Spirits industry",
+      "regionOfActivity": "Edinburgh",
+      "description": "Licensed distilling turned global single-malt export engine.",
+      "events": [
+        {
+          "date": "1823-08-01",
+          "category": "policy",
+          "description": "Excise Act legalizes small stills"
+        },
+        {
+          "date": "1986-01-01",
+          "category": "founding",
+          "description": "United Distillers merger; Diageo era follows"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Diageo Scotland",
+      "type": "private",
+      "role": "Spirits group",
+      "regionOfActivity": "Edinburgh",
+      "description": "Guinness-GrandMet merger holding much of Scotch.",
+      "events": [
+        {
+          "date": "1997-10-17",
+          "category": "founding",
+          "description": "Guinness-Grand Metropolitan merger forms Diageo"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Edinburgh festivals",
+      "type": "hybrid",
+      "role": "Cultural festivals",
+      "regionOfActivity": "Edinburgh",
+      "description": "Fringe-Festival-Book-Tattoo August complex.",
+      "events": [
+        {
+          "date": "1947-08-22",
+          "category": "birth",
+          "description": "International Festival founded"
+        },
+        {
+          "date": "1947-08-22",
+          "category": "milestone",
+          "description": "Uninvited companies seed the Fringe"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "National Museums and Galleries",
+      "type": "public",
+      "role": "Cultural institutions",
+      "regionOfActivity": "Edinburgh",
+      "description": "Chambers-era museum and national collections.",
+      "events": [
+        {
+          "date": "1854-05-01",
+          "category": "birth",
+          "description": "Industrial Museum of Scotland opens"
+        },
+        {
+          "date": "2011-07-29",
+          "category": "expansion",
+          "description": "Reopened Royal Museum draws record crowds"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "National Library of Scotland",
+      "type": "public",
+      "role": "National library",
+      "regionOfActivity": "Edinburgh",
+      "description": "Advocates' Library turned legal-deposit institution.",
+      "events": [
+        {
+          "date": "1925-01-01",
+          "category": "birth",
+          "description": "National Library Act establishes the institution"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "BBC Scotland",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "Glasgow",
+      "description": "Pacific Quay-based nations-and-regions output.",
+      "events": [
+        {
+          "date": "1952-03-14",
+          "category": "birth",
+          "description": "Television service for Scotland launches"
+        },
+        {
+          "date": "2019-02-24",
+          "category": "expansion",
+          "description": "BBC Scotland channel launches"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "STV",
+      "type": "private",
+      "role": "Commercial broadcaster",
+      "regionOfActivity": "Glasgow",
+      "description": "Grampian-Scottish franchise holding the Channel 3 licence.",
+      "events": [
+        {
+          "date": "1957-08-31",
+          "category": "birth",
+          "description": "Scottish Television starts broadcasting"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "University of St Andrews",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "St Andrews",
+      "description": "Papal-bull university, Scotland's oldest.",
+      "events": [
+        {
+          "date": "1413-08-28",
+          "category": "birth",
+          "description": "Benedict XIII bulls found the studium"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "University of Edinburgh",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Edinburgh",
+      "description": "Town's-college turned research university.",
+      "events": [
+        {
+          "date": "1583-04-14",
+          "category": "birth",
+          "description": "Town Council founds the Tounis College"
+        },
+        {
+          "date": "1726-01-01",
+          "category": "expansion",
+          "description": "Medical school era begins Enlightenment ascent"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "University of Glasgow",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Glasgow",
+      "description": "Bishop's studium turned engineering powerhouse.",
+      "events": [
+        {
+          "date": "1451-01-07",
+          "category": "birth",
+          "description": "Papal bull founds the university"
+        },
+        {
+          "date": "1769-01-05",
+          "category": "research",
+          "description": "Watt's separate-condenser patent filed with university support"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Royal Society of Edinburgh",
+      "type": "hybrid",
+      "role": "Science academy",
+      "regionOfActivity": "Edinburgh",
+      "description": "Enlightenment society chartering Scottish science.",
+      "events": [
+        {
+          "date": "1783-06-23",
+          "category": "birth",
+          "description": "Royal charter incorporates the society"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Highlands and Islands Enterprise",
+      "type": "public",
+      "role": "Development agency",
+      "regionOfActivity": "Inverness",
+      "description": "HIDB-lineage agency for fragile-area growth.",
+      "events": [
+        {
+          "date": "1965-11-01",
+          "category": "birth",
+          "description": "Highlands and Islands Development Board created"
+        },
+        {
+          "date": "1991-04-01",
+          "category": "transformation",
+          "description": "HIE network replaces the Board"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Scottish Enterprise",
+      "type": "public",
+      "role": "Development agency",
+      "regionOfActivity": "Glasgow",
+      "description": "Lowlands investment and innovation agency.",
+      "events": [
+        {
+          "date": "1990-12-21",
+          "category": "birth",
+          "description": "Enterprise and New Towns Act creates the network"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "STUC",
+      "type": "private",
+      "role": "Trade union confederation",
+      "regionOfActivity": "Glasgow",
+      "description": "Scottish trades-union coordinating body.",
+      "events": [
+        {
+          "date": "1897-03-01",
+          "category": "birth",
+          "description": "STUC founded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "CBI Scotland and business voice",
+      "type": "private",
+      "role": "Employers' body",
+      "regionOfActivity": "Glasgow",
+      "description": "Cross-sector employer representation.",
+      "events": [
+        {
+          "date": "1965-01-01",
+          "category": "birth",
+          "description": "CBI Scottish council era begins"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "ScotRail",
+      "type": "public",
+      "role": "Rail operator",
+      "regionOfActivity": "Glasgow",
+      "description": "Devolved rail franchise renationalized.",
+      "events": [
+        {
+          "date": "1997-03-31",
+          "category": "birth",
+          "description": "Privatized ScotRail franchise starts"
+        },
+        {
+          "date": "2022-04-01",
+          "category": "transformation",
+          "description": "Scottish Government operator of last resort takes over"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Caledonian MacBrayde",
+      "type": "public",
+      "role": "Ferry operator",
+      "regionOfActivity": "Gourock",
+      "description": "State-owned lifeline ferry network.",
+      "events": [
+        {
+          "date": "1973-01-01",
+          "category": "birth",
+          "description": "Caledonian-MacBrayne merger"
+        },
+        {
+          "date": "2006-10-01",
+          "category": "transformation",
+          "description": "David MacBrayne group restructuring"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Loganair",
+      "type": "private",
+      "role": "Regional airline",
+      "regionOfActivity": "Glasgow",
+      "description": "Island-connectivity airline.",
+      "events": [
+        {
+          "date": "1962-02-01",
+          "category": "birth",
+          "description": "Loganair founded in Edinburgh"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Royal Mail Scotland lineage",
+      "type": "public",
+      "role": "Postal history",
+      "regionOfActivity": "Edinburgh",
+      "description": "General Post Office roots in the Scottish postal service.",
+      "events": [
+        {
+          "date": "1635-01-01",
+          "category": "birth",
+          "description": "Charles I establishes the public post to Edinburgh"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Scottish Football Association",
+      "type": "hybrid",
+      "role": "Sports body",
+      "regionOfActivity": "Glasgow",
+      "description": "Second-oldest football association shaping the club game.",
+      "events": [
+        {
+          "date": "1873-03-13",
+          "category": "birth",
+          "description": "SFA founded; Scotland-England 1872 precedes it"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Glenfiddich and William Grant",
+      "type": "private",
+      "role": "Distiller",
+      "regionOfActivity": "Dufftown",
+      "description": "Family distiller pioneering single-malt globalization.",
+      "events": [
+        {
+          "date": "1886-01-01",
+          "category": "birth",
+          "description": "William Grant builds Glenfiddich distillery"
+        },
+        {
+          "date": "1963-01-01",
+          "category": "technical",
+          "description": "Single-malt export drive begins"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Tennent's",
+      "type": "private",
+      "role": "Brewer",
+      "regionOfActivity": "Glasgow",
+      "description": "Wellpark lager brewer since the sixteenth century.",
+      "events": [
+        {
+          "date": "1556-01-01",
+          "category": "birth",
+          "description": "Wellpark brewing site established"
+        },
+        {
+          "date": "1885-01-01",
+          "category": "technical",
+          "description": "Tennent's Lager first brewed"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Aggreko",
+      "type": "private",
+      "role": "Power-rental group",
+      "regionOfActivity": "Glasgow",
+      "description": "Temporary-power specialist from the Netherlands trading roots.",
+      "events": [
+        {
+          "date": "1962-01-01",
+          "category": "birth",
+          "description": "Aggreko founded in the Netherlands; Glasgow base follows"
+        },
+        {
+          "date": "1997-09-29",
+          "category": "transformation",
+          "description": "Listing on the London exchange"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Weir Group",
+      "type": "private",
+      "role": "Engineering group",
+      "regionOfActivity": "Glasgow",
+      "description": "Pump maker for mining and oil since 1871.",
+      "events": [
+        {
+          "date": "1871-01-01",
+          "category": "birth",
+          "description": "G. & J. Weir founded"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Wood Group",
+      "type": "private",
+      "role": "Energy-services group",
+      "regionOfActivity": "Aberdeen",
+      "description": "Ship-repair firm converted to North Sea services giant.",
+      "events": [
+        {
+          "date": "1912-01-01",
+          "category": "birth",
+          "description": "Wood ship-repair business founded"
+        },
+        {
+          "date": "1970-01-01",
+          "category": "transformation",
+          "description": "North Sea pivot begins"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Stagecoach",
+      "type": "private",
+      "role": "Transport group",
+      "regionOfActivity": "Perth",
+      "description": "Sibling bus operator grown into rail franchises.",
+      "events": [
+        {
+          "date": "1980-09-09",
+          "category": "birth",
+          "description": "Stagecoach founded in Perth"
+        },
+        {
+          "date": "1996-02-09",
+          "category": "expansion",
+          "description": "South West Trains franchise won"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "A.G. Barr and Irn-Bru",
+      "type": "private",
+      "role": "Soft-drinks maker",
+      "regionOfActivity": "Glasgow",
+      "description": "Maker of Scotland's other national drink.",
+      "events": [
+        {
+          "date": "1875-01-01",
+          "category": "birth",
+          "description": "Robert Barr starts aerated-water business"
+        },
+        {
+          "date": "1901-01-01",
+          "category": "technical",
+          "description": "IRONBREW launched"
+        }
+      ]
+    },
+    {
+      "id": "a43",
+      "name": "D.C. Thomson",
+      "type": "private",
+      "role": "Publisher",
+      "regionOfActivity": "Dundee",
+      "description": "Family publisher of the Beano, Dandy and Sunday Post.",
+      "events": [
+        {
+          "date": "1905-01-01",
+          "category": "birth",
+          "description": "David Coupar Thomson founds the firm"
+        },
+        {
+          "date": "1938-07-30",
+          "category": "milestone",
+          "description": "The Beano first published"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Heriot-Watt University",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Edinburgh",
+      "description": "Mechanics-institute lineage turned research university.",
+      "events": [
+        {
+          "date": "1821-10-16",
+          "category": "birth",
+          "description": "School of Arts of Edinburgh founded"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "University of Aberdeen",
+      "type": "public",
+      "role": "University",
+      "regionOfActivity": "Aberdeen",
+      "description": "King's-Mariscal merger forming the ancient university.",
+      "events": [
+        {
+          "date": "1495-02-10",
+          "category": "birth",
+          "description": "Bishop Elphinstone founds King's College"
+        },
+        {
+          "date": "1860-09-15",
+          "category": "founding",
+          "description": "King's-Mariscal merger forms the university"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Skyscanner",
+      "type": "private",
+      "role": "Travel search company",
+      "regionOfActivity": "Edinburgh",
+      "description": "Flight-comparison platform sold to Ctrip.",
+      "events": [
+        {
+          "date": "2001-01-01",
+          "category": "birth",
+          "description": "Skyscanner founded"
+        },
+        {
+          "date": "2016-11-24",
+          "category": "transformation",
+          "description": "Ctrip acquisition completes"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "BrewDog",
+      "type": "private",
+      "role": "Craft brewer",
+      "regionOfActivity": "Ellon",
+      "description": "Equity-crowdfunded craft-beer disruptor.",
+      "events": [
+        {
+          "date": "2007-04-01",
+          "category": "birth",
+          "description": "BrewDog founded in Fraserburgh"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Clydesdale Bank",
+      "type": "private",
+      "role": "Commercial bank",
+      "regionOfActivity": "Glasgow",
+      "description": "Note-issuing bank inside Virgin Money UK.",
+      "events": [
+        {
+          "date": "1838-05-01",
+          "category": "birth",
+          "description": "Clydesdale Banking Company founded"
+        },
+        {
+          "date": "2016-02-08",
+          "category": "transformation",
+          "description": "NAB demerger; Virgin Money brand follows"
+        }
+      ]
+    }
+  ]
+}

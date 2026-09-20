@@ -587,6 +587,7 @@
     
     .entity-card[data-state="pending"] {
       opacity: 0.65;
+      cursor: default;
     }
     
     .entity-card[data-state="pending"]:hover {
@@ -1077,7 +1078,7 @@
       
       data.works.forEach(work => {
         const isActive = work.status === 'active';
-        const tagType = 'a';
+        const tagType = isActive ? 'a' : 'article';
         const card = document.createElement(tagType);
 
         card.className = 'entity-card group';
@@ -1090,8 +1091,6 @@
           card.setAttribute('target', '_blank');
           card.setAttribute('aria-label', `View ${work.title} dataset`);
         } else {
-          card.setAttribute('href', work.link || '#');
-          card.setAttribute('target', '_blank');
           card.setAttribute('aria-disabled', 'true');
           card.setAttribute('role', 'article');
         }
@@ -1100,7 +1099,7 @@
         const typeIconSvg = typeIcons[work.type] || typeIcons['Temporal'];
         const statusText = isActive ? 'Active' : 'Pending';
 
-        const ctaHtml = work.link == null
+        const ctaHtml = !isActive
           ? `<span class="font-meta type-meta text-muted uppercase">Coming MMXXV</span>`
           : `<span class="card-cta type-secondary">View<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>`;
 

@@ -1,0 +1,851 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of Ottoman actors (organizations and institutions), 1400-1922.",
+    "country": "Ottoman Empire",
+    "region": "Eastern Mediterranean"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "House of Osman",
+      "type": "public",
+      "role": "Dynasty",
+      "regionOfActivity": "Istanbul",
+      "description": "Ghazi lineage ruling six centuries to 1922.",
+      "events": [
+        {
+          "date": "1402-07-20",
+          "category": "milestone",
+          "description": "Ankara defeat shatters Bayezid's realm; interregnum follows"
+        },
+        {
+          "date": "1413-07-05",
+          "category": "founding",
+          "description": "Mehmed I reunites the realm"
+        },
+        {
+          "date": "1922-11-01",
+          "category": "death",
+          "description": "Sultanate abolished"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Janissary corps",
+      "type": "public",
+      "role": "Standing infantry",
+      "regionOfActivity": "Istanbul",
+      "description": "Devshirme infantry, kingmakers until the Auspicious Incident.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Devshirme levy already staffing the kapıkulu order"
+        },
+        {
+          "date": "1444-11-10",
+          "category": "expansion",
+          "description": "Varna victory secures Balkan dominion"
+        },
+        {
+          "date": "1826-06-15",
+          "category": "death",
+          "description": "Mahmud II massacres the corps in the Auspicious Incident"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Sipahi cavalry order",
+      "type": "public",
+      "role": "Timar cavalry",
+      "regionOfActivity": "Anatolia",
+      "description": "Fief-holding cavalry backbone of the classical army.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Timar registers already organize Anatolian cavalry"
+        },
+        {
+          "date": "1526-08-29",
+          "category": "expansion",
+          "description": "Mohács victory opens Hungary"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Sublime Porte and the Grand Vizierate",
+      "type": "public",
+      "role": "Imperial government",
+      "regionOfActivity": "Istanbul",
+      "description": "Divan-centered administration of the empire.",
+      "events": [
+        {
+          "date": "1453-05-29",
+          "category": "founding",
+          "description": "Constantinople falls; imperial capital proclaimed"
+        },
+        {
+          "date": "1838-01-01",
+          "category": "transformation",
+          "description": "Mustafa Reşid's ministry system modernizes the Porte"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Şeyhülislam and the ulema",
+      "type": "public",
+      "role": "Religious establishment",
+      "regionOfActivity": "Istanbul",
+      "description": "Learned hierarchy legitimizing sultanic rule.",
+      "events": [
+        {
+          "date": "1425-01-01",
+          "category": "birth",
+          "description": "Şeyhülislam office institutionalized under Murad II"
+        },
+        {
+          "date": "1924-03-03",
+          "category": "death",
+          "description": "Caliphate abolished with the office"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Millet system",
+      "type": "hybrid",
+      "role": "Confessional autonomy",
+      "regionOfActivity": "Istanbul",
+      "description": "Patriarchate-rabbinate self-government of non-Muslims.",
+      "events": [
+        {
+          "date": "1454-01-06",
+          "category": "birth",
+          "description": "Gennadios II confirmed as Orthodox patriarch"
+        },
+        {
+          "date": "1856-02-18",
+          "category": "transformation",
+          "description": "Hatt-ı Hümayun equalizes the millets"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Imperial Harem and valide sultans",
+      "type": "public",
+      "role": "Palace institution",
+      "regionOfActivity": "Istanbul",
+      "description": "Dynastic household wielding the Sultanate of Women.",
+      "events": [
+        {
+          "date": "1541-01-01",
+          "category": "milestone",
+          "description": "Hürrem's marriage inaugurates the valide era"
+        },
+        {
+          "date": "1683-09-12",
+          "category": "expansion",
+          "description": "Second Vienna siege fails; retreat begins"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "Kapıkulu artillery corps",
+      "type": "public",
+      "role": "Artillery arm",
+      "regionOfActivity": "Istanbul",
+      "description": "Gunpowder corps behind early modern sieges.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Bombards already batter Balkan fortresses"
+        },
+        {
+          "date": "1453-04-12",
+          "category": "technical",
+          "description": "Orban's great bombards breach the Theodosian walls"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Ottoman navy and the Kapudan Pasha",
+      "type": "public",
+      "role": "Navy",
+      "regionOfActivity": "Istanbul",
+      "description": "Galley fleet contesting the Mediterranean to Lepanto and beyond.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Gelibolu arsenal already projects sea power"
+        },
+        {
+          "date": "1538-09-28",
+          "category": "expansion",
+          "description": "Preveza victory crowns Barbarossa"
+        },
+        {
+          "date": "1571-10-07",
+          "category": "transformation",
+          "description": "Lepanto destroys the fleet; rebuilt within a year"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Tanzimat ministries",
+      "type": "public",
+      "role": "Reform administration",
+      "regionOfActivity": "Istanbul",
+      "description": "Gülhane-era councils and ministries westernizing governance.",
+      "events": [
+        {
+          "date": "1839-11-03",
+          "category": "birth",
+          "description": "Hatt-ı Şerif of Gülhane proclaimed"
+        },
+        {
+          "date": "1857-01-01",
+          "category": "founding",
+          "description": "Education and public-works ministries created"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Committee of Union and Progress",
+      "type": "public",
+      "role": "Ruling party",
+      "regionOfActivity": "Istanbul",
+      "description": "Young Turk committee ruling 1908-1918 to dissolution.",
+      "events": [
+        {
+          "date": "1908-07-23",
+          "category": "founding",
+          "description": "Constitution restored under CUP pressure"
+        },
+        {
+          "date": "1913-01-23",
+          "category": "transformation",
+          "description": "Bab-ı Ali coup installs the triumvirate"
+        },
+        {
+          "date": "1918-11-01",
+          "category": "death",
+          "description": "Committee dissolves itself after Mudros"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Imperial Ottoman Bank",
+      "type": "hybrid",
+      "role": "State bank",
+      "regionOfActivity": "Istanbul",
+      "description": "Anglo-French bank as treasury banker and note issuer.",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "birth",
+          "description": "Bank-ı Osmanî founded with British capital"
+        },
+        {
+          "date": "1863-02-04",
+          "category": "founding",
+          "description": "Banque Impériale Ottomane chartered"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Ottoman Public Debt Administration",
+      "type": "hybrid",
+      "role": "Debt agency",
+      "regionOfActivity": "Istanbul",
+      "description": "Creditor-run administration hypothecating imperial revenues.",
+      "events": [
+        {
+          "date": "1881-12-20",
+          "category": "birth",
+          "description": "Muharrem Decree creates the OPDA"
+        },
+        {
+          "date": "1928-01-01",
+          "category": "transformation",
+          "description": "Lausanne settlement winds it down"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Ziraat Bankası lineage",
+      "type": "hybrid",
+      "role": "Agricultural bank",
+      "regionOfActivity": "Ankara",
+      "description": "Midhat Pasha's benefit funds grown into the republican state bank.",
+      "events": [
+        {
+          "date": "1863-01-01",
+          "category": "birth",
+          "description": "Memleket Sandıkları benefit funds founded"
+        },
+        {
+          "date": "1888-08-15",
+          "category": "founding",
+          "description": "Ziraat Bankası chartered"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Oriental Railway Company",
+      "type": "private",
+      "role": "Railway concession",
+      "regionOfActivity": "Istanbul",
+      "description": "Hirsch-baron Balkan railways feeding the capital.",
+      "events": [
+        {
+          "date": "1870-01-01",
+          "category": "birth",
+          "description": "Rumelia railway concession granted"
+        },
+        {
+          "date": "1888-01-01",
+          "category": "technical",
+          "description": "Orient Express reaches Constantinople"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Anatolian Railway and Baghdad Railway",
+      "type": "private",
+      "role": "Railway concessions",
+      "regionOfActivity": "Ankara",
+      "description": "German-financed lines projecting power eastward.",
+      "events": [
+        {
+          "date": "1888-10-04",
+          "category": "birth",
+          "description": "Anatolian Railway concession signed"
+        },
+        {
+          "date": "1903-01-01",
+          "category": "founding",
+          "description": "Baghdad Railway Company chartered"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "Hijaz Railway",
+      "type": "public",
+      "role": "Pilgrimage railway",
+      "regionOfActivity": "Damascus",
+      "description": "Hamidian pan-Islamic railway to Medina.",
+      "events": [
+        {
+          "date": "1900-09-01",
+          "category": "birth",
+          "description": "Construction ordered"
+        },
+        {
+          "date": "1908-09-01",
+          "category": "technical",
+          "description": "Medina terminus reached"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Chemin de Fer Ottoman d'Anatolie ports",
+      "type": "private",
+      "role": "Port concessions",
+      "regionOfActivity": "Izmir",
+      "description": "Aidın railway and quay companies modernizing export ports.",
+      "events": [
+        {
+          "date": "1856-09-23",
+          "category": "birth",
+          "description": "Izmir-Aydın concession granted"
+        },
+        {
+          "date": "1869-01-01",
+          "category": "technical",
+          "description": "Kordon quays transform the waterfront"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Düyun-u Umumiye tobacco Régie",
+      "type": "hybrid",
+      "role": "Monopoly company",
+      "regionOfActivity": "Istanbul",
+      "description": "Debt-administration tobacco monopoly.",
+      "events": [
+        {
+          "date": "1884-01-01",
+          "category": "birth",
+          "description": "Régie des Tabacs chartered; 1883 decree precedes"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "Istanbul tramway companies",
+      "type": "private",
+      "role": "Urban transit",
+      "regionOfActivity": "Istanbul",
+      "description": "Horse then electric tramways of Dersaadet.",
+      "events": [
+        {
+          "date": "1871-08-31",
+          "category": "birth",
+          "description": "Horse-tram concession starts service"
+        },
+        {
+          "date": "1914-02-11",
+          "category": "technical",
+          "description": "Electric trams replace the horses"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Galata bankers",
+      "type": "private",
+      "role": "Banking houses",
+      "regionOfActivity": "Istanbul",
+      "description": "Camondo-Baltazzi houses financing viziers and railways.",
+      "events": [
+        {
+          "date": "1840-01-01",
+          "category": "milestone",
+          "description": "Galata bankers already fund the Porte's deficits"
+        },
+        {
+          "date": "1875-10-06",
+          "category": "transformation",
+          "description": "Ramazan Decree defaults; bankers ruined and remade"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Armenian amira financiers",
+      "type": "private",
+      "role": "Banking families",
+      "regionOfActivity": "Istanbul",
+      "description": "Dadian-Duzian houses minting and lending to the state.",
+      "events": [
+        {
+          "date": "1750-01-01",
+          "category": "birth",
+          "description": "Duzian mint-mastership era begins"
+        },
+        {
+          "date": "1860-01-01",
+          "category": "expansion",
+          "description": "Amira capital founds theaters and schools"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "Greek Phanariot houses",
+      "type": "private",
+      "role": "Merchant dynasties",
+      "regionOfActivity": "Istanbul",
+      "description": "Fener families staffing Danubian hospodarates and trade.",
+      "events": [
+        {
+          "date": "1711-01-01",
+          "category": "milestone",
+          "description": "Mavrocordato era opens Phanariot hospodar rule"
+        },
+        {
+          "date": "1821-01-01",
+          "category": "transformation",
+          "description": "War of Independence ends Phanariot ascendancy"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "Levantine trading houses",
+      "type": "private",
+      "role": "Merchant firms",
+      "regionOfActivity": "Izmir",
+      "description": "Whittall-Giraud networks linking Smyrna to Manchester.",
+      "events": [
+        {
+          "date": "1840-01-01",
+          "category": "birth",
+          "description": "Whittall company era in Smyrna"
+        },
+        {
+          "date": "1869-11-17",
+          "category": "expansion",
+          "description": "Suez Canal opens; Levant trade booms"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "Dersaadet press",
+      "type": "private",
+      "role": "Newspapers",
+      "regionOfActivity": "Istanbul",
+      "description": "Takvim-i Vekayi lineage to opposition journals.",
+      "events": [
+        {
+          "date": "1831-11-01",
+          "category": "birth",
+          "description": "Takvim-i Vekayi, first official gazette"
+        },
+        {
+          "date": "1908-07-24",
+          "category": "transformation",
+          "description": "Press censorship lifted; journal explosion"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "Mekteb-i Mülkiye",
+      "type": "public",
+      "role": "Civil-service school",
+      "regionOfActivity": "Ankara",
+      "description": "Administrator academy of the late empire and republic.",
+      "events": [
+        {
+          "date": "1859-01-01",
+          "category": "birth",
+          "description": "Mekteb-i Mülkiye founded"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "Darülfünun and Istanbul University lineage",
+      "type": "public",
+      "role": "University history",
+      "regionOfActivity": "Istanbul",
+      "description": "1846 lecture-house lineage to the republican university.",
+      "events": [
+        {
+          "date": "1846-01-01",
+          "category": "birth",
+          "description": "Darülfünun lectures begin"
+        },
+        {
+          "date": "1933-08-01",
+          "category": "transformation",
+          "description": "University Reform creates Istanbul University"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Imperial Medical School",
+      "type": "public",
+      "role": "Medical school",
+      "regionOfActivity": "Istanbul",
+      "description": "Mekteb-i Tıbbiye training military surgeons.",
+      "events": [
+        {
+          "date": "1827-03-14",
+          "category": "birth",
+          "description": "Tıphane-i Amire founded; Medicine Day origin"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "Red Crescent lineage",
+      "type": "hybrid",
+      "role": "Relief society",
+      "regionOfActivity": "Istanbul",
+      "description": "1877 Hilal-i Ahmer society in war relief.",
+      "events": [
+        {
+          "date": "1877-06-11",
+          "category": "birth",
+          "description": "Hilal-i Ahmer Cemiyeti founded"
+        },
+        {
+          "date": "1923-01-01",
+          "category": "founding",
+          "description": "Türkiye Hilal-i Ahmer refounded"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Evkaf administration",
+      "type": "public",
+      "role": "Pious endowments",
+      "regionOfActivity": "Istanbul",
+      "description": "Vakif estates funding mosques, schools and soup kitchens.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Vakif deeds already endow Bursa's külliyes"
+        },
+        {
+          "date": "1826-01-01",
+          "category": "transformation",
+          "description": "Evkaf ministry centralizes the endowments"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "Grand Bazaar guilds",
+      "type": "hybrid",
+      "role": "Artisan orders",
+      "regionOfActivity": "Istanbul",
+      "description": "Ahi-futuwwa craft corporations of the covered market.",
+      "events": [
+        {
+          "date": "1461-01-01",
+          "category": "birth",
+          "description": "Mehmed II orders the bedesten built"
+        },
+        {
+          "date": "1860-01-01",
+          "category": "transformation",
+          "description": "Guild monopolies dissolved under free trade"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Armenian millet institutions",
+      "type": "hybrid",
+      "role": "Communal bodies",
+      "regionOfActivity": "Istanbul",
+      "description": "Patriarchate, assembly and schools of the Armenian nation.",
+      "events": [
+        {
+          "date": "1461-01-01",
+          "category": "birth",
+          "description": "Hovakim recognized as patriarch"
+        },
+        {
+          "date": "1863-03-17",
+          "category": "transformation",
+          "description": "Armenian National Constitution proclaimed"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "Greek Orthodox Patriarchate",
+      "type": "hybrid",
+      "role": "Communal body",
+      "regionOfActivity": "Istanbul",
+      "description": "Rum millet head under Ottoman protection.",
+      "events": [
+        {
+          "date": "1454-01-06",
+          "category": "birth",
+          "description": "Mehmed II confirms Gennadios"
+        },
+        {
+          "date": "1856-01-01",
+          "category": "transformation",
+          "description": "Hatt-ı Hümayun reforms communal governance"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Jewish Chief Rabbinate",
+      "type": "hybrid",
+      "role": "Communal body",
+      "regionOfActivity": "Istanbul",
+      "description": "Hahambaşı leadership from Bayezid's welcome onward.",
+      "events": [
+        {
+          "date": "1492-01-01",
+          "category": "milestone",
+          "description": "Sephardic welcome expands the community"
+        },
+        {
+          "date": "1835-01-01",
+          "category": "birth",
+          "description": "Hahambaşılık formally recognized"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Provincial ayan notables",
+      "type": "private",
+      "role": "Local notables",
+      "regionOfActivity": "Anatolia",
+      "description": "Derebey power-holders checked by the Sened-i İttifak.",
+      "events": [
+        {
+          "date": "1808-10-07",
+          "category": "milestone",
+          "description": "Sened-i İttifak charters notable-state pact"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "Muhammad Ali's Egypt as rival",
+      "type": "public",
+      "role": "Rival power",
+      "regionOfActivity": "Cairo",
+      "description": "Albanian governor's dynasty challenging the Porte.",
+      "events": [
+        {
+          "date": "1805-07-09",
+          "category": "birth",
+          "description": "Mehmed Ali takes Egypt"
+        },
+        {
+          "date": "1839-06-24",
+          "category": "expansion",
+          "description": "Nezib victory threatens the dynasty"
+        },
+        {
+          "date": "1841-02-13",
+          "category": "transformation",
+          "description": "London Straits Convention settles the crisis"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "Enderun palace school",
+      "type": "public",
+      "role": "Court academy",
+      "regionOfActivity": "Istanbul",
+      "description": "Topkapı pages trained into viziers and admirals.",
+      "events": [
+        {
+          "date": "1478-01-01",
+          "category": "birth",
+          "description": "Topkapı palace school organized after the move from Edirne"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "Müteferrika press",
+      "type": "private",
+      "role": "Printing house",
+      "regionOfActivity": "Istanbul",
+      "description": "First Muslim-operated Turkish press.",
+      "events": [
+        {
+          "date": "1727-07-10",
+          "category": "birth",
+          "description": "Imperial firman licenses İbrahim Müteferrika's press"
+        },
+        {
+          "date": "1729-01-31",
+          "category": "technical",
+          "description": "First book, the Turkish-Arabic dictionary, printed"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "Barbary corsair regencies",
+      "type": "hybrid",
+      "role": "Maritime principalities",
+      "regionOfActivity": "Algiers",
+      "description": "Oruç-Hızır enterprise turned Ottoman eyalets.",
+      "events": [
+        {
+          "date": "1516-01-01",
+          "category": "birth",
+          "description": "Oruç Reis takes Algiers"
+        },
+        {
+          "date": "1534-01-01",
+          "category": "transformation",
+          "description": "Barbarossa appointed Kapudan Pasha; regencies formalized"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Crimean Khanate",
+      "type": "hybrid",
+      "role": "Vassal khanate",
+      "regionOfActivity": "Bakhchisarai",
+      "description": "Giray dynasty guarding the northern frontier to 1783.",
+      "events": [
+        {
+          "date": "1441-01-01",
+          "category": "birth",
+          "description": "Hacı Giray founds the khanate"
+        },
+        {
+          "date": "1475-01-01",
+          "category": "transformation",
+          "description": "Gedik Ahmed Pasha expedition makes it a vassal"
+        },
+        {
+          "date": "1783-04-19",
+          "category": "death",
+          "description": "Russian annexation manifesto ends the khanate"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "Galata Mevlevihanesi",
+      "type": "hybrid",
+      "role": "Sufi lodge",
+      "regionOfActivity": "Istanbul",
+      "description": "Whirling-dervish cultural engine of Ottoman letters.",
+      "events": [
+        {
+          "date": "1491-01-01",
+          "category": "birth",
+          "description": "İskender Pasha endows the Galata lodge"
+        },
+        {
+          "date": "1925-09-02",
+          "category": "death",
+          "description": "Tekke closure law shuts the lodges"
+        }
+      ]
+    },
+    {
+      "id": "a42",
+      "name": "Süleymaniye complex",
+      "type": "hybrid",
+      "role": "Imperial foundation",
+      "regionOfActivity": "Istanbul",
+      "description": "Sinan's külliye bundling mosque, schools, hospital and kitchens.",
+      "events": [
+        {
+          "date": "1557-10-15",
+          "category": "birth",
+          "description": "Süleymaniye complex inaugurated"
+        }
+      ]
+    }
+  ]
+}

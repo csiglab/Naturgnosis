@@ -1,0 +1,871 @@
+{
+  "metadata": {
+    "source": "Naturgnosis editorial corpus (hand-authored)",
+    "lastUpdated": "2026-09-20",
+    "description": "Representative dataset of English actors (organizations and institutions) since 1400.",
+    "country": "England",
+    "region": "Western Europe"
+  },
+  "actors": [
+    {
+      "id": "a1",
+      "name": "Crown and the Westminster system",
+      "type": "public",
+      "role": "Constitutional monarchy",
+      "regionOfActivity": "London",
+      "description": "Conquest kingship parliamentarized over six centuries.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Lancastrian parliaments already tax and legislate"
+        },
+        {
+          "date": "1689-12-16",
+          "category": "transformation",
+          "description": "Bill of Rights settles parliamentary supremacy"
+        },
+        {
+          "date": "1911-08-18",
+          "category": "milestone",
+          "description": "Parliament Act curbs the Lords"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Parliament of England and the Commons",
+      "type": "public",
+      "role": "Parliament",
+      "regionOfActivity": "London",
+      "description": "Model-parliament lineage to prime-ministerial government.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Commons already petitions and grants supply"
+        },
+        {
+          "date": "1707-05-01",
+          "category": "transformation",
+          "description": "Union merges into the British Parliament"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Bank of England",
+      "type": "public",
+      "role": "Central bank",
+      "regionOfActivity": "London",
+      "description": "War-finance bank turned inflation-targeting institution.",
+      "events": [
+        {
+          "date": "1694-07-27",
+          "category": "birth",
+          "description": "Royal charter founds the Bank"
+        },
+        {
+          "date": "1844-07-19",
+          "category": "milestone",
+          "description": "Bank Charter Act splits issue and banking"
+        },
+        {
+          "date": "1997-05-06",
+          "category": "transformation",
+          "description": "Operational independence granted"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "East India Company",
+      "type": "hybrid",
+      "role": "Chartered company",
+      "regionOfActivity": "London",
+      "description": "Peppercorn traders turned rulers of Bengal, dissolved 1874.",
+      "events": [
+        {
+          "date": "1600-12-31",
+          "category": "birth",
+          "description": "Elizabeth I charters the Company"
+        },
+        {
+          "date": "1757-06-23",
+          "category": "expansion",
+          "description": "Plassey wins Bengal"
+        },
+        {
+          "date": "1858-08-02",
+          "category": "death",
+          "description": "Government of India Act winds it up"
+        }
+      ]
+    },
+    {
+      "id": "a5",
+      "name": "Hudson's Bay English roots",
+      "type": "private",
+      "role": "Trading history",
+      "regionOfActivity": "London",
+      "description": "London-chartered fur empire; see Canada actor record.",
+      "events": [
+        {
+          "date": "1670-05-02",
+          "category": "birth",
+          "description": "Royal charter granted in London"
+        }
+      ]
+    },
+    {
+      "id": "a6",
+      "name": "Royal African Company lineage",
+      "type": "private",
+      "role": "Trading history",
+      "regionOfActivity": "London",
+      "description": "Slave-trading monopoly to 1752.",
+      "events": [
+        {
+          "date": "1672-09-27",
+          "category": "birth",
+          "description": "Royal African Company chartered"
+        },
+        {
+          "date": "1807-03-25",
+          "category": "death",
+          "description": "Abolition Act ends the British trade; company era long over"
+        }
+      ]
+    },
+    {
+      "id": "a7",
+      "name": "Lloyd's of London",
+      "type": "private",
+      "role": "Insurance market",
+      "regionOfActivity": "London",
+      "description": "Coffee-house marine underwriting turned global marketplace.",
+      "events": [
+        {
+          "date": "1688-01-01",
+          "category": "birth",
+          "description": "Lloyd's coffee house opens"
+        },
+        {
+          "date": "1871-01-01",
+          "category": "founding",
+          "description": "Lloyd's Act incorporates the Society"
+        },
+        {
+          "date": "1996-01-01",
+          "category": "transformation",
+          "description": "Reconstruction and Renewal rescues the market"
+        }
+      ]
+    },
+    {
+      "id": "a8",
+      "name": "London Stock Exchange",
+      "type": "private",
+      "role": "Securities exchange",
+      "regionOfActivity": "London",
+      "description": "Jonathan's coffee-house lineage to LSEG data empire.",
+      "events": [
+        {
+          "date": "1698-01-01",
+          "category": "birth",
+          "description": "Stock-jobbers gather at Jonathan's"
+        },
+        {
+          "date": "1801-03-03",
+          "category": "founding",
+          "description": "Regulated exchange founded"
+        },
+        {
+          "date": "2007-10-01",
+          "category": "founding",
+          "description": "Borsa Italiana merger forms LSEG"
+        }
+      ]
+    },
+    {
+      "id": "a9",
+      "name": "Barclays",
+      "type": "private",
+      "role": "Universal bank",
+      "regionOfActivity": "London",
+      "description": "Quaker goldsmith-bankers grown into a transatlantic group.",
+      "events": [
+        {
+          "date": "1690-01-01",
+          "category": "birth",
+          "description": "Freame-Gould banking house founded"
+        },
+        {
+          "date": "1896-01-01",
+          "category": "founding",
+          "description": "Twenty banks amalgamate as Barclay & Co"
+        },
+        {
+          "date": "2008-09-16",
+          "category": "expansion",
+          "description": "Lehman US businesses bought"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Lloyds Banking Group English roots",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "London",
+      "description": "Birmingham-Taylor lineage to domestic retail scale.",
+      "events": [
+        {
+          "date": "1765-06-03",
+          "category": "birth",
+          "description": "Taylors and Lloyds founded in Birmingham"
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "HSBC UK lineage",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "London",
+      "description": "Hongkong-Shanghai bank headquartered in London since 1993.",
+      "events": [
+        {
+          "date": "1865-03-03",
+          "category": "birth",
+          "description": "Hongkong and Shanghai Banking Company founded"
+        },
+        {
+          "date": "1993-01-01",
+          "category": "milestone",
+          "description": "Holdings move to London"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "NatWest Group English roots",
+      "type": "private",
+      "role": "Banking history",
+      "regionOfActivity": "London",
+      "description": "Three-century bank merger lineage.",
+      "events": [
+        {
+          "date": "1968-01-01",
+          "category": "founding",
+          "description": "National Provincial-District-Westminster merger"
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Standard Chartered",
+      "type": "private",
+      "role": "Emerging-markets bank",
+      "regionOfActivity": "London",
+      "description": "Chartered Bank-Standard merger financing Asia-Africa trade.",
+      "events": [
+        {
+          "date": "1853-01-01",
+          "category": "birth",
+          "description": "Chartered Bank of India, Australia and China founded"
+        },
+        {
+          "date": "1969-01-01",
+          "category": "founding",
+          "description": "Standard Bank merger forms Standard Chartered"
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Prudential plc",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "London",
+      "description": "Penny-policy insurer turned Asia-focused group.",
+      "events": [
+        {
+          "date": "1848-05-30",
+          "category": "birth",
+          "description": "Prudential Mutual founded"
+        },
+        {
+          "date": "2019-10-21",
+          "category": "transformation",
+          "description": "M&G demerger; Asia focus follows"
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Aviva",
+      "type": "private",
+      "role": "Insurer",
+      "regionOfActivity": "London",
+      "description": "Norwich Union-CGU merger product.",
+      "events": [
+        {
+          "date": "1797-01-01",
+          "category": "birth",
+          "description": "Norwich Union founded"
+        },
+        {
+          "date": "2000-05-30",
+          "category": "founding",
+          "description": "CGU merger; Aviva brand 2002"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "name": "Legal & General",
+      "type": "private",
+      "role": "Insurer and asset manager",
+      "regionOfActivity": "London",
+      "description": "1836 life office managing British pensions.",
+      "events": [
+        {
+          "date": "1836-06-15",
+          "category": "birth",
+          "description": "Legal & General founded"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "name": "British Steel lineage",
+      "type": "private",
+      "role": "Steel history",
+      "regionOfActivity": "London",
+      "description": "Nationalized corporation privatized as Corus, now Tata Steel UK.",
+      "events": [
+        {
+          "date": "1967-07-28",
+          "category": "birth",
+          "description": "British Steel Corporation nationalized"
+        },
+        {
+          "date": "1988-12-05",
+          "category": "transformation",
+          "description": "Privatization completes"
+        },
+        {
+          "date": "2007-01-30",
+          "category": "policy",
+          "description": "Tata Steel takeover"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "name": "Coal Board and the mines",
+      "type": "public",
+      "role": "Energy history",
+      "regionOfActivity": "London",
+      "description": "1947 nationalization to the 1984 strike and closure.",
+      "events": [
+        {
+          "date": "1947-01-01",
+          "category": "birth",
+          "description": "National Coal Board vested"
+        },
+        {
+          "date": "1984-03-12",
+          "category": "transformation",
+          "description": "Miners' strike begins; industry wound down after"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "name": "Railway companies and British Rail",
+      "type": "public",
+      "role": "Railway history",
+      "regionOfActivity": "London",
+      "description": "Stephenson-stockton lineage nationalized 1948, privatized 1990s.",
+      "events": [
+        {
+          "date": "1825-09-27",
+          "category": "birth",
+          "description": "Stockton and Darlington opens"
+        },
+        {
+          "date": "1948-01-01",
+          "category": "transformation",
+          "description": "Big Four nationalized into British Rail"
+        },
+        {
+          "date": "1994-01-01",
+          "category": "policy",
+          "description": "Railtrack privatization era begins"
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "name": "British Airways",
+      "type": "private",
+      "role": "Flag carrier",
+      "regionOfActivity": "London",
+      "description": "BOAC-BEA merger privatized into IAG.",
+      "events": [
+        {
+          "date": "1974-04-01",
+          "category": "birth",
+          "description": "BOAC-BEA merger forms British Airways"
+        },
+        {
+          "date": "1987-02-11",
+          "category": "transformation",
+          "description": "Privatization completed"
+        },
+        {
+          "date": "2011-01-21",
+          "category": "founding",
+          "description": "Iberia merger forms IAG"
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "name": "Rolls-Royce Motors lineage cars",
+      "type": "private",
+      "role": "Automotive history",
+      "regionOfActivity": "London",
+      "description": "1906 luxury marque split from aero-engines in 1971.",
+      "events": [
+        {
+          "date": "1906-03-15",
+          "category": "birth",
+          "description": "Rolls-Royce Limited founded"
+        },
+        {
+          "date": "1971-02-04",
+          "category": "transformation",
+          "description": "Receivership splits cars from aero-engines"
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "name": "Rolls-Royce Holdings",
+      "type": "private",
+      "role": "Aero-engine maker",
+      "regionOfActivity": "London",
+      "description": "RB211-crisis survivor powering wide-bodies.",
+      "events": [
+        {
+          "date": "1987-05-20",
+          "category": "transformation",
+          "description": "Privatization completed"
+        },
+        {
+          "date": "1995-01-01",
+          "category": "technical",
+          "description": "Trent engine family launched"
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "name": "BAE Systems",
+      "type": "private",
+      "role": "Defense prime",
+      "regionOfActivity": "London",
+      "description": "British Aerospace-Marconi merger anchoring European defense.",
+      "events": [
+        {
+          "date": "1977-04-29",
+          "category": "birth",
+          "description": "British Aerospace nationalized entity formed"
+        },
+        {
+          "date": "1999-11-30",
+          "category": "founding",
+          "description": "Marconi merger forms BAE Systems"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "name": "GEC and Marconi lineage",
+      "type": "private",
+      "role": "Electrical history",
+      "regionOfActivity": "London",
+      "description": "Witton-lamp lineage to telecoms bust.",
+      "events": [
+        {
+          "date": "1886-01-01",
+          "category": "birth",
+          "description": "GEC founded"
+        },
+        {
+          "date": "1999-01-01",
+          "category": "transformation",
+          "description": "Marconi rebrand; dotcom bust follows"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "name": "ICI",
+      "type": "private",
+      "role": "Chemicals history",
+      "regionOfActivity": "London",
+      "description": "Nobel-Brunner Mond merger, broken up 2008.",
+      "events": [
+        {
+          "date": "1926-12-07",
+          "category": "birth",
+          "description": "Imperial Chemical Industries formed"
+        },
+        {
+          "date": "2008-01-02",
+          "category": "death",
+          "description": "AkzoNobel takeover dissolves the group"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "name": "BP",
+      "type": "private",
+      "role": "Oil major",
+      "regionOfActivity": "London",
+      "description": "Anglo-Persian concession turned Beyond Petroleum and back.",
+      "events": [
+        {
+          "date": "1909-04-14",
+          "category": "birth",
+          "description": "Anglo-Persian Oil Company founded"
+        },
+        {
+          "date": "1954-01-01",
+          "category": "founding",
+          "description": "British Petroleum name adopted"
+        },
+        {
+          "date": "2010-04-20",
+          "category": "transformation",
+          "description": "Deepwater Horizon disaster reshapes the firm"
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "name": "National Grid",
+      "type": "private",
+      "role": "Grid operator",
+      "regionOfActivity": "London",
+      "description": "CEGB split privatized into a transatlantic network owner.",
+      "events": [
+        {
+          "date": "1990-01-01",
+          "category": "birth",
+          "description": "National Grid Company formed from CEGB split"
+        },
+        {
+          "date": "1995-12-11",
+          "category": "transformation",
+          "description": "Listing completes"
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "name": "Thames Water lineage",
+      "type": "private",
+      "role": "Water utility",
+      "regionOfActivity": "London",
+      "description": "1811 companies to 1989 privatization and debt crisis.",
+      "events": [
+        {
+          "date": "1811-01-01",
+          "category": "birth",
+          "description": "West Middlesex Waterworks era begins"
+        },
+        {
+          "date": "1989-01-01",
+          "category": "transformation",
+          "description": "Privatization; Kemble era debt follows"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "name": "BT Group",
+      "type": "private",
+      "role": "Telecom incumbent",
+      "regionOfActivity": "London",
+      "description": "Post Office lineage privatized into Openreach-separated group.",
+      "events": [
+        {
+          "date": "1846-01-01",
+          "category": "birth",
+          "description": "Electric Telegraph Company founded; state era 1870"
+        },
+        {
+          "date": "1984-11-27",
+          "category": "transformation",
+          "description": "British Telecom privatized"
+        },
+        {
+          "date": "2016-01-29",
+          "category": "transformation",
+          "description": "EE takeover; Openreach separation follows"
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "name": "Vodafone UK lineage",
+      "type": "private",
+      "role": "Mobile history",
+      "regionOfActivity": "London",
+      "description": "Racal-Millicom joint venture grown into a global group.",
+      "events": [
+        {
+          "date": "1984-01-01",
+          "category": "birth",
+          "description": "Racal Strategic Radio founded"
+        },
+        {
+          "date": "1991-09-16",
+          "category": "founding",
+          "description": "Vodafone Group demerged and listed"
+        }
+      ]
+    },
+    {
+      "id": "a31",
+      "name": "BBC",
+      "type": "public",
+      "role": "Public broadcaster",
+      "regionOfActivity": "London",
+      "description": "Licence-fee corporation defining public service media.",
+      "events": [
+        {
+          "date": "1922-10-18",
+          "category": "birth",
+          "description": "British Broadcasting Company founded"
+        },
+        {
+          "date": "1927-01-01",
+          "category": "founding",
+          "description": "Royal charter creates the Corporation"
+        },
+        {
+          "date": "1936-11-02",
+          "category": "technical",
+          "description": "Television service begins"
+        }
+      ]
+    },
+    {
+      "id": "a32",
+      "name": "Reuters",
+      "type": "private",
+      "role": "News agency",
+      "regionOfActivity": "London",
+      "description": "Pigeon-post lineage to financial-data terminal empire.",
+      "events": [
+        {
+          "date": "1851-10-01",
+          "category": "birth",
+          "description": "Julius Reuter opens London office"
+        },
+        {
+          "date": "2008-04-17",
+          "category": "transformation",
+          "description": "Thomson merger forms Thomson Reuters"
+        }
+      ]
+    },
+    {
+      "id": "a33",
+      "name": "The Times",
+      "type": "private",
+      "role": "Newspaper",
+      "regionOfActivity": "London",
+      "description": "1785 Daily Universal Register turned paper of record.",
+      "events": [
+        {
+          "date": "1785-01-01",
+          "category": "birth",
+          "description": "Daily Universal Register founded; Times name 1788"
+        },
+        {
+          "date": "1981-01-01",
+          "category": "transformation",
+          "description": "Murdoch takeover"
+        }
+      ]
+    },
+    {
+      "id": "a34",
+      "name": "Oxford and Cambridge",
+      "type": "hybrid",
+      "role": "Universities",
+      "regionOfActivity": "Oxford",
+      "description": "Medieval studia turned collegiate research powers.",
+      "events": [
+        {
+          "date": "1400-01-01",
+          "category": "milestone",
+          "description": "Colleges already endowed; New College 1379 era continues"
+        },
+        {
+          "date": "1571-01-01",
+          "category": "founding",
+          "description": "Jesus College Oxford chartered; Cambridge refounded 1546 Trinity"
+        }
+      ]
+    },
+    {
+      "id": "a35",
+      "name": "Royal Society",
+      "type": "hybrid",
+      "role": "Science academy",
+      "regionOfActivity": "London",
+      "description": "Invisible-college lineage chartered 1662.",
+      "events": [
+        {
+          "date": "1660-11-28",
+          "category": "birth",
+          "description": "Society founded at Gresham College"
+        },
+        {
+          "date": "1662-07-15",
+          "category": "founding",
+          "description": "Royal charters granted"
+        }
+      ]
+    },
+    {
+      "id": "a36",
+      "name": "British Museum",
+      "type": "public",
+      "role": "National museum",
+      "regionOfActivity": "London",
+      "description": "Sloane-bequest encyclopedic museum.",
+      "events": [
+        {
+          "date": "1753-06-07",
+          "category": "birth",
+          "description": "Act establishes the museum"
+        },
+        {
+          "date": "1759-01-15",
+          "category": "milestone",
+          "description": "Montagu House opens to the public"
+        }
+      ]
+    },
+    {
+      "id": "a37",
+      "name": "National Health Service England",
+      "type": "public",
+      "role": "Health system",
+      "regionOfActivity": "London",
+      "description": "Bevan's 1948 universal-care creation.",
+      "events": [
+        {
+          "date": "1948-07-05",
+          "category": "birth",
+          "description": "NHS inaugurated at Park Hospital"
+        },
+        {
+          "date": "2013-04-01",
+          "category": "transformation",
+          "description": "Lansley reforms create clinical commissioning"
+        }
+      ]
+    },
+    {
+      "id": "a38",
+      "name": "TUC",
+      "type": "private",
+      "role": "Labor confederation",
+      "regionOfActivity": "London",
+      "description": "1868 trades councils lineage coordinating unions.",
+      "events": [
+        {
+          "date": "1868-06-02",
+          "category": "birth",
+          "description": "First TUC meets in Manchester"
+        }
+      ]
+    },
+    {
+      "id": "a39",
+      "name": "CBI",
+      "type": "private",
+      "role": "Business lobby",
+      "regionOfActivity": "London",
+      "description": "1965 peak-business voice, crisis-hit 2023.",
+      "events": [
+        {
+          "date": "1965-07-30",
+          "category": "birth",
+          "description": "CBI formed from BEC, FBI and NAM merger"
+        },
+        {
+          "date": "2023-04-01",
+          "category": "transformation",
+          "description": "Misconduct crisis triggers reform"
+        }
+      ]
+    },
+    {
+      "id": "a40",
+      "name": "Post Office and Royal Mail lineage",
+      "type": "hybrid",
+      "role": "Postal history",
+      "regionOfActivity": "London",
+      "description": "1635 monopoly to split banking-postal fates.",
+      "events": [
+        {
+          "date": "1635-07-01",
+          "category": "birth",
+          "description": "Witherings reforms create the public post"
+        },
+        {
+          "date": "1969-10-01",
+          "category": "transformation",
+          "description": "Post Office corporation formed"
+        },
+        {
+          "date": "2013-10-15",
+          "category": "policy",
+          "description": "Royal Mail privatized"
+        }
+      ]
+    },
+    {
+      "id": "a41",
+      "name": "East End docks and the Port of London",
+      "type": "hybrid",
+      "role": "Port history",
+      "regionOfActivity": "London",
+      "description": "1802 West India Docks to Tilbury container era.",
+      "events": [
+        {
+          "date": "1802-08-21",
+          "category": "birth",
+          "description": "West India Docks open"
+        },
+        {
+          "date": "1981-01-01",
+          "category": "transformation",
+          "description": "Upstream docks close; Docklands redevelopment follows"
+        }
+      ]
+    }
+  ]
+}
