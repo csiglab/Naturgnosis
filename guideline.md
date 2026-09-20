@@ -24,12 +24,14 @@ Rules for files and directories we author:
   `docker-compose.yml`, `README.md`, `LICENSE`, `AGENTS.md`, `guideline.md`, `.gitignore`,
   `.dockerignore`, `.github/workflows/deploy.yml`.
 - **`app/*/import/`** — raw third-party exports are archival; never rename or edit (provenance).
+- **`app/note/notes/`** — note corpus paths are an exception to `_` separation: kebab-case
+  (`my-note.md`) per the catalog's naming rules (see `app/note/notes/readme.md`).
 - **`app/*/web/vendor/`** — third-party code keeps its upstream name.
 
 ## Paths & URLs
 
 - URLs mirror paths; both are semantic: module directory = URL segment = dataset id
-   (`/social/`, `/production/`, `/research/`, `/nation/`).
+   (`/social/`, `/production/`, `/research/`, `/nation/`, `/technique/`, `/epistemica/`, `/note/`).
 - Fixed data file names inside a module: `data.json` (dataset mirror/seed), `layout.json`
   (precomputed layout), `index.json` (generated search index), `schema.json` + `notes`
   (schema context).

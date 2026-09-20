@@ -34,7 +34,7 @@ docker compose "${ENV_ARGS[@]}" -f docker-compose.yml up -d --build
 # Give the app a moment to bootstrap datasets before the explicit seed.
 sleep 3
 
-echo "[deploy] Seeding datasets (social, production, research, nation)…"
+echo "[deploy] Seeding datasets (social, production, research, nation, technique, epistemica)…"
 docker compose "${ENV_ARGS[@]}" -f docker-compose.yml exec -T app python bin/seed_couchdb.py
 
 PORT="${NATURGNOSIS_PORT:-8011}"

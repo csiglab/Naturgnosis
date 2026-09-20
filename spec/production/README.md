@@ -2,7 +2,7 @@
 
 > A space composed of nodes and relationships that renders the production sphere intelligible, including techniques, products (raw materials, intermediate goods, final goods, and services), and firms.
 
-> This is a coarse-grained description of production and its underlying elements, including technology.
+> This is a coarse-grained description of production and its underlying elements, including technology. For more detailed information—such as technical artifacts, engineering principles, techniques, and implementation details—see the Technique Space module (`app/technique/`).
 
 ## Formulation
 

@@ -1,17 +1,18 @@
 PYTHON ?= python3
-MODULES := social production research nation
+MODULES := social production research nation technique epistemica
 
-.PHONY: help build seed serve dev deploy-local deploy-server clean
+.PHONY: help build notes-index seed serve dev deploy-local deploy-server clean
 
 help:
-	@echo "build         regenerate graph layouts"
+	@echo "build         regenerate notes index + graph layouts"
+	@echo "notes-index   rebuild app/note/data/index.json from app/note/notes/"
 	@echo "seed          push app/*/data/data.json into CouchDB"
 	@echo "serve         run the sync server (needs CouchDB + .env)"
 	@echo "dev           run the sync server offline (--no-couch)"
 	@echo "deploy-local  compose up couchdb + app, then seed"
 	@echo "deploy-server pull the GHCR image and run it"
 
-build:
+build: notes-index
 	@for m in $(MODULES); do \
 		if [ -s app/$$m/data/data.json ]; then \
 			$(PYTHON) bin/layout.py --data-file app/$$m/data/data.json \
@@ -19,6 +20,9 @@ build:
 			echo "layout: skipped $$m"; \
 		fi; \
 	done
+
+notes-index:
+	$(PYTHON) bin/build_note_index.py
 
 seed:
 	$(PYTHON) bin/seed_couchdb.py

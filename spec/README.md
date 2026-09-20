@@ -28,6 +28,9 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 | 2 | Production Space | `app/production/` | Graph explorer + editor | CouchDB (`dataset=production`) + disk mirror | active |
 | 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
 | 4 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 5 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
+| 6 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
+| 7 | Note Space | `app/note/` | Catalog + note viewer | Physical markdown (`notes/*.md`) + generated `data/index.json` | scaffolded (corpus empty) |
 
 ## Architecture
 
@@ -36,6 +39,7 @@ app/                      the product — one directory per module
   <module>/web/           views (static html/js)
   <module>/data/          dataset mirror + schema (graph modules)
   <module>/import/        raw third-party exports kept for provenance
+  <module>/notes/         source-of-truth markdown (note only)
   <module>/view/          long-form notes attached to the module (social only, today)
   shared/theme.css        Oxford Common Room tokens (source of truth: spec/theme)
 bin/                      shared tooling: sync server, seeders, importers, index builders
@@ -67,7 +71,7 @@ One process serves everything:
 
 ### Node model
 
-Graph datasets (social, production, research) share the Naturgnosis node model:
+Graph datasets (social, production, research, technique, epistemica) share the Naturgnosis node model:
 `id, name, tags, category, description, chronology, relationships, specific, metadata, references`.
 Canonical JSON Schema: `app/social/data/schema/schema.json` (per-module copies under
 `app/<module>/data/schema/`). Changes to the model must be mirrored in every module schema and noted
@@ -97,4 +101,4 @@ Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`
 - **Data sync**: the server is the write path; before committing dataset changes, pull the server
   mirror (see README "Data Sync").
 - **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`,
-  `nation`); dataset id = module name.
+  `nation`, `technique`, `epistemica`); dataset id = module name.

@@ -29,6 +29,9 @@ server (`bin/sync.py`) and shipped as one image.
 | Production Space | `/production/` | `/production/edit.html` | CouchDB `dataset=production` + mirror |
 | Research Space | `/research/` | `/research/edit.html` | CouchDB `dataset=research` + mirror |
 | Nation Space | `/nation/` | `/nation/edit.html` | CouchDB `dataset=nation` + mirror |
+| Technique Space | `/technique/` | `/technique/edit.html` | CouchDB `dataset=technique` + mirror |
+| Epistemic Space | `/epistemica/` | `/epistemica/edit.html` | CouchDB `dataset=epistemica` + mirror |
+| Note Space | `/note/` | — | Physical markdown (`app/note/notes/`) + generated index |
 
 See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 
@@ -72,7 +75,7 @@ Then:
 ```sh
 python bin/sync.py --no-couch   # offline: static serving only (API returns 503)
 python bin/sync.py              # full: needs CouchDB + .env
-make build                      # regenerate graph layouts
+make build                      # regenerate notes index + graph layouts
 make seed                       # push mirrors into CouchDB
 ```
 
@@ -93,14 +96,14 @@ files by hand.)
 ## API
 
 - `GET  /api/health` — service + CouchDB status
-- `GET  /api/graph?dataset=social|production|research|nation` — nodes
+- `GET  /api/graph?dataset=social|production|research|nation|technique|epistemica` — nodes
 - `POST /api/graph/save` — `{dataset, nodes[], delete_ids?[]}` (upsert/delete + mirror)
 - `POST /api/layout/recompute?dataset=…` — regenerate `layout.json`
 
 ## Notes
 
 - **Social Space** will support market analysis — not the direct analysis of production processes or
-  technology (that is Production Space).
+  technology (that is Production/Technique Space).
 - The served root is `app/`; there is no `docs/` directory anymore.
 
 ## References
