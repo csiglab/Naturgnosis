@@ -28,9 +28,7 @@ server (`bin/sync.py`) and shipped as one image.
 | Social Space (main) | `/social/` | `/social/edit.html` | CouchDB `dataset=social` + mirror |
 | Production Space | `/production/` | `/production/edit.html` | CouchDB `dataset=production` + mirror |
 | Research Space | `/research/` | `/research/edit.html` | CouchDB `dataset=research` + mirror |
-| Technique Space | `/technique/` | `/technique/edit.html` | CouchDB `dataset=technique` + mirror |
 | Glossary | `/glossary/` | — | Physical markdown (`app/glossary/entries/`) + generated index |
-| Phrases Catalog | `/phrases/` | `/phrases/edit.html` | CouchDB `dataset=phrases` + mirror |
 
 See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 
@@ -86,7 +84,6 @@ make seed                       # push mirrors into CouchDB
 ```bash
 # on the server, after editors have saved:
 rsync server:naturgnosis/app/social/data/data.json   app/social/data/data.json
-rsync server:naturgnosis/app/phrases/data/data.json  app/phrases/data/data.json
 git add app && git commit -m "feat(data): update mirrors"
 ```
 
@@ -97,14 +94,14 @@ files by hand. The glossary is the exception: `entries/` is hand-edited source o
 ## API
 
 - `GET  /api/health` — service + CouchDB status
-- `GET  /api/graph?dataset=social|production|research|technique|phrases` — nodes
+- `GET  /api/graph?dataset=social|production|research|nation` — nodes
 - `POST /api/graph/save` — `{dataset, nodes[], delete_ids?[]}` (upsert/delete + mirror)
 - `POST /api/layout/recompute?dataset=…` — regenerate `layout.json`
 
 ## Notes
 
 - **Social Space** will support market analysis — not the direct analysis of production processes or
-  technology (that is Production/Technique Space).
+  technology (that is Production Space).
 - The served root is `app/`; there is no `docs/` directory anymore.
 
 ## References

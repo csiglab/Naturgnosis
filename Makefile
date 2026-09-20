@@ -1,5 +1,5 @@
 PYTHON ?= python3
-MODULES := social production research technique epistemica nation phrases
+MODULES := social production research nation
 
 .PHONY: help build seed serve dev deploy-local deploy-server clean
 

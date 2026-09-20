@@ -23,10 +23,9 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 
 ### Scope
 
-- In: the eight modules under `app/` (social, production, research, technique, glossary, phrases,
-  nation, epistemica), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`.
-- Out: the separate **Epistecnica** repository (personal curricula for @dbremont; the in-repo
-  `epistemica` module maps the episteme itself, not personal pursuits); market analysis (Social
+- In: the five modules under `app/` (social, production, research, glossary,
+  nation), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`.
+- Out: the separate **Epistecnica** repository (personal curricula for @dbremont); market analysis (Social
   Space notes this explicitly); anything requiring a backend other than CouchDB.
 
 ## Repository Structure
@@ -39,7 +38,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 | `app/glossary/entries/` | Glossary source of truth (physical markdown). |
 | `app/*/import/` | Raw third-party exports — archival, never edit by hand. |
 | `app/shared/` | Cross-module assets (`theme.css`, `img/`). |
-| `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `import_phrases.py`, `build_glossary_index.py`, `layout.py`. |
+| `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `build_glossary_index.py`, `layout.py`. |
 | `deploy/` | Dockerfile, docker-compose.yml (app-only), `deploy_local.sh`, `deploy_server.sh`, `preflight.sh`; `README.md` = execution-environment note. |
 | `spec/` | Global spec (`spec/README.md`), per-module specs, theme spec. |
 | `docs/` | Does not exist anymore — do not recreate; the served root is `app/`. |
@@ -49,7 +48,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 ### Understand Before Changing
 
 Read `spec/README.md` and the relevant module spec + AGENTS.md before editing. Dataset ids are the
-module names (`social`, `production`, `research`, `technique`, `phrases`, `nation`, `epistemica`) — they appear in editor
+module names (`social`, `production`, `research`, `nation`) — they appear in editor
 pages (`const DATASET = '…'`), CouchDB doc keys, and API calls; renaming one is a breaking change
 across all three.
 
@@ -62,7 +61,7 @@ across all three.
 ### Minimize Change
 
 The graph editors (`app/*/web/edit.html`) are large single-file apps with no build step. Make
-surgical edits; keep social/production/research/technique copies in sync when changing shared
+surgical edits; keep social/production/research copies in sync when changing shared
 behavior, or clearly scope a change to one module.
 
 ### Preserve Invariants
@@ -101,7 +100,6 @@ python bin/sync.py                   # full: needs CouchDB + COUCHDB_* env or .e
 
 ```sh
 python bin/build_glossary_index.py   # regenerate glossary index (commit the result)
-python bin/import_phrases.py         # re-seed phrases from Notion exports (one-shot)
 python bin/seed_couchdb.py           # push all mirrors into CouchDB
 make build                           # regenerate indices + layouts
 make deploy-local                    # compose up couchdb + app, then seed

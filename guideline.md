@@ -29,7 +29,7 @@ Rules for files and directories we author:
 ## Paths & URLs
 
 - URLs mirror paths; both are semantic: module directory = URL segment = dataset id
-  (`/social/`, `/production/`, `/research/`, `/technique/`, `/glossary/`, `/phrases/`).
+   (`/social/`, `/production/`, `/research/`, `/glossary/`, `/nation/`).
 - Fixed data file names inside a module: `data.json` (dataset mirror/seed), `layout.json`
   (precomputed layout), `index.json` (generated search index), `schema.json` + `notes`
   (schema context).

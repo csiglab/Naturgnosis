@@ -27,11 +27,8 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 | 1 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
 | 2 | Production Space | `app/production/` | Graph explorer + editor | CouchDB (`dataset=production`) + disk mirror | active |
 | 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
-| 4 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
-| 5 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
-| 6 | Glossary | `app/glossary/` | Entry index + search + reader | Physical markdown (`entries/*.md`) + generated `data/index.json` | active |
-| 7 | Phrases Catalog | `app/phrases/` | Catalog UI + form editor | CouchDB (`dataset=phrases`) + disk mirror | active |
-| 8 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 4 | Glossary | `app/glossary/` | Entry index + search + reader | Physical markdown (`entries/*.md`) + generated `data/index.json` | active |
+| 5 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
 
 ## Architecture
 
@@ -69,12 +66,11 @@ One process serves everything:
 | Kind | Source of truth | Derived | Notes |
 |------|-----------------|---------|-------|
 | Graph modules | CouchDB docs (`{dataset}:{node_id}`) | `data.json` mirror, `layout.json` | Download server data before committing (see README). |
-| Phrases | CouchDB (`dataset=phrases`) | `data.json` mirror | Seed from Notion exports via `bin/import_phrases.py` (one-shot). |
 | Glossary | Physical markdown (`app/glossary/entries/`) | `data/index.json` | Rebuild with `bin/build_glossary_index.py`; index is committed so the static viewer works without a backend. |
 
 ### Node model
 
-Graph datasets (social, production, research, technique) and phrases share the Naturgnosis node model:
+Graph datasets (social, production, research) share the Naturgnosis node model:
 `id, name, tags, category, description, chronology, relationships, specific, metadata, references`.
 Canonical JSON Schema: `app/social/data/schema/schema.json` (per-module copies under
 `app/<module>/data/schema/`). Changes to the model must be mirrored in every module schema and noted
@@ -103,5 +99,5 @@ Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`
   never hardcode colors.
 - **Data sync**: the server is the write path; before committing dataset changes, pull the server
   mirror (see README "Data Sync").
-- **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`, `technique`,
-  `glossary`, `phrases`); dataset id = module name.
+- **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`,
+  `glossary`, `nation`); dataset id = module name.

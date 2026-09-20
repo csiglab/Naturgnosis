@@ -775,8 +775,8 @@ def main():
         "-p",
         "--port",
         type=int,
-        default=8001,
-        help="Port to listen on (default: 8001).",
+        default=8011,
+        help="Port to listen on (default: 8011).",
     )
 
     parser.add_argument(

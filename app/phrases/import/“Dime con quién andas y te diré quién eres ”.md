@@ -1,3 +1,0 @@
-# “Dime con quién andas y te diré quién eres.”
-
-: 44

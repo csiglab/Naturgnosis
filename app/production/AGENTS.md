@@ -4,7 +4,6 @@
 
 Coarse-grained graph of the production sphere: techniques, products (raw, intermediate, final,
 services), firms, processes, and enabling capabilities. Spec: `spec/production/README.md`.
-Fine-grained technique belongs to `app/technique/` — keep the boundary.
 
 ## Layout
 
