@@ -43,8 +43,10 @@ Set in a repo-root `.env` (never committed; see `.env.example`):
 ## Image contents
 
 The image carries **only the deployed surface**: `bin/` (server), `app/index.html` (landing),
-`app/shared/` (theme, images), and each module's `web/` + `data/` (views + JSON). Development-only
-content is excluded via `.dockerignore` and must never be needed at runtime:
+`app/shared/` (theme, images), each module's `web/` + `data/` (views + JSON), and the note
+corpus `app/note/notes/` (the viewer fetches it at runtime — unlike `view/`, it is served
+content, not dev-only). Development-only content is excluded via `.dockerignore` and must
+never be needed at runtime:
 
 | Excluded | Why it's dev-only |
 | -------- | ----------------- |

@@ -24,6 +24,8 @@ API (all same origin):
     POST /api/graph/save             -> upsert {nodes:[...], dataset} into CouchDB
     POST /api/layout/recompute       -> regenerate layout.json (?dataset= optional)
     GET  /api/health                 -> service + CouchDB status
+    GET  /note/api/pins              -> pinned note paths for the notes catalog
+    POST /note/api/pins              -> pin/unpin {path, pinned} a note
 
 Usage:
 
@@ -45,6 +47,7 @@ import argparse
 import base64
 import json
 import os
+import re
 import sys
 import tempfile
 import time
@@ -56,6 +59,9 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
 SAVE_ENDPOINT = "/api/graph/save"
+PINS_ENDPOINT = "/note/api/pins"
+PINS_DOC_ID = "pins"
+NOTE_SEGMENT_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
 def _load_env():
@@ -267,7 +273,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
 
     # Static subdirectories served directly from the module directory
     # (i.e. NOT rewritten into <module>/web/).
-    NON_WEB_SUBDIRS = ("web", "data", "view", "entries", "import")
+    NON_WEB_SUBDIRS = ("web", "data", "view", "entries", "import", "notes")
 
     # ------------------------------------------------------------------
     # CORS
@@ -307,6 +313,10 @@ class SyncHandler(SimpleHTTPRequestHandler):
             self._handle_graph(params)
             return
 
+        if path == PINS_ENDPOINT:
+            self._handle_pins_get()
+            return
+
         # Module URLs redirect to their physical location so that relative
         # fetches inside the pages (e.g. '../data/data.json') resolve at the
         # correct depth. Rewriting content in place would serve pages at a
@@ -335,7 +345,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
         """301 target for /<module>/... -> /<module>/web/..., or None.
 
         Paths already at their physical location (web/, data/, view/,
-        entries/, import/ subpaths) need no redirect.
+        entries/, import/, notes/ subpaths) need no redirect.
         """
         parts = raw.split("?", 1)
         path, query = parts[0], (parts[1] if len(parts) > 1 else "")
@@ -431,6 +441,129 @@ class SyncHandler(SimpleHTTPRequestHandler):
         )
 
     # ------------------------------------------------------------------
+    # Note pins (server-side catalog preferences, CouchDB-backed)
+    # ------------------------------------------------------------------
+
+    def _pins_doc_url(self):
+        return f"{self.couch.base_url}/{self.couch.db}/{PINS_DOC_ID}"
+
+    def _valid_note_path(self, p):
+        """Mirror of the catalog/viewer path rules (app/note/notes/README.md).
+
+        Kebab-case segments, last segment ending in .md, max 200 chars.
+        """
+        if not isinstance(p, str) or not p or len(p) > 200:
+            return False
+        if not p.endswith(".md"):
+            return False
+        parts = p.split("/")
+        for i, part in enumerate(parts):
+            seg = part[:-3] if i == len(parts) - 1 else part
+            if not NOTE_SEGMENT_RE.match(seg):
+                return False
+        return True
+
+    def _pins_read(self):
+        """Pinned paths + doc _rev; ([], None) when nothing pinned yet (404)."""
+        try:
+            doc = self.couch._request("GET", self._pins_doc_url())
+        except CouchError as exc:
+            if exc.status == 404:
+                return [], None
+            raise
+        if not isinstance(doc, dict):
+            return [], None
+        paths = doc.get("paths")
+        paths = paths if isinstance(paths, list) else []
+        return [p for p in paths if isinstance(p, str)], doc.get("_rev")
+
+    def _handle_pins_get(self):
+        """GET /note/api/pins -> {"pins": [...]} pinned note paths."""
+        if self.couch is None:
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": "Offline mode (--no-couch): no backend.",
+                },
+                503,
+            )
+            return
+        try:
+            paths, _rev = self._pins_read()
+            self._send_json({"pins": paths})
+        except CouchError as exc:
+            sys.stderr.write(f"[sync] pins read error: {exc}\n")
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": f"CouchDB: {exc}",
+                },
+                502,
+            )
+
+    def _handle_pins_save(self):
+        """POST /note/api/pins {path, pinned} -> {"status": "ok", "pins": [...] }."""
+        if self.couch is None:
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": "Offline mode (--no-couch): saves disabled.",
+                },
+                503,
+            )
+            return
+        try:
+            length = int(self.headers.get("Content-Length", 0))
+            raw = self.rfile.read(length) if length else b"{}"
+            body = json.loads(raw)
+            path = body.get("path")
+            pinned = body.get("pinned")
+            if not self._valid_note_path(path) or not isinstance(pinned, bool):
+                self._send_json(
+                    {
+                        "status": "error",
+                        "message": "Body must be {path: '<kebab-case>.md', pinned: bool}.",
+                    },
+                    400,
+                )
+                return
+            paths, rev = self._pins_read()
+            if pinned and path not in paths:
+                paths = paths + [path]
+            elif not pinned and path in paths:
+                paths = [p for p in paths if p != path]
+            doc = {"_id": PINS_DOC_ID, "type": "pins", "paths": paths}
+            if rev:
+                doc["_rev"] = rev
+            self.couch._request("PUT", self._pins_doc_url(), doc)
+            self._send_json({"status": "ok", "pins": paths})
+        except json.JSONDecodeError as exc:
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": f"Invalid JSON: {exc}",
+                },
+                400,
+            )
+        except CouchError as exc:
+            sys.stderr.write(f"[sync] pins write error: {exc}\n")
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": f"CouchDB: {exc}",
+                },
+                502,
+            )
+        except Exception as exc:
+            self._send_json(
+                {
+                    "status": "error",
+                    "message": str(exc),
+                },
+                500,
+            )
+
+    # ------------------------------------------------------------------
     # POST
     # ------------------------------------------------------------------
 
@@ -444,6 +577,8 @@ class SyncHandler(SimpleHTTPRequestHandler):
             self._handle_save()
         elif path == LAYOUT_RECOMPUTE_ENDPOINT:
             self._handle_layout_recompute(params)
+        elif path == PINS_ENDPOINT:
+            self._handle_pins_save()
         else:
             self.send_error(404, "Not Found")
 

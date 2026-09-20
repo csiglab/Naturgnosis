@@ -1,7 +1,7 @@
 /* ==========================================================================
    Naturgnosis — Oxford Common Room design system
    Shared tokens + base styles for module pages (landing, nation,
-   research). The graph modules (social, production) keep their
+   research, note). The graph modules (social, production) keep their
    inline `:root` tokens, which must stay identical to the block below.
 
    Source of truth: spec/theme/README.md — update both together.
