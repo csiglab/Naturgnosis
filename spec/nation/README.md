@@ -48,7 +48,7 @@ notes and its CDN dependency).
 - **Entry** `/nation/entry.html?code=<iso>` — flag hero with name/native name/tags, definition
   lead, diamond dividers, "Overview" `data-card`s with `data-indicator` fill bars, and
   "Representation & Explanation" `entity-card` works (type icon, Active/Pending status badge,
-  "Coming MMXXV" CTA when the work has no link) — e.g. *Actor Set Evolution of Brazil* — with the
+  "Coming MMXXV" CTA when the work has no link) — e.g. *Actor Set Evolution* — with the
   breadcrumb back to the index.
 - **Actor Space** `/nation/web/rep/actor.html?code=<iso>` — faithful port of the source's
   Actor Set Evolution representation (timeline of actors, type filters private/hybrid/public,

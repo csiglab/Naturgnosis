@@ -156,7 +156,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Brazil",
+          "title": "Actor Set Evolution",
           "description": "Temporal visualization of Brazil’s public, private, and civil actors from independence to the present, highlighting structural transformations in the state, industrial sector, and financial system.",
           "link": null
         },
@@ -164,7 +164,7 @@
           "id": "product_space",
           "type": "Network",
           "status": "active",
-          "title": "Brazilian Product Space Mapping",
+          "title": "Product Space Mapping",
           "description": "Network representation of Brazil’s export structure and industrial diversification patterns, with emphasis on commodities, agribusiness, energy, and advanced manufacturing.",
           "link": null
         },
@@ -263,7 +263,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "active",
-          "title": "Actor Set Evolution of China",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of China’s actor space from imperial dynasties and bureaucratic elites to revolutionary transformation under the Chinese Communist Party, followed by reform-era technocratic governance and contemporary state-capitalist institutional structures.",
           "link": "rep/actor.html?code=chn"
         },
@@ -370,7 +370,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of the Dominican Republic",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of the Dominican Republic’s actor space from colonial-era plantation elites and early independence movements to Trujillo dictatorship, democratic transitions, and contemporary institutional consolidation.",
           "link": null
         },
@@ -476,7 +476,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of England",
+          "title": "Actor Set Evolution",
           "description": "Temporal analysis of England’s evolving actor space from medieval monarchy and landed aristocracy to industrial capitalists, financial institutions, parliamentary structures, and modern regulatory bodies.",
           "link": null
         },
@@ -583,7 +583,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Hong Kong",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Hong Kong’s actor space from colonial administration and trade networks to financial institutions, multinational corporates, and contemporary regulatory authorities.",
           "link": "rep/actor.html?code=hkg"
         },
@@ -690,7 +690,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of India",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of India’s actor space from colonial administration and nationalist movements to post-independence state-building, economic liberalization (post-1991), and contemporary public-private institutional configurations.",
           "link": "rep/actor.html?code=ind"
         },
@@ -797,7 +797,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Indonesia",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Indonesia’s actor space from colonial administration and independence-era leadership to the New Order regime, post-1998 reforms, decentralization, and contemporary political-economic coalitions.",
           "link": null
         },
@@ -904,7 +904,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Ireland",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Ireland’s actor space from colonial administration and independence to state-led development, EU integration, and FDI-driven multinational clustering.",
           "link": "rep/actor.html?code=irl"
         },
@@ -1011,7 +1011,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Malaysia",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Malaysia’s actor space from colonial administration and resource extraction to post-independence federal consolidation, New Economic Policy reforms, and export-oriented industrialization.",
           "link": "rep/actor.html?code=mys"
         },
@@ -1118,7 +1118,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of the Netherlands",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of the Netherlands’ actor space from merchant republic institutions and chartered trading companies to modern parliamentary governance, multinational corporations, and EU-integrated regulatory bodies.",
           "link": null
         },
@@ -1332,7 +1332,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Portugal",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Portugal's actor space from Age of Discovery maritime institutions and colonial trading networks through the Estado Novo corporatist state to democratic governance, EU-integrated regulatory bodies, and contemporary firms and public institutions.",
           "link": null
         },
@@ -1439,7 +1439,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of South Korea",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of South Korea’s actor space from post-war military governance and state-led industrialization to democratization, chaebol consolidation, and contemporary regulatory and innovation ecosystems.",
           "link": null
         },
@@ -1546,7 +1546,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Sweden",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Sweden’s actor space from agrarian estates and monarchy to industrial conglomerates, labor unions, welfare-state institutions, and innovation-driven enterprises.",
           "link": null
         },
@@ -1653,7 +1653,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Thailand",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Thailand’s actor space from monarchical-administrative structures and military influence to export-oriented industrialization, business conglomerates, and contemporary regulatory institutions.",
           "link": "rep/actor.html?code=tha"
         },
@@ -1760,7 +1760,7 @@
           "id": "actor_set_evolution",
           "type": "Temporal",
           "status": "pending",
-          "title": "Actor Set Evolution of Uruguay",
+          "title": "Actor Set Evolution",
           "description": "Temporal mapping of Uruguay’s actor space from 19th-century state formation and livestock oligarchies to welfare-state consolidation, military rule, democratic restoration, and contemporary regulatory institutions.",
           "link": null
         },
