@@ -11,11 +11,11 @@ Rules for files and directories we author:
 
 - **Lowercase ASCII only** — no uppercase, spaces, parentheses, or diacritics in file or directory
   names.
-- **`_` separates words** — `deploy_server.sh`, `build_glossary_index.py`, `aceleradoras_cientificas.md`.
+- **`_` separates words** — `deploy_server.sh`, `seed_couchdb.py`, `aceleradoras_cientificas.md`.
 - **Semantic names** — the name should say what the thing is (`seed_couchdb.py`, not `s.py`).
 - **Extensions lowercase** — always `.md`, `.py`, `.sh`, `.json`, `.html`, `.png`.
-- **Content slugs** — glossary entries (`app/glossary/entries/`) and long-form notes
-  (`app/social/view/`) are named after their content, slugified by `bin/slugify_files.py`. The
+- **Content slugs** — long-form notes (`app/social/view/`) are named after their content,
+  slugified by `bin/slugify_files.py`. The
   canonical human term lives inside the file (H1), never in the file name.
 
 ### Exemptions
@@ -29,7 +29,7 @@ Rules for files and directories we author:
 ## Paths & URLs
 
 - URLs mirror paths; both are semantic: module directory = URL segment = dataset id
-   (`/social/`, `/production/`, `/research/`, `/glossary/`, `/nation/`).
+   (`/social/`, `/production/`, `/research/`, `/nation/`).
 - Fixed data file names inside a module: `data.json` (dataset mirror/seed), `layout.json`
   (precomputed layout), `index.json` (generated search index), `schema.json` + `notes`
   (schema context).
@@ -58,10 +58,10 @@ Allowed `<type>`:
 - `test` — add or modify tests
 - `chore` — maintenance or other changes that don't affect production behavior
 
-Scope, when used, is the module or concern: `feat(glossary): …`, `fix(sync): …`.
+Scope, when used, is the module or concern: `feat(nation): …`, `fix(sync): …`.
 
 ## Branches
 
 - `main` is the default and deployment branch.
 - Working branches: `<type>/<slug>` — lowercase ASCII with `-` word separation
-  (e.g. `feat/glossary-search`, `fix/sync-mirror`).
+  (e.g. `feat/nation-index`, `fix/sync-mirror`).

@@ -27,16 +27,14 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 | 1 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
 | 2 | Production Space | `app/production/` | Graph explorer + editor | CouchDB (`dataset=production`) + disk mirror | active |
 | 3 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
-| 4 | Glossary | `app/glossary/` | Entry index + search + reader | Physical markdown (`entries/*.md`) + generated `data/index.json` | active |
-| 5 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 4 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
 
 ## Architecture
 
 ```
 app/                      the product — one directory per module
   <module>/web/           views (static html/js)
-  <module>/data/          dataset mirror + schema (graph modules); generated index (glossary)
-  <module>/entries/       source-of-truth markdown (glossary only)
+  <module>/data/          dataset mirror + schema (graph modules)
   <module>/import/        raw third-party exports kept for provenance
   <module>/view/          long-form notes attached to the module (social only, today)
   shared/theme.css        Oxford Common Room tokens (source of truth: spec/theme)
@@ -66,7 +64,6 @@ One process serves everything:
 | Kind | Source of truth | Derived | Notes |
 |------|-----------------|---------|-------|
 | Graph modules | CouchDB docs (`{dataset}:{node_id}`) | `data.json` mirror, `layout.json` | Download server data before committing (see README). |
-| Glossary | Physical markdown (`app/glossary/entries/`) | `data/index.json` | Rebuild with `bin/build_glossary_index.py`; index is committed so the static viewer works without a backend. |
 
 ### Node model
 
@@ -100,4 +97,4 @@ Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`
 - **Data sync**: the server is the write path; before committing dataset changes, pull the server
   mirror (see README "Data Sync").
 - **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`,
-  `glossary`, `nation`); dataset id = module name.
+  `nation`); dataset id = module name.

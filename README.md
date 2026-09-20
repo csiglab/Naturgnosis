@@ -28,7 +28,7 @@ server (`bin/sync.py`) and shipped as one image.
 | Social Space (main) | `/social/` | `/social/edit.html` | CouchDB `dataset=social` + mirror |
 | Production Space | `/production/` | `/production/edit.html` | CouchDB `dataset=production` + mirror |
 | Research Space | `/research/` | `/research/edit.html` | CouchDB `dataset=research` + mirror |
-| Glossary | `/glossary/` | — | Physical markdown (`app/glossary/entries/`) + generated index |
+| Nation Space | `/nation/` | `/nation/edit.html` | CouchDB `dataset=nation` + mirror |
 
 See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 
@@ -72,7 +72,7 @@ Then:
 ```sh
 python bin/sync.py --no-couch   # offline: static serving only (API returns 503)
 python bin/sync.py              # full: needs CouchDB + .env
-make build                      # regenerate glossary index + graph layouts
+make build                      # regenerate graph layouts
 make seed                       # push mirrors into CouchDB
 ```
 
@@ -88,8 +88,7 @@ git add app && git commit -m "feat(data): update mirrors"
 ```
 
 (`bin/sync.py` rewrites `app/<module>/data/data.json` after every editor save; never edit those
-files by hand. The glossary is the exception: `entries/` is hand-edited source of truth, regenerate
-`data/index.json` with `python bin/build_glossary_index.py`.)
+files by hand.)
 
 ## API
 

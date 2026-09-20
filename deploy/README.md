@@ -48,7 +48,6 @@ content is excluded via `.dockerignore` and must never be needed at runtime:
 
 | Excluded | Why it's dev-only |
 | -------- | ----------------- |
-| `app/glossary/entries/` | markdown source of truth; deployed reader renders from `data/index.json` (`content` field) |
 | `app/*/view/` | long-form notes (e.g. social actor notes) |
 | `app/*/import/` | archival third-party exports (provenance) |
 

@@ -4,7 +4,7 @@ MODULES := social production research nation
 .PHONY: help build seed serve dev deploy-local deploy-server clean
 
 help:
-	@echo "build         regenerate glossary index + graph layouts"
+	@echo "build         regenerate graph layouts"
 	@echo "seed          push app/*/data/data.json into CouchDB"
 	@echo "serve         run the sync server (needs CouchDB + .env)"
 	@echo "dev           run the sync server offline (--no-couch)"
@@ -12,7 +12,6 @@ help:
 	@echo "deploy-server pull the GHCR image and run it"
 
 build:
-	$(PYTHON) bin/build_glossary_index.py
 	@for m in $(MODULES); do \
 		if [ -s app/$$m/data/data.json ]; then \
 			$(PYTHON) bin/layout.py --data-file app/$$m/data/data.json \

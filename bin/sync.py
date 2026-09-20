@@ -713,8 +713,8 @@ def discover_modules(app_root):
     """Return the set of module names: every directory under <app_root>/.
 
     Used for static URL rewriting (/<module>/... -> <module>/web/...) so that
-    modules WITHOUT a graph dataset (e.g. glossary, which serves a generated
-    index instead of data.json) still get clean module URLs.
+    modules WITHOUT a graph dataset (e.g. a static reader module, which serves
+    prebuilt pages instead of data.json) still get clean module URLs.
     """
     app_root = Path(app_root)
     modules = set()

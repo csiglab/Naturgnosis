@@ -23,7 +23,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 
 ### Scope
 
-- In: the five modules under `app/` (social, production, research, glossary,
+- In: the four modules under `app/` (social, production, research,
   nation), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`.
 - Out: the separate **Epistecnica** repository (personal curricula for @dbremont); market analysis (Social
   Space notes this explicitly); anything requiring a backend other than CouchDB.
@@ -34,11 +34,10 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 |------|------|
 | `app/` | The product. One directory per module; `app/index.html` is the landing/registry. |
 | `app/<module>/web/` | Module views (static html/js). |
-| `app/<module>/data/` | Dataset mirror + schema (graph modules); generated index (glossary). |
-| `app/glossary/entries/` | Glossary source of truth (physical markdown). |
+| `app/<module>/data/` | Dataset mirror + schema (graph modules). |
 | `app/*/import/` | Raw third-party exports — archival, never edit by hand. |
 | `app/shared/` | Cross-module assets (`theme.css`, `img/`). |
-| `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `build_glossary_index.py`, `layout.py`. |
+| `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `layout.py`. |
 | `deploy/` | Dockerfile, docker-compose.yml (app-only), `deploy_local.sh`, `deploy_server.sh`, `preflight.sh`; `README.md` = execution-environment note. |
 | `spec/` | Global spec (`spec/README.md`), per-module specs, theme spec. |
 | `docs/` | Does not exist anymore — do not recreate; the served root is `app/`. |
@@ -69,9 +68,6 @@ behavior, or clearly scope a change to one module.
 - CouchDB is a persistent dependency of the execution environment: workflows only connect to it
   (via `COUCHDB_*` in `.env`) and preflight-check it; they never provision, redeploy, or remove it
   (see `deploy/README.md`).
-- `app/glossary/entries/` is the glossary source of truth; `data/index.json` is generated — never
-  edit it by hand (run `python bin/build_glossary_index.py`).
-- `app/*/import/` directories are archival.
 - `data.json` mirrors are server-written — see Data Sync in the README before committing.
 - `.env` is never committed.
 
@@ -99,9 +95,8 @@ python bin/sync.py                   # full: needs CouchDB + COUCHDB_* env or .e
 ### Common commands
 
 ```sh
-python bin/build_glossary_index.py   # regenerate glossary index (commit the result)
 python bin/seed_couchdb.py           # push all mirrors into CouchDB
-make build                           # regenerate indices + layouts
+make build                           # regenerate graph layouts
 make deploy-local                    # compose up couchdb + app, then seed
 ```
 

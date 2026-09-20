@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenerate all derived artifacts: glossary index + graph layouts.
+# Regenerate all derived artifacts: graph layouts.
 # (The old mkdocs build is gone; the served root is app/.)
 set -eu
 
