@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Danish actors (organizations and institutions) since 1400.",
     "country": "Denmark",
-    "region": "Northern Europe"
+    "region": "Northern Europe",
+    "flag": "🇩🇰",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Denmark. This dataset traces the formation, transformation, and significant milestones of monarchical, cooperative, and scientific entities, from medieval universities to wind-energy and pharmaceutical leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Australian actors (organizations and institutions) since 1788.",
     "country": "Australia",
-    "region": "Oceania"
+    "region": "Oceania",
+    "flag": "🇦🇺",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Australia. This dataset traces the formation, transformation, and significant milestones of penal-colony, federal, and resources entities, from the First Fleet to diversified miners and superannuation giants.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

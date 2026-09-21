@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Dominican actors (organizations and institutions) since 1500.",
     "country": "Dominican Republic",
-    "region": "North America"
+    "region": "North America",
+    "flag": "🇩🇴",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the Dominican Republic. This dataset traces the formation, transformation, and significant milestones of colonial, caudillo, and tourism-era entities, from the first audiencia to free zones and resorts.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

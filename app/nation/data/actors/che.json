@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Swiss actors (organizations and institutions) since 1400.",
     "country": "Switzerland",
-    "region": "Western Europe"
+    "region": "Western Europe",
+    "flag": "🇨🇭",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Switzerland. This dataset traces the formation, transformation, and significant milestones of cantonal, federal, and financial entities, from the Confederation pact to banking, pharma, and precision-industry leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Brazilian actors (organizations and institutions) since 1500.",
     "country": "Brazil",
-    "region": "South America"
+    "region": "South America",
+    "flag": "🇧🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Brazil. This dataset traces the formation, transformation, and significant milestones of colonial, developmental, and democratic entities, from captaincies to deep-water oil and global meatpackers.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

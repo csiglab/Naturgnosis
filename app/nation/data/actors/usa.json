@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of United States actors (organizations and institutions) since 1600.",
     "country": "United States",
-    "region": "North America"
+    "region": "North America",
+    "flag": "🇺🇸",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the United States. This dataset traces the formation, transformation, and significant milestones of constitutional, industrial, and technological entities, from the founding charter to platform-scale corporations.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

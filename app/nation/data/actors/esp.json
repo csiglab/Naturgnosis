@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Spanish actors (organizations and institutions) since 1400.",
     "country": "Spain",
-    "region": "Southern Europe"
+    "region": "Southern Europe",
+    "flag": "🇪🇸",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Spain. This dataset traces the formation, transformation, and significant milestones of imperial, corporatist, and democratic entities, from the Casa de Contratación to autonomous-community governance and IBEX multinationals.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

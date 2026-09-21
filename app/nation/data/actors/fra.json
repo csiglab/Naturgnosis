@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of French actors (organizations and institutions) since 1400.",
     "country": "France",
-    "region": "Western Europe"
+    "region": "Western Europe",
+    "flag": "🇫🇷",
+    "introduction": "A granular representation of the evolution of key actors within the social region of France. This dataset traces the formation, transformation, and significant milestones of monarchical, republican, corporate, and scientific entities, from royal manufactures to EU-integrated multinationals.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Portuguese actors (organizations and institutions) since 1400.",
     "country": "Portugal",
-    "region": "Southern Europe"
+    "region": "Southern Europe",
+    "flag": "🇵🇹",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Portugal. This dataset traces the formation, transformation, and significant milestones of seafaring, corporatist, and democratic entities, from the Casa da Índia to EU-integrated utilities and cork-paper exporters.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

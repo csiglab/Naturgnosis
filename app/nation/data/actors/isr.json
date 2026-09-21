@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Israeli actors (organizations and institutions) since 1900.",
     "country": "Israel",
-    "region": "Middle East"
+    "region": "Middle East",
+    "flag": "🇮🇱",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Israel. This dataset traces the formation, transformation, and significant milestones of pre-state, statist, and startup-nation entities, from the Jewish Agency to cybersecurity and semiconductor leaders.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

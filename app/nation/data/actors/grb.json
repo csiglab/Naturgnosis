@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of English actors (organizations and institutions) since 1400.",
     "country": "England",
-    "region": "Western Europe"
+    "region": "Western Europe",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "introduction": "A granular representation of the evolution of key actors within the social region of England. This dataset traces the formation, transformation, and significant milestones of parliamentary, imperial, and industrial entities, from the Model Parliament to the City and public broadcasting.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

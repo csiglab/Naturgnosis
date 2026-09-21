@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Uruguayan actors (organizations and institutions) since 1800.",
     "country": "Uruguay",
-    "region": "South America"
+    "region": "South America",
+    "flag": "🇺🇾",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Uruguay. This dataset traces the formation, transformation, and significant milestones of buffer-state, Batllista, and services entities, from Artigas to pulp mills and fintech.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

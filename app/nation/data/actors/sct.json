@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Scottish actors (organizations and institutions) since 1400.",
     "country": "Scotland",
-    "region": "Northern Europe"
+    "region": "Northern Europe",
+    "flag": "",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Scotland. This dataset traces the formation, transformation, and significant milestones of estate, imperial, and devolved entities, from Enlightenment institutions to energy operators and fund managers.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

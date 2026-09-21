@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Canadian actors (organizations and institutions) since 1600.",
     "country": "Canada",
-    "region": "North America"
+    "region": "North America",
+    "flag": "🇨🇦",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Canada. This dataset traces the formation, transformation, and significant milestones of fur-trade, federal, and financial entities, from the Hudson's Bay charter to pension-fund capitalism.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

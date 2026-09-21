@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Ottoman actors (organizations and institutions), 1400-1922.",
     "country": "Ottoman Empire",
-    "region": "Eastern Mediterranean"
+    "region": "Eastern Mediterranean",
+    "flag": "",
+    "introduction": "A granular representation of the evolution of key actors within the Ottoman social region, 1400-1922. This dataset traces the formation, transformation, and significant milestones of ghazi, classical, and reform-era entities, from the Janissary order to Tanzimat ministries and debt administration.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

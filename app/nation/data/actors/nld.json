@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Dutch actors (organizations and institutions) since 1400.",
     "country": "Netherlands",
-    "region": "Western Europe"
+    "region": "Western Europe",
+    "flag": "🇳🇱",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the Netherlands. This dataset traces the formation, transformation, and significant milestones of republican, trading, and logistics entities, from the VOC to semiconductor and pension-fund capitalism.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

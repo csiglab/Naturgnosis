@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Indonesian actors (organizations and institutions) since 1600.",
     "country": "Indonesia",
-    "region": "Southeast Asia"
+    "region": "Southeast Asia",
+    "flag": "🇮🇩",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Indonesia. This dataset traces the formation, transformation, and significant milestones of company-state, colonial, and republican entities, from Batavia to conglomerates and superapps.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {

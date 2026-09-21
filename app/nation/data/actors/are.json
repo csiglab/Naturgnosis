@@ -4,7 +4,11 @@
     "lastUpdated": "2026-09-20",
     "description": "Representative dataset of Emirati actors (organizations and institutions) since 1800.",
     "country": "United Arab Emirates",
-    "region": "Middle East"
+    "region": "Middle East",
+    "flag": "🇦🇪",
+    "introduction": "A granular representation of the evolution of key actors within the social region of the United Arab Emirates. This dataset traces the formation, transformation, and significant milestones of trucial, federation, and diversification-era entities, from pearling to sovereign funds and aviation hubs.",
+    "evidenceConfidence": "Medium",
+    "peerReview": "None"
   },
   "actors": [
     {
