@@ -719,6 +719,11 @@
           "date": "1829-11-05",
           "category": "birth",
           "description": "College of Advanced Technology founded by Ørsted"
+        },
+        {
+          "date": "1933-01-01",
+          "category": "transformation",
+          "description": "Renamed Denmarks Tekniske Højskole; engineering-doctorate era begins"
         }
       ]
     },
@@ -819,6 +824,641 @@
           "date": "2005-08-24",
           "category": "birth",
           "description": "Energinet.dk created by merger"
+        }
+      ]
+    },
+    {
+      "id": "a44",
+      "name": "Tycho Brahe",
+      "type": "private",
+      "role": "Astronomer",
+      "regionOfActivity": "Hven",
+      "description": "Noble observer whose precision data enabled Kepler's laws.",
+      "events": [
+        {
+          "date": "1576-01-01",
+          "category": "birth",
+          "description": "Uraniborg observatory founded on Hven"
+        },
+        {
+          "date": "1572-11-11",
+          "category": "research",
+          "description": "Stella nova observations published as De Nova Stella"
+        },
+        {
+          "date": "1597-01-01",
+          "category": "transformation",
+          "description": "Exile after Christian IV's disfavor; Prague era follows"
+        }
+      ]
+    },
+    {
+      "id": "a45",
+      "name": "Ole Rømer",
+      "type": "private",
+      "role": "Astronomer and engineer",
+      "regionOfActivity": "Copenhagen",
+      "description": "Measurer of light's finite speed; Copenhagen's city engineer.",
+      "events": [
+        {
+          "date": "1644-09-25",
+          "category": "birth",
+          "description": "Born in Aarhus"
+        },
+        {
+          "date": "1676-11-22",
+          "category": "research",
+          "description": "Io-eclipse timing demonstrates light's finite speed"
+        },
+        {
+          "date": "1705-01-01",
+          "category": "milestone",
+          "description": "Copenhagen fire service and waterworks reorganized as city engineer"
+        }
+      ]
+    },
+    {
+      "id": "a46",
+      "name": "Royal Danish Academy of Sciences and Letters",
+      "type": "private",
+      "role": "Science academy",
+      "regionOfActivity": "Copenhagen",
+      "description": "Caroline-era academy publishing Danish science.",
+      "events": [
+        {
+          "date": "1742-11-13",
+          "category": "birth",
+          "description": "Collegium Antiquitatum charter; academy era follows"
+        },
+        {
+          "date": "1781-01-01",
+          "category": "research",
+          "description": "Danske Atlas survey volumes begin appearing"
+        }
+      ]
+    },
+    {
+      "id": "a47",
+      "name": "Royal Danish Academy of Fine Arts",
+      "type": "public",
+      "role": "Art and architecture academy",
+      "regionOfActivity": "Copenhagen",
+      "description": "Charlottenborg school of architecture and construction knowledge.",
+      "events": [
+        {
+          "date": "1754-03-31",
+          "category": "birth",
+          "description": "Academy inaugurated at Charlottenborg"
+        },
+        {
+          "date": "1974-01-01",
+          "category": "transformation",
+          "description": "Architecture school merged toward today's academy structure"
+        }
+      ]
+    },
+    {
+      "id": "a48",
+      "name": "Royal Danish Agricultural Society",
+      "type": "private",
+      "role": "Agricultural society",
+      "regionOfActivity": "Copenhagen",
+      "description": "Landhusholdningsselskab experimenting and diffusing farm technique.",
+      "events": [
+        {
+          "date": "1769-01-29",
+          "category": "birth",
+          "description": "Det Kongelige Danske Landhusholdningsselskab founded"
+        },
+        {
+          "date": "1830-01-01",
+          "category": "expansion",
+          "description": "County societies federated under its model"
+        }
+      ]
+    },
+    {
+      "id": "a49",
+      "name": "Johan Friedrich Struensee",
+      "type": "private",
+      "role": "Reformer and statesman",
+      "regionOfActivity": "Copenhagen",
+      "description": "Physician-minister rationalizing the Danish state 1770-1772.",
+      "events": [
+        {
+          "date": "1737-08-05",
+          "category": "birth",
+          "description": "Born in Halle"
+        },
+        {
+          "date": "1770-09-15",
+          "category": "policy",
+          "description": "De facto rule begins; press freedom and cabinet government decreed"
+        },
+        {
+          "date": "1772-04-28",
+          "category": "death",
+          "description": "Executed after the palace coup"
+        }
+      ]
+    },
+    {
+      "id": "a50",
+      "name": "Christian Ditlev Frederik Reventlow",
+      "type": "private",
+      "role": "Land reformer",
+      "regionOfActivity": "Copenhagen",
+      "description": "Agrarian reformer of copyhold abolition.",
+      "events": [
+        {
+          "date": "1748-06-28",
+          "category": "birth",
+          "description": "Born into the reform circle"
+        },
+        {
+          "date": "1788-06-20",
+          "category": "policy",
+          "description": "Stavnsbåndet abolished; free peasantry era opens"
+        }
+      ]
+    },
+    {
+      "id": "a51",
+      "name": "Andreas Peter Bernstorff",
+      "type": "private",
+      "role": "Statesman",
+      "regionOfActivity": "Copenhagen",
+      "description": "Foreign-minister architect of neutrality and reform.",
+      "events": [
+        {
+          "date": "1735-08-28",
+          "category": "birth",
+          "description": "Born in Hanover"
+        },
+        {
+          "date": "1784-04-14",
+          "category": "milestone",
+          "description": "Guldberg fall returns Bernstorff to power"
+        },
+        {
+          "date": "1797-06-21",
+          "category": "death",
+          "description": "Dies in office after the reform decade"
+        }
+      ]
+    },
+    {
+      "id": "a52",
+      "name": "Hans Christian Ørsted",
+      "type": "private",
+      "role": "Physicist and institution builder",
+      "regionOfActivity": "Copenhagen",
+      "description": "Discoverer of electromagnetism; founder of the Polytechnic and SNU.",
+      "events": [
+        {
+          "date": "1777-08-14",
+          "category": "birth",
+          "description": "Born in Rudkøbing"
+        },
+        {
+          "date": "1820-07-21",
+          "category": "research",
+          "description": "Current-deflects-needle experiment; electromagnetism announced"
+        },
+        {
+          "date": "1829-11-05",
+          "category": "founding",
+          "description": "Directs the new Polytechnic Institution"
+        }
+      ]
+    },
+    {
+      "id": "a53",
+      "name": "Society for the Dissemination of Natural Science",
+      "type": "hybrid",
+      "role": "Science society",
+      "regionOfActivity": "Copenhagen",
+      "description": "Ørsted-founded popular-science engine.",
+      "events": [
+        {
+          "date": "1824-01-01",
+          "category": "birth",
+          "description": "Selskabet for Naturlærens Udbredelse founded by Ørsted"
+        }
+      ]
+    },
+    {
+      "id": "a54",
+      "name": "Round Tower Observatory",
+      "type": "public",
+      "role": "Astronomical observatory",
+      "regionOfActivity": "Copenhagen",
+      "description": "Christian IV's observatory tower serving university astronomy.",
+      "events": [
+        {
+          "date": "1642-01-01",
+          "category": "birth",
+          "description": "Rundetaarn completed; observatory function begins"
+        },
+        {
+          "date": "1861-01-01",
+          "category": "transformation",
+          "description": "Østervold Observatory succeeds it"
+        }
+      ]
+    },
+    {
+      "id": "a55",
+      "name": "Royal Veterinary and Agricultural University",
+      "type": "public",
+      "role": "Life-science university",
+      "regionOfActivity": "Copenhagen",
+      "description": "1856 agricultural college merged into the University of Copenhagen.",
+      "events": [
+        {
+          "date": "1856-01-01",
+          "category": "birth",
+          "description": "Den Kgl. Veterinær- og Landbohøjskole chartered"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "transformation",
+          "description": "Merged as the Faculty of Life Sciences"
+        }
+      ]
+    },
+    {
+      "id": "a56",
+      "name": "J.C. Jacobsen",
+      "type": "private",
+      "role": "Brewer and patron",
+      "regionOfActivity": "Copenhagen",
+      "description": "Industrial brewer funding the Carlsberg Laboratory and Glyptotek.",
+      "events": [
+        {
+          "date": "1811-09-02",
+          "category": "birth",
+          "description": "Born in Copenhagen"
+        },
+        {
+          "date": "1847-11-10",
+          "category": "founding",
+          "description": "Carlsberg brewery founded"
+        },
+        {
+          "date": "1875-01-01",
+          "category": "research",
+          "description": "Endows the Carlsberg Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "a57",
+      "name": "Carlsberg Laboratory",
+      "type": "hybrid",
+      "role": "Research laboratory",
+      "regionOfActivity": "Copenhagen",
+      "description": "Industrial laboratory of pure yeast, pH scale and protein science.",
+      "events": [
+        {
+          "date": "1875-01-01",
+          "category": "birth",
+          "description": "J.C. Jacobsen founds the laboratory"
+        },
+        {
+          "date": "1883-01-01",
+          "category": "research",
+          "description": "Emil Hansen isolates pure yeast culture"
+        },
+        {
+          "date": "1909-01-01",
+          "category": "research",
+          "description": "Sørensen defines the pH scale"
+        }
+      ]
+    },
+    {
+      "id": "a58",
+      "name": "Poul la Cour",
+      "type": "private",
+      "role": "Engineer and inventor",
+      "regionOfActivity": "Copenhagen",
+      "description": "Wind-electricity pioneer and phonetic telegrapher.",
+      "events": [
+        {
+          "date": "1846-04-13",
+          "category": "birth",
+          "description": "Born in Ebeltoft"
+        },
+        {
+          "date": "1891-07-01",
+          "category": "technical",
+          "description": "Askov windmill generates electricity; aerodynamics tested"
+        },
+        {
+          "date": "1903-01-01",
+          "category": "expansion",
+          "description": "Danish wind-electricity society spreads the mills"
+        }
+      ]
+    },
+    {
+      "id": "a59",
+      "name": "Alexander Foss",
+      "type": "private",
+      "role": "Engineer and industrialist",
+      "regionOfActivity": "Copenhagen",
+      "description": "F.L. Smidth director building the cement-machinery export engine.",
+      "events": [
+        {
+          "date": "1858-11-20",
+          "category": "birth",
+          "description": "Born in Copenhagen"
+        },
+        {
+          "date": "1887-01-01",
+          "category": "milestone",
+          "description": "Joins F.L. Smidth; managing era follows"
+        }
+      ]
+    },
+    {
+      "id": "a60",
+      "name": "Hjedding Cooperative Dairy",
+      "type": "hybrid",
+      "role": "Cooperative dairy",
+      "regionOfActivity": "Hjedding",
+      "description": "First Danish cooperative dairy, template for the movement.",
+      "events": [
+        {
+          "date": "1882-06-10",
+          "category": "birth",
+          "description": "Hjedding Andelsmejeri founded"
+        },
+        {
+          "date": "1888-01-01",
+          "category": "technical",
+          "description": "Cream separator adoption spreads from the model"
+        }
+      ]
+    },
+    {
+      "id": "a61",
+      "name": "FDB",
+      "type": "hybrid",
+      "role": "Cooperative federation",
+      "regionOfActivity": "Copenhagen",
+      "description": "Consumer-cooperative wholesaler of the movement era.",
+      "events": [
+        {
+          "date": "1896-01-01",
+          "category": "birth",
+          "description": "Fællesforeningen for Danmarks Brugsforeninger founded"
+        }
+      ]
+    },
+    {
+      "id": "a62",
+      "name": "Valdemar Poulsen",
+      "type": "private",
+      "role": "Engineer and inventor",
+      "regionOfActivity": "Copenhagen",
+      "description": "Telegraphone inventor founding magnetic recording.",
+      "events": [
+        {
+          "date": "1869-11-23",
+          "category": "birth",
+          "description": "Born in Copenhagen"
+        },
+        {
+          "date": "1898-12-01",
+          "category": "technical",
+          "description": "Telegraphone patented"
+        },
+        {
+          "date": "1903-01-01",
+          "category": "founding",
+          "description": "Dansk Telegrafonfabrik commercializes the recorder"
+        }
+      ]
+    },
+    {
+      "id": "a63",
+      "name": "Jacob Ellehammer",
+      "type": "private",
+      "role": "Engineer and inventor",
+      "regionOfActivity": "Copenhagen",
+      "description": "Motorcycle-engine builder attempting powered flight.",
+      "events": [
+        {
+          "date": "1871-06-20",
+          "category": "birth",
+          "description": "Born in Bakkebølle"
+        },
+        {
+          "date": "1904-01-01",
+          "category": "technical",
+          "description": "Elleham motorcycle production begins"
+        },
+        {
+          "date": "1906-09-12",
+          "category": "milestone",
+          "description": "Tethered hop on Lindholm island"
+        }
+      ]
+    },
+    {
+      "id": "a64",
+      "name": "Danish Society of Engineers",
+      "type": "private",
+      "role": "Professional institution",
+      "regionOfActivity": "Copenhagen",
+      "description": "DIF-lineage professional body of graduate engineers.",
+      "events": [
+        {
+          "date": "1892-01-01",
+          "category": "birth",
+          "description": "Dansk Ingeniørforening founded"
+        },
+        {
+          "date": "1992-01-01",
+          "category": "founding",
+          "description": "IDA merger unites the engineering societies"
+        }
+      ]
+    },
+    {
+      "id": "a65",
+      "name": "Niels Bohr",
+      "type": "private",
+      "role": "Physicist",
+      "regionOfActivity": "Copenhagen",
+      "description": "Architect of the quantum atom and complementarity.",
+      "events": [
+        {
+          "date": "1885-10-07",
+          "category": "birth",
+          "description": "Born in Copenhagen"
+        },
+        {
+          "date": "1913-07-01",
+          "category": "research",
+          "description": "Trilogy on atomic constitution published"
+        },
+        {
+          "date": "1922-12-10",
+          "category": "milestone",
+          "description": "Nobel Prize in Physics awarded"
+        }
+      ]
+    },
+    {
+      "id": "a66",
+      "name": "Niels Bohr Institute",
+      "type": "public",
+      "role": "Research institute",
+      "regionOfActivity": "Copenhagen",
+      "description": "University institute hosting quantum-mechanics formation.",
+      "events": [
+        {
+          "date": "1921-01-18",
+          "category": "birth",
+          "description": "Institute for Theoretical Physics inaugurated"
+        },
+        {
+          "date": "1927-09-16",
+          "category": "research",
+          "description": "Como lecture proclaims complementarity"
+        }
+      ]
+    },
+    {
+      "id": "a67",
+      "name": "Danish Academy of Technical Sciences",
+      "type": "private",
+      "role": "Technical academy",
+      "regionOfActivity": "Copenhagen",
+      "description": "ATV bridging industry and engineering science.",
+      "events": [
+        {
+          "date": "1937-01-01",
+          "category": "birth",
+          "description": "Akademiet for de Tekniske Videnskaber founded"
+        }
+      ]
+    },
+    {
+      "id": "a68",
+      "name": "Risø National Laboratory",
+      "type": "public",
+      "role": "Research laboratory",
+      "regionOfActivity": "Roskilde",
+      "description": "Nuclear laboratory converted to wind-energy research hub.",
+      "events": [
+        {
+          "date": "1958-01-01",
+          "category": "birth",
+          "description": "Forsøgsanlæg Risø inaugurated; DR reactors follow"
+        },
+        {
+          "date": "1980-01-01",
+          "category": "transformation",
+          "description": "Wind-energy program pivots the laboratory"
+        },
+        {
+          "date": "2007-01-01",
+          "category": "founding",
+          "description": "Merged into the Technical University of Denmark"
+        }
+      ]
+    },
+    {
+      "id": "a69",
+      "name": "Danish Technological Institute",
+      "type": "hybrid",
+      "role": "Applied research institute",
+      "regionOfActivity": "Taastrup",
+      "description": "Craft-school lineage diffusing industrial technology to SMEs.",
+      "events": [
+        {
+          "date": "1906-01-01",
+          "category": "birth",
+          "description": "Teknologisk Institut founded"
+        },
+        {
+          "date": "1991-01-01",
+          "category": "transformation",
+          "description": "Approved-institute status formalized"
+        }
+      ]
+    },
+    {
+      "id": "a70",
+      "name": "Danish Energy Agency",
+      "type": "public",
+      "role": "State agency",
+      "regionOfActivity": "Copenhagen",
+      "description": "1976 oil-crisis agency steering wind and efficiency policy.",
+      "events": [
+        {
+          "date": "1976-04-12",
+          "category": "birth",
+          "description": "Energistyrelsen established"
+        },
+        {
+          "date": "1981-01-01",
+          "category": "policy",
+          "description": "Energy plan mandates wind and decentralCHP build-out"
+        }
+      ]
+    },
+    {
+      "id": "a71",
+      "name": "Danish Wind Turbine Owners' Association",
+      "type": "private",
+      "role": "Industry association",
+      "regionOfActivity": "Aarhus",
+      "description": "Owner-movement voice standardizing the cooperative wind model.",
+      "events": [
+        {
+          "date": "1978-01-01",
+          "category": "birth",
+          "description": "Dansk Vindmølleforening founded"
+        }
+      ]
+    },
+    {
+      "id": "a72",
+      "name": "Burmeister & Wain",
+      "type": "private",
+      "role": "Ship-engine builder",
+      "regionOfActivity": "Copenhagen",
+      "description": "Christianshavn yard powering Danish and world shipping.",
+      "events": [
+        {
+          "date": "1846-02-01",
+          "category": "birth",
+          "description": "Baumgarten & Burmeister machine shop founded"
+        },
+        {
+          "date": "1872-01-01",
+          "category": "expansion",
+          "description": "Refshaleøen yard opens; diesel era follows 1912"
+        }
+      ]
+    },
+    {
+      "id": "a73",
+      "name": "Helsingør Shipyard",
+      "type": "private",
+      "role": "Shipbuilder",
+      "regionOfActivity": "Elsinore",
+      "description": "Sound-side yard building ferries and liners.",
+      "events": [
+        {
+          "date": "1882-01-01",
+          "category": "birth",
+          "description": "Helsingør Jernskibs- og Maskinbyggeri founded"
         }
       ]
     }
