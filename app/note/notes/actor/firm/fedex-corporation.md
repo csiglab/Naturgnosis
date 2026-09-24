@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # FedEx Corporation
 
 Tags: Observatorio

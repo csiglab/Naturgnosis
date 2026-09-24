@@ -1,3 +1,7 @@
+---
+tags: [actor, development-bank]
+---
+
 # Export Development Canada (EDC)
 
 Tags: Observatorio

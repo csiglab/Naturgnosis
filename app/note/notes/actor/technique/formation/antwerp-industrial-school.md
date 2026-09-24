@@ -1,3 +1,7 @@
+---
+tags: [actor, formation]
+---
+
 # Antwerp Industrial School
 
 ## Historical Context and Origins

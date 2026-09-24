@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tsingshan Holding Group
 
 Tags: Observatorio

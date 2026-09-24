@@ -1,3 +1,7 @@
+---
+tags: [actor, innovation-agency]
+---
+
 # Israel Innovation Authority
 
 > The Israel Innovation Authority (IIA) is a government agency responsible for fostering and promoting innovation in Israel's economy. The IIA operates under a unique model that combines government support with private sector engagement to drive technological advancements, entrepreneurship, and economic growth.

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # China National Nuclear Corporation (CNNC)
 
 Tags: Observatorio

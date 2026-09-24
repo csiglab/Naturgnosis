@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Council for Economic Planning and Development (CEPD)
 
 > The Council for Economic Planning and Development (CEPD) in Taiwan operated as a central government agency responsible for formulating and coordinating economic policies and development strategies. Here is a detailed model of its working:

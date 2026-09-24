@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # The Charles Schwab Corporation
 
 Tags: Observatorio

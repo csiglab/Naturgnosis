@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Brazilian Stock Exchange (B3)
 
 Tags: Observatorio

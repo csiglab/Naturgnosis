@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, central-bank]
+---
+
 # Bank of England
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, trade-promotion]
+---
+
 # International Trade Administration (ITA)
 
 Tags: Observatorio

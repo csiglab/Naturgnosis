@@ -1,3 +1,7 @@
+---
+tags: [actor, central-bank]
+---
+
 # Federal Reserve System
 
 Tags: Observatorio

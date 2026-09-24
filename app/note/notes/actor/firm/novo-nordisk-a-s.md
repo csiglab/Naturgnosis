@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Novo Nordisk A/S
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Instituto de Ciencias de la Tierra Jaume Almera
 
 Tags: Observatorio

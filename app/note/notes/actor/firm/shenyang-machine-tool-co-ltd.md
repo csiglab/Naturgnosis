@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Shenyang Machine Tool Co., Ltd.
 
 Tags: Observatorio

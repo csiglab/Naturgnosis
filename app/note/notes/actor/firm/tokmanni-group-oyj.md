@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tokmanni Group Oyj
 
 Tags: Observatorio

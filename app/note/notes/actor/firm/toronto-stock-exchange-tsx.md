@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Toronto Stock Exchange (TSX)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Prussian Academy of Sciences
 
 Tags: Observatorio

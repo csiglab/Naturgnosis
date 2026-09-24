@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Max Planck Institute for Polymer Research
 
 ID: PRO-1652

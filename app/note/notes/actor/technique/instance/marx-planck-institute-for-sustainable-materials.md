@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Marx Planck Institute For Sustainable Materials
 
 Tags: Observatorio

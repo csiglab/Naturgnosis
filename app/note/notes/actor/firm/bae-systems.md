@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # BAE Systems
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Robert Bosch GmbH
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, formation, technical-diffusion]
+---
+
 # Serviço Nacional de Aprendizagem Industrial (SENAI)
 
 > Serviço Nacional de Aprendizagem Industrial ...

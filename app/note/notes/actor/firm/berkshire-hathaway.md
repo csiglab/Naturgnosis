@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Berkshire Hathaway Inc.
 
 > A Holding Company (Chaebol)_.

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Dow Chemical Company
 
 Tags: Observatorio

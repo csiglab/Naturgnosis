@@ -1,3 +1,7 @@
+---
+tags: [actor, usa, university]
+---
+
 # Industry-University Cooperative Research Centers (IUCRC)
 
 > Pre-competitive multi-stakeholder research consortia with pooled industrial membership funding under a public–private cooperative governance model.

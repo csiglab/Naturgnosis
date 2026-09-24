@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # AB Motala Verkstad
 
 Tags: Observatorio

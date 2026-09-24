@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, singapore]
+---
+
 # A*STAR Institute of Materials Research and Engineering (IMRE)
 
 > …

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Royal Institute of International Affairs (Chatham House)
 
 Tags: Observatorio

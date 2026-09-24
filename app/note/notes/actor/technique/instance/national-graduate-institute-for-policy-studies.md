@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Graduate Institute for Policy Studies
 
 Tags: Observatorio

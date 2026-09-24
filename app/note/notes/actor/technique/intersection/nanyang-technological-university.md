@@ -1,3 +1,7 @@
+---
+tags: [actor, medical, university]
+---
+
 # Nanyang Technological University (NTU)
 
 Tags: Observatorio

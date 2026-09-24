@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # JPMorgan Chase & Co.
 
 Tags: Observatorio

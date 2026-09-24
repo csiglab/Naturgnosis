@@ -1,3 +1,7 @@
+---
+tags: [actor, formation]
+---
+
 # Centro Superior de Hostelería de Galicia
 
 Tags: Observatorio

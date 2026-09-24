@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # California Public Employees' Retirement System (CalPERS)
 
 Tags: Observatorio

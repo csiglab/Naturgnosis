@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Visa
 
 > Visa's business model primarily revolves around providing a payment network that connects consumers, merchants, financial institutions, and governments to facilitate electronic payments.

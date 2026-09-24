@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Merics: Mercator Institute for China Studies
 
 Tags: Observatorio

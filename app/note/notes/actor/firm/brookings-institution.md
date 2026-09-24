@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Brookings Institution
 
 Tags: Observatorio

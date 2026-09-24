@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institute of Metal Research (IMR)
 
 > ...

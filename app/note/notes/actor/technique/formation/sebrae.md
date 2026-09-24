@@ -1,3 +1,7 @@
+---
+tags: [actor, formation, sme-support]
+---
+
 # Sebrae
 
 Tags: Observatorio

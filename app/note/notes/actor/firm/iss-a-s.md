@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ISS A/S
 
 Tags: Observatorio

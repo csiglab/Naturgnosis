@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # PPG Industries, Inc.
 
 Tags: Observatorio

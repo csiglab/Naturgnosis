@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Banco Nacional de Desenvolvimento Econômico e Social (BNDES)
 
 Tags: Observatorio

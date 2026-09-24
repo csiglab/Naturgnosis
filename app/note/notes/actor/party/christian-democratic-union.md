@@ -1,3 +1,7 @@
+---
+tags: [actor, political-party]
+---
+
 # Christian Democratic Union (CDU)
 
 The **Christian Democratic Union (CDU)** of Germany is one of the country’s major political parties and has a **federal, hierarchical, and programmatic structure** that mirrors the organization of the German state itself. Here's a breakdown:

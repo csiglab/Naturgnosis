@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Fraunhofer Society
 
 Tags: Observatorio

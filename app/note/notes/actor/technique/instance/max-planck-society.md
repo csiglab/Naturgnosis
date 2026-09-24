@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Max Planck Society for the Advancement of Science
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Abengoa
 
 Tags: Observatorio

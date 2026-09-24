@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Hitachi, Ltd
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Peterson Institute for International Economics (PIIE)
 
 Tags: Observatorio

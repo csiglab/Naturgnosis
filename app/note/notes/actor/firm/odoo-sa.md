@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Odoo SA
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # RTX Corporation
 
 Tags: Observatorio

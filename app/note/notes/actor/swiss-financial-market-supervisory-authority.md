@@ -1,3 +1,7 @@
+---
+tags: [actor, financial-regulator]
+---
+
 # Swiss Financial Market Supervisory Authority
 
 Tags: Observatorio

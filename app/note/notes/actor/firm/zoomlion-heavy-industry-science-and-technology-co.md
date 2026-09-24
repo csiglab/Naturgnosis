@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Zoomlion Heavy Industry Science and Technology Co., Ltd.
 
 Tags: Observatorio

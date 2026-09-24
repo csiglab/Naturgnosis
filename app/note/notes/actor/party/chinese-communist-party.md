@@ -1,3 +1,7 @@
+---
+tags: [actor, political-party]
+---
+
 # Chinese Communist Party
 
 : 23

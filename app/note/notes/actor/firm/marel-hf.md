@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Marel hf.
 
 Tags: Observatorio

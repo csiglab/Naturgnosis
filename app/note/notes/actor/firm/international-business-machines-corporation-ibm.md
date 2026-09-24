@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # International Business Machines Corporation  (IBM)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # DMG Mori Co., Ltd.
 
 Tags: Observatorio

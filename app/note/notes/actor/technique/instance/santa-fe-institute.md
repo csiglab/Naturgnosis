@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Santa Fe Institute
 
 Tags: Observatorio

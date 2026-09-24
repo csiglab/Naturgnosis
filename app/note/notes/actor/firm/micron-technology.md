@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Micron Technology
 
 Tags: Observatorio

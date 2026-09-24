@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, sovereign-fund]
+---
+
 # Temasek  Holdings
 
 Tags: Observatorio

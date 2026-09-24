@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Industrial Policy Group
 
 Tags: Observatorio

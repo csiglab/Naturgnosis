@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Glencore plc
 
 Tags: Observatorio

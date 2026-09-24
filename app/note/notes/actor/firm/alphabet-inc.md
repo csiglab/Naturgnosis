@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Alphabet, Inc.
 
 Tags: Observatorio

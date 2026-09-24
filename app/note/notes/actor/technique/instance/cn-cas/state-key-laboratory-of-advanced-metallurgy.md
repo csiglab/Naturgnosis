@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, china]
+---
+
 # State Key Laboratory of Advanced Metallurgy
 
 ID: PRO-1667

@@ -1,3 +1,7 @@
+---
+tags: [actor, stock-exchange]
+---
+
 # Hong Kong Stock Exchange (HKEX)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, political-party]
+---
+
 # People’s Action Party
 
 > ...

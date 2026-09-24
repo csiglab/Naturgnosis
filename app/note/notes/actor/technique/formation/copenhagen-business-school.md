@@ -1,3 +1,7 @@
+---
+tags: [actor, formation, university]
+---
+
 # Copenhagen Business School (CBS)
 
 ID: PRO-689

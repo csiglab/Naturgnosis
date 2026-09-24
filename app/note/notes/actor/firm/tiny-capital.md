@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tiny Capital
 
 Tags: Observatorio

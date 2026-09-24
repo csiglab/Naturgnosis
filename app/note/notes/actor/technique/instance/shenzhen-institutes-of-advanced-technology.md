@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Shenzhen Institutes of Advanced Technology (SIAT)
 
 Tags: Observatorio

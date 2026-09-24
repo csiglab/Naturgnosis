@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institute for Energy Technology
 
 Tags: Observatorio

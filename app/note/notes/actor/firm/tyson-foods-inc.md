@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tyson Foods, Inc.
 
 Tags: Observatorio

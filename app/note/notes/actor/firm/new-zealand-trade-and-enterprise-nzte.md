@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, trade-promotion]
+---
+
 # New Zealand Trade and Enterprise (NZTE)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Swiss Federal Laboratories for Materials Science and Technology (Empa)
 
 ID: PRO-1669

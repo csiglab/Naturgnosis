@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Costco Wholesale Corporation
 
 Tags: Observatorio

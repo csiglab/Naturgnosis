@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # Agencia para la Competitividad de la Empresa (ACCIÓ)
 
 > …

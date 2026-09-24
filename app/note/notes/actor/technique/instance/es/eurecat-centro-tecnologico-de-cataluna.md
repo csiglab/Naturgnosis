@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, spain]
+---
+
 # Eurecat Centro Tecnológico de Cataluña
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Arbutus Biopharma Corporation (ABUS)
 
 QA:

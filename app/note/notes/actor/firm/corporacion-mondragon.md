@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Corporación Mondragon
 
 Tags: Observatorio

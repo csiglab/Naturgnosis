@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Huawei Investment & Holding Co., Ltd.
 
 Tags: Observatorio

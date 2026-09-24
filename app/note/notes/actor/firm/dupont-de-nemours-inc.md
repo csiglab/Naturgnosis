@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # DuPont de Nemours, Inc.
 
 Tags: Observatorio

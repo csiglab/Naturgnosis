@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Campofrío Food Group S.A.U.
 
 Tags: Observatorio

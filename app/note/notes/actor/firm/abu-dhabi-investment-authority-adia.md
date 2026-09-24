@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, sovereign-fund]
+---
+
 # Abu Dhabi Investment Authority (ADIA)
 
 Tags: Observatorio

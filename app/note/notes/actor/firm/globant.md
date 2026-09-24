@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Globant
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Claro Cloud
 
 Tags: Observatorio

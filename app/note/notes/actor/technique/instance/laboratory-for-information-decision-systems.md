@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Laboratory for Information & Decision Systems
 
 Tags: Observatorio

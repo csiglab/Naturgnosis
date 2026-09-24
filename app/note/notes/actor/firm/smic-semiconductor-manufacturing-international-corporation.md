@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # SMIC: Semiconductor Manufacturing International Corporation
 
 Tags: Observatorio

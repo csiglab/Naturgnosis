@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # SBA Group
 
 Tags: Observatorio

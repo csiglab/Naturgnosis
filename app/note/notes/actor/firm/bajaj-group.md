@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Bajaj Group
 
 Tags: Observatorio

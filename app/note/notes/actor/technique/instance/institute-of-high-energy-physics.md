@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institute of High Energy Physics
 
 Tags: Observatorio

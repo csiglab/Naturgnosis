@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Shanghai Micro Electronics Equipment (Group) Co., Ltd. (SMEE)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Booz Allen Hamilton
 
 Tags: Observatorio

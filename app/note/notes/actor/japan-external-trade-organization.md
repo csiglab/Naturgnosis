@@ -1,3 +1,7 @@
+---
+tags: [actor, trade-promotion]
+---
+
 # Japan External Trade Organization (JETRO)
 
 Tags: Observatorio

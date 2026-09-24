@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, china]
+---
+
 # Chinese Academy of Sciences (CAS)
 
 > …

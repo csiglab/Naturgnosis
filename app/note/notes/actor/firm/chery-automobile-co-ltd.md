@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Chery Automobile Co. Ltd.
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Forest Sciences Centre of Catalonia
 
 Tags: Observatorio

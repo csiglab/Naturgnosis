@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, netherlands]
+---
+
 # Dutch Research Council (NWO)
 
 ID: PRO-1647

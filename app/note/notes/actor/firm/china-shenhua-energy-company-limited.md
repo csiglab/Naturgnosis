@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # China Shenhua Energy Company Limited
 
 Tags: Observatorio

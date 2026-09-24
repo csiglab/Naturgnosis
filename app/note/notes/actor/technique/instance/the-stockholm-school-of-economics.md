@@ -1,3 +1,7 @@
+---
+tags: [actor, university]
+---
+
 # The Stockholm School of Economics (SSE)
 
 Tags: Observatorio

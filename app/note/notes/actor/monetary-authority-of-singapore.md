@@ -1,3 +1,7 @@
+---
+tags: [actor, central-bank]
+---
+
 # Monetary Authority of Singapore (MAS)
 
 Tags: Observatorio

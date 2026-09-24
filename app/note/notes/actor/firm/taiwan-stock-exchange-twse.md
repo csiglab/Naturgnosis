@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Taiwan Stock Exchange (TWSE)
 
 Tags: Observatorio

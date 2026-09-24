@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Xi'an Aircraft Company Limited (XAC)
 
 Tags: Observatorio

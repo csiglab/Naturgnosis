@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Physical Laboratory (NPL)
 
 ID: PRO-1663

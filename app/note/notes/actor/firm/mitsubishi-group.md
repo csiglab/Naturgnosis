@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Mitsubishi Group
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Fraunhofer Institute for Manufacturing Technology and Advanced Materials IFAM
 
 Tags: Observatorio

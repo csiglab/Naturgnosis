@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # FreshBooks
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # PepsiCo, Inc.
 
 Tags: Observatorio

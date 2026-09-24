@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The National Institute for Nanotechnology
 
 ID: PRO-561

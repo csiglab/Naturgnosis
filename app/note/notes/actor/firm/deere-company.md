@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Deere & Company
 
 Tags: Observatorio

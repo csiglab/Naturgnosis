@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, space-agency]
+---
+
 # Royal Netherlands Aerospace Center  (Royal NLR)
 
 Tags: Observatorio

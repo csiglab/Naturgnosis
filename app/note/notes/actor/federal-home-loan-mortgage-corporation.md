@@ -1,3 +1,7 @@
+---
+tags: [actor, housing-finance]
+---
+
 # Federal Home Loan Mortgage Corporation (Freddie Mac)
 
 Tags: Observatorio

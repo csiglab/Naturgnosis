@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Pew Research Center
 
 Tags: Observatorio

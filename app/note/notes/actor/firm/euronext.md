@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Euronext
 
 Tags: Observatorio

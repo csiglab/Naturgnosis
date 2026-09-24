@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Bolsa de Madrid
 
 Tags: Observatorio

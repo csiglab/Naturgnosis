@@ -1,3 +1,7 @@
+---
+tags: [actor, innovation-agency]
+---
+
 # Finnish Innovation Fund
 
 Tags: Observatorio

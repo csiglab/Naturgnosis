@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # AstraZeneca plc
 
 Tags: Observatorio

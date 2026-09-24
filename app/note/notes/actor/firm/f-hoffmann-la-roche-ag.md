@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # F. Hoffmann-La Roche AG
 
 Tags: Observatorio

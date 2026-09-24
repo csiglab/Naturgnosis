@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # MicroPort Inc.
 
 ID: PRO-1675

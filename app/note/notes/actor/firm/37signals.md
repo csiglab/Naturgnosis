@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # 37signals
 
 Tags: Observatorio

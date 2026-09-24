@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Rhodium Group
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ABI Research
 
 Tags: Observatorio

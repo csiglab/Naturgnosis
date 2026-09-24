@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # BlackBerry Limited
 
 Tags: Observatorio

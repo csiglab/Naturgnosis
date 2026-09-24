@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Banco do Brasil
 
 Tags: Observatorio

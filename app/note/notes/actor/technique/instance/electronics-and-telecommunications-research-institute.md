@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Electronics and Telecommunications Research Institute
 
 > …

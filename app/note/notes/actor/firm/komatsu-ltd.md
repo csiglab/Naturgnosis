@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Komatsu Ltd.
 
 Tags: Observatorio

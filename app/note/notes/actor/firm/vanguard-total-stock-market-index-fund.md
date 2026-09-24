@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Vanguard Total Stock Market Index Fund
 
 Tags: Observatorio

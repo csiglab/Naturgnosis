@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Australian Securities Exchange (ASX)
 
 Tags: Observatorio

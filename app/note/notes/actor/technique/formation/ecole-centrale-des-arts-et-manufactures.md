@@ -1,3 +1,7 @@
+---
+tags: [actor, formation]
+---
+
 # École Centrale des Arts et Manufactures
 
 La **Escuela Central de Artes y Manufacturas** (*École Centrale des Arts et Manufactures*) es un ejemplo emblemático del modelo francés de educación técnica e ingenieril, establecido en el siglo XIX para responder a las necesidades de la industrialización.

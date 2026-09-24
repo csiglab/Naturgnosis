@@ -1,3 +1,7 @@
+---
+tags: [actor, medical]
+---
+
 # Karolinska Institute
 
 Tags: Observatorio

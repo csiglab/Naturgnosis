@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sumco Corporation
 
 Tags: Observatorio

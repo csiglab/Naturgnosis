@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Google Research
 
 Tags: Observatorio

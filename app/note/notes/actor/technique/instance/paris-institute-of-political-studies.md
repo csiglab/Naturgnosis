@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Paris Institute of Political Studies
 
 Tags: Observatorio

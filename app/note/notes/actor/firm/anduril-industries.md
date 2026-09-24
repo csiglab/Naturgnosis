@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Anduril Industries
 
 Tags: Observatorio

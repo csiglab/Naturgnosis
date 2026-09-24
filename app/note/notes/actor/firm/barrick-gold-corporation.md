@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Barrick Gold Corporation
 
 Tags: Observatorio

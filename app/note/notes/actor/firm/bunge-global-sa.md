@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Bunge Global SA
 
 Tags: Observatorio

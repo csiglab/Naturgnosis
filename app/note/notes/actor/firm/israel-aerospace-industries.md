@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, space-agency]
+---
+
 # Israel Aerospace Industries
 
 Tags: Observatorio

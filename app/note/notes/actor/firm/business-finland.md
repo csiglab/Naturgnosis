@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Business Finland
 
 Tags: Observatorio

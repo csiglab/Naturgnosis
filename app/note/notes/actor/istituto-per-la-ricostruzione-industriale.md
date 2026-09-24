@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # Istituto per la Ricostruzione Industriale (IRI)
 
 Tags: Observatorio

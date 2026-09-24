@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Fidelity Investments
 
 Tags: Observatorio

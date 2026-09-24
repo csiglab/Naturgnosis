@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, development-bank]
+---
+
 # Korea Export-Import Bank (KEXIM)
 
 Tags: Observatorio

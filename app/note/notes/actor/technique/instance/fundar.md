@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Fundar
 
 Tags: Observatorio

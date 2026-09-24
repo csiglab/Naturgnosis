@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Ernst & Young (EY)
 
 Tags: Observatorio

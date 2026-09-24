@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Leidos Holdings, Inc.
 
 Tags: Observatorio

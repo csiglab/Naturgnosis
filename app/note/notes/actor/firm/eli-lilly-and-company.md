@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Eli Lilly and Company
 
 Tags: Observatorio

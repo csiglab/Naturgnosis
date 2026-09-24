@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Louis Dreyfus Company B.V. (LDC)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Workday, Inc
 
 Tags: Observatorio

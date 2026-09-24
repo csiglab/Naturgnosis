@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # The Boeing Company
 
 Tags: Observatorio

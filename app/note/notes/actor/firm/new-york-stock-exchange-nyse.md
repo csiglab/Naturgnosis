@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # New York Stock Exchange (NYSE)
 
 Tags: Observatorio

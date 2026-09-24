@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Rockwell Automation, Inc.
 
 Tags: Observatorio

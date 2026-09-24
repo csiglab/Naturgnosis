@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Enel S.p.A.
 
 Tags: Observatorio

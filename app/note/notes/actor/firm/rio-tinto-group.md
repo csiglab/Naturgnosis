@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Rio Tinto Group
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, formation]
+---
+
 # Fab Academy
 
 Tags: Observatorio

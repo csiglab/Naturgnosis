@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sanofi S.A.
 
 Tags: Observatorio

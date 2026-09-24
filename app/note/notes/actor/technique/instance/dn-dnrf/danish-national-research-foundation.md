@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, denmark]
+---
+
 # Danish National Research Foundation
 
 ID: PRO-1650

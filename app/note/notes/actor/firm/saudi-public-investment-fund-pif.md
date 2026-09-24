@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, sovereign-fund]
+---
+
 # Saudi Public Investment Fund (PIF)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Commonwealth Scientific and Industrial Research Organisation (CSIRO)
 
 Tags: Observatorio

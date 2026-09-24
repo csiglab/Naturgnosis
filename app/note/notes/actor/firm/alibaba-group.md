@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Alibaba Group
 
 Tags: Observatorio

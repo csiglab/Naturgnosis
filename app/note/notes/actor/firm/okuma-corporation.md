@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Okuma Corporation
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Slack Technologies
 
 Tags: Observatorio

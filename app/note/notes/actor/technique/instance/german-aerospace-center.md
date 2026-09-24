@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, space-agency]
+---
+
 # German Aerospace Center
 
 Tags: Observatorio

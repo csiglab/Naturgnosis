@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Vingroup Joint Stock Company
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Retano Solutions Ltd
 
 > ...

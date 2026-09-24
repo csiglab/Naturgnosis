@@ -1,3 +1,7 @@
+---
+tags: [actor, university]
+---
+
 # Lee Kuan Yew School of Public Policy
 
 Tags: Observatorio

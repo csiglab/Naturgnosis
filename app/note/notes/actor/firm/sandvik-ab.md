@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sandvik AB
 
 Tags: Observatorio

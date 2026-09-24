@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Zoom Video Communications, Inc.
 
 Tags: Observatorio

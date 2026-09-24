@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, singapore]
+---
+
 # Agency for Science, Technology and Research (A*STAR)
 
 Tags: Observatorio

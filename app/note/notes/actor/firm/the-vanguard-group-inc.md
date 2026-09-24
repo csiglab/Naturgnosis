@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # The Vanguard Group, Inc.
 
 Tags: Observatorio

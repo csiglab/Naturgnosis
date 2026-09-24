@@ -1,3 +1,7 @@
+---
+tags: [actor, multilateral]
+---
+
 # World Bank
 
 Tags: Observatorio

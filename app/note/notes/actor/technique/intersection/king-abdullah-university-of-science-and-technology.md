@@ -1,3 +1,7 @@
+---
+tags: [actor, medical, university]
+---
+
 # King Abdullah University of Science and Technology (KAUST)
 
 Tags: Observatorio

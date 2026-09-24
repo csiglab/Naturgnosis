@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, central-bank]
+---
+
 # Bank of Japan
 
 Tags: Observatorio

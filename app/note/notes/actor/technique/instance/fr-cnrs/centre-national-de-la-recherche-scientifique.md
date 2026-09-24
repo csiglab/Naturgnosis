@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, france]
+---
+
 # Centre National de la Recherche Scientifique
 
 Tags: Observatorio

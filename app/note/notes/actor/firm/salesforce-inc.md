@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Salesforce, Inc.
 
 > In this template to profile a firm we introduce tools to create the microeconomic model for the firm; the institutional model and the capabilities model.

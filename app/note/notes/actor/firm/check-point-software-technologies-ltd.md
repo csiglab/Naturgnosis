@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Check Point Software Technologies Ltd.
 
 Tags: Observatorio

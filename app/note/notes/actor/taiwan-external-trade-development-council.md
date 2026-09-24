@@ -1,3 +1,7 @@
+---
+tags: [actor, trade-promotion]
+---
+
 # Taiwan External Trade Development Council
 
 Tags: Observatorio

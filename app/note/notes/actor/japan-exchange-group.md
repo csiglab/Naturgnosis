@@ -1,3 +1,7 @@
+---
+tags: [actor, stock-exchange]
+---
+
 # Japan Exchange Group (JPX)
 
 Tags: Observatorio

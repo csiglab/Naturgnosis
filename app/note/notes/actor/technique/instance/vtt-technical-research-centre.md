@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # VTT Technical Research Centrer
 
 Tags: Observatorio

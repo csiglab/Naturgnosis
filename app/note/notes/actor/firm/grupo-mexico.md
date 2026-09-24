@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Grupo México
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Research Institute of Industrial Economics
 
 Tags: Observatorio

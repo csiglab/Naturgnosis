@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Lockheed Martin Corporation
 
 Tags: Observatorio

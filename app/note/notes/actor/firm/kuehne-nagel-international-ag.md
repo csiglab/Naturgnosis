@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Kuehne + Nagel International AG
 
 Tags: Observatorio

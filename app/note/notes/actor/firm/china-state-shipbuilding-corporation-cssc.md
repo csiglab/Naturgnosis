@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # China State Shipbuilding Corporation (CSSC)
 
 Tags: Observatorio

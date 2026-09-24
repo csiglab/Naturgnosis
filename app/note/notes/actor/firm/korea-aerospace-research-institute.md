@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, research-institute, space-agency]
+---
+
 # Korea Aerospace Research Institute
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # London Stock Exchange (LSE)
 
 Tags: Observatorio

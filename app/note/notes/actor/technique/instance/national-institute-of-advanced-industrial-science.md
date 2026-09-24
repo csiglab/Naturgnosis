@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Institute of Advanced Industrial Science and Technology (AIST)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # CNH Industrial N.V.
 
 Tags: Observatorio

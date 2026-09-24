@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, multilateral]
+---
+
 # Bank for International Settlements
 
 Tags: Observatorio

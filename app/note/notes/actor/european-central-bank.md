@@ -1,3 +1,7 @@
+---
+tags: [actor, central-bank]
+---
+
 # European Central Bank (ECB)
 
 > …

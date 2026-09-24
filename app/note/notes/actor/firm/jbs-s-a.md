@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # JBS S.A.
 
 Tags: Observatorio

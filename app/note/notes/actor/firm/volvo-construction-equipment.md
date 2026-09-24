@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Volvo Construction Equipment
 
 Tags: Observatorio

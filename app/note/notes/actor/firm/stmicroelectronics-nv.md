@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # STMicroelectronics NV
 
 Tags: Observatorio

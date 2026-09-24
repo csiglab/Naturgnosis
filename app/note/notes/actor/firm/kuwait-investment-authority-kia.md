@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, sovereign-fund]
+---
+
 # Kuwait Investment Authority (KIA)
 
 Tags: Observatorio

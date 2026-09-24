@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Haas Automation
 
 Tags: Observatorio

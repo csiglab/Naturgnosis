@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Österreichische Beteiligungs AG
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, university]
+---
+
 # London School of Economics and Political Science (LSE)
 
 ID: PRO-593

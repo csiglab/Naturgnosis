@@ -1,3 +1,7 @@
+---
+tags: [actor, development-bank]
+---
+
 # Export–Import Bank of the United States (EXIM)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ServiceNow, Inc.
 
 Tags: Observatorio

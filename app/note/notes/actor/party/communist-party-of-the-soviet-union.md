@@ -1,3 +1,7 @@
+---
+tags: [actor, political-party]
+---
+
 # ...
 
 - Power Dynamics

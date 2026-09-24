@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Caterpillar Inc.
 
 Tags: Observatorio

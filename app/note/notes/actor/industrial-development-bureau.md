@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # Industrial Development Bureau (IDB)
 
 **Industrial Development Bureau (IDB)**: [IDB](https://en.wikipedia.org/wiki/Industrial_Development_Administration) is a **Government Agency** responsible for formulating and implementing industrial policies and promoting the growth of Taiwan’s manufacturing sector.

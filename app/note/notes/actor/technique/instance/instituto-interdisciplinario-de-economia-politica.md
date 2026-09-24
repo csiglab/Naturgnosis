@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Instituto Interdisciplinario de Economía Política
 
 ID: PRO-617

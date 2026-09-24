@@ -1,3 +1,7 @@
+---
+tags: [actor, professional-association]
+---
+
 # Colegio Oficial de Ingenieros Industriales de Navarra
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Gerdau
 
 Tags: Observatorio

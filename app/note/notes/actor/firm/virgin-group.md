@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Virgin Group
 
 > The **Virgin Group** is a multinational conglomerate founded by **Sir Richard Branson**, known for its diverse portfolio spanning sectors such as travel, entertainment, health, and telecommunications.

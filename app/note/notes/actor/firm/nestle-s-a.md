@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Nestlé S.A.
 
 Tags: Observatorio

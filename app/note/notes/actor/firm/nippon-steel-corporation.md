@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Nippon Steel Corporation
 
 Tags: Observatorio

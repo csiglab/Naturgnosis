@@ -1,3 +1,7 @@
+---
+tags: [research-institute]
+---
+
 # Public Research Institutes (PRI)
 
 > Public/Private Company Dedicated to Research and Development Industrial Technology.

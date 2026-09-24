@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Boston Consulting Group
 
 Tags: Observatorio

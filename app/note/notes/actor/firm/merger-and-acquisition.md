@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Merger and Acquisition
 
 : 22

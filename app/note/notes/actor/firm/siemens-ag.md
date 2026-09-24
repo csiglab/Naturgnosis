@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Siemens AG
 
 Tags: Observatorio

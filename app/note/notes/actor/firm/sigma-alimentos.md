@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sigma Alimentos
 
 Tags: Observatorio

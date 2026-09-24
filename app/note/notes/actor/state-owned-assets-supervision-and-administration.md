@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # State-owned Assets Supervision and Administration Commission of the State Council (SASAC)
 
 Tags: Observatorio

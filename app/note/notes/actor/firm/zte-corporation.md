@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ZTE Corporation
 
 Tags: Observatorio

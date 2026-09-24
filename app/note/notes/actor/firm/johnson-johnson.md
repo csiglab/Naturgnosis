@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Johnson & Johnson
 
 Tags: Observatorio

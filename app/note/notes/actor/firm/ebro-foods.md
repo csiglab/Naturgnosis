@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Ebro Foods
 
 Tags: Observatorio

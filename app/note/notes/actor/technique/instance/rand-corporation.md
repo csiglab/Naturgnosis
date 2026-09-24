@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # RAND Corporation
 
 Tags: Observatorio

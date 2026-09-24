@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # Agencia Vasca de Desarrollo Empresarial (Grupo Spri)
 
 Tags: Observatorio

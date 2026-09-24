@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Marubeni Corporation
 
 > **Marubeni Corporation** works as a **sōgō shōsha** (general trading company), meaning it functions not just as a trader of goods, but as a **global economic integrator**. It links **producers, consumers, infrastructure, finance, and logistics** across multiple sectors. Here's how it works, step by step:

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sany Heavy Industry Co., Ltd.
 
 Tags: Observatorio

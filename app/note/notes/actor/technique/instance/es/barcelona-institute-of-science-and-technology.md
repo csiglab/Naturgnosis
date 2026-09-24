@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, spain]
+---
+
 # Barcelona Institute of Science and Technology (BIST)
 
 > The **Barcelona Institute of Science and Technology (BIST)** is a **multidisciplinary research institute** based in **Barcelona, Spain**, that brings together several of the top research centers in Catalonia to foster scientific collaboration, innovation, and excellence.

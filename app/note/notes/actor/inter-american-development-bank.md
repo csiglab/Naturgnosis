@@ -1,3 +1,7 @@
+---
+tags: [actor, development-bank]
+---
+
 # Inter American Development Bank
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Cadena Comercial OXXO, S.A. de C.V.
 
 Tags: Observatorio

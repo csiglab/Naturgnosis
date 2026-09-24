@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Qlik
 
 Tags: Observatorio

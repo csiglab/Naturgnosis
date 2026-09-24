@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tableau Software, LLC
 
 Tags: Observatorio

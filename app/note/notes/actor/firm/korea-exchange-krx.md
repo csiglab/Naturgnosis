@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Korea Exchange (KRX)
 
 Tags: Observatorio

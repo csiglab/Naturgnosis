@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Microsoft Corporation
 
 Tags: Observatorio

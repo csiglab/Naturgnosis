@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # (ITIF) Information Technology & Innovation Foundation
 
 > …

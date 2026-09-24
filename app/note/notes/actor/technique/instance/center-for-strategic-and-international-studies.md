@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Center for Strategic and International Studies (CSIS)
 
 Tags: Observatorio

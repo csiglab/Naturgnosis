@@ -1,3 +1,7 @@
+---
+tags: [actor, formation]
+---
+
 # Academia de Atenas
 
 > …

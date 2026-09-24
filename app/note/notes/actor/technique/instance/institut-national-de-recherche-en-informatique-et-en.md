@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institut National de Recherche en Informatique et en Automatique (INRIA)
 
 Tags: Observatorio

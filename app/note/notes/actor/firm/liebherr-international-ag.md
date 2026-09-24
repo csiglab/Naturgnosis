@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Liebherr-International AG
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Strategy Inc.
 
 > Basically, the firm operates as a structure in which investors provide capital and the company uses that capital to purchase Bitcoin. For certain share classes, it must pay dividends, so it may issue additional equity or adjust its capital structure to generate liquidity while continuing to acquire more Bitcoin. The resulting architecture is a reflexive, highly leveraged capital cycle that can appear similar to speculative schemes dependent on continual investor inflows.

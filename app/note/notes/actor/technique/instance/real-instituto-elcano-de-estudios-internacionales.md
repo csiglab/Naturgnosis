@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Real Instituto Elcano de Estudios Internacionales y Estratégicos
 
 Tags: Observatorio

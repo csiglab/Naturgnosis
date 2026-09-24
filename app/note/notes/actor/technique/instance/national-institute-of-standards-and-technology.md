@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Institute of Standards and Technology (NIST)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # BHP Group Limited
 
 Tags: Observatorio

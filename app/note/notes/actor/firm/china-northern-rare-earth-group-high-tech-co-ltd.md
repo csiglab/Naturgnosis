@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # China Northern Rare Earth (Group) High-tech Co., Ltd.
 
 Tags: Observatorio

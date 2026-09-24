@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Center for Collective Learning
 
 Tags: Observatorio

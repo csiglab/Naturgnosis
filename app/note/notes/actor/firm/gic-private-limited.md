@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, sovereign-fund]
+---
+
 # GIC Private Limited
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Meta Platforms, Inc.
 
 Tags: Observatorio

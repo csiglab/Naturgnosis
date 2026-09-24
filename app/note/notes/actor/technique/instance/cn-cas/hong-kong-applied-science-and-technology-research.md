@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, china]
+---
+
 # Hong Kong Applied Science and Technology Research Institute (ASTRI)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Korean Trade Policy
 
 Tags: Observatorio

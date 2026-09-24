@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Lowy Institute
 
 Tags: Observatorio

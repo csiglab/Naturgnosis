@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # Instituto Nacional de Industria
 
 > The INI was a key instrument of Spain’s post-war industrial policy, embodying state-led industrialization and economic planning. It controlled and developed a broad portfolio of companies in sectors such as steel, shipbuilding, energy, and chemicals. The INI’s legacy influenced Spain’s industrial landscape and transition to a market economy.

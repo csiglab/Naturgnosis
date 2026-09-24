@@ -1,3 +1,7 @@
+---
+tags: [actor]
+---
+
 # Sociedad de Amantes del País
 
 Tags: Observatorio

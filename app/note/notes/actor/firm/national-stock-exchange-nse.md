@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # National Stock Exchange (NSE)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, statistics]
+---
+
 # Statistical Bureau of Taiwan
 
 Tags: Observatorio

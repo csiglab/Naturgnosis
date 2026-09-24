@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Ames Research Center
 
 Tags: Observatorio

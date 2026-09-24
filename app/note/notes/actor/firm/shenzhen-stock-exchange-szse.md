@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Shenzhen Stock Exchange (SZSE)
 
 Tags: Observatorio

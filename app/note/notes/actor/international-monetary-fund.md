@@ -1,3 +1,7 @@
+---
+tags: [actor, multilateral]
+---
+
 # International Monetary Fund
 
 Tags: Observatorio

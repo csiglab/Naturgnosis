@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Mexican Stock Exchange (BMV)
 
 Tags: Observatorio

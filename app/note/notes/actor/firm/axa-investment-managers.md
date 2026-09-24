@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Axa Investment Managers
 
 Tags: Observatorio

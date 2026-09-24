@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Epicor Software Corporation
 
 Tags: Observatorio

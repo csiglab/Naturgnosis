@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Manchester Institute of Innovation Research
 
 Tags: Observatorio

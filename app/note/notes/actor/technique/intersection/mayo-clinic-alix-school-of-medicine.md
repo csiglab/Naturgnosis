@@ -1,3 +1,7 @@
+---
+tags: [actor, medical, university]
+---
+
 # Mayo Clinic Alix School of Medicine
 
 > The **Mayo Clinic Alix School of Medicine** is a prestigious medical institution renowned for its patient-centered care, cutting-edge research, and commitment to training future generations of healthcare professionals.

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Institute for Materials Science (NIMS)
 
 Tags: Observatorio

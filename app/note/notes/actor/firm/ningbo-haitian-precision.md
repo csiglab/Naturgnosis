@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Ningbo Haitian Precision
 
 Tags: Observatorio

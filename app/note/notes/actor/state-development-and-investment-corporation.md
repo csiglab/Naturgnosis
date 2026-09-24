@@ -1,3 +1,7 @@
+---
+tags: [actor, industrial-policy]
+---
+
 # State Development and Investment Corporation
 
 Tags: Observatorio

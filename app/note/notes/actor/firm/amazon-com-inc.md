@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Amazon.com, Inc.
 
 https://fortifyexperts.com/wp-content/uploads/2020/04/Amazon-Principles-1.jpg

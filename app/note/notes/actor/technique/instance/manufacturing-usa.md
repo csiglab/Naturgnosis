@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Manufacturing USA
 
 > The **"Manufacturing USA"** model, also known as the **National Network for Manufacturing Innovation (NNMI)**, is a U.S. initiative aimed at revitalizing the manufacturing sector through innovation and collaboration.

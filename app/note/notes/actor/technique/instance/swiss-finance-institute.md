@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Swiss Finance Institute
 
 Tags: Observatorio

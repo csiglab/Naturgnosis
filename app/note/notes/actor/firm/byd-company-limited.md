@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # BYD Company Limited
 
 Tags: Observatorio

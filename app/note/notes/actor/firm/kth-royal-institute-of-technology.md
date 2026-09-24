@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, university]
+---
+
 # KTH Royal Institute of Technology
 
 Tags: Observatorio

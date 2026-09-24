@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ByteDance Ltd.
 
 Tags: Observatorio

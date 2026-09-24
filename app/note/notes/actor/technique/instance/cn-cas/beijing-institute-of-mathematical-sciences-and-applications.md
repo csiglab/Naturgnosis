@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, china]
+---
+
 # Beijing Institute of Mathematical Sciences and Applications (BIMSA)
 
 > …

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Advanced Micro-Fabrication Equipment (AMEC)
 
 Tags: Observatorio

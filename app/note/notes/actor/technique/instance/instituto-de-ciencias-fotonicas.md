@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Instituto de Ciencias Fotónicas
 
 Tags: Observatorio

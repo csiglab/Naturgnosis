@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tencent Holdings Ltd.
 
 Tags: Observatorio

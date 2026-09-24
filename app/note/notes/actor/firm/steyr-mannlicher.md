@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Steyr Mannlicher
 
 Tags: Observatorio

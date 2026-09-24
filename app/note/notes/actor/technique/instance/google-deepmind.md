@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Google Deepmind
 
 Tags: Observatorio

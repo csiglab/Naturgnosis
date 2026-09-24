@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Office National d'Études et de Recherches Aérospatiales (ONERA)
 
 Tags: Observatorio

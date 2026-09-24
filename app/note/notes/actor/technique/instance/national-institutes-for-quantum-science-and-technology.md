@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Institutes for Quantum Science and Technology (QST)
 
 > …

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # LG Corp (LG Corporation)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Groningen Growth and Development Centre
 
 Tags: Observatorio

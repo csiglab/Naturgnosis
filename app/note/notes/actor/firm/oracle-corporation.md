@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Oracle Corporation
 
 Tags: Observatorio

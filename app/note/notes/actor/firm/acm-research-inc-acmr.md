@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # ACM Research, Inc. (ACMR)
 
 Tags: Observatorio

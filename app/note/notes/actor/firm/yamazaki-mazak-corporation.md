@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Yamazaki Mazak Corporation
 
 Tags: Observatorio

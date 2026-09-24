@@ -1,3 +1,7 @@
+---
+tags: [actor, trade-promotion]
+---
+
 # Enterprise Ireland
 
 Tags: Observatorio

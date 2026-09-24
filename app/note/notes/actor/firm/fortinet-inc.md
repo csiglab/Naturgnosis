@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Fortinet, Inc.
 
 Tags: Observatorio

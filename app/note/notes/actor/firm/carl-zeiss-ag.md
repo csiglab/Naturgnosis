@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Carl Zeiss AG
 
 Tags: Observatorio

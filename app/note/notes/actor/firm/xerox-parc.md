@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Xerox PARC
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Agency for Defense Development (ADD)
 
 ID: PRO-549

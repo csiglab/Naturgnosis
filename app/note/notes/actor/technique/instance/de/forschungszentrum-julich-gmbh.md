@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Forschungszentrum Jülich GmbH
 
 > Forschungszentrum Jülich is a major public research center combining basic and applied science, providing high-performance computing and experimental infrastructure, and acting as a technology transfer hub to industry and society. It spans a wide range of disciplines, aiming to address grand challenges in energy, health, environment, and digitalization.

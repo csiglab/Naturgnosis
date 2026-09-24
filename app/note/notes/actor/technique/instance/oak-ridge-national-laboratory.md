@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Oak Ridge National Laboratory (ORNL)
 
 ID: PRO-1664

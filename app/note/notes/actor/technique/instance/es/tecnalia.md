@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, spain]
+---
+
 # Tecnalia
 
 > Tecnalia is one of the largest private applied research and technological development centers in Spain and a key player in European innovation. Its mission centers on transforming technological research into prosperity and competitiveness for industries and society.

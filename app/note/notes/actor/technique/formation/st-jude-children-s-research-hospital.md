@@ -1,3 +1,7 @@
+---
+tags: [actor, formation, medical]
+---
+
 # St. Jude Children's Research Hospital
 
 Tags: Observatorio

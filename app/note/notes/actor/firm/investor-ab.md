@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Investor AB
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Axa S.A.
 
 Tags: Observatorio

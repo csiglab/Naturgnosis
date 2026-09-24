@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Intuit Inc.
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, brazil, rural-extension]
+---
+
 # Brazilian Agricultural Research Corporation (Embrapa)
 
 > ...

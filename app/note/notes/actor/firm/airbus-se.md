@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Airbus SE
 
 Tags: Observatorio

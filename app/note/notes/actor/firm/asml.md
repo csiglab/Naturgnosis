@@ -1,2 +1,6 @@
+---
+tags: [actor, firm]
+---
+
 # ASML
 

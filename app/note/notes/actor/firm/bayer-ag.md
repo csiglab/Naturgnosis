@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Bayer AG
 
 Tags: Observatorio

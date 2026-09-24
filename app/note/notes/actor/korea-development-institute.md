@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Korea Development Institute
 
 Tags: Observatorio

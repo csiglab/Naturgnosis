@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, central-bank]
+---
+
 # Swiss National Bank (SNB)
 
 Tags: Observatorio

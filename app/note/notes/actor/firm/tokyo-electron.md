@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tokyo Electron
 
 Tags: Observatorio

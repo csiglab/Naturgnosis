@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Samsung Group
 
 Tags: Observatorio

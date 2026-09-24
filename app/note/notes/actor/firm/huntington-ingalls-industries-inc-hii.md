@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Huntington Ingalls Industries, Inc. (HII)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institute of Physical and Chemical Research (RIKEN)
 
 > ….

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sumitomo Group
 
 Tags: Observatorio

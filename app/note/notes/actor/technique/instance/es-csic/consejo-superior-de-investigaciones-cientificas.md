@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, spain]
+---
+
 # Consejo Superior de Investigaciones Científicas
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Goldwind Science & Technology Co., Ltd.
 
 Tags: Observatorio

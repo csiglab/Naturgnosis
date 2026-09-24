@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Syngenta Global AG
 
 Tags: Observatorio

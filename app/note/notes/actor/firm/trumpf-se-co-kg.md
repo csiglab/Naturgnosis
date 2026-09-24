@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Trumpf SE + Co. KG
 
 Tags: Observatorio

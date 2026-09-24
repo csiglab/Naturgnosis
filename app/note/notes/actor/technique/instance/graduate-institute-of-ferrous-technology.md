@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Graduate Institute of Ferrous Technology
 
 Tags: Observatorio

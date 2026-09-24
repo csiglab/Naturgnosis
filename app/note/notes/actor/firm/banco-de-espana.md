@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Banco de España
 
 Tags: Lab. Arbitrista, Observatorio

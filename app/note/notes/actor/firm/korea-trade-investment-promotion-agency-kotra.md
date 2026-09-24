@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, trade-promotion]
+---
+
 # Korea Trade-Investment Promotion Agency (KOTRA)
 
 Tags: Observatorio

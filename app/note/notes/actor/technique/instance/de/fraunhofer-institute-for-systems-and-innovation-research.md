@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Fraunhofer Institute for Systems and Innovation Research (ISI)
 
 Tags: Observatorio

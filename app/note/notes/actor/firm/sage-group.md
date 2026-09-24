@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Sage Group
 
 Tags: Observatorio

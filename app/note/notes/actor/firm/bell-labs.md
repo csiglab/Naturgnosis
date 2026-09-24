@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Bell Labs
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, trade-promotion, industrial-policy]
+---
+
 # Ministry of International Trade and Industry (MITI)
 
 Tags: Observatorio

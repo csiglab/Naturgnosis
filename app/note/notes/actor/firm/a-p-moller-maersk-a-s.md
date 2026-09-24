@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # A.P. Møller – Mærsk A/S
 
 Tags: Observatorio

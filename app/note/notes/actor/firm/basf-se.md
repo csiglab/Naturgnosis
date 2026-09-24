@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # BASF SE
 
 Tags: Observatorio

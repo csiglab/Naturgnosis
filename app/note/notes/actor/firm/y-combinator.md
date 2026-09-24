@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Y Combinator
 
 Tags: Observatorio

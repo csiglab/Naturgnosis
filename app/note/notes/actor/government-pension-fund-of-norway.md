@@ -1,3 +1,7 @@
+---
+tags: [actor, sovereign-fund]
+---
+
 # Government Pension Fund of Norway
 
 Tags: Observatorio

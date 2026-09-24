@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Moscow Exchange (MOEX)
 
 Tags: Observatorio

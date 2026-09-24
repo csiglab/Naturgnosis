@@ -1,3 +1,7 @@
+---
+tags: [actor, development-bank]
+---
+
 # Development Bank of Singapore
 
 Tags: Observatorio

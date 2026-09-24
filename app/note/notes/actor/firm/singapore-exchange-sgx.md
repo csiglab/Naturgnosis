@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Singapore Exchange (SGX)
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Shanghai Stock Exchange STAR Market
 
 Tags: Observatorio

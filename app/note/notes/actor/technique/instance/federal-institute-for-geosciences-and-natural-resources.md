@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Federal Institute for Geosciences and Natural Resources
 
 ID: PRO-562

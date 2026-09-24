@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Nordic Institute for Theoretical Physics
 
 Tags: Observatorio

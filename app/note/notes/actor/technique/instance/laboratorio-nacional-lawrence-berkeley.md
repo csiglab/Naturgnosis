@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Laboratorio Nacional Lawrence Berkeley
 
 ID: PRO-1666

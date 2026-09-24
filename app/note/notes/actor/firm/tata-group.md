@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Tata Group
 
 Tags: Observatorio

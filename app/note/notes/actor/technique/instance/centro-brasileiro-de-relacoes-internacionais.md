@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Centro Brasileiro de Relações Internacionais (CEBRI)
 
 Tags: Observatorio

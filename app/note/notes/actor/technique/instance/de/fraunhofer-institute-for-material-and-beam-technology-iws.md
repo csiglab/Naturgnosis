@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Fraunhofer Institute for Material and Beam Technology (IWS)
 
 ID: PRO-566

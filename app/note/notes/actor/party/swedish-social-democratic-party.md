@@ -1,3 +1,7 @@
+---
+tags: [actor, political-party]
+---
+
 # Swedish Social Democratic Party (SAP)
 
 The **Swedish Social Democratic Party (SAP)** — officially *Sveriges socialdemokratiska arbetareparti* — is one of the **most successful and institutionally sophisticated social-democratic parties in the world**. It dominated Sweden’s political life for most of the 20th century and played a central role in building the **Swedish welfare state**.

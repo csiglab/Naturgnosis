@@ -1,3 +1,7 @@
+---
+tags: [actor, firm, stock-exchange]
+---
+
 # Johannesburg Stock Exchange (JSE)
 
 Tags: Observatorio

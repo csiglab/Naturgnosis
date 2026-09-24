@@ -1,3 +1,7 @@
+---
+tags: [actor, housing-finance]
+---
+
 # Federal National Mortgage Association (Fannie Mae)
 
 Tags: Observatorio

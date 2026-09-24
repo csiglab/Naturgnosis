@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Frappe Technologies Pvt. Ltd.
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Cargill, Incorporated
 
 Tags: Observatorio

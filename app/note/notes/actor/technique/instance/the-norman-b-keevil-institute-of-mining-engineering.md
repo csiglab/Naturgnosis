@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Norman B. Keevil Institute of Mining Engineering
 
 ID: PRO-564

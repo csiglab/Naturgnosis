@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute, germany]
+---
+
 # Kaiser Wilhelm Society
 
 Tags: Observatorio

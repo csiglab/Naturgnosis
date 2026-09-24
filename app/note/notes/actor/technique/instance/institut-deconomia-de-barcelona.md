@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Institut d’Economia de Barcelona
 
 Tags: Observatorio

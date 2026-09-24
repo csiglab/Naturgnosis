@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # National Bureau of Economic Research
 
 Tags: Observatorio

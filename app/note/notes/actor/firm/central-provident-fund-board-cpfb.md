@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Central Provident Fund Board (CPFB)
 
 Tags: Observatorio

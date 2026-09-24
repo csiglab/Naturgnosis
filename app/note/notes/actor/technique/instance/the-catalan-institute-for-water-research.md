@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # The Catalan Institute for Water Research
 
 Tags: Observatorio

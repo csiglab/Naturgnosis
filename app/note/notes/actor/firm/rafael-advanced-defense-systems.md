@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Rafael Advanced Defense Systems
 
 Tags: Observatorio

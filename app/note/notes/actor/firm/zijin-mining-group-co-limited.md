@@ -1,3 +1,7 @@
+---
+tags: [actor, firm]
+---
+
 # Zijin Mining Group Co., Limited
 
 Tags: Observatorio

@@ -1,3 +1,7 @@
+---
+tags: [actor, research-institute]
+---
+
 # Los Alamos National Laboratory (LANL)
 
 ID: PRO-1665
