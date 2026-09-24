@@ -30,7 +30,7 @@ Division, Language, Currency, Treaty, Alliance, Disputed Territory.
 ## Sources
 
 - Index Gentium (`csiglab/research-CountryIndex`) — country catalog work; natural seed corpus.
-- Actor notes under `app/social/view/actor/` (states, central banks, ministries).
+- Actor notes under `app/note/notes/actor/` (states, central banks, ministries).
 
 
 ## Data provenance

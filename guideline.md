@@ -14,8 +14,9 @@ Rules for files and directories we author:
 - **`_` separates words** — `deploy_server.sh`, `seed_couchdb.py`, `aceleradoras_cientificas.md`.
 - **Semantic names** — the name should say what the thing is (`seed_couchdb.py`, not `s.py`).
 - **Extensions lowercase** — always `.md`, `.py`, `.sh`, `.json`, `.html`, `.png`.
-- **Content slugs** — long-form notes (`app/social/view/`) are named after their content,
-  slugified by `bin/slugify_files.py`. The
+- **Content slugs** — long-form notes (`app/note/notes/`) are named after their content,
+  slugified by the Epistecnica rule (`bin/build_note_index.py:slugify_segment()` —
+  never `bin/slugify_files.py`, which emits `_`). The
   canonical human term lives inside the file (H1), never in the file name.
 
 ### Exemptions
