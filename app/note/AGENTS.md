@@ -9,8 +9,8 @@ note system (code only; none of its personal content).
 
 ## Layout
 
-- `web/index.html` — catalog (search, section facets, pins, pagination).
-- `web/note.html` — single-note viewer (`?n=<path>`; fetches `../notes/`).
+- `web/index.html` — catalog (search, section facets, tag facets, pins, pagination).
+- `web/note.html` — single-note viewer (`?n=<path>`; fetches `../notes/`; strips `--- tags` front matter, renders tag chips).
 - `web/notes.css` — markdown typography (Oxford Common Room tokens).
 - `web/vendor/` — third-party `marked.min.js` (keeps upstream name).
 - `notes/` — source of truth (hand-edited markdown + live HTML; kebab-case).
@@ -28,7 +28,11 @@ curl /note/api/pins               # pinned paths
 ## Invariants
 
 - `notes/` is hand-edited source of truth; `data/index.json` is generated.
-- Note paths are kebab-case (see `notes/readme.md`); the builder warns.
+- Note paths are kebab-case, Epistecnica slug rule (see `notes/readme.md`
+  and `bin/build_note_index.py:slugify_segment()`); the builder warns with
+  the suggested form. Never run `bin/slugify_files.py` (underscore rule) here.
+- Tags are optional `--- tags: [...]` front matter; `data/index.json`
+  carries them and feeds the hub universal search (`bin/build_search_index.py`).
 - Pins live in CouchDB doc `pins` inside the `naturgnosis` database
   (`GET/POST /note/api/pins`); the catalog hides pin UI when unreachable.
 - Viewer + catalog must stay free of cross-repo residue (no Epistecnica

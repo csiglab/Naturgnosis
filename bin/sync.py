@@ -841,7 +841,7 @@ def maybe_bootstrap(couch, dataset, data_file):
     )
 
 
-NON_MODULE_DIRS = ("shared",)
+NON_MODULE_DIRS = ("shared", "data")
 
 
 def discover_modules(app_root):
@@ -850,6 +850,8 @@ def discover_modules(app_root):
     Used for static URL rewriting (/<module>/... -> <module>/web/...) so that
     modules WITHOUT a graph dataset (e.g. a static reader module, which serves
     prebuilt pages instead of data.json) still get clean module URLs.
+    `shared` (theme assets) and `data` (hub-level generated indexes such as
+    search-index.json) are not modules and are served at their physical path.
     """
     app_root = Path(app_root)
     modules = set()

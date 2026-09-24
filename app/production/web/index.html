@@ -3120,6 +3120,29 @@
             .catch(function (err) {
                 loaderMsg.innerHTML = '<span style="color:#c47d8a">Failed to load data.<br>' + err.message + '</span>';
             });
+        /* Deep link: ?node=<id> selects, pans to, and opens the node once loaded.
+           Unknown ids are ignored (normal load). Used by universal search. */
+        (function () {
+            try {
+                var qn = new URLSearchParams(window.location.search).get('node');
+                if (!qn) return;
+                var tries = 0;
+                var timer = setInterval(function () {
+                    tries++;
+                    try {
+                        if (typeof dLoaded !== 'undefined' && dLoaded &&
+                            typeof nM !== 'undefined' && nM && nM[qn] &&
+                            typeof pTN === 'function') {
+                            clearInterval(timer);
+                            var nd = nM[qn];
+                            pTN(nd);
+                            selN = nd;
+                            updateFocusIndicator();
+                        } else if (tries > 100) { clearInterval(timer); }
+                    } catch (e) { clearInterval(timer); }
+                }, 200);
+            } catch (e) { /* ignore malformed query */ }
+        })();
     </script>
 </body>
 </html>

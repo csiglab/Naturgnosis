@@ -42,5 +42,5 @@ Bootstrapped from **Epistecnica epistemica app**: 122 nodes. Raw exports are arc
 
 ## Editor / Explorer
 
-- Explorer: `/epistemica/` — read-only graph viewer.
+- Explorer: `/epistemica/` — read-only graph viewer. Supports `?node=<id>` deep links (selects, pans to, opens the node; unknown ids load normally).
 - Editor: `/epistemica/edit.html` — node editor; syncs to CouchDB `dataset=epistemica`.

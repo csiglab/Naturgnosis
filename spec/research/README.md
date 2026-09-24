@@ -51,5 +51,5 @@ components so the layout clusters visibly.
 
 ## Editor / Explorer
 
-- Explorer: `/research/` — read-only graph viewer.
+- Explorer: `/research/` — read-only graph viewer. Supports `?node=<id>` deep links (selects, pans to, opens the node; unknown ids load normally).
 - Editor: `/research/edit.html` — node editor (`const DATASET = 'research'`); syncs to CouchDB.

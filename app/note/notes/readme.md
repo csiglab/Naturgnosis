@@ -13,7 +13,14 @@ python bin/build_note_index.py
 
 - A **note** is a markdown file (`*.md`), rendered on the fly by the viewer.
   No metadata required: the title comes from the first `# ` heading (else
-  the filename); the top-level directory is the section.
+  the filename); the top-level directory is the section. Optional tags go
+  in `---` front matter (same style as Epistecnica; only `tags: [...]` is
+  read, everything else ignored):
+  ```md
+  ---
+  tags: [social-space, method]
+  ---
+  ```
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`)
   with bespoke interactivity and its own scripts. Served as-is, never
   rendered through the viewer; the catalog still indexes it (title,
@@ -33,8 +40,14 @@ Examples: `social-space-overview.md`, `technique-glossary.md`.
 Non-markdown assets (images, code samples) may live beside notes and are
 exempt from the filename rule, but directories always follow it.
 
-`bin/build_note_index.py` validates every note path and prints warnings for
-violations; warnings never fail the build. Keep the output warning-free.
+Canonical slug (Epistecnica parity): NFKD-normalize to ASCII, lowercase,
+every run of non-alphanumeric characters becomes a single `-`, trim
+leading/trailing `-`; collisions get a `-2`, `-3`, … suffix. Never run
+`bin/slugify_files.py` (underscore rule) on this directory.
+
+`bin/build_note_index.py` validates every note path and tag, prints
+warnings with the suggested normalized form for violations, and never
+fails the build. Keep the output warning-free.
 
 ## Pins
 

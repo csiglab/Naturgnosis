@@ -118,6 +118,7 @@ Features:
     - Use the deepseek api  -  `deepseek-v4-flash` - to output the json - and used that to append the new node.
 8. Use AI also to help to fixed - nodes - and create a diff visualizer - to accept the new changes - use the stack of point 7.
 9. JSON Schema and DeepSeek API elements, such as the route and token, should be entered through the interface.
+10. Explorer deep links: `/social/?node=<id>` selects, pans to, and opens the node once loaded (unknown ids load normally). Used by the hub universal search. The snippet lives in `app/social/web/index.html` and is mirrored in the production/research/technique/epistemica explorers (same engine — keep the copies in sync).
 
 ## Rendering & Data Pipeline
 

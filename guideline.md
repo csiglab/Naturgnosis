@@ -24,8 +24,14 @@ Rules for files and directories we author:
   `docker-compose.yml`, `README.md`, `LICENSE`, `AGENTS.md`, `guideline.md`, `.gitignore`,
   `.dockerignore`, `.github/workflows/deploy.yml`.
 - **`app/*/import/`** — raw third-party exports are archival; never rename or edit (provenance).
-- **`app/note/notes/`** — note corpus paths are an exception to `_` separation: kebab-case
-  (`my-note.md`) per the catalog's naming rules (see `app/note/notes/readme.md`).
+- **`app/note/notes/`** — note corpus paths follow the Epistecnica slug rule, not the `_`
+  rule above: lowercase, fixed transliterations for `æ→ae`, `ø→o`, `œ→oe`,
+  `ß→ss` (no NFKD decomposition), then NFKD-normalize to ASCII, every run of
+  non-alphanumeric characters becomes a single `-`, trim leading/trailing
+  `-` (`my-note.md`).
+  Collisions get a `-2`, `-3`, … suffix. Never run `bin/slugify_files.py`
+  (which emits `_`) on `notes/`; see `app/note/notes/readme.md` and
+  `bin/build_note_index.py:slugify_segment()` for the canonical form.
 - **`app/*/web/vendor/`** — third-party code keeps its upstream name.
 
 ## Paths & URLs

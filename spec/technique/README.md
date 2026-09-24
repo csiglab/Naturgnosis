@@ -41,5 +41,5 @@ Bootstrapped from **Epistecnica tecnica app**: 40 nodes. Raw exports are archiva
 
 ## Editor / Explorer
 
-- Explorer: `/technique/` — read-only graph viewer.
+- Explorer: `/technique/` — read-only graph viewer. Supports `?node=<id>` deep links (selects, pans to, opens the node; unknown ids load normally).
 - Editor: `/technique/edit.html` — node editor; syncs to CouchDB `dataset=technique`.
