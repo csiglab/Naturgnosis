@@ -83,7 +83,11 @@ behavior, or clearly scope a change to one module.
 - CouchDB is a persistent dependency of the execution environment: workflows only connect to it
   (via `COUCHDB_*` in `.env`) and preflight-check it; they never provision, redeploy, or remove it
   (see `deploy/README.md`).
-- `data.json` mirrors are server-written — see Data Sync in the README before committing.
+- Every CouchDB-backed datum has a committed local-filesystem copy; no write path may leave
+  data DB-only. Graph datasets mirror to `app/<module>/data/data.json` (server-written — see
+  Data Sync in the README before committing); note pins mirror to `app/note/data/pins.json`.
+  Any new node addition or new CouchDB-backed store must ship its local mirror plus
+  seed/bootstrap coverage (`bin/seed_couchdb.py`, server startup) in the same change set.
 - `app/note/data/` is the notes corpus (hand-edited markdown); `app/note/data/index.json`
   beside it is generated — never edit it by hand (run `python bin/build_note_index.py`).
 - `.env` is never committed.

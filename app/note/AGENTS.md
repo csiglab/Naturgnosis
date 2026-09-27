@@ -17,6 +17,10 @@ note system (code only; none of its personal content).
   with the generated `index.json` beside it.
 - `data/index.json` — **generated** by `bin/build_note_index.py`; committed
   but never hand-edited.
+- `data/pins.json` is the committed local mirror of the CouchDB `pins` doc
+  (server-written; never hand-edit). Until the server writes it directly,
+  keep it in sync via the `/tmp` pins script; rebuild/commit it after any
+  pin change like `index.json`.
 
 ## Commands
 
