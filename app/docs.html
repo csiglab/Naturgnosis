@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation — Naturgnosis</title>
+    <link rel="icon" href="/shared/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/shared/theme.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(11, 14, 20, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-medium);
+        }
+
+        .nav-inner {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            min-height: 52px;
+        }
+
+        .nav-brand {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .nav-brand:hover { color: var(--accent-copper-light); text-decoration: none; }
+
+        .nav-links { display: flex; gap: 1.1rem; margin-left: auto; flex-wrap: wrap; }
+        .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+        .nav-links a:hover { color: var(--accent-cyan); }
+
+        .layout { flex: 1; width: 100%; max-width: 1080px; margin: 0 auto; padding: 40px 32px; }
+        .crumbs { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); margin-bottom: 24px; }
+        .crumbs a { color: var(--text-muted); }
+        .cols { display: grid; grid-template-columns: 1fr 220px; gap: 48px; align-items: start; }
+
+        .doc-title {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 300;
+            font-size: 2.6rem;
+            line-height: 1.1;
+            padding-bottom: 16px;
+            background: linear-gradient(90deg, var(--accent-copper), transparent) bottom left / 240px 1px no-repeat;
+        }
+
+        .doc-body h2 {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.5rem;
+            margin: 40px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-margin-top: 70px;
+        }
+
+        .doc-body h3 {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin: 24px 0 8px;
+            color: var(--text-primary);
+            scroll-margin-top: 70px;
+        }
+
+        .doc-body p, .doc-body li { font-size: 0.85rem; line-height: 1.7; color: var(--text-secondary); }
+        .doc-body p { margin-bottom: 12px; }
+        .doc-body ul { padding-left: 22px; margin-bottom: 12px; }
+        .doc-body strong { color: var(--text-primary); font-weight: 500; }
+        .doc-body code {
+            font-family: var(--font-mono);
+            font-size: 0.75em;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 1px 5px;
+            color: var(--accent-copper-light);
+        }
+
+        .live {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            gap: 10px;
+            margin: 24px 0 8px;
+        }
+        .stat {
+            background: rgba(0, 0, 0, 0.15);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 10px 12px;
+        }
+        .stat .value { font-family: var(--font-mono); font-size: 1rem; color: var(--accent-copper-light); }
+        .stat .label { font-family: var(--font-mono); font-size: 0.52rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-top: 3px; }
+
+        table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.78rem; }
+        th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-subtle); }
+        th { font-family: var(--font-mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+        td { color: var(--text-secondary); }
+
+        .sidebar { position: sticky; top: 72px; }
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+        .toc-item {
+            display: block;
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+            padding: 4px 0 4px 12px;
+            border-left: 1px solid var(--border-subtle);
+            text-decoration: none;
+        }
+        .toc-item.sub { padding-left: 24px; font-size: 0.68rem; color: var(--text-muted); }
+        .toc-item:hover { color: var(--accent-cyan); text-decoration: none; }
+        .toc-item.active { color: var(--accent-copper-light); border-left-color: var(--accent-copper); }
+
+        footer {
+            padding: 20px 32px;
+            border-top: 1px solid var(--border-subtle);
+            max-width: 1080px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav" aria-label="Naturgnosis">
+        <div class="nav-inner">
+            <a class="nav-brand" href="/">Naturgnosis</a>
+            <div class="nav-links">
+                <a href="/social/">Social</a>
+                <a href="/production/">Production</a>
+                <a href="/research/">Research</a>
+                <a href="/nation/">Nations</a>
+                <a href="/technique/">Technique</a>
+                <a href="/epistemica/">Epistemic</a>
+                <a href="/nature/">Nature</a>
+                <a href="/note/">Notes</a>
+                <a href="/graph/">Graph</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="layout">
+        <div class="crumbs"><a href="/">naturgnosis</a> / docs</div>
+        <div class="cols">
+            <main class="doc-main">
+                <h1 class="doc-title">Documentation <em style="color:var(--accent-copper);">&amp;</em> Theory</h1>
+
+                <div class="doc-body">
+                    <div class="live" aria-label="Live corpus sizes">
+                        <div class="stat"><div class="value" id="stat-social">&mdash;</div><div class="label">Social nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-production">&mdash;</div><div class="label">Production nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-research">&mdash;</div><div class="label">Research nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-nation">&mdash;</div><div class="label">Nations</div></div>
+                        <div class="stat"><div class="value" id="stat-technique">&mdash;</div><div class="label">Technique nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-epistemica">&mdash;</div><div class="label">Epistemic nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-nature">&mdash;</div><div class="label">Nature nodes</div></div>
+                        <div class="stat"><div class="value" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
+                    </div>
+
+                    <h2 id="what">What Naturgnosis Is</h2>
+                    <p>
+                        <strong>Naturgnosis</strong> identifies and formalizes the set of epistemic
+                        elements that enable an agent to effectively navigate — understanding and
+                        action — reality, especially social reality. It is the main index of the
+                        world's <strong>technique</strong> and <strong>episteme</strong>: a
+                        comprehensive, structured, navigable registry of the world epistemic and
+                        technical practice.
+                    </p>
+                    <p>
+                        Its product is a <strong>Domain Epistemic Artifact Set (DESA)</strong> per
+                        space — nodes are the elements the theory distinguishes, edges are the typed
+                        relationships that make a domain intelligible, and every artifact links back
+                        to real-world actions, interventions, and decisions.
+                    </p>
+                    <p>
+                        <a href="https://github.com/dbremont/Epistecnica">Epistecnica</a> is the
+                        sibling project: what is intentionally pursued through deep study and
+                        mastery. The two are kept separate — nothing leaks between them without
+                        explicit intent.
+                    </p>
+
+                    <h2 id="theory">The Theory</h2>
+
+                    <h3>Technique and operation</h3>
+                    <p>
+                        <em>Philosophia Artium Technicarum et Operis</em> systematizes purposeful
+                        (agentic) operation and its primary driver: <strong>technique</strong>, the
+                        organized method for achieving a desired transformation through purposeful
+                        action. Its most abstract formulation of operation:
+                    </p>
+                    <ul>
+                        <li>Requirements &rarr; Technique &rarr; Product (good, service).</li>
+                        <li>Desired Difference &rarr; Controlled Transformation &rarr; Realized Difference.</li>
+                    </ul>
+                    <p>
+                        Technique content is decomposed per its "How to decompose any technical
+                        instance?" workflow — root, typed intermediates, instance leaves, recursion —
+                        with one tree per element type when an instance reads multiply
+                        (multi-root forest, never two types on one row).
+                    </p>
+
+                    <h3>The epistemic arts</h3>
+                    <p>
+                        <em>Philosophia Artium Epistemicarum et Operis</em> is its counterpart: how
+                        reality becomes intelligible. Ontology and epistemology are mutually
+                        constraining duals of the same epistemic act — ontology constrains
+                        <em>what is</em>, epistemology how the known is accessed and represented.
+                        Both guides live as meta notes in the corpus
+                        (<a href="/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md">technicarum</a>,
+                        <a href="/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md">epistemicarum</a>)
+                        and are binding for decomposition work.
+                    </p>
+
+                    <h2 id="spaces">The Spaces</h2>
+
+                    <h3>Social Space — the main module</h3>
+                    <p>
+                        The ontic–agentic–epistemic elements rendering social reality intelligible:
+                        actors, institutions, roles, norms, beliefs, relationships —
+                        <span id="stat-social-inline">&mdash;</span> nodes. Explore it in the
+                        <a href="/social/">explorer</a> and edit it in the
+                        <a href="/social/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Production Space</h3>
+                    <p>
+                        The production sphere: techniques, products, firms, processes and the
+                        capabilities binding them — <span id="stat-production-inline">&mdash;</span>
+                        nodes. <a href="/production/">Explorer</a> ·
+                        <a href="/production/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Research Space</h3>
+                    <p>
+                        The world's research apparatus: institutes, laboratories, funding agencies,
+                        universities — <span id="stat-research-inline">&mdash;</span> nodes.
+                        <a href="/research/">Explorer</a> ·
+                        <a href="/research/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Nation Space</h3>
+                    <p>
+                        A structured registry of sovereign systems in the Index Gentium grammar:
+                        per-nation entries with vital statistics —
+                        <span id="stat-nation-inline">&mdash;</span> nations.
+                        <a href="/nation/">Index</a> ·
+                        <a href="/nation/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Technique Space</h3>
+                    <p>
+                        Fine-grained technique beneath the production layer: artifacts, engineering
+                        principles, methods — <span id="stat-technique-inline">&mdash;</span> nodes.
+                        <a href="/technique/">Explorer</a> ·
+                        <a href="/technique/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Epistemic Space</h3>
+                    <p>
+                        The set of elements that renders reality intelligible: disciplines, fields,
+                        and bodies of knowledge — <span id="stat-epistemica-inline">&mdash;</span>
+                        nodes. <a href="/epistemica/">Explorer</a> ·
+                        <a href="/epistemica/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Nature Space</h3>
+                    <p>
+                        The ontic counterpart to Epistemic Space: physical and living phenomena
+                        existing independently of inquiry —
+                        <span id="stat-nature-inline">&mdash;</span> nodes, seeded with the ontic
+                        elements moved out of epistemica. <a href="/nature/">Explorer</a> ·
+                        <a href="/nature/edit.html">editor</a>.
+                    </p>
+
+                    <h3>Note Space &amp; Universal Index</h3>
+                    <p>
+                        Long-form notes live in the <a href="/note/">catalog</a>
+                        (<span id="stat-notes-inline">&mdash;</span> notes, plain markdown plus a
+                        generated index). The <a href="/graph/">universal index</a> (Graphive)
+                        renders every graph space on one read-only canvas; universal search in the
+                        hub header covers all of it via <code>make search-index</code>, deep-linking
+                        into explorers with <code>?node=&lt;id&gt;</code>.
+                    </p>
+
+                    <h2 id="architecture">Architecture, for the Curious</h2>
+                    <p>
+                        One small server (<code>bin/sync.py</code>) fronts every module from a
+                        single image. Graph data lives in CouchDB (one document per node, ids
+                        namespaced <code>{dataset}:{node_id}</code>), mirrored to
+                        <code>app/&lt;module&gt;/data/data.json</code> on every save so the
+                        read-only viewers keep working off static files. CouchDB is a persistent
+                        dependency of the environment — workflows connect to it, never provision it.
+                    </p>
+                    <table>
+                        <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
+                        <tbody>
+                            <tr><td><code>GET /api/health</code></td><td>Service + CouchDB status</td></tr>
+                            <tr><td><code>GET /api/graph?dataset=…</code></td><td>Nodes for a dataset</td></tr>
+                            <tr><td><code>POST /api/graph/save</code></td><td>Editor upsert/delete + mirror</td></tr>
+                            <tr><td><code>POST /api/layout/recompute?dataset=…</code></td><td>Regenerate <code>layout.json</code></td></tr>
+                            <tr><td><code>GET/POST /note/api/pins</code></td><td>Notes-catalog pins (read / toggle)</td></tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        Deliberate rebuilds, committed like code:
+                        <code>make build</code> (notes + search + universal + layouts),
+                        <code>make universal-index</code>, <code>make seed</code> (push mirrors
+                        into CouchDB). In offline mode (<code>--no-couch</code>) the API answers
+                        503 and the static mirrors carry the pages.
+                    </p>
+
+                    <h2 id="design">Design</h2>
+                    <p>
+                        Every surface derives from the Oxford Common Room tokens
+                        (<code>app/shared/theme.css</code>); colors are never hardcoded.
+                        Module directory = URL segment = dataset id; fixed data names inside a
+                        module (<code>data.json</code>, <code>layout.json</code>,
+                        <code>index.json</code>, <code>schema.json</code>). Conventions live in
+                        <code>guideline.md</code> and bind contributors and agents alike.
+                    </p>
+                </div>
+            </main>
+
+            <aside class="sidebar" id="sidebar">
+                <div class="sidebar-title">Contents</div>
+                <nav id="toc"></nav>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <span class="ng-caption">Naturgnosis · csiglab · docs</span>
+        <span class="ng-caption"><a href="/">index</a> · <a href="/note/">notes</a> ·
+            <a href="/graph/">graph</a> · <a href="/api/health">health</a></span>
+    </footer>
+
+    <script>
+    (function () {
+        'use strict';
+
+        function setText(id, v) {
+            var el = document.getElementById(id);
+            if (el) el.textContent = v;
+        }
+
+        /* Live corpus sizes. Offline (--no-couch) the API 503s and the
+           em-dash placeholders stay; the static note index still resolves. */
+        ['social', 'production', 'research', 'nation', 'technique', 'epistemica', 'nature'].forEach(function (ds) {
+            fetch('/api/graph?dataset=' + encodeURIComponent(ds), { headers: { 'Accept': 'application/json' } })
+                .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(function (nodes) {
+                    var v = (Array.isArray(nodes) ? nodes.length : 0).toLocaleString();
+                    setText('stat-' + ds, v);
+                    setText('stat-' + ds + '-inline', v);
+                })
+                .catch(function () { /* keep the em-dash placeholder */ });
+        });
+
+        fetch('/note/data/index.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) {
+                var v = (d.count != null ? d.count : 0).toLocaleString();
+                setText('stat-notes', v);
+                setText('stat-notes-inline', v);
+            })
+            .catch(function () { /* keep the em-dash placeholder */ });
+
+        /* Table of contents + scrollspy. */
+        var headings = document.querySelectorAll('.doc-body h2, .doc-body h3');
+        var toc = document.getElementById('toc');
+        if (!headings.length) { document.getElementById('sidebar').remove(); }
+        headings.forEach(function (h, i) {
+            if (!h.id) h.id = 'sec-' + i;
+            var a = document.createElement('a');
+            a.href = '#' + h.id;
+            a.className = 'toc-item' + (h.tagName === 'H3' ? ' sub' : '');
+            a.textContent = h.textContent;
+            a.addEventListener('click', function (e) {
+                e.preventDefault();
+                h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+            toc.appendChild(a);
+        });
+
+        if (headings.length) {
+            var items = toc.querySelectorAll('.toc-item');
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (!entry.isIntersecting) return;
+                    var idx = Array.prototype.indexOf.call(headings, entry.target);
+                    items.forEach(function (it) { it.classList.remove('active'); });
+                    if (items[idx]) items[idx].classList.add('active');
+                });
+            }, { rootMargin: '-10% 0px -60% 0px' });
+            headings.forEach(function (h) { observer.observe(h); });
+        }
+    })();
+    </script>
+</body>
+
+</html>

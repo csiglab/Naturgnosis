@@ -31,7 +31,7 @@
 
         .nav-inner {
             max-width: 1080px;
-            margin: 0 auto;
+            margin: 0 auto;`
             padding: 0 32px;
             display: flex;
             align-items: center;
@@ -285,60 +285,77 @@ rehensive, structured, and navigable registry - map of the world epistemic and t
         </header>
 
         <section class="registry" aria-label="Module registry">
-            <a class="module ng-card" href="/social/">
-                <span class="ng-eyebrow">Module 01 · Main</span>
-                <h2>Social Space</h2>
-                <p>The ontic–agentic–epistemic elements that render social reality intelligible: actors,
-                    institutions, roles, norms, beliefs, relationships — as a navigable graph.</p>
+            <a class="module ng-card" href="/nature/">
+                <span class="ng-eyebrow">Module 01</span>
+                <h2>Nature Space</h2>
+                <p>The space of nature: physical and living phenomena existing independently of
+                    inquiry — the ontic counterpart to Epistemic Space — as a navigable graph.</p>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/production/">
+            <a class="module ng-card" href="/epistemica/">
                 <span class="ng-eyebrow">Module 02</span>
-                <h2>Production Space</h2>
-                <p>The production sphere rendered intelligible: techniques, products, firms, processes and the
-                    capabilities that bind them — as a navigable graph.</p>
+                <h2>Epistemic Space</h2>
+                <p>The set of elements that renders reality intelligible.</p>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
-
-            <a class="module ng-card" href="/research/">
-                <span class="ng-eyebrow">Module 03</span>
-                <h2>Research Space</h2>
-                <p>The world's research apparatus: public research institutes, laboratories, funding agencies,
-                    universities and their intersections — as a navigable graph.</p>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
-
-            <a class="module ng-card" href="/nation/">
-                <span class="ng-eyebrow">Module 04</span>
-                <h2>Nation Space</h2>
-                <p>A structured registry of sovereign systems — an illustrated index of nations with
-                    per-nation entries, in the Index Gentium grammar.</p>
-                <div class="links"><span>Index</span><span>Editor</span></div>
             </a>
 
             <a class="module ng-card" href="/technique/">
-                <span class="ng-eyebrow">Module 05</span>
+                <span class="ng-eyebrow">Module 03</span>
                 <h2>Technique Space</h2>
                 <p>Fine-grained technique: technical artifacts, engineering principles, methods and
                     implementation details beneath the production layer — as a navigable graph.</p>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/epistemica/">
+            <a class="module ng-card" href="/social/">
+                <span class="ng-eyebrow">Module 04 · Main</span>
+                <h2>Social Space</h2>
+                <p>The ontic–agentic–epistemic elements that render social reality intelligible: actors,
+                    institutions, roles, norms, beliefs, relationships — as a navigable graph.</p>
+                <div class="links"><span>Explorer</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/nation/">
+                <span class="ng-eyebrow">Module 05</span>
+                <h2>Nation Space</h2>
+                <p>A structured registry of sovereign systems — an illustrated index of nations with
+                    per-nation entries, in the Index Gentium grammar.</p>
+                <div class="links"><span>Index</span><span>Editor</span></div>
+            </a>
+
+            <a class="module ng-card" href="/production/">
                 <span class="ng-eyebrow">Module 06</span>
-                <h2>Epistemic Space</h2>
-                <p>The space of episteme: disciplines, fields, and bodies of knowledge that deep study
-                    and mastery can pursue — as a navigable graph.</p>
+                <h2>Production Space</h2>
+                <p>The production sphere rendered intelligible — a computed view over Social Space:
+                    nodes tagged <code>production-view</code>, recomputed via
+                    <code>make production-view</code>.</p>
+                <div class="links"><span>Explorer</span></div>
+            </a>
+
+            <a class="module ng-card" href="/research/">
+                <span class="ng-eyebrow">Module 07</span>
+                <h2>Research Space</h2>
+                <p>The world's research apparatus: public research institutes, laboratories, funding agencies,
+                    universities and their intersections — as a navigable graph.</p>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
             <a class="module ng-card" href="/note/">
-                <span class="ng-eyebrow">Module 07</span>
+                <span class="ng-eyebrow">Module 08</span>
                 <h2>Note Space</h2>
                 <p>Long-form notes on the spaces Naturgnosis maps — a searchable catalog with a
                     single-note reader, persisted as plain markdown.</p>
                 <div class="links"><span>Index</span><span>Search</span></div>
+            </a>
+
+            <a class="module ng-card" href="/graph/">
+                <span class="ng-eyebrow">Hub · Read-only</span>
+                <h2>Universal Index</h2>
+                <p>Graphive: every space on one canvas — nature, epistemic, technique,
+                    social, nation, production and research nodes with source links. Recomputed via
+                    <code>make universal-index</code>.</p>
+                <div class="links"><span>Graph</span></div>
             </a>
 
         </section>
@@ -348,7 +365,7 @@ rehensive, structured, and navigable registry - map of the world epistemic and t
     <footer>
         <span class="ng-caption">Naturgnosis · csiglab</span>
         <span class="ng-caption"><a href="https://github.com/csiglab/Naturgnosis">source</a> ·
-            <a href="/api/health">status</a></span>
+            <a href="/docs.html">docs</a> · <a href="/api/health">status</a></span>
     </footer>
 
     <script>
@@ -372,6 +389,7 @@ rehensive, structured, and navigable registry - map of the world epistemic and t
             ['nation', 'Nations'],
             ['technique', 'Technique nodes'],
             ['epistemica', 'Epistemic nodes'],
+            ['nature', 'Nature nodes'],
             ['note', 'Notes']
         ];
 
@@ -388,7 +406,7 @@ rehensive, structured, and navigable registry - map of the world epistemic and t
         function uurl(e) {
             if (e.surface === 'note') {
                 var p = uencPath(e.path);
-                return e.kind === 'live' ? '/note/notes/' + p : '/note/note.html?n=' + p;
+                return e.kind === 'live' ? '/note/data/' + p : '/note/note.html?n=' + p;
             }
             if (e.surface === 'nation' && e.kind === 'node') {
                 return '/nation/entry.html?code=' + encodeURIComponent(e.path);

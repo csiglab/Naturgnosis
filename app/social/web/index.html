@@ -706,6 +706,16 @@
             flex-shrink: 0;
         }
 
+        .cat-legend-dot.hollow {
+            background: transparent;
+            border: 1px solid var(--text-muted);
+        }
+        .cat-legend-item.pseudo span {
+            font-style: italic;
+            color: var(--text-muted);
+        }
+        .cat-legend-item.pseudo:hover span { color: var(--accent-copper-light); }
+
         /* Search Dropdown */
         .search-dropdown {
             position: fixed;
@@ -2239,7 +2249,14 @@
         /* ═══════ CATEGORY LEGEND ═══════ */
         function buildCategoryLegend() {
             var container = document.getElementById('category-legend');
-            var html = '';
+            /* Pseudo-categories: bulk actions styled as legend rows (never enter
+               catVisibility, never dim — they act, they don't filter). */
+            var html = '<div class="cat-legend-item pseudo" data-category="__all">' +
+                '<div class="cat-legend-dot" style="background:var(--accent-copper)"></div>' +
+                '<span>All</span></div>' +
+                '<div class="cat-legend-item pseudo" data-category="__none">' +
+                '<div class="cat-legend-dot hollow"></div>' +
+                '<span>None</span></div>';
             Object.keys(_categoryColorCache).forEach(function (cat) {
                 var col = getCategoryColor(cat);
                 html += '<div class="cat-legend-item" data-category="' + cat + '">';
@@ -2252,11 +2269,22 @@
             container.querySelectorAll('.cat-legend-item').forEach(function (el) {
                 el.addEventListener('click', function () {
                     var cat = el.dataset.category;
+                    if (cat === '__all') { setAllCategories(true); return; }
+                    if (cat === '__none') { setAllCategories(false); return; }
                     catVisibility[cat] = catVisibility[cat] === false ? true : false;
                     el.classList.toggle('dimmed', !catVisibility[cat]);
                     uFilt();
                 });
             });
+        }
+
+        /* Bulk category visibility (pseudo-categories stay undimmed). */
+        function setAllCategories(on) {
+            Object.keys(_categoryColorCache).forEach(function (cat) { catVisibility[cat] = on; });
+            document.querySelectorAll('#category-legend .cat-legend-item:not(.pseudo)').forEach(function (el) {
+                el.classList.toggle('dimmed', !on);
+            });
+            uFilt();
         }
 
         /* ═══════ DATA INITIALIZATION ═══════ */
