@@ -61,7 +61,8 @@ Before decomposing instances or documenting elements, follow the workflow in the
 technique content → "How to decompose any technical instance?"
 (`/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md`); epistemic content → "How to decomposed
 any epistemical instance?" (`/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md`); social content → "How to decompose any social instance?"
-(`/note/note.html?n=meta/philosophia-socialium-et-operis.md`). An instance
+(`/note/note.html?n=meta/philosophia-socialium-et-operis.md`); natural content → "How to decompose any natural instance?"
+(`/note/note.html?n=meta/philosophia-naturalis-et-operis.md`). An instance
 readable as multiple element types gets one tree per type (multi-root forest — never two types
 on one row); when the root typing is ambiguous, ask the user instead of guessing.
 

@@ -115,6 +115,11 @@ How-to workflows for decomposition and content work live as meta notes in the co
   ([viewer](/note/note.html?n=meta/philosophia-socialium-et-operis.md)):
   "How to decompose any social instance?", layer test (Ontic/Synontic/Noetic/Multi),
   facet assignment, social-element note schema.
+- Natural content — `app/note/data/meta/philosophia-naturalis-et-operis.md`
+  ([viewer](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)):
+  "How to decompose any natural instance?", level of organization, Limitation
+  checklist, natural-element note schema. Presupposes the epistemicarum definitions;
+  restates nothing from it.
 
 Follow the applicable workflow before decomposing instances or documenting elements; when
 the root typing is ambiguous, ask the user instead of guessing.
