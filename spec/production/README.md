@@ -4,6 +4,16 @@
 
 > This is a coarse-grained description of production and its underlying elements, including technology. For more detailed information—such as technical artifacts, engineering principles, techniques, and implementation details—see the Technique Space module (`app/technique/`).
 
+## Status: derived view (no dataset)
+
+Production nodes are owned by Social Space and marked there with the reserved
+`production-view` tag; the graph is computed by `bin/build_production_view.py` into
+`app/production/data/view.json` (+ `view-layout.json`). There is no `production` dataset,
+no `data.json`, and no editor — create and edit nodes in `/social/`, then run
+`make production-view`. Market nodes likewise live in Social Space and enter this view
+through the same tag. See "Derived views" in `guideline.md` and
+`app/production/AGENTS.md`.
+
 ## Formulation
 
 > Which are the set of concepts that useful to describe prodduction? Which are the main categories?

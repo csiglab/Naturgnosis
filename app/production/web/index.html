@@ -3105,8 +3105,10 @@
         resize(); render(); window.addEventListener('resize', resize);
 
         var loaderMsg = document.getElementById('loader-msg');
-        loaderMsg.textContent = 'Loading epistemic space';
-        fetch('../data/data.json')
+        loaderMsg.textContent = 'Loading production view';
+        /* Derived view: computed from Social Space nodes tagged `production-view`
+           (bin/build_production_view.py). Nodes are owned and edited in /social/. */
+        fetch('../data/view.json')
             .then(function (r) {
                 if (!r.ok) throw new Error('HTTP ' + r.status);
                 return r.json();
@@ -3114,7 +3116,7 @@
             .then(function (d) {
                 loaderMsg.textContent = 'Building graph';
                 var arr = Array.isArray(d) ? d : (d.nodes || d.categories || []);
-                if (!arr.length) throw new Error('Empty dataset');
+                if (!arr.length) throw new Error('Empty view — recompute with: make production-view');
                 setTimeout(function () { initGraph(arr); }, 50);
             })
             .catch(function (err) {
