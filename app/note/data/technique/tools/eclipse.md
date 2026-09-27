@@ -8,7 +8,7 @@ tags: [java, ide, debugging, osgi, maven]
 >
 > It is the complement of the command line and the bare build: the workspace returns fast, managed feedback (problems view, incremental build, debugger with source lookup) while the `Bundle` persists as the unit of functionality, claimed and wired by the Equinox runtime through the extension registry.
 >
-> This note characterizes Eclipse as a full ensemble — distribution, OSGi runtime, workbench, JDT, PDE, help, Maven bridge, configuration, practices, and evolution — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md).
+> This note characterizes Eclipse as a full ensemble — distribution, OSGi runtime, workbench, JDT, PDE, help, Maven bridge, configuration, practices, and evolution — following the schema in [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -181,8 +181,8 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 - [Introduction to OSGi](https://www.baeldung.com/osgi)
 - [Using the Eclipse IDE for Java programming - Tutorial](https://www.vogella.com/tutorials/Eclipse/article.html)
 - [Eclipse java debugging: source not found - Stack Overflow](https://stackoverflow.com/questions/6174550/eclipse-java-debugging-source-not-found)
-- [Maven](note.html?n=pto/maven.md)
-- [VS Code](note.html?n=pto/vscode.md)
-- [Java EE / Jakarta EE](note.html?n=cto/es/multinode/java-ee-jakarta-ee.md)
-- [WildFly](note.html?n=cto/es/multinode/wildfly.md)
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
+- [Maven](note.html?n=technique/tools/maven.md)
+- [VS Code](note.html?n=technique/tools/vscode.md)
+- [Java EE / Jakarta EE](note.html?n=technique/systems/multinode/java-ee-jakarta-ee.md)
+- [WildFly](note.html?n=technique/systems/multinode/wildfly.md)
+- [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)

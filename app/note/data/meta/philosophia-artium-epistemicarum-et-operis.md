@@ -268,8 +268,8 @@
 ## References
 
 - [Philosophia Naturalis](https://app.notion.com/p/Philosophia-Naturalis-32ac0f5171ec807b9388c870ab664abf?source=copy_link)
-- [Philosophia Artium Technicarum et Operis](note.html?n=general/philosophia-artium-technicarum-et-operis.md)
-- [Concept](note.html?n=general/concept.md)
+- [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
+- [Concept](note.html?n=technique/systems/concept.md)
 - Reality (no dedicated note yet — see the Formulation question above)
 - Ontology (no dedicated note yet — see the Formulation question above)
 - Observer (no dedicated note yet)

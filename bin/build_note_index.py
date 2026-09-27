@@ -36,6 +36,9 @@ NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+# Corpus-relative paths that are authoring/ops docs, not notes: scanned
+# but never indexed (the catalog would otherwise list them as notes).
+SKIP_FILES = {"readme.md"}
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 TAGS_RE = re.compile(r"^tags:\s*\[(.*)\]\s*$")
@@ -200,6 +203,8 @@ def main() -> int:
     for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
         for path in sorted(NOTES.rglob(pattern)):
             rel = path.relative_to(NOTES)
+            if rel.as_posix() in SKIP_FILES:  # authoring docs, not notes
+                continue
             check_name(rel, warnings)
             notes.append(parser(path, rel, warnings))
 
