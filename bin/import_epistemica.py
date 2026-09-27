@@ -78,6 +78,12 @@ def convert(src):
     }
 
 
+# Nodes moved to the Nature Space (app/nature) on 2026-09-27: they are ontic
+# (category == reality), not epistemic scaffolding. Excluded here so a re-run
+# never resurrects them in epistemica; the import/ archives stay untouched.
+MOVED_TO_NATURE = frozenset({"em-wave-ontic-001", "process_decision_making"})
+
+
 def main(argv=None):
     here = Path(__file__).resolve().parent
     repo = here.parent
@@ -90,7 +96,7 @@ def main(argv=None):
 
     raw = json.loads(src.read_text(encoding="utf-8"))
     nodes = [convert(n) for n in raw if isinstance(n, dict) and n.get("id")]
-    nodes = [n for n in nodes if n["id"] and n["name"]]
+    nodes = [n for n in nodes if n["id"] and n["name"] and n["id"] not in MOVED_TO_NATURE]
 
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", encoding="utf-8") as fh:

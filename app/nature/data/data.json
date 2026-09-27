@@ -1,0 +1,305 @@
+[
+  {
+    "id": "em-wave-ontic-001",
+    "name": "ElectromagneticWave",
+    "tags": [
+      "reality",
+      "electromagnetism",
+      "wave",
+      "ontic",
+      "classical-physics",
+      "field-theory"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "A self-propagating transverse wave of oscillating electric and magnetic fields that travels through vacuum or matter at the speed of light, carrying energy and momentum without requiring a material medium.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "The concept of electromagnetic waves emerged from the unification of electricity and magnetism by James Clerk Maxwell in the 1860s, who predicted their existence. Heinrich Hertz experimentally generated and detected radio waves in 1887, confirming Maxwell's theory. Later developments included the discovery of X-rays by Röntgen (1895), gamma rays by Villard (1900), and the quantum formulation by Einstein (1905) and others, leading to wave-particle duality.",
+      "events": [
+        {
+          "year": 1864,
+          "event": "Maxwell publishes 'A Dynamical Theory of the Electromagnetic Field', predicting electromagnetic waves.",
+          "associatedContext": "Unification of electricity, magnetism, and light; wave equation derived."
+        },
+        {
+          "year": 1887,
+          "event": "Hertz experimentally generates and detects radio waves, confirming Maxwell's prediction.",
+          "associatedContext": "First controlled production and measurement of electromagnetic waves in the laboratory."
+        },
+        {
+          "year": 1905,
+          "event": "Einstein explains the photoelectric effect using light quanta (photons), introducing wave-particle duality.",
+          "associatedContext": "Quantum nature challenges purely classical wave ontology."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "electric-field-ontic-001",
+        "description": "An electromagnetic wave is composed of oscillating electric and magnetic fields mutually inducing each other."
+      },
+      {
+        "relationshipFamily": "representational",
+        "relationshipType": "formalizes",
+        "targetNodeId": "maxwell-equations-001",
+        "description": "The behavior of electromagnetic waves is formalized by Maxwell's equations in vacuum or media."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "produces",
+        "targetNodeId": "radiation-pressure-001",
+        "description": "Electromagnetic waves produce radiation pressure and momentum transfer upon absorption or reflection."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Dynamical.Phenomena",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "conceptEvaluationNote": "The electromagnetic wave is a highly successful ontic concept in classical physics, enabling precise predictions of propagation, interference, and radiation. However, at quantum scales it is supplanted by the photon field description, though classical waves remain a valid approximation for many phenomena (coherent states). As an epistemic tool, it provides an intuitive visualizable model but must be complemented by quantum field theory for completeness.",
+      "functionalRoles": [
+        "energy_transport",
+        "momentum_transfer",
+        "information_carrier",
+        "force_mediator_in_classical_electrodynamics"
+      ],
+      "realityDomains": [
+        "electromagnetism",
+        "optics",
+        "radio_physics",
+        "quantum_electrodynamics"
+      ]
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": false,
+        "primaryJustification": "Electromagnetic wave is a fundamental ontic entity in classical electromagnetism, directly referring to a real physical phenomenon, not an epistemic artifact or process.",
+        "alternativeCategories": []
+      },
+      "confidenceScore": 0.98,
+      "sourceReference": "Derived from Maxwell's equations, standard electrodynamics textbooks (e.g., Jackson, Griffiths), and historical analysis.",
+      "createdAt": "2025-01-15T10:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "Moved epistemica -> nature (ontic). Edges unchanged; targets stubbed in nature."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "epistecnica-import",
+      "imported": "2026-09-12"
+    },
+    "references": []
+  },
+  {
+    "id": "process_decision_making",
+    "name": "Decision-Making",
+    "tags": [
+      "reality",
+      "decision-making",
+      "process",
+      "choice",
+      "bounded rationality"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "A structured epistemic process in which an agent selects one action from a set of alternatives based on evaluation of expected outcomes, constraints, and objectives.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "Studied across psychology, economics, and artificial intelligence as a core rationality process.",
+      "events": [
+        {
+          "year": 1955,
+          "event": "Bounded rationality (Herbert Simon)",
+          "associatedContext": "Limits of human decision-making capacity"
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "processType": "Sequential bounded rational selection process",
+      "inputs": [
+        "belief_state",
+        "utility_structure",
+        "action_space",
+        "constraints"
+      ],
+      "outputs": [
+        "selected_action",
+        "commitment_state"
+      ],
+      "validationMethod": "Outcome evaluation against realized utility and prediction error minimization",
+      "functionalRoles": [
+        "selection_process",
+        "evaluation_pipeline",
+        "action_commitment"
+      ],
+      "realityDomains": [
+        "cognitive systems",
+        "organizational systems",
+        "autonomous agents"
+      ]
+    },
+    "metadata": {
+      "confidenceScore": 0.95,
+      "sourceReference": "curated",
+      "createdAt": "2026-05-28T14:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "Moved epistemica -> nature (ontic). Pruned cross-dataset edges: uses framework_decision_theory, is_bounded_by constraint_uncertainty."
+        }
+      ],
+      "inheritanceLevel": 1,
+      "source": "epistecnica-import",
+      "imported": "2026-09-12"
+    },
+    "references": [
+      {
+        "title": "Administrative Behavior - Herbert A. Simon",
+        "description": "Foundational work on bounded rationality in decision processes."
+      }
+    ]
+  },
+  {
+    "id": "electric-field-ontic-001",
+    "name": "ElectricField",
+    "tags": [
+      "reality",
+      "electromagnetism",
+      "field",
+      "ontic",
+      "stub"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "A physical field surrounding electric charges that exerts force on other charges; oscillates mutually with the magnetic field in a propagating electromagnetic wave.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "ontologicalClass": "Ontic.Substantial.Substance",
+      "observability": "observable",
+      "functionalRoles": [
+        "force_mediation",
+        "field_oscillation"
+      ],
+      "realityDomains": [
+        "electromagnetism",
+        "classical-physics"
+      ]
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "Stub created 2026-09-27 to resolve em-wave-ontic-001 edges during the epistemica -> nature move.",
+      "createdAt": "2026-09-27T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "Stub; expand into a full record."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-bootstrap"
+    },
+    "references": []
+  },
+  {
+    "id": "radiation-pressure-001",
+    "name": "RadiationPressure",
+    "tags": [
+      "reality",
+      "electromagnetism",
+      "pressure",
+      "ontic",
+      "stub"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "Pressure exerted on a surface by incident electromagnetic radiation through absorption or reflection; the macroscopic effect of photon momentum transfer.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "ontologicalClass": "Ontic.Dynamical.Phenomena",
+      "observability": "observable",
+      "functionalRoles": [
+        "momentum_transfer",
+        "mechanical_effect"
+      ],
+      "realityDomains": [
+        "electromagnetism",
+        "optics"
+      ]
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "Stub created 2026-09-27 to resolve em-wave-ontic-001 edges during the epistemica -> nature move.",
+      "createdAt": "2026-09-27T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "Stub; expand into a full record."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-bootstrap"
+    },
+    "references": []
+  },
+  {
+    "id": "maxwell-equations-001",
+    "name": "MaxwellEquations",
+    "tags": [
+      "reality",
+      "electromagnetism",
+      "law",
+      "ontic",
+      "stub"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "The set of four coupled partial differential equations unifying electricity and magnetism; their vacuum solutions predict self-propagating electromagnetic waves.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "ontologicalClass": "Ontic.Synontic.Structural",
+      "observability": "observable",
+      "functionalRoles": [
+        "unification",
+        "wave_prediction"
+      ],
+      "realityDomains": [
+        "electromagnetism",
+        "classical-physics"
+      ]
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "Stub created 2026-09-27 to resolve em-wave-ontic-001 edges during the epistemica -> nature move.",
+      "createdAt": "2026-09-27T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "Stub; expand into a full record."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-bootstrap"
+    },
+    "references": []
+  }
+]
