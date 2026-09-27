@@ -44,7 +44,7 @@ Set in a repo-root `.env` (never committed; see `.env.example`):
 
 The image carries **only the deployed surface**: `bin/` (server), `app/index.html` (landing),
 `app/shared/` (theme, images), each module's `web/` + `data/` (views + JSON), and the note
-corpus `app/note/notes/` (the viewer fetches it at runtime — unlike `view/`, it is served
+corpus `app/note/data/` (the viewer fetches it at runtime — unlike `view/`, it is served
 content, not dev-only). Development-only content is excluded via `.dockerignore` and must
 never be needed at runtime:
 

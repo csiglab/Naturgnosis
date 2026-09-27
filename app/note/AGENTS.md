@@ -10,10 +10,11 @@ note system (code only; none of its personal content).
 ## Layout
 
 - `web/index.html` — catalog (search, section facets, tag facets, pins, pagination).
-- `web/note.html` — single-note viewer (`?n=<path>`; fetches `../notes/`; strips `--- tags` front matter, renders tag chips).
+- `web/note.html` — single-note viewer (`?n=<path>`; fetches `../data/`; strips `--- tags` front matter, renders tag chips).
 - `web/notes.css` — markdown typography (Oxford Common Room tokens).
 - `web/vendor/` — third-party `marked.min.js` (keeps upstream name).
-- `notes/` — source of truth (hand-edited markdown + live HTML; kebab-case).
+- `data/` — the corpus home: hand-edited markdown + live HTML (kebab-case),
+  with the generated `index.json` beside it.
 - `data/index.json` — **generated** by `bin/build_note_index.py`; committed
   but never hand-edited.
 
@@ -27,8 +28,8 @@ curl /note/api/pins               # pinned paths
 
 ## Invariants
 
-- `notes/` is hand-edited source of truth; `data/index.json` is generated.
-- Note paths are kebab-case, Epistecnica slug rule (see `notes/readme.md`
+- `data/` holds the hand-edited corpus; `data/index.json` is generated.
+- Note paths are kebab-case, Epistecnica slug rule (see `data/readme.md`
   and `bin/build_note_index.py:slugify_segment()`); the builder warns with
   the suggested form. Never run `bin/slugify_files.py` (underscore rule) here.
 - Tags are optional `--- tags: [...]` front matter; `data/index.json`

@@ -448,7 +448,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
         return f"{self.couch.base_url}/{self.couch.db}/{PINS_DOC_ID}"
 
     def _valid_note_path(self, p):
-        """Mirror of the catalog/viewer path rules (app/note/notes/README.md).
+        """Mirror of the catalog/viewer path rules (app/note/data/readme.md).
 
         Kebab-case segments, last segment ending in .md, max 200 chars.
         """

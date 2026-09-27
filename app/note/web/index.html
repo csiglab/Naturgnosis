@@ -766,7 +766,7 @@
                 var n = slice[i];
                 var snip = snippet(n.text, q);
                 var live = n.kind === 'live';
-                var href = live ? '../notes/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
+                var href = live ? '../data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
                 out.push(
                     '<div class="row">' +
                     '<a class="row-link" href="' + href + '">' +

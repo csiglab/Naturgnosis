@@ -4,7 +4,10 @@
 
 Instructions for AI agents working in this repository. Follow the conventions below; when a module
 directory contains its own `AGENTS.md`, it takes precedence for work inside that module.
-`guideline.md` (file naming, paths/URLs, commits, branches) is binding.
+`guideline.md` (file naming, paths/URLs, commits, branches) is binding. Task workflows —
+how to decompose instances and document elements — live in the meta notes
+(`app/note/data/meta/`, see "Task guides" in `guideline.md`)
+and are binding for decomposition/content work.
 
 ## Project Context
 
@@ -23,8 +26,9 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 
 ### Scope
 
-- In: the seven modules under `app/` (social, production, research,
-  nation, technique, epistemica, note), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`.
+- In: the eight modules under `app/` (social, production, research,
+  nation, technique, epistemica, nature, note), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`,
+  task guides in `app/note/data/meta/`.
 - Out: the separate **Epistecnica** repository (personal curricula for @dbremont; the in-repo
   `epistemica` module maps the episteme itself, not personal pursuits); market analysis (Social
   Space notes this explicitly); anything requiring a backend other than CouchDB.
@@ -41,6 +45,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 | `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `build_note_index.py`, `layout.py`. |
 | `deploy/` | Dockerfile, docker-compose.yml (app-only), `deploy_local.sh`, `deploy_server.sh`, `preflight.sh`; `README.md` = execution-environment note. |
 | `spec/` | Global spec (`spec/README.md`), per-module specs, theme spec. |
+| `app/note/data/meta/` | Task guides: the two philosophiae with the decompose-instance workflows and element note schemas (see "Task guides" in `guideline.md`). |
 | `docs/` | Does not exist anymore — do not recreate; the served root is `app/`. |
 
 ## Agent Operating Principles
@@ -51,6 +56,14 @@ Read `spec/README.md` and the relevant module spec + AGENTS.md before editing. D
 module names (`social`, `production`, `research`, `nation`, `technique`, `epistemica`) — they appear in editor
 pages (`const DATASET = '…'`), CouchDB doc keys, and API calls; renaming one is a breaking change
 across all three.
+
+Before decomposing instances or documenting elements, follow the workflow in the meta notes:
+technique content → "How to decompose any technical instance?"
+(`/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md`); epistemic content → "How to decomposed
+any epistemical instance?" (`/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md`); social content → "How to decompose any social instance?"
+(`/note/note.html?n=meta/philosophia-socialium-et-operis.md`). An instance
+readable as multiple element types gets one tree per type (multi-root forest — never two types
+on one row); when the root typing is ambiguous, ask the user instead of guessing.
 
 ### Prefer Existing Solutions
 
@@ -70,8 +83,8 @@ behavior, or clearly scope a change to one module.
   (via `COUCHDB_*` in `.env`) and preflight-check it; they never provision, redeploy, or remove it
   (see `deploy/README.md`).
 - `data.json` mirrors are server-written — see Data Sync in the README before committing.
-- `app/note/notes/` is the notes source of truth; `app/note/data/index.json` is generated — never
-  edit it by hand (run `python bin/build_note_index.py`).
+- `app/note/data/` is the notes corpus (hand-edited markdown); `app/note/data/index.json`
+  beside it is generated — never edit it by hand (run `python bin/build_note_index.py`).
 - `.env` is never committed.
 
 ### Keep Work Scoped

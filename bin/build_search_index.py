@@ -3,6 +3,7 @@
 Universal search index builder (Naturgnosis hub).
 
 Merges the notes corpus index plus a snapshot of the six graph datasets
+(social owns the production nodes; production is a derived view, not a dataset)
 into one committed file, app/data/search-index.json, consumed by the hub
 search box (/). Stdlib only. Ported from Epistecnica's
 bin/build_search_index.py; machinery only, no content carried over.
@@ -37,11 +38,11 @@ EXCERPT_LEN = 500
 
 GRAPH_MODULES = (
     "social",
-    "production",
     "research",
     "nation",
     "technique",
     "epistemica",
+    "nature",
 )
 
 

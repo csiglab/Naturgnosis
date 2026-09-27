@@ -2,7 +2,7 @@
 """
 Import persona notes into the Social Space graph as actor nodes (copy).
 
-Reads app/note/notes/persona/*.md (migrated from Epistecnica's persona
+Reads app/note/data/persona/*.md (migrated from Epistecnica's persona
 corpus — see Phase 1) and upserts each entry as a Person/Agentic node,
 with a references[] link back to its note (actor -> note direction of
 the entity-view idea). Re-runnable: id- and name-matching make repeat
@@ -46,7 +46,7 @@ from datetime import date
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-PERSONAS = REPO / "app" / "note" / "notes" / "persona"
+PERSONAS = REPO / "app" / "note" / "data" / "persona"
 MIRROR = REPO / "app" / "social" / "data" / "data.json"
 
 LOAD_ENDPOINT = "/api/graph"

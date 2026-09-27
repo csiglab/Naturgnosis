@@ -14,7 +14,8 @@ Rules for files and directories we author:
 - **`_` separates words** — `deploy_server.sh`, `seed_couchdb.py`, `aceleradoras_cientificas.md`.
 - **Semantic names** — the name should say what the thing is (`seed_couchdb.py`, not `s.py`).
 - **Extensions lowercase** — always `.md`, `.py`, `.sh`, `.json`, `.html`, `.png`.
-- **Content slugs** — long-form notes (`app/note/notes/`) are named after their content,
+- **Content slugs** — long-form notes (`app/note/data/`, the corpus home) are named after
+  their content,
   slugified by the Epistecnica rule (`bin/build_note_index.py:slugify_segment()` —
   never `bin/slugify_files.py`, which emits `_`). The
   canonical human term lives inside the file (H1), never in the file name.
@@ -25,14 +26,17 @@ Rules for files and directories we author:
   `docker-compose.yml`, `README.md`, `LICENSE`, `AGENTS.md`, `guideline.md`, `.gitignore`,
   `.dockerignore`, `.github/workflows/deploy.yml`.
 - **`app/*/import/`** — raw third-party exports are archival; never rename or edit (provenance).
-- **`app/note/notes/`** — note corpus paths follow the Epistecnica slug rule, not the `_`
+- **`app/note/data/`** — the note corpus lives here (`<section>/<kebab-case>.md`,
+  plus the generated `index.json` beside it — never hand-edit the index, rebuild with
+  `make notes-index`). Corpus paths follow the Epistecnica slug rule, not the `_`
   rule above: lowercase, fixed transliterations for `æ→ae`, `ø→o`, `œ→oe`,
   `ß→ss` (no NFKD decomposition), then NFKD-normalize to ASCII, every run of
   non-alphanumeric characters becomes a single `-`, trim leading/trailing
   `-` (`my-note.md`).
   Collisions get a `-2`, `-3`, … suffix. Never run `bin/slugify_files.py`
-  (which emits `_`) on `notes/`; see `app/note/notes/readme.md` and
-  `bin/build_note_index.py:slugify_segment()` for the canonical form.
+  (which emits `_`) on the corpus; see `app/note/data/readme.md` and
+  `bin/build_note_index.py:slugify_segment()` for the canonical form. The viewer
+  resolves `note.html?n=<path>` against this directory.
 - **`app/*/web/vendor/`** — third-party code keeps its upstream name.
 
 ## Paths & URLs
@@ -44,6 +48,27 @@ Rules for files and directories we author:
   (schema context).
 - Module directories, dataset ids, and CouchDB doc keys are one and the same string; renaming one
   renames all three (breaking change — ask first).
+
+## Derived views
+
+A space that is a *role-based cut* over another space's nodes is a derived view, not a
+dataset: it stores no nodes of its own. (First instance: Production Space is computed from
+Social Space; see `app/production/AGENTS.md`.)
+
+- **Single home**: every node lives in exactly one owning dataset. Other spaces never
+  duplicate it — they compute views over it.
+- **Role tags**: membership in a view is marked on the owning node with a reserved tag of
+  the form `<space>-view` (today: `production-view`). The tag is exact-match (case- and
+  whitespace-insensitive); ad-hoc lookalikes (`production`, `production chain`) do not
+  count. When adding a node that plays a view's role, tag it in the owning editor at
+  creation time.
+- **Builders**: one script per view (`bin/build_<space>_view.py`, stdlib only) reads the
+  owning mirror(s) and writes committed `view.json` + `view-layout.json` into the view
+  module's `data/` — never `data.json`/`layout.json` (those names would resurrect the
+  module as an editable dataset). Regenerate deliberately (`make <space>-view`); the files
+  are committed, like the search index. Only edges with both ends in the view are kept.
+- **Viewers**: the view explorer fetches `view.json`; there is no editor (edit in the
+  owning space). New views follow this shape; do not invent a second mechanism.
 
 ## Commits
 
@@ -74,3 +99,22 @@ Scope, when used, is the module or concern: `feat(nation): …`, `fix(sync): …
 - `main` is the default and deployment branch.
 - Working branches: `<type>/<slug>` — lowercase ASCII with `-` word separation
   (e.g. `feat/nation-index`, `fix/sync-mirror`).
+
+## Task guides (meta notes)
+
+How-to workflows for decomposition and content work live as meta notes in the corpus:
+
+- Technique content — `app/note/data/meta/philosophia-artium-technicarum-et-operis.md`
+  ([viewer](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)):
+  "How to decompose any technical instance?", multi-type (multi-root forest) rule,
+  CRM case study, technical-element note schema.
+- Epistemic content — `app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
+  ([viewer](/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)):
+  "How to decomposed any epistemical instance?", epistemic-element note schema.
+- Social content — `app/note/data/meta/philosophia-socialium-et-operis.md`
+  ([viewer](/note/note.html?n=meta/philosophia-socialium-et-operis.md)):
+  "How to decompose any social instance?", layer test (Ontic/Synontic/Noetic/Multi),
+  facet assignment, social-element note schema.
+
+Follow the applicable workflow before decomposing instances or documenting elements; when
+the root typing is ambiguous, ask the user instead of guessing.

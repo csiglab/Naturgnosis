@@ -26,12 +26,13 @@ server (`bin/sync.py`) and shipped as one image.
 | Module | Route | Editor | Storage |
 | ------ | ----- | ------ | ------- |
 | Social Space (main) | `/social/` | `/social/edit.html` | CouchDB `dataset=social` + mirror |
-| Production Space | `/production/` | `/production/edit.html` | CouchDB `dataset=production` + mirror |
+| Production Space | `/production/` | — (edit in Social) | Derived view (`view.json`, computed from social `production-view` tags) |
 | Research Space | `/research/` | `/research/edit.html` | CouchDB `dataset=research` + mirror |
 | Nation Space | `/nation/` | `/nation/edit.html` | CouchDB `dataset=nation` + mirror |
 | Technique Space | `/technique/` | `/technique/edit.html` | CouchDB `dataset=technique` + mirror |
 | Epistemic Space | `/epistemica/` | `/epistemica/edit.html` | CouchDB `dataset=epistemica` + mirror |
-| Note Space | `/note/` | — | Physical markdown (`app/note/notes/`) + generated index |
+| Nature Space | `/nature/` | `/nature/edit.html` | CouchDB `dataset=nature` + mirror |
+| Note Space | `/note/` | — | Physical markdown (`app/note/data/`) + generated index |
 
 See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 
@@ -96,7 +97,7 @@ files by hand.)
 ## API
 
 - `GET  /api/health` — service + CouchDB status
-- `GET  /api/graph?dataset=social|production|research|nation|technique|epistemica` — nodes
+- `GET  /api/graph?dataset=social|production|research|nation|technique|epistemica|nature` — nodes
 - `POST /api/graph/save` — `{dataset, nodes[], delete_ids?[]}` (upsert/delete + mirror)
 - `POST /api/layout/recompute?dataset=…` — regenerate `layout.json`
 

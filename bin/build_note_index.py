@@ -2,19 +2,20 @@
 """
 Notes index builder (Naturgnosis note module).
 
-Scans app/note/notes/** for notes — markdown (*.md, kind "note") and
+Scans app/note/data/** for notes — markdown (*.md, kind "note") and
 self-contained HTML live notes (*.html, kind "live") — and emits
 app/note/data/index.json, the search corpus for the notes catalog
-(/note/). Stdlib only. Ported from Epistecnica's src/note/bin/index.py;
-machinery only, no content carried over.
+(/note/). The generated index.json sits beside the corpus and is skipped
+by the scan (only *.md/*.html match). Stdlib only. Ported from
+Epistecnica's src/note/bin/index.py; machinery only, no content carried over.
 
-For each note it extracts: path (relative to notes/), title (markdown:
+For each note it extracts: path (relative to data/), title (markdown:
 first "# " heading; html: <title>, else first <h1>; fallback: the
 filename), top-level section (first path component), h2/h3 headings,
 tags (optional `tags: [...]` front matter, same `---` style as
 Epistecnica's note system), lowercased plain text, and word count.
 Paths and tags are validated against the naming convention (see
-app/note/notes/readme.md); violations print as warnings and never fail
+app/note/data/readme.md); violations print as warnings and never fail
 the build. The canonical slug form is `slugify_segment()` (Epistecnica
 parity: NFKD to ASCII, lowercase, runs of non-alphanumerics to `-`).
 
@@ -31,7 +32,7 @@ from pathlib import Path
 
 NOTE = Path(__file__).resolve().parent.parent
 APP = NOTE / "app" / "note"
-NOTES = APP / "notes"
+NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -221,7 +222,7 @@ def main() -> int:
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see app/note/notes/README.md)")
+        print(f"naming warnings: {len(warnings)} (see app/note/data/readme.md)")
         for w in warnings:
             print(f"  ! {w}")
     return 0
