@@ -50,22 +50,16 @@
 
 ### Recursive view
 
-> Every segment is a type — categories live only in the Tabular view. Links mean containment-in-scope.
+> Every segment is a type — categories live only in the Tabular view. `->` links mean containment-in-scope. The first tree row binds the `(root) -> <<Natural Element>>` placeholder, which embodies the generic `Natural System`; every other row is one expansion rule. Type definitions with their instances live only in the Tabular view.
 
-> **Recursion rule:** any Natural System may contain any natural element type at any depth, including further systems. Every prefix of every concrete path below is itself a valid path.
+> **Recursion rule:** any bound natural element of system kind (Natural System, Ecosystem, Complex System) may contain any natural element type at any depth, including further systems. Binding the placeholder to any Tabular type yields a valid root; suffixes continue down-spine in order.
 
-> **Spines:** a composition spine (`Natural System > Natural Object > Building Block > Substance`) and a manifestation spine (`Natural Process > Phenomenon > State > Trajectory`); living types attach under systems or stand as roots for biotic instances.
+> **Spines (expansion rules):** composition-spine rule: `Natural Object -> Building Block -> Substance / Matter` (entered via a system-kind root). Manifestation-spine rule: `Natural Process -> Phenomenon -> State -> Trajectory`. Living types attach under the bound root element or stand as roots for biotic instances.
 
-| **Natural Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
-| --- | --- | --- |
-| `(root) > Natural System` | The bounded segment under study. | Earth water system; oak-hickory forest |
-| `(root) > Natural System > Natural Object` | Material particulars composing it. | River channel; canopy dominant |
-| `(root) > Natural System > Natural Object > Building Block` | Recurring compositional units. | Water molecule; cellulose fiber |
-| `(root) > Natural System > Organism` | Self-maintaining members. | Beaver; mycorrhizal fungus |
-| `(root) > Natural System > Natural Process` | Transformations unfolding in it. | Erosion; nutrient cycling |
-| `(root) > Natural System > Natural Process > Phenomenon` | Unified explanatory objects. | Meander migration; mycorrhizal exchange pulse |
-| `(root) > Natural System > Property` | Measurable attributes. | Discharge rate; soil pH |
-| `(root) > Natural System > Natural Constraint` | Bounds from law, material, scale. | Flood recurrence interval; frost line |
+| **Natural Element Type Tree Expansion Path** | **Expansion Rule** |
+| --- | --- |
+| `(root) -> <<Natural Element>>` | Binding rule: per decomposition the placeholder takes the root instance's Tabular type, and the path continues down that type's spine or facet attachments. It embodies the generic system: studied segments (watersheds, forests) bind here as `Natural System`. `->` links type-expansion steps: binding at the root, containment-in-scope below. Instance-tree paths use plain `→` for instance containment. |
+| `(root) -> <<Natural Element>> -> ... -> {any Natural Element Type}` | General rule: any natural element type may occur at any depth beneath the bound root. |
 
 ## How to decompose any natural instance?
 
@@ -78,7 +72,7 @@ The tree is governed by the following rules:
 * **Root:** The root is the natural instance being decomposed.
 * **Structure:** Intermediate nodes organize the decomposition — instances or types. Bare types group but never terminate a branch; every leaf resolves to a natural instance.
 * **Leaves:** Every leaf must resolve to a natural instance.
-* **Typing:** Each concrete instance carries exactly one type path from the Recursive view; hybrids (bio-social, techno-natural) grow one tree per reading (multi-root forest).
+* **Typing:** Each concrete instance carries exactly one type path licensed by an expansion rule; hybrids (bio-social, techno-natural) grow one tree per reading (multi-root forest).
 * **Recursion:** Any instance in the tree may itself be decomposed recursively.
 * **No repetition:** The root's own type is not repeated as a grouping node without scoping function.
 * **Well-Expansion Rule:** Supply rich intermediates — composition, coupling, regulation, and scale relations.

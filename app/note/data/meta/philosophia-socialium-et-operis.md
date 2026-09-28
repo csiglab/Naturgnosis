@@ -47,7 +47,8 @@
 | **Cognitive** | Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
 |  | Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
 |  | Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
-| **Structural** | Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
+| **Structural** | Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
+|  | Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
 |  | Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
 |  | Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
 | **Dynamic** | Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
@@ -59,25 +60,16 @@
 
 ### Recursive view
 
-> The tree below renders each social element type at its full path: every segment is a type — categories do not belong to the tree; they live only in the Tabular view.
+> The tree below states the expansion rules: each row licenses how a bound node may expand — it does not enumerate types. Type definitions with their instances live only in the Tabular view above. The first row binds the `(root) -> <<Social Element>>` placeholder, which embodies the generic composite `Social Compound`; every other row is one expansion rule.
 
-> **Note:** links mean containment-in-scope only. **Recursion rule:** any compound unit (Collective / Organization / Region) may contain any social element type at any depth, including further compounds. Every prefix of every concrete path below is itself a valid path.
+> **Note:** `->` links mean containment-in-scope only. **Recursion rule:** any compound unit (Social Compound, Collective / Organization, Region) may contain any social element type at any depth, including further compounds. Binding the placeholder to any Tabular type yields a valid root; suffixes continue down-spine in order.
 
-> **Spines:** the grammar has an Agentic spine (`Interaction Unit > Agency > Social Action > Practice`) and a Normative spine (`Institution > Social Role > Norm > Right`), plus flat facet-attachable types (Process, State, Synontic Element, Expectation) that land directly under a compound.
+> **Spines (expansion rules):** Agentic-spine rule: `Interaction Unit -> Agency -> Social Action -> Practice`. Normative-spine rule: `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
 
-| **Social Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
-| --- | --- | --- |
-| `(root) > Social Compound` | A bounded collective scoping the decomposition. | Port city labor market; river basin community |
-| `(root) > Social Compound > Interaction Unit` | The constituent bounded actors. | Dockworkers' union; municipal authority; barge operators |
-| `(root) > Social Compound > Interaction Unit > Agency` | The decision architecture of a unit. | Union assembly; mayoral office |
-| `(root) > Social Compound > Interaction Unit > Agency > Social Action` | Acts the agency generates. | Strike vote; tariff ordinance |
-| `(root) > Social Compound > Institution` | Stabilized role-and-rule configurations. | Port authority; customs code |
-| `(root) > Social Compound > Institution > Social Role` | Expectation-tags within the institution. | Harbormaster; licensed pilot |
-| `(root) > Social Compound > Institution > Social Role > Norm` | Protocols stabilizing the role. | Berthing queue discipline |
-| `(root) > Social Compound > Social Relation` | Ties between the units. | Operator–authority concession |
-| `(root) > Social Compound > Process` | Transformations unfolding in the compound. | Containerization of cargo handling |
-| `(root) > Social Compound > Synontic Element` | Shared-interpretation coordinators. | Berth slot price; pilotage certificate |
-| `(root) > Social Compound > State` | Snapshot of the configuration. | 2026 throughput and tariff schedule |
+| **Social Element Type Tree Expansion Path** | **Expansion Rule** |
+| --- | --- |
+| `(root) -> <<Social Element>>` | Binding rule: per decomposition the placeholder takes the root instance's Tabular type, and the path continues down that type's spine or facet attachments. It embodies the generic composite: collective scopes (labor markets, basin communities) bind here as `Social Compound`. `->` links type-expansion steps: binding at the root, containment-in-scope below. Instance-tree paths use plain `→` for instance containment. |
+| `(root) -> <<Social Element>> -> ... -> {any Social Element Type}` | General rule: any social element type may occur at any depth beneath the bound root. |
 
 ## How to decompose any social instance?
 
@@ -90,7 +82,7 @@ The tree is governed by the following rules:
 * **Root:** The root is the social instance being decomposed.
 * **Structure:** Intermediate nodes organize the decomposition — instances or types. Bare types group but never terminate a branch; every leaf resolves to a social instance.
 * **Leaves:** Every leaf must resolve to a social instance.
-* **Typing:** Each concrete instance carries exactly one type path from the Recursive view; an instance readable as several types grows one tree per type (multi-root forest).
+* **Typing:** Each concrete instance carries exactly one type path licensed by an expansion rule; an instance readable as several types grows one tree per type (multi-root forest).
 * **Recursion:** Any instance in the tree may itself be decomposed recursively.
 * **No repetition:** The root's own type is not repeated as a grouping node without scoping function.
 * **Well-Expansion Rule:** Supply rich intermediates — composition, support, dependency, regulation, and dynamic relations.

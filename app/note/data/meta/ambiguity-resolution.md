@@ -27,9 +27,9 @@
 
 > Twice — once per reading, following the multi-root forest rule ("How to decompose
 > an instance that belongs to multiple element types?" in Philosophia Artium
-> Technicarum et Operis): one tree under `Technical Element Set` for the means
-> (Technical Acts, Interfaces & Actuation, Instruments, Configurations), one tree
-> under `Epistemic Order` for the end (Observation Interface, Concrete Epistemic
+> Technicarum et Operis): one tree binding `<<Technical Element>>` for the means
+> (Technical Acts, Technical Interface & Actuation, Technical Configurations), one tree
+> binding `<<Epistemic Element>>` for the end (Observation Interface, Concrete Epistemic
 > Artifacts such as the log curves, Epistemic Standards judging them). The two roots
 > are cross-linked; no row ever carries both types.
 
