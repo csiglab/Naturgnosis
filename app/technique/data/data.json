@@ -2214,5 +2214,93 @@
         "description": "Survey by Moir and Shavit providing taxonomy and design patterns for lock‑free and wait‑free structures as components in concurrent systems."
       }
     ]
+  },
+  {
+    "id": "well-logging-001",
+    "name": "Well Logging",
+    "tags": [
+      "technique",
+      "wireline",
+      "borehole",
+      "formation-evaluation",
+      "operative-technique",
+      "measurement"
+    ],
+    "layer": "Technical",
+    "category": "Technique",
+    "description": "The organized method of drilling a borehole and lowering wireline sondes to transduce formation properties into depth-indexed log curves for formation evaluation; technical in means, epistemic in goal.",
+    "longDescription": "Default root is technical (Technical Element Set practice: rig, winch, cable, sondes, recording chain). Readable as an epistemic inquiry (formation evaluation) decomposed under its own grammar; see note technique/well-logging.md for both trees and epistemica:formation-evaluation-001 for the end-node.",
+    "chronology": {
+      "summary": "Wireline logging developed from the 1920s Schlumberger resistivity measurements; later sonic, nuclear, and imaging sondes extended the transduction repertoire.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+        "relationshipType": "TYPE_OF",
+        "targetNodeId": "technique_001",
+        "description": "Well logging is a generalized technique for borehole formation measurement."
+      },
+      {
+        "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+        "relationshipType": "UTILIZES",
+        "targetNodeId": "agent_001",
+        "description": "The logging run is executed by the wireline crew using rig, winch, and cable."
+      },
+      {
+        "relationshipFamily": "CONSTITUTIVE_AND_MEREOLOGICAL",
+        "relationshipType": "PERFORMS",
+        "targetNodeId": "process_001",
+        "description": "The practice performs the ordered sequence of drilling, conveyance, transduction, and recording."
+      },
+      {
+        "relationshipFamily": "NORMATIVE_AND_REGULATIVE",
+        "relationshipType": "GOVERNED_BY",
+        "targetNodeId": "standard_001",
+        "description": "Sonde calibration and depth control govern the validity of the log curves."
+      },
+      {
+        "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+        "relationshipType": "CONSTRAINED_BY",
+        "targetNodeId": "constraint_001",
+        "description": "Borehole conditions and tool limits constrain achievable resolution and accuracy."
+      }
+    ],
+    "specific": {
+      "techniqueKind": "operative-technique-with-epistemic-goal",
+      "noteRef": "technique/well-logging.md",
+      "counterpartNode": "epistemica:formation-evaluation-001",
+      "functionalRoles": [
+        "formation-transduction",
+        "depth-indexed-measurement",
+        "knowledge-production-for-extraction"
+      ]
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is technical (means: drilling, conveyance, transduction). The end (formation knowledge) is judged by validation standards, not transformation performance.",
+        "alternativeCategories": [
+          "epistemic-inquiry"
+        ]
+      },
+      "confidenceScore": 0.85,
+      "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/well-logging.md; canonical case of meta/ambiguity-resolution.md.",
+      "createdAt": "2026-09-28T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-28",
+          "reviewNote": "Archetype node; first technique instance with an epistemica counterpart."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "technique-manual"
+    },
+    "references": [
+      {
+        "title": "Well logging - Wikipedia",
+        "description": "https://en.wikipedia.org/wiki/Well_logging"
+      }
+    ]
   }
 ]

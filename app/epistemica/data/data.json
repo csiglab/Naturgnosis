@@ -6199,5 +6199,78 @@
       "imported": "2026-09-12"
     },
     "references": []
+  },
+  {
+    "id": "formation-evaluation-001",
+    "name": "Formation Evaluation",
+    "tags": [
+      "epistemic-inquiry",
+      "well-logging",
+      "observation-interface",
+      "log-curves",
+      "formation-evaluation"
+    ],
+    "layer": "Epistemic",
+    "category": "epistemicProcess",
+    "description": "The inquiry a well-logging run serves: warranting beliefs about subsurface formations from depth-indexed log curves, judged by extraction confirmation and reproducibility.",
+    "longDescription": "Epistemic end of the well-logging operation (the means decompose under the technical grammar as technique:well-logging-001). Transduction chain (resistivity, gamma, sonic, density) feeds an observation interface producing log-curve artifacts; full dual-tree decomposition lives in note technique/well-logging.md.",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "uses",
+        "targetNodeId": "obs_iface_01",
+        "description": "The evaluation uses a sensor-plus-encoding observation interface (sondes, telemetry, LAS files)."
+      },
+      {
+        "relationshipFamily": "operational",
+        "relationshipType": "produces",
+        "targetNodeId": "artifact_05",
+        "description": "The run produces depth-indexed time/depth series datasets: the log curves."
+      },
+      {
+        "relationshipFamily": "normativeValidation",
+        "relationshipType": "evaluated_by",
+        "targetNodeId": "standard_02",
+        "description": "Log artifacts are judged by the reproducibility criterion (repeat sections, offset wells)."
+      },
+      {
+        "relationshipFamily": "normativeValidation",
+        "relationshipType": "evaluated_by",
+        "targetNodeId": "standard_03",
+        "description": "Formation claims stay refutable by later coring or production (falsifiability)."
+      }
+    ],
+    "specific": {
+      "inquiryKind": "observation-driven-formation-inference",
+      "noteRef": "technique/well-logging.md",
+      "counterpartNode": "technique:well-logging-001",
+      "functionalRoles": [
+        "subsurface-belief-warrant",
+        "extraction-decision-support"
+      ]
+    },
+    "metadata": {
+      "confidenceScore": 0.85,
+      "sourceReference": "Philosophia Artium Epistemicarum decomposition; note technique/well-logging.md; canonical case of meta/ambiguity-resolution.md.",
+      "createdAt": "2026-09-28T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-28",
+          "reviewNote": "Counterpart of technique:well-logging-001; cross-linked via note, not graph edge."
+        }
+      ],
+      "inheritanceLevel": 1,
+      "source": "epistemica-manual"
+    },
+    "references": [
+      {
+        "title": "Well logging - Wikipedia",
+        "description": "https://en.wikipedia.org/wiki/Well_logging"
+      }
+    ]
   }
 ]
