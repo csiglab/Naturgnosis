@@ -301,5 +301,77 @@
       "source": "nature-bootstrap"
     },
     "references": []
+  },
+  {
+    "id": "quarry-ontic-001",
+    "name": "Quarry",
+    "tags": [
+      "reality",
+      "ontic",
+      "earth",
+      "geomorphology",
+      "natural-system",
+      "excavation-landform"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "An open bedrock excavation read as a natural system: stepped bench faces, quarry floor, talus, intercepted groundwater, dust plume, and colonizing biota — the observer-independent furniture that remains when extraction machinery, firm, and market are set aside.",
+    "longDescription": "Meso-level segment. Cut includes the rock body, its worked landform, water, air, and pioneer organisms; excludes the extraction plant (technical reading) and the operating organization and product markets (social/production readings), which decompose under their own grammars. Decomposed per 'How to decompose any natural instance?' (Philosophia Naturalis et Operis); long-form decomposition lives in the note corpus at nature/quarry.md.",
+    "chronology": {
+      "summary": "Quarries follow bedrock outcrop discovery, bench opening, deepening with dewatering, and eventual abandonment with flooding and ecological succession.",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "ontologicalClass": "Ontic.Composite.System",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "meso",
+      "naturalElementType": "Natural System",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "scale",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "rock-exposure",
+        "landform-generation",
+        "habitat-provision"
+      ],
+      "realityDomains": [
+        "geomorphology",
+        "engineering-geology",
+        "hydrogeology",
+        "restoration-ecology"
+      ],
+      "noteRef": "nature/quarry.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Natural System): the affirmed furniture is observer-independent rock, water, and life. Readable as technique (quarrying methods) and as production facility (operated site with aggregate products); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "production-facility"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/quarry.md.",
+      "createdAt": "2026-09-27T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-27",
+          "reviewNote": "First earth-domain node in nature (physics bootstrap before). Archetype, not a named site."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
   }
 ]

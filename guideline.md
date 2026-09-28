@@ -70,6 +70,44 @@ Social Space; see `app/production/AGENTS.md`.)
 - **Viewers**: the view explorer fetches `view.json`; there is no editor (edit in the
   owning space). New views follow this shape; do not invent a second mechanism.
 
+## Topic placement strategy
+
+> Reusable decision procedure for placing any new topic in the right space(s), with the
+> right artifacts. First worked instance: Quarry → nature (node `quarry-ontic-001`,
+> note `nature/quarry.md`). Follow it before creating nodes or notes.
+
+1. **Cut the segment, name the question.** State what is included/excluded, then match the
+   dominant question to a space — that fixes the meta workflow, the note schema, and the
+   owning dataset:
+
+   | Dominant question | Space | Meta workflow | Dataset / editor |
+   | --- | --- | --- | --- |
+   | What observer-independent furniture is here? | nature | "How to decompose any natural instance?" | `nature` (`/nature/edit.html`) |
+   | How is transformation organized and performed? | technique | "How to decompose any technical instance?" | `technique` (`/technique/edit.html`) |
+   | Which actors, institutions, roles, relations act here? | social | "How to decompose any social instance?" | `social` (`/social/edit.html`) |
+   | What scaffolding warrants knowing it? | epistemica | "How to decomposed any epistemical instance?" | `epistemica` (`/epistemica/edit.html`) |
+
+2. **Type the root; record ambiguity, never guess.** When the instance is readable under
+   several grammars (a quarry is a landform *and* a worksite *and* a facility), declare one
+   default root and keep the others as `readable as …` prose cross-links. One tree per
+   type (multi-root forest — never two types on one row). When the root typing is
+   ambiguous, ask the user instead of guessing.
+3. **Single home.** Every node lives in exactly one owning dataset; other spaces compute
+   views over it, never duplicate it (see "Derived views" above).
+4. **Node, note, or both.** A note carries decomposition and argument (corpus home
+   `app/note/data/`, kebab-case paths, new top-level sections allowed — e.g. `nature/`);
+   a node carries graph addressability (edges, tags, search). First-class topics usually
+   need both; note-first is fine. New nodes ship their local mirror plus seed/bootstrap
+   coverage in the same change set (`data.json` is what `bin/seed_couchdb.py` and server
+   startup read).
+5. **Derived-view check.** If the topic plays a production role, tag the owning Social
+   node `<space>-view` at creation time and regenerate (`make <space>-view`). Nature and
+   technique nodes never carry view tags.
+6. **Verify.** Rebuild the notes index (`python bin/build_note_index.py`, commit the
+   result); pull the server mirror before committing dataset edits; smoke-test every
+   touched route (`/, /<module>/, /<module>/edit.html`, note viewer path). One module
+   (or one concern) per change set.
+
 ## Commits
 
 Mirrors `~/configs/global/git/guideline.md`:
