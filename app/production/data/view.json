@@ -3,7 +3,7 @@
   "snapshot_source": "seed",
   "source_dataset": "social",
   "tag": "production-view",
-  "node_count": 26,
+  "node_count": 42,
   "edge_count": 19,
   "dropped_edges": 11,
   "nodes": [
@@ -1476,6 +1476,495 @@
           "description": "Analysis of location, land use, and spatial economic activity."
         }
       ],
+      "_view_targets": []
+    },
+    {
+      "id": "automotive-cluster-slovakia",
+      "name": "Automotive Cluster Slovakia (ACS)",
+      "tags": [
+        "arbitriologia-import",
+        "cluster",
+        "automotive",
+        "slovakia",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Slovak network of automotive firms, suppliers and supporting institutions.",
+      "longDescription": "Coordinates workforce, suppliers and investors around Slovakia's car-assembly concentration; paradigmatic production-cluster social relation.",
+      "chronology": {
+        "summary": "Sectoral cluster coordinating the Slovak automotive value chain.",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 from /home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+          "2026-09-28: production-view tag added at full-landing (production value-chain coordinator)"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "industrial-cluster",
+      "name": "Industrial Cluster",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Production cluster placed at the heart of productive policy ('An Essay on Cluster: The Heart of Productive Policy').",
+      "longDescription": "Production cluster placed at the heart of productive policy ('An Essay on Cluster: The Heart of Productive Policy').",
+      "chronology": {
+        "summary": "An Essay on Cluster: The Heart of Productive Policy",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Breviarium/an-essay-on-cluster-the-heart-of-productive-policy.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Breviarium/an-essay-on-cluster-the-heart-of-productive-policy.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "foreign-participation-in-local-production",
+      "name": "Foreign Participation in Local Production",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "FDI participation mechanism analyzed in the essay ('An Essay on Foreign Participation in the Local Production System').",
+      "longDescription": "FDI participation mechanism analyzed in the essay ('An Essay on Foreign Participation in the Local Production System').",
+      "chronology": {
+        "summary": "An Essay on Foreign Participation in the Local Production System",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Breviarium/an-essay-on-foreign-participation-in-the-local-production-system.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Breviarium/an-essay-on-foreign-participation-in-the-local-production-system.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "software-and-robotics-productive-strategy",
+      "name": "Software and Robotics Productive Strategy",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "dominican-republic",
+        "production-view"
+      ],
+      "category": "Strategy",
+      "layer": "Agentic",
+      "description": "Coordinated plan proposed in the essay: The nature of this industry is inherently horizontal, as it develops tools that serve various sectors. It acts as a facilitator for others. The strategy encapsulates this dynamic, providing a framework for coordinated and synergistic collaboration between software creators and their client industries. >",
+      "longDescription": "Coordinated plan proposed in the essay: The nature of this industry is inherently horizontal, as it develops tools that serve various sectors. It acts as a facilitator for others. The strategy encapsulates this dynamic, providing a framework for coordinated and synergistic collaboration between software creators and their client industries. >",
+      "chronology": {
+        "summary": "An Essay on {Software, Robotics}+  Productive Strategy",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Breviarium/an-essay-on-software-robotics-productive-strategy.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Breviarium/an-essay-on-software-robotics-productive-strategy.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "innovation-laboratory-network",
+      "name": "Innovation Laboratory Network",
+      "tags": [
+        "arbitriologia-import",
+        "innovation",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Laboratory network framed in the document (original Spanish) ('Red de Laboratorios de Innovación: Marco y Funcionamiento').",
+      "longDescription": "Laboratory network framed in the document (original Spanish) ('Red de Laboratorios de Innovación: Marco y Funcionamiento').",
+      "chronology": {
+        "summary": "Red de Laboratorios de Innovación: Marco y Funcionamiento",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Breviarium/red-de-laboratorios-de-innovacion-marco-y-funcion.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Breviarium/red-de-laboratorios-de-innovacion-marco-y-funcion.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "dominican-textile-cluster",
+      "name": "Dominican Textile Cluster",
+      "tags": [
+        "arbitriologia-import",
+        "dominican-republic",
+        "production",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Production network proposed in the memorial ('An Essay on a Dominican Textile Cluster').",
+      "longDescription": "Production network proposed in the memorial ('An Essay on a Dominican Textile Cluster').",
+      "chronology": {
+        "summary": "An Essay on a Dominican Textile Cluster",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-a-dominican-textile-cluster.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-a-dominican-textile-cluster.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "dominican-venture-ecosystem",
+      "name": "Dominican Venture Ecosystem",
+      "tags": [
+        "arbitriologia-import",
+        "dominican-republic",
+        "production",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Financing network proposed in the memorial ('An Essay On A Dominican Venture Ecosystem').",
+      "longDescription": "Financing network proposed in the memorial ('An Essay On A Dominican Venture Ecosystem').",
+      "chronology": {
+        "summary": "An Essay On A Dominican Venture Ecosystem",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-a-dominican-venture-ecosystem.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-a-dominican-venture-ecosystem.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "dominican-innovation-ecosystem",
+      "name": "Dominican Innovation Ecosystem",
+      "tags": [
+        "arbitriologia-import",
+        "dominican-republic",
+        "innovation",
+        "production-view"
+      ],
+      "category": "Network",
+      "layer": "Relational",
+      "description": "Innovation network proposed in the memorial ('An Essay On Design of the Dominican Innovation Ecosystem').",
+      "longDescription": "Innovation network proposed in the memorial ('An Essay On Design of the Dominican Innovation Ecosystem').",
+      "chronology": {
+        "summary": "An Essay On Design of the Dominican Innovation Ecosystem",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.55,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-design-of-the-dominican-innovation-ecosystem.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 essay-level curation of docs/Locus-Meliorandis/Arbitrium/Memorial/an-essay-on-design-of-the-dominican-innovation-ecosystem.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "licensing-for-capacity-extension",
+      "name": "Licensing for Capacity Extension",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Licensing technical knowledge to extend production capacity without direct investment (backlog production-organization list).",
+      "longDescription": "Licensing technical knowledge to extend production capacity without direct investment (backlog production-organization list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "joint-venture-and-strategic-alliance",
+      "name": "Joint Venture and Strategic Alliance",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Cooperation",
+      "layer": "Agentic",
+      "description": "Partnering to share resources, technology or markets while expanding production reach (backlog list).",
+      "longDescription": "Partnering to share resources, technology or markets while expanding production reach (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "capacity-expansion",
+      "name": "Capacity Expansion",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Direct investment in plants, equipment or workforce to raise output internally (backlog list).",
+      "longDescription": "Direct investment in plants, equipment or workforce to raise output internally (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "technology-transfer-for-production",
+      "name": "Technology Transfer for Production",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Sharing technical knowledge with partners or licensees to hold standards while leveraging external capacity (backlog list).",
+      "longDescription": "Sharing technical knowledge with partners or licensees to hold standards while leveraging external capacity (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "franchising-for-production",
+      "name": "Franchising for Production",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Independent operators producing or selling under the brand, extending production indirectly (backlog list).",
+      "longDescription": "Independent operators producing or selling under the brand, extending production indirectly (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "outsourcing-and-subcontracting",
+      "name": "Outsourcing and Subcontracting",
+      "tags": [
+        "arbitriologia-import",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Contracting production processes to specialized firms for flexibility and lower capital needs (backlog list).",
+      "longDescription": "Contracting production processes to specialized firms for flexibility and lower capital needs (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "export-buyers-credit",
+      "name": "Export Buyers Credit",
+      "tags": [
+        "arbitriologia-import",
+        "trade",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Financing foreign buyers so they can purchase domestic goods (backlog export-promotion list).",
+      "longDescription": "Financing foreign buyers so they can purchase domestic goods (backlog export-promotion list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "export-suppliers-credit",
+      "name": "Export Suppliers Credit",
+      "tags": [
+        "arbitriologia-import",
+        "trade",
+        "production",
+        "production-view"
+      ],
+      "category": "Mechanism",
+      "layer": "Agentic",
+      "description": "Pre- and post-shipment finance easing exporters cash-flow constraints (backlog list).",
+      "longDescription": "Pre- and post-shipment finance easing exporters cash-flow constraints (backlog list).",
+      "chronology": {
+        "summary": "Arbitriologia research backlog (todo.md).",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {},
+      "metadata": {
+        "confidenceScore": 0.5,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/todo.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 backlog curation"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [],
       "_view_targets": []
     }
   ]
