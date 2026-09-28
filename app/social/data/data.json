@@ -177694,5 +177694,88 @@
    "inheritanceLevel": 0
   },
   "references": []
+ },
+ {
+  "id": "node.1790623655884",
+  "name": "Product Development Center",
+  "tags": [
+   "organization",
+   "product-development",
+   "applied-research",
+   "technology-transfer",
+   "innovation",
+   "firm"
+  ],
+  "layer": "Ontic",
+  "category": "Organization",
+  "description": "Organization whose mandate is product development: carrying a product from concept to validated, deliverable offer through product realization and technical method development.",
+  "longDescription": "A product development center is a deliberately structured collective actor that converts a product idea into a realizable product. Its work is product development, and product development is the sum of two constituents: product realization, which fixes what the product is and builds the physical or digital realization that satisfies it; and technical method development, which fixes how the product is made and tested by developing the processes, design rules, test methods, and measurement methods the realization depends on. The center holds both halves under one management, which is what distinguishes it from a pure research institute (method without a product mandate) and from a manufacturing plant (realization without method development). It is positioned between a sponsoring firm, which supplies the requirement and the budget, and manufacturing, which absorbs the outcome: the center carries the product across the gap between a stated need and a proven process, and it is judged by whether the offer it hands over can be produced repeatably.",
+  "chronology": {
+   "summary": "Emerged through the twentieth century as firms separated product development from both research and production, first as corporate research laboratories, then as dedicated development units, and finally as centers contracting development work across firm lines.",
+   "events": [
+    {
+     "year": 1950,
+     "event": "Corporate research laboratories institutionalize organized development work",
+     "context": "Post-war large firms created research laboratories with dedicated budgets and staff, separating long-horizon inquiry from product engineering for the first time."
+    },
+    {
+     "year": 1980,
+     "event": "Dedicated product development units appear in electronics and automotive",
+     "context": "Japanese and Korean electronics and automotive firms institutionalized product development as a function with its own managers, stage gates, and cross-functional teams, formalizing the product realization / method development split."
+    },
+    {
+     "year": 2000,
+     "event": "Contract and open-innovation development centers spread",
+     "context": "Firms outsource development and partner with external centers, so the center becomes an addressable actor serving several sponsors rather than a single internal department."
+    }
+   ]
+  },
+  "relationships": [
+   {
+    "targetNodeId": "universities-r-d-centers",
+    "relationshipFamily": "classification",
+    "relationshipType": "subtype_of",
+    "description": "A product development center is a dedicated R&D center whose mandate is a product rather than a discipline: it specializes the R&D-center type on realizing one offering end to end."
+   },
+   {
+    "targetNodeId": "firm",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "The center depends on a sponsoring firm for the requirement, the budget, and access to manufacturing; without that commission the realization and method-development work has no object."
+   },
+   {
+    "targetNodeId": "catapult-centres",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Catapult centers and product development centers share the applied-innovation mandate and divide it: a catapult center diffuses proven technology to SMEs, while a product development center carries one product to a proven process, and the two refer projects to each other."
+   }
+  ],
+  "specific": {},
+  "metadata": {
+   "inheritanceLevel": 0,
+   "confidenceScore": 0.75,
+   "sourceReference": "app/note/data/social/product-development-center.md",
+   "createdAt": "2026-09-28T19:27:35.000Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-28",
+     "reviewNote": "Initial authoring: social element note plus graph node; Product Development = Product Realization + Technical Method Development."
+    }
+   ]
+  },
+  "references": [
+   {
+    "title": "The Dynamic Capabilities of the Firm (Helfat & Peteraf, 1993)",
+    "description": "Foundational account of product development as an organizing capability of the firm, reconciling product realization with the development of the firm's technological and organizational routines."
+   },
+   {
+    "title": "The Development of Technologies for Contribution (Wheelwright & Lock, 1988)",
+    "description": "Taxonomy of how firms assign product development work across the product-formulation / process-formulation axis, the industrial logic behind separating realization from method development."
+   },
+   {
+    "title": "Organizing for Development Projects (Ulrich & Eppinger, 1997)",
+    "description": "Organizational design of cross-functional product development teams, including the interfaces and stage gates a center relies on."
+   }
+  ]
  }
 ]
