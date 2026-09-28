@@ -96,4 +96,3 @@ A center strong in realization but weak in method development ships products tha
 - Wheelwright, S. C. & Lock, E. E. (1988). The Development of Technologies for Contribution. Sloan Management Review.
 - Ulrich, D. & Eppinger, W. (1997). Organizing for Development Projects. Harvard Business Review.
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md) — the technical reading of Product Development, decomposed there as a technical practice.
