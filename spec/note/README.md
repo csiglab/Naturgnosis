@@ -38,8 +38,11 @@ housekeeping, `persona/` people, `live/` interactive pages by topic,
 
 - **Catalog** `app/note/web/index.html` — stats (notes, sections, words),
   full-text search, section facet chips (+ `pinned` facet), tag facets
-  (`?tag=` deep link, per-row tag chips), pin toggles, pagination; loads
-  `../data/index.json`, pins from `/note/api/pins`.
+  (`?tag=` deep link, per-row tag chips; capped at `TAG_LIMIT` = 15 by
+  count-desc order with a `show all (n)` / `show less` toggle — a selected
+  tag past the cap forces the full list, and collapsing such a selection
+  clears the filter), pin toggles, pagination; loads `../data/index.json`,
+  pins from `/note/api/pins`.
 - **Viewer** `app/note/web/note.html?n=<path>` — fetches `../data/<path>`,
   renders markdown via vendored `marked`, table of contents, word count and
   read time, tag chips (from `--- tags: [...]` front matter, stripped

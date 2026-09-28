@@ -322,6 +322,14 @@
         .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
         .facet.active .count { color: var(--accent-gold); }
 
+        .facet-toggle {
+            color: var(--accent-gold);
+            border-style: dashed;
+            border-color: var(--accent-gold-dim);
+        }
+
+        .facet-toggle:hover { color: var(--accent-gold); border-color: var(--accent-gold); }
+
         .tagbar { display: flex; align-items: baseline; gap: 0.8rem; }
         .tagbar-label {
             font-family: var(--font-mono);
@@ -601,7 +609,8 @@
         'use strict';
 
         var NOTES = [];
-        var state = { q: '', section: 'all', tag: 'all', page: 1, pageSize: 20 };
+        var state = { q: '', section: 'all', tag: 'all', page: 1, pageSize: 20, tagsExpanded: false };
+        var TAG_LIMIT = 15;    /* tag facets shown before "show all" */
         var PINS = [];          /* pinned note paths, server order */
         var pinsAvailable = false;
         var rowH = 66;
@@ -900,7 +909,7 @@
             }).join('');
         }
 
-        function renderTagFacets() {
+        function sortedTags() {
             var counts = {};
             NOTES.forEach(function (n) {
                 (n.tags || []).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
@@ -908,11 +917,50 @@
             var tags = Object.keys(counts).sort(function (a, b) {
                 return counts[b] - counts[a] || a.localeCompare(b);
             });
+            return { tags: tags, counts: counts };
+        }
+
+        /* True when the active tag sits past the cap: the list then has to
+           render in full so the chip is never hidden by its own filter. */
+        function tagsOverflowActive(tags) {
+            return state.tag !== 'all' && tags.indexOf(state.tag) >= TAG_LIMIT;
+        }
+
+        function renderTagFacets() {
+            var t = sortedTags();
+            var tags = t.tags;
+            var counts = t.counts;
             document.getElementById('tagbar').hidden = tags.length === 0;
-            document.getElementById('tag-facets').innerHTML = tags.map(function (t) {
-                return '<button type="button" class="facet' + (state.tag === t ? ' active' : '') + '" data-tag="' + esc(t) + '">' +
-                    '#' + esc(t) + '<span class="count">' + counts[t] + '</span></button>';
-            }).join('');
+            var forced = tagsOverflowActive(tags);
+            var open = state.tagsExpanded || forced;
+            var shown = open ? tags : tags.slice(0, TAG_LIMIT);
+            var html = shown.map(function (tag) {
+                return '<button type="button" class="facet' + (state.tag === tag ? ' active' : '') + '" data-tag="' + esc(tag) + '">' +
+                    '#' + esc(tag) + '<span class="count">' + counts[tag] + '</span></button>';
+            });
+            if (tags.length > TAG_LIMIT) {
+                html.push('<button type="button" class="facet facet-toggle"' +
+                    ' aria-expanded="' + (open ? 'true' : 'false') + '"' +
+                    ' aria-label="' + (open ? 'Collapse tag list' : 'Show all ' + tags.length + ' tags') + '">' +
+                    (open ? 'show less' : 'show all (' + tags.length + ')') + '</button>');
+            }
+            document.getElementById('tag-facets').innerHTML = html.join('');
+        }
+
+        function toggleTagList(btn) {
+            if (btn.getAttribute('aria-expanded') === 'true') {
+                /* Collapsing while a hidden tag is active would strand the
+                   filter on an invisible chip — drop the filter with it. */
+                if (tagsOverflowActive(sortedTags().tags)) {
+                    state.tag = 'all';
+                    state.page = 1;
+                }
+                state.tagsExpanded = false;
+            } else {
+                state.tagsExpanded = true;
+            }
+            renderTagFacets();
+            render();
         }
 
         function setTag(t) {
@@ -1026,6 +1074,10 @@
         document.getElementById('tag-facets').addEventListener('click', function (e) {
             var btn = e.target.closest('.facet');
             if (!btn) return;
+            if (btn.classList.contains('facet-toggle')) {
+                toggleTagList(btn);
+                return;
+            }
             setTag(btn.dataset.tag);
         });
 
