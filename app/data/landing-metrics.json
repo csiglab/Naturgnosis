@@ -1,0 +1,37 @@
+{
+ "generated": "2026-09-28T03:32:17Z",
+ "modules": {
+  "social": {
+   "nodes": 7393,
+   "edges": 182
+  },
+  "research": {
+   "nodes": 15,
+   "edges": 5
+  },
+  "nation": {
+   "nodes": 34,
+   "edges": 0
+  },
+  "technique": {
+   "nodes": 41,
+   "edges": 59
+  },
+  "epistemica": {
+   "nodes": 121,
+   "edges": 131
+  },
+  "nature": {
+   "nodes": 6,
+   "edges": 3
+  },
+  "production": {
+   "nodes": 42,
+   "edges": 30
+  },
+  "note": {
+   "nodes": 1296,
+   "edges": null
+  }
+ }
+}

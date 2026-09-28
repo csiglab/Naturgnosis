@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/shared/theme.css">
     <style>
@@ -17,6 +17,15 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        #ambient {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            opacity: 0.5;
+            pointer-events: none;
         }
 
         /* ---------------- Navbar ---------------- */
@@ -30,8 +39,8 @@
         }
 
         .nav-inner {
-            max-width: 1080px;
-            margin: 0 auto;`
+            max-width: 1280px;
+            margin: 0 auto;
             padding: 0 32px;
             display: flex;
             align-items: center;
@@ -148,34 +157,54 @@
             color: var(--text-muted);
         }
 
+        /* ---------------- Viewport-fit intro ---------------- */
         .page {
+            position: relative;
+            z-index: 1;
             flex: 1;
             width: 100%;
-            max-width: 1080px;
+            max-width: 1280px;
             margin: 0 auto;
-            padding: 56px 32px 40px;
+            padding: 20px 32px 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 0;
         }
 
         .masthead {
-            margin-bottom: 56px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 8px 32px;
+            align-items: end;
+            padding-bottom: 14px;
+        }
+
+        .masthead .kicker .ng-eyebrow {
+            display: block;
+            margin-bottom: 6px;
         }
 
         .masthead h1 {
             font-family: var(--font-display);
             font-style: italic;
             font-weight: 300;
-            font-size: 3rem;
+            font-size: clamp(2.2rem, 4.5vw, 3.1rem);
             color: var(--text-primary);
-            line-height: 1.1;
-            background: linear-gradient(90deg, var(--accent-copper), transparent) bottom left / 240px 1px no-repeat;
-            padding-bottom: 18px;
+            line-height: 1.05;
+            white-space: nowrap;
         }
 
         .masthead .lede {
-            margin-top: 22px;
-            max-width: 46em;
-            font-size: 0.95rem;
+            margin: 0;
+            max-width: 52em;
+            font-size: 0.86rem;
+            font-weight: 300;
+            line-height: 1.55;
             color: var(--text-secondary);
+            border-left: 1px solid var(--accent-copper);
+            padding-left: 1.1rem;
+            align-self: center;
         }
 
         .masthead .lede em {
@@ -183,24 +212,66 @@
             color: var(--parchment);
         }
 
+        /* ---------------- Registry: hairline metric grid ---------------- */
+        .registry-head {
+            display: flex;
+            align-items: baseline;
+            gap: 1.25rem;
+            margin: 2px 0 8px;
+        }
+
+        .registry-head h2 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .registry-head .rule {
+            flex: 1;
+            height: 1px;
+            background: var(--border-subtle);
+        }
+
+        .registry-head .count {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
         .registry {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 18px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            flex: 1 1 auto;
+            max-height: 640px;
+            min-height: 0;
         }
 
         .module {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            padding: 22px 24px;
+            gap: 4px;
+            padding: 12px 16px 10px;
             color: inherit;
             text-decoration: none;
-            border-left: 2px solid rgba(201, 149, 108, 0.3);
+            background: var(--bg-void);
+            border-left: 2px solid transparent;
+            min-width: 0;
+            transition: background 0.3s ease, border-left-color 0.3s ease;
         }
 
         .module:hover {
             text-decoration: none;
+            background: var(--bg-surface);
             border-left-color: var(--accent-copper);
         }
 
@@ -209,55 +280,125 @@
             letter-spacing: 0.12em;
             font-family: var(--font-mono);
             font-style: normal;
-            font-size: 0.58rem;
+            font-size: 0.55rem;
+            color: var(--text-muted);
         }
 
-        .module h2 {
+        .module h3 {
             font-family: var(--font-display);
             font-style: italic;
             font-weight: 400;
-            font-size: 1.45rem;
+            font-size: 1.12rem;
+            line-height: 1.2;
             color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .module p {
-            font-size: 0.76rem;
-            line-height: 1.55;
+        .module .tag {
+            font-size: 0.7rem;
+            font-weight: 300;
             color: var(--text-secondary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .module .metrics {
+            margin-top: auto;
+            padding-top: 6px;
+            display: flex;
+            align-items: baseline;
+            gap: 14px;
+        }
+
+        .metric .value {
+            font-family: var(--font-mono);
+            font-size: 1.05rem;
+            color: var(--accent-cyan);
+        }
+
+        .metric .label {
+            margin-left: 0.35rem;
+            font-family: var(--font-mono);
+            font-size: 0.55rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
         }
 
         .module .links {
-            margin-top: auto;
-            padding-top: 10px;
             display: flex;
-            gap: 14px;
+            gap: 12px;
         }
 
         .module .links span {
             font-family: var(--font-mono);
-            font-size: 0.6rem;
+            font-size: 0.58rem;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--accent-cyan);
         }
 
+        /* ---------------- Intent router ---------------- */
+        .router {
+            display: flex;
+            align-items: center;
+            gap: 1.4rem;
+            margin-top: 10px;
+            padding: 8px 2px 0;
+            overflow-x: auto;
+        }
+
+        .router .intent {
+            font-family: var(--font-mono);
+            font-size: 0.58rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent-copper);
+            white-space: nowrap;
+        }
+
+        .router a {
+            font-size: 0.78rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .router a:hover {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+
         footer {
-            margin-top: auto;
-            padding: 20px 32px;
+            position: relative;
+            z-index: 1;
+            padding: 8px 32px 10px;
             border-top: 1px solid var(--border-subtle);
-            max-width: 1080px;
+            max-width: 1280px;
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             gap: 16px;
             flex-wrap: wrap;
         }
+
+        @media (max-width: 900px) {
+            .page { display: block; padding: 20px 20px 24px; }
+            .masthead { grid-template-columns: 1fr; }
+            .masthead h1 { white-space: normal; }
+            .registry { grid-template-columns: 1fr; flex: none; max-height: none; overflow: visible; }
+            .router { flex-wrap: wrap; row-gap: 8px; }
+        }
     </style>
 </head>
 
 <body>
+    <canvas id="ambient" aria-hidden="true"></canvas>
     <nav class="nav" aria-label="Naturgnosis">
         <div class="nav-inner">
             <a class="brand" href="/">Naturgnosis</a>
@@ -271,95 +412,105 @@
 
     <main class="page">
         <header class="masthead">
-            <p class="ng-eyebrow">Laboratorium · Research</p>
-            <h1>Naturgnosis</h1>
+            <div class="kicker">
+                <span class="ng-eyebrow">Laboratorium · Research</span>
+                <h1>Naturgnosis</h1>
+            </div>
             <p class="lede">
-                Naturgnosis identifies and formalizes the set of epistemic elements that enable an agent to
-                effectively navigate — <em>understanding and action</em> — reality, especially social reality.
-                It serves as the main index of the world's <em>technique</em> and <em>episteme</em>.  The goal of this  project is to create a comp
-rehensive, structured, and navigable registry - map of the world epistemic and technical practice.
-            </p>
-            <p class="lede">
-                 <a href="https://github.com/dbremont/Epistecnica">Epistecnica</a>, its sibling, for the epistemic and technical maps -- — specifically for @dbremont.
+                The main index of the world's <em>technique</em> and <em>episteme</em> — the elements
+                an agent needs to navigate reality, especially social reality, in
+                <em>understanding and action</em>.
             </p>
         </header>
 
+        <div class="registry-head" aria-hidden="true">
+            <h2>Spaces</h2>
+            <span class="rule"></span>
+            <span class="count" id="registry-count"></span>
+        </div>
+
         <section class="registry" aria-label="Module registry">
-            <a class="module ng-card" href="/nature/">
+            <a class="module" href="/nature/">
                 <span class="ng-eyebrow">Module 01</span>
-                <h2>Nature Space</h2>
-                <p>The space of nature: physical and living phenomena existing independently of
-                    inquiry — the ontic counterpart to Epistemic Space — as a navigable graph.</p>
+                <h3>Nature Space</h3>
+                <p class="tag">Observer-independent reality, as a graph.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="nature">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/epistemica/">
+            <a class="module" href="/epistemica/">
                 <span class="ng-eyebrow">Module 02</span>
-                <h2>Epistemic Space</h2>
-                <p>The set of elements that renders reality intelligible.</p>
+                <h3>Epistemic Space</h3>
+                <p class="tag">What renders reality intelligible.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="epistemica">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/technique/">
+            <a class="module" href="/technique/">
                 <span class="ng-eyebrow">Module 03</span>
-                <h2>Technique Space</h2>
-                <p>Fine-grained technique: technical artifacts, engineering principles, methods and
-                    implementation details beneath the production layer — as a navigable graph.</p>
+                <h3>Technique Space</h3>
+                <p class="tag">Artifacts, principles, methods.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="technique">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/social/">
+            <a class="module" href="/social/">
                 <span class="ng-eyebrow">Module 04 · Main</span>
-                <h2>Social Space</h2>
-                <p>The ontic–agentic–epistemic elements that render social reality intelligible: actors,
-                    institutions, roles, norms, beliefs, relationships — as a navigable graph.</p>
+                <h3>Social Space</h3>
+                <p class="tag">Actors, institutions, norms, relations.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="social">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/nation/">
+            <a class="module" href="/nation/">
                 <span class="ng-eyebrow">Module 05</span>
-                <h2>Nation Space</h2>
-                <p>A structured registry of sovereign systems — an illustrated index of nations with
-                    per-nation entries, in the Index Gentium grammar.</p>
+                <h3>Nation Space</h3>
+                <p class="tag">Illustrated index of nations.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="nation">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Index</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/production/">
-                <span class="ng-eyebrow">Module 06</span>
-                <h2>Production Space</h2>
-                <p>The production sphere rendered intelligible — a computed view over Social Space:
-                    nodes tagged <code>production-view</code>, recomputed via
-                    <code>make production-view</code>.</p>
+            <a class="module" href="/production/">
+                <span class="ng-eyebrow">Module 06 · View</span>
+                <h3>Production Space</h3>
+                <p class="tag">Computed view over Social Space.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="production">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span></div>
             </a>
 
-            <a class="module ng-card" href="/research/">
+            <a class="module" href="/research/">
                 <span class="ng-eyebrow">Module 07</span>
-                <h2>Research Space</h2>
-                <p>The world's research apparatus: public research institutes, laboratories, funding agencies,
-                    universities and their intersections — as a navigable graph.</p>
+                <h3>Research Space</h3>
+                <p class="tag">The world's research apparatus.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="research">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Explorer</span><span>Editor</span></div>
             </a>
 
-            <a class="module ng-card" href="/note/">
+            <a class="module" href="/note/">
                 <span class="ng-eyebrow">Module 08</span>
-                <h2>Note Space</h2>
-                <p>Long-form notes on the spaces Naturgnosis maps — a searchable catalog with a
-                    single-note reader, persisted as plain markdown.</p>
+                <h3>Note Space</h3>
+                <p class="tag">Long-form notes, plain markdown.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="note">—</span><span class="label">notes</span></span></div>
                 <div class="links"><span>Index</span><span>Search</span></div>
             </a>
 
-            <a class="module ng-card" href="/graph/">
+            <a class="module" href="/graph/">
                 <span class="ng-eyebrow">Hub · Read-only</span>
-                <h2>Universal Index</h2>
-                <p>Graphive: every space on one canvas — nature, epistemic, technique,
-                    social, nation, production and research nodes with source links. Recomputed via
-                    <code>make universal-index</code>.</p>
+                <h3>Universal Index</h3>
+                <p class="tag">Every space on one canvas.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="total">—</span><span class="label">nodes</span></span></div>
                 <div class="links"><span>Graph</span></div>
             </a>
-
         </section>
 
+        <nav class="router" aria-label="I want to">
+            <span class="intent">I want to…</span>
+            <a href="/social/">navigate social reality</a>
+            <a href="/nation/">compare nations</a>
+            <a href="/note/">read the notes</a>
+            <a href="/graph/">see everything</a>
+            <a href="/social/edit.html">add knowledge</a>
+        </nav>
     </main>
 
     <footer>
@@ -367,6 +518,125 @@ rehensive, structured, and navigable registry - map of the world epistemic and t
         <span class="ng-caption"><a href="https://github.com/csiglab/Naturgnosis">source</a> ·
             <a href="/docs.html">docs</a> · <a href="/api/health">status</a></span>
     </footer>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* Ambient constellation: fixed low-opacity drift, theme-aware copper/cyan.
+           Decorative only; disabled under prefers-reduced-motion. */
+        try {
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                var cv = document.getElementById('ambient');
+                var ctx = cv.getContext('2d');
+                var pts = [];
+                var W = 0, H = 0;
+                var COUNT_DIV = 42000, LINK_DIST = 130;
+
+                var cs = getComputedStyle(document.documentElement);
+                var copper = cs.getPropertyValue('--accent-copper').trim() || '#c9956c';
+                var cyan = cs.getPropertyValue('--accent-cyan').trim() || '#4dd4c4';
+
+                function resize() {
+                    W = cv.width = window.innerWidth;
+                    H = cv.height = window.innerHeight;
+                    var n = Math.max(24, Math.min(110, Math.floor(W * H / COUNT_DIV)));
+                    pts = [];
+                    for (var i = 0; i < n; i++) {
+                        pts.push({
+                            x: Math.random() * W, y: Math.random() * H,
+                            vx: (Math.random() - 0.5) * 0.22,
+                            vy: (Math.random() - 0.5) * 0.22,
+                            c: Math.random() < 0.7 ? copper : cyan
+                        });
+                    }
+                }
+
+                function hexA(hex, a) {
+                    var m = /^#?([0-9a-f]{6})$/i.exec(hex);
+                    if (!m) return 'rgba(201,149,108,' + a + ')';
+                    var v = parseInt(m[1], 16);
+                    return 'rgba(' + ((v >> 16) & 255) + ',' + ((v >> 8) & 255) + ',' +
+                        (v & 255) + ',' + a + ')';
+                }
+
+                function tick() {
+                    ctx.clearRect(0, 0, W, H);
+                    var i, j, p, q, dx, dy, d;
+                    for (i = 0; i < pts.length; i++) {
+                        p = pts[i];
+                        p.x += p.vx; p.y += p.vy;
+                        if (p.x < 0 || p.x > W) p.vx *= -1;
+                        if (p.y < 0 || p.y > H) p.vy *= -1;
+                    }
+                    for (i = 0; i < pts.length; i++) {
+                        for (j = i + 1; j < pts.length; j++) {
+                            p = pts[i]; q = pts[j];
+                            dx = p.x - q.x; dy = p.y - q.y;
+                            d = Math.sqrt(dx * dx + dy * dy);
+                            if (d < LINK_DIST) {
+                                ctx.strokeStyle = hexA(p.c, 0.10 * (1 - d / LINK_DIST));
+                                ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+                            }
+                        }
+                    }
+                    for (i = 0; i < pts.length; i++) {
+                        p = pts[i];
+                        ctx.fillStyle = hexA(p.c, 0.5);
+                        ctx.beginPath(); ctx.arc(p.x, p.y, 1.1, 0, 6.2832); ctx.fill();
+                    }
+                    requestAnimationFrame(tick);
+                }
+
+                window.addEventListener('resize', resize);
+                resize();
+                tick();
+            }
+        } catch (e) { /* decorative only — never break the page */ }
+    })();
+    </script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* Landing metrics: per-module counts baked by bin/build_landing_metrics.py
+           into data/landing-metrics.json. Absent/unavailable renders as em-dash. */
+        function fmt(n) {
+            if (typeof n !== 'number') return '—';
+            return n.toLocaleString('en-US');
+        }
+
+        fetch('data/landing-metrics.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (idx) {
+                var mods = (idx && idx.modules) || {};
+                var total = 0, haveTotal = false;
+                Object.keys(mods).forEach(function (k) {
+                    var m = mods[k] || {};
+                    if (typeof m.nodes === 'number' && k !== 'note') {
+                        total += m.nodes;
+                        haveTotal = true;
+                    }
+                });
+                document.querySelectorAll('[data-metric]').forEach(function (el) {
+                    var k = el.getAttribute('data-metric');
+                    if (k === 'total') {
+                        el.textContent = haveTotal ? fmt(total) : '—';
+                        return;
+                    }
+                    var m = mods[k] || {};
+                    el.textContent = fmt(m.nodes);
+                });
+                var rc = document.getElementById('registry-count');
+                if (rc) rc.textContent = haveTotal ? fmt(total) + ' elements indexed' : '';
+            })
+            .catch(function () { /* em-dashes stay */ });
+    })();
+    </script>
 
     <script>
     (function () {

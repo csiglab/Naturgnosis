@@ -3,7 +3,7 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research nation technique epistemica nature
 
-.PHONY: help build index notes-index search-index universal-index production-view seed serve dev deploy-local deploy-server clean
+.PHONY: help build index notes-index search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server clean
 
 help:
 	@echo "build         regenerate notes + universal index + graph layouts (+ universal graph)"
@@ -11,6 +11,7 @@ help:
 	@echo "notes-index   rebuild app/note/data/index.json from app/note/data/"
 	@echo "search-index  rebuild app/data/search-index.json (needs notes-index first)"
 	@echo "universal-index rebuild app/data/universal-graph.json + universal-layout.json (view-only Graphive)"
+	@echo "landing-metrics rebuild app/data/landing-metrics.json (per-module counts for the hub)"
 	@echo "production-view rebuild app/production/data/view.json (derived view over social)"
 	@echo "seed          push app/*/data/data.json into CouchDB"
 	@echo "serve         run the sync server (needs CouchDB + .env)"
@@ -27,7 +28,7 @@ build: index production-view
 		fi; \
 	done
 
-index: notes-index search-index universal-index
+index: notes-index search-index universal-index landing-metrics
 
 notes-index:
 	$(PYTHON) bin/build_note_index.py
@@ -37,6 +38,9 @@ search-index: notes-index
 
 universal-index:
 	$(PYTHON) bin/build_universal_index.py
+
+landing-metrics: notes-index
+	$(PYTHON) bin/build_landing_metrics.py
 
 production-view:
 	$(PYTHON) bin/build_production_view.py
