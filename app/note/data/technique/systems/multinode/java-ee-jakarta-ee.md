@@ -31,48 +31,48 @@ Jakarta EE is a standard because it is a normative specification governing form,
 >
 > Verbs: a compatible server *realizes* the standard set.
 
-| Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
-|---|---|---|---|
-| **Jakarta EE** | Umbrella standard: set of enterprise Java specs + their API surfaces and realizing servers (vendor implementations live in the Implementation matrix below, not in this decomposition). | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification | The member-specification set: all Jakarta EE member specs grouped by family. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Coherence (portable application architecture) | Organizing structure: portable enterprise applications via standard APIs + container-managed services (DI, transactions, security, concurrency). | System Structure | `(root) > Technical Element Set > Technical Architecture` |
-| Jakarta EE > Realized capability | Capability realized: distributed, scalable, transactional component-based applications on compatible servers. | Mechanism & Capability | `(root) > Technical Element Set > Technical Capability` |
-| Jakarta EE > Governance (Eclipse Foundation stewardship) | Eclipse Foundation stewardship of the spec set; JCP heritage; compatibility/TCK process. | Knowledge & Methodology | `(root) > Technical Element Set > Technical Institution` |
-| Jakarta EE > Specification > Web Tier | Nested standard group for HTTP/web presentation. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Web Tier > Jakarta Servlet | Core HTTP request/response programming model and lifecycle. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Web Tier > Jakarta Servlet > `jakarta.servlet` API | Defined boundary through which web components exchange requests/responses. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Web Tier > Jakarta Faces (JSF) | Component-based UI framework for server-rendered interfaces (skeleton row; see Faces section below). | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Web Services | Nested standard group for REST/SOAP/JSON interop. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Web Services > Jakarta REST (JAX-RS) | Standard API for RESTful HTTP services. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Web Services > Jakarta REST (JAX-RS) > `jakarta.ws.rs` API | Interface boundary for resources, providers, filters. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Persistence | Nested standard group for data access. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Persistence > Jakarta Persistence (JPA) | Standard ORM API for entity-based relational mapping. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Persistence > Jakarta Persistence (JPA) > `jakarta.persistence` API | Interface boundary (entities, `EntityManager`, JPQL). | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Enterprise Integration | Nested standard group for messaging/batch/mail/concurrency. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Enterprise Integration > Jakarta Messaging (JMS) | Messaging standard for async, reliable, decoupled communication. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Enterprise Integration > Jakarta Messaging (JMS) > `jakarta.jms` API | Interface boundary for queues, topics, listeners. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Business Logic | Nested standard group for transactional components and injection. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Business Logic > Jakarta Enterprise Beans (EJB) | Component model for transactional, secure, distributed logic. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Business Logic > Jakarta Enterprise Beans (EJB) > `jakarta.ejb` API | Interface boundary (session/message-driven beans, timers). | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Business Logic > Jakarta CDI | Context-aware dependency injection with scopes, lifecycle, events. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Business Logic > Jakarta CDI > `jakarta.enterprise` + `jakarta.inject` API | Interface boundary for beans, scopes, events, interceptors. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Business Logic > Dependency injection practice | Repeatable pattern: constructor/field injection, scopes, producers applied by agents across projects. | Technique | `(root) > Technical Element Set > Technical Practice` |
-| Jakarta EE > Specification > Security | Nested standard group for authN/authZ and identity integration. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Security > Jakarta Security | Standardized authentication, authorization, identity-store integration. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Security > Declarative security practice | Repeatable pattern: annotations + roles + identity stores enforced by the container. | Technique | `(root) > Technical Element Set > Technical Practice` |
-| Jakarta EE > Specification > Transaction Management | Nested standard group for distributed transaction coordination. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Transaction Management > Jakarta Transactions (JTA) | Standard for demarcating and coordinating distributed transactions. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Transaction Management > Jakarta Transactions (JTA) > `jakarta.transaction` API | Interface boundary (`UserTransaction`, XA enlistment). | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| Jakarta EE > Specification > Transaction Management > Transaction coordination mechanism | Arrangement through which atomic commit/rollback across resources is produced. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| Jakarta EE > Specification > Configuration & Naming | Nested standard group for metadata, injection contracts, lookup. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Specification > Validation & MVC | Nested standard group: Bean Validation (constraints) + MVC (optional action-based framework). | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| Jakarta EE > Compatibility (TCK) | Conformance evaluation deciding whether an implementation/server may claim compatibility. | Technical Control | `(root) > Technical Element Set > Verification` |
-| Jakarta EE > Compatibility (TCK) > Technology Compatibility Kit (TCK) | The executable test suite, harness, and documentation artifacts against which implementations and servers are certified; passing it licenses a compatibility claim. | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object > Constitutive Technical Object` |
-| Jakarta EE > Evolution javax-to-jakarta | Historical rename `(root) > Technical Element Set > Technical Evolution` → `jakarta.*` (EE 8 → 9) after the 2017 Eclipse transfer; platform versions 8/9/10/11. | Lifecycle & Continuity | `(root) > Technical Element Set > Technical Evolution` |
-| Jakarta EE > Realizing servers | Compatible servers realizing the standard set (links only; decomposed in their own notes). | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Jakarta EE > Realizing servers > WildFly | Full-profile production system realizing EJB/JMS/JCA and the core set. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Jakarta EE > Realizing servers > Payara/GlassFish/Open Liberty | Compatible production systems realizing the set (profiles vary). | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| Jakarta EE > Realizing servers > Tomcat (+ EE extensions) | Servlet-container production object realizing the web subset; full EE only with added impls (Mojarra, Weld, Hibernate Validator). | System Structure | `(root) > Technical Element Set > Production Technical System > Production Technical Object` |
+| Instance Tree Path | Description |
+| --- | --- |
+| `Technical Standard` → Jakarta EE | Umbrella standard: set of enterprise Java specs + their API surfaces and realizing servers (vendor implementations live in the Implementation matrix below, not in this decomposition). |
+| `Technical Standard` → Jakarta EE → Specification | The member-specification set: all Jakarta EE member specs grouped by family. |
+| `Technical Standard` → Jakarta EE → Coherence (Portable Application Architecture) | Organizing structure: portable enterprise applications via standard APIs + container-managed services (DI, transactions, security, concurrency). |
+| `Technical Standard` → Jakarta EE → Realized Capability | Capability realized: distributed, scalable, transactional component-based applications on compatible servers. |
+| `Technical Standard` → Jakarta EE → Governance (Eclipse Foundation Stewardship) | Eclipse Foundation stewardship of the spec set; JCP heritage; compatibility/TCK process. |
+| `Technical Standard` → Jakarta EE → Specification → Web Tier | Nested standard group for HTTP/web presentation. |
+| `Technical Standard` → Jakarta EE → Specification → Web Tier → Jakarta Servlet | Core HTTP request/response programming model and lifecycle. |
+| `Technical Standard` → Jakarta EE → Specification → Web Tier → Jakarta Servlet → `jakarta.servlet` API | Defined boundary through which web components exchange requests/responses. |
+| `Technical Standard` → Jakarta EE → Specification → Web Tier → Jakarta Faces (JSF) | Component-based UI framework for server-rendered interfaces (skeleton row; see Faces section below). |
+| `Technical Standard` → Jakarta EE → Specification → Web Services | Nested standard group for REST/SOAP/JSON interop. |
+| `Technical Standard` → Jakarta EE → Specification → Web Services → Jakarta REST (JAX-RS) | Standard API for RESTful HTTP services. |
+| `Technical Standard` → Jakarta EE → Specification → Web Services → Jakarta REST (JAX-RS) → `jakarta.ws.rs` API | Interface boundary for resources, providers, filters. |
+| `Technical Standard` → Jakarta EE → Specification → Persistence | Nested standard group for data access. |
+| `Technical Standard` → Jakarta EE → Specification → Persistence → Jakarta Persistence (JPA) | Standard ORM API for entity-based relational mapping. |
+| `Technical Standard` → Jakarta EE → Specification → Persistence → Jakarta Persistence (JPA) → `jakarta.persistence` API | Interface boundary (entities, `EntityManager`, JPQL). |
+| `Technical Standard` → Jakarta EE → Specification → Enterprise Integration | Nested standard group for messaging/batch/mail/concurrency. |
+| `Technical Standard` → Jakarta EE → Specification → Enterprise Integration → Jakarta Messaging (JMS) | Messaging standard for async, reliable, decoupled communication. |
+| `Technical Standard` → Jakarta EE → Specification → Enterprise Integration → Jakarta Messaging (JMS) → `jakarta.jms` API | Interface boundary for queues, topics, listeners. |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic | Nested standard group for transactional components and injection. |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic → Jakarta Enterprise Beans (EJB) | Component model for transactional, secure, distributed logic. |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic → Jakarta Enterprise Beans (EJB) → `jakarta.ejb` API | Interface boundary (session/message-driven beans, timers). |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic → Jakarta CDI | Context-aware dependency injection with scopes, lifecycle, events. |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic → Jakarta CDI → `jakarta.enterprise` + `jakarta.inject` API | Interface boundary for beans, scopes, events, interceptors. |
+| `Technical Standard` → Jakarta EE → Specification → Business Logic → Dependency Injection Practice | Repeatable pattern: constructor/field injection, scopes, producers applied by agents across projects. |
+| `Technical Standard` → Jakarta EE → Specification → Security | Nested standard group for authN/authZ and identity integration. |
+| `Technical Standard` → Jakarta EE → Specification → Security → Jakarta Security | Standardized authentication, authorization, identity-store integration. |
+| `Technical Standard` → Jakarta EE → Specification → Security → Declarative Security Practice | Repeatable pattern: annotations + roles + identity stores enforced by the container. |
+| `Technical Standard` → Jakarta EE → Specification → Transaction Management | Nested standard group for distributed transaction coordination. |
+| `Technical Standard` → Jakarta EE → Specification → Transaction Management → Jakarta Transactions (JTA) | Standard for demarcating and coordinating distributed transactions. |
+| `Technical Standard` → Jakarta EE → Specification → Transaction Management → Jakarta Transactions (JTA) → `jakarta.transaction` API | Interface boundary (`UserTransaction`, XA enlistment). |
+| `Technical Standard` → Jakarta EE → Specification → Transaction Management → Transaction Coordination Mechanism | Arrangement through which atomic commit/rollback across resources is produced. |
+| `Technical Standard` → Jakarta EE → Specification → Configuration & Naming | Nested standard group for metadata, injection contracts, lookup. |
+| `Technical Standard` → Jakarta EE → Specification → Validation & MVC | Nested standard group: Bean Validation (constraints) + MVC (optional action-based framework). |
+| `Technical Standard` → Jakarta EE → Compatibility (TCK) | Conformance evaluation deciding whether an implementation/server may claim compatibility. |
+| `Technical Standard` → Jakarta EE → Compatibility (TCK) → Technology Compatibility Kit (TCK) | The executable test suite, harness, and documentation artifacts against which implementations and servers are certified; passing it licenses a compatibility claim. |
+| `Technical Standard` → Jakarta EE → Evolution Javax-To-Jakarta | Historical rename `(root) -> <<Technical Element>> -> Technical Evolution` → `jakarta.*` (EE 8 → 9) after the 2017 Eclipse transfer; platform versions 8/9/10/11. |
+| `Technical Standard` → Jakarta EE → Realizing Servers | Compatible servers realizing the standard set (links only; decomposed in their own notes). |
+| `Technical Standard` → Jakarta EE → Realizing Servers → WildFly | Full-profile production system realizing EJB/JMS/JCA and the core set. |
+| `Technical Standard` → Jakarta EE → Realizing Servers → Payara/GlassFish/Open Liberty | Compatible production systems realizing the set (profiles vary). |
+| `Technical Standard` → Jakarta EE → Realizing Servers → Tomcat (+ EE Extensions) | Servlet-container production object realizing the web subset; full EE only with added impls (Mojarra, Weld, Hibernate Validator). |
 
 ## Specification Set
 

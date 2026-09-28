@@ -28,52 +28,52 @@ consume the logs but belong to other readings.
 
 ### What is the recursive instance decomposition of this technical instance?
 
-Tree 1 — the means (technicarum grammar). Instances are styled `**bold**`; bare grouping
+Tree 1 — the means (technicarum grammar). Instances plain; bare grouping
 types `` `code` ``; every leaf resolves to a technical instance.
 
-| Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
-| --- | --- | --- | --- |
-| **well logging practice** | The organized method of evaluating a formation through borehole measurement. | Composite | `(root) > Technical Element Set` |
-| **well logging practice** > **wireline crew** | Agents executing the logging run. | Agents & Competence | `(root) > Technical Element Set > Technical Agent` |
-| **well logging practice** > **wireline crew** > `Technical Competence` | Grouping: crew capabilities. | Agents & Competence | `(root) > Technical Element Set > Technical Agent > Technical Competence` |
-| **well logging practice** > **wireline crew** > `Technical Competence` > **tool-string handling** | Acquired capacity to assemble and run sondes without sticking the string. | Agents & Competence | `(root) > Technical Element Set > Technical Agent > Technical Competence` |
-| **well logging practice** > **drilling rig** | Plant creating the borehole the sondes travel. | System Structure | `(root) > Technical Element Set > Production Technical System` |
-| **well logging practice** > **borehole** | The open hole exposing the formation to measurement. | System Structure | `(root) > Technical Element Set > Technical Configuration` |
-| **well logging practice** > `Action Interface & Actuation` | Grouping: the motoric boundary into the hole. | System Structure | `(root) > Technical Element Set > Action Interface & Actuation` |
-| **well logging practice** > `Action Interface & Actuation` > **logging winch** | Controlled cable payout setting logging speed. | System Structure | `(root) > Technical Element Set > Action Interface & Actuation` |
-| **well logging practice** > `Action Interface & Actuation` > **logging cable** | Armored conductor lowering sondes and carrying signals up. | System Structure | `(root) > Technical Element Set > Action Interface & Actuation` |
-| **well logging practice** > **resistivity sonde** | Tool transducing formation resistivity. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| **well logging practice** > **gamma-ray sonde** | Tool transducing natural radioactivity. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| **well logging practice** > **sonic sonde** | Tool transducing acoustic transit time. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| **well logging practice** > **density sonde** | Tool transducing bulk density via gamma scattering. | Mechanism & Capability | `(root) > Technical Element Set > Technical Mechanism` |
-| **well logging practice** > `Technical Interface` | Grouping: boundaries exchanging matter, energy, information. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| **well logging practice** > `Technical Interface` > **sonde–formation coupling** | Acoustic and electrical contact between tool and borehole wall. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| **well logging practice** > `Technical Interface` > **surface recording unit** | Acquisition system digitizing and depth-indexing the signals. | System Structure | `(root) > Technical Element Set > Technical Interface` |
-| **well logging practice** > `Technical Standard` | Grouping: normative specifications. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| **well logging practice** > `Technical Standard` > **sonde calibration** | Shop and in-hole calibration against reference blocks. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| **well logging practice** > `Technical Standard` > **depth control** | Cable-stretch correction tying samples to true depth. | Requirements & Definition | `(root) > Technical Element Set > Technical Standard` |
-| **well logging practice** > `Technical Parameter` | Grouping: variables controlling the run. | Requirements & Definition | `(root) > Technical Element Set > Technical Parameter` |
-| **well logging practice** > `Technical Parameter` > **logging speed** | Hoist rate trading vertical resolution against stick risk. | Requirements & Definition | `(root) > Technical Element Set > Technical Parameter` |
-| **well logging practice** > `Technical Quality` | Grouping: measured qualities of the run. | Mechanism & Capability | `(root) > Technical Element Set > Technical Quality` |
-| **well logging practice** > `Technical Quality` > **repeat-section agreement** | Overlap-logged interval quantifying precision. | Mechanism & Capability | `(root) > Technical Element Set > Technical Quality` |
+| Instance Tree Path | Description |
+| --- | --- |
+| `Technical Element Set` → Well Logging Practice | The organized method of evaluating a formation through borehole measurement. |
+| `Technical Element Set` → Well Logging Practice → Wireline Crew | Agents executing the logging run. |
+| `Technical Element Set` → Well Logging Practice → Wireline Crew → `Technical Competence` | Grouping: crew capabilities. |
+| `Technical Element Set` → Well Logging Practice → Wireline Crew → `Technical Competence` → Tool-String Handling | Acquired capacity to assemble and run sondes without sticking the string. |
+| `Technical Element Set` → Well Logging Practice → Drilling Rig | Plant creating the borehole the sondes travel. |
+| `Technical Element Set` → Well Logging Practice → Borehole | The open hole exposing the formation to measurement. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface & Actuation` | Grouping: the motoric boundary into the hole. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface & Actuation` → Logging Winch | Controlled cable payout setting logging speed. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface & Actuation` → Logging Cable | Armored conductor lowering sondes and carrying signals up. |
+| `Technical Element Set` → Well Logging Practice → Resistivity Sonde | Tool transducing formation resistivity. |
+| `Technical Element Set` → Well Logging Practice → Gamma-Ray Sonde | Tool transducing natural radioactivity. |
+| `Technical Element Set` → Well Logging Practice → Sonic Sonde | Tool transducing acoustic transit time. |
+| `Technical Element Set` → Well Logging Practice → Density Sonde | Tool transducing bulk density via gamma scattering. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface` | Grouping: boundaries exchanging matter, energy, information. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface` → Sonde–Formation Coupling | Acoustic and electrical contact between tool and borehole wall. |
+| `Technical Element Set` → Well Logging Practice → `Technical Interface` → Surface Recording Unit | Acquisition system digitizing and depth-indexing the signals. |
+| `Technical Element Set` → Well Logging Practice → `Technical Standard` | Grouping: normative specifications. |
+| `Technical Element Set` → Well Logging Practice → `Technical Standard` → Sonde Calibration | Shop and in-hole calibration against reference blocks. |
+| `Technical Element Set` → Well Logging Practice → `Technical Standard` → Depth Control | Cable-stretch correction tying samples to true depth. |
+| `Technical Element Set` → Well Logging Practice → `Technical Parameter` | Grouping: variables controlling the run. |
+| `Technical Element Set` → Well Logging Practice → `Technical Parameter` → Logging Speed | Hoist rate trading vertical resolution against stick risk. |
+| `Technical Element Set` → Well Logging Practice → `Technical Quality` | Grouping: measured qualities of the run. |
+| `Technical Element Set` → Well Logging Practice → `Technical Quality` → Repeat-Section Agreement | Overlap-logged interval quantifying precision. |
 
 Tree 2 — the end (epistemicarum grammar): the same operation read as inquiry. The boundary
 between the trees runs between executing the observation and warranting its product.
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| **formation evaluation** | The inquiry the logging run serves: what lies underground. | Target | `(root) > Epistemic Order > Domain Concrete Epistemic Artifact Set (DCESA)` |
-| **formation evaluation** > `Observation Interface` | Grouping: the transduction chain into persistent artifacts. | Access | `(root) > Epistemic Order > Observation Interface` |
-| **formation evaluation** > `Observation Interface` > **resistivity transduction** | Conversion of formation conductivity into measurable current. | Access | `(root) > Epistemic Order > Observation Interface > Transduction` |
-| **formation evaluation** > `Observation Interface` > **depth sampling** | Discrete registrations of the continuous formation flux. | Access | `(root) > Epistemic Order > Observation Interface > Sampling` |
-| **formation evaluation** > `Observation Interface` > **signal quantization** | Mapping of samples onto finite digital values. | Access | `(root) > Epistemic Order > Observation Interface > Quantization` |
-| **formation evaluation** > `Observation Interface` > **LAS encoding** | Conversion of registered signals into storable log files. | Access | `(root) > Epistemic Order > Observation Interface > Observation Encoding` |
-| **formation evaluation** > **gamma-ray log curve** | Depth-indexed radioactivity track; shale indicator. | Representation | `(root) > Epistemic Order > Concrete Epistemic Artifact` |
-| **formation evaluation** > **resistivity log curve** | Depth-indexed resistivity track; hydrocarbon indicator. | Representation | `(root) > Epistemic Order > Concrete Epistemic Artifact` |
-| **formation evaluation** > **porosity cross-plot** | Joint density–neutron reading warranting porosity claims. | Representation | `(root) > Epistemic Order > Concrete Epistemic Artifact` |
-| **formation evaluation** > `Epistemic Standard` | Grouping: criteria judging the artifacts. | Validation | `(root) > Epistemic Order > Epistemic Standard` |
-| **formation evaluation** > `Epistemic Standard` > **extraction confirmation** | Later production or coring confirming (or refuting) the reading. | Validation | `(root) > Epistemic Order > Epistemic Standard` |
-| **formation evaluation** > `Epistemic Standard` > **run reproducibility** | Repeat-section and offset-well agreement. | Validation | `(root) > Epistemic Order > Epistemic Standard` |
+| Formation Evaluation | The inquiry the logging run serves: what lies underground. | Target | `(root) -> <<Epistemic Element>> >  Domain Concrete Epistemic Artifact Set (DCESA)` |
+| Formation Evaluation → `Observation Interface` | Grouping: the transduction chain into persistent artifacts. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface` |
+| Formation Evaluation → `Observation Interface` → Resistivity Transduction | Conversion of formation conductivity into measurable current. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Transduction` |
+| Formation Evaluation → `Observation Interface` → Depth Sampling | Discrete registrations of the continuous formation flux. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Sampling` |
+| Formation Evaluation → `Observation Interface` → Signal Quantization | Mapping of samples onto finite digital values. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Quantization` |
+| Formation Evaluation → `Observation Interface` → LAS Encoding | Conversion of registered signals into storable log files. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Observation Encoding` |
+| Formation Evaluation → Gamma-Ray Log Curve | Depth-indexed radioactivity track; shale indicator. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → Resistivity Log Curve | Depth-indexed resistivity track; hydrocarbon indicator. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → Porosity Cross-Plot | Joint density–neutron reading warranting porosity claims. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → `Epistemic Standard` | Grouping: criteria judging the artifacts. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
+| Formation Evaluation → `Epistemic Standard` → Extraction Confirmation | Later production or coring confirming (or refuting) the reading. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
+| Formation Evaluation → `Epistemic Standard` → Run Reproducibility | Repeat-section and offset-well agreement. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
 
 ## References
 
