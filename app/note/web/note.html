@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note · Naturgnosis</title>
+    <link rel="icon" href="/shared/img/favicon.ico">
     <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="notes.css">
     <script src="vendor/marked.min.js"></script>
     <style>
@@ -17,16 +18,37 @@
             --bg-void: #0b0e14;
             --bg-surface: #11151e;
             --bg-card: #161b26;
+            --bg-elevated: #1d2330;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --gilt: #C4B998;
+            --parchment: #D6D1C4;
+            --thread: #4a4a4a;
             --text-primary: #f4f3f1;
             --text-secondary: #a8a5b0;
             --text-muted: #9290aa;
+            --text-ghost: #82809a;
+            --accent-copper: #c9956c;
+            --accent-copper-light: #dbb08a;
+            --accent-sage: #7ba388;
+            --accent-plum: #9b7eb0;
+            --accent-rose: #c47d8a;
+            --accent-amber: #d4a857;
+            --accent-steel: #6b8caa;
             --accent-gold: #c9956c;
             --accent-gold-dim: rgba(201, 149, 108, 0.14);
             --accent-cyan: #4dd4c4;
             --accent-cyan-dim: rgba(77, 212, 196, 0.1);
             --border-subtle: rgba(255, 255, 255, 0.05);
+            --border-medium: rgba(255, 255, 255, 0.08);
+            --border-strong: rgba(255, 255, 255, 0.12);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
             --card-bg: rgba(22, 27, 38, 0.72);
-            --nav-bg: rgba(11, 14, 20, 0.82);
+            --nav-bg: rgba(11, 14, 20, 0.85);
             --footer-bg: rgba(11, 14, 20, 0.7);
             --font-display: 'Cormorant Garamond', serif;
             --font-body: 'Inter', sans-serif;
@@ -37,14 +59,35 @@
             --bg-void: #f5f2ea;
             --bg-surface: #efe9dc;
             --bg-card: #fffdf8;
+            --bg-elevated: #ffffff;
+            --bg-hover: rgba(20, 22, 30, 0.04);
+            --gilt: #9a7b3f;
+            --parchment: #2b2620;
+            --thread: rgba(43, 38, 32, 0.25);
             --text-primary: #1a1d24;
             --text-secondary: #4a4f5e;
             --text-muted: #7a7f8e;
+            --text-ghost: #9aa0ae;
+            --accent-copper: #9a7b3f;
+            --accent-copper-light: #7a6132;
+            --accent-sage: #4e7a5e;
+            --accent-plum: #7a5f8c;
+            --accent-rose: #a55a68;
+            --accent-amber: #9a742f;
+            --accent-steel: #4e6e8c;
             --accent-gold: #9a7b3f;
             --accent-gold-dim: rgba(154, 123, 63, 0.12);
             --accent-cyan: #0e7c72;
             --accent-cyan-dim: rgba(14, 124, 114, 0.08);
             --border-subtle: rgba(20, 22, 30, 0.10);
+            --border-medium: rgba(20, 22, 30, 0.14);
+            --border-strong: rgba(20, 22, 30, 0.22);
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
             --card-bg: rgba(255, 253, 248, 0.72);
             --nav-bg: rgba(245, 242, 234, 0.85);
             --footer-bg: rgba(245, 242, 234, 0.75);

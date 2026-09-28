@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturgnosis Editor</title>
+    <link rel="icon" href="/shared/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
 :root {
     /* Oxford Common Room — deep indigo-black canvas */
-    --bg-deep: #0b0e14;
     --bg-void: #0b0e14;
     --bg-surface: #11151e;
     --bg-card: #161b26;
     --bg-elevated: #1d2330;
     --bg-hover: rgba(255, 255, 255, 0.04);
-    --bg-active: rgba(255, 255, 255, 0.07);
     /* Gilt edge for selection — fine bookbinding */
     --gilt: #C4B998;
     /* Warm off-white parchment text (canvas labels) */
@@ -35,12 +34,12 @@
     --accent-copper: #c9956c;
     --accent-copper-light: #dbb08a;
     --accent-sage: #7ba388;
-    --accent-sage-light: #9bc4a8;
     --accent-plum: #9b7eb0;
     --accent-rose: #c47d8a;
     --accent-amber: #d4a857;
     --accent-steel: #6b8caa;
     --accent-cyan: #4dd4c4;
+    --accent-gold: #c9956c; /* legacy alias for --accent-copper */
     
     /* Borders */
     --border-subtle: rgba(255, 255, 255, 0.05);
@@ -167,7 +166,7 @@ select:-webkit-autofill {
 .btn-group .search-clear { right: 34px; font-size: 14px; padding: 1px 3px; }
 
 body {
-    background: var(--bg-deep);
+    background: var(--bg-void);
     color: var(--text-primary);
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
@@ -337,13 +336,13 @@ body.panel-collapsed { grid-template-columns: 1fr 0; }
 .btn-primary {
     background: linear-gradient(135deg, var(--accent-copper) 0%, #b8855d 100%);
     border-color: transparent;
-    color: var(--bg-deep);
+    color: var(--bg-void);
     font-weight: 600;
 }
 
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--accent-copper-light) 0%, var(--accent-copper) 100%);
-    color: var(--bg-deep);
+    color: var(--bg-void);
     border-color: transparent;
 }
 
@@ -1082,7 +1081,7 @@ body.panel-collapsed { grid-template-columns: 1fr 0; }
 .modal-overlay.open { display: flex; }
 
 .modal {
-    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
     border: 1px solid var(--border-medium);
     border-radius: var(--radius-lg);
     width: 100%;
@@ -1240,7 +1239,7 @@ body.panel-collapsed { grid-template-columns: 1fr 0; }
     top: 1px;
     width: 5px;
     height: 9px;
-    border: solid var(--bg-deep);
+    border: solid var(--bg-void);
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
@@ -1576,7 +1575,7 @@ body.panel-collapsed { grid-template-columns: 1fr 0; }
 
 /* Edit Panel */
 .edit-panel {
-    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
+    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
     border-left: 1px solid var(--border-medium);
     display: flex;
     flex-direction: column;
@@ -2995,7 +2994,7 @@ body.panel-collapsed .edit-panel {
     z-index: 1000;
     transform: translateY(-200%);
     background: var(--accent-copper);
-    color: var(--bg-deep);
+    color: var(--bg-void);
     font-family: var(--font-body);
     font-size: 0.8rem;
     font-weight: 600;
