@@ -305,3 +305,58 @@ const FALLBACK_COLOR = COMMUNITY_COLORS[8]; // charcoal
 4. **Depth by shadow, not glow.** Matte velvet nodes; graphite threads; dark mask shadows behind labels. The only permitted "glow" is the copper time-fill and the copper-bleed box-shadow on elevated containers.
 5. **Keep pages in sync.** `index.html` and `edit.html` render identically by importing the shared renderer (`app/social/web/vendor/socio-graph.js`) and the same `:root`. Any token change must be applied to **both** HTML files (and any future page) simultaneously.
 6. **Verify contrast.** Before merging a new text/background pairing, confirm ≥ 4.5:1 (AA) for body, ≥ 3:1 for large display text.
+
+## System chrome (hub reference)
+
+Ported from the sibling project's design system where applicable; adapted to
+Oxford Common Room tokens. The hub landing (`app/index.html`) is the
+**reference implementation** — module pages must not invent variants of the
+patterns below.
+
+### Hairline matrix
+
+Registries use hairline dividers, not cards-with-gaps: the container sets
+`gap: 1px` over `background: var(--border-subtle)` with a matching `1px solid`
+border; children sit on `var(--bg-void)` and shift to `var(--bg-surface)` on
+hover. Cells carry a transparent `2px` left edge that turns
+`var(--accent-copper)` on hover (the gilt-edge idiom).
+
+### Metric strips
+
+Live counts render as `Value` (mono, `1rem+`, cyan) over `Label` (mono,
+uppercase, wide tracking, muted) — e.g. the landing's per-module
+`[data-metric]` spans fed by `app/data/landing-metrics.json`
+(`make landing-metrics`). **Emptiness renders as an em-dash (`—`); never
+`0`, `N/A`, or invented placeholders.**
+
+### Section heads
+
+`Display title + fluid hairline rule + mono count`: an italic display heading,
+a `flex: 1` `1px var(--border-subtle)` rule, and an uppercase mono caption
+(e.g. total elements indexed).
+
+### Intent router
+
+A single `I want to…` row maps visitor goals to surfaces (mono copper intent
+label + lightweight links). Goal-directed, non-redundant with the registry;
+at most five intents.
+
+### Fonts & favicon
+
+One Google Fonts URL on every page except the Nation public face (faithful
+Index Gentium port with its own weights) — display 300/400/500/600, body
+300/400/500/600, mono 300/400/500, `display=swap`):
+
+```text
+https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap
+```
+
+Every page declares `/shared/img/favicon.ico`. No dead vendor code ships —
+third-party files under `web/vendor/` must be referenced or removed.
+
+### Note-scoped extras
+
+The Note Space keeps five sanctioned extras beside the canonical block
+(`--accent-gold-dim`, `--accent-cyan-dim`, `--card-bg`, `--nav-bg`,
+`--footer-bg`); `--accent-gold` there is the legacy alias (same hex as copper
+in dark mode). No other module may introduce local tokens — propose them here first.
