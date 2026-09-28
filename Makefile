@@ -3,10 +3,11 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research nation technique epistemica nature
 
-.PHONY: help build notes-index search-index universal-index production-view seed serve dev deploy-local deploy-server clean
+.PHONY: help build index notes-index search-index universal-index production-view seed serve dev deploy-local deploy-server clean
 
 help:
 	@echo "build         regenerate notes + universal index + graph layouts (+ universal graph)"
+	@echo "index         rebuild all indexes (notes + search + universal)"
 	@echo "notes-index   rebuild app/note/data/index.json from app/note/data/"
 	@echo "search-index  rebuild app/data/search-index.json (needs notes-index first)"
 	@echo "universal-index rebuild app/data/universal-graph.json + universal-layout.json (view-only Graphive)"
@@ -17,7 +18,7 @@ help:
 	@echo "deploy-local  compose up couchdb + app, then seed"
 	@echo "deploy-server pull the GHCR image and run it"
 
-build: notes-index search-index universal-index production-view
+build: index production-view
 	@for m in $(MODULES); do \
 		if [ -s app/$$m/data/data.json ]; then \
 			$(PYTHON) bin/layout.py --data-file app/$$m/data/data.json \
@@ -25,6 +26,8 @@ build: notes-index search-index universal-index production-view
 			echo "layout: skipped $$m"; \
 		fi; \
 	done
+
+index: notes-index search-index universal-index
 
 notes-index:
 	$(PYTHON) bin/build_note_index.py
