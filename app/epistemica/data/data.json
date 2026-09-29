@@ -6798,5 +6798,105 @@
     "description": "Counterpart intervention the domain warrants; decomposed in note technique/systems/multinode/plant-cultivation-technical-domain-set.md."
    }
   ]
+ },
+ {
+  "id": "earth-science-001",
+  "name": "Earth Science",
+  "tags": [
+   "epistemic domain",
+   "earth",
+   "geoscience",
+   "geology"
+  ],
+  "layer": "Epistemic",
+  "category": "epistemicDomain",
+  "description": "The inquiry domain that makes the Earth intelligible: its spheres, the processes moving matter and energy through them, the archives holding its history, and the models predicting what it will do next.",
+  "longDescription": "A family of disciplines rather than one, decomposed recursively in note epistemica/earth-science.md: fourteen sub-field families (solid earth, geophysical, geochemical, hydrological, cryospheric, atmospheric, climate, ocean, historical, earth-life, planetary, geospatial, applied, and earth system sciences), each holding its disciplines and their sub-fields, plus the scaffolding shared across them. Bounded cut: the planetary body and its deep history are in; the observing instruments (technique), the industries and agencies acting on the results (social and production), and the Earth as a natural instance (nature) are out. Secondary readings: the Earth as a Segment of Reality is a natural instance decomposed under Philosophia Naturalis; the accumulated maps, models, and records are its DCESA. No row carries two types.",
+  "chronology": {
+   "summary": "From eighteenth-century mineralogy and mining, through stratigraphy and evolutionary succession, to seismology revealing the interior, plate tectonics and radiometric dating making deep history testable, and satellite geodesy and coupled climate modelling making the whole system a state to predict.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "structural",
+    "relationshipType": "subtype_of",
+    "targetNodeId": "cat_domain",
+    "description": "Earth science is a subtype of the abstract category Epistemic Domain."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "uses",
+    "targetNodeId": "obs_iface_01",
+    "description": "Seismic stations, GNSS networks, tide gauges, altimetry, radiometry, and spectrometers are the observation interfaces transducing Earth state into encoded artifacts."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "produces",
+    "targetNodeId": "artifact_05",
+    "description": "Continuous records — seismic waveform, gauge, GNSS, and proxy time series — accumulate into datasets with their own sampling and completeness limits."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "produces",
+    "targetNodeId": "artifact_08",
+    "description": "Geological, geomorphological, and hazard maps are the domain's ontic artifact: a cut over the planet at stated scale."
+   },
+   {
+    "relationshipFamily": "normativeValidation",
+    "relationshipType": "evaluated_by",
+    "targetNodeId": "standard_02",
+    "description": "A structural, age, or hazard claim stands only if independent data or workers reproduce it."
+   },
+   {
+    "relationshipFamily": "normativeValidation",
+    "relationshipType": "evaluated_by",
+    "targetNodeId": "standard_03",
+    "description": "Hazard and resource claims must name the observation or survey that would refute them."
+   }
+  ],
+  "specific": {
+   "inquiryKind": "observation-and-archive-driven-planetary-inference",
+   "noteRef": "epistemica/earth-science.md",
+   "domainScope": "the planetary body, mineral grain to planetary interior, present and deep past",
+   "knowledgeBoundaries": "open system under deep time, interior partial observability, and non-repeatable events",
+   "primaryObjects": [
+    "spheres and their coupling",
+    "rock, mineral, and sediment record",
+    "force fields and wave response",
+    "geochemical and isotopic inventories",
+    "climate, ocean, and ice state trajectories",
+    "geological and geomorphological maps"
+   ],
+   "functionalRoles": [
+    "target"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Epistemicarum decomposition; note epistemica/earth-science.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Domain node for the Earth Science family of disciplines; sub-field decomposition lives in the note, not the graph."
+    }
+   ],
+   "inheritanceLevel": 1,
+   "source": "epistemica-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Epistemicarum et Operis",
+    "description": "Decomposition workflow and element-type table; note epistemica/earth-science.md."
+   },
+   {
+    "title": "Plant Science (epistemica:plant-science-001)",
+    "description": "Consumer of Earth Science outputs: crop models, soil, and climate inputs."
+   },
+   {
+    "title": "Well Logging and Remote Sensing (technique space)",
+    "description": "The instrument side, decomposed under the technicarum grammar and cross-linked at the observation interface."
+   }
+  ]
  }
 ]
