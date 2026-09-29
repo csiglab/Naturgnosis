@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "snapshot_source": "seed",
   "source_dataset": "social",
   "tag": "production-view",
-  "node_count": 42,
-  "edge_count": 19,
-  "dropped_edges": 11,
+  "node_count": 60,
+  "edge_count": 43,
+  "dropped_edges": 13,
   "nodes": [
     {
       "id": "N1",
@@ -1512,6 +1512,96 @@
       "_view_targets": []
     },
     {
+      "id": "firm",
+      "name": "Firm",
+      "tags": [
+        "arbitriologia-import",
+        "collective",
+        "firm",
+        "organization",
+        "produceologia-import",
+        "production-view"
+      ],
+      "category": "Organization",
+      "layer": "Ontic",
+      "description": "Bounded, goal-oriented socio-technical collective that coordinates resources, capabilities and knowledge to produce and exchange value.",
+      "longDescription": "A business organization producing goods or services with strategic goal orientation. Enriched: acts through intentional agency, operational capacities, market interfaces, reflexive representations and evolutionary learning; modeled across microeconomic, institutional and capabilities layers.",
+      "chronology": {
+        "summary": "Generic firm template: Arbitriologia economic actor enriched with the Produceologia Firm ontology.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm-governance",
+          "description": "Governance coordinates operations."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm-strategy",
+          "description": "Strategy positions the firm."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm-product-portfolio",
+          "description": "Portfolio holds the offer."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm-commercialization",
+          "description": "Commercialization reaches markets."
+        },
+        {
+          "relationshipFamily": "causal",
+          "relationshipType": "produces",
+          "targetNodeId": "product",
+          "description": "Firm produces products."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "member_of",
+          "targetNodeId": "commerce-market",
+          "description": "Member of the commerce market."
+        },
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "business-group",
+          "description": "Belongs to a business group."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Arbitriologia+Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.65,
+        "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Facet/Economy/Unit/README.md",
+        "createdAt": "2026-09-28T00:00:00Z",
+        "auditTrail": [
+          "arbitriologia-import 2026-09-28 table row (entity-table, section: Economic Actor Space)",
+          "produceologia-import 2026-09-29 from docs/Firm/README.md: description enriched, production-view tag + constituent relations added"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Firm/README.md",
+          "description": "Firm ontology: VSM, agential hierarchy, business-model tables."
+        }
+      ],
+      "_view_targets": [
+        "business-group",
+        "commerce-market",
+        "firm-commercialization",
+        "firm-product-portfolio",
+        "product"
+      ]
+    },
+    {
       "id": "industrial-cluster",
       "name": "Industrial Cluster",
       "tags": [
@@ -1965,6 +2055,817 @@
         "inheritanceLevel": 0
       },
       "references": [],
+      "_view_targets": []
+    },
+    {
+      "id": "firm-product-portfolio",
+      "name": "Firm Product Portfolio",
+      "tags": [
+        "product portfolio",
+        "firm",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Product",
+      "description": "Structured configuration of products, services and technologies through which the firm creates and captures value.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Portfolio coherence and technology-product coupling.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "firm",
+          "description": "Portfolio is part of the firm."
+        },
+        {
+          "relationshipFamily": "causal",
+          "relationshipType": "produces",
+          "targetNodeId": "product",
+          "description": "Portfolio yields products."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Firm/Toolkit/Product/",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Firm/Toolkit/Product/"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Firm/Toolkit/Product/",
+          "description": "Structured configuration of products, services and technologies through which the firm creates and captures value."
+        }
+      ],
+      "_view_targets": [
+        "firm",
+        "product"
+      ]
+    },
+    {
+      "id": "firm-commercialization",
+      "name": "Firm Commercialization",
+      "tags": [
+        "commercialization",
+        "firm",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Process",
+      "description": "Recurrent pattern carrying products into markets: channels, customer interface, sales, after-sales.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Commercialization, e-commerce and invoicing toolkit.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "firm",
+          "description": "Commercialization is part of the firm."
+        },
+        {
+          "relationshipFamily": "dependency",
+          "relationshipType": "enables",
+          "targetNodeId": "commerce-market",
+          "description": "Commercialization feeds the market."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Firm/Toolkit/Comercialization/",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Firm/Toolkit/Comercialization/"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Firm/Toolkit/Comercialization/",
+          "description": "Recurrent pattern carrying products into markets: channels, customer interface, sales, after-sales."
+        }
+      ],
+      "_view_targets": [
+        "commerce-market",
+        "firm"
+      ]
+    },
+    {
+      "id": "product",
+      "name": "Product",
+      "tags": [
+        "product",
+        "good",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Product",
+      "description": "Exchangeable outcome of production offered into a market: a good or service carrying value.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Generic product template from the Produceologia catalog.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "firm-product-portfolio",
+          "description": "Product belongs to a portfolio."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Catalog/Product.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Catalog/Product.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Catalog/Product.md",
+          "description": "Exchangeable outcome of production offered into a market: a good or service carrying value."
+        }
+      ],
+      "_view_targets": [
+        "firm-product-portfolio"
+      ]
+    },
+    {
+      "id": "good-lemon",
+      "name": "Lemon",
+      "tags": [
+        "lemon",
+        "agriculture",
+        "good",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Product",
+      "description": "Citrus fruit good traded fresh and processed.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Catalog exemplar good.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "product",
+          "description": "Lemon is a product."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Catalog/Good/Agriculture/Lemon.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Catalog/Good/Agriculture/Lemon.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Catalog/Good/Agriculture/Lemon.md",
+          "description": "Citrus fruit good traded fresh and processed."
+        }
+      ],
+      "_view_targets": [
+        "product"
+      ]
+    },
+    {
+      "id": "good-cheese",
+      "name": "Cheese",
+      "tags": [
+        "cheese",
+        "dairy",
+        "good",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Product",
+      "description": "Dairy good traded fresh and aged.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Catalog exemplar good.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "product",
+          "description": "Cheese is a product."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Catalog/Good/Agriculture/Cheese.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Catalog/Good/Agriculture/Cheese.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Catalog/Good/Agriculture/Cheese.md",
+          "description": "Dairy good traded fresh and aged."
+        }
+      ],
+      "_view_targets": [
+        "product"
+      ]
+    },
+    {
+      "id": "good-wine",
+      "name": "Wine",
+      "tags": [
+        "wine",
+        "beverage",
+        "good",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Product",
+      "description": "Fermented beverage good traded bottled and bulk.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Catalog exemplar good.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "product",
+          "description": "Wine is a product."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Catalog/Good/Agriculture/Wine.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Catalog/Good/Agriculture/Wine.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Catalog/Good/Agriculture/Wine.md",
+          "description": "Fermented beverage good traded bottled and bulk."
+        }
+      ],
+      "_view_targets": [
+        "product"
+      ]
+    },
+    {
+      "id": "commerce-market",
+      "name": "Commerce Market",
+      "tags": [
+        "market",
+        "commerce",
+        "retail",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Relational",
+      "category": "Market",
+      "description": "Bounded ensemble matching producers to buyers across retail, wholesale and electronic commerce.",
+      "longDescription": "Covers ECommerce, Retail and Trading industries; firms participate as members, retail units as points of sale.",
+      "chronology": {
+        "summary": "Commerce market ensemble.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "dependency",
+          "relationshipType": "enables",
+          "targetNodeId": "firm",
+          "description": "Market enables member firms to meet buyers."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "minimarket-retail-unit",
+          "description": "Market contains retail units."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Production/Industry/Commerce/",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Production/Industry/Commerce/"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Production/Industry/Commerce/",
+          "description": "Bounded ensemble matching producers to buyers across retail, wholesale and electronic commerce."
+        }
+      ],
+      "_view_targets": [
+        "firm",
+        "minimarket-retail-unit"
+      ]
+    },
+    {
+      "id": "minimarket-retail-unit",
+      "name": "MiniMarket Retail Unit",
+      "tags": [
+        "retail",
+        "minimarket",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Organization",
+      "description": "Smallest retail unit studied in research MiniMarket: tasks, roles, inventory and point of sale.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "CAISE Mercado retail unit study.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "firm",
+          "description": "A retail unit is a firm form."
+        },
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "commerce-market",
+          "description": "Unit sells inside the commerce market."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: research/2025-1-MiniMarket",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from research/2025-1-MiniMarket"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia research/2025-1-MiniMarket",
+          "description": "Smallest retail unit studied in research MiniMarket: tasks, roles, inventory and point of sale."
+        }
+      ],
+      "_view_targets": [
+        "commerce-market",
+        "firm"
+      ]
+    },
+    {
+      "id": "business-group",
+      "name": "Business Group",
+      "tags": [
+        "business group",
+        "grupo-be",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Relational",
+      "category": "Network",
+      "description": "GrupoBE vision: a business group coordinating several firms under shared strategy.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Bremontix Empreseria business-group vision.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm",
+          "description": "Group coordinates member firms."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: research/2025-1-GrupoBE",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from research/2025-1-GrupoBE"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia research/2025-1-GrupoBE",
+          "description": "GrupoBE vision: a business group coordinating several firms under shared strategy."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
+    },
+    {
+      "id": "stock-market",
+      "name": "Stock Market",
+      "tags": [
+        "stock market",
+        "equity",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Synontic",
+      "category": "Market",
+      "description": "Equity securities market coordinating issuance and exchange with Arbitriologia linkage.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Equity securities market coordinating issuance and exchange with Arbitriologia linkage.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "dependency",
+          "relationshipType": "enables",
+          "targetNodeId": "firm",
+          "description": "Market lists member firms."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Finance/Capital/Stock.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Finance/Capital/Stock.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Finance/Capital/Stock.md",
+          "description": "Equity securities market coordinating issuance and exchange with Arbitriologia linkage."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
+    },
+    {
+      "id": "consumer-credit",
+      "name": "Consumer Credit",
+      "tags": [
+        "credit",
+        "bnpl",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Synontic",
+      "category": "Institution",
+      "description": "Buy-now-pay-later and store-credit cash-flow mechanism with noted problems.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Buy-now-pay-later and store-credit cash-flow mechanism with noted problems.",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Finance/Consumer/Credit.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Finance/Consumer/Credit.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Finance/Consumer/Credit.md",
+          "description": "Buy-now-pay-later and store-credit cash-flow mechanism with noted problems."
+        }
+      ],
+      "_view_targets": []
+    },
+    {
+      "id": "money-market",
+      "name": "Money Market",
+      "tags": [
+        "money market",
+        "debt",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Synontic",
+      "category": "Market",
+      "description": "OTC wholesale short-term-debt market formulation.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "OTC wholesale short-term-debt market formulation.",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Finance/Money/Money.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Finance/Money/Money.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Finance/Money/Money.md",
+          "description": "OTC wholesale short-term-debt market formulation."
+        }
+      ],
+      "_view_targets": []
+    },
+    {
+      "id": "enterprise-research-lab",
+      "name": "Enterprise Research Lab",
+      "tags": [
+        "research lab",
+        "r&d",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Organization",
+      "description": "Corporate R&D spectrum from market-near to distant with lab typology.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Corporate R&D spectrum from market-near to distant with lab typology.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "firm",
+          "description": "Labs belong to sponsoring firms."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Breviarium/an-essay-on-enterprise-research-labs.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Breviarium/an-essay-on-enterprise-research-labs.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Breviarium/an-essay-on-enterprise-research-labs.md",
+          "description": "Corporate R&D spectrum from market-near to distant with lab typology."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
+    },
+    {
+      "id": "enterprise-software-market",
+      "name": "Enterprise Software Market",
+      "tags": [
+        "enterprise software",
+        "market",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Relational",
+      "category": "Market",
+      "description": "Cross-sector technical-object vendor market across ADP, Asana, Salesforce and Oracle rows.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Cross-sector technical-object vendor market across ADP, Asana, Salesforce and Oracle rows.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "dependency",
+          "relationshipType": "enables",
+          "targetNodeId": "firm",
+          "description": "Market equips member firms."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Breviarium/Market/a-guide-to-the-enterprise-software-market.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Breviarium/Market/a-guide-to-the-enterprise-software-market.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Breviarium/Market/a-guide-to-the-enterprise-software-market.md",
+          "description": "Cross-sector technical-object vendor market across ADP, Asana, Salesforce and Oracle rows."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
+    },
+    {
+      "id": "software-firm-org",
+      "name": "Software Firm Organization",
+      "tags": [
+        "software",
+        "organization",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Organization",
+      "description": "Software-firm org models: functional, product, platform and Team Topologies.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Software-firm org models: functional, product, platform and Team Topologies.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "firm",
+          "description": "A software firm is a firm form."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Production/Industry/Software/Firm/README.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Production/Industry/Software/Firm/README.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Production/Industry/Software/Firm/README.md",
+          "description": "Software-firm org models: functional, product, platform and Team Topologies."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
+    },
+    {
+      "id": "trading-house",
+      "name": "Trading House",
+      "tags": [
+        "sogo-shosha",
+        "trading",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Organization",
+      "description": "Sogo shosha general trading companies across Marubeni, Mitsubishi, Mitsui and Itochu rows.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Sogo shosha general trading companies across Marubeni, Mitsubishi, Mitsui and Itochu rows.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "firm",
+          "description": "A trading house is a firm form."
+        },
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "member_of",
+          "targetNodeId": "commerce-market",
+          "description": "Trading houses trade in the market."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Production/Industry/Commerce/Trading.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Production/Industry/Commerce/Trading.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Production/Industry/Commerce/Trading.md",
+          "description": "Sogo shosha general trading companies across Marubeni, Mitsubishi, Mitsui and Itochu rows."
+        }
+      ],
+      "_view_targets": [
+        "commerce-market",
+        "firm"
+      ]
+    },
+    {
+      "id": "health-industry-actors",
+      "name": "Health Industry Actors",
+      "tags": [
+        "health",
+        "actors",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Relational",
+      "category": "Network",
+      "description": "Health-industry actor space: platforms, M-Labs, contract discovery and manufacturing, MNCs.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Health-industry actor space: platforms, M-Labs, contract discovery and manufacturing, MNCs.",
+        "events": []
+      },
+      "relationships": [],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: docs/Production/Industry/Health/Health-Industry.md",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from docs/Production/Industry/Health/Health-Industry.md"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia docs/Production/Industry/Health/Health-Industry.md",
+          "description": "Health-industry actor space: platforms, M-Labs, contract discovery and manufacturing, MNCs."
+        }
+      ],
       "_view_targets": []
     }
   ]
