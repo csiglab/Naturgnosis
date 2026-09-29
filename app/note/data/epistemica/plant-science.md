@@ -106,5 +106,5 @@ The claims the domain supports, each carrying its scope conditions: a genotype r
 
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
 - [Plant Cultivation Technical Domain Set](note.html?n=technique/systems/multinode/plant-cultivation-technical-domain-set.md) (counterpart note: the intervention this domain warrants)
-- [Agriculture Production](note.html?n=technique/agriculture-production.md) (the sector in which plant-science results are applied)
+- Agriculture Production (the sector in which plant-science results are applied; note removed, sector view lives in the social and production spaces)
 - [Remote Sensing](note.html?n=technique/remote-sensing.md) (the canopy readings, used technically, entering the domain here as access)

@@ -35,7 +35,7 @@ Cross-space boundaries: growers, cooperatives, seed merchants, and buyers are so
 
 > The Plant Cultivation Technical Domain Set is a raise-and-take ensemble instance: growers, agronomists, nursery workers, and equipment operators working seed lots, rooting media, soil profiles, water regimes, protection practices, protected houses, harvesting equipment, trial plots, and certification bodies, so that a specified plant population is established, kept growing, and harvested as an admissible product, under genotype, climate, soil, water, labor, and regulatory constraints.
 
-Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods ([Food Value Chain](note.html?n=technique/food-value-chain.md)), the sector-of-industries container that frames crop and animal production together ([Agriculture Production](note.html?n=technique/agriculture-production.md)), the inquiry into the plant ([Plant Science](note.html?n=epistemica/plant-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
+Boundary: cultivation is the deliberate growing of plants for a useful product. It **excludes** post-harvest transformation into manufactured goods (the post-harvest Food Value Chain side), the sector-of-industries container that frames crop and animal production together (Agriculture Production), the inquiry into the plant ([Plant Science](note.html?n=epistemica/plant-science.md)), and the social organization of cultivation. Genetic engineering of crops is admitted only as an instrument the improvement sub-domain calls on; it is decomposed in its own right.
 
 Lineage: seed gathering and shifting cultivation → vegetative propagation and the walled garden → systematic selection and the four-field rotation → the greenhouse and the synthetic fertilizer → hybrid and later recombinant breeding → controlled-environment and precision cultivation, sensors, and site-specific management.
 
@@ -139,7 +139,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
 - [Plant Science](note.html?n=epistemica/plant-science.md) (counterpart note: the inquiry this ensemble acts on)
-- [Agriculture Production](note.html?n=technique/agriculture-production.md) (the sector-of-industries container this set is a member of)
-- [Food Value Chain](note.html?n=technique/food-value-chain.md) (what the harvest becomes after cultivation ends)
+- Agriculture Production (the sector-of-industries container this set is a member of; note removed, sector view lives in the social and production spaces)
+- Food Value Chain (what the harvest becomes after cultivation ends; note removed, post-harvest side)
 - [Remote Sensing](note.html?n=technique/remote-sensing.md) (the canopy and stand readings the field set consumes)
 - [Biotechnology](note.html?n=technique/systems/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)
