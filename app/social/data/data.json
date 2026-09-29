@@ -179387,5 +179387,2843 @@
     "description": "Agency form and superior body."
    }
   ]
+ },
+ {
+  "id": "bayer-crop-science",
+  "name": "Bayer Crop Science",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "germany",
+   "integrated-global",
+   "seeds",
+   "traits",
+   "biotechnology",
+   "crop-protection",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "German firm working on seeds, traits, biotechnology, crop protection; seed-sector roster archetype: integrated-global.",
+  "longDescription": "A German Bayer Crop Science firm working on seeds, traits, biotechnology, crop protection; in the Naturgnosis seed-sector roster it carries the integrated-global archetype, which means it integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform. The firm is recorded as part of Bayer AG; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The division's vegetable-seed arm was cut away in 2018 when it sold Nunhems to BASF, so what remains is a seed, traits, biotechnology, and crop-protection business without European vegetables.",
+  "chronology": {
+   "summary": "The division's vegetable-seed arm was cut away in 2018 when it sold Nunhems to BASF, so what remains is a seed, traits, biotechnology, and crop-protection busin…",
+   "events": [
+    {
+     "year": 2018,
+     "event": "Divests its global vegetable seeds business (Nunhems) to BASF, closing 16 August 2018, as part of the remedies attached to the Monsanto takeover."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "germany",
+   "archetype": "integrated-global",
+   "archetypeDescription": "integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform",
+   "mainArea": "Seeds, traits, biotechnology, crop protection",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "Bayer AG",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "divestmentNote": "Divested the global vegetable seeds business (Nunhems) to BASF in 2018 (24 crops, about 2,600 varieties) as a remedy for the Monsanto takeover."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "BASF closes acquisition of vegetable seeds business from Bayer",
+    "link": "https://www.basf.com/global/en/media/news-releases/2018/08/p-18-288",
+    "description": "The divestment that defines the division's post-2018 scope."
+   }
+  ]
+ },
+ {
+  "id": "corteva-agriscience",
+  "name": "Corteva Agriscience",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "integrated-global",
+   "seed-genetics",
+   "traits",
+   "breeding",
+   "biotechnology",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on seed genetics, traits, breeding, biotechnology; seed-sector roster archetype: integrated-global.",
+  "longDescription": "A American Corteva Agriscience firm working on seed genetics, traits, breeding, biotechnology; in the Naturgnosis seed-sector roster it carries the integrated-global archetype, which means it integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Its own history page makes the archetype concrete: Pioneer, Mycogen, and Brevant genetics behind a crop-protection portfolio, at the scale of more than 150 research centres and 21,000 staff. The archetype may not hold, because the company announced in October 2025 that it intends to split the seed business into its own company.",
+  "chronology": {
+   "summary": "Its own history page makes the archetype concrete: Pioneer, Mycogen, and Brevant genetics behind a crop-protection portfolio, at the scale of more than 150 rese…",
+   "events": [
+    {
+     "year": 1999,
+     "event": "DuPont acquires Pioneer Hi-Bred International."
+    },
+    {
+     "year": 2018,
+     "event": "The DowDuPont agriculture division takes the name Corteva Agriscience, announced 26 February 2018."
+    },
+    {
+     "year": 2019,
+     "event": "Completes separation from DowDuPont on 3 June 2019, becoming an independent public company (NYSE: CTVA)."
+    },
+    {
+     "year": 2025,
+     "event": "Announces on 1 October 2025 an intention to separate the seed business into a stand-alone company, expected to complete in the second half of 2026."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "integrated-global",
+   "archetypeDescription": "integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform",
+   "mainArea": "Seed genetics, traits, breeding, biotechnology",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "2019",
+   "legalForm": "independent public company (NYSE: CTVA)",
+   "composedOf": [
+    "DuPont Crop Protection",
+    "DuPont Pioneer",
+    "Dow AgroSciences"
+   ],
+   "headquarters": "Wilmington, Delaware, United States",
+   "globalBusinessCenters": [
+    "Johnston, Iowa",
+    "Indianapolis, Indiana"
+   ],
+   "employees": "more than 21,000 (2019)",
+   "countries": "more than 140",
+   "revenueUSD": "USD 14 billion net sales (2018)",
+   "brands": [
+    "Pioneer",
+    "Mycogen",
+    "Brevant"
+   ],
+   "researchCenters": "more than 150",
+   "structuralNote": "The announced 2025-2026 separation of the seed business would break the integrated-global archetype this node records."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Corteva Agriscience completes separation from DowDuPont",
+    "link": "https://www.corteva.com/content/dam/dpagco/corteva/eu/gb/en/general-resources/files/Corteva%20Day%20Press%20Release%20FINAL%20June%203%202019.pdf",
+    "description": "Separation, composition, employees, countries, 2018 net sales."
+   },
+   {
+    "title": "History of Corteva",
+    "link": "https://www.corteva.com/content/corteva/corporate/our-homepage/who-we-are/our-history.html",
+    "description": "Corporate lineage from DuPont's acquisition of Pioneer to the standalone company."
+   },
+   {
+    "title": "Corteva to Spin Seed Business Into Separate Company",
+    "link": "https://www.wsj.com/business/corteva-to-spin-seed-business-into-separate-company-e81ebefa",
+    "description": "The announced separation of the seed business, expected in the second half of 2026."
+   }
+  ]
+ },
+ {
+  "id": "syngenta",
+  "name": "Syngenta",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "switzerland-china",
+   "integrated-global",
+   "seeds",
+   "crop-protection",
+   "biotechnology",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Swiss and Chinese firm working on seeds, crop protection, biotechnology; seed-sector roster archetype: integrated-global.",
+  "longDescription": "A Swiss and Chinese Syngenta firm working on seeds, crop protection, biotechnology; in the Naturgnosis seed-sector roster it carries the integrated-global archetype, which means it integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform. The firm is recorded as part of Syngenta Group; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The roster records a Swiss-Chinese company; the group's own account places the head in Basel with more than 50,000 staff in over 90 countries, ranked first in crop protection and biologicals and third in seeds — the seed side of the business has been shrinking by sale, as with the malting barley business that went to RAGT in 2026.",
+  "chronology": {
+   "summary": "The roster records a Swiss-Chinese company; the group's own account places the head in Basel with more than 50,000 staff in over 90 countries, ranked first in c…",
+   "events": [
+    {
+     "year": 2026,
+     "event": "Completes, on 6 January 2026, the acquisition by RAGT of its two-row malting barley seed business, agreed in November 2025."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "switzerland-china",
+   "archetype": "integrated-global",
+   "archetypeDescription": "integrates breeding, trait licensing, biotechnology, and crop protection in one global commercial platform",
+   "mainArea": "Seeds, crop protection, biotechnology",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "Syngenta Group",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "legalForm": "Syngenta Group, headquartered in Basel, Switzerland",
+   "employees": "more than 50,000",
+   "countries": "more than 90",
+   "marketPosition": "ranked first in crop protection, first in biologicals, third in seeds",
+   "divestmentNote": "Its two-row malting barley seed business was sold to RAGT, agreed November 2025 and completed 6 January 2026."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Syngenta Group - About",
+    "link": "http://syngentagroup.com/about",
+    "description": "Headquarters, employees, countries, and market ranking."
+   },
+   {
+    "title": "Completion of the acquisition of Syngenta's 2 row malting barley seeds business by RAGT",
+    "link": "https://ragt-seeds.com/",
+    "description": "The 2025-2026 divestment of the malting barley seed business."
+   }
+  ]
+ },
+ {
+  "id": "basf-agricultural-solutions",
+  "name": "BASF Agricultural Solutions",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "germany",
+   "integrated-science",
+   "crop-protection",
+   "seeds",
+   "biologicals",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "German firm working on crop protection, seeds, biologicals; seed-sector roster archetype: integrated-science.",
+  "longDescription": "A German BASF Agricultural Solutions firm working on crop protection, seeds, biologicals; in the Naturgnosis seed-sector roster it carries the integrated-science archetype, which means it integrates chemistry and biologicals for crop protection alongside a seed business. The firm is recorded as part of BASF SE; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The integrated-science archetype has a concrete basis: a chemical-and-biological crop-protection business that bought a seed business outright, adding 24 crops, about 2,600 varieties, and over 100 breeding programmes in 2018.",
+  "chronology": {
+   "summary": "The integrated-science archetype has a concrete basis: a chemical-and-biological crop-protection business that bought a seed business outright, adding 24 crops,…",
+   "events": [
+    {
+     "year": 2018,
+     "event": "Closes on 16 August 2018 the acquisition of Bayer's global vegetable seeds business (Nunhems) for EUR 7.6 billion, entering seeds after decades in crop protection."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "germany",
+   "archetype": "integrated-science",
+   "archetypeDescription": "integrates chemistry and biologicals for crop protection alongside a seed business",
+   "mainArea": "Crop protection, seeds, biologicals",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "BASF SE",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "legalForm": "BASF segment (BASF SE), Germany",
+   "divisionSales": "EUR 5.7 billion (2017)",
+   "acquisition": {
+    "target": "Bayer's global vegetable seeds business (Nunhems)",
+    "closed": "2018-08-16",
+    "priceEUR": "7.6 billion",
+    "acquiredPortfolioSales2017EUR": "2.2 billion",
+    "crops": 24,
+    "varieties": "about 2,600",
+    "breedingProgrammes": "more than 100 across more than 15 crops"
+   },
+   "agricultureEmployees": "more than 12,000 after the 2018 transactions",
+   "groupEmployees": "more than 115,000 (BASF group, 2018)"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "BASF closes acquisition of vegetable seeds business from Bayer",
+    "link": "https://www.basf.com/global/en/media/news-releases/2018/08/p-18-288",
+    "description": "Price, crop and variety count, breeding programmes, and division sales."
+   }
+  ]
+ },
+ {
+  "id": "limagrain",
+  "name": "Limagrain",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "france",
+   "seed-specialist",
+   "plant-breeding",
+   "seeds",
+   "genetics",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "French firm working on plant breeding, seeds, genetics; seed-sector roster archetype: seed-specialist.",
+  "longDescription": "A French Limagrain firm working on plant breeding, seeds, genetics; in the Naturgnosis seed-sector roster it carries the seed-specialist archetype, which means it specializes in breeding and seed multiplication for a defined crop set. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A cooperative-owned group rather than a listed seed pure-play: 1,300 farmer members own the parent, the group runs 49 countries with more than 9,600 staff, and its seed businesses sit beside ingredients and bakery lines. The KWS relationship runs both ways — they are joint-venture partners in AgReliant Genetics and Genective.",
+  "chronology": {
+   "summary": "A cooperative-owned group rather than a listed seed pure-play: 1,300 farmer members own the parent, the group runs 49 countries with more than 9,600 staff, and …",
+   "events": [
+    {
+     "year": 1965,
+     "event": "Limagrain founded."
+    },
+    {
+     "year": 1993,
+     "event": "Lists Vilmorin & Cie on the stock market."
+    },
+    {
+     "year": 2000,
+     "event": "Creates the AgReliant Genetics joint venture in North America with KWS; acquires Kyowa in Japan."
+    },
+    {
+     "year": 2003,
+     "event": "Acquires Hazera in Israel."
+    },
+    {
+     "year": 2005,
+     "event": "Acquires Advanta Europe."
+    },
+    {
+     "year": 2011,
+     "event": "Founds Genective in France together with KWS."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "france",
+   "archetype": "seed-specialist",
+   "archetypeDescription": "specializes in breeding and seed multiplication for a defined crop set",
+   "mainArea": "Plant breeding, seeds, genetics",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1965",
+   "legalForm": "seed and agri-food group owned by a French farmers' cooperative (Limagrain Cooperative)",
+   "farmerMembers": 1300,
+   "employees": "more than 9,600, 92 nationalities",
+   "countries": 49,
+   "businessLines": [
+    "Field Seeds",
+    "Vegetable Seeds",
+    "Ingredients",
+    "Bakery & Pastry Products",
+    "Garden Products"
+   ],
+   "headquarters": "Auvergne region, France"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "History of Limagrain",
+    "link": "https://www.limagrain.com/en/our-history",
+    "description": "Founding and the acquisition history of the field and vegetable seed businesses."
+   },
+   {
+    "title": "Limagrain - Group",
+    "link": "http://limagrain.com/en",
+    "description": "Cooperative ownership, members, employees, countries, business lines."
+   }
+  ]
+ },
+ {
+  "id": "kws",
+  "name": "KWS",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "germany",
+   "seed-specialist",
+   "maize",
+   "sugar-beet",
+   "cereals",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "German firm working on maize, sugar beet, cereals, breeding; seed-sector roster archetype: seed-specialist.",
+  "longDescription": "A German KWS firm working on maize, sugar beet, cereals, breeding; in the Naturgnosis seed-sector roster it carries the seed-specialist archetype, which means it specializes in breeding and seed multiplication for a defined crop set. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Not researched in this pass beyond its crop portfolio and its two joint ventures with Limagrain; no founding date is recorded here because none was read from a source.",
+  "chronology": {
+   "summary": "Not researched in this pass beyond its crop portfolio and its two joint ventures with Limagrain; no founding date is recorded here because none was read from a …",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "germany",
+   "archetype": "seed-specialist",
+   "archetypeDescription": "specializes in breeding and seed multiplication for a defined crop set",
+   "mainArea": "Maize, sugar beet, cereals, breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "cropPortfolio": [
+    "sugar beet",
+    "maize",
+    "cereals",
+    "oilseed rape",
+    "sunflower",
+    "soybean",
+    "alfalfa",
+    "vegetables"
+   ],
+   "jointVentures": [
+    "AgReliant Genetics with Limagrain (North America, 2000)",
+    "Genective with Limagrain (France, 2011)"
+   ],
+   "staffNote": "Dr Aaron Hummel, who joined Pairwise in 2018, established KWS's United States genome-editing team and programme."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "KWS Seeds, Inc. - company profile",
+    "link": "https://www.linkedin.com/company/kws-services-north-america",
+    "description": "Crop portfolio of the group, taken from the KWS Seeds profile."
+   },
+   {
+    "title": "History of Limagrain",
+    "link": "https://www.limagrain.com/en/our-history",
+    "description": "The two joint ventures with Limagrain."
+   },
+   {
+    "title": "Pairwise - About Us",
+    "link": "https://www.pairwise.com/about-us",
+    "description": "The KWS genome-editing team that a Pairwise executive had built."
+   }
+  ]
+ },
+ {
+  "id": "dlf-seeds",
+  "name": "DLF Seeds",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "denmark",
+   "crop-specialist",
+   "forage",
+   "grass",
+   "turf",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Danish firm working on forage, grass, turf breeding; seed-sector roster archetype: crop-specialist.",
+  "longDescription": "A Danish DLF Seeds firm working on forage, grass, turf breeding; in the Naturgnosis seed-sector roster it carries the crop-specialist archetype, which means it specializes in a single crop or crop group, from genetics to certified seed. The firm is recorded as part of DLF; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A growers' cooperative, like Limagrain and Lantmännen, and the oldest firm on the roster: founded in 1906 from a Danish farmer's proposal, owned today by about 2,800 grass seed growers, and the temperate-zone leader in forage and turf seed. It also bought Florimond Desprez's alfalfa programme in 2016.",
+  "chronology": {
+   "summary": "A growers' cooperative, like Limagrain and Lantmännen, and the oldest firm on the roster: founded in 1906 from a Danish farmer's proposal, owned today by about …",
+   "events": [
+    {
+     "year": 1905,
+     "event": "Farmer Povl Nielsen proposes a local seed supply, a Frøforsyningen, at a cooperative meeting on 11 March."
+    },
+    {
+     "year": 1906,
+     "event": "Founded in Copenhagen on 27 January, with Povl Nielsen as first chairman."
+    },
+    {
+     "year": 1988,
+     "event": "DLF Seeds A/S established (formerly DLF-TRIFOLIUM A/S)."
+    },
+    {
+     "year": 2016,
+     "event": "Acquires Florimond Desprez's alfalfa seed breeding and commercial activities and takes 49% of Danespo alongside DLF."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "denmark",
+   "archetype": "crop-specialist",
+   "archetypeDescription": "specializes in a single crop or crop group, from genetics to certified seed",
+   "mainArea": "Forage, grass, turf breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "DLF",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1906",
+   "legalForm": "owned by about 2,800 Danish grass seed growers through DLF AmbA",
+   "headquarters": "Smoerum / Roskilde, Denmark",
+   "employees": "more than 2,000 in more than 20 countries",
+   "countries": "more than 100",
+   "marketPosition": "global market leader in forage and turf seed for the temperate climate zone",
+   "revenueDKK": "DKK 7,437 million (2019/20)",
+   "chiefExecutive": "Søren Halbye",
+   "boardChair": "Christian Høegh-Andersen"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "History - DLF",
+    "link": "https://us.dlf.com/about-us/history",
+    "description": "The 1905 idea and the 1906 founding."
+   },
+   {
+    "title": "DLF (seed company) - Wikipedia",
+    "link": "http://en.wikipedia.org/wiki/DLF_(seed_company)",
+    "description": "Ownership by growers, employees, revenue, leadership."
+   },
+   {
+    "title": "DLF Seeds and Science - About us",
+    "link": "http://dlf.com/about-us",
+    "description": "Grower ownership and market position in forage and turf."
+   }
+  ]
+ },
+ {
+  "id": "rijk-zwaan",
+  "name": "Rijk Zwaan",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "netherlands",
+   "vegetable-specialist",
+   "vegetables",
+   "breeding",
+   "seeds",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Dutch firm working on vegetable breeding and seeds; seed-sector roster archetype: vegetable-specialist.",
+  "longDescription": "A Dutch Rijk Zwaan firm working on vegetable breeding and seeds; in the Naturgnosis seed-sector roster it carries the vegetable-specialist archetype, which means it specializes in vegetable genetics and commercial vegetable seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Founded in 1924 and based in De Lier in the Netherlands; no further corporate facts were read from a source in this pass, so no figures are recorded.",
+  "chronology": {
+   "summary": "Founded in 1924 and based in De Lier in the Netherlands; no further corporate facts were read from a source in this pass, so no figures are recorded.",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "netherlands",
+   "archetype": "vegetable-specialist",
+   "archetypeDescription": "specializes in vegetable genetics and commercial vegetable seed",
+   "mainArea": "Vegetable breeding and seeds",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1924",
+   "headquarters": "De Lier, Netherlands"
+  },
+  "metadata": {
+   "confidenceScore": 0.6,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "enza-zaden",
+  "name": "Enza Zaden",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "netherlands",
+   "vegetable-specialist",
+   "vegetables",
+   "breeding",
+   "seeds",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Dutch firm working on vegetable breeding and seeds; seed-sector roster archetype: vegetable-specialist.",
+  "longDescription": "A Dutch Enza Zaden firm working on vegetable breeding and seeds; in the Naturgnosis seed-sector roster it carries the vegetable-specialist archetype, which means it specializes in vegetable genetics and commercial vegetable seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The family-ownership story is the archetype's point: an independent, family-owned vegetable breeder, third generation led, spending 30% of turnover on research, taking seven to twelve years to bring one variety to market, and about a hundred new varieties a year.",
+  "chronology": {
+   "summary": "The family-ownership story is the archetype's point: an independent, family-owned vegetable breeder, third generation led, spending 30% of turnover on research,…",
+   "events": [
+    {
+     "year": 1938,
+     "event": "Jacob Mazereeuw founds the company as the Enkhuizer Zaadwinkel seed shop."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "netherlands",
+   "archetype": "vegetable-specialist",
+   "archetypeDescription": "specializes in vegetable genetics and commercial vegetable seed",
+   "mainArea": "Vegetable breeding and seeds",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1938",
+   "legalForm": "independent family-owned company, third generation of the Mazereeuw family",
+   "headquarters": "Enkhuizen, Netherlands",
+   "employees": "over 3,000",
+   "newVarietiesPerYear": "about 100",
+   "rndShareOfTurnover": "30%",
+   "breedingCycleYears": "7 to 12 years per new variety",
+   "managingDirector": "Jaap Mazereeuw"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "A family as a business - Enza Zaden",
+    "link": "https://www.enzazaden.com/this-is-enza-zaden/who-we-are/a-family-as-a-business",
+    "description": "Founding, family ownership, employees, R&D share, breeding cycle."
+   }
+  ]
+ },
+ {
+  "id": "sakata-seed",
+  "name": "Sakata Seed",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "japan",
+   "seed-specialist",
+   "vegetables",
+   "ornamentals",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Japanese firm working on vegetable and ornamental breeding; seed-sector roster archetype: seed-specialist.",
+  "longDescription": "A Japanese Sakata Seed firm working on vegetable and ornamental breeding; in the Naturgnosis seed-sector roster it carries the seed-specialist archetype, which means it specializes in breeding and seed multiplication for a defined crop set. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A century-old Japanese breeder that built its current position on germination technology and export, and that has since bought its way into European and American ornamentals.",
+  "chronology": {
+   "summary": "A century-old Japanese breeder that built its current position on germination technology and export, and that has since bought its way into European and America…",
+   "events": [
+    {
+     "year": 1913,
+     "event": "Takeo Sakata establishes Sakata Noen in what is now Yokohama, Kanagawa."
+    },
+    {
+     "year": 1921,
+     "event": "Establishes the first germination laboratory in the history of private companies in Japan, and opens a Chicago branch."
+    },
+    {
+     "year": 1942,
+     "event": "Merges five companies into T. Sakata & Company."
+    },
+    {
+     "year": 2003,
+     "event": "Acquires the flower division of L. Dæhnfeldt A/S of Denmark; obtains ISTA accreditation for its seed testing department."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "japan",
+   "archetype": "seed-specialist",
+   "archetypeDescription": "specializes in breeding and seed multiplication for a defined crop set",
+   "mainArea": "Vegetable and ornamental breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1913",
+   "headquarters": "Yokohama, Japan",
+   "businessLines": [
+    "vegetable seed",
+    "flower and ornamental seed"
+   ],
+   "researchStations": [
+    "Florida (1991)",
+    "Odense, Denmark (2003)",
+    "Ishigaki, Okinawa (2026)"
+   ],
+   "acquisitions": [
+    "L. Dæhnfeldt A/S flower division (Denmark, 2003)",
+    "Qualiveg Seed Production (United States, 2005)",
+    "Varinova potted gerbera breeding division (Netherlands, 2008)"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "History - Sakata Group",
+    "link": "https://global-sakata.com/company/history.html",
+    "description": "The 1913 foundation and the twentieth-century milestones."
+   },
+   {
+    "title": "The History of Sakata Seed Corporation",
+    "link": "https://corporate.sakataseed.co.jp/en/ir/individual/history.html",
+    "description": "The company's own account of its hundred-year development."
+   }
+  ]
+ },
+ {
+  "id": "takii-and-co",
+  "name": "Takii & Co.",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "japan",
+   "seed-specialist",
+   "vegetables",
+   "breeding",
+   "seeds",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Japanese firm working on vegetable breeding and seeds; seed-sector roster archetype: seed-specialist.",
+  "longDescription": "A Japanese Takii & Co. firm working on vegetable breeding and seeds; in the Naturgnosis seed-sector roster it carries the seed-specialist archetype, which means it specializes in breeding and seed multiplication for a defined crop set. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. No founding year was read from a source in this pass; the company's own European site describes nearly two centuries of vegetable and flower breeding and the Dutch-based regional arm that runs its stations and production for Europe, the Middle East, Africa, and Central Asia.",
+  "chronology": {
+   "summary": "No founding year was read from a source in this pass; the company's own European site describes nearly two centuries of vegetable and flower breeding and the Du…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "japan",
+   "archetype": "seed-specialist",
+   "archetypeDescription": "specializes in breeding and seed multiplication for a defined crop set",
+   "mainArea": "Vegetable breeding and seeds",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "businessLines": [
+    "vegetable varieties",
+    "flower varieties"
+   ],
+   "regionalSubsidiary": "Takii Europe, based in the Netherlands, managing breeding stations, trial sites, and production facilities for Europe, the Middle East, Africa, and Central Asia",
+   "heritageNote": "The company presents itself as bringing nearly 200 years of vegetable and flower breeding expertise."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About Takii - Takii Europe",
+    "link": "https://takii.eu/about-takii",
+    "description": "Business lines, the European subsidiary, and the stated heritage."
+   }
+  ]
+ },
+ {
+  "id": "bejo",
+  "name": "Bejo",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "netherlands",
+   "vegetable-specialist",
+   "vegetables",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Dutch firm working on vegetable breeding; seed-sector roster archetype: vegetable-specialist.",
+  "longDescription": "A Dutch Bejo firm working on vegetable breeding; in the Naturgnosis seed-sector roster it carries the vegetable-specialist archetype, which means it specializes in vegetable genetics and commercial vegetable seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Two family seed houses merged in 1978 and the new firm now breeds more than 40 crops across 1,100 varieties in 100 countries, running 15,000 bee colonies of its own for pollination — the vegetable-specialist archetype in its purest Dutch form.",
+  "chronology": {
+   "summary": "Two family seed houses merged in 1978 and the new firm now breeds more than 40 crops across 1,100 varieties in 100 countries, running 15,000 bee colonies of its…",
+   "events": [
+    {
+     "year": 1963,
+     "event": "Cor Beemsterboer and Jacob Jong make a joint investment in a new hybridisation technique."
+    },
+    {
+     "year": 1978,
+     "event": "The two companies merge, creating Bejo as a family-run firm."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "netherlands",
+   "archetype": "vegetable-specialist",
+   "archetypeDescription": "specializes in vegetable genetics and commercial vegetable seed",
+   "mainArea": "Vegetable breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1978",
+   "legalForm": "family-owned, held by the families of founders Cor Beemsterboer and Jacob Jong",
+   "headquarters": "Warmenhuizen, Netherlands",
+   "employees": "about 2,300",
+   "companies": 31,
+   "crops": "more than 40",
+   "varieties": "more than 1,100",
+   "countries": "more than 100",
+   "pollinationAssets": "15,000 bee colonies",
+   "roots": "The two founders were a baker's son and a grocer who bred cabbage, carrots, and onions more than a century ago."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Bejo's history",
+    "link": "https://www.bejo.com/bejos-history",
+    "description": "The founders, the 1963 hybridisation investment, and the 1978 merger."
+   },
+   {
+    "title": "Bejo - Home (facts and figures)",
+    "link": "https://www.bejo.com/",
+    "description": "Crops, varieties, employees, companies, countries, bee colonies."
+   }
+  ]
+ },
+ {
+  "id": "east-west-seed",
+  "name": "East-West Seed",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "thailand",
+   "regional-specialist",
+   "vegetables",
+   "tropics",
+   "genetics",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Thai firm working on tropical vegetable genetics; seed-sector roster archetype: regional-specialist.",
+  "longDescription": "A Thai East-West Seed firm working on tropical vegetable genetics; in the Naturgnosis seed-sector roster it carries the regional-specialist archetype, which means it specializes in tropical and regional crop genetics. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The regional-specialist archetype with a documented origin: a Dutch seedsman's observation that low-quality seed kept smallholders poor, answered with locally adapted hybrids developed in the country of use rather than imported — the first of them, Jade Star, in 1986.",
+  "chronology": {
+   "summary": "The regional-specialist archetype with a documented origin: a Dutch seedsman's observation that low-quality seed kept smallholders poor, answered with locally a…",
+   "events": [
+    {
+     "year": 1982,
+     "event": "Simon N. Groot founds the company with Filipino seed trader Benito Domingo, initially as Hortigenetics Philippines, Inc."
+    },
+    {
+     "year": 1984,
+     "event": "Establishes the first commercial vegetable breeding farm in the Chiang Mai valley, Thailand."
+    },
+    {
+     "year": 1986,
+     "event": "Introduces Jade Star, the first locally developed commercial vegetable hybrid in the Philippines and Southeast Asia."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "thailand",
+   "archetype": "regional-specialist",
+   "archetypeDescription": "specializes in tropical and regional crop genetics",
+   "mainArea": "Tropical vegetable genetics",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1982",
+   "legalForm": "market-oriented vegetable breeding company founded on a European-Asian partnership",
+   "founder": "Simon N. Groot, sixth-generation Dutch seedsman, formerly marketing director of the family seed business Sluis & Groot (now Syngenta)",
+   "headquarters": "Thailand, with a Philippine origin",
+   "geographicReach": [
+    "Philippines",
+    "Thailand",
+    "India",
+    "Indonesia",
+    "Malaysia",
+    "Cambodia",
+    "Vietnam",
+    "Myanmar",
+    "Bangladesh",
+    "Tanzania",
+    "Nigeria",
+    "Mexico",
+    "Brazil"
+   ],
+   "marketPosition": "described as the first market-oriented vegetable breeding company in Southeast Asia and a global leader in tropical vegetable seed"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "History of East-West Seed",
+    "link": "https://www.eastwestseed.com/about-us/history",
+    "description": "Founding, the first hybrid, and the geographic expansion."
+   }
+  ]
+ },
+ {
+  "id": "barenbrug",
+  "name": "Barenbrug",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "netherlands",
+   "crop-specialist",
+   "grass",
+   "forage",
+   "genetics",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Dutch firm working on grass and forage genetics; seed-sector roster archetype: crop-specialist.",
+  "longDescription": "A Dutch Barenbrug firm working on grass and forage genetics; in the Naturgnosis seed-sector roster it carries the crop-specialist archetype, which means it specializes in a single crop or crop group, from genetics to certified seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Another 1904 foundation, like DLF, but private rather than cooperative; the Dutch crown granted it the Royal predicate on its centenary, and it now runs four overseas subsidiaries built from a grass-seed base.",
+  "chronology": {
+   "summary": "Another 1904 foundation, like DLF, but private rather than cooperative; the Dutch crown granted it the Royal predicate on its centenary, and it now runs four ov…",
+   "events": [
+    {
+     "year": 1904,
+     "event": "Joseph Theodore Barenbrug founds the company on 15 June."
+    },
+    {
+     "year": 1952,
+     "event": "Barenza becomes the company's first variety brand."
+    },
+    {
+     "year": 2004,
+     "event": "Granted the Royal predicate on its centenary."
+    },
+    {
+     "year": 2024,
+     "event": "Celebrates its 120th anniversary."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "netherlands",
+   "archetype": "crop-specialist",
+   "archetypeDescription": "specializes in a single crop or crop group, from genetics to certified seed",
+   "mainArea": "Grass and forage genetics",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1904",
+   "legalForm": "family-owned, Royal predicate granted by the Dutch crown in 2004",
+   "businessLines": [
+    "forage grasses",
+    "sports turf",
+    "amenity and lawn",
+    "cover crops",
+    "multi-species mixtures"
+   ],
+   "subsidiaries": [
+    "United States (1979)",
+    "New Zealand and Australia (1996)",
+    "Argentina (1997)",
+    "South Africa (2011)"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About us - Royal Barenbrug Group",
+    "link": "https://barenbrug.com.au/about-us",
+    "description": "Founding, the Royal predicate, brands, and the subsidiary timeline."
+   }
+  ]
+ },
+ {
+  "id": "florimond-desprez",
+  "name": "Florimond Desprez",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "france",
+   "breeding-specialist",
+   "wheat",
+   "cereals",
+   "sugar-beet",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "French firm working on wheat, cereals, sugar beet; seed-sector roster archetype: breeding-specialist.",
+  "longDescription": "A French Florimond Desprez firm working on wheat, cereals, sugar beet; in the Naturgnosis seed-sector roster it carries the breeding-specialist archetype, which means it specializes in field-crop breeding, with genetics as the core competence. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The oldest firm on the roster by a century and a half, and the clearest breeding specialist: sugar beet at world-leadership level, ten species, 1,089 staff, 35 subsidiaries, 15% of turnover on research, and a named wheat lineage from Cappelle through Soissons to Cellule.",
+  "chronology": {
+   "summary": "The oldest firm on the roster by a century and a half, and the clearest breeding specialist: sugar beet at world-leadership level, ten species, 1,089 staff, 35 …",
+   "events": [
+    {
+     "year": 1946,
+     "event": "Cappelle wheat variety released."
+    },
+    {
+     "year": 1987,
+     "event": "Soissons wheat variety released."
+    },
+    {
+     "year": 2012,
+     "event": "Cellule wheat variety released."
+    },
+    {
+     "year": 2014,
+     "event": "Acquires Germicopa, the French potato seed company."
+    },
+    {
+     "year": 2016,
+     "event": "Sells its alfalfa seed activity to DLF and acquires 49% of Danespo."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "france",
+   "archetype": "breeding-specialist",
+   "archetypeDescription": "specializes in field-crop breeding, with genetics as the core competence",
+   "mainArea": "Wheat, cereals, sugar beet",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1830",
+   "legalForm": "independent French family-owned company",
+   "marketPosition": "world leader in sugar beet seed; one of the leading European breeders of small-grain cereals; top three in the French straw cereal market",
+   "employees": 1089,
+   "species": 10,
+   "subsidiaries": "35 direct subsidiaries outside France",
+   "rndShareOfTurnover": "15%",
+   "countries": 65,
+   "headquarters": "Cappelle-en-Pévèle, France",
+   "cropPortfolio": [
+    "sugar beet",
+    "fodder beet",
+    "chicory",
+    "common wheat",
+    "barley",
+    "protein peas",
+    "lupin",
+    "alfalfa",
+    "potato"
+   ],
+   "researchTools": [
+    "molecular marking",
+    "sequencing",
+    "genotyping",
+    "high-throughput phenotyping",
+    "association genetics",
+    "genomic selection",
+    "bioinformatics"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "The Florimond Desprez group",
+    "link": "https://www.florimond-desprez.com/ctc/en/en/groupe-florimond-desprez-2.html",
+    "description": "Ownership, market position, employees, species, subsidiaries, R&D share."
+   },
+   {
+    "title": "Florimond Desprez news: Germicopa joins the group; alfalfa business sold to DLF",
+    "link": "https://www.florimond-desprez.com/rep/en/ly/non-classe",
+    "description": "The 2014 potato acquisition and the 2016 alfalfa divestment and Danespo stake."
+   }
+  ]
+ },
+ {
+  "id": "ragt-semences",
+  "name": "RAGT Semences",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "france",
+   "breeding-specialist",
+   "field-crops",
+   "forage",
+   "vegetables",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "French firm working on field crops, forage, vegetables; seed-sector roster archetype: breeding-specialist.",
+  "longDescription": "A French RAGT Semences firm working on field crops, forage, vegetables; in the Naturgnosis seed-sector roster it carries the breeding-specialist archetype, which means it specializes in field-crop breeding, with genetics as the core competence. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A century-plus of farmer-rooted breeding in southern France that grew by acquisition — Monsanto's cereals business in 2010, the Bayer hybrid-wheat partnership in 2021 — and that has been buying seed businesses out of the integrated players, taking Syngenta's malting barley in January 2026.",
+  "chronology": {
+   "summary": "A century-plus of farmer-rooted breeding in southern France that grew by acquisition — Monsanto's cereals business in 2010, the Bayer hybrid-wheat partnership i…",
+   "events": [
+    {
+     "year": 1919,
+     "event": "The RAGT group is founded in Rodez by farmers; the name draws on Rouergue, Auvergne, Gévaudan, and Tarnais."
+    },
+    {
+     "year": 1986,
+     "event": "First international sales subsidiaries, in Germany and Austria."
+    },
+    {
+     "year": 2000,
+     "event": "Group structure created around RAGT Plateau Central and RAGT Semences."
+    },
+    {
+     "year": 2010,
+     "event": "Acquires Sérasem, Monsanto's cereals business (PBI)."
+    },
+    {
+     "year": 2021,
+     "event": "Signs a hybrid-wheat development partnership with Bayer for the European market."
+    },
+    {
+     "year": 2026,
+     "event": "Completes the acquisition of Syngenta's two-row malting barley seed business on 6 January."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "france",
+   "archetype": "breeding-specialist",
+   "archetypeDescription": "specializes in field-crop breeding, with genetics as the core competence",
+   "mainArea": "Field crops, forage, vegetables",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1919",
+   "legalForm": "group founded by and rooted in farmers, headquartered in Rodez, Occitanie",
+   "businessLines": [
+    "field crops",
+    "forage",
+    "vegetable seeds",
+    "maize",
+    "sunflower",
+    "sorghum",
+    "perennial ryegrass",
+    "sorghum and turf grasses"
+   ],
+   "geographicReach": [
+    "Europe",
+    "Argentina",
+    "Oceania (Seed-Force New Zealand and Australia)"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "The history of the RAGT Group",
+    "link": "https://www.ragt.com/en/the-ragt-group/the-history-of-ragt",
+    "description": "Founding, the 2000 structure, the Sérasem acquisition, and the Bayer partnership."
+   },
+   {
+    "title": "RAGT - seed breeding and production",
+    "link": "https://ragt-seeds.com/",
+    "description": "The 2026 completion of the Syngenta malting barley acquisition and the variety portfolio."
+   }
+  ]
+ },
+ {
+  "id": "gdm",
+  "name": "GDM",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "argentina",
+   "crop-genetics-specialist",
+   "soybean",
+   "genetics",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Argentine firm working on soybean genetics and breeding; seed-sector roster archetype: crop-genetics-specialist.",
+  "longDescription": "A Argentine GDM firm working on soybean genetics and breeding; in the Naturgnosis seed-sector roster it carries the crop-genetics-specialist archetype, which means it specializes in the genetics of a single crop group. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A crop-genetics specialist with a documented founding story rather than a corporate history: a group of soybean growers who moved a hundred kilometres and grew an American variety in Argentine conditions, then spent four decades breeding from that success.",
+  "chronology": {
+   "summary": "A crop-genetics specialist with a documented founding story rather than a corporate history: a group of soybean growers who moved a hundred kilometres and grew …",
+   "events": [
+    {
+     "year": 1989,
+     "event": "The first variety is developed by Don Mario, the predecessor brand, from an American soybean variety grown in Argentina."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "argentina",
+   "archetype": "crop-genetics-specialist",
+   "archetypeDescription": "specializes in the genetics of a single crop group",
+   "mainArea": "Soybean genetics and breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1980",
+   "legalForm": "soybean genetics company, HQ Chacabuco, Buenos Aires, Argentina",
+   "origin": "Founded in the early 1980s by Gerardo Bartolomé with his brother Alejandro and four friends, trading as Don Mario, who moved from San Isidro to Chacabuco and grew an imported soybean variety successfully in Argentina.",
+   "notableVariety": "DM49, from the seed named Mitchell",
+   "technologies": "gene editing, per the company profile",
+   "historyLength": "the company describes a 41-year history as of 2026"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About Us - GDM Seeds",
+    "link": "https://www.gdmseeds.com/en/about",
+    "description": "The founding story, the Don Mario origin, and the first variety."
+   }
+  ]
+ },
+ {
+  "id": "longping-high-tech",
+  "name": "Longping High-Tech",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "china",
+   "regional-global-breeder",
+   "rice",
+   "maize",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Chinese firm working on rice, maize and crop breeding; seed-sector roster archetype: regional-global-breeder.",
+  "longDescription": "A Chinese Longping High-Tech firm working on rice, maize and crop breeding; in the Naturgnosis seed-sector roster it carries the regional-global-breeder archetype, which means it breeds regionally while running an international varietal portfolio. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "china",
+   "archetype": "regional-global-breeder",
+   "archetypeDescription": "breeds regionally while running an international varietal portfolio",
+   "mainArea": "Rice, maize and crop breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "stine-seed",
+  "name": "Stine Seed",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "crop-specialist",
+   "soybean",
+   "corn",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on soybean, corn breeding; seed-sector roster archetype: crop-specialist.",
+  "longDescription": "A American Stine Seed firm working on soybean, corn breeding; in the Naturgnosis seed-sector roster it carries the crop-specialist archetype, which means it specializes in a single crop or crop group, from genetics to certified seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Not a century-old house but the founder-driven archetype in American crop breeding: a soybean cleaning plant that became the first private soybean research firm in the United States and the first American company to patent its varieties, in 1980.",
+  "chronology": {
+   "summary": "Not a century-old house but the founder-driven archetype in American crop breeding: a soybean cleaning plant that became the first private soybean research firm…",
+   "events": [
+    {
+     "year": 1950,
+     "event": "Bill Stine wins the Dallas County Soybean Yield Contest."
+    },
+    {
+     "year": 1979,
+     "event": "Retail soybean seed sales begin under the Stine Soybean Seeds label, with the 'Home of the New Varieties' identity."
+    },
+    {
+     "year": 1980,
+     "event": "Stine Seed Company becomes the first company in United States history to receive a patent on soybean varieties (Stine 1570 and Stine 2550)."
+    },
+    {
+     "year": 2004,
+     "event": "Harry Stine co-founds M.S. Technologies, L.L.C., a trait-development biotechnology company."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "crop-specialist",
+   "archetypeDescription": "specializes in a single crop or crop group, from genetics to certified seed",
+   "mainArea": "Soybean, corn breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "legalForm": "family-owned soybean and corn seed company",
+   "roots": "The Stine name dates to the 1940s, when Bill Stine cleaned public-variety soybean seed with a portable cleaner; the seed farm goes back further still.",
+   "privateResearch": "Improved Variety Research, founded with four other seedsmen, was the first private soybean research and development firm in the United States.",
+   "note": "Harry Stine was a farmer, breeder, and entrepreneur who reinvested profits into private breeding research rather than short-term returns."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "History - Stine Seed",
+    "link": "https://stineseed.com/about/history",
+    "description": "The cleaning-plant origins, the 1979 retail launch, the 1980 patents, and Improved Variety Research."
+   },
+   {
+    "title": "Our Founder - Harry H. Stine",
+    "link": "https://www.stineseed.com/about/company-leadership/our-founder",
+    "description": "The private-breeding programme and the 2004 biotechnology co-founding."
+   }
+  ]
+ },
+ {
+  "id": "advanta-seeds",
+  "name": "Advanta Seeds",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "india",
+   "regional-global-seed",
+   "field-crops",
+   "tropics",
+   "seeds",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Indian firm working on field crops and tropical agriculture; seed-sector roster archetype: regional-global-seed.",
+  "longDescription": "A Indian Advanta Seeds firm working on field crops and tropical agriculture; in the Naturgnosis seed-sector roster it carries the regional-global-seed archetype, which means it operates regionally with an international varietal portfolio. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "india",
+   "archetype": "regional-global-seed",
+   "archetypeDescription": "operates regionally with an international varietal portfolio",
+   "mainArea": "Field crops and tropical agriculture",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "graminor",
+  "name": "Graminor",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "norway",
+   "regional-breeder",
+   "cereals",
+   "potato",
+   "forage",
+   "fruits-berries",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Norwegian firm working on cereals, potato, forage, fruits/berries; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Norwegian Graminor firm working on cereals, potato, forage, fruits/berries; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The national counterweight to the multinationals on this roster: formed in 2002 to merge Norway's plant breeding into one company, it supplies over half the country's grain and forage area, and it holds the pre-base seed and elite-plant stages that the commercial seed chain downstream depends on.",
+  "chronology": {
+   "summary": "The national counterweight to the multinationals on this roster: formed in 2002 to merge Norway's plant breeding into one company, it supplies over half the cou…",
+   "events": [
+    {
+     "year": 2002,
+     "event": "Graminor AS established to amalgamate Norwegian plant breeding into one company."
+    },
+    {
+     "year": 2015,
+     "event": "Norwegian grain varieties cultivated on a larger area in Finland than in Norway."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "norway",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Cereals, potato, forage, fruits/berries",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "2002",
+   "legalForm": "Norwegian plant breeding company, headquartered at the Bjørke research station near Hamar",
+   "breedingMandate": "new varieties adapted to Nordic conditions: barley, wheat, rye, triticale, potato, forage crops, fruit, and berries",
+   "land": "about 1,000 decares of breeding and propagation land at Bjørke; fruit and berry breeding at the Njøs centre",
+   "marketPosition": "the company states that over half the grains and forage crops sown in Norway are Graminor varieties",
+   "businessAreas": [
+    "plant breeding",
+    "testing",
+    "representation of foreign varieties",
+    "pre-base seed production"
+   ],
+   "publicRole": "also runs publicly commissioned breeding programmes in species where market revenue cannot fund them",
+   "collaborators": "seed potatoes via the Overhalla Clonal Plant Center; elite plants via Sagaplant"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About Graminor",
+    "link": "https://graminor.no/about-graminor?lang=en",
+    "description": "Establishment, land, business areas, national market share, and the public role."
+   },
+   {
+    "title": "Plant breeding - Graminor",
+    "link": "https://graminor.no/plant-breeding?lang=en",
+    "description": "Crop scope and the mix of market-funded and publicly commissioned breeding."
+   }
+  ]
+ },
+ {
+  "id": "nordic-seed",
+  "name": "Nordic Seed",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "denmark",
+   "regional-breeder",
+   "cereals",
+   "maize",
+   "field-crops",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Danish firm working on cereals, maize, field crops; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Danish Nordic Seed firm working on cereals, maize, field crops; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "denmark",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Cereals, maize, field crops",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "sejet-plant-breeding",
+  "name": "Sejet Plant Breeding",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "denmark",
+   "regional-breeder",
+   "cereals",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Danish firm working on cereals and breeding; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Danish Sejet Plant Breeding firm working on cereals and breeding; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A single-country breeder that sells its varieties through a farmers' cooperative rather than its own sales force — an archetype variant the roster's categories do not name, and which matters because it changes who owns the multiplication and the channel.",
+  "chronology": {
+   "summary": "A single-country breeder that sells its varieties through a farmers' cooperative rather than its own sales force — an archetype variant the roster's categories …",
+   "events": [
+    {
+     "year": 1947,
+     "event": "Sejet Plant Breeding founded in Jutland, Denmark."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "denmark",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Cereals and breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1947",
+   "headquarters": "Horsens, Jutland, Denmark",
+   "breedingProgramme": [
+    "spring barley",
+    "faba beans",
+    "spring wheat",
+    "winter barley",
+    "winter wheat",
+    "winter triticale"
+   ],
+   "namedVarieties": [
+    "Guinness",
+    "Heerup",
+    "Kvium",
+    "Bright",
+    "Knut",
+    "Faxe",
+    "Revolver",
+    "Bolinder",
+    "Spectral"
+   ],
+   "commercialRoute": "pure-seed multiplication by selected farmers; marketed in Denmark through the DLG cooperative and abroad through partners",
+   "managingDirector": "Troels Nørgaard"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About us - Sejet Plant Breeding",
+    "link": "https://www.sejet.com/who-are-we/about-us",
+    "description": "Founding, crop programme, named varieties."
+   },
+   {
+    "title": "Sejet Plant Breeding - home",
+    "link": "https://www.sejet.com/",
+    "description": "Commercial route through DLG and multiplication by selected farmers."
+   }
+  ]
+ },
+ {
+  "id": "boreal-plant-breeding",
+  "name": "Boreal Plant Breeding",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "finland",
+   "regional-breeder",
+   "cereals",
+   "northern-crops",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Finnish firm working on cereals and northern crops; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Finnish Boreal Plant Breeding firm working on cereals and northern crops; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. The firm is recorded as part of Boreal Plant Breeding Ltd.; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The clearest case on the roster of a national breeding system as an institution rather than a company: a state and a commercial breeding house merged in 1994, varieties protected by law and a farm-saved-seed levy, and a Variety Board deciding what may be sold.",
+  "chronology": {
+   "summary": "The clearest case on the roster of a national breeding system as an institution rather than a company: a state and a commercial breeding house merged in 1994, v…",
+   "events": [
+    {
+     "year": 1904,
+     "event": "The Finnish Seed Association is founded, with plant breeding included from the start."
+    },
+    {
+     "year": 1927,
+     "event": "Ollin barley released, among the world's earliest named barley varieties."
+    },
+    {
+     "year": 1994,
+     "event": "MTT's and Hankkija's breeding operations merged to found Boreal, securing domestic food production."
+    },
+    {
+     "year": 2000,
+     "event": "Boreal incorporated; the farm-saved-seed fee broadens its funding base."
+    },
+    {
+     "year": 2014,
+     "event": "Genomic selection adopted, beginning with six-row barley."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "finland",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Cereals and northern crops",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "Boreal Plant Breeding Ltd.",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1994",
+   "legalForm": "Finnish company, Boreal Kasvinjalostus Oy, headquartered in Jokioinen",
+   "breedingMandate": "barley, oat, wheat, rye, forage grass, turnip rape, pea, and faba bean varieties for northern conditions",
+   "namedVarieties": [
+    "Ollin barley (1927)",
+    "Kulta turnip rape (1991, first export variety)",
+    "Botnia BOR barley (1996)",
+    "Saana BOR barley (1996)",
+    "Akseli BOR oat (2011)",
+    "Jussi BOR potato (2014)",
+    "Synthia BOR spring turnip rape (2016)"
+   ],
+   "commercialModel": "all varieties protected; seed companies pay royalties and farm-saved seed generates a fee that funds domestic breeding",
+   "regulation": "in Finland only certified seed approved by the national Variety Board may be sold for sowing",
+   "exports": [
+    "Sweden",
+    "Norway",
+    "Baltic states",
+    "Canada",
+    "Central Europe"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "The History of Boreal",
+    "link": "https://boreal.fi/en/about-us/history-of-boreal",
+    "description": "The 1904 origin, the 1994 merger, named varieties, genomic selection, and the export markets."
+   },
+   {
+    "title": "About Us - Boreal Kasvinjalostus Oy",
+    "link": "https://boreal.fi/en/about-us",
+    "description": "The protected-variety and farm-saved-seed funding model, and the certification regime."
+   }
+  ]
+ },
+ {
+  "id": "lantmannen-lantbruk",
+  "name": "Lantmannen Lantbruk",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "sweden",
+   "regional-agricultural-cooperative",
+   "breeding",
+   "seed",
+   "cereals",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Swedish firm working on breeding, seed, cereals; seed-sector roster archetype: regional-agricultural-cooperative.",
+  "longDescription": "A Swedish Lantmannen Lantbruk firm working on breeding, seed, cereals; in the Naturgnosis seed-sector roster it carries the regional-agricultural-cooperative archetype, which means it is a farmers' cooperative that owns the breeding and the seed production. The firm is recorded as part of Lantmannen; that parent is not a node in this dataset, so the relation is carried here rather than as an edge. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The roster's only cooperative whose seed activity sits inside a much larger food group, which is the point of its archetype: Lantmannen breeds in Sweden, the Netherlands, and the Nordics inside a 17,000-farmer, SEK 70 billion business that also runs milling, baking, and food brands.",
+  "chronology": {
+   "summary": "The roster's only cooperative whose seed activity sits inside a much larger food group, which is the point of its archetype: Lantmannen breeds in Sweden, the Ne…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "sweden",
+   "archetype": "regional-agricultural-cooperative",
+   "archetypeDescription": "is a farmers' cooperative that owns the breeding and the seed production",
+   "mainArea": "Breeding, seed, cereals",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": "Lantmannen",
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "legalForm": "Lantmännen, a cooperative owned by 17,000 Swedish farmers",
+   "employees": 12000,
+   "countries": "more than 20",
+   "turnoverSEK": "SEK 70 billion",
+   "breedingSites": [
+    "Svalöv and Lännäs, Sweden",
+    "Emmeloord, Netherlands"
+   ],
+   "heritage": "one of the first breeding companies established in Europe, with more than 130 years of experience",
+   "formerBrands": [
+    "Svalöf Weibull",
+    "SW Seed"
+   ],
+   "breedingScope": [
+    "cereals",
+    "oilseed",
+    "forage grasses",
+    "legumes",
+    "potatoes",
+    "willow"
+   ],
+   "brandNote": "A cooperative rather than a pure seed company: Lantmannen is a food and machinery group whose seed arm is one business line, with brands such as AXA, Kungsornen, and Scan."
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About us - Lantmannen Seed",
+    "link": "https://www.lantmannenseed.com/about-us",
+    "description": "Cooperative ownership, employees, turnover, breeding sites, brands, and scope."
+   }
+  ]
+ },
+ {
+  "id": "agrovegetal",
+  "name": "Agrovegetal",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "spain",
+   "regional-breeder",
+   "cereals",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Spanish firm working on cereals and plant breeding; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Spanish Agrovegetal firm working on cereals and plant breeding; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "spain",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Cereals and plant breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "semillas-fito",
+  "name": "Semillas Fito",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "spain",
+   "regional-global-specialist",
+   "vegetables",
+   "field-crops",
+   "seeds",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Spanish firm working on vegetable and field-crop seeds; seed-sector roster archetype: regional-global-specialist.",
+  "longDescription": "A Spanish Semillas Fito firm working on vegetable and field-crop seeds; in the Naturgnosis seed-sector roster it carries the regional-global-specialist archetype, which means it runs regionally with an international seed and variety portfolio. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A 1880 Catalan house that spent its first century inside the Spanish market and its second going international, with the first hybridisation and the first F1 melons, tomatoes, and peppers coming out of Spain before it exported the model.",
+  "chronology": {
+   "summary": "A 1880 Catalan house that spent its first century inside the Spanish market and its second going international, with the first hybridisation and the first F1 me…",
+   "events": [
+    {
+     "year": 1880,
+     "event": "Ramón Fitó founds the company in Sant Martí de Provençals, later Barcelona's Poblenou district."
+    },
+    {
+     "year": 1940,
+     "event": "Casimiro Fitó concentrates the company on seed production and obtains concession number 6 as a producer of selected vegetable seeds."
+    },
+    {
+     "year": 1990,
+     "event": "Biotechnology introduced as a key tool in breeding and quality control."
+    },
+    {
+     "year": 2000,
+     "event": "First R&D centre outside Spain, in Jordan."
+    },
+    {
+     "year": 2006,
+     "event": "Enters Latin America, establishing itself in Mexico and Brazil."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "spain",
+   "archetype": "regional-global-specialist",
+   "archetypeDescription": "runs regionally with an international seed and variety portfolio",
+   "mainArea": "Vegetable and field-crop seeds",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1880",
+   "legalForm": "Spanish multinational, family-founded, headquartered in Barcelona",
+   "employees": "more than 800",
+   "countries": "operations in more than 90",
+   "subsidiaries": "ten subsidiaries plus direct presence in ten further countries",
+   "rndShareOfTurnover": "more than 15%",
+   "marketPosition": "leader in the Mediterranean and South American markets",
+   "breedingHistory": "first cross-breeding in 1910; the first F1 hybrids of melon, tomato, and pepper developed in Spain in the 1970s"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Our history - Semillas Fito",
+    "link": "https://www.semillasfito.com/en/empresa/nuestra-historia",
+    "description": "The 1880 founding, the hybrid work, and the internationalisation timeline."
+   },
+   {
+    "title": "About us - Semillas Fito",
+    "link": "https://www.semillasfito.com/en/empresa/sobre-nosotros",
+    "description": "Ownership form, R&D share, subsidiaries, and geographic reach."
+   }
+  ]
+ },
+ {
+  "id": "hzpc",
+  "name": "HZPC",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "netherlands",
+   "crop-specialist",
+   "potato",
+   "genetics",
+   "seed-potatoes",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Dutch firm working on potato genetics and seed potatoes; seed-sector roster archetype: crop-specialist.",
+  "longDescription": "A Dutch HZPC firm working on potato genetics and seed potatoes; in the Naturgnosis seed-sector roster it carries the crop-specialist archetype, which means it specializes in a single crop or crop group, from genetics to certified seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A crop specialist in the strict sense: one crop, whose commercial model is licensing rather than seed sale, and whose scale is in tonnes of seed potato — 941,000 of them — rather than in breeding programmes.",
+  "chronology": {
+   "summary": "A crop specialist in the strict sense: one crop, whose commercial model is licensing rather than seed sale, and whose scale is in tonnes of seed potato — 941,00…",
+   "events": [
+    {
+     "year": 1898,
+     "event": "Hettema & Sons founded in Bitgum, Friesland."
+    },
+    {
+     "year": 1919,
+     "event": "ZPC founded in Leeuwarden by Jakob Wiersma to promote member-grown seed and seed potatoes."
+    },
+    {
+     "year": 1937,
+     "event": "ZPC starts its breeding programme."
+    },
+    {
+     "year": 1999,
+     "event": "ZPC and Hettema merge into HZPC, with a new head office in Joure."
+    },
+    {
+     "year": 2008,
+     "event": "Becomes the world's largest company in the export of seed potatoes."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "netherlands",
+   "archetype": "crop-specialist",
+   "archetypeDescription": "specializes in a single crop or crop group, from genetics to certified seed",
+   "mainArea": "Potato genetics and seed potatoes",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1898",
+   "legalForm": "Royal HZPC Group, Netherlands, from the 1999 merger of two Friesland houses",
+   "headquarters": "Joure, Friesland, Netherlands",
+   "employees": "about 400 across 16 countries",
+   "exportCountries": "more than 90",
+   "protectedVarieties": "more than 130",
+   "seedPotatoVolume": "941,000 tonnes",
+   "researchLocations": 2,
+   "commercialModel": "leading in licensed cultivation; licensees growing HZPC varieties on all continents by 2023"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Potato Innovators since 1898 - HZPC",
+    "link": "https://www.hzpc.com/en/about",
+    "description": "The 1898 and 1919 foundations, the 1999 merger, and the scale figures."
+   },
+   {
+    "title": "125 years - HZPC",
+    "link": "https://www.hzpc.com/about-us/125-years",
+    "description": "The two predecessor houses, the early breeding, and licensed cultivation."
+   }
+  ]
+ },
+ {
+  "id": "europlant",
+  "name": "Europlant",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "germany",
+   "crop-specialist",
+   "potato",
+   "varieties",
+   "seed-potatoes",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "German firm working on potato varieties and seed potatoes; seed-sector roster archetype: crop-specialist.",
+  "longDescription": "A German Europlant firm working on potato varieties and seed potatoes; in the Naturgnosis seed-sector roster it carries the crop-specialist archetype, which means it specializes in a single crop or crop group, from genetics to certified seed. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. A crop specialist defined by a refusal as much as by a portfolio: classically bred varieties with no genetically modified crossing partners, a third of them suited to organic farming, and a breeding target list written in resistance and resilience terms.",
+  "chronology": {
+   "summary": "A crop specialist defined by a refusal as much as by a portfolio: classically bred varieties with no genetically modified crossing partners, a third of them sui…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "germany",
+   "archetype": "crop-specialist",
+   "archetypeDescription": "specializes in a single crop or crop group, from genetics to certified seed",
+   "mainArea": "Potato varieties and seed potatoes",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "legalForm": "EUROPLANT Pflanzenzucht GmbH, Germany",
+   "heritage": "more than 125 years serving the potato industry",
+   "breedingClaim": "classically bred varieties only, with no genetically modified crossing partners used",
+   "varieties": "more than 100 varieties for table, processing, and starch production",
+   "organicShare": "about a third of its varieties are suitable for organic cultivation; one of Europe's largest suppliers of organic seed potatoes",
+   "breedingFocus": [
+    "natural resistance to nematodes, potato wart, and viral disease",
+    "blight resistance",
+    "resilience to environmental factors",
+    "cultivation efficiency",
+    "heat and drought tolerance",
+    "long dormancy for storage without sprout inhibitors"
+   ],
+   "memberships": [
+    "BDP (German Plant Breeders)",
+    "UNIKA",
+    "German Potato Trade Association",
+    "Euroseeds",
+    "German Agricultural Society (DLG)"
+   ],
+   "certification": "Eco-Control DE-OKO-006"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Quality seed potatoes - EUROPLANT",
+    "link": "https://www.europlant.biz/en",
+    "description": "Breeding method, variety count, organic share, resistance focus, and memberships."
+   }
+  ]
+ },
+ {
+  "id": "elsoms-ackermann",
+  "name": "Elsoms Ackermann",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "uk",
+   "regional-breeder",
+   "barley",
+   "cereals",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "British firm working on barley and cereal breeding; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A British Elsoms Ackermann firm working on barley and cereal breeding; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "uk",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Barley and cereal breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "may-seed",
+  "name": "May Seed",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "turkiye",
+   "regional-breeder",
+   "field-crops",
+   "vegetables",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Turkish firm working on field crops, vegetables, breeding; seed-sector roster archetype: regional-breeder.",
+  "longDescription": "A Turkish May Seed firm working on field crops, vegetables, breeding; in the Naturgnosis seed-sector roster it carries the regional-breeder archetype, which means it breeds and markets regionally, where local adaptation and short cycles decide the value of a variety. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "turkiye",
+   "archetype": "regional-breeder",
+   "archetypeDescription": "breeds and markets regionally, where local adaptation and short cycles decide the value of a variety",
+   "mainArea": "Field crops, vegetables, breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "protealis",
+  "name": "Protealis",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "belgium",
+   "biotech-breeding",
+   "legumes",
+   "genetics",
+   "breeding",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Belgian firm working on legume genetics and breeding; seed-sector roster archetype: biotech-breeding.",
+  "longDescription": "A Belgian Protealis firm working on legume genetics and breeding; in the Naturgnosis seed-sector roster it carries the biotech-breeding archetype, which means it combines molecular genetics with conventional breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "belgium",
+   "archetype": "biotech-breeding",
+   "archetypeDescription": "combines molecular genetics with conventional breeding",
+   "mainArea": "Legume genetics and breeding",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "moa-technology",
+  "name": "Moa Technology",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "uk",
+   "ag-biotech",
+   "crop-protection",
+   "herbicides",
+   "biotechnology",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "British firm working on herbicide discovery / agricultural biotechnology; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A British Moa Technology firm working on herbicide discovery / agricultural biotechnology; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Not a breeder at all: an Oxford spin-out selling no seed, whose product is a new class of herbicide discovered with machine learning over proprietary data — the crop-protection half of the roster that never touches genetics.",
+  "chronology": {
+   "summary": "Not a breeder at all: an Oxford spin-out selling no seed, whose product is a new class of herbicide discovered with machine learning over proprietary data — the…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "uk",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Herbicide discovery / agricultural biotechnology",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "2017",
+   "legalForm": "agricultural biotechnology firm, Leeds, United Kingdom",
+   "origin": "spun out of Oxford University",
+   "mandate": "new modes of action for herbicides, aimed at herbicide-resistant weeds",
+   "method": "proprietary data with artificial intelligence and machine learning over in-house intellectual property and platforms",
+   "fieldEvidence": "outstanding results across a first three seasons of international field trials, exceeding commercially available herbicides",
+   "recognition": "named one of the world's top green technology companies by TIME"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "MOA Technology",
+    "link": "http://www.moa-technology.com/",
+    "description": "Oxford spin-out, herbicidal discovery mandate, AI and machine-learning method, field-trial results."
+   }
+  ]
+ },
+ {
+  "id": "pairwise",
+  "name": "Pairwise",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "genome-editing-specialist",
+   "genome-editing",
+   "crop-genetics",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on genome editing, crop genetics; seed-sector roster archetype: genome-editing-specialist.",
+  "longDescription": "A American Pairwise firm working on genome editing, crop genetics; in the Naturgnosis seed-sector roster it carries the genome-editing-specialist archetype, which means it specializes in genome editing applied to crop traits. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. The genome-editing specialist, and the clearest case on the roster of a firm whose product is not seed at all but a licensed editing capability — co-founded by three of the inventors of CRISPR, and staffed by the man who built KWS's US editing programme, which is how the archetypal breeder and the archetypal editor meet in one industry.",
+  "chronology": {
+   "summary": "The genome-editing specialist, and the clearest case on the roster of a firm whose product is not seed at all but a licensed editing capability — co-founded by …",
+   "events": [
+    {
+     "year": 2017,
+     "event": "Founded by Tom Adams and Haven Baker with scientific founders Feng Zhang, David Liu, and J. Keith Joung."
+    },
+    {
+     "year": 2018,
+     "event": "Dr Aaron Hummel joins from KWS, where he had established the company's United States genome-editing team."
+    }
+   ]
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "genome-editing-specialist",
+   "archetypeDescription": "specializes in genome editing applied to crop traits",
+   "mainArea": "Genome editing, crop genetics",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "2017",
+   "legalForm": "gene-editing company, United States",
+   "founders": [
+    "Tom Adams, PhD (CEO)",
+    "Haven Baker, PhD",
+    "Feng Zhang, PhD",
+    "David Liu, PhD",
+    "J. Keith Joung, PhD"
+   ],
+   "platform": "the Fulcrum platform, combining CRISPR gene editing, artificial intelligence, and plant biology",
+   "businessModel": "technology licensing to commercial, academic, and nonprofit partners, plus product partnerships and a licensing route into breeding companies through Hudson River",
+   "selfReportedMetrics": "11 million transformations performed, 72% success rate on targeted improvements, 81 potential products created (as published by the company)",
+   "namedProducts": [
+    "pitless cherries",
+    "seedless blackberries"
+   ],
+   "lineageNote": "co-founded by inventors of the CRISPR technology the seed sector is reorganizing around"
+  },
+  "metadata": {
+   "confidenceScore": 0.85,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "About Us - Pairwise",
+    "link": "https://www.pairwise.com/about-us",
+    "description": "Founders, the KWS lineage of its R&D lead, and the business model."
+   },
+   {
+    "title": "Technology - the Fulcrum platform",
+    "link": "https://www.pairwise.com/technology",
+    "description": "What the platform integrates, who licenses it, and the company's own metrics."
+   }
+  ]
+ },
+ {
+  "id": "loam-bio",
+  "name": "Loam Bio",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "australia",
+   "ag-biotech",
+   "microbiology",
+   "biologicals",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Australian firm working on agricultural microbiology / biologicals; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A Australian Loam Bio firm working on agricultural microbiology / biologicals; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "australia",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Agricultural microbiology / biologicals",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "kula-bio",
+  "name": "Kula Bio",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "ag-biotech",
+   "biological-nitrogen",
+   "microbial-technology",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on biological nitrogen / microbial technology; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A American Kula Bio firm working on biological nitrogen / microbial technology; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. One of the ag-biotech entries, and the only one verified only through a business-data aggregator: a nitrogen-fixation play sold as a microbial input, not as genetics.",
+  "chronology": {
+   "summary": "One of the ag-biotech entries, and the only one verified only through a business-data aggregator: a nitrogen-fixation play sold as a microbial input, not as gen…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Biological nitrogen / microbial technology",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "2018",
+   "legalForm": "microbial crop nutrition company, Natick, Massachusetts, United States",
+   "productClaim": "a biological that improves the activity of naturally occurring soil microbes, so that nitrogen-fixing bacteria can store energy derived from renewable electricity and carbon dioxide",
+   "sourcingNote": "Company profile recorded from a business-data aggregator, not from a primary source; treat the figures and the product description as unverified."
+  },
+  "metadata": {
+   "confidenceScore": 0.6,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Kula Bio - company profile (aggregator)",
+    "link": "https://www.kulabio.com/",
+    "description": "Product description and location; aggregator-sourced, not confirmed against a primary source."
+   }
+  ]
+ },
+ {
+  "id": "agrivida",
+  "name": "Agrivida",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "ag-biotech",
+   "crop-biotechnology",
+   "engineered-plants",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on crop biotechnology / engineered plants; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A American Agrivida firm working on crop biotechnology / engineered plants; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Crop biotechnology / engineered plants",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "yield10-bioscience",
+  "name": "Yield10 Bioscience",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "ag-biotech",
+   "crop-genetic-engineering",
+   "yield-traits",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on crop genetic engineering / yield traits; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A American Yield10 Bioscience firm working on crop genetic engineering / yield traits; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Recorded from an aggregator rather than a primary source, so little more than the roster's own claim is asserted here.",
+  "chronology": {
+   "summary": "Recorded from an aggregator rather than a primary source, so little more than the roster's own claim is asserted here.",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Crop genetic engineering / yield traits",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "founded": "1992",
+   "legalForm": "agricultural bioscience company, United States",
+   "mandate": "crop genetic engineering and traits aimed at yield",
+   "sourcingNote": "Company profile recorded from a business-data aggregator, not from a primary source; the founding year and location should be confirmed."
+  },
+  "metadata": {
+   "confidenceScore": 0.6,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Yield10 Bioscience - company profile (aggregator)",
+    "link": "http://yield10bio.com",
+    "description": "Company profile; aggregator-sourced, not confirmed against a primary source."
+   }
+  ]
+ },
+ {
+  "id": "fieldstone-bio",
+  "name": "Fieldstone Bio",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "ag-biotech",
+   "biotechnology",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on agricultural biotechnology; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A American Fieldstone Bio firm working on agricultural biotechnology; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product.",
+  "chronology": {
+   "summary": "",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Agricultural biotechnology",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29"
+  },
+  "metadata": {
+   "confidenceScore": 0.7,
+   "sourceReference": "Seed-sector roster supplied by the user, 2026-09-29; no founding dates, headcounts, or financials asserted.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": []
+ },
+ {
+  "id": "rainbow-crops",
+  "name": "Rainbow Crops",
+  "tags": [
+   "seed-sector",
+   "plant-breeding",
+   "usa",
+   "ag-biotech",
+   "crop-biotechnology",
+   "plant-genetics",
+   "production-view"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "American firm working on crop biotechnology / plant genetics; seed-sector roster archetype: ag-biotech.",
+  "longDescription": "A American Rainbow Crops firm working on crop biotechnology / plant genetics; in the Naturgnosis seed-sector roster it carries the ag-biotech archetype, which means it works in agricultural biotechnology and microbiology rather than in varietal breeding. Typed as an Organization on the Ontic layer: a body with identity, membership, and rules — breeding programmes, commercial teams, trial networks, and a seed plant — which exists extra-mentally and persists independently of any observer. The breeding and genome-modification work it performs is decomposed under the technicarum grammar in note technique/systems/multinode/plant-genetic-improvement.md, and the science it draws on is epistemic; neither is duplicated here. Tagged production-view because it places a product on the market as a good: certified seed, a variety licence, a trait, or a crop-protection product. Left deliberately unresolved: the only company profile matching this name is Belgian, in Ghent, doing multiplex genome editing with AI, while the roster says United States.",
+  "chronology": {
+   "summary": "Left deliberately unresolved: the only company profile matching this name is Belgian, in Ghent, doing multiplex genome editing with AI, while the roster says Un…",
+   "events": []
+  },
+  "relationships": [],
+  "specific": {
+   "country": "usa",
+   "archetype": "ag-biotech",
+   "archetypeDescription": "works in agricultural biotechnology and microbiology rather than in varietal breeding",
+   "mainArea": "Crop biotechnology / plant genetics",
+   "sector": "seed-and-plant-breeding",
+   "parentOrganization": null,
+   "roster": "seed-sector roster supplied 2026-09-29",
+   "discrepancyNote": "The roster places this firm in the United States. The only matching company profile found is 'Rainbowcrops', an AI-powered multiplex-genome-editing platform based in Ghent, Belgium, with a 2025-2026 seed round and investors including Corteva Agriscience and VIB. Either the roster's country is wrong or these are two different firms; the node is left unasserted rather than resolved by guesswork.",
+   "sourcingNote": "The company profile found is aggregator-sourced and does not match the roster's country."
+  },
+  "metadata": {
+   "confidenceScore": 0.6,
+   "sourceReference": "Seed-sector roster supplied 2026-09-29; corporate facts verified from institutional and primary sources on 2026-09-29.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node from the seed-sector roster; production-view tag per the topic-placement strategy step 6."
+    },
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from institutional and primary sources read on 2026-09-29; roster fields retained. Aggregator-sourced and conflicting entries are marked as such in specific."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "Rainbowcrops - company profile (aggregator)",
+    "link": "https://www.rainbowcrops.com/",
+    "description": "Belgian AI-powered multiplex genome-editing platform; does not match the roster's stated country."
+   }
+  ]
  }
 ]
