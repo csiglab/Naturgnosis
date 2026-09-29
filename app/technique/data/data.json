@@ -6077,6 +6077,12 @@
     "relationshipType": "UTILIZES",
     "targetNodeId": "plant-genetic-improvement-001",
     "description": "The Varietal Improvement Set is this set: crossing, marker and genomic selection, transformation, and the trial network that qualifies a new variety."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "plant-health-001",
+    "description": "The Crop Protection Set is elaborated as the Plant Health Technical Set: diagnosis, surveillance, forecasting, control, propagation material, quarantine, and standards."
    }
   ],
   "specific": {
@@ -6254,6 +6260,145 @@
    {
     "title": "Collard, B. C. Y., & Mackill, D. J. (2008). Phil. Trans. R. Soc. B, 363(1441), 557-572.",
     "description": "Marker-assisted selection as precision plant breeding."
+   }
+  ]
+ },
+ {
+  "id": "plant-health-001",
+  "name": "Plant Health Technical Set",
+  "tags": [
+   "technique",
+   "plant",
+   "plant-health",
+   "plant-protection",
+   "diagnosis",
+   "quarantine",
+   "technical-element-set"
+  ],
+  "layer": "Capability Space",
+  "category": "Technique",
+  "description": "The technical ensemble that finds, identifies, tracks, forecasts, and stops the organisms that damage a standing crop: diagnosis, surveillance, forecasting, epidemiology, control, propagation-material health, quarantine, and standards.",
+  "longDescription": "A `Technical Element Set` composite — the whole of crop protection from diagnosis to quarantine, whose members are cultures, immunoassays, thermocyclers, traps, sentinel beds, forecast models, sprayers, biological agents, seed-testing stations, meristem culture facilities, inspection points, standards, and authorities, hence no single dataset category fits without compromise; `Technique` is used here with the alternatives recorded in metadata.categoryAmbiguity. Eight practice sets are decomposed in note technique/systems/multinode/plant-health-technical-set.md: diagnostic and detection; surveillance and monitoring; forecasting and decision support; epidemiology and outbreak; control measure; seed and propagation-material health; quarantine and biosecurity; standards, institutions, and regulation. It is the inverse of Plant Cultivation, whose Crop Protection sub-domain now points here rather than repeating it. Readable as a `Production Technical System` (a diagnostic laboratory, a seed-testing station, a border inspection point) and as a `Technical Domain Reality Model` (the host-agent-environment reality the set reads); each takes its own root in its own decomposition. The knowledge the set produces — pathogen populations, Koch's postulates — belongs to epistemica:plant-science-001.",
+  "chronology": {
+   "summary": "From attributing disease to a cause, through isolation and serology, to molecular detection, landscape surveillance, forecast-driven decisions, and genome-informed resistance.",
+   "events": [
+    {
+     "year": null,
+     "event": "Sign and symptom examination establish disease as an identifiable condition before the agent is known."
+    },
+    {
+     "year": null,
+     "event": "Isolation, culture, and the pathogenicity test make the causal chain testable."
+    },
+    {
+     "year": null,
+     "event": "Serology replaces the trained eye as the fast diagnostic."
+    },
+    {
+     "year": null,
+     "event": "Nucleic-acid amplification makes detection specific and sensitive at low density."
+    },
+    {
+     "year": null,
+     "event": "Environmental DNA and automated imaging move detection from the plant to the landscape."
+    },
+    {
+     "year": null,
+     "event": "Weather-driven forecast models permit treatment to be triggered before symptoms appear."
+    }
+   ]
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+    "relationshipType": "TYPE_OF",
+    "targetNodeId": "technique_001",
+    "description": "Plant health is the organized set of techniques that keeps a standing crop standing against the organisms that attack it."
+   },
+   {
+    "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+    "relationshipType": "ENABLES",
+    "targetNodeId": "plant-cultivation-001",
+    "description": "It protects the crop the cultivation domain establishes and harvests; cultivation's Crop Protection Set is elaborated here."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "plant-genetic-improvement-001",
+    "description": "Resistance deployment is one of its control measures, and the traits come from the improvement set's Trait Target Set."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "agent_001",
+    "description": "Diagnosticians, field scouts, laboratory analysts, epidemiologists, applicators, seed testers, inspectors, and quarantine officers execute the set."
+   },
+   {
+    "relationshipFamily": "NORMATIVE_AND_REGULATIVE",
+    "relationshipType": "SUPPORTED_BY",
+    "targetNodeId": "institution_001",
+    "description": "Plant protection services, inspection authorities, accredited laboratories, and certification bodies make a result defensible across a border."
+   },
+   {
+    "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+    "relationshipType": "CONSTRAINED_BY",
+    "targetNodeId": "constraint_001",
+    "description": "Residue limits and pre-harvest intervals, registration and notification requirements, resistance development, and trade rules bound what may be done."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-element-set-composite",
+   "noteRef": "technique/systems/multinode/plant-health-technical-set.md",
+   "counterpartNode": "epistemica:plant-science-001",
+   "subDomainSets": [
+    "Diagnostic And Detection Set",
+    "Surveillance And Monitoring Set",
+    "Forecasting And Decision Support Set",
+    "Epidemiology And Outbreak Set",
+    "Control Measure Set",
+    "Seed And Propagation Material Health Set",
+    "Quarantine And Biosecurity Set",
+    "Standards Institutions And Regulation Set"
+   ],
+   "functionalRoles": [
+    "detection",
+    "containment",
+    "crop-protection"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "The root is a `Technical Element Set` composite spanning eight practice sets; the dataset has no set/practice category, so `Technique` carries the practice reading.",
+    "alternativeCategories": [
+     "ProductionTechnicalObject",
+     "TechnicalInfrastructure"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/systems/multinode/plant-health-technical-set.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Set node; Plant Cultivation's Crop Protection Set collapsed to a pointer row to this note."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema and element-type table; note technique/systems/multinode/plant-health-technical-set.md."
+   },
+   {
+    "title": "Plant Science (epistemica:plant-science-001)",
+    "description": "The knowledge this apparatus produces: pathogen populations, isolation-and-inoculation test, Koch's postulates."
+   },
+   {
+    "title": "Plant Genetic Improvement (technique:plant-genetic-improvement-001)",
+    "description": "Resistance deployment, the genetic route through the control-measure set."
    }
   ]
  }
