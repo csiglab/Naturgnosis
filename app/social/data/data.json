@@ -160328,210 +160328,639 @@
   "name": "Norwegian Institute for Air Research (NILU)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "research-institute",
+   "research-foundation",
+   "environment"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian Institute for Air Research (NILU)",
-  "longDescription": "Norwegian Institute for Air Research (NILU)",
+  "description": "Independent Norwegian climate and environmental research foundation, founded 1969 as the Norwegian Institute for Air Research; national research responsibility for air pollution.",
+  "longDescription": "A private non-profit foundation (Stiftelsen NILU) rather than a state agency, and that distinction is the reason it is not NIBIO's legal peer. Headquarters at Kjeller, with an Arctic office at the Fram Centre in Tromso and a polar presence at Ny-Alesund since 1973, where it is scientifically responsible for the Zeppelin observatory owned by the Norwegian Polar Institute. About 180 staff, a third of them born outside Norway; ISO 9001 and ISO 14001 certified. More than a third of its income arrives from international financing (EU, EEA, WHO, WMO, UNEP, UNECE, World Bank), alongside a national basic grant, and it sells analytical and monitoring services commercially. Research areas: atmosphere and climate, urban air quality, environmental contaminants, environment and health, sustainable solutions, digitalisation. consulted as an air-pollution expert by the World Bank, WHO, WMO, and the Asian Development Bank. Decomposed in note actor/knowledge/nilu.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "Founded 1969 for air-pollution research; widened to atmosphere, climate, contaminants, and health.",
    "events": [
     {
      "year": 1969,
-     "event": "Recorded as established (1969)."
+     "event": "Established as the Norwegian Institute for Air Research; first director Brynjulf Ottar."
+    },
+    {
+     "year": 1973,
+     "event": "Arrival at Ny-Alesund; continuing scientific responsibility for the Zeppelin observatory."
+    },
+    {
+     "year": null,
+     "event": "Mandate widened beyond air research to atmosphere, climate, contaminants, and health effects."
+    },
+    {
+     "year": null,
+     "event": "Service and consultancy business grows to exceed the share of income coming from grant-funded research."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Principal domestic competitive funder of NILU projects."
+   },
+   {
+    "targetNodeId": "norwegian-institute-of-bioeconomy-research-nibio",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer research institute in the Norwegian state research system."
+   },
+   {
+    "targetNodeId": "norwegian-institute-for-nature-research-nina",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer independent research foundation sharing the basic-grant mechanism and the evaluation regime."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Independent"
+   "sourceParentUnresolved": "Independent",
+   "legalForm": "independent non-profit foundation (Stiftelsen NILU)",
+   "orgNumber": "941 705 561",
+   "established": "1969",
+   "headquarters": "Kjeller, Norway",
+   "employees": "approximately 180 (a third born outside Norway)",
+   "certification": [
+    "ISO 9001:2015",
+    "ISO 14001:2015"
+   ],
+   "researchAreas": [
+    "atmosphere and climate",
+    "urban air quality",
+    "environmental contaminants",
+    "environment and health",
+    "sustainable solutions",
+    "digitalisation"
+   ],
+   "sites": [
+    "Kjeller headquarters",
+    "Fram Centre, Tromso",
+    "Ny-Alesund"
+   ],
+   "nationalResponsibility": "air pollution research",
+   "noteRef": "actor/knowledge/nilu.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "About NILU",
+    "link": "https://nilu.com/about-nilu",
+    "description": "Legal form, establishment, size, certification."
+   },
+   {
+    "title": "Norwegian Institute for Air Research - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research",
+    "description": "History, first director, national responsibility, international expert use."
+   },
+   {
+    "title": "NILU at Ny-Alesund Research Station",
+    "link": "https://nyalesundresearch.no/members/norwegian-institute-for-air-research-nilu-norway",
+    "description": "Polar presence and the Zeppelin observatory."
+   }
+  ]
  },
  {
   "id": "norwegian-institute-for-nature-research-nina",
   "name": "Norwegian Institute for Nature Research (NINA)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "research-institute",
+   "research-foundation",
+   "biodiversity"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian Institute for Nature Research (NINA)",
-  "longDescription": "Norwegian Institute for Nature Research (NINA)",
+  "description": "Norway's leading institution for applied ecological research; an independent research foundation established 1988, delivering knowledge and solutions for nature management to authorities, business, and the public.",
+  "longDescription": "An independent research foundation governed by its own board, not a state agency. Headquarters in Trondheim on the NTNU campus, with branches in Tromso, Lillehammer, Bergen, and Oslo; it operates the Ims aquatic research station, which holds a gene bank and research station for wild salmonids, and the Saeterfjellet arctic fox breeding station at Oppdal. About 313 staff (2022), the majority in scientific positions; turnover of about EUR 48.9m in 2022, of which roughly half came from projects commissioned by the Ministry of Environment and 12% from the basic state grant. Leading nationally on large carnivores, wild salmonids, seabirds, insects and pollinators, and the Norwegian Nature Index; member of ILTER and ALTER-Net; evaluated by the Research Council of Norway in 2024. Decomposed in note actor/knowledge/nina.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "Founded 1988; grown to about 313 staff with national leadership in long-term ecological monitoring.",
    "events": [
     {
      "year": 1988,
-     "event": "Recorded as established (1988)."
+     "event": "Established as an independent research foundation for nature research."
+    },
+    {
+     "year": null,
+     "event": "Ims aquatic research station and the Oppdal arctic fox breeding station added to the institute's apparatus."
+    },
+    {
+     "year": 2022,
+     "event": "Turnover of about EUR 48.9m; 313 staff, 203 in scientific positions."
+    },
+    {
+     "year": 2024,
+     "event": "External evaluation by the Research Council of Norway."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Competitive funder and external evaluator of the institute."
+   },
+   {
+    "targetNodeId": "norwegian-university-of-science-and-technology-ntnu",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Headquarters sit on the university's Trondheim campus; the closest academic partner."
+   },
+   {
+    "targetNodeId": "norwegian-institute-of-bioeconomy-research-nibio",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer research institute in the Norwegian state research system."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Independent"
+   "sourceParentUnresolved": "Independent",
+   "legalForm": "independent research foundation governed by its own board",
+   "established": "1988",
+   "headquarters": "Trondheim, Norway",
+   "branches": [
+    "Tromso",
+    "Lillehammer",
+    "Bergen",
+    "Oslo"
+   ],
+   "employees": "approximately 313 (2022)",
+   "parentBody": "Ministry of Environment (largest funder)",
+   "chiefExecutive": "Norunn S. Myklebust",
+   "boardChair": "Tord Lien",
+   "stations": [
+    "Ims aquatic research station (wild salmonid gene bank)",
+    "Saeterfjellet arctic fox breeding station"
+   ],
+   "researchAreas": [
+    "biodiversity and ecosystems",
+    "coastal and marine",
+    "large carnivores",
+    "insects and pollinators",
+    "social sciences"
+   ],
+   "nationalResponsibility": "Norwegian Nature Index",
+   "networks": [
+    "ILTER",
+    "ALTER-Net"
+   ],
+   "noteRef": "actor/knowledge/nina.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "Welcome to NINA",
+    "link": "https://www.nina.no/en/welcome-to-nina",
+    "description": "Legal form, locations, stations, board, management."
+   },
+   {
+    "title": "Evaluation report: NINA, Research Council of Norway, 2024",
+    "link": "https://www.forskningsradet.no/siteassets/publikasjoner/2024/evalbiovit/nina_nina_april-2024.pdf",
+    "description": "Standing, mission, staff, and funding profile."
+   },
+   {
+    "title": "Our research - Biodiversity and ecosystems",
+    "link": "https://www.nina.no/en/our-research/biodiversity-and-ecosystems",
+    "description": "Research areas and national leadership claims."
+   }
+  ]
  },
  {
   "id": "norwegian-university-of-science-and-technology-ntnu",
   "name": "Norwegian University of Science and Technology (NTNU)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "university",
+   "education",
+   "research"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian University of Science and Technology (NTNU)",
-  "longDescription": "Norwegian University of Science and Technology (NTNU)",
+  "description": "Norwegian University of Science and Technology, formed in 1996 by merging the Norwegian Institute of Technology, the university colleges, the natural history museum, the medical faculty, the academy of fine art, and the conservatory; Norway's largest university.",
+  "longDescription": "A state university rather than a research institute: it teaches as well as researches, and it trains the people who staff the institutes around it. Campuses in Trondheim, Gjovik, and Alesund; about 43,500 students, 8,560 employees, 507 study programmes, and an annual budget of about NOK 11 billion. Roots to a learned society founded in 1760 and a technical school raised in 1910; the 1996 merger made it the successor of six institutions, and the 2016 incorporation of the regional colleges made it Norway's largest single university. Hosts the Norwegian Institute for Nature Research on its Trondheim campus and co-locates with NIBIO at As. Research-active teaching, doctoral supervision, and industry collaboration are its practices; the degree-awarding right is its economic foundation. The Arbitriologia import recorded the parent as unresolved; the state-university status is recorded here and in the note. Decomposed in note actor/knowledge/ntnu.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "1760 learned society and 1910 technical school, merged in 1996, expanded in 2016 into Norway's largest university.",
    "events": [
     {
+     "year": 1760,
+     "event": "Root: the Trondheim learned society founded in the eighteenth century."
+    },
+    {
+     "year": 1910,
+     "event": "Norwegian Institute of Technology founded."
+    },
+    {
+     "year": 1968,
+     "event": "University of Trondheim formed around the technical institute."
+    },
+    {
      "year": 1996,
-     "event": "Recorded as established (1996 (merger of existing institutions))."
+     "event": "Merger of six higher-education and research institutions into today's NTNU."
+    },
+    {
+     "year": 2016,
+     "event": "Regional colleges incorporated; NTNU becomes Norway's largest single university."
+    },
+    {
+     "year": 2014,
+     "event": "2014 Nobel Prize in Physiology or Medicine awarded to the university's neuroscience work."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "norwegian-institute-for-nature-research-nina",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "The institute headquartered on the university's Trondheim campus; its closest institutional neighbour in this family."
+   },
+   {
+    "targetNodeId": "norwegian-institute-of-bioeconomy-research-nibio",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Institute co-located with the university at the As campus."
+   },
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Competitive research funding through the Research Council."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Independent"
+   "sourceParentUnresolved": "Independent",
+   "legalForm": "state university",
+   "established": "1996",
+   "roots": "1760 (learned society); 1910 (Norwegian Institute of Technology)",
+   "headquarters": "Trondheim, Norway",
+   "campuses": [
+    "Trondheim",
+    "Gjovik",
+    "Alesund"
+   ],
+   "students": "approximately 43,500",
+   "employees": "approximately 8,560",
+   "studyProgrammes": 507,
+   "annualBudget": "about NOK 11 billion",
+   "hostsInstitution": "Norwegian Institute for Nature Research (Trondheim campus)",
+   "noteRef": "actor/knowledge/ntnu.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "About the university",
+    "link": "https://www.ntnu.edu/about",
+    "description": "Students, employees, programmes, budget, campuses, 2016 merger."
+   },
+   {
+    "title": "NTNU History",
+    "link": "https://www.ntnu.edu/history",
+    "description": "The 1996 merger and its six constituents, the 1910 technical school, the Nobel connection."
+   }
+  ]
  },
  {
   "id": "norwegian-institute-of-international-affairs-nupi",
   "name": "Norwegian Institute of International Affairs (NUPI)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "research-institute",
+   "foreign-policy"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian Institute of International Affairs (NUPI)",
-  "longDescription": "Norwegian Institute of International Affairs (NUPI)",
+  "description": "Norwegian Institute of International Affairs, established by the Norwegian Parliament in 1959 on the Chatham House model; a state body under the Ministry of Education and Research that operates independently in all professional activities.",
+  "longDescription": "A state body with a ministry-appointed board, created by Parliament in 1959 by explicit reference to the Royal Institute of International Affairs (Chatham House); the founding model is an institutional design for informing policy without being a ministry. About 100 staff in five research groups plus administration and communications departments. Three pillars: war and peace; economy and development; diplomacy and global governance. Funded by the Research Council of Norway, the Ministry of Foreign Affairs, and the Ministry of Defence, with additional private and European support; publishes openly, appears in public debate, and hosts international guest researchers. The Arbitriologia import recorded the parent as unresolved; the ministry relationship is recorded here and in the note, as a funded dependency. Decomposed in note actor/knowledge/nupi.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "Founded by Parliament in 1959 on the Chatham House model; widened from a foreign-policy information centre to a three-pillar research institute.",
    "events": [
     {
      "year": 1959,
-     "event": "Recorded as established (1959)."
+     "event": "Established by the Norwegian Parliament, modelled on Chatham House; first director John Christian Munthe Sanness."
+    },
+    {
+     "year": null,
+     "event": "Pillars of research established: war and peace; economy and development; diplomacy and global governance."
+    },
+    {
+     "year": null,
+     "event": "Guest-researcher and visiting-fellow programme established as the institute's method for renewal."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Competitive funder of the institute's research."
+   },
+   {
+    "targetNodeId": "ministry-of-foreign-affairs",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "A principal funder of the institute's research and its principal consumer of the analysis."
+   },
+   {
+    "targetNodeId": "norwegian-institute-of-bioeconomy-research-nibio",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer state-funded research body serving a ministry."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Independent"
+   "sourceParentUnresolved": "Independent",
+   "legalForm": "state body under the Ministry of Education and Research, board appointed by that ministry, professionally independent",
+   "established": "1959",
+   "parentBody": "Ministry of Education and Research (board appointment); funded in part by the Ministry of Foreign Affairs and the Ministry of Defence",
+   "headquarters": "Oslo, Norway",
+   "employees": "approximately 100",
+   "chiefExecutive": "Kari M. Osland",
+   "boardChair": "Karl Erik Haug",
+   "researchPillars": [
+    "war and peace",
+    "economy and development",
+    "diplomacy and global governance"
+   ],
+   "model": "Royal Institute of International Affairs (Chatham House)",
+   "noteRef": "actor/knowledge/nupi.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "About NUPI",
+    "link": "https://www.nupi.no/en/about-nupi",
+    "description": "Legal form, pillars, funding, leadership."
+   },
+   {
+    "title": "NUPI's history",
+    "link": "https://www.nupi.no/en/about-nupi/facts-about-nupi/nupi-s-history",
+    "description": "1959 founding, the Chatham House model, first director."
+   }
+  ]
  },
  {
   "id": "norwegian-institute-of-public-health-niph-fhi",
   "name": "Norwegian Institute of Public Health (NIPH/FHI)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "research-institute",
+   "state-agency",
+   "public-health"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian Institute of Public Health (NIPH/FHI)",
-  "longDescription": "Norwegian Institute of Public Health (NIPH/FHI)",
+  "description": "Norwegian Institute of Public Health (Folkehelseinstituttet), a government agency under the Ministry of Health and Care Services that maintains the national health registers and surveillance and supplies the evidence the health service and the ministry run on.",
+  "longDescription": "A state agency and NIBIO's counterpart in form: an agency whose product is warranted knowledge about a population rather than a service consumed at the point of need. Organization number 983 744 516; staff in Oslo (Lindern and Myrens sites), Bergen, Levanger, Tynset, and Trondheim. Work: national health register maintenance, public-health surveillance and outbreak response, reference laboratory work, risk and evidence assessment, and the periodic national report Health in Norway. Research is funded competitively by the Research Council and the EU, and global-health work through NORAD-supported development cooperation. The founding history recorded in the Arbitriologia import is retained in chronology; it is not independently sourced in the note. Decomposed in note actor/knowledge/norwegian-institute-of-public-health.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "A government public-health agency; founding date as recorded in the Arbitriologia import is retained here but was not independently verified for the note.",
    "events": [
     {
      "year": 1929,
-     "event": "Recorded as established (1929)."
+     "event": "Recorded as established (Arbitriologia import record; not independently verified)."
+    },
+    {
+     "year": null,
+     "event": "Present form as a government agency under the Ministry of Health and Care Services, organization number 983 744 516."
+    },
+    {
+     "year": null,
+     "event": "Multi-site footprint established: Oslo (Lindern and Myrens), Bergen, Levanger, Tynset, Trondheim."
+    },
+    {
+     "year": null,
+     "event": "Global health cluster added, funded through development cooperation and competitive grants."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Competitive funder of the institute's research."
+   },
+   {
+    "targetNodeId": "norwegian-university-of-science-and-technology-ntnu",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Academic and clinical-research partner in Norway's medical region."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Ministry of Health and Care Services"
+   "sourceParentUnresolved": "Ministry of Health and Care Services",
+   "legalForm": "government agency under the Ministry of Health and Care Services",
+   "orgNumber": "983 744 516",
+   "parentBody": "Ministry of Health and Care Services",
+   "headquarters": "Oslo, Norway",
+   "sites": [
+    "Oslo Lindern",
+    "Oslo Myrens",
+    "Bergen",
+    "Levanger",
+    "Tynset",
+    "Trondheim"
+   ],
+   "mandate": [
+    "national health registers",
+    "public-health surveillance",
+    "reference laboratory work",
+    "risk and evidence assessment",
+    "national reporting"
+   ],
+   "researchFunding": [
+    "Research Council of Norway",
+    "European Union framework programme",
+    "NORAD-supported development cooperation"
+   ],
+   "noteRef": "actor/knowledge/norwegian-institute-of-public-health.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "About the Norwegian Institute of Public Health",
+    "link": "https://www.fhi.no/en/ab/niph",
+    "description": "Agency status, parent ministry, locations, organization number."
+   },
+   {
+    "title": "Health in Norway",
+    "link": "https://www.fhi.no/en/he",
+    "description": "The national report and the register estate."
+   },
+   {
+    "title": "Global health - Who we are",
+    "link": "https://www.fhi.no/en/ab/departments-and-centres/global-health-cluster",
+    "description": "The global-health cluster and its funders."
+   }
+  ]
  },
  {
   "id": "norwegian-computing-center-nr",
   "name": "Norwegian Computing Center (NR)",
   "tags": [
    "arbitriologia-import",
-   "norway"
+   "norway",
+   "research-institute",
+   "research-foundation",
+   "computing"
   ],
   "category": "Organization",
   "layer": "Ontic",
-  "description": "Norwegian Computing Center (NR)",
-  "longDescription": "Norwegian Computing Center (NR)",
+  "description": "Norwegian Computing Center (Norsk Regnesentral), founded 1952 to run the national register of population data and an independent non-profit foundation since 1985; applied research in statistical modelling, machine learning, and ICT.",
+  "longDescription": "Norway's oldest applied research institute in computing, and the clearest case in this family of a state institute that became a contract-research foundation without becoming a company. Founded in 1952 as part of the Central Institute for Industrial Research to operate the national register of nine-digit personal numbers; incorporated into the national research council structure in 1958 and operated as the national computing centre into the late 1960s; became an independent non-profit foundation in 1985. About 100 staff in Oslo (Kristin Nygaards hus at the University of Oslo), most holding doctorates; one of Europe's larger applied-statistics research environments. Sectors: finance and insurance, earth observation, climate and environment, healthcare, administration, petroleum. Partner of Oslo Science City; runs a geophysical inversion consortium with petroleum partners; published a fiftieth-anniversary institutional history in 2002. Decomposed in note actor/knowledge/norwegian-computing-center.md.",
   "chronology": {
-   "summary": "R&D Actors",
+   "summary": "1952 state computing centre to 1985 independent foundation: infrastructure operator turned contract researcher.",
    "events": [
     {
      "year": 1952,
-     "event": "Recorded as established (1952)."
+     "event": "Founded as part of the Central Institute for Industrial Research, to operate the national register of nine-digit personal numbers."
+    },
+    {
+     "year": 1958,
+     "event": "Incorporated into the national research council structure; operated as the national computing centre."
+    },
+    {
+     "year": null,
+     "event": "National computing centre era ends in the late 1960s as computing becomes widely available."
+    },
+    {
+     "year": 1985,
+     "event": "Becomes an independent non-profit foundation."
+    },
+    {
+     "year": 2002,
+     "event": "Fiftieth-anniversary institutional history published, written largely by institute staff."
     }
    ]
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Competitive research funding and EU programmes support part of the institute's portfolio."
+   }
+  ],
   "specific": {
-   "sourceParentUnresolved": "Independent"
+   "sourceParentUnresolved": "Independent",
+   "legalForm": "independent non-profit foundation (since 1985)",
+   "established": "1952",
+   "headquarters": "Oslo, Norway",
+   "employees": "approximately 100, most holding doctorates",
+   "researchAreas": [
+    "statistical modelling",
+    "machine learning",
+    "information and communications technology",
+    "geophysical inversion"
+   ],
+   "sectors": [
+    "finance and insurance",
+    "earth observation",
+    "climate and environment",
+    "healthcare",
+    "administration",
+    "petroleum"
+   ],
+   "partnerships": [
+    "Oslo Science City",
+    "geophysical inversion consortium with petroleum partners"
+   ],
+   "noteRef": "actor/knowledge/norwegian-computing-center.md"
   },
   "metadata": {
-   "confidenceScore": 0.55,
-   "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Region/Norway/Norway.md",
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
    "createdAt": "2026-09-28T00:00:00Z",
    "auditTrail": [
-    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)"
+    "arbitriologia-import 2026-09-28 table row (entity-table, section: R&D Actors)",
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Enriched from the institute's own site and authoritative records; Arbitriologia import fields (tags, sourceReference, original audit trail, specific.sourceParentUnresolved) retained as provenance."
+    }
    ],
    "inheritanceLevel": 0
   },
-  "references": []
+  "references": [
+   {
+    "title": "About the Norwegian Computing Center",
+    "link": "https://nr.no/en/about",
+    "description": "Legal form, size, expertise, sectors, Oslo Science City."
+   },
+   {
+    "title": "A short history of the Norwegian Computing Center",
+    "link": "https://nr.no/en/about/a-short-history-of-nr",
+    "description": "1952 founding, 1958 incorporation, 1985 foundation turn, 2002 commemorative volume."
+   }
+  ]
  },
  {
   "id": "institute-butantan",
@@ -178821,6 +179250,141 @@
    {
     "title": "Produceologia docs/Production/Industry/Health/Health-Industry.md",
     "description": "Health-industry actor space: platforms, M-Labs, contract discovery and manufacturing, MNCs."
+   }
+  ]
+ },
+ {
+  "id": "norwegian-institute-of-bioeconomy-research-nibio",
+  "name": "Norwegian Institute of Bioeconomy Research (NIBIO)",
+  "tags": [
+   "norway",
+   "research-institute",
+   "state-agency",
+   "bioeconomy"
+  ],
+  "category": "Organization",
+  "layer": "Ontic",
+  "description": "Norwegian state research institute for the bioeconomy, founded 1 July 2015 by merging Bioforsk, the Norwegian Forest and Landscape Institute, and the Norwegian Institute for Agricultural Economics Research.",
+  "longDescription": "The national research institute for food, forestry, and other biobased value chains, answering to the Ministry of Agriculture and Food as an administrative agency with special authorization and its own supervisory board. About 750 staff across fifteen locations, main office at As, organized in five subject divisions: Food Production and Society; Environment and Natural Resources; Forest and Forest Resources; Biotechnology and Plant Health; Survey and Statistics. Delivers research, administrative support to the ministry, and nationally responsible sectoral competence; runs the Kilden data hub, the VIPS pest and disease warning service, and Agromet.no; hosts the national genetic resource centre. Roots to 1889. Parent-ministry and national-gene-bank relations are recorded in specific rather than as edges: the dataset holds no node for the Ministry of Agriculture and Food, and its National Gene Bank node is a hollow stub with no country. Secondary reading as an Institution is declared in the note.",
+  "chronology": {
+   "summary": "Nineteenth-century agricultural and forestry research, consolidated into one institute on 1 July 2015.",
+   "events": [
+    {
+     "year": 1889,
+     "event": "Institutional roots in Norwegian agricultural and forestry research."
+    },
+    {
+     "year": 2014,
+     "event": "Government decision to merge the agricultural research bodies into one institute."
+    },
+    {
+     "year": 2015,
+     "event": "NIBIO established on 1 July 2015 from Bioforsk, Skog og landskap, and the Norwegian Institute for Agricultural Economics Research."
+    },
+    {
+     "year": 2023,
+     "event": "Arne Rora appointed chair of the institute's supervisory board."
+    },
+    {
+     "year": 2024,
+     "event": "Ivar Horneland Kristensen becomes chief executive."
+    }
+   ]
+  },
+  "relationships": [
+   {
+    "targetNodeId": "research-council-of-norway-forskningsr-det",
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "description": "Principal competitive funder of institute projects."
+   },
+   {
+    "targetNodeId": "norwegian-university-of-science-and-technology-ntnu",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "University partner co-located with the institute at the As campus."
+   },
+   {
+    "targetNodeId": "norwegian-institute-for-air-research-nilu",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer state research institute; shares facilities, methods, and evaluation practice."
+   },
+   {
+    "targetNodeId": "norwegian-institute-for-nature-research-nina",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer state research institute in the same system of sectoral competence."
+   },
+   {
+    "targetNodeId": "norwegian-computing-center-nr",
+    "relationshipFamily": "interaction",
+    "relationshipType": "interacts_with",
+    "description": "Peer research institute for applied methods and data services."
+   }
+  ],
+  "specific": {
+   "legalForm": "forvaltningsorgan med sarsskilt fullmakt og eget styre (administrative agency with special authorization and its own board)",
+   "orgNumber": "988983837",
+   "established": "2015-07-01",
+   "roots": "1889",
+   "parentBody": "Ministry of Agriculture and Food",
+   "headquarters": "As, Norway",
+   "employees": "approximately 750",
+   "locations": "15 sites across Norway",
+   "divisions": [
+    "Food Production and Society",
+    "Environment and Natural Resources",
+    "Forest and Forest Resources",
+    "Biotechnology and Plant Health",
+    "Survey and Statistics"
+   ],
+   "services": [
+    "Kilden data hub",
+    "VIPS pest and disease warning service",
+    "Agromet.no weather data"
+   ],
+   "researchInfrastructure": [
+    "greenhouses",
+    "field research stations in all regions",
+    "accredited organic, inorganic, pesticide and biotechnology laboratories",
+    "Svanhovd Arctic research station"
+   ],
+   "international": [
+    "CID - Centre for International Development",
+    "NORAD framework agreement",
+    "Horizon Europe"
+   ],
+   "hostsNationalFacility": "Norwegian Genetic Resource Centre and the national gene bank",
+   "noteRef": "actor/knowledge/nibio.md"
+  },
+  "metadata": {
+   "confidenceScore": 0.8,
+   "sourceReference": "Institutional and authority sources (see references); decomposed per Philosophia Socialium et Operis.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Authored node; first member of the Norwegian research-institute family to carry a full decomposition."
+    }
+   ],
+   "inheritanceLevel": 0
+  },
+  "references": [
+   {
+    "title": "NIBIO - About us",
+    "link": "https://www.nibio.no/en/about-eng/about-us",
+    "description": "Mission, legal form, size, sites, ministry."
+   },
+   {
+    "title": "Norsk institutt for biookonomi - Wikipedia (no)",
+    "link": "https://no.wikipedia.org/wiki/Norsk_institutt_for_bio%C3%B8konomi",
+    "description": "Establishment date, merger parties, divisions, board, chief executives, services."
+   },
+   {
+    "title": "Forvaltningsdatabasen",
+    "link": "https://forvaltningsdatabasen.sikt.no/en/data/enhet/57390",
+    "description": "Agency form and superior body."
    }
   ]
  }
