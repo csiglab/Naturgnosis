@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-28T22:08:39Z",
+ "generated": "2026-09-29T01:37:16Z",
  "modules": {
   "social": {
-   "nodes": 7394,
-   "edges": 185
+   "nodes": 7417,
+   "edges": 213
   },
   "research": {
    "nodes": 15,
@@ -14,23 +14,23 @@
    "edges": 0
   },
   "technique": {
-   "nodes": 41,
-   "edges": 59
+   "nodes": 125,
+   "edges": 119
   },
   "epistemica": {
-   "nodes": 121,
-   "edges": 131
+   "nodes": 132,
+   "edges": 134
   },
   "nature": {
    "nodes": 6,
    "edges": 3
   },
   "production": {
-   "nodes": 42,
-   "edges": 30
+   "nodes": 60,
+   "edges": 56
   },
   "note": {
-   "nodes": 1300,
+   "nodes": 1383,
    "edges": null
   }
  }
