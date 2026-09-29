@@ -4751,7 +4751,14 @@
    "summary": "Milk-to-dairy production system with nutrition framing and R&D orientation.",
    "events": []
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
+   }
+  ],
   "specific": {
    "functional_role_set": [
     "Nourishment",
@@ -4791,7 +4798,14 @@
    "summary": "Wild-capture versus aquaculture seafood production models.",
    "events": []
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
+   }
+  ],
   "specific": {
    "functional_role_set": [
     "Harvest",
@@ -4831,7 +4845,14 @@
    "summary": "Meat-type production system with carcass-to-cut chain and market structure.",
    "events": []
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
+   }
+  ],
   "specific": {
    "functional_role_set": [
     "Processing"
@@ -6083,6 +6104,12 @@
     "relationshipType": "UTILIZES",
     "targetNodeId": "plant-health-001",
     "description": "The Crop Protection Set is elaborated as the Plant Health Technical Set: diagnosis, surveillance, forecasting, control, propagation material, quarantine, and standards."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
    }
   ],
   "specific": {
@@ -6197,6 +6224,12 @@
     "relationshipType": "CONSTRAINED_BY",
     "targetNodeId": "constraint_001",
     "description": "Recalcitrancy, narrow genetic base, transgene silencing, regulatory approval, and cost of compliance bound what the program can reach."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
    }
   ],
   "specific": {
@@ -6344,6 +6377,12 @@
     "relationshipType": "CONSTRAINED_BY",
     "targetNodeId": "constraint_001",
     "description": "Residue limits and pre-harvest intervals, registration and notification requirements, resistance development, and trade rules bound what may be done."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "food-production-001",
+    "description": "Member of the Food Production Technical Domain, the primary-production super-domain."
    }
   ],
   "specific": {
@@ -6399,6 +6438,168 @@
    {
     "title": "Plant Genetic Improvement (technique:plant-genetic-improvement-001)",
     "description": "Resistance deployment, the genetic route through the control-measure set."
+   }
+  ]
+ },
+ {
+  "id": "food-production-001",
+  "name": "Food Production Technical Domain",
+  "tags": [
+   "technique",
+   "food",
+   "agriculture",
+   "production",
+   "technical-element-set"
+  ],
+  "layer": "Capability Space",
+  "category": "TechnicalFramework",
+  "description": "The super-domain of techniques that turn a biological organism into a harvestable food product, composed from six member sets: the crop-side cultivation, genetic improvement, and plant health sets, and the animal-side dairy, meat, and seafood sets.",
+  "longDescription": "A `Technical Element Set` composite whose members are themselves sets — the same shape as the Technical Core Catalog, which is the corpus precedent for a set that composes sets. It owns no plant, herd, or line: the members own those, and this scope holds the family and its boundary, which is the harvest. Deliberately excluded: Agriculture Production, because it is the sector frame binding crop and animal subsystems as an industry rather than a technique for producing food, and composing a technical domain out of a production frame would put the frame inside its own content; and Food Value Chain, because post-harvest processing, preservation, packaging, and distribution belong to that note, so it is a boundary and a cross-link rather than a member. The members are in two conditions and the node says which: the three crop members are full decompositions (87, 233, and 205 rows) while the three animal members are Produceologia seed nodes of five to seven rows, which as written cover processing and handling rather than husbandry — so primary production on the animal side is currently uncovered, and the remedy is to write the husbandry sets. Readable as a `Production Technical System` (one farm, herd, or fishery) and as a `Technical Domain Reality Model` (soil, climate, and season on the crop side; breeding, nutrition, health, and welfare on the animal side); each takes its own root in its own decomposition. The knowledge the members produce is epistemic and lives in epistemica:plant-science-001.",
+  "chronology": {
+   "summary": "From foraging and domestication through selection, controlled mating, hybridization, the input era, molecular breeding, and genome editing, with the parallel animal line from controlled breeding to intensive production.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+    "relationshipType": "TYPE_OF",
+    "targetNodeId": "technique_001",
+    "description": "Primary food production is the organized set of techniques that turns a biological organism into a harvestable food product."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "plant-cultivation-001",
+    "description": "Member set of the primary-production domain: Establishing and keeping the standing crop, and taking it at harvest."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "plant-genetic-improvement-001",
+    "description": "Member set of the primary-production domain: Turning germplasm into a released variety by breeding, selection, and editing."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "plant-health-001",
+    "description": "Member set of the primary-production domain: Finding, forecasting, and stopping the organisms that damage the standing crop."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "dairy-production",
+    "description": "Member set of the primary-production domain: Milk-to-product system; a seed node covering the processing line, with husbandry not yet decomposed."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "meat-production",
+    "description": "Member set of the primary-production domain: Live-animal-to-carcass-to-cut system; a seed node covering the carcass chain, with rearing not yet decomposed."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "seafood-production",
+    "description": "Member set of the primary-production domain: Wild capture and aquaculture; a seed node covering handling, with capture and culture not yet decomposed."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-element-set-composite",
+   "noteRef": "technique/systems/multinode/food-production-technical-domain.md",
+   "boundary": "the harvest: organism to harvestable product, and no further",
+   "composition": "primary-production-only",
+   "subDomainSets": [
+    "Plant Cultivation Set",
+    "Plant Genetic Improvement Set",
+    "Plant Health Set",
+    "Dairy Production Set",
+    "Meat Production Set",
+    "Seafood Production Set"
+   ],
+   "excludedMembers": [
+    {
+     "id": "agriculture-production",
+     "reason": "sector frame binding crop and animal subsystems as an industry, not a production technique; a five-row stub"
+    },
+    {
+     "id": "food-value-chain",
+     "reason": "post-harvest processing, preservation, packaging, and distribution; the boundary, not a member"
+    }
+   ],
+   "memberStatus": [
+    {
+     "id": "plant-cultivation-001",
+     "state": "decomposed",
+     "rows": 87
+    },
+    {
+     "id": "plant-genetic-improvement-001",
+     "state": "decomposed",
+     "rows": 233
+    },
+    {
+     "id": "plant-health-001",
+     "state": "decomposed",
+     "rows": 205
+    },
+    {
+     "id": "dairy-production",
+     "state": "seed-node",
+     "rows": 6
+    },
+    {
+     "id": "meat-production",
+     "state": "seed-node",
+     "rows": 5
+    },
+    {
+     "id": "seafood-production",
+     "state": "seed-node",
+     "rows": 7
+    }
+   ],
+   "functionalRoles": [
+    "food-production",
+    "primary-production"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "The root is a `Technical Element Set` composite whose members are themselves sets; the dataset has no set/super-domain category, so `TechnicalFramework` matches the Technical Core Catalog, the existing super-domain node.",
+    "alternativeCategories": [
+     "Technique",
+     "ProductionTechnicalObject"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/systems/multinode/food-production-technical-domain.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Super-domain node; Agriculture Production and Food Value Chain deliberately not members, with reasons in specific.excludedMembers."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema, No-repetition and Composite Instance Naming rules, and the recursion rule for composites."
+   },
+   {
+    "title": "Technical Core Catalog (technique:technical-core-catalog)",
+    "description": "The corpus precedent for a set whose members are sets."
+   },
+   {
+    "title": "Food Value Chain (technique:food-value-chain)",
+    "description": "The post-harvest half, cross-linked as the boundary rather than contained."
+   },
+   {
+    "title": "Agriculture Production (technique:agriculture-production)",
+    "description": "The sector frame, cross-linked and deliberately not a member."
    }
   ]
  }
