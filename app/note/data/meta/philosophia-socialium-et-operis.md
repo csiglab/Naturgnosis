@@ -14,6 +14,12 @@
 
 > Association enables agents to do together what none can do alone and to be, for one another, the environment that constrains and enables action: every agent's `E` (environment) is substantially composed of other agents' `Φ` (executions). Coordination is therefore never a mere aggregation of acts; it is the recursive coupling of decision architectures.
 
+### What is a `social element`?
+
+> It is a concept that denotes an element participating in the association-oriented and coordination-oriented dimension of collective life experienced by humans or other purposeful agents. Note: This is a deliberately loose definition of the reality denoted by the concept.
+
+> Foundation - **Reality -** The ontological substrate comprising the agents, bonds, lifeworld meanings, and institutional, cultural, and material structures that constrain and respond to social action. Person, household, firm, river basin, spectrum commons, fiat currency.
+
 ### What grounds `social phenomenology`?
 
 > Social practice is grounded in the lived experience of togetherness: intentionality directed at others, mutual recognition, and the lifeworld — the pre-given horizon of shared meanings, typifications, and habitual certainties within which every encounter already finds itself. Interaction units (individuals, groups, organizations, polities, networked collectives) and agencies (structured capacities for intention, selection, execution, and feedback) are crystallizations of this phenomenological ground, not its foundation: they name how the self–other pairing stabilizes into recognizable actors, never what makes the pairing possible.
@@ -25,6 +31,14 @@
 > **Note on layers:** every social element is read against four strata. The **Ontic** holds what exists extra-mentally (structures, positions, dynamics); the **Synontic** holds what exists only through recursive shared interpretation (roles, prices, borders, currencies); the **Noetic** holds descriptive instruments (indicators, classifications); the **Multi** holds operators inhabiting several layers at once (capital, labor). An element's layer is part of its type — the same name in two layers denotes two readings, decomposed separately.
 
 > **Note on facets:** a facet is an analytically distinct dimension defined by dominant causal mechanisms (economic, normative, ideational, technical…), not a container of actors. Facets scope inquiry; they never own nodes.
+
+> **Note:** Different names may be used to refer to generic composites of social elements, such as *Social Domain*, *Social Ecosystem*, *Social System*, or similar concepts. Each of these terms carries its own specific semantics. For the sake of simplicity and generality, however, we use the term **`Social Compound`** as the generic type. The specific semantics are then provided by the particular compound itself, rather than being encoded in the generic type.
+
+> Recursion is introduced by allowing a composite to have another composite as an instance: a `Social Compound` may contain `Social Compound`s (a trading circuit within a port city labor market set). Nesting composites in composites is what makes the type tree recursive.
+
+> **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
+
+> Every non-generic type is defined exactly once, in the Tabular view above. The Recursive view below states expansion rules only and introduces no subtypes of its own. The generic composite `Social Compound` is embodied by the placeholder binding itself, not by a child row; the composites `Collective / Organization` and `Region` head compound nesting alongside it.
 
 > Each type with its category, role description, and instances.
 
@@ -60,15 +74,31 @@
 
 ### Recursive view
 
-> The tree below states the expansion rules: each row licenses how a bound node may expand — it does not enumerate types. Type definitions with their instances live only in the Tabular view above. The first row binds the `(root) -> <<Social Element>>` placeholder, which embodies the generic composite `Social Compound`; every other row is one expansion rule.
-
-> **Note:** `->` links mean containment-in-scope only. **Recursion rule:** any compound unit (Social Compound, Collective / Organization, Region) may contain any social element type at any depth, including further compounds. Binding the placeholder to any Tabular type yields a valid root; suffixes continue down-spine in order.
+> This table defines the **expansion grammar** for valid type trees. It specifies how a `Social Element Type` may recursively expand; it does not enumerate social element types. Types and their instances are defined in the **Tabular View**.
+>
+> **Expansion**
+>
+> * The root binds `(root) -> <<Social Element>>` to any type defined in the Tabular View.
+> * A bound type may expand through a **down-spine** or by **nesting** another composite.
+> * `Social Compound`, `Collective / Organization`, and `Region` are recursive composites: they may contain any social element type, including further compounds, at any depth.
+>
+> **Notation**
+>
+> * `->` means **containment in scope**, not a specified relationship.
+> * `...` means zero or more intermediate composite nestings.
+> * `{any Social Element Type}` means any terminal type defined in the Tabular View.
+>
+> An instance `Tree Path` is valid when it can be generated by these expansion rules.
 
 > **Spines (expansion rules):** Agentic-spine rule: `Interaction Unit -> Agency -> Social Action -> Practice`. Normative-spine rule: `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
 
 | **Social Element Type Tree Expansion Path** | **Expansion Rule** |
 | --- | --- |
 | `(root) -> <<Social Element>>` | Binding rule: per decomposition the placeholder takes the root instance's Tabular type, and the path continues down that type's spine or facet attachments. It embodies the generic composite: collective scopes (labor markets, basin communities) bind here as `Social Compound`. `->` links type-expansion steps: binding at the root, containment-in-scope below. Instance-tree paths use plain `→` for instance containment. |
+| `(root) -> <<Social Element>> -> ... -> Social Compound` | Recursion: a compound nests inside a composite at any depth. |
+| `(root) -> <<Social Element>> -> ... -> Collective / Organization` | Recursion: a collective nests inside a composite at any depth. |
+| `(root) -> <<Social Element>> -> ... -> Region` | Recursion: a region nests inside a composite at any depth. |
+| `(root) -> <<Social Element>> -> ... -> Social Compound -> <<Social Element>>` | Compound-composite rule: any social element type may occur scoped inside a `Social Compound` at any depth. |
 | `(root) -> <<Social Element>> -> ... -> {any Social Element Type}` | General rule: any social element type may occur at any depth beneath the bound root. |
 
 ## How to decompose any social instance?
@@ -77,23 +107,42 @@
 
 > Begin with the layer test: does the element exist extra-mentally (Ontic), only through shared interpretation (Synontic), as a descriptive instrument (Noetic), or across layers (Multi)? Then assign its facet by dominant causal mechanism, never by location or actors. Then grow the tree.
 
+> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
+
+> **Social Element Type Tree Path:** the expansion path typing one instance row — `(root) -> <<Social Element>>` bound to the row's Tabular type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a schema nesting. In other words, a Tree Path is what a Tree Expansion Path licenses. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
+
+> **Constructing the path:** (1) type the instance — find its row in the Tabular view; (2) bind — write `(root) -> <<Social Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or schema nesting); (4) check — single types and spine-ordered chains always license; anything else must match a schema row.
+
 The tree is governed by the following rules:
 
 * **Root:** The root is the social instance being decomposed.
-* **Structure:** Intermediate nodes organize the decomposition — instances or types. Bare types group but never terminate a branch; every leaf resolves to a social instance.
+* **Structure:** Intermediate nodes provide the structure needed to organize the decomposition - they can be social instances - or social types. Social Types cannot be the final nodes in the tree - may be used as grouping nodes, but they are not themselves instances.
 * **Leaves:** Every leaf must resolve to a social instance.
-* **Typing:** Each concrete instance carries exactly one type path licensed by an expansion rule; an instance readable as several types grows one tree per type (multi-root forest).
+* **Typing:** Every instance is typed — by its nearest enclosing grouping segment, with the decomposition root's type declared once.
 * **Recursion:** Any instance in the tree may itself be decomposed recursively.
-* **No repetition:** The root's own type is not repeated as a grouping node without scoping function.
-* **Well-Expansion Rule:** Supply rich intermediates — composition, support, dependency, regulation, and dynamic relations.
+* **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Institution` grouping scoping the exchange-rule family inside a Market decomposition, whose counterpart is `(root) -> <<Social Element>> -> ... -> Institution`); a same-type segment with only generic description and no scoping function stays forbidden.
+* **Well-Form Instance Tree Path Rule:** Ensure the decomposition provides a rich set of intermediate (internals) nodes - both - type and instances, aiding understanding. The set of intermediate instance nodes representing relationships such as composition, support, dependency, regulation, or other useful structural and dynamic relationships.
 * Style Rules for Intermediate Nodes
-  * **Instances:** Style actual social instances as `**bold**`.
-  * **Types:** Style bare grouping types as `` `code` ``.
-  * **Distinction:** Never style an instance and a type alike.
+  * **Instances:** Style intermediate nodes that represent actual social instances as plain text (no adornment).
+  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`port city` -> `Port City`, `stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `EU`). Type segments keep their Tabular casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
+  * **Composite Instance Naming**: A *composite* instance — a nested ensemble (a `Social Compound`, `Collective / Organization`, `Region`, or sub-domain set), not an ordinary unit, role, or mechanism — takes a name ending in `Set` once it sits at a depth greater than 2. Depth counts every segment of the Instance Tree Path, backticked type groupings included, the root type grouping being depth 1. At depth 2 or less the suffix is permitted but never required: `Social Compound` -> `Port City Labor Market Set` (depth 2) keeps it, `Social Compound` -> `Trading Circuit Set` (depth 3) requires it.
+  * **Types:** Style bare social element types used as grouping nodes as `` `code` ``.
+  * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
+  * **Grouping types:** A type used only to group instances is not itself an instance and must not terminate a branch.
+  * The path link - is →.
+* **Social Element Type Tree Path**: Contains only a concrete path of social element types; it cannot contain expansion patterns or placeholders.
 
-| Instance Tree Path | Description | Social Category | Social Element Type Tree Path |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Instance Tree Path | Description |
+| --- | --- |
+|  |  |
+
+### How to decompose an instance that belongs to multiple element types?
+
+> By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.
+
+> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading practice is a `Practice` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be licensed by an expansion rule; leaves are instances, intermediate nodes give structure.
+
+> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the Tabular view above (the "How can we characterize the social aspect of human experience?" table), recorded as the note's primary belonging in the "What social element type does this social instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
 
 ## Which note schema used - in order to document a social element?
 
@@ -123,9 +172,85 @@ The tree is governed by the following rules:
 
 > The engineering of artifacts and the organization of making belong to the technical and production decompositions even when socially embedded: decompose the artifact technically, the coordination socially, and cross-link. Edit the node where its layer lives; view it wherever its role applies (cf. the derived-view rule).
 
+### What is the **most abstract formulation** that association can take?
+
+- Units → Relations → Coordination.
+- Separate Decisions → Coupled Interaction → Stabilized Order.
+
+### Why is the category `Social Compound` required?
+
+> A **Social Compound** is required to represent coherent social ensembles whose members belong to different social element types but are related through a common collective scope, site, or coordination problem.
+
+> Without this category, the taxonomy can describe the individual elements of such an ensemble, but it lacks a type for representing **the ensemble itself as a social entity of organization**.
+
+> **Take as example:** a port city labor market. It comprises employers, households, intermediaries, hiring transactions, referral webs, exchange rules, wage levels, contracts, expectations, and hiring surges. These elements have different social element types, but are related through the common scope of matching workers to work in one basin. The **Social Compound** category provides a type for representing this coherent ensemble as a whole.
+
+### Why shouldn't `Social Knowledge` be a social element type?
+
+> Social Knowledge should not be a social-element type because knowledge is already represented by the taxonomy as a distinct ontological category (beliefs, expectations, representations, and the epistemic scaffolding that warrants them); making it a social element would conflate the knowledge about a social reality with the social reality itself. What belongs here are the coordinators knowledge leaves behind: shared expectations, values, and collective representations.
+
+### Why do we need layers and facets?
+
+> Layers (Ontic, Synontic, Noetic, Multi) and facets fill the ontological gap between **collective life itself** and the **decomposition that renders it intelligible**. Layers state in which stratum an element exists — extra-mentally, through shared interpretation, as a descriptive instrument, or across strata — so the same name in two layers decomposes as two readings. Facets state by which dominant causal mechanism it is scoped — economic, normative, ideational, technical — so inquiry stays scoped without owning nodes. Together they provide the stratum-plus-mechanism structure against which social elements are typed, coordinated, constrained, and evaluated.
+
+### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?
+
+> Worked decomposition of a port city labor market and its member firms, grown from the markets-and-firms QA answer to full intermediate detail. Children are grouped under bare type-name segments, so the typing reads directly from the instance path: `Port City Labor Market Set` and `Member Firm Set` give structure (compound scoping its collectives; the firm set grouping its institution beneath it); `Employer`, `Hiring Board`, and `Hire Transaction` further structure their agencies, actions, and practices beneath them, and `Harbor Hiring Institution`, `Foreman Role`, and `Shift Allocation Norm` structure a third level of roles, norms, and obligations beneath them; every grouping segment has its own row carrying the grouped type. Typing reads directly from the instance path: each instance resolves to the nearest enclosing grouping segment's type; the tree roots at `Social Compound` scoping the labor market, decomposed here under the economic facet. The remaining rows are final-node instances — concrete contracts, wages, quotas, webs, layouts, surges, and snapshots — and `Harbor Shipyard Employer` and `Port Cooperative Employer` hang directly under the employer as exemplar leaves realizing it, with one concrete registration identifier each. Deployment-specific values and named firms appear only in rows marked exemplar.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Social Compound` → Port City Labor Market Set | Bounded collective matching workers to work in one harbor basin. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` | Grouping: interaction units constituting the market. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer | Agentive unit offering work; deployments realize this unit. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` | Grouping: agencies of the employer. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board | Structured capacity selecting whom to hire and on which terms. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` | Grouping: actions of the board. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction | Causally efficacious relational event binding employer to worker. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Practice` | Grouping: practices stabilizing the transaction. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Practice` → Onboarding Practice | Recurrent pattern inducting hires into rosters and shifts. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer | Exemplar employer realizing the unit. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` | Grouping: deployment identifiers. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` → Harbor Registry Identifier | Deployment identifier of the shipyard employer (exemplar value per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer | Exemplar employer realizing the unit. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer → `State` | Grouping: deployment identifiers. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer → `State` → Cooperative Registry Identifier | Deployment identifier of the cooperative employer (exemplar value per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` | Grouping: compound units with identity and membership. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set | Compound employer with membership and rules; scopes its hiring institution. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` | Grouping: institutions of the firm set. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution | Stabilized configuration of hiring roles and rules. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` | Grouping: roles of the institution. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role | Expectation-tag binding hiring authority to shift allocation. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` | Grouping: norms of the role. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm | Shared protocol stabilizing who works which shift. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm → `Right / Obligation` | Grouping: deontic positions of the norm. |
+| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm → `Right / Obligation` → Duty To Disclose Terms | Duty allocating wage and schedule disclosure to hires. |
+| `Social Compound` → Port City Labor Market Set → `Synontic Element` | Grouping: recognition-constituted coordinators. |
+| `Social Compound` → Port City Labor Market Set → `Synontic Element` → Employment Contract | Coordinator persisting through shared recognition of its terms. |
+| `Social Compound` → Port City Labor Market Set → `Price / Asset` | Grouping: scalar coordination variables and claim-objects. |
+| `Social Compound` → Port City Labor Market Set → `Price / Asset` → Spot Wage | Scalar variable coordinating offers and acceptances (exemplar value per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Price / Asset` → Work Permit Quota | Claim-object bounding how many hires clear the gate (exemplar value per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Capital / Labor` | Grouping: multi-layer economic operators. |
+| `Social Compound` → Port City Labor Market Set → `Capital / Labor` → Dock Labor Pool | Productive capacity available to the basin (exemplar size per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Social Relation / Network` | Grouping: structured ties between units. |
+| `Social Compound` → Port City Labor Market Set → `Social Relation / Network` → Referral Web | Kinship and crew ties channeling hires to openings. |
+| `Social Compound` → Port City Labor Market Set → `Social Structure` | Grouping: constraint topologies of the market. |
+| `Social Compound` → Port City Labor Market Set → `Social Structure` → Core-Periphery Hiring Layout | Topology delimiting who hires steadily and who hires marginally. |
+| `Social Compound` → Port City Labor Market Set → `Environment` | Grouping: conditioning layers of action. |
+| `Social Compound` → Port City Labor Market Set → `Environment` → Harbor Basin Commons | Fundamental geography and derivative hiring layers conditioning the market. |
+| `Social Compound` → Port City Labor Market Set → `Region` | Grouping: zones of dense recurrent interaction. |
+| `Social Compound` → Port City Labor Market Set → `Region` → Dockside Hiring Hall Set | Spatially bounded zone where hiring recurs daily. |
+| `Social Compound` → Port City Labor Market Set → `Process / Event` | Grouping: transformations and occurrences. |
+| `Social Compound` → Port City Labor Market Set → `Process / Event` → Seasonal Hiring Surge | Temporally extended transformation straining the market each season. |
+| `Social Compound` → Port City Labor Market Set → `Mechanism / Phenomenon` | Grouping: emergence-to-collapse trajectories. |
+| `Social Compound` → Port City Labor Market Set → `Mechanism / Phenomenon` → Trust Consolidation | Trajectory stabilizing repeat hiring after defection shocks. |
+| `Social Compound` → Port City Labor Market Set → `State` | Grouping: configuration snapshots. |
+| `Social Compound` → Port City Labor Market Set → `State` → Tightness Snapshot | Complete relevant-variable snapshot of vacancies over seekers (exemplar value per deployment). |
+| `Social Compound` → Port City Labor Market Set → `Belief / Expectation` | Grouping: shared anticipations coordinating behavior. |
+| `Social Compound` → Port City Labor Market Set → `Belief / Expectation` → Wage Expectation | Shared anticipation anchoring offers and holds. |
+
 ## References
 
-- Arbitriologia `docs/Locus-Social-Realitatis/Onto/Guide/` (Interaction Unit, Agency, Action, Structure, State, Region, Change) and `Onto/` layers (Ontic, Synontic, Noetic, Multi) with `Facet/` scheme
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md)
+
