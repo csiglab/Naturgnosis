@@ -6701,5 +6701,102 @@
     "description": "Software-engineering productivity methods and tools formulation for development throughput."
    }
   ]
+ },
+ {
+  "id": "plant-science-001",
+  "name": "Plant Science",
+  "tags": [
+   "epistemic domain",
+   "plant",
+   "botany",
+   "agronomy"
+  ],
+  "layer": "Epistemic",
+  "category": "epistemicDomain",
+  "description": "The inquiry domain that makes the plant intelligible: what a plant is, how it grows and allocates, how it responds to water, nutrient, temperature, and pest pressure, and how those responses are predicted, tested, and improved.",
+  "longDescription": "Bounded cut: the crop plant, the soil-plant system, the crop community, the seed and propagation system, and the pathogen and pest populations acting on them are in; cultivation hardware (technique), the growing enterprise and its firms and markets (social and production), and the plant as a living system at organ, tissue, and cellular level (nature) are out. Measurement executed in the field is technical; what it warrants believing is epistemic (see meta/ambiguity-resolution.md). The accumulated fits, trial series, assemblies, and ontic maps form this domain's DCESA. Full middle-depth decomposition in note epistemica/plant-science.md; counterpart technique:plant-cultivation-001.",
+  "chronology": {
+   "summary": "From the herbarium and determinate description through Linnaean classification, microscopy and germ theory, physiology and Mendelian genetics, to population genetics, crop simulation, and high-throughput phenotyping with genome-enabled prediction.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "structural",
+    "relationshipType": "subtype_of",
+    "targetNodeId": "cat_domain",
+    "description": "Plant science is a subtype of the abstract category Epistemic Domain."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "uses",
+    "targetNodeId": "obs_iface_01",
+    "description": "Phenotyping platforms, growth chambers, and leaf instruments are the observation interface transducing plant state into encoded artifacts."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "uses",
+    "targetNodeId": "operator_rct",
+    "description": "Randomized block, split-plot, and multi-location designs compare genotypes and management under declared conditions."
+   },
+   {
+    "relationshipFamily": "operational",
+    "relationshipType": "produces",
+    "targetNodeId": "artifact_05",
+    "description": "Trials, platforms, and instruments produce time-series growth, yield, and trait datasets."
+   },
+   {
+    "relationshipFamily": "normativeValidation",
+    "relationshipType": "evaluated_by",
+    "targetNodeId": "standard_02",
+    "description": "Trait and performance claims stand only if an independent operator or site reproduces them."
+   },
+   {
+    "relationshipFamily": "dependency",
+    "relationshipType": "depends_on",
+    "targetNodeId": "domain_02",
+    "description": "The crop is read as a biological system; ecosystem-level flows and interactions bound what a single-plant claim transfers to."
+   }
+  ],
+  "specific": {
+   "inquiryKind": "observation-and-trial-driven-crop-inference",
+   "noteRef": "epistemica/plant-science.md",
+   "counterpartNode": "technique:plant-cultivation-001",
+   "domainScope": "plant and crop system, individual to field scale",
+   "knowledgeBoundaries": "open system under genotype-by-environment interaction",
+   "primaryObjects": [
+    "plant",
+    "soil-plant system",
+    "crop community",
+    "phenotype datasets",
+    "trial series",
+    "genome assemblies"
+   ],
+   "functionalRoles": [
+    "target"
+   ]
+  },
+  "metadata": {
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Epistemicarum decomposition; note epistemica/plant-science.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Domain node; cross-linked to technique:plant-cultivation-001 through its note, not a graph edge."
+    }
+   ],
+   "inheritanceLevel": 1,
+   "source": "epistemica-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Epistemicarum et Operis",
+    "description": "Decomposition workflow and element-type table; note epistemica/plant-science.md."
+   },
+   {
+    "title": "Plant Cultivation (technique:plant-cultivation-001)",
+    "description": "Counterpart intervention the domain warrants; decomposed in note technique/systems/multinode/plant-cultivation-technical-domain-set.md."
+   }
+  ]
  }
 ]

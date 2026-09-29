@@ -6016,5 +6016,118 @@
     "description": "Campaign, media-buying and creative-service production for attention markets."
    }
   ]
+ },
+ {
+  "id": "plant-cultivation-001",
+  "name": "Plant Cultivation",
+  "tags": [
+   "technique",
+   "plant",
+   "cultivation",
+   "agriculture",
+   "technical-element-set"
+  ],
+  "layer": "Capability Space",
+  "category": "Technique",
+  "description": "The technical ensemble that raises plants on purpose: propagation and nursery, soil and fertility, water, crop protection, protected cultivation, harvest, field operations, varietal improvement, and the standards that make a lot admissible.",
+  "longDescription": "A `Technical Element Set` composite — a bounded technical domain (raise the plant, take the yield) whose members are objects, mechanisms, techniques, parameters, practices, and standards, hence no single dataset category fits without compromise; `Technique` is used here with the alternatives recorded in metadata.categoryAmbiguity. Readable as a `Production Technical System` (an orchard, a nursery, a greenhouse), and as a `Technical Domain Reality Model` (the field: soil, climate, water, biotic pressure) — each with its own root in its own decomposition. Cultivation excludes post-harvest manufacture, the sector container, the inquiry into the plant (epistemica:plant-science-001), growers and their firms, and the plant as a living system. Full middle-depth decomposition in note technique/systems/multinode/plant-cultivation-technical-domain-set.md.",
+  "chronology": {
+   "summary": "From shifting cultivation and vegetative propagation to the walled garden, systematic selection and rotation, the greenhouse and synthetic fertilizer, hybrid and recombinant breeding, and controlled-environment and precision cultivation.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+    "relationshipType": "TYPE_OF",
+    "targetNodeId": "technique_001",
+    "description": "Plant cultivation is the organized method of establishing and keeping a plant population for a useful product."
+   },
+   {
+    "relationshipFamily": "CONSTITUTIVE_AND_MEREOLOGICAL",
+    "relationshipType": "PART_OF",
+    "targetNodeId": "agriculture-production",
+    "description": "Cultivation is the crop-growing practice inside the sector-of-industries agriculture container; rearing and the sector framing stay with that node."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "plant-genetic-engineering",
+    "description": "The varietal improvement sub-domain calls on engineered transformation as an instrument; the engineering itself is decomposed in its own right."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "remote-sensing",
+    "description": "Canopy and stand readings feed the field operations and protection sub-domains."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "agent_001",
+    "description": "Growers, nursery workers, and equipment operators execute the passes and regimes of the domain."
+   },
+   {
+    "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+    "relationshipType": "CONSTRAINED_BY",
+    "targetNodeId": "constraint_001",
+    "description": "Genotype, climate, soil, water availability, labor, and regulation bound what any cultivation regime can achieve."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-element-set-composite",
+   "noteRef": "technique/systems/multinode/plant-cultivation-technical-domain-set.md",
+   "counterpartNode": "epistemica:plant-science-001",
+   "subDomainSets": [
+    "Propagation And Nursery Set",
+    "Soil And Fertility Set",
+    "Water And Irrigation Set",
+    "Crop Protection Set",
+    "Protected Cultivation Set",
+    "Harvest And Post-Harvest Set",
+    "Field Operations And Mechanization Set",
+    "Varietal Improvement Set",
+    "Cultivation Standards And Governance Set"
+   ],
+   "functionalRoles": [
+    "plant-establishment",
+    "growth-regime-setting",
+    "yield-taking"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "The root is a `Technical Element Set` composite; the dataset has no domain-set category, so `Technique` carries the practice reading.",
+    "alternativeCategories": [
+     "ProductionTechnicalObject",
+     "TechnicalFramework"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/systems/multinode/plant-cultivation-technical-domain-set.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Domain-set node; cross-linked to epistemica:plant-science-001 through its note, not a graph edge."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema and element-type table; note technique/systems/multinode/plant-cultivation-technical-domain-set.md."
+   },
+   {
+    "title": "Agriculture Production (technique:agriculture-production)",
+    "description": "Sector-of-industries container the crop-growing practice sits inside."
+   },
+   {
+    "title": "Plant Science (epistemica:plant-science-001)",
+    "description": "Counterpart inquiry the domain acts on; decomposed in note epistemica/plant-science.md."
+   }
+  ]
  }
 ]
