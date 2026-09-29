@@ -6071,6 +6071,12 @@
     "relationshipType": "CONSTRAINED_BY",
     "targetNodeId": "constraint_001",
     "description": "Genotype, climate, soil, water availability, labor, and regulation bound what any cultivation regime can achieve."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "plant-genetic-improvement-001",
+    "description": "The Varietal Improvement Set is this set: crossing, marker and genomic selection, transformation, and the trial network that qualifies a new variety."
    }
   ],
   "specific": {
@@ -6127,6 +6133,127 @@
    {
     "title": "Plant Science (epistemica:plant-science-001)",
     "description": "Counterpart inquiry the domain acts on; decomposed in note epistemica/plant-science.md."
+   }
+  ]
+ },
+ {
+  "id": "plant-genetic-improvement-001",
+  "name": "Plant Genetic Improvement",
+  "tags": [
+   "technique",
+   "plant",
+   "genetics",
+   "breeding",
+   "genome-editing",
+   "technical-element-set"
+  ],
+  "layer": "Capability Space",
+  "category": "Technique",
+  "description": "The set of practices that turns germplasm into a new variety: breeding, marker and genomic tooling, transformation and genome editing, trait targets, testing, seed production, and the regulation that admits the lot.",
+  "longDescription": "A `Technical Element Set` composite — a set of practices, not one method: a crossing, a marker-assisted cycle, a transformation, a trial network, and a seed plant are different technical element types cooperating inside one program, so the dataset has no single category that fits without compromise and `Technique` carries the practice reading (alternatives in metadata.categoryAmbiguity). Eight practice sets are decomposed in note technique/systems/multinode/plant-genetic-improvement.md: breeding; marker and genomic tooling; transformation and genome editing (Agrobacterium, biolistic, Cas9, base and prime editing, de novo domestication); trait targets (biotic, abiotic, market quality); germplasm and population; testing and evaluation; release and seed production; governance and regulation. The plant half of the 'mejoramiento genetico' framing only — animal breeding is out. Readable as a `Production Technical System` (the breeding program as an installation) and as an `Operative Technique` (one crossing or one transformation on a stated parent); the plant itself is a natural instance, not decomposed here.",
+  "chronology": {
+   "summary": "Domestication and farmer selection; mass, line and pedigree selection; controlled hybridization and heterosis; cytogenetics, polyploidy and mutation breeding; molecular markers and marker-assisted selection; transformation; genome editing and de novo domestication.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+    "relationshipType": "TYPE_OF",
+    "targetNodeId": "technique_001",
+    "description": "Plant genetic improvement is the organized method of producing a new cultivar."
+   },
+   {
+    "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+    "relationshipType": "ENABLES",
+    "targetNodeId": "plant-cultivation-001",
+    "description": "It produces the varieties the cultivation domain plants; cultivation supplies the target population of environments the improvement is measured against."
+   },
+   {
+    "relationshipFamily": "CONSTITUTIVE_AND_MEREOLOGICAL",
+    "relationshipType": "has_part",
+    "targetNodeId": "plant-genetic-engineering",
+    "description": "Transformation and editing is one of the eight practice sets; the imported node holds the instrument (T-DNA, CRISPR, Agrobacterium) and is a member here."
+   },
+   {
+    "relationshipFamily": "AGENTIC_AND_OPERATIVE",
+    "relationshipType": "UTILIZES",
+    "targetNodeId": "agent_001",
+    "description": "Breeders, biotechnologists, and trial technicians execute the crossings, edits, screens, and trials."
+   },
+   {
+    "relationshipFamily": "NORMATIVE_AND_REGULATIVE",
+    "relationshipType": "SUPPORTED_BY",
+    "targetNodeId": "institution_001",
+    "description": "Breeding institutes, germplasm banks, variety registration authorities, and biosafety committees sustain the practice and hold it admissible."
+   },
+   {
+    "relationshipFamily": "TELEOLOGICAL_AND_FUNCTIONAL",
+    "relationshipType": "CONSTRAINED_BY",
+    "targetNodeId": "constraint_001",
+    "description": "Recalcitrancy, narrow genetic base, transgene silencing, regulatory approval, and cost of compliance bound what the program can reach."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-element-set-composite",
+   "noteRef": "technique/systems/multinode/plant-genetic-improvement.md",
+   "subDomainSets": [
+    "Breeding Set",
+    "Marker And Genomic Tooling Set",
+    "Transformation And Genome Editing Set",
+    "Trait Target Set",
+    "Germplasm And Population Set",
+    "Testing And Evaluation Set",
+    "Release And Seed Production Set",
+    "Governance And Regulation Set"
+   ],
+   "functionalRoles": [
+    "genome-modification",
+    "cultivar-production",
+    "trait-introduction"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "The root is a `Technical Element Set` of practices; the dataset has no set/practice category, so `Technique` carries the practice reading.",
+    "alternativeCategories": [
+     "TechnicalFramework",
+     "ProductionTechnicalObject"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; framing from es.wikipedia 'Mejoramiento genetico'; note technique/systems/multinode/plant-genetic-improvement.md.",
+   "createdAt": "2026-09-29T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-29",
+     "reviewNote": "Set node; contains technique:plant-genetic-engineering and is called on by technique:plant-cultivation-001."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Mejoramiento genetico - Wikipedia (es)",
+    "link": "https://es.wikipedia.org/wiki/Mejoramiento_gen%C3%A9tico",
+    "description": "Framing of improvement as selection and creation of variation; used as orientation, carries a maintenance banner for missing published references."
+   },
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema and element-type table; note technique/systems/multinode/plant-genetic-improvement.md."
+   },
+   {
+    "title": "Richards, A. J. (1997). Plant breeding systems (2nd ed.). Chapman & Hall.",
+    "description": "Breeding systems as practice; listed in the framing article's bibliography."
+   },
+   {
+    "title": "Jinek, M., et al. (2012). Science, 337(6096), 816-821.",
+    "description": "Programmable RNA-guided endonuclease, the origin of plant editing practice."
+   },
+   {
+    "title": "Collard, B. C. Y., & Mackill, D. J. (2008). Phil. Trans. R. Soc. B, 363(1441), 557-572.",
+    "description": "Marker-assisted selection as precision plant breeding."
    }
   ]
  }
