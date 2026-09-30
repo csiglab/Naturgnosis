@@ -32,6 +32,7 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 | 6 | Production Space | `app/production/` | Graph explorer (derived view, no editor) | Generated `view.json` + `view-layout.json` from social `production-view` tags | derived |
 | 7 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
 | 8 | Note Space | `app/note/` | Catalog + note viewer | Physical markdown (`notes/*.md`) + generated `data/index.json` | scaffolded (corpus empty) |
+| 9 | Q/A Log | `app/qa/` | Catalog + entry viewer (static, no editor) | Committed `data/qa.json` + generated `data/qa-index.json` | bootstrapped (qa-00001) |
 
 ## Architecture
 

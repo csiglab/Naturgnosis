@@ -52,6 +52,14 @@ def main():
         "edges": None,
     }
 
+    qa = load_json(os.path.join(ROOT, "app", "qa", "data", "qa-index.json"))
+    modules["qa"] = {
+        "nodes": (qa.get("count")
+                  if isinstance(qa, dict) and isinstance(qa.get("count"), int)
+                  else (len(qa.get("entries", [])) if isinstance(qa, dict) else None)),
+        "edges": None,
+    }
+
     payload = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "modules": modules,

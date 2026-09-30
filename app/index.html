@@ -494,6 +494,14 @@
                 <div class="links"><span>Index</span><span>Search</span></div>
             </a>
 
+            <a class="module" href="/qa/">
+                <span class="ng-eyebrow">Module 09</span>
+                <h3>Q/A Log</h3>
+                <p class="tag">Agent interrogations, browsable.</p>
+                <div class="metrics"><span class="metric"><span class="value" data-metric="qa">—</span><span class="label">questions</span></span></div>
+                <div class="links"><span>Index</span><span>Search</span></div>
+            </a>
+
             <a class="module" href="/graph/">
                 <span class="ng-eyebrow">Hub · Read-only</span>
                 <h3>Universal Index</h3>
@@ -617,7 +625,7 @@
                 var total = 0, haveTotal = false;
                 Object.keys(mods).forEach(function (k) {
                     var m = mods[k] || {};
-                    if (typeof m.nodes === 'number' && k !== 'note') {
+                    if (typeof m.nodes === 'number' && k !== 'note' && k !== 'qa') {
                         total += m.nodes;
                         haveTotal = true;
                     }
@@ -660,7 +668,8 @@
             ['technique', 'Technique nodes'],
             ['epistemica', 'Epistemic nodes'],
             ['nature', 'Nature nodes'],
-            ['note', 'Notes']
+            ['note', 'Notes'],
+            ['qa', 'Q/A']
         ];
 
         function uesc(s) {
@@ -674,6 +683,9 @@
         }
 
         function uurl(e) {
+            if (e.surface === 'qa') {
+                return '/qa/entry.html?id=' + encodeURIComponent(e.path);
+            }
             if (e.surface === 'note') {
                 var p = uencPath(e.path);
                 return e.kind === 'live' ? '/note/data/' + p : '/note/note.html?n=' + p;

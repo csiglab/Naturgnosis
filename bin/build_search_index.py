@@ -80,6 +80,28 @@ def note_entries() -> list:
     return entries
 
 
+def qa_entries() -> list:
+    path = REPO / "app" / "qa" / "data" / "qa-index.json"
+    if not path.is_file():
+        print(f"search-index: skip qa (no app/qa/data/qa-index.json — run: make qa-index)")
+        return []
+    idx = load_json(path, "make qa-index")
+    entries = []
+    for n in idx.get("entries", []):
+        entries.append(
+            {
+                "surface": "qa",
+                "kind": "qa",
+                "type": n.get("status", ""),
+                "title": n.get("question", ""),
+                "path": n.get("id", ""),
+                "tags": n.get("tags", []),
+                "excerpt": excerpt(n.get("excerpt", "")),
+            }
+        )
+    return entries
+
+
 def node_entries() -> list:
     entries = []
     for surface in GRAPH_MODULES:
@@ -114,6 +136,7 @@ def node_entries() -> list:
 
 def main() -> int:
     entries = note_entries()
+    entries.extend(qa_entries())
     entries.extend(node_entries())
 
     counts = {}
