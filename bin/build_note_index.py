@@ -15,7 +15,7 @@ filename), top-level section (first path component), h2/h3 headings,
 tags (optional `tags: [...]` front matter, same `---` style as
 Epistecnica's note system), lowercased plain text, and word count.
 Paths and tags are validated against the naming convention (see
-app/note/data/readme.md); violations print as warnings and never fail
+spec/note/authoring.md); violations print as warnings and never fail
 the build. The canonical slug form is `slugify_segment()` (Epistecnica
 parity: NFKD to ASCII, lowercase, runs of non-alphanumerics to `-`).
 
@@ -36,8 +36,8 @@ NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-# Corpus-relative paths that are authoring/ops docs, not notes: scanned
-# but never indexed (the catalog would otherwise list them as notes).
+# Corpus-relative file names that are authoring/ops docs, not notes:
+# skipped at any depth (the catalog would otherwise list them as notes).
 SKIP_FILES = {"readme.md"}
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
@@ -203,7 +203,7 @@ def main() -> int:
     for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
         for path in sorted(NOTES.rglob(pattern)):
             rel = path.relative_to(NOTES)
-            if rel.as_posix() in SKIP_FILES:  # authoring docs, not notes
+            if rel.name.lower() in SKIP_FILES:  # authoring docs, not notes
                 continue
             check_name(rel, warnings)
             notes.append(parser(path, rel, warnings))
@@ -227,7 +227,7 @@ def main() -> int:
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
-        print(f"naming warnings: {len(warnings)} (see app/note/data/readme.md)")
+        print(f"naming warnings: {len(warnings)} (see spec/note/authoring.md)")
         for w in warnings:
             print(f"  ! {w}")
     return 0

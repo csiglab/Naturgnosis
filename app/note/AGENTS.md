@@ -33,7 +33,8 @@ curl /note/api/pins               # pinned paths
 ## Invariants
 
 - `data/` holds the hand-edited corpus; `data/index.json` is generated.
-- Note paths are kebab-case, Epistecnica slug rule (see `data/readme.md`
+- Note paths are kebab-case, Epistecnica slug rule (see
+  `spec/note/authoring.md`
   and `bin/build_note_index.py:slugify_segment()`); the builder warns with
   the suggested form. Never run `bin/slugify_files.py` (underscore rule) here.
 - Tags are optional `--- tags: [...]` front matter; `data/index.json`
