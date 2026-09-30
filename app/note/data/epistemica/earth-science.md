@@ -468,7 +468,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (the Earth as a natural instance belongs there, not here)
 - [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (the instrument technically, the formation naturally)
-- [Plant Science](note.html?n=epistemica/plant-science.md) (consumer: crop models, soil, and climate are Earth Science outputs)
+- [Agricultural Science](note.html?n=epistemica/agricultural-science.md) (consumer: crop models, soil, and climate are Earth Science outputs)
 - [Well Logging](note.html?n=technique/well-logging.md) (the borehole as Earth Science's narrowest technical instrument)
 - [Remote Sensing](note.html?n=technique/remote-sensing.md) (the observation layer, decomposed technically)
 - [Mining System](note.html?n=technique/mining-system.md) (the extraction interior as technique)
