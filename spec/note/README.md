@@ -10,7 +10,7 @@ of its personal notes). The corpus lives in `app/note/data/` in topic-first
 sections (`actor/` social actors, `social/` social-ontology concepts,
 `technique/` tools/systems/libraries/platforms/instances, `operation/`
 housekeeping, `persona/` people, `live/` interactive pages by topic,
-`meta/` task guides); see `app/note/data/readme.md` for the authoring rules.
+`meta/` task guides); see `authoring.md` for the authoring rules.
 
 ## Storage model
 

@@ -33,8 +33,8 @@ Rules for files and directories we author:
   `ß→ss` (no NFKD decomposition), then NFKD-normalize to ASCII, every run of
   non-alphanumeric characters becomes a single `-`, trim leading/trailing
   `-` (`my-note.md`).
-  Collisions get a `-2`, `-3`, … suffix. Never run `bin/slugify_files.py`
-  (which emits `_`) on the corpus; see `app/note/data/readme.md` and
+   Collisions get a `-2`, `-3`, … suffix. Never run `bin/slugify_files.py`
+   (which emits `_`) on the corpus; see `spec/note/authoring.md` and
   `bin/build_note_index.py:slugify_segment()` for the canonical form. The viewer
   resolves `note.html?n=<path>` against this directory.
 - **`app/*/web/vendor/`** — third-party code keeps its upstream name.

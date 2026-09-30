@@ -275,6 +275,13 @@ class SyncHandler(SimpleHTTPRequestHandler):
     # (i.e. NOT rewritten into <module>/web/).
     NON_WEB_SUBDIRS = ("web", "data", "view", "entries", "import", "notes")
 
+    # URL segments that must never be served to users: agent instructions,
+    # authoring/ops docs, and repo dotfiles. They live alongside the served
+    # tree by convention (AGENTS.md) or history (readme.md) and ship inside
+    # the Docker image (COPY app/), so the redirect quirk hiding them is not
+    # a sufficient guard. Answer 404 (not 403) to avoid leaking existence.
+    BLOCKED_SEGMENTS = ("agents.md", "readme.md", "guideline.md")
+
     # ------------------------------------------------------------------
     # CORS
     # ------------------------------------------------------------------
@@ -299,7 +306,33 @@ class SyncHandler(SimpleHTTPRequestHandler):
     # GET
     # ------------------------------------------------------------------
 
+    def _is_blocked_path(self, raw):
+        """True if the URL targets an agent/spec/dotfile path (never serve)."""
+        path = raw.split("?", 1)[0]
+        try:
+            segs = [
+                urllib.parse.unquote(s)
+                for s in path.split("/")
+                if s and s not in (".", "..")
+            ]
+        except Exception:
+            return True
+        for seg in segs:
+            low = seg.lower()
+            if low in self.BLOCKED_SEGMENTS or seg.startswith("."):
+                return True
+        return False
+
+    def do_HEAD(self):
+        if self._is_blocked_path(self.path):
+            self.send_error(404, "Not Found")
+            return
+        super().do_HEAD()
+
     def do_GET(self):
+        if self._is_blocked_path(self.path):
+            self.send_error(404, "Not Found")
+            return
         path = self.path.split("?", 1)[0]
         params = {}
         if "?" in self.path:
@@ -448,7 +481,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
         return f"{self.couch.base_url}/{self.couch.db}/{PINS_DOC_ID}"
 
     def _valid_note_path(self, p):
-        """Mirror of the catalog/viewer path rules (app/note/data/readme.md).
+        """Mirror of the catalog/viewer path rules (spec/note/authoring.md).
 
         Kebab-case segments, last segment ending in .md, max 200 chars.
         """

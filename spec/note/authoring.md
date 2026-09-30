@@ -1,4 +1,8 @@
-# Notes corpus
+# Notes corpus — authoring rules
+
+> Canonical home of the note-authoring rules (moved from
+> `app/note/data/readme.md`, which must not ship as a served note).
+> The corpus lives at `app/note/data/`.
 
 Long-form notes for the Naturgnosis note module (`/note/`): catalog at
 `/note/`, single-note viewer at `/note/note.html?n=<path>`. This directory
