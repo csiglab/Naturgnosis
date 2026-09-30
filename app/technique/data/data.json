@@ -2264,6 +2264,12 @@
     "relationshipType": "CONSTRAINED_BY",
     "targetNodeId": "constraint_001",
     "description": "Borehole conditions and tool limits constrain achievable resolution and accuracy."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "geological-resource-development-001",
+    "description": "Member of the Geological Resource Development Technical Domain, the full-chain super-domain."
    }
   ],
   "specific": {
@@ -4309,6 +4315,12 @@
     "relationshipType": "uses",
     "targetNodeId": "remote-sensing",
     "description": "Exploration uses remote sensing and drones."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "geological-resource-development-001",
+    "description": "Member of the Geological Resource Development Technical Domain, the full-chain super-domain."
    }
   ],
   "specific": {
@@ -5353,6 +5365,12 @@
     "relationshipType": "enables",
     "targetNodeId": "metalworking",
     "description": "Smelted alloys feed metalworking."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "geological-resource-development-001",
+    "description": "Member of the Geological Resource Development Technical Domain, the full-chain super-domain."
    }
   ],
   "specific": {
@@ -5395,7 +5413,14 @@
    "summary": "Glass, cement and ceramics production system.",
    "events": []
   },
-  "relationships": [],
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "geological-resource-development-001",
+    "description": "Member of the Geological Resource Development Technical Domain, the full-chain super-domain."
+   }
+  ],
   "specific": {
    "functional_role_set": [
     "Structure",
@@ -6600,6 +6625,153 @@
    {
     "title": "Agriculture Production (technique:agriculture-production)",
     "description": "The sector frame, cross-linked and deliberately not a member."
+   }
+  ]
+ },
+ {
+  "id": "geological-resource-development-001",
+  "name": "Geological Resource Development Technical Domain (Aprovechamiento de Recursos Geológicos)",
+  "tags": [
+   "technique",
+   "geological-resources",
+   "mining",
+   "extraction",
+   "technical-element-set"
+  ],
+  "layer": "Capability Space",
+  "category": "TechnicalFramework",
+  "description": "The super-domain of techniques that turn a geological occurrence into a marketable mineral product and return the site closed, composed from four member sets: exploration, extraction, beneficiation and processing, and closure.",
+  "longDescription": "A `Technical Element Set` composite whose members are themselves sets — the same shape as the Technical Core Catalog, which is the corpus precedent for a set that composes sets. It owns no pit, plant, or concession: the members own those, and this scope holds the family and its boundary, which is the full chain from occurrence to marketable product to closed site. Deliberately excluded: Petroleum Oil, because it is a resource rather than a technique for developing one, and composing a technical domain out of a resource node would put the worked object inside the working; Metalworking, because cutting, forging, and welding shape an already-produced metal and belong to fabrication; and Materiotecnia, because the chemical and physical investigation of material systems is knowledge scaffolding for the processing member rather than a development technique. The members are in uneven conditions and the node says which: Well Logging is a worked dual-reading decomposition (39 rows) while Mining System, Metals Production, and Nonmetallic Production are Produceologia seed stubs — so the Closure Set does not exist at all, and the remedy is to write it together with proper extraction decompositions. Readable as a `Production Technical System` (one mine, quarry, or well field) and as a `Technical Domain Reality Model` (orebody geometry and grade; geotechnics and hydrogeology); each takes its own root in its own decomposition. The knowledge the exploration member consumes is epistemic and lives in epistemica:earth-science-001.",
+  "chronology": {
+   "summary": "From surface gathering and shallow digging through prospecting, drilling and systematic sampling, geophysics and geochemistry, open-pit and underground mechanization, flotation and leaching, automation and remote operation, to closure engineering and remediation.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "TAXONOMIC_AND_CLASSIFICATORY",
+    "relationshipType": "TYPE_OF",
+    "targetNodeId": "technique_001",
+    "description": "Full-chain geological resource development is the organized set of techniques that turns a geological occurrence into a marketable mineral product and returns the site closed."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "well-logging-001",
+    "description": "Member set of the full-chain domain: Member set of the full-chain domain: finding the occurrence before it is touched — prospecting, geophysics, drilling and sampling, and borehole formation measurement."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "mining-system",
+    "description": "Member set of the full-chain domain: Member set of the full-chain domain: taking the rock out of the ground, open-pit and underground; a seed node that as written claims the whole exploration-to-recycling ecosystem."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "metallurgical-production",
+    "description": "Member set of the full-chain domain: Member set of the full-chain domain: separating the valuable fraction — crushing, grinding, flotation, leaching, smelting, and refining; a seed node whose downstream fabrication content sits outside the boundary."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "nonmetallic-production",
+    "description": "Member set of the full-chain domain: Member set of the full-chain domain: the glass, cement, and ceramics production lines; a seed node."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-element-set-composite",
+   "noteRef": "technique/systems/multinode/geological-resource-development-technical-domain.md",
+   "boundary": "the full chain: occurrence to marketable product to closed site, and no further",
+   "composition": "full-chain",
+   "subDomainSets": [
+    "Exploration Set",
+    "Extraction Set",
+    "Beneficiation And Processing Set",
+    "Closure Set"
+   ],
+   "excludedMembers": [
+    {
+     "id": "petroleum-oil",
+     "reason": "a resource, not a technique for developing one; a worked object, not a working"
+    },
+    {
+     "id": "metalworking",
+     "reason": "downstream fabrication of already-produced metal (cutting, forging, welding), not resource development"
+    },
+    {
+     "id": "materiotecnia",
+     "reason": "knowledge scaffolding for the processing member (chemical/physical investigation of material systems), not a development technique"
+    }
+   ],
+   "memberStatus": [
+    {
+     "id": "well-logging-001",
+     "state": "decomposed",
+     "rows": 39
+    },
+    {
+     "id": "mining-system",
+     "state": "seed-node",
+     "rows": 9
+    },
+    {
+     "id": "metallurgical-production",
+     "state": "seed-node",
+     "rows": 8
+    },
+    {
+     "id": "nonmetallic-production",
+     "state": "seed-node",
+     "rows": 7
+    },
+    {
+     "id": "closure-set",
+     "state": "missing",
+     "rows": 0
+    }
+   ],
+   "functionalRoles": [
+    "geological-resource-development",
+    "full-chain-development"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "The root is a `Technical Element Set` composite whose members are themselves sets; the dataset has no set/super-domain category, so `TechnicalFramework` matches the Technical Core Catalog and the Food Production Technical Domain, the existing super-domain nodes.",
+    "alternativeCategories": [
+     "Technique",
+     "ProductionTechnicalObject"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/systems/multinode/geological-resource-development-technical-domain.md.",
+   "createdAt": "2026-09-30T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-09-30",
+     "reviewNote": "Super-domain node; full-chain boundary per user direction. Petroleum Oil, Metalworking, and Materiotecnia deliberately not members, with reasons in specific.excludedMembers. Closure Set named but missing; Spanish subtitle in the name parenthetical per user direction."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema, No-repetition and Composite Instance Naming rules, and the recursion rule for composites."
+   },
+   {
+    "title": "Technical Core Catalog (technique:technical-core-catalog)",
+    "description": "The corpus precedent for a set whose members are sets."
+   },
+   {
+    "title": "Food Production Technical Domain (technique:food-production-001)",
+    "description": "The sibling super-domain precedent: honest member-condition reporting and coverage requirements."
+   },
+   {
+    "title": "Quarry (nature:quarry-ontic-001)",
+    "description": "The worked landform as observer-independent furniture; the instrument here, the formation there."
    }
   ]
  }
