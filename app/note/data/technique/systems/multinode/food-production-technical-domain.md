@@ -91,3 +91,4 @@ Lineage: foraging and domestication → selection without theory → controlled 
 - Knowledge: [Agricultural Science](note.html?n=epistemica/agricultural-science.md) · [Earth Science](note.html?n=epistemica/earth-science.md) (the production-side science the member sets produce and consume)
 - [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (the instrument technically, the organism naturally)
 - [Agricultural machinery](https://en.wikipedia.org/wiki/Agricultural_machinery) (tractors, harvesters, and implements — the mechanization the field-operations and harvest content assumes)
+- [Precision agriculture](https://en.wikipedia.org/wiki/Precision_agriculture) (site-specific sensing and management — the data-driven regime behind the cultivation set's precision content)
