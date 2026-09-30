@@ -6704,19 +6704,19 @@
  },
  {
   "id": "plant-science-001",
-  "name": "Plant Science",
+  "name": "Agricultural Science",
   "tags": [
    "epistemic domain",
-   "plant",
-   "botany",
-   "agronomy"
+   "agriculture",
+   "agronomy",
+   "food production"
   ],
   "layer": "Epistemic",
   "category": "epistemicDomain",
-  "description": "The inquiry domain that makes the plant intelligible: what a plant is, how it grows and allocates, how it responds to water, nutrient, temperature, and pest pressure, and how those responses are predicted, tested, and improved.",
-  "longDescription": "Bounded cut: the crop plant, the soil-plant system, the crop community, the seed and propagation system, and the pathogen and pest populations acting on them are in; cultivation hardware (technique), the growing enterprise and its firms and markets (social and production), and the plant as a living system at organ, tissue, and cellular level (nature) are out. Measurement executed in the field is technical; what it warrants believing is epistemic (see meta/ambiguity-resolution.md). The accumulated fits, trial series, assemblies, and ontic maps form this domain's DCESA. Full middle-depth decomposition in note epistemica/plant-science.md; counterpart technique:plant-cultivation-001.",
+  "description": "The inquiry domain that makes the agricultural organism intelligible: what a crop plant or livestock animal is, how it grows and allocates, how it responds to water, nutrient, temperature, and disease pressure, how its product responds to processing and storage, and how those responses are predicted, tested, and improved.",
+  "longDescription": "Bounded cut: the crop plant, the soil-plant system, the crop community, the seed and propagation system, the livestock animal, the animal-housing system, the herd and flock, the breeding population, the food matrix, and the pathogen, pest, and spoilage populations acting on them are in; cultivation, husbandry, and processing hardware (technique), the farm, firm, and market organization (social and production), and the organism as a living system at organ, tissue, and cellular level (nature) are out. Measurement executed in the field, the barn, or the pilot plant is technical; what it warrants believing is epistemic (see meta/ambiguity-resolution.md). The accumulated fits, trial series, feeding and processing trials, composition tables, assemblies, and ontic maps form this domain’s DCESA. Full middle-depth decomposition in note epistemica/agricultural-science.md; counterpart technique:plant-cultivation-001.",
   "chronology": {
-   "summary": "From the herbarium and determinate description through Linnaean classification, microscopy and germ theory, physiology and Mendelian genetics, to population genetics, crop simulation, and high-throughput phenotyping with genome-enabled prediction.",
+   "summary": "From the herbarium and determinate description through Linnaean classification, microscopy and germ theory, physiology and Mendelian genetics, to population genetics, crop simulation, herd recording and BLUP sire evaluation, food chemistry and thermal process science, and high-throughput phenotyping with genome-enabled prediction.",
    "events": []
   },
   "relationships": [
@@ -6890,7 +6890,7 @@
     "description": "Decomposition workflow and element-type table; note epistemica/earth-science.md."
    },
    {
-    "title": "Plant Science (epistemica:plant-science-001)",
+    "title": "Agricultural Science (epistemica:plant-science-001)",
     "description": "Consumer of Earth Science outputs: crop models, soil, and climate inputs."
    },
    {
