@@ -373,5 +373,543 @@
       "source": "nature-manual"
     },
     "references": []
+  },
+  {
+    "id": "nature-ontic-001",
+    "name": "Nature",
+    "tags": [
+      "reality",
+      "ontic",
+      "nature",
+      "complex-system",
+      "root"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "The whole of observer-independent reality: all natural systems, constituents, living organization, processes, phenomena, quantities, and constraints across the physical, chemical, biological, and earth domains.",
+    "longDescription": "Macro-level root segment binding (root) -> <<Natural Element>> as Complex System. Cut includes every piece of reality at every level of organization; excludes epistemic scaffolding (epistemica), transformation methods (technical reading), and actors/institutions/markets (social reading), which decompose under their own grammars. Long-form decomposition lives in the note corpus at nature/nature.md; child notes earth.md, earth-material.md, mineral.md expand its regions.",
+    "chronology": {
+      "summary": "No single origin: the segment covers all of natural history. Child instances carry their own chronologies.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "earth-ontic-001",
+        "description": "Nature contains Earth as its inhabited-planet subsystem; Earth's full decomposition lives in its own node and note."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "natural-material-ontic-001",
+        "description": "Nature contains Natural Material as the totality of untransformed matter; its biogenic/abiogenic split lives in its own nodes and notes."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Composite.System",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "macro",
+      "naturalElementType": "Complex System",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "chaos",
+        "emergence",
+        "scale",
+        "data-availability",
+        "computational-complexity",
+        "irreducibility",
+        "partial-observability",
+        "non-repeatability",
+        "measurement-disturbance",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "constraint-space",
+        "furniture-totality",
+        "decomposition-root"
+      ],
+      "realityDomains": [
+        "physics",
+        "chemistry",
+        "biology",
+        "earth-science"
+      ],
+      "noteRef": "nature/nature.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Complex System): the affirmed furniture is observer-independent. Readable as technique (methods transforming/measuring nature), as social (actors/institutions around natural bodies), and as epistemic (models/standards about nature); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "social",
+          "epistemic"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/nature.md.",
+      "createdAt": "2026-09-30T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-30",
+          "reviewNote": "Root nature node: all observer-independent reality. Archetype, not a named site."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
+  },
+  {
+    "id": "earth-ontic-001",
+    "name": "Earth",
+    "tags": [
+      "reality",
+      "ontic",
+      "earth",
+      "planet",
+      "natural-system"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "The inhabited rocky planet read as a natural system: iron core, silicate mantle, crust, ocean, atmosphere, and biosphere with plate-climate-weathering-life feedbacks.",
+    "longDescription": "Macro-level segment, child of nature-ontic-001. Cut includes the body, its envelopes, and resident organisms; excludes launch/sensing/drilling systems (technical reading), states/firms/markets (social/production readings), and models/standards (epistemic scaffolding). Long-form decomposition lives in the note corpus at nature/earth.md.",
+    "chronology": {
+      "summary": "Accretion and differentiation, magma-ocean solidification, late bombardment, ocean and atmosphere formation, oxygenation, plate-tectonic and biospheric co-evolution.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "nature-ontic-001",
+        "description": "Earth is the inhabited-planet subsystem of Nature."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "earth-material-ontic-001",
+        "description": "Earth's crust and surface are composed of earth materials (rock, sediment, soil)."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Composite.System",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "macro",
+      "naturalElementType": "Natural System",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "chaos",
+        "emergence",
+        "scale",
+        "data-availability",
+        "computational-complexity",
+        "irreducibility",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "habitat-provision",
+        "climate-regulation",
+        "material-cycling"
+      ],
+      "realityDomains": [
+        "geophysics",
+        "geomorphology",
+        "oceanography",
+        "atmospheric-science",
+        "ecology"
+      ],
+      "noteRef": "nature/earth.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Natural System): the affirmed furniture is the observer-independent planet. Readable as technique (launch/sensing/drilling/geoengineering methods) and as social/production (states, firms, tenure, markets); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "production-facility"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/earth.md.",
+      "createdAt": "2026-09-30T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-30",
+          "reviewNote": "Planet-system node, child of nature-ontic-001. Archetype, not a mission or territory."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
+  },
+  {
+    "id": "earth-material-ontic-001",
+    "name": "NaturalAbiogenic",
+    "tags": [
+      "reality",
+      "ontic",
+      "earth",
+      "abiogenic",
+      "mineral",
+      "rock",
+      "sediment",
+      "soil",
+      "substance"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "All physical matter not made by life: minerals, rocks, sediments, soils, natural waters, and air — stuff-kinds individuated by composition, structure, and phase behavior.",
+    "longDescription": "Meso-level segment archetyped by limestone, child of earth-ontic-001 and natural-material-ontic-001, composed of mineral-ontic-001 kinds. Entered via the composition spine (Natural Object -> Building Block -> Substance / Matter): a limestone bed is the building-block occurrence, the abiogenic material is the substance-kind. (Local file keeps the stable name earth-material for link continuity; the canonical human term is Natural Abiogenic.) Long-form decomposition lives in the note corpus at nature/earth-material.md.",
+    "chronology": {
+      "summary": "Aggregates follow crystallization, deposition, burial, diagenesis/lithification, deformation, uplift, weathering, and soil formation.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "earth-ontic-001",
+        "description": "Abiogenic materials compose Earth's crust, waters, and atmosphere."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "natural-material-ontic-001",
+        "description": "Natural Abiogenic is the non-living branch of Natural Material."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "mineral-ontic-001",
+        "description": "Abiogenic aggregates are composed of mineral kinds (e.g. limestone of calcite)."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Substantial.Substance",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "meso",
+      "naturalElementType": "Substance / Matter",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "scale",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "crust-composition",
+        "landform-generation",
+        "habitat-substrate"
+      ],
+      "realityDomains": [
+        "petrology",
+        "sedimentology",
+        "geomorphology",
+        "soil-science"
+      ],
+      "noteRef": "nature/earth-material.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Substance / Matter): the affirmed furniture is observer-independent aggregate. Readable as technique (quarrying/working methods) and as production resource (aggregate products with grades and firm); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "production-resource"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/earth-material.md (titled Natural Abiogenic).",
+      "createdAt": "2026-09-30T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-30",
+          "reviewNote": "Aggregate-kind node, child of earth-ontic-001. Archetype, not a named formation."
+        },
+        {
+          "reviewDate": "2026-10-01",
+          "reviewNote": "Retitled EarthMaterial -> NaturalAbiogenic (id and edges stable); scope broadened to all physical non-living matter; added part_of natural-material-ontic-001."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
+  },
+  {
+    "id": "mineral-ontic-001",
+    "name": "Mineral",
+    "tags": [
+      "reality",
+      "ontic",
+      "earth",
+      "mineral",
+      "crystal",
+      "substance"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "Naturally occurring crystalline solid kinds individuated by composition and lattice (e.g. quartz, calcite, feldspar, olivine) that compose earth materials.",
+    "longDescription": "Micro-level segment, child of earth-material-ontic-001. Entered via the composition spine (Natural Object -> Building Block -> Substance / Matter): a calcite grain is the building-block occurrence, the mineral is the substance-kind. Long-form decomposition lives in the note corpus at nature/mineral.md.",
+    "chronology": {
+      "summary": "Minerals follow nucleation, crystal growth with zoning, then persistence, alteration, or dissolution along their stability fields.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "earth-material-ontic-001",
+        "description": "Mineral kinds compose earth-material aggregates."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Substantial.Substance",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "micro",
+      "naturalElementType": "Substance / Matter",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "scale",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "aggregate-composition",
+        "lattice-structure",
+        "phase-behavior"
+      ],
+      "realityDomains": [
+        "mineralogy",
+        "crystallography",
+        "geochemistry"
+      ],
+      "noteRef": "nature/mineral.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Substance / Matter): the affirmed furniture is the observer-independent crystal kind. Readable as technique (assaying/synthesizing methods) and as commodity (ore/gem with grade, firm, price); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "commodity"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/mineral.md.",
+      "createdAt": "2026-09-30T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-09-30",
+          "reviewNote": "Mineral-kind node, child of earth-material-ontic-001. Archetype, not a specimen."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
+  },
+  {
+    "id": "natural-material-ontic-001",
+    "name": "NaturalMaterial",
+    "tags": [
+      "reality",
+      "ontic",
+      "nature",
+      "material",
+      "substance",
+      "super-kind"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "The totality of untransformed matter: every observer-independent substance no purposeful agent has intentionally worked — minerals, rocks, sediments, soils, waters, air, and all products of life.",
+    "longDescription": "Macro-level super-kind segment, child of nature-ontic-001, binding (root) -> <<Natural Element>> as Substance / Matter. First cut below intention: origin-agnostic (biogenic and abiogenic alike), composition-free, level-spanning. Splits into biogenic-material-ontic-001 (made by life) and earth-material-ontic-001 (not made by life); all worked matter falls outside it into the technical reading. Long-form decomposition lives in the note corpus at nature/natural-material.md.",
+    "chronology": {
+      "summary": "No single origin: covers all of natural substance history. Child instances carry their own chronologies.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "nature-ontic-001",
+        "description": "Natural Material is the untransformed-matter totality within Nature."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "biogenic-material-ontic-001",
+        "description": "Natural Material contains the life-made branch; its full decomposition lives in its own node and note."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "composed_of",
+        "targetNodeId": "earth-material-ontic-001",
+        "description": "Natural Material contains the non-living branch (Natural Abiogenic); its full decomposition lives in its own node and note."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Substantial.Substance",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "macro",
+      "naturalElementType": "Substance / Matter",
+      "limitationFactors": [
+        "complexity",
+        "scale",
+        "data-availability",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "substance-totality",
+        "origin-split-parent",
+        "intention-boundary"
+      ],
+      "realityDomains": [
+        "physics",
+        "chemistry",
+        "biology",
+        "earth-science"
+      ],
+      "noteRef": "nature/natural-material.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Substance / Matter): the affirmed furniture is observer-independent untransformed matter. Readable as technique (every working of this matter with its products) and as social (tenures, grades, firms, prices); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "social"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/natural-material.md.",
+      "createdAt": "2026-10-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-01",
+          "reviewNote": "Super-kind node: all untransformed matter. Parent of the biogenic/abiogenic split."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": []
+  },
+  {
+    "id": "biogenic-material-ontic-001",
+    "name": "NaturalBiogenic",
+    "tags": [
+      "reality",
+      "ontic",
+      "biogenic",
+      "biomolecule",
+      "organic-sediment",
+      "substance"
+    ],
+    "layer": "Epistemic",
+    "category": "reality",
+    "description": "All matter made by or of life forms: tissues, secretions, metabolites, organic sediments, biogenic rocks, and transformed substances such as petroleum — individuated by origin, not composition.",
+    "longDescription": "Meso-level segment archetyped by shell-carbonate, child of earth-ontic-001 (depositional setting) and natural-material-ontic-001 (origin branch). Entered via the composition spine (Natural Object -> Building Block -> Substance / Matter): a shell bed is the building-block occurrence, the biogenic substance is the kind. Producing organisms appear as Living rows, never merged types. Long-form decomposition lives in the note corpus at nature/biogenic-material.md.",
+    "chronology": {
+      "summary": "From Precambrian biomarkers through Phanerozoic reef and forest accumulation to contemporary secretions; burial, diagenesis, and transformation into kerogen, coal, and petroleum.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "earth-ontic-001",
+        "description": "Biogenic matter accumulates and transforms within Earth's depositional systems."
+      },
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "part_of",
+        "targetNodeId": "natural-material-ontic-001",
+        "description": "Natural Biogenic is the life-made branch of Natural Material."
+      }
+    ],
+    "specific": {
+      "ontologicalClass": "Ontic.Substantial.Substance",
+      "observability": "observable",
+      "temporalProfile": "perdurant",
+      "levelOfExistence": "first-order",
+      "levelOfOrganization": "meso",
+      "naturalElementType": "Substance / Matter",
+      "limitationFactors": [
+        "complexity",
+        "nonlinearity",
+        "uncertainty",
+        "scale",
+        "data-availability",
+        "partial-observability",
+        "non-repeatability",
+        "many-body-coupling"
+      ],
+      "functionalRoles": [
+        "origin-defined-kind",
+        "biomarker-host",
+        "feedstock-source"
+      ],
+      "realityDomains": [
+        "biogeochemistry",
+        "paleontology",
+        "sedimentology",
+        "organic-geochemistry"
+      ],
+      "noteRef": "nature/biogenic-material.md"
+    },
+    "metadata": {
+      "categoryAmbiguity": {
+        "isAmbiguous": true,
+        "primaryJustification": "Default root is natural (Substance / Matter): the affirmed furniture is observer-independent life-made matter. Readable as technique (identification methods; workings of biogenic feedstocks) and as commodity (coal, oil, timber with grade, firm, price); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+        "alternativeCategories": [
+          "technique",
+          "commodity"
+        ]
+      },
+      "confidenceScore": 0.8,
+      "sourceReference": "Philosophia Naturalis et Operis decomposition; note nature/biogenic-material.md; https://en.wikipedia.org/wiki/Biogenic_substance.",
+      "createdAt": "2026-10-01T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-01",
+          "reviewNote": "Origin-defined kind node, child of natural-material-ontic-001. Archetype, not a specimen."
+        }
+      ],
+      "inheritanceLevel": 0,
+      "source": "nature-manual"
+    },
+    "references": [
+      {
+        "title": "Biogenic substance - Wikipedia",
+        "description": "Definition (product made by or of life forms), history, abiogenic opposite, examples."
+      }
+    ]
   }
 ]
