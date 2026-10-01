@@ -6774,5 +6774,262 @@
     "description": "The worked landform as observer-independent furniture; the instrument here, the formation there."
    }
   ]
+ },
+ {
+  "id": "technical-material-001",
+  "name": "Technical Material",
+  "tags": [
+   "technique",
+   "material",
+   "resource",
+   "technical-resource"
+  ],
+  "layer": "Artifact Space",
+  "category": "Resource",
+  "description": "All intentionally transformed matter: natural substances worked by purposeful agents into feedstocks, objects, and products, split by feedstock origin into biogenic and abiogenic families, with ambiguous cases classifying at this most abstract level.",
+  "longDescription": "A `Technical Resource` root whose members are two same-type instance families (Technical Biogenic Material Set, Technical Abiogenic Material Set) plus the ambiguous-origin materials (petroleum-derived polymers) that belong only here: forcing them into either family is false precision, so they rise to the most abstract classification with readable-as-either-way prose. The untransformed formation is the natural reading (nature:natural-material-ontic-001) and lives outside this boundary. Long-form decomposition lives in the note corpus at technique/technical-material.md.",
+  "chronology": {
+   "summary": "From stone knapping and timber framing through smelting, glassmaking, pulping, and petrochemistry to engineered bioplastics and silicon.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "technical-biogenic-material-001",
+    "description": "Member family: worked matter from living feedstocks; full tree in its own node and note."
+   },
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "has_part",
+    "targetNodeId": "technical-abiogenic-material-001",
+    "description": "Member family: worked matter from mineral feedstocks; full tree in its own node and note."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-resource-root",
+   "technicalElementType": "Technical Resource",
+   "noteRef": "technique/technical-material.md",
+   "boundary": "intentionally transformed matter only; untransformed formations are the natural reading",
+   "composition": "two origin families plus ambiguous-origin members",
+   "subDomainSets": [
+    "Technical Biogenic Material Set",
+    "Technical Abiogenic Material Set"
+   ],
+   "ambiguousMembers": [
+    {
+     "id": "petroleum-polymer",
+     "reason": "paleo-living feedstock reads biogenic, synthesis-erased character reads abiogenic; classifies at this most abstract level, never in either family"
+    }
+   ],
+   "functionalRoles": [
+    "worked-matter-totality",
+    "origin-split-parent",
+    "ambiguity-escalation"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "Default root is technical (Technical Resource): the affirmed furniture is matter under intention. Readable as natural (the untransformed formation and feedstock lineage) and as social (grades, firms, prices); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+    "alternativeCategories": [
+     "NaturalMaterial",
+     "Commodity"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/technical-material.md.",
+   "createdAt": "2026-10-01T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-10-01",
+     "reviewNote": "Super-resource node: all intentionally transformed matter. Ambiguous-origin rule per user direction."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema, No-repetition exception for same-type family scoping, and the multi-root forest rule."
+   },
+   {
+    "title": "Material Technology (technique:material-technology)",
+    "description": "The matter-manipulation domain set; this node holds the worked matter, that note the domain working it."
+   },
+   {
+    "title": "Natural Material (nature:natural-material-ontic-001)",
+    "description": "The counterpart totality: all untransformed matter; the formation here, the object there."
+   }
+  ]
+ },
+ {
+  "id": "technical-biogenic-material-001",
+  "name": "Technical Biogenic Material",
+  "tags": [
+   "technique",
+   "material",
+   "biogenic",
+   "resource",
+   "technical-resource"
+  ],
+  "layer": "Artifact Space",
+  "category": "Resource",
+  "description": "Worked matter from living feedstocks: lumber, paper, leather, charcoal, natural rubber, and bioplastics — biogenic character surviving transformation.",
+  "longDescription": "A `Technical Resource` instance family scoped inside Technical Material (same-type scoping per the No-repetition exception), individuated by living feedstock. Petroleum-derived polymers are deliberately not members: their origin is ambiguous, so they classify at the parent. The living formation is the natural reading (nature:biogenic-material-ontic-001). Long-form decomposition lives in the note corpus at technique/technical-biogenic-material.md.",
+  "chronology": {
+   "summary": "From timber framing and hide tanning through pulping and papermaking to pyrolysis products and fermentation-derived bioplastics.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "technical-material-001",
+    "description": "The living-feedstock family of Technical Material."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-resource-family",
+   "technicalElementType": "Technical Resource",
+   "noteRef": "technique/technical-biogenic-material.md",
+   "boundary": "worked matter from living feedstocks; petroleum polymers excluded to the parent",
+   "composition": "living-feedstock family",
+   "exemplars": [
+    "Lumber",
+    "Paper",
+    "Leather",
+    "Charcoal",
+    "Natural Rubber",
+    "Bioplastic"
+   ],
+   "excludedMembers": [
+    {
+     "id": "petroleum-polymer",
+     "reason": "ambiguous origin; classifies at the Technical Material parent, never here"
+    }
+   ],
+   "functionalRoles": [
+    "biogenic-feedstock-working",
+    "renewable-material-supply"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "Default root is technical (Technical Resource): the affirmed furniture is worked biogenic matter. Readable as natural (the living formation and feedstock lineage) and as commodity (grades, firms, prices); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+    "alternativeCategories": [
+     "NaturalBiogenic",
+     "Commodity"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/technical-biogenic-material.md.",
+   "createdAt": "2026-10-01T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-10-01",
+     "reviewNote": "Living-feedstock family node, member of technical-material-001. Archetype family, not a product line."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema and the multi-root forest rule."
+   },
+   {
+    "title": "Technical Material (technique:technical-material-001)",
+    "description": "The parent resource; ambiguous-origin members live there, never here."
+   },
+   {
+    "title": "Natural Biogenic (nature:biogenic-material-ontic-001)",
+    "description": "The feedstock reading: all matter made by life; the formation here, the object there."
+   }
+  ]
+ },
+ {
+  "id": "technical-abiogenic-material-001",
+  "name": "Technical Abiogenic Material",
+  "tags": [
+   "technique",
+   "material",
+   "abiogenic",
+   "resource",
+   "technical-resource"
+  ],
+  "layer": "Artifact Space",
+  "category": "Resource",
+  "description": "Worked matter from mineral feedstocks: steel, glass, cement, concrete, silicon, and ceramics — furnace-, kiln-, and reactor-intensive transformation.",
+  "longDescription": "A `Technical Resource` instance family scoped inside Technical Material (same-type scoping per the No-repetition exception), individuated by mineral feedstock. The mineral formation is the natural reading (nature:earth-material-ontic-001, titled Natural Abiogenic). Long-form decomposition lives in the note corpus at technique/technical-abiogenic-material.md.",
+  "chronology": {
+   "summary": "From bloomery iron and soda glass through Portland cement and float glass to Czochralski silicon and advanced ceramics.",
+   "events": []
+  },
+  "relationships": [
+   {
+    "relationshipFamily": "mereological",
+    "relationshipType": "part_of",
+    "targetNodeId": "technical-material-001",
+    "description": "The mineral-feedstock family of Technical Material."
+   }
+  ],
+  "specific": {
+   "techniqueKind": "technical-resource-family",
+   "technicalElementType": "Technical Resource",
+   "noteRef": "technique/technical-abiogenic-material.md",
+   "boundary": "worked matter from mineral feedstocks",
+   "composition": "mineral-feedstock family",
+   "exemplars": [
+    "Steel",
+    "Float Glass",
+    "Portland Cement",
+    "Concrete",
+    "Silicon Wafer",
+    "Ceramic Tile"
+   ],
+   "functionalRoles": [
+    "mineral-feedstock-working",
+    "structural-material-supply"
+   ]
+  },
+  "metadata": {
+   "categoryAmbiguity": {
+    "isAmbiguous": true,
+    "primaryJustification": "Default root is technical (Technical Resource): the affirmed furniture is worked abiogenic matter. Readable as natural (the mineral formation and feedstock lineage) and as commodity (grades, firms, prices); those readings decompose under their own grammars per the multi-root forest rule and are kept as cross-link prose, never merged.",
+    "alternativeCategories": [
+     "NaturalAbiogenic",
+     "Commodity"
+    ]
+   },
+   "confidenceScore": 0.8,
+   "sourceReference": "Philosophia Artium Technicarum decomposition; note technique/technical-abiogenic-material.md.",
+   "createdAt": "2026-10-01T00:00:00Z",
+   "auditTrail": [
+    {
+     "reviewDate": "2026-10-01",
+     "reviewNote": "Mineral-feedstock family node, member of technical-material-001. Archetype family, not a product line."
+    }
+   ],
+   "inheritanceLevel": 0,
+   "source": "technique-manual"
+  },
+  "references": [
+   {
+    "title": "Philosophia Artium Technicarum et Operis",
+    "description": "Decomposition schema and the multi-root forest rule."
+   },
+   {
+    "title": "Technical Material (technique:technical-material-001)",
+    "description": "The parent resource holding both origin families."
+   },
+   {
+    "title": "Natural Abiogenic (nature:earth-material-ontic-001)",
+    "description": "The feedstock reading: all physical matter not made by life; the formation here, the object there."
+   }
+  ]
  }
 ]
