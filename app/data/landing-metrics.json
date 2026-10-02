@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-02T17:41:40Z",
+ "generated": "2026-10-02T20:43:16Z",
  "modules": {
   "social": {
-   "nodes": 7458,
-   "edges": 233
+   "nodes": 7284,
+   "edges": 221
   },
   "research": {
    "nodes": 15,
@@ -18,8 +18,8 @@
    "edges": 1731
   },
   "epistemica": {
-   "nodes": 134,
-   "edges": 146
+   "nodes": 308,
+   "edges": 154
   },
   "nature": {
    "nodes": 3338,
@@ -30,7 +30,7 @@
    "edges": 56
   },
   "note": {
-   "nodes": 3299,
+   "nodes": 3304,
    "edges": null
   },
   "qa": {

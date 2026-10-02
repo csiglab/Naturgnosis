@@ -25,10 +25,12 @@
    checklist** (13 items) is recorded as ontic properties of the segment.
 3. **Multi-typed instances.**
    [Ambiguity Resolution](ambiguity_resolution.md) plus "How to
-   decompose an instance that belongs to multiple element types?" in the
-   [technicarum guide](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
-   — one tree per confirmed reading (multi-root forest), never two types on one row;
-   when the root typing is ambiguous, ask the human. Naturalis QA: the instrument
+    decompose an instance that belongs to multiple element types?" in the
+    [technicarum guide](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
+    — one tree per confirmed reading (multi-root forest), never two types on one row;
+    when the readings span spaces, grow a single multi-root note with a declared
+    primary instead of separate notes; when the root typing is ambiguous, ask
+    the human. Naturalis QA: the instrument
    technically, the formation naturally, cross-linked at the Observation Interface;
    secondary readings stay `readable as …` prose.
 4. **Artifacts and invariants.** Apply "Topic placement strategy" steps 3–7 unchanged,

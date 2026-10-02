@@ -18,9 +18,11 @@
 2. **Type the root; ambiguity goes to the human, never guess.** When the instance is readable under
    several grammars (a quarry is a landform *and* a worksite *and* a facility), STOP and ask
    the human which readings to grow trees for (and which is primary) before decomposing.
-   One tree per confirmed type (multi-root forest — never two types on one row). Only when
-   no answer comes, declare one default root and keep the others as `readable as …` prose
-   cross-links.
+    One tree per confirmed type (multi-root forest — never two types on one row). When
+    the confirmed readings span *spaces*, document them in one multi-root note with
+    a declared primary (see the ambiguity reading). Only when
+    no answer comes, declare one default root and keep the others as `readable as …` prose
+    cross-links.
 3. **Fix the depth before decomposing; default to the middle path.** Every decomposition
    request states its level of detail — shallow (root plus direct constituents, no
    intermediaries), middle (full intermediate structure: grouping nodes throughout,
