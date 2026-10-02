@@ -1,12 +1,24 @@
 # Philosophia Artium Technicarum et Operis
 
-> In this note, we will analyze the concept of purposeful (agentic) operation and its primary driver —  technique.
+> Reality is the total set of phenomena, entities, and processes that exist or occur, independently of an observer's perception or conceptualization, and which can, in principle, interact, change, or produce effects.
 
-> This note seeks to systematize a philosophy of technique and operation that can serve as a conceptual foundation for organizing the ideas used to explain operation and praxis across diverse fields and tasks.
+> Philosophia Artium Technicarum is the scaffolding used to transform, construct, and control reality through purposeful operation.
 
-> It’s the complement of Philosophia Naturalis.
+> This note is a guide connecting Reality with its Transformation — intervention, fabrication, operation, technique, and praxis. It is the complement of Philosophia Artium Epistemicarum et Operis: where that note systematizes how reality becomes intelligible, this one systematizes how reality is transformed.
+
+> Engineering is a training ground for rigorous intervention because it enforces precise, testable, and feedback-rich transformations of reality. The value lies in transferring this technical discipline — rather than its specific artifacts — into more complex domains like social systems.
+
+## Index
 
 ## Formulation
+
+### What is the nature of `technical practice`?
+
+> Technical practice: (Reality; Knowledge, Resources) → Desired Transformation & Realized Difference.
+
+> A technical activity is any operation performed by an agent to transform, construct, control, or maintain a segment of reality toward a desired state.
+
+> The goal of technique is (1) to construct and maintain the scaffolding mechanisms of operation, and (2) to construct, deploy, and sustain the Domain Concrete Technical Artifact Set that realizes desired differences in reality.
 
 ### What is the nature of the `technique`?
 
@@ -15,6 +27,8 @@
 ### What is the role of the `technique` in human experience?
 
 > Technique enables agents to systematically transform, construct, and control aspects of reality to achieve desired states.
+
+> The labour of technical practice goes hand in hand with a layout of reality — that is its operative template: every technical move presupposes an operative parsing of reality, and every operative distinction earns its keep through transformative use.
 
 ### What is a `technical element`?
 
@@ -26,104 +40,102 @@
 
 > Foundation - **Reality -** The ontological substrate comprising the physical, biological, informational, and social structures that constrain and respond to technical intervention. Steel beam, fluid flow, electric grid, living tissue, user population, software runtime environment.
 
-## How can we characterize the technical aspect of human experience?
+### What is the reality we seek to transform?
+
+> Observer-independent reality: it exists whether acted upon or modeled; it is composed of entities and processes with causal effects; it is dynamic and interconnected, producing emergent patterns; and it responds — imperfectly predictably — to intervention constrained by what actually exists.
+
+> Reality is decomposed for operation in the Technical Order tree below.
+
+### At which level of organization do we intervene?
+
+> The hierarchical stratification of structural and functional components, from microscopic interactions to emergent macroscopic behaviors — crucial when intervening in systems with multiscale dynamics, memory, or adaptive laws.
+
+- **Micro-level:** Individual elements and their local interactions.
+- **Meso-level:** Subsystems, modules, clusters of interactions.
+- **Macro-level:** Emergent patterns, global behavior, systemic properties.
+- Systems thinking is **hierarchical**: different interventions require different levels of analysis.
+
+### What is the ontology of the target?
+
+> What is reality like as transformable? Which elements make it up? How do we identify them? Ontology answers by constraining what can be transformed; its operative constructs for parsing (entities, structures, regions, media, paths, interfaces, processes, states, constraints) live in the Technical Domain Reality Model below, and the full template in the Ontic Order branch of the epistemicarum guide.
+
+### How can we characterize the technical aspect of human experience?
 
 > A taxonomy (conceptual structure) that renders the *intervention-oriented* and *fabrication-oriented* practice of agents intelligible.
 
-> **Note:** Different names may be used to refer to generic composites of technical elements, such as *Technical Domain*, *Technical Ecosystem*, *Technical System*, or similar concepts. Each of these terms carries its own specific semantics. For the sake of simplicity and generality, however, we use the term **`Technical Element Set`** as the generic type. The specific semantics are then provided by the particular set itself, rather than being encoded in the generic type.
+> The labour of technical practice goes hand in hand with a layout of reality — that is its operative template: every technical move presupposes an operative parsing, and every operative distinction earns its keep through transformative use.
 
-> Recursion is introduced by allowing a composite to have another composite as an instance: a `Technical Element Set` may contain `Technical Element Set`s (a CI/CD practice within a DevOps set). Nesting composites in composites is what makes the type tree recursive.
+> Note: Technical Element Type is recursive. The single table below holds the branch: `(root) -> <<Technical Element>> -> Technical Order` (contexts, requirements, knowledge, agents, structures, mechanisms, techniques, control, lifecycle). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or evaluating intervention — contexts, requirements, standards, principles, frameworks, strategies, institutions, feedback, evaluation, maintenance, lifecycle; the rest, and all operative content rows, are operation's objects and targets.
 
-> **Note on relations :** Regarding instance decomposition and the recursive view of the technical element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
+> **Note on generic composites:** Different names may be used to refer to generic composites of technical elements, such as *Technical Domain*, *Technical Ecosystem*, *Technical System*, or similar concepts. Each carries its own semantics. For simplicity we use **`Technical Element Set`** as the generic type; ensemble scopes (ecosystems, DevOps sets) bind the placeholder as `Technical Element Set`. The composite `Production Technical System` heads the System spine.
 
-> Every non-generic type is defined exactly once, in the Tabular view above. The Recursive view below states expansion rules only and introduces no subtypes of its own. The generic composite `Technical Element Set` is embodied by the placeholder binding itself, not by a child row; the composite `Production Technical System` heads the System spine.
+> Recursion is introduced by allowing a composite to have another composite as an instance: a `Technical Element Set` may contain `Technical Element Set`s (a CI/CD practice within a DevOps set); a `Production Technical System` may contain further systems and whole sets besides its objects. Nesting composites in composites is what makes the type tree recursive.
+
+> **Spines (adapted to technique):** system-spine `Production Technical System -> Production Technical Object -> Constitutive Technical Object` (virtual objects attach under the system); practice-spine `Technical Practice -> Technical Task -> General Technique -> Operative Technique -> Technical Act` (constitutive techniques and interface-actuation attach under the practice); evaluation-spine `Technical Evaluation -> Verification / Validation`. Flat types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
+
+> **Note on relations:** Regarding instance decomposition and the recursive view of the technical element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
 
 > Each type with its category, role description, and instances.
 
-### Tabular View
-
-| **Technical Category** | **Technical Element Type** | **Description (Role)** | **Instance(s)** |
+| **Technical Category** | **Technical Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
-| **Composite** | Technical Element Set | A collection of technical elements. | Semiconductor manufacturing ecosystem; modern LLM ecosystem |
-|  | Production Technical System | Organized set of production technical objects whose interaction realizes a technical capability. It is composite: a system may contain further systems and whole `Technical Element Set`s (practices, tooling sets) besides its objects. | Power plant; computer system; manufacturing line |
-| **Technical Context** | Technical Problem | Discrepancy between a current or projected state and a desired technical state that calls for intervention. | Reducing query latency below 200 ms under 10× load |
-|  | Technical Purpose | Intended ultimate effect or value of the technical endeavor. | Transport passengers; cure an infection; provide real-time financial data |
-|  | Technical Constraint | Bound on technical action imposed by reality, resources, regulations, or other conditions. | Material strength; power budget; latency floor; regulatory restriction |
-|  | Technical Resource | Input required or consumed by technical activity. | Silicon wafers; electricity; RAM; labor-hours; capital |
-|  | Technical Domain Reality Model | Operative model of the domain/environment in which technical practice is embedded and which grounds its operations: bounded tuple of entities, structures, regions, media, paths, interfaces, processes, states, and constraints. | Operating-site model for a surgical robot; urban street model for autonomous driving; software runtime environment model |
-| **Requirements & Definition** | Technical Requirement | Formalized desired state, need, or performance objective a solution must satisfy. | 99.99% uptime; <50 dB noise |
-|  | Technical Specification | Precise statement of requirements, parameters, performance, and interface conditions used to define and verify a solution. | API response time <200 ms p99; −40°C to +85°C operating range |
-|  | Technical Parameter | Variable whose value characterizes or controls a technical object or process. | Voltage; timeout; CPU frequency; thread count; tolerance |
-|  | Technical Standard | Normative specification governing form, function, safety, interoperability, or performance. | POSIX; HTTP; ISO standards; electrical codes |
-| **Knowledge & Methodology** | Technical Research | Systematic investigation aimed at discovering technical knowledge, principles, methods, materials, or capabilities. | Novel battery chemistry; new semiconductor process |
-|  | Technical Principle | General rule governing construction or operation of technical systems. | Least privilege; redundancy; fail-safe; separation of concerns |
-|  | Technical Framework | Overarching logic for structuring technical problems and generating or evaluating solutions. | Systems engineering; TRIZ; control theory; FMEA |
-|  | Technical Strategy | Context-sensitive regime for planning, sequencing, prioritizing, and allocating technical work. | Agile; waterfall; prototyping-first; blue-green deployment |
-|  | Technical Institution | Durable social structure that organizes, governs, or sustains technical practice and knowledge. | IEEE; FAA; corporate R&D division; standards body |
-| **Agents & Competence** | Technical Agent | Entity capable of executing Techniques using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
-|  | Technical Labor | Purposive expenditure of human cognitive or physical effort in technical activity. | Programming; machining; electrical installation |
-|  | Technical Competence | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; engineer’s systems expertise |
-| **System Structure** | Technical Architecture | Fundamental structural organization of a technical system, including components, relationships, boundaries, and governing principles. | Client-server; microkernel; microservices; layered architecture |
-|  | Technical Blueprint | Generative description prescribing how to create, assemble, or configure an artifact. | Engineering drawing; source code; CAD model; IaC template |
-|  | Technical Configuration | Particular arrangement of components, parameters, versions, and settings determining operational state. | FreeBSD kernel configuration; Kubernetes deployment configuration |
-|  | Technical Interface | Defined boundary through which technical elements exchange matter, energy, information, or control. | API; electrical connector; CLI; network protocol |
-|  | Production Virtual Technical Object | A technical object whose operative structure is primarily informational or computational and whose operation is realized through computation. | LLM, database, algorithm, simulation |
-|  | Production Technical Object | Technical object produced within a production system and intended to enable action or further production. | Aircraft; server; turbine; software product |
-|  | Constitutive Technical Object | Component or sub-assembly constituting a larger technical object or system. | CPU; battery cell; bearing; database schema |
-| **System Relations** | Technical Dependency | Relation in which one technical element requires another for production, operation, or maintenance. | Application → operating system → hardware |
-|  | Technical Interaction | Relation through which technical elements affect one another during operation or transformation. | Sensor → controller → actuator |
-| **Mechanism & Capability** | Technical Capability | Value-producing possibility enabled by a technical function. | Network communication; secure authentication; high-speed computation |
-|  | Technical Mechanism | Physical, procedural, or logical arrangement through which a function or transformation is produced. | Milling; refactoring; soldering; garbage collection |
-|  | Technical Property | Characteristic attributable to a technical object, process, or system. | Mass; latency; modularity; reliability |
-|  | Technical Quality | Degree to which desirable technical properties are possessed under relevant conditions. | Reliability; maintainability; efficiency; safety |
-|  | Technical Performance | Realized quantitative behavior under specified conditions. | 10 Gbit/s throughput; 99.99% availability |
-| **Technique** | Technical Practice | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
-|  | Technical Task | Discrete unit of planned technical work assigned to an agent. | Implement authentication; calibrate sensor |
-|  | General Technique | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
-|  | Operative Technique | Situated application of a technique by an agent to a particular technical situation. | Applying TIG welding to a specific aluminum joint |
-|  | Constitutive Technique | A technique embodied in a technical element that constitutes part of its technical organization, establishing an internal dynamic logic through which the element operates and fulfills its technical role. | Parsing, optimization, code generation |
-|  | Technical Act | Primitive Technique performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
-|  | Technical Interface & Actuation | Boundary and means through which an agent encodes intent and acts upon a technical object or reality. | CNC spindle + G-code; robotic gripper + controller |
-| **Technical Control** | Technical Feedback | Information about intervention effects or system state that enables adjustment and error correction. | Sensor reading; build error; crash report; quality inspection |
-|  | Technical Evaluation | Systematic determination of properties, performance, adequacy, or conformity. | Benchmarking; inspection; testing |
-|  | Verification | Evaluation of whether an artifact conforms to its specification or blueprint. | Unit tests; static analysis; dimensional inspection |
-|  | Validation | Evaluation of whether an artifact fulfills its intended purpose or solves the intended problem. | User validation; operational trials |
-|  | Technical Hazard | Condition or source capable of producing an undesirable or harmful technical outcome. | Exposed voltage; thermal runaway; race condition |
-|  | Technical Risk | Possibility and consequence of an undesirable technical outcome under uncertainty. | Structural failure risk; security breach risk |
-|  | Technical Trade-off | Relationship in which improvement in one property or objective constrains another. | Performance vs. energy consumption; flexibility vs. complexity |
-|  | Technical Failure | State or event in which a technical object or process fails to perform a required function or satisfy a specification. | Crash; structural fracture; thermal runaway |
-|  | Technical Security | Principles and practices concerned with protecting systems against unauthorized or adversarial actions. | Access control; encryption; authentication |
-| **Lifecycle & Continuity** | Technical Maintenance | Activity performed to preserve or restore an artifact's functional state. | Patching; lubrication; recalibration; replacement |
-|  | Technical Service | Technical capability delivered to an external agent or system through an operational interface. | DNS resolution; payment processing; electricity delivery |
-|  | Technical Lifecycle | Temporal trajectory of a technical object from conception through production, operation, maintenance, modification, and retirement. | Design → production → deployment → operation → retirement |
-|  | Technical Evolution | Historical change in technical artifacts, processes, knowledge, and capabilities over time. | Vacuum tubes → transistors → integrated circuits |
-|  | Technical Obsolescence | Condition in which a technical artifact loses technical, economic, or social viability relative to alternatives. | Legacy operating system; obsolete communication protocol |
+| **Meta** | `(root) -> <<Technical Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `->` links expansion steps: binding at the root, containment-in-scope below. | e.g. bound to `Production Technical System` for a plant; to `Technical Practice` for CI/CD |
+| **Meta** | `(root) -> <<Technical Element>> -> Technical Order` | The organized intervention side: contexts, requirements, knowledge, agents, structures, mechanisms, techniques, control, and lifecycle through which reality is transformed. | Technical scaffolding and its objects |
+| **Composite** | (root) -> <<Technical Element>> -> Technical Order -> Technical Element Set | A collection of technical elements. | Semiconductor manufacturing ecosystem; modern LLM ecosystem |
+| **Composite** | (root) -> <<Technical Element>> -> Technical Order -> Production Technical System | Organized set of production technical objects whose interaction realizes a technical capability. It is composite: a system may contain further systems and whole `Technical Element Set`s (practices, tooling sets) besides its objects. | Power plant; computer system; manufacturing line |
+| **Technical Context** | (root) -> <<Technical Element>> -> Technical Order -> Technical Problem | Discrepancy between a current or projected state and a desired technical state that calls for intervention. | Reducing query latency below 200 ms under 10× load |
+| **Technical Context** | (root) -> <<Technical Element>> -> Technical Order -> Technical Purpose | Intended ultimate effect or value of the technical endeavor. | Transport passengers; cure an infection; provide real-time financial data |
+| **Technical Context** | (root) -> <<Technical Element>> -> Technical Order -> Technical Constraint | Bound on technical action imposed by reality, resources, regulations, or other conditions. | Material strength; power budget; latency floor; regulatory restriction |
+| **Technical Context** | (root) -> <<Technical Element>> -> Technical Order -> Technical Resource | Input required or consumed by technical activity. | Silicon wafers; electricity; RAM; labor-hours; capital |
+| **Technical Context** | (root) -> <<Technical Element>> -> Technical Order -> Technical Domain Reality Model | Operative model of the domain/environment in which technical practice is embedded and which grounds its operations: bounded tuple of entities, structures, regions, media, paths, interfaces, processes, states, and constraints. | Operating-site model for a surgical robot; urban street model for autonomous driving; software runtime environment model |
+| **Requirements & Definition** | (root) -> <<Technical Element>> -> Technical Order -> Technical Requirement | Formalized desired state, need, or performance objective a solution must satisfy. | 99.99% uptime; <50 dB noise |
+| **Requirements & Definition** | (root) -> <<Technical Element>> -> Technical Order -> Technical Specification | Precise statement of requirements, parameters, performance, and interface conditions used to define and verify a solution. | API response time <200 ms p99; −40°C to +85°C operating range |
+| **Requirements & Definition** | (root) -> <<Technical Element>> -> Technical Order -> Technical Parameter | Variable whose value characterizes or controls a technical object or process. | Voltage; timeout; CPU frequency; thread count; tolerance |
+| **Requirements & Definition** | (root) -> <<Technical Element>> -> Technical Order -> Technical Standard | Normative specification governing form, function, safety, interoperability, or performance. | POSIX; HTTP; ISO standards; electrical codes |
+| **Knowledge & Methodology** | (root) -> <<Technical Element>> -> Technical Order -> Technical Research | Systematic investigation aimed at discovering technical knowledge, principles, methods, materials, or capabilities. | Novel battery chemistry; new semiconductor process |
+| **Knowledge & Methodology** | (root) -> <<Technical Element>> -> Technical Order -> Technical Principle | General rule governing construction or operation of technical systems. | Least privilege; redundancy; fail-safe; separation of concerns |
+| **Knowledge & Methodology** | (root) -> <<Technical Element>> -> Technical Order -> Technical Framework | Overarching logic for structuring technical problems and generating or evaluating solutions. | Systems engineering; TRIZ; control theory; FMEA |
+| **Knowledge & Methodology** | (root) -> <<Technical Element>> -> Technical Order -> Technical Strategy | Context-sensitive regime for planning, sequencing, prioritizing, and allocating technical work. | Agile; waterfall; prototyping-first; blue-green deployment |
+| **Knowledge & Methodology** | (root) -> <<Technical Element>> -> Technical Order -> Technical Institution | Durable social structure that organizes, governs, or sustains technical practice and knowledge. | IEEE; FAA; corporate R&D division; standards body |
+| **Agents & Competence** | (root) -> <<Technical Element>> -> Technical Order -> Technical Agent | Entity capable of executing Techniques using tools, resources, and knowledge. | Engineer; robot; compiler; build pipeline |
+| **Agents & Competence** | (root) -> <<Technical Element>> -> Technical Order -> Technical Labor | Purposive expenditure of human cognitive or physical effort in technical activity. | Programming; machining; electrical installation |
+| **Agents & Competence** | (root) -> <<Technical Element>> -> Technical Order -> Technical Competence | Acquired capacity to reliably execute technical processes and techniques. | Surgeon’s procedural skill; engineer’s systems expertise |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Technical Architecture | Fundamental structural organization of a technical system, including components, relationships, boundaries, and governing principles. | Client-server; microkernel; microservices; layered architecture |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Technical Blueprint | Generative description prescribing how to create, assemble, or configure an artifact. | Engineering drawing; source code; CAD model; IaC template |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Technical Configuration | Particular arrangement of components, parameters, versions, and settings determining operational state. | FreeBSD kernel configuration; Kubernetes deployment configuration |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Technical Interface | Defined boundary through which technical elements exchange matter, energy, information, or control. | API; electrical connector; CLI; network protocol |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Production Technical System -> Production Virtual Technical Object | A technical object whose operative structure is primarily informational or computational and whose operation is realized through computation. | LLM, database, algorithm, simulation |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Production Technical System -> Production Technical Object | Technical object produced within a production system and intended to enable action or further production. | Aircraft; server; turbine; software product |
+| **System Structure** | (root) -> <<Technical Element>> -> Technical Order -> Production Technical System -> Production Technical Object -> Constitutive Technical Object | Component or sub-assembly constituting a larger technical object or system. | CPU; battery cell; bearing; database schema |
+| **System Relations** | (root) -> <<Technical Element>> -> Technical Order -> Technical Dependency | Relation in which one technical element requires another for production, operation, or maintenance. | Application → operating system → hardware |
+| **System Relations** | (root) -> <<Technical Element>> -> Technical Order -> Technical Interaction | Relation through which technical elements affect one another during operation or transformation. | Sensor → controller → actuator |
+| **Mechanism & Capability** | (root) -> <<Technical Element>> -> Technical Order -> Technical Capability | Value-producing possibility enabled by a technical function. | Network communication; secure authentication; high-speed computation |
+| **Mechanism & Capability** | (root) -> <<Technical Element>> -> Technical Order -> Technical Mechanism | Physical, procedural, or logical arrangement through which a function or transformation is produced. | Milling; refactoring; soldering; garbage collection |
+| **Mechanism & Capability** | (root) -> <<Technical Element>> -> Technical Order -> Technical Property | Characteristic attributable to a technical object, process, or system. | Mass; latency; modularity; reliability |
+| **Mechanism & Capability** | (root) -> <<Technical Element>> -> Technical Order -> Technical Quality | Degree to which desirable technical properties are possessed under relevant conditions. | Reliability; maintainability; efficiency; safety |
+| **Mechanism & Capability** | (root) -> <<Technical Element>> -> Technical Order -> Technical Performance | Realized quantitative behavior under specified conditions. | 10 Gbit/s throughput; 99.99% availability |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | CI/CD; TDD; SRE; preventive maintenance |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Technical Task | Discrete unit of planned technical work assigned to an agent. | Implement authentication; calibrate sensor |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Technical Task -> General Technique | Generalized method for performing a class of technical operations. | TIG welding; unit testing; photolithography |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Technical Task -> General Technique -> Operative Technique | Situated application of a technique by an agent to a particular technical situation. | Applying TIG welding to a specific aluminum joint |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Constitutive Technique | A technique embodied in a technical element that constitutes part of its technical organization, establishing an internal dynamic logic through which the element operates and fulfills its technical role. | Parsing, optimization, code generation |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Technical Task -> General Technique -> Operative Technique -> Technical Act | Primitive Technique performed by an agent on reality or a technical object. | Cutting; welding; compiling; deploying; measuring |
+| **Technique** | (root) -> <<Technical Element>> -> Technical Order -> Technical Practice -> Technical Interface & Actuation | Boundary and means through which an agent encodes intent and acts upon a technical object or reality. | CNC spindle + G-code; robotic gripper + controller |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Feedback | Information about intervention effects or system state that enables adjustment and error correction. | Sensor reading; build error; crash report; quality inspection |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Evaluation | Systematic determination of properties, performance, adequacy, or conformity. | Benchmarking; inspection; testing |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Evaluation -> Verification | Evaluation of whether an artifact conforms to its specification or blueprint. | Unit tests; static analysis; dimensional inspection |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Evaluation -> Validation | Evaluation of whether an artifact fulfills its intended purpose or solves the intended problem. | User validation; operational trials |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Hazard | Condition or source capable of producing an undesirable or harmful technical outcome. | Exposed voltage; thermal runaway; race condition |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Risk | Possibility and consequence of an undesirable technical outcome under uncertainty. | Structural failure risk; security breach risk |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Trade-off | Relationship in which improvement in one property or objective constrains another. | Performance vs. energy consumption; flexibility vs. complexity |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Failure | State or event in which a technical object or process fails to perform a required function or satisfy a specification. | Crash; structural fracture; thermal runaway |
+| **Technical Control** | (root) -> <<Technical Element>> -> Technical Order -> Technical Security | Principles and practices concerned with protecting systems against unauthorized or adversarial actions. | Access control; encryption; authentication |
+| **Lifecycle & Continuity** | (root) -> <<Technical Element>> -> Technical Order -> Technical Maintenance | Activity performed to preserve or restore an artifact's functional state. | Patching; lubrication; recalibration; replacement |
+| **Lifecycle & Continuity** | (root) -> <<Technical Element>> -> Technical Order -> Technical Service | Technical capability delivered to an external agent or system through an operational interface. | DNS resolution; payment processing; electricity delivery |
+| **Lifecycle & Continuity** | (root) -> <<Technical Element>> -> Technical Order -> Technical Lifecycle | Temporal trajectory of a technical object from conception through production, operation, maintenance, modification, and retirement. | Design → production → deployment → operation → retirement |
+| **Lifecycle & Continuity** | (root) -> <<Technical Element>> -> Technical Order -> Technical Evolution | Historical change in technical artifacts, processes, knowledge, and capabilities over time. | Vacuum tubes → transistors → integrated circuits |
+| **Lifecycle & Continuity** | (root) -> <<Technical Element>> -> Technical Order -> Technical Obsolescence | Condition in which a technical artifact loses technical, economic, or social viability relative to alternatives. | Legacy operating system; obsolete communication protocol |
 
-### Recursive view
-
-> This table defines the **expansion grammar** for valid type trees. It specifies how a `Technical Element Type` may recursively expand; it does not enumerate technical element types. Types and their instances are defined in the **Tabular View**.
->
-> **Expansion**
->
-> * The root binds `(root) -> <<Technical Element>>` to any type defined in the Tabular View.
-> * A bound type may expand through a **down-spine** or by **nesting** another composite.
-> * `Technical Element Set` and `Production Technical System` are recursive composites: they may contain any technical element type, including further sets or systems, at any depth.
->
-> **Notation**
->
-> * `->` means **containment in scope**, not a specified relationship.
-> * `...` means zero or more intermediate composite nestings.
-> * `{any Technical Element Type}` means any terminal type defined in the Tabular View.
->
-> An instance `Tree Path` is valid when it can be generated by these expansion rules.
-
-| **Technical Element Type Tree Expansion Path** | **Expansion Rule** |
-| --- | --- |
-| `(root) -> <<Technical Element>>` | Binding rule: per decomposition the placeholder takes the root instance's Tabular type, and the path continues down that type's spine or facet attachments. It embodies the generic composite: ensemble scopes (ecosystems, DevOps sets) bind here as `Technical Element Set`. `->` links type-expansion steps: binding at the root, containment-in-scope below. Instance-tree paths use plain `→` for instance containment. |
-| `(root) -> <<Technical Element>> -> ... -> Technical Element Set` | Recursion: a set nests inside a composite at any depth. |
-| `(root) -> <<Technical Element>> -> ... -> Production Technical System` | Recursion: a system nests inside a composite at any depth. |
-| `(root) -> <<Technical Element>> -> ... -> Production Technical System -> <<Technical Element>>` | System-composite rule: any technical element type may occur scoped inside a `Production Technical System` at any depth. |
-| `(root) -> <<Technical Element>> -> ... -> {any Technical Element Type}` | General rule: any technical element type may occur at any depth beneath the bound root. |
 
 ## How to decompose any technical instance?
 
@@ -131,9 +143,9 @@
 
 > See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a CRM System?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
 
-> **Technical Element Type Tree Path:** the expansion path typing one instance row (fourth column) — `(root) -> <<Technical Element>>` bound to the row's Tabular type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a schema nesting. In other words, a Tree Path is what a Tree Expansion Path licenses. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
+> **Technical Element Type Tree Path:** the expansion path typing one instance row (fourth column) — `(root) -> <<Technical Element>>` bound to the row's table type, continued by exactly one licensed expansion: a spine-ordered suffix or a composite nesting. In other words, a Tree Path is what the single table generates. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
 
-> **Constructing the path:** (1) type the instance — find its row in the Tabular view; (2) bind — write `(root) -> <<Technical Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or schema nesting); (4) check — single types and spine-ordered chains always license; anything else must match a schema row.
+> **Constructing the path:** (1) type the instance — find its row in the table above; (2) bind — write `(root) -> <<Technical Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix or composite nesting under the bound root); (4) check — single types and spine-ordered chains always license; anything else must match a nested composite.
 
 The tree is governed by the following rules:	
 
@@ -142,11 +154,12 @@ The tree is governed by the following rules:
 * **Leaves:** Every leaf must resolve to a technical instance.
 * **Typing:** Every instance is typed — by its fourth-column Tree Path where the table carries one, otherwise by its nearest enclosing grouping segment, with the decomposition root's type declared once.
 * **Recursion:** Any technical instance identified in the tree may itself be decomposed recursively.
+* **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) -> <<Technical Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
 * **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. a `Technical Standard` grouping scoping the standards family inside a Biotechnology decomposition, whose fourth-column counterpart is `(root) -> <<Technical Element>> -> ... -> Technical Standard`); a same-type segment with only generic description and no scoping function stays forbidden.
 * **Well-Form Instance Tree Path Rule:** Ensure the decomposition provides a rich set of intermediate (internals) nodes - both - type and instances, aiding understanding. The set of intermediate instance nodes representing relationships such as subtyping, composition, support, dependency, or other useful structural relationships.
 * Style Rules for Intermediate Nodes
   * **Instances:** Style intermediate nodes that represent actual technical instances as plain text (no adornment).
-  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`Contact record` -> `Contact Record`, `Stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `CRM`). Type segments keep their Tabular casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.  
+  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`Contact record` -> `Contact Record`, `Stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `CRM`). Type segments keep their table casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.  
   * **Composite Instance Naming**: A *composite* instance — a nested ensemble (a `Technical Element Set`, `Production Technical System`, `Technical Practice`, or sub-domain set), not an ordinary object, record, or mechanism — takes a name ending in `Set` once it sits at a depth greater than 2. Depth counts every segment of the Instance Tree Path, backticked type groupings included, the root type grouping being depth 1. At depth 2 or less the suffix is permitted but never required: `Technical Element Set` -> `Pharmaceutical Technical Domain Set` (depth 2) keeps it, `Technical Element Set` -> `Drug Discovery Set` (depth 3) requires it.
   * **Types:** Style bare technical element types used as grouping nodes as `` `code` ``.
   * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
@@ -154,9 +167,13 @@ The tree is governed by the following rules:
   * The path link - is →.
 * **Technical Element Type Tree Path**: Contains only a concrete path of technical element types; it cannot contain expansion patterns or placeholders.
 
-| Instance Tree Path | Description
-| --- | --- |
+| Instance Tree Path | Description | Technical Category | Technical Element Type Tree Path |
+| --- | --- | --- | --- |
 |  |  |
+
+## Terminology
+
+> The terms used across this note — technique, artifact, system, object, mechanism, process, function, capability, verification, validation, and the technical family — are defined in the [Glossarium](../glossarium/).
 
 ## QA
 
@@ -339,9 +356,9 @@ The tree is governed by the following rules:
 
 > By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — where the table carries a fourth column it holds exactly one type path per row; otherwise typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.
 
-> A technical element can belong to many types: OpenAPI is a `Technical Standard` readable as a `Technical Element Set`; JobRunr is a `Constitutive Technical Object` readable as a `Technical Element Set` and as a `Production Technical System`; a DevOps practice is a `Technical Practice` readable as a `Technical Element Set`. Each reading gets its own root and its own tree: the OpenAPI-as-Standard tree decomposes spec versions and objects (normative content), while the OpenAPI-as-Set tree decomposes documents, tooling, and practices (ecosystem members). Well-formedness per tree is unchanged — every fourth-column path, where the table carries one, must be licensed by an expansion rule; leaves are instances, intermediate nodes give structure.
+> A technical element can belong to many types: OpenAPI is a `Technical Standard` readable as a `Technical Element Set`; JobRunr is a `Constitutive Technical Object` readable as a `Technical Element Set` and as a `Production Technical System`; a DevOps practice is a `Technical Practice` readable as a `Technical Element Set`. Each reading gets its own root and its own tree: the OpenAPI-as-Standard tree decomposes spec versions and objects (normative content), while the OpenAPI-as-Set tree decomposes documents, tooling, and practices (ecosystem members). Well-formedness per tree is unchanged — every fourth-column path, where the table carries one, must be a path the single table generates; leaves are instances, intermediate nodes give structure.
 
-> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the Tabular view above (the "How can we characterize the technical aspect of human experience?" table), recorded as the note's primary belonging in the "What technical element type does this technical instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
+> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the table above (the "How can we characterize the technical aspect of human experience?" table), recorded as the note's primary belonging in the "What technical element type does this technical instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
 
 ### Which note schema used - in order to document a technical element?
 

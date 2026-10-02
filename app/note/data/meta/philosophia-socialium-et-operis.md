@@ -1,10 +1,38 @@
 # Philosophia Socialium et Operis
 
-> In this note, we analyze purposeful association and its primary medium — the social bond: the patterned interactions through which agents coordinate, constrain, and constitute one another.
+> Reality is the total set of phenomena, entities, and processes that exist or occur, independently of an observer's perception or conceptualization, and which can, in principle, interact, change, or produce effects.
+
+> Philosophia Socialium is the scaffolding used to parse, and render intelligible, association — the patterned interactions through which agents coordinate, constrain, and constitute one another.
 
 > This note systematizes a philosophy of the social arts that can serve as a conceptual foundation for organizing the ideas used to explain collective life across diverse domains. It is the complement of Philosophia Artium Technicarum et Operis (which systematizes intervention) and Philosophia Artium Epistemicarum et Operis (which systematizes intelligibility): where those notes ask how reality is transformed and known, this one asks how agents hang together while doing both.
 
+> Markets and firms are a training ground for rigorous social modeling because they enforce observable, feedback-rich coordination under scarcity. The value lies in transferring this coordinative discipline — rather than its specific models — into more complex domains like polities and networked collectives.
+
+## Index
+
 ## Formulation
+
+### What is the nature of `social practice`?
+
+> Social practice: (Reality; Agents, Bonds, Institutions) → Coordinated Order & Shared Meaning.
+
+> A social activity is any operation performed by agents to associate, coordinate, constrain, or constitute one another toward stabilized collective life.
+
+### What is the reality we seek to coordinate within?
+
+> Observer-independent reality as the substrate of association: agents, bonds, lifeworld meanings, and institutional, cultural, and material structures that constrain and respond to social action. Reality is decomposed for inquiry in the Social Order tree below.
+
+### At which level of organization do we associate?
+
+> The hierarchical stratification of structural and functional components, from dyadic encounters to emergent collective orders — crucial when modeling association with nested membership and multi-scale dynamics.
+
+- **Micro-level:** Individual encounters and their local interactions.
+- **Meso-level:** Groups, organizations, and their coupled interactions.
+- **Macro-level:** Emergent orders, collective trajectories, systemic properties.
+
+### What is the ontology of the target?
+
+> What is social reality like as associable? Which units, bonds, and coordinators make it up? Ontology answers by constraining what can be coordinated; its constructs for parsing (units, relations, roles, norms, coordinators, structures) live in the Social Order tree below, read always against layers and facets.
 
 ### What is the nature of the `social`?
 
@@ -24,82 +52,58 @@
 
 > Social practice is grounded in the lived experience of togetherness: intentionality directed at others, mutual recognition, and the lifeworld — the pre-given horizon of shared meanings, typifications, and habitual certainties within which every encounter already finds itself. Interaction units (individuals, groups, organizations, polities, networked collectives) and agencies (structured capacities for intention, selection, execution, and feedback) are crystallizations of this phenomenological ground, not its foundation: they name how the self–other pairing stabilizes into recognizable actors, never what makes the pairing possible.
 
-## How can we characterize the social aspect of human experience?
+### How can we characterize the social aspect of human experience?
 
 > A taxonomy (conceptual structure) that renders the *association-oriented* and *coordination-oriented* practice of agents intelligible.
+
+> The labour of social practice goes hand in hand with a layout of reality — that is its coordinative template: every associative move presupposes a parsing of who relates how, and every relational distinction earns its keep through coordinative use.
+
+> Note: Social Element Type is recursive. The single table below holds the branch: `(root) -> <<Social Element>> -> Social Order` (units, agencies, actions, relations, norms, coordinators, structures, dynamics). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
 
 > **Note on layers:** every social element is read against four strata. The **Ontic** holds what exists extra-mentally (structures, positions, dynamics); the **Synontic** holds what exists only through recursive shared interpretation (roles, prices, borders, currencies); the **Noetic** holds descriptive instruments (indicators, classifications); the **Multi** holds operators inhabiting several layers at once (capital, labor). An element's layer is part of its type — the same name in two layers denotes two readings, decomposed separately.
 
 > **Note on facets:** a facet is an analytically distinct dimension defined by dominant causal mechanisms (economic, normative, ideational, technical…), not a container of actors. Facets scope inquiry; they never own nodes.
 
-> **Note:** Different names may be used to refer to generic composites of social elements, such as *Social Domain*, *Social Ecosystem*, *Social System*, or similar concepts. Each of these terms carries its own specific semantics. For the sake of simplicity and generality, however, we use the term **`Social Compound`** as the generic type. The specific semantics are then provided by the particular compound itself, rather than being encoded in the generic type.
+> **Note on generic composites:** Different names may be used to refer to generic composites of social elements, such as *Social Domain*, *Social Ecosystem*, *Social System*, or similar concepts. For simplicity we use **`Social Compound`** as the generic type; ensemble scopes (labor markets, basin communities) bind the placeholder as `Social Compound`. The composites `Collective / Organization` and `Region` head compound nesting alongside it.
 
 > Recursion is introduced by allowing a composite to have another composite as an instance: a `Social Compound` may contain `Social Compound`s (a trading circuit within a port city labor market set). Nesting composites in composites is what makes the type tree recursive.
 
-> **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
+> **Spines (adapted to the social):** agentic-spine `Interaction Unit -> Agency -> Social Action -> Practice`; normative-spine `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
 
-> Every non-generic type is defined exactly once, in the Tabular view above. The Recursive view below states expansion rules only and introduces no subtypes of its own. The generic composite `Social Compound` is embodied by the placeholder binding itself, not by a child row; the composites `Collective / Organization` and `Region` head compound nesting alongside it.
+> **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
 
 > Each type with its category, role description, and instances.
 
-### Tabular View
-
-| **Social Category** | **Social Element Type** | **Description (Role)** | **Instance(s)** |
+| **Social Category** | **Social Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
-| **Agents** | Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
-|  | Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
-|  | Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
-| **Action** | Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
-|  | Practice | Recurrent, recognizable pattern of situated doings. | Commuting, queuing, deliberating, auditing |
-| **Relation** | Social Relation / Network | Structured tie between units; kinship, alliance, exchange, hierarchy. | Supply chain, patronage web, kinship system |
-|  | Social Role | Expectation-tag binding actor, context, and interpretation to behavior. | Teacher role, fiduciary role, citizenship |
-|  | Power Relation | Asymmetric dependence stabilized into positional advantage. | Creditor–debtor, platform–complementor, metropole–colony |
-| **Normative** | Norm / Regulation | Shared protocol stabilizing interaction: building-block and emergent. | Queuing norm, accounting standard, ceasefire |
-|  | Institution | Stabilized configuration of roles and rules. | Central bank, marriage, land registry |
-|  | Right / Obligation | Deontic positions allocating claims and duties. | Property right, duty of disclosure, franchise |
-|  | Legitimacy | Recognized warrant of authority. | Electoral mandate, expert accreditation |
-| **Cognitive** | Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
-|  | Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
-|  | Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
-| **Structural** | Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
-|  | Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
-|  | Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
-|  | Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
-| **Dynamic** | Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
-|  | Mechanism / Phenomenon | Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment. | Norm emergence, trust consolidation, legitimacy crisis |
-|  | State | Complete relevant-variable snapshot of a configuration at a moment. | Fiscal stance, coalition map, readiness posture |
-| **Coordinators** | Synontic Element | Recognition-constituted coordinator persisting through shared interpretation. | Fiat currency, border, stop sign, reputation score |
-|  | Capital / Labor | Multi-layer economic operators (potentiality and actuality of productive capacity). | Venture pool, care labor, data asset |
-|  | Price / Asset | Scalar coordination variables and claim-objects. | Spot price, license, quota |
+| **Meta** | `(root) -> <<Social Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `->` links expansion steps: binding at the root, containment-in-scope below. | e.g. bound to `Social Compound` for a labor market; to `Institution` for a bank |
+| **Meta** | `(root) -> <<Social Element>> -> Social Order` | The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together. | Social scaffolding and its coordinators |
+| **Agents** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
+| **Agents** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
+| **Agents** | (root) -> <<Social Element>> -> Social Order -> Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
+| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
+| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Practice | Recurrent, recognizable pattern of situated doings. | Commuting, queuing, deliberating, auditing |
+| **Relation** | (root) -> <<Social Element>> -> Social Order -> Social Relation / Network | Structured tie between units; kinship, alliance, exchange, hierarchy. | Supply chain, patronage web, kinship system |
+| **Relation** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role | Expectation-tag binding actor, context, and interpretation to behavior. | Teacher role, fiduciary role, citizenship |
+| **Relation** | (root) -> <<Social Element>> -> Social Order -> Power Relation | Asymmetric dependence stabilized into positional advantage. | Creditor–debtor, platform–complementor, metropole–colony |
+| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation | Shared protocol stabilizing interaction: building-block and emergent. | Queuing norm, accounting standard, ceasefire |
+| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution | Stabilized configuration of roles and rules. | Central bank, marriage, land registry |
+| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation -> Right / Obligation | Deontic positions allocating claims and duties. | Property right, duty of disclosure, franchise |
+| **Normative** | (root) -> <<Social Element>> -> Social Order -> Legitimacy | Recognized warrant of authority. | Electoral mandate, expert accreditation |
+| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
+| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
+| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
+| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
+| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
+| **Structural** | (root) -> <<Social Element>> -> Social Order -> Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
+| **Structural** | (root) -> <<Social Element>> -> Social Order -> Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
+| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
+| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon | Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment. | Norm emergence, trust consolidation, legitimacy crisis |
+| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> State | Complete relevant-variable snapshot of a configuration at a moment. | Fiscal stance, coalition map, readiness posture |
+| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element | Recognition-constituted coordinator persisting through shared interpretation. | Fiat currency, border, stop sign, reputation score |
+| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Capital / Labor | Multi-layer economic operators (potentiality and actuality of productive capacity). | Venture pool, care labor, data asset |
+| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Price / Asset | Scalar coordination variables and claim-objects. | Spot price, license, quota |
 
-### Recursive view
-
-> This table defines the **expansion grammar** for valid type trees. It specifies how a `Social Element Type` may recursively expand; it does not enumerate social element types. Types and their instances are defined in the **Tabular View**.
->
-> **Expansion**
->
-> * The root binds `(root) -> <<Social Element>>` to any type defined in the Tabular View.
-> * A bound type may expand through a **down-spine** or by **nesting** another composite.
-> * `Social Compound`, `Collective / Organization`, and `Region` are recursive composites: they may contain any social element type, including further compounds, at any depth.
->
-> **Notation**
->
-> * `->` means **containment in scope**, not a specified relationship.
-> * `...` means zero or more intermediate composite nestings.
-> * `{any Social Element Type}` means any terminal type defined in the Tabular View.
->
-> An instance `Tree Path` is valid when it can be generated by these expansion rules.
-
-> **Spines (expansion rules):** Agentic-spine rule: `Interaction Unit -> Agency -> Social Action -> Practice`. Normative-spine rule: `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
-
-| **Social Element Type Tree Expansion Path** | **Expansion Rule** |
-| --- | --- |
-| `(root) -> <<Social Element>>` | Binding rule: per decomposition the placeholder takes the root instance's Tabular type, and the path continues down that type's spine or facet attachments. It embodies the generic composite: collective scopes (labor markets, basin communities) bind here as `Social Compound`. `->` links type-expansion steps: binding at the root, containment-in-scope below. Instance-tree paths use plain `→` for instance containment. |
-| `(root) -> <<Social Element>> -> ... -> Social Compound` | Recursion: a compound nests inside a composite at any depth. |
-| `(root) -> <<Social Element>> -> ... -> Collective / Organization` | Recursion: a collective nests inside a composite at any depth. |
-| `(root) -> <<Social Element>> -> ... -> Region` | Recursion: a region nests inside a composite at any depth. |
-| `(root) -> <<Social Element>> -> ... -> Social Compound -> <<Social Element>>` | Compound-composite rule: any social element type may occur scoped inside a `Social Compound` at any depth. |
-| `(root) -> <<Social Element>> -> ... -> {any Social Element Type}` | General rule: any social element type may occur at any depth beneath the bound root. |
 
 ## How to decompose any social instance?
 
@@ -109,9 +113,9 @@
 
 > See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
 
-> **Social Element Type Tree Path:** the expansion path typing one instance row — `(root) -> <<Social Element>>` bound to the row's Tabular type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a schema nesting. In other words, a Tree Path is what a Tree Expansion Path licenses. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
+> **Social Element Type Tree Path:** the expansion path typing one instance row — `(root) -> <<Social Element>>` bound to the row's table type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a composite nesting. In other words, a Tree Path is what the single table generates. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
 
-> **Constructing the path:** (1) type the instance — find its row in the Tabular view; (2) bind — write `(root) -> <<Social Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or schema nesting); (4) check — single types and spine-ordered chains always license; anything else must match a schema row.
+> **Constructing the path:** (1) type the instance — find its row in the table above; (2) bind — write `(root) -> <<Social Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or composite nesting); (4) check — single types and spine-ordered chains always license; anything else must match a composite nesting.
 
 The tree is governed by the following rules:
 
@@ -120,11 +124,12 @@ The tree is governed by the following rules:
 * **Leaves:** Every leaf must resolve to a social instance.
 * **Typing:** Every instance is typed — by its nearest enclosing grouping segment, with the decomposition root's type declared once.
 * **Recursion:** Any instance in the tree may itself be decomposed recursively.
+* **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) -> <<Social Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
 * **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Institution` grouping scoping the exchange-rule family inside a Market decomposition, whose counterpart is `(root) -> <<Social Element>> -> ... -> Institution`); a same-type segment with only generic description and no scoping function stays forbidden.
 * **Well-Form Instance Tree Path Rule:** Ensure the decomposition provides a rich set of intermediate (internals) nodes - both - type and instances, aiding understanding. The set of intermediate instance nodes representing relationships such as composition, support, dependency, regulation, or other useful structural and dynamic relationships.
 * Style Rules for Intermediate Nodes
   * **Instances:** Style intermediate nodes that represent actual social instances as plain text (no adornment).
-  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`port city` -> `Port City`, `stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `EU`). Type segments keep their Tabular casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
+  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`port city` -> `Port City`, `stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `EU`). Type segments keep their table casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
   * **Composite Instance Naming**: A *composite* instance — a nested ensemble (a `Social Compound`, `Collective / Organization`, `Region`, or sub-domain set), not an ordinary unit, role, or mechanism — takes a name ending in `Set` once it sits at a depth greater than 2. Depth counts every segment of the Instance Tree Path, backticked type groupings included, the root type grouping being depth 1. At depth 2 or less the suffix is permitted but never required: `Social Compound` -> `Port City Labor Market Set` (depth 2) keeps it, `Social Compound` -> `Trading Circuit Set` (depth 3) requires it.
   * **Types:** Style bare social element types used as grouping nodes as `` `code` ``.
   * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
@@ -132,35 +137,21 @@ The tree is governed by the following rules:
   * The path link - is →.
 * **Social Element Type Tree Path**: Contains only a concrete path of social element types; it cannot contain expansion patterns or placeholders.
 
-| Instance Tree Path | Description |
-| --- | --- |
-|  |  |
+| Instance Tree Path | Description | Social Category | Social Element Type Tree Path |
+| --- | --- | --- | --- |
+|  |  |  |  |
 
 ### How to decompose an instance that belongs to multiple element types?
 
 > By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.
 
-> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading practice is a `Practice` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be licensed by an expansion rule; leaves are instances, intermediate nodes give structure.
+> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading practice is a `Practice` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be a path the single table generates; leaves are instances, intermediate nodes give structure.
 
-> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the Tabular view above (the "How can we characterize the social aspect of human experience?" table), recorded as the note's primary belonging in the "What social element type does this social instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
+> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the table above (the "How can we characterize the social aspect of human experience?" table), recorded as the note's primary belonging in the "What social element type does this social instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
 
-## Which note schema used - in order to document a social element?
+## Terminology
 
-```bash
-# (Social Element)
-
-> (Intro)
-
-## Formulation
-
-### What social element type does this social instance belong to?
-### What is this social instance?
-### What is the recursive instance decomposition of this social instance?
-
-## References
-
-- ...
-```
+> The terms used across this note — unit, agency, action, relation, role, norm, institution, legitimacy, capital, labor, and the social family — are defined in the [Glossarium](../glossarium/).
 
 ## QA
 
@@ -247,6 +238,24 @@ The tree is governed by the following rules:
 | `Social Compound` → Port City Labor Market Set → `State` → Tightness Snapshot | Complete relevant-variable snapshot of vacancies over seekers (exemplar value per deployment). |
 | `Social Compound` → Port City Labor Market Set → `Belief / Expectation` | Grouping: shared anticipations coordinating behavior. |
 | `Social Compound` → Port City Labor Market Set → `Belief / Expectation` → Wage Expectation | Shared anticipation anchoring offers and holds. |
+
+### Which note schema used - in order to document a social element?
+
+```bash
+# (Social Element)
+
+> (Intro)
+
+## Formulation
+
+### What social element type does this social instance belong to?
+### What is this social instance?
+### What is the recursive instance decomposition of this social instance?
+
+## References
+
+- ...
+```
 
 ## References
 

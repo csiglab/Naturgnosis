@@ -110,20 +110,24 @@ corpus; the ambiguity reading lives beside these conventions.
 
 - Technique content — `app/note/data/meta/philosophia-artium-technicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)):
-  "How to decompose any technical instance?", multi-type (multi-root forest) rule,
-  CRM case study, technical-element note schema.
+  "How to decompose any technical instance?", single recursive table
+  (`(root) -> <<Technical Element>> -> Technical Order`, system/practice/evaluation spines),
+  multi-type (multi-root forest) rule, CRM case study, technical-element note schema.
 - Epistemic content — `app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)):
-  "How to decomposed any epistemical instance?", epistemic-element note schema.
+  "How to decomposed any epistemical instance?", single recursive table
+  (`Epistemic Order` + `Ontic Order`), epistemic-element note schema. Form reference for all four.
 - Social content — `app/note/data/meta/philosophia-socialium-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-socialium-et-operis.md)):
-  "How to decompose any social instance?", layer test (Ontic/Synontic/Noetic/Multi),
-  facet assignment, social-element note schema.
+  "How to decompose any social instance?", single recursive table
+  (`(root) -> <<Social Element>> -> Social Order`, agentic/normative spines),
+  layer test (Ontic/Synontic/Noetic/Multi), facet assignment, social-element note schema.
 - Natural content — `app/note/data/meta/philosophia-naturalis-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)):
-  "How to decompose any natural instance?", level of organization, Limitation
-  checklist, natural-element note schema. Presupposes the epistemicarum definitions;
-  restates nothing from it.
+  "How to decompose any natural instance?", single recursive table
+  (`(root) -> <<Natural Element>> -> Natural Order`, composition/manifestation spines),
+  level of organization, Limitation checklist, natural-element note schema. Presupposes
+  the epistemicarum definitions; restates nothing from it.
 - Ambiguity reading — `guideline/ambiguity_resolution.md`: techniques with epistemic
   goals (canonical case: well logging); type the means technically and the end
   epistemically, one tree per confirmed reading (multi-root forest), never two types
