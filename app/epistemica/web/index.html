@@ -964,6 +964,7 @@
         .dp-badge .dp-badge-key { color: var(--text-muted); text-transform: uppercase; }
         .dp-badge .dp-badge-val { color: var(--accent-copper-light); }
         .dp-badge.dp-layer .dp-badge-val { color: var(--accent-plum); }
+        .dp-badge.dp-space .dp-badge-val { color: var(--accent-cyan); }
         .dp-badge.dp-conf .dp-badge-val { color: var(--accent-sage); }
 
         .dp-body {
@@ -1307,6 +1308,11 @@
                 <div class="category-legend" id="category-legend"></div>
             </div>
 
+            <div class="sb-group">
+                <span class="sb-group-label">Related Space</span>
+                <div class="category-legend" id="space-legend"></div>
+            </div>
+
         </div>
     </aside>
 
@@ -1465,6 +1471,7 @@
         var dLoaded = false;
         var activeCategories = new Set();
         var catVisibility = {};
+        var spaceVisibility = {};
 
         var canvas = document.getElementById('graph-canvas'), ctx = null;
 
@@ -2220,8 +2227,9 @@
             var vc = 0;
             nodes.forEach(function (n) {
                 var inCat = catVisibility[n.category] !== false;
+                var inSpace = !n.relatedSpace || spaceVisibility[n.relatedSpace] !== false;
                 var inTime = isFiniteNum(n.year) ? n.year >= tR.min && n.year <= tR.max : true;
-                n.visible = inCat && inTime;
+                n.visible = inCat && inSpace && inTime;
                 if (n.visible) vc++;
             });
             gE.forEach(function (e) {
@@ -2255,6 +2263,40 @@
                     var cat = el.dataset.category;
                     catVisibility[cat] = catVisibility[cat] === false ? true : false;
                     el.classList.toggle('dimmed', !catVisibility[cat]);
+                    uFilt();
+                });
+            });
+        }
+
+        /* ═══════ RELATED SPACE LEGEND ═══════ */
+        /* Epistemic elements are about a domain space (social, nature, technique…).
+           Filter by the space each element is related to. */
+        var SPACE_COLORS = {
+            social: 'var(--accent-copper)',
+            nature: 'var(--accent-sage)',
+            technique: 'var(--accent-steel)',
+            production: 'var(--accent-amber)',
+            epistemica: 'var(--accent-plum)',
+            nation: 'var(--accent-rose)'
+        };
+        function buildSpaceLegend() {
+            var container = document.getElementById('space-legend');
+            var spaces = Object.keys(spaceVisibility).sort();
+            var html = '';
+            spaces.forEach(function (sp) {
+                var col = SPACE_COLORS[sp] || 'var(--text-muted)';
+                html += '<div class="cat-legend-item" data-space="' + sp + '">';
+                html += '<div class="cat-legend-dot" style="background:' + col + '"></div>';
+                html += '<a href="/' + sp + '/" style="color:inherit;text-decoration:none">' + sp + '</a>';
+                html += '</div>';
+            });
+            container.innerHTML = html || '<div class="cat-legend-item dimmed"><span>none declared</span></div>';
+
+            container.querySelectorAll('.cat-legend-item[data-space]').forEach(function (el) {
+                el.addEventListener('click', function (ev) {
+                    var sp = el.dataset.space;
+                    spaceVisibility[sp] = spaceVisibility[sp] === false ? true : false;
+                    el.classList.toggle('dimmed', !spaceVisibility[sp]);
                     uFilt();
                 });
             });
@@ -2300,6 +2342,11 @@
                 nM[id] = nd;
                 degC[id] = 0;
                 catVisibility[r.category] = true;
+                /* Related domain space, when the epistemic element is about one */
+                if (r.specific && r.specific.relatedSpace) {
+                    nd.relatedSpace = r.specific.relatedSpace;
+                    spaceVisibility[r.specific.relatedSpace] = true;
+                }
                 /* Assign a deterministic community color for this category */
                 catColor(r.category);
             });
@@ -2333,6 +2380,7 @@
             document.getElementById('time-total-count').textContent = nodes.length;
             uTimeFill();
             buildCategoryLegend();
+            buildSpaceLegend();
             uFilt();
 
             /* Positions are precomputed (layout.json); compute metrics + overlays. */
@@ -2773,6 +2821,11 @@
                 escDP(r.layer) + '</span></span>';
             var deg = nodeDegrees[node.id] || node.degree || 0;
             metaHtml += '<span class="dp-badge"><span class="dp-badge-key">Links</span><span class="dp-badge-val">' + deg + '</span></span>';
+            var rspace = (r.specific && r.specific.relatedSpace) || node.relatedSpace;
+            if (rspace) {
+                metaHtml += '<a class="dp-badge dp-space" href="/' + escDP(rspace) + '/" style="text-decoration:none">' +
+                    '<span class="dp-badge-key">Space</span><span class="dp-badge-val">' + escDP(rspace) + '</span></a>';
+            }
             document.getElementById('dp-meta-row').innerHTML = metaHtml;
 
             /* Body — assemble sections */
