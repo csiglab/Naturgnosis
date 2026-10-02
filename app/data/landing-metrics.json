@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T05:07:49Z",
+ "generated": "2026-10-02T17:41:40Z",
  "modules": {
   "social": {
    "nodes": 7458,
@@ -14,8 +14,8 @@
    "edges": 0
   },
   "technique": {
-   "nodes": 133,
-   "edges": 165
+   "nodes": 1700,
+   "edges": 1731
   },
   "epistemica": {
    "nodes": 134,
@@ -30,7 +30,7 @@
    "edges": 56
   },
   "note": {
-   "nodes": 3297,
+   "nodes": 3299,
    "edges": null
   },
   "qa": {
