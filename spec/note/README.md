@@ -7,9 +7,10 @@
 
 Viewer machinery ported from Epistecnica's note system (code only — none
 of its personal notes). The corpus lives in `app/note/data/` in topic-first
-sections (`actor/` social actors, `social/` social-ontology concepts,
-`technique/` tools/systems/libraries/platforms/instances, `operation/`
-housekeeping, `persona/` people, `live/` interactive pages by topic,
+sections (`social/` social-ontology concepts and social actors
+under `social/actor/` (firms, banks, ministries, plus people under
+`social/actor/persona/`), `technique/` tools/systems/libraries/platforms/instances
+(plus housekeeping under `technique/operation/`), `live/` interactive pages by topic,
 `meta/` task guides); see `authoring.md` for the authoring rules.
 
 ## Storage model

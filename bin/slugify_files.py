@@ -2,7 +2,7 @@
 """
 Slugify file names to the Naturgnosis naming guideline.
 
-Rule (see guideline.md): NFKD-normalize to ASCII, lowercase, every run of
+Rule (see guideline/README.md): NFKD-normalize to ASCII, lowercase, every run of
 non-alphanumeric characters becomes a single underscore, trim leading and
 trailing underscores. Collisions get a `_2`, `_3`, … suffix.
 

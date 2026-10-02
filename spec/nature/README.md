@@ -20,8 +20,8 @@ expand them into full records.
   Epistemic scaffolding — operators, standards, frameworks, artifacts, methods — stays in
   `epistemica`, even when it describes natural phenomena.
 - New nature content is decomposed per "How to decompose any natural instance?"
-  (`/note/note.html?n=meta/philosophia-naturalis-et-operis.md`); see the nature route
-  in `guideline.md` ("Task routing") for the reading order.
+   (`/note/note.html?n=meta/philosophia-naturalis-et-operis.md`); see the nature route
+   in `guideline/task_routing_nature.md` for the reading order.
 
 ## Data provenance
 

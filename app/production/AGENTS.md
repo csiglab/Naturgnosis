@@ -30,7 +30,7 @@ python bin/sync.py --no-couch         # static smoke test: /production/ → 200
 - There is no `production` dataset: no CouchDB docs, no `data.json`, no editor. Never
   re-create any of the three; `seed_couchdb.py` and the API must stay production-free.
 - New production content is added as Social nodes carrying the exact tag
-  `production-view` (see "Derived views" in `guideline.md`), then
+  `production-view` (see "Derived views" in `guideline/README.md`), then
   `make production-view` regenerates the graph. Only edges with both ends in the view
   are kept.
 - Keep `web/index.html`'s data-loading contract (`view.json` shape `{nodes: [...]}`)

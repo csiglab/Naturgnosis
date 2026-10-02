@@ -4,7 +4,7 @@ Production derived-view builder (Naturgnosis).
 
 Production Space is not a dataset: its nodes live in Social Space, marked with
 the reserved `production-view` tag when they play a production role (see
-"Derived views" in guideline.md). This script computes the view:
+"Derived views" in guideline/README.md). This script computes the view:
 
     app/social/data/data.json  ->  app/production/data/view.json
                                    app/production/data/view-layout.json

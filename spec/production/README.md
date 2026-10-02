@@ -11,7 +11,7 @@ Production nodes are owned by Social Space and marked there with the reserved
 `app/production/data/view.json` (+ `view-layout.json`). There is no `production` dataset,
 no `data.json`, and no editor — create and edit nodes in `/social/`, then run
 `make production-view`. Market nodes likewise live in Social Space and enter this view
-through the same tag. See "Derived views" in `guideline.md` and
+through the same tag. See "Derived views" in `guideline/README.md` and
 `app/production/AGENTS.md`.
 
 ## Formulation

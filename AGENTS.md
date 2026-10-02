@@ -4,9 +4,10 @@
 
 Instructions for AI agents working in this repository. Follow the conventions below; when a module
 directory contains its own `AGENTS.md`, it takes precedence for work inside that module.
-`guideline.md` (file naming, paths/URLs, commits, branches) is binding. Task workflows —
+`guideline/` (file naming, paths/URLs, commits, branches) is binding. Task workflows —
 how to decompose instances and document elements — live in the meta notes
-(`app/note/data/meta/`, see "Task guides" in `guideline.md`)
+(`app/note/data/meta/`) plus the ambiguity reading
+(`guideline/ambiguity_resolution.md`; see `guideline/README.md`)
 and are binding for decomposition/content work.
 
 ## Project Context
@@ -28,7 +29,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 
 - In: the eight modules under `app/` (social, production, research,
   nation, technique, epistemica, nature, note), shared tooling in `bin/`, deployment in `deploy/`, specs in `spec/`,
-  task guides in `app/note/data/meta/`.
+  task guides in `app/note/data/meta/` (plus `guideline/ambiguity_resolution.md`).
 - Out: the separate **Epistecnica** repository (personal curricula for @dbremont; the in-repo
   `epistemica` module maps the episteme itself, not personal pursuits); market analysis (Social
   Space notes this explicitly); anything requiring a backend other than CouchDB.
@@ -45,7 +46,7 @@ covers what @dbremont intentionally pursues through deep study and mastery; keep
 | `bin/` | Shared tooling: `sync.py` (server), `seed_couchdb.py`, `build_note_index.py`, `layout.py`. |
 | `deploy/` | Dockerfile, docker-compose.yml (app-only), `deploy_local.sh`, `deploy_server.sh`, `preflight.sh`; `README.md` = execution-environment note. |
 | `spec/` | Global spec (`spec/README.md`), per-module specs, theme spec. |
-| `app/note/data/meta/` | Task guides: the two philosophiae with the decompose-instance workflows and element note schemas (see "Task guides" in `guideline.md`). |
+| `app/note/data/meta/` + `guideline/ambiguity_resolution.md` | Task guides: the four philosophiae with the decompose-instance workflows and element note schemas, plus the ambiguity reading (see `guideline/README.md`). |
 | `docs/` | Does not exist anymore — do not recreate; the served root is `app/`. |
 
 ## Agent Operating Principles
@@ -65,6 +66,8 @@ any epistemical instance?" (`/note/note.html?n=meta/philosophia-artium-epistemic
 (`/note/note.html?n=meta/philosophia-naturalis-et-operis.md`). An instance
 readable as multiple element types gets one tree per type (multi-root forest — never two types
 on one row); when the root typing is ambiguous, ask the user instead of guessing.
+Techniques with epistemic goals go through the ambiguity reading
+(`guideline/ambiguity_resolution.md`).
 
 ### Prefer Existing Solutions
 
@@ -94,9 +97,9 @@ behavior, or clearly scope a change to one module.
 
 ### Keep Work Scoped
 
-One module (or one concern) per change set; follow the commit guideline in `guideline.md`
+One module (or one concern) per change set; follow the commit guideline in `guideline/README.md`
 (mirrors `~/configs/global/git/guideline.md`: `feat|fix|docs|style|refactor|test|chore(scope): summary`).
-New files must satisfy the naming rules in `guideline.md`; run `python bin/slugify_files.py <path>`
+New files must satisfy the naming rules in `guideline/README.md`; run `python bin/slugify_files.py <path>`
 when migrating existing names.
 
 ## Development Environment
@@ -175,8 +178,12 @@ GIT_EDITOR='<script that writes your message into $1>' git commit --amend
 ### Signing & branches
 
 - Commits are SSH-signed via 1Password (`gpg.format=ssh`, `commit.gpgsign=true`).
-- Branches: `<type>/<slug>` (see `guideline.md`); a Jira key in the branch name becomes the
+- Branches: `<type>/<slug>` (see `guideline/README.md`); a Jira key in the branch name becomes the
   commit-message scope automatically.
+- Never inspect git configuration internals: do not read, print, or search `.git/config` — nor
+  any identity/signing config values (`user.*`, `commit.*`, `gpg.*`) from any source. Treat author
+  identity, signing, and hooks as opaque, environment-provided concerns. If a commit fails on
+  identity or signing, stop and ask the human instead of diagnosing configuration.
 
 ## When to Ask
 
