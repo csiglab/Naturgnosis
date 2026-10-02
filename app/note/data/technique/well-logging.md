@@ -4,7 +4,7 @@
 > sondes are lowered to measure the geological formations around it. The intervention succeeds
 > when it yields warranted belief about what lies underground — judged by confirmation,
 > predictive yield, and reproducibility — not by transformation performance. Decomposed twice,
-> once per reading, per [ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md):
+> once per reading, per `guideline/ambiguity_resolution.md`:
 > the means under the technical grammar, the end under the epistemic grammar, cross-linked
 > at the Observation Interface. No row ever carries both types.
 
@@ -77,7 +77,7 @@ between the trees runs between executing the observation and warranting its prod
 
 ## References
 
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (canonical case, multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (canonical case, multi-root forest rule)
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md) (Tree 1 grammar, CRM case-study style)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (Tree 2 grammar, Observation Interface, DCESA)
 - https://en.wikipedia.org/wiki/Well_logging

@@ -69,12 +69,12 @@ No-repetition exception); full expansion lives in the child notes, not here.
 > origin is ambiguous it does not make sense to classify either way, so the instance rises
 > to the most abstract classification — Technical Material — with `readable as biogenic …`
 > and `readable as abiogenic …` prose, in the spirit of the multi-root forest rule
-> ([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+> (`guideline/ambiguity_resolution.md`).
 
 ## References
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (means/end typing; default-root rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (means/end typing; default-root rule)
 - [Material Technology](note.html?n=technique/material-technology.md) (the matter-manipulation domain set)
 - [Materiotecnia](note.html?n=technique/materiotecnia.md) (material investigation and design discipline)
 - [Natural Material](note.html?n=nature/natural-material.md) (counterpart: all untransformed matter)

@@ -102,4 +102,4 @@ Lineage: an institute created in 1969 for air-pollution research, when smog and 
 - [Norwegian Institute for Air Research — Wikipedia](https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research) (history, first director, national responsibility, expert use by international bodies)
 - [NILU at Ny-Ålesund Research Station](https://nyalesundresearch.no/members/norwegian-institute-for-air-research-nilu-norway) (polar presence and the Zeppelin observatory)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [NIBIO (companion note)](note.html?n=actor/knowledge/nibio.md) (the state-agency form against which this foundation stands)
+- [NIBIO (companion note)](note.html?n=social/actor/knowledge/nibio.md) (the state-agency form against which this foundation stands)

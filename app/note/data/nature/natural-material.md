@@ -71,7 +71,7 @@ prices drawn around materials (decompose under the socialium grammar; production
 are Social nodes tagged `production-view`); readable as epistemic — assay standards and
 classification scales (decompose under the epistemicarum grammar). The instrument
 technically, the formation naturally
-([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+(`guideline/ambiguity_resolution.md`).
 
 ## QA
 
@@ -88,7 +88,7 @@ technically, the formation naturally
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (parent: all observer-independent reality)
 - [Earth](note.html?n=nature/earth.md) (parent: the planet system)
 - [Natural Biogenic](note.html?n=nature/biogenic-material.md) (child: all matter made by life)

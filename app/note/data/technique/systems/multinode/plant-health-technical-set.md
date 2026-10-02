@@ -257,4 +257,4 @@ Lineage: disease attributed to a cause at all → isolation, culture, and Koch's
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md) (pathogen populations, isolation-and-inoculation test, Koch's postulates — the knowledge this apparatus produces)
 - [Earth Science](note.html?n=epistemica/earth-science.md) (the climate, weather, and soils that drive infection pressure and the forecast models)
 - [Remote Sensing](note.html?n=technique/remote-sensing.md) (the canopy and stand readings the monitoring set consumes)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (the instrument technically, the formation naturally: a diagnostic test is technique, the disease is nature)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally: a diagnostic test is technique, the disease is nature)

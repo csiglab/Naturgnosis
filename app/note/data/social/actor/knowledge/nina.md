@@ -104,4 +104,4 @@ Lineage: a nature-conservation research tradition going back to the early twenti
 - [Evaluation report: Norwegian Institute for Nature Research (NINA), Research Council of Norway, 2024](https://www.forskningsradet.no/siteassets/publikasjoner/2024/evalbiovit/nina_nina_april-2024.pdf) (standing, mission, staff and funding profile)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Earth Science (companion note)](note.html?n=epistemica/earth-science.md) (the domain whose observation interfaces this monitoring operationalizes)
-- [NTNU (companion note)](note.html?n=actor/knowledge/ntnu.md) (the university the institute sits beside in Trondheim)
+- [NTNU (companion note)](note.html?n=social/actor/knowledge/ntnu.md) (the university the institute sits beside in Trondheim)

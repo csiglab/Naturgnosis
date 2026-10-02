@@ -66,13 +66,13 @@ as ore or gem with grade, firm, and price (decompose under the socialium grammar
 plays a production role it is a Social node tagged `production-view`); readable as epistemic —
 mineralogical standards and structure refinements (decompose under the epistemicarum
 grammar). The instrument technically, the formation naturally
-([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+(`guideline/ambiguity_resolution.md`).
 
 ## References
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](note.html?n=nature/natural-material.md) (super-kind: all untransformed matter)
 - [Earth](note.html?n=nature/earth.md) (parent: the planet system)

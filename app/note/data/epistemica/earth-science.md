@@ -8,7 +8,7 @@ tags: [earth, geology, geoscience, research]
 
 > It is a family of disciplines, so the decomposition follows the family tree: each sub-field family holds its disciplines, each discipline its sub-fields, each sub-field its own worked scope. The shared scaffolding — artifacts, observation interfaces, methods, standards, constraints, feedback, gaps, infrastructure, agents — is typed once at the root, because the same instruments and the same standards serve every family.
 
-> The instrument is technical, the formation natural: a seismometer is decomposed technically, and the Earth it observes is not decomposed here at all ([Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md)). The Earth as a piece of observer-independent reality is a natural instance and belongs under [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md).
+> The instrument is technical, the formation natural: a seismometer is decomposed technically, and the Earth it observes is not decomposed here at all (Ambiguity Resolution (`guideline/ambiguity_resolution.md`)). The Earth as a piece of observer-independent reality is a natural instance and belongs under [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -467,7 +467,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (the Earth as a natural instance belongs there, not here)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (the instrument technically, the formation naturally)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally)
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md) (consumer: crop models, soil, and climate are Earth Science outputs)
 - [Well Logging](note.html?n=technique/well-logging.md) (the borehole as Earth Science's narrowest technical instrument)
 - [Remote Sensing](note.html?n=technique/remote-sensing.md) (the observation layer, decomposed technically)

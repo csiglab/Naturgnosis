@@ -78,4 +78,4 @@ Lineage: temple schools of the Old Kingdom and the monastic valley of Taxila →
 - [List of oldest higher-learning institutions](https://en.wikipedia.org/wiki/List_of_oldest_higher-learning_institutions) (the instance roster: still-existing and BC/AD tables, sponsorship framing, still-existing vs. ruined state)
 - [Taixue](https://en.wikipedia.org/wiki/Taixue) (the worked exemplar: Han founding, Five Classics doctors, Song Three Halls, Guozijian succession)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) (decomposition schema; single-type root; instance vs. type path rules)
-- [Norwegian University of Science and Technology](note.html?n=actor/knowledge/ntnu.md) (the companion modern university actor; same `Collective / Organization` root and four-column table shape)
+- [Norwegian University of Science and Technology](note.html?n=social/actor/knowledge/ntnu.md) (the companion modern university actor; same `Collective / Organization` root and four-column table shape)

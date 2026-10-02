@@ -252,5 +252,5 @@ The tree is governed by the following rules:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 

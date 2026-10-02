@@ -75,14 +75,14 @@ with grades and firm (decompose under the socialium grammar; if it plays a produ
 it is a Social node tagged `production-view`); readable as epistemic — petrographic
 standards and stratigraphic scales (decompose under the epistemicarum grammar). The
 instrument technically, the formation naturally
-([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)). Biogenic coatings and
+(`guideline/ambiguity_resolution.md`). Biogenic coatings and
 admixtures belong to [Natural Biogenic](note.html?n=nature/biogenic-material.md).
 
 ## References
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](note.html?n=nature/natural-material.md) (parent: all untransformed matter)
 - [Earth](note.html?n=nature/earth.md) (parent: the planet system)

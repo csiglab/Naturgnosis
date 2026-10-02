@@ -88,4 +88,4 @@ Lineage: surface gathering and shallow digging → prospecting by outcrop and fl
 - Boundary, deliberately not members: Petroleum Oil (a resource, not a technique) · Metalworking (downstream fabrication) · Materiotecnia (knowledge scaffolding for the processing member)
 - Knowledge: [Earth Science](note.html?n=epistemica/earth-science.md) (the production-side science the exploration member consumes)
 - Ground: [Quarry](note.html?n=nature/quarry.md) (the worked landform as observer-independent furniture; the instrument here, the formation there)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (the instrument technically, the formation naturally; well logging's dual reading)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally; well logging's dual reading)

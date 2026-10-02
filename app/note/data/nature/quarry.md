@@ -60,10 +60,10 @@ drill-blast-crush-screen and dewatering methods (decompose under the technicarum
 readable as production facility — the quarry as operated site with products (aggregates,
 limestone) and firm (decompose under the socialium grammar; if it plays a production role it
 is a Social node tagged `production-view`). The instrument technically, the formation
-naturally ([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+naturally (`guideline/ambiguity_resolution.md`).
 
 ## References
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)

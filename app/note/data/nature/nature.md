@@ -78,13 +78,13 @@ geoengineering) decomposes under the technicarum grammar; readable as social —
 institution, tenure, and market drawn around natural bodies (firms, parks, quotas, prices)
 decomposes under the socialium grammar; readable as epistemic — every model, standard, and
 warrant about nature decomposes under the epistemicarum grammar. The instrument technically,
-the formation naturally ([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+the formation naturally (`guideline/ambiguity_resolution.md`).
 
 ## References
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Earth](note.html?n=nature/earth.md) (child: the planet system)
 - [Natural Material](note.html?n=nature/natural-material.md) (child: all untransformed matter)
 - [Natural Biogenic](note.html?n=nature/biogenic-material.md) (child: all matter made by life)

@@ -101,5 +101,5 @@ Lineage: a state health authority with a long institutional past → the agency 
 - [Health in Norway — NIPH](https://www.fhi.no/en/he) (the national report and the register estate)
 - [Global health — Who we are — NIPH](https://www.fhi.no/en/ab/departments-and-centres/global-health-cluster) (the global-health cluster and its funders)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [NIBIO (companion note)](note.html?n=actor/knowledge/nibio.md) (the other state-agency form in this family)
+- [NIBIO (companion note)](note.html?n=social/actor/knowledge/nibio.md) (the other state-agency form in this family)
 - Reference hygiene: this note records the agency's present form, mandate, sites, registers, and practice from the sources above. Its founding history is not recorded here, because the primary record for it was not consulted in the writing of this note.

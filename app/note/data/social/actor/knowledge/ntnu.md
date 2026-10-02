@@ -105,5 +105,5 @@ Lineage: a learned society founded in Trondheim in 1760 and a technical school r
 - [NTNU History — NTNU](https://www.ntnu.edu/history) (the 1996 merger and its six constituents, the 1910 technical school, the Nobel connection)
 - [Norwegian University of Science and Technology — Wikipedia](https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology) (institutional history and the 1760 root)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [NINA (companion note)](note.html?n=actor/knowledge/nina.md) (the institute headquartered on this university's campus)
-- [NIBIO (companion note)](note.html?n=actor/knowledge/nibio.md) (the other state body in this family, at Ås)
+- [NINA (companion note)](note.html?n=social/actor/knowledge/nina.md) (the institute headquartered on this university's campus)
+- [NIBIO (companion note)](note.html?n=social/actor/knowledge/nibio.md) (the other state body in this family, at Ås)

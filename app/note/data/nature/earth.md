@@ -77,13 +77,13 @@ planet and its resources (decompose under the socialium grammar; production-role
 Social nodes tagged `production-view`); readable as epistemic — climate models, geodetic
 standards, and stratigraphic scales (decompose under the epistemicarum grammar). The
 instrument technically, the formation naturally
-([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)).
+(`guideline/ambiguity_resolution.md`).
 
 ## References
 
 - [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
-- [Ambiguity Resolution](note.html?n=meta/ambiguity-resolution.md) (multi-root forest rule)
+- Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (parent: all observer-independent reality)
 - [Natural Material](note.html?n=nature/natural-material.md) (parent: all untransformed matter)
 - [Natural Abiogenic](note.html?n=nature/earth-material.md) (child: all physical matter not made by life)

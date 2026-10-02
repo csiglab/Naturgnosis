@@ -111,7 +111,7 @@ The tree is governed by the following rules:
 
 ### How do technique-laden natural instances decompose?
 
-> The instrument technically ([ambiguity-resolution](note.html?n=meta/ambiguity-resolution.md)), the formation naturally: decompose the device under the technical grammar, the measured reality under this one, and cross-link at the Observation Interface.
+> The instrument technically (`guideline/ambiguity_resolution.md`), the formation naturally: decompose the device under the technical grammar, the measured reality under this one, and cross-link at the Observation Interface.
 
 ## References
 
