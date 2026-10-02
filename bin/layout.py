@@ -13,7 +13,9 @@ is both expensive and pointless. Instead:
   2. For each connected component (size >= 2), run a tiny Fruchterman-Reingold
      layout in a local subspace and anchor it at the centroid of the
      component's spiral slot, so each small cluster reads as a unit without
-     disturbing the global packing.
+     disturbing the global packing. Oversized components (above
+     MAX_FR_COMPONENT, where FR would be O(m^2 * iters)) are laid as blossoms
+     in reserved territory beside the main disk instead.
 
 Usage:
     python bin/layout.py \\
@@ -39,6 +41,10 @@ DEFAULT_DATA = ROOT / "app" / "social" / "data" / "data.json"
 DEFAULT_LAYOUT = ROOT / "app" / "social" / "data" / "layout.json"
 
 SPACING = 60.0  # approximate nearest-neighbour distance on the spiral
+
+# Fruchterman-Reingold is O(m^2 * iters) per component; above this size the
+# O(m) sunflower fallback below is used instead (see compute_layout step 2).
+MAX_FR_COMPONENT = 120
 
 
 def load_data(path):
@@ -231,25 +237,43 @@ def compute_layout(data):
     # 1. Base positions: sunflower spiral for every node (overlap-free, even).
     base = [sunflower(i, n, disk_radius) for i in range(n)]
 
-    # 2. Tighten connected components locally.
+    # 2. Tighten connected components locally. Small components get the FR
+    # treatment anchored at their spiral-slot centroid; oversized ones are
+    # laid as blossoms in reserved territory beside the main disk (FR is
+    # O(m^2 * iters) and prohibitive there; centroid-anchoring a giant would
+    # also bury it inside the background field — O(m) here is exact, cheap,
+    # and collision-free).
     rng = random.Random(123456789)
+    large = sorted(
+        (c for c in comps if len(c) > MAX_FR_COMPONENT),
+        key=lambda c: (-len(c), id_index[c[0]]),
+    )
+    cursor = disk_radius + SPACING * 2.0
+    for comp in large:
+        size = len(comp)
+        local_span = max(SPACING, SPACING * math.sqrt(size))
+        r = local_span / 2.0
+        cx = cursor + r
+        cursor += 2.0 * r + SPACING * 2.0
+        for i, nid in enumerate(comp):
+            px, py = sunflower(i, size, r)
+            out[nid] = [cx + px, py]
     for comp in comps:
-        if len(comp) < 2:
+        if len(comp) < 2 or len(comp) > MAX_FR_COMPONENT:
             continue
+        size = len(comp)
+        cx = sum(base[id_index[nid]][0] for nid in comp) / size
+        cy = sum(base[id_index[nid]][1] for nid in comp) / size
+        local_span = max(SPACING, SPACING * math.sqrt(size))
         local_idx = {nid: k for k, nid in enumerate(comp)}
         members = comp
-        size = len(members)
         comp_set = set(comp)
         edge_pairs = []
         for s, t in edges:
             if s in comp_set and t in comp_set:
                 edge_pairs.append((local_idx[s], local_idx[t]))
 
-        local_span = max(SPACING, SPACING * math.sqrt(size))
         pos = fr_layout(members, edge_pairs, 350, local_span, local_span, rng)
-
-        cx = sum(base[id_index[nid]][0] for nid in members) / size
-        cy = sum(base[id_index[nid]][1] for nid in members) / size
 
         max_r = max((math.hypot(p[0], p[1]) for p in pos), default=0.0)
         scale = (local_span / 2.0 / max_r) if max_r > 1e-6 else 1.0
