@@ -119,9 +119,11 @@ corpus; the ambiguity reading lives beside these conventions.
   (`Epistemic Order` + `Ontic Order`), epistemic-element note schema. Form reference for all four.
 - Social content — `app/note/data/meta/philosophia-socialium-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-socialium-et-operis.md)):
-  "How to decompose any social instance?", single recursive table
-  (`(root) -> <<Social Element>> -> Social Order`, agentic/normative spines),
-  layer test (Ontic/Synontic/Noetic/Multi), facet assignment, social-element note schema.
+   "How to decompose any social instance?", single recursive table
+   (`(root) -> <<Social Element>> -> Social Order`, agentic/normative spines,
+   primitive/derivative levels, Ontic/Synontic/Noetic/Multi layer catalogs,
+   expanded facets with a subcategory axis),
+   layer test (Ontic/Synontic/Noetic/Multi), facet assignment, social-element note schema.
 - Natural content — `app/note/data/meta/philosophia-naturalis-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)):
   "How to decompose any natural instance?", single recursive table
@@ -129,9 +131,10 @@ corpus; the ambiguity reading lives beside these conventions.
   level of organization, Limitation checklist, natural-element note schema. Presupposes
   the epistemicarum definitions; restates nothing from it.
 - Ambiguity reading — `guideline/ambiguity_resolution.md`: techniques with epistemic
-  goals (canonical case: well logging); type the means technically and the end
-  epistemically, one tree per confirmed reading (multi-root forest), never two types
-  on one row.
+  goals (canonical case: well logging) and multi-root notes (canonical case:
+  retail supply–demand matching, primary technical); type the means technically
+  and the end epistemically, one tree per confirmed reading — and one tree per
+  space in a single multi-root note — never two types on one row.
 
 Follow the applicable workflow before decomposing instances or documenting elements; when
 the root typing is ambiguous, ask the user instead of guessing.

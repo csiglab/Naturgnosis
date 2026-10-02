@@ -34,7 +34,18 @@
 | **Epistemic**         | What is known, believed, or assumed? | Knowledge, beliefs, models, information, uncertainty, ignorance.                           |
 | **Normative**         | What ought to be done?               | Norms, values, laws, legitimacy, obligations, permissions.                                 |
 | **Synontic**          | What meanings are socially shared?   | Symbols, languages, narratives, categories, collective representations, cultural meanings. |
-| **External Observer** | How is the system being described?   | Analytical framework, measurement model, observer assumptions, explanatory lens.           |
+| **External Observer** | How is the system being described?         | Analytical framework, measurement model, observer assumptions, explanatory lens.           |
+
+> **Layer reconciliation.** The binding layer rule for typing lives in
+> `app/note/data/meta/philosophia-socialium-et-operis.md`: every element is
+> read against four strata — **Ontic** (exists extra-mentally), **Synontic**
+> (exists through recursive shared interpretation), **Noetic** (descriptive
+> instruments), **Multi** (operators across layers). The seven rows above are
+> analytical lenses mapped onto those four: Ontic ← Ontic; Agentic ← Ontic
+> (agency) + Multi (capacity); Relational ← Ontic (ties) + Synontic (shared
+> ties); Epistemic ← Noetic; Normative ← Synontic (norms, legitimacy);
+> Synontic ← Synontic; External Observer ← Noetic. When the two disagree, the
+> note's four-strata rule governs.
 
 ### Which are the set categories useful for parsing of social realty?
 

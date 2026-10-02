@@ -1,5 +1,5 @@
 ---
-tags: [product, good, asset]
+tags: [product, good, economic, social-element]
 ---
 
 # Product
@@ -10,9 +10,9 @@ tags: [product, good, asset]
 
 ### What social element type does this social instance belong to?
 
-**Product belongs to the `Price / Asset` social element type — a scalar coordination variable and claim-object: the product as priced, contracted, claimable offer.**
+**Product belongs to the `Product` social element type (Economic category)** — the exchangeable outcome of `Economic Activity` offered into a `Market`; a good or a service. Its layer is **Multi**: it holds an Ontic side (the physical good, its materiality and lifecycle stage) and a Synontic side (the recognized offer: price, contract, brand) at once. Its facet is economic.
 
-Its layer is **Synontic** under this reading: the offer exists through shared recognition of price, contract, and brand. Readable secondarily, as all market goods are, through its **Ontic** substrate — the physical good with materiality and lifecycle stage (cf. the markets-and-firms QA: Synontic coordinators over Ontic substrates). That substrate reading is prose, not a second root; the tree below is typed once. Its facet is economic.
+Readable secondarily through its Synontic offer reading (product-as-`Price / Asset`: the priced, contracted, claimable offer) and through its Noetic ranks (`Product Type`, `Product Family`, `Product Category`, `Product Class`, `Product Taxonomy`) per the multi-root forest rule; those readings are prose here, not separate trees. A product is **not** a coordinator — prices, money, and contracts coordinate; the product is what is coordinated.
 
 ### What is this social instance?
 
@@ -39,3 +39,6 @@ Its layer is **Synontic** under this reading: the offer exists through shared re
 - Produceologia `docs/Catalog/Product.md` and `docs/Catalog/Good/Agriculture/`
 - Produceologia `docs/Firm/Toolkit/Product/` (MVP, lifecycle, strategy)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
+- [Economic Activity](note.html?n=social/economic-activity.md)
+- [Market](note.html?n=social/market.md)
+- [Harmonized System — World Customs Organization](https://www.wcoomd.org/en/topics/nomenclature/overview.aspx)
