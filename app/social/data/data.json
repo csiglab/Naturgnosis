@@ -177239,5 +177239,102 @@
         "description": "Persona note in the Note Space."
       }
     ]
+  },
+  {
+    "id": "statistics-sweden-scb",
+    "name": "Statistics Sweden (SCB)",
+    "tags": [
+      "actor",
+      "statistical-agency",
+      "sweden",
+      "official-statistics",
+      "scb"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Sweden's national statistical office; produces and disseminates official statistics across population, labour market, economy, prices and living conditions, and coordinates the 29-agency official-statistics system.",
+    "longDescription": "Statistics Sweden (Statistiska centralbyrån, SCB) is the Swedish government agency responsible for producing official statistics for decision-making, debate and research. Its finding-statistics portal covers some two dozen domains — agriculture, balance of payments, business activity and foreign trade, culture, democracy, education, energy, environment, financial markets, health and medical care, household finances, housing, judicial system, labour market, national accounts (GDP), population and living conditions, prices and inflation (CPI), public finances, research and the digital society, social insurance and services, transport and communications — plus regional statistics, coordination of national statistics across 29 responsible authorities, and links to international/EU statistics.",
+    "chronology": {
+      "summary": "Founded in 1858 as Statistiska centralbyrån; today the coordinator of Sweden's official-statistics system.",
+      "events": [
+        {
+          "year": 1858,
+          "event": "Founded as Statistiska centralbyrån (Statistics Sweden)."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "coordinatorOf": "Swedish official-statistics system (29 responsible agencies)"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.85,
+      "sourceReference": "Statistics Sweden official portal (scb.se)",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-02",
+          "reviewNote": "Node-only addition: SCB as statistical-agency Organization; no edges."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Statistics Sweden – Finding statistics",
+        "link": "https://www.scb.se/en/finding-statistics/",
+        "description": "Official portal: statistics by domain, regional statistics, coordination of national statistics."
+      }
+    ]
+  },
+  {
+    "id": "us-federal-register",
+    "name": "Federal Register (United States)",
+    "tags": [
+      "actor",
+      "federal-register",
+      "gazette",
+      "regulation",
+      "rulemaking",
+      "OFR-GPO"
+    ],
+    "layer": "Normative",
+    "category": "Institution",
+    "description": "Daily gazette of the US federal government publishing rules, proposed rules, notices and presidential documents (about one million searchable documents since 1994); operated jointly by the Office of the Federal Register and GPO.",
+    "longDescription": "The Federal Register is the daily journal of US federal government activity: each issue carries agency rules, proposed rules, notices and presidential documents (a recent issue: 94 documents from 43 agencies). Its site offers document search, advanced search, public-inspection search and the FR index, plus reader aids on the rulemaking process. Documents appear as XML renditions with links to the official PDF on govinfo.gov; the XML edition remains unofficial until the Administrative Committee of the Federal Register grants it legal status. Coverage: roughly 1,009,864 documents, searchable back to 1994 (older items findable by FR citation).",
+    "chronology": {
+      "summary": "Established under the Federal Register Act of 1935; digital XML edition via the OFR/GPO partnership, searchable from 1994.",
+      "events": [
+        {
+          "year": 1935,
+          "event": "Federal Register Act establishes the daily gazette."
+        },
+        {
+          "year": 1994,
+          "event": "Start of the searchable digital document corpus."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.85,
+      "sourceReference": "FederalRegister.gov (OFR/GPO)",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-02",
+          "reviewNote": "Node-only addition: Federal Register as Normative Institution, actor-tagged; no edges."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "FederalRegister.gov – Home",
+        "link": "https://www.federalregister.gov/",
+        "description": "Daily gazette: rules, proposed rules, notices, presidential documents; document and public-inspection search."
+      }
+    ]
   }
 ]
