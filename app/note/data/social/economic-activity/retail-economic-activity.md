@@ -341,6 +341,11 @@ $$
 - Underhill, P. (2009). *Why we buy: The science of shopping*. Simon & Schuster.
 - Varian, H. R. (1992). *Microeconomic analysis* (3rd ed.). W. W. Norton.
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
-- [Economic Activity](note.html?n=social/economic-activity.md)
+- [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
 - [Market](note.html?n=social/market/market.md)
+- [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
+- [Logistics System](note.html?n=technique/logistics-system.md)
+- [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md)
+- [Costco Wholesale Corporation](note.html?n=social/actor/firm/costco-wholesale-corporation.md)
+- [Amazon.com, Inc.](note.html?n=social/actor/firm/amazon-com-inc.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)

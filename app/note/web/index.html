@@ -1049,8 +1049,11 @@
             })
             .then(function () {
                 try {
-                    var preset = new URLSearchParams(window.location.search).get('tag');
-                    if (preset) state.tag = preset.toLowerCase();
+                    var qs = new URLSearchParams(window.location.search);
+                    var presetTag = qs.get('tag');
+                    if (presetTag) state.tag = presetTag.toLowerCase();
+                    var presetSection = qs.get('section');
+                    if (presetSection) state.section = presetSection.toLowerCase();
                 } catch (e) { /* ignore malformed query */ }
                 renderFacets();
                 renderTagFacets();
