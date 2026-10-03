@@ -264,6 +264,19 @@ $$
 
 > Output is **delivered saleable fresh goods**: the joint product of growing, post-harvest preservation, and time-bounded distribution. Inputs are land, water, labor, seed/stock, cooling energy, transport, and information. The distinctive term is the decay factor $e^{-\lambda\Delta t}$: the same physical good yields more or less output depending entirely on time and temperature. Productivity is therefore inseparable from logistics.
 
+### How is the production function of the industry operationalized?
+
+> The perishable function is an instance of the [Production Function](note.html?n=epistemica/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
+
+| Decision | The choice that matters | Perishable reading |
+| --- | --- | --- |
+| **Output** | Quality-weighted *delivered saleable* volume, not raw harvested volume. | A delivered rotten unit is negative output; shrink enters as an explicit output-reducing coefficient, never as a cost line. |
+| **Inputs** | Land, water, labor, seed/stock, cooling energy, transport, information. | Temperature $\times$ time is the distinctive multiplicative term beside the decay factor $e^{-\lambda\Delta t}$: cooling energy is productive capital here, not overhead. |
+| **Functional form** | Cobb–Douglas on the yield side (planted area $\times$ yield-per-area); translog when temperature interactions are the question. | Fixed proportions fail where the cold chain substitutes for distance; test curvature before assuming it. |
+| **Estimator** | Panel with weather instruments; SFA/DEA frontier alongside. | Perishability adds irreducible uncertainty to output measurement itself, so the frontier separates noise from inefficiency rather than trusting raw volumes. |
+| **Standards** | Non-negativity of elasticities; instrument validity against correlated yield shocks. | A weather instrument that fails when the whole region floods together is no instrument; quality weights must be calibrated to grades the buyer actually pays for. |
+| **Derived measures** | Yield elasticity, scale elasticity, shrink-adjusted TFP. | Shrink-reduction shows up in the residual only when output was measured saleable to begin with; otherwise it hides inside the input deflator. |
+
 ### Which are the open theoretical problems?
 
 | Theoretical Problem | Problem Description | Relevant Fields |
@@ -567,9 +580,13 @@ $$
 - Kader, A. A. (Ed.). (2002). *Postharvest technology of horticultural crops* (3rd ed.). University of California, ANR.
 - Bourlakis, M. A., & Weightman, P. W. H. (Eds.). (2004). *Food supply chain management*. Blackwell.
 - Den Ouden, M., Dijkhuizen, A. A., Huirne, R. B. M., & Zuurbier, P. J. P. (1996). Vertical cooperation in agricultural production-marketing chains. *Supply Chain Management, 1*(3), 27–37.
+- Heady, E. O., & Dillon, J. L. (1961). *Agricultural production functions*. Iowa State University Press.
+- Lau, L. J., & Yotopoulos, P. A. (1971). A test for relative efficiency and application to Indian agriculture. *The American Economic Review, 61*(1), 94–109.
+- Just, R. E., & Pope, R. D. (1978). Stochastic specification of production functions and economic implications. *Journal of Econometrics, 7*(1), 67–86.
 - [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
 - [Commerce Economic Activity](note.html?n=social/economic-activity/commerce-economic-activity.md)
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md)
+- [Production Function](note.html?n=epistemica/production-function.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technique/logistics-system.md)
 - [Plant Cultivation Technical Domain Set](note.html?n=technique/systems/multinode/plant-cultivation-technical-domain-set.md)

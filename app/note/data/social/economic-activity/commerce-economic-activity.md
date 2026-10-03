@@ -554,11 +554,25 @@ $$
 
 ### How is productivity measured in the commerce sector?
 
-> …
+> Partial measures stay descriptive and live on ratios the firm already records: real sales per labor hour, per square meter, and per unit of inventory. Frontier methods (DEA/SFA; see Keh & Chu, 2003) render the firm as producing *transactions plus distribution services*, and scores there are only as honest as the output deflator behind them — a frontier over nominal sales ranks pricing power, not productivity. The level choice matters as much as the method: a firm-level score is not the sector score, because aggregate productivity moves through entry, exit, and reallocation as much as through within-firm improvement (Foster, Haltiwanger, & Krizan, 2002).
 
 ### What is the production function of commerce?
 
-> …
+> Output is **real sales in constant prices** — the joint product of goods transferred and distribution services rendered. Inputs are labor, capital, and space: payroll hours, the deflated replacement cost of stores and inventory, and selling area. Commerce is a *service* production function: the transaction is the output, which is why margin-based and sales-based measures diverge (Bureau of Labor Statistics). A firm-level function is not the sector function: aggregation runs both directions, through reallocation across firms and through the household production of the shopper, which is an input the retailer's own books never record (Betancourt & Gautschi, 1990).
+
+### How is the production function of commerce operationalized?
+
+> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](note.html?n=epistemica/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/epistemica/?node=production-function).
+
+| Decision | The choice that matters | Commerce reading |
+| --- | --- | --- |
+| **Output** | Deflate nominal sales by a retail-specific implicit price deflator. | Deflating by CPI confounds the firm's pricing power with its productivity; the sector-specific deflator is the Betancourt point (1993). |
+| **Labor input** | Payroll hours, matched to traffic and workload, not headcount. | Split full-time/part-time and skill; "Revenue per labor hour" is $\alpha$ made visible. |
+| **Capital input** | Deflated replacement cost of stores, equipment, and inventory. | Inventory is productive capital in commerce, not a buffer; "Sales per m²" is its partial reading. |
+| **Functional form** | Cobb–Douglas baseline; translog when checking curvature and scale. | Unit substitution is usually fine at firm level; test it before assuming it. |
+| **Estimator** | Log-linear OLS as description; IV once the deflator makes output endogenous. | Own-price in the deflator creates simultaneity with productivity; cost-shifters are the honest instruments. |
+| **Standards** | Non-negativity of elasticities; constant-returns test; shares vs. operating costs. | Retail homogeneity should come out near-constant; if $\alpha$ diverges from labor's cost share, the output or the deflator is wrong, not the theory. |
+| **Derived measures** | Labor elasticity, returns to scale $\alpha+\beta+\gamma$, the TFP residual. | The residual is managerial practice and assortment quality to the extent the inputs are measured right (Metcalfe, Sollaci, & Syverson, 2023). |
 
 ### What makes a commerce firm more productive than others?
 
@@ -1206,12 +1220,14 @@ $$
 ## References
 
 - Agrawal, N., & Smith, S. A. (Eds.). (2009). *Retail supply chain management: Quantitative models and empirical studies*. Springer.
+- Arrow, K. J., Chenery, H. B., Minhas, B. S., & Solow, R. M. (1961). Capital-labor substitution and economic efficiency. *The Review of Economics and Statistics, 43*(3), 225–250.
 - Betancourt, R. R., & Gautschi, D. A. (1988). The economics of retail firms. *Managerial and Decision Economics, 9*(2), 133–144.
 - Betancourt, R. R., & Gautschi, D. A. (1990). Demand complementarities, household production, and retail assortments. *Marketing Science, 9*(2), 146–161.
 - Betancourt, R. R., & Gautschi, D. A. (1992). The demand for retail products and the household production model. *Journal of Retailing, 68*(1), 3–22.
 - Betancourt, R. R., & Gautschi, D. A. (1992). The outputs of retail activities: French evidence. *Managerial and Decision Economics, 13*(1), 47–58.
 - Betancourt, R. R., & Gautschi, D. A. (1993). The outputs of retail activities: Concepts, measurement and evidence from U.S. Census data. *The Review of Economics and Statistics, 75*(2), 294–301.
 - Betancourt, R. R., & Gautschi, D. A. (1993). Two essential characteristics of retail markets and their economic consequences. *Journal of Retailing, 69*(4), 409–422.
+- Cobb, C. W., & Douglas, P. H. (1928). A theory of production. *The American Economic Review, 18*(1), 65–72.
 - Coelli, T. J., Rao, D. S. P., O'Donnell, C. J., & Battese, G. E. (2005). *An introduction to efficiency and productivity analysis* (2nd ed.). Springer.
 - Foster, L., Haltiwanger, J., & Krizan, C. J. (2002). The link between aggregate and micro productivity growth: Evidence from retail trade (NBER Working Paper No. 9120). National Bureau of Economic Research.
 - Higón, D. A., Muñoz, M. J., & Williams, A. M. (2010). The determinants of retail productivity: A critical review of the evidence. *International Journal of Management Reviews, 12*(2), 159–177.
@@ -1222,12 +1238,15 @@ $$
 - Phillips, R. L. (2005). *Pricing and revenue optimization*. Stanford University Press.
 - Shephard, R. W. (1970). *Theory of cost and production functions*. Princeton University Press.
 - Simon, H. A. (1997). *Administrative behavior: A study of decision-making processes in administrative organizations* (4th ed.). Free Press.
+- Solow, R. M. (1957). Technical change and the aggregate production function. *The Review of Economics and Statistics, 39*(3), 312–320.
+- Syverson, C. (2011). What determines productivity? *Journal of Economic Literature, 49*(2), 326–365.
 - Talluri, K. T., & van Ryzin, G. J. (2004). *The theory and practice of revenue management*. Springer.
 - Underhill, P. (2009). *Why we buy: The science of shopping*. Simon & Schuster.
 - Varian, H. R. (1992). *Microeconomic analysis* (3rd ed.). W. W. Norton.
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
 - [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
 - [Perishable Agricultural Products Industry](note.html?n=social/economic-activity/perishable-agricultural-products-economic-activity.md)
+- [Production Function](note.html?n=epistemica/production-function.md)
 - [Market](note.html?n=social/market/market.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technique/logistics-system.md)
