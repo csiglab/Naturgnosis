@@ -205,6 +205,8 @@ def main() -> int:
             rel = path.relative_to(NOTES)
             if rel.name.lower() in SKIP_FILES:  # authoring docs, not notes
                 continue
+            if rel.parts[:2] == ("meta", "graph"):  # relocated app viewer, not notes
+                continue
             check_name(rel, warnings)
             notes.append(parser(path, rel, warnings))
 

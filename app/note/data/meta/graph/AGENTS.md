@@ -3,19 +3,21 @@
 ## Purpose
 
 View-only graph aggregating all seven graph spaces (social, production, research, nation,
-technique, epistemica, nature) on one canvas. No editing, no backend writes. Route `/graph/`
-(served from `web/` by `bin/sync.py`'s module redirect); data is hub-level
+technique, epistemica, nature) on one canvas. No editing, no backend writes. Lives at
+`app/note/data/meta/graph/` and serves at `/note/data/meta/graph/`; the old `/graph/`
+route is a redirect shim (`app/graph/web/index.html`). Data is hub-level
 (`app/data/universal-graph.json` + `app/data/universal-layout.json`), deliberately NOT
-`app/graph/data/data.json` so the sync server never treats it as an editable dataset.
+a dataset mirror so the sync server never treats it as editable.
 
 ## Layout
 
-- `web/index.html` — viewer (deck.gl renderer in `web/vendor/`, shared copies of
+- `index.html` — viewer (deck.gl renderer in `vendor/`, shared copies of
   `deck.min.js` + `socio-graph.js`; color groups by source space, not category).
   Boots with all spaces deselected; sidebar has Select-all / Deselect-all; search
   and `?node=` deep links auto-enable the hit's space. Corpus stats live in the
-  Overview modal (bottom-right button), not the sidebar.
-- `web/vendor/` — third-party/shipped renderer copies (keep names as-is).
+  Overview modal (bottom-right button), not the sidebar. Tabs: Graph canvas +
+  Notes treemap (sections → top tags, count/words, click-through to the catalog).
+- `vendor/` — third-party/shipped renderer copies (keep names as-is).
 - No `data/` directory here: nodes come from `app/data/universal-graph.json`
   (built by `bin/build_universal_index.py` from the seven `app/*/data/data.json` mirrors).
 
@@ -24,7 +26,7 @@ technique, epistemica, nature) on one canvas. No editing, no backend writes. Rou
 ```sh
 make universal-index             # recompute graph + layout (commit both JSONs)
 python bin/build_universal_index.py
-python bin/sync.py --no-couch   # static smoke test: /graph/ + /data/universal-*.json → 200
+python bin/sync.py --no-couch   # static smoke test: /note/data/meta/graph/ + /graph/ → 200
 ```
 
 ## Invariants
