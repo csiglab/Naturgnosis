@@ -740,6 +740,12 @@
             return (start > 0 ? '\u2026' : '') + text.slice(start, start + 180);
         }
 
+        function liveSub(n) {
+            if (n.kind !== 'live') return '';
+            var parts = String(n.path || '').split('/');
+            return parts.length > 2 ? parts[1] : '';
+        }
+
         function score(n, q) {
             var t = n.title.toLowerCase().indexOf(q);
             if (t === 0) return 0;
@@ -748,6 +754,7 @@
                 if (n.headings[i].text.toLowerCase().indexOf(q) >= 0) return 2;
             }
             if (n.tags && n.tags.join(' ').indexOf(q) >= 0) return 2;
+            if (liveSub(n).toLowerCase().indexOf(q) >= 0) return 2;
             if (n.text.indexOf(q) >= 0) return 3;
             return -1;
         }
@@ -821,12 +828,15 @@
                 var snip = snippet(n.text, q);
                 var live = n.kind === 'live';
                 var href = live ? '../data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
+                var sub = live ? liveSub(n) : '';
+                var top = '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
+                    (live ? '<span class="row-kind">live</span>' : '') +
+                    (sub ? '<span class="row-tag">#' + esc(sub) + '</span>' : '') +
+                    (live ? '' : '<span class="row-path">' + esc(n.path) + '</span>') + '</div>';
                 out.push(
                     '<div class="row">' +
                     '<a class="row-link" href="' + href + '">' +
-                    '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
-                    (live ? '<span class="row-kind">live</span>' : '') +
-                    '<span class="row-path">' + esc(n.path) + '</span></div>' +
+                    top +
                     '<div class="row-snippet">' + hl(snip, q) + '</div>' +
                     '</a>' +
                     tagsHtml(n) +
