@@ -163,6 +163,57 @@ Useful terms:
 | **Surplus Redistribution**             | Producer/Retailer → Food-Rescue Organization → Beneficiary → Consumption                         | Food that is not economically suitable for ordinary commercial sale is redirected to organizations or people able to use it.                                   | Redistribution recovers use value from surplus, near-expiry, cosmetically imperfect, or otherwise commercially displaced products.                                                        | Matmissionen; food banks; food-rescue organizations                    |
 | **Logistics / Cold-Chain Service**     | Producer/Importer → Logistics Provider → Retail/Foodservice → Consumer                           | A specialized logistics provider performs transportation, storage, consolidation, or temperature-controlled handling for other actors in the commercial chain. | Perishability and temperature requirements create a need for specialized transportation, storage, routing, consolidation, and inventory-handling capabilities.                            | DHL Supply Chain; Kuehne+Nagel                                         |
 
+### Which are the supplementary economic activities?
+
+> The core production→consumption exchange presupposes activities that are not themselves the exchange: verification that quality is what it claims to be, finance that bridges payment timing, information that lets both sides find a price, logistics that moves the goods, standards that keep everyone measuring the same thing, institutions that make promises costly to break, and technology that hosts the whole stack.
+
+| **Category** | **Activity** | **Description** |
+| --- | --- | --- |
+| **Verification** | Inspection | Checking goods against declared specification at receipt, handling, or dispatch. |
+| ↳ | Testing | Laboratory or field measurement of product properties against a stated standard. |
+| ↳ | Auditing | Independent examination of processes, records, or systems to verify compliance. |
+| ↳ | Certification | Independent attestation that a product, process, or system meets a stated standard, issued by an accredited body. |
+| ↳ | Grading | Sorting output into declared quality classes so price and acceptance key off a published grade. |
+| ↳ | Traceability | The ability to locate a specific lot along the chain it travelled and to attribute defects to their origin. |
+| ↳ | Accreditation | Formal recognition that a certifier or laboratory is competent to perform its function. |
+| **Financial** | Banking | Deposit, lending, and account services that let firms and buyers hold and move funds. |
+| ↳ | Trade finance | Financing that bridges the gap between shipment and settlement, making trade possible at scale. |
+| ↳ | Factoring | Selling receivables at a discount to convert credit sales into immediate cash. |
+| ↳ | Payments | Monetary settlement between buyer and seller through cash, cards, transfers, or wallets. |
+| ↳ | Insurance | Transfer of loss risk — spoilage, damage, non-payment — to a carrier in exchange for a premium. |
+| ↳ | Credit scoring | Quantitative assessment of a counterparty's likelihood of payment, pricing credit risk into the terms. |
+| ↳ | Hedging | Offsetting price or rate exposure so a margin does not depend on when a transaction settles. |
+| **Information** | Market information | Collected facts about supply, demand, prices, and conditions, sold or shared as a service. |
+| ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](note.html?n=social/market/market.md). |
+| ↳ | Demand forecasting | Projecting future quantities from history, signals, and models. |
+| ↳ | Product information | Descriptions, specifications, and provenance attached to goods so buyers can choose without inspecting. |
+| ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md). |
+| ↳ | Reputation systems | Aggregated ratings and reviews that substitute for direct inspection of an unfamiliar seller. |
+| ↳ | Market research | Structured inquiry into preferences, segments, and competitors. |
+| **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](note.html?n=technique/logistics-system.md). |
+| ↳ | Warehousing | Receiving, storing, preserving, and retrieving goods before they reach demand. |
+| ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](note.html?n=social/economic-activity/perishable-agricultural-products-economic-activity.md). |
+| ↳ | Fulfillment | Picking, packing, and preparing customer orders for delivery or pickup. |
+| ↳ | Freight forwarding | Arranging and consolidating transport across carriers and borders on behalf of a shipper. |
+| ↳ | Customs brokerage | Clearing goods through border controls, duties, and documentation. |
+| **Standardization** | Standards organizations | Bodies that publish and maintain the specifications others certify against. |
+| ↳ | Measurement | Calibrated units and instruments that make quantities comparable across parties. |
+| ↳ | Packaging standards | Common sizes, materials, and labels that let goods move through shared infrastructure. |
+| ↳ | Product classifications | Published taxonomies that key trade, tariffs, and statistics to the same codes; see [Goods Nomenclature](note.html?n=epistemica/goods-nomenclature.md). |
+| ↳ | Quality grades | Declared classes of condition or composition that price and acceptance reference. |
+| **Legal/institutional** | Contract enforcement | The mechanism — courts, arbitration, escrow — that makes a commercial promise costly to break. |
+| ↳ | Licensing | Permission from an authority to perform a regulated activity or use a regulated mark. |
+| ↳ | Dispute resolution | Structured processes — mediation, arbitration, courts — for settling claims between parties. |
+| ↳ | Intellectual property | Exclusive rights to marks, designs, and inventions that make brands and products defensible. |
+| ↳ | Regulatory compliance | The ongoing work of meeting the rules that gate an activity: food safety, labeling, weights and measures. |
+| **Technology** | Marketplaces | Platforms that host many sellers and buyers and intermediate their transactions; see [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md). |
+| ↳ | ERP | Integrated planning and record systems that run procurement, inventory, and finance as one ledger. |
+| ↳ | POS | The point where a purchase is confirmed and payment collected, physical or digital. |
+| ↳ | Supply-chain systems | Shared planning, ordering, and visibility systems across independent actors. |
+| ↳ | EDI | Structured machine-to-machine exchange of orders, invoices, and shipping notices. |
+| ↳ | Inventory management | Deciding how much to hold, where to hold it, and when to replenish. |
+| ↳ | Payment platforms | Network services that authorize, clear, and settle electronic payments. |
+
 ### Solution Evaluation Model
 
 > How to evaluate any commerce business model?
@@ -537,6 +588,121 @@ $$
 
 > How to decomposed the operation - or the task space?
 
+## Phenomenology
+
+| Domain           | Phenomenon                                                                                        | Description                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Demand**       | **Demand Variability — Demand fluctuates over time**                                              | Customer requirements vary across time, location, product, or segment                           |
+| **Demand**       | **Demand Surge — Demand temporarily rises above its normal level**                                | Short-term demand exceeds the established baseline                                              |
+| **Demand**       | **Demand Seasonality — Demand follows a recurring temporal pattern**                              | Demand systematically changes by season, month, week, day, etc.                                 |
+| **Demand**       | **Demand Intermittency — Demand occurs irregularly with periods of low or zero demand**           | Demand appears sporadically rather than continuously                                            |
+| **Demand**       | **Demand Correlation — Demands for different products or locations move together**                | Demand fluctuations are statistically related across products, locations, or segments           |
+| **Demand**       | **Demand Substitution — Demand moves between alternatives**                                       | Customers switch to another product, seller, channel, or supplier                               |
+| **Demand**       | **Product Switching — Individual demand changes among products**                                  | Consumer choice shifts in response to price, availability, attributes, etc.                     |
+| **Demand**       | **Demand Migration — Demand shifts between locations, channels, or sellers**                      | Customer demand moves persistently from one commerce node to another                            |
+| **Demand**       | **Demand Censoring — Observed demand is systematically lower than true demand**                   | Stockouts or other constraints prevent underlying demand from being observed                    |
+| **Demand**       | **Lost Sales — Unfulfilled demand disappears**                                                    | A customer wants the product but does not purchase an alternative                               |
+| **Demand**       | **Demand Cannibalization — Demand transfers between related products**                            | Demand for one product reduces demand for another related product                               |
+| **Demand**       | **Demand Elasticity — Demand changes systematically in response to changing conditions**          | Quantity demanded responds to price, income, availability, or other variables                   |
+| **Supply**       | **Supply Variability — Available supply fluctuates**                                              | Supplier output or availability varies over time                                                |
+| **Supply**       | **Supply Intermittency — Supply arrives irregularly or discontinuously**                          | Production or replenishment arrives in uneven bursts                                            |
+| **Supply**       | **Supply Disruption — Expected supply suddenly becomes unavailable**                              | Production, transportation, supplier, or infrastructure failure interrupts flow                 |
+| **Supply**       | **Supplier Dependency — Supply becomes concentrated among particular suppliers**                  | Dependence on a limited number of suppliers creates recurring exposure                          |
+| **Supply**       | **Supplier Failure — A supplier becomes unable to fulfill expected supply**                       | Supplier capacity, reliability, or continuity falls below requirements                          |
+| **Supply**       | **Lead-Time Variability — Replenishment time fluctuates**                                         | The time between ordering and receiving supply varies                                           |
+| **Supply**       | **Replenishment Delay — Replacement supply arrives after demand occurs**                          | The timing of supply is misaligned with demand                                                  |
+| **Capacity**     | **Capacity Constraint — Supply cannot expand sufficiently**                                       | Available productive or logistical capacity limits fulfillment                                  |
+| **Capacity**     | **Capacity Bottleneck — One constrained resource limits system throughput**                       | A particular operation restricts the performance of the wider system                            |
+| **Capacity**     | **Capacity Overload — Required throughput exceeds available capacity**                            | Required processing exceeds what the system can handle                                          |
+| **Capacity**     | **Capacity Underutilization — Available capacity remains unused**                                 | Actual throughput remains persistently below feasible capacity                                  |
+| **Capacity**     | **Capacity Expansion Lag — Capacity responds more slowly than demand**                            | Investment or production expansion takes time to become available                               |
+| **Capacity**     | **Capacity Adjustment Oscillation — Capacity repeatedly expands and contracts**                   | Delayed capacity decisions produce recurring over- and under-capacity                           |
+| **Inventory**    | **Stockout — Demand exceeds immediately available usable supply**                                 | A demanded product cannot be supplied                                                           |
+| **Inventory**    | **Shelf Stockout — Product is unavailable at the selling location**                               | Inventory may exist elsewhere, but the customer cannot obtain it at the intended location       |
+| **Inventory**    | **Phantom Stockout — Recorded inventory exists but is unavailable to the customer**               | Book inventory and customer-usable inventory diverge                                            |
+| **Inventory**    | **Inventory Shortage — Available inventory is insufficient for demand**                           | Usable supply falls below required quantity                                                     |
+| **Inventory**    | **Overstock — Available inventory persistently exceeds realizable demand**                        | Excess supply accumulates relative to expected sales                                            |
+| **Inventory**    | **Inventory Accumulation — Inventory progressively increases**                                    | Inflow exceeds consumption, sales, or outflow                                                   |
+| **Inventory**    | **Inventory Depletion — Inventory progressively decreases**                                       | Consumption or sales exceed replenishment                                                       |
+| **Inventory**    | **Inventory Oscillation — Inventory repeatedly rises and falls**                                  | Inventory cycles around a desired or equilibrium level                                          |
+| **Inventory**    | **Inventory Cycling — Inventory repeatedly moves between accumulation and depletion**             | Replenishment and consumption generate recurring inventory cycles                               |
+| **Inventory**    | **Inventory Imbalance — Inventory exists in the wrong product, place, form, or time**             | Aggregate supply may be sufficient but poorly positioned relative to demand                     |
+| **Inventory**    | **Inventory Displacement — Inventory is available at one location while demand exists elsewhere** | Spatial distribution fails to correspond to demand                                              |
+| **Inventory**    | **Phantom Inventory — System inventory differs from physical inventory**                          | Recorded stock exceeds physically usable stock                                                  |
+| **Inventory**    | **Shrinkage — Inventory progressively disappears from the expected flow**                         | Theft, damage, spoilage, errors, etc. reduce usable inventory                                   |
+| **Inventory**    | **Inventory Aging — Inventory progressively becomes older**                                       | Inventory moves into older age states as it remains unsold or unused                            |
+| **Inventory**    | **Inventory Obsolescence — Inventory loses usefulness because requirements change**               | Existing stock becomes commercially or technically obsolete                                     |
+| **Inventory**    | **Perishability — Inventory loses economic value over time**                                      | Physical or commercial usefulness declines with age                                             |
+| **Coordination** | **Bullwhip Effect — Order variability increases toward upstream stages**                          | Variability in orders becomes greater than underlying consumer-demand variability               |
+| **Coordination** | **Demand Amplification — Upstream demand signals become increasingly variable**                   | Upstream actors experience greater fluctuations than downstream demand                          |
+| **Coordination** | **Forrester Effect — Feedback produces oscillation and amplification**                            | Delayed feedback and adjustment generate supply-chain instability                               |
+| **Coordination** | **Beer Distribution Game Dynamics — Ordering and inventory repeatedly become unstable**           | Ordering, inventory, delays, and limited information produce oscillatory behavior               |
+| **Coordination** | **Order Batching — Orders occur in discrete large batches**                                       | Small continuous demand becomes larger periodic replenishment orders                            |
+| **Coordination** | **Shortage Gaming — Orders exceed actual requirements during constrained supply**                 | Buyers inflate orders because allocation depends on requested quantities                        |
+| **Coordination** | **Hoarding — Actors accumulate supply under uncertainty**                                         | Expected scarcity causes inventory accumulation                                                 |
+| **Coordination** | **Rationing — Scarce supply is distributed among competing demands**                              | Allocation replaces unrestricted fulfillment                                                    |
+| **Coordination** | **Coordination Failure — Independent decisions produce system-level mismatch**                    | Local decisions fail to produce alignment across connected actors                               |
+| **Coordination** | **Local Optimization — Local improvement produces system-level inefficiency**                     | Actors optimize individual objectives while reducing total-system performance                   |
+| **Coordination** | **Feedback Instability — Corrective actions repeatedly create new deviations**                    | Responses overshoot or undershoot the condition they are intended to correct                    |
+| **Information**  | **Information Delay — Decision-makers receive information after the underlying event**            | Decisions are based on information that lags actual conditions                                  |
+| **Information**  | **Information Distortion — Signals differ from underlying demand or supply**                      | Forecasting, batching, aggregation, incentives, or processing alter the signal                  |
+| **Information**  | **Information Asymmetry — Actors possess different information about the exchange**               | One actor has information unavailable to another actor                                          |
+| **Information**  | **Information Loss — Information disappears as it moves through the system**                      | Relevant information fails to reach downstream or upstream decision-makers                      |
+| **Information**  | **Forecast Error — Expected demand or supply differs from realized conditions**                   | Predictions systematically or randomly diverge from actual outcomes                             |
+| **Flow**         | **Flow Variability — Material, order, or transaction flow fluctuates**                            | The volume or timing of flow changes through the system                                         |
+| **Flow**         | **Flow Interruption — Physical or informational flow temporarily stops**                          | Goods, orders, information, or payments cease moving through a link                             |
+| **Flow**         | **Backlog Accumulation — Uncompleted work or demand progressively accumulates**                   | Incoming requirements exceed processing or fulfillment                                          |
+| **Flow**         | **Backlog Propagation — Uncompleted work creates consequences elsewhere**                         | Delayed work affects connected processes or actors                                              |
+| **Flow**         | **Queue Formation — Demand or work accumulates before a constrained process**                     | Arrivals exceed processing capacity                                                             |
+| **Flow**         | **Queue Dissipation — Accumulated work progressively decreases**                                  | Processing capacity exceeds incoming work                                                       |
+| **Flow**         | **Congestion — Increasing flow reduces system performance**                                       | High utilization creates queues, delays, and throughput deterioration                           |
+| **Matching**     | **Matching Failure — Supply and demand fail to form a satisfactory match**                        | Available supply fails to satisfy required matching conditions                                  |
+| **Matching**     | **Matching Delay — Successful matching requires increasing time**                                 | Search, coordination, availability, or fulfillment delays the match                             |
+| **Matching**     | **Partial Matching — Only part of the demand requirement is satisfied**                           | Available supply satisfies some but not all requirements                                        |
+| **Matching**     | **Price Mismatch — Supply and demand disagree on acceptable transaction price**                   | A potential transaction fails because acceptable prices do not overlap                          |
+| **Matching**     | **Quality Mismatch — Available supply fails required quality conditions**                         | Supply exists but does not satisfy quality requirements                                         |
+| **Matching**     | **Temporal Mismatch — Supply and demand occur at different times**                                | Supply is available before or after the required demand time                                    |
+| **Matching**     | **Spatial Mismatch — Supply and demand occur in different locations**                             | Supply exists but is not positioned where demand occurs                                         |
+| **Matching**     | **Assortment Mismatch — Offered products do not correspond to customer requirements**             | Available assortment fails to match preferences or needs                                        |
+| **Matching**     | **Specification Mismatch — Available supply does not satisfy required attributes**                | Product characteristics differ from the requirements of demand                                  |
+| **Allocation**   | **Misallocation — Supply is available but assigned to the wrong demand**                          | Product, inventory, capacity, or capital is positioned incorrectly                              |
+| **Allocation**   | **Inventory Substitution — One SKU satisfies demand intended for another SKU**                    | An alternative product fulfills a requirement when the intended product is unavailable          |
+| **Allocation**   | **Resource Substitution — One resource serves a different requirement**                           | An alternative supplier, product, location, or capacity is used                                 |
+| **Allocation**   | **Inventory Pooling Effect — Aggregation changes variability and service requirements**           | Combining inventory across locations changes aggregate variability                              |
+| **Pricing**      | **Price Fluctuation — Prices repeatedly or irregularly change**                                   | Market, strategic, promotional, or cost conditions alter prices                                 |
+| **Pricing**      | **Forward Buying — Purchases shift into the present**                                             | Buyers purchase unusually large quantities before an expected price or supply change            |
+| **Pricing**      | **Promotion-Induced Demand Surge — Demand temporarily increases after promotion**                 | Price or promotional conditions alter purchase timing or quantity                               |
+| **Pricing**      | **Markdown Pressure — Prices decline as inventory becomes difficult to sell**                     | Excess, aging, seasonal, or perishable inventory creates liquidation pressure                   |
+| **Pricing**      | **Price-Demand Feedback — Price changes alter demand and demand alters price conditions**         | Price and demand recursively influence one another                                              |
+| **Pricing**      | **Price Competition — Sellers repeatedly respond to competitors' prices**                         | Competitors adjust prices in response to one another                                            |
+| **Transaction**  | **Transaction Friction — Exchange becomes more costly or difficult**                              | Search, negotiation, payment, contracting, returns, etc. consume resources                      |
+| **Transaction**  | **Search Behavior — Buyers repeatedly search across alternatives**                                | Market participants incur information costs to find suitable matches                            |
+| **Transaction**  | **Search Cost Escalation — Increasing difficulty of finding supply increases search effort**      | More resources are required to locate acceptable supply                                         |
+| **Transaction**  | **Transaction Delay — Exchange completion takes increasing or variable time**                     | Ordering, payment, contracting, or fulfillment delays completion                                |
+| **Transaction**  | **Transaction Abandonment — A potential transaction terminates before completion**                | Price, availability, friction, trust, delivery, or other constraints prevent completion         |
+| **Service**      | **Service-Level Variation — Fulfillment quality fluctuates**                                      | Probability or degree of satisfying demand changes over time                                    |
+| **Service**      | **Queue Formation — Demand accumulates awaiting service**                                         | Arrivals temporarily or persistently exceed processing capacity                                 |
+| **Service**      | **Waiting-Time Escalation — Increasing congestion produces longer waits**                         | Service delay grows as utilization approaches capacity                                          |
+| **Logistics**    | **Transportation Delay — Goods arrive later than required**                                       | Movement time exceeds the expected or required delivery time                                    |
+| **Logistics**    | **Transportation Variability — Transportation time or capacity fluctuates**                       | Delivery performance varies across shipments                                                    |
+| **Logistics**    | **Routing Instability — Transportation paths repeatedly change**                                  | Routes change because of congestion, capacity, disruption, or cost                              |
+| **Logistics**    | **Cross-Docking Synchronization Failure — Inbound and outbound flows fail to synchronize**        | Goods arrive too early, too late, or in mismatched quantities                                   |
+| **Network**      | **Ripple Effect — A disruption propagates through the network**                                   | A local disturbance produces consequences across connected nodes                                |
+| **Network**      | **Network Bottleneck — One network node or link constrains total flow**                           | Local capacity limits system-wide throughput                                                    |
+| **Network**      | **Network Cascading Failure — Failure at one node causes failures elsewhere**                     | Interdependencies propagate the original disruption                                             |
+| **Network**      | **Network Concentration — Commerce becomes dependent on a small number of nodes or links**        | Concentration increases sensitivity to individual failures                                      |
+| **Network**      | **Flow Rerouting — Disrupted flows move through alternative paths**                               | Goods, orders, or information are redirected around constraints                                 |
+| **Returns**      | **Return Flow — Products move backward through the commerce system**                              | Customers return products after the forward transaction                                         |
+| **Returns**      | **Return Accumulation — Returned products accumulate faster than processing**                     | Reverse-flow capacity becomes insufficient                                                      |
+| **Returns**      | **Reverse-Logistics Congestion — Increasing returns create processing delays**                    | Reverse logistics becomes constrained by recovery or disposition capacity                       |
+| **Risk**         | **Risk Concentration — Exposure becomes concentrated in particular dependencies**                 | A small number of suppliers, products, locations, or resources create disproportionate exposure |
+| **Risk**         | **Risk Propagation — A disturbance transfers risk between connected actors**                      | One actor's disruption changes conditions for others                                            |
+| **Risk**         | **Risk Cascading — Multiple dependent failures emerge from an initial disturbance**               | Interdependent risks compound across the network                                                |
+| **Market**       | **Scarcity — Demand persistently exceeds available supply**                                       | Limited availability creates allocation, substitution, and price responses                      |
+| **Market**       | **Surplus — Available supply persistently exceeds realizable demand**                             | Excess supply produces inventory accumulation or price adjustment                               |
+| **Market**       | **Market Clearing — Supply and demand move toward correspondence**                                | Price and/or quantity adjustments reduce excess supply or demand                                |
+| **Market**       | **Market Segmentation — Demand separates into persistent groups with different requirements**     | Different customer groups exhibit distinct demand and response patterns                         |
+
 ## QA
 
 ### Which are the key results on the commerce problem literature (retail instance)?
@@ -551,6 +717,70 @@ $$
 | **Scale and Productivity** | There is evidence of increasing returns to scale in retail. More broadly, productivity growth can arise through the replacement of low-productivity establishments by more productive entrants. (ScienceDirect) | Scale, logistics, purchasing, technology, and store networks can create structural advantages. |
 | **Commerce Output** | Commerce output is theoretically more complicated than sales. A commerce firm produces both **goods sold and distribution services**. Sales-based and margin-based measures capture different aspects of retail productivity. (Bureau of Labor Statistics) | This is crucial for understanding what a retailer actually *produces*. |
 | **Omnichannel Fulfillment** | The store is increasingly a node in a fulfillment network, not merely a selling location. Research identifies network design, order assignment, assortment, inventory, forecasting, replenishment, and returns as interconnected problems. (ScienceDirect) | The modern retailer is simultaneously a **distribution network + inventory system + selling system**. |
+
+### How is commerce divided into sub sectors, industry groups, and industries?
+
+| **Sub Sector**          | **Industry Group**        | **Industry**                                | **Description**                                                                 |
+| ----------------------- | ------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Wholesale Commerce**  | General Wholesale         | General Merchandise Wholesale               | Broad distribution of products to downstream businesses and institutions.       |
+| ↳                       | Specialized Wholesale     | Product-Specialized Wholesale               | Wholesale distribution concentrated on specific product categories.             |
+| ↳                       | Agricultural Wholesale    | Food & Agricultural Wholesale               | Aggregation and distribution of agricultural and food products.                 |
+| ↳                       | Industrial Wholesale      | Industrial & Business Goods Wholesale       | Distribution of machinery, equipment, materials, and productive inputs.         |
+| ↳                       | Distribution              | Import & Distribution                       | Intermediation between producers, importers, and downstream buyers.             |
+| **Retail Commerce**     | General Retail            | General Merchandise Retail                  | Retailing a broad assortment across multiple consumer categories.               |
+| ↳                       | Specialized Retail        | Specialty Retail                            | Retailing focused on a specific product category or consumer need.              |
+| ↳                       | Food Retail               | Grocery & Food Retail                       | Retailing food, beverages, and everyday consumables.                            |
+| ↳                       | Convenience Retail        | Convenience Retail                          | Retailing frequently purchased products with emphasis on proximity and speed.   |
+| ↳                       | Apparel Retail            | Fashion & Apparel Retail                    | Retailing clothing, footwear, accessories, and fashion products.                |
+| ↳                       | Consumer Goods            | Electronics & Consumer Goods Retail         | Retailing electronics, appliances, and durable consumer goods.                  |
+| ↳                       | Home Retail               | Furniture & Home Improvement Retail         | Retailing furniture, household goods, hardware, and building products.          |
+| ↳                       | Health & Personal Care    | Health, Beauty & Personal Care Retail       | Retailing health, beauty, cosmetics, and personal-care products.                |
+| ↳                       | Automotive Retail         | Automotive Retail                           | Retailing vehicles, parts, tires, and automotive accessories.                   |
+| ↳                       | Specialty Goods           | Luxury, Sport & Recreation Retail           | Retailing luxury, hobby, sporting, recreational, and other specialized goods.   |
+| **Digital Commerce**    | Online Commerce           | E-Commerce Retail                           | Selling products through digital ordering and purchasing channels.              |
+| ↳                       | Marketplace Commerce      | E-Commerce Marketplace                      | Connecting independent sellers with consumers through a digital platform.       |
+| ↳                       | Social Commerce           | Social & Community Commerce                 | Conducting commerce through social networks and communities.                    |
+| ↳                       | Interactive Commerce      | Live Commerce                               | Selling through real-time digital presentation and interaction.                 |
+| ↳                       | Platform Commerce         | Multi-Sided Commerce Platforms              | Coordinating multiple participant groups through a commercial platform.         |
+| **Direct Commerce**     | Producer-to-Consumer      | Direct-to-Consumer Commerce                 | Producers or brands selling directly to final consumers.                        |
+| ↳                       | Personal Selling          | Agent & Representative Commerce             | Selling through representatives acting directly with customers.                 |
+| ↳                       | Remote Commerce           | Catalog & Remote Commerce                   | Remote product selection and ordering followed by fulfillment.                  |
+| **Market Commerce**     | Physical Marketplace      | Market & Bazaar Commerce                    | Multiple sellers operating through a shared physical marketplace.               |
+| ↳                       | Producer Marketplace      | Farmers' & Producers' Markets               | Direct commerce between producers and consumers.                                |
+| ↳                       | Secondary Market          | Resale & Second-Hand Commerce               | Commerce involving previously owned products.                                   |
+| ↳                       | Consignment Market        | Consignment Commerce                        | Selling products on behalf of their owners for a fee or commission.             |
+| **Access Commerce**     | Temporary Use             | Rental & Leasing Commerce                   | Providing temporary use rather than transferring product ownership.             |
+| ↳                       | Delegated Commerce        | Personal Shopping & Concierge Commerce      | Performing purchasing and sourcing activities on behalf of customers.           |
+| ↳                       | Demand-Activated Commerce | On-Demand Commerce                          | Sourcing or fulfilling products in response to specific demand.                 |
+| **Automated Commerce**  | Automated Retail          | Vending & Automated Stores                  | Commerce substantially automated through machines or software.                  |
+| ↳                       | Unstaffed Retail          | Unstaffed Commerce                          | Retail locations operating with minimal permanent on-site labor.                |
+| ↳                       | Agentic Commerce          | Automated / Agentic Commerce                | Software agents autonomously performing purchasing and coordination activities. |
+| **Integrated Commerce** | Omnichannel Commerce      | Omnichannel Retail                          | Coordinating physical and digital channels as one commercial system.            |
+| ↳                       | Distributed Fulfillment   | Click-and-Collect & Distributed Fulfillment | Combining remote ordering with stores, pickup points, and fulfillment nodes.    |
+| ↳                       | Recurring Commerce        | Subscription & Auto-Replenishment Commerce  | Automatically or periodically satisfying recurring demand.                      |
+| ↳                       | Membership Commerce       | Membership-Based Commerce                   | Organizing commercial access, pricing, or benefits around membership.           |
+| ↳                       | Cooperative Commerce      | Cooperative & Group-Buying Commerce         | Aggregating buyers or sellers to coordinate purchasing, ownership, or demand.   |
+
+### How does commerce create value?
+
+> Trade itself creates nothing net: a transfer of ownership at cost is a zero-sum movement of the same good. Commerce creates value only where the intermediary does something the transacting parties could not do as cheaply alone. The supplementary activities say *which* doings surround the exchange; the table below says *why* those doings add value at all. Value is created in the shopper's and supplier's hands — time saved, risk removed, choice widened — and only afterwards does the question of who captures it arise (Vargo & Lusch, 2004; Grönroos, 1984).
+
+| **Value Creation Mechanism** | **Description** |
+| --- | --- |
+| **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
+| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](note.html?n=social/product.md). |
+| **Aggregation of fragmented supply** | Combining many small supply items into a sellable quantity, making producers too small to reach the consumer directly reachable at all. |
+| **Transformation and repackaging** | Grading, packing, cutting, assembling: changing the good so it fits a use it did not fit before. |
+| **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](note.html?n=technique/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
+| **Price formation and inventory risk-bearing** | Offering a firm price and immediate availability while absorbing demand and price uncertainty: the intermediary buys the consumer time and certainty, and the inventory position is the cost of that service. |
+| **Financing and credit enablement** | Decoupling payment from consumption — trade credit, installments, buy-now-pay-later — so purchases constrained by timing, not by means, can happen. |
+| **Verification and trust** | Inspection, certification, guarantees, and reputation: removing the risk discount the buyer would otherwise apply to an unfamiliar seller or product. |
+| **Standardization** | Common measures, grades, and classifications that let parties contract without re-inspecting every term; see [Goods Nomenclature](note.html?n=epistemica/goods-nomenclature.md). |
+| **Cross-side network liquidity** | Each additional seller makes the venue more valuable to buyers and vice versa: the marketplace's value exceeds the sum of its listings. |
+| **After-sales and reverse logistics** | Returns, warranties, repairs, and resale: extending the good's usable life and insuring the purchase against regret. |
+| **Household-production enablement** | Saving the shopper's own time and effort — the complement the household-production model makes explicit: a product is worth more when it arrives with less shopping, travel, and assembly work attached (Betancourt & Gautschi, 1990, 1992). |
+
+> Created value and captured value are different quantities. A match can create large consumer surplus while the firm captures none of it — that is the margin question, and it is why the mechanisms above cannot be read off a P&L. Capture is measured separately, in `Value Capture` in the Solution Evaluation Model above.
 
 ### How is productivity measured in the commerce sector?
 
@@ -694,9 +924,22 @@ $$
 
 > (WORKING ON)
 
+### How to analyze the performance of a business model?
+
+> Analyzing performance is a procedure, not a metric list: it turns the metric definitions in the Solution Evaluation Model into a verdict on one model instantiation. Each step below is a decision that shapes what the numbers can honestly claim.
+
+| Step | The decision | Why it matters |
+| --- | --- | --- |
+| **1. Fix the unit of analysis.** | Name the level before any number: firm, format, or cohort. | A business model is a configuration ("Integral Business Model (Solution) Space"); performance is measured for a firm or cohort *instantiating* it. A firm-level verdict does not transfer to the format. |
+| **2. Score against a declared peer cohort.** | Benchmark against comparable formats and state the comparison set. | The comparison set is part of the claim. Sources are public filings plus the firm's own records; never benchmark a model against its own past and call it comparison. |
+| **3. Decompose level from change.** | Split within-firm improvement from reallocation (entry, exit, reweighting). | Aggregate change moves through replacement as much as improvement (Foster, Haltiwanger, & Krizan, 2002); the aggregation warning in the production-function block applies directly. |
+| **4. Run a frontier only when the output deflator is defensible.** | Use DEA/SFA to rank efficiency against the cohort, paired with the partial metrics. | A frontier over nominal sales ranks pricing power, not productivity (Keh & Chu, 2003; Coelli, Rao, O'Donnell, & Battese, 2005). Check what the output measure smuggles in first. |
+| **5. Read the metric set as a profile, not a score.** | Keep the metrics joint; a high `Sales per m²` with a low `Sales per labor hour` is a different model, not a worse one. | Collapsing the profile into one score re-imposes the comparison the cohort step was meant to discipline. |
+| **6. State what the analysis cannot settle.** | Say out loud that formats select their markets. | Observational comparison cannot separate model effect from market effect; a model "outperforming" in its chosen geography may be measuring the geography. |
+
 ### Which is the space of all metrics in order to evaluate a commerce business?
 
-> (WORKING ON)
+> The metric-space index: definitions in the Solution Evaluation Model above, the evolution-metric space below, and the per-model grid in Solution Space Evaluation — currently unfilled, one `—` per cell waiting for an instantiation.
 
 ### Which Firms in the Commerce Activity Should Be Studied?
 
@@ -1230,6 +1473,7 @@ $$
 - Cobb, C. W., & Douglas, P. H. (1928). A theory of production. *The American Economic Review, 18*(1), 65–72.
 - Coelli, T. J., Rao, D. S. P., O'Donnell, C. J., & Battese, G. E. (2005). *An introduction to efficiency and productivity analysis* (2nd ed.). Springer.
 - Foster, L., Haltiwanger, J., & Krizan, C. J. (2002). The link between aggregate and micro productivity growth: Evidence from retail trade (NBER Working Paper No. 9120). National Bureau of Economic Research.
+- Grönroos, C. (1984). A service quality model and its marketing implications. *European Journal of Marketing, 18*(4), 36–44.
 - Higón, D. A., Muñoz, M. J., & Williams, A. M. (2010). The determinants of retail productivity: A critical review of the evidence. *International Journal of Management Reviews, 12*(2), 159–177.
 - Keh, H. T., & Chu, S. (2003). Retail productivity and scale economies at the firm level: A DEA approach. *Omega, 31*(2), 75–82.
 - Levy, M., & Grewal, D. (2026). *Retailing management* (11th ed.). McGraw Hill.
@@ -1242,6 +1486,7 @@ $$
 - Syverson, C. (2011). What determines productivity? *Journal of Economic Literature, 49*(2), 326–365.
 - Talluri, K. T., & van Ryzin, G. J. (2004). *The theory and practice of revenue management*. Springer.
 - Underhill, P. (2009). *Why we buy: The science of shopping*. Simon & Schuster.
+- Vargo, S. L., & Lusch, R. F. (2004). The institution, service, and systems of service-centered (S-D) logic. *Journal of Marketing, 68*(5), 1–17.
 - Varian, H. R. (1992). *Microeconomic analysis* (3rd ed.). W. W. Norton.
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
 - [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
