@@ -583,6 +583,16 @@ $$
 - Heady, E. O., & Dillon, J. L. (1961). *Agricultural production functions*. Iowa State University Press.
 - Lau, L. J., & Yotopoulos, P. A. (1971). A test for relative efficiency and application to Indian agriculture. *The American Economic Review, 61*(1), 94–109.
 - Just, R. E., & Pope, R. D. (1978). Stochastic specification of production functions and economic implications. *Journal of Econometrics, 7*(1), 67–86.
+- Maruyama & Hirogaki (2007) — “The evolution of fresh produce supply chains: From spot markets to contracts”
+- Michelson et al. (2017) — “Connecting supermarkets and farms: The role of intermediaries in Walmart China's fresh produce supply chains”
+- Dimitri, Tegene & Kaufman (2003) — “U.S. Fresh Produce Markets: Marketing Channels, Trade Practices, and Retail Pricing Behavior”
+- Martinez & Thornsbury (2006) — “U.S. Fresh Produce Wholesale Sector Trade Practices”
+- “Multitiered Fresh Produce Supply Chain: The Case of Tomatoes” (2022)
+- Gokarn & Kuthambalayan (2019) — “Creating sustainable fresh produce supply chains by managing uncertainties”
+- Besik, Nagurney & Dutta (2023) — “An integrated multitiered supply chain network model of competing agricultural firms and processing firms”
+- https://pubsonline.informs.org/doi/10.1287/moor.2025.1115?utm_source=chatgpt.com
+- https://www.sciencedirect.com/science/article/abs/pii/S0925527312004215?utm_source=chatgpt.com
+- https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
 - [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
 - [Commerce Economic Activity](note.html?n=social/economic-activity/commerce-economic-activity.md)
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md)
