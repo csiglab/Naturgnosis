@@ -116,9 +116,9 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) (layer test, facet assignment, agentic and normative spines, social-element note schema)
 - [Physical Material Technology](note.html?n=technique/systems/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
-- [Laboratory](note.html?n=social/laboratory.md) (the host unit the governance regime binds)
-- [Research Group](note.html?n=social/research-group.md) (the depositing unit in the agentic spine)
-- [Public Research Institutes (PRI)](note.html?n=social/pri.md) (the public-research role the laboratories occupy)
+- [Laboratory](note.html?n=social/actor/type/laboratory.md) (the host unit the governance regime binds)
+- [Research Group](note.html?n=social/actor/type/research-group.md) (the depositing unit in the agentic spine)
+- [Public Research Institutes (PRI)](note.html?n=social/actor/type/pri.md) (the public-research role the laboratories occupy)
 - [Lawrence Berkeley National Laboratory](note.html?n=technique/instances/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
 - [National Renewable Energy Laboratory](note.html?n=technique/instances/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
 - [Argonne National Laboratory](note.html?n=technique/instances/argonne-national-laboratory.md) (participant in the hierarchical design center)
