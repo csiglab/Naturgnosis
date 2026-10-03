@@ -1,0 +1,208 @@
+{
+  "actors": [
+    {
+      "description": "The national legislature: unicameral parliament passing research, innovation, and higher-education law.",
+      "events": [
+        {
+          "category": "milestone",
+          "date": "2006-11-08",
+          "description": "Constitution of the Republic of Serbia adopted"
+        },
+        {
+          "category": "legislation",
+          "date": "2019-01-01",
+          "description": "Law on Science and Research restructures institute funding"
+        }
+      ],
+      "id": "a1",
+      "name": "National Assembly of Serbia",
+      "regionOfActivity": "Belgrade",
+      "role": "Legislature",
+      "type": "public"
+    },
+    {
+      "description": "Serbia's oldest and largest university: some ninety thousand students across thirty-one faculties, the training base of the engineering tradition.",
+      "events": [
+        {
+          "category": "founding",
+          "date": "1808-09-13",
+          "description": "Great School founded in Belgrade"
+        },
+        {
+          "category": "milestone",
+          "date": "1905-02-27",
+          "description": "University of Belgrade chartered"
+        },
+        {
+          "category": "milestone",
+          "date": "1973-01-01",
+          "description": "School of Electrical Engineering seeds the computing lineage"
+        }
+      ],
+      "id": "a2",
+      "name": "University of Belgrade",
+      "regionOfActivity": "Belgrade",
+      "role": "University and engineering school",
+      "type": "public"
+    },
+    {
+      "description": "State research institute for automation, computer science, telecommunications, and robotics; builder of the CER and TIM computers, part of the University of Belgrade, and the anchor of Serbia's engineering R&D.",
+      "events": [
+        {
+          "date": "1959-01-29",
+          "category": "founding",
+          "description": "Institute founded in Belgrade, named for Mihajlo Pupin"
+        },
+        {
+          "date": "1960-01-01",
+          "category": "milestone",
+          "description": "CER-10: first Serbian digital computer enters service"
+        },
+        {
+          "date": "1964-01-01",
+          "category": "milestone",
+          "description": "CER family extends; TIM line follows"
+        },
+        {
+          "date": "1970-01-01",
+          "category": "milestone",
+          "description": "Telecommunications and process-automation divisions scale for Yugoslav industry"
+        },
+        {
+          "date": "1997-01-01",
+          "category": "transition",
+          "description": "Operating companies founded from institute units; reregistered 2005 under the holding"
+        },
+        {
+          "date": "2020-01-01",
+          "category": "milestone",
+          "description": "Robotics, AI, and smart-grid programs carry the automation lineage"
+        }
+      ],
+      "id": "a3",
+      "name": "Mihajlo Pupin Institute",
+      "regionOfActivity": "Belgrade",
+      "role": "Automation and ICT research institute",
+      "type": "public"
+    },
+    {
+      "description": "Nuclear and physical-sciences institute at Vinca: reactors, accelerators, and materials programs; the hard-science sibling of Pupin.",
+      "events": [
+        {
+          "category": "founding",
+          "date": "1948-01-10",
+          "description": "Institute of Nuclear Sciences founded at Vinca"
+        },
+        {
+          "category": "milestone",
+          "date": "1959-01-01",
+          "description": "RA research reactor reaches criticality"
+        },
+        {
+          "category": "transition",
+          "date": "2006-01-01",
+          "description": "Repositioned as Institute of Nuclear Sciences VINCA within the republic's system"
+        }
+      ],
+      "id": "a4",
+      "name": "VINCA Institute of Nuclear Sciences",
+      "regionOfActivity": "Vinca, Belgrade",
+      "role": "Nuclear and physical-sciences institute",
+      "type": "public"
+    },
+    {
+      "description": "Public agency financing scientific excellence: competitive programs, centers of excellence, and diaspora cooperation.",
+      "events": [
+        {
+          "category": "founding",
+          "date": "2019-03-01",
+          "description": "Science Fund of the Republic of Serbia established"
+        },
+        {
+          "category": "milestone",
+          "date": "2020-01-01",
+          "description": "First PROMIS and IDEAS calls fund young teams and frontier projects"
+        }
+      ],
+      "id": "a5",
+      "name": "Science Fund of the Republic of Serbia",
+      "regionOfActivity": "Belgrade",
+      "role": "Competitive research funder",
+      "type": "public"
+    },
+    {
+      "description": "State fund co-financing innovative firms and technology transfer: mini-grants, matching grants, and the Katapult accelerator.",
+      "events": [
+        {
+          "category": "founding",
+          "date": "2011-01-01",
+          "description": "Innovation Fund established with EU pre-accession support"
+        },
+        {
+          "category": "milestone",
+          "date": "2017-01-01",
+          "description": "Technology-transfer facility links institutes to spin-offs"
+        },
+        {
+          "category": "milestone",
+          "date": "2022-01-01",
+          "description": "Katapult accelerator backs scale-up cohorts"
+        }
+      ],
+      "id": "a6",
+      "name": "Innovation Fund",
+      "regionOfActivity": "Belgrade",
+      "role": "Innovation finance and transfer",
+      "type": "public"
+    },
+    {
+      "description": "Technical university in the north: engineering faculties and the BioSense precision-agriculture institute.",
+      "events": [
+        {
+          "category": "founding",
+          "date": "1960-08-26",
+          "description": "University of Novi Sad founded"
+        },
+        {
+          "category": "milestone",
+          "date": "2015-01-01",
+          "description": "BioSense Institute anchors digital agriculture"
+        }
+      ],
+      "id": "a7",
+      "name": "University of Novi Sad",
+      "regionOfActivity": "Novi Sad",
+      "role": "Technical university",
+      "type": "public"
+    },
+    {
+      "description": "Executive authority setting research, innovation, and digitalization policy.",
+      "events": [
+        {
+          "category": "milestone",
+          "date": "2006-01-01",
+          "description": "Government of the independent republic constituted"
+        },
+        {
+          "category": "milestone",
+          "date": "2017-01-01",
+          "description": "Office for IT and eGovernment and digital agenda accelerate"
+        }
+      ],
+      "id": "a8",
+      "name": "Government of Serbia",
+      "regionOfActivity": "Belgrade",
+      "role": "Executive and policy owner",
+      "type": "public"
+    }
+  ],
+  "metadata": {
+    "country": "Serbia",
+    "description": "Representative dataset of Serbian actors (organizations and institutions), R&D-weighted around the engineering tradition.",
+    "flag": "🇷🇸",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Serbia, from the university's 1808 founding through the postwar research institutes to the republic's science and innovation funds.",
+    "lastUpdated": "2026-10-03",
+    "region": "Southern Europe",
+    "source": "Naturgnosis editorial corpus (hand-authored)"
+  }
+}

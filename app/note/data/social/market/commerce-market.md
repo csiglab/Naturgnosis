@@ -4,7 +4,7 @@ tags: [market, commerce, retail]
 
 # Commerce Market
 
-> A **Commerce Market** is the bounded ensemble matching producers to buyers across retail, wholesale, and electronic commerce: firms carry portfolios in, retail units sell through, contracts and prices coordinate. Source: Produceologia `docs/Production/Industry/Commerce/` and `research/2025-1-MiniMarket` (read-only import; the originals are untouched).
+> A **Commerce Market** is the bounded ensemble matching producers to buyers across retail, wholesale, and electronic commerce: firms carry portfolios in, retail units sell through, contracts and prices coordinate. Source: Produceologia `docs/Production/Industry/Commerce/` (read-only import; the originals are untouched).
 
 ## Formulation
 
@@ -39,7 +39,6 @@ Readable secondarily as a `Synontic Element` (market-as-coordinator: prices, con
 ## References
 
 - Produceologia `docs/Production/Industry/Commerce/` (ECommerce, Retail, Trading)
-- Produceologia `research/2025-1-MiniMarket` (retail unit study)
 - Produceologia `docs/Production/Industry/Retail/README.md` (omnichannel formulation)
 - Produceologia `docs/Production/Industry/Commerce/ECommerce.md` (intermediary model)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)

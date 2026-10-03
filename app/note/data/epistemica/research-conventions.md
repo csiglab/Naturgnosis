@@ -4,7 +4,7 @@ tags: [research, naming, convention]
 
 # Research Conventions
 
-> **Research Conventions** fix how research work is named and tracked: long-name to code keys with a provenance index. Source: Produceologia `research/meta/Research  Project Naming.md` and `research/README.md` (read-only import; the originals are untouched; the source filename spacing is preserved by reference only).
+> **Research Conventions** fix how research work is named and tracked: long-name to code keys with a provenance index.
 
 ## Formulation
 
@@ -28,6 +28,4 @@ tags: [research, naming, convention]
 
 ## References
 
-- Produceologia `research/meta/Research  Project Naming.md`
-- Produceologia `research/README.md`
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)

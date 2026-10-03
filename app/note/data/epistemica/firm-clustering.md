@@ -4,7 +4,7 @@ tags: [clustering, firms, 10-k]
 
 # Firm Clustering
 
-> **Firm Clustering** is the firm-classification pipeline contrasting NAICS and GICS against data-driven 10-K clustering. Source: Produceologia `docs/Toolkit/Method/Clustering.md` and `research/2025-6-Clus10k` (read-only import; the originals are untouched).
+> **Firm Clustering** is the firm-classification pipeline contrasting NAICS and GICS against data-driven 10-K clustering. Source: Produceologia `docs/Toolkit/Method/Clustering.md` (read-only import; the originals are untouched).
 
 ## Formulation
 
@@ -30,6 +30,5 @@ tags: [clustering, firms, 10-k]
 ## References
 
 - Produceologia `docs/Toolkit/Method/Clustering.md`
-- Produceologia `research/2025-6-Clus10k` (10-K clustering pipeline)
 - Produceologia `docs/Toolkit/Data/SEC/README.md` (filing categories)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)

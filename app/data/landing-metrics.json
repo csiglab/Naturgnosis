@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-02T23:09:06Z",
+ "generated": "2026-10-03T01:28:31Z",
  "modules": {
   "social": {
-   "nodes": 7286,
-   "edges": 221
+   "nodes": 7284,
+   "edges": 216
   },
   "research": {
    "nodes": 15,
    "edges": 5
   },
   "nation": {
-   "nodes": 34,
+   "nodes": 35,
    "edges": 0
   },
   "technique": {
@@ -26,8 +26,8 @@
    "edges": 263
   },
   "production": {
-   "nodes": 100,
-   "edges": 56
+   "nodes": 98,
+   "edges": 51
   },
   "note": {
    "nodes": 3305,
