@@ -33,6 +33,11 @@
             border-radius:5px; padding:0.4rem 0.8rem; cursor:pointer; min-width:110px; }
         .metric-btn:hover { color:var(--text-primary); border-color:var(--border-strong); }
         .tm-count { font-family:var(--font-mono); font-size:0.62rem; color:var(--text-muted); }
+        .tm-crumb { display:inline-flex; align-items:center; gap:0.35rem; font-family:var(--font-mono); font-size:0.62rem; color:var(--text-secondary); }
+        .tm-crumb button { font-family:var(--font-mono); font-size:0.62rem; color:var(--accent-cyan); background:transparent;
+            border:1px solid var(--border-subtle); border-radius:4px; padding:0.2rem 0.5rem; cursor:pointer; }
+        .tm-crumb button:hover { border-color:var(--accent-cyan); }
+        .tm-crumb .here { color:var(--accent-gold); }
         #tm-wrap { position:relative; border:1px solid var(--border-subtle); border-radius:8px; background:var(--card-bg); }
         #tm-canvas { display:block; width:100%; height:70vh; min-height:420px; cursor:pointer; }
         #tm-tip { position:absolute; pointer-events:none; display:none; z-index:5; max-width:340px;
@@ -55,9 +60,10 @@
         <span class="here">Notes Treemap</span>
     </nav>
     <h1 class="note-title">Notes Treemap</h1>
-    <p class="subtitle">The notes corpus by volume: sections → top tags. Click a block to open the catalog pre-filtered. Weight by note <em>count</em> or <em>words</em>.</p>
+    <p class="subtitle">The notes corpus by volume: sections first — click once to drill into a section's tags, <em>Esc</em> to come back. Tag blocks open the catalog pre-filtered. Weight by note <em>count</em> or <em>words</em>.</p>
     <div class="toolbar">
         <button class="metric-btn" id="tm-metric">weight: count</button>
+        <span class="tm-crumb" id="tm-crumb"></span>
         <span class="tm-count" id="tm-count"></span>
     </div>
     <div id="tm-wrap">
@@ -76,7 +82,7 @@
     btn.addEventListener("click",function(){var r=document.documentElement;r.classList.add("theme-fading");setTimeout(function(){r.dataset.theme=r.dataset.theme==="light"?"dark":"light";try{localStorage.setItem("naturgnosis-theme",r.dataset.theme);}catch(e){}label.textContent=r.dataset.theme==="light"?"DARK":"LIGHT";r.classList.remove("theme-fading");},120);});
 
     var COLORS = { social:'#c9956c', technique:'#6b8caa', nature:'#8fc16a', epistemica:'#9b7eb0', meta:'#c47d8a', live:'#4dd4c4', general:'#d4a857' };
-    var state = { notes:[], metric:'count', rects:[], hover:null };
+    var state = { notes:[], metric:'count', rects:[], hover:null, path:'' };
     function color(s){return COLORS[s]||'#888888';}
     function weight(n){return state.metric==='words'?(n.words||0):1;}
     function hexA(hex,a){var h=(hex||'#888888').replace('#','');var r=parseInt(h.slice(0,2),16)||0,g=parseInt(h.slice(2,4),16)||0,b=parseInt(h.slice(4,6),16)||0;return 'rgba('+r+','+g+','+b+','+a+')';}
@@ -121,30 +127,56 @@
         ctx.clearRect(0,0,r.width,r.height);
         var tree=build(),pad=8;
         state.rects=[];
-        layout(tree,pad,pad,r.width-pad*2,r.height-pad*2).forEach(function(s){
-            var kw=s.n.kids.reduce(function(a,k){return a+k.weight;},0)||1;
-            var f=s.n.weight/kw;
-            var scaled=s.n.kids.map(function(k){return {label:k.label,section:k.section,tag:k.tag,count:k.count,weight:k.weight*f};});
-            var inner=layout(scaled,s.x+2,s.y+20,Math.max(0,s.w-4),Math.max(0,s.h-24));
-            ctx.fillStyle=hexA(color(s.n.section),0.28);
-            ctx.fillRect(s.x,s.y,s.w,s.h);
-            ctx.fillStyle=getComputedStyle(document.documentElement).getPropertyValue('--text-primary')||'#f4f3f1';
-            ctx.font="600 11px 'JetBrains Mono',monospace";
-            if(s.w>60&&s.h>18)ctx.fillText(s.n.label+' · '+s.n.count,s.x+6,s.y+14);
-            inner.forEach(function(t){
-                state.rects.push(t);
-                var hov=state.hover===t.n.section+'|'+t.n.label;
-                ctx.fillStyle=hexA(color(t.n.section),hov?0.95:0.7);
-                ctx.fillRect(t.x,t.y,t.w,t.h);
-                if(t.w>46&&t.h>16){
-                    ctx.fillStyle='rgba(0,0,0,0.78)';
-                    ctx.font="10px 'JetBrains Mono',monospace";
-                    ctx.fillText(String(t.n.label).slice(0,Math.max(1,Math.floor(t.w/6.4))),t.x+4,t.y+13);
-                    if(t.h>28){ctx.font="9px 'JetBrains Mono',monospace";ctx.fillText(String(t.n.count),t.x+4,t.y+25);}
-                }
-            });
-        });
-        el('tm-count').textContent=state.notes.length+' notes · '+tree.length+' sections · weight: '+state.metric+' · click a block to open the catalog';
+        var ink=getComputedStyle(document.documentElement).getPropertyValue('--text-primary')||'#f4f3f1';
+        function paint(t,depth){
+            state.rects.push(t);
+            var hov=state.hover===t.n.section+'|'+t.n.label;
+            ctx.fillStyle=hexA(color(t.n.section),depth?(hov?0.95:0.7):(hov?0.45:0.28));
+            ctx.fillRect(t.x,t.y,t.w,t.h);
+            var titleSize=depth?10:12,minW=depth?46:70,minH=depth?16:22;
+            if(t.w>minW&&t.h>minH){
+                ctx.fillStyle=depth?'rgba(0,0,0,0.78)':ink;
+                ctx.font="600 "+titleSize+"px 'JetBrains Mono',monospace";
+                var label=String(t.n.label),max=Math.max(1,Math.floor(t.w/(titleSize*0.62)));
+                if(label.length>max)label=label.slice(0,Math.max(1,max-1))+'…';
+                ctx.fillText(label,t.x+5,t.y+15);
+                if(t.h>48){ctx.font="9px 'JetBrains Mono',monospace";ctx.fillStyle=depth?'rgba(0,0,0,0.6)':ink;ctx.fillText(String(t.n.count),t.x+5,t.y+30);}
+            }
+        }
+        if(!state.path.length){
+            /* Level 1: sections only — one click drills deeper. */
+            layout(tree,pad,pad,r.width-pad*2,r.height-pad*2).forEach(function(s){paint(s,0);});
+            el('tm-count').textContent=state.notes.length+' notes · '+tree.length+' sections · weight: '+state.metric+' · click a section to drill in';
+        }else{
+            /* Level 2: tags of the drilled section, normalized to partition it. */
+            var sec=null;
+            tree.forEach(function(s){if(s.section===state.path)sec=s;});
+            if(!sec){state.path='';draw();return;}
+            var kids;
+            if(!sec.kids.length){
+                /* Tag-less section: one block straight to the catalog. */
+                kids=[{label:sec.count+' notes',section:sec.section,tag:'',count:sec.count,weight:sec.weight}];
+            }else{
+                var kw=sec.kids.reduce(function(a,k){return a+k.weight;},0)||1;
+                var f=sec.weight/kw;
+                kids=sec.kids.map(function(k){return {label:k.label,section:k.section,tag:k.tag,count:k.count,weight:k.weight*f};});
+            }
+            layout(kids,pad,pad,r.width-pad*2,r.height-pad*2).forEach(function(t){paint(t,1);});
+            el('tm-count').textContent=sec.count+' notes in '+sec.section+' · weight: '+state.metric+' · click a tag to open the catalog · Esc goes back';
+        }
+        renderCrumb();
+    }
+    function renderCrumb(){
+        var c=el('tm-crumb');
+        c.innerHTML='';
+        function link(label,fn,here){
+            if(here){var s=document.createElement('span');s.className='here';s.textContent=label;c.appendChild(s);return;}
+            var b=document.createElement('button');b.type='button';b.textContent=label;
+            b.addEventListener('click',fn);c.appendChild(b);
+        }
+        function sep(){var s=document.createElement('span');s.textContent='›';s.style.opacity='0.5';c.appendChild(s);}
+        link('notes',function(){state.path='';draw();},!state.path);
+        if(state.path){sep();link(state.path,function(){},true);}
     }
     function hit(mx,my){
         for(var i=state.rects.length-1;i>=0;i--){var r=state.rects[i];if(mx>=r.x&&mx<=r.x+r.w&&my>=r.y&&my<=r.y+r.h)return state.rects[i];}
@@ -154,7 +186,7 @@
         el('tm-tip-src').textContent='notes · '+t.n.section;
         el('tm-tip-src').style.color=color(t.n.section);
         el('tm-tip-title').textContent=t.n.label;
-        el('tm-tip-desc').textContent=t.n.count+' notes — click to open in the catalog';
+        el('tm-tip-desc').textContent=t.n.count+' notes — '+(state.path?'click to open in the catalog':'click to drill in');
         var tip=el('tm-tip'),wrap=el('tm-wrap').getBoundingClientRect();
         tip.style.display='block';
         tip.style.left=Math.min(wrap.width-360,mx+16)+'px';
@@ -173,9 +205,16 @@
         var r=cv.getBoundingClientRect();
         var t=hit(e.clientX-r.left,e.clientY-r.top);
         if(!t)return;
+        if(!state.path){
+            /* First level: one click drills into the section. */
+            state.path=t.n.section;state.hover=null;draw();return;
+        }
         var url='../../../../web/index.html?section='+encodeURIComponent(t.n.section);
         if(t.n.tag)url+='&tag='+encodeURIComponent(t.n.tag);
         window.open(url,'_blank');
+    });
+    document.addEventListener('keydown',function(e){
+        if(e.key==='Escape'&&state.path){state.path='';draw();}
     });
     window.addEventListener('resize',function(){draw();});
     el('tm-metric').addEventListener('click',function(){
@@ -183,7 +222,7 @@
         el('tm-metric').textContent='weight: '+state.metric;
         draw();
     });
-    fetch('../../../index.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){
+    fetch('/note/data/index.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(d){
         state.notes=d.notes||[];
         if(!state.notes.length)throw new Error('empty notes index');
         draw();
