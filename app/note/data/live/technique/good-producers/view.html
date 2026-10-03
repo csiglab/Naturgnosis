@@ -190,6 +190,7 @@
             transition: border-color 140ms ease, transform 140ms ease;
         }
         .card:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+        .card.flash { border-color: var(--accent-gold); box-shadow: 0 0 0 2px var(--accent-gold); }
         .card .thumb {
             height: 132px; display: flex; align-items: center; justify-content: center;
             background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle);
@@ -381,7 +382,7 @@
                 var node = '<a href="/technique/?node=' + encodeURIComponent('gpe_' + e.kind + '_' + slug(e.name)) + '">node</a>';
                 var wd = wikiLink(e);
                 var links = '<div class="links">' + (wd ? '<a href="' + esc(wd) + '" target="_blank" rel="noopener">source</a>' : "") + node + repo + "</div>";
-                return '<article class="card">' + img +
+                return '<article class="card" id="card-' + esc(e.id || slug(e.name)) + '">' + img +
                     '<div class="body">' +
                     '<div class="name">' + esc(e.name) + "</div>" +
                     '<div class="tags">' +
@@ -451,6 +452,30 @@
         });
     }
 
+    function deepLink() {
+        var id = null;
+        try { id = new URLSearchParams(window.location.search).get("id"); } catch (e) { id = null; }
+        if (!id) return;
+        var idx = -1;
+        for (var i = 0; i < state.entries.length; i++) {
+            if (state.entries[i].id === id) { idx = i; break; }
+        }
+        if (idx < 0) return;
+        var target = state.entries[idx];
+        state.kind = "all"; state.role = "all"; state.domain = "all"; state.q = ""; state.sort = "name";
+        rebuildFacets();
+        var rows = sorted(filtered());
+        var pos = rows.indexOf(target);
+        if (pos >= 0) state.page = Math.floor(pos / PAGE_SIZE) + 1;
+        render();
+        var card = document.getElementById("card-" + target.id);
+        if (card) {
+            card.classList.add("flash");
+            card.scrollIntoView({ block: "center" });
+            setTimeout(function () { card.classList.remove("flash"); }, 2400);
+        }
+    }
+
     function boot() {
         themeToggle();
         bind();
@@ -465,6 +490,7 @@
                 renderStats();
                 rebuildFacets();
                 render();
+                deepLink();
             })
             .catch(function (err) {
                 el("grid").innerHTML = '<div class="empty err">could not load ' + DATA_URL + " (" + esc(err.message) + ")</div>";

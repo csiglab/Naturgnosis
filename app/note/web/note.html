@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="notes.css">
     <script src="vendor/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
     <style>
         :root {
             /* Oxford Common Room tokens — keep identical to app/shared/theme.css
@@ -627,6 +630,20 @@
             headings.forEach(function (h) { observer.observe(h); });
         }
 
+        /* LaTeX-safe markdown: shield $$…$$ display blocks from the
+           parser (bare '=' lines would otherwise become setext headings),
+           then restore them verbatim for KaTeX. */
+        function renderMarkdown(md) {
+            var blocks = [];
+            var shielded = md.replace(/\$\$[\s\S]*?\$\$/g, function (m) {
+                blocks.push(m);
+                return '\n\nMATHBLOCK' + (blocks.length - 1) + '\n\n';
+            });
+            var html = marked.parse(shielded);
+            html = html.replace(/MATHBLOCK(\d+)/g, function (_, i) { return blocks[+i] || ''; });
+            return html;
+        }
+
         var params = new URLSearchParams(window.location.search);
         var name = params.get('n') || '';
 
@@ -659,7 +676,20 @@
                     document.getElementById('meta-raw').setAttribute('href', '../data/' + encPath(name));
                     renderTags(fm.tags);
 
-                    document.getElementById('note-body').innerHTML = marked.parse(md);
+                    document.getElementById('note-body').innerHTML = renderMarkdown(md);
+                    try {
+                        if (typeof renderMathInElement === 'function') {
+                            renderMathInElement(document.getElementById('note-body'), {
+                                delimiters: [
+                                    { left: '$$', right: '$$', display: true },
+                                    { left: '\\[', right: '\\]', display: true },
+                                    { left: '\\(', right: '\\)', display: false },
+                                    { left: '$', right: '$', display: false }
+                                ],
+                                throwOnError: false
+                            });
+                        }
+                    } catch (e) { /* offline CDN: TeX source stays readable */ }
                     document.getElementById('loading').hidden = true;
                     document.getElementById('note-header').hidden = false;
                     document.getElementById('note-card').hidden = false;

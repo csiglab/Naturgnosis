@@ -669,8 +669,19 @@
             ['epistemica', 'Epistemic nodes'],
             ['nature', 'Nature nodes'],
             ['note', 'Notes'],
-            ['qa', 'Q/A']
+            ['qa', 'Q/A'],
+            ['live-hs', 'HS catalog'],
+            ['live-naics', 'NAICS catalog'],
+            ['live-taxonomy', 'Product taxonomy'],
+            ['live-gp', 'Good producers']
         ];
+
+        var LIVE_PAGES = {
+            'live-hs': 'live/social/product/view.html',
+            'live-naics': 'live/social/economic-activity/view.html',
+            'live-taxonomy': 'live/social/product/taxonomy.html',
+            'live-gp': 'live/technique/good-producers/view.html'
+        };
 
         function uesc(s) {
             var d = document.createElement('div');
@@ -692,6 +703,14 @@
             }
             if (e.surface === 'nation' && e.kind === 'node') {
                 return '/nation/entry.html?code=' + encodeURIComponent(e.path);
+            }
+            if (e.kind === 'live-item') {
+                /* Live-catalog deep link: catalog page with the item selected
+                   (hash anchor for the shared viewer, ?id= for good-producers). */
+                var page = e.page || LIVE_PAGES[e.surface] || '';
+                var pg = uencPath(page);
+                if (e.surface === 'live-gp') return '/note/data/' + pg + '?id=' + encodeURIComponent(e.path);
+                return '/note/data/' + pg + '#' + encodeURIComponent(e.path);
             }
             if (e.kind === 'node') {
                 /* Graph explorer deep link: selects, pans to, and opens the node. */

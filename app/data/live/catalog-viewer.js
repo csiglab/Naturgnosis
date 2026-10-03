@@ -258,6 +258,12 @@
         /* ---- detail ---- */
         function select(id) {
             state.sel = id; var n = by[id]; var d = el("cv-detail");
+            if (n) {
+                try {
+                    var h = "#" + encodeURIComponent(String(id));
+                    if (window.location.hash !== h) window.history.replaceState(null, "", h);
+                } catch (e) {}
+            }
             if (!n) { d.innerHTML = '<div class="cv-empty">Select a node.</div>'; return; }
             var code = dfn.code ? dfn.code(n) : (String(n.id).length <= 12 ? n.id : "");
             var meta = dfn.meta ? dfn.meta(n) : "";
@@ -312,8 +318,14 @@
         window.addEventListener("resize", function () { if (state.view === "treemap") renderTreemap(); });
 
         refresh();
-        if (roots[0]) select(roots[0].id);
-        return { refresh: refresh, setView: setView };
+        var deep = null;
+        try { deep = decodeURIComponent(String(window.location.hash || "").replace(/^#/, "")); } catch (e) { deep = null; }
+        if (deep && by[deep]) {
+            var c = by[deep].parentNode;
+            while (c) { delete state.collapsed[c.id]; c = c.parentNode; }
+            refresh(); select(deep);
+        } else if (roots[0]) select(roots[0].id);
+        return { refresh: refresh, setView: setView, select: select };
     }
 
     window.CatalogViewer = { mount: mount };

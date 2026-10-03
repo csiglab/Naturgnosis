@@ -134,10 +134,94 @@ def node_entries() -> list:
     return entries
 
 
+def live_entries() -> list:
+    """Live-catalog items (HS, NAICS, product taxonomy, good producers).
+
+    Each entry points at its catalog page; the hub box deep-links to the
+    item (hash anchor for the shared catalog viewer, ?id= for the
+    good-producers grid). Item id rides in "path", catalog page in "page".
+    """
+    catalogs = [
+        {
+            "surface": "live-hs",
+            "file": REPO / "app" / "note" / "data" / "live" / "social" / "product" / "hs-2022.json",
+            "page": "live/social/product/view.html",
+            "items": lambda raw: raw if isinstance(raw, list) else [],
+            "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
+            "type": lambda x: x.get("level") or "",
+            "tags": lambda x: [x.get("section")] if x.get("section") else [],
+            "excerpt": lambda x: x.get("description") or x.get("title") or "",
+            "id": lambda x: x.get("code") or "",
+        },
+        {
+            "surface": "live-naics",
+            "file": REPO / "app" / "note" / "data" / "live" / "social" / "economic-activity" / "naics-2022.json",
+            "page": "live/social/economic-activity/view.html",
+            "items": lambda raw: raw if isinstance(raw, list) else [],
+            "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
+            "type": lambda x: x.get("level") or "",
+            "tags": lambda x: [t for t in (x.get("keywords") or []) if isinstance(t, str)][:5],
+            "excerpt": lambda x: x.get("description") or "",
+            "id": lambda x: x.get("code") or "",
+        },
+        {
+            "surface": "live-taxonomy",
+            "file": REPO / "app" / "note" / "data" / "live" / "social" / "product" / "taxonomy.json",
+            "page": "live/social/product/taxonomy.html",
+            "items": lambda raw: raw if isinstance(raw, list) else [],
+            "title": lambda x: x.get("label") or x.get("id") or "",
+            "type": lambda x: x.get("level") or "",
+            "tags": lambda x: [x.get("hs")] if x.get("hs") else [],
+            "excerpt": lambda x: x.get("desc") or "",
+            "id": lambda x: x.get("id") or "",
+        },
+        {
+            "surface": "live-gp",
+            "file": REPO / "app" / "note" / "data" / "live" / "technique" / "good-producers" / "entries.json",
+            "page": "live/technique/good-producers/view.html",
+            "items": lambda raw: raw.get("entries", []) if isinstance(raw, dict) else [],
+            "title": lambda x: x.get("name") or "",
+            "type": lambda x: " / ".join([t for t in (x.get("kind"), x.get("role")) if t]),
+            "tags": lambda x: [t for t in (x.get("kind"), x.get("role"), x.get("domain")) if t],
+            "excerpt": lambda x: x.get("description") or "",
+            "id": lambda x: x.get("id") or "",
+        },
+    ]
+    entries = []
+    for cat in catalogs:
+        if not cat["file"].is_file():
+            print(f"search-index: skip {cat['surface']} (no {cat['file'].relative_to(REPO)})")
+            continue
+        raw = json.loads(cat["file"].read_text(encoding="utf-8"))
+        n = 0
+        for x in cat["items"](raw):
+            if not isinstance(x, dict):
+                continue
+            item_id = cat["id"](x)
+            if not item_id:
+                continue
+            entries.append(
+                {
+                    "surface": cat["surface"],
+                    "kind": "live-item",
+                    "type": cat["type"](x),
+                    "title": cat["title"](x),
+                    "path": item_id,
+                    "page": cat["page"],
+                    "tags": cat["tags"](x),
+                    "excerpt": excerpt(cat["excerpt"](x)),
+                }
+            )
+            n += 1
+        print(f"search-index: {cat['surface']}: {n} items")
+    return entries
+
+
 def main() -> int:
     entries = note_entries()
     entries.extend(qa_entries())
     entries.extend(node_entries())
+    entries.extend(live_entries())
 
     counts = {}
     for e in entries:

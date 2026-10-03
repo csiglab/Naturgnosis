@@ -158,4 +158,3 @@ tags: [retail, supply-chain, demand-forecasting, inventory, multi-root]
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Logistics System](note.html?n=technique/logistics-system.md)
-- [Commerce Market](note.html?n=social/market/commerce-market.md)
