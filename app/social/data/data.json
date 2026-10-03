@@ -177230,5 +177230,2401 @@
         "description": "Daily gazette: rules, proposed rules, notices, presidential documents; document and public-inspection search."
       }
     ]
+  },
+  {
+    "id": "costco",
+    "name": "Costco",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "warehouse-club",
+      "membership"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Costco is a commerce firm based in United States, operating Warehouse Club / Membership.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Warehouse Club",
+        "Membership"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Costco",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "supermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Kroger is a commerce firm based in United States, operating Supermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Omnichannel"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Kroger",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "target",
+    "name": "Target",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "general-merchandise",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Target is a commerce firm based in United States, operating General Merchandise / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "General Merchandise",
+        "Omnichannel"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Target",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "tjx-companies",
+    "name": "TJX Companies",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "off-price",
+      "opportunistic-retail"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "TJX Companies is a commerce firm based in United States, operating Off-Price / Opportunistic Retail.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Off-Price",
+        "Opportunistic Retail"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — TJX Companies",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "home-depot",
+    "name": "Home Depot",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "specialty-retail",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Home Depot is a commerce firm based in United States, operating Specialty Retail / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Specialty Retail",
+        "Omnichannel"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Home Depot",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "7-eleven",
+    "name": "7-Eleven",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "convenience",
+      "franchise"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "7-Eleven is a commerce firm based in United States, operating Convenience / Franchise.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Convenience",
+        "Franchise"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — 7-Eleven",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "dollar-general",
+    "name": "Dollar General",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "discount-retail"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Dollar General is a commerce firm based in United States, operating Discount Retail.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Discount Retail"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Dollar General",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "rei",
+    "name": "REI",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "cooperative-retail"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "REI is a commerce firm based in United States, operating Cooperative Retail.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Cooperative Retail"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — REI",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "brand-owned",
+      "dtc",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Nike is a commerce firm based in United States, operating Brand-Owned / DTC / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Brand-Owned",
+        "DTC",
+        "Omnichannel"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Nike",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "ebay",
+    "name": "eBay",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "p2p",
+      "marketplace",
+      "auction"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "eBay is a commerce firm based in United States, operating P2P / Marketplace / Auction.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "P2P",
+        "Marketplace",
+        "Auction"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — eBay",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "instacart",
+    "name": "Instacart",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "on-demand",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Instacart is a commerce firm based in United States, operating On-Demand / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "On-Demand",
+        "Marketplace"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Instacart",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "rent-the-runway",
+    "name": "Rent the Runway",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "rental"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Rent the Runway is a commerce firm based in United States, operating Rental.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Rental"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Rent the Runway",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "thredup",
+    "name": "thredUP",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "resale",
+      "recommerce"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "thredUP is a commerce firm based in United States, operating Resale / Recommerce.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Resale",
+        "Recommerce"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — thredUP",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "groupon",
+    "name": "Groupon",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "group-buying",
+      "demand-aggregation"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Groupon is a commerce firm based in United States, operating Group-Buying / Demand Aggregation.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Group-Buying",
+        "Demand Aggregation"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Groupon",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "amway",
+    "name": "Amway",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "direct-selling",
+      "network-distribution"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Amway is a commerce firm based in United States, operating Direct Selling / Network Distribution.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Direct Selling",
+        "Network Distribution"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Amway",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "back-market",
+    "name": "Back Market",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "france",
+      "recommerce",
+      "refurbishment",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Back Market is a commerce firm based in France, operating Recommerce / Refurbishment / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Recommerce",
+        "Refurbishment",
+        "Marketplace"
+      ],
+      "country": "France",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Back Market",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "e-leclerc",
+    "name": "E.Leclerc",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "france",
+      "cooperative",
+      "general-retail"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "E.Leclerc is a commerce firm based in France, operating Cooperative / General Retail.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Cooperative",
+        "General Retail"
+      ],
+      "country": "France",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — E.Leclerc",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "lidl",
+    "name": "Lidl",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "germany",
+      "hard-discount"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Lidl is a commerce firm based in Germany, operating Hard Discount.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Hard Discount"
+      ],
+      "country": "Germany",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Lidl",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "aldi",
+    "name": "ALDI",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "germany",
+      "hard-discount"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "ALDI is a commerce firm based in Germany, operating Hard Discount.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Hard Discount"
+      ],
+      "country": "Germany",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — ALDI",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "rewe",
+    "name": "REWE",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "germany",
+      "supermarket",
+      "cooperative",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "REWE is a commerce firm based in Germany, operating Supermarket / Cooperative / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Cooperative",
+        "Omnichannel"
+      ],
+      "country": "Germany",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — REWE",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "metro-ag",
+    "name": "Metro AG",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "germany",
+      "cash-and-carry",
+      "membership"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Metro AG is a commerce firm based in Germany, operating Cash-and-Carry / Membership.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Cash-and-Carry",
+        "Membership"
+      ],
+      "country": "Germany",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Metro AG",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "zalando",
+    "name": "Zalando",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "germany",
+      "e-commerce",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Zalando is a commerce firm based in Germany, operating E-Commerce / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "E-Commerce",
+        "Marketplace"
+      ],
+      "country": "Germany",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Zalando",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "assai-atacadista",
+    "name": "Assaí Atacadista",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "brazil",
+      "cash-and-carry"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Assaí Atacadista is a commerce firm based in Brazil, operating Cash-and-Carry.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Cash-and-Carry"
+      ],
+      "country": "Brazil",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Assaí Atacadista",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "falabella",
+    "name": "Falabella",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "chile",
+      "department-store",
+      "marketplace",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Falabella is a commerce firm based in Chile, operating Department Store / Marketplace / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Department Store",
+        "Marketplace",
+        "Omnichannel"
+      ],
+      "country": "Chile",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Falabella",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "cencosud",
+    "name": "Cencosud",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "chile",
+      "supermarket",
+      "hypermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Cencosud is a commerce firm based in Chile, operating Supermarket / Hypermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Hypermarket",
+        "Omnichannel"
+      ],
+      "country": "Chile",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Cencosud",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "shufersal",
+    "name": "Shufersal",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "israel",
+      "supermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Shufersal is a commerce firm based in Israel, operating Supermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Omnichannel"
+      ],
+      "country": "Israel",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Shufersal",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "rami-levy",
+    "name": "Rami Levy",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "israel",
+      "discount",
+      "supermarket"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Rami Levy is a commerce firm based in Israel, operating Discount / Supermarket.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Discount",
+        "Supermarket"
+      ],
+      "country": "Israel",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Rami Levy",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "salling-group",
+    "name": "Salling Group",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "denmark",
+      "supermarket",
+      "discount",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Salling Group is a commerce firm based in Denmark, operating Supermarket / Discount / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Discount",
+        "Omnichannel"
+      ],
+      "country": "Denmark",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Salling Group",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "coop-danmark",
+    "name": "Coop Danmark",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "denmark",
+      "cooperative-retail"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Coop Danmark is a commerce firm based in Denmark, operating Cooperative Retail.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Cooperative Retail"
+      ],
+      "country": "Denmark",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Coop Danmark",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "jb-hi-fi",
+    "name": "JB Hi-Fi",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "australia",
+      "specialty",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "JB Hi-Fi is a commerce firm based in Australia, operating Specialty / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Specialty",
+        "Omnichannel"
+      ],
+      "country": "Australia",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — JB Hi-Fi",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "dollarama",
+    "name": "Dollarama",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "canada",
+      "discount"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Dollarama is a commerce firm based in Canada, operating Discount.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Discount"
+      ],
+      "country": "Canada",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Dollarama",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "indigo",
+    "name": "Indigo",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "canada",
+      "specialty",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Indigo is a commerce firm based in Canada, operating Specialty / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Specialty",
+        "Omnichannel"
+      ],
+      "country": "Canada",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Indigo",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "al-futtaim-carrefour-uae",
+    "name": "Al-Futtaim / Carrefour UAE",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-arab-emirates",
+      "supermarket",
+      "hypermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Al-Futtaim / Carrefour UAE is a commerce firm based in United Arab Emirates, operating Supermarket / Hypermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Hypermarket",
+        "Omnichannel"
+      ],
+      "country": "United Arab Emirates",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Al-Futtaim / Carrefour UAE",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "lulu-retail",
+    "name": "LuLu Retail",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-arab-emirates",
+      "hypermarket",
+      "supermarket"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "LuLu Retail is a commerce firm based in United Arab Emirates, operating Hypermarket / Supermarket.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Hypermarket",
+        "Supermarket"
+      ],
+      "country": "United Arab Emirates",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — LuLu Retail",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "noon",
+    "name": "Noon",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-arab-emirates",
+      "e-commerce",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Noon is a commerce firm based in United Arab Emirates, operating E-Commerce / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "E-Commerce",
+        "Marketplace"
+      ],
+      "country": "United Arab Emirates",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Noon",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "dubizzle",
+    "name": "Dubizzle",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-arab-emirates",
+      "p2p-marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Dubizzle is a commerce firm based in United Arab Emirates, operating P2P Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "P2P Marketplace"
+      ],
+      "country": "United Arab Emirates",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Dubizzle",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "dunnes-stores",
+    "name": "Dunnes Stores",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "ireland",
+      "supermarket",
+      "department-store"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Dunnes Stores is a commerce firm based in Ireland, operating Supermarket / Department Store.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Department Store"
+      ],
+      "country": "Ireland",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Dunnes Stores",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "tesco-ireland",
+    "name": "Tesco Ireland",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "ireland",
+      "supermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Tesco Ireland is a commerce firm based in Ireland, operating Supermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Omnichannel"
+      ],
+      "country": "Ireland",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Tesco Ireland",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "aldi-ireland",
+    "name": "Aldi Ireland",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "ireland",
+      "discount"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Aldi Ireland is a commerce firm based in Ireland, operating Discount.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Discount"
+      ],
+      "country": "Ireland",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Aldi Ireland",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "albert-heijn",
+    "name": "Albert Heijn",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "netherlands",
+      "supermarket",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Albert Heijn is a commerce firm based in Netherlands, operating Supermarket / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Supermarket",
+        "Omnichannel"
+      ],
+      "country": "Netherlands",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Albert Heijn",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "bol",
+    "name": "Bol",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "netherlands",
+      "e-commerce",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Bol is a commerce firm based in Netherlands, operating E-Commerce / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "E-Commerce",
+        "Marketplace"
+      ],
+      "country": "Netherlands",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Bol",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "coolblue",
+    "name": "Coolblue",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "netherlands",
+      "e-commerce",
+      "omnichannel"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Coolblue is a commerce firm based in Netherlands, operating E-Commerce / Omnichannel.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "E-Commerce",
+        "Omnichannel"
+      ],
+      "country": "Netherlands",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Coolblue",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "vinted",
+    "name": "Vinted",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "lithuania",
+      "p2p",
+      "resale-marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Vinted is a commerce firm based in Lithuania, operating P2P / Resale Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "P2P",
+        "Resale Marketplace"
+      ],
+      "country": "Lithuania",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Vinted",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "pdd-holdings",
+    "name": "PDD Holdings",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "china",
+      "social",
+      "group-buying",
+      "marketplace"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "PDD Holdings is a commerce firm based in China, operating Social / Group-Buying / Marketplace.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Social",
+        "Group-Buying",
+        "Marketplace"
+      ],
+      "country": "China",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — PDD Holdings",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "china",
+      "marketplace",
+      "platform-commerce"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Alibaba is a commerce firm based in China, operating Marketplace / Platform Commerce.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Marketplace",
+        "Platform Commerce"
+      ],
+      "country": "China",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Alibaba",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "gopuff",
+    "name": "Gopuff",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "on-demand",
+      "automated-fulfillment"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Gopuff is a commerce firm based in United States, operating On-Demand / Automated Fulfillment.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "On-Demand",
+        "Automated Fulfillment"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Gopuff",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "avon",
+    "name": "Avon",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-states",
+      "direct-selling"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Avon is a commerce firm based in United States, operating Direct Selling.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Direct Selling"
+      ],
+      "country": "United States",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Avon",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "mcarthurglen",
+    "name": "McArthurGlen",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-kingdom",
+      "factory-outlet"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "McArthurGlen is a commerce firm based in United Kingdom, operating Factory Outlet.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "Factory Outlet"
+      ],
+      "country": "United Kingdom",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — McArthurGlen",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "depop",
+    "name": "Depop",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-kingdom",
+      "p2p",
+      "social-commerce",
+      "resale"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Depop is a commerce firm based in United Kingdom, operating P2P / Social Commerce / Resale.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "P2P",
+        "Social Commerce",
+        "Resale"
+      ],
+      "country": "United Kingdom",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Depop",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
+  },
+  {
+    "id": "ocado",
+    "name": "Ocado",
+    "tags": [
+      "actor",
+      "firm",
+      "commerce",
+      "united-kingdom",
+      "e-commerce-grocery",
+      "automated-fulfillment"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Ocado is a commerce firm based in United Kingdom, operating E-Commerce Grocery / Automated Fulfillment.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "businessModels": [
+        "E-Commerce Grocery",
+        "Automated Fulfillment"
+      ],
+      "country": "United Kingdom",
+      "sourceCorpus": "Commerce firm study"
+    },
+    "metadata": {
+      "inheritanceLevel": 0,
+      "confidenceScore": 0.6,
+      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "createdAt": "2026-10-03T00:00:00Z",
+      "auditTrail": [
+        {
+          "reviewDate": "2026-10-03",
+          "reviewNote": "Firm batch added from the commerce study table."
+        }
+      ]
+    },
+    "references": [
+      {
+        "title": "Wikipedia — Ocado",
+        "link": null,
+        "description": "Encyclopedic entry."
+      }
+    ]
   }
 ]
