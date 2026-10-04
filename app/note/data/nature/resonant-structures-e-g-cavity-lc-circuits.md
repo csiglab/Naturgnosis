@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Resonant Structures (e.g., cavity, LC circuits)** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **Resonant Structures (e.g., cavity, LC circuits)** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Imported aliases (same referent, pending merge review): **Resonant Structures**.
 

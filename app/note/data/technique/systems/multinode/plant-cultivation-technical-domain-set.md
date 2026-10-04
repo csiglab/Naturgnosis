@@ -43,7 +43,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 
 > Boundary: this table gives a middle-depth decomposition of one cultivation ensemble — the root set, its nine sub-domain sets, and the worked constituents beneath each. No deployment exemplars are carried; a branch that needs a concrete instance takes one.
 >
-> Typing reads directly from the instance path: the sub-domain sets resolve to the enclosing `Technical Element Set` grouping, and everything below a sub-domain resolves to the nearest enclosing type segment. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set` — a set nests inside a composite at any depth. Every backticked type segment groups instances and terminates on none.
+> Typing reads directly from the instance path: the sub-domain sets resolve to the enclosing `Technical Element Set` grouping, and everything below a sub-domain resolves to the nearest enclosing type segment. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set` — a set nests inside a composite at any depth. Every backticked type segment groups instances and terminates on none.
 
 | Instance Tree Path | Description |
 | --- | --- |

@@ -38,27 +38,27 @@ natural instance; prefixes are valid paths (recursion rule).
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **earth** | The planet system under study. | System | `(root) > Natural System` |
-| **earth** > **inner core** | Solid iron-nickel sphere crystallizing at the center. | Constituent | `(root) > Natural System > Natural Object` |
-| **earth** > **outer core** | Liquid iron-nickel shell convecting around the inner core. | Constituent | `(root) > Natural System > Natural Object` |
-| **earth** > **mantle** | Convecting silicate shell driving plate motion. | Constituent | `(root) > Natural System > Natural Object` |
-| **earth** > **crust** | Thin differentiated shell of oceanic and continental rock. | Constituent | `(root) > Natural System > Natural Object` |
-| **earth** > **crust** > **limestone bed** | Recurring carbonate earth material worked into strata. | Constituent | `(root) > Natural System > Natural Object > Building Block` |
-| **earth** > **crust** > **limestone bed** > **calcite** | Compositional mineral substance of the bed. | Constituent | `(root) > Natural System > Natural Object > Building Block > Substance` |
-| **earth** > **ocean** | Liquid-water hydrosphere with currents and chemistry. | System | `(root) > Natural System > Natural System` |
-| **earth** > **atmosphere** | Gaseous envelope with circulation and composition. | Constituent | `(root) > Natural System > Natural Object` |
-| **earth** > **biosphere** | The total living organization coupled to air, water, and rock. | System | `(root) > Natural System > Ecosystem` |
-| **earth** > **forest** | Terrestrial ecosystem; exemplar meso subsystem of the biosphere. | System | `(root) > Natural System > Ecosystem` |
-| **earth** > **cyanobacteria** | Self-maintaining oxygenic photoautotrophs; exemplar organisms. | Living | `(root) > Natural System > Organism` |
-| **earth** > **photosynthesis** | Biological transformation fixing carbon with light. | Living | `(root) > Natural System > Living Process` |
-| **earth** > **plate tectonics** | Causally continuous creation-destruction sequence of lithosphere. | Manifestation | `(root) > Natural System > Natural Process` |
-| **earth** > **plate tectonics** > **earthquake regime** | Unified explanatory object over rupture events. | Manifestation | `(root) > Natural System > Natural Process > Phenomenon` |
-| **earth** > **hydrologic cycle** | Ordered state sequence of water through reservoirs. | Manifestation | `(root) > Natural System > Natural Process > Trajectory` |
-| **earth** > **ocean chemistry state** | Snapshot configuration of salinity, pH, and dissolved load. | Manifestation | `(root) > Natural System > Natural Process > State` |
-| **earth** > `Property` > **planetary mass** | Measurable attribute bounding gravity and escape. | Quantity | `(root) > Natural System > Property` |
-| **earth** > `Property` > **albedo** | Measurable reflectivity attribute bounding energy balance. | Quantity | `(root) > Natural System > Property` |
-| **earth** > `Constraint` > **surface gravity** | Scale-imposed bound on atmosphere retention and relief. | Constraint | `(root) > Natural System > Natural Constraint` |
-| **earth** > `Constraint` > **carrying capacity** | Scale-imposed bound on sustained biomass. | Constraint | `(root) > Natural System > Natural Constraint` |
+| **earth** | The planet system under study. | System | `(root) := Natural System` |
+| **earth** > **inner core** | Solid iron-nickel sphere crystallizing at the center. | Constituent | `(root) := Natural System -> Natural Object` |
+| **earth** > **outer core** | Liquid iron-nickel shell convecting around the inner core. | Constituent | `(root) := Natural System -> Natural Object` |
+| **earth** > **mantle** | Convecting silicate shell driving plate motion. | Constituent | `(root) := Natural System -> Natural Object` |
+| **earth** > **crust** | Thin differentiated shell of oceanic and continental rock. | Constituent | `(root) := Natural System -> Natural Object` |
+| **earth** > **crust** > **limestone bed** | Recurring carbonate earth material worked into strata. | Constituent | `(root) := Natural System -> Natural Object -> Building Block` |
+| **earth** > **crust** > **limestone bed** > **calcite** | Compositional mineral substance of the bed. | Constituent | `(root) := Natural System -> Natural Object -> Building Block -> Substance` |
+| **earth** > **ocean** | Liquid-water hydrosphere with currents and chemistry. | System | `(root) := Natural System -> Natural System` |
+| **earth** > **atmosphere** | Gaseous envelope with circulation and composition. | Constituent | `(root) := Natural System -> Natural Object` |
+| **earth** > **biosphere** | The total living organization coupled to air, water, and rock. | System | `(root) := Natural System -> Ecosystem` |
+| **earth** > **forest** | Terrestrial ecosystem; exemplar meso subsystem of the biosphere. | System | `(root) := Natural System -> Ecosystem` |
+| **earth** > **cyanobacteria** | Self-maintaining oxygenic photoautotrophs; exemplar organisms. | Living | `(root) := Natural System -> Organism` |
+| **earth** > **photosynthesis** | Biological transformation fixing carbon with light. | Living | `(root) := Natural System -> Living Process` |
+| **earth** > **plate tectonics** | Causally continuous creation-destruction sequence of lithosphere. | Manifestation | `(root) := Natural System -> Natural Process` |
+| **earth** > **plate tectonics** > **earthquake regime** | Unified explanatory object over rupture events. | Manifestation | `(root) := Natural System -> Natural Process -> Phenomenon` |
+| **earth** > **hydrologic cycle** | Ordered state sequence of water through reservoirs. | Manifestation | `(root) := Natural System -> Natural Process -> Trajectory` |
+| **earth** > **ocean chemistry state** | Snapshot configuration of salinity, pH, and dissolved load. | Manifestation | `(root) := Natural System -> Natural Process -> State` |
+| **earth** > `Property` > **planetary mass** | Measurable attribute bounding gravity and escape. | Quantity | `(root) := Natural System -> Property` |
+| **earth** > `Property` > **albedo** | Measurable reflectivity attribute bounding energy balance. | Quantity | `(root) := Natural System -> Property` |
+| **earth** > `Constraint` > **surface gravity** | Scale-imposed bound on atmosphere retention and relief. | Constraint | `(root) := Natural System -> Natural Constraint` |
+| **earth** > `Constraint` > **carrying capacity** | Scale-imposed bound on sustained biomass. | Constraint | `(root) := Natural System -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (coupled interior-surface-life systems), Nonlinearity (climate and rupture thresholds),

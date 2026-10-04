@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Momentum** | Imported instance; decomposition pending. | Quantity | `(root) -> Interaction-Derived Quantity` |
+| **Momentum** | Imported instance; decomposition pending. | Quantity | `(root) := Interaction-Derived Quantity` |
 
 Imported aliases (same referent, pending merge review): **Momentum?**.
 

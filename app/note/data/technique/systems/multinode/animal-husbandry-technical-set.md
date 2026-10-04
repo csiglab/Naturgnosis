@@ -34,7 +34,7 @@ Lineage: pastoral animals moved with the seasons → fixed housing and hand feed
 
 > Boundary: one system at middle depth — the spine (evolution, purpose, reality model), the infrastructure, feeding, and welfare practice groups worked to instance leaves, and five member sets, each of which is elaborated in its own note or reserved for a later decomposition. Members are named and their scope stated, not re-decomposed here.
 >
-> Typing reads from the instance path: the spine lands on flat facet types; each member resolves to the enclosing `Technical Element Set` grouping. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads from the instance path: the spine lands on flat facet types; each member resolves to the enclosing `Technical Element Set` grouping. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

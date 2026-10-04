@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **JSON (BioJSON, GA4GH)** | Imported instance; decomposition pending. | System | `(root) -> Natural System` |
+| **JSON (BioJSON, GA4GH)** | Imported instance; decomposition pending. | System | `(root) := Natural System` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

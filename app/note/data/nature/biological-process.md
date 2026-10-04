@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Biological Process** | Imported instance; decomposition pending. | System | `(root) -> Natural System` |
+| **Biological Process** | Imported instance; decomposition pending. | System | `(root) := Natural System` |
 
 Imported aliases (same referent, pending merge review): **Biological Processes**.
 

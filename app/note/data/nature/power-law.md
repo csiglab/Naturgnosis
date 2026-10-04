@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Power Law** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Power Law** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Imported aliases (same referent, pending merge review): **Power Laws.**, **power laws**.
 

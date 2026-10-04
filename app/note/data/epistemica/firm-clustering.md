@@ -22,10 +22,10 @@ tags: [clustering, firms, 10-k]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Firm Clustering | Empirical firm-classification process. | Agency | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process)` |
-| Firm Clustering → SEC Filings Corpus | 10-K evidence artifact feeding the pipeline. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
-| Firm Clustering → Clustering Configuration | spaCy pipeline configuration tool. | Methodology | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
-| Firm Clustering → Cluster Map | Empirical grouping output artifact. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Clustering | Empirical firm-classification process. | Agency | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process)` |
+| Firm Clustering → SEC Filings Corpus | 10-K evidence artifact feeding the pipeline. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Clustering → Clustering Configuration | spaCy pipeline configuration tool. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
+| Firm Clustering → Cluster Map | Empirical grouping output artifact. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
 
 ## References
 

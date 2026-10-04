@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Strong Nuclear Field** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Strong Nuclear Field** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

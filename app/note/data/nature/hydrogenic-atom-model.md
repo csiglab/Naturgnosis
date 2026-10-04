@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Hydrogenic Atom Model** | Imported instance; decomposition pending. | Constituent | `(root) -> Building Block` |
+| **Hydrogenic Atom Model** | Imported instance; decomposition pending. | Constituent | `(root) := Building Block` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

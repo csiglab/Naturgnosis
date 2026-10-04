@@ -35,21 +35,21 @@ natural instance; prefixes are valid paths (recursion rule).
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **mineral** | The crystalline solid kind under study (here archetyped as calcite). | Constituent | `(root) > Substance` |
-| **mineral** > **calcite grain** | Single-crystal occurrence; building-block instantiation of the kind. | Constituent | `(root) > Substance > Building Block` |
-| **mineral** > **calcite grain** > **calcite lattice** | Ordered atomic arrangement recurring across grains. | Constituent | `(root) > Substance > Building Block > Building Block` |
-| **mineral** > **quartz vein** | Polycrystalline occurrence; silica-kind exemplar body. | Constituent | `(root) > Substance > Natural Object` |
-| **mineral** > **feldspar phenocryst** | Large crystal in porphyritic rock; framework-silicate exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **mineral** > **olivine xenolith** | Mantle-derived aggregate occurrence; nesosilicate exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **mineral** > **fluid inclusion** | Trapped pore-fluid particular inside the crystal. | Constituent | `(root) > Substance > Natural Object` |
-| **mineral** > **crystallization** | Causally continuous growth sequence from fluid or melt. | Manifestation | `(root) > Substance > Natural Process` |
-| **mineral** > **crystallization** > **zoning pattern** | Unified explanatory object over growth-zone events. | Manifestation | `(root) > Substance > Natural Process > Phenomenon` |
-| **mineral** > **dissolution** | Ordered state sequence from crystal to solute. | Manifestation | `(root) > Substance > Natural Process > Trajectory` |
-| **mineral** > **saturation state** | Snapshot solute-configuration bounding growth or loss. | Manifestation | `(root) > Substance > Natural Process > State` |
-| **mineral** > `Property` > **hardness** | Measurable resistance attribute bounding abrasion. | Quantity | `(root) > Substance > Property` |
-| **mineral** > `Property` > **cleavage angle** | Measurable lattice-controlled attribute bounding breakage. | Quantity | `(root) > Substance > Property` |
-| **mineral** > `Constraint` > **phase stability field** | Law- and scale-imposed bound on persistence conditions. | Constraint | `(root) > Substance > Natural Constraint` |
-| **mineral** > `Constraint` > **solubility limit** | Phase bound on precipitation and dissolution. | Constraint | `(root) > Substance > Natural Constraint` |
+| **mineral** | The crystalline solid kind under study (here archetyped as calcite). | Constituent | `(root) := Substance` |
+| **mineral** > **calcite grain** | Single-crystal occurrence; building-block instantiation of the kind. | Constituent | `(root) := Substance -> Building Block` |
+| **mineral** > **calcite grain** > **calcite lattice** | Ordered atomic arrangement recurring across grains. | Constituent | `(root) := Substance -> Building Block -> Building Block` |
+| **mineral** > **quartz vein** | Polycrystalline occurrence; silica-kind exemplar body. | Constituent | `(root) := Substance -> Natural Object` |
+| **mineral** > **feldspar phenocryst** | Large crystal in porphyritic rock; framework-silicate exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **mineral** > **olivine xenolith** | Mantle-derived aggregate occurrence; nesosilicate exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **mineral** > **fluid inclusion** | Trapped pore-fluid particular inside the crystal. | Constituent | `(root) := Substance -> Natural Object` |
+| **mineral** > **crystallization** | Causally continuous growth sequence from fluid or melt. | Manifestation | `(root) := Substance -> Natural Process` |
+| **mineral** > **crystallization** > **zoning pattern** | Unified explanatory object over growth-zone events. | Manifestation | `(root) := Substance -> Natural Process -> Phenomenon` |
+| **mineral** > **dissolution** | Ordered state sequence from crystal to solute. | Manifestation | `(root) := Substance -> Natural Process -> Trajectory` |
+| **mineral** > **saturation state** | Snapshot solute-configuration bounding growth or loss. | Manifestation | `(root) := Substance -> Natural Process -> State` |
+| **mineral** > `Property` > **hardness** | Measurable resistance attribute bounding abrasion. | Quantity | `(root) := Substance -> Property` |
+| **mineral** > `Property` > **cleavage angle** | Measurable lattice-controlled attribute bounding breakage. | Quantity | `(root) := Substance -> Property` |
+| **mineral** > `Constraint` > **phase stability field** | Law- and scale-imposed bound on persistence conditions. | Constraint | `(root) := Substance -> Natural Constraint` |
+| **mineral** > `Constraint` > **solubility limit** | Phase bound on precipitation and dissolution. | Constraint | `(root) := Substance -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (lattice-fluid-defect coupling), Nonlinearity (nucleation thresholds), Uncertainty (buried

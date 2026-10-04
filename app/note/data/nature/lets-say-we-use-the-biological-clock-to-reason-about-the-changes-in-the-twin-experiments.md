@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Let’s say we use the biological clock to reason about the changes in the twin experiments** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **Let’s say we use the biological clock to reason about the changes in the twin experiments** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

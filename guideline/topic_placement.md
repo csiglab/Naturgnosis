@@ -13,7 +13,7 @@
    | What observer-independent furniture is here? | nature | "How to decompose any natural instance?" | `nature` (`/nature/edit.html`) |
    | How is transformation organized and performed? | technique | "How to decompose any technical instance?" | `technique` (`/technique/edit.html`) |
    | Which actors, institutions, roles, relations act here? | social | "How to decompose any social instance?" | `social` (`/social/edit.html`) |
-   | What scaffolding warrants knowing it? | epistemica | "How to decomposed any epistemical instance?" | `epistemica` (`/epistemica/edit.html`) |
+   | What scaffolding warrants knowing it? | epistemica | "How to decompose any epistemic instance?" | `epistemica` (`/epistemica/edit.html`) |
 
 2. **Type the root; ambiguity goes to the human, never guess.** When the instance is readable under
    several grammars (a quarry is a landform *and* a worksite *and* a facility), STOP and ask

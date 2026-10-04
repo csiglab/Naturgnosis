@@ -50,7 +50,7 @@ Lineage: Swagger 2.0 (Wordnik/SmartBear) donated to the OpenAPI Initiative (Linu
 | `Technical Standard` → OpenAPI → Specification → OAS 3.1 Document | Current spec version, aligned with JSON Schema (2021). |
 | `Technical Standard` → OpenAPI → Specification → OAS 3.0 Document | Prior spec version still widely deployed. |
 | `Technical Standard` → OpenAPI → Specification → Swagger 2.0 Document | Donated predecessor format (2015 heritage). |
-| `Technical Standard` → OpenAPI → OpenAPI Document | A concrete API contract file (`(root) -> <<Technical Element>> -> Technical Blueprint` / `openapi.yaml`) conforming to the spec. |
+| `Technical Standard` → OpenAPI → OpenAPI Document | A concrete API contract file (`(root) := <<Technical Element>> -> Technical Blueprint` / `openapi.yaml`) conforming to the spec. |
 | `Technical Standard` → OpenAPI → OpenAPI Document → Info | Title, version, description of the described API. |
 | `Technical Standard` → OpenAPI → OpenAPI Document → Servers | Base URLs and variables where the described API is realized (exemplar values per deployment). |
 | `Technical Standard` → OpenAPI → OpenAPI Document → Paths | Route table mapping URL templates to operations. |
@@ -71,7 +71,7 @@ Lineage: Swagger 2.0 (Wordnik/SmartBear) donated to the OpenAPI Initiative (Linu
 | `Technical Standard` → OpenAPI → Contract Testing | Tools checking an implementation against its document (interface conformance). |
 | `Technical Standard` → OpenAPI → Renderers | Documentation UIs realizing a document for humans (e.g. Swagger UI, ReDoc — see Configuration below). |
 | `Technical Standard` → OpenAPI → Generators | Family of build-time tools *implementing* the standard in two directions: docs-from-code (emit the document from annotated code) and code-from-docs (emit code from the document). |
-| `Technical Standard` → OpenAPI → Generators → Generator Direction (Docs-From-Code Vs Code-From-Docs) | Typology: docs-from-code scans code and emits `(root) -> <<Technical Element>> -> Technical Capability`; code-from-docs reads the document and emits clients, servers, and stubs. |
+| `Technical Standard` → OpenAPI → Generators → Generator Direction (Docs-From-Code Vs Code-From-Docs) | Typology: docs-from-code scans code and emits `(root) := <<Technical Element>> -> Technical Capability`; code-from-docs reads the document and emits clients, servers, and stubs. |
 | `Technical Standard` → OpenAPI → Generators → Document Generators (Docs-From-Code) | Tools that scan annotated code and emit the OpenAPI document; the code-first practice path. |
 | `Technical Standard` → OpenAPI → Generators → Document Generators → `swagger-maven-plugin` (`io.swagger.core.v3`) | Maven plugin *implementing* OAS resolution from JAX-RS code (javax and `-jakarta` artifacts); scans annotations and writes the document at build time. |
 | `Technical Standard` → OpenAPI → Generators → Document Generators → `swagger-maven-plugin` → `resolve` Goal | Build goal resolving the OpenAPI model from code, bound by default to the `compile` phase. |

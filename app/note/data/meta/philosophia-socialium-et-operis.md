@@ -54,7 +54,7 @@
 
 > The labour of social practice goes hand in hand with a layout of reality — that is its coordinative template: every associative move presupposes a parsing of who relates how, and every relational distinction earns its keep through coordinative use.
 
-> Note: Social Element Type is recursive. The single table below holds the branch: `(root) -> <<Social Element>> -> Social Order` (units, agencies, actions, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
+> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, actions, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
 
 > **Note on levels:** primitive types (interaction units, actions, regulations, states, dynamics, environments, tagging systems) compose the derivative types (roles, norms, institutions, networks, identities, scripts, systems); derivative rows land as flat roots under `Social Order` and are defined through primitives. The agentic and normative spines order the core chains; every other root is a licensed flat branch, never skipped in instance tables.
 
@@ -76,114 +76,114 @@
 
 | **Social Category** | **Social Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
-| **Meta** | `(root) -> <<Social Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `->` links expansion steps: binding at the root, containment-in-scope below. | e.g. bound to `Social Compound` for a labor market; to `Institution` for a bank |
-| **Meta** | `(root) -> <<Social Element>> -> Social Order` | The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together. | Social scaffolding and its coordinators |
-| **Agents** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
-| **Agents** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
-| **Agents** | (root) -> <<Social Element>> -> Social Order -> Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
-| **Agents** | (root) -> <<Social Element>> -> Social Order -> Collective / Organization -> Organizational Unit | Structured actor with internal rules and identity, scoping departments within a collective. | Ministry department, factory division |
-| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
-| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Practice | Recurrent, recognizable pattern of situated doings. | Commuting, queuing, deliberating, auditing |
-| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Interaction Pattern | Recurring relational sequences shaped by protocols, scoping repeated exchanges. | Patronage cycle, rotation system, bargaining round |
-| **Action** | (root) -> <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Allocation | Distribution of scarce goods by rule, scoping who receives what. | Rationing, spectrum auction, quota assignment |
-| **Action** | (root) -> <<Social Element>> -> Social Order -> Behavior | Observable pattern of actions over time, scoping an agent's conduct. | Consumer behavior, voting behavior, firm behavior |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Social Relation / Network | Structured tie between units; kinship, alliance, exchange, hierarchy. | Supply chain, patronage web, kinship system |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role | Expectation-tag binding actor, context, and interpretation to behavior. | Teacher role, fiduciary role, citizenship |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Power Relation | Asymmetric dependence stabilized into positional advantage. | Creditor–debtor, platform–complementor, metropole–colony |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Social Relation / Network -> Link | Minimal dyadic connection composing a network. | Kinship link, trade link |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Social Relation / Network -> Supply Chain | Chain of exchange ties from source to sale. | Coffee chain, chip chain |
-| **Relation** | (root) -> <<Social Element>> -> Social Order -> Pair | Minimal dyad stabilized by mutual recognition. | Patron–client pair, mentor–mentee pair |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation | Shared protocol stabilizing interaction: building-block and emergent. | Queuing norm, accounting standard, ceasefire |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution | Stabilized configuration of roles and rules. | Central bank, marriage, land registry |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation -> Right / Obligation | Deontic positions allocating claims and duties. | Property right, duty of disclosure, franchise |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Legitimacy | Recognized warrant of authority. | Electoral mandate, expert accreditation |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Authority | Legitimated power to command and be obeyed. | Judicial authority, episcopal authority |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Convention | Stable coordination pattern sustained by mutual expectation, not enforcement. | Driving side, citation practices, handshake |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Cultural Script | Semantically rich behavior protocol. | Wedding script, courtroom script, bargaining script |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Symbolic System | Full set of labels and interpretive frames used by a collective. | Heraldry, liturgical calendar, scientific nomenclature |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Status | Relative standing recognized by a collective. | Prestige, rank, seniority |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Jurisdiction | Bounded domain of legitimate authority. | Municipality, court district, diocese |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Polity | Political community organized under a common authority. | City-state, tribal confederation |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Regime | Stable pattern of political rule. | Democracy, monarchy, one-party rule |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Governance Structure | Arrangement through which authority and coordination are exercised. | Hierarchy, federalism, collegial board |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Collective Decision Mechanism | Procedure for making collective choices. | Election, consensus conference, sortition |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Strategy | Coordinated plan of action. | Industrial policy, market entry strategy |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Policy | Deliberate course of action adopted by an authority. | Tax policy, language policy |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Goal | Desired future state coordinating effort. | Profit, full employment, carbon neutrality |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Interest | Stake in an outcome attributed to a unit. | Political interest, vested interest |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Constraint | Limitation on action recognized in coordination. | Regulation, scarcity, quota |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Incentive | Arrangement shaping behavior toward an outcome. | Wage, tax benefit, bonus |
-| **Normative** | (root) -> <<Social Element>> -> Social Order -> Habitus | Durable dispositions shaping perception and action. | Bureaucratic habitus, entrepreneurial habitus |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Collective Identity | Shared interpretive frame binding actors into a we. | Diaspora identity, professional identity |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Collective Mental Model | Shared stabilized schema guiding perception and action. | Safety culture model, growth doctrine of a firm |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Discourse | System of statements shaping perception and action. | Development discourse, security discourse |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Narrative | Structured interpretation of events over time. | Progress narrative, decline narrative |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Symbol | Meaning-bearing sign coordinating recognition. | Logo, uniform, seal |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Language | Communication system enabling coordination. | Spanish, sign language, legalese |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Medium | Channel through which coordination flows. | Gazette, broadcast, platform feed |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Knowledge | Validated information used by actors in coordination. | Engineering knowledge, agronomic calendar |
-| **Cognitive** | (root) -> <<Social Element>> -> Social Order -> Tagging System | Semantic labeling rendering states legible; the Noetic primitive. | Credit ratings, industry codes, diagnostic labels |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Region -> City | Spatially and institutionally organized local nexus. | Capital city, port city |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Region -> Province | Higher-order territorial aggregation with coordination functions. | Province, canton, territorial department |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Structure -> Class | Positional differentiation by access to resources. | Working class, rentier class |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Structure -> Hierarchy | Ranked ordering of positions. | Bureaucratic hierarchy, caste order |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Social Field | Arena of interaction governed by specific logics. | Scientific field, political field, artistic field |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Domain | Functional sphere of social activity. | Education, defense, health |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Infrastructure | Foundational enabling system. | Roads, power grid, payment rails |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Resource | Asset usable by actors. | Land, water rights, spectrum |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Property | Attribute used for description, classification, and comparison. | Wealth, population size, centrality |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Wealth | Accumulated stock of valued resources. | Household wealth, sovereign wealth |
-| **Structural** | (root) -> <<Social Element>> -> Social Order -> Rent | Economic return from a position or asset. | Land rent, monopoly rent, data rent |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon | Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment. | Norm emergence, trust consolidation, legitimacy crisis |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> State | Complete relevant-variable snapshot of a configuration at a moment. | Fiscal stance, coalition map, readiness posture |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Social Event | Significant occurrence involving actors. | Summit, festival, funeral |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Systemic Transformation | Structural change of an order via interactions. | Revolution, market liberalization |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Crisis | Rupture threatening reproduction of an order. | Financial crisis, cabinet crisis |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Cycle | Recurrent expansion–contraction trajectory. | Business cycle, electoral cycle |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Corruption | Conversion of office into private gain. | Bribery ring, procurement kickback |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Crime | Norm-violating act processed by control institutions. | Theft wave, fraud scheme |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Violence | Coercive harm between units. | Riot, pogrom |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Polarization | Sorting of a collective into opposed camps. | Party polarization, confessional split |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Globalization | Extension of ties and flows beyond borders. | Supply-chain globalization, financial integration |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Mobility | Movement of units across positions and places. | Rural–urban migration, social mobility |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Collective / Organization -> Movement | Collective effort pursuing social or political change. | Labor movement, temperance movement |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Process / Event -> Work | Purposive effort transforming inputs. | Harvest, shift work |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Socialization | Induction of newcomers into norms. | Schooling, onboarding |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Segregation | Sorting of units into homogeneous zones. | Residential segregation, occupational segregation |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Competition | Rivalry for scarce goods or positions. | Price war, electoral race |
-| **Dynamic** | (root) -> <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Technical Change | Diffusion and adoption of techniques. | Electrification, mechanization |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element | Recognition-constituted coordinator persisting through shared interpretation. | Fiat currency, border, stop sign, reputation score |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Capital / Labor | Multi-layer economic operators (potentiality and actuality of productive capacity). | Venture pool, care labor, data asset |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Price / Asset | Scalar coordination variables and claim-objects. | Spot price, license, quota |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element -> Trust | Willingness to be vulnerable based on expectations of another. | Consumer trust, institutional trust |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element -> Money | Medium of exchange and store of value constituted by recognition. | Fiat currency, cryptocurrency |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element -> Label | Tagging that reclassifies its bearer. | Credit rating, certification mark |
-| **Coordinators** | (root) -> <<Social Element>> -> Social Order -> Synontic Element -> Technique | Shared know-how coordinating production. | Double-entry bookkeeping, lean method |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity | Recurrent organized doings provisioning goods and services (Ontic). | Farming, mining, manufacturing, transport, retail, care |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity -> Producer | Acting unit or role performing economic activity (Ontic). | Farm, factory, workshop, carrier, shop, utility |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type | Kind of producer by dominant activity (Noetic tag). | Primary producer, processor, assembler, distributor, service provider |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry | Classified aggregate of producer types under a common activity (Noetic). | Agriculture, steel, retail, software |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry -> Sector | Coarse activity group (Noetic). | Primary, secondary, tertiary, quaternary |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Economic Activity -> Producer Taxonomy | Descriptive instrument ranking producer types (Noetic). | ISIC, NAICS, GICS |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Market | Arena where offers meet demand and prices coordinate (Multi). | Fish market, labor market, stock exchange |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Market -> Market Segment | Slice of a market by demand characteristics (Noetic). | Premium, rural, SME |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment | Finer slice within a segment (Noetic). | Luxury sedan, entry sedan |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment -> Niche | Narrow slice served by a specialized offer (Noetic). | Vintage typewriter repair |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Market -> Market Taxonomy | Descriptive instrument classifying markets (Noetic). | B2B/B2C, geographic, demographic |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product | Exchangeable outcome of economic activity offered into a market; a good or service (Multi). | Lemon, cheese, insurance policy |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product -> Product Type | Kind of product, narrowest rank above the concrete product (Noetic). | Beverage, footwear |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family | Family grouping related types (Noetic). | Soft drinks |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category | Market-facing category (Noetic). | Carbonated drinks |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category -> Product Class | Broadest rank (Noetic). | Beverages |
-| **Economic** | (root) -> <<Social Element>> -> Social Order -> Product -> Product Taxonomy | Descriptive instrument ranking product kinds (Noetic). | UNSPSC, HS, own nomenclature |
+| **Meta** | `(root) := <<Social Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `:=` binds the root slot to the instance's type; `->` steps down containment below. | e.g. bound to `Social Compound` for a labor market; to `Institution` for a bank |
+| **Meta** | `(root) := <<Social Element>> -> Social Order` | The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together. | Social scaffolding and its coordinators |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization -> Organizational Unit | Structured actor with internal rules and identity, scoping departments within a collective. | Ministry department, factory division |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Practice | Recurrent, recognizable pattern of situated doings. | Commuting, queuing, deliberating, auditing |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Interaction Pattern | Recurring relational sequences shaped by protocols, scoping repeated exchanges. | Patronage cycle, rotation system, bargaining round |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Allocation | Distribution of scarce goods by rule, scoping who receives what. | Rationing, spectrum auction, quota assignment |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Behavior | Observable pattern of actions over time, scoping an agent's conduct. | Consumer behavior, voting behavior, firm behavior |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network | Structured tie between units; kinship, alliance, exchange, hierarchy. | Supply chain, patronage web, kinship system |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role | Expectation-tag binding actor, context, and interpretation to behavior. | Teacher role, fiduciary role, citizenship |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Power Relation | Asymmetric dependence stabilized into positional advantage. | Creditor–debtor, platform–complementor, metropole–colony |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network -> Link | Minimal dyadic connection composing a network. | Kinship link, trade link |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network -> Supply Chain | Chain of exchange ties from source to sale. | Coffee chain, chip chain |
+| **Relation** | (root) := <<Social Element>> -> Social Order -> Pair | Minimal dyad stabilized by mutual recognition. | Patron–client pair, mentor–mentee pair |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation | Shared protocol stabilizing interaction: building-block and emergent. | Queuing norm, accounting standard, ceasefire |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution | Stabilized configuration of roles and rules. | Central bank, marriage, land registry |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation -> Right / Obligation | Deontic positions allocating claims and duties. | Property right, duty of disclosure, franchise |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Legitimacy | Recognized warrant of authority. | Electoral mandate, expert accreditation |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Authority | Legitimated power to command and be obeyed. | Judicial authority, episcopal authority |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Convention | Stable coordination pattern sustained by mutual expectation, not enforcement. | Driving side, citation practices, handshake |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Cultural Script | Semantically rich behavior protocol. | Wedding script, courtroom script, bargaining script |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Symbolic System | Full set of labels and interpretive frames used by a collective. | Heraldry, liturgical calendar, scientific nomenclature |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Status | Relative standing recognized by a collective. | Prestige, rank, seniority |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Jurisdiction | Bounded domain of legitimate authority. | Municipality, court district, diocese |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Polity | Political community organized under a common authority. | City-state, tribal confederation |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Regime | Stable pattern of political rule. | Democracy, monarchy, one-party rule |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Governance Structure | Arrangement through which authority and coordination are exercised. | Hierarchy, federalism, collegial board |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Collective Decision Mechanism | Procedure for making collective choices. | Election, consensus conference, sortition |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Strategy | Coordinated plan of action. | Industrial policy, market entry strategy |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Policy | Deliberate course of action adopted by an authority. | Tax policy, language policy |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Goal | Desired future state coordinating effort. | Profit, full employment, carbon neutrality |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interest | Stake in an outcome attributed to a unit. | Political interest, vested interest |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Constraint | Limitation on action recognized in coordination. | Regulation, scarcity, quota |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Incentive | Arrangement shaping behavior toward an outcome. | Wage, tax benefit, bonus |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Habitus | Durable dispositions shaping perception and action. | Bureaucratic habitus, entrepreneurial habitus |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Identity | Shared interpretive frame binding actors into a we. | Diaspora identity, professional identity |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Mental Model | Shared stabilized schema guiding perception and action. | Safety culture model, growth doctrine of a firm |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Discourse | System of statements shaping perception and action. | Development discourse, security discourse |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Narrative | Structured interpretation of events over time. | Progress narrative, decline narrative |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Symbol | Meaning-bearing sign coordinating recognition. | Logo, uniform, seal |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Language | Communication system enabling coordination. | Spanish, sign language, legalese |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Medium | Channel through which coordination flows. | Gazette, broadcast, platform feed |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Knowledge | Validated information used by actors in coordination. | Engineering knowledge, agronomic calendar |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Tagging System | Semantic labeling rendering states legible; the Noetic primitive. | Credit ratings, industry codes, diagnostic labels |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Region -> City | Spatially and institutionally organized local nexus. | Capital city, port city |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Region -> Province | Higher-order territorial aggregation with coordination functions. | Province, canton, territorial department |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure -> Class | Positional differentiation by access to resources. | Working class, rentier class |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure -> Hierarchy | Ranked ordering of positions. | Bureaucratic hierarchy, caste order |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Field | Arena of interaction governed by specific logics. | Scientific field, political field, artistic field |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Domain | Functional sphere of social activity. | Education, defense, health |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Infrastructure | Foundational enabling system. | Roads, power grid, payment rails |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Resource | Asset usable by actors. | Land, water rights, spectrum |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Property | Attribute used for description, classification, and comparison. | Wealth, population size, centrality |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Wealth | Accumulated stock of valued resources. | Household wealth, sovereign wealth |
+| **Structural** | (root) := <<Social Element>> -> Social Order -> Rent | Economic return from a position or asset. | Land rent, monopoly rent, data rent |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon | Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment. | Norm emergence, trust consolidation, legitimacy crisis |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> State | Complete relevant-variable snapshot of a configuration at a moment. | Fiscal stance, coalition map, readiness posture |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Social Event | Significant occurrence involving actors. | Summit, festival, funeral |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Systemic Transformation | Structural change of an order via interactions. | Revolution, market liberalization |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Crisis | Rupture threatening reproduction of an order. | Financial crisis, cabinet crisis |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Cycle | Recurrent expansion–contraction trajectory. | Business cycle, electoral cycle |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Corruption | Conversion of office into private gain. | Bribery ring, procurement kickback |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Crime | Norm-violating act processed by control institutions. | Theft wave, fraud scheme |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Violence | Coercive harm between units. | Riot, pogrom |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Polarization | Sorting of a collective into opposed camps. | Party polarization, confessional split |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Globalization | Extension of ties and flows beyond borders. | Supply-chain globalization, financial integration |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Mobility | Movement of units across positions and places. | Rural–urban migration, social mobility |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Collective / Organization -> Movement | Collective effort pursuing social or political change. | Labor movement, temperance movement |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Work | Purposive effort transforming inputs. | Harvest, shift work |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Socialization | Induction of newcomers into norms. | Schooling, onboarding |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Segregation | Sorting of units into homogeneous zones. | Residential segregation, occupational segregation |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Competition | Rivalry for scarce goods or positions. | Price war, electoral race |
+| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Technical Change | Diffusion and adoption of techniques. | Electrification, mechanization |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element | Recognition-constituted coordinator persisting through shared interpretation. | Fiat currency, border, stop sign, reputation score |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Capital / Labor | Multi-layer economic operators (potentiality and actuality of productive capacity). | Venture pool, care labor, data asset |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Price / Asset | Scalar coordination variables and claim-objects. | Spot price, license, quota |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Trust | Willingness to be vulnerable based on expectations of another. | Consumer trust, institutional trust |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Money | Medium of exchange and store of value constituted by recognition. | Fiat currency, cryptocurrency |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Label | Tagging that reclassifies its bearer. | Credit rating, certification mark |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Technique | Shared know-how coordinating production. | Double-entry bookkeeping, lean method |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity | Recurrent organized doings provisioning goods and services (Ontic). | Farming, mining, manufacturing, transport, retail, care |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer | Acting unit or role performing economic activity (Ontic). | Farm, factory, workshop, carrier, shop, utility |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type | Kind of producer by dominant activity (Noetic tag). | Primary producer, processor, assembler, distributor, service provider |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry | Classified aggregate of producer types under a common activity (Noetic). | Agriculture, steel, retail, software |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry -> Sector | Coarse activity group (Noetic). | Primary, secondary, tertiary, quaternary |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer Taxonomy | Descriptive instrument ranking producer types (Noetic). | ISIC, NAICS, GICS |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Market | Arena where offers meet demand and prices coordinate (Multi). | Fish market, labor market, stock exchange |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment | Slice of a market by demand characteristics (Noetic). | Premium, rural, SME |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment | Finer slice within a segment (Noetic). | Luxury sedan, entry sedan |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment -> Niche | Narrow slice served by a specialized offer (Noetic). | Vintage typewriter repair |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Taxonomy | Descriptive instrument classifying markets (Noetic). | B2B/B2C, geographic, demographic |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product | Exchangeable outcome of economic activity offered into a market; a good or service (Multi). | Lemon, cheese, insurance policy |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type | Kind of product, narrowest rank above the concrete product (Noetic). | Beverage, footwear |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family | Family grouping related types (Noetic). | Soft drinks |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category | Market-facing category (Noetic). | Carbonated drinks |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category -> Product Class | Broadest rank (Noetic). | Beverages |
+| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Taxonomy | Descriptive instrument ranking product kinds (Noetic). | UNSPSC, HS, own nomenclature |
 
 
 ## How to decompose any social instance?
@@ -194,9 +194,9 @@
 
 > See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
 
-> **Social Element Type Tree Path:** the expansion path typing one instance row — `(root) -> <<Social Element>>` bound to the row's table type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a composite nesting. In other words, a Tree Path is what the single table generates. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
+> **Social Element Type Tree Path:** the expansion path typing one instance row — `(root) := <<Social Element>>` bound to the row's table type, continued by exactly one licensed expansion: a spine-ordered suffix, a facet attachment, or a composite nesting. In other words, a Tree Path is what the single table generates. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
 
-> **Constructing the path:** (1) type the instance — find its row in the table above; (2) bind — write `(root) -> <<Social Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or composite nesting); (4) check — single types and spine-ordered chains always license; anything else must match a composite nesting.
+> **Constructing the path:** (1) type the instance — find its row in the table above; (2) bind — write `(root) := <<Social Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix, facet attachment under the bound root, or composite nesting); (4) check — single types and spine-ordered chains always license; anything else must match a composite nesting.
 
 The tree is governed by the following rules:
 
@@ -205,8 +205,8 @@ The tree is governed by the following rules:
 * **Leaves:** Every leaf must resolve to a social instance.
 * **Typing:** Every instance is typed — by its nearest enclosing grouping segment, with the decomposition root's type declared once.
 * **Recursion:** Any instance in the tree may itself be decomposed recursively.
-* **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) -> <<Social Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
-* **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Institution` grouping scoping the exchange-rule family inside a Market decomposition, whose counterpart is `(root) -> <<Social Element>> -> ... -> Institution`); a same-type segment with only generic description and no scoping function stays forbidden.
+* **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) := <<Social Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
+* **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Institution` grouping scoping the exchange-rule family inside a Market decomposition, whose counterpart is `(root) := <<Social Element>> -> ... -> Institution`); a same-type segment with only generic description and no scoping function stays forbidden.
 * **Well-Form Instance Tree Path Rule:** Ensure the decomposition provides a rich set of intermediate (internals) nodes - both - type and instances, aiding understanding. The set of intermediate instance nodes representing relationships such as composition, support, dependency, regulation, or other useful structural and dynamic relationships.
 * Style Rules for Intermediate Nodes
   * **Instances:** Style intermediate nodes that represent actual social instances as plain text (no adornment).
@@ -216,7 +216,7 @@ The tree is governed by the following rules:
   * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
   * **Grouping types:** A type used only to group instances is not itself an instance and must not terminate a branch.
   * The path link - is →.
-* **Social Element Type Tree Path**: Contains only a concrete path of social element types; it cannot contain expansion patterns or placeholders.
+* **Social Element Type Tree Path**: In the definition table this column is a template carrying the `<<Social Element>>` root slot; once the root instance's type is bound (`(root) := …`), the instantiated path contains only concrete social element types — no expansion patterns or placeholders.
 
 | Instance Tree Path | Description | Social Category | Social Element Type Tree Path |
 | --- | --- | --- | --- |

@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Adaptation** | Imported instance; decomposition pending. | Living | `(root) -> Adaptation` |
+| **Adaptation** | Imported instance; decomposition pending. | Living | `(root) := Adaptation` |
 
 Imported aliases (same referent, pending merge review): **Adaptation:**.
 

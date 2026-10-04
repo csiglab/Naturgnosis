@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Electric Charge** | Imported instance; decomposition pending. | Quantity | `(root) -> Property` |
+| **Electric Charge** | Imported instance; decomposition pending. | Quantity | `(root) := Property` |
 
 Imported aliases (same referent, pending merge review): **electric charges**.
 

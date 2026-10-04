@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **pH** | Imported instance; decomposition pending. | Quantity | `(root) -> Property` |
+| **pH** | Imported instance; decomposition pending. | Quantity | `(root) := Property` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

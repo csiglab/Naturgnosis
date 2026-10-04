@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Virus** | Imported instance; decomposition pending. | Living | `(root) -> Organism` |
+| **Virus** | Imported instance; decomposition pending. | Living | `(root) := Organism` |
 
 Imported aliases (same referent, pending merge review): **Viruses**.
 

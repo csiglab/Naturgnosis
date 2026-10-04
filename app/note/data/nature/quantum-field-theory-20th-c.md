@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Quantum Field Theory (20th c.)** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Quantum Field Theory (20th c.)** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Imported aliases (same referent, pending merge review): **Quantum Field Theory**.
 

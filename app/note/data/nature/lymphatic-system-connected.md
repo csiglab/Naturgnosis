@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Lymphatic System (connected)** | Imported instance; decomposition pending. | System | `(root) -> Natural System` |
+| **Lymphatic System (connected)** | Imported instance; decomposition pending. | System | `(root) := Natural System` |
 
 Imported aliases (same referent, pending merge review): **Lymphatic System**.
 

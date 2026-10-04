@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Electron** | Imported instance; decomposition pending. | Constituent | `(root) -> Building Block` |
+| **Electron** | Imported instance; decomposition pending. | Constituent | `(root) := Building Block` |
 
 Imported aliases (same referent, pending merge review): **Electrons**, **electrons**.
 

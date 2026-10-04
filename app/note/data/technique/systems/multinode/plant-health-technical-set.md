@@ -39,7 +39,7 @@ Lineage: disease attributed to a cause at all → isolation, culture, and Koch's
 
 > Boundary: one practice ensemble, decomposed at middle depth — the shared spine (evolution, purpose, reality model), eight practice sets worked to instance leaves, and no deployment exemplars. A branch that needs a concrete isolate, lot, or consignment takes one in its own decomposition.
 >
-> Typing reads directly from the instance path: each set resolves to the enclosing `Technical Element Set` grouping, and everything below a set resolves to its nearest enclosing type segment. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads directly from the instance path: each set resolves to the enclosing `Technical Element Set` grouping, and everything below a set resolves to its nearest enclosing type segment. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

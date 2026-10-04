@@ -18,7 +18,7 @@
 observer-independent furniture with interacting components (matter, life, earth bodies,
 fields), inputs/outputs (solar influx, radiogenic heat, meteoritic input, radiative loss),
 and feedback (climate — weathering — biosphere; mantle — crust — surface) whose collective
-behavior resists component-level reduction. It binds `(root) -> <<Natural Element>>` as the
+behavior resists component-level reduction. It binds `(root) := <<Natural Element>>` as the
 generic system all other natural notes specialize.
 
 ### What is this natural instance?
@@ -41,25 +41,25 @@ detail expands in the child notes.
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **nature** | The whole of observer-independent reality under study. | System | `(root) > Complex System` |
-| **nature** > **natural material** | All untransformed matter; super-kind of the biogenic and abiogenic branches. | Constituent | `(root) > Complex System > Substance` |
-| **nature** > **natural material** > **natural biogenic** | All matter made by or of life forms, at every level and era. | Constituent | `(root) > Complex System > Substance > Substance` |
-| **nature** > **natural material** > **natural abiogenic** | All physical matter not made by life: minerals, rocks, sediments, soils, waters, air. | Constituent | `(root) > Complex System > Substance > Substance` |
-| **nature** > **earth** | The inhabited rocky planet; archetype of a coupled geosphere-biosphere system. | System | `(root) > Complex System > Natural System` |
-| **nature** > **earth** > **natural abiogenic** > **mineral** | Crystalline solid kinds composing abiogenic aggregates. | Constituent | `(root) > Complex System > Natural System > Substance > Substance` |
-| **nature** > **solar system** | The star-planetary system bounding Earth's inputs. | System | `(root) > Complex System > Natural System` |
-| **nature** > **watershed** | Bounded hydrological response unit; exemplar meso system. | System | `(root) > Complex System > Natural System` |
-| **nature** > **coral reef** | Interdependent marine ecosystem; exemplar ecosystem reading. | System | `(root) > Complex System > Ecosystem` |
-| **nature** > **climate** | Coupled atmosphere-ocean-cryosphere-biosphere behavior; exemplar irreducibility. | System | `(root) > Complex System > Complex System` |
-| **nature** > **basalt cliff** | Fully specified material particular; exemplar object. | Constituent | `(root) > Complex System > Natural Object` |
-| **nature** > **redwood** | Fully specified living particular; exemplar organism-object. | Living | `(root) > Complex System > Organism` |
-| **nature** > **photosynthesis** | Temporally extended biological transformation; exemplar living process. | Living | `(root) > Complex System > Living Process` |
-| **nature** > **combustion** | Causally continuous event sequence; exemplar process. | Manifestation | `(root) > Complex System > Natural Process` |
-| **nature** > **aurora** | Unified explanatory object over excitation events; exemplar phenomenon. | Manifestation | `(root) > Complex System > Natural Process > Phenomenon` |
-| **nature** > `Property` > **mass** | Measurable attribute conserved across transformations. | Quantity | `(root) > Complex System > Property` |
-| **nature** > `Property` > **gravitational force** | Joint-state quantifier over masses and separation. | Quantity | `(root) > Complex System > Property` |
-| **nature** > `Constraint` > **light-speed limit** | Law-imposed bound on signal propagation. | Constraint | `(root) > Complex System > Natural Constraint` |
-| **nature** > `Constraint` > **carrying capacity** | Scale-imposed bound on sustained populations. | Constraint | `(root) > Complex System > Natural Constraint` |
+| **nature** | The whole of observer-independent reality under study. | System | `(root) := Complex System` |
+| **nature** > **natural material** | All untransformed matter; super-kind of the biogenic and abiogenic branches. | Constituent | `(root) := Complex System -> Substance` |
+| **nature** > **natural material** > **natural biogenic** | All matter made by or of life forms, at every level and era. | Constituent | `(root) := Complex System -> Substance -> Substance` |
+| **nature** > **natural material** > **natural abiogenic** | All physical matter not made by life: minerals, rocks, sediments, soils, waters, air. | Constituent | `(root) := Complex System -> Substance -> Substance` |
+| **nature** > **earth** | The inhabited rocky planet; archetype of a coupled geosphere-biosphere system. | System | `(root) := Complex System -> Natural System` |
+| **nature** > **earth** > **natural abiogenic** > **mineral** | Crystalline solid kinds composing abiogenic aggregates. | Constituent | `(root) := Complex System -> Natural System -> Substance -> Substance` |
+| **nature** > **solar system** | The star-planetary system bounding Earth's inputs. | System | `(root) := Complex System -> Natural System` |
+| **nature** > **watershed** | Bounded hydrological response unit; exemplar meso system. | System | `(root) := Complex System -> Natural System` |
+| **nature** > **coral reef** | Interdependent marine ecosystem; exemplar ecosystem reading. | System | `(root) := Complex System -> Ecosystem` |
+| **nature** > **climate** | Coupled atmosphere-ocean-cryosphere-biosphere behavior; exemplar irreducibility. | System | `(root) := Complex System -> Complex System` |
+| **nature** > **basalt cliff** | Fully specified material particular; exemplar object. | Constituent | `(root) := Complex System -> Natural Object` |
+| **nature** > **redwood** | Fully specified living particular; exemplar organism-object. | Living | `(root) := Complex System -> Organism` |
+| **nature** > **photosynthesis** | Temporally extended biological transformation; exemplar living process. | Living | `(root) := Complex System -> Living Process` |
+| **nature** > **combustion** | Causally continuous event sequence; exemplar process. | Manifestation | `(root) := Complex System -> Natural Process` |
+| **nature** > **aurora** | Unified explanatory object over excitation events; exemplar phenomenon. | Manifestation | `(root) := Complex System -> Natural Process -> Phenomenon` |
+| **nature** > `Property` > **mass** | Measurable attribute conserved across transformations. | Quantity | `(root) := Complex System -> Property` |
+| **nature** > `Property` > **gravitational force** | Joint-state quantifier over masses and separation. | Quantity | `(root) := Complex System -> Property` |
+| **nature** > `Constraint` > **light-speed limit** | Law-imposed bound on signal propagation. | Constraint | `(root) := Complex System -> Natural Constraint` |
+| **nature** > `Constraint` > **carrying capacity** | Scale-imposed bound on sustained populations. | Constraint | `(root) := Complex System -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (coupled physical-chemical-biotic systems at every scale), Nonlinearity (thresholds and

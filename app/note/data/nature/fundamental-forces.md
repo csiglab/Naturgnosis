@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Fundamental Forces** | Imported instance; decomposition pending. | Quantity | `(root) -> Interaction-Derived Quantity` |
+| **Fundamental Forces** | Imported instance; decomposition pending. | Quantity | `(root) := Interaction-Derived Quantity` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

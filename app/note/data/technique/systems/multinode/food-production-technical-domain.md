@@ -43,7 +43,7 @@ Lineage: foraging and domestication → selection without theory → controlled 
 
 > Boundary: one super-domain, decomposed at shallow depth — the root, its six members, and the spine that states what the members share (evolution, purpose, reality model, the requirements and standards the whole field is bounded by). No member is re-decomposed here: each has its own note, and repeating a member's contents inside its parent is duplication, not structure.
 >
-> Typing reads directly from the instance path: the members resolve to the enclosing `Technical Element Set` grouping; the spine lands on flat facet types. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`, the recursion rule for that composite. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads directly from the instance path: the members resolve to the enclosing `Technical Element Set` grouping; the spine lands on flat facet types. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`, the recursion rule for that composite. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

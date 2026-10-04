@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Numerical Methods (FDTD, FEM, Method of Moments)** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **Numerical Methods (FDTD, FEM, Method of Moments)** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Imported aliases (same referent, pending merge review): **Numerical Methods**.
 

@@ -59,10 +59,10 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 | `Production Technical System` → Eclipse → Runtime | Executing Eclipse runtime: JVM process hosting the OSGi framework and the workbench. |
 | `Production Technical System` → Eclipse → Runtime → JVM Process | Operating-system process containing the runtime. |
 | `Production Technical System` → Eclipse → Runtime → Equinox OSGi | OSGi framework implementation hosting bundles and services. |
-| `Production Technical System` → Eclipse → Runtime → Bundle (Plugin) | Modular unit of functionality: JAR plus manifest describing itself, its dependencies, and how it can be utilized or extended (manifest data formerly stored in `(root) -> <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` at the plugin root). |
+| `Production Technical System` → Eclipse → Runtime → Bundle (Plugin) | Modular unit of functionality: JAR plus manifest describing itself, its dependencies, and how it can be utilized or extended (manifest data formerly stored in `(root) := <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` at the plugin root). |
 | `Production Technical System` → Eclipse → Runtime → Bundle → Manifest Plus `plugin.xml` | Self-description: identity, `require`d dependencies, utilizable and extensible contributions. |
 | `Production Technical System` → Eclipse → Runtime → Bundle → Per-Bundle Classloader | Each plugin loads through its own classloader. |
-| `Production Technical System` → Eclipse → Runtime → Bundle Dependency | `(root) -> <<Technical Element>> -> Technical Dependency` statements expressing plugin-to-plugin dependencies. |
+| `Production Technical System` → Eclipse → Runtime → Bundle Dependency | `(root) := <<Technical Element>> -> Technical Dependency` statements expressing plugin-to-plugin dependencies. |
 | `Production Technical System` → Eclipse → Runtime → Extension Registry | Runtime mechanism matching extensions to extension points. |
 | `Production Technical System` → Eclipse → Runtime → Extension Point | Declared point at which a plugin can be extended (editors, views, builders). |
 | `Production Technical System` → Eclipse → Runtime → Extension | Contribution plugged into an extension point by some plugin. |
@@ -73,7 +73,7 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 | `Production Technical System` → Eclipse → Workbench → Editor | File-type-bound editing surface; the correct editor launches when a file opens. |
 | `Production Technical System` → Eclipse → Workbench → Problems View | Feedback surface listing compilation errors and warnings. |
 | `Production Technical System` → Eclipse → Runtime → SWT | Standard Widget Toolkit: native-widget UI toolkit using operating-system calls for lists, buttons, and events. |
-| `Production Technical System` → Eclipse → Runtime → SWT → Native Binding (GTK And WebKit) | Operating-system widget calls underneath SWT; source of platform quirks (exemplar workaround: `(root) -> <<Technical Element>> -> Technical Dependency`, see SWT issue 1108). |
+| `Production Technical System` → Eclipse → Runtime → SWT → Native Binding (GTK And WebKit) | Operating-system widget calls underneath SWT; source of platform quirks (exemplar workaround: `(root) := <<Technical Element>> -> Technical Dependency`, see SWT issue 1108). |
 | `Production Technical System` → Eclipse → Runtime → JFace | UI layer above SWT: viewers, actions, and dialogs. |
 | `Production Technical System` → Eclipse → JDT | Java Development Tools subsystem: editors, wizards, refactoring support, debugger, compiler, and incremental builder. |
 | `Production Technical System` → Eclipse → JDT → ECJ Compiler | Own Java compiler from the VisualAge Micro Edition contribution, enabling tooling and compiler extension points a third-party command-line compiler could not offer. |
@@ -91,7 +91,7 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 | `Production Technical System` → Eclipse → Configuration → Source Attachment | Project-source versus debugging-source settings; manual attachment when automatic resolution fails. |
 | `Production Technical System` → Eclipse → Configuration → Certificates | JVM trust-store setup for Eclipse and Maven HTTPS access (exemplar per install). |
 | `Production Technical System` → Eclipse → Configuration → Profile | Named list of UIs in an installation. |
-| `Production Technical System` → Eclipse → Debug-Source Practice | Repeatable pattern: take the root Maven project, run `(root) -> <<Technical Element>> -> Technical Practice` plus `mvn dependency:sources`, else attach sources manually (exemplar frame: `AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose`). |
+| `Production Technical System` → Eclipse → Debug-Source Practice | Repeatable pattern: take the root Maven project, run `(root) := <<Technical Element>> -> Technical Practice` plus `mvn dependency:sources`, else attach sources manually (exemplar frame: `AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose`). |
 | `Production Technical System` → Eclipse → Plugin-Install Practice | Repeatable pattern: install plugins into the distribution through provisioning. |
 | `Production Technical System` → Eclipse → RCP Practice | Repeatable pattern: build standalone applications on the Eclipse platform. |
 | `Production Technical System` → Eclipse → RCP Practice → Mars Rover Monitoring (NASA And JPL) | Exemplar RCP application monitoring rover robots. |
@@ -100,7 +100,7 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 | `Production Technical System` → Eclipse → Compiler Verification | Compiler and problem markers verifying code against the language specification. |
 | `Production Technical System` → Eclipse → Launch Validation | Running and debugging validating the artifact against its intended purpose. |
 | `Production Technical System` → Eclipse → Failure → Source-Not-Found | Debugger reaching bytecode without attached sources. |
-| `Production Technical System` → Eclipse → Evolution Plugins-To-Bundles | Historical line: `(root) -> <<Technical Element>> -> Technical Evolution` plugins become OSGi bundles with manifest metadata under Equinox. |
+| `Production Technical System` → Eclipse → Evolution Plugins-To-Bundles | Historical line: `(root) := <<Technical Element>> -> Technical Evolution` plugins become OSGi bundles with manifest metadata under Equinox. |
 | `Production Technical System` → Eclipse → Maintenance (P2 Updates) | Patching and upgrading the installation while preserving workspace state. |
 
 ## QA

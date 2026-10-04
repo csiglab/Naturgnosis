@@ -22,10 +22,10 @@ tags: [swe, productivity, method]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| SWE Productivity | Throughput measurement-and-improvement process. | Agency | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process)` |
-| SWE Productivity → Throughput Metric | Counted delivery signal. | Validation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
-| SWE Productivity → Observation Tooling | Tooling rendering work visible. | Methodology | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
-| SWE Productivity → Improvement Loop | Re-application of lessons to delivery. | Agency | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process) -> Iteration Loop` |
+| SWE Productivity | Throughput measurement-and-improvement process. | Agency | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process)` |
+| SWE Productivity → Throughput Metric | Counted delivery signal. | Validation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
+| SWE Productivity → Observation Tooling | Tooling rendering work visible. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
+| SWE Productivity → Improvement Loop | Re-application of lessons to delivery. | Agency | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Activity (Process) -> Iteration Loop` |
 
 ## References
 

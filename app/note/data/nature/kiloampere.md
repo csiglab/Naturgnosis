@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Kiloampere** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **Kiloampere** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

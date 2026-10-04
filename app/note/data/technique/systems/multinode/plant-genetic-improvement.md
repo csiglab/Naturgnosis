@@ -37,7 +37,7 @@ Lineage: domestication and farmer selection → mass, line, and pedigree selecti
 
 > Boundary: one practice ensemble, decomposed at middle depth — the shared spine (purpose, requirement, evolution), eight practice sets worked to instance leaves, and no deployment exemplars. A branch that would need a concrete cultivar, event, or seed lot takes one in its own decomposition.
 >
-> Typing reads from the instance path: each set resolves to the enclosing `Technical Element Set` grouping, and everything below a set resolves to its nearest enclosing type segment. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads from the instance path: each set resolves to the enclosing `Technical Element Set` grouping, and everything below a set resolves to its nearest enclosing type segment. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

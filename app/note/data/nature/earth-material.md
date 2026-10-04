@@ -42,22 +42,22 @@ natural instance; prefixes are valid paths (recursion rule).
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **earth material** | The aggregate stuff-kind under study (here archetyped as limestone). | Constituent | `(root) > Substance` |
-| **earth material** > **limestone bed** | Recurring carbonate stratum; building-block occurrence of the kind. | Constituent | `(root) > Substance > Building Block` |
-| **earth material** > **limestone bed** > **calcite** | Compositional mineral substance of the bed. | Constituent | `(root) > Substance > Building Block > Substance` |
-| **earth material** > **basalt flow** | Volcanic rock body; mafic aggregate exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **earth material** > **granite pluton** | Coarse intrusive body; felsic aggregate exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **earth material** > **sandstone bed** | Clastic stratum; cemented-grain aggregate exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **earth material** > **soil profile** | Weathered surface aggregate with horizons and biota. | System | `(root) > Substance > Ecosystem` |
-| **earth material** > **soil profile** > **mycorrhizae** | Self-maintaining fungal-root associations in the profile. | Living | `(root) > Substance > Organism` |
-| **earth material** > **weathering** | Causally continuous breakdown sequence of the aggregate. | Manifestation | `(root) > Substance > Natural Process` |
-| **earth material** > **weathering** > **karst regime** | Unified explanatory object over dissolution events in limestone. | Manifestation | `(root) > Substance > Natural Process > Phenomenon` |
-| **earth material** > **lithification** | Ordered state sequence from sediment to rock. | Manifestation | `(root) > Substance > Natural Process > Trajectory` |
-| **earth material** > **saturation state** | Snapshot pore-fluid configuration of the aggregate. | Manifestation | `(root) > Substance > Natural Process > State` |
-| **earth material** > `Property` > **porosity** | Measurable void-fraction attribute bounding storage and flow. | Quantity | `(root) > Substance > Property` |
-| **earth material** > `Property` > **permeability** | Measurable transport attribute bounding fluid movement. | Quantity | `(root) > Substance > Property` |
-| **earth material** > `Constraint` > **shear strength** | Material bound on slope and face stability. | Constraint | `(root) > Substance > Natural Constraint` |
-| **earth material** > `Constraint` > **solubility limit** | Phase bound on carbonate dissolution and precipitation. | Constraint | `(root) > Substance > Natural Constraint` |
+| **earth material** | The aggregate stuff-kind under study (here archetyped as limestone). | Constituent | `(root) := Substance` |
+| **earth material** > **limestone bed** | Recurring carbonate stratum; building-block occurrence of the kind. | Constituent | `(root) := Substance -> Building Block` |
+| **earth material** > **limestone bed** > **calcite** | Compositional mineral substance of the bed. | Constituent | `(root) := Substance -> Building Block -> Substance` |
+| **earth material** > **basalt flow** | Volcanic rock body; mafic aggregate exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **earth material** > **granite pluton** | Coarse intrusive body; felsic aggregate exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **earth material** > **sandstone bed** | Clastic stratum; cemented-grain aggregate exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **earth material** > **soil profile** | Weathered surface aggregate with horizons and biota. | System | `(root) := Substance -> Ecosystem` |
+| **earth material** > **soil profile** > **mycorrhizae** | Self-maintaining fungal-root associations in the profile. | Living | `(root) := Substance -> Organism` |
+| **earth material** > **weathering** | Causally continuous breakdown sequence of the aggregate. | Manifestation | `(root) := Substance -> Natural Process` |
+| **earth material** > **weathering** > **karst regime** | Unified explanatory object over dissolution events in limestone. | Manifestation | `(root) := Substance -> Natural Process -> Phenomenon` |
+| **earth material** > **lithification** | Ordered state sequence from sediment to rock. | Manifestation | `(root) := Substance -> Natural Process -> Trajectory` |
+| **earth material** > **saturation state** | Snapshot pore-fluid configuration of the aggregate. | Manifestation | `(root) := Substance -> Natural Process -> State` |
+| **earth material** > `Property` > **porosity** | Measurable void-fraction attribute bounding storage and flow. | Quantity | `(root) := Substance -> Property` |
+| **earth material** > `Property` > **permeability** | Measurable transport attribute bounding fluid movement. | Quantity | `(root) := Substance -> Property` |
+| **earth material** > `Constraint` > **shear strength** | Material bound on slope and face stability. | Constraint | `(root) := Substance -> Natural Constraint` |
+| **earth material** > `Constraint` > **solubility limit** | Phase bound on carbonate dissolution and precipitation. | Constraint | `(root) := Substance -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (mineral-fluid-biota coupling), Nonlinearity (failure and dissolution thresholds),

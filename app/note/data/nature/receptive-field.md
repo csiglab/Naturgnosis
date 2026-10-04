@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **receptive field** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **receptive field** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Imported aliases (same referent, pending merge review): **Receptive Fields**.
 

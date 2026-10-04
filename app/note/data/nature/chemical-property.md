@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Chemical Property** | Imported instance; decomposition pending. | Quantity | `(root) -> Property` |
+| **Chemical Property** | Imported instance; decomposition pending. | Quantity | `(root) := Property` |
 
 Imported aliases (same referent, pending merge review): **Chemical Properties:**, **chemical properties**.
 

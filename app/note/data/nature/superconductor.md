@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Superconductor** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Superconductor** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Imported aliases (same referent, pending merge review): **Superconductors**.
 

@@ -17,7 +17,7 @@
 
 `Substance / Matter` at macro level of organization: the most abstract stuff-kind — all
 matter individuated by not having been intentionally transformed, recurring across every
-crustal, aqueous, atmospheric, and living system. It binds `(root) -> <<Natural Element>>`
+crustal, aqueous, atmospheric, and living system. It binds `(root) := <<Natural Element>>`
 as the generic substance all other material notes specialize. Same name at micro scale (a
 grain, a molecule) and meso scale (a bed, a seam) denotes distinct nodes — record the level
 per instance; full expansion lives in the child notes, not here.
@@ -41,17 +41,17 @@ detail expands in the child notes.
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **natural material** | All untransformed matter under study. | Constituent | `(root) > Substance` |
-| **natural material** > **natural biogenic** | All matter made by or of life forms, at every level and era. | Constituent | `(root) > Substance > Substance` |
-| **natural material** > **natural biogenic** > **wood** | Living-tissue exemplar of the biogenic branch. | Living | `(root) > Substance > Substance > Organism` |
-| **natural material** > **natural biogenic** > **peat** | Organic-sediment exemplar of the biogenic branch. | Constituent | `(root) > Substance > Substance > Substance` |
-| **natural material** > **natural abiogenic** | All physical matter not made by life: minerals, rocks, sediments, soils, waters, air. | Constituent | `(root) > Substance > Substance` |
-| **natural material** > **natural abiogenic** > **mineral** | Crystalline solid kinds; micro-scale exemplar of the abiogenic branch. | Constituent | `(root) > Substance > Substance > Substance` |
-| **natural material** > **natural abiogenic** > **limestone bed** | Carbonate aggregate; meso-scale exemplar of the abiogenic branch. | Constituent | `(root) > Substance > Substance > Building Block` |
-| **natural material** > **groundwater** | Subsurface water body; fluid exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **natural material** > **diagenesis** | Ordered transformation sequence from sediment toward rock. | Manifestation | `(root) > Substance > Natural Process > Trajectory` |
-| **natural material** > `Property` > **organic carbon content** | Measurable attribute marking the biogenic fraction. | Quantity | `(root) > Substance > Property` |
-| **natural material** > `Constraint` > **phase stability field** | Law- and scale-imposed bound on what persists where. | Constraint | `(root) > Substance > Natural Constraint` |
+| **natural material** | All untransformed matter under study. | Constituent | `(root) := Substance` |
+| **natural material** > **natural biogenic** | All matter made by or of life forms, at every level and era. | Constituent | `(root) := Substance -> Substance` |
+| **natural material** > **natural biogenic** > **wood** | Living-tissue exemplar of the biogenic branch. | Living | `(root) := Substance -> Substance -> Organism` |
+| **natural material** > **natural biogenic** > **peat** | Organic-sediment exemplar of the biogenic branch. | Constituent | `(root) := Substance -> Substance -> Substance` |
+| **natural material** > **natural abiogenic** | All physical matter not made by life: minerals, rocks, sediments, soils, waters, air. | Constituent | `(root) := Substance -> Substance` |
+| **natural material** > **natural abiogenic** > **mineral** | Crystalline solid kinds; micro-scale exemplar of the abiogenic branch. | Constituent | `(root) := Substance -> Substance -> Substance` |
+| **natural material** > **natural abiogenic** > **limestone bed** | Carbonate aggregate; meso-scale exemplar of the abiogenic branch. | Constituent | `(root) := Substance -> Substance -> Building Block` |
+| **natural material** > **groundwater** | Subsurface water body; fluid exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **natural material** > **diagenesis** | Ordered transformation sequence from sediment toward rock. | Manifestation | `(root) := Substance -> Natural Process -> Trajectory` |
+| **natural material** > `Property` > **organic carbon content** | Measurable attribute marking the biogenic fraction. | Quantity | `(root) := Substance -> Property` |
+| **natural material** > `Constraint` > **phase stability field** | Law- and scale-imposed bound on what persists where. | Constraint | `(root) := Substance -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (mineral-fluid-biota coupling across all matter), Scale (molecule to formation), Partial

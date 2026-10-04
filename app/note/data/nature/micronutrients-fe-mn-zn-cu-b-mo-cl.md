@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Micronutrients (Fe, Mn, Zn, Cu, B, Mo, Cl)** | Imported instance; decomposition pending. | Living | `(root) -> Living Process` |
+| **Micronutrients (Fe, Mn, Zn, Cu, B, Mo, Cl)** | Imported instance; decomposition pending. | Living | `(root) := Living Process` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

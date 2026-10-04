@@ -40,25 +40,25 @@ natural instance; prefixes are valid paths (recursion rule).
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **natural biogenic** | All life-made matter under study (here archetyped by shell-carbonate). | Constituent | `(root) > Substance` |
-| **natural biogenic** > **shell bed** | Accumulated skeletal occurrence; building-block instantiation of the kind. | Constituent | `(root) > Substance > Building Block` |
-| **natural biogenic** > **shell bed** > **aragonite** | Compositional mineral substance of the shell. | Constituent | `(root) > Substance > Building Block > Substance` |
-| **natural biogenic** > **wood** | Lignified tissue exemplar; contemporary structural secretion. | Living | `(root) > Substance > Organism` |
-| **natural biogenic** > **grass** | Herbaceous tissue exemplar of contemporary origin. | Living | `(root) > Substance > Organism` |
-| **natural biogenic** > **cyanobacteria** | Self-maintaining photoautotrophs; exemplar producers and reef builders. | Living | `(root) > Substance > Organism` |
-| **natural biogenic** > **peat** | Waterlogged organic accumulation; sediment exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **natural biogenic** > **coal** | Lithified peat; organic-rock exemplar. | Constituent | `(root) > Substance > Natural Object` |
-| **natural biogenic** > **kerogen** | Insoluble sedimentary organic fraction; biomarker host. | Constituent | `(root) > Substance > Substance` |
-| **natural biogenic** > **petroleum** | Transformed biogenic substance; migrated fluid exemplar. | Constituent | `(root) > Substance > Substance` |
-| **natural biogenic** > **chalk** | Coccolith secretion rock; biogenic-rock exemplar bridging to the abiogenic sibling. | Constituent | `(root) > Substance > Natural Object` |
-| **natural biogenic** > **pearl** | Nacre secretion exemplar of contemporary origin. | Constituent | `(root) > Substance > Natural Object` |
-| **natural biogenic** > **photosynthesis** | Biological transformation fixing carbon with light. | Living | `(root) > Substance > Living Process` |
-| **natural biogenic** > **biomineralization** | Causally continuous organism-controlled crystallization sequence. | Manifestation | `(root) > Substance > Natural Process` |
-| **natural biogenic** > **biomineralization** > **reef growth regime** | Unified explanatory object over accretion events. | Manifestation | `(root) > Substance > Natural Process > Phenomenon` |
-| **natural biogenic** > **diagenesis** | Ordered state sequence from biogenic sediment toward rock and fluid. | Manifestation | `(root) > Substance > Natural Process > Trajectory` |
-| **natural biogenic** > **biomarker preservation state** | Snapshot molecular configuration surviving diagenesis (pristane, phytane). | Manifestation | `(root) > Substance > Natural Process > State` |
-| **natural biogenic** > `Property` > **organic carbon content** | Measurable attribute bounding richness and source potential. | Quantity | `(root) > Substance > Property` |
-| **natural biogenic** > `Constraint` > **preservation conditions** | Scale-imposed bound (anoxia, rapid burial) on survival through diagenesis. | Constraint | `(root) > Substance > Natural Constraint` |
+| **natural biogenic** | All life-made matter under study (here archetyped by shell-carbonate). | Constituent | `(root) := Substance` |
+| **natural biogenic** > **shell bed** | Accumulated skeletal occurrence; building-block instantiation of the kind. | Constituent | `(root) := Substance -> Building Block` |
+| **natural biogenic** > **shell bed** > **aragonite** | Compositional mineral substance of the shell. | Constituent | `(root) := Substance -> Building Block -> Substance` |
+| **natural biogenic** > **wood** | Lignified tissue exemplar; contemporary structural secretion. | Living | `(root) := Substance -> Organism` |
+| **natural biogenic** > **grass** | Herbaceous tissue exemplar of contemporary origin. | Living | `(root) := Substance -> Organism` |
+| **natural biogenic** > **cyanobacteria** | Self-maintaining photoautotrophs; exemplar producers and reef builders. | Living | `(root) := Substance -> Organism` |
+| **natural biogenic** > **peat** | Waterlogged organic accumulation; sediment exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **natural biogenic** > **coal** | Lithified peat; organic-rock exemplar. | Constituent | `(root) := Substance -> Natural Object` |
+| **natural biogenic** > **kerogen** | Insoluble sedimentary organic fraction; biomarker host. | Constituent | `(root) := Substance -> Substance` |
+| **natural biogenic** > **petroleum** | Transformed biogenic substance; migrated fluid exemplar. | Constituent | `(root) := Substance -> Substance` |
+| **natural biogenic** > **chalk** | Coccolith secretion rock; biogenic-rock exemplar bridging to the abiogenic sibling. | Constituent | `(root) := Substance -> Natural Object` |
+| **natural biogenic** > **pearl** | Nacre secretion exemplar of contemporary origin. | Constituent | `(root) := Substance -> Natural Object` |
+| **natural biogenic** > **photosynthesis** | Biological transformation fixing carbon with light. | Living | `(root) := Substance -> Living Process` |
+| **natural biogenic** > **biomineralization** | Causally continuous organism-controlled crystallization sequence. | Manifestation | `(root) := Substance -> Natural Process` |
+| **natural biogenic** > **biomineralization** > **reef growth regime** | Unified explanatory object over accretion events. | Manifestation | `(root) := Substance -> Natural Process -> Phenomenon` |
+| **natural biogenic** > **diagenesis** | Ordered state sequence from biogenic sediment toward rock and fluid. | Manifestation | `(root) := Substance -> Natural Process -> Trajectory` |
+| **natural biogenic** > **biomarker preservation state** | Snapshot molecular configuration surviving diagenesis (pristane, phytane). | Manifestation | `(root) := Substance -> Natural Process -> State` |
+| **natural biogenic** > `Property` > **organic carbon content** | Measurable attribute bounding richness and source potential. | Quantity | `(root) := Substance -> Property` |
+| **natural biogenic** > `Constraint` > **preservation conditions** | Scale-imposed bound (anoxia, rapid burial) on survival through diagenesis. | Constraint | `(root) := Substance -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (organism-fluid-sediment coupling), Nonlinearity (preservation thresholds), Uncertainty

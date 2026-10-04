@@ -30,7 +30,7 @@ Lineage: hand-milked household milk → machine milking and the first herd econo
 
 > Boundary: one practice ensemble at middle depth — the herd, the spine (evolution, purpose, reality model), and the working practices worked to instance leaves. No exemplars are carried: a farm's own records and numbers belong in its own decomposition.
 >
-> Typing reads from the instance path: the spine lands on flat facet types; each practice group resolves to the nearest enclosing type segment. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads from the instance path: the spine lands on flat facet types; each practice group resolves to the nearest enclosing type segment. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

@@ -68,7 +68,7 @@ Jakarta EE is a standard because it is a normative specification governing form,
 | `Technical Standard` → Jakarta EE → Specification → Validation & MVC | Nested standard group: Bean Validation (constraints) + MVC (optional action-based framework). |
 | `Technical Standard` → Jakarta EE → Compatibility (TCK) | Conformance evaluation deciding whether an implementation/server may claim compatibility. |
 | `Technical Standard` → Jakarta EE → Compatibility (TCK) → Technology Compatibility Kit (TCK) | The executable test suite, harness, and documentation artifacts against which implementations and servers are certified; passing it licenses a compatibility claim. |
-| `Technical Standard` → Jakarta EE → Evolution Javax-To-Jakarta | Historical rename `(root) -> <<Technical Element>> -> Technical Evolution` → `jakarta.*` (EE 8 → 9) after the 2017 Eclipse transfer; platform versions 8/9/10/11. |
+| `Technical Standard` → Jakarta EE → Evolution Javax-To-Jakarta | Historical rename `(root) := <<Technical Element>> -> Technical Evolution` → `jakarta.*` (EE 8 → 9) after the 2017 Eclipse transfer; platform versions 8/9/10/11. |
 | `Technical Standard` → Jakarta EE → Realizing Servers | Compatible servers realizing the standard set (links only; decomposed in their own notes). |
 | `Technical Standard` → Jakarta EE → Realizing Servers → WildFly | Full-profile production system realizing EJB/JMS/JCA and the core set. |
 | `Technical Standard` → Jakarta EE → Realizing Servers → Payara/GlassFish/Open Liberty | Compatible production systems realizing the set (profiles vary). |

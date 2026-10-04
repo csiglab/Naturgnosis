@@ -32,7 +32,7 @@ Lineage: folk treatment and culling → the visiting clinician with the drug cas
 
 > Boundary: one ensemble at middle depth — the spine (evolution, purpose, reality model) and the prevention, diagnosis, treatment, and culling technologies worked to instance leaves. No exemplars are carried: a farm's own disease figures belong in its own decomposition.
 >
-> Typing reads from the instance path: the spine lands on flat facet types; the technologies resolve to the nearest enclosing type segment. Expansion is licensed by `(root) -> <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
+> Typing reads from the instance path: the spine lands on flat facet types; the technologies resolve to the nearest enclosing type segment. Expansion is licensed by `(root) := <<Technical Element>> -> ... -> Technical Element Set`. Every backticked type segment groups instances and terminates on none; every leaf resolves to a technical instance.
 
 | Instance Tree Path | Description |
 | --- | --- |

@@ -62,18 +62,18 @@ between the trees runs between executing the observation and warranting its prod
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Formation Evaluation | The inquiry the logging run serves: what lies underground. | Target | `(root) -> <<Epistemic Element>> >  Domain Concrete Epistemic Artifact Set (DCESA)` |
-| Formation Evaluation → `Observation Interface` | Grouping: the transduction chain into persistent artifacts. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface` |
-| Formation Evaluation → `Observation Interface` → Resistivity Transduction | Conversion of formation conductivity into measurable current. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Transduction` |
-| Formation Evaluation → `Observation Interface` → Depth Sampling | Discrete registrations of the continuous formation flux. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Sampling` |
-| Formation Evaluation → `Observation Interface` → Signal Quantization | Mapping of samples onto finite digital values. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Quantization` |
-| Formation Evaluation → `Observation Interface` → LAS Encoding | Conversion of registered signals into storable log files. | Access | `(root) -> <<Epistemic Element>> >  Observation Interface > Observation Encoding` |
-| Formation Evaluation → Gamma-Ray Log Curve | Depth-indexed radioactivity track; shale indicator. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
-| Formation Evaluation → Resistivity Log Curve | Depth-indexed resistivity track; hydrocarbon indicator. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
-| Formation Evaluation → Porosity Cross-Plot | Joint density–neutron reading warranting porosity claims. | Representation | `(root) -> <<Epistemic Element>> >  Concrete Epistemic Artifact` |
-| Formation Evaluation → `Epistemic Standard` | Grouping: criteria judging the artifacts. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
-| Formation Evaluation → `Epistemic Standard` → Extraction Confirmation | Later production or coring confirming (or refuting) the reading. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
-| Formation Evaluation → `Epistemic Standard` → Run Reproducibility | Repeat-section and offset-well agreement. | Validation | `(root) -> <<Epistemic Element>> >  Epistemic Standard` |
+| Formation Evaluation | The inquiry the logging run serves: what lies underground. | Target | `(root) := <<Epistemic Element>> >  Domain Concrete Epistemic Artifact Set (DCESA)` |
+| Formation Evaluation → `Observation Interface` | Grouping: the transduction chain into persistent artifacts. | Access | `(root) := <<Epistemic Element>> >  Observation Interface` |
+| Formation Evaluation → `Observation Interface` → Resistivity Transduction | Conversion of formation conductivity into measurable current. | Access | `(root) := <<Epistemic Element>> >  Observation Interface > Transduction` |
+| Formation Evaluation → `Observation Interface` → Depth Sampling | Discrete registrations of the continuous formation flux. | Access | `(root) := <<Epistemic Element>> >  Observation Interface > Sampling` |
+| Formation Evaluation → `Observation Interface` → Signal Quantization | Mapping of samples onto finite digital values. | Access | `(root) := <<Epistemic Element>> >  Observation Interface > Quantization` |
+| Formation Evaluation → `Observation Interface` → LAS Encoding | Conversion of registered signals into storable log files. | Access | `(root) := <<Epistemic Element>> >  Observation Interface > Observation Encoding` |
+| Formation Evaluation → Gamma-Ray Log Curve | Depth-indexed radioactivity track; shale indicator. | Representation | `(root) := <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → Resistivity Log Curve | Depth-indexed resistivity track; hydrocarbon indicator. | Representation | `(root) := <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → Porosity Cross-Plot | Joint density–neutron reading warranting porosity claims. | Representation | `(root) := <<Epistemic Element>> >  Concrete Epistemic Artifact` |
+| Formation Evaluation → `Epistemic Standard` | Grouping: criteria judging the artifacts. | Validation | `(root) := <<Epistemic Element>> >  Epistemic Standard` |
+| Formation Evaluation → `Epistemic Standard` → Extraction Confirmation | Later production or coring confirming (or refuting) the reading. | Validation | `(root) := <<Epistemic Element>> >  Epistemic Standard` |
+| Formation Evaluation → `Epistemic Standard` → Run Reproducibility | Repeat-section and offset-well agreement. | Validation | `(root) := <<Epistemic Element>> >  Epistemic Standard` |
 
 ## References
 

@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Environmental / Signaling Inputs (I)** | Imported instance; decomposition pending. | Living | `(root) -> Living Process` |
+| **Environmental / Signaling Inputs (I)** | Imported instance; decomposition pending. | Living | `(root) := Living Process` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Organ** | Imported instance; decomposition pending. | System | `(root) -> Natural System` |
+| **Organ** | Imported instance; decomposition pending. | System | `(root) := Natural System` |
 
 Imported aliases (same referent, pending merge review): **Organs**, **Organs (Total)**.
 

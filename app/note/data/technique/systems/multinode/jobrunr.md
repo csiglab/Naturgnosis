@@ -43,31 +43,31 @@ Lineage: Ronald Dehuysser, `jobrunr/jobrunr` on GitHub; Java alternative to Hang
 | Instance Tree Path | Description |
 | --- | --- |
 | `Constitutive Technical Object` → JobRunr | Embeddable background-processing library instance plus its server, storage, dashboard, and practices. |
-| `Constitutive Technical Object` → JobRunr → Coherence (One Persisted Job, Many Realizations) | Organizing structure: a single persisted `(root) -> <<Technical Element>> -> Technical Architecture` record drives scheduling, claiming, execution, retry, and observation. |
+| `Constitutive Technical Object` → JobRunr → Coherence (One Persisted Job, Many Realizations) | Organizing structure: a single persisted `(root) := <<Technical Element>> -> Technical Architecture` record drives scheduling, claiming, execution, retry, and observation. |
 | `Constitutive Technical Object` → JobRunr → Realized Capability | Capability realized: durable, distributed background work on the JVM with no extra infrastructure. |
-| `Constitutive Technical Object` → JobRunr → Governance (Author + Licenses) | Ronald Dehuysser authorship; `(root) -> <<Technical Element>> -> Technical Institution` on GitHub; LGPL 3.0 OSS plus commercial Pro tier. |
-| `Constitutive Technical Object` → JobRunr → Distribution (Maven Central) | Versioned artifact `(root) -> <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` consumed via Maven or Gradle (exemplar 8.8.1). |
+| `Constitutive Technical Object` → JobRunr → Governance (Author + Licenses) | Ronald Dehuysser authorship; `(root) := <<Technical Element>> -> Technical Institution` on GitHub; LGPL 3.0 OSS plus commercial Pro tier. |
+| `Constitutive Technical Object` → JobRunr → Distribution (Maven Central) | Versioned artifact `(root) := <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` consumed via Maven or Gradle (exemplar 8.8.1). |
 | `Constitutive Technical Object` → JobRunr → Minimal Dependencies | ASM (lambda inspection), slf4j, plus one JSON library. |
 | `Constitutive Technical Object` → JobRunr → Job | Unit of work performed outside the current execution context, with name, signature, details, and state history. |
 | `Constitutive Technical Object` → JobRunr → Job → JobDetails | Type, method to execute, and arguments extracted from the lambda via ASM and serialized to JSON. |
-| `Constitutive Technical Object` → JobRunr → Job → Job Name | Human-readable name: `(root) -> <<Technical Element>> -> Technical Parameter` value, `JobBuilder` value, or derived default. |
+| `Constitutive Technical Object` → JobRunr → Job → Job Name | Human-readable name: `(root) := <<Technical Element>> -> Technical Parameter` value, `JobBuilder` value, or derived default. |
 | `Constitutive Technical Object` → JobRunr → Job → Job History | Ordered record of all states the job has passed through. |
-| `Constitutive Technical Object` → JobRunr → Job → ENQUEUED State | Job waiting to be claimed by a server (`(root) -> <<Technical Element>> -> Technical Feedback`). |
-| `Constitutive Technical Object` → JobRunr → Job → SCHEDULED State | Job waiting for its due moment (`(root) -> <<Technical Element>> -> Technical Feedback` with instant + reason). |
-| `Constitutive Technical Object` → JobRunr → Job → PROCESSING State | Job currently claimed and executed by a server (`(root) -> <<Technical Element>> -> Technical Feedback` with server identity). |
-| `Constitutive Technical Object` → JobRunr → Job → SUCCEEDED State | Job completed, with latency and process durations recorded (`(root) -> <<Technical Element>> -> Technical Feedback`). |
+| `Constitutive Technical Object` → JobRunr → Job → ENQUEUED State | Job waiting to be claimed by a server (`(root) := <<Technical Element>> -> Technical Feedback`). |
+| `Constitutive Technical Object` → JobRunr → Job → SCHEDULED State | Job waiting for its due moment (`(root) := <<Technical Element>> -> Technical Feedback` with instant + reason). |
+| `Constitutive Technical Object` → JobRunr → Job → PROCESSING State | Job currently claimed and executed by a server (`(root) := <<Technical Element>> -> Technical Feedback` with server identity). |
+| `Constitutive Technical Object` → JobRunr → Job → SUCCEEDED State | Job completed, with latency and process durations recorded (`(root) := <<Technical Element>> -> Technical Feedback`). |
 | `Constitutive Technical Object` → JobRunr → Job → FAILED State | Job exhausted all retries; stays visible in the dashboard, never silently dropped. |
 | `Constitutive Technical Object` → JobRunr → Job → Orphaned-Job Detection | Server updates a processing job every poll interval (default 15 s); stale PROCESSING jobs are reclaimed after crash. |
-| `Constitutive Technical Object` → JobRunr → RecurringJob | A `(root) -> <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` template with a cron expression or fixed interval attached; the master node schedules due instances each poll cycle. |
+| `Constitutive Technical Object` → JobRunr → RecurringJob | A `(root) := <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` template with a cron expression or fixed interval attached; the master node schedules due instances each poll cycle. |
 | `Constitutive Technical Object` → JobRunr → RecurringJob → Cron Expression | Schedule definition (plain cron; advanced CRON is Pro). |
 | `Constitutive Technical Object` → JobRunr → RecurringJob → OSS Recurring Limit | Up to 100 recurring jobs in OSS (5000 in Pro) — exemplar quota. |
-| `Constitutive Technical Object` → JobRunr → BackgroundJob Facade | Static helpers (`(root) -> <<Technical Element>> -> Technical Interface`, `schedule`, `scheduleRecurrently`) delegating to the `JobScheduler`. |
+| `Constitutive Technical Object` → JobRunr → BackgroundJob Facade | Static helpers (`(root) := <<Technical Element>> -> Technical Interface`, `schedule`, `scheduleRecurrently`) delegating to the `JobScheduler`. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJob → `enqueue` | Fire-and-forget: `BackgroundJob.enqueue(() -> service.work(arg))` runs once, almost immediately. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJob → `schedule` | Delayed: `BackgroundJob.schedule(Instant.now().plus(5, DAYS), () -> …)` runs once at a due moment, surviving restarts. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJob → `scheduleRecurrently` | Recurring: `scheduleRecurrently("daily-report", Cron.daily(), () -> …)` runs on a fixed schedule. |
 | `Constitutive Technical Object` → JobRunr → JobScheduler | Injectable scheduler behind the static facade; preferable for testability. |
 | `Constitutive Technical Object` → JobRunr → JobScheduler → Idempotent Creation | Creating a job with an already-existing id does not save it again. |
-| `Constitutive Technical Object` → JobRunr → JobRequest Pattern | Command/handler separation: `(root) -> <<Technical Element>> -> Technical Architecture` carries data, `JobRequestHandler` performs the work. |
+| `Constitutive Technical Object` → JobRunr → JobRequest Pattern | Command/handler separation: `(root) := <<Technical Element>> -> Technical Architecture` carries data, `JobRequestHandler` performs the work. |
 | `Constitutive Technical Object` → JobRunr → JobRequest Pattern → `JobRequest` | Interface carrying job data plus `getJobRequestHandler()`. |
 | `Constitutive Technical Object` → JobRunr → JobRequest Pattern → `JobRequestHandler` | `run(request)` implementation performing the work. |
 | `Constitutive Technical Object` → JobRunr → JobRequest Pattern → `BackgroundJobRequest` | Static facade offering the same API for `JobRequest`s. |
@@ -80,7 +80,7 @@ Lineage: Ronald Dehuysser, `jobrunr/jobrunr` on GitHub; Java alternative to Hang
 | `Constitutive Technical Object` → JobRunr → `JobContext` → `runStepOnce` | Idempotent durable step, e.g. `runStepOnce("order-confirmation", () -> …)`; re-runs skip finished steps. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer | In-process server polling storage, atomically claiming jobs, and invoking target methods. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Disabled By Default | Server and dashboard must be explicitly enabled. |
-| `Constitutive Technical Object` → JobRunr → BackgroundJobServer → One Per JVM | Never start more than one `(root) -> <<Technical Element>> -> Technical Constraint` in the same JVM instance. |
+| `Constitutive Technical Object` → JobRunr → BackgroundJobServer → One Per JVM | Never start more than one `(root) := <<Technical Element>> -> Technical Constraint` in the same JVM instance. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Worker Pool | Dedicated worker-pool threads executing claimed jobs. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Virtual Threads | Loom virtual-thread execution support. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Atomic Claim | Claimed jobs are never processed twice across the cluster. |
@@ -89,10 +89,10 @@ Lineage: Ronald Dehuysser, `jobrunr/jobrunr` on GitHub; Java alternative to Hang
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Carbon-Aware Processing | Scheduling biased toward low carbon-intensity grid windows. |
 | `Constitutive Technical Object` → JobRunr → BackgroundJobServer → Microservice Deployment | Alternative topology: JobRunr runs as its own deployable instead of embedded. |
 | `Constitutive Technical Object` → JobRunr → JobActivator | IoC bridge resolving job-method instances from Spring, Micronaut, Quarkus, or other containers. |
-| `Constitutive Technical Object` → JobRunr → Framework Integration → Spring Boot Starter | Auto-configured scheduler, server, activator, and `(root) -> <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` support for Spring Boot. |
+| `Constitutive Technical Object` → JobRunr → Framework Integration → Spring Boot Starter | Auto-configured scheduler, server, activator, and `(root) := <<Technical Element>> -> Production Technical System -> Production Technical Object -> Constitutive Technical Object` support for Spring Boot. |
 | `Constitutive Technical Object` → JobRunr → Framework Integration → Quarkus Extension | Same integration surface for Quarkus. |
 | `Constitutive Technical Object` → JobRunr → Framework Integration → Micronaut Integration | Same integration surface for Micronaut. |
-| `Constitutive Technical Object` → JobRunr → Framework Integration → Fluent API | Plain-Java `(root) -> <<Technical Element>> -> Technical Interface` setup without a framework. |
+| `Constitutive Technical Object` → JobRunr → Framework Integration → Fluent API | Plain-Java `(root) := <<Technical Element>> -> Technical Interface` setup without a framework. |
 | `Constitutive Technical Object` → JobRunr → RetryFilter | Built-in rescheduling with exponential back-off: 10 attempts by default. |
 | `Constitutive Technical Object` → JobRunr → RetryFilter → Custom RetryFilter | Application-provided retry behavior override. |
 | `Constitutive Technical Object` → JobRunr → RetryFilter → RetryPolicy (Pro) | Declarative retry policies in the Pro tier. |
@@ -150,7 +150,7 @@ Lineage: Ronald Dehuysser, `jobrunr/jobrunr` on GitHub; Java alternative to Hang
 | `Constitutive Technical Object` → JobRunr → Newsletter Practice | Repeatable pattern: mass notifications as fire-and-forget jobs. |
 | `Constitutive Technical Object` → JobRunr → Batch-Import Practice | Repeatable pattern: XML/CSV/JSON imports as background batches. |
 | `Constitutive Technical Object` → JobRunr → Recurring-Report Practice | Repeatable pattern: automated reports as recurring jobs. |
-| `Constitutive Technical Object` → JobRunr → Command-Handler Practice | Repeatable pattern: `(root) -> <<Technical Element>> -> Technical Practice`/`JobRequestHandler` separation of job data and logic. |
+| `Constitutive Technical Object` → JobRunr → Command-Handler Practice | Repeatable pattern: `(root) := <<Technical Element>> -> Technical Practice`/`JobRequestHandler` separation of job data and logic. |
 | `Constitutive Technical Object` → JobRunr → Evolution Quartz-To-JobRunr | Historical line: Quartz/Spring Task Scheduler (in-memory, single-node) → JobRunr (persisted, distributed) → Pro tier. |
 
 ## Usage

@@ -30,23 +30,23 @@ natural instance; prefixes are valid paths (recursion rule).
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **quarry** | The bounded excavated rock mass under study. | System | `(root) > Natural System` |
-| **quarry** > **bench face** | Stepped rock wall exposing jointed strata. | Constituent | `(root) > Natural System > Natural Object` |
-| **quarry** > **quarry floor** | Excavation base with ponding and sediment. | Constituent | `(root) > Natural System > Natural Object` |
-| **quarry** > **bench face** > **limestone bed** | Recurring carbonate stratum worked by the faces. | Constituent | `(root) > Natural System > Natural Object > Building Block` |
-| **quarry** > **bench face** > **limestone bed** > **calcite** | Compositional substance of the bed. | Constituent | `(root) > Natural System > Natural Object > Building Block > Substance` |
-| **quarry** > **talus** | Fallen block apron at the face foot. | Constituent | `(root) > Natural System > Natural Object` |
-| **quarry** > **quarry lake** | Groundwater-fed pond on the floor. | Constituent | `(root) > Natural System > Natural Object` |
-| **quarry** > **pioneer vegetation** | Self-maintaining colonizers of floor and benches. | Living | `(root) > Natural System > Organism` |
-| **quarry** > **face spalling** | Gravity-driven detachment of joint-bounded blocks. | Manifestation | `(root) > Natural System > Natural Process` |
-| **quarry** > **face spalling** > **rockfall regime** | Unified explanatory object over spalling events. | Manifestation | `(root) > Natural System > Natural Process > Phenomenon` |
-| **quarry** > **groundwater inflow** | Seepage through joints into the excavation. | Manifestation | `(root) > Natural System > Natural Process` |
-| **quarry** > **groundwater inflow** > **flooding state** | Snapshot water-level configuration after inflow. | Manifestation | `(root) > Natural System > Natural Process > State` |
-| **quarry** > **ecological succession** | Ordered recolonization trajectory on worked ground. | Manifestation | `(root) > Natural System > Natural Process > Trajectory` |
-| **quarry** > `Property` > **joint spacing** | Measurable discontinuity attribute bounding block size. | Quantity | `(root) > Natural System > Property` |
-| **quarry** > `Property` > **slope angle** | Measurable face attribute bounding stability. | Quantity | `(root) > Natural System > Property` |
-| **quarry** > `Constraint` > **shear strength** | Material bound on face stability. | Constraint | `(root) > Natural System > Natural Constraint` |
-| **quarry** > `Constraint` > **flood recurrence interval** | Scale bound on floor inundation. | Constraint | `(root) > Natural System > Natural Constraint` |
+| **quarry** | The bounded excavated rock mass under study. | System | `(root) := Natural System` |
+| **quarry** > **bench face** | Stepped rock wall exposing jointed strata. | Constituent | `(root) := Natural System -> Natural Object` |
+| **quarry** > **quarry floor** | Excavation base with ponding and sediment. | Constituent | `(root) := Natural System -> Natural Object` |
+| **quarry** > **bench face** > **limestone bed** | Recurring carbonate stratum worked by the faces. | Constituent | `(root) := Natural System -> Natural Object -> Building Block` |
+| **quarry** > **bench face** > **limestone bed** > **calcite** | Compositional substance of the bed. | Constituent | `(root) := Natural System -> Natural Object -> Building Block -> Substance` |
+| **quarry** > **talus** | Fallen block apron at the face foot. | Constituent | `(root) := Natural System -> Natural Object` |
+| **quarry** > **quarry lake** | Groundwater-fed pond on the floor. | Constituent | `(root) := Natural System -> Natural Object` |
+| **quarry** > **pioneer vegetation** | Self-maintaining colonizers of floor and benches. | Living | `(root) := Natural System -> Organism` |
+| **quarry** > **face spalling** | Gravity-driven detachment of joint-bounded blocks. | Manifestation | `(root) := Natural System -> Natural Process` |
+| **quarry** > **face spalling** > **rockfall regime** | Unified explanatory object over spalling events. | Manifestation | `(root) := Natural System -> Natural Process -> Phenomenon` |
+| **quarry** > **groundwater inflow** | Seepage through joints into the excavation. | Manifestation | `(root) := Natural System -> Natural Process` |
+| **quarry** > **groundwater inflow** > **flooding state** | Snapshot water-level configuration after inflow. | Manifestation | `(root) := Natural System -> Natural Process -> State` |
+| **quarry** > **ecological succession** | Ordered recolonization trajectory on worked ground. | Manifestation | `(root) := Natural System -> Natural Process -> Trajectory` |
+| **quarry** > `Property` > **joint spacing** | Measurable discontinuity attribute bounding block size. | Quantity | `(root) := Natural System -> Property` |
+| **quarry** > `Property` > **slope angle** | Measurable face attribute bounding stability. | Quantity | `(root) := Natural System -> Property` |
+| **quarry** > `Constraint` > **shear strength** | Material bound on face stability. | Constraint | `(root) := Natural System -> Natural Constraint` |
+| **quarry** > `Constraint` > **flood recurrence interval** | Scale bound on floor inundation. | Constraint | `(root) := Natural System -> Natural Constraint` |
 
 Limitation checklist (ontic properties of the segment, not method failures): Complexity
 (coupled hydro-mechanical-ecological), Nonlinearity (failure thresholds), Uncertainty (hidden

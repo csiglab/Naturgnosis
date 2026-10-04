@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Reaction Rate Laws** | Imported instance; decomposition pending. | Manifestation | `(root) -> Natural Process` |
+| **Reaction Rate Laws** | Imported instance; decomposition pending. | Manifestation | `(root) := Natural Process` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Polymer** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Polymer** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Imported aliases (same referent, pending merge review): **"polymer"**, **Polymers**, **polymers**.
 

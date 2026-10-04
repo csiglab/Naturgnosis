@@ -25,7 +25,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Electromagnetic Radiation (EMR)** | Imported instance; decomposition pending. | Manifestation | `(root) -> Phenomenon` |
+| **Electromagnetic Radiation (EMR)** | Imported instance; decomposition pending. | Manifestation | `(root) := Phenomenon` |
 
 Imported aliases (same referent, pending merge review): **Electromagnetic radiation**, **electromagnetic radiation**.
 

@@ -22,10 +22,10 @@ tags: [nomenclature, goods, classification]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Goods Nomenclature | Comparable-naming standard. | Validation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
-| Goods Nomenclature → Distinctness Criterion | One name, one good. | Validation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
-| Goods Nomenclature → Stability Criterion | Names persist across batches. | Validation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
-| Goods Nomenclature → Comparability Criterion | Names align across catalogs. | Validation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
+| Goods Nomenclature | Comparable-naming standard. | Validation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
+| Goods Nomenclature → Distinctness Criterion | One name, one good. | Validation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
+| Goods Nomenclature → Stability Criterion | Names persist across batches. | Validation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
+| Goods Nomenclature → Comparability Criterion | Names align across catalogs. | Validation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Standard` |
 
 ## References
 

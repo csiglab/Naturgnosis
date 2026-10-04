@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Permanent Magnets (microscopically)** | Imported instance; decomposition pending. | System | `(root) -> Natural System` |
+| **Permanent Magnets (microscopically)** | Imported instance; decomposition pending. | System | `(root) := Natural System` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,

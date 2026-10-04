@@ -22,11 +22,11 @@ tags: [firm, profiling, method]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Firm Profiling | Modeling procedure rendering a firm intelligible. | Methodology | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
-| Firm Profiling → Microeconomic Cut | Production, cost, and incentive model of the firm. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
-| Firm Profiling → Institutional Cut | Governance, contract, and structure model of the firm. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
-| Firm Profiling → Capabilities Cut | Learning, innovation, and routine model of the firm. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
-| Firm Profiling → SEC Form 10-K | Annual filing grounding each cut in observable data. | Representation | `(root) -> <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Profiling | Modeling procedure rendering a firm intelligible. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
+| Firm Profiling → Microeconomic Cut | Production, cost, and incentive model of the firm. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Profiling → Institutional Cut | Governance, contract, and structure model of the firm. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Profiling → Capabilities Cut | Learning, innovation, and routine model of the firm. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
+| Firm Profiling → SEC Form 10-K | Annual filing grounding each cut in observable data. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Concrete Epistemic Artifact` |
 
 ## References
 

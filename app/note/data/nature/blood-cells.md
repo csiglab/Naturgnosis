@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Blood Cells** | Imported instance; decomposition pending. | Living | `(root) -> Organism` |
+| **Blood Cells** | Imported instance; decomposition pending. | Living | `(root) := Organism` |
 
 Imported aliases (same referent, pending merge review): **• Blood cells**.
 

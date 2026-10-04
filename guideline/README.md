@@ -111,23 +111,23 @@ corpus; the ambiguity reading lives beside these conventions.
 - Technique content — `app/note/data/meta/philosophia-artium-technicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)):
   "How to decompose any technical instance?", single recursive table
-  (`(root) -> <<Technical Element>> -> Technical Order`, system/practice/evaluation spines),
+  (`(root) := <<Technical Element>> -> Technical Order`, system/practice/evaluation spines),
   multi-type (multi-root forest) rule, CRM case study, technical-element note schema.
 - Epistemic content — `app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)):
-  "How to decomposed any epistemical instance?", single recursive table
+  "How to decompose any epistemic instance?", single recursive table
   (`Epistemic Order` + `Ontic Order`), epistemic-element note schema. Form reference for all four.
 - Social content — `app/note/data/meta/philosophia-socialium-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-socialium-et-operis.md)):
    "How to decompose any social instance?", single recursive table
-   (`(root) -> <<Social Element>> -> Social Order`, agentic/normative spines,
+   (`(root) := <<Social Element>> -> Social Order`, agentic/normative spines,
    primitive/derivative levels, Ontic/Synontic/Noetic/Multi layer catalogs,
    expanded facets with a subcategory axis),
    layer test (Ontic/Synontic/Noetic/Multi), facet assignment, social-element note schema.
 - Natural content — `app/note/data/meta/philosophia-naturalis-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)):
   "How to decompose any natural instance?", single recursive table
-  (`(root) -> <<Natural Element>> -> Natural Order`, composition/manifestation spines),
+  (`(root) := <<Natural Element>> -> Natural Order`, composition/manifestation spines),
   level of organization, Limitation checklist, natural-element note schema. Presupposes
   the epistemicarum definitions; restates nothing from it.
 - Ambiguity reading — `guideline/ambiguity_resolution.md`: techniques with epistemic
@@ -135,6 +135,10 @@ corpus; the ambiguity reading lives beside these conventions.
   retail supply–demand matching, primary technical); type the means technically
   and the end epistemically, one tree per confirmed reading — and one tree per
   space in a single multi-root note — never two types on one row.
+- Mathematical decomposition — `guideline/mathematical_decomposition.md`:
+  content/vehicle sorting for mathematical instances (content to `Epistemic
+  Construction`, vehicle to `Constitutive Substrate`, duals split not merged);
+  first full application is the Arithmetic case study.
 
 Follow the applicable workflow before decomposing instances or documenting elements; when
 the root typing is ambiguous, ask the user instead of guessing.

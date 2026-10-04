@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Quark Antiquarks** | Imported instance; decomposition pending. | Constituent | `(root) -> Substance / Matter` |
+| **Quark Antiquarks** | Imported instance; decomposition pending. | Constituent | `(root) := Substance / Matter` |
 
 Limitation checklist (Complexity, Nonlinearity, Uncertainty, Chaos, Emergence, Scale, Data
 Availability, Computational Complexity, Irreducibility, Partial Observability, Non-Repeatability,
