@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T21:19:31Z",
+ "generated": "2026-10-05T21:27:52Z",
  "modules": {
   "social": {
    "nodes": 7334,
    "edges": 216
   },
   "research": {
-   "nodes": 2904,
+   "nodes": 2903,
    "edges": 11
   },
   "nation": {
