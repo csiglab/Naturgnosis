@@ -125905,5 +125905,91 @@
         "description": "Internet Archive scan from the Biblioteca de la Universidad de Sevilla."
       }
     ]
+  },
+  {
+    "id": "navia-osorio-y-vigil-1724-reflexiones-militares",
+    "name": "Navia Osorio y Vigil, Á. de (1724–1727). Reflexiones militares.",
+    "tags": [
+      "monograph",
+      "military-theory",
+      "military-science",
+      "warfare",
+      "spain",
+      "monarquia-hispanica",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Foundational early-modern treatise on the science of war by the Spanish general, diplomat and 3rd Marquis of Santa Cruz de Marcenado, printed in Turin across ten quarto volumes (twenty books), 1724–1727. Widely read beyond Spain — Frederick the Great reportedly recommended it and it was a standard reference for later commanders — it closes with the author's project for a universal dictionary.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1724,
+          "event": "First volumes published in Turin by Juan Francisco Mairesse",
+          "context": ""
+        },
+        {
+          "year": 1726,
+          "event": "Later volumes printed by Alessandro Vimercati",
+          "context": ""
+        },
+        {
+          "year": 1727,
+          "event": "Ten-volume run completed",
+          "context": ""
+        },
+        {
+          "year": 1787,
+          "event": "Compendio de los veinte libros published (Madrid: Imprenta Real)",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Álvaro Navia Osorio y Vigil, marqués de Santa Cruz de Marcenado"
+      ],
+      "year": 1724,
+      "year_end": 1727,
+      "venue": "Turín: Juan Francisco Mairesse / Alessandro Vimercati",
+      "identifier": "https://openlibrary.org/works/OL10585474W",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "manual-entry",
+      "imported": "2026-10-05",
+      "set": "monarquia-hispanica",
+      "sourceReference": "Open Library work OL10585474W (Turin: Juan Francisco Mairesse, 1724); digital scans at archive.org/details/bub_gb_amajIBt6cYsC and Google Books id lMKWTkjRMjIC.",
+      "topics": [
+        "history",
+        "modern-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Reflexiones militares (Turín: Juan Francisco Mairesse, 1724–1727)",
+        "link": "https://openlibrary.org/works/OL10585474W",
+        "description": "Open Library work record for the ten-volume treatise."
+      },
+      {
+        "title": "Reflexiones militares, tomo primero (1724)",
+        "link": "https://archive.org/details/bub_gb_amajIBt6cYsC",
+        "description": "Internet Archive scan (Google-digitised)."
+      },
+      {
+        "title": "Reflexiones militares (1724), Google Books",
+        "link": "https://books.google.com/books?id=lMKWTkjRMjIC",
+        "description": "Google Books scan of the 1724 edition."
+      },
+      {
+        "title": "Las Reflexiones militares del marqués de Santa Cruz de Marcenado y su influencia más allá de las fronteras nacionales",
+        "link": "https://publicaciones.defensa.gob.es/las-reflexiones-militares-del-marques-de-santa-cruz-de-marcenado-y-su-influencia-mas-alla-de-las-fronteras-nacionales.html",
+        "description": "Ministerio de Defensa study of the work and its reception."
+      }
+    ]
   }
 ]
