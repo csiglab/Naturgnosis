@@ -71,6 +71,7 @@ CORPORATE_SUFFIX = frozenset(
 CORPORATE_BODY = re.compile(
     r"\b(ministry|department|committee|board|council|office|government|treasury|"
     r"parliament|cabinet|house|stationery|admiralty|service|commission|"
+    r"exposition|exhibition|congress|society|"
     r"administration|association|society|university|institute|laborator\w*|labs?|"
     r"corporation|inc|ltd|organization|organisation|bureau|agency|foundation|"
     r"trust|institution|society|corps|army|navy|force)\b",

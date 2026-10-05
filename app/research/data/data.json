@@ -118348,5 +118348,711 @@
         "description": "Canonical record."
       }
     ]
+  },
+  {
+    "id": "bishop-1868-a-history-of-american-manufactures-from-1608-to-1860-comprising-anna",
+    "name": "Bishop, J. L. (1868). A history of american manufactures from 1608 to 1860: Comprising annals of the industry of the united states in Machinery, manufactures and useful Arts, with a notice of the important Inventions, Tariffs, and the results of each decennial census. E. Young.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "united-states"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Volume 1 of 3. The first issue of v.1 appeared in 1861; Bishop entrusted the completion of the work to Edwin T. Freedley in 1862, and this is a later issue of that first volume. Includes bibliographical references.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1868,
+          "event": "Published by E. Young",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "J. Leander Bishop"
+      ],
+      "year": 1868,
+      "venue": "E. Young",
+      "identifier": "https://archive.org/details/historyofamerica0001bish",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/historyofamerica0001bish",
+      "titleKey": "a history of american manufactures from 1608 to 1860 comprising annals of the industry of the united states in machinery manufactures and useful arts with a notice of the important inventions tariffs and the results of each decennial census",
+      "topics": [
+        "history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Bishop, J. L. (1868). A history of american manufactures from 1608 to 1860: Comprising annals of the industry of the united states in Machinery, manufactures and useful Arts, with a notice of the important Inventions, Tariffs, and the results of each decennial census. E. Young.",
+        "link": "https://archive.org/details/historyofamerica0001bish",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "exposition-universelle-de-paris-en-1855-1855-catalogue-of-the-works-exhibited-in",
+    "name": "Exposition universelle de Paris en 1855 (1855). Catalogue of the works exhibited in the british section of the exhibition: In french and English, together with Exhibitors' Prospectuses, prices Current, &c. Chapman and Hall.",
+    "tags": [
+      "monograph",
+      "exhibition-catalogue",
+      "industrial-history"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "British section catalogue for the 1855 Paris Universal Exposition, issued in parallel English and French versions. Together with the 1867 and 1878 catalogues, part of the documentary record of British industrial exports.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1855,
+          "event": "Published by Chapman and Hall",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Exposition universelle de Paris en 1855"
+      ],
+      "year": 1855,
+      "venue": "Chapman and Hall",
+      "identifier": "https://archive.org/details/catalogueofworks00expo",
+      "language": "English and French"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/catalogueofworks00expo",
+      "titleKey": "catalogue of the works exhibited in the british section of the exhibition in french and english together with exhibitors prospectuses prices current c",
+      "topics": [
+        "economics"
+      ]
+    },
+    "references": [
+      {
+        "title": "Exposition universelle de Paris en 1855 (1855). Catalogue of the works exhibited in the british section of the exhibition: In french and English, together with Exhibitors' Prospectuses, prices Current, &c. Chapman and Hall.",
+        "link": "https://archive.org/details/catalogueofworks00expo",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "great-britain-royal-commission-for-the-paris-exhibition-1878-official-catalogue",
+    "name": "Great Britain. Royal Commission for the Paris Exhibition (1878). Official catalogue of the british section. H.M. Stationery Office.",
+    "tags": [
+      "monograph",
+      "exhibition-catalogue",
+      "industrial-history"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Part 2 only. Issued for the Royal Commission for the Paris Universal International Exhibition of 1878; head of title reads \"Paris universal international exhibition, 1878\". Printed by G. E. Eyre and W. Spottiswoode for H.M. Stationery Office (LCCN 05031735).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1878,
+          "event": "Published by H.M. Stationery Office",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Great Britain. Royal Commission for the Paris Exhibition"
+      ],
+      "year": 1878,
+      "venue": "H.M. Stationery Office",
+      "identifier": "https://archive.org/details/officialcatalog00britgoog",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/officialcatalog00britgoog",
+      "titleKey": "official catalogue of the british section",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Great Britain. Royal Commission for the Paris Exhibition (1878). Official catalogue of the british section. H.M. Stationery Office.",
+        "link": "https://archive.org/details/officialcatalog00britgoog",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "exposition-universelle-de-1867-a-paris-section-britannique-1867-catalogue-of-the",
+    "name": "Exposition universelle de 1867 à Paris. Section britannique (1867). Catalogue of the british section: Containing a list of the exhibitors of the united kingdom and its Colonies, and the objects which they exhibit. Spottiswoode and Co..",
+    "tags": [
+      "monograph",
+      "exhibition-catalogue",
+      "industrial-history"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "British section catalogue for the 1867 Paris Universal Exposition, printed in four languages, with statistical introductions and an appendix describing many of the exhibited objects more fully. The volume also contains an introduction to the catalogue and an illustrations section.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1867,
+          "event": "Published by Spottiswoode and Co.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Exposition universelle de 1867 à Paris. Section britannique"
+      ],
+      "year": 1867,
+      "venue": "Spottiswoode and Co.",
+      "identifier": "https://archive.org/details/catalogueofbriti00expo",
+      "language": "English, French, German, and Italian"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/catalogueofbriti00expo",
+      "titleKey": "catalogue of the british section containing a list of the exhibitors of the united kingdom and its colonies and the objects which they exhibit",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Exposition universelle de 1867 à Paris. Section britannique (1867). Catalogue of the british section: Containing a list of the exhibitors of the united kingdom and its Colonies, and the objects which they exhibit. Spottiswoode and Co..",
+        "link": "https://archive.org/details/catalogueofbriti00expo",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "ashley-1907-british-industries-a-series-of-general-reviews-for-business-men-and",
+    "name": "Ashley, W. J. (1907). British industries: A series of general reviews for business men and students. Longmans, Green.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "britain"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Lectures delivered during the winter of 1902-3 under the auspices of the University of Birmingham, by Sir William Ashley, opening with the British iron and steel industries. Bibliographic note from the volume states the lectures date from 1902-03 while the imprint is 1907.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1907,
+          "event": "Published by Longmans, Green",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "W. J. Ashley"
+      ],
+      "year": 1907,
+      "venue": "Longmans, Green",
+      "identifier": "https://archive.org/details/cu31924029963836",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/cu31924029963836",
+      "titleKey": "british industries a series of general reviews for business men and students",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Ashley, W. J. (1907). British industries: A series of general reviews for business men and students. Longmans, Green.",
+        "link": "https://archive.org/details/cu31924029963836",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "dawson-1912-industrial-germany",
+    "name": "Dawson, W. H. (1912). Industrial germany. Collins Clear Type Press.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "germany"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "274 pp., in the public domain. Digitised by the Digital Library of India from the North Bengal State Library, Coochbehar; indexed under the subject headings \"Technology\" and \"Various industries, trades and crafts\". A pre-war account of German industrial development, read alongside Howard (1907) in this set.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1912,
+          "event": "Published by Collins Clear Type Press",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "William Harbutt Dawson"
+      ],
+      "year": 1912,
+      "venue": "Collins Clear Type Press",
+      "identifier": "https://archive.org/details/in.ernet.dli.2015.40569",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/in.ernet.dli.2015.40569",
+      "titleKey": "industrial germany",
+      "topics": [
+        "management"
+      ]
+    },
+    "references": [
+      {
+        "title": "Dawson, W. H. (1912). Industrial germany. Collins Clear Type Press.",
+        "link": "https://archive.org/details/in.ernet.dli.2015.40569",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "kisch-1989-from-domestic-manufacture-to-industrial-revolution-the-case-of-the-rh",
+    "name": "Kisch, H. (1989). From domestic manufacture to industrial revolution: The case of the rhineland textile districts. Oxford University Press.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "textiles",
+      "germany"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "ISBN 0-19-505111-4 (LCCN 88025415). Kisch (1924-1978) died before completing the work; the manuscript was published posthumously, first in German in 1981 as Die hausindustriellen Textilgewerbe am Niederrhein vor der industriellen Revolution (Max-Planck-Institut für Geschichte, Band 65, Göttingen: Vandenhoeck & Ruprecht). The linked PDF is a freely downloadable copy held in community-uploaded item 32879168; the canonical archive.org item fromdomesticmanu0000kisc is access-restricted (borrow-only).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1989,
+          "event": "Published by Oxford University Press",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Herbert Kisch"
+      ],
+      "year": 1989,
+      "venue": "Oxford University Press",
+      "identifier": "https://archive.org/download/32879168/From%20domestic%20manufacture%20to%20Industrial%20Revolution.pdf",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org item 32879168, file \"From domestic manufacture to Industrial Revolution.pdf\"",
+      "titleKey": "from domestic manufacture to industrial revolution the case of the rhineland textile districts",
+      "topics": [
+        "history",
+        "management",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Kisch, H. (1989). From domestic manufacture to industrial revolution: The case of the rhineland textile districts. Oxford University Press.",
+        "link": "https://archive.org/download/32879168/From%20domestic%20manufacture%20to%20Industrial%20Revolution.pdf",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "howard-1907-the-cause-and-extent-of-the-recent-industrial-progress-of-germany",
+    "name": "Howard, E. D. (1907). The cause and extent of the recent industrial progress of germany. Houghton, Mifflin.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "germany",
+      "labor"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Bibliography at pp. [xi]-xiii. Subject headings include \"Working class — Germany\", \"Industries — Germany\", and \"Germany — Economic conditions\"; the book treats the causes of German industrialisation and the working-class response to it.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1907,
+          "event": "Published by Houghton, Mifflin",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Earl Dean Howard"
+      ],
+      "year": 1907,
+      "venue": "Houghton, Mifflin",
+      "identifier": "https://archive.org/details/causeextentofrec00howa",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/causeextentofrec00howa",
+      "titleKey": "the cause and extent of the recent industrial progress of germany",
+      "topics": [
+        "management"
+      ]
+    },
+    "references": [
+      {
+        "title": "Howard, E. D. (1907). The cause and extent of the recent industrial progress of germany. Houghton, Mifflin.",
+        "link": "https://archive.org/details/causeextentofrec00howa",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "bevan-1876-british-manufacturing-industries",
+    "name": "Bevan, G. P. (1876). British manufacturing industries. E. Stanford.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "britain"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Volume 1 of a large multi-volume series edited by G. Phillips Bevan. Bibliographic caveats recorded on the item: vol. 10 is wanting in the Library of Congress set; vols. 13-14 carry the title The industrial classes and industrial statistics; later volumes have variant titles. This record covers volume 1 only.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1876,
+          "event": "Published by E. Stanford",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "G. Phillips Bevan"
+      ],
+      "year": 1876,
+      "venue": "E. Stanford",
+      "identifier": "https://archive.org/details/britishmanufact01goog",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "industrial-history-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/britishmanufact01goog",
+      "titleKey": "british manufacturing industries",
+      "topics": [
+        "engineering",
+        "manufacturing"
+      ]
+    },
+    "references": [
+      {
+        "title": "Bevan, G. P. (1876). British manufacturing industries. E. Stanford.",
+        "link": "https://archive.org/details/britishmanufact01goog",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "roland-de-la-platiere-1784-manufactures-arts-et-metiers",
+    "name": "Roland de La Platière, J. M. (1784). Manufactures, arts et métiers. Panckoucke.",
+    "tags": [
+      "monograph",
+      "industrial-history",
+      "manufacturing",
+      "encyclopedia"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Volume 3 of 4 of Manufactures, arts et métiers, issued as part of the Encyclopédie méthodique, ou par ordre de matières (Paris: Panckoucke; Liège: Plomteux). The plates belong to the companion Recueil de planches de l'Encyclopédie (1783-1790). Publication is staggered across the set: vol. 1 in 1785, vol. 2 in two parts (1784-1790), vol. 3 in 1790, vol. 4 in 1828; this item is dated 1784. Volume 3 covers C-D of the alphabetical sequence. A dictionary of arts, industrial arts, and technology.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1784,
+          "event": "Published by Panckoucke",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Jean-Marie Roland de La Platière"
+      ],
+      "year": 1784,
+      "venue": "Panckoucke",
+      "identifier": "https://archive.org/details/manufacturesarts03rola",
+      "language": "French"
+    },
+    "metadata": {
+      "source": "technical-education-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/manufacturesarts03rola",
+      "titleKey": "manufactures arts et metiers",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Roland de La Platière, J. M. (1784). Manufactures, arts et métiers. Panckoucke.",
+        "link": "https://archive.org/details/manufacturesarts03rola",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "prokhorov-1984-problems-in-solid-state-physics",
+    "name": "Prokhorov, A. M., & Prokhorov, A. S. (1984). Problems in solid state physics. Mir Publishers.",
+    "tags": [
+      "monograph",
+      "solid-state-physics",
+      "edited-volume"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Edited volume in the Advances in Science and Technology Physics Series, comprising ten papers by Soviet scientists on submillimetre dielectric spectroscopy, magnetoelectric effects in crystals, ferroelectromagnetics, high hydrogen pressures and hydrides, dislocations in semiconductors, InGaAsP heterojunctions, acoustoelectronic interaction, laser crystals and glasses, polymer etching, and coil-globule transitions. Translated from the Russian by Ram S. Wadhwa.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1984,
+          "event": "Published by Mir Publishers",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "A. M. Prokhorov",
+        "A. S. Prokhorov"
+      ],
+      "year": 1984,
+      "venue": "Mir Publishers",
+      "identifier": "https://archive.org/details/a.-m.-prokhorov-a.-s.-prokhorov-eds.-problems-in-solid-state-physics-advances-in",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "technical-education-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/a.-m.-prokhorov-a.-s.-prokhorov-eds.-problems-in-solid-state-physics-advances-in",
+      "titleKey": "problems in solid state physics",
+      "topics": [
+        "physics"
+      ]
+    },
+    "references": [
+      {
+        "title": "Prokhorov, A. M., & Prokhorov, A. S. (1984). Problems in solid state physics. Mir Publishers.",
+        "link": "https://archive.org/details/a.-m.-prokhorov-a.-s.-prokhorov-eds.-problems-in-solid-state-physics-advances-in",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "massachusetts-commission-on-industrial-and-technical-education-1906-report-of-th",
+    "name": "Massachusetts. Commission on Industrial and Technical Education (1906). Report of the commission on industrial and technical education. Teachers College, Columbia University.",
+    "tags": [
+      "tech-report",
+      "technical-education",
+      "industrial-history",
+      "reform"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "Commission members include Carroll Davidson Wright (chair), Sir William Mather, and E. Swaysland. Contains the Commission's report, the sub-committee's report on the relation of children to the industries, and appendices including \"Industrial education in Europe\". Subject headings: Technical education; Child labor. Part of the same Massachusetts industrial-education series as Dearle (1914) and Montague (1887) in this set.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1906,
+          "event": "Published by Teachers College, Columbia University",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "tech-report",
+      "creators": [
+        "Massachusetts. Commission on Industrial and Technical Education"
+      ],
+      "year": 1906,
+      "venue": "Teachers College, Columbia University",
+      "identifier": "https://archive.org/details/cu31924021891290",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "technical-education-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/cu31924021891290",
+      "titleKey": "report of the commission on industrial and technical education",
+      "topics": [
+        "management"
+      ]
+    },
+    "references": [
+      {
+        "title": "Massachusetts. Commission on Industrial and Technical Education (1906). Report of the commission on industrial and technical education. Teachers College, Columbia University.",
+        "link": "https://archive.org/details/cu31924021891290",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "dearle-1914-industrial-training-with-special-reference-to-the-conditions-prevail",
+    "name": "Dearle, N. B. (1914). Industrial training: With special reference to the conditions prevailing in london. P. S. King.",
+    "tags": [
+      "monograph",
+      "technical-education",
+      "industrial-history",
+      "britain"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Subject headings: Technical education; Manual training; Child labor. A study of technical and manual training as practised in London, read alongside the Massachusetts commission's 1906 report and Montague's 1887 summary of the Royal Commission in this set.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1914,
+          "event": "Published by P. S. King",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Norman Burrell Dearle"
+      ],
+      "year": 1914,
+      "venue": "P. S. King",
+      "identifier": "https://archive.org/details/cu31924021891464",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "technical-education-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/cu31924021891464",
+      "titleKey": "industrial training with special reference to the conditions prevailing in london",
+      "topics": [
+        "management"
+      ]
+    },
+    "references": [
+      {
+        "title": "Dearle, N. B. (1914). Industrial training: With special reference to the conditions prevailing in london. P. S. King.",
+        "link": "https://archive.org/details/cu31924021891464",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "montague-1887-technical-education-a-summary-of-the-report-of-the-royal-commissio",
+    "name": "Montague, F. C. (1887). Technical education: A summary of the report of the royal commission appointed to inquire into the state of technical instruction. Cassell.",
+    "tags": [
+      "monograph",
+      "technical-education",
+      "industrial-history",
+      "britain"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "viii, 68 p., published for the Cobden Club. A summary of the Royal Commission on Technical Instruction's report, in the series of British technical-education inquiries that also includes the Massachusetts commission's 1906 report and Dearle's 1914 study. One of the earliest modern treatments of technical instruction in Britain; relevant background to the 1910 Nature news item \"Technical Education in Germany and the United Kingdom\".",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1887,
+          "event": "Published by Cassell",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "F. C. Montague"
+      ],
+      "year": 1887,
+      "venue": "Cassell",
+      "identifier": "https://archive.org/details/technicaleducati00montrich",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "technical-education-import",
+      "imported": "2026-10-05",
+      "sourceReference": "archive.org/details/technicaleducati00montrich",
+      "titleKey": "technical education a summary of the report of the royal commission appointed to inquire into the state of technical instruction",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Montague, F. C. (1887). Technical education: A summary of the report of the royal commission appointed to inquire into the state of technical instruction. Cassell.",
+        "link": "https://archive.org/details/technicaleducati00montrich",
+        "description": "Canonical record."
+      }
+    ]
   }
 ]
