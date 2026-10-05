@@ -119054,5 +119054,992 @@
         "description": "Canonical record."
       }
     ]
+  },
+  {
+    "id": "united-states-department-of-state-1880-commercial-relations-of-the-united-states",
+    "name": "Commercial relations of the united states (Nos. 1–3, then periodic issues, Sept. 1882–Dec. 1884). (1880–1884). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "The first of the six successive US consular-report series. The digitised item 688304 carries FRASER's title string \"Nos. 1, 2, and 3, 1800 and 1881\"; \"1800\" is an error in the FRASER record for 1880. Several issues include a Special Report on Declared Exports for the United States.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1880,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1880,
+      "year_end": 1884,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "commercial relations of the united states",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Commercial Relations of the United States : Reports (Nos. 1, 2, and 3, 1800 and 1881) from the Consuls of the United States on the Commerce, Manufactures, etc. of Their Consular Districts",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-688304",
+        "description": "FRASER item 688304 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of September and October, 1882",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672588",
+        "description": "FRASER item 672588 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States of the Commerce, Manufacture, etc., of Their Consular Districts, For the Months of November and December 1882",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672589",
+        "description": "FRASER item 672589 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of January, February, March, April, and May, 1883",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672590",
+        "description": "FRASER item 672590 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of July, August, September, and October, 1883, and Special Report on Declared Exports for the United States",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672591",
+        "description": "FRASER item 672591 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of November and December, 1883, January and February, 1884, and Special Report on Declared Exports for the United States",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672592",
+        "description": "FRASER item 672592 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of March, April, May, and June, 1884",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672593",
+        "description": "FRASER item 672593 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of June, July, and August, 1884",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672594",
+        "description": "FRASER item 672594 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Commercial Relations of the United States : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of September, October, November, and December, 1884",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/commercial-relations-united-states-672595",
+        "description": "FRASER item 672595 (1880 tab). Digitised text and page images free to read."
+      }
+    ]
+  },
+  {
+    "id": "united-states-department-of-state-1885-united-states-consular-reports",
+    "name": "United states consular reports (Jan. 1885–Mar. 1886). (1885–1886). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "A four-issue run under this title, each carrying a Special Report: Cholera in Europe (1885), the Trade Guilds of Europe, the Licorice Plant, and Pounding and Polishing Rice in England and Germany (1885), and Scouring of Wool in Belgium, Great Britain, and Germany (1886).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1885,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1885,
+      "year_end": 1886,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "united states consular reports",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "United States Consular Reports : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of January, February, March, and April, 1885, and Special Report on Cholera in Europe",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/united-states-consular-reports-672596",
+        "description": "FRASER item 672596 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "United States Consular Reports : Reports from the Consuls of the United States of the Commerce, Manufacture, etc., of their Consular Districts, For the Months of June, July, August, and September, 1885, and Special Reports on the Trade Guilds of Europe, the Licorice Plant, and Pounding and Polishing Rice in England and Germany",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/united-states-consular-reports-672788",
+        "description": "FRASER item 672788 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "United States Consular Reports : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of October, November, and December, 1885",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/united-states-consular-reports-672597",
+        "description": "FRASER item 672597 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "United States Consular Reports : Reports from the Consuls of the United States on the Commerce, Manufactures, etc., of Their Consular Districts, For the Months of January, February, and March, 1886, and Special Report on Scouring of Wool in Belgium, Great Britain, and Germany",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/united-states-consular-reports-672598",
+        "description": "FRASER item 672598 (1880 tab). Digitised text and page images free to read."
+      }
+    ]
+  },
+  {
+    "id": "united-states-department-of-state-1886-reports-from-the-consuls-of-the-united-st",
+    "name": "Reports from the consuls of the united states (Vols. XIX–XLII, Nos. 59–155). (1886–1893). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "Issued quarterly. FRASER's run is missing Vol. XXXVIII (1891) and jumps from Vol. XXXVII (Sept.–Dec. 1891) to Vol. XXXIX (May–Aug. 1892).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1886,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1886,
+      "year_end": 1893,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "reports from the consuls of the united states",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XIX, April-September, 1886",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672599",
+        "description": "FRASER item 672599 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XX, September-December, 1886",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672600",
+        "description": "FRASER item 672600 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XXI, January-March, 1887",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672601",
+        "description": "FRASER item 672601 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXII, April-June, 1887",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672602",
+        "description": "FRASER item 672602 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXIII, July-September, 1887",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672603",
+        "description": "FRASER item 672603 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXIV, October-December, 1887",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672604",
+        "description": "FRASER item 672604 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXV, January-March, 1888",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672605",
+        "description": "FRASER item 672605 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXVI, April-June, 1888",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672606",
+        "description": "FRASER item 672606 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXVII, July-September, 1888",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672607",
+        "description": "FRASER item 672607 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXVIII, October-December, 1888",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672608",
+        "description": "FRASER item 672608 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXIX, Nos. 101, 102, 103, and 104. Months: January, February, March, and April, 1889",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672609",
+        "description": "FRASER item 672609 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXX, Nos. 105, 106, 106 1/2, 107, and 107 1/2. Months: May, July, and August, 1889",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672610",
+        "description": "FRASER item 672610 (1880 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXXII, Nos. 112, 113, 114, 115. Months: January, February, March, and April, 1890",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672611",
+        "description": "FRASER item 672611 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXXIII, Nos. 116, 117, 118, and 119. Months: May, June, July, and August, 1890",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672612",
+        "description": "FRASER item 672612 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XXXIV. Nos. 120, 121, 122, and 123. Months: September, October, November, and December, 1890",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672613",
+        "description": "FRASER item 672613 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXXV, Nos. 124, 125, 126, and 127. Months: January, February, March and April, 1891",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672614",
+        "description": "FRASER item 672614 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Volume XXXVI, Nos. 128, 129, 130, and 131. Months: May, June, July, and August, 1891",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672615",
+        "description": "FRASER item 672615 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XXXVII, Nos. 132, 133, 134, and 135. Months: September, October, November, and December, 1891",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672616",
+        "description": "FRASER item 672616 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XXXIX, Nos. 140, 141, 142, and 143. Months: May, June, July, and August, 1892",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672617",
+        "description": "FRASER item 672617 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XL, Nos. 144, 145, 146, and 147. Months: September, October, November, and December, 1892",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672618",
+        "description": "FRASER item 672618 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XLI, Nos. 148, 149, 150, and 151. Months: January, February, March, and April, 1893",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672619",
+        "description": "FRASER item 672619 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Reports from the Consuls of the United States, Vol. XLII, Nos. 152, 153, 154, and 155. May, June, July, and August, 1893",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/reports-consuls-united-states-672620",
+        "description": "FRASER item 672620 (1890 tab). Digitised text and page images free to read."
+      }
+    ]
+  },
+  {
+    "id": "united-states-department-of-state-1893-consular-reports-commerce-manufactures-et",
+    "name": "Consular reports: Commerce, Manufactures, etc (Vols. XLIII–LXXII, Nos. 156–279). (1893–1903). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "The series drops the \"Reports from the Consuls of the United States\" wording and continues the same numbering. FRASER's run has two gaps: No. 230 (Nov. 1899) and the whole of Vols. LXIII–LXVII (1900–1901).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1893,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1893,
+      "year_end": 1903,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "consular reports commerce manufactures etc",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Consular Reports : Commerce, Manufactures, Etc., Vol. XLIII, Nos. 156, 157, 158, and 159. September, October, November, and December, 1893",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-672621",
+        "description": "FRASER item 672621 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, Etc., Vol. XLIV, Nos. 160, 161, 162, and 163. January, February, March, and April, 1894",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-672622",
+        "description": "FRASER item 672622 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, Etc., Vol. XLV, Nos. 164, 165, 166, and 167. May, June, July, and August, 1894",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-672623",
+        "description": "FRASER item 672623 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, Etc., Vol. XLVI, Nos. 168, 169, 170, and 171. September, October, November, and December, 1894",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-672624",
+        "description": "FRASER item 672624 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. XLVII, Nos. 172, 173, 174, and 175. January, February, March, and April 1895",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688305",
+        "description": "FRASER item 688305 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. XLVIII, Nos. 176, 177, 178, and 179. May, June, July, and August, 1895",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688306",
+        "description": "FRASER item 688306 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. XLIX, Nos. 180, 181, 182, and 183. September, October, November, and December 1895",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688307",
+        "description": "FRASER item 688307 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. L, Nos. 184, 185, 186, and 187. January, February, March, and April 1896",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688308",
+        "description": "FRASER item 688308 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LI, Nos. 188, 189, 190, and 191. May, June, July, and August 1896",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688309",
+        "description": "FRASER item 688309 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LII, Nos. 192, 193, 194, and 195. September, October, November, and December 1896",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688310",
+        "description": "FRASER item 688310 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LIII, Nos. 196, 197, 198, and 199. January, February, March, and April 1897",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688311",
+        "description": "FRASER item 688311 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LIV, Nos. 200, 201, 202, and 203. May, June, July, and August 1897",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688312",
+        "description": "FRASER item 688312 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LV, Nos. 204, 205, 206, and 207. September, October, November, and December 1897",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688313",
+        "description": "FRASER item 688313 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LVI, Nos. 208, 209, 210, and 211. January, February, March, and April 1898",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688314",
+        "description": "FRASER item 688314 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LVII, Nos. 212, 213, 214, and 215. May, June, July, and August 1898",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688315",
+        "description": "FRASER item 688315 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LVIII, Nos. 216, 217, 218, and 219. September, October, November, and December 1898",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688316",
+        "description": "FRASER item 688316 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LIX, Nos. 220, 221, 222, and 223. January, February, March, and April 1899",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688317",
+        "description": "FRASER item 688317 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LX, Nos. 224, 225, 226, and 227. May, June, July, and August 1899",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688318",
+        "description": "FRASER item 688318 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXI, Nos. 228 and 229. September and October 1899",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688319",
+        "description": "FRASER item 688319 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXI, No. 231, December 1899",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688320",
+        "description": "FRASER item 688320 (1890 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXII, No. 233. February 1900",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688321",
+        "description": "FRASER item 688321 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXVIII, Nos. 256, 257, 258, and 259. January, February, March, and April 1902",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688322",
+        "description": "FRASER item 688322 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXIX, Nos. 260, 261, 262, and 263. May, June, July, and August 1902",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688323",
+        "description": "FRASER item 688323 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXX, Nos. 264, 265, 266, and 267. September, October, November, and December 1902",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688324",
+        "description": "FRASER item 688324 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXXI, Nos. 268, 269, 270, and 271. January, February, March, and April 1903",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688325",
+        "description": "FRASER item 688325 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Consular Reports : Commerce, Manufactures, etc., Vol. LXXII, Nos. 272, 273, 274, and 275. May, June, July, and August 1903",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/consular-reports-688326",
+        "description": "FRASER item 688326 (1900 tab). Digitised text and page images free to read."
+      }
+    ]
+  },
+  {
+    "id": "united-states-department-of-state-1903-monthly-consular-reports",
+    "name": "Monthly consular reports (Vols. LXXIII–LXXV, Nos. 276–297). (1903–1905). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "Frequency tightens to monthly. Nos. 283–297 are single-month issues; Nos. 276–282 are quarterly.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1903,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1903,
+      "year_end": 1905,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "monthly consular reports",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Monthly Consular Reports, Vol. LXXIII, Nos. 276, 277, 278, and 279, September-December 1903",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-688327",
+        "description": "FRASER item 688327 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, Vol. LXXIV, Nos. 280, 281, and 282. January, February, and March 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-688328",
+        "description": "FRASER item 688328 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, Vol. LXXV, Nos. 283, 284, and 285, April, May, and June 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672625",
+        "description": "FRASER item 672625 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 286, July, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672626",
+        "description": "FRASER item 672626 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 287, August, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672627",
+        "description": "FRASER item 672627 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 288, September, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672628",
+        "description": "FRASER item 672628 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 289, October, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672629",
+        "description": "FRASER item 672629 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 290, November, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672630",
+        "description": "FRASER item 672630 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 291, December, 1904",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672631",
+        "description": "FRASER item 672631 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 292, January, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672632",
+        "description": "FRASER item 672632 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 293, February, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672633",
+        "description": "FRASER item 672633 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 294, March, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672634",
+        "description": "FRASER item 672634 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 295, April, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672635",
+        "description": "FRASER item 672635 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 296, May, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672636",
+        "description": "FRASER item 672636 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular Reports, No. 297, June, 1905",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-reports-672637",
+        "description": "FRASER item 672637 (1900 tab). Digitised text and page images free to read."
+      }
+    ]
+  },
+  {
+    "id": "united-states-department-of-state-1905-monthly-consular-and-trade-reports",
+    "name": "Monthly consular and trade reports (Nos. 298–357). (1905–1910). United States Department of State.",
+    "tags": [
+      "report-series",
+      "consular-reports",
+      "trade",
+      "commerce",
+      "us-government",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Report",
+    "description": "The final series, monthly from Jul. 1905 to Jun. 1910, where FRASER's holdings begin. The run is otherwise sequential and complete.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1905,
+          "event": "Published by United States Department of State",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "report-series",
+      "creators": [
+        "United States Department of State"
+      ],
+      "year": 1905,
+      "year_end": 1910,
+      "venue": "United States Department of State",
+      "identifier": "",
+      "language": "English"
+    },
+    "metadata": {
+      "source": "fraser-consular-reports-import",
+      "imported": "2026-10-05",
+      "sourceReference": "FRASER title 9131 (Consular Reports), https://fraser.stlouisfed.org/title/consular-reports-9131",
+      "titleKey": "monthly consular and trade reports",
+      "topics": [
+        "economics",
+        "history",
+        "trade",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Monthly Consular and Trade Reports, July, 1905, No. 298",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672638",
+        "description": "FRASER item 672638 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, August, 1905, No. 299",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672639",
+        "description": "FRASER item 672639 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, September, 1905, No. 300",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672640",
+        "description": "FRASER item 672640 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, October, 1905, No. 301",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672641",
+        "description": "FRASER item 672641 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, November, 1905, No. 302",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672642",
+        "description": "FRASER item 672642 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, December, 1905, No. 303",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672643",
+        "description": "FRASER item 672643 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, January, 1906, No. 304",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672644",
+        "description": "FRASER item 672644 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, February, 1906, No. 305",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672645",
+        "description": "FRASER item 672645 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, March, 1906, No. 306",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672646",
+        "description": "FRASER item 672646 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, April, 1906, No. 307",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672647",
+        "description": "FRASER item 672647 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, May, 1906, No. 308",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672648",
+        "description": "FRASER item 672648 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, June, 1906, No. 309",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672649",
+        "description": "FRASER item 672649 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, July, 1906, No. 310",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672650",
+        "description": "FRASER item 672650 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, August, 1906, No. 311",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672651",
+        "description": "FRASER item 672651 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, September, 1906, No. 312",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672652",
+        "description": "FRASER item 672652 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, October, 1906, No. 313",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672653",
+        "description": "FRASER item 672653 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, November, 1906, No. 314",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672654",
+        "description": "FRASER item 672654 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, December, 1906, No. 315",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672655",
+        "description": "FRASER item 672655 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, January, 1907, No. 316",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672656",
+        "description": "FRASER item 672656 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, February, 1907, No. 317",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672657",
+        "description": "FRASER item 672657 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, March, 1907, No. 318",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672658",
+        "description": "FRASER item 672658 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, April, 1907, No. 319",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672659",
+        "description": "FRASER item 672659 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, May, 1907, No. 320",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672660",
+        "description": "FRASER item 672660 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, June, 1907, No. 321",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672661",
+        "description": "FRASER item 672661 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, July, 1907, No. 322",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672662",
+        "description": "FRASER item 672662 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, August, 1907, No. 323",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672663",
+        "description": "FRASER item 672663 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, September, 1907, No. 324",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672664",
+        "description": "FRASER item 672664 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, October, 1907, No. 325",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672665",
+        "description": "FRASER item 672665 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, November, 1907, No. 326",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672666",
+        "description": "FRASER item 672666 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, December, 1907, No. 327",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672667",
+        "description": "FRASER item 672667 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, January, 1908, No. 328",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672668",
+        "description": "FRASER item 672668 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, February, 1908, No. 329",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672669",
+        "description": "FRASER item 672669 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, March, 1908, No. 330",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672670",
+        "description": "FRASER item 672670 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, April, 1908, No. 331",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672671",
+        "description": "FRASER item 672671 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, May, 1908, No. 332",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672672",
+        "description": "FRASER item 672672 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, June, 1908, No. 333",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672673",
+        "description": "FRASER item 672673 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, July, 1908, No. 334",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672674",
+        "description": "FRASER item 672674 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, August, 1908, No. 335",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672675",
+        "description": "FRASER item 672675 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, September, 1908, No. 336",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672676",
+        "description": "FRASER item 672676 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, October, 1908, No. 337",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672677",
+        "description": "FRASER item 672677 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, November, 1908, No. 338",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672678",
+        "description": "FRASER item 672678 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, December, 1908, No. 339",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672679",
+        "description": "FRASER item 672679 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, January, 1909, No. 340",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672680",
+        "description": "FRASER item 672680 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, February, 1909, No. 341",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672681",
+        "description": "FRASER item 672681 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, March, 1909, No. 342",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672682",
+        "description": "FRASER item 672682 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, April, 1909, No. 343",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672683",
+        "description": "FRASER item 672683 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, May, 1909, No. 344",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672684",
+        "description": "FRASER item 672684 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, June, 1909, No. 345",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672685",
+        "description": "FRASER item 672685 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, July, 1909, No. 346",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672686",
+        "description": "FRASER item 672686 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, August, 1909, No. 347",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672687",
+        "description": "FRASER item 672687 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, September, 1909, No. 348",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672688",
+        "description": "FRASER item 672688 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, October, 1909, No. 349",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672689",
+        "description": "FRASER item 672689 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, November, 1909, No. 350",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672690",
+        "description": "FRASER item 672690 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, December, 1909, No. 351",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672691",
+        "description": "FRASER item 672691 (1900 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, January, 1910, No. 352",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672692",
+        "description": "FRASER item 672692 (1910 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, February, 1910, No. 353",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672693",
+        "description": "FRASER item 672693 (1910 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, March, 1910, No. 354",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-672694",
+        "description": "FRASER item 672694 (1910 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, April, May 1910, Nos. 355, 356",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-688329",
+        "description": "FRASER item 688329 (1910 tab). Digitised text and page images free to read."
+      },
+      {
+        "title": "Monthly Consular and Trade Reports, June 1910, No. 357",
+        "link": "https://fraser.stlouisfed.org/title/consular-reports-9131/monthly-consular-trade-reports-688330",
+        "description": "FRASER item 688330 (1910 tab). Digitised text and page images free to read."
+      }
+    ]
   }
 ]

@@ -47,6 +47,7 @@ TYPE_MAP = {
     "book": ("Book", "monograph"),
     "report": ("Report", "tech-report"),
     "archival-record": ("Document", "archival-record"),
+    "report-series": ("Report", "report-series"),
 }
 DEFAULT_TYPES = ("article", "chapter", "book")
 
@@ -265,6 +266,19 @@ def build_name(kind, rec, title, no_author=False):
             tail += ". %s" % publisher
         return "%s %s." % (head, tail)
 
+    if kind == "report-series":
+        # Serial government reports are self-identifying (no personal author),
+        # so they follow the reference-work shape: Title (span). (Year span).
+        # Publisher.
+        span = latex_unescape(rec.get("span") or "")
+        y0 = str(rec.get("year") or "")
+        y1 = str(rec.get("year_end") or y0)
+        head = "%s%s." % (title, " (%s)" % span if span else "")
+        years = "%s\u2013%s" % (y0, y1) if y1 and y1 != y0 else y0
+        out = "%s (%s)." % (head, years)
+        issuer = venue_case(rec.get("publisher") or "")
+        return "%s %s." % (out, issuer) if issuer else out
+
     if kind == "archival-record":
         bits = []
         for field in ("repository", "series", "callnumber"):
@@ -379,6 +393,7 @@ def convert(rec, taken_ids, taken_titles, seen_keys, scope, source, allow_no_aut
             "kind": kind,
             "creators": [full_name(a) for a in authors if full_name(a)],
             "year": int(year) if str(year).isdigit() else year,
+            "year_end": int(rec["year_end"]) if str(rec.get("year_end") or "").isdigit() else "",
             "venue": venue,
             "identifier": ident,
             "language": latex_unescape(rec.get("language") or ""),
@@ -391,8 +406,11 @@ def convert(rec, taken_ids, taken_titles, seen_keys, scope, source, allow_no_aut
             "topics": list(rec.get("topics") or []) or classify(title, venue),
         },
         "references": (
-            [{"title": name, "link": ident, "description": "Canonical record."}]
-            if ident else []
+            [{"title": it.get("title", ""), "link": it.get("link", ""),
+              "description": it.get("description", "")}
+             for it in (rec.get("items") or []) if it.get("link")]
+            or ([{"title": name, "link": ident, "description": "Canonical record."}]
+                if ident else [])
         ),
     }
     return node, ""

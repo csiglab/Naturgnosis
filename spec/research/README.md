@@ -27,7 +27,7 @@ CouchDB (`research:<id>` docs); the space formulation below is settled for the a
 
 | Field | Description |
 | ----- | ----------- |
-| `kind` | Finer-grained type within the category (e.g. `monograph`, `journal-article`, `reference-dataset`, `repository`, `assessment`, `reference-work`, `archival-record`). |
+| `kind` | Finer-grained type within the category (e.g. `monograph`, `journal-article`, `reference-dataset`, `repository`, `assessment`, `reference-work`, `archival-record`, `report-series`). |
 | `creators` | List of creators (authors/issuing bodies). |
 | `year` | Primary publication year. |
 | `venue` | Journal, publisher, or hosting institution. |
@@ -55,6 +55,13 @@ structured fields (never copied verbatim from hand-written headings). Templates:
 | `tech-report` / `thesis` / `manual` / `misc` | Author, A. A. (Year). Sentence case title. Issuing institution. | — |
 | `reference-work` (no single author) | Title in sentence case (edition, volume span). (Year span). Publisher. | Great Soviet encyclopedia (3rd ed., Vols. 1–31). (1973–1983). Macmillan. |
 | `archival-record` | Author, A. A. (Year). Title [Archival record]. Repository, Series, Call number. | Benavides, D. de (1653). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21. |
+| `report-series` (serial government series, no personal author) | Title (volume/number span). (Year span). Issuing body. | Reports from the consuls of the United States (Vols. XIX–XLII, Nos. 59–155). (1886–1893). United States Department of State. |
+
+A `report-series` node represents a serial run of government reports as one artifact; each
+digitised issue or volume is a `references` entry pointing at its repository page. The issuing
+body is recorded in `specific.creators` and `specific.venue`, and the run's extent in
+`specific.year` / `specific.year_end`. Gaps in a repository's holdings belong in the node
+`description`, not silently smoothed over.
 
 Archival records (category `Document`) follow APA's archival form: the bracketed
 `[Archival record]` follows the title, then the holding repository, its series, and the
