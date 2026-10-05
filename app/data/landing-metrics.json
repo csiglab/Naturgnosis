@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-05T17:42:09Z",
+ "generated": "2026-10-05T19:32:01Z",
  "modules": {
   "social": {
    "nodes": 7334,
    "edges": 216
   },
   "research": {
-   "nodes": 2031,
-   "edges": 5
+   "nodes": 2761,
+   "edges": 11
   },
   "nation": {
    "nodes": 35,
