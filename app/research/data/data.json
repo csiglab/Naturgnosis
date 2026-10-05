@@ -125788,5 +125788,122 @@
         "description": "Google Books, full view of the 1757 edition (Madrid: Antonio Sanz)."
       }
     ]
+  },
+  {
+    "id": "elhuyar-1825-memoria-sobre-el-influjo-de-la-mineria-en-la-nueva-espana",
+    "name": "Elhuyar, F. de (1825). Memoria sobre el influjo de la minería en la agricultura, industria, población y civilización de la Nueva España.",
+    "tags": [
+      "monograph",
+      "monarquia-hispanica",
+      "mining",
+      "nueva-espana",
+      "economic-history",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Fausto de Elhuyar (1755-1833), the German-born chemist, mineralogist and director-general of mining in New Spain, examines how mining shaped agriculture, industry, population and civilization in the viceroyalty. A founding text of Spanish American mining and economic history. The linked Internet Archive copy is a 1964 reprint and is borrow-only (print-disabled).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1825,
+          "event": "First published in Madrid",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Fausto de Elhuyar"
+      ],
+      "year": 1825,
+      "venue": "",
+      "identifier": "https://archive.org/details/bwb_P9-BJU-740",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "manual-entry",
+      "imported": "2026-10-05",
+      "set": "monarquia-hispanica",
+      "sourceReference": "archive.org/details/bwb_P9-BJU-740 (1964 reprint); original title verified via Google Books (Madrid, 1825).",
+      "topics": [
+        "history",
+        "economics",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Memoria sobre el influjo de la minería en la Nueva España (1964 reprint)",
+        "link": "https://archive.org/details/bwb_P9-BJU-740",
+        "description": "Internet Archive scan; borrow-only (print-disabled)."
+      }
+    ]
+  },
+  {
+    "id": "martinez-de-mata-1626-memorial-de-francisco-martinez-de-mata",
+    "name": "Martínez de Mata, F. (1626). Memorial de Francisco Martínez de Mata, natural de Motril, siervo de los pobres afligidos, en razón de la despoblación, pobreza de España, y su remedio.",
+    "tags": [
+      "monograph",
+      "monarquia-hispanica",
+      "arbitrismo",
+      "economic-thought",
+      "spain",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "Single-sheet memorial (8 folios, in-quarto format) by the arbitrists Francisco Martínez de Mata, 'natural de Motril, siervo de los pobres afligidos', arguing for the remedy of Spain's depopulation and poverty. Imprint [S.l. : s.n., ca. 1626]; the 1626 date is taken from the verso of leaf 2, and the title from the opening words of the text. Digitised from the Fondo Antiguo of the Biblioteca de la Universidad de Sevilla (sign. A 110/127(67); collection PABI 2006-3). This original imprint complements the modern collected edition (Memoriales y discursos) held separately.",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1626,
+          "event": "Published as a single memorial",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "Epistemic",
+        "relationshipType": "PRECEDES",
+        "targetNodeId": "martinez-de-mata-1650-memoriales-y-discursos",
+        "description": "An original 1626 memorial, part of the material later gathered in the modern Memoriales y discursos edition."
+      }
+    ],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Francisco Martínez de Mata"
+      ],
+      "year": 1626,
+      "venue": "",
+      "identifier": "https://archive.org/details/A11012767",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "manual-entry",
+      "imported": "2026-10-05",
+      "set": "monarquia-hispanica",
+      "sourceReference": "archive.org/details/A11012767 (Biblioteca de la Universidad de Sevilla, Fondo Antiguo).",
+      "topics": [
+        "history",
+        "economics",
+        "economic-history"
+      ]
+    },
+    "references": [
+      {
+        "title": "Memorial de Francisco Martínez de Mata… (ca. 1626)",
+        "link": "https://archive.org/details/A11012767",
+        "description": "Internet Archive scan from the Biblioteca de la Universidad de Sevilla."
+      }
+    ]
   }
 ]
