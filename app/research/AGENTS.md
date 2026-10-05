@@ -18,7 +18,7 @@ seed corpus. Spec: `spec/research/README.md`.
 
 ```sh
 python bin/sync.py                    # serve (dataset=research is auto-discovered)
-python bin/layout.py --data-file app/research/data/data.json --layout-file app/research/data/layout.json
+python bin/layout.py --data-file app/research/data/data.json --layout-file app/research/data/layout.json --group-by metadata.topics.0 --group-fallback category
 python bin/seed_couchdb.py --dataset research
 curl /api/graph?dataset=research      # nodes
 ```

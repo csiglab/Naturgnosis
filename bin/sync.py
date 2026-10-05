@@ -87,6 +87,12 @@ LOAD_ENDPOINT = "/api/graph"
 HEALTH_ENDPOINT = "/api/health"
 LAYOUT_RECOMPUTE_ENDPOINT = "/api/layout/recompute"
 
+# Per-dataset layout grouping flags (mirrors bin/layout.py --group-by).
+# Datasets absent here recompute with the default ungrouped layout.
+LAYOUT_GROUPING = {
+    "research": {"group_by": "metadata.topics.0", "group_fallback": "category"},
+}
+
 
 class CouchError(Exception):
     """Raised on CouchDB HTTP failures; carries the status code and body."""
@@ -757,7 +763,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
                 data_file = (self.datasets or {}).get(name)
                 if not data_file or not data_file.exists():
                     continue
-                res = self._recompute_layout(data_file)
+                res = self._recompute_layout(data_file, dataset=name)
                 results[name] = res
                 if "layout_error" in res:
                     had_error = True
@@ -775,8 +781,11 @@ class SyncHandler(SimpleHTTPRequestHandler):
     # Layout recompute helper
     # ------------------------------------------------------------------
 
-    def _recompute_layout(self, data_file):
+    def _recompute_layout(self, data_file, dataset=None):
         """Recompute layout.json (sibling of data file) via bin/layout.py.
+
+        Applies the per-dataset grouping flags from LAYOUT_GROUPING so an
+        on-demand recompute preserves the explorer's clustering.
 
         Best-effort: a layout failure is reported, not raised. Returns a dict
         consumed by the recompute response handler.
@@ -788,9 +797,12 @@ class SyncHandler(SimpleHTTPRequestHandler):
                 sys.path.insert(0, bin_dir)
             import layout as layout_mod  # noqa: E402
 
+            flags = LAYOUT_GROUPING.get(dataset or "", {})
             node_count, elapsed = layout_mod.recompute(
                 data_file,
                 layout_file,
+                group_by=flags.get("group_by"),
+                group_fallback=flags.get("group_fallback"),
             )
             sys.stderr.write(
                 f"[sync] layout recomputed: {node_count} nodes "

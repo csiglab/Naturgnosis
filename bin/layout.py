@@ -17,10 +17,18 @@ is both expensive and pointless. Instead:
      MAX_FR_COMPONENT, where FR would be O(m^2 * iters)) are laid as blossoms
      in reserved territory beside the main disk instead.
 
+  Opt-in grouping (--group-by): each group gets its own sunflower disk and
+  the disks are arranged on a ring, so groups read as spatial clusters.
+  Default off: without the flag the data order is kept exactly as before.
+
 Usage:
     python bin/layout.py \\
         --data-file app/social/data/data.json \\
         --layout-file app/social/data/layout.json
+    python bin/layout.py \\
+        --data-file app/research/data/data.json \\
+        --layout-file app/research/data/layout.json \\
+        --group-by metadata.topics.0 --group-fallback category
 
 Defaults resolve relative to the repository root (parent of bin/).
 """
@@ -206,11 +214,44 @@ def resolve_overlaps(points, min_sep, rng, max_passes=40):
     return points
 
 
-def compute_layout(data):
+def resolve_path(node, dotted):
+    """Resolve 'a.b.0.c' against nested dicts/lists; None when missing."""
+    cur = node
+    for seg in (dotted or "").split("."):
+        if not seg:
+            return None
+        if isinstance(cur, list):
+            if not seg.isdigit() or int(seg) >= len(cur):
+                return None
+            cur = cur[int(seg)]
+        elif isinstance(cur, dict):
+            if seg not in cur:
+                return None
+            cur = cur[seg]
+        else:
+            return None
+    return cur
+
+
+def group_key_of(node, group_by, group_fallback):
+    """Display-group key for spiral ordering (mirrors the explorer's grouping)."""
+    if group_by:
+        val = resolve_path(node, group_by)
+        if val is None or val == "":
+            val = resolve_path(node, group_fallback) if group_fallback else None
+        if isinstance(val, list):
+            val = val[0] if val else None
+        if val is not None and val != "":
+            return str(val)
+    return None
+
+
+def compute_layout(data, group_by=None, group_fallback=None):
     """Return {id: [x, y]} for every node in data."""
     ids = []
     id_index = {}
     seen = set()
+    by_id = {}
     for d in data:
         if not isinstance(d, dict):
             continue
@@ -220,10 +261,32 @@ def compute_layout(data):
         seen.add(nid)
         id_index[nid] = len(ids)
         ids.append(nid)
+        by_id[nid] = d
 
     n = len(ids)
     if n == 0:
         return {}
+
+    if group_by:
+        grouped = {}
+        for nid in ids:
+            key = group_key_of(by_id[nid], group_by, group_fallback) or ""
+            grouped.setdefault(key, []).append(nid)
+        ordered = sorted(grouped.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+        # One sunflower disk per group, disks side by side on a ring whose
+        # circumference fits every diameter plus breathing room. Deterministic.
+        radii = {k: max(SPACING, SPACING * 1.05 * math.sqrt(len(v) / math.pi)) for k, v in ordered}
+        ring = (2.0 * sum(radii.values()) + 2.0 * len(ordered) * SPACING) / (2.0 * math.pi)
+        base_of = {}
+        for gi, (key, members) in enumerate(ordered):
+            members = sorted(members)
+            ang = 2.0 * math.pi * gi / max(1, len(ordered))
+            cx, cy = ring * math.cos(ang), ring * math.sin(ang)
+            r = radii[key]
+            for i, nid in enumerate(members):
+                px, py = sunflower(i, len(members), r)
+                base_of[nid] = [cx + px, cy + py]
+        base = [base_of[nid] for nid in ids]
 
     edges = build_edges(data, seen)
 
@@ -234,8 +297,11 @@ def compute_layout(data):
     disk_radius = SPACING * math.sqrt(n / math.pi)
     out = {}
 
-    # 1. Base positions: sunflower spiral for every node (overlap-free, even).
-    base = [sunflower(i, n, disk_radius) for i in range(n)]
+    # 1. Base positions: one sunflower disk per --group-by group (grouped
+    #    mode, computed above), else a single sunflower spiral for every
+    #    node (overlap-free, even fill).
+    if not group_by:
+        base = [sunflower(i, n, disk_radius) for i in range(n)]
 
     # 2. Tighten connected components locally. Small components get the FR
     # treatment anchored at their spiral-slot centroid; oversized ones are
@@ -249,6 +315,9 @@ def compute_layout(data):
         key=lambda c: (-len(c), id_index[c[0]]),
     )
     cursor = disk_radius + SPACING * 2.0
+    if group_by:
+        # Blossoms go beside the grouped ring, not inside it.
+        cursor = max(max(abs(p[0]), abs(p[1])) for p in base) + SPACING * 2.0
     for comp in large:
         size = len(comp)
         local_span = max(SPACING, SPACING * math.sqrt(size))
@@ -313,7 +382,7 @@ def write_layout_atomically(layout, layout_path):
         raise
 
 
-def recompute(data_file, layout_file):
+def recompute(data_file, layout_file, group_by=None, group_fallback=None):
     """Load data_file, compute layout, write layout_file atomically.
 
     Returns (node_count, elapsed_seconds). Used by sync.py after each save.
@@ -322,7 +391,7 @@ def recompute(data_file, layout_file):
 
     start = time.time()
     data = load_data(data_file)
-    layout = compute_layout(data)
+    layout = compute_layout(data, group_by=group_by, group_fallback=group_fallback)
     write_layout_atomically(layout, Path(layout_file))
     return len(layout), time.time() - start
 
@@ -338,12 +407,26 @@ def main(argv=None):
         default=str(DEFAULT_LAYOUT),
         help="Path to write layout.json (default: sibling of data file).",
     )
+    parser.add_argument(
+        "--group-by",
+        default=None,
+        help="Dotted node path (e.g. metadata.topics.0) to order spiral "
+        "slots by, forming one contiguous sector per group. Off by default.",
+    )
+    parser.add_argument(
+        "--group-fallback",
+        default=None,
+        help="Dotted node path used when --group-by resolves empty "
+        "(e.g. category).",
+    )
     args = parser.parse_args(argv)
 
     data_file = Path(args.data_file).resolve()
     layout_file = Path(args.layout_file).resolve()
 
-    node_count, elapsed = recompute(data_file, layout_file)
+    node_count, elapsed = recompute(
+        data_file, layout_file, group_by=args.group_by, group_fallback=args.group_fallback
+    )
     size_kb = layout_file.stat().st_size / 1024
     print(
         f"layout: {node_count} nodes -> {layout_file} "
