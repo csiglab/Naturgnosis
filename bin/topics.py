@@ -46,6 +46,7 @@ VENUE_PRIORS = [
 # L1 -> title/body keywords (phrases preferred; single generic words flagged).
 L1_KEYWORDS = {
     "artificial-intelligence": ["artificial intelligence", "neural network", "deep learning", "machine learning", "reinforcement learning", "transformer", "language model", "large language", "machine intelligence", "human feedback", "convolution", "agent", "ai", "computer vision", "robot", "motion planning", "knowledge representation", "expert system", "natural language", "generative model", "diffusion model", "foundation model", "random forest", "summarization", "text mining", "information extraction", "ant colony", "swarm intelligence", "layer normalization", "classification", "reasoning", "travelling salesman", "traveling salesman"],
+    "archival-records": ["archival", "archive", "archives", "archivo", "manuscript", "manuscrit", "record", "records", "catalogue", "catalog", "fonds", "collection", "primary source", "signatura", "expediente", "legajo", "pares", "merit report", "merits and services", "meritos y servicios", "merits", "appointment", "nomination", "petition", "colonial", "indiferente", "capitulaciones", "informacion", "memorial"],
     "biology": ["biology", "cell", "genome", "genomic", "protein", "neuron", "neural coding", "cellular", "molecular", "metabolic", "bacteria", "biochemistry", "evolv", "ecolog", "species", "immune", "epidemic", "pandemic", "brain", "cortex", "synaptic", "mutation", "dna", "rna"],
     "cognitive-science": ["cognitive science", "cognition", "cognitive", "linguistic", "language", "syntactic", "thinking", "reasoning", "categorization", "syntax", "predictive processing", "embodied", "perception", "perceptual", "memory", "attention", "mental model", "conceptual", "embodied cognition"],
     "computer-science": ["computer science", "operating system", "database", "file system", "compiler", "computation", "computational", "scheme", "lisp", "haskell", "prolog", "libraries", "shared librar", "api", "paxos", "quorum", "software", "unix", "programming", "design pattern", "object oriented", "computer graphics", "rendering", "linux", "java", "binary", "git", "fpga", "verilog", "natural computing", "information system", "programming language", "distributed system", "consensus", "replication", "concurrency", "transaction", "cache", "scheduling", "virtualization", "network protocol", "routing", "congestion control", "software engineering", "formal verification", "type system", "garbage collection", "computer architecture", "processor", "cryptograph", "blockchain", "human computer", "information retrieval", "data mining", "stream processing", "query", "algorithm"],
@@ -72,6 +73,12 @@ L2_KEYWORDS = {
         "robotics": ["robot", "manipulation", "locomotion", "slam"],
         "reasoning-planning": ["reasoning", "planning", "search", "knowledge representation", "logic programming"],
         "multi-agent": ["multi agent", "agent based", "game", "mechanism design", "swarm"],
+    },
+    "archival-records": {
+        "colonial-administration": ["colonial", "capitulaciones", "indiferente", "virreinato", "indias", "agencies", "agencia", "government", "administration", "governor", "gobernador"],
+        "personnel-records": ["merits", "merits and services", "meritos y servicios", "merit report", "curriculum", "curriculum vitae", "service record", "appointment", "nomination", "petition", "expediente", "personal", "officer", "employee"],
+        "manuscripts-and-petitions": ["manuscript", "manuscrito", "manuscrita", "petition", "peticion", "solicitud", "memorial", "informacion", "request"],
+        "printed-and-published-materials": ["printed", "impresa", "manuscript", "certificate", "certificaciones", "autos", "legal", "law"],
     },
     "biology": {
         "genetics-genomics": ["genome", "genomic", "gene", "mutation", "dna", "rna"],

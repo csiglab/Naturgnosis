@@ -117754,5 +117754,599 @@
         "description": "Canonical record."
       }
     ]
+  },
+  {
+    "id": "benavides-1653-relacion-de-meritos-y-servicios",
+    "name": "Benavides, D. de (1653). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Fray Diego de Benavides. Merit-and-service report (relación de méritos y servicios); the genre records a candidate's qualifications and career in support of an application for royal office or benefit. AGI, Indiferente 117, N.21. Digitised and catalogued in PARES (record metadata is rendered client-side and was not independently verified; the date, persona, and signatura are as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1653,
+          "event": "Published by Archivo General de Indias, Indiferente, 117, N.21",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Diego de Benavides"
+      ],
+      "year": 1653,
+      "venue": "Archivo General de Indias, Indiferente, 117, N.21",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/2639234",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 2639234",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "Benavides, D. de (1653). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/2639234",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "quero-1658-relacion-de-meritos-y-servicios",
+    "name": "Quero, D. F. de (1658). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Diego Franco de Quero, gobernador de Santo Domingo. AGI, Indiferente 117, N.21. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1658,
+          "event": "Published by Archivo General de Indias, Indiferente, 117, N.21",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Diego Franco de Quero"
+      ],
+      "year": 1658,
+      "venue": "Archivo General de Indias, Indiferente, 117, N.21",
+      "identifier": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/238667",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 238667",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "Quero, D. F. de (1658). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21.",
+        "link": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/238667",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-mendoza-1677-relacion-de-meritos-y-servicios",
+    "name": "de Mendoza, A. (1677). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 121, N.153.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Antonio de Mendoza, bachiller y abogado. AGI, Indiferente 121, N.153. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1677,
+          "event": "Published by Archivo General de Indias, Indiferente, 121, N.153",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Antonio de Mendoza"
+      ],
+      "year": 1677,
+      "venue": "Archivo General de Indias, Indiferente, 121, N.153",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/239353",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 239353",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Mendoza, A. (1677). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 121, N.153.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/239353",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-mendoza-1713-relacion-de-meritos-y-servicios",
+    "name": "de Mendoza, J. A. H. (1713). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 138, N.79.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Juan Agustín Hurtado de Mendoza. AGI, Indiferente 138, N.79. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1713,
+          "event": "Published by Archivo General de Indias, Indiferente, 138, N.79",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Juan Agustín Hurtado de Mendoza"
+      ],
+      "year": 1713,
+      "venue": "Archivo General de Indias, Indiferente, 138, N.79",
+      "identifier": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/241876",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 241876",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Mendoza, J. A. H. (1713). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 138, N.79.",
+        "link": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/241876",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-godoy-1726-relacion-de-meritos-y-servicios",
+    "name": "de Godoy, J. C. (1726). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 143, N.11.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Juan Chiafino de Godoy, teniente de caballería. AGI, Indiferente 143, N.11. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1726,
+          "event": "Published by Archivo General de Indias, Indiferente, 143, N.11",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Juan Chiafino de Godoy"
+      ],
+      "year": 1726,
+      "venue": "Archivo General de Indias, Indiferente, 143, N.11",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/242469",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 242469",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Godoy, J. C. (1726). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 143, N.11.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/242469",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-urtarte-1728-relacion-de-meritos-y-servicios-y-recomendaciones",
+    "name": "de Urtarte, G. (1728). Relación de méritos y servicios y recomendaciones [Archival record]. Archivo General de Indias, Indiferente, 220, N.26.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Gregorio de Urtarte. The dossier combines the merit-and-service report with supporting recommendations (recomendaciones). AGI, Indiferente 220, N.26. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1728,
+          "event": "Published by Archivo General de Indias, Indiferente, 220, N.26",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Gregorio de Urtarte"
+      ],
+      "year": 1728,
+      "venue": "Archivo General de Indias, Indiferente, 220, N.26",
+      "identifier": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/2777498",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 2777498",
+      "titleKey": "relacion de meritos y servicios y recomendaciones",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Urtarte, G. (1728). Relación de méritos y servicios y recomendaciones [Archival record]. Archivo General de Indias, Indiferente, 220, N.26.",
+        "link": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/2777498",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "del-moral-ramirez-de-arellano-1747-relacion-de-meritos-y-servicios",
+    "name": "del Moral Ramírez de Arellano, J. M. (1747). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 231, N.26.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "José Mariano del Moral Ramírez de Arellano. AGI, Indiferente 231, N.26. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1747,
+          "event": "Published by Archivo General de Indias, Indiferente, 231, N.26",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "José Mariano del Moral Ramírez de Arellano"
+      ],
+      "year": 1747,
+      "venue": "Archivo General de Indias, Indiferente, 231, N.26",
+      "identifier": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/2828856",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 2828856",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "del Moral Ramírez de Arellano, J. M. (1747). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 231, N.26.",
+        "link": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/description/2828856",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-pareja-1750-relacion-de-meritos-y-servicios",
+    "name": "de Pareja, A. (1750). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 153, N.5.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Agustín de Pareja, gobernador de Puerto Rico. AGI, Indiferente 153, N.5. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1750,
+          "event": "Published by Archivo General de Indias, Indiferente, 153, N.5",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Agustín de Pareja"
+      ],
+      "year": 1750,
+      "venue": "Archivo General de Indias, Indiferente, 153, N.5",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/243327",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 243327",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Pareja, A. (1750). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 153, N.5.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/243327",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-aguirre-y-castillo-1754-relacion-de-meritos-y-servicios",
+    "name": "de Aguirre y Castillo, D. (1754). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 153, N.??.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Domingo de Aguirre y Castillo. AGI, Indiferente 153, N.?? — the source table gives the document number as unrecorded (N.??); confirm against the PARES catalogue record before citing. Digitised and catalogued in PARES (metadata rendered client-side).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1754,
+          "event": "Published by Archivo General de Indias, Indiferente, 153, N.??",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Domingo de Aguirre y Castillo"
+      ],
+      "year": 1754,
+      "venue": "Archivo General de Indias, Indiferente, 153, N.??",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/243346",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 243346",
+      "titleKey": "relacion de meritos y servicios",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Aguirre y Castillo, D. (1754). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 153, N.??.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/243346",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "panelo-1758-relacion-de-meritos-y-servicios-y-autos",
+    "name": "Panelo, J. A. (1758). Relación de méritos y servicios y autos [Archival record]. Archivo General de Indias, Indiferente.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "Juan Antonio Panelo. The dossier combines the merit-and-service report with autos (formal legal proceedings). The source table records the signatura only as AGI, INDIFERENTE, with no legajo or número; complete the reference from the PARES catalogue record before citing. Digitised and catalogued in PARES (metadata rendered client-side).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1758,
+          "event": "Published by Archivo General de Indias, Indiferente",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "Juan Antonio Panelo"
+      ],
+      "year": 1758,
+      "venue": "Archivo General de Indias, Indiferente",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/1931306",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 1931306",
+      "titleKey": "relacion de meritos y servicios y autos",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "Panelo, J. A. (1758). Relación de méritos y servicios y autos [Archival record]. Archivo General de Indias, Indiferente.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/1931306",
+        "description": "Canonical record."
+      }
+    ]
+  },
+  {
+    "id": "de-somoza-y-torres-1759-relacion-de-meritos-y-servicios-impresa-y-manuscrita-con",
+    "name": "de Somoza y Torres, J. M. (1759). Relación de méritos y servicios, impresa y manuscrita, con certificaciones [Archival record]. Archivo General de Indias, Indiferente, 158, N.19.",
+    "tags": [
+      "archival-record",
+      "pares",
+      "archivo-general-de-indias",
+      "merit-report",
+      "primary-source"
+    ],
+    "layer": "Research",
+    "category": "Document",
+    "description": "José María de Somoza y Torres. A dossier in three forms: a printed relación, a manuscript one, and supporting certifications. AGI, Indiferente 158, N.19. Digitised and catalogued in PARES (metadata rendered client-side; date, persona, and signatura as transcribed from the source table).",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1759,
+          "event": "Published by Archivo General de Indias, Indiferente, 158, N.19",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "archival-record",
+      "creators": [
+        "José María de Somoza y Torres"
+      ],
+      "year": 1759,
+      "venue": "Archivo General de Indias, Indiferente, 158, N.19",
+      "identifier": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/1931324",
+      "language": "Spanish"
+    },
+    "metadata": {
+      "source": "agi-indiferente-import",
+      "imported": "2026-10-05",
+      "sourceReference": "PARES description 1931324",
+      "titleKey": "relacion de meritos y servicios impresa y manuscrita con certificaciones",
+      "topics": [
+        "archival-records",
+        "personnel-records",
+        "colonial-administration"
+      ]
+    },
+    "references": [
+      {
+        "title": "de Somoza y Torres, J. M. (1759). Relación de méritos y servicios, impresa y manuscrita, con certificaciones [Archival record]. Archivo General de Indias, Indiferente, 158, N.19.",
+        "link": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/1931324",
+        "description": "Canonical record."
+      }
+    ]
   }
 ]

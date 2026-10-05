@@ -46,6 +46,7 @@ TYPE_MAP = {
     "chapter": ("Article", "book-chapter"),
     "book": ("Book", "monograph"),
     "report": ("Report", "tech-report"),
+    "archival-record": ("Document", "archival-record"),
 }
 DEFAULT_TYPES = ("article", "chapter", "book")
 
@@ -96,11 +97,20 @@ def normalize(value):
     return re.sub(r"\W+", " ", s.lower()).strip()
 
 
+# Lowercase nobiliary particles that stay un-abbreviated in APA initials.
+PARTICLES = frozenset("de del la le les los las y van von der den da dos du di "
+                      "af av ter ten del".split())
+
+
 def initials(given):
     out = []
     for part in re.split(r"[\s.\-]+", given):
         part = part.strip()
-        if part:
+        if not part:
+            continue
+        if part.lower() in PARTICLES:
+            out.append(part.lower())
+        else:
             out.append(part[0].upper() + ".")
     return " ".join(out)
 
@@ -254,6 +264,17 @@ def build_name(kind, rec, title, no_author=False):
             tail += ". %s" % publisher
         return "%s %s." % (head, tail)
 
+    if kind == "archival-record":
+        bits = []
+        for field in ("repository", "series", "callnumber"):
+            v = latex_unescape(rec.get(field))
+            if v:
+                bits.append(v if field == "callnumber" else venue_case(v))
+        out = "%s (%s). %s [Archival record]." % (authors, year, title)
+        if bits:
+            out += " %s." % ", ".join(bits)
+        return out
+
     if kind == "tech-report":
         issuer = publisher or container
         return "%s %s." % (head, issuer) if issuer else head
@@ -339,7 +360,7 @@ def convert(rec, taken_ids, taken_titles, seen_keys, scope, source, allow_no_aut
     node = {
         "id": nid,
         "name": name,
-        "tags": [kind],
+        "tags": [t for t in ([kind] + list(rec.get("tags") or [])) if t],
         "layer": "Research",
         "category": category,
         "description": latex_unescape(rec.get("note") or ""),
@@ -359,13 +380,14 @@ def convert(rec, taken_ids, taken_titles, seen_keys, scope, source, allow_no_aut
             "year": int(year) if str(year).isdigit() else year,
             "venue": venue,
             "identifier": ident,
+            "language": latex_unescape(rec.get("language") or ""),
         },
         "metadata": {
             "source": source,
             "imported": date.today().isoformat(),
             "sourceReference": rec.get("source_file") or "",
             "titleKey": normalize(title),
-            "topics": classify(title, venue),
+            "topics": list(rec.get("topics") or []) or classify(title, venue),
         },
         "references": (
             [{"title": name, "link": ident, "description": "Canonical record."}]

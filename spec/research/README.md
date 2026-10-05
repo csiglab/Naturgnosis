@@ -19,7 +19,7 @@ CouchDB (`research:<id>` docs); the space formulation below is settled for the a
 | -------- | ----------- | -------- |
 | **Book** | Extended monographic synthesis of a field or theory. | *The Structure of Scientific Revolutions* |
 | **Article** | Periodical paper announcing a result or analysis. | Shannon, *A Mathematical Theory of Communication* |
-| **Document** | Foundational or institutional record that shapes practice. | *Philosophical Transactions* (founding number) |
+| **Document** | Foundational, institutional, or archival record that shapes practice. | *Philosophical Transactions* (founding number); AGI *Relación de méritos y servicios* |
 | **Dataset** | Curated, addressable body of research data. | GenBank |
 | **Report** | Institutional assessment or programme output. | IPCC AR6 |
 
@@ -27,7 +27,7 @@ CouchDB (`research:<id>` docs); the space formulation below is settled for the a
 
 | Field | Description |
 | ----- | ----------- |
-| `kind` | Finer-grained type within the category (e.g. `monograph`, `journal-article`, `reference-dataset`, `repository`, `assessment`, `reference-work`). |
+| `kind` | Finer-grained type within the category (e.g. `monograph`, `journal-article`, `reference-dataset`, `repository`, `assessment`, `reference-work`, `archival-record`). |
 | `creators` | List of creators (authors/issuing bodies). |
 | `year` | Primary publication year. |
 | `venue` | Journal, publisher, or hosting institution. |
@@ -54,6 +54,13 @@ structured fields (never copied verbatim from hand-written headings). Templates:
 | `book-chapter` | Author, A. A. (Year). Sentence case title. In Book Title (pp. pp–pp). Publisher. | — |
 | `tech-report` / `thesis` / `manual` / `misc` | Author, A. A. (Year). Sentence case title. Issuing institution. | — |
 | `reference-work` (no single author) | Title in sentence case (edition, volume span). (Year span). Publisher. | Great Soviet encyclopedia (3rd ed., Vols. 1–31). (1973–1983). Macmillan. |
+| `archival-record` | Author, A. A. (Year). Title [Archival record]. Repository, Series, Call number. | Benavides, D. de (1653). Relación de méritos y servicios [Archival record]. Archivo General de Indias, Indiferente, 117, N.21. |
+
+Archival records (category `Document`) follow APA's archival form: the bracketed
+`[Archival record]` follows the title, then the holding repository, its series, and the
+call number/signatura. Language is recorded in `specific.language` (e.g. `Spanish`). Note
+that Spanish and French nobiliary particles stay un-abbreviated in the author initials
+(`Benavides, D. de`, not `Benavides, D. D.`).
 
 Rules (applied by `bin/import_research.py`):
 
@@ -86,14 +93,16 @@ and no prior from multidisciplinary venues (`Nature`, `Science`, `PNAS`, arXiv) 
 general publishers. Empty means unclassified — never force-tagged; the review report
 lists topic-less nodes.
 
-Level-1 taxonomy (15):
+Level-1 taxonomy (16):
 
-`artificial-intelligence`, `biology`, `cognitive-science`, `computer-science`, `economics`,
-`engineering`, `history`, `management`, `mathematics`, `philosophy`, `physics`,
-`political-science`, `psychology`, `sociology`, `statistics`.
+`archival-records`, `artificial-intelligence`, `biology`, `cognitive-science`,
+`computer-science`, `economics`, `engineering`, `history`, `management`, `mathematics`,
+`philosophy`, `physics`, `political-science`, `psychology`, `sociology`, `statistics`.
 
 Level-2 subfields:
 
+- `archival-records`: `colonial-administration`, `personnel-records`,
+  `manuscripts-and-petitions`, `printed-and-published-materials`.
 - `artificial-intelligence`: `machine-learning`, `deep-learning`, `natural-language`,
   `vision`, `robotics`, `reasoning-planning`, `multi-agent`.
 - `biology`: `genetics-genomics`, `neuroscience`, `ecology-evolution`, `cell-molecular`,
