@@ -74435,7 +74435,7 @@
       ],
       "year": 1856,
       "venue": "JB Lippincott & Co",
-      "identifier": ""
+      "identifier": "https://archive.org/details/nationalsystemof00list"
     },
     "metadata": {
       "source": "epistecnica-document-import",
@@ -74445,10 +74445,17 @@
         "economics"
       ],
       "auditTrail": [
-        "manual curation 2026-10-06: creator F List -> Friedrich List"
+        "manual curation 2026-10-06: creator F List -> Friedrich List",
+        "manual curation 2026-10-06: added Internet Archive scan reference + identifier"
       ]
     },
-    "references": []
+    "references": [
+      {
+        "title": "List, F. (1856). National system of political economy (G. A. Matile, Trans.). J.B. Lippincott & Co. — full scan.",
+        "link": "https://archive.org/download/nationalsystemof00list/nationalsystemof00list.pdf",
+        "description": "Library of Congress scan of the 1856 Lippincott edition (Matile translation), via the Internet Archive."
+      }
+    ]
   },
   {
     "id": "liu-2011-china-s-innovation-policies-evolution-institutional-structure-and-traje",
