@@ -184743,5 +184743,81 @@
         "description": "Persona note in the Note Space."
       }
     ]
+  },
+  {
+    "id": "zhao-shukai",
+    "name": "Zhao Shukai",
+    "tags": [
+      "actor",
+      "person",
+      "official",
+      "rural-policy"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990). A veteran drafter of rural policy documents; chronicler of the hired-labour debate and of official document writing.",
+    "longDescription": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990), holding posts including Director General of the Rural Department Organisation Research Office and of the Information Centre. Visiting positions at ANU, CUHK, Duke, Harvard and Tübingen; main presenter at a 2006 Politburo group study session. His writings document how rural experiments, divided leaders and policy drafters accommodated private employment (the hired-labour debate) and reflect on the craft of official document writing.",
+    "chronology": {
+      "summary": "Curated biography (manual curation 2026-10-06)",
+      "events": [
+        {
+          "year": 1959,
+          "event": "Born in China",
+          "context": ""
+        },
+        {
+          "year": 1982,
+          "event": "Joined the Rural Policy Research Office, CPC Central Committee Secretariat",
+          "context": ""
+        },
+        {
+          "year": 1990,
+          "event": "Moved to the State Council Development Research Centre",
+          "context": ""
+        },
+        {
+          "year": 2006,
+          "event": "Main presenter, 16th Politburo group study session",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation, from East Is Read translations)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Zhao Shukai",
+        "link": "/note/note.html?n=social/actor/persona/zhao-shukai.md",
+        "description": "Persona note in the Note Space."
+      },
+      {
+        "title": "Zhao Shukai: How China Allowed Private Employment",
+        "link": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
+        "description": "East Is Read translation/analysis, Jul 2026."
+      },
+      {
+        "title": "Zhao Shukai: Ghostwriters of Reform",
+        "link": "https://www.eastisread.com/p/zhao-shukai-ghostwriters-of-reform",
+        "description": "East Is Read translation/analysis, Dec 2025."
+      },
+      {
+        "title": "Zhao Shukai: where Ezra Vogel got it wrong",
+        "link": "https://www.eastisread.com/p/zhao-shukai-where-ezra-vogel-got",
+        "description": "East Is Read translation/analysis."
+      }
+    ]
   }
 ]
