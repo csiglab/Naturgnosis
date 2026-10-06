@@ -25,10 +25,12 @@ def load_json(path):
 def count_graph(mod):
     data = load_json(os.path.join(ROOT, "app", mod, "data", "data.json"))
     if not isinstance(data, list):
-        return {"nodes": None, "edges": None}
+        return {"nodes": None, "edges": None, "facets": None}
     edges = sum(len(n.get("relationships", []) or []) for n in data
                 if isinstance(n, dict))
-    return {"nodes": len(data), "edges": edges}
+    facets = len({str(n.get("category")) for n in data
+                  if isinstance(n, dict) and n.get("category")})
+    return {"nodes": len(data), "edges": edges, "facets": facets}
 
 
 def main():
@@ -37,12 +39,16 @@ def main():
     view = load_json(os.path.join(ROOT, "app", "production", "data", "view.json"))
     if isinstance(view, dict):
         view = view.get("nodes", view)
-    modules["production"] = {
-        "nodes": len(view) if isinstance(view, list) else None,
-        "edges": (sum(len(n.get("relationships", []) or []) for n in view
-                       if isinstance(n, dict))
-                  if isinstance(view, list) else None),
-    }
+    if isinstance(view, list):
+        modules["production"] = {
+            "nodes": len(view),
+            "edges": sum(len(n.get("relationships", []) or []) for n in view
+                         if isinstance(n, dict)),
+            "facets": len({str(n.get("category")) for n in view
+                           if isinstance(n, dict) and n.get("category")}),
+        }
+    else:
+        modules["production"] = {"nodes": None, "edges": None, "facets": None}
 
     notes = load_json(os.path.join(ROOT, "app", "note", "data", "index.json"))
     modules["note"] = {

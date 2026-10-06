@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naturgnosis · Index of Technique &amp; Episteme</title>
+    <meta name="description" content="Naturgnosis is the main index of the world's technique and episteme — the elements an agent needs to navigate reality, especially social reality, in understanding and action.">
     <link rel="icon" href="/shared/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,12 +21,23 @@
             overflow-x: hidden;
         }
 
-        #ambient {
+        #ambientCanvas {
             position: fixed;
-            inset: 0;
+            top: 0;
+            left: 0;
             z-index: 0;
             opacity: 0.5;
             pointer-events: none;
+        }
+
+        .page {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 32px 56px;
         }
 
         /* ---------------- Navbar ---------------- */
@@ -35,16 +47,18 @@
             z-index: 10;
             background: rgba(11, 14, 20, 0.85);
             backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border-medium);
         }
 
         .nav-inner {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 0 32px;
+            padding: 15px 32px;
             display: flex;
             align-items: center;
-            min-height: 52px;
+            justify-content: space-between;
+            gap: 16px;
         }
 
         .nav .brand {
@@ -54,6 +68,7 @@
             font-size: 1.05rem;
             color: var(--text-primary);
             text-decoration: none;
+            white-space: nowrap;
         }
 
         .nav .brand:hover {
@@ -61,12 +76,17 @@
             color: var(--accent-copper-light);
         }
 
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
         /* ---------------- Universal search ---------------- */
         .usearch-wrap {
             position: relative;
             width: min(22rem, 38vw);
             flex: none;
-            margin-left: auto;
         }
 
         #usearch {
@@ -77,7 +97,7 @@
             background: var(--bg-surface);
             border: 1px solid var(--border-subtle);
             border-radius: var(--radius-sm);
-            padding: 0.55rem 0.8rem 0.55rem 2.2rem;
+            padding: 0.55rem 2.4rem 0.55rem 2.2rem;
             outline: none;
             transition: border-color 0.3s ease, box-shadow 0.3s ease;
         }
@@ -97,6 +117,27 @@
             color: var(--text-muted);
             pointer-events: none;
         }
+
+        #usurprise {
+            position: absolute;
+            right: 0.35rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.95rem;
+            line-height: 1;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            padding: 0.25rem 0.35rem;
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        #usurprise:hover:not(:disabled) { color: var(--accent-cyan); transform: translateY(-50%) rotate(-18deg); }
+
+        #usurprise:disabled { opacity: 0.35; cursor: default; }
+
+        #usurprise:focus-visible { outline: 1px solid var(--accent-cyan); outline-offset: 2px; }
 
         .usearch-drop {
             position: absolute;
@@ -157,84 +198,76 @@
             color: var(--text-muted);
         }
 
-        /* ---------------- Viewport-fit intro ---------------- */
-        .page {
-            position: relative;
-            z-index: 1;
-            flex: 1;
-            width: 100%;
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 20px 32px 12px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 0;
+        /* ---------------- Header ---------------- */
+        header {
+            padding: 44px 0 40px;
         }
 
-        .masthead {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 8px 32px;
-            align-items: end;
-            padding-bottom: 14px;
-        }
-
-        .masthead .kicker .ng-eyebrow {
-            display: block;
-            margin-bottom: 6px;
-        }
-
-        .masthead h1 {
+        header h1 {
             font-family: var(--font-display);
             font-style: italic;
             font-weight: 300;
-            font-size: clamp(2.2rem, 4.5vw, 3.1rem);
-            color: var(--text-primary);
+            font-size: clamp(2.8rem, 6vw, 4.6rem);
             line-height: 1.05;
-            white-space: nowrap;
+            letter-spacing: 0.01em;
+            color: var(--text-primary);
         }
 
-        .masthead .lede {
-            margin: 0;
-            max-width: 52em;
-            font-size: 0.86rem;
+        header h1 em {
+            font-style: italic;
+            color: var(--accent-copper);
+        }
+
+        .lede {
+            margin-top: 28px;
+            max-width: 46rem;
+            font-size: 1.05rem;
             font-weight: 300;
-            line-height: 1.55;
+            line-height: 1.7;
             color: var(--text-secondary);
             border-left: 1px solid var(--accent-copper);
-            padding-left: 1.1rem;
-            align-self: center;
+            padding-left: 20px;
         }
 
-        .masthead .lede em {
+        .lede em {
             font-family: var(--font-display);
             color: var(--parchment);
         }
 
-        /* ---------------- Registry: hairline metric grid ---------------- */
-        .registry-head {
+        .lede strong { font-weight: 500; color: var(--text-primary); }
+
+        .lede + .lede {
+            margin-top: 19px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        /* ---------------- Sections ---------------- */
+        section { padding: 40px 0 0; }
+
+        .section-head {
             display: flex;
             align-items: baseline;
             gap: 1.25rem;
-            margin: 2px 0 8px;
+            margin-bottom: 1.8rem;
         }
 
-        .registry-head h2 {
+        .section-head h2 {
             font-family: var(--font-display);
+            font-style: italic;
             font-weight: 400;
-            font-size: 1.05rem;
+            font-size: 1.7rem;
             color: var(--text-primary);
             white-space: nowrap;
         }
 
-        .registry-head .rule {
+        .section-head .rule {
             flex: 1;
             height: 1px;
             background: var(--border-subtle);
         }
 
-        .registry-head .count {
+        .section-head .count {
             font-family: var(--font-mono);
             font-size: 0.58rem;
             letter-spacing: 0.2em;
@@ -243,288 +276,383 @@
             white-space: nowrap;
         }
 
-        .registry {
+        /* ---------------- Dataset cards ---------------- */
+        .datasets {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr 1fr;
             gap: 1px;
             background: var(--border-subtle);
             border: 1px solid var(--border-subtle);
             border-radius: var(--radius-md);
             overflow: hidden;
-            flex: 1 1 auto;
-            max-height: 640px;
-            min-height: 0;
         }
 
-        .module {
+        .dataset {
+            background: var(--bg-void);
+            padding: 1.1rem 1.25rem 1rem;
             display: flex;
             flex-direction: column;
-            gap: 4px;
-            padding: 12px 16px 10px;
-            color: inherit;
-            text-decoration: none;
-            background: var(--bg-void);
-            border-left: 2px solid transparent;
-            min-width: 0;
-            transition: background 0.3s ease, border-left-color 0.3s ease;
+            gap: 0.55rem;
+            transition: background 0.3s ease;
         }
 
-        .module:hover {
-            text-decoration: none;
-            background: var(--bg-surface);
-            border-left-color: var(--accent-copper);
-        }
+        .dataset:hover { background: var(--bg-surface); }
 
-        .module .ng-eyebrow {
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-            font-family: var(--font-mono);
-            font-style: normal;
-            font-size: 0.55rem;
-            color: var(--text-muted);
-        }
-
-        .module h3 {
+        .dataset h3 {
             font-family: var(--font-display);
             font-style: italic;
             font-weight: 400;
-            font-size: 1.12rem;
+            font-size: 1.25rem;
             line-height: 1.2;
             color: var(--text-primary);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
 
-        .module .tag {
-            font-size: 0.7rem;
-            font-weight: 300;
-            color: var(--text-secondary);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+        .dataset h3 a {
+            color: inherit;
+            text-decoration: none;
         }
 
-        .module .metrics {
-            margin-top: auto;
-            padding-top: 6px;
-            display: flex;
-            align-items: baseline;
-            gap: 14px;
-        }
-
-        .metric .value {
-            font-family: var(--font-mono);
-            font-size: 1.05rem;
+        .dataset h3 a:hover {
             color: var(--accent-cyan);
+            text-decoration: none;
         }
 
-        .metric .label {
-            margin-left: 0.35rem;
+        .dataset .desc {
+            margin: 0;
+            font-size: 0.8rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: var(--text-secondary);
+            flex: 1;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .links a {
             font-family: var(--font-mono);
-            font-size: 0.55rem;
-            letter-spacing: 0.2em;
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 0.4rem 0.7rem;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .links a:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .links a.primary {
+            color: var(--text-primary);
+            border-color: var(--accent-copper);
+        }
+
+        .links a.primary:hover { color: var(--accent-copper-light); }
+
+        /* ---------------- Entry guidance ---------------- */
+        .routes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+        }
+
+        .route {
+            background: var(--bg-void);
+            padding: 1.4rem 1.4rem 1.5rem;
+            transition: background 0.3s ease;
+        }
+
+        .route:hover { background: var(--bg-surface); }
+
+        .route .intent {
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent-copper);
+            margin-bottom: 0.7rem;
+        }
+
+        .route .go {
+            font-size: 0.85rem;
+            font-weight: 300;
+            line-height: 1.55;
+            color: var(--text-secondary);
+        }
+
+        .route .go a {
+            color: var(--text-primary);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .route .go a:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        /* ---------------- Footer ---------------- */
+        footer {
+            position: relative;
+            z-index: 1;
+            border-top: 1px solid var(--border-subtle);
+            background: rgba(11, 14, 20, 0.7);
+        }
+
+        .foot-inner {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.18em;
             text-transform: uppercase;
             color: var(--text-muted);
         }
 
-        .module .links {
-            display: flex;
-            gap: 12px;
-        }
-
-        .module .links span {
-            font-family: var(--font-mono);
-            font-size: 0.58rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--accent-cyan);
-        }
-
-        /* ---------------- Intent router ---------------- */
-        .router {
-            display: flex;
-            align-items: center;
-            gap: 1.4rem;
-            margin-top: 10px;
-            padding: 8px 2px 0;
-            overflow-x: auto;
-        }
-
-        .router .intent {
-            font-family: var(--font-mono);
-            font-size: 0.58rem;
-            letter-spacing: 0.22em;
-            text-transform: uppercase;
-            color: var(--accent-copper);
-            white-space: nowrap;
-        }
-
-        .router a {
-            font-size: 0.78rem;
-            font-weight: 300;
+        .foot-brand {
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: 1.05rem;
+            letter-spacing: 0.03em;
+            text-transform: none;
             color: var(--text-secondary);
-            text-decoration: none;
-            white-space: nowrap;
         }
 
-        .router a:hover {
-            color: var(--accent-cyan);
-            text-decoration: none;
+        .foot-brand em { font-style: italic; color: var(--accent-copper); }
+
+        .foot-brand-wrap { display: flex; flex-direction: column; gap: 0.35rem; }
+
+        .foot-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+
+        footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        footer a:hover { color: var(--accent-cyan); }
+
+        .foot-colophon {
+            font-family: var(--font-mono);
+            font-size: 0.42rem;
+            letter-spacing: 0.32em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            opacity: 0.75;
         }
 
-        footer {
-            position: relative;
-            z-index: 1;
-            padding: 8px 32px 10px;
-            border-top: 1px solid var(--border-subtle);
-            max-width: 1280px;
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        @media (max-width: 900px) {
-            .page { display: block; padding: 20px 20px 24px; }
-            .masthead { grid-template-columns: 1fr; }
-            .masthead h1 { white-space: normal; }
-            .registry { grid-template-columns: 1fr; flex: none; max-height: none; overflow: visible; }
-            .router { flex-wrap: wrap; row-gap: 8px; }
+        @media (max-width: 860px) {
+            .datasets, .routes { grid-template-columns: 1fr; }
+            header { padding-top: 36px; }
+            .foot-inner { flex-direction: column; align-items: flex-start; }
+            .nav-inner { flex-wrap: wrap; row-gap: 0.6rem; }
+            .nav-right { flex: 1 1 100%; }
+            .usearch-wrap { flex: 1; width: auto; }
         }
     </style>
 </head>
 
 <body>
-    <canvas id="ambient" aria-hidden="true"></canvas>
+    <canvas id="ambientCanvas" aria-hidden="true"></canvas>
     <nav class="nav" aria-label="Naturgnosis">
         <div class="nav-inner">
             <a class="brand" href="/">Naturgnosis</a>
-            <div class="usearch-wrap">
-                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="search" id="usearch" placeholder="search everything…  ( / )" aria-label="Universal search" autocomplete="off">
-                <div class="usearch-drop" id="usearch-drop" hidden></div>
+            <div class="nav-right">
+                <div class="usearch-wrap">
+                    <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" autocomplete="off">
+                    <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled>⚄</button>
+                    <div class="usearch-drop" id="usearch-drop" hidden></div>
+                </div>
             </div>
         </div>
     </nav>
 
-    <main class="page">
-        <header class="masthead">
-            <div class="kicker">
-                <span class="ng-eyebrow">Laboratorium · Research</span>
-                <h1>Naturgnosis</h1>
-            </div>
+    <div class="page">
+        <header>
+            <h1>Natur<em>gnosis</em></h1>
             <p class="lede">
                 The main index of the world's <em>technique</em> and <em>episteme</em> — the elements
                 an agent needs to navigate reality, especially social reality, in
                 <em>understanding and action</em>.
             </p>
+            <p class="lede">
+                <strong>Spaces</strong> hold the structured graphs; <strong>catalogs</strong> hold the
+                entries, notes, and interrogations behind them — one index, one deployment,
+                and one set of conventions, without collapsing their distinctions.
+            </p>
         </header>
 
-        <div class="registry-head" aria-hidden="true">
-            <h2>Spaces</h2>
-            <span class="rule"></span>
-            <span class="count" id="registry-count"></span>
-        </div>
+        <section aria-label="Spaces">
+            <div class="section-head">
+                <h2>Spaces</h2>
+                <div class="rule"></div>
+                <span class="count" id="spaces-count"></span>
+            </div>
 
-        <section class="registry" aria-label="Module registry">
-            <a class="module" href="/nature/">
-                <span class="ng-eyebrow">Module 01</span>
-                <h3>Nature Space</h3>
-                <p class="tag">Observer-independent reality, as a graph.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="nature">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
+            <div class="datasets">
+                <article class="dataset">
+                    <h3><a href="/nature/">Nature Space</a></h3>
+                    <p class="desc">Observer-independent reality, as a graph.</p>
+                    <div class="links">
+                        <a class="primary" href="/nature/">Explorer &rarr;</a>
+                        <a href="/nature/edit.html">Editor</a>
+                    </div>
+                </article>
 
-            <a class="module" href="/social/">
-                <span class="ng-eyebrow">Module 02 · Main</span>
-                <h3>Social Space</h3>
-                <p class="tag">Actors, institutions, norms, relations.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="social">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
+                <article class="dataset">
+                    <h3><a href="/social/">Social Space</a></h3>
+                    <p class="desc">Actors, institutions, norms, relations.</p>
+                    <div class="links">
+                        <a class="primary" href="/social/">Explorer &rarr;</a>
+                        <a href="/social/edit.html">Editor</a>
+                    </div>
+                </article>
 
-            <a class="module" href="/nation/">
-                <span class="ng-eyebrow">Module 03</span>
-                <h3>Nation Space</h3>
-                <p class="tag">Illustrated index of nations.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="nation">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Index</span><span>Editor</span></div>
-            </a>
+                <article class="dataset">
+                    <h3><a href="/production/">Production Space</a></h3>
+                    <p class="desc">Computed view over Social Space. Read-only.</p>
+                    <div class="links">
+                        <a class="primary" href="/production/">Explorer &rarr;</a>
+                    </div>
+                </article>
 
-            <a class="module" href="/production/">
-                <span class="ng-eyebrow">Module 04 · View</span>
-                <h3>Production Space</h3>
-                <p class="tag">Computed view over Social Space.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="production">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span></div>
-            </a>
+                <article class="dataset">
+                    <h3><a href="/epistemica/">Epistemic Space</a></h3>
+                    <p class="desc">What renders reality intelligible.</p>
+                    <div class="links">
+                        <a class="primary" href="/epistemica/">Explorer &rarr;</a>
+                        <a href="/epistemica/edit.html">Editor</a>
+                    </div>
+                </article>
 
-            <a class="module" href="/epistemica/">
-                <span class="ng-eyebrow">Module 05</span>
-                <h3>Epistemic Space</h3>
-                <p class="tag">What renders reality intelligible.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="epistemica">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
+                <article class="dataset">
+                    <h3><a href="/technique/">Technique Space</a></h3>
+                    <p class="desc">Artifacts, principles, methods.</p>
+                    <div class="links">
+                        <a class="primary" href="/technique/">Explorer &rarr;</a>
+                        <a href="/technique/edit.html">Editor</a>
+                    </div>
+                </article>
 
-            <a class="module" href="/technique/">
-                <span class="ng-eyebrow">Module 06</span>
-                <h3>Technique Space</h3>
-                <p class="tag">Artifacts, principles, methods.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="technique">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
-
-            <a class="module" href="/research/">
-                <span class="ng-eyebrow">Module 07</span>
-                <h3>Research Space</h3>
-                <p class="tag">The world's research apparatus.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="research">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Explorer</span><span>Editor</span></div>
-            </a>
-
-            <a class="module" href="/note/">
-                <span class="ng-eyebrow">Module 08</span>
-                <h3>Note Space</h3>
-                <p class="tag">Long-form notes, plain markdown.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="note">—</span><span class="label">notes</span></span></div>
-                <div class="links"><span>Index</span><span>Search</span></div>
-            </a>
-
-            <a class="module" href="/qa/">
-                <span class="ng-eyebrow">Module 09</span>
-                <h3>Q/A Log</h3>
-                <p class="tag">Agent interrogations, browsable.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="qa">—</span><span class="label">questions</span></span></div>
-                <div class="links"><span>Index</span><span>Search</span></div>
-            </a>
-
-            <a class="module" href="/graph/">
-                <span class="ng-eyebrow">Hub · Read-only</span>
-                <h3>Universal Index</h3>
-                <p class="tag">Every space on one canvas.</p>
-                <div class="metrics"><span class="metric"><span class="value" data-metric="total">—</span><span class="label">nodes</span></span></div>
-                <div class="links"><span>Graph</span></div>
-            </a>
+                <article class="dataset">
+                    <h3><a href="/research/">Research Space</a></h3>
+                    <p class="desc">The world's research apparatus.</p>
+                    <div class="links">
+                        <a class="primary" href="/research/">Explorer &rarr;</a>
+                        <a href="/research/edit.html">Editor</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <nav class="router" aria-label="I want to">
-            <span class="intent">I want to…</span>
-            <a href="/social/">navigate social reality</a>
-            <a href="/nation/">compare nations</a>
-            <a href="/note/">read the notes</a>
-            <a href="/graph/">see everything</a>
-            <a href="/social/edit.html">add knowledge</a>
-        </nav>
-    </main>
+        <section aria-label="Catalogs">
+            <div class="section-head">
+                <h2>Catalogs</h2>
+                <div class="rule"></div>
+            </div>
+
+            <div class="datasets">
+                <article class="dataset">
+                    <h3><a href="/nation/">Nation Space</a></h3>
+                    <p class="desc">Illustrated index of nations.</p>
+                    <div class="links">
+                        <a class="primary" href="/nation/">Index &rarr;</a>
+                        <a href="/nation/edit.html">Editor</a>
+                    </div>
+                </article>
+
+                <article class="dataset">
+                    <h3><a href="/note/">Note Space</a></h3>
+                    <p class="desc">Long-form notes, plain markdown.</p>
+                    <div class="links">
+                        <a class="primary" href="/note/">Index &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="dataset">
+                    <h3><a href="/qa/">Q/A Log</a></h3>
+                    <p class="desc">Agent interrogations, browsable.</p>
+                    <div class="links">
+                        <a class="primary" href="/qa/">Index &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="dataset">
+                    <h3><a href="/graph/">Universal Index</a></h3>
+                    <p class="desc">Every space on one canvas.</p>
+                    <div class="links">
+                        <a class="primary" href="/graph/">Graph &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-label="Entry guidance">
+            <div class="section-head">
+                <h2>Entry Guidance</h2>
+                <div class="rule"></div>
+            </div>
+
+            <div class="routes">
+                <div class="route">
+                    <div class="intent">I want to navigate social reality</div>
+                    <div class="go"><a href="/social/">Social explorer</a> or the <a href="/production/">production view</a> &mdash; the main graph and its computed derivation.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to compare nations</div>
+                    <div class="go">the <a href="/nation/">nation index</a> &mdash; illustrated entries with an editor for new ones.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to read the notes</div>
+                    <div class="go">the <a href="/note/">notes catalog</a> &mdash; search and read the markdown behind the ontologies.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to see everything</div>
+                    <div class="go">the <a href="/graph/">universal index</a> &mdash; every space on one canvas, read-only.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to add knowledge</div>
+                    <div class="go">the <a href="/social/edit.html">graph editors</a> &mdash; authoring with saves through the sync server.</div>
+                </div>
+                <div class="route">
+                    <div class="intent">I want to interrogate the log</div>
+                    <div class="go">the <a href="/qa/">Q/A log</a> &mdash; browsable agent interrogations over the index.</div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <footer>
-        <span class="ng-caption">Naturgnosis · csiglab</span>
-        <span class="ng-caption"><a href="https://github.com/csiglab/Naturgnosis">source</a> ·
-            <a href="/docs.html">docs</a> · <a href="/api/health">status</a></span>
+        <div class="foot-inner">
+            <div class="foot-brand-wrap">
+                <div class="foot-brand">Natur<em>gnosis</em></div>
+                <div class="foot-colophon">TECHNIQUE &middot; EPISTEME &middot; ONE INDEX</div>
+            </div>
+            <div class="foot-links">
+                <a href="/nature/">NATURE</a>
+                <a href="/social/">SOCIAL</a>
+                <a href="/nation/">NATION</a>
+                <a href="/production/">PRODUCTION</a>
+                <a href="/epistemica/">EPISTEMICA</a>
+                <a href="/technique/">TECHNIQUE</a>
+                <a href="/research/">RESEARCH</a>
+                <a href="/note/">NOTES</a>
+                <a href="/qa/">Q/A</a>
+                <a href="/graph/">GRAPH</a>
+                <a href="https://github.com/csiglab/Naturgnosis">SOURCE</a>
+                <a href="/docs.html">DOCS</a>
+                <a href="/api/health">STATUS</a>
+            </div>
+        </div>
     </footer>
 
     <script>
@@ -535,11 +663,11 @@
            Decorative only; disabled under prefers-reduced-motion. */
         try {
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                var cv = document.getElementById('ambient');
+                var cv = document.getElementById('ambientCanvas');
                 var ctx = cv.getContext('2d');
                 var pts = [];
                 var W = 0, H = 0;
-                var COUNT_DIV = 42000, LINK_DIST = 130;
+                var COUNT_DIV = 34000, LINK_DIST = 130;
 
                 var cs = getComputedStyle(document.documentElement);
                 var copper = cs.getPropertyValue('--accent-copper').trim() || '#c9956c';
@@ -548,7 +676,7 @@
                 function resize() {
                     W = cv.width = window.innerWidth;
                     H = cv.height = window.innerHeight;
-                    var n = Math.max(24, Math.min(110, Math.floor(W * H / COUNT_DIV)));
+                    var n = Math.max(24, Math.min(160, Math.floor(W * H / COUNT_DIV)));
                     pts = [];
                     for (var i = 0; i < n; i++) {
                         pts.push({
@@ -630,16 +758,17 @@
                         haveTotal = true;
                     }
                 });
-                document.querySelectorAll('[data-metric]').forEach(function (el) {
-                    var k = el.getAttribute('data-metric');
+                document.querySelectorAll('[data-m]').forEach(function (el) {
+                    var k = el.getAttribute('data-m');
+                    var f = el.getAttribute('data-f') || 'nodes';
                     if (k === 'total') {
                         el.textContent = haveTotal ? fmt(total) : '—';
                         return;
                     }
                     var m = mods[k] || {};
-                    el.textContent = fmt(m.nodes);
+                    el.textContent = fmt(m[f]);
                 });
-                var rc = document.getElementById('registry-count');
+                var rc = document.getElementById('spaces-count');
                 if (rc) rc.textContent = haveTotal ? fmt(total) + ' elements indexed' : '';
             })
             .catch(function () { /* em-dashes stay */ });
@@ -656,6 +785,7 @@
         var UENTRIES = [];
         var uinput = document.getElementById('usearch');
         var udrop = document.getElementById('usearch-drop');
+        var usurprise = document.getElementById('usurprise');
         var uflat = [];
         var ukb = -1;
         var utimer = null;
@@ -797,6 +927,23 @@
             if (el) { el.classList.add('kb-focus'); el.scrollIntoView({ block: 'nearest' }); }
         }
 
+        function upick() {
+            if (!UENTRIES.length) return null;
+            if (window.crypto && window.crypto.getRandomValues) {
+                var buf = new Uint32Array(1);
+                window.crypto.getRandomValues(buf);
+                return UENTRIES[buf[0] % UENTRIES.length];
+            }
+            return UENTRIES[Math.floor(Math.random() * UENTRIES.length)];
+        }
+
+        function ugoRandom() {
+            var e = upick();
+            if (e) window.location.href = uurl(e);
+        }
+
+        usurprise.addEventListener('click', ugoRandom);
+
         uinput.addEventListener('input', function () {
             clearTimeout(utimer);
             utimer = setTimeout(urender, 120);
@@ -821,7 +968,8 @@
         document.addEventListener('keydown', function (e) {
             var el = document.activeElement;
             var typing = !!el && (el === uinput || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
-            if (e.key === '/' && !typing) { e.preventDefault(); uinput.focus(); }
+            if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); uinput.focus(); return; }
+            if ((e.key === 'r' || e.key === 'R') && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); ugoRandom(); }
         });
 
         fetch('data/search-index.json', { headers: { 'Accept': 'application/json' } })
@@ -831,9 +979,11 @@
             })
             .then(function (idx) {
                 UENTRIES = idx.entries || [];
+                usurprise.disabled = !UENTRIES.length;
             })
             .catch(function () {
                 UENTRIES = [];
+                usurprise.disabled = true;
                 uinput.placeholder = 'universal index unavailable — run: make search-index';
             });
     })();

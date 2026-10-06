@@ -1,33 +1,40 @@
 {
- "generated": "2026-10-06T13:35:35Z",
+ "generated": "2026-10-06T13:49:27Z",
  "modules": {
   "social": {
    "nodes": 7514,
-   "edges": 251
+   "edges": 251,
+   "facets": 44
   },
   "research": {
    "nodes": 2921,
-   "edges": 14
+   "edges": 14,
+   "facets": 5
   },
   "nation": {
    "nodes": 37,
-   "edges": 0
+   "edges": 0,
+   "facets": 1
   },
   "technique": {
    "nodes": 1700,
-   "edges": 1731
+   "edges": 1731,
+   "facets": 37
   },
   "epistemica": {
    "nodes": 308,
-   "edges": 154
+   "edges": 154,
+   "facets": 15
   },
   "nature": {
    "nodes": 3338,
-   "edges": 263
+   "edges": 263,
+   "facets": 1
   },
   "production": {
    "nodes": 98,
-   "edges": 51
+   "edges": 51,
+   "facets": 17
   },
   "note": {
    "nodes": 3379,
