@@ -185267,5 +185267,100 @@
         "description": "Overview, history, investments."
       }
     ]
+  },
+  {
+    "id": "antonio-sanchez-valverde",
+    "name": "Antonio Sánchez Valverde",
+    "tags": [
+      "actor",
+      "person",
+      "dominicano"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Presbítero, racionero e intelectual criollo de la Isla de Santo Domingo (1729-1790); primer escritor nacido en la isla; autor de Idea del Valor de la Isla Española (1785).",
+    "longDescription": "Antonio Sánchez de Valverde y Díaz de Ocaña (Bayaguana, Santo Domingo, 1729 – Guadalajara, Nueva España, 1790). Presbítero católico, racionero e intelectual criollo; primer escritor nacido en la Isla de Santo Domingo. Licenciado en Teología (Universidad de Santiago de Gorjón, 1755) y bachiller en Derecho Civil (Universidad de Santo Tomás, 1758). En 1782 viajó a Madrid para defender su canonjía ante el Consejo de Indias. En 1785 publicó en España Idea del Valor de la Isla Española y La América vindicada de la calumnia de haber sido la madre del mal venéreo, además de sermones y tratados.",
+    "chronology": {
+      "summary": "Criollo ilustrado de Santo Domingo; Teología 1755, Derecho Civil 1758, Madrid 1782, obras 1785, muerte 1790.",
+      "events": [
+        {
+          "year": 1729,
+          "event": "Nace en Bayaguana, Santo Domingo",
+          "context": "Familia criolla de clase alta."
+        },
+        {
+          "year": 1755,
+          "event": "Licenciado en Teología, Universidad de Santiago de Gorjón",
+          "context": "Santo Domingo."
+        },
+        {
+          "year": 1758,
+          "event": "Bachiller en Derecho Civil, Universidad de Santo Tomás",
+          "context": "Santo Domingo."
+        },
+        {
+          "year": 1782,
+          "event": "Viaja a Madrid; defiende su canonjía ante el Consejo de Indias",
+          "context": "Tribunal del Consejo de Indias."
+        },
+        {
+          "year": 1785,
+          "event": "Publica Idea del Valor de la Isla Española",
+          "context": "España; obra maestra."
+        },
+        {
+          "year": 1785,
+          "event": "Publica La América vindicada de la calumnia de haber sido la madre del mal venéreo",
+          "context": "España."
+        },
+        {
+          "year": 1790,
+          "event": "Muere en Guadalajara, Nueva España (9 de abril)",
+          "context": "Algunas fuentes dan 1791."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.75,
+      "sourceReference": "es.wikipedia.org/wiki/Antonio_Sánchez_Valverde + archive.org (ideadelvalordela00snguat, laamericavindic00valvgoog)",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "manual addition per user request 2026-10-06"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Antonio Sánchez Valverde",
+        "link": "https://es.wikipedia.org/wiki/Antonio_S%C3%A1nchez_Valverde",
+        "description": "Biografía y publicaciones."
+      },
+      {
+        "title": "Disertación",
+        "link": "https://es.wikipedia.org/wiki/Disertaci%C3%B3n",
+        "description": "Contexto de género para sus obras."
+      },
+      {
+        "title": "Idea del valor de la Isla Española",
+        "link": "https://archive.org/details/ideadelvalordela00snguat/mode/2up",
+        "description": "Obra (1785), escaneo."
+      },
+      {
+        "title": "La América vindicada",
+        "link": "https://archive.org/details/laamericavindic00valvgoog/mode/2up",
+        "description": "Obra (1785), escaneo."
+      },
+      {
+        "title": "Antonio Sánchez Valverde",
+        "link": "/note/note.html?n=social/actor/persona/antonio-sanchez-valverde.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
   }
 ]
