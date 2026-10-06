@@ -184819,5 +184819,76 @@
         "description": "East Is Read translation/analysis."
       }
     ]
+  },
+  {
+    "id": "wan-li",
+    "name": "Wan Li",
+    "tags": [
+      "actor",
+      "person",
+      "politician",
+      "rural-policy"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician: First Vice Premier of the PRC (1983–1988) and 5th Chairman of the NPC Standing Committee (1988–1993). An architect of 1980s rural reform, he defended household contracting and, in the hired-labour debate, argued for study over suppression.",
+    "longDescription": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician. As Party Secretary of Anhui he promoted the household responsibility system, and as Vice Premier (1980; First Vice Premier 1983–1988) helped drive the rural reforms that dissolved the people’s communes. In the 1983 debate over private hiring of labour he resisted Hu Qiaomu’s call to suppress it, urging investigation and warning against forcing farmers’ initiatives into old and rigid frameworks. He served as Chairman of the NPC Standing Committee from 1988 to 1993.",
+    "chronology": {
+      "summary": "Curated biography (manual curation 2026-10-06)",
+      "events": [
+        {
+          "year": 1916,
+          "event": "Born in Dongping County, Shandong",
+          "context": ""
+        },
+        {
+          "year": 1977,
+          "event": "Party Secretary of Anhui; promoted the household responsibility system",
+          "context": ""
+        },
+        {
+          "year": 1980,
+          "event": "Vice Premier of the State Council",
+          "context": ""
+        },
+        {
+          "year": 1983,
+          "event": "First Vice Premier; defended hired labour in the No. 1 document debate",
+          "context": ""
+        },
+        {
+          "year": 1988,
+          "event": "Chairman of the NPC Standing Committee (to 1993)",
+          "context": ""
+        },
+        {
+          "year": 2015,
+          "event": "Died in Beijing",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Wan Li — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Wan_Li",
+        "description": "Wikipedia entry."
+      }
+    ]
   }
 ]
