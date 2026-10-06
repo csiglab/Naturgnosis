@@ -62,3 +62,6 @@
 - https://www.cambridge.org/core/journals/china-quarterly/article/resilience-of-selfreliance-in-china-autonomy-interdependence-and-ordershaping/E040AB2E4F29FEEC3664669F0569CFFB
 - https://www.tandfonline.com/doi/full/10.1080/14682745.2024.2355191
 - https://www.cambridge.org/core/journals/bjhs-themes/article/planning-for-science-and-technology-in-china-and-india/ADEE4E1AE59568A0B053E9E39AD7F6E2
+- https://en.wikipedia.org/wiki/Zhang_Aiping
+- https://en.wikipedia.org/wiki/Nie_Rongzhen
+- https://en.wikipedia.org/wiki/Socialism_with_Chinese_characteristics
