@@ -2496,7 +2496,7 @@
     "layer": "Ontic",
     "category": "Organization",
     "description": "GIC Private Limited is a Singaporean sovereign wealth fund that manages the country's foreign reserves.",
-    "longDescription": "GIC Private Limited (commonly known as GIC) is a Singaporean sovereign wealth fund established in 1981 by Dr. Goh Keng Swee. It was formed to manage Singapore's foreign reserves with a mandate to preserve and enhance the international purchasing power of the reserves. As one of the world's largest sovereign wealth funds, GIC manages assets estimated at over $700 billion (as of 2024). It invests globally across a diversified portfolio of assets including equities, fixed income, real estate, private equity, and infrastructure. The fund operates from its headquarters in Singapore and maintains offices in major financial centers worldwide.",
+    "longDescription": "GIC Private Limited (commonly known as GIC) is the Singaporean sovereign wealth fund managing the country's foreign reserves. Established on 22 May 1981 as the Government of Singapore Investment Corporation (by then Deputy Prime Minister Goh Keng Swee, advised by N M Rothschild & Sons), its mandate is to preserve and enhance the international purchasing power of the reserves over a 20-year horizon. With AUM around US$936 billion (May 2026), it invests globally across equities, fixed income, real estate, private equity, and infrastructure. It is a Fifth Schedule entity under the Singapore Constitution and a board member of the International Forum of Sovereign Wealth Funds.",
     "chronology": {
       "summary": "GIC was founded in 1981 to manage Singapore’s foreign reserves. It has since grown into one of the largest sovereign wealth funds globally.",
       "events": [
@@ -2504,17 +2504,53 @@
           "year": 1981,
           "event": "GIC is established by the Government of Singapore to manage the nation’s foreign reserves.",
           "context": "Singapore’s rapid economic growth generated substantial foreign exchange reserves, prompting the need for professional long-term investment management."
+        },
+        {
+          "year": 2008,
+          "event": "GIC publishes its first public report with long-term returns.",
+          "context": ""
+        },
+        {
+          "year": 2013,
+          "event": "New investment framework adopted (reference, policy, and active portfolios).",
+          "context": ""
         }
       ]
     },
-    "relationships": [],
-    "specific": {},
+    "relationships": [
+      {
+        "targetNodeId": "node.8e142348cdac42e399fe5ef87d9eaeab",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned fund belonging to the Singapore element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "GIC is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "GIC is a sovereign wealth fund."
+      }
+    ],
+    "specific": {
+      "headquarters": "Singapore",
+      "founded": "1981-05-22",
+      "owner": "Government of Singapore",
+      "aum": "US$936 billion (May 2026)"
+    },
     "metadata": {
       "inheritanceLevel": 0,
       "confidenceScore": 0.95,
       "sourceReference": "GIC Official Website (gic.com.sg), Wikipedia",
       "createdAt": "2023-10-27T00:00:00Z",
-      "auditTrail": []
+      "auditTrail": [
+        "enriched 2026-10-06 (manual curation)"
+      ]
     },
     "references": [
       {
@@ -2526,6 +2562,11 @@
         "title": "GIC Official Website",
         "link": "https://www.gic.com.sg",
         "description": "Official source for GIC’s mandate, governance, and investment principles."
+      },
+      {
+        "title": "GIC (sovereign wealth fund) — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/GIC_(sovereign_wealth_fund)",
+        "description": "Founding, investments, performance, governance."
       }
     ]
   },
@@ -24581,7 +24622,7 @@
   },
   {
     "id": "aus-a11",
-    "name": "Future Fund",
+    "name": "(Australia) Future Fund",
     "tags": [
       "actor",
       "Australia",
@@ -168265,33 +168306,64 @@
   },
   {
     "id": "sgp-a7",
-    "name": "Temasek",
+    "name": "Temasek Holdings",
     "tags": [
       "actor",
       "Singapore",
       "hybrid",
-      "Sovereign investor"
+      "Sovereign investor",
+      "sovereign wealth fund",
+      "state-owned"
     ],
-    "layer": "Agentic",
+    "layer": "Ontic",
     "category": "Organization",
-    "description": "State-company holder turned global portfolio owner.",
-    "longDescription": "State-company holder turned global portfolio owner.",
+    "description": "Temasek Holdings is Singapore's state-owned multinational investment firm, incorporated in 1974 to hold government assets on a commercial basis.",
+    "longDescription": "Temasek Holdings (Private) Limited is a Singaporean state-owned multinational investment firm, incorporated on 25 June 1974 to hold and manage assets previously held directly by the Singapore government. Wholly owned by the Minister for Finance as single shareholder, it operates as an independent commercial investment holding company with a net portfolio of S$518 billion (31 March 2026). Key holdings include Singtel, DBS Bank (30%), CapitaLand, Singapore Airlines (60%), PSA, and SMRT. It is often counted as a sovereign wealth fund, though it invests mostly in equities, owns assets outright, and pays taxes like a commercial firm.",
     "chronology": {
-      "summary": "Nation actor (Singapore)",
+      "summary": "State holding company turned global portfolio investor (manual enrichment 2026-10-06).",
       "events": [
         {
-          "date": "1974-06-25",
-          "category": "birth",
-          "description": "Temasek incorporated under the companies act"
+          "year": 1974,
+          "event": "Temasek incorporated under the Singapore Companies Act (25 June).",
+          "context": ""
         },
         {
-          "date": "2002-01-01",
-          "category": "transformation",
-          "description": "Professional board; charter published 2009"
+          "year": 2002,
+          "event": "Professional board; charter published in 2009.",
+          "context": ""
+        },
+        {
+          "year": 2021,
+          "event": "Dilhan Pillay Sandrasegara succeeds Ho Ching as CEO.",
+          "context": ""
+        },
+        {
+          "year": 2025,
+          "event": "Teo Chee Hean succeeds Lim Boon Heng as chairman.",
+          "context": ""
         }
       ]
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "targetNodeId": "node.8e142348cdac42e399fe5ef87d9eaeab",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned firm belonging to the Singapore element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "Temasek is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "Temasek is treated as a sovereign wealth fund, though it differs (equities-focused, outright ownership, tax-paying)."
+      }
+    ],
     "specific": {
       "nationActor": {
         "country": "Singapore",
@@ -168300,18 +168372,29 @@
         "type": "hybrid",
         "role": "Sovereign investor",
         "regionOfActivity": "Singapore"
-      }
+      },
+      "headquarters": "Orchard Road, Singapore",
+      "founded": "1974-06-25",
+      "owner": "Government of Singapore",
+      "aum": "S$518 billion net portfolio (31 March 2026)"
     },
     "metadata": {
-      "confidenceScore": 0.6,
-      "sourceReference": "nation actors sgp.json:a7",
+      "confidenceScore": 0.85,
+      "sourceReference": "nation actors sgp.json:a7; Wikipedia: Temasek Holdings",
       "createdAt": "2026-09-24",
       "auditTrail": [
-        "imported by bin/import_social_actors.py"
+        "imported by bin/import_social_actors.py",
+        "enriched 2026-10-06 (manual curation)"
       ],
       "inheritanceLevel": 0
     },
-    "references": []
+    "references": [
+      {
+        "title": "Temasek Holdings — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Temasek_Holdings",
+        "description": "Status, history, investments."
+      }
+    ]
   },
   {
     "id": "sgp-a8",
@@ -169984,33 +170067,6 @@
       "createdAt": "2026-09-28T00:00:00Z",
       "auditTrail": [
         "arbitriologia-import 2026-09-28 table row (entity-table, section: What fiscal, regulatory, and institutional mechanisms has Australia used to ensu)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": []
-  },
-  {
-    "id": "sovereign-wealth-strategic-funds",
-    "name": "Sovereign Wealth / Strategic Funds",
-    "tags": [
-      "arbitriologia-import"
-    ],
-    "category": "Organization",
-    "layer": "Ontic",
-    "description": "Ensures control, promotes scale, stabilizes national champions",
-    "longDescription": "Ensures control, promotes scale, stabilizes national champions",
-    "chronology": {
-      "summary": "Instrument Space",
-      "events": []
-    },
-    "relationships": [],
-    "specific": {},
-    "metadata": {
-      "confidenceScore": 0.55,
-      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Meliorandis/Dimension/Finance/README.md",
-      "createdAt": "2026-09-28T00:00:00Z",
-      "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Instrument Space)"
       ],
       "inheritanceLevel": 0
     },
@@ -184888,6 +184944,327 @@
         "title": "Wan Li — Wikipedia",
         "link": "https://en.wikipedia.org/wiki/Wan_Li",
         "description": "Wikipedia entry."
+      }
+    ]
+  },
+  {
+    "id": "investment-fund",
+    "name": "Investment Fund",
+    "tags": [
+      "type",
+      "institution",
+      "finance",
+      "investment",
+      "fund",
+      "pooled-vehicle"
+    ],
+    "layer": "Ontic",
+    "category": "Institution",
+    "description": "A pooled-investment vehicle that raises capital from multiple investors and deploys it into a portfolio of assets under a defined mandate, governance, and fee structure.",
+    "longDescription": "An Investment Fund is an institution that aggregates capital from many investors and invests it collectively in financial or real assets according to a stated mandate. Contribution, redemption, distribution rules, and a fee structure separate investors from the fund manager/fiduciary who runs the portfolio. Common forms include mutual funds, hedge funds, pension funds, sovereign wealth funds, private-equity and venture funds, real-estate investment trusts, and endowments.",
+    "chronology": {
+      "summary": "Emerged with joint-stock and trust pooling; formalized through company/fund law and securities regulation.",
+      "events": [
+        {
+          "year": 1774,
+          "event": "Abraham van Ketwich launches Eendragt Maakt Magt, a mutual-fund precursor, in Amsterdam.",
+          "context": ""
+        },
+        {
+          "year": 1924,
+          "event": "Massachusetts Investors Trust, the first US open-end mutual fund, is established.",
+          "context": ""
+        },
+        {
+          "year": 1940,
+          "event": "US Investment Company Act codifies fund governance and disclosure.",
+          "context": ""
+        },
+        {
+          "year": 1949,
+          "event": "Alfred Winslow Jones founds the first hedge fund.",
+          "context": ""
+        },
+        {
+          "year": 1974,
+          "event": "ERISA reshapes US pension-fund governance and fiduciary duties.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "9",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "Investment funds are financial institutions: collective vehicles channelling capital into assets."
+      },
+      {
+        "targetNodeId": "mutual-funds",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Mutual funds are the open-end pooled-fund subtype."
+      },
+      {
+        "targetNodeId": "24",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Hedge funds are the aggressive pooled-partnership subtype."
+      },
+      {
+        "targetNodeId": "104",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Pension funds are the retirement-mandate pooled subtype."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Sovereign wealth funds are the state-owned pooled subtype."
+      },
+      {
+        "targetNodeId": "52",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Venture capital vehicles are the startup-financing subtype."
+      },
+      {
+        "targetNodeId": "node.1782619140733",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "REITs are the real-estate pooled subtype."
+      },
+      {
+        "targetNodeId": "218",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "University endowments are the perpetual institutional-mandate subtype."
+      },
+      {
+        "targetNodeId": "330",
+        "relationshipFamily": "dependency",
+        "relationshipType": "managed_by",
+        "description": "Asset management firms run fund portfolios under mandate."
+      },
+      {
+        "targetNodeId": "financial-market",
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "description": "Funds allocate capital through financial markets."
+      },
+      {
+        "targetNodeId": "node.1781481305477",
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "description": "Funds trade securities on stock markets."
+      },
+      {
+        "targetNodeId": "264",
+        "relationshipFamily": "normative",
+        "relationshipType": "regulated_by",
+        "description": "Securities commissions authorize and supervise fund offerings."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Investment fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Investment_fund",
+        "description": "Overview of pooled investment vehicles."
+      },
+      {
+        "title": "Mutual fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Mutual_fund",
+        "description": "History and structure of mutual funds."
+      }
+    ]
+  },
+  {
+    "id": "turkey-wealth-fund",
+    "name": "Turkey Wealth Fund",
+    "tags": [
+      "actor",
+      "sovereign wealth fund",
+      "financial institution",
+      "Turkey",
+      "Türkiye",
+      "investment",
+      "state-owned"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is Türkiye's state-owned sovereign wealth fund, established in 2016 to finance strategic investments, large-scale infrastructure, and capital-market development.",
+    "longDescription": "The Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is the sovereign wealth fund of Türkiye, established on 26 August 2016 under Law No. 6741. Unlike resource-backed peers, it is capitalized mainly by transfers of state-owned enterprises — including Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, and TPAO — plus financing operations such as Eurobonds and sukuk. Its AUM was estimated at more than US$443 billion in 2025, placing it among the world's ten largest sovereign wealth funds. The fund is organized as a joint-stock company under private law and chaired by the President of Türkiye; it states alignment with the Santiago Principles.",
+    "chronology": {
+      "summary": "State fund built by SOE transfers and capital-market financing.",
+      "events": [
+        {
+          "year": 2016,
+          "event": "Established under Law No. 6741 (26 August).",
+          "context": ""
+        },
+        {
+          "year": 2017,
+          "event": "Major state-owned enterprises transferred to the fund (Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, TPAO).",
+          "context": ""
+        },
+        {
+          "year": 2018,
+          "event": "President Erdoğan becomes chairman after the constitutional referendum.",
+          "context": ""
+        },
+        {
+          "year": 2020,
+          "event": "Stakes in Borsa Istanbul and Turkcell acquired; insurance arms consolidated into Türkiye Sigorta.",
+          "context": ""
+        },
+        {
+          "year": 2022,
+          "event": "Türk Telekom control taken; Türkiye Technology Fund launched with ADQ.",
+          "context": ""
+        },
+        {
+          "year": 2024,
+          "event": "First international Eurobond and sukuk issuances; syndicated borrowing expands.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "node.cf2cbf1d01cf4a258d9c9e55b961a6d5",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned fund belonging to the Turkey element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "TVF is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "TVF is a sovereign wealth fund."
+      }
+    ],
+    "specific": {
+      "nativeName": "Türkiye Varlık Fonu",
+      "headquarters": "Istanbul, Turkey",
+      "founded": "2016-08-26",
+      "owner": "Republic of Türkiye",
+      "aum": "US$443 billion (2025)"
+    },
+    "metadata": {
+      "confidenceScore": 0.9,
+      "sourceReference": "Wikipedia: Turkey Wealth Fund",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Turkey Wealth Fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Turkey_Wealth_Fund",
+        "description": "Overview, history, holdings."
+      }
+    ]
+  },
+  {
+    "id": "indonesia-investment-authority",
+    "name": "Indonesia Investment Authority",
+    "tags": [
+      "actor",
+      "sovereign wealth fund",
+      "financial institution",
+      "Indonesia",
+      "investment",
+      "state-owned"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Indonesia Investment Authority (INA; Lembaga Pengelola Investasi) is Indonesia's sovereign wealth fund, launched in 2021 to attract foreign co-investment into national infrastructure and growth sectors.",
+    "longDescription": "The Indonesia Investment Authority (INA; Lembaga Pengelola Investasi, LPI) is one of Indonesia's two sovereign wealth funds, launched in February 2021 under the Job Creation Law. Unlike funds managing resource surpluses, INA seeks foreign co-investors to finance domestic development, with a target of US$24.5 billion in assets under management. It reports directly to the President of Indonesia, with a supervisory board headed by the Finance Minister, and became a Full Member of the International Forum of Sovereign Wealth Funds in 2022.",
+    "chronology": {
+      "summary": "Co-investment fund launched to pull foreign capital into Indonesian development.",
+      "events": [
+        {
+          "year": 2021,
+          "event": "Launched in February under the Job Creation Law.",
+          "context": "Mandate to attract investments, create jobs, and diversify into new asset classes."
+        },
+        {
+          "year": 2022,
+          "event": "Became a Full Member of the International Forum of Sovereign Wealth Funds; subsidiaries incorporated.",
+          "context": ""
+        },
+        {
+          "year": 2023,
+          "event": "Invested over US$3 billion; partnered on Trans-Sumatra toll roads and logistics parks.",
+          "context": ""
+        },
+        {
+          "year": 2024,
+          "event": "Committed 20% of investments to renewable energy; expanded toll-road assets.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "node.c75bf05a10524c56ab9f8a3fb25d8036",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned fund belonging to the Indonesia element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "INA is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "INA is a sovereign wealth fund."
+      }
+    ],
+    "specific": {
+      "nativeName": "Lembaga Pengelola Investasi",
+      "headquarters": "Jakarta, Indonesia",
+      "founded": "2021-02",
+      "owner": "Government of Indonesia",
+      "aum": "US$24.5 billion target"
+    },
+    "metadata": {
+      "confidenceScore": 0.9,
+      "sourceReference": "Wikipedia: Indonesia Investment Authority",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Indonesia Investment Authority — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Indonesia_Investment_Authority",
+        "description": "Overview, history, investments."
       }
     ]
   }
