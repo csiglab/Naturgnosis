@@ -24,7 +24,7 @@ empty dataset. The space formulation below is the working agenda.
 
 ### Candidate categories
 
-Nation-State, Nation (people), Territory, Border, Constitution, Government, Administrative
+Polity, Nation (people), Territory, Border, Constitution, Government, Administrative
 Division, Language, Currency, Treaty, Alliance, Disputed Territory.
 
 ## Sources
@@ -35,7 +35,7 @@ Division, Language, Currency, Treaty, Alliance, Disputed Territory.
 
 ## Data provenance
 
-Bootstrapped from **Index Gentium (research-CountryIndex)** and extended in-repo with hand-authored entries. Raw exports are archival in `app/nation/import/`; regenerate `data/data.json` with `bin/import_nation.py` (reads only from `import/`). After edits in the app, the sync server owns `data.json` — do not re-run the import over editor work.
+Bootstrapped from **Index Gentium (research-CountryIndex)** and extended in-repo with hand-authored entries. Raw exports are archival in `app/nation/import/` (provenance only). `data/data.json` is server-owned — there is no regeneration script.
 
 ## UI
 
@@ -58,7 +58,7 @@ notes and its CDN dependency).
   representation yet; honors `?back=` for the return link.
 - **Editor** `/nation/edit.html` — graph node editor; syncs to CouchDB `dataset=nation`.
 - The graph explorer was removed: the catalog + editor cover the module's needs.
-- Works `link` values are rewritten on import (`bin/import_nation.py`) to target the ported
+- Works `link` values target the ported
   pages (`rep/actor.html?code=…`, `pending.html?back=…`).
 
 Entries render from `data/data.json` alone (web + json only in the deployed image).

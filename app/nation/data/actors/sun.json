@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "source": "Wikipedia and public historical records",
+    "lastUpdated": "2026-10-06",
+    "description": "Actor dataset of core Soviet institutions (party, state, security, military, planning, youth) from 1917 to 1991.",
+    "country": "Soviet Union",
+    "region": "Eurasia",
+    "introduction": "A temporal registry of the governing institutions of the Soviet Union: the Communist Party and its leading organs, the supreme state bodies, the security and armed forces, the planning and banking system, and the youth league."
+  },
+  "actors": [
+    {
+      "id": "cpsu",
+      "name": "Communist Party of the Soviet Union (CPSU)",
+      "type": "public",
+      "role": "Ruling Party",
+      "regionOfActivity": "National",
+      "description": "The founding and ruling political party of the Soviet Union, the institutional core of the one-party state; the only legal party and the source of policy for all state organs.",
+      "events": [
+        {
+          "date": "1898-03-13",
+          "category": "birth",
+          "description": "Founded as the Russian Social Democratic Labour Party at Minsk."
+        },
+        {
+          "date": "1917-11-07",
+          "category": "milestone",
+          "description": "Bolsheviks seize power in the October Revolution."
+        },
+        {
+          "date": "1918-03-08",
+          "category": "transformation",
+          "description": "Renamed the Russian Communist Party (Bolsheviks) at the 7th congress."
+        },
+        {
+          "date": "1952-10-14",
+          "category": "transformation",
+          "description": "Renamed the Communist Party of the Soviet Union at the 19th congress."
+        },
+        {
+          "date": "1991-08-29",
+          "category": "dissolution",
+          "description": "Activities suspended by presidential decree; dissolved in the RSFSR."
+        }
+      ]
+    },
+    {
+      "id": "politburo",
+      "name": "Politburo of the CPSU",
+      "type": "public",
+      "role": "Top Policy Body",
+      "regionOfActivity": "National",
+      "description": "The highest policy-making authority of the Communist Party, directing the party, government, military and economy between congresses and plenums.",
+      "events": [
+        {
+          "date": "1917-10-10",
+          "category": "birth",
+          "description": "First Political Bureau elected by the Central Committee."
+        },
+        {
+          "date": "1952-10-16",
+          "category": "transformation",
+          "description": "Reorganized into the Presidium at the 19th congress."
+        },
+        {
+          "date": "1966-04-08",
+          "category": "transformation",
+          "description": "Restored as the Politburo at the 23rd congress."
+        },
+        {
+          "date": "1991-08-24",
+          "category": "dissolution",
+          "description": "Ceases to function as the party is suspended and Gorbachev resigns as General Secretary."
+        }
+      ]
+    },
+    {
+      "id": "central_committee",
+      "name": "Central Committee of the CPSU",
+      "type": "public",
+      "role": "Party Administration",
+      "regionOfActivity": "National",
+      "description": "The party's leading collective between congresses, electing the Politburo, the Secretariat and the General Secretary and administering the party apparatus.",
+      "events": [
+        {
+          "date": "1898-03-13",
+          "category": "birth",
+          "description": "Elected at the RSDLP founding congress."
+        },
+        {
+          "date": "1919-03-25",
+          "category": "transformation",
+          "description": "Creates the standing Politburo, Orgburo and Secretariat at the 8th congress."
+        },
+        {
+          "date": "1964-10-14",
+          "category": "milestone",
+          "description": "Removes Nikita Khrushchev at a Central Committee plenum."
+        },
+        {
+          "date": "1991-08-29",
+          "category": "dissolution",
+          "description": "Dissolved with the suspension of the party."
+        }
+      ]
+    },
+    {
+      "id": "supreme_soviet",
+      "name": "Supreme Soviet of the Soviet Union",
+      "type": "public",
+      "role": "Legislature",
+      "regionOfActivity": "National",
+      "description": "The highest legislative body of the Soviet state, sitting between sessions of the earlier congresses of soviets and electing the Presidium and the Council of Ministers.",
+      "events": [
+        {
+          "date": "1936-12-05",
+          "category": "birth",
+          "description": "Established by the 1936 (Stalin) Constitution."
+        },
+        {
+          "date": "1938-01-12",
+          "category": "milestone",
+          "description": "First session of the first convocation convenes."
+        },
+        {
+          "date": "1989-05-25",
+          "category": "transformation",
+          "description": "A reformed Supreme Soviet is elected by the new Congress of People's Deputies."
+        },
+        {
+          "date": "1991-12-26",
+          "category": "dissolution",
+          "description": "Dissolves itself, formalizing the end of the Soviet Union."
+        }
+      ]
+    },
+    {
+      "id": "council_ministers",
+      "name": "Council of Ministers of the Soviet Union",
+      "type": "public",
+      "role": "Executive Government",
+      "regionOfActivity": "National",
+      "description": "The highest executive and administrative body of the Soviet government, directing ministries, state committees and the economy under party control.",
+      "events": [
+        {
+          "date": "1923-07-06",
+          "category": "birth",
+          "description": "Formed as the Council of People's Commissars (Sovnarkom) of the USSR."
+        },
+        {
+          "date": "1946-03-15",
+          "category": "transformation",
+          "description": "Reorganized as the Council of Ministers."
+        },
+        {
+          "date": "1991-11-14",
+          "category": "dissolution",
+          "description": "Abolished; replaced by the Interstate Economic Committee ahead of dissolution."
+        }
+      ]
+    },
+    {
+      "id": "kgb",
+      "name": "KGB (Committee for State Security)",
+      "type": "public",
+      "role": "State Security",
+      "regionOfActivity": "National",
+      "description": "The main security agency of the Soviet Union from 1954 to 1991, responsible for internal security, foreign intelligence, counter-intelligence and border troops; heir to the Cheka–NKVD lineage.",
+      "events": [
+        {
+          "date": "1917-12-20",
+          "category": "birth",
+          "description": "Founded as the Cheka under Felix Dzerzhinsky."
+        },
+        {
+          "date": "1934-07-10",
+          "category": "transformation",
+          "description": "Becomes the NKVD, the Stalin-era security apparatus."
+        },
+        {
+          "date": "1954-03-13",
+          "category": "transformation",
+          "description": "Established as the KGB, separated from the Interior Ministry."
+        },
+        {
+          "date": "1991-12-03",
+          "category": "dissolution",
+          "description": "Abolished and split into separate services by the State Council."
+        }
+      ]
+    },
+    {
+      "id": "armed_forces",
+      "name": "Soviet Armed Forces (Red Army)",
+      "type": "public",
+      "role": "Military",
+      "regionOfActivity": "National",
+      "description": "The unified armed forces of the Soviet Union — army, navy, air force, air defence and strategic rocket forces — built from the Workers' and Peasants' Red Army of 1918.",
+      "events": [
+        {
+          "date": "1918-02-23",
+          "category": "birth",
+          "description": "Workers' and Peasants' Red Army founded during the Civil War."
+        },
+        {
+          "date": "1946-02-25",
+          "category": "transformation",
+          "description": "Renamed the Soviet Army in the post-war reorganization."
+        },
+        {
+          "date": "1955-05-14",
+          "category": "milestone",
+          "description": "Warsaw Pact signed, anchoring the Soviet-led alliance."
+        },
+        {
+          "date": "1991-12-25",
+          "category": "dissolution",
+          "description": "Dissolved; forces divided among the successor states."
+        }
+      ]
+    },
+    {
+      "id": "gosplan",
+      "name": "Gosplan (State Planning Committee)",
+      "type": "public",
+      "role": "Economic Planning",
+      "regionOfActivity": "National",
+      "description": "The central agency drafting the five-year plans and annual targets of the command economy, allocating resources across ministries and republics.",
+      "events": [
+        {
+          "date": "1921-02-22",
+          "category": "birth",
+          "description": "Founded as the State General Planning Commission."
+        },
+        {
+          "date": "1928-10-01",
+          "category": "milestone",
+          "description": "First five-year plan begins, launching forced industrialization."
+        },
+        {
+          "date": "1957-05-10",
+          "category": "policy",
+          "description": "Sovnarkhoz reform devolves planning to regional economic councils under Khrushchev."
+        },
+        {
+          "date": "1991-04-01",
+          "category": "dissolution",
+          "description": "Abolished and replaced by the Ministry of Economics and Forecasting."
+        }
+      ]
+    },
+    {
+      "id": "gosbank",
+      "name": "Gosbank (State Bank)",
+      "type": "public",
+      "role": "Central Banking",
+      "regionOfActivity": "National",
+      "description": "The central bank and sole issuing bank of the Soviet Union, financing the plan through state credit and supervising the monobank system.",
+      "events": [
+        {
+          "date": "1921-10-12",
+          "category": "birth",
+          "description": "Founded as the State Bank of the RSFSR under NEP."
+        },
+        {
+          "date": "1923-01-01",
+          "category": "transformation",
+          "description": "Becomes the State Bank of the USSR."
+        },
+        {
+          "date": "1987-01-01",
+          "category": "transformation",
+          "description": "Perestroika banking reform creates specialized state banks under Gosbank."
+        },
+        {
+          "date": "1991-12-20",
+          "category": "dissolution",
+          "description": "Dissolved; functions pass to the Central Bank of Russia."
+        }
+      ]
+    },
+    {
+      "id": "komsomol",
+      "name": "Komsomol (Young Communist League)",
+      "type": "public",
+      "role": "Youth Organization",
+      "regionOfActivity": "National",
+      "description": "The All-Union youth organization and the party's reserve: the mass channel for political socialization of Soviet youth aged 14 to 28.",
+      "events": [
+        {
+          "date": "1918-10-29",
+          "category": "birth",
+          "description": "Founded as the Russian Young Communist League."
+        },
+        {
+          "date": "1926-03-01",
+          "category": "transformation",
+          "description": "Renamed the All-Union Leninist Communist Youth League."
+        },
+        {
+          "date": "1991-09-27",
+          "category": "dissolution",
+          "description": "Dissolves itself at its 22nd congress."
+        }
+      ]
+    }
+  ]
+}

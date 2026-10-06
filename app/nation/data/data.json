@@ -8,7 +8,7 @@
       "South America"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "A federal presidential republic and the second-largest country in South America. Defined by its immigrant heritage, complex federal structure, and oscillation between developmentalist and neoliberal economic models.",
     "longDescription": "",
     "chronology": {},
@@ -108,7 +108,7 @@
       "Indo-Pacific Anchor"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Australia is a federal parliamentary constitutional monarchy and the only country that is also a continent. A resource-exporting powerhouse deeply tied to Indo-Pacific demand, it combines mining and agriculture with advanced services, education exports and a large pension-capital pool. Six states and two territories share power under a stable federal system.",
     "longDescription": "",
     "chronology": {},
@@ -215,7 +215,7 @@
       "Amazon Basin"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Brazil is a federal presidential republic in South America and the largest country in both area and population in the region. It possesses a diversified economy spanning agriculture, mining, manufacturing, and services, and plays a central geopolitical and ecological role due to the Amazon rainforest and its membership in major multilateral groupings.",
     "longDescription": "",
     "chronology": {},
@@ -322,7 +322,7 @@
       "Parliamentary Monarchy"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Canada is a federal parliamentary constitutional monarchy and the world's second-largest country by area. A Commonwealth realm with English-French bilingualism, it combines vast natural-resource endowments with an advanced services economy deeply integrated with the United States. Key sectors include energy, mining, forestry, banking and technology, under a decentralized federal system.",
     "longDescription": "",
     "chronology": {},
@@ -429,7 +429,7 @@
       "Technological Superpower"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "China is Party-State polity in East Asia and the world's most populous major state. Governed by a single-party system under the Chinese Communist Party, it has transformed over the past four decades from a largely agrarian economy into a global industrial and technological power. China plays a central role in global manufacturing, trade, infrastructure development, and emerging technologies.",
     "longDescription": "",
     "chronology": {},
@@ -545,7 +545,7 @@
       "Design and Pharma"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Denmark is a parliamentary constitutional monarchy in Northern Europe and a pioneer of wind energy. Its Nordic welfare model pairs flexible labor markets with broad social protection, while the economy specializes in pharmaceuticals, shipping, food and design. An EU member outside the eurozone, it anchors the Realm community with Greenland and the Faroe Islands.",
     "longDescription": "",
     "chronology": {},
@@ -652,7 +652,7 @@
       "Presidential Republic"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "The Dominican Republic is a sovereign presidential republic on the island of Hispaniola in the Caribbean, sharing its territory with Haiti. Historically shaped by sugarcane, mining, and tourism, it has evolved into a dynamic economy with strong remittance inflows, diversified services and industrial sectors, and growing investments in renewable energy and infrastructure.",
     "longDescription": "",
     "chronology": {},
@@ -759,7 +759,7 @@
       "Financial Center"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "England is a constituent country of the United Kingdom located in Western Europe. It was the core territorial and institutional base of the early modern English state and later the British Empire. England played a central role in the Industrial Revolution, the development of parliamentary governance, common law traditions, and the formation of modern financial and industrial capitalism.",
     "longDescription": "",
     "chronology": {},
@@ -865,7 +865,7 @@
       "Forestry and ICT"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Finland is a unitary parliamentary republic in Northern Europe and a global reference for education. Independent since 1917, it transformed from forestry dependence into an ICT and engineering economy led by Nokia-era successors, while retaining strong welfare institutions. EU and eurozone membership, plus 2023 NATO accession, frame its open, innovation-driven economy.",
     "longDescription": "",
     "chronology": {},
@@ -972,7 +972,7 @@
       "Aerospace and Luxury"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "France is a unitary semi-presidential republic and the European Union's second-largest economy. Combining a strong central state with global cultural influence, it leads in aerospace, luxury goods, nuclear energy and agriculture. EU integration, high public investment and a large welfare state shape its coordinated market economy.",
     "longDescription": "",
     "chronology": {},
@@ -1079,7 +1079,7 @@
       "Innovation and Technology"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Hong Kong is a Special Administrative Region of the People’s Republic of China, located on the southern coast of China. It has a highly developed, service-oriented economy, historically rooted in trade, finance, and logistics. Hong Kong is a major global financial center and port, with strong legal and regulatory institutions inherited from its colonial history under the United Kingdom. In recent years, there has been a push to develop technology and innovation sectors alongside traditional finance and professional services.",
     "longDescription": "",
     "chronology": {},
@@ -1186,7 +1186,7 @@
       "Civilizational State"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "India is a sovereign federal parliamentary republic in South Asia and the world’s most populous country. It combines a long civilizational history with modern constitutional governance established in 1950. India has a structurally diversified economy spanning agriculture, manufacturing, and a globally competitive services and technology sector, and plays an increasingly central role in Indo-Pacific geopolitics and multilateral institutions.",
     "longDescription": "",
     "chronology": {},
@@ -1293,7 +1293,7 @@
       "Resource-Rich"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Indonesia is a sovereign archipelagic republic in Southeast Asia composed of more than 17,000 islands. It is the world’s largest Muslim-majority country and one of the most populous nations globally. Indonesia has a diversified economy based on natural resources, manufacturing, and services, and plays a central geopolitical role within ASEAN and the broader Indo-Pacific region.",
     "longDescription": "",
     "chronology": {},
@@ -1400,7 +1400,7 @@
       "Common Law"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Ireland is a sovereign parliamentary republic in Western Europe occupying most of the island of Ireland. Since the late 20th century, it has transformed into a high-income, small open economy characterized by strong foreign direct investment inflows, a competitive corporate tax regime, and specialization in pharmaceuticals, information technology, and financial services within the European Union framework.",
     "longDescription": "",
     "chronology": {},
@@ -1507,7 +1507,7 @@
       "Disputed Borders"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Israel is a unitary parliamentary republic in the Middle East known for its technology and defense sectors. Founded in 1948, it built a startup-nation economy on R&D intensity, venture capital and military-civilian technology transfer, alongside strengths in water, agriculture and diamonds. Regional conflict and disputed borders remain central to its political economy.",
     "longDescription": "",
     "chronology": {},
@@ -1614,7 +1614,7 @@
       "Cultural Heritage"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Italy is a unitary parliamentary republic and a founding member of the European Communities. Its economy pairs northern industrial districts — machinery, automotive, fashion — with a vast cultural-heritage tourism sector and persistent southern structural challenges. A G7 economy in the eurozone, it balances manufacturing excellence with high public debt and demographic aging.",
     "longDescription": "",
     "chronology": {},
@@ -1721,7 +1721,7 @@
       "Aging Society"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Japan is a parliamentary constitutional monarchy and one of the world's largest economies. Postwar industrial policy produced global leaders in automotive, electronics and robotics, organized around keiretsu networks and coordinated business-government councils. It now navigates rapid demographic aging, high public debt and energy import dependence while leading in automation and materials science.",
     "longDescription": "",
     "chronology": {},
@@ -1828,7 +1828,7 @@
       "Multicultural Federation"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Malaysia is a federal constitutional monarchy in Southeast Asia composed of Peninsular Malaysia and East Malaysian states on the island of Borneo. Since independence, it has transitioned from a commodity-based economy to an export-oriented manufacturing and services hub, with strong specialization in electronics, palm oil, and petroleum, supported by industrial policy and integration into regional and global value chains.",
     "longDescription": "",
     "chronology": {},
@@ -1935,7 +1935,7 @@
       "Spanish-Speaking"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Mexico is a federal presidential republic and Latin America's second-largest economy. Deeply integrated with the United States through USMCA supply chains, it is a manufacturing hub for automotive, electronics and aerospace alongside oil, mining and massive remittance inflows. Thirty-one states plus Mexico City share power in a democratic federal system consolidated since 2000.",
     "longDescription": "",
     "chronology": {},
@@ -2042,7 +2042,7 @@
       "Constitutional Monarchy"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "The Netherlands is a constitutional monarchy in Western Europe known for its advanced, trade-oriented economy and long-standing maritime and commercial tradition. Historically central to early modern global trade and finance, it remains a major logistics and distribution hub within Europe, with strong sectors in agriculture, chemicals, high-tech manufacturing, and financial services.",
     "longDescription": "",
     "chronology": {},
@@ -2149,7 +2149,7 @@
       "Parliamentary Democracy"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "New Zealand is a sovereign island nation in Oceania composed primarily of the North and South Islands. It operates as a parliamentary democracy and constitutional monarchy. Historically shaped by Māori settlement and later British colonization, New Zealand developed a high-income, export-oriented economy centered on agriculture, agri-technology, tourism, and services, with strong institutional quality and regulatory transparency.",
     "longDescription": "",
     "chronology": {},
@@ -2256,7 +2256,7 @@
       "Early Modern Great Power"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "The Ottoman Empire (1299–1922) was a transcontinental Islamic empire centered on Anatolia, the Balkans and the Middle East, ruled by a sultan-caliph from Constantinople. At its early modern peak it commanded major Eurasian trade routes and a tributary provincial order. Military defeat, nationalist secessions and World War I reduced it to Anatolia, ending with the Turkish Republic's proclamation in 1923. Figures below are a c.1914 snapshot.",
     "longDescription": "",
     "chronology": {},
@@ -2356,7 +2356,7 @@
       "Semi-Presidential Republic"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Portugal is a unitary semi-presidential republic on the Iberian Peninsula's Atlantic edge and one of Europe's oldest nation-states. Pioneer of the Age of Discovery with a deep seafaring and mercantile tradition, it moved from dictatorship to democracy with the 1974 Carnation Revolution and joined the European Communities in 1986. Its open economy leans on services, tourism, cork, wine and olive oil, with fast-growing technology and renewable-energy sectors.",
     "longDescription": "",
     "chronology": {},
@@ -2463,7 +2463,7 @@
       "Whisky Exports"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Scotland is a devolved nation within the United Kingdom with its own parliament, legal system and distinct cultural identity. Center of the Enlightenment and nineteenth-century heavy industry, it now blends North Sea energy, whisky and food exports, financial services in Edinburgh, and growing renewables. Devolution since 1999 gives Holyrood powers over health, education and justice.",
     "longDescription": "",
     "chronology": {},
@@ -2570,7 +2570,7 @@
       "Parliamentary Republic"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Singapore is a sovereign city-state at the southern tip of the Malay Peninsula and one of the world's leading trade and financial hubs. Independent since 1965 after separation from Malaysia, it built prosperity on its strategic strait-side port, rule of law, and openness to capital and talent. Its advanced economy centers on shipping and logistics, financial services, electronics and petrochemicals, with a state-guided development model.",
     "longDescription": "",
     "chronology": {},
@@ -2677,7 +2677,7 @@
       "G20"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "South Korea is a sovereign presidential republic in East Asia located on the southern portion of the Korean Peninsula. Following the Korean War, it transitioned from a low-income agrarian economy to a high-income, export-oriented industrial and technological power. Its development model combined state-led industrial policy, chaebol-centered conglomerate growth, human capital accumulation, and deep integration into global value chains.",
     "longDescription": "",
     "chronology": {},
@@ -2784,7 +2784,7 @@
       "Decentralized State"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Spain is a parliamentary constitutional monarchy in Southern Europe and one of the eurozone's largest economies. Restored to democracy after Franco's death in 1975 and an EU member since 1986, it is organized as a highly decentralized state of autonomous communities. Tourism, automotive manufacturing, banking and renewable energy anchor an open, services-led economy.",
     "longDescription": "",
     "chronology": {},
@@ -2891,7 +2891,7 @@
       "Constitutional Monarchy"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Sweden is a constitutional monarchy in Northern Europe characterized by a high-income, export-oriented economy and a comprehensive welfare state. Historically transitioning from agrarian society to industrial power in the late 19th and early 20th centuries, Sweden developed globally competitive firms in engineering, automotive, telecommunications, and life sciences, supported by strong institutions, human capital formation, and social partnership models.",
     "longDescription": "",
     "chronology": {},
@@ -2998,7 +2998,7 @@
       "Pharma Hub"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Switzerland is a neutral federal republic renowned for direct democracy, banking and precision industries. Its consensus-driven cantonal federalism underpins political stability and openness, hosting global finance, pharmaceuticals, watchmaking and commodity trading. Outside the EU but deeply integrated via bilateral accords, it runs persistent surpluses on high-value services and manufacturing.",
     "longDescription": "",
     "chronology": {},
@@ -3105,7 +3105,7 @@
       "Manufacturing Hub"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Thailand is a constitutional monarchy in Southeast Asia with a diversified, export-oriented economy. Historically the Kingdom of Siam, it avoided formal colonization and underwent gradual modernization in the late 19th and early 20th centuries. Since the late 20th century, Thailand has developed strong manufacturing sectors—particularly automotive and electronics—alongside tourism and agro-industrial exports, integrated into regional and global value chains.",
     "longDescription": "",
     "chronology": {},
@@ -3212,7 +3212,7 @@
       "Diversification Drive"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "The United Arab Emirates is a federal monarchy of seven emirates on the Arabian Gulf's southern shore. Since federation in 1971, oil wealth has funded diversification into finance, aviation, logistics and tourism, with Dubai and Abu Dhabi as global hubs. Its open, expatriate-majority economy pairs sovereign-wealth investment with ambitious technology and energy-transition bets.",
     "longDescription": "",
     "chronology": {},
@@ -3319,7 +3319,7 @@
       "Global Reserve Currency"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "The United States is a federal presidential republic and the world's largest economy, spanning North America from the Atlantic to the Pacific. Founded on constitutional federalism with separation of powers, it became the center of twentieth-century industrial, financial and technological power. Its economy leads in technology, capital markets, higher education and defense industries, with the dollar as the global reserve currency.",
     "longDescription": "",
     "chronology": {},
@@ -3426,7 +3426,7 @@
       "Presidential Republic"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Uruguay is a sovereign presidential republic in South America located between Brazil and Argentina along the Atlantic coast. Historically shaped by livestock-based exports and early welfare-state development, it has evolved into a relatively stable democracy with strong institutions, diversified agricultural exports, growing services sectors, and a high share of renewable energy generation in its electricity matrix.",
     "longDescription": "",
     "chronology": {},
@@ -3533,7 +3533,7 @@
       "ASEAN"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Vietnam is a One-Party State polity located in Southeast Asia, bordered by China, Laos, and Cambodia, with an extensive coastline along the South China Sea. It operates under a one-party system led by the Communist Party of Vietnam. Historically shaped by Chinese rule, French colonization, and the Vietnam War, the country has transitioned into a rapidly growing emerging economy with key sectors including agriculture, manufacturing, electronics, and services. Institutional development and regulatory frameworks remain evolving, with strong state involvement in strategic economic sectors.",
     "longDescription": "",
     "chronology": {},
@@ -3640,7 +3640,7 @@
       "Engineering Tradition"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Serbia is a parliamentary republic in Southeastern Europe, successor of the Yugoslav federation, with Belgrade at the confluence of the Danube and Sava. It is an upper-middle-income economy reorienting from state industry toward automotive components, food processing, and ICT services, carried by a deep engineering tradition: the Mihajlo Pupin Institute's automation and computing lineage, the VINCA nuclear institute, and a university system anchored by the University of Belgrade. EU candidacy frames its regulatory convergence; demographic contraction and brain drain are its binding constraints.",
     "longDescription": "",
     "chronology": {},
@@ -3747,7 +3747,7 @@
       "Visegrad Group"
     ],
     "layer": "Ontic",
-    "category": "Nation-State",
+    "category": "Polity",
     "description": "Poland is a parliamentary republic in Central Europe and the largest economy in the Visegrad Group, known for one of the fastest sustained growth records in the European Union. Its post-1989 transition from a centrally planned to a market economy produced a diversified industrial base in automotive, machinery, chemicals and food processing, deep integration into European and German-led value chains, and a growing business-services sector.",
     "longDescription": "",
     "chronology": {},
@@ -3841,5 +3841,112 @@
       "imported": "2026-10-06"
     },
     "references": []
+  },
+  {
+    "id": "sun",
+    "name": "Soviet Union",
+    "tags": [
+      "Historical Superpower",
+      "Defunct State",
+      "Eurasia",
+      "Socialist Federal State",
+      "Cold War",
+      "Command Economy",
+      "One-Party State"
+    ],
+    "layer": "Ontic",
+    "category": "Polity",
+    "description": "The Soviet Union (USSR, 1922–1991) was a federal Marxist–Leninist one-party socialist state spanning Eurasia, built on a command economy and ruled by the Communist Party from Moscow until its dissolution into fifteen sovereign republics.",
+    "longDescription": "",
+    "chronology": {},
+    "relationships": [],
+    "specific": {
+      "nativeName": "Союз Советских Социалистических Республик (USSR)",
+      "flagEmoji": "☭",
+      "statistics": [
+        {
+          "id": "population",
+          "value": "293 million (1991)",
+          "label": "Population (approx.)",
+          "hasIndicator": true,
+          "indicatorValue": 293000000
+        },
+        {
+          "id": "area",
+          "value": "22,402,200 km²",
+          "label": "Total Area",
+          "hasIndicator": true,
+          "indicatorValue": 22402200
+        },
+        {
+          "id": "capital",
+          "value": "Moscow",
+          "label": "Capital City",
+          "hasIndicator": false
+        },
+        {
+          "id": "government_type",
+          "value": "Federal Marxist–Leninist one-party socialist state (1922–1991)",
+          "label": "System of Government",
+          "hasIndicator": false
+        }
+      ],
+      "works": [
+        {
+          "id": "actor_set_evolution",
+          "type": "Temporal",
+          "status": "active",
+          "title": "Actor Set Evolution",
+          "description": "Temporal mapping of the Soviet actor space from Bolshevik party organs and revolutionary councils through Stalinist ministries, the security apparatus and Gosplan to perestroika-era institutions and dissolution.",
+          "link": "rep/actor.html?code=sun"
+        },
+        {
+          "id": "command_economy_planning",
+          "type": "Network",
+          "status": "pending",
+          "title": "Command Economy Planning Structure",
+          "description": "Network analysis of Gosplan five-year plans, Gosbank credit allocation and ministerial production chains binding the republics to the centre.",
+          "link": null
+        },
+        {
+          "id": "union_republics",
+          "type": "Spatial",
+          "status": "pending",
+          "title": "Union Republic Structure",
+          "description": "Geospatial representation of the fifteen union republics, autonomous areas and the federal hierarchy from 1922 to 1991.",
+          "link": null
+        }
+      ],
+      "footer": {
+        "entityCode": "SUN",
+        "region": "Eurasia",
+        "lastRevised": "2026-10-06",
+        "links": [
+          {
+            "label": "About",
+            "href": "/"
+          },
+          {
+            "label": "Source",
+            "href": "https://github.com/csiglab/Naturgnosis"
+          },
+          {
+            "label": "Editor",
+            "href": "/nation/edit.html"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "source": "Wikipedia: Soviet Union",
+      "imported": "2026-10-06"
+    },
+    "references": [
+      {
+        "title": "Soviet Union — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Soviet_Union",
+        "description": "History, government, economy, dissolution."
+      }
+    ]
   }
 ]
