@@ -108677,6 +108677,63 @@
     "references": []
   },
   {
+    "category": "Book",
+    "chronology": {
+      "events": [
+        {
+          "context": "",
+          "event": "First published by W. Strahan & T. Cadell, London",
+          "year": 1776
+        }
+      ],
+      "summary": ""
+    },
+    "description": "Foundational treatise of classical political economy: division of labour, markets, capital accumulation, and the critique of mercantilism.",
+    "id": "smith-1776-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations",
+    "layer": "Research",
+    "longDescription": "",
+    "metadata": {
+      "imported": "2026-10-05",
+      "source": "manual-curation",
+      "sourceReference": "user reading list, 2026-10-05",
+      "topics": [
+        "economics",
+        "growth-development",
+        "trade"
+      ]
+    },
+    "name": "Smith, A. (1776). An inquiry into the nature and causes of the wealth of nations. W. Strahan & T. Cadell.",
+    "references": [
+      {
+        "description": "Scan of the 1937 Modern Library edition (Cannan text), 1,042 pp., via Digital Library of India.",
+        "link": "https://archive.org/details/in.ernet.dli.2015.207956",
+        "title": "The Wealth of Nations (Modern Library, 1937) — scan at the Internet Archive."
+      },
+      {
+        "description": "Full HTML transcription (MIA, 2000) of the Modern Library 1937 text, from the revised 5th edition.",
+        "link": "https://www.marxists.org/reference/archive/smith-adam/works/wealth-of-nations/",
+        "title": "The Wealth of Nations — transcription at the Marxists Internet Archive."
+      }
+    ],
+    "relationships": [],
+    "specific": {
+      "creators": [
+        "Adam Smith"
+      ],
+      "identifier": "",
+      "kind": "monograph",
+      "language": "English",
+      "venue": "W. Strahan & T. Cadell",
+      "year": 1776
+    },
+    "tags": [
+      "economics",
+      "growth-development",
+      "trade",
+      "monograph"
+    ]
+  },
+  {
     "id": "smith-1985-the-determinants-of-firms-hedging-policies",
     "name": "Smith, C. W., & Stulz, R. M. (1985). The determinants of firms' hedging policies. Journal of financial and quantitative analysis, 20(4), 391–405.",
     "tags": [
