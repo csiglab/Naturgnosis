@@ -3,13 +3,13 @@ type: person
 tags: [actor, person]
 ---
 
-# Georg Friedrich List
+# Daniel Friedrich List
 
 
-> **Georg Friedrich List** was a **19th-Century** **German** economist and politician known for his contributions to the field of economic theory, particularly his advocacy for national economic development and the role of protectionist policies.
+> **Daniel Friedrich List** (commonly **Friedrich List**) was a **19th-Century** **German** economist and politician known for his contributions to the field of economic theory, particularly his advocacy for national economic development and the role of protectionist policies.
 > 
 
-Here are some of the main ideas associated with **Georg Friedrich List**:
+Here are some of the main ideas associated with **Friedrich List**:
 
 | **Main Idea** | **Description** |
 | --- | --- |
@@ -23,4 +23,4 @@ Here are some of the main ideas associated with **Georg Friedrich List**:
 ## References
 
 - https://en.wikipedia.org/wiki/Friedrich_List
-- …
+- https://archive.org/details/nationalsystemp00listgoog

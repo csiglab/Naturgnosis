@@ -63850,15 +63850,16 @@
   },
   {
     "id": "georg-friedrich-list",
-    "name": "Georg Friedrich List",
+    "name": "Daniel Friedrich List",
     "tags": [
       "actor",
       "person",
-      "economist"
+      "economist",
+      "friedrich-list"
     ],
     "layer": "Agentic",
     "category": "Person",
-    "description": "Georg Friedrich List (1789–1846) was a German economist and politician, author of Das nationale System der politischen Ökonomie (1841). He argued that developing nations should protect infant industries behind tariffs until competitive, criticized free-trade doctrine as favoring already-industrialized powers, and campaigned for the Zollverein and railway construction as engines of national integration.",
+    "description": "Daniel Friedrich List (1789–1846; commonly known as Friedrich List) was a German economist and politician, author of Das nationale System der politischen Ökonomie (1841). He argued that developing nations should protect infant industries behind tariffs until competitive, criticized free-trade doctrine as favoring already-industrialized powers, and campaigned for the Zollverein and railway construction as engines of national integration.",
     "longDescription": "List taught administration at Tübingen (1817) until dismissal and imprisonment after his 1819 reform petition; emigrated to the United States (1825–1832); returned as US consul in Leipzig and promoted German railway building, including the Leipzig–Dresden line. His National System (1841) stages economic development from agriculture through industry to commerce, prescribing temporary protectionism for nations catching up with Britain. He died in Kufstein in 1846.",
     "chronology": {
       "summary": "Curated biography (manual curation 2026-10-05; originally Epistecnica persona import)",
@@ -63917,13 +63918,14 @@
       "createdAt": "2026-09-24",
       "auditTrail": [
         "imported by bin/import_persona_actors.py",
-        "manual curation 2026-10-05: description/chronology rewrite, economist tag"
+        "manual curation 2026-10-05: description/chronology rewrite, economist tag",
+        "manual curation 2026-10-06: corrected to full legal name Daniel Friedrich List; Friedrich List alias tag"
       ],
       "inheritanceLevel": 0
     },
     "references": [
       {
-        "title": "Georg Friedrich List",
+        "title": "Daniel Friedrich List",
         "link": "/note/note.html?n=social/actor/persona/georg-friedrich-list.md",
         "description": "Persona note in the Note Space."
       }

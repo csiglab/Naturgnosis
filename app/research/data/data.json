@@ -74431,7 +74431,7 @@
     "specific": {
       "kind": "monograph",
       "creators": [
-        "F List"
+        "Friedrich List"
       ],
       "year": 1856,
       "venue": "JB Lippincott & Co",
@@ -74443,6 +74443,9 @@
       "sourceReference": "books/list-1856-national-system-political-economy-lippincott.md",
       "topics": [
         "economics"
+      ],
+      "auditTrail": [
+        "manual curation 2026-10-06: creator F List -> Friedrich List"
       ]
     },
     "references": []
