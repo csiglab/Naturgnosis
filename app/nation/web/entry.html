@@ -717,6 +717,43 @@
     
     .entity-card[data-state="active"]:hover .card-cta { gap: 0.75rem; }
 
+    /* References */
+    .ref-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.1rem 1.25rem;
+      text-decoration: none;
+      display: block;
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .ref-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 24px -8px rgba(0,0,0,0.06);
+    }
+    .ref-card h3 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--fg);
+      margin-bottom: 0.35rem;
+      transition: color 0.3s ease;
+    }
+    .ref-card:hover h3 { color: var(--accent); }
+    .ref-card p {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .ref-empty {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
     /* ========================================
        FOOTER STYLES - INSTITUTIONAL LAYER
        ======================================== */
@@ -841,6 +878,21 @@
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-5" id="worksGrid"></div>
+    </section>
+
+    <div class="section-divider reveal delay-3">
+      <span class="diamond"></span>
+    </div>
+
+    <!-- [4] References -->
+    <section class="reveal delay-3">
+      <div class="text-center mb-6">
+        <h2 class="font-display type-section text-fg mb-1">References</h2>
+        <p class="font-body type-secondary text-muted max-w-lg mx-auto">
+          Sources, notes and supporting documentation.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="referencesGrid"></div>
     </section>
 
   </div>
@@ -982,6 +1034,7 @@
           definition: { text: node.description || '' },
           statistics: sp.statistics || [],
           works: sp.works || [],
+          references: node.references || [],
           footer: sp.footer || {}
         };
         renderData(data);
@@ -1121,6 +1174,30 @@
 
         worksGrid.appendChild(card);
       });
+
+      // References
+      const referencesGrid = document.getElementById('referencesGrid');
+      referencesGrid.innerHTML = '';
+      if (!data.references.length) {
+        const p = document.createElement('p');
+        p.className = 'ref-empty md:col-span-2';
+        p.textContent = 'No references yet.';
+        referencesGrid.appendChild(p);
+      } else {
+        data.references.forEach(ref => {
+          const a = document.createElement('a');
+          a.className = 'ref-card';
+          a.href = ref.link || '#';
+          a.setAttribute('aria-label', ref.title || 'Reference');
+          const h = document.createElement('h3');
+          h.textContent = ref.title || '(untitled)';
+          const d = document.createElement('p');
+          d.textContent = ref.description || '';
+          a.appendChild(h);
+          a.appendChild(d);
+          referencesGrid.appendChild(a);
+        });
+      }
 
       renderFooter(data)
     }

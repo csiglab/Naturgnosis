@@ -522,7 +522,13 @@
       "source": "research-CountryIndex",
       "imported": "2026-09-12"
     },
-    "references": []
+    "references": [
+      {
+        "title": "China: industrial and technology policy — problems, ideas and promoters",
+        "link": "/note/note.html?n=social/nation/china-industrial-technology-policy.md",
+        "description": "Internal note on development problems, policy ideas and principal promoters."
+      }
+    ]
   },
   {
     "id": "dnk",
