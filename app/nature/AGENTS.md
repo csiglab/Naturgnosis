@@ -28,7 +28,6 @@ curl /api/graph?dataset=nature        # nodes
 - Dataset id is `nature` — appears in `web/edit.html`, CouchDB keys (`nature:<node>`), API calls.
 - `data/data.json` is server-written: pull from the server before committing manual edits.
 - Moved-from-epistemica provenance is recorded in each moved node's
-  `metadata.auditTrail`; `bin/import_epistemica.py` excludes the moved ids so a
-  re-import never resurrects them in `epistemica` (the `import/` archives stay untouched).
+  `metadata.auditTrail` (the `import/` archives stay untouched).
 - The web app is a copy of the epistemica one: propagate shared fixes from the other
   graph modules.

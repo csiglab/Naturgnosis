@@ -37,7 +37,7 @@ Competence, Measurement, Technical Constraint.
 
 ## Data provenance
 
-Bootstrapped from **Epistecnica tecnica app**: 40 nodes. Raw exports are archival in `app/technique/import/`; regenerate `data/data.json` with `bin/import_technique.py` (reads only from `import/`). After edits in the app, the sync server owns `data.json` — do not re-run the import over editor work.
+Bootstrapped from **Epistecnica tecnica app**: 40 nodes. Raw exports are archival in `app/technique/import/` (provenance only). `data/data.json` is server-owned — there is no regeneration script.
 
 ## Editor / Explorer
 

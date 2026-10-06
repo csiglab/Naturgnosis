@@ -38,7 +38,7 @@ Open Problem, Practitioner, Lineage.
 
 ## Data provenance
 
-Bootstrapped from **Epistecnica epistemica app**: 122 nodes. Raw exports are archival in `app/epistemica/import/`; regenerate `data/data.json` with `bin/import_epistemica.py` (reads only from `import/`). After edits in the app, the sync server owns `data.json` — do not re-run the import over editor work.
+Bootstrapped from **Epistecnica epistemica app**: 122 nodes. Raw exports are archival in `app/epistemica/import/` (provenance only). `data/data.json` is server-owned — there is no regeneration script.
 
 ## Editor / Explorer
 

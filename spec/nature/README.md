@@ -30,8 +30,8 @@ Moved from the **Epistecnica epistemica export via `app/epistemica`** (2026-09-2
 `is_bounded_by constraint_uncertainty`); the two epistemica nodes pointing at it
 (`blueprint_decision_problem`, `constraint_uncertainty`) lost their inbound edges.
 Provenance is recorded in each moved node's `metadata.auditTrail`.
-`bin/import_epistemica.py` excludes the moved ids, so re-running the import cannot
-resurrect them in `epistemica`.
+There is no regeneration path back from `import/` (the bootstrap importers were removed),
+so the moved nodes stay in `nature`.
 
 ## Editor / Explorer
 

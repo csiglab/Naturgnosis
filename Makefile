@@ -3,13 +3,7 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research nation technique epistemica nature
 
-.PHONY: help build index notes-index qa-index search-index universal-index landing-metrics production-view epistecnica-export seed serve dev deploy-local deploy-server clean
-
-# Epistecnica migration export (tecnica + epistemica graph deltas since a commit).
-EPISTECNICA ?= ../Epistecnica
-SINCE ?=
-DATASET ?= all
-OUT ?= /tmp/epistecnica-migration.json
+.PHONY: help build index notes-index qa-index search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server clean
 
 help:
 	@echo "build         regenerate notes + qa + universal index + graph layouts (+ universal graph)"
@@ -20,7 +14,6 @@ help:
 	@echo "universal-index rebuild app/data/universal-graph.json + universal-layout.json (view-only Graphive)"
 	@echo "landing-metrics rebuild app/data/landing-metrics.json (per-module counts for the hub)"
 	@echo "production-view rebuild app/production/data/view.json (derived view over social)"
-	@echo "epistecnica-export export Epistecnica tecnica + epistemica graph deltas since SINCE (needs SINCE=<commit>)"
 	@echo "seed          push app/*/data/data.json into CouchDB"
 	@echo "serve         run the sync server (needs CouchDB + .env)"
 	@echo "dev           run the sync server offline (--no-couch)"
@@ -55,12 +48,6 @@ landing-metrics: notes-index qa-index
 
 production-view:
 	$(PYTHON) bin/build_production_view.py
-
-epistecnica-export:
-	@if [ -z "$(SINCE)" ]; then echo "usage: make epistecnica-export SINCE=<commit> [EPISTECNICA=../Epistecnica] [DATASET=all|tecnica|epistemica] [OUT=/tmp/epistecnica-migration.json]"; exit 1; fi
-	$(PYTHON) bin/extract_migration.py --since $(SINCE) --epistecnica $(EPISTECNICA) --dataset $(DATASET) --out $(OUT)
-	@echo "migration JSON: $(OUT)"
-	@$(PYTHON) -c "import json; d=json.load(open('$(OUT)')); print('result: %d node(s) to migrate' % len(d['items'])); print('\n'.join('  %s: %d added, %d modified' % (k, v['added'], v['modified']) for k, v in d['datasets'].items()))"
 
 seed:
 	$(PYTHON) bin/seed_couchdb.py

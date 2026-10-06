@@ -44,7 +44,7 @@ app/                      the product — one directory per module
   <module>/notes/         source-of-truth markdown (note only)
   <module>/view/          long-form notes attached to the module (social only, today)
   shared/theme.css        Oxford Common Room tokens (source of truth: spec/theme)
-bin/                      shared tooling: sync server, seeders, importers, index builders
+bin/                      shared tooling: sync server, seeders, index builders
 deploy/                   Dockerfile, docker-compose.yml, deploy scripts (local + server)
 spec/                     this spec + per-module specs + theme spec
 ```

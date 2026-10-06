@@ -69,7 +69,7 @@ call number/signatura. Language is recorded in `specific.language` (e.g. `Spanis
 that Spanish and French nobiliary particles stay un-abbreviated in the author initials
 (`Benavides, D. de`, not `Benavides, D. D.`).
 
-Rules (applied by `bin/import_research.py`):
+Rules (applied at curation time):
 
 - Authors: `Surname, Initials` with spaced single-letter initials and periods (`IJsbrand Jan`
   → `I. J.`); `&` before the last author; 21+ authors collapse to the first 19 + `…` + the
