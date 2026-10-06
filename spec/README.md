@@ -26,10 +26,10 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 |---|--------|------|------|---------|--------|
 | 1 | Nature Space | `app/nature/` | Graph explorer + editor | CouchDB (`dataset=nature`) + disk mirror | bootstrapped (ontic nodes moved from epistemica) |
 | 2 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
-| 3 | Production Space | `app/production/` | Graph explorer (derived view, no editor) | Generated `view.json` + `view-layout.json` from social `production-view` tags | derived |
-| 4 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
-| 5 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
-| 6 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 3 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 4 | Production Space | `app/production/` | Graph explorer (derived view, no editor) | Generated `view.json` + `view-layout.json` from social `production-view` tags | derived |
+| 5 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
+| 6 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
 | 7 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
 | 8 | Note Space | `app/note/` | Catalog + note viewer | Physical markdown (`notes/*.md`) + generated `data/index.json` | scaffolded (corpus empty) |
 | 9 | Q/A Log | `app/qa/` | Catalog + entry viewer (static, no editor) | Committed `data/qa.json` + generated `data/qa-index.json` | bootstrapped (qa-00001) |
