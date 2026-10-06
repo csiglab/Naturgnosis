@@ -2411,8 +2411,9 @@
 
             if (!q) { dd.classList.remove('open'); return; }
             var res = nodes.filter(function (n) {
-                return n.name.toLowerCase().indexOf(q.toLowerCase()) >= 0 ||
-                    n.category.toLowerCase().indexOf(q.toLowerCase()) >= 0;
+                var ql = q.toLowerCase();
+                return (n.name || '').toLowerCase().indexOf(ql) >= 0 ||
+                    (n.category || '').toLowerCase().indexOf(ql) >= 0;
             }).slice(0, 12);
 
             var html = '';
