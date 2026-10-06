@@ -1228,3 +1228,8 @@
     
      - <https://onionfutures.com>
     ```
+
+    Optimizer Specizlized to the Network Structure
+    - https://arxiv.org/abs/2202.00817
+    - https://arxiv.org/abs/2607.13335
+    - https://jeremybernste.in/writing/deriving-muon
