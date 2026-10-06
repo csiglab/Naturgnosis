@@ -1,4 +1,9 @@
-# China: Industrial and Technology Policy — Problems, Ideas and Promoters
+# China
+
+
+
+
+## Industrial and Technology Policy Thinking
 
 > The People's Republic of China's path from a poor agrarian economy to an industrial
 > and technological power was argued out, decade by decade, as a series of concrete
@@ -8,6 +13,10 @@
 > (joint ventures, "market for technology", selective import substitution), to the
 > 2000s turn toward indigenous innovation, the table below maps problem → idea →
 > promoter across industrial and science-technology policy.
+
+> China Ideas Ecology cannot be understand as a master plan;  or something;  or some simple linear lineage;  one can use the principle of marxist production; technology  + latterpractical markets ideas; as the guiding mechanisms that constraint the ideas space.
+
+> There was not a grand idea man; many people contritute - in incredible creative ways (not to be send to 'educate yourself, etc').
 
 | **Development problem** | **Policy idea** | **Principal intellectual / policy promoters** |
 | --- | --- | --- |
@@ -48,3 +57,8 @@
 - https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private
 - https://www.eastisread.com/p/zhao-shukai-ghostwriters-of-reform
 - https://www.eastisread.com/p/zhao-shukai-where-ezra-vogel-got
+- https://academic.oup.com/book/62652/chapter/561904341?login=false
+- https://www.cambridge.org/core/journals/bjhs-themes/article/planning-for-science-and-technology-in-china-and-india/ADEE4E1AE59568A0B053E9E39AD7F6E2
+- https://www.cambridge.org/core/journals/china-quarterly/article/resilience-of-selfreliance-in-china-autonomy-interdependence-and-ordershaping/E040AB2E4F29FEEC3664669F0569CFFB
+- https://www.tandfonline.com/doi/full/10.1080/14682745.2024.2355191
+- https://www.cambridge.org/core/journals/bjhs-themes/article/planning-for-science-and-technology-in-china-and-india/ADEE4E1AE59568A0B053E9E39AD7F6E2
