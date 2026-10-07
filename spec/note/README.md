@@ -37,18 +37,29 @@ under `social/actor/` (firms, banks, ministries, plus people under
 
 ## UI
 
-- **Catalog** `app/note/web/index.html` — stats (notes, sections, words),
-  full-text search, section facet chips (+ `pinned` facet), tag facets
-  (`?tag=` deep link, per-row tag chips; capped at `TAG_LIMIT` = 15 by
-  count-desc order with a `show all (n)` / `show less` toggle — a selected
-  tag past the cap forces the full list, and collapsing such a selection
-  clears the filter), pin toggles, pagination; loads `../data/index.json`,
-  pins from `/note/api/pins`.
+- **Catalog** `app/note/web/index.html` — file-explorer card grid in two
+  modes (`?view=browse|files`, default `browse`; legacy `dirs`/`tree`
+  resolve to `browse`): browse mixes folder cards (gold folder glyph,
+  note counts) with direct file cards in the current directory, files is
+  the flat list of every file; file cards carry an inline-SVG file glyph
+  (amber for live notes), title, and path. Clicking folders, breadcrumb
+  ancestors, or `× all notes` navigates in place via `pushState` (browser
+  Back works; links stay shareable); the breadcrumb always shows which
+  directory is open. Full-text search (`?q=` deep link, prefilled) scopes
+  to the directory; no section/tag facet UI — filtering is search plus
+  the pinned toggle only. Pins are fully kept: card pin buttons, the
+  `★ pinned` viewbar toggle, `?section=pinned` deep link, and the
+  server-side pins API. Stats behind a button (`stats` modal:
+  notes/sections/words plus per-section table); fixed 48-cards pagination;
+  loads `../data/index.json`, pins from `/note/api/pins`. Viewer tag chips
+  link to `?view=files&q=<tag>`; the treemap links sections to
+  `?view=browse&dir=<section>` (tag drill-down appends `&q=<tag>`).
 - **Viewer** `app/note/web/note.html?n=<path>` — fetches `../data/<path>`,
   renders markdown via vendored `marked`, table of contents, word count and
   read time, tag chips (from `--- tags: [...]` front matter, stripped
-  before render), raw-file link, breadcrumb back to the catalog. Rejects
-  non-kebab paths client-side (mirrors the server validation).
+  before render), raw-file link, breadcrumb back to the catalog (root
+  `notes` plus every intermediate directory linking to its `?dir=` listing).
+  Rejects non-kebab paths client-side (mirrors the server validation).
 
 ## Operations
 
