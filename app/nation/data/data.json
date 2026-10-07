@@ -522,13 +522,14 @@
       "source": "research-CountryIndex",
       "imported": "2026-09-12",
       "auditTrail": [
-        "manual curation 2026-10-06: reference link follows note rename to china.md"
+        "manual curation 2026-10-06: reference link follows note rename to china.md",
+        "manual curation 2026-10-07: reference link follows note move to social/state/china.md"
       ]
     },
     "references": [
       {
         "title": "China",
-        "link": "/note/note.html?n=social/nation/china.md",
+        "link": "/note/note.html?n=social/state/china.md",
         "description": "Internal Guiding Note."
       }
     ]

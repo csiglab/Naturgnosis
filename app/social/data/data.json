@@ -186199,5 +186199,79 @@
         "description": "Official site: mandate, instruments (Challenges, Funken), projects."
       }
     ]
+  },
+  {
+    "id": "costum-de-valencia",
+    "name": "Costum de València",
+    "tags": [
+      "social-element",
+      "rule",
+      "norm",
+      "law",
+      "fueros",
+      "legal-system",
+      "valencia",
+      "aragon",
+      "medieval"
+    ],
+    "layer": "Normative",
+    "category": "Rule",
+    "description": "Codified customary-law corpus (fueros) promulgated by James I of Aragon for Valencia after the 1238 conquest; later the Furs de València and the general law of the Kingdom of Valencia.",
+    "longDescription": "A costum is customary law raised to a binding norm, akin to a Castilian fuero. Compiled by the royal chancery (Pere Albert) from the first nine books of Justinian's Code, the Digest, the Liber Iudiciorum, and the Costums de Lleida — two parts of ~750 fueros each; first named 1239, recast and renamed Furs de València ~1250, and sworn at the first Valencian Corts in 1261. Its general-law claim held only where the king ruled directly; lords kept the Fuero de Zaragoza or the Costums de Lleida. Decomposed in note social/state/legal/costum-de-valencia.md under the socialium grammar (Norm / Regulation).",
+    "chronology": {
+      "summary": "Founding legal code of the Kingdom of Valencia, 1238-1261.",
+      "events": [
+        {
+          "year": 1238,
+          "event": "Promulgated after the conquest of Valencia",
+          "context": "Granted at or shortly after the fall of the capital (9 October 1238) or in early 1239; framed to give the conquered territory its own law."
+        },
+        {
+          "year": 1239,
+          "event": "First named 'Costum' in a privilege of 21 May",
+          "context": "The earliest documentary appearance of the code under the name Costum."
+        },
+        {
+          "year": 1250,
+          "event": "Recast and renamed Furs de València",
+          "context": "James I broadened the text with privileges and had it declared the sole law of the kingdom, forbidding other customs."
+        },
+        {
+          "year": 1261,
+          "event": "Sworn at the first Valencian Corts",
+          "context": "The vernacular redaction promulgated and sworn before the first Corts of the Kingdom of Valencia."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "rule",
+        "description": "The Costum is a codified corpus of fueros — an instance of the Rule type."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://es.wikipedia.org/wiki/Costum_de_Valencia; Naturgnosis note social/state/legal/costum-de-valencia.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: Costum de València legal-system node under Rule; source Wikipedia (es) + session definition"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Costum de Valencia — Wikipedia (es)",
+        "link": "https://es.wikipedia.org/wiki/Costum_de_Valencia",
+        "description": "Definition, history, Costums to Furs, bibliography."
+      },
+      {
+        "title": "Costum de València — Naturgnosis note",
+        "link": null,
+        "description": "Legal-system note social/state/legal/costum-de-valencia.md (Norm / Regulation, Normative, legal facet)"
+      }
+    ]
   }
 ]

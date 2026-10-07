@@ -56,5 +56,5 @@ It is distinct from `Policy` (the course adopted by an authority within a strate
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Policy](note.html?n=social/government/guidance/policy.md) (the authorized course within a strategy)
+- [Policy](note.html?n=social/state/guidance/policy.md) (the authorized course within a strategy)
 - [Principle](note.html?n=social/action/guidance/principle.md) (the standard a strategy is evaluated against)
