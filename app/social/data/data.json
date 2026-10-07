@@ -19648,6 +19648,101 @@
     ]
   },
   {
+    "id": "antonio-sanchez-valverde",
+    "name": "Antonio Sánchez Valverde",
+    "tags": [
+      "actor",
+      "person",
+      "dominicano"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Presbítero, racionero e intelectual criollo de la Isla de Santo Domingo (1729-1790); primer escritor nacido en la isla; autor de Idea del Valor de la Isla Española (1785).",
+    "longDescription": "Antonio Sánchez de Valverde y Díaz de Ocaña (Bayaguana, Santo Domingo, 1729 – Guadalajara, Nueva España, 1790). Presbítero católico, racionero e intelectual criollo; primer escritor nacido en la Isla de Santo Domingo. Licenciado en Teología (Universidad de Santiago de Gorjón, 1755) y bachiller en Derecho Civil (Universidad de Santo Tomás, 1758). En 1782 viajó a Madrid para defender su canonjía ante el Consejo de Indias. En 1785 publicó en España Idea del Valor de la Isla Española y La América vindicada de la calumnia de haber sido la madre del mal venéreo, además de sermones y tratados.",
+    "chronology": {
+      "summary": "Criollo ilustrado de Santo Domingo; Teología 1755, Derecho Civil 1758, Madrid 1782, obras 1785, muerte 1790.",
+      "events": [
+        {
+          "year": 1729,
+          "event": "Nace en Bayaguana, Santo Domingo",
+          "context": "Familia criolla de clase alta."
+        },
+        {
+          "year": 1755,
+          "event": "Licenciado en Teología, Universidad de Santiago de Gorjón",
+          "context": "Santo Domingo."
+        },
+        {
+          "year": 1758,
+          "event": "Bachiller en Derecho Civil, Universidad de Santo Tomás",
+          "context": "Santo Domingo."
+        },
+        {
+          "year": 1782,
+          "event": "Viaja a Madrid; defiende su canonjía ante el Consejo de Indias",
+          "context": "Tribunal del Consejo de Indias."
+        },
+        {
+          "year": 1785,
+          "event": "Publica Idea del Valor de la Isla Española",
+          "context": "España; obra maestra."
+        },
+        {
+          "year": 1785,
+          "event": "Publica La América vindicada de la calumnia de haber sido la madre del mal venéreo",
+          "context": "España."
+        },
+        {
+          "year": 1790,
+          "event": "Muere en Guadalajara, Nueva España (9 de abril)",
+          "context": "Algunas fuentes dan 1791."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.75,
+      "sourceReference": "es.wikipedia.org/wiki/Antonio_Sánchez_Valverde + archive.org (ideadelvalordela00snguat, laamericavindic00valvgoog)",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "manual addition per user request 2026-10-06"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Antonio Sánchez Valverde",
+        "link": "https://es.wikipedia.org/wiki/Antonio_S%C3%A1nchez_Valverde",
+        "description": "Biografía y publicaciones."
+      },
+      {
+        "title": "Disertación",
+        "link": "https://es.wikipedia.org/wiki/Disertaci%C3%B3n",
+        "description": "Contexto de género para sus obras."
+      },
+      {
+        "title": "Idea del valor de la Isla Española",
+        "link": "https://archive.org/details/ideadelvalordela00snguat/mode/2up",
+        "description": "Obra (1785), escaneo."
+      },
+      {
+        "title": "La América vindicada",
+        "link": "https://archive.org/details/laamericavindic00valvgoog/mode/2up",
+        "description": "Obra (1785), escaneo."
+      },
+      {
+        "title": "Antonio Sánchez Valverde",
+        "link": "/note/note.html?n=social/actor/persona/antonio-sanchez-valverde.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
+  },
+  {
     "id": "antonio-serra",
     "name": "Antonio Serra",
     "tags": [
@@ -65066,6 +65161,83 @@
     "references": []
   },
   {
+    "id": "government-guidance-fund",
+    "name": "Government Guidance Fund",
+    "tags": [
+      "guidance-fund",
+      "china",
+      "industrial-policy",
+      "capital",
+      "social-element"
+    ],
+    "category": "Capital",
+    "layer": "Ontic",
+    "description": "State-seeded investment fund guiding private capital into state-selected priority sectors; the financial vehicle of Chinese industrial policy since 2005.",
+    "longDescription": "A Government Guidance Fund (GGF) is a Multi-layer capital operator: an Ontic pool and legal entity carrying a Synontic sector signal. Central and local governments commit seed capital that leverages a multiple of social capital, managed with private venture partners toward priority sectors (semiconductors, emerging industries, SMEs). Over 1,800 GGFs by 2021 with about $1.52T in target capital, though only ~26% met targets. Decomposed in note social/actor/finance/government-guidance-fund.md under the socialium grammar.",
+    "chronology": {
+      "summary": "State-seeded capital guiding private investment into priority sectors",
+      "events": [
+        {
+          "year": 2005,
+          "event": "Government guidance fund instrument deployed",
+          "context": "New financial instrument to accelerate technological catch-up with private VC partners."
+        },
+        {
+          "year": 2014,
+          "event": "Big Fund Phase I established (RMB 138.7bn)",
+          "context": "Flagship national IC fund; Phase II followed 2019 (RMB 204bn)."
+        },
+        {
+          "year": 2024,
+          "event": "Big Fund Phase III established (RMB 344bn)",
+          "context": "Largest-ever semiconductor fund; answers US export controls with self-reliance push."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "targetNodeId": "node.6656f8c8a0dd497d8fcc8298b0a831ee",
+        "description": "Big Fund is the flagship national instance of the guidance fund type."
+      },
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "targetNodeId": "node.e03bd4ee7b7f49c69867ad195ec4c78e",
+        "description": "Shenzhen VC Guidance Fund is the local-level instance of the type."
+      },
+      {
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "targetNodeId": "reality.market",
+        "description": "Guided capital enters markets through venture investments."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "Naturgnosis note social/actor/finance/government-guidance-fund.md; Wei/Ang/Jia (SSRN 2022); press sources",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: GGF type node; instance stubs linked but untouched"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Government Guidance Fund — Naturgnosis note",
+        "link": null,
+        "description": "Type note social/actor/finance/government-guidance-fund.md with China exemplar QA"
+      },
+      {
+        "title": "Wei, Ang, Jia — The Promise and Pitfalls of Government Guidance Funds",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4200771",
+        "description": "Instrument definition, scale, implementation gap."
+      }
+    ]
+  },
+  {
     "id": "government-market-relationship",
     "name": "Government-Market Relationship",
     "tags": [
@@ -73662,6 +73834,90 @@
     "references": []
   },
   {
+    "id": "indonesia-investment-authority",
+    "name": "Indonesia Investment Authority",
+    "tags": [
+      "actor",
+      "sovereign wealth fund",
+      "financial institution",
+      "Indonesia",
+      "investment",
+      "state-owned"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Indonesia Investment Authority (INA; Lembaga Pengelola Investasi) is Indonesia's sovereign wealth fund, launched in 2021 to attract foreign co-investment into national infrastructure and growth sectors.",
+    "longDescription": "The Indonesia Investment Authority (INA; Lembaga Pengelola Investasi, LPI) is one of Indonesia's two sovereign wealth funds, launched in February 2021 under the Job Creation Law. Unlike funds managing resource surpluses, INA seeks foreign co-investors to finance domestic development, with a target of US$24.5 billion in assets under management. It reports directly to the President of Indonesia, with a supervisory board headed by the Finance Minister, and became a Full Member of the International Forum of Sovereign Wealth Funds in 2022.",
+    "chronology": {
+      "summary": "Co-investment fund launched to pull foreign capital into Indonesian development.",
+      "events": [
+        {
+          "year": 2021,
+          "event": "Launched in February under the Job Creation Law.",
+          "context": "Mandate to attract investments, create jobs, and diversify into new asset classes."
+        },
+        {
+          "year": 2022,
+          "event": "Became a Full Member of the International Forum of Sovereign Wealth Funds; subsidiaries incorporated.",
+          "context": ""
+        },
+        {
+          "year": 2023,
+          "event": "Invested over US$3 billion; partnered on Trans-Sumatra toll roads and logistics parks.",
+          "context": ""
+        },
+        {
+          "year": 2024,
+          "event": "Committed 20% of investments to renewable energy; expanded toll-road assets.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "node.c75bf05a10524c56ab9f8a3fb25d8036",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned fund belonging to the Indonesia element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "INA is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "INA is a sovereign wealth fund."
+      }
+    ],
+    "specific": {
+      "nativeName": "Lembaga Pengelola Investasi",
+      "headquarters": "Jakarta, Indonesia",
+      "founded": "2021-02",
+      "owner": "Government of Indonesia",
+      "aum": "US$24.5 billion target"
+    },
+    "metadata": {
+      "confidenceScore": 0.9,
+      "sourceReference": "Wikipedia: Indonesia Investment Authority",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Indonesia Investment Authority — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Indonesia_Investment_Authority",
+        "description": "Overview, history, investments."
+      }
+    ]
+  },
+  {
     "id": "inductionism",
     "name": "Inductionism",
     "tags": [
@@ -77044,6 +77300,148 @@
       "inheritanceLevel": 0
     },
     "references": []
+  },
+  {
+    "id": "investment-fund",
+    "name": "Investment Fund",
+    "tags": [
+      "type",
+      "institution",
+      "finance",
+      "investment",
+      "fund",
+      "pooled-vehicle"
+    ],
+    "layer": "Ontic",
+    "category": "Institution",
+    "description": "A pooled-investment vehicle that raises capital from multiple investors and deploys it into a portfolio of assets under a defined mandate, governance, and fee structure.",
+    "longDescription": "An Investment Fund is an institution that aggregates capital from many investors and invests it collectively in financial or real assets according to a stated mandate. Contribution, redemption, distribution rules, and a fee structure separate investors from the fund manager/fiduciary who runs the portfolio. Common forms include mutual funds, hedge funds, pension funds, sovereign wealth funds, private-equity and venture funds, real-estate investment trusts, and endowments.",
+    "chronology": {
+      "summary": "Emerged with joint-stock and trust pooling; formalized through company/fund law and securities regulation.",
+      "events": [
+        {
+          "year": 1774,
+          "event": "Abraham van Ketwich launches Eendragt Maakt Magt, a mutual-fund precursor, in Amsterdam.",
+          "context": ""
+        },
+        {
+          "year": 1924,
+          "event": "Massachusetts Investors Trust, the first US open-end mutual fund, is established.",
+          "context": ""
+        },
+        {
+          "year": 1940,
+          "event": "US Investment Company Act codifies fund governance and disclosure.",
+          "context": ""
+        },
+        {
+          "year": 1949,
+          "event": "Alfred Winslow Jones founds the first hedge fund.",
+          "context": ""
+        },
+        {
+          "year": 1974,
+          "event": "ERISA reshapes US pension-fund governance and fiduciary duties.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "9",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "Investment funds are financial institutions: collective vehicles channelling capital into assets."
+      },
+      {
+        "targetNodeId": "mutual-funds",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Mutual funds are the open-end pooled-fund subtype."
+      },
+      {
+        "targetNodeId": "24",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Hedge funds are the aggressive pooled-partnership subtype."
+      },
+      {
+        "targetNodeId": "104",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Pension funds are the retirement-mandate pooled subtype."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Sovereign wealth funds are the state-owned pooled subtype."
+      },
+      {
+        "targetNodeId": "52",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "Venture capital vehicles are the startup-financing subtype."
+      },
+      {
+        "targetNodeId": "node.1782619140733",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "REITs are the real-estate pooled subtype."
+      },
+      {
+        "targetNodeId": "218",
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "description": "University endowments are the perpetual institutional-mandate subtype."
+      },
+      {
+        "targetNodeId": "330",
+        "relationshipFamily": "dependency",
+        "relationshipType": "managed_by",
+        "description": "Asset management firms run fund portfolios under mandate."
+      },
+      {
+        "targetNodeId": "financial-market",
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "description": "Funds allocate capital through financial markets."
+      },
+      {
+        "targetNodeId": "node.1781481305477",
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "description": "Funds trade securities on stock markets."
+      },
+      {
+        "targetNodeId": "264",
+        "relationshipFamily": "normative",
+        "relationshipType": "regulated_by",
+        "description": "Securities commissions authorize and supervise fund offerings."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Investment fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Investment_fund",
+        "description": "Overview of pooled investment vehicles."
+      },
+      {
+        "title": "Mutual fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Mutual_fund",
+        "description": "History and structure of mutual funds."
+      }
+    ]
   },
   {
     "id": "investment-promotion-agencies",
@@ -104096,6 +104494,84 @@
       "inheritanceLevel": 0
     },
     "references": []
+  },
+  {
+    "id": "nedo",
+    "name": "New Energy and Industrial Technology Development Organization",
+    "tags": [
+      "organization",
+      "public",
+      "japan",
+      "innovation-agency",
+      "industrial-policy",
+      "nedo"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "Japan's largest public R&D and deployment body for industrial, energy, and environmental technologies (NEDO); Independent Administrative Institution since 2003.",
+    "longDescription": "The New Energy and Industrial Technology Development Organization (NEDO) is Japan's largest public management organization promoting research, development, and deployment of industrial, energy, and environmental technologies. Established 1980 in response to the oil crises, expanded to industrial technology 1988, reorganized as an Independent Administrative Institution 2003. About 1,000 staff, head office Kawasaki, funded overwhelmingly by METI. A live instance of the (Japan) Incorporated Administrative Agency subtype in note social/actor/public-organization.md.",
+    "chronology": {
+      "summary": "Oil-crisis energy agency grown into METI's industrial-technology deployment arm",
+      "events": [
+        {
+          "year": 1980,
+          "event": "New Energy and Development Organization established",
+          "context": "Response to the 1973/1978 energy crises; fossil-fuel alternative technologies under MITI."
+        },
+        {
+          "year": 1988,
+          "event": "Reorganized as New Energy and Industrial Technology Development Organization",
+          "context": "Mandate expanded to industrial technology R&D."
+        },
+        {
+          "year": 2003,
+          "event": "Becomes an Independent Administrative Institution",
+          "context": "Incorporated-administrative-agency form: managerial autonomy within minister-set objectives."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "public-organization",
+        "description": "NEDO is a public organization: state-chartered, publicly funded, operationally autonomous."
+      },
+      {
+        "relationshipFamily": "mereological",
+        "relationshipType": "member_of",
+        "targetNodeId": "government-agencies",
+        "description": "Counted among government agencies as a collective."
+      },
+      {
+        "relationshipFamily": "dependency",
+        "relationshipType": "depends_on",
+        "targetNodeId": "node.2e06caf3bcba4b0896fdec12ad061ef7",
+        "description": "Founded under MITI; funded overwhelmingly by its successor METI."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.75,
+      "sourceReference": "https://en.wikipedia.org/wiki/New_Energy_and_Industrial_Technology_Development_Organization",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: IAA instance of (Japan) Incorporated Administrative Agency row; single-source Wikipedia"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "New Energy and Industrial Technology Development Organization — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/New_Energy_and_Industrial_Technology_Development_Organization",
+        "description": "Source: history, mandate, scale, offices, exemplar projects."
+      },
+      {
+        "title": "Public Organization — Naturgnosis note",
+        "link": null,
+        "description": "Type home: social/actor/public-organization.md (government subtype; agency-space QA)"
+      }
+    ]
   },
   {
     "id": "neil-gershenfeld",
@@ -150808,28 +151284,75 @@
     "id": "organization",
     "name": "Organization",
     "tags": [
-      "arbitriologia-import"
+      "arbitriologia-import",
+      "organization",
+      "collective",
+      "social-element"
     ],
     "category": "Organization",
     "layer": "Ontic",
-    "description": "Firm, NGO, institution, or formal association that acts collectively.",
-    "longDescription": "Firm, NGO, institution, or formal association that acts collectively. (Source type: Organization.)",
+    "description": "Bounded compound unit with identity, membership, and rules that acts as one; the generic type of firms, unions, congregations, and cooperatives.",
+    "longDescription": "An Organization is the generic Collective / Organization social element type: a compound Interaction Unit with identity, membership, and rules, carrying its own agencies (e.g. a governing board), hosted institutions (internal governance of roles, norms, and obligations), membership ties, and coordinating routines. It is distinct from an Institution (a stabilized system of rules, which the organization hosts rather than is) and generalizes the Firm (its economic subtype converting capability into exchangeable value). Decomposed in note social/actor/organization.md under the socialium grammar.",
     "chronology": {
-      "summary": "Quaisy Interacton Unit",
+      "summary": "Quasi Interaction Unit",
       "events": []
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "targetNodeId": "firm",
+        "description": "Firm is the economic subtype of Organization."
+      },
+      {
+        "relationshipFamily": "mereological",
+        "relationshipType": "has_part",
+        "targetNodeId": "firm-governance",
+        "description": "Organizations host internal governance (decision rights, audit, policy)."
+      },
+      {
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "targetNodeId": "reality.market",
+        "description": "Organizations act as buyers, sellers, and employers in markets."
+      },
+      {
+        "relationshipFamily": "causal",
+        "relationshipType": "produces",
+        "targetNodeId": "product",
+        "description": "Member firms offer products (goods or services) into markets."
+      },
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "targetNodeId": "public-organization",
+        "description": "Public Organization is the government subtype of Organization."
+      }
+    ],
     "specific": {},
     "metadata": {
-      "confidenceScore": 0.55,
+      "confidenceScore": 0.8,
       "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Onto/Guide/Unit.md",
       "createdAt": "2026-09-28T00:00:00Z",
       "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Quaisy Interacton Unit)"
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Quaisy Interacton Unit)",
+        "enriched 2026-10-06: generic Collective / Organization element note (social/actor/organization.md); fixed chronology typo; added tags, description, relationships, references",
+        "2026-10-07: added generalizes link to public-organization (government subtype; agency-space QA moved to its note)"
       ],
       "inheritanceLevel": 0
     },
-    "references": []
+    "references": [
+      {
+        "title": "Organization — Naturgnosis note",
+        "link": null,
+        "description": "Element note social/actor/organization.md (Collective / Organization, Ontic layer)"
+      },
+      {
+        "title": "Philosophia Socialium et Operis",
+        "link": null,
+        "description": "Workflow: How to decompose any social instance? (meta/philosophia-socialium-et-operis.md)"
+      }
+    ]
   },
   {
     "id": "organizational-culture-models",
@@ -159748,6 +160271,78 @@
       "inheritanceLevel": 0
     },
     "references": []
+  },
+  {
+    "id": "public-organization",
+    "name": "Public Organization",
+    "tags": [
+      "organization",
+      "public",
+      "government",
+      "collective",
+      "social-element"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "Organization wielding delegated public authority under law: ministries, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids.",
+    "longDescription": "A Public Organization is the government subtype of Organization: a compound Interaction Unit with identity, membership, and rules, individuated by its constitutive relation to public authority — created or chartered under law, directed toward public purposes, answerable through political oversight. Decomposed in note social/actor/public-organization.md under the socialium grammar; the full recursive agency expansion (statutory, incorporated-administrative, Swedish, UK executive, Crown Corporation) lives in the Type branch of note social/actor/organization.md.",
+    "chronology": {
+      "summary": "Delegated public authority organized as bodies with identity, membership, and rules",
+      "events": [
+        {
+          "year": 1988,
+          "event": "UK Next Steps agencies created",
+          "context": "Birth of the executive-agency form: framework-document autonomy without separate legal personality."
+        },
+        {
+          "year": 1999,
+          "event": "Japan Incorporated Administrative Agency reform",
+          "context": "Dokuritsu gyosei hojin: incorporation trading managerial autonomy inside minister-set medium-term objectives."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "organization",
+        "description": "Public Organization is the government subtype of Organization."
+      },
+      {
+        "relationshipFamily": "mereological",
+        "relationshipType": "member_of",
+        "targetNodeId": "government-agencies",
+        "description": "Counted among government agencies as a collective."
+      },
+      {
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "targetNodeId": "reality.market",
+        "description": "Public organizations buy, employ, and regulate in markets."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "Naturgnosis note social/actor/public-organization.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: government subtype of organization; agency-space QA moved here from social/actor/organization.md"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Public Organization — Naturgnosis note",
+        "link": null,
+        "description": "Element note social/actor/public-organization.md (Collective / Organization, Ontic layer, political facet)"
+      },
+      {
+        "title": "Philosophia Socialium et Operis",
+        "link": null,
+        "description": "Workflow: How to decompose any social instance? (meta/philosophia-socialium-et-operis.md)"
+      }
+    ]
   },
   {
     "id": "public-policy-institute-of-california-ppic",
@@ -170073,6 +170668,33 @@
     "references": []
   },
   {
+    "id": "sovereign-wealth-strategic-funds",
+    "name": "Sovereign Wealth / Strategic Funds",
+    "tags": [
+      "arbitriologia-import"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "Ensures control, promotes scale, stabilizes national champions",
+    "longDescription": "Ensures control, promotes scale, stabilizes national champions",
+    "chronology": {
+      "summary": "Instrument Space",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.55,
+      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Meliorandis/Dimension/Finance/README.md",
+      "createdAt": "2026-09-28T00:00:00Z",
+      "auditTrail": [
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Instrument Space)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
     "id": "space-research-centre-cbk-pan",
     "name": "Space Research Centre (CBK PAN)",
     "tags": [
@@ -177916,6 +178538,101 @@
     ]
   },
   {
+    "id": "turkey-wealth-fund",
+    "name": "Turkey Wealth Fund",
+    "tags": [
+      "actor",
+      "sovereign wealth fund",
+      "financial institution",
+      "Turkey",
+      "Türkiye",
+      "investment",
+      "state-owned"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is Türkiye's state-owned sovereign wealth fund, established in 2016 to finance strategic investments, large-scale infrastructure, and capital-market development.",
+    "longDescription": "The Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is the sovereign wealth fund of Türkiye, established on 26 August 2016 under Law No. 6741. Unlike resource-backed peers, it is capitalized mainly by transfers of state-owned enterprises — including Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, and TPAO — plus financing operations such as Eurobonds and sukuk. Its AUM was estimated at more than US$443 billion in 2025, placing it among the world's ten largest sovereign wealth funds. The fund is organized as a joint-stock company under private law and chaired by the President of Türkiye; it states alignment with the Santiago Principles.",
+    "chronology": {
+      "summary": "State fund built by SOE transfers and capital-market financing.",
+      "events": [
+        {
+          "year": 2016,
+          "event": "Established under Law No. 6741 (26 August).",
+          "context": ""
+        },
+        {
+          "year": 2017,
+          "event": "Major state-owned enterprises transferred to the fund (Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, TPAO).",
+          "context": ""
+        },
+        {
+          "year": 2018,
+          "event": "President Erdoğan becomes chairman after the constitutional referendum.",
+          "context": ""
+        },
+        {
+          "year": 2020,
+          "event": "Stakes in Borsa Istanbul and Turkcell acquired; insurance arms consolidated into Türkiye Sigorta.",
+          "context": ""
+        },
+        {
+          "year": 2022,
+          "event": "Türk Telekom control taken; Türkiye Technology Fund launched with ADQ.",
+          "context": ""
+        },
+        {
+          "year": 2024,
+          "event": "First international Eurobond and sukuk issuances; syndicated borrowing expands.",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "targetNodeId": "node.cf2cbf1d01cf4a258d9c9e55b961a6d5",
+        "relationshipFamily": "mereological",
+        "relationshipType": "part_of",
+        "description": "State-owned fund belonging to the Turkey element."
+      },
+      {
+        "targetNodeId": "investment-fund",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "TVF is a state-owned pooled investment vehicle."
+      },
+      {
+        "targetNodeId": "23",
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "description": "TVF is a sovereign wealth fund."
+      }
+    ],
+    "specific": {
+      "nativeName": "Türkiye Varlık Fonu",
+      "headquarters": "Istanbul, Turkey",
+      "founded": "2016-08-26",
+      "owner": "Republic of Türkiye",
+      "aum": "US$443 billion (2025)"
+    },
+    "metadata": {
+      "confidenceScore": 0.9,
+      "sourceReference": "Wikipedia: Turkey Wealth Fund",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Turkey Wealth Fund — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Turkey_Wealth_Fund",
+        "description": "Overview, history, holdings."
+      }
+    ]
+  },
+  {
     "id": "turkish-academy-of-sciences-t-ba",
     "name": "Turkish Academy of Sciences (TÜBA)",
     "tags": [
@@ -183853,6 +184570,77 @@
     ]
   },
   {
+    "id": "wan-li",
+    "name": "Wan Li",
+    "tags": [
+      "actor",
+      "person",
+      "politician",
+      "rural-policy"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician: First Vice Premier of the PRC (1983–1988) and 5th Chairman of the NPC Standing Committee (1988–1993). An architect of 1980s rural reform, he defended household contracting and, in the hired-labour debate, argued for study over suppression.",
+    "longDescription": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician. As Party Secretary of Anhui he promoted the household responsibility system, and as Vice Premier (1980; First Vice Premier 1983–1988) helped drive the rural reforms that dissolved the people’s communes. In the 1983 debate over private hiring of labour he resisted Hu Qiaomu’s call to suppress it, urging investigation and warning against forcing farmers’ initiatives into old and rigid frameworks. He served as Chairman of the NPC Standing Committee from 1988 to 1993.",
+    "chronology": {
+      "summary": "Curated biography (manual curation 2026-10-06)",
+      "events": [
+        {
+          "year": 1916,
+          "event": "Born in Dongping County, Shandong",
+          "context": ""
+        },
+        {
+          "year": 1977,
+          "event": "Party Secretary of Anhui; promoted the household responsibility system",
+          "context": ""
+        },
+        {
+          "year": 1980,
+          "event": "Vice Premier of the State Council",
+          "context": ""
+        },
+        {
+          "year": 1983,
+          "event": "First Vice Premier; defended hired labour in the No. 1 document debate",
+          "context": ""
+        },
+        {
+          "year": 1988,
+          "event": "Chairman of the NPC Standing Committee (to 1993)",
+          "context": ""
+        },
+        {
+          "year": 2015,
+          "event": "Died in Beijing",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Wan Li — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Wan_Li",
+        "description": "Wikipedia entry."
+      }
+    ]
+  },
+  {
     "id": "wang-anshi",
     "name": "Wang Anshi",
     "tags": [
@@ -184685,6 +185473,82 @@
     "references": []
   },
   {
+    "id": "zhao-shukai",
+    "name": "Zhao Shukai",
+    "tags": [
+      "actor",
+      "person",
+      "official",
+      "rural-policy"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990). A veteran drafter of rural policy documents; chronicler of the hired-labour debate and of official document writing.",
+    "longDescription": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990), holding posts including Director General of the Rural Department Organisation Research Office and of the Information Centre. Visiting positions at ANU, CUHK, Duke, Harvard and Tübingen; main presenter at a 2006 Politburo group study session. His writings document how rural experiments, divided leaders and policy drafters accommodated private employment (the hired-labour debate) and reflect on the craft of official document writing.",
+    "chronology": {
+      "summary": "Curated biography (manual curation 2026-10-06)",
+      "events": [
+        {
+          "year": 1959,
+          "event": "Born in China",
+          "context": ""
+        },
+        {
+          "year": 1982,
+          "event": "Joined the Rural Policy Research Office, CPC Central Committee Secretariat",
+          "context": ""
+        },
+        {
+          "year": 1990,
+          "event": "Moved to the State Council Development Research Centre",
+          "context": ""
+        },
+        {
+          "year": 2006,
+          "event": "Main presenter, 16th Politburo group study session",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "manual curation 2026-10-06",
+      "createdAt": "2026-10-06",
+      "auditTrail": [
+        "created 2026-10-06 (manual curation, from East Is Read translations)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Zhao Shukai",
+        "link": "/note/note.html?n=social/actor/persona/zhao-shukai.md",
+        "description": "Persona note in the Note Space."
+      },
+      {
+        "title": "Zhao Shukai: How China Allowed Private Employment",
+        "link": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
+        "description": "East Is Read translation/analysis, Jul 2026."
+      },
+      {
+        "title": "Zhao Shukai: Ghostwriters of Reform",
+        "link": "https://www.eastisread.com/p/zhao-shukai-ghostwriters-of-reform",
+        "description": "East Is Read translation/analysis, Dec 2025."
+      },
+      {
+        "title": "Zhao Shukai: where Ezra Vogel got it wrong",
+        "link": "https://www.eastisread.com/p/zhao-shukai-where-ezra-vogel-got",
+        "description": "East Is Read translation/analysis."
+      }
+    ]
+  },
+  {
     "id": "zhao-ziyang",
     "name": "Zhao Ziyang",
     "tags": [
@@ -184796,569 +185660,6 @@
       {
         "title": "Zhuge Liang",
         "link": "/note/note.html?n=social/actor/persona/zhuge-liang.md",
-        "description": "Persona note in the Note Space."
-      }
-    ]
-  },
-  {
-    "id": "zhao-shukai",
-    "name": "Zhao Shukai",
-    "tags": [
-      "actor",
-      "person",
-      "official",
-      "rural-policy"
-    ],
-    "layer": "Agentic",
-    "category": "Person",
-    "description": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990). A veteran drafter of rural policy documents; chronicler of the hired-labour debate and of official document writing.",
-    "longDescription": "Zhao Shukai (b. 1959) is a Chinese official of rural policy and governance: Rural Policy Research Office of the CPC Central Committee Secretariat (1982–1989), then the State Council Development Research Centre (from 1990), holding posts including Director General of the Rural Department Organisation Research Office and of the Information Centre. Visiting positions at ANU, CUHK, Duke, Harvard and Tübingen; main presenter at a 2006 Politburo group study session. His writings document how rural experiments, divided leaders and policy drafters accommodated private employment (the hired-labour debate) and reflect on the craft of official document writing.",
-    "chronology": {
-      "summary": "Curated biography (manual curation 2026-10-06)",
-      "events": [
-        {
-          "year": 1959,
-          "event": "Born in China",
-          "context": ""
-        },
-        {
-          "year": 1982,
-          "event": "Joined the Rural Policy Research Office, CPC Central Committee Secretariat",
-          "context": ""
-        },
-        {
-          "year": 1990,
-          "event": "Moved to the State Council Development Research Centre",
-          "context": ""
-        },
-        {
-          "year": 2006,
-          "event": "Main presenter, 16th Politburo group study session",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [],
-    "specific": {
-      "persona": {
-        "type": "person"
-      }
-    },
-    "metadata": {
-      "confidenceScore": 0.8,
-      "sourceReference": "manual curation 2026-10-06",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "created 2026-10-06 (manual curation, from East Is Read translations)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Zhao Shukai",
-        "link": "/note/note.html?n=social/actor/persona/zhao-shukai.md",
-        "description": "Persona note in the Note Space."
-      },
-      {
-        "title": "Zhao Shukai: How China Allowed Private Employment",
-        "link": "https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private",
-        "description": "East Is Read translation/analysis, Jul 2026."
-      },
-      {
-        "title": "Zhao Shukai: Ghostwriters of Reform",
-        "link": "https://www.eastisread.com/p/zhao-shukai-ghostwriters-of-reform",
-        "description": "East Is Read translation/analysis, Dec 2025."
-      },
-      {
-        "title": "Zhao Shukai: where Ezra Vogel got it wrong",
-        "link": "https://www.eastisread.com/p/zhao-shukai-where-ezra-vogel-got",
-        "description": "East Is Read translation/analysis."
-      }
-    ]
-  },
-  {
-    "id": "wan-li",
-    "name": "Wan Li",
-    "tags": [
-      "actor",
-      "person",
-      "politician",
-      "rural-policy"
-    ],
-    "layer": "Agentic",
-    "category": "Person",
-    "description": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician: First Vice Premier of the PRC (1983–1988) and 5th Chairman of the NPC Standing Committee (1988–1993). An architect of 1980s rural reform, he defended household contracting and, in the hired-labour debate, argued for study over suppression.",
-    "longDescription": "Wan Li (1916–2015) was a Chinese Communist revolutionary and politician. As Party Secretary of Anhui he promoted the household responsibility system, and as Vice Premier (1980; First Vice Premier 1983–1988) helped drive the rural reforms that dissolved the people’s communes. In the 1983 debate over private hiring of labour he resisted Hu Qiaomu’s call to suppress it, urging investigation and warning against forcing farmers’ initiatives into old and rigid frameworks. He served as Chairman of the NPC Standing Committee from 1988 to 1993.",
-    "chronology": {
-      "summary": "Curated biography (manual curation 2026-10-06)",
-      "events": [
-        {
-          "year": 1916,
-          "event": "Born in Dongping County, Shandong",
-          "context": ""
-        },
-        {
-          "year": 1977,
-          "event": "Party Secretary of Anhui; promoted the household responsibility system",
-          "context": ""
-        },
-        {
-          "year": 1980,
-          "event": "Vice Premier of the State Council",
-          "context": ""
-        },
-        {
-          "year": 1983,
-          "event": "First Vice Premier; defended hired labour in the No. 1 document debate",
-          "context": ""
-        },
-        {
-          "year": 1988,
-          "event": "Chairman of the NPC Standing Committee (to 1993)",
-          "context": ""
-        },
-        {
-          "year": 2015,
-          "event": "Died in Beijing",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [],
-    "specific": {
-      "persona": {
-        "type": "person"
-      }
-    },
-    "metadata": {
-      "confidenceScore": 0.8,
-      "sourceReference": "manual curation 2026-10-06",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "created 2026-10-06 (manual curation)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Wan Li — Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Wan_Li",
-        "description": "Wikipedia entry."
-      }
-    ]
-  },
-  {
-    "id": "investment-fund",
-    "name": "Investment Fund",
-    "tags": [
-      "type",
-      "institution",
-      "finance",
-      "investment",
-      "fund",
-      "pooled-vehicle"
-    ],
-    "layer": "Ontic",
-    "category": "Institution",
-    "description": "A pooled-investment vehicle that raises capital from multiple investors and deploys it into a portfolio of assets under a defined mandate, governance, and fee structure.",
-    "longDescription": "An Investment Fund is an institution that aggregates capital from many investors and invests it collectively in financial or real assets according to a stated mandate. Contribution, redemption, distribution rules, and a fee structure separate investors from the fund manager/fiduciary who runs the portfolio. Common forms include mutual funds, hedge funds, pension funds, sovereign wealth funds, private-equity and venture funds, real-estate investment trusts, and endowments.",
-    "chronology": {
-      "summary": "Emerged with joint-stock and trust pooling; formalized through company/fund law and securities regulation.",
-      "events": [
-        {
-          "year": 1774,
-          "event": "Abraham van Ketwich launches Eendragt Maakt Magt, a mutual-fund precursor, in Amsterdam.",
-          "context": ""
-        },
-        {
-          "year": 1924,
-          "event": "Massachusetts Investors Trust, the first US open-end mutual fund, is established.",
-          "context": ""
-        },
-        {
-          "year": 1940,
-          "event": "US Investment Company Act codifies fund governance and disclosure.",
-          "context": ""
-        },
-        {
-          "year": 1949,
-          "event": "Alfred Winslow Jones founds the first hedge fund.",
-          "context": ""
-        },
-        {
-          "year": 1974,
-          "event": "ERISA reshapes US pension-fund governance and fiduciary duties.",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [
-      {
-        "targetNodeId": "9",
-        "relationshipFamily": "classification",
-        "relationshipType": "subtype_of",
-        "description": "Investment funds are financial institutions: collective vehicles channelling capital into assets."
-      },
-      {
-        "targetNodeId": "mutual-funds",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "Mutual funds are the open-end pooled-fund subtype."
-      },
-      {
-        "targetNodeId": "24",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "Hedge funds are the aggressive pooled-partnership subtype."
-      },
-      {
-        "targetNodeId": "104",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "Pension funds are the retirement-mandate pooled subtype."
-      },
-      {
-        "targetNodeId": "23",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "Sovereign wealth funds are the state-owned pooled subtype."
-      },
-      {
-        "targetNodeId": "52",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "Venture capital vehicles are the startup-financing subtype."
-      },
-      {
-        "targetNodeId": "node.1782619140733",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "REITs are the real-estate pooled subtype."
-      },
-      {
-        "targetNodeId": "218",
-        "relationshipFamily": "classification",
-        "relationshipType": "generalizes",
-        "description": "University endowments are the perpetual institutional-mandate subtype."
-      },
-      {
-        "targetNodeId": "330",
-        "relationshipFamily": "dependency",
-        "relationshipType": "managed_by",
-        "description": "Asset management firms run fund portfolios under mandate."
-      },
-      {
-        "targetNodeId": "financial-market",
-        "relationshipFamily": "interaction",
-        "relationshipType": "interacts_with",
-        "description": "Funds allocate capital through financial markets."
-      },
-      {
-        "targetNodeId": "node.1781481305477",
-        "relationshipFamily": "interaction",
-        "relationshipType": "interacts_with",
-        "description": "Funds trade securities on stock markets."
-      },
-      {
-        "targetNodeId": "264",
-        "relationshipFamily": "normative",
-        "relationshipType": "regulated_by",
-        "description": "Securities commissions authorize and supervise fund offerings."
-      }
-    ],
-    "specific": {},
-    "metadata": {
-      "confidenceScore": 0.8,
-      "sourceReference": "manual curation 2026-10-06",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "created 2026-10-06 (manual curation)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Investment fund — Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Investment_fund",
-        "description": "Overview of pooled investment vehicles."
-      },
-      {
-        "title": "Mutual fund — Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Mutual_fund",
-        "description": "History and structure of mutual funds."
-      }
-    ]
-  },
-  {
-    "id": "turkey-wealth-fund",
-    "name": "Turkey Wealth Fund",
-    "tags": [
-      "actor",
-      "sovereign wealth fund",
-      "financial institution",
-      "Turkey",
-      "Türkiye",
-      "investment",
-      "state-owned"
-    ],
-    "layer": "Ontic",
-    "category": "Organization",
-    "description": "Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is Türkiye's state-owned sovereign wealth fund, established in 2016 to finance strategic investments, large-scale infrastructure, and capital-market development.",
-    "longDescription": "The Turkey Wealth Fund (Türkiye Varlık Fonu, TVF) is the sovereign wealth fund of Türkiye, established on 26 August 2016 under Law No. 6741. Unlike resource-backed peers, it is capitalized mainly by transfers of state-owned enterprises — including Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, and TPAO — plus financing operations such as Eurobonds and sukuk. Its AUM was estimated at more than US$443 billion in 2025, placing it among the world's ten largest sovereign wealth funds. The fund is organized as a joint-stock company under private law and chaired by the President of Türkiye; it states alignment with the Santiago Principles.",
-    "chronology": {
-      "summary": "State fund built by SOE transfers and capital-market financing.",
-      "events": [
-        {
-          "year": 2016,
-          "event": "Established under Law No. 6741 (26 August).",
-          "context": ""
-        },
-        {
-          "year": 2017,
-          "event": "Major state-owned enterprises transferred to the fund (Turkish Airlines, Ziraat Bank, Halkbank, PTT, Türk Telekom, TPAO).",
-          "context": ""
-        },
-        {
-          "year": 2018,
-          "event": "President Erdoğan becomes chairman after the constitutional referendum.",
-          "context": ""
-        },
-        {
-          "year": 2020,
-          "event": "Stakes in Borsa Istanbul and Turkcell acquired; insurance arms consolidated into Türkiye Sigorta.",
-          "context": ""
-        },
-        {
-          "year": 2022,
-          "event": "Türk Telekom control taken; Türkiye Technology Fund launched with ADQ.",
-          "context": ""
-        },
-        {
-          "year": 2024,
-          "event": "First international Eurobond and sukuk issuances; syndicated borrowing expands.",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [
-      {
-        "targetNodeId": "node.cf2cbf1d01cf4a258d9c9e55b961a6d5",
-        "relationshipFamily": "mereological",
-        "relationshipType": "part_of",
-        "description": "State-owned fund belonging to the Turkey element."
-      },
-      {
-        "targetNodeId": "investment-fund",
-        "relationshipFamily": "classification",
-        "relationshipType": "subtype_of",
-        "description": "TVF is a state-owned pooled investment vehicle."
-      },
-      {
-        "targetNodeId": "23",
-        "relationshipFamily": "classification",
-        "relationshipType": "subtype_of",
-        "description": "TVF is a sovereign wealth fund."
-      }
-    ],
-    "specific": {
-      "nativeName": "Türkiye Varlık Fonu",
-      "headquarters": "Istanbul, Turkey",
-      "founded": "2016-08-26",
-      "owner": "Republic of Türkiye",
-      "aum": "US$443 billion (2025)"
-    },
-    "metadata": {
-      "confidenceScore": 0.9,
-      "sourceReference": "Wikipedia: Turkey Wealth Fund",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "created 2026-10-06 (manual curation)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Turkey Wealth Fund — Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Turkey_Wealth_Fund",
-        "description": "Overview, history, holdings."
-      }
-    ]
-  },
-  {
-    "id": "indonesia-investment-authority",
-    "name": "Indonesia Investment Authority",
-    "tags": [
-      "actor",
-      "sovereign wealth fund",
-      "financial institution",
-      "Indonesia",
-      "investment",
-      "state-owned"
-    ],
-    "layer": "Ontic",
-    "category": "Organization",
-    "description": "Indonesia Investment Authority (INA; Lembaga Pengelola Investasi) is Indonesia's sovereign wealth fund, launched in 2021 to attract foreign co-investment into national infrastructure and growth sectors.",
-    "longDescription": "The Indonesia Investment Authority (INA; Lembaga Pengelola Investasi, LPI) is one of Indonesia's two sovereign wealth funds, launched in February 2021 under the Job Creation Law. Unlike funds managing resource surpluses, INA seeks foreign co-investors to finance domestic development, with a target of US$24.5 billion in assets under management. It reports directly to the President of Indonesia, with a supervisory board headed by the Finance Minister, and became a Full Member of the International Forum of Sovereign Wealth Funds in 2022.",
-    "chronology": {
-      "summary": "Co-investment fund launched to pull foreign capital into Indonesian development.",
-      "events": [
-        {
-          "year": 2021,
-          "event": "Launched in February under the Job Creation Law.",
-          "context": "Mandate to attract investments, create jobs, and diversify into new asset classes."
-        },
-        {
-          "year": 2022,
-          "event": "Became a Full Member of the International Forum of Sovereign Wealth Funds; subsidiaries incorporated.",
-          "context": ""
-        },
-        {
-          "year": 2023,
-          "event": "Invested over US$3 billion; partnered on Trans-Sumatra toll roads and logistics parks.",
-          "context": ""
-        },
-        {
-          "year": 2024,
-          "event": "Committed 20% of investments to renewable energy; expanded toll-road assets.",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [
-      {
-        "targetNodeId": "node.c75bf05a10524c56ab9f8a3fb25d8036",
-        "relationshipFamily": "mereological",
-        "relationshipType": "part_of",
-        "description": "State-owned fund belonging to the Indonesia element."
-      },
-      {
-        "targetNodeId": "investment-fund",
-        "relationshipFamily": "classification",
-        "relationshipType": "subtype_of",
-        "description": "INA is a state-owned pooled investment vehicle."
-      },
-      {
-        "targetNodeId": "23",
-        "relationshipFamily": "classification",
-        "relationshipType": "subtype_of",
-        "description": "INA is a sovereign wealth fund."
-      }
-    ],
-    "specific": {
-      "nativeName": "Lembaga Pengelola Investasi",
-      "headquarters": "Jakarta, Indonesia",
-      "founded": "2021-02",
-      "owner": "Government of Indonesia",
-      "aum": "US$24.5 billion target"
-    },
-    "metadata": {
-      "confidenceScore": 0.9,
-      "sourceReference": "Wikipedia: Indonesia Investment Authority",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "created 2026-10-06 (manual curation)"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Indonesia Investment Authority — Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Indonesia_Investment_Authority",
-        "description": "Overview, history, investments."
-      }
-    ]
-  },
-  {
-    "id": "antonio-sanchez-valverde",
-    "name": "Antonio Sánchez Valverde",
-    "tags": [
-      "actor",
-      "person",
-      "dominicano"
-    ],
-    "layer": "Agentic",
-    "category": "Person",
-    "description": "Presbítero, racionero e intelectual criollo de la Isla de Santo Domingo (1729-1790); primer escritor nacido en la isla; autor de Idea del Valor de la Isla Española (1785).",
-    "longDescription": "Antonio Sánchez de Valverde y Díaz de Ocaña (Bayaguana, Santo Domingo, 1729 – Guadalajara, Nueva España, 1790). Presbítero católico, racionero e intelectual criollo; primer escritor nacido en la Isla de Santo Domingo. Licenciado en Teología (Universidad de Santiago de Gorjón, 1755) y bachiller en Derecho Civil (Universidad de Santo Tomás, 1758). En 1782 viajó a Madrid para defender su canonjía ante el Consejo de Indias. En 1785 publicó en España Idea del Valor de la Isla Española y La América vindicada de la calumnia de haber sido la madre del mal venéreo, además de sermones y tratados.",
-    "chronology": {
-      "summary": "Criollo ilustrado de Santo Domingo; Teología 1755, Derecho Civil 1758, Madrid 1782, obras 1785, muerte 1790.",
-      "events": [
-        {
-          "year": 1729,
-          "event": "Nace en Bayaguana, Santo Domingo",
-          "context": "Familia criolla de clase alta."
-        },
-        {
-          "year": 1755,
-          "event": "Licenciado en Teología, Universidad de Santiago de Gorjón",
-          "context": "Santo Domingo."
-        },
-        {
-          "year": 1758,
-          "event": "Bachiller en Derecho Civil, Universidad de Santo Tomás",
-          "context": "Santo Domingo."
-        },
-        {
-          "year": 1782,
-          "event": "Viaja a Madrid; defiende su canonjía ante el Consejo de Indias",
-          "context": "Tribunal del Consejo de Indias."
-        },
-        {
-          "year": 1785,
-          "event": "Publica Idea del Valor de la Isla Española",
-          "context": "España; obra maestra."
-        },
-        {
-          "year": 1785,
-          "event": "Publica La América vindicada de la calumnia de haber sido la madre del mal venéreo",
-          "context": "España."
-        },
-        {
-          "year": 1790,
-          "event": "Muere en Guadalajara, Nueva España (9 de abril)",
-          "context": "Algunas fuentes dan 1791."
-        }
-      ]
-    },
-    "relationships": [],
-    "specific": {
-      "persona": {
-        "type": "person"
-      }
-    },
-    "metadata": {
-      "confidenceScore": 0.75,
-      "sourceReference": "es.wikipedia.org/wiki/Antonio_Sánchez_Valverde + archive.org (ideadelvalordela00snguat, laamericavindic00valvgoog)",
-      "createdAt": "2026-10-06",
-      "auditTrail": [
-        "manual addition per user request 2026-10-06"
-      ],
-      "inheritanceLevel": 0
-    },
-    "references": [
-      {
-        "title": "Antonio Sánchez Valverde",
-        "link": "https://es.wikipedia.org/wiki/Antonio_S%C3%A1nchez_Valverde",
-        "description": "Biografía y publicaciones."
-      },
-      {
-        "title": "Disertación",
-        "link": "https://es.wikipedia.org/wiki/Disertaci%C3%B3n",
-        "description": "Contexto de género para sus obras."
-      },
-      {
-        "title": "Idea del valor de la Isla Española",
-        "link": "https://archive.org/details/ideadelvalordela00snguat/mode/2up",
-        "description": "Obra (1785), escaneo."
-      },
-      {
-        "title": "La América vindicada",
-        "link": "https://archive.org/details/laamericavindic00valvgoog/mode/2up",
-        "description": "Obra (1785), escaneo."
-      },
-      {
-        "title": "Antonio Sánchez Valverde",
-        "link": "/note/note.html?n=social/actor/persona/antonio-sanchez-valverde.md",
         "description": "Persona note in the Note Space."
       }
     ]
