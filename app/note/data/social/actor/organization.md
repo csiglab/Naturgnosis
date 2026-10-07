@@ -12,11 +12,11 @@ tags: [organization, collective, actor, social-element]
 
 **Organization belongs to the `Collective / Organization` social element type — a compound Interaction Unit with identity, membership, and rules, carrying its own agencies, roles, and practices.**
 
-It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules — though it hosts institutions such as its governance) and not a `Firm` (a firm is its economic subtype, converting capability into exchangeable value; see [Firm](note.html?n=social/actor/type/firm.md)). Its layer is **Ontic**: an organization exists extra-mentally, with members, premises, accounts, and address. Its facet is social-general — its dominant causal mechanism is coordinated collective agency as such, prior to any economic, political, or ideational scoping.
+It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules — though it hosts institutions such as its governance) and not a `Firm` (a firm is its economic subtype, converting capability into exchangeable value; see [Firm](note.html?n=social/actor/firm.md)). Its layer is **Ontic**: an organization exists extra-mentally, with members, premises, accounts, and address. Its facet is social-general — its dominant causal mechanism is coordinated collective agency as such, prior to any economic, political, or ideational scoping. It is typed under [Actor](note.html?n=social/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets, fields, and compounds. That secondary reading is prose, not a second root; the tree below is typed once.
 
-On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](note.html?n=social/actor/type/group.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
+On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](note.html?n=social/actor/group.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
 
 ### What is this social instance?
 
@@ -107,9 +107,10 @@ The agency-space QA — dimensions of the government agency space and the five-f
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
+- [Actor](note.html?n=social/actor/actor.md) (root hub: the actor typology this entry belongs to)
 - [Public Organization](note.html?n=social/actor/public-organization.md) (government subtype; carries the agency-space QA)
-- [Firm](note.html?n=social/actor/type/firm.md) (economic subtype of Organization)
-- [Social Group](note.html?n=social/actor/type/group.md) (interacting aggregate — not an organization)
+- [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
+- [Social Group](note.html?n=social/actor/group.md) (interacting aggregate — not an organization)
 - [Political Party](note.html?n=social/actor/party/political-party.md) (political subtype of Organization)
 - [Market](note.html?n=social/market/market.md) (arena organizations act in)
 - [Product](note.html?n=social/product.md) (exchangeable outcome member firms offer)

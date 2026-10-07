@@ -1,0 +1,80 @@
+---
+tags: [actor, interaction-unit, agents, social-element]
+---
+
+# Actor
+
+> An **Actor** is a bounded entity capable of interaction — agentive, cognitive/reflexive, relational, nested, state-carrying. It is the root of the social typology of who acts: individuals who decide, collectives that act as one, institutions that wield authority, and the functional forms — research, finance, trade, industry, education, party, firm — through which they engage the world.
+
+## Formulation
+
+### What social element type does this social instance belong to?
+
+**Actor belongs to the `Interaction Unit` social element type (Agents category)** — the grammar's root slot for bounded entities capable of interaction. Its layer is **Ontic** where the actor exists extra-mentally (humans, organizations, polities) and **Synontic** where it exists through shared recognition (personas, virtual communities, jurisdictions carried as roles). Its facet is social-general: the dominant causal mechanism is coordinated agency as such, prior to any economic, political, or ideational scoping.
+
+It is not an `Agency` (the structured capacity to form intentions, select actions, and integrate feedback — what an actor acts *with*), not a `Social Role` (the expectation-tag binding an actor to conduct — what an actor acts *as*), and not an `Institution` (the stabilized system of rules — what an actor acts *within*). An actor carries agencies, occupies roles, and inhabits institutions; the tree below types the carriers, never the carried.
+
+### What is this social instance?
+
+> An actor fixes *who hangs together and how*: the boundary of the entity, the agency through which it intends and selects, the membership or constituency it carries, and the relations binding it to other actors. The typology below classifies actors by constitution (individual, collective, institutional), by function (research, finance, trade, industry, education, party, firm), and by capacity (agency) — every leaf resolving to an already-decomposed entry.
+
+### What is the recursive instance decomposition of this social instance?
+
+> Boundary: one generic Actor — its recursive subtype classification plus its direct constituents, following the agentic spine `Interaction Unit -> Agency -> Social Action -> Activity`. The first row binds the grammar root; every row after roots at `Actor`. Subtype detail already worked in a linked entry is not duplicated here.
+>
+> Recursion rule: a `Type` grouping may nest under any subtype (`type → subtype → type → sub-subtype`), as deep as the classification requires — the same licensed recursion as `Social Compound` nesting in compounds.
+>
+> Stopping rule: a row is terminal when it names a type, a subtype, an agency, a role, a tie, or a practice, or when it links an already-decomposed entry.
+>
+> Identity: Instance Tree Path is the stable identifier of each row; every path is unique.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Interaction Unit` → Actor | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. |
+| Actor → `Type` → Individual Actor | Actor deciding as one mind: a human, a persona. |
+| Actor → `Type` → Individual Actor → `Type` → Human | Biological individual of the species Homo sapiens, bearing cognition, language, and culture; carries personhood as rights, duties, and accountability. |
+| Actor → `Type` → Individual Actor → `Type` → Persona | Performed or attributed self carried through shared recognition across encounters. |
+| Actor → `Type` → Collective Actor | Actor acting as one through membership, rules, and joint agency. |
+| Actor → `Type` → Collective Actor → `Type` → Organization | Bounded compound unit with identity, membership, and rules acting as one. |
+| Actor → `Type` → Collective Actor → `Type` → Social Group | Interacting aggregate with unity but without membership or rules. |
+| Actor → `Type` → Collective Actor → `Type` → Family | Kinship unit binding members through descent, alliance, and obligation. |
+| Actor → `Type` → Collective Actor → `Type` → Household | Co-resident unit provisioning daily life from a common stock. |
+| Actor → `Type` → Collective Actor → `Type` → Virtual Community | Networked collective coordinating without co-location. |
+| Actor → `Type` → Collective Actor → `Type` → Network Collective | Actor constituted by its ties: alliances, supply webs, patronage. |
+| Actor → `Type` → Institutional Actor | Actor wielding stabilized authority over a domain. |
+| Actor → `Type` → Institutional Actor → `Type` → Polity | Political community organized under a common authority. |
+| Actor → `Type` → Institutional Actor → `Type` → Nation-State | Sovereign polity binding territory, population, and rule. |
+| Actor → `Type` → Institutional Actor → `Type` → Jurisdiction | Bounded domain of legitimate authority. |
+| Actor → `Type` → Functional Actor | Actor defined by the function it performs in social reproduction. |
+| Actor → `Type` → Functional Actor → `Type` → Research Actor | Actor producing or funding inquiry: institutes, laboratories, agencies. |
+| Actor → `Type` → Functional Actor → `Type` → Finance Actor | Actor allocating capital and settling claims: banks, funds, exchanges. |
+| Actor → `Type` → Functional Actor → `Type` → Trade Actor | Actor promoting and governing exchange across borders. |
+| Actor → `Type` → Functional Actor → `Type` → Industry Actor | Actor organizing production in a sector or territory. |
+| Actor → `Type` → Functional Actor → `Type` → Education Actor | Warranted body transmitting certified knowledge across generations. |
+| Actor → `Type` → Functional Actor → `Type` → Party | Political organization fielding candidates and programs in collective choice. |
+| Actor → `Type` → Functional Actor → `Type` → Firm | Bounded collective converting capability into exchangeable value. |
+| Actor → `Agency` | Grouping: structured capacities forming intention and selecting action. |
+| Actor → `Agency` → Deliberative Agency | Structured capacity weighing alternatives and committing to a course. |
+| Actor → `Agency` → Executive Agency | Structured capacity carrying decisions into execution. |
+| Actor → `Social Relation / Network` | Grouping: structured ties binding actors to one another. |
+| Actor → `Social Relation / Network` → Membership Tie | Structured tie binding a member to the collective it belongs to. |
+| Actor → `Social Relation / Network` → Alliance Tie | Structured tie binding actors in joint pursuit. |
+| Actor → `Social Role` | Grouping: expectation-tags actors occupy. |
+| Actor → `Social Role` → Role Occupancy | Binding of an actor, a context, and an interpretation to behavior. |
+
+## References
+
+- [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
+- [Organization](note.html?n=social/actor/organization.md) (collective actor hub: the full subtype tree)
+- [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
+- [Social Group](note.html?n=social/actor/group.md) (interacting aggregate — not an organization)
+- [Human](note.html?n=social/actor/human.md) (biological individual; carries personhood)
+- [Family](note.html?n=social/actor/family.md) (kinship unit)
+- [Public Organization](note.html?n=social/actor/public-organization.md) (government subtype; carries the agency-space QA)
+- [Education Actor](note.html?n=social/actor/education-actor.md) (warranted teaching body)
+- [Chief Executive's Policy Unit](note.html?n=social/actor/executive-policy-unit.md) (executive agency form)
+- [Laboratory](note.html?n=social/actor/laboratory.md) (research host unit)
+- [Public Research Institutes](note.html?n=social/actor/pri.md) (public-research role)
+- [Political Party](note.html?n=social/actor/party/political-party.md) (political subtype)
+- [China](note.html?n=social/nation/china.md) (nation-state instance)
+- Graph nodes of the same names: `person`, `firm`, `organization`, `public-organization`, `sreni` (Social Space, dataset `social`)
