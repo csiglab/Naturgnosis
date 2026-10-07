@@ -171038,6 +171038,85 @@
     "references": []
   },
   {
+    "id": "sreni",
+    "name": "Śreṇi",
+    "tags": [
+      "sreni",
+      "guild",
+      "india",
+      "aggregation",
+      "private-organization",
+      "organization",
+      "social-element"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "Mode of aggregating independent economic actors into a collective coordinating costly activities; canonically the ancient Indian merchant-artisan guild.",
+    "longDescription": "Śreṇi refers not to a prescribed organizational form but to a mode of economic aggregation: independent economic actors, productive capacities, or interests organized into a collective arrangement coordinating activities otherwise difficult or costly individually. Canonical instance: the ancient Indian śreṇi (6th c. BCE–12th c. CE) — self-governing vocational associations under a removable head, with seals, customary codes (śreṇi-dharma) carrying legal weight, and banking/endowment functions. Decomposed in note social/actor/type/sreni.md under the socialium grammar.",
+    "chronology": {
+      "summary": "Vocational aggregation from Vedic groupings to medieval corporations",
+      "events": [
+        {
+          "year": -600,
+          "event": "Śreṇis recognizable in the Ganges valley",
+          "context": "Urban expansion, lengthening trade routes, money economy; Pāṇini and Jātakas attest them."
+        },
+        {
+          "year": -300,
+          "event": "Established under the Mauryan empire",
+          "context": "Arthaśāstra treats śreṇis as normal economic-administrative life; rulers borrow from them."
+        },
+        {
+          "year": 400,
+          "event": "Height under the Gupta period",
+          "context": "Śreṣṭhins on town councils; standardized trades, accumulated capital, financed works including Sanchi."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "organization",
+        "description": "Śreṇi is a private-organization mode of the generic Organization type."
+      },
+      {
+        "relationshipFamily": "interaction",
+        "relationshipType": "interacts_with",
+        "targetNodeId": "reality.market",
+        "description": "Aggregations secure markets, fix prices, and assure quality within them."
+      },
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "generalizes",
+        "targetNodeId": "node.216a7c738bdd437e98772a144970300b",
+        "description": "Merchant Guild is a later instance of the guild aggregation mode."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/Shreni; Naturgnosis note social/actor/type/sreni.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: guild aggregation mode under Private Organization; single-source Wikipedia plus session definition"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Shreni — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Shreni",
+        "description": "Source: definition, history, governance, functions, śreṇi-dharma."
+      },
+      {
+        "title": "Śreṇi — Naturgnosis note",
+        "link": null,
+        "description": "Aggregation-mode note social/actor/type/sreni.md (Collective / Organization, Ontic, economic facet)"
+      }
+    ]
+  },
+  {
     "id": "sron-netherlands-institute-for-space-research",
     "name": "SRON (Netherlands Institute for Space Research)",
     "tags": [
