@@ -200,7 +200,7 @@
         .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
         header {
-            padding: 4rem 0 3rem;
+            padding: 2rem 0 3rem;
         }
 
         h1 {
@@ -224,34 +224,6 @@
         }
 
         .lede strong { font-weight: 500; color: var(--text-primary); }
-
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1px;
-            background: var(--border-subtle);
-            border: 1px solid var(--border-subtle);
-            margin-top: 2rem;
-        }
-
-        .stat { background: var(--bg-void); padding: 0.85rem 0.9rem; }
-
-        .stat .value {
-            font-family: var(--font-mono);
-            font-size: 1.4rem;
-            color: var(--accent-cyan);
-        }
-
-        .stat .value.pending { color: var(--text-muted); }
-
-        .stat .label {
-            margin-top: 0.3rem;
-            font-family: var(--font-mono);
-            font-size: 0.58rem;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
 
         .toolbar {
             display: flex;
@@ -292,18 +264,21 @@
             pointer-events: none;
         }
 
-        .facets {
+        /* ---------- catalog view modes ---------- */
+
+        .titlebar {
             display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
         }
 
-        .facet {
+        .stats-btn {
+            flex-shrink: 0;
             font-family: var(--font-mono);
             font-size: 0.62rem;
             letter-spacing: 0.18em;
             text-transform: uppercase;
-            text-decoration: none;
             color: var(--text-secondary);
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -312,102 +287,265 @@
             transition: color 0.3s ease, border-color 0.3s ease;
         }
 
-        .facet:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+        .stats-btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
 
-        .facet.active {
-            color: var(--text-primary);
-            border-color: var(--accent-gold);
-        }
+        .viewbar { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
 
-        .facet .count { color: var(--text-muted); margin-left: 0.4rem; }
-        .facet.active .count { color: var(--accent-gold); }
-
-        .facet-toggle {
-            color: var(--accent-gold);
-            border-style: dashed;
-            border-color: var(--accent-gold-dim);
-        }
-
-        .facet-toggle:hover { color: var(--accent-gold); border-color: var(--accent-gold); }
-
-        .tagbar { display: flex; align-items: baseline; gap: 0.8rem; }
-        .tagbar-label {
+        .viewbtn {
             font-family: var(--font-mono);
-            font-size: 0.58rem;
+            font-size: 0.62rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.55rem 0.9rem;
+            cursor: pointer;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .viewbtn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        .viewbtn.active { color: var(--text-primary); border-color: var(--accent-gold); }
+
+        .viewbtn.small { padding: 0.4rem 0.7rem; font-size: 0.55rem; }
+
+        /* Breadcrumb: which directory the catalog is showing. */
+        .crumbbar {
+            margin-bottom: 1.2rem;
+            font-family: var(--font-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .crumbbar a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+        .crumbbar a:hover { color: var(--accent-cyan); }
+        .crumbbar .sep { margin: 0 0.5em; opacity: 0.5; }
+        .crumbbar .here { color: var(--accent-gold); }
+        .crumbbar .count { margin-left: 0.8rem; opacity: 0.75; }
+
+        .crumbbar-clear {
+            float: right;
+            color: var(--text-secondary);
+            text-decoration: none;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.35rem 0.6rem;
+            letter-spacing: 0.14em;
+        }
+
+        .crumbbar-clear:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+        /* Stats modal (explorer stats-modal pattern). */
+        .stats-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 6, 10, 0.6);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 600;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .stats-overlay.open { opacity: 1; pointer-events: auto; }
+
+        .stats-modal {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -48%) scale(0.96);
+            width: min(560px, 92vw);
+            max-height: 82vh;
+            background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-void) 100%);
+            border: 1px solid var(--border-medium);
+            border-left: 2px solid var(--accent-gold);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            z-index: 610;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .stats-modal.open {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .stats-header {
+            padding: 1.2rem 1.4rem 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .stats-eyebrow {
+            font-family: var(--font-display);
+            font-size: 0.7rem;
+            font-style: italic;
+            color: var(--accent-gold);
+            letter-spacing: 0.06em;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .stats-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: 300;
+            color: var(--text-primary);
+        }
+
+        .stats-close {
+            position: absolute;
+            top: 1rem; right: 1rem;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.4rem;
+            width: 1.8rem; height: 1.8rem;
+            cursor: pointer;
+            border-radius: var(--radius-sm);
+            line-height: 1;
+        }
+
+        .stats-close:hover { color: var(--accent-rose); }
+
+        .stats-body { flex: 1; overflow-y: auto; padding: 1.1rem 1.4rem 1.6rem; }
+
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border-subtle); border: 1px solid var(--border-subtle); }
+
+        .stats-cell { background: var(--bg-void); padding: 0.8rem; }
+
+        .stats-cell .v { font-family: var(--font-mono); font-size: 1.3rem; color: var(--accent-cyan); }
+
+        .stats-cell .l {
+            margin-top: 0.25rem;
+            font-family: var(--font-mono);
+            font-size: 0.56rem;
             letter-spacing: 0.2em;
             text-transform: uppercase;
             color: var(--text-muted);
-            flex-shrink: 0;
-        }
-        .tagbar .facets { flex: 1; }
-
-        .row-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.55rem; }
-
-        .row-tag {
-            font-family: var(--font-mono);
-            font-size: 0.55rem;
-            letter-spacing: 0.08em;
-            color: var(--accent-cyan);
-            background: transparent;
-            border: 1px solid var(--border-subtle);
-            border-radius: 2px;
-            padding: 0.15rem 0.45rem;
-            cursor: pointer;
-            transition: border-color 0.3s ease, color 0.3s ease;
         }
 
-        .row-tag:hover { border-color: var(--accent-cyan); }
-        .row-tag.active { border-color: var(--accent-gold); color: var(--accent-gold); }
+        .stats-sec-title {
+            font-family: var(--font-display);
+            font-size: 0.85rem;
+            font-style: italic;
+            color: var(--text-primary);
+            margin: 1.1rem 0 0.5rem;
+            padding-bottom: 0.35rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
 
+        .stats-row {
+            display: flex;
+            align-items: baseline;
+            gap: 0.8rem;
+            padding: 0.35rem 0;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .stats-row .n { margin-left: auto; font-family: var(--font-mono); color: var(--text-primary); }
+
+        .stats-foot { margin-top: 0.9rem; font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); }
+
+        /* Explorer card grid: folders and files as visual cards. */
         .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.9rem;
+        }
+
+        .card {
+            position: relative;
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            background: var(--card-bg);
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            gap: 1px;
-            background: var(--border-subtle);
-            border: 1px solid var(--border-subtle);
+            transition: border-color 140ms ease, transform 140ms ease;
         }
 
-        .row {
-            position: relative;
-            background: var(--bg-void);
-            transition: background 0.3s ease;
-        }
+        .card:hover { border-color: var(--border-strong); transform: translateY(-1px); }
 
-        .row:hover { background: var(--bg-surface); }
+        .card:hover .card-name { color: var(--accent-cyan); }
 
-        .row-link {
-            display: block;
-            padding: 1.1rem 1.3rem;
+        .card-link {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
             color: inherit;
             text-decoration: none;
         }
 
-        .row-top {
+        .card-thumb {
+            height: 104px;
             display: flex;
-            align-items: baseline;
-            gap: 1rem;
-            padding-right: 1.9rem;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border-subtle);
         }
 
-        .row-title {
-            font-size: 0.95rem;
+        .card-thumb svg { width: 44px; height: 44px; }
+
+        .card-dir .card-thumb svg { color: var(--accent-gold); }
+
+        .card-file .card-thumb svg { color: var(--accent-steel); }
+
+        .card-live .card-thumb svg { color: var(--accent-amber); }
+
+        .card-body {
+            padding: 0.7rem 0.8rem 0.8rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+            flex: 1;
+        }
+
+        .card-name {
+            font-size: 0.85rem;
             font-weight: 500;
+            line-height: 1.35;
             color: var(--text-primary);
+            overflow-wrap: anywhere;
         }
 
-        .row:hover .row-title { color: var(--accent-cyan); }
+        .card-name mark {
+            background: var(--accent-cyan-dim);
+            color: var(--accent-cyan);
+            padding: 0 0.1em;
+        }
 
-        .row-path {
-            margin-left: auto;
+        .card-sub {
             font-family: var(--font-mono);
             font-size: 0.58rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
+            letter-spacing: 0.06em;
             color: var(--text-muted);
-            white-space: nowrap;
+            overflow-wrap: anywhere;
         }
 
-        .row-kind {
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: auto;
+            padding-top: 0.25rem;
+        }
+
+        .card-kind {
             flex-shrink: 0;
             font-family: var(--font-mono);
             font-size: 0.5rem;
@@ -417,31 +555,14 @@
             border: 1px solid var(--accent-cyan);
             border-radius: 2px;
             padding: 0.1rem 0.4rem;
-            margin-left: 0.5rem;
         }
 
-        .row-snippet {
-            margin-top: 0.45rem;
-            font-size: 0.8rem;
-            font-weight: 300;
-            line-height: 1.6;
-            color: var(--text-secondary);
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
+        .card-dir .card-kind { color: var(--accent-gold); border-color: var(--accent-gold); }
 
-        .row-snippet mark, .row-title mark {
-            background: var(--accent-cyan-dim);
-            color: var(--accent-cyan);
-            padding: 0 0.1em;
-        }
-
-        .row-pin {
+        .card-pin {
             position: absolute;
-            top: 0.65rem;
-            right: 0.5rem;
+            top: 0.4rem;
+            right: 0.4rem;
             width: 26px;
             height: 26px;
             display: inline-flex;
@@ -454,11 +575,9 @@
             transition: color 0.3s ease;
         }
 
-        .row-pin:hover { color: var(--accent-cyan); }
+        .card-pin:hover { color: var(--accent-cyan); }
 
-        .row-pin.pinned { color: var(--accent-gold); }
-
-        .facet-star { color: var(--accent-gold); margin-right: 0.35em; }
+        .card-pin.pinned { color: var(--accent-gold); }
 
         .empty {
             border: 1px solid var(--border-subtle);
@@ -543,7 +662,6 @@
         footer a:hover { color: var(--accent-cyan); }
 
         @media (max-width: 860px) {
-            .stats { grid-template-columns: 1fr; }
             .row-path { display: none; }
         }
     </style>
@@ -561,30 +679,30 @@
 
     <div class="page">
         <header>
-            <h1>Notes<em>.</em></h1>
+            <div class="titlebar">
+                <h1>Notes<em>.</em></h1>
+                <button type="button" class="stats-btn" id="stats-btn" aria-haspopup="dialog">stats</button>
+            </div>
             <p class="lede">
                 The written corpus behind <strong>Naturgnosis</strong> &mdash;
                 long-form notes on the spaces it maps. Plain markdown,
                 indexed and searchable.
             </p>
-            <div class="stats">
-                <div class="stat"><div class="value pending" id="stat-notes">&mdash;</div><div class="label">Notes</div></div>
-                <div class="stat"><div class="value pending" id="stat-sections">&mdash;</div><div class="label">Sections</div></div>
-                <div class="stat"><div class="value pending" id="stat-words">&mdash;</div><div class="label">Words</div></div>
-            </div>
         </header>
 
         <div class="toolbar">
+            <div class="viewbar" id="viewbar" role="group" aria-label="Catalog view">
+                <button type="button" class="viewbtn" data-view="browse">browse</button>
+                <button type="button" class="viewbtn" data-view="files">files</button>
+                <button type="button" class="viewbtn" id="pins-toggle" aria-pressed="false" title="Show pinned notes only">&#9733; pinned</button>
+            </div>
             <div class="search-wrap">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                 <input type="search" id="search" placeholder="search the corpus&hellip;  ( / )" aria-label="Search notes" autocomplete="off">
             </div>
-            <div class="facets" id="facets" role="group" aria-label="Section filters"></div>
-            <div class="tagbar" id="tagbar" hidden>
-                <span class="tagbar-label">tags</span>
-                <div class="facets" id="tag-facets" role="group" aria-label="Tag filters"></div>
-            </div>
         </div>
+
+        <div class="crumbbar" id="crumbbar" hidden></div>
 
         <div class="results" id="results"></div>
         <div class="empty" id="empty" hidden>no notes match.</div>
@@ -593,6 +711,16 @@
             <span class="page-ind" id="page-ind">page 1 / 1</span>
             <button type="button" class="page-btn" id="page-next">next &rarr;</button>
         </div>
+    </div>
+
+    <div class="stats-overlay" id="stats-overlay"></div>
+    <div class="stats-modal" id="stats-modal" role="dialog" aria-modal="true" aria-label="Catalog statistics">
+        <div class="stats-header">
+            <span class="stats-eyebrow">Corpus</span>
+            <h3 class="stats-title">Catalog Statistics</h3>
+            <button class="stats-close" id="stats-close" aria-label="Close statistics">&times;</button>
+        </div>
+        <div class="stats-body" id="stats-body"></div>
     </div>
 
     <footer>
@@ -610,11 +738,13 @@
         'use strict';
 
         var NOTES = [];
-        var state = { q: '', section: 'all', tag: 'all', page: 1, pageSize: 20, tagsExpanded: false };
-        var TAG_LIMIT = 15;    /* tag facets shown before "show all" */
+        var IDX = null;
+        var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+        var VIEWS = ['browse', 'files'];
+        var GRID_PAGE = 48;
+        var state = { q: '', section: 'all', dir: '', view: 'browse', page: 1, pageSize: GRID_PAGE };
         var PINS = [];          /* pinned note paths, server order */
         var pinsAvailable = false;
-        var rowH = 66;
         var lastTotalPages = 1;
         var resultsEl = document.getElementById('results');
         var emptyEl = document.getElementById('empty');
@@ -733,14 +863,6 @@
             return esc(text.slice(0, i)) + '<mark>' + esc(text.slice(i, i + q.length)) + '</mark>' + esc(text.slice(i + q.length));
         }
 
-        function snippet(text, q) {
-            if (!q) return text.slice(0, 180);
-            var i = text.indexOf(q.toLowerCase());
-            if (i < 0) return text.slice(0, 180);
-            var start = Math.max(0, i - 60);
-            return (start > 0 ? '\u2026' : '') + text.slice(start, start + 180);
-        }
-
         function liveSub(n) {
             if (n.kind !== 'live') return '';
             var parts = String(n.path || '').split('/');
@@ -762,44 +884,65 @@
 
         function isPinned(p) { return PINS.indexOf(p) >= 0; }
 
-        function hasTag(n, tag) { return tag === 'all' || (n.tags && n.tags.indexOf(tag) >= 0); }
+        function parentDir(p) {
+            var i = p.lastIndexOf('/');
+            return i < 0 ? '' : p.slice(0, i);
+        }
+
+        /* Directory deep link (?dir=a/b): kebab segments only, never a file. */
+        function validDir(d) {
+            if (!d || d.length > 200) return '';
+            var parts = d.split('/');
+            for (var i = 0; i < parts.length; i++) {
+                if (!SEG_RE.test(parts[i])) return '';
+            }
+            return parts.join('/');
+        }
+
+        function inDir(n) { return !state.dir || parentDir(n.path) === state.dir; }
+
+        /* Browse file list: strict level scoping — only the files living
+           directly in state.dir (at root: only truly root-level notes,
+           normally none). The files view keeps the looser inDir filter so
+           ?dir= deep links still flatten a subtree. */
+        function browseFiles() {
+            var q = state.q.trim().toLowerCase();
+            var list = NOTES.filter(function (n) {
+                if (state.section === 'pinned' && !isPinned(n.path)) return false;
+                if (parentDir(n.path) !== state.dir) return false;
+                if (!q) return true;
+                return score(n, q) >= 0;
+            });
+            if (q) list = sortScored(list, q);
+            return list;
+        }
+
+        function sortScored(list, q) {
+            return list.map(function (n) { return { n: n, s: score(n, q) }; })
+                .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
+                .map(function (x) { return x.n; });
+        }
 
         /* ---------- render ---------- */
 
         function filteredList() {
             var q = state.q.trim().toLowerCase();
-            var list;
-            if (state.section === 'pinned') {
-                list = NOTES.filter(function (n) { return isPinned(n.path) && hasTag(n, state.tag); });
-            } else {
-                list = NOTES.filter(function (n) {
-                    if (state.section !== 'all' && n.section !== state.section) return false;
-                    if (!hasTag(n, state.tag)) return false;
-                    if (!q) return true;
-                    return score(n, q) >= 0;
-                });
-            }
+            var list = NOTES.filter(function (n) {
+                if (state.section === 'pinned' && !isPinned(n.path)) return false;
+                if (!inDir(n)) return false;
+                if (!q) return true;
+                return score(n, q) >= 0;
+            });
             if (q) {
-                list = list.map(function (n) { return { n: n, s: score(n, q) }; })
-                    .sort(function (a, b) { return a.s - b.s || a.n.title.localeCompare(b.n.title); })
-                    .map(function (x) { return x.n; });
+                list = sortScored(list, q);
             }
             return list;
-        }
-
-        /* Rows per page: whatever fills the viewport below the toolbar,
-           minus footer, page padding, pager, and a little slack. */
-        function sizeFor() {
-            var top = resultsEl.getBoundingClientRect().top;
-            var foot = document.querySelector('footer').offsetHeight;
-            var avail = window.innerHeight - top - foot - 112;
-            return Math.max(3, Math.min(60, Math.floor(Math.max(avail, 200) / rowH)));
         }
 
         function pinButtonHtml(path) {
             if (!pinsAvailable) return '';
             var on = isPinned(path);
-            return '<button type="button" class="row-pin' + (on ? ' pinned' : '') + '"' +
+            return '<button type="button" class="card-pin' + (on ? ' pinned' : '') + '"' +
                 ' data-path="' + esc(path) + '"' +
                 ' aria-pressed="' + (on ? 'true' : 'false') + '"' +
                 ' aria-label="' + (on ? 'Unpin note' : 'Pin note') + '"' +
@@ -808,44 +951,137 @@
                 '</button>';
         }
 
-        function tagsHtml(n) {
-            if (!n.tags || !n.tags.length) return '';
-            var out = ['<div class="row-tags">'];
-            for (var i = 0; i < n.tags.length; i++) {
-                out.push('<button type="button" class="row-tag' + (state.tag === n.tags[i] ? ' active' : '') + '"' +
-                    ' data-tag="' + esc(n.tags[i]) + '">#' + esc(n.tags[i]) + '</button>');
-            }
-            out.push('</div>');
-            return out.join('');
+        function fileHref(n) {
+            return n.kind === 'live' ? '../data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
         }
 
-        function buildRows(list) {
+        var ICON_DIR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>';
+
+        var ICON_FILE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
+
+        /* File card: file glyph, title + path. */
+        function fileCard(n, q) {
+            var live = n.kind === 'live';
+            var sub = live ? liveSub(n) : '';
+            return '<div class="card ' + (live ? 'card-live' : 'card-file') + '">' +
+                '<a class="card-link" href="' + fileHref(n) + '">' +
+                '<div class="card-thumb">' + ICON_FILE + '</div>' +
+                '<div class="card-body">' +
+                '<div class="card-name">' + hl(n.title, q) + '</div>' +
+                (live ? '' : '<div class="card-sub">' + esc(n.path) + '</div>') +
+                (live ? '<div class="card-meta"><span class="card-kind">live</span>' +
+                    (sub ? '<span class="card-kind">#' + esc(sub) + '</span>' : '') + '</div>' : '') +
+                '</div></a>' +
+                pinButtonHtml(n.path) +
+                '</div>';
+        }
+
+        /* Folder card: folder glyph, name + note count. Enters the
+           directory in place (pushState), no page reload. */
+        function dirCard(s, q) {
+            return '<div class="card card-dir">' +
+                '<a class="card-link" href="' + navHref(s.path) + '" data-navdir="' + esc(s.path) + '">' +
+                '<div class="card-thumb">' + ICON_DIR + '</div>' +
+                '<div class="card-body">' +
+                '<div class="card-name">' + hl(s.name, q) + '</div>' +
+                '<div class="card-meta"><span class="card-kind">dir</span>' +
+                '<span class="card-sub">' + s.count + (s.count === 1 ? ' note' : ' notes') + '</span></div>' +
+                '</div></a></div>';
+        }
+
+        function dirCards(subs) {
+            var q = state.q.trim().toLowerCase();
+            return subs.map(function (s) { return dirCard(s, q); }).join('');
+        }
+
+        function fileCards(list) {
             var q = state.q.trim().toLowerCase();
             var start = (state.page - 1) * state.pageSize;
-            var slice = list.slice(start, start + state.pageSize);
-            var out = [];
-            for (var i = 0; i < slice.length; i++) {
-                var n = slice[i];
-                var snip = snippet(n.text, q);
-                var live = n.kind === 'live';
-                var href = live ? '../data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
-                var sub = live ? liveSub(n) : '';
-                var top = '<div class="row-top"><span class="row-title">' + hl(n.title, q) + '</span>' +
-                    (live ? '<span class="row-kind">live</span>' : '') +
-                    (sub ? '<span class="row-tag">#' + esc(sub) + '</span>' : '') +
-                    (live ? '' : '<span class="row-path">' + esc(n.path) + '</span>') + '</div>';
-                out.push(
-                    '<div class="row">' +
-                    '<a class="row-link" href="' + href + '">' +
-                    top +
-                    '<div class="row-snippet">' + hl(snip, q) + '</div>' +
-                    '</a>' +
-                    tagsHtml(n) +
-                    pinButtonHtml(n.path) +
-                    '</div>'
-                );
+            return list.slice(start, start + state.pageSize).map(function (n) { return fileCard(n, q); }).join('');
+        }
+
+        /* Immediate subfolders of state.dir, with note counts. A folder
+           shows when it holds a note matching the query (if any); the
+           pinned filter scopes both files and folders to pinned notes. */
+        function dirSubdirs() {
+            if (!state.dir) return [];
+            var q = state.q.trim().toLowerCase();
+            var map = {};
+            NOTES.forEach(function (n) {
+                if (state.section === 'pinned' && !isPinned(n.path)) return;
+                var pre = state.dir + '/';
+                if (n.path.indexOf(pre) !== 0) return;
+                var rest = n.path.slice(pre.length);
+                var slash = rest.indexOf('/');
+                if (slash < 0) return;
+                var seg = rest.slice(0, slash);
+                var e = map[seg] || (map[seg] = { name: seg, path: state.dir + '/' + seg, count: 0, hit: false });
+                e.count++;
+                if (!q || score(n, q) >= 0) e.hit = true;
+            });
+            return Object.keys(map).sort().filter(function (k) { return map[k].hit; }).map(function (k) { return map[k]; });
+        }
+
+        /* Top-level folders for the root browse view (sections as dirs). */
+        function rootSections() {
+            var q = state.q.trim().toLowerCase();
+            var map = {};
+            NOTES.forEach(function (n) {
+                if (state.section === 'pinned' && !isPinned(n.path)) return;
+                var seg = n.path.split('/')[0] || n.path;
+                var e = map[seg] || (map[seg] = { name: seg, path: seg, count: 0, hit: false });
+                e.count++;
+                if (!q || score(n, q) >= 0) e.hit = true;
+            });
+            return Object.keys(map).sort().filter(function (k) { return map[k].hit; }).map(function (k) { return map[k]; });
+        }
+
+        /* Shareable browse URL for a directory (browse view, current filters). */
+        function navHref(dir) {
+            var sp = new URLSearchParams();
+            sp.set('view', 'browse');
+            if (dir) sp.set('dir', dir);
+            if (state.section === 'pinned') sp.set('section', 'pinned');
+            return 'index.html?' + sp.toString();
+        }
+
+        function crumbsHtml() {
+            var parts = state.dir.split('/');
+            var html = '<a href="index.html" data-navhome>notes</a>';
+            var prefix = [];
+            for (var i = 0; i < parts.length; i++) {
+                prefix.push(parts[i]);
+                html += '<span class="sep">/</span>';
+                if (i === parts.length - 1) {
+                    html += '<span class="here">' + esc(parts[i]) + '</span>';
+                } else {
+                    html += '<a href="' + navHref(prefix.join('/')) + '" data-navdir="' + esc(prefix.join('/')) + '">' + esc(parts[i]) + '</a>';
+                }
             }
-            resultsEl.innerHTML = out.join('');
+            return html;
+        }
+
+        /* Breadcrumb: which directory the catalog is showing. Ancestors
+           jump back without a reload; the files view shows the count line. */
+        function renderCrumbbar(subs, fileCount) {
+            var bar = document.getElementById('crumbbar');
+            var filtered = state.dir || state.section !== 'all';
+            if (!state.dir && state.view !== 'files' && !filtered) {
+                bar.hidden = true;
+                bar.innerHTML = '';
+                return;
+            }
+            bar.hidden = false;
+            var html = state.dir ? crumbsHtml() : '<a href="index.html" data-navhome>notes</a>';
+            html += '<span class="count">' + fileCount + (fileCount === 1 ? ' note' : ' notes');
+            if (state.view === 'browse') {
+                html += ' &middot; ' + subs.length + (subs.length === 1 ? ' folder' : ' folders');
+            }
+            html += '</span>';
+            if (filtered) {
+                html += '<a class="crumbbar-clear" href="index.html" data-navclear>&times; all notes</a>';
+            }
+            bar.innerHTML = html;
         }
 
         function updatePager(count, totalPages) {
@@ -861,33 +1097,126 @@
             nextBtn.disabled = state.page >= totalPages;
         }
 
+        /* ---------- navigation (pushState file browsing) ---------- */
+
+        function snapshot() {
+            return { view: state.view, dir: state.dir, section: state.section, q: state.q };
+        }
+
+        function syncUrl(push) {
+            try {
+                var sp = new URLSearchParams();
+                sp.set('view', state.view);
+                if (state.dir) sp.set('dir', state.dir);
+                if (state.section === 'pinned') sp.set('section', 'pinned');
+                if (state.q.trim()) sp.set('q', state.q.trim());
+                var url = 'index.html?' + sp.toString();
+                if (push) history.pushState(snapshot(), '', url);
+                else history.replaceState(null, '', url);
+            } catch (e) { /* file:// or old browser: URL stays as-is */ }
+        }
+
+        function readUrl() {
+            var qs;
+            try { qs = new URLSearchParams(window.location.search); }
+            catch (e) { return; }
+            /* Legacy ?view=dirs|tree falls through to browse; legacy
+               ?tag= and non-pinned ?section= are retired (ignored). */
+            var v = (qs.get('view') || 'browse').toLowerCase();
+            state.view = v === 'files' ? 'files' : 'browse';
+            var d = qs.get('dir');
+            state.dir = d ? validDir(d) : '';
+            var s = qs.get('section');
+            state.section = (s && s.toLowerCase() === 'pinned') ? 'pinned' : 'all';
+            var q = qs.get('q');
+            state.q = q ? q.slice(0, 200) : '';
+            state.page = 1;
+        }
+
+        /* In-place navigation: folder cards, breadcrumb, view switch. */
+        function navigate(patch, push) {
+            if (patch.view !== undefined) state.view = patch.view;
+            if (patch.dir !== undefined) state.dir = patch.dir;
+            if (patch.section !== undefined) state.section = patch.section;
+            state.page = 1;
+            syncUrl(push !== false);
+            render();
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        /* Pinned filter: kept while section/tag facets are gone. */
+        function togglePinned() {
+            state.section = state.section === 'pinned' ? 'all' : 'pinned';
+            state.page = 1;
+            syncUrl(false);
+            render();
+        }
+
+        function setView(v) {
+            if (VIEWS.indexOf(v) < 0 || v === state.view) return;
+            navigate({ view: v });
+        }
+
+        function renderViewbar() {
+            var btns = document.querySelectorAll('#viewbar .viewbtn[data-view]');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', btns[i].getAttribute('data-view') === state.view);
+            }
+            var pin = document.getElementById('pins-toggle');
+            var on = state.section === 'pinned';
+            pin.classList.toggle('active', on);
+            pin.setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+
+        /* ---------- stats modal (explorer stats-modal pattern) ---------- */
+
+        function fillStats() {
+            var words = 0;
+            NOTES.forEach(function (n) { words += n.words; });
+            var secs = (IDX && IDX.sections) || {};
+            var names = Object.keys(secs).sort();
+            var html = '<div class="stats-grid">' +
+                '<div class="stats-cell"><div class="v">' + NOTES.length + '</div><div class="l">Notes</div></div>' +
+                '<div class="stats-cell"><div class="v">' + names.length + '</div><div class="l">Sections</div></div>' +
+                '<div class="stats-cell"><div class="v">' + (words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words)) + '</div><div class="l">Words</div></div>' +
+                '</div>' +
+                '<div class="stats-sec-title">Sections</div>' +
+                names.map(function (s) {
+                    return '<div class="stats-row"><span>' + esc(s) + '</span><span class="n">' + secs[s] + '</span></div>';
+                }).join('') +
+                '<div class="stats-foot">index ' + esc(IDX && IDX.generated ? IDX.generated : '\u2014') + '</div>';
+            document.getElementById('stats-body').innerHTML = html;
+        }
+
+        function openStats() {
+            fillStats();
+            document.getElementById('stats-overlay').classList.add('open');
+            document.getElementById('stats-modal').classList.add('open');
+        }
+
+        function closeStats() {
+            document.getElementById('stats-overlay').classList.remove('open');
+            document.getElementById('stats-modal').classList.remove('open');
+        }
+
+        function statsOpen() {
+            return document.getElementById('stats-modal').classList.contains('open');
+        }
+
         function render() {
-            var list = filteredList();
-            var s = sizeFor();
-            if (s !== state.pageSize) state.pageSize = s;
+            renderViewbar();
+            var list = state.view === 'browse' ? browseFiles() : filteredList();
+            var subs = state.view === 'browse' ? (state.dir ? dirSubdirs() : rootSections()) : [];
+            renderCrumbbar(subs, list.length);
             var totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
             if (state.page > totalPages) state.page = totalPages;
             if (state.page < 1) state.page = 1;
-            buildRows(list);
-
-            /* Calibrate row height against the real DOM once rows exist;
-               if it moves the page size, lay out once more. */
-            var row0 = resultsEl.querySelector('.row');
-            if (row0) {
-                var h = row0.offsetHeight + 1;
-                if (Math.abs(h - rowH) > 2) {
-                    rowH = h;
-                    s = sizeFor();
-                    if (s !== state.pageSize) {
-                        state.pageSize = s;
-                        totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
-                        if (state.page > totalPages) state.page = totalPages;
-                        buildRows(list);
-                    }
-                }
-            }
+            resultsEl.innerHTML = (state.view === 'browse' ? dirCards(subs) : '') + fileCards(list);
             lastTotalPages = totalPages;
             updatePager(list.length, totalPages);
+            /* Folders alone still count as a result: never show the empty
+               state while subfolders are listed. */
+            if (!list.length && subs.length) emptyEl.hidden = true;
         }
 
         function goToPage(p) {
@@ -900,87 +1229,6 @@
         prevBtn.addEventListener('click', function () { goToPage(state.page - 1); });
         nextBtn.addEventListener('click', function () { goToPage(state.page + 1); });
 
-        function renderFacets() {
-            var counts = { all: NOTES.length };
-            if (pinsAvailable) {
-                counts.pinned = NOTES.filter(function (n) { return isPinned(n.path); }).length;
-            }
-            NOTES.forEach(function (n) { counts[n.section] = (counts[n.section] || 0) + 1; });
-            var order = Object.keys(counts).sort(function (a, b) {
-                if (a === 'all') return -1;
-                if (b === 'all') return 1;
-                if (a === 'pinned') return -1;
-                if (b === 'pinned') return 1;
-                return a.localeCompare(b);
-            });
-            document.getElementById('facets').innerHTML = order.map(function (s) {
-                return '<button type="button" class="facet' + (state.section === s ? ' active' : '') + '" data-section="' + esc(s) + '">' +
-                    (s === 'pinned' ? '<span class="facet-star">\u2605</span>' : '') +
-                    esc(s) + '<span class="count">' + counts[s] + '</span></button>';
-            }).join('');
-        }
-
-        function sortedTags() {
-            var counts = {};
-            NOTES.forEach(function (n) {
-                (n.tags || []).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
-            });
-            var tags = Object.keys(counts).sort(function (a, b) {
-                return counts[b] - counts[a] || a.localeCompare(b);
-            });
-            return { tags: tags, counts: counts };
-        }
-
-        /* True when the active tag sits past the cap: the list then has to
-           render in full so the chip is never hidden by its own filter. */
-        function tagsOverflowActive(tags) {
-            return state.tag !== 'all' && tags.indexOf(state.tag) >= TAG_LIMIT;
-        }
-
-        function renderTagFacets() {
-            var t = sortedTags();
-            var tags = t.tags;
-            var counts = t.counts;
-            document.getElementById('tagbar').hidden = tags.length === 0;
-            var forced = tagsOverflowActive(tags);
-            var open = state.tagsExpanded || forced;
-            var shown = open ? tags : tags.slice(0, TAG_LIMIT);
-            var html = shown.map(function (tag) {
-                return '<button type="button" class="facet' + (state.tag === tag ? ' active' : '') + '" data-tag="' + esc(tag) + '">' +
-                    '#' + esc(tag) + '<span class="count">' + counts[tag] + '</span></button>';
-            });
-            if (tags.length > TAG_LIMIT) {
-                html.push('<button type="button" class="facet facet-toggle"' +
-                    ' aria-expanded="' + (open ? 'true' : 'false') + '"' +
-                    ' aria-label="' + (open ? 'Collapse tag list' : 'Show all ' + tags.length + ' tags') + '">' +
-                    (open ? 'show less' : 'show all (' + tags.length + ')') + '</button>');
-            }
-            document.getElementById('tag-facets').innerHTML = html.join('');
-        }
-
-        function toggleTagList(btn) {
-            if (btn.getAttribute('aria-expanded') === 'true') {
-                /* Collapsing while a hidden tag is active would strand the
-                   filter on an invisible chip — drop the filter with it. */
-                if (tagsOverflowActive(sortedTags().tags)) {
-                    state.tag = 'all';
-                    state.page = 1;
-                }
-                state.tagsExpanded = false;
-            } else {
-                state.tagsExpanded = true;
-            }
-            renderTagFacets();
-            render();
-        }
-
-        function setTag(t) {
-            state.tag = (state.tag === t) ? 'all' : t;
-            state.page = 1;
-            renderTagFacets();
-            render();
-        }
-
         /* ---------- pins ---------- */
 
         function togglePin(path) {
@@ -988,7 +1236,6 @@
             var prev = PINS.slice();
             if (on) PINS.push(path);
             else PINS = PINS.filter(function (p) { return p !== path; });
-            renderFacets();
             render();
             fetch('/note/api/pins', {
                 method: 'POST',
@@ -999,25 +1246,72 @@
                 return r.json();
             }).catch(function (err) {
                 PINS = prev;
-                renderFacets();
                 render();
                 console.warn('pin update failed:', err);
             });
         }
 
         resultsEl.addEventListener('click', function (e) {
-            var btn = e.target.closest('.row-pin');
+            var btn = e.target.closest('.card-pin');
             if (btn) {
                 e.preventDefault();
                 togglePin(btn.dataset.path);
                 return;
             }
-            var tag = e.target.closest('.row-tag');
-            if (tag) {
+            var nav = e.target.closest('[data-navdir]');
+            if (nav) {
                 e.preventDefault();
-                setTag(tag.dataset.tag);
+                navigate({ view: 'browse', dir: nav.getAttribute('data-navdir') });
             }
         });
+
+        /* ---------- view switcher, breadcrumb, stats modal ---------- */
+
+        document.getElementById('viewbar').addEventListener('click', function (e) {
+            var btn = e.target.closest('.viewbtn[data-view]');
+            if (btn) setView(btn.getAttribute('data-view'));
+        });
+
+        document.getElementById('crumbbar').addEventListener('click', function (e) {
+            var nav = e.target.closest('[data-navdir]');
+            if (nav) {
+                e.preventDefault();
+                navigate({ view: 'browse', dir: nav.getAttribute('data-navdir') });
+                return;
+            }
+            if (e.target.closest('[data-navclear]')) {
+                e.preventDefault();
+                navigate({ dir: '', section: 'all' });
+                return;
+            }
+            if (e.target.closest('[data-navhome]')) {
+                e.preventDefault();
+                navigate({ view: 'browse', dir: '' });
+            }
+        });
+
+        /* Browser Back/Forward restores the pushed filter snapshot. */
+        window.addEventListener('popstate', function (e) {
+            var s = (e.state && e.state.view) ? e.state : null;
+            if (s) {
+                state.view = VIEWS.indexOf(s.view) >= 0 ? s.view : 'browse';
+                state.dir = s.dir || '';
+                state.section = s.section === 'pinned' ? 'pinned' : 'all';
+                if (typeof s.q === 'string') {
+                    state.q = s.q;
+                    document.getElementById('search').value = s.q;
+                }
+            } else {
+                readUrl();
+                document.getElementById('search').value = state.q;
+            }
+            state.page = 1;
+            render();
+        });
+
+        document.getElementById('stats-btn').addEventListener('click', openStats);
+        document.getElementById('stats-close').addEventListener('click', closeStats);
+        document.getElementById('stats-overlay').addEventListener('click', closeStats);
 
         /* ---------- boot ---------- */
 
@@ -1028,11 +1322,7 @@
             })
             .then(function (idx) {
                 NOTES = idx.notes;
-                document.getElementById('stat-notes').textContent = String(idx.count);
-                document.getElementById('stat-sections').textContent = String(Object.keys(idx.sections).length);
-                var words = 0;
-                NOTES.forEach(function (n) { words += n.words; });
-                document.getElementById('stat-words').textContent = words > 999 ? (words / 1000).toFixed(1) + 'k' : String(words);
+                IDX = idx;
                 document.getElementById('foot-date').textContent = idx.generated;
                 /* Pins degrade silently: no API -> no pin UI. */
                 return fetch('/note/api/pins', { headers: { 'Accept': 'application/json' } })
@@ -1049,16 +1339,13 @@
                     .catch(function () { pinsAvailable = false; });
             })
             .then(function () {
-                try {
-                    var qs = new URLSearchParams(window.location.search);
-                    var presetTag = qs.get('tag');
-                    if (presetTag) state.tag = presetTag.toLowerCase();
-                    var presetSection = qs.get('section');
-                    if (presetSection) state.section = presetSection.toLowerCase();
-                } catch (e) { /* ignore malformed query */ }
-                renderFacets();
-                renderTagFacets();
+                readUrl();
+                document.getElementById('search').value = state.q;
+                if (state.dir) document.title = state.dir + ' · Notes';
+                else if (state.view === 'files') document.title = 'All files · Notes';
+                else if (state.section === 'pinned') document.title = 'Pinned · Notes';
                 render();
+                syncUrl(false);
             })
             .catch(function () {
                 document.getElementById('empty').hidden = false;
@@ -1076,24 +1363,7 @@
             }, 120);
         });
 
-        document.getElementById('facets').addEventListener('click', function (e) {
-            var btn = e.target.closest('.facet');
-            if (!btn) return;
-            state.section = btn.dataset.section;
-            state.page = 1;
-            renderFacets();
-            render();
-        });
-
-        document.getElementById('tag-facets').addEventListener('click', function (e) {
-            var btn = e.target.closest('.facet');
-            if (!btn) return;
-            if (btn.classList.contains('facet-toggle')) {
-                toggleTagList(btn);
-                return;
-            }
-            setTag(btn.dataset.tag);
-        });
+        document.getElementById('pins-toggle').addEventListener('click', togglePinned);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {
@@ -1102,6 +1372,7 @@
         });
 
         document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && statsOpen()) { closeStats(); return; }
             var el = document.activeElement;
             var typing = !!el && (el === input || el.tagName === 'INPUT' || el.tagName === 'TEXTAREA');
             if (e.key === 'Escape' && document.activeElement === input) { input.blur(); return; }
