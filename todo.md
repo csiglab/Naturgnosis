@@ -1233,3 +1233,54 @@
     - https://arxiv.org/abs/2202.00817
     - https://arxiv.org/abs/2607.13335
     - https://jeremybernste.in/writing/deriving-muon
+
+
+## Variable Interaction
+
+
+| Relationship              | Form                  | Meaning                          |
+| ------------------------- | --------------------- | -------------------------------- |
+| Additive                  | \(X+Z\)               | Independent contributions        |
+| Multiplicative            | \(XZ\)                | Joint/product effect             |
+| Interaction in regression | \(\beta_3XZ\)         | Effect of \(X\) depends on \(Z\) |
+| Exponential               | \(e^{\beta X}\)       | Percentage/proportional effect   |
+| Cobb–Douglas              | \(AX^\alpha Z^\beta\) | Inputs combine multiplicatively  |
+
+
+
+======================
+
+- How to match a concil -> agency?
+- https://archive.org/details/al-farabi-on-the-perfect-state-walzer/mode/2update
+- How to move the relevant elements from Naturgnosis to Epistemica?
+- https://1five9.github.io/
+- https://en.wikipedia.org/wiki/Polity
+- https://en.wikipedia.org/wiki/Body_politic
+- https://archive.org/search?query=creator%3A"Sociedad+Económica+de+Amigos+del+País+(Guatemala)"
+- https://es.wikipedia.org/wiki/Jacobo_de_Villaurrutia
+- https://en.wikipedia.org/wiki/Corporation
+- https://www.tandfonline.com/doi/full/10.1080/00076791.2024.2415452
+- How did corporation ; or legal personhood was stablish?
+
+Public Funded Privated Operation Organization
+
+Funding
+Operation
+Evaluation
+
+
+-  Roberts, Alasdair S., Performance-Based Organizations: Assessing the Gore Plan (June 30, 1997). Public Administration Review, Vol. 57, No. 6, pp. 465-478, December 1997, Available at SSRN: https://ssrn.com/abstract=1309151
+
+Roberts, Alasdair. Public Works and Government Services: Beautiful Theory Meets Ugly Reality. HOW OTTAWA SPENDS, G. Swimmer, ed., pp. 171-203 Ottawa: Carleton University Press, 1996
+
+
+https://en.wikipedia.org/wiki/Business_Development_Bank_of_Canada
+https://en.wikipedia.org/wiki/Scottish_National_Investment_Bank
+https://en.wikipedia.org/wiki/Incorporated_administrative_agency
+https://en.wikipedia.org/wiki/Statutory_corporation
+https://en.wikipedia.org/wiki/Public_bodies_of_the_Scottish_Government
+https://en.wikipedia.org/wiki/Government_agencies_in_Sweden
+https://www.government.se/government-agencies/
+
+
+Yin, Jianfeng; Wu, Jianwei; Wang, Ze
