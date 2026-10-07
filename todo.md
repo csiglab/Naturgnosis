@@ -1,5 +1,8 @@
-- Leo Nagano - https://www.leonagano.com/ (Human) (Socio Ontic)
-- https://es.wikipedia.org/wiki/Costum_de_Valencia
+https://www.mrdi.org.hk/en/about-mrdi/Team
+
+
+Allow the link - as a cognitive aid.
+
 - We should allow for deletions.
 - How it's revenew recogniized using accounting?
 - Does the term token economy makes sense?
@@ -27,16 +30,6 @@
   - How to model  Interest Rate?
 - Money Market (https://en.wikipedia.org/wiki/Money_market)
 - Relative Strengh Index  (Technical Indicator)
-- Thessaloniki
-- Patras
-- Athens
-- Cañada Real
-- Rentabilida
-- [Wang Xing](https://en.wikipedia.org/wiki/Wang_Xing)
-- Groupon, Inc.
-- Piamonte
-- Mancomunidad
-- KKR & Co. Inc.,
 
 ## Production 
 
