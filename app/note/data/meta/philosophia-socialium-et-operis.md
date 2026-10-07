@@ -376,7 +376,8 @@ The tree is governed by the following rules:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Technical Activity](note.html?n=social/action/activity/technical/technical-activity.md)
+- [Research Activity](note.html?n=social/action/activity/research/research.md)
+- [Technical Activity](note.html?n=social/action/activity/research/technical/technical-activity.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md)
 - [Policy](note.html?n=social/government/guidance/policy.md)
 - [Principle](note.html?n=social/action/guidance/principle.md)

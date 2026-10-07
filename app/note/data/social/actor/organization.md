@@ -111,7 +111,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 - [Public Organization](note.html?n=social/actor/public-organization.md) (government subtype; carries the agency-space QA)
 - [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
 - [Social Group](note.html?n=social/actor/group.md) (interacting aggregate — not an organization)
-- [Political Party](note.html?n=social/actor/party/political-party.md) (political subtype of Organization)
+- [Political Party](note.html?n=social/actor/political-party.md) (political subtype of Organization)
 - [Market](note.html?n=social/market/market.md) (arena organizations act in)
 - [Product](note.html?n=social/product.md) (exchangeable outcome member firms offer)
 - Graph nodes of the same names: `organization`, `public-organization`, `firm`, `Non-Governmental Organization (NGO)`, `Religious Organization`, `government-agencies`, `executive-agency`, `statutory-boards-and-councils`, `reality.market`, `product` (Social Space, dataset `social`)
