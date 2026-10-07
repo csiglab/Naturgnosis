@@ -185742,5 +185742,32 @@
         "description": "Persona note in the Note Space."
       }
     ]
+  },
+  {
+    "id": "mother-fund",
+    "name": "Mother Fund",
+    "tags": [
+      "arbitriologia-import"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "Pools capital from investors to channel money into a portfolio of guidance (child) funds.",
+    "longDescription": "Pools capital from investors to channel money into a portfolio of guidance (child) funds.",
+    "chronology": {
+      "summary": "Financial Actors",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.55,
+      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Facet/Miscellanea/Market/Instance/Finantial/README.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Financial Actors)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
   }
 ]
