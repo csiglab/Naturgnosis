@@ -74608,10 +74608,10 @@
     "tags": [
       "arbitriologia-import"
     ],
-    "category": "Rule",
-    "layer": "Normative",
-    "description": "Discrete mobilization effort derived from a strategic objective.",
-    "longDescription": "Discrete mobilization effort derived from a strategic objective. (Source type: Strategic Activation Unit.)",
+    "category": "Initiative",
+    "layer": "Ontic",
+    "description": "Bounded undertaking launched to pursue a new objective.",
+    "longDescription": "Initiative is the organization form that charters a fresh doing outside routine: a sponsor committing, a team gathering, and milestones judging whether the new objective is met. (Source type: Strategic Activation Unit.)",
     "chronology": {
       "summary": "Translation: Strategy → Execution",
       "events": []
@@ -74623,7 +74623,8 @@
       "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Onto/Guide/Agency.md",
       "createdAt": "2026-09-28T00:00:00Z",
       "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Translation: Strategy → Execution)"
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Translation: Strategy → Execution)",
+        "taxonomy-alignment 2026-10-07: Action Organization branch (category Rule->Initiative, layer Normative->Ontic, description aligned)"
       ],
       "inheritanceLevel": 0
     },
@@ -162863,10 +162864,10 @@
     "tags": [
       "arbitriologia-import"
     ],
-    "category": "Strategy",
-    "layer": "Agentic",
-    "description": "Multi-period capability build path linking strategy to execution waves.",
-    "longDescription": "Multi-period capability build path linking strategy to execution waves. (Source type: Sequencing & Capability Development Structure.)",
+    "category": "Roadmap",
+    "layer": "Synontic",
+    "description": "Sequenced long-range outlook aligning planned moves with milestones.",
+    "longDescription": "Roadmap is the organization form that binds a horizon to a path: themes declared, milestones fixed, dependencies mapped, and assumptions stated. (Source type: Sequencing & Capability Development Structure.)",
     "chronology": {
       "summary": "Translation: Strategy → Execution",
       "events": []
@@ -162878,7 +162879,8 @@
       "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Onto/Guide/Agency.md",
       "createdAt": "2026-09-28T00:00:00Z",
       "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Translation: Strategy → Execution)"
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Translation: Strategy → Execution)",
+        "taxonomy-alignment 2026-10-07: Action Organization branch (category Strategy->Roadmap, layer Agentic->Synontic, description aligned)"
       ],
       "inheritanceLevel": 0
     },
@@ -172069,9 +172071,9 @@
       "arbitriologia-import"
     ],
     "category": "Strategy",
-    "layer": "Agentic",
-    "description": "Coordinated plan to achieve long-term objectives.",
-    "longDescription": "Coordinated plan to achieve long-term objectives.",
+    "layer": "Normative",
+    "description": "Deliberate selection of ends and means over a horizon, coordinating action across agents.",
+    "longDescription": "Strategy is the guidance coordinator that fixes what is pursued and how, so that subsequent decisions (policies, plans, programs, projects) inherit direction instead of improvising it.",
     "chronology": {
       "summary": "Agential Action Hierarchy",
       "events": []
@@ -172083,7 +172085,8 @@
       "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Breviarium/agent-social-reality-reflection-problem.md",
       "createdAt": "2026-09-28T00:00:00Z",
       "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Agential Action Hierarchy)"
+        "arbitriologia-import 2026-09-28 table row (entity-table, section: Agential Action Hierarchy)",
+        "taxonomy-alignment 2026-10-07: Action Guidance branch (layer Agentic->Normative, description aligned)"
       ],
       "inheritanceLevel": 0
     },
@@ -185765,6 +185768,376 @@
       "createdAt": "2026-10-07T00:00:00Z",
       "auditTrail": [
         "arbitriologia-import 2026-09-28 table row (entity-table, section: Financial Actors)"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "policy",
+    "name": "Policy",
+    "tags": [
+      "policy",
+      "guidance",
+      "action-guidance",
+      "social-element"
+    ],
+    "category": "Policy",
+    "layer": "Normative",
+    "description": "Deliberate course of action adopted by an authority, guiding subsequent decisions.",
+    "longDescription": "Policy is the normative guidance coordinator that converts a strategy's ends-and-means selection into an authorized mandate, within which rules bind conduct and plans arrange the doing. Domains run from economic to foreign policy; every policy decomposes into mandate, instrument, goal, target, agency, rule, and review.",
+    "chronology": {
+      "summary": "Action Guidance branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "strategy",
+        "description": "Policy is a sibling guidance type alongside Strategy under Action Guidance."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Guidance branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Guidance branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "principle",
+    "name": "Principle",
+    "tags": [
+      "principle",
+      "guidance",
+      "action-guidance",
+      "social-element"
+    ],
+    "category": "Principle",
+    "layer": "Normative",
+    "description": "General rule or standard guiding and evaluating action.",
+    "longDescription": "Principle is the general standard invoked to warrant a decision, constrain discretion, or judge a result, without prescribing the concrete steps that a rule or plan would fix. Principles live in strategies and doctrines as their evaluative spine and appear in rules as their warrant.",
+    "chronology": {
+      "summary": "Action Guidance branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "strategy",
+        "description": "Principle is a sibling guidance type alongside Strategy under Action Guidance."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Guidance branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Guidance branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "rule",
+    "name": "Rule",
+    "tags": [
+      "rule",
+      "guidance",
+      "action-guidance",
+      "social-element"
+    ],
+    "category": "Rule",
+    "layer": "Normative",
+    "description": "Explicitly codified constraint prescribing or prohibiting conduct.",
+    "longDescription": "Rule converts a principle into an enforceable prescription, naming who must do what under which conditions with what consequence for breach. Rules compose into regimes; a regime's anatomy is maker, subjects, conditions, and the adjudication that applies it.",
+    "chronology": {
+      "summary": "Action Guidance branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "strategy",
+        "description": "Rule is a sibling guidance type alongside Strategy under Action Guidance."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Guidance branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Guidance branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "doctrine",
+    "name": "Doctrine",
+    "tags": [
+      "doctrine",
+      "guidance",
+      "action-guidance",
+      "social-element"
+    ],
+    "category": "Doctrine",
+    "layer": "Normative",
+    "description": "Authoritative body of guiding tenets orienting action in a domain.",
+    "longDescription": "Doctrine is the guidance coordinator a collective carries as its shared teaching, binding strategy and policy to an identity rather than to a passing decision. Unlike its Normative siblings it binds through shared conviction rather than codified constraint.",
+    "chronology": {
+      "summary": "Action Guidance branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "strategy",
+        "description": "Doctrine is a sibling guidance type alongside Strategy under Action Guidance."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Guidance branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Guidance branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "plan",
+    "name": "Plan",
+    "tags": [
+      "plan",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Plan",
+    "layer": "Synontic",
+    "description": "Deliberate arrangement of future actions specifying ends, means, and sequence.",
+    "longDescription": "Plan is the organization form that converts a policy's mandate into a scheduled doing: objectives fixed, steps ordered, resources assigned, responsibilities named, milestones set.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Plan is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "program",
+    "name": "Program",
+    "tags": [
+      "program",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Program",
+    "layer": "Ontic",
+    "description": "Coordinated set of projects pursued under one objective.",
+    "longDescription": "Program is the organization form that binds separately managed efforts into a single commitment with one objective, one budget envelope, and one governance.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Program is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "project",
+    "name": "Project",
+    "tags": [
+      "project",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Project",
+    "layer": "Ontic",
+    "description": "Time-bounded organized effort toward a defined outcome.",
+    "longDescription": "Project is the organization form that charters a team, bounds its scope, schedules its work, and dissolves it on delivery.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Project is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "workflow",
+    "name": "Workflow",
+    "tags": [
+      "workflow",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Workflow",
+    "layer": "Synontic",
+    "description": "Defined sequence of steps routing work among actors and roles.",
+    "longDescription": "Workflow is the organization form that turns a repeated doing into a repeatable route: who does what next, on which trigger, under which rule, into which state.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Workflow is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "schedule",
+    "name": "Schedule",
+    "tags": [
+      "schedule",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Schedule",
+    "layer": "Synontic",
+    "description": "Temporal allocation sequencing actions, agents, and resources.",
+    "longDescription": "Schedule is the organization form that binds a doing to time: which entry runs in which slot, with what means, toward which milestone, and along which critical path.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Schedule is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
+  },
+  {
+    "id": "charter",
+    "name": "Charter",
+    "tags": [
+      "charter",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Charter",
+    "layer": "Synontic",
+    "description": "Founding instrument constituting an organized effort and its mandate.",
+    "longDescription": "Charter is the organization form that brings a doing into being: purpose declared, scope bounded, authority conferred, membership fixed, deliverables named, and constraints stated.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Charter is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-07 Action Organization branch"
       ],
       "inheritanceLevel": 0
     },

@@ -82,6 +82,16 @@
 | **Interest**                      | Stake in an outcome.                                                | Political Interest                            |
 | **Strategy**                      | Coordinated plan of action.                                         | Industrial Policy, Market Entry Strategy      |
 | **Policy**                        | Deliberate course of action adopted by an authority.                | Industrial Policy, Tax Policy                 |
+| **Principle**                     | General rule or standard guiding and evaluating action.             | Precautionary Principle, Subsidiarity         |
+| **Doctrine**                      | Authoritative body of guiding tenets orienting action in a domain (ideational). | Military Doctrine, Foreign-Policy Doctrine    |
+| **Plan**                          | Deliberate arrangement of future actions.                           | Evacuation Plan, Business Plan                |
+| **Program**                       | Coordinated set of projects under one objective.                    | Vaccination Program                           |
+| **Project**                       | Time-bounded organized effort toward a defined outcome.             | Bridge Project, ERP Rollout                   |
+| **Workflow**                      | Defined sequence of steps routing work among actors.                | Approval Workflow, Clinical Workflow          |
+| **Schedule**                      | Temporal allocation sequencing actions and resources.               | Production Schedule, Class Timetable          |
+| **Initiative**                    | Bounded undertaking launched to pursue a new objective.             | Open-Data Initiative                          |
+| **Roadmap**                       | Sequenced long-range outlook aligning moves with milestones.        | Product Roadmap                               |
+| **Charter**                       | Founding instrument constituting an organized effort.                | Project Charter                               |
 | **Activity**                      | Coarse bundle of granular social actions performed as one situated doing. | Trade, Teaching, Auditing                 |
 | **Process**                       | Structured sequence of activities.                                  | Recruitment, Production                       |
 | **Mechanism**                     | Causal process producing social outcomes.                           | Feedback Loop, Selection Mechanism            |
