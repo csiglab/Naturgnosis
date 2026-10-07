@@ -86,6 +86,13 @@ behavior, or clearly scope a change to one module.
 - CouchDB is a persistent dependency of the execution environment: workflows only connect to it
   (via `COUCHDB_*` in `.env`) and preflight-check it; they never provision, redeploy, or remove it
   (see `deploy/README.md`).
+- CouchDB writes are a manual human step: agent workflows must never write to CouchDB — no
+  `make seed` / `bin/seed_couchdb.py`, no `POST /api/graph/save` or `/api/layout/recompute`, no pin
+  writes (reads like `GET /api/graph` and `/api/health` are fine). Rationale: a server save rewrites
+  the whole `data.json` mirror from DB state, so an agent save can silently drop or resurrect
+  unrelated nodes. Stage graph additions in the local mirror (`data.json`, same `indent=2` format the
+  server writes) plus `layout.json` (`bin/layout.py`) plus rebuilt indexes (`make build`); they go
+  live when a human runs `make seed`.
 - Every CouchDB-backed datum has a committed local-filesystem copy; no write path may leave
   data DB-only. Graph datasets mirror to `app/<module>/data/data.json` (server-written — see
   Data Sync in the README before committing); note pins mirror to `app/note/data/pins.json`.
