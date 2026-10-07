@@ -14,7 +14,7 @@ tags: [sreni, guild, india, aggregation, private-organization, actor, social-ele
 
 What individuates it is the modal character above: members enter as **independent** economic actors and remain so — the collective exists to coordinate high-cost activities (quality assurance, dispute settlement, pooled finance, collective bargaining), not to subsume its members. Its layer is **Ontic**: śreṇis existed extra-mentally, with seals, halls, treasuries, and account books. Its facet is economic.
 
-Readable secondarily as a coordination `Practice`/`Mechanism` (aggregation-for-costly-coordination): that reading is prose here, not a second root; the tree below is typed once.
+Readable secondarily as a coordination `Activity`/`Mechanism` (aggregation-for-costly-coordination): that reading is prose here, not a second root; the tree below is typed once.
 
 ### What is this social instance?
 
@@ -37,9 +37,9 @@ Readable secondarily as a coordination `Practice`/`Mechanism` (aggregation-for-c
 | `Collective / Organization` → Śreṇi → `Agency` → Head of the Śreṇi | Coordinating head (jeṭṭhaka/pamukha/pradhāna), removable by the membership. |
 | `Collective / Organization` → Śreṇi → `Institution` | Grouping: stabilized configurations of roles and rules. |
 | `Collective / Organization` → Śreṇi → `Institution` → Common Seal and Rules | Cost-lowering instruments: quality assurance and śreṇi-dharma dispute settlement. |
-| `Collective / Organization` → Śreṇi → `Practice` | Grouping: recurrent patterns of situated doings. |
-| `Collective / Organization` → Śreṇi → `Practice` → Pooled Finance | Recurrent pattern of deposits, loans, and perpetual endowments. |
-| `Collective / Organization` → Śreṇi → `Practice` → Collective Bargaining | Recurrent pattern of treating with kings, monasteries, and markets as one. |
+| `Collective / Organization` → Śreṇi → `Activity` | Grouping: bundles of situated doings. |
+| `Collective / Organization` → Śreṇi → `Activity` → Pooled Finance | Coarse bundle of deposits, loans, and perpetual endowments. |
+| `Collective / Organization` → Śreṇi → `Activity` → Collective Bargaining | Coarse bundle of treating with kings, monasteries, and markets as one. |
 
 ## References
 

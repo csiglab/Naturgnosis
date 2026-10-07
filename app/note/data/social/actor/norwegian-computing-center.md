@@ -16,7 +16,7 @@ tags: [actor, research-institute, research-foundation, norway, computing]
 
 It is a foundation: an independent non-profit with a board of eleven and about a hundred staff, most of them holding doctorates. The foundation form is what the institute's history earned it — a state body that became a market-facing one without becoming a company.
 
-The `Institution` reading — the standing methodological competence the state and the petroleum sector rely on — is declared as a secondary reading and decomposed below as `Legitimacy` and `Practice`.
+The `Institution` reading — the standing methodological competence the state and the petroleum sector rely on — is declared as a secondary reading and decomposed below as `Legitimacy` and `Activity`.
 
 ### What is this social instance?
 
@@ -26,13 +26,13 @@ The `Institution` reading — the standing methodological competence the state a
 
 **Facet.** **Ideational**, by dominant mechanism: the institute is reorganized around producing and selling methodological knowledge, with computing as the instrument rather than the mechanism.
 
-**Boundary.** The institute as a body: warrants, areas, roles, practices, rules, obligations, relations, resources, run, and present state. The methods themselves are technique; the clients are social and production.
+**Boundary.** The institute as a body: warrants, areas, roles, activities, rules, obligations, relations, resources, run, and present state. The methods themselves are technique; the clients are social and production.
 
 Lineage: postwar reconstruction of Norwegian scientific capacity → the 1952 establishment of a national computing centre inside the Central Institute for Industrial Research, running the national register of nine-digit personal numbers → incorporation into the national research council structure in 1958 and operation as the national computing centre into the late 1960s → the 1985 turn into an independent foundation, the moment the institute stopped being an infrastructure operator and became a contract researcher → the 2002 commemorative volume marking fifty years, and a present-day position in applied statistics, machine learning, and geophysical inversion.
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: a middle-depth decomposition of one organization — its warrants, internal units, roles, practices, rules, obligations, relations, resources, run, present state, expectations, and self-image, each worked to instance leaves. Internal units are decomposed to the level at which they carry their own mandate; projects, people, and publications appear only where they evidence a rule.
+> Boundary: a middle-depth decomposition of one organization — its warrants, internal units, roles, activities, rules, obligations, relations, resources, run, present state, expectations, and self-image, each worked to instance leaves. Internal units are decomposed to the level at which they carry their own mandate; projects, people, and publications appear only where they evidence a rule.
 >
 > Typing reads from the path: the root binds `Collective / Organization`; each branch lands on a flat facet type, except the internal-unit branch, which nests a `Collective / Organization` scoping the institute's own members under the recursion rule for that composite. Bare type rows group and never terminate a branch; every leaf is a **bold** social instance.
 
@@ -54,12 +54,12 @@ Lineage: postwar reconstruction of Norwegian scientific capacity → the 1952 es
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Social Role → **Methodologist Role** | The role of a scientist who is answerable for a number a client will stake money or policy on. | Relation | `(root) := Collective / Organization -> Social Role` |
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Social Role → **Modelling Consultant Role** | The duty of framing a client's question as a computable one, and saying when it is not. | Relation | `(root) := Collective / Organization -> Social Role` |
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Social Role → **Security Specialist Role** | The role of the information-security work the institute carries for public and private clients. | Relation | `(root) := Collective / Organization -> Social Role` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice | Grouping: the practice of this organization. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice → **Contract Research Delivery** | The recurrent pattern of framing a client's problem, modelling it, and delivering a defensible result. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice → **Statistical Modelling And Analysis** | The methodological core the institute retained across its change of legal form. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice → **Geophysical Inversion** | Inverting geophysical measurements into subsurface models with the petroleum partners who own the data. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice → **System Development And Integration** | Building the information systems clients run on, including the national registers the institute once operated. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Computing Center (NR)** → Practice → **Security And Assurance Work** | Information-security practice for public-sector and financial clients. | Action | `(root) := Collective / Organization -> Practice` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity | Grouping: the activity of this organization. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity → **Contract Research Delivery** | The recurrent pattern of framing a client's problem, modelling it, and delivering a defensible result. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity → **Statistical Modelling And Analysis** | The methodological core the institute retained across its change of legal form. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity → **Geophysical Inversion** | Inverting geophysical measurements into subsurface models with the petroleum partners who own the data. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity → **System Development And Integration** | Building the information systems clients run on, including the national registers the institute once operated. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Computing Center (NR)** → Activity → **Security And Assurance Work** | Information-security activity for public-sector and financial clients. | Action | `(root) := Collective / Organization -> Activity` |
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Norm / Regulation | Grouping: the norm / regulation of this organization. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Norm / Regulation → **Foundation Governance Rules** | The statutes and board rules governing an independent research foundation. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |
 | `Collective / Organization` → **Norwegian Computing Center (NR)** → Norm / Regulation → **Data Protection Rules** | The rules attaching to the population and health data the institute's clients bring to it. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |

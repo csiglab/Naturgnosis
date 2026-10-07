@@ -97,8 +97,8 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 | Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` → Duty of Contribution | Duty allocating effort and dues to members. |
 | Organization → `Social Relation / Network` | Grouping: structured ties binding members and subunits. |
 | Organization → `Social Relation / Network` → Membership Web | Alliance and hierarchy ties channeling coordination inside the organization. |
-| Organization → `Practice` | Grouping: recurrent patterns of situated doings. |
-| Organization → `Practice` → Coordinating Routine | Recurrent pattern reproducing the organization: meeting, reporting, rostering. |
+| Organization → `Activity` | Grouping: bundles of situated doings. |
+| Organization → `Activity` → Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
 
 ## QA
 

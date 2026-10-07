@@ -10,9 +10,9 @@ tags: [economic-activity, producer, economic, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Economic Activity belongs to the `Economic Activity` social element type (Economic category)** — recurrent organized doings provisioning goods and services. Its layer is **Ontic**: the doing exists extra-mentally. Its facet is economic.
+**Economic Activity belongs to the `Economic Activity` social element type (Action category)** — recurrent organized doings provisioning goods and services. Its layer is **Ontic**: the doing exists extra-mentally. Its facet is economic.
 
-Readable with its acting side, the `Producer` (unit or role that performs the activity), and with its Noetic classification rows (`Producer Type`, `Industry`, `Sector`, `Producer Taxonomy`) which tag rather than own. `Market` and `Product` are its sibling Economic types: activity produces products, products enter markets.
+Readable with its acting side, the `Producer` (unit or role that performs the activity), and with its Noetic classification rows (`Producer Type`, `Industry`, `Sector`, `Producer Taxonomy`) which tag rather than own. `Market` and `Product` are its sibling economic-facet types: activity produces products, products enter markets.
 
 ### What is this social instance?
 

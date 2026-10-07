@@ -10,9 +10,9 @@ tags: [economic-activity, industry, agriculture, perishable, cold-chain, economi
 
 ### What social element type does this social instance belong to?
 
-**The Perishable Agricultural Products Industry belongs to the `Industry` classification rank read as an `Economic Activity` (Economic category)** — a classified aggregate of producers whose recurrent organized doing is to grow, handle, cool, and distribute perishable agricultural output. Its layer is **Ontic**: the growing, cooling, and moving exist extra-mentally. Its facet is economic.
+**The Perishable Agricultural Products Industry belongs to the `Industry` classification rank read as an `Economic Activity` (Action category)** — a classified aggregate of producers whose recurrent organized doing is to grow, handle, cool, and distribute perishable agricultural output. Its layer is **Ontic**: the growing, cooling, and moving exist extra-mentally. Its facet is economic.
 
-Readable with its acting side, the `Producer` (grower, packer, shipper, broker, wholesaler, retailer, foodservice buyer), and with its sibling Economic types: `Product` (the perishable good), `Market` (the arena where it changes hands), and the underlying technique (cold chain, controlled atmosphere) which is typed in Technique Space, not here. The industry is an aggregate classification, not an actor; its members are.
+Readable with its acting side, the `Producer` (grower, packer, shipper, broker, wholesaler, retailer, foodservice buyer), and with its sibling economic-facet types: `Product` (the perishable good), `Market` (the arena where it changes hands), and the underlying technique (cold chain, controlled atmosphere) which is typed in Technique Space, not here. The industry is an aggregate classification, not an actor; its members are.
 
 ### What is this social instance?
 
@@ -593,8 +593,8 @@ $$
 - https://pubsonline.informs.org/doi/10.1287/moor.2025.1115?utm_source=chatgpt.com
 - https://www.sciencedirect.com/science/article/abs/pii/S0925527312004215?utm_source=chatgpt.com
 - https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
-- [Economic Activity](note.html?n=social/economic-activity/economic-activity.md)
-- [Commerce Economic Activity](note.html?n=social/economic-activity/commerce-economic-activity.md)
+- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md)
 - [Production Function](note.html?n=epistemica/production-function.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)

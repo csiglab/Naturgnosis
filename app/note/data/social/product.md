@@ -10,7 +10,7 @@ tags: [product, good, economic, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Product belongs to the `Product` social element type (Economic category)** — the exchangeable outcome of `Economic Activity` offered into a `Market`; a good or a service. Its layer is **Multi**: it holds an Ontic side (the physical good, its materiality and lifecycle stage) and a Synontic side (the recognized offer: price, contract, brand) at once. Its facet is economic.
+**Product belongs to the `Product` social element type (Coordinators category)** — the exchangeable outcome of `Economic Activity` offered into a `Market`; a good or a service. Its layer is **Multi**: it holds an Ontic side (the physical good, its materiality and lifecycle stage) and a Synontic side (the recognized offer: price, contract, brand) at once. Its facet is economic.
 
 Readable secondarily through its Synontic offer reading (product-as-`Price / Asset`: the priced, contracted, claimable offer) and through its Noetic ranks (`Product Type`, `Product Family`, `Product Category`, `Product Class`, `Product Taxonomy`) per the multi-root forest rule; those readings are prose here, not separate trees. A product is **not** a coordinator — prices, money, and contracts coordinate; the product is what is coordinated.
 
@@ -39,6 +39,6 @@ Readable secondarily through its Synontic offer reading (product-as-`Price / Ass
 - Produceologia `docs/Catalog/Product.md` and `docs/Catalog/Good/Agriculture/`
 - Produceologia `docs/Firm/Toolkit/Product/` (MVP, lifecycle, strategy)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Economic Activity](note.html?n=social/economic-activity.md)
+- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)
 - [Market](note.html?n=social/market/market.md)
 - [Harmonized System — World Customs Organization](https://www.wcoomd.org/en/topics/nomenclature/overview.aspx)

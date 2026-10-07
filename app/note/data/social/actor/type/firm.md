@@ -12,7 +12,7 @@ tags: [firm, organization, collective]
 
 **Firm belongs to the `Collective / Organization` social element type — a compound Interaction Unit with identity, membership, and rules, carrying its own agencies, roles, and practices.**
 
-It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules) and not a `Practice` (it hosts practices rather than being one). Its layer is **Ontic**: a firm exists extra-mentally, with staff, assets, accounts, and address. Its facet is economic — its dominant causal mechanism is the conversion of capability into exchangeable value.
+It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules) and not an `Activity` (it hosts activities rather than being one). Its layer is **Ontic**: a firm exists extra-mentally, with staff, assets, accounts, and address. Its facet is economic — its dominant causal mechanism is the conversion of capability into exchangeable value.
 
 Read also, secondarily, as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets and business groups. That secondary reading is prose, not a second root; the tree below is typed once.
 
@@ -36,7 +36,7 @@ Produceologia models it across three analytical layers — microeconomic (produc
 | `Collective / Organization` → Firm → `Institution` → Firm Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
 | `Collective / Organization` → Firm → `Agency` → Firm Strategy | Plans and choices positioning the firm: corporate and business-unit strategies. |
 | `Collective / Organization` → Firm → `Price / Asset` → Firm Product Portfolio | Structured configuration of products through which value is created and captured. |
-| `Collective / Organization` → Firm → `Practice` → Firm Commercialization | Recurrent pattern carrying products into markets: channels, sales, after-sales. |
+| `Collective / Organization` → Firm → `Activity` → Firm Commercialization | Coarse bundle carrying products into markets: channels, sales, after-sales. |
 | `Collective / Organization` → Firm → `Social Relation / Network` → Commerce Market | Exchange context the firm is a member of: customers, partners, rules. |
 
 ## References

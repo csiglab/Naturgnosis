@@ -12,7 +12,7 @@ tags: [product-development, organization]
 
 **Product Development Center belongs to the `Collective / Organization` social element type — a compound Interaction Unit carrying its own agencies, roles, and practices.**
 
-It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules), not a `Social Field` (it is one actor inside a field rather than the field itself), and not a `Practice` (it hosts practices rather than being one). Its layer is **Ontic**: the center exists extra-mentally, with an address, a staff, a charter, and a budget. Its facet is technical-economic — its dominant causal mechanism is the conversion of development capability into a deliverable offer.
+It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules), not a `Social Field` (it is one actor inside a field rather than the field itself), and not an `Activity` (it hosts activities rather than being one). Its layer is **Ontic**: the center exists extra-mentally, with an address, a staff, a charter, and a budget. Its facet is technical-economic — its dominant causal mechanism is the conversion of development capability into a deliverable offer.
 
 Read also, secondarily, as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, here nested inside a sponsoring firm and connected to suppliers, universities, and certification bodies. That secondary reading is prose, not a second root; the tree below is typed once.
 
@@ -56,20 +56,20 @@ A center strong in realization but weak in method development ships products tha
 | `Collective / Organization` → Product Development Center → `Social Role` → Prototyper | Builds the realizations that carry the design into the physical world. |
 | `Collective / Organization` → Product Development Center → `Social Role` → Validation Engineer | Owns the test and measurement methods that judge a realization. |
 | `Collective / Organization` → Product Development Center → `Social Role` → Sponsor Representative | Carries the sponsoring firm's requirement and accepts or rejects the outcome. |
-| `Collective / Organization` → Product Development Center → `Practice` | Grouping: practices the center performs. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development | The center's core practice: Product Realization plus Technical Method Development. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization | First constituent: fixing what the product is and building the realization that satisfies it. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Requirement Clarification | Converting the sponsor's stated need into a testable product requirement. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Concept Generation | Systematic generation of alternative product concepts. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Feasibility Study | Determination of whether a concept can be realized at all. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Prototype Fabrication | Building realizations that carry the design into the physical or digital world. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Design Validation | Checking the realization against the stated requirement. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Product Realization → Pilot Run | Running the realization in a production-like setting before handover. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Technical Method Development | Second constituent: fixing how the product is made and judged, repeatably. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Technical Method Development → Process Development | Deriving the production process that yields the product repeatably. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Technical Method Development → Design Method Development | Deriving the rules by which the product is designed, not merely designed. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Technical Method Development → Test Method Development | Deriving the procedures that decide whether a realization is acceptable. |
-| `Collective / Organization` → Product Development Center → `Practice` → Product Development → `Practice` → Technical Method Development → Measurement Method Development | Deriving how the product's qualities are observed and recorded. |
+| `Collective / Organization` → Product Development Center → `Activity` | Grouping: activities the center performs. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development | The center's core activity: Product Realization plus Technical Method Development. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization | First constituent: fixing what the product is and building the realization that satisfies it. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Requirement Clarification | Converting the sponsor's stated need into a testable product requirement. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Concept Generation | Systematic generation of alternative product concepts. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Feasibility Study | Determination of whether a concept can be realized at all. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Prototype Fabrication | Building realizations that carry the design into the physical or digital world. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Design Validation | Checking the realization against the stated requirement. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Product Realization → Pilot Run | Running the realization in a production-like setting before handover. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Technical Method Development | Second constituent: fixing how the product is made and judged, repeatably. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Technical Method Development → Process Development | Deriving the production process that yields the product repeatably. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Technical Method Development → Design Method Development | Deriving the rules by which the product is designed, not merely designed. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Technical Method Development → Test Method Development | Deriving the procedures that decide whether a realization is acceptable. |
+| `Collective / Organization` → Product Development Center → `Activity` → Product Development → `Activity` → Technical Method Development → Measurement Method Development | Deriving how the product's qualities are observed and recorded. |
 | `Collective / Organization` → Product Development Center → `Social Relation` | Grouping: relations binding the center to the parties it depends on. |
 | `Collective / Organization` → Product Development Center → `Social Relation` → Sponsoring Firm | Supplies the requirement, the budget, and the market position the center serves. |
 | `Collective / Organization` → Product Development Center → `Social Relation` → Component Supplier | Constrains the design by what can be sourced and at what cost. |

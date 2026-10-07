@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, japan, convenience, multi-format, franchise]
 ## References
 
 - Wikipedia — Seven & i Holdings (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/economic-activity/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)

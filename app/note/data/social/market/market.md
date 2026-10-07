@@ -10,7 +10,7 @@ tags: [market, economic, coordination, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Market belongs to the `Market` social element type (Economic category)** — an arena where offers meet demand and prices coordinate. Its layer is **Multi**: it holds an Ontic side (venues, goods, ledgers) and a Synontic side (price, contract, recognition) at once. Its facet is economic.
+**Market belongs to the `Market` social element type (Coordinators category)** — an arena where offers meet demand and prices coordinate. Its layer is **Multi**: it holds an Ontic side (venues, goods, ledgers) and a Synontic side (price, contract, recognition) at once. Its facet is economic.
 
 Readable secondarily as a `Synontic Element` (market-as-coordinator: prices, contracts, listings) and as a `Social Compound` (market-as-ensemble of units and relations) per the multi-root forest rule; those readings are prose here, not separate trees. `Economic Activity` produces the `Product`s that enter it.
 
@@ -50,4 +50,4 @@ Readable secondarily as a `Synontic Element` (market-as-coordinator: prices, con
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Product](note.html?n=social/product.md)
-- [Economic Activity](note.html?n=social/economic-activity.md)
+- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)

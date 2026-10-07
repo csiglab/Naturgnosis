@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, australia, specialty, omnichannel]
 ## References
 
 - Wikipedia — JB Hi-Fi (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/economic-activity/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)

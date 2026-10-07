@@ -16,7 +16,7 @@ tags: [actor, research-institute, research-foundation, norway, biodiversity]
 
 It is a research foundation: a private non-profit with its own board of trustees, a managing director, eight area directors forming a central management group, and roughly three hundred staff. The foundation form matters to how the institute works: it is chartered to act for nature and society rather than for a ministry, which is what lets it assess the consequences a client would prefer not to hear.
 
-The `Institution` reading — the standing configuration of roles and rules behind national monitoring responsibility — is declared as a secondary reading, decomposed below as `Legitimacy` and `Practice`.
+The `Institution` reading — the standing configuration of roles and rules behind national monitoring responsibility — is declared as a secondary reading, decomposed below as `Legitimacy` and `Activity`.
 
 ### What is this social instance?
 
@@ -26,13 +26,13 @@ The `Institution` reading — the standing configuration of roles and rules behi
 
 **Facet.** **Ideational**, by dominant causal mechanism: the institute is reorganized by producing and circulating ecological knowledge, and its stations and collections are the instruments of that production.
 
-**Boundary.** The institute as a body: warrants, areas, roles, practices, rules, obligations, relations, resources, run, and present state. The ecology itself is not decomposed here; neither is the land the institute monitors, which is natural.
+**Boundary.** The institute as a body: warrants, areas, roles, activities, rules, obligations, relations, resources, run, and present state. The ecology itself is not decomposed here; neither is the land the institute monitors, which is natural.
 
 Lineage: a nature-conservation research tradition going back to the early twentieth century → the 1988 founding of NINA as an independent foundation consolidating ecological research for the environmental authority → growth from a small institute to about 313 staff, with the breeding and research stations at Ims and Oppdal added to its apparatus → national leadership in large-carnivore, wild-salmonid, and insect monitoring, and in 2024 a formal evaluation by the Research Council that fixed the institute's standing and its funding mix.
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: a middle-depth decomposition of one organization — its warrants, internal units, roles, practices, rules, obligations, relations, resources, run, present state, expectations, and self-image, each worked to instance leaves. Internal units are decomposed to the level at which they carry their own mandate; projects, people, and publications appear only where they evidence a rule.
+> Boundary: a middle-depth decomposition of one organization — its warrants, internal units, roles, activities, rules, obligations, relations, resources, run, present state, expectations, and self-image, each worked to instance leaves. Internal units are decomposed to the level at which they carry their own mandate; projects, people, and publications appear only where they evidence a rule.
 >
 > Typing reads from the path: the root binds `Collective / Organization`; each branch lands on a flat facet type, except the internal-unit branch, which nests a `Collective / Organization` scoping the institute's own members under the recursion rule for that composite. Bare type rows group and never terminate a branch; every leaf is a **bold** social instance.
 
@@ -57,12 +57,12 @@ Lineage: a nature-conservation research tradition going back to the early twenti
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Social Role → **Ecological Researcher Role** | The expectation attached to a scientist answerable for a monitoring series that must stay comparable. | Relation | `(root) := Collective / Organization -> Social Role` |
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Social Role → **Assessment Scientist Role** | The role of estimating the consequence of a proposed intervention, in public and in court. | Relation | `(root) := Collective / Organization -> Social Role` |
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Social Role → **Station Curator Role** | Keeping a living population or a reference collection alive and documented across decades. | Relation | `(root) := Collective / Organization -> Social Role` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice | Grouping: the practice of this organization. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice → **Long-Term Monitoring** | The sustained observation programmes whose comparability across decades is the institute's principal asset. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice → **Impact Assessment** | Assessing the effect of a development, plan, or regulation on nature, as a commissioned and public practice. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice → **Environmental Advisory Service** | Answering authorities and business on nature management as a standing service. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice → **Genetic Resource Custody** | Holding the wild-salmonid gene bank and reference material at Ims in trust for the resource. | Action | `(root) := Collective / Organization -> Practice` |
-| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Practice → **Synthesis Publication** | Turning the monitoring record into the national picture the public and the state use. | Action | `(root) := Collective / Organization -> Practice` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity | Grouping: the activity of this organization. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity → **Long-Term Monitoring** | The sustained observation programmes whose comparability across decades is the institute's principal asset. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity → **Impact Assessment** | Assessing the effect of a development, plan, or regulation on nature, as a commissioned and public activity. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity → **Environmental Advisory Service** | Answering authorities and business on nature management as a standing service. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity → **Genetic Resource Custody** | Holding the wild-salmonid gene bank and reference material at Ims in trust for the resource. | Action | `(root) := Collective / Organization -> Activity` |
+| `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Activity → **Synthesis Publication** | Turning the monitoring record into the national picture the public and the state use. | Action | `(root) := Collective / Organization -> Activity` |
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Norm / Regulation | Grouping: the norm / regulation of this organization. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Norm / Regulation → **Foundation Governance Rules** | The statutes and board rules that govern a research foundation and hold its assets in perpetuity. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |
 | `Collective / Organization` → **Norwegian Institute for Nature Research (NINA)** → Norm / Regulation → **Scientific Integrity Commitment** | The institute's stated placing of scientific integrity first in its research and assessment. | Normative | `(root) := Collective / Organization -> Norm / Regulation` |

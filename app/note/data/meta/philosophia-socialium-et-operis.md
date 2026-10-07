@@ -68,7 +68,7 @@
 
 > Recursion is introduced by allowing a composite to have another composite as an instance: a `Social Compound` may contain `Social Compound`s (a trading circuit within a port city labor market set). Nesting composites in composites is what makes the type tree recursive.
 
-> **Spines (adapted to the social):** agentic-spine `Interaction Unit -> Agency -> Social Action -> Practice`; normative-spine `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
+> **Spines (adapted to the social):** agentic-spine `Interaction Unit -> Agency -> Social Action -> Activity` (granular acts bundle into coarse activities); normative-spine `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
 
 > **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
 
@@ -83,7 +83,8 @@
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization -> Organizational Unit | Structured actor with internal rules and identity, scoping departments within a collective. | Ministry department, factory division |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Practice | Recurrent, recognizable pattern of situated doings. | Commuting, queuing, deliberating, auditing |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity | Coarse bundle of granular social actions performed as one situated doing. | Auditing, commuting, trade negotiation, teaching a course |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Technical Activity | Coarse bundle of granular technical actions: research, development, transfer, operation, maintenance. | Technology development; plant commissioning |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Interaction Pattern | Recurring relational sequences shaped by protocols, scoping repeated exchanges. | Patronage cycle, rotation system, bargaining round |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Allocation | Distribution of scarce goods by rule, scoping who receives what. | Rationing, spectrum auction, quota assignment |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Behavior | Observable pattern of actions over time, scoping an agent's conduct. | Consumer behavior, voting behavior, firm behavior |
@@ -167,23 +168,23 @@
 | **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Money | Medium of exchange and store of value constituted by recognition. | Fiat currency, cryptocurrency |
 | **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Label | Tagging that reclassifies its bearer. | Credit rating, certification mark |
 | **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Technique | Shared know-how coordinating production. | Double-entry bookkeeping, lean method |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity | Recurrent organized doings provisioning goods and services (Ontic). | Farming, mining, manufacturing, transport, retail, care |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer | Acting unit or role performing economic activity (Ontic). | Farm, factory, workshop, carrier, shop, utility |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type | Kind of producer by dominant activity (Noetic tag). | Primary producer, processor, assembler, distributor, service provider |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry | Classified aggregate of producer types under a common activity (Noetic). | Agriculture, steel, retail, software |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer -> Producer Type -> Industry -> Sector | Coarse activity group (Noetic). | Primary, secondary, tertiary, quaternary |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Economic Activity -> Producer Taxonomy | Descriptive instrument ranking producer types (Noetic). | ISIC, NAICS, GICS |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Market | Arena where offers meet demand and prices coordinate (Multi). | Fish market, labor market, stock exchange |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment | Slice of a market by demand characteristics (Noetic). | Premium, rural, SME |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment | Finer slice within a segment (Noetic). | Luxury sedan, entry sedan |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment -> Niche | Narrow slice served by a specialized offer (Noetic). | Vintage typewriter repair |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Market -> Market Taxonomy | Descriptive instrument classifying markets (Noetic). | B2B/B2C, geographic, demographic |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product | Exchangeable outcome of economic activity offered into a market; a good or service (Multi). | Lemon, cheese, insurance policy |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type | Kind of product, narrowest rank above the concrete product (Noetic). | Beverage, footwear |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family | Family grouping related types (Noetic). | Soft drinks |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category | Market-facing category (Noetic). | Carbonated drinks |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category -> Product Class | Broadest rank (Noetic). | Beverages |
-| **Economic** | (root) := <<Social Element>> -> Social Order -> Product -> Product Taxonomy | Descriptive instrument ranking product kinds (Noetic). | UNSPSC, HS, own nomenclature |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity | Recurrent organized doings provisioning goods and services (Ontic). | Farming, mining, manufacturing, transport, retail, care |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity -> Producer | Acting unit or role performing economic activity (Ontic). | Farm, factory, workshop, carrier, shop, utility |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type | Kind of producer by dominant activity (Noetic tag). | Primary producer, processor, assembler, distributor, service provider |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type -> Industry | Classified aggregate of producer types under a common activity (Noetic). | Agriculture, steel, retail, software |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type -> Industry -> Sector | Coarse activity group (Noetic). | Primary, secondary, tertiary, quaternary |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Economic Activity -> Producer Taxonomy | Descriptive instrument ranking producer types (Noetic). | ISIC, NAICS, GICS |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Market | Arena where offers meet demand and prices coordinate (Multi). | Fish market, labor market, stock exchange |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment | Slice of a market by demand characteristics (Noetic). | Premium, rural, SME |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment | Finer slice within a segment (Noetic). | Luxury sedan, entry sedan |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment -> Niche | Narrow slice served by a specialized offer (Noetic). | Vintage typewriter repair |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Taxonomy | Descriptive instrument classifying markets (Noetic). | B2B/B2C, geographic, demographic |
+| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Product | Exchangeable outcome of economic activity offered into a market; a good or service (Multi). | Lemon, cheese, insurance policy |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type | Kind of product, narrowest rank above the concrete product (Noetic). | Beverage, footwear |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family | Family grouping related types (Noetic). | Soft drinks |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category | Market-facing category (Noetic). | Carbonated drinks |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category -> Product Class | Broadest rank (Noetic). | Beverages |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Taxonomy | Descriptive instrument ranking product kinds (Noetic). | UNSPSC, HS, own nomenclature |
 
 
 ## How to decompose any social instance?
@@ -226,7 +227,7 @@ The tree is governed by the following rules:
 
 > By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.
 
-> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading practice is a `Practice` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be a path the single table generates; leaves are instances, intermediate nodes give structure.
+> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading round is an `Activity` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be a path the single table generates; leaves are instances, intermediate nodes give structure.
 
 > When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the table above (the "How can we characterize the social aspect of human experience?" table), recorded as the note's primary belonging in the "What social element type does this social instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
 
@@ -239,6 +240,18 @@ The tree is governed by the following rules:
 ### Where do markets and firms decompose?
 
 > Markets decompose as Synontic coordinators (price, contract, asset) over Ontic substrates (goods, venues, ledgers) enacted by Interaction Units (buyers, sellers, market-makers) under Institutions (exchange rules, clearing). Firms decompose as Collectives: compound Interaction Units with Agencies (management), Roles (officers, staff), and Relations (employment, supply). Neither is single-layer — grow one tree per reading.
+
+### What is the relation between `Social Action`, `Practice`, and `Activity`?
+
+> A `Social Action` is granular — one causally efficacious relational event (a vote cast, a signature, a bid). An `Activity` is coarse — a bundle of granular actions performed as one situated doing (an audit, a commute, a trade negotiation, a taught course). What was filed under `Practice` splits along this line: the bundle structure is the `Activity`, and recurrence is dynamics, not a type — a bundle performed repeatedly is a cycle or process, typed where it recurs. Every Activity decomposes into the granular actions it bundles, the way every exercised pattern decomposes into its performances.
+
+### Do we actually need `Activity`, or is it covered by `Social Action`?
+
+> No — a fully specified `Social Action`, down to its granular acts, leaves the bundle structure unsaid: which acts belong together, in which situated doing, toward what joint effect. An audit is not one act but a coarse bundle (fieldwork acts, sampling acts, sign-off acts) whose unity no single act carries. Like its technical cousin (cf. "What is the relation between `Technical Practice` and `Technical Activity`?" in Philosophia Artium Technicarum et Operis), the bundle is load-bearing for decomposition: without `Activity`, instance trees cannot name what a set of granular actions jointly constitutes.
+
+### Do we actually need `Activity` and `Practice`?
+
+> No — they name the same coarse doings, so keeping both types every bundle twice (an audit, a trade negotiation) without adding any scoping work the other does not do. The division of labor is this: `Activity` carries the bundle structure — which granular acts belong together, in which situated doing, toward what joint effect; recurrence carries nothing structural and lives in dynamics, where a repeated bundle is typed as a cycle or process. That is why the taxonomy keeps `Activity` and retires `Practice`: one type per structural job, with the retired name kept in these QAs as the history of the decision.
 
 ### What belongs to technique or production instead?
 
@@ -271,7 +284,7 @@ The tree is governed by the following rules:
 
 ### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?
 
-> Worked decomposition of a port city labor market and its member firms, grown from the markets-and-firms QA answer to full intermediate detail. Children are grouped under bare type-name segments, so the typing reads directly from the instance path: `Port City Labor Market Set` and `Member Firm Set` give structure (compound scoping its collectives; the firm set grouping its institution beneath it); `Employer`, `Hiring Board`, and `Hire Transaction` further structure their agencies, actions, and practices beneath them, and `Harbor Hiring Institution`, `Foreman Role`, and `Shift Allocation Norm` structure a third level of roles, norms, and obligations beneath them; every grouping segment has its own row carrying the grouped type. Typing reads directly from the instance path: each instance resolves to the nearest enclosing grouping segment's type; the tree roots at `Social Compound` scoping the labor market, decomposed here under the economic facet. The remaining rows are final-node instances — concrete contracts, wages, quotas, webs, layouts, surges, and snapshots — and `Harbor Shipyard Employer` and `Port Cooperative Employer` hang directly under the employer as exemplar leaves realizing it, with one concrete registration identifier each. Deployment-specific values and named firms appear only in rows marked exemplar.
+> Worked decomposition of a port city labor market and its member firms, grown from the markets-and-firms QA answer to full intermediate detail. Children are grouped under bare type-name segments, so the typing reads directly from the instance path: `Port City Labor Market Set` and `Member Firm Set` give structure (compound scoping its collectives; the firm set grouping its institution beneath it); `Employer`, `Hiring Board`, and `Hire Transaction` further structure their agencies, actions, and activities beneath them, and `Harbor Hiring Institution`, `Foreman Role`, and `Shift Allocation Norm` structure a third level of roles, norms, and obligations beneath them; every grouping segment has its own row carrying the grouped type. Typing reads directly from the instance path: each instance resolves to the nearest enclosing grouping segment's type; the tree roots at `Social Compound` scoping the labor market, decomposed here under the economic facet. The remaining rows are final-node instances — concrete contracts, wages, quotas, webs, layouts, surges, and snapshots — and `Harbor Shipyard Employer` and `Port Cooperative Employer` hang directly under the employer as exemplar leaves realizing it, with one concrete registration identifier each. Deployment-specific values and named firms appear only in rows marked exemplar.
 
 | Instance Tree Path | Description |
 | --- | --- |
@@ -282,8 +295,8 @@ The tree is governed by the following rules:
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board | Structured capacity selecting whom to hire and on which terms. |
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` | Grouping: actions of the board. |
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction | Causally efficacious relational event binding employer to worker. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Practice` | Grouping: practices stabilizing the transaction. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Practice` → Onboarding Practice | Recurrent pattern inducting hires into rosters and shifts. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Activity` | Grouping: activity bundles stabilizing the transaction. |
+| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Social Action` → Hire Transaction → `Activity` → Onboarding Activity | Coarse bundle of granular onboarding acts inducting hires into rosters and shifts. |
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer | Exemplar employer realizing the unit. |
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` | Grouping: deployment identifiers. |
 | `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` → Harbor Registry Identifier | Deployment identifier of the shipyard employer (exemplar value per deployment). |
@@ -346,5 +359,6 @@ The tree is governed by the following rules:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Technical Activity](note.html?n=social/activity/technical/technical-activity.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 

@@ -45,8 +45,8 @@ It is the government subtype of Organization: what individuates it is not its in
 | `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule | Shared protocol stabilizing who may decide, contribute, and claim. |
 | `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` | Grouping: deontic positions of the rule. |
 | `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` → Duty of Public Service | Duty allocating lawful, impartial service to the public. |
-| `Collective / Organization` → Public Organization → `Practice` | Grouping: recurrent patterns of situated doings. |
-| `Collective / Organization` → Public Organization → `Practice` → Coordinating Routine | Recurrent pattern reproducing the organization: meeting, reporting, rostering. |
+| `Collective / Organization` → Public Organization → `Activity` | Grouping: bundles of situated doings. |
+| `Collective / Organization` → Public Organization → `Activity` → Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
 
 ## QA
 
