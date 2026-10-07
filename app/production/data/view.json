@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-07",
   "snapshot_source": "seed",
   "source_dataset": "social",
   "tag": "production-view",
-  "node_count": 98,
-  "edge_count": 38,
+  "node_count": 100,
+  "edge_count": 41,
   "dropped_edges": 13,
   "nodes": [
     {
@@ -1189,6 +1189,53 @@
         }
       ],
       "_view_targets": []
+    },
+    {
+      "id": "business-group",
+      "name": "Business Group",
+      "tags": [
+        "business group",
+        "grupo-be",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Relational",
+      "category": "Network",
+      "description": "GrupoBE vision: a business group coordinating several firms under shared strategy.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "Bremontix Empreseria business-group vision.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "mereological",
+          "relationshipType": "has_part",
+          "targetNodeId": "firm",
+          "description": "Group coordinates member firms."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: research/2025-1-GrupoBE",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from research/2025-1-GrupoBE"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia research/2025-1-GrupoBE",
+          "description": "GrupoBE vision: a business group coordinating several firms under shared strategy."
+        }
+      ],
+      "_view_targets": [
+        "firm"
+      ]
     },
     {
       "id": "capacity-expansion",
@@ -3852,6 +3899,60 @@
       },
       "references": [],
       "_view_targets": []
+    },
+    {
+      "id": "minimarket-retail-unit",
+      "name": "MiniMarket Retail Unit",
+      "tags": [
+        "retail",
+        "minimarket",
+        "production-view",
+        "produceologia-import"
+      ],
+      "layer": "Ontic",
+      "category": "Organization",
+      "description": "Smallest retail unit studied in research MiniMarket: tasks, roles, inventory and point of sale.",
+      "longDescription": "",
+      "chronology": {
+        "summary": "CAISE Mercado retail unit study.",
+        "events": []
+      },
+      "relationships": [
+        {
+          "relationshipFamily": "classification",
+          "relationshipType": "subtype_of",
+          "targetNodeId": "firm",
+          "description": "A retail unit is a firm form."
+        },
+        {
+          "relationshipFamily": "structural",
+          "relationshipType": "part_of",
+          "targetNodeId": "commerce-market",
+          "description": "Unit sells inside the commerce market."
+        }
+      ],
+      "specific": {
+        "sourceCorpus": "Produceologia"
+      },
+      "metadata": {
+        "confidenceScore": 0.6,
+        "sourceReference": "Produceologia (read-only import 2026-09-29, /home/dbremont/Code/Laboratorium/Produceologia) :: research/2025-1-MiniMarket",
+        "createdAt": "2026-09-29T00:00:00Z",
+        "auditTrail": [
+          "produceologia-import 2026-09-29 from research/2025-1-MiniMarket"
+        ],
+        "inheritanceLevel": 0
+      },
+      "references": [
+        {
+          "title": "Produceologia research/2025-1-MiniMarket",
+          "description": "Smallest retail unit studied in research MiniMarket: tasks, roles, inventory and point of sale."
+        }
+      ],
+      "_view_targets": [
+        "commerce-market",
+        "firm"
+      ]
     },
     {
       "id": "moa-technology",
