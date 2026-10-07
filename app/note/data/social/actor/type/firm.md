@@ -44,3 +44,4 @@ Produceologia models it across three analytical layers — microeconomic (produc
 - Produceologia `docs/Firm/README.md` (firm ontology: VSM, agential hierarchy, business-model tables)
 - Produceologia `docs/Firm/Toolkit/` (governance, strategy, product, commercialization areas)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
+- https://en.wikipedia.org/wiki/Corporation (corporation: legal form, limited liability, ownership shares — the canonical private-organization vehicle)
