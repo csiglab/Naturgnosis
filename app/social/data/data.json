@@ -67501,24 +67501,44 @@
   },
   {
     "id": "groupon",
-    "name": "Groupon",
+    "name": "Groupon, Inc.",
     "tags": [
       "actor",
       "firm",
       "commerce",
       "united-states",
       "group-buying",
-      "demand-aggregation"
+      "e-commerce",
+      "marketplace",
+      "social-element"
     ],
     "layer": "Ontic",
     "category": "Organization",
-    "description": "Groupon is a commerce firm based in United States, operating Group-Buying / Demand Aggregation.",
-    "longDescription": "",
+    "description": "American e-commerce marketplace connecting consumers to local services, goods, and travel through discounted, time-limited offers; pioneer of the daily-deal model.",
+    "longDescription": "Founded in Chicago in 2008 by Andrew Mason, Groupon grew out of The Point and built the daily-deal model: a discounted offer activated only when a minimum number of buyers commit, with the platform taking a commission. It expanded into goods and travel, went public in 2011, and later contracted as the daily-deal model matured. Headquartered in Chicago and listed on Nasdaq.",
     "chronology": {
-      "summary": "",
-      "events": []
+      "summary": "Firm history from The Point to the daily-deal marketplace.",
+      "events": [
+        {
+          "year": 2008,
+          "event": "Founded in Chicago",
+          "context": "Grew out of The Point collective-action platform."
+        },
+        {
+          "year": 2011,
+          "event": "Public offering",
+          "context": "Peak of the daily-deal boom before the model matured."
+        }
+      ]
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "firm",
+        "description": "Groupon is a firm — the economic subtype of Organization."
+      }
+    ],
     "specific": {
       "businessModels": [
         "Group-Buying",
@@ -67530,20 +67550,26 @@
     "metadata": {
       "inheritanceLevel": 0,
       "confidenceScore": 0.6,
-      "sourceReference": "Naturgnosis commerce firm study (see actor note)",
+      "sourceReference": "https://en.wikipedia.org/wiki/Groupon; Naturgnosis note social/actor/firm/groupon.md",
       "createdAt": "2026-10-03T00:00:00Z",
       "auditTrail": [
         {
           "reviewDate": "2026-10-03",
           "reviewNote": "Firm batch added from the commerce study table."
-        }
+        },
+        "enriched 2026-10-07: full firm fields, note cross-link, subtype_of firm"
       ]
     },
     "references": [
       {
-        "title": "Wikipedia — Groupon",
+        "title": "Groupon — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Groupon",
+        "description": "Founding, daily-deal model, history."
+      },
+      {
+        "title": "Groupon, Inc. — Naturgnosis note",
         "link": null,
-        "description": "Encyclopedic entry."
+        "description": "Firm note social/actor/firm/groupon.md"
       }
     ]
   },
@@ -186185,7 +186211,7 @@
     "specific": {},
     "metadata": {
       "confidenceScore": 0.8,
-      "sourceReference": "https://www.sprind.org/en; app/note/data/social/actor/research/de/sprind.md",
+      "sourceReference": "https://www.sprind.org/en; app/note/data/social/actor/research/deu/sprind.md",
       "createdAt": "2026-10-07T00:00:00Z",
       "auditTrail": [
         "actor-added 2026-10-07 SPRIND research actor"
@@ -186271,6 +186297,323 @@
         "title": "Costum de València — Naturgnosis note",
         "link": null,
         "description": "Legal-system note social/state/legal/costum-de-valencia.md (Norm / Regulation, Normative, legal facet)"
+      }
+    ]
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "tags": [
+      "region",
+      "city",
+      "greece",
+      "capital",
+      "attica",
+      "social-element"
+    ],
+    "layer": "Ontic",
+    "category": "Region",
+    "description": "Capital and largest city of Greece, the country's principal economic, cultural, and political centre in the Attica basin.",
+    "longDescription": "The capital of modern Greece since 1834, the country's largest municipality (643,452 in 2021) within a metropolitan area of about 3.6 million; seat of Parliament, ministries, universities, and the port of Piraeus; classical polis, Roman and Byzantine town, Ottoman provincial city, modern metropolis.",
+    "chronology": {
+      "summary": "Capital and largest city of Greece, the country's principal economic, cultural, and political centre in the Attica basin.",
+      "events": [
+        {
+          "year": 1834,
+          "event": "Becomes the capital of the new Greek state",
+          "context": "Chosen as capital after Greek independence; the modern city is rebuilt on the classical and Ottoman town."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/Athens; Naturgnosis note social/state/grc/region/athens.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Athens — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Athens",
+        "description": "Capital, population, institutions."
+      },
+      {
+        "title": "Athens — Naturgnosis note",
+        "link": null,
+        "description": "Region/City note social/state/grc/region/athens.md"
+      }
+    ]
+  },
+  {
+    "id": "thessaloniki",
+    "name": "Thessaloniki",
+    "tags": [
+      "region",
+      "city",
+      "greece",
+      "macedonia",
+      "port",
+      "social-element"
+    ],
+    "layer": "Ontic",
+    "category": "Region",
+    "description": "Second-largest city of Greece and capital of Central Macedonia; a major northern Aegean port.",
+    "longDescription": "Founded in 315 BC and named for Thessalonike, second city of the Byzantine Empire and later an Ottoman port; the modern co-capital of northern Greece. Municipality 319,045 (2022); metropolitan area about 1,006,112.",
+    "chronology": {
+      "summary": "Second-largest city of Greece and capital of Central Macedonia; a major northern Aegean port.",
+      "events": [
+        {
+          "year": -315,
+          "event": "Founded and named for Thessalonike",
+          "context": "Cassander founds the city at the head of the Thermaic Gulf."
+        },
+        {
+          "year": 1912,
+          "event": "Joins the Kingdom of Greece",
+          "context": "The Balkan Wars end Ottoman rule; the 1917 fire reshapes the modern city."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/Thessaloniki; Naturgnosis note social/state/grc/region/thessaloniki.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Thessaloniki — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Thessaloniki",
+        "description": "History, port, population."
+      },
+      {
+        "title": "Thessaloniki — Naturgnosis note",
+        "link": null,
+        "description": "Region/City note social/state/grc/region/thessaloniki.md"
+      }
+    ]
+  },
+  {
+    "id": "patras",
+    "name": "Patras",
+    "tags": [
+      "region",
+      "city",
+      "greece",
+      "peloponnese",
+      "port",
+      "social-element"
+    ],
+    "layer": "Ontic",
+    "category": "Region",
+    "description": "Third-largest city of Greece and principal centre of western Greece and the Peloponnese; the peninsula's gateway to Italy.",
+    "longDescription": "An ancient foundation (Roman Colonia Augusta Achaica Patrensis) on the Gulf of Patras, metropolitan population about 250,000; port, University of Patras, and Rio-Antirrio bridge; European Capital of Culture 2006.",
+    "chronology": {
+      "summary": "Third-largest city of Greece and principal centre of western Greece and the Peloponnese; the peninsula's gateway to Italy.",
+      "events": [
+        {
+          "year": -14,
+          "event": "Roman colony Augusta Achaica Patrensis",
+          "context": "Founded by Augustus as the western Greek gateway."
+        },
+        {
+          "year": 2006,
+          "event": "European Capital of Culture",
+          "context": "Marks the modern city's cultural repositioning."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/Patras; Naturgnosis note social/state/grc/region/patras.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Patras — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Patras",
+        "description": "History, port, population."
+      },
+      {
+        "title": "Patras — Naturgnosis note",
+        "link": null,
+        "description": "Region/City note social/state/grc/region/patras.md"
+      }
+    ]
+  },
+  {
+    "id": "piamonte",
+    "name": "Piamonte",
+    "tags": [
+      "region",
+      "italy",
+      "piedmont",
+      "turin",
+      "alps",
+      "social-element"
+    ],
+    "layer": "Ontic",
+    "category": "Region",
+    "description": "Piedmont, one of the twenty regions of Italy, in the northwest with its capital at Turin.",
+    "longDescription": "25,402 km2 in northwest Italy, bordering the Aosta Valley, Switzerland, Lombardy, Emilia-Romagna, Liguria, and France; part of the Alps-Mediterranean Euroregion; its Turin industrial base (Fiat/Stellantis) makes it a leading exporting region, GDP about EUR 130 billion.",
+    "chronology": {
+      "summary": "Piedmont, one of the twenty regions of Italy, in the northwest with its capital at Turin.",
+      "events": [
+        {
+          "year": 1861,
+          "event": "Nucleus of the new Kingdom of Italy",
+          "context": "The Kingdom of Sardinia, based in Turin, leads Italian unification."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/Piedmont; Naturgnosis note social/state/ita/region/piamonte.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Piedmont — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Piedmont",
+        "description": "Region, geography, economy."
+      },
+      {
+        "title": "Piamonte — Naturgnosis note",
+        "link": null,
+        "description": "Region note social/state/ita/region/piamonte.md"
+      }
+    ]
+  },
+  {
+    "id": "mancomunidad",
+    "name": "Mancomunidad",
+    "tags": [
+      "institution",
+      "spain",
+      "local-government",
+      "municipal",
+      "public-law",
+      "social-element"
+    ],
+    "layer": "Synontic",
+    "category": "Institution",
+    "description": "Association of municipalities under Spanish local-regime law, with legal personality, created to jointly provide services or pursue common purposes.",
+    "longDescription": "A voluntary public-law entity formed by two or more municipalities, endowed with its own legal personality; may be constituted for an indefinite term or for a fixed time and one or more concrete activities (water, waste, environment, firefighting, social services); governed by its own statutes under Ley 7/1985 (LRBRL).",
+    "chronology": {
+      "summary": "Association of municipalities under Spanish local-regime law, with legal personality, created to jointly provide services or pursue common purposes.",
+      "events": [
+        {
+          "year": 1985,
+          "event": "Regulated by the Ley reguladora de las Bases del Régimen Local",
+          "context": "The modern local-regime framework codifies the mancomunidad form."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://es.wikipedia.org/wiki/Mancomunidad; Naturgnosis note social/state/institution/mancomunidad.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Mancomunidad — Wikipedia (es)",
+        "link": "https://es.wikipedia.org/wiki/Mancomunidad",
+        "description": "Association of municipalities, legal personality."
+      },
+      {
+        "title": "Mancomunidad — Naturgnosis note",
+        "link": null,
+        "description": "Institution note social/state/institution/mancomunidad.md"
+      }
+    ]
+  },
+  {
+    "id": "kkr-co-inc",
+    "name": "KKR & Co. Inc.",
+    "tags": [
+      "actor",
+      "firm",
+      "finance",
+      "private-equity",
+      "asset-management",
+      "united-states",
+      "social-element"
+    ],
+    "layer": "Ontic",
+    "category": "Organization",
+    "description": "American alternative investment firm (Kohlberg Kravis Roberts & Co.) managing assets for institutional and wealth investors, family offices, and companies.",
+    "longDescription": "Founded 1976 by Henry Kravis, George Roberts, and Jerome Kohlberg; pioneered the leveraged buyout; operates across asset management, insurance (Global Atlantic), and strategic holdings; about $758 billion AUM as of 31 March 2026; headquartered in New York and listed on the NYSE.",
+    "chronology": {
+      "summary": "American alternative investment firm (Kohlberg Kravis Roberts & Co.) managing assets for institutional and wealth investors, family offices, and companies.",
+      "events": [
+        {
+          "year": 1976,
+          "event": "Founded",
+          "context": "Kohlberg, Kravis, and Roberts set up the firm that would lead the leveraged-buyout era."
+        },
+        {
+          "year": 1989,
+          "event": "RJR Nabisco buyout",
+          "context": "The landmark LBO that made KKR's name."
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "classification",
+        "relationshipType": "subtype_of",
+        "targetNodeId": "firm",
+        "description": "KKR is a firm — the economic subtype of Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.7,
+      "sourceReference": "https://en.wikipedia.org/wiki/KKR_%26_Co.; Naturgnosis note social/actor/firm/kkr-co-inc.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "created 2026-10-07: batch add from session list"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "KKR & Co. — Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/KKR_%26_Co.",
+        "description": "Founding, business areas, AUM."
+      },
+      {
+        "title": "KKR & Co. Inc. — Naturgnosis note",
+        "link": null,
+        "description": "Firm note social/actor/firm/kkr-co-inc.md"
       }
     ]
   }

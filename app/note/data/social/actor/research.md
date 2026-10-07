@@ -22,7 +22,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 > A research actor fixes *who does and funds inquiry, and how*: the boundary of the body, the governing council that forms intention and selects a research direction, the membership or workforce it carries, the funding and collaboration relations binding it to the state, industry, universities, and other bodies, and the institutions — peer review, evaluation, priority-setting — through which it sustains inquiry. Its boundary is deliberately loose: the same body may be publicly chartered, privately endowed, or firm-embedded.
 
-> The typology below classifies research actors by constitution — public research institute, national laboratory, government research agency, funding council, academy or learned society, enterprise research lab, university research unit, independent foundation, research group — and locates the concrete bodies already worked in this module. The `research/` directory groups those instances by ISO 3166-1 alpha-2 country code, with a nested parent-body folder where a system has a peak body (`cn/cas`, `es/csic`, `fr/cnrs`, `it/cnr`, `us/nsf`, `sg/astar`, `dk/dnrf`, `fi/rcf`, `nl/nwo`).
+> The typology below classifies research actors by constitution — public research institute, national laboratory, government research agency, funding council, academy or learned society, enterprise research lab, university research unit, independent foundation, research group — and locates the concrete bodies already worked in this module. The `research/` directory groups those instances by ISO 3166-1 alpha-3 country code, with a nested parent-body folder where a system has a peak body (`chn/cas`, `esp/csic`, `fra/cnrs`, `ita/cnr`, `usa/nsf`, `sgp/astar`, `dnk/dnrf`, `fin/rcf`, `nld/nwo`).
 
 **Layer.** **Ontic** — the institutes, laboratories, agencies, staff, instruments, and endowments exist extra-mentally. Their research programmes and classifications are Noetic instruments; the standing of an academy and the authority of a funding council are Synontic.
 
@@ -66,24 +66,24 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 | `Collective / Organization` → Research Actor → `Social Relation / Network` → Funding Relation | Tie carrying money and mandate from sponsors to the actor. |
 | `Collective / Organization` → Research Actor → `Social Relation / Network` → Collaboration Tie | Tie joining the actor to universities, firms, and other research bodies. |
 | `Collective / Organization` → Research Actor → `Social Compound` | Grouping: national research systems scoping their peak bodies and institutes. |
-| `Collective / Organization` → Research Actor → `Social Compound` → Chinese Research System Set | China's peak academy and its nested institutes (`cn/cas`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Chinese Research System Set | China's peak academy and its nested institutes (`chn/cas`). |
 | `Collective / Organization` → Research Actor → `Social Compound` → Chinese Research System Set → `Collective / Organization` → Chinese Academy Of Sciences | Peak academy coordinating China's research institutes and universities. |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set | Federated US ensemble of mission agencies, national laboratories, and independent institutes (`us/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → National Science Foundation | Peak funding agency supporting US non-medical basic research (`us/nsf`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → Defense Advanced Research Projects Agency | Mission agency performing and funding breakthrough defense inquiry (`us/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set | Germany's federated ensemble of academies, national centers, and institutes (`de/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Max Planck Society | Association of basic-research institutes under shared excellence funding (`de/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Fraunhofer Society | Association of applied-research institutes bridging firms and universities (`de/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set | France's national research bodies and their institutes (`fr/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set → `Collective / Organization` → Centre National De La Recherche Scientifique | National research centre spanning institutes across disciplines (`fr/cnrs`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set | Japan's autonomous research institutes and their national system (`jp/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set → `Collective / Organization` → RIKEN | Institute of physical and chemical research, a national flagship (`jp/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set | Singapore's integrated research system of institutes and councils (`sg/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set → `Collective / Organization` → A*STAR | Agency integrating Singapore's research institutes and funding (`sg/astar`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set | Australia's national research bodies and institutes (`au/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set → `Collective / Organization` → The Commonwealth Scientific And Industrial Research Organisation | Australia's national science agency (`au/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set | The UK's national laboratories, councils, and institutes (`gb/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set → `Collective / Organization` → National Physical Laboratory | The UK's national measurement institute (`gb/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set | Federated US ensemble of mission agencies, national laboratories, and independent institutes (`usa/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → National Science Foundation | Peak funding agency supporting US non-medical basic research (`usa/nsf`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → Defense Advanced Research Projects Agency | Mission agency performing and funding breakthrough defense inquiry (`usa/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set | Germany's federated ensemble of academies, national centers, and institutes (`deu/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Max Planck Society | Association of basic-research institutes under shared excellence funding (`deu/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Fraunhofer Society | Association of applied-research institutes bridging firms and universities (`deu/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set | France's national research bodies and their institutes (`fra/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set → `Collective / Organization` → Centre National De La Recherche Scientifique | National research centre spanning institutes across disciplines (`fra/cnrs`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set | Japan's autonomous research institutes and their national system (`jpn/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set → `Collective / Organization` → RIKEN | Institute of physical and chemical research, a national flagship (`jpn/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set | Singapore's integrated research system of institutes and councils (`sgp/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set → `Collective / Organization` → A*STAR | Agency integrating Singapore's research institutes and funding (`sgp/astar`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set | Australia's national research bodies and institutes (`aus/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set → `Collective / Organization` → The Commonwealth Scientific And Industrial Research Organisation | Australia's national science agency (`aus/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set | The UK's national laboratories, councils, and institutes (`gbr/`). |
+| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set → `Collective / Organization` → National Physical Laboratory | The UK's national measurement institute (`gbr/`). |
 
 ## References
 
@@ -97,13 +97,13 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 - [Enterprise Research Lab](note.html?n=social/actor/enterprise-research-lab.md) (corporate subtype)
 - [Public Research Institutes (PRI)](note.html?n=social/actor/pri.md) (public-research subtype)
 - [Product Development Center](note.html?n=social/actor/product-development-center.md) (sibling collective with a product mandate rather than an inquiry mandate)
-- [Max Planck Society](note.html?n=social/actor/research/de/max-planck-society.md) (basic-research academy, `de/`)
-- [Fraunhofer Society](note.html?n=social/actor/research/de/fraunhofer-society.md) (applied-research academy, `de/`)
-- [Chinese Academy of Sciences (CAS)](note.html?n=social/actor/research/cn/cas/chinese-academy-of-sciences-cas.md) (`cn/cas`)
-- [Centre National de la Recherche Scientifique](note.html?n=social/actor/research/fr/cnrs/centre-national-de-la-recherche-scientifique.md) (`fr/cnrs`)
-- [CSIRO](note.html?n=social/actor/research/au/the-commonwealth-scientific-and-industrial-research.md) (`au/`)
-- [RIKEN](note.html?n=social/actor/research/jp/riken.md) (`jp/`)
-- [A*STAR](note.html?n=social/actor/research/sg/astar/agency-for-science-technology-and-research-a-star.md) (`sg/astar`)
-- [Defense Advanced Research Projects Agency (DARPA)](note.html?n=social/actor/research/us/defense-advanced-research-projects-agency.md) (`us/`)
-- [U.S. National Science Foundation (NSF)](note.html?n=social/actor/research/us/nsf/u-s-national-science-foundation-nsf.md) (`us/nsf`)
-- [ITRI](note.html?n=social/actor/research/tw/itri.md) (`tw/`)
+- [Max Planck Society](note.html?n=social/actor/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
+- [Fraunhofer Society](note.html?n=social/actor/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
+- [Chinese Academy of Sciences (CAS)](note.html?n=social/actor/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
+- [Centre National de la Recherche Scientifique](note.html?n=social/actor/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
+- [CSIRO](note.html?n=social/actor/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
+- [RIKEN](note.html?n=social/actor/research/jpn/riken.md) (`jpn/`)
+- [A*STAR](note.html?n=social/actor/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
+- [Defense Advanced Research Projects Agency (DARPA)](note.html?n=social/actor/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
+- [U.S. National Science Foundation (NSF)](note.html?n=social/actor/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
+- [ITRI](note.html?n=social/actor/research/twn/itri.md) (`twn/`)
