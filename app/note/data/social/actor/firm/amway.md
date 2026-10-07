@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, united-states, direct-selling, network-distributio
 ## References
 
 - Wikipedia — Amway (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)

@@ -4,7 +4,7 @@ tags: [activity, technical-activity, technical, social-element]
 
 # Technical Activity
 
-> **Technical Activity** is the coarse bundle of granular social actions through which agents produce, sustain, and transform technical reality — the technical-facet subtype of `Activity`: intelligence, research, development, acquisition, transfer, assimilation, adaptation, verification, demonstration, scaling, integration, standardization, commercialization, operation, maintenance, transformation.
+> **Technical Activity** is the coarse bundle of granular social actions through which agents produce, sustain, and transform reality through technique — the technical-facet subtype of `Activity`: intelligence, research, development, acquisition, transfer, assimilation, adaptation, verification, demonstration, scaling, integration, standardization, commercialization, operation, maintenance, transformation.
 
 ## Formulation
 
@@ -56,5 +56,5 @@ Readable secondarily as a `Technical Element` in Technique Space (the technique 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md) (sibling activity family)
+- [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md) (sibling activity family)
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md) (the `Technical Element` reading: `Technical Research`, `Technical Maintenance`)

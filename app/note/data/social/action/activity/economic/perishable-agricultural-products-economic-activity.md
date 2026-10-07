@@ -593,8 +593,8 @@ $$
 - https://pubsonline.informs.org/doi/10.1287/moor.2025.1115?utm_source=chatgpt.com
 - https://www.sciencedirect.com/science/article/abs/pii/S0925527312004215?utm_source=chatgpt.com
 - https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
-- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)
-- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
+- [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)
 - [Agricultural Science](note.html?n=epistemica/agricultural-science.md)
 - [Production Function](note.html?n=epistemica/production-function.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)

@@ -9,7 +9,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 > Its "sophistication" is the co-evolution of two spaces: the **business-model space** (the
 > repertoire of viable commerce configurations) and the **firm space** (the population of firms
 > instantiating them) under competitive selection. This note synthesizes
-> [Commerce](note.html?n=social/activity/economic/commerce-economic-activity.md) and
+> [Commerce](note.html?n=social/action/activity/economic/commerce-economic-activity.md) and
 > [Firm](note.html?n=social/actor/type/firm.md); it defines nothing the commerce note already
 > defines — it traces how the two spaces change together.
 
@@ -40,7 +40,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 > activities, resources, relationships, and economic mechanisms a commerce firm combines to match
 > supply with demand and create, deliver, and capture value. The canonical definition and the
 > full catalog of models (Independent Retail through On-Demand Retail) live in the commerce note's
-> [Integral Business Model (Solution) Space](note.html?n=social/activity/economic/commerce-economic-activity.md):
+> [Integral Business Model (Solution) Space](note.html?n=social/action/activity/economic/commerce-economic-activity.md):
 > a business model specifies which alternatives in the retail solution space the firm selects and
 > how those choices are implemented and coordinated internally. Models overlap and combine — one
 > firm may instantiate several at once.
@@ -78,7 +78,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 >    which in turn lowers the cost of the next recombination.
 >
 > "Sophistication" is therefore measurable, not impressionistic: the commerce note's
-> [evolution metrics](note.html?n=social/activity/economic/commerce-economic-activity.md) index
+> [evolution metrics](note.html?n=social/action/activity/economic/commerce-economic-activity.md) index
 > it at three levels — Ecosystem (concentration, entry/exit rates, selection intensity,
 > replicator fitness, variety, entropy, coevolutionary response), Firm (revenue, margins, ROIC,
 > productivity, inventory turnover, service, survival), and Business Model / Format (sales per
@@ -110,7 +110,7 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 | Path | Sequence | Driver | Instance |
 | --- | --- | --- | --- |
 | Intermediation lengthening then shortening | Direct exchange → retail intermediation → wholesale intermediation → integrated distribution → platform/direct rediscovery | Falling transport and coordination costs, then falling search costs | Farmers' market → independent retail → wholesale market → integrated retail distribution → e-commerce marketplace, DTC |
-| Spot to contract | Spot transactions → repeated dealing → formal contracts → integration or platform governance | Perishability, quality variance, asset specificity, demand uncertainty | Fresh-produce spot trade → supply contracts → contract farming; see the "spot markets to contracts" trajectory in [Perishable Agricultural Products](note.html?n=social/activity/economic/perishable-agricultural-products-economic-activity.md) |
+| Spot to contract | Spot transactions → repeated dealing → formal contracts → integration or platform governance | Perishability, quality variance, asset specificity, demand uncertainty | Fresh-produce spot trade → supply contracts → contract farming; see the "spot markets to contracts" trajectory in [Perishable Agricultural Products](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md) |
 | Bulk breaking to assortment pooling | Bulk wholesale → department and variety formats → hypermarket and general merchandise → pooled omnichannel inventory | Demand heterogeneity, inventory-pooling economics, urbanization | Cash-and-carry wholesale → department store → hypermarket → omnichannel retail with shared inventory |
 | Informal to verified exchange | Personal inspection → reputation and brands → third-party grading and certification → platform-mediated trust | Scale of trade, anonymity of counterparties, quality opacity | Bazaar bargaining → branded goods → certified grades → marketplace ratings and escrow |
 | Labor-intensive to automated fulfillment | Counter service → self-service → POS and ERP coordination → automated stores and auto-replenishment | Wage levels, information-technology cost, demand for speed | Counter shops → supermarkets → e-grocery → automated stores, vending, auto-replenishment |
@@ -140,10 +140,10 @@ tags: [commercial-sector, commerce, business-model, firm, evolution, economic, g
 
 ## References
 
-- [Commerce](note.html?n=social/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
+- [Commerce](note.html?n=social/action/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
 - [Firm](note.html?n=social/actor/type/firm.md) — firm as `Collective / Organization`
 - [Profile Templates](note.html?n=epistemica/profile-templates.md) — production and industry profiling blueprints, incl. firm-space tables
-- [Perishable Agricultural Products Industry](note.html?n=social/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
+- [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) — decomposition workflow, type table, social-element note schema
 - Foster, Haltiwanger, & Krizan (2002) — aggregate change through reallocation (as cited in Commerce)

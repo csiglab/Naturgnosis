@@ -50,4 +50,4 @@ Readable secondarily as a `Synontic Element` (market-as-coordinator: prices, con
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Product](note.html?n=social/product.md)
-- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)
+- [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)

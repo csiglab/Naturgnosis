@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, finland, multi-format, omnichannel]
 ## References
 
 - Wikipedia — Kesko (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)

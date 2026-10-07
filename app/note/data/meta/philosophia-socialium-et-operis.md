@@ -54,7 +54,7 @@
 
 > The labour of social practice goes hand in hand with a layout of reality — that is its coordinative template: every associative move presupposes a parsing of who relates how, and every relational distinction earns its keep through coordinative use.
 
-> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, actions, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
+> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, actions, action guidance, action organization, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
 
 > **Note on levels:** primitive types (interaction units, actions, regulations, states, dynamics, environments, tagging systems) compose the derivative types (roles, norms, institutions, networks, identities, scripts, systems); derivative rows land as flat roots under `Social Order` and are defined through primitives. The agentic and normative spines order the core chains; every other root is a licensed flat branch, never skipped in instance tables.
 
@@ -68,7 +68,7 @@
 
 > Recursion is introduced by allowing a composite to have another composite as an instance: a `Social Compound` may contain `Social Compound`s (a trading circuit within a port city labor market set). Nesting composites in composites is what makes the type tree recursive.
 
-> **Spines (adapted to the social):** agentic-spine `Interaction Unit -> Agency -> Social Action -> Activity` (granular acts bundle into coarse activities); normative-spine `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`. Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
+> **Spines (adapted to the social):** agentic-spine `Interaction Unit -> Agency -> Social Action -> Activity` (granular acts bundle into coarse activities); normative-spine `Institution -> Social Role -> Norm / Regulation -> Right / Obligation`; guidance-branch `Social Action -> Action Guidance -> {Strategy, Policy, Principle, Rule, Doctrine}` (coordinators orienting subsequent action); organization-branch `Social Action -> Action Organization -> {Plan, Program, Project, Workflow, Schedule, Initiative, Roadmap, Charter}` (forms arranging actions into coordinated wholes). Flat facet types land directly under the bound root element. An instance table may land at any depth of a spine; intermediate levels are structuring types, never skipped.
 
 > **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
 
@@ -85,6 +85,21 @@
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity | Coarse bundle of granular social actions performed as one situated doing. | Auditing, commuting, trade negotiation, teaching a course |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Activity -> Technical Activity | Coarse bundle of granular technical actions: research, development, transfer, operation, maintenance. | Technology development; plant commissioning |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance | Guidance structure: coordinators that orient, license, and constrain subsequent action. | Strategy, Policy, Principle, Rule, Doctrine |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance -> Strategy | Deliberate selection of ends and means over a horizon, coordinating action across agents. | Industrial strategy, market-entry strategy |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance -> Policy | Deliberate course of action adopted by an authority, guiding subsequent decisions. | Tax policy, language policy |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance -> Principle | General rule or standard guiding and evaluating action. | Precautionary principle, subsidiarity |
+| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance -> Rule | Explicitly codified constraint prescribing or prohibiting conduct. | Quorum rule, eligibility rule |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Guidance -> Doctrine | Authoritative body of guiding tenets orienting action in a domain. | Monroe Doctrine, counterinsurgency doctrine |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization | Organization structure: forms arranging actions into coordinated wholes across agents and time. | Plan, Program, Project, Workflow, Schedule, Initiative, Roadmap, Charter |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Plan | Deliberate arrangement of future actions specifying ends, means, and sequence. | Evacuation plan, business plan |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Program | Coordinated set of projects pursued under one objective. | Vaccination program, electrification program |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Project | Time-bounded organized effort toward a defined outcome. | Bridge construction project, ERP rollout |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Workflow | Defined sequence of steps routing work among actors and roles. | Approval workflow, clinical workflow |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Schedule | Temporal allocation sequencing actions, agents, and resources. | Production schedule, class timetable |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Initiative | Bounded undertaking launched to pursue a new objective. | Open-data initiative, reform initiative |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Roadmap | Sequenced long-range outlook aligning planned moves with milestones. | Product roadmap, decarbonization roadmap |
+| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Action Organization -> Charter | Founding instrument constituting an organized effort and its mandate. | Project charter, team charter |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Interaction Pattern | Recurring relational sequences shaped by protocols, scoping repeated exchanges. | Patronage cycle, rotation system, bargaining round |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Social Action -> Allocation | Distribution of scarce goods by rule, scoping who receives what. | Rationing, spectrum auction, quota assignment |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Behavior | Observable pattern of actions over time, scoping an agent's conduct. | Consumer behavior, voting behavior, firm behavior |
@@ -108,8 +123,6 @@
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Regime | Stable pattern of political rule. | Democracy, monarchy, one-party rule |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Governance Structure | Arrangement through which authority and coordination are exercised. | Hierarchy, federalism, collegial board |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Collective Decision Mechanism | Procedure for making collective choices. | Election, consensus conference, sortition |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Strategy | Coordinated plan of action. | Industrial policy, market entry strategy |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Policy | Deliberate course of action adopted by an authority. | Tax policy, language policy |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Goal | Desired future state coordinating effort. | Profit, full employment, carbon neutrality |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Interest | Stake in an outcome attributed to a unit. | Political interest, vested interest |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Constraint | Limitation on action recognized in coordination. | Regulation, scarcity, quota |
@@ -257,6 +270,10 @@ The tree is governed by the following rules:
 
 > The engineering of artifacts and the organization of making belong to the technical and production decompositions even when socially embedded: decompose the artifact technically, the coordination socially, and cross-link. Edit the node where its layer lives; view it wherever its role applies (cf. the derived-view rule).
 
+### What type of social element is a `Policy`?
+
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/government/guidance/policy.md).
+
 ### What is the **most abstract formulation** that association can take?
 
 - Units → Relations → Coordination.
@@ -359,6 +376,19 @@ The tree is governed by the following rules:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Technical Activity](note.html?n=social/activity/technical/technical-activity.md)
+- [Technical Activity](note.html?n=social/action/activity/technical/technical-activity.md)
+- [Strategy](note.html?n=social/action/guidance/strategy.md)
+- [Policy](note.html?n=social/government/guidance/policy.md)
+- [Principle](note.html?n=social/action/guidance/principle.md)
+- [Rule](note.html?n=social/action/guidance/rule.md)
+- [Doctrine](note.html?n=social/action/guidance/doctrine.md)
+- [Plan](note.html?n=social/action/organization/plan.md)
+- [Program](note.html?n=social/action/organization/program.md)
+- [Project](note.html?n=social/action/organization/project.md)
+- [Workflow](note.html?n=social/action/organization/workflow.md)
+- [Schedule](note.html?n=social/action/organization/schedule.md)
+- [Initiative](note.html?n=social/action/organization/initiative.md)
+- [Roadmap](note.html?n=social/action/organization/roadmap.md)
+- [Charter](note.html?n=social/action/organization/charter.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 

@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, united-states, p2p, marketplace, auction]
 ## References
 
 - Wikipedia — eBay (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)

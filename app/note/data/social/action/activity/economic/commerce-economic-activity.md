@@ -192,7 +192,7 @@ Useful terms:
 | ↳ | Market research | Structured inquiry into preferences, segments, and competitors. |
 | **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](note.html?n=technique/logistics-system.md). |
 | ↳ | Warehousing | Receiving, storing, preserving, and retrieving goods before they reach demand. |
-| ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](note.html?n=social/activity/economic/perishable-agricultural-products-economic-activity.md). |
+| ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md). |
 | ↳ | Fulfillment | Picking, packing, and preparing customer orders for delivery or pickup. |
 | ↳ | Freight forwarding | Arranging and consolidating transport across carriers and borders on behalf of a shipper. |
 | ↳ | Customs brokerage | Clearing goods through border controls, duties, and documentation. |
@@ -884,7 +884,7 @@ $$
 | **General Merchandise** | Supercenters, department stores, warehouse clubs, dollar stores | **Broad heterogeneous demand; high basket breadth and substitution** |
 | **E-commerce / Direct Retail** | Cross-category | **Demand is channel-mediated rather than product-specific: highly distributed, convenience-driven, delivery-sensitive** |
 
-> The perishable end of this demand space — fresh agricultural goods whose value decays with time and temperature — is worked in the companion note [Perishable Agricultural Products Industry](note.html?n=social/activity/economic/perishable-agricultural-products-economic-activity.md).
+> The perishable end of this demand space — fresh agricultural goods whose value decays with time and temperature — is worked in the companion note [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md).
 
 ### Which are the open theoretical problems in commerce?
 
@@ -1489,8 +1489,8 @@ $$
 - Vargo, S. L., & Lusch, R. F. (2004). The institution, service, and systems of service-centered (S-D) logic. *Journal of Marketing, 68*(5), 1–17.
 - Varian, H. R. (1992). *Microeconomic analysis* (3rd ed.). W. W. Norton.
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
-- [Economic Activity](note.html?n=social/activity/economic/economic-activity.md)
-- [Perishable Agricultural Products Industry](note.html?n=social/activity/economic/perishable-agricultural-products-economic-activity.md)
+- [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)
+- [Perishable Agricultural Products Industry](note.html?n=social/action/activity/economic/perishable-agricultural-products-economic-activity.md)
 - [Production Function](note.html?n=epistemica/production-function.md)
 - [Market](note.html?n=social/market/market.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)

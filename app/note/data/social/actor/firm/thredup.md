@@ -15,4 +15,4 @@ tags: [actor, firm, commerce, united-states, resale, recommerce]
 ## References
 
 - Wikipedia — thredUP (encyclopedic entry)
-- [Commerce Economic Activity](note.html?n=social/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)
