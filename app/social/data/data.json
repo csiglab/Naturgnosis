@@ -154826,15 +154826,16 @@
       "sourceReference": "epistecnica personas person.md",
       "createdAt": "2026-09-24",
       "auditTrail": [
-        "imported by bin/import_persona_actors.py"
+        "imported by bin/import_persona_actors.py",
+        "taxonomy-alignment 2026-10-07: Person subsumed by Human; note reference repointed to human.md"
       ],
       "inheritanceLevel": 0
     },
     "references": [
       {
         "title": "person",
-        "link": "/note/note.html?n=social/actor/persona/person.md",
-        "description": "Persona note in the Note Space."
+        "link": "/note/note.html?n=social/actor/human.md",
+        "description": "Human entry in the Note Space (Person is subsumed by Human)."
       }
     ]
   },
@@ -171054,7 +171055,7 @@
     "category": "Organization",
     "layer": "Ontic",
     "description": "Mode of aggregating independent economic actors into a collective coordinating costly activities; canonically the ancient Indian merchant-artisan guild.",
-    "longDescription": "Śreṇi refers not to a prescribed organizational form but to a mode of economic aggregation: independent economic actors, productive capacities, or interests organized into a collective arrangement coordinating activities otherwise difficult or costly individually. Canonical instance: the ancient Indian śreṇi (6th c. BCE–12th c. CE) — self-governing vocational associations under a removable head, with seals, customary codes (śreṇi-dharma) carrying legal weight, and banking/endowment functions. Decomposed in note social/actor/type/sreni.md under the socialium grammar.",
+    "longDescription": "Śreṇi refers not to a prescribed organizational form but to a mode of economic aggregation: independent economic actors, productive capacities, or interests organized into a collective arrangement coordinating activities otherwise difficult or costly individually. Canonical instance: the ancient Indian śreṇi (6th c. BCE–12th c. CE) — self-governing vocational associations under a removable head, with seals, customary codes (śreṇi-dharma) carrying legal weight, and banking/endowment functions. Decomposed in note social/actor/sreni.md under the socialium grammar.",
     "chronology": {
       "summary": "Vocational aggregation from Vedic groupings to medieval corporations",
       "events": [
@@ -171098,10 +171099,11 @@
     "specific": {},
     "metadata": {
       "confidenceScore": 0.7,
-      "sourceReference": "https://en.wikipedia.org/wiki/Shreni; Naturgnosis note social/actor/type/sreni.md",
+      "sourceReference": "https://en.wikipedia.org/wiki/Shreni; Naturgnosis note social/actor/sreni.md",
       "createdAt": "2026-10-07T00:00:00Z",
       "auditTrail": [
-        "created 2026-10-07: guild aggregation mode under Private Organization; single-source Wikipedia plus session definition"
+        "created 2026-10-07: guild aggregation mode under Private Organization; single-source Wikipedia plus session definition",
+        "taxonomy-alignment 2026-10-07: note path social/actor/type/sreni.md -> social/actor/sreni.md"
       ],
       "inheritanceLevel": 0
     },
@@ -171114,7 +171116,7 @@
       {
         "title": "Śreṇi — Naturgnosis note",
         "link": null,
-        "description": "Aggregation-mode note social/actor/type/sreni.md (Collective / Organization, Ontic, economic facet)"
+        "description": "Aggregation-mode note social/actor/sreni.md (Collective / Organization, Ontic, economic facet)"
       }
     ]
   },
@@ -186142,5 +186144,60 @@
       "inheritanceLevel": 0
     },
     "references": []
+  },
+  {
+    "id": "sprind",
+    "name": "Federal Agency for Breakthrough Innovation (SPRIND)",
+    "tags": [
+      "actor",
+      "research",
+      "germany",
+      "innovation-agency",
+      "public-agency"
+    ],
+    "category": "Organization",
+    "layer": "Ontic",
+    "description": "German federal agency funding breakthrough (disruptive) innovations on the DARPA model.",
+    "longDescription": "SPRIND (Bundesagentur für Sprunginnovationen, legally SPRIND GmbH) is Germany's federal agency for breakthrough innovation: a public, arm's-length funder seated in Leipzig that discovers research ideas with disruptive potential and develops them toward market. Founded 2019 with the Bund as shareholder; empowered by the SPRIND Freedom Act (2023). Instruments: start-up funding, investments and convertible loans, R&D funding, staged Challenges, and Funken demonstration sprints.",
+    "chronology": {
+      "summary": "Founded 2019, Leipzig; Freedom Act 2023.",
+      "events": [
+        {
+          "year": 2019,
+          "event": "Founded by notarial act in Leipzig; Rafael Laguna de la Vera appointed founding director",
+          "context": ""
+        },
+        {
+          "year": 2023,
+          "event": "SPRIND Freedom Act passed and in force; agency entrusted with the federal breakthrough-innovation task",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "modeled_on",
+        "targetNodeId": "usa-a8",
+        "description": "SPRIND is built on the DARPA model of breakthrough-innovation funding."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "https://www.sprind.org/en; app/note/data/social/actor/research/de/sprind.md",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "auditTrail": [
+        "actor-added 2026-10-07 SPRIND research actor"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "SPRIND — Federal Agency for Breakthrough Innovation",
+        "link": "https://www.sprind.org/en",
+        "description": "Official site: mandate, instruments (Challenges, Funken), projects."
+      }
+    ]
   }
 ]
