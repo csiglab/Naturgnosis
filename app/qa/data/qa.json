@@ -13,5 +13,53 @@
       "material-forms"
     ],
     "status": "open"
+  },
+  {
+    "id": "qa-00002",
+    "question": "Why does Singapore use the GIC?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-002",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "gic",
+      "sovereign-wealth",
+      "economic"
+    ],
+    "status": "open"
+  },
+  {
+    "id": "qa-00003",
+    "question": "How do currency markets work in Singapore?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-003",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "currency",
+      "monetary-authority",
+      "economic"
+    ],
+    "status": "open"
+  },
+  {
+    "id": "qa-00004",
+    "question": "How does Singapore's external economic interaction happen?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-004",
+    "date": "2026-10-07",
+    "source": "manual",
+    "tags": [
+      "singapore",
+      "trade",
+      "external-economic",
+      "economic"
+    ],
+    "status": "open"
   }
 ]
