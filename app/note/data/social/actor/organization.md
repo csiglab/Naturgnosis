@@ -55,6 +55,9 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 | Organization → `Type` → Private Organization → `Type` → Corporation | Limited-liability organization with tradable ownership shares. |
 | Organization → `Type` → Private Organization → `Type` → Partnership | Organization owned jointly by partners bearing unlimited liability. |
 | Organization → `Type` → Private Organization → `Type` → Family Firm | Organization controlled across generations by one kin group. |
+| Organization → `Type` → Private Organization → `Type` → Guild | Grouping: craft and trade collectives aggregating independent members. |
+| Organization → `Type` → Private Organization → `Type` → Guild → `Type` | Grouping: historical forms of the guild mode. |
+| Organization → `Type` → Private Organization → `Type` → Guild → `Type` → Śreṇi | Mode of aggregating independent economic actors into a collective coordinating costly activities (canonical instance: ancient Indian merchant-artisan śreṇi). |
 | Organization → `Type` → Non-Governmental Organization | Mission-driven organization, neither state nor market, serving a cause. |
 | Organization → `Type` → Non-Governmental Organization → `Type` | Grouping: kinds of non-governmental organization. |
 | Organization → `Type` → Non-Governmental Organization → `Type` → Foundation | Endowed organization disbursing grants toward a mission. |
