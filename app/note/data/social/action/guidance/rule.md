@@ -53,4 +53,4 @@ tags: [rule, guidance, normative, social-element]
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Principle](note.html?n=social/action/guidance/principle.md) (the standard warranting a rule)
-- [Policy](note.html?n=social/state/guidance/policy.md) (the course within which rules operate)
+- [Policy](note.html?n=social/state/action/guidance/policy.md) (the course within which rules operate)

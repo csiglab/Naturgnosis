@@ -96,4 +96,4 @@ Lineage: post-war European institution-building in the study of international af
 - [NUPI — Organisation](https://www.nupi.no/en/about-nupi/organisation) (research groups, departments, board)
 - [Norwegian Institute of International Affairs — NUPI](https://www.nupi.no/en/about-nupi/norwegian-institute-of-international-affairs) (the institute's own profile)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Materials Genome Initiative](note.html?n=social/state/action/materials-genome-initiative.md) (companion decomposition of a state-run research coordination scope)
+- [Materials Genome Initiative](note.html?n=social/state/action/case-study/materials-genome-initiative.md) (companion decomposition of a state-run research coordination scope)
