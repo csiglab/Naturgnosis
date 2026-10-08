@@ -164,5 +164,5 @@ Pfeiffer's work is especially interesting because he treated economic developmen
 
 - [Johann Friedrich von Pfeiffer](https://en.wikipedia.org/wiki/Johann_Friedrich_von_Pfeiffer)
 - [More by Johann Friedrich von Pfeiffer (Google Play Books)](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMR3dSWU1vNUxhYzBDEAkQBA%3D%3D:S:ANO1ljJ1Hb8)
-- [DNB GND 120172828](https://d-nb.info/gnd/120172828)
-- Schumacher, Reinhard and Greitens, Jan, Johann Friedrich Pfeiffer on Adam Smith: An Early Reception of Adam Smith in the German States (January 05, 2024). Available at SSRN: https://ssrn.com/abstract=5115297 or http://dx.doi.org/10.2139/ssrn.5115297 
+- Schumacher, Reinhard and Greitens, Jan, Johann Friedrich Pfeiffer on Adam Smith: An Early Reception of Adam Smith in the German States (January 05, 2024). Available at SSRN: https://ssrn.com/abstract=5115297 or http://dx.doi.org/10.2139/ssrn.5115297.
+- Backhaus, Jürgen Georg. Physiocracy, Antiphysiocracy and Pfeiffer. springer, 2011.
