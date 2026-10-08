@@ -1,3 +1,7 @@
+---
+tags: [money, synontic, coordinator, social-element]
+---
+
 # Money
 
 > Universal Subroggate that can take the “form” of any good / service between agents in an economy, allowing a seamless flow of goods and services in an economy.

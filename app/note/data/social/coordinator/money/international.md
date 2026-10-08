@@ -1,3 +1,7 @@
+---
+tags: [international-monetary-system, synontic, coordinator, social-element]
+---
+
 # International Monetary System (IMS)
 
 > The **International Monetary System (IMS)** is the set of rules, institutions, and agreements that govern how countries conduct monetary and financial transactions across borders. It facilitates the exchange of currencies, balance of payments adjustments, and international trade and investment by providing a framework for currency convertibility, exchange rate mechanisms, and international reserves.

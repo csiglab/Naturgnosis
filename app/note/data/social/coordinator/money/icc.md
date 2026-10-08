@@ -1,3 +1,7 @@
+---
+tags: [exchange-rate, synontic, coordinator, social-element]
+---
+
 # Exchange Rate
 
 >

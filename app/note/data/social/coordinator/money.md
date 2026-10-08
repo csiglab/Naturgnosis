@@ -1,0 +1,7 @@
+---
+tags: [money, synontic, coordinator, social-element]
+---
+
+# Money
+
+> See more in [Monetary System](./money/readme.md).

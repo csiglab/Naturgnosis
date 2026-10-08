@@ -1,3 +1,7 @@
+---
+tags: [monetary-system, synontic, coordinator, social-element]
+---
+
 # Monetary System
 
 > **Monetary Policy** Monetary policy involves using interest rates, money supply, and other tools by the central bank to manage the economy. The aim is to control inflation, stabilize the currency, and promote economic growth.
