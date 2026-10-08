@@ -42,4 +42,4 @@ It is not a `Policy` (the course it helps to shape), not an `Institution` in the
 - [Chief Executive's Policy Unit — Official Site](https://www.cepu.gov.hk/en/home/)
 - [Public Organization](note.html?n=social/actor/public-organization.md) (type: Government Organization → Public Agency)
 - [Organization](note.html?n=social/actor/organization.md) (parent collective type)
-- [China](note.html?n=social/state/china.md) (nation-state the Hong Kong SAR belongs to)
+- [China](note.html?n=social/state/space/chn/china.md) (nation-state the Hong Kong SAR belongs to)

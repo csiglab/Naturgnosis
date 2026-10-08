@@ -55,6 +55,6 @@ It is a capital pool with a policy compass: governments (central and local) comm
 - [Fortune: Big Fund III $47.5B](https://fortune.com/asia/2024/05/28/more-confident-china-doubling-down-big-fund-iii-semiconductors-development-us-controls) (doubling-down reading)
 - [Nikkei Asia: Big Fund III spending](https://asia.nikkei.com/business/tech/semiconductors/china-s-3rd-semiconductor-big-fund-starts-spending-47bn-war-chest) (outside-capital attraction)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [China](note.html?n=social/state/china.md) (State R&D finance row: the policy lineage)
+- [China](note.html?n=social/state/space/chn/china.md) (State R&D finance row: the policy lineage)
 - [Market](note.html?n=social/market/market.md) (arena guided capital enters)
 - Graph nodes of the same names: `government-guidance-fund`, `reality.market` (Social Space, dataset `social`); instance stubs: `National Integrated Circuit Industry Investment Fund (Big Fund)`, `Shenzhen Venture Capital Guidance Fund`

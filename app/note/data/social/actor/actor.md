@@ -77,5 +77,5 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Research Actor](note.html?n=social/actor/research.md) (research-functional subtype hub: the research actor family)
 - [Political Party](note.html?n=social/actor/political-party.md) (political subtype)
 - [Sociedad de Amantes del País](note.html?n=social/actor/sociedad-de-amantes-del-pais.md) (learned-society type)
-- [China](note.html?n=social/state/china.md) (nation-state instance)
+- [China](note.html?n=social/state/space/chn/china.md) (nation-state instance)
 - Graph nodes of the same names: `person`, `firm`, `organization`, `public-organization`, `sreni` (Social Space, dataset `social`)
