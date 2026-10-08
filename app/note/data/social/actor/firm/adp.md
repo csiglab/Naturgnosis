@@ -239,7 +239,7 @@ tags: [actor, firm]
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)  
+- [Technology](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)  
 - ADP Investor Relations, Annual Reports (2023–2024)  
 - Gartner, IDC, and Statista HCM market data  
 - SEC filings (10-K, 10-Q)  

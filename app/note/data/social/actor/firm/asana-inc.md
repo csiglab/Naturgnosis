@@ -190,6 +190,6 @@ tags: [actor, firm]
 ## **References**
 
 - [Firm Ontology & Modeling](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology Framework](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)  
+- [Technology Framework](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)  
 - Asana Investor Relations, S-1, earnings calls  
 - SaaS industry benchmarks (Bessemer, SaaStr)

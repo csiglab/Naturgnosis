@@ -84,4 +84,4 @@
 
 ## References
 
-- [Technology](../Locus-Social-Realitatis/Facet/Knowledge/Technology.md)
+- [Technology](note.html?n=social/structural/technical/technology.md)

@@ -233,7 +233,7 @@ tags: [actor, firm]
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)  
+- [Technology](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)  
 - [Technical Topic Note Template](https://righteous-guardian-68f.notion.site/Technical-Topic-Note-Template-2c3c0f5171ec80ae86b8f3100fb7afb9?source=copy_link)  
 - Yelp Investor Relations (2024 filings)  
 - Statista, SimilarWeb, eMarketer (market data)  

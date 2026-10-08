@@ -231,7 +231,7 @@ tags: [actor, firm]
 - Hertz sued Accenture for failing a $32M “digital transformation” project ([twitter.com/allafarce](http://twitter.com/allafarce))
 - [https://news.ycombinator.com/item?id=19756346](https://news.ycombinator.com/item?id=19756346)
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)
-- [Technology](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)
+- [Technology](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)
 - [Accenture Annual Report 2024](https://www.accenture.com)
 - [Accenture Technology Vision 2025](https://www.accenture.com/technology-vision)
 - Porter, M. (1985). *Competitive Advantage*.

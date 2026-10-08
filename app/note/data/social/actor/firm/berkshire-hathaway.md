@@ -290,7 +290,7 @@ tags: [actor, firm]
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)  
+- [Technology](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)  
 - [Technical Topic Note Template](https://righteous-guardian-68f.notion.site/Technical-Topic-Note-Template-2c3c0f5171ec80ae86b8f3100fb7afb9?source=copy_link)  
 - Berkshire Hathaway Annual Reports (1970–2024)  
 - Buffett Partnership Letters  

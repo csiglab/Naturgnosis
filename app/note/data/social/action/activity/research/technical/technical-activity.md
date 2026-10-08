@@ -190,6 +190,10 @@ Readable secondarily as a `Technical Element` in Technique Space (the technique 
 
 > Technical Research, Exploration discovers and characterizes mechanisms; development domesticates and hardens them into reliable technical artifacts.
 
+### How to think about the evolution of an actor's engagement in technical activities within a given social interaction field?
+
+> ...
+
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)

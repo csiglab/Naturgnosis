@@ -248,7 +248,7 @@ tags: [actor, firm]
 ## References
 
 - [Firm – Bremontix](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology – Bremontix](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)  
+- [Technology – Bremontix](https://www.bremontix.xyz/note/note.html?n=social/structural/technical/technology.md)  
 - BlackRock Annual Reports (2023–2024)  
 - Aladdin Whitepapers & Client Documentation  
 - SEC Filings (10-K, DEF 14A)  

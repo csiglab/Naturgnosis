@@ -151,7 +151,7 @@ This profile details Argentina's mastery of specific technical cores and operati
 
 ## References
 
-- [Technology](../../Facet/Knowledge/Technology.md)
+- [Technology](note.html?n=social/structural/technical/technology.md)
 - (Internal references to other profiles, e.g., Brazil, would be placed here)
 - Semanario de Agricultura
 - [Telégrafo Mercantil](https://www.wikiwand.com/es/Tel%C3%A9grafo_Mercantil)
