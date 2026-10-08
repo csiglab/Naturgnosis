@@ -395,7 +395,7 @@ The tree is governed by the following rules:
 
 ## References
 
-- https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Onto/Synontic/Technique/
+- https://www.bremontix.xyz/note/note.html?n=social/onto/synontic/technique.md
 - https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Technical/Technology/
 - Agency
 - Problem
