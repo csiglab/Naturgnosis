@@ -371,7 +371,7 @@ Classification of Elements of Social Reality:
 * [Complexity Science](https://righteous-guardian-68f.notion.site/Complexity-Science-171c0f5171ec80c18335cdf06a024db6?pvs=4)
 * [Dynamical Intelligence](https://righteous-guardian-68f.notion.site/Dynamical-Intelligence-a41fde247c384e3bb5e561bf55c70f33?pvs=4)
 * [Agency](../Locus-Instrumentorum/Agency.md)
-* [External Observer](../Locus-Instrumentorum/Observation.md)
+* [External Observer](note.html?n=social/state/action/locus-instrumentorum/foundation/observation.md)
 * [Sociological Theory](https://en.wikipedia.org/wiki/Sociological_theory)
 * [Social Ontology](https://www.cambridge.org/core/elements/social-ontology/0F208BDE42489CF0CF77B0DE38E95BBB)
 * [Social Ontology](https://plato.stanford.edu/archives/fall2025/entries/social-ontology/)
