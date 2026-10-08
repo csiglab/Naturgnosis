@@ -186616,5 +186616,42 @@
         "description": "Firm note social/actor/firm/kkr-co-inc.md"
       }
     ]
+  },
+  {
+    "id": "agenda",
+    "name": "Agenda",
+    "tags": [
+      "agenda",
+      "organization",
+      "action-organization",
+      "social-element"
+    ],
+    "category": "Agenda",
+    "layer": "Synontic",
+    "description": "Prioritized set of actions and initiatives ordered for collective attention and pursuit.",
+    "longDescription": "Agenda is the organization form that converts a strategy selection into a committed doing: objectives declared, items gathered, priority order fixed, sponsorship committed, milestones judging advance.",
+    "chronology": {
+      "summary": "Action Organization branch of Philosophia Socialium et Operis.",
+      "events": []
+    },
+    "relationships": [
+      {
+        "relationshipFamily": "structural",
+        "relationshipType": "sibling_of",
+        "targetNodeId": "project",
+        "description": "Agenda is a sibling organization form alongside Project under Action Organization."
+      }
+    ],
+    "specific": {},
+    "metadata": {
+      "confidenceScore": 0.8,
+      "sourceReference": "app/note/data/meta/philosophia-socialium-et-operis.md (Action Organization branch)",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "auditTrail": [
+        "taxonomy-authored 2026-10-08 Action Organization branch"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": []
   }
 ]

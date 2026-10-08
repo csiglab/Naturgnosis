@@ -92,6 +92,7 @@
 | **Initiative**                    | Bounded undertaking launched to pursue a new objective.             | Open-Data Initiative                          |
 | **Roadmap**                       | Sequenced long-range outlook aligning moves with milestones.        | Product Roadmap                               |
 | **Charter**                       | Founding instrument constituting an organized effort.                | Project Charter                               |
+| **Agenda**                        | Prioritized set of actions and initiatives ordered for pursuit.       | 2030 Agenda                                   |
 | **Activity**                      | Coarse bundle of granular social actions performed as one situated doing. | Trade, Teaching, Auditing                 |
 | **Process**                       | Structured sequence of activities.                                  | Recruitment, Production                       |
 | **Mechanism**                     | Causal process producing social outcomes.                           | Feedback Loop, Selection Mechanism            |
