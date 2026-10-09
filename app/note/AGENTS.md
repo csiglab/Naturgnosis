@@ -33,6 +33,10 @@ curl /note/api/pins               # pinned paths
 ## Invariants
 
 - `data/` holds the hand-edited corpus; `data/index.json` is generated.
+- Schema-backed JSON in the corpus keeps its object key order identical to the
+  corresponding schema's `properties` order; reorder the schema first, then
+  conform the data (e.g. `data/social/state/action/atlas/atlas.json` follows
+  its `atlas.schema.json`).
 - Note paths are kebab-case, Epistecnica slug rule (see
   `spec/note/authoring.md`
   and `bin/build_note_index.py:slugify_segment()`); the builder warns with

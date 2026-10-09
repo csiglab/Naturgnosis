@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas of State Action — Problems and Instruments</title>
+    <title>Atlas of State Action</title>
     <link rel="icon" href="/shared/img/favicon.ico">
     <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -138,10 +138,6 @@
         .lede { margin-top: 1.6rem; max-width: 44rem; font-size: 1rem; font-weight: 300; line-height: 1.7;
             color: var(--text-secondary); border-left: 1px solid var(--accent-gold); padding-left: 1.25rem; }
         .lede strong { font-weight: 500; color: var(--text-primary); }
-        .note-meta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1.2rem 0 0; }
-        .chip { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase;
-            color: var(--text-muted); background: var(--bg-card); border: 1px solid var(--border-subtle);
-            padding: 0.35rem 0.7rem; text-decoration: none; transition: color 0.3s ease, border-color 0.3s ease; }
         .toolbar { display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; margin:0 0 1.2rem; }
         #search { flex:1 1 16rem; background:var(--bg-card); border:1px solid var(--border-medium); color:var(--text-primary); border-radius:var(--radius-md); padding:0.55rem 0.8rem 0.55rem 2rem; font-size:0.8rem;
             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237a87a0' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:0.6rem center; }
@@ -192,51 +188,62 @@
         .maphead { display:flex; align-items:baseline; gap:0.8rem; }
         .maphead .spacer { flex:1; }
         .maphead .pillgroup { flex:0 0 auto; }
+        .netcontrols { flex:0 0 auto; display:flex; flex-wrap:wrap; align-items:stretch; gap:0;
+            margin-bottom:0.8rem; padding:0; background:var(--card-bg);
+            border:1px solid var(--border-subtle); border-radius:var(--radius-lg); box-shadow:var(--shadow-sm); }
+        .netcontrols > .pillgroup, .netcontrols > .viewmodes { flex:1 1 0; justify-content:center; margin:0; padding:0.55rem 1rem; }
+        .netcontrols > * + * { border-left:1px solid var(--border-subtle); }
         .pillgroup { display:flex; gap:0.3rem; align-items:center; font-size:0.68rem; color:var(--text-muted); flex-wrap:wrap; }
         .pill { border:1px solid var(--border-medium); background:transparent; color:var(--text-secondary); border-radius:999px; font-size:0.66rem; padding:0.25rem 0.7rem; cursor:pointer; }
         .pill.active { background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; }
         #map { width:100%; max-width:880px; height:auto; display:block; margin:0 auto; }
         .netnode { cursor:pointer; }
         .edge { fill:none; }
-        .focuscard { border:1.5px solid var(--accent-blue); border-radius:var(--radius-md); padding:0.7rem 0.8rem; background:var(--bg-card); margin-top:0.7rem; }
-        .focuscard .kicker { font-size:0.62rem; font-weight:700; color:var(--accent-blue); text-transform:uppercase; letter-spacing:0.06em; }
-        .focuscard h3 { font-size:0.85rem; margin:0.25rem 0; }
-        .focuscard p { font-size:0.7rem; color:var(--text-secondary); line-height:1.5; }
-        .sublist { margin-top:0.6rem; }
-        .sublist details { border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.35rem 0.6rem; background:var(--bg-card); }
-        .sublist summary { font-size:0.68rem; font-weight:600; color:var(--text-secondary); cursor:pointer; }
-        .sublist h4 { font-size:0.68rem; color:var(--text-secondary); margin-bottom:0.3rem; font-weight:600; }
-        .sublist ul { list-style:none; }
-        .sublist li { font-size:0.7rem; color:var(--text-secondary); padding:0.22rem 0 0.22rem 1rem; position:relative; }
-        .sublist li::before { content:""; position:absolute; left:0.3rem; top:0.55rem; width:0.35rem; height:0.35rem; border-radius:50%; background:var(--text-ghost); }
+        .detailhead { margin-bottom:0.7rem; }
+        .detailhead .kicker { display:block; font-family:var(--font-mono); font-size:0.56rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-muted); }
+        .detailhead .kicker.instrument { color:var(--accent-cyan); }
+        .detailhead .kicker .pk { color:var(--accent-gold); }
+        .detailhead .kicker .ik { color:var(--accent-cyan); }
+        .detailhead .kicker .x { color:var(--text-muted); padding:0 0.35em; }
+        .detailhead h2 { font-family:var(--font-display); font-weight:400; font-size:1.2rem; line-height:1.25; margin-top:0.15rem; }
+        .specled { font-size:0.78rem; line-height:1.65; color:var(--text-secondary); border-left:2px solid var(--accent-gold); padding-left:0.75rem; }
+        .specpara { font-size:0.72rem; color:var(--text-secondary); line-height:1.6; }
+        .specsection { margin-top:0.9rem; }
+        .label { font-family:var(--font-mono); font-size:0.56rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.3rem; }
+        .specsection ul { list-style:none; }
+        .specsection li { font-size:0.72rem; color:var(--text-secondary); padding:0.18rem 0 0.18rem 0.95rem; position:relative; line-height:1.5; }
+        .specsection li::before { content:""; position:absolute; left:0.2rem; top:0.62rem; width:0.32rem; height:0.32rem; border-radius:50%; background:var(--text-ghost); }
+        .metachips { display:flex; flex-wrap:wrap; gap:0.3rem; }
+        .metachip { font-family:var(--font-mono); font-size:0.58rem; letter-spacing:0.04em; text-transform:uppercase; color:var(--text-secondary); background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:999px; padding:0.15rem 0.55rem; }
+        .metachip .k { color:var(--text-ghost); margin-right:0.35rem; }
+        .caselist { display:flex; flex-direction:column; gap:0.3rem; }
+        .caselink { display:block; font-size:0.72rem; color:var(--accent-blue); text-decoration:none; border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.42rem 0.6rem; background:var(--bg-card); }
+        .caselink:hover { border-color:var(--border-strong); }
+        .caselink .go { float:right; color:var(--text-ghost); }
+        .caselink.plain { color:var(--text-secondary); cursor:default; }
+        .caselink.plain:hover { border-color:var(--border-subtle); }
+        .caseitem { border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.45rem 0.6rem; background:var(--bg-card); }
+        .caseitem .cs-label { font-size:0.72rem; color:var(--text-primary); font-weight:600; }
+        .caseitem .cs-note { font-size:0.68rem; color:var(--text-secondary); line-height:1.5; margin-top:0.15rem; }
+        .relsection { border:1px solid var(--border-medium); border-radius:var(--radius-md); padding:0.6rem 0.7rem; background:var(--bg-card); }
+        .relhead { display:flex; align-items:center; gap:0.5rem; font-size:0.74rem; color:var(--text-secondary); }
+        .relhead .icontile { width:1.3rem; height:1.3rem; border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:#fff; font-size:0.7rem; flex:0 0 auto; }
+        .relhead strong { color:var(--text-primary); }
+        .relmeta { display:flex; flex-wrap:wrap; gap:0.35rem; margin-top:0.5rem; }
+        .relmeta .tag { font-family:var(--font-mono); font-size:0.58rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-secondary); border:1px solid var(--border-subtle); border-radius:999px; padding:0.12rem 0.5rem; }
         .relrows { display:flex; flex-direction:column; gap:0.3rem; margin-top:0.6rem; }
         .relrow { display:flex; align-items:center; gap:0.5rem; border:1px solid var(--border-subtle); background:var(--bg-card);
             border-radius:var(--radius-md); font-size:0.7rem; color:var(--text-secondary); padding:0.4rem 0.6rem; cursor:pointer; width:100%; text-align:left; }
         .relrow:hover { border-color:var(--border-strong); }
         .relrow.sel { border-color:var(--accent-blue); color:var(--accent-blue); }
+        .relrow.static { cursor:default; }
+        .relrow.static:hover { border-color:var(--border-subtle); }
+        .problink { color:var(--accent-blue); text-decoration:none; cursor:pointer; }
+        .problink:hover { text-decoration:underline; }
         .relrow .dot { width:0.6rem; height:0.6rem; border-radius:50%; flex:0 0 auto; }
         .relrow .icontile { width:1.35rem; height:1.35rem; border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:#fff; font-size:0.72rem; flex:0 0 auto; }
         .relrow .role { margin-left:auto; font-family:var(--font-mono); font-size:0.58rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-ghost); }
-        .comborows { display:flex; flex-direction:column; gap:0.3rem; margin-top:0.6rem; }
-        .comborow { border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0.4rem 0.6rem; background:var(--bg-card); font-size:0.7rem; }
-        .comborow h4 { font-size:0.7rem; font-weight:500; color:var(--text-secondary); }
-        .combochip { display:inline-block; border:1px solid var(--border-medium); border-radius:999px; padding:0.08rem 0.5rem; background:var(--bg-surface); color:var(--text-secondary); }
-        .comborow .plus { color:var(--text-ghost); margin:0 0.12rem; font-size:0.66rem; }
-        .badge { display:inline-block; margin-top:0.35rem; font-size:0.6rem; font-weight:600; border-radius:var(--radius-sm); padding:0.1rem 0.45rem; }
-        .badge.high { color:#2e7d43; background:rgba(46,125,67,0.12); }
-        .badge.medium { color:#b07d1e; background:rgba(176,125,30,0.12); }
-        .relflow { display:flex; align-items:center; gap:0.5rem; margin:0.6rem 0; }
-        .relbox { flex:1; border:1px solid var(--border-medium); border-radius:var(--radius-md); padding:0.55rem 0.65rem; background:var(--bg-card); }
-        .relbox .kicker { font-size:0.6rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; }
-        .relbox h3 { font-family:var(--font-display); font-size:1.05rem; font-weight:500; line-height:1.3; margin:0.2rem 0; }
-        .relbox p { font-size:0.66rem; color:var(--text-secondary); line-height:1.5; }
-        .rarrow { color:var(--text-ghost); font-size:1rem; }
-        .kv { font-size:0.7rem; color:var(--text-secondary); margin-top:0.5rem; }
-        .kv dt { font-weight:600; color:var(--text-primary); margin-top:0.5rem; }
-        .kv dd { margin:0.15rem 0 0 0; line-height:1.55; }
         .dots { letter-spacing:0.2em; color:var(--accent-cyan); }
-        .callout { border:1px solid var(--border-medium); border-radius:var(--radius-md); padding:0.7rem 0.8rem; margin-top:0.8rem; background:var(--bg-card); font-size:0.68rem; color:var(--text-secondary); line-height:1.55; }
-        .callout strong { display:block; color:var(--text-primary); margin-bottom:0.25rem; }
         table.atlas { width:100%; border-collapse:collapse; font-size:0.74rem; }
         table.atlas th { font-size:0.62rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); text-align:left; padding:0.5rem; border-bottom:1px solid var(--border-strong); cursor:pointer; white-space:nowrap; }
         table.atlas td { padding:0.5rem; border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); vertical-align:top; line-height:1.5; }
@@ -273,11 +280,11 @@
 <div class="header-cols">
 <div class="header-lead">
 <h1>Atlas of State Action<em>.</em></h1>
-<p class="lede">A layered view of how the state achieves its goals through <strong>interventions</strong> and <strong>instruments</strong>.</p>
-<div class="note-meta">
-    <span class="chip" id="meta-dataset">synthetic seed</span>
-    <span class="chip" id="meta-counts"></span>
-</div>
+
+<p class="lede">
+  A map of how the state connects <strong>problems</strong> to <strong>goals</strong> and <strong>instruments</strong> for shaping social and economic conditions.
+</p>
+
 </div>
 </div>
 <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
@@ -296,25 +303,28 @@
         <div class="fld"><label>Target group</label><select id="fGroup"><option value="">All groups</option></select></div>
     </aside>
     <main>
-        <section class="panel" id="networkPanel">
-            <div class="maphead">
-                <div><h2>Problem × Instrument Network</h2>
-                <p class="hint">Each problem links to instruments through its interventions; each instrument can serve multiple problems.</p></div>
-                <div class="spacer"></div>
-                <div class="pillgroup"><span>Show</span>
-                    <button class="pill active" data-show="rel" type="button">Relationships</button>
-                    <button class="pill active" data-show="counts" type="button">Counts</button>
-                </div>
+        <div class="netcontrols">
+            <div class="pillgroup"><span>Show</span>
+                <button class="pill active" data-show="rel" type="button">Relationships</button>
+                <button class="pill active" data-show="counts" type="button">Counts</button>
             </div>
-            <div class="pillgroup" style="margin-top:0.6rem"><span>View</span>
+            <div class="pillgroup"><span>View</span>
                 <button class="pill active" data-role="all" type="button">All</button>
                 <button class="pill" data-role="primary" type="button">Primary</button>
                 <button class="pill" data-role="secondary" type="button">Secondary</button>
             </div>
-            <div class="viewmodes" style="margin-top:0.6rem"><span>View mode</span>
+            <div class="viewmodes"><span>View mode</span>
                 <button class="tab active" data-mode="network" type="button">Network</button>
                 <button class="tab" data-mode="matrix" type="button">Matrix</button>
                 <button class="tab" data-mode="table" type="button">Table</button>
+            </div>
+        </div>
+        <section class="panel" id="networkPanel">
+            <div class="maphead">
+                <div>
+                	<h2>Problem × Instrument Network</h2>        
+			<p class="hint">An N × N map of problem–instrument relationships.</p> 
+		</div>
             </div>
             <div id="mapWrap">
             <div class="mapscroll"><svg id="map" role="img" aria-label="Problem to instrument network map"></svg></div>
@@ -329,27 +339,24 @@
             <p class="hint">Click a header to sort.</p>
             <div style="overflow-x:auto"><table class="atlas" id="dataTable">
                 <thead><tr>
-                    <th data-key="problem">Problem</th><th data-key="name">Intervention</th><th data-key="category">Category</th>
-                    <th data-key="description">Description</th><th data-key="instrumentName">Instrument</th><th data-key="mechanism">Mechanism</th><th data-key="instanceSet">Instance Set</th>
+                    <th data-key="statement">Problem</th><th data-key="name">Intervention</th>
+                    <th data-key="description">Description</th><th data-key="instrumentName">Instrument</th><th data-key="name">Name</th>
                 </tr></thead><tbody></tbody>
             </table></div>
             </div>
         </section>
     </main>
     <aside class="panel" id="detail">
-        <h2>Detail</h2>
+        <div class="detailhead">
+            <span class="kicker" id="detailKicker">Inspector</span>
+            <h2 id="detailTitle">Select a problem or instrument</h2>
+        </div>
         <div class="minitabs" id="detailTabs">
-            <button class="tab active" data-dview="note" type="button">Note</button>
-            <button class="tab" data-dview="link" type="button">Link</button>
-            <button class="tab" data-dview="full" type="button">Full</button>
+            <button class="tab active" data-side="problem" type="button">Problem</button>
+            <button class="tab" data-side="instrument" type="button">Instrument</button>
         </div>
         <div class="asidescroll">
         <div id="detailBody"></div>
-        <h2 style="margin-top:1rem">Related instruments</h2>
-        <div class="relrows" id="relChips"></div>
-        <h2 style="margin-top:1rem">Example combinations</h2>
-        <div class="comborows" id="combos"></div>
-        <div class="callout"><strong>This is a dynamic model</strong>You can add new problems, intervention types, instrument types, or specific instruments as you explore and adapt the model to your context.</div>
         </div>
     </aside>
 </div>
@@ -363,7 +370,6 @@
 <script>
 (function () {
     "use strict";
-    var NOTE_URL = "../../../../../web/note.html?n=";
     var btn = document.getElementById("themeToggle"), label = document.getElementById("themeLabel");
     function applyThemeLabel() {
         label.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT";
@@ -440,108 +446,89 @@
     })();
 
     var S = { data: null, mode: "network", chosen: {}, focusV: null, selI: null,
-        hasSelection: false, detailView: "note", noteSide: "v",
+        hasSelection: false, detailSide: "problem", detailKind: "problem",
         q: "", tq: "", domain: "", group: "",
         showRel: true, showCounts: true, role: "all",
-        sortKey: "code", sortDir: 1, openCats: {}, rel: null };
+        sortKey: "name", sortDir: 1, openNodes: {}, rel: null, byParent: {}, roots: [] };
 
     function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
-    function byId(arr, id) { for (var k = 0; k < arr.length; k++) if (arr[k].id === id) return arr[k]; return null; }
-    function codeKey(s) { return String(s == null ? "" : s).split(".").map(function (n) { var v = parseInt(n, 10); return isNaN(v) ? 0 : v; }); }
-    function cmpCode(a, b) { var x = codeKey(a), y = codeKey(b), n = Math.max(x.length, y.length); for (var i = 0; i < n; i++) { var d = (x[i] || 0) - (y[i] || 0); if (d) return d; } return 0; }
-    function relsFor(vid) { return S.data.relationships.filter(function (r) { return r.intervention === vid && (S.role === "all" || r.role === S.role); }); }
+    function sameId(a, b) { return String(a) === String(b); }
+    function allProblems() { return S.data.problems; }
+    function byId(nodes, id) { for (var k = 0; k < nodes.length; k++) if (sameId(nodes[k].id, id)) return nodes[k]; return null; }
+    function buildIndex() {
+        S.byParent = {}; S.roots = [];
+        S.data.problems.forEach(function (p) {
+            if (p.parent != null) (S.byParent[p.parent] = S.byParent[p.parent] || []).push(p);
+            else S.roots.push(p);
+        });
+    }
+    function childrenOf(v) { return (S.byParent && S.byParent[v.id]) || []; }
+    function subtree(v) {
+        var out = [v];
+        (function rec(x) { childrenOf(x).forEach(function (c) { out.push(c); rec(c); }); })(v);
+        return out;
+    }
+    function relsFor(vid) { return S.data.relationships.filter(function (r) { return sameId(r.problem, vid) && (S.role === "all" || r.role === S.role); }); }
+    function hasRel(vid) { for (var i = 0; i < S.data.relationships.length; i++) if (sameId(S.data.relationships[i].problem, vid)) return true; return false; }
     function vPass(v) {
-        if (S.domain && v.policyDomain !== S.domain) return false;
-        if (S.group && v.targetGroup !== S.group) return false;
-        if (S.q && (v.name + " " + v.problem + " " + v.description + " " + v.category).toLowerCase().indexOf(S.q) === -1) return false;
+        if (S.domain && v.policyDomain && v.policyDomain !== S.domain) return false;
+        if (S.group && v.targetGroup && v.targetGroup !== S.group) return false;
+        if (S.q && ((v.name || "") + " " + (v.statement || "") + " " + (v.description || "")).toLowerCase().indexOf(S.q) === -1) return false;
         return true;
     }
     function shownV() {
-        return S.data.interventions
-            .filter(function (v) { return S.chosen[v.id] && vPass(v); })
-            .sort(function (a, b) { return cmpCode(a.code, b.code); });
+        return allProblems().filter(function (v) { return S.chosen[v.id] && hasRel(v.id) && vPass(v); });
     }
 
-    /* ---------- problem space (checkbox tree) ---------- */
+    /* ---------- problem space (recursive checkbox tree) ---------- */
     function renderTree() {
         var tree = document.getElementById("tree");
         tree.innerHTML = "";
         var q = S.tq.toLowerCase();
-        var cats = {};
-        S.data.categories.forEach(function (c) { cats[c.code] = { def: c, kids: [] }; });
-        S.data.interventions.forEach(function (v) {
-            var code = (v.category || "").split(" ")[0].replace(/\.$/, "");
-            if (!cats[code]) cats[code] = { def: { code: code, name: v.category }, kids: [] };
-            cats[code].kids.push(v);
-        });
-        Object.keys(cats).sort(cmpCode).forEach(function (code) {
-            var c = cats[code];
-            var kids = c.kids.filter(function (v) {
-                return !q || (v.name + " " + v.code).toLowerCase().indexOf(q) !== -1;
-            }).sort(function (a, b) { return cmpCode(a.code, b.code); });
-            if (q && !kids.length) return;
-            var checked = c.kids.filter(function (v) { return S.chosen[v.id]; }).length;
-            var open = !!S.openCats[code] || !!q;
-            var head = document.createElement("div");
-            var box = document.createElement("div");
-            box.className = "box";
+        function matches(v) { return !q || ((v.name || "")).toLowerCase().indexOf(q) !== -1; }
+        function subtreeMatches(v) { return matches(v) || childrenOf(v).some(subtreeMatches); }
+        function appendNode(container, v) {
+            if (q && !subtreeMatches(v)) return;
+            var kids = childrenOf(v);
+            var fam = subtree(v);
+            var chosenCount = 0;
+            fam.forEach(function (x) { if (S.chosen[x.id]) chosenCount++; });
+            var open = kids.length > 0 && (S.openNodes[v.id] || !!q);
+            var row = document.createElement("div");
+            row.className = "trow" + (sameId(S.focusV, v.id) ? " focused" : "") + (vPass(v) ? "" : " filtered");
             var cb = document.createElement("input");
             cb.type = "checkbox";
-            cb.checked = checked === c.kids.length && c.kids.length > 0;
-            cb.indeterminate = checked > 0 && checked < c.kids.length;
-            cb.setAttribute("aria-label", "Toggle all in " + c.def.name);
+            cb.checked = fam.length > 0 && chosenCount === fam.length;
+            cb.indeterminate = chosenCount > 0 && chosenCount < fam.length;
+            cb.setAttribute("aria-label", "Toggle " + v.name);
             cb.addEventListener("click", function (e) {
                 e.stopPropagation();
                 var on = cb.checked;
-                c.kids.forEach(function (v) { S.chosen[v.id] = on; });
-                ensureFocus();
-                renderAll();
+                fam.forEach(function (x) { S.chosen[x.id] = on; });
+                ensureFocus(); renderAll();
             });
-            var headRow = document.createElement("div");
-            headRow.className = "trow";
             var caret = document.createElement("span");
             caret.className = "caret";
-            caret.textContent = open ? "▾" : "▸";
-            caret.addEventListener("click", function (e) { e.stopPropagation(); S.openCats[code] = !open; renderTree(); });
-            var lab = document.createElement("span");
-            lab.innerHTML = "<strong>" + esc(code) + ".</strong> " + esc(c.def.name);
-            lab.addEventListener("click", function () { S.openCats[code] = !open; renderTree(); });
-            var cnt = document.createElement("span");
-            cnt.className = "count";
-            cnt.textContent = checked + " / " + c.kids.length;
-            headRow.appendChild(cb); headRow.appendChild(caret); headRow.appendChild(lab); headRow.appendChild(cnt);
-            head.appendChild(headRow);
-            tree.appendChild(head);
+            caret.textContent = kids.length ? (open ? "▾" : "▸") : "";
+            if (kids.length) caret.addEventListener("click", function (e) { e.stopPropagation(); S.openNodes[v.id] = !open; renderTree(); });
+            var nm = document.createElement("span");
+            nm.textContent = v.name;
+            nm.title = "Click to focus · double-click to isolate";
+            nm.addEventListener("click", function () { S.focusV = v.id; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); renderAll(); });
+            nm.addEventListener("dblclick", function () { focusOnly(v.id); });
+            var g = document.createElement("span");
+            g.className = "count";
+            g.textContent = kids.length ? ("chosen " + chosenCount + " / " + fam.length) : (v.granularity || "");
+            row.appendChild(cb); row.appendChild(caret); row.appendChild(nm); row.appendChild(g);
+            container.appendChild(row);
             if (open) {
+                var box = document.createElement("div");
                 box.className = "tkids";
-                kids.forEach(function (v) {
-                    var row = document.createElement("div");
-                    row.className = "trow" + (S.focusV === v.id ? " focused" : "") + (vPass(v) ? "" : " filtered");
-                    var b = document.createElement("input");
-                    b.type = "checkbox";
-                    b.checked = !!S.chosen[v.id];
-                    b.setAttribute("aria-label", "Show " + v.name + " in the map");
-                    b.addEventListener("click", function (e) { e.stopPropagation(); toggleChosen(v.id, b.checked); });
-                    var nm = document.createElement("span");
-                    nm.textContent = v.code + " " + v.name;
-                    nm.title = v.problem;
-                    nm.title = "Click to focus · double-click to isolate";
-                    nm.addEventListener("click", function () { S.focusV = v.id; syncRel(); renderAll(); });
-                    var g = document.createElement("span");
-                    g.className = "count";
-                    g.textContent = v.granularity;
-                    row.appendChild(b); row.appendChild(nm); row.appendChild(g);
-                    row.addEventListener("dblclick", function () { focusOnly(v.id); });
-                    box.appendChild(row);
-                });
-                tree.appendChild(box);
+                kids.forEach(function (c) { appendNode(box, c); });
+                container.appendChild(box);
             }
-        });
-    }
-    function toggleChosen(vid, on) {
-        S.chosen[vid] = on;
-        ensureFocus();
-        renderAll();
+        }
+        S.roots.forEach(function (v) { appendNode(tree, v); });
     }
     function ensureFocus() {
         if (!S.chosen[S.focusV]) {
@@ -551,8 +538,9 @@
         syncRel();
     }
     function focusOnly(vid) {
+        var p = byId(S.data.problems, vid);
         Object.keys(S.chosen).forEach(function (k) { S.chosen[k] = false; });
-        S.chosen[vid] = true;
+        if (p) subtree(p).forEach(function (x) { S.chosen[x.id] = true; });
         S.focusV = vid;
         syncRel();
         renderAll();
@@ -560,11 +548,11 @@
     function syncRel() {
         S.rel = null;
         S.data.relationships.forEach(function (r) {
-            if (r.intervention === S.focusV && r.instrument === S.selI && !S.rel) S.rel = r;
+            if (sameId(r.problem, S.focusV) && sameId(r.instrument, S.selI) && !S.rel) S.rel = r;
         });
         if (!S.rel) {
             S.data.relationships.forEach(function (r) {
-                if (r.intervention === S.focusV && r.role === "primary" && !S.rel) { S.rel = r; S.selI = r.instrument; }
+                if (sameId(r.problem, S.focusV) && r.role === "primary" && !S.rel) { S.rel = r; S.selI = r.instrument; }
             });
         }
     }
@@ -585,7 +573,7 @@
             });
         });
         function hueOf(iid) { var x = byId(S.data.instruments, iid); return x && x.hue ? x.hue : "#999"; }
-        function edgeTouch(r) { return (S.focusV && r.intervention === S.focusV) || (S.selI && r.instrument === S.selI); }
+        function edgeTouch(r) { return (S.focusV && sameId(r.problem, S.focusV)) || (S.selI && sameId(r.instrument, S.selI)); }
         function edgeOp(r) {
             var base = r.role === "primary" ? 0.9 : 0.55;
             if (S.hasSelection && !edgeTouch(r)) return base * 0.4;
@@ -603,28 +591,28 @@
             t.textContent = "Nothing selected — choose problems in the Problem Space to populate the map.";
             g.appendChild(t);
         }
-        // left nodes (chosen interventions, level-marked)
+        // left nodes (chosen problems, level-marked)
         var lx = LX, lw = LW, y0 = 56;
         var leftY = {};
         drawn.forEach(function (v, idx) {
             var ny = y0 + idx * rowH;
             leftY[v.id] = ny;
-            var ng = svgEl("g", { "class": "netnode", tabindex: "0", role: "button", "aria-label": "Problem " + v.code + ": " + v.problem });
+            var ng = svgEl("g", { "class": "netnode", tabindex: "0", role: "button", "aria-label": "Problem " + (v.statement || v.name) });
             var ntt = svgEl("title", {});
-            ntt.textContent = v.code + " — " + v.problem;
+            ntt.textContent = (v.statement || v.name);
             ng.appendChild(ntt);
-            if (S.hasSelection && S.focusV !== v.id) ng.setAttribute("opacity", "0.55");
+            if (S.hasSelection && !sameId(S.focusV, v.id)) ng.setAttribute("opacity", "0.55");
             ng.appendChild(svgEl("rect", { x: lx, y: ny - 26, width: lw, height: 52, rx: 8,
-                fill: "var(--bg-card)", stroke: (S.focusV === v.id ? "var(--accent-blue)" : "var(--border-medium)"), "stroke-width": S.focusV === v.id ? 2 : 1 }));
+                fill: "var(--bg-card)", stroke: (sameId(S.focusV, v.id) ? "var(--accent-blue)" : "var(--border-medium)"), "stroke-width": sameId(S.focusV, v.id) ? 2 : 1 }));
             var nm = svgEl("text", { x: lx + 10, y: ny - 3, fill: "var(--text-primary)", "font-size": "12", "font-weight": "600" });
-            nm.textContent = trunc(v.code + " " + v.problem, 21);
+            nm.textContent = trunc(v.statement || v.name, 21);
             ng.appendChild(nm);
             var lv = svgEl("text", { x: lx + 10, y: ny + 14, fill: "var(--text-muted)", "font-size": "10" });
-            lv.textContent = v.granularity + " level";
+            lv.textContent = v.granularity ? (v.granularity + " level") : "pattern";
             ng.appendChild(lv);
             (function (vid) {
-                ng.addEventListener("click", function () { S.focusV = vid; S.hasSelection = true; S.detailView = "note"; S.noteSide = "v"; syncRel(); renderAll(); });
-                ng.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); S.focusV = vid; S.hasSelection = true; S.detailView = "note"; S.noteSide = "v"; syncRel(); renderAll(); } });
+                ng.addEventListener("click", function () { S.focusV = vid; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); renderAll(); });
+                ng.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); S.focusV = vid; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); renderAll(); } });
                 ng.addEventListener("mouseenter", function () { hoverDim(vid, null); });
                 ng.addEventListener("mouseleave", clearHover);
             })(v.id);
@@ -642,15 +630,15 @@
             var mx = (lx + lw + nx) / 2;
             var d = "M " + x1 + " " + leftY[vid] + " C " + mx + " " + leftY[vid] + ", " + mx + " " + ry + ", " + x2 + " " + ry;
             var p = svgEl("path", { "class": "edge", d: d, stroke: col, "stroke-width": w, opacity: op, "stroke-linecap": "round" });
-            p.setAttribute("data-v", vid); p.setAttribute("data-i", r.instrument); p.setAttribute("data-t", r.type);
+            p.setAttribute("data-v", vid); p.setAttribute("data-i", r.instrument); p.setAttribute("data-t", r.name);
             var ti = svgEl("title", {});
-            ti.textContent = r.type + " · " + r.role + " · strength " + r.strength + "/5";
+            ti.textContent = r.name + " · " + r.role + " · strength " + r.strength + "/5";
             p.appendChild(ti);
             gEdges.appendChild(p);
             var hit = svgEl("path", { d: d,
                 fill: "none", stroke: "rgba(0,0,0,0)", "stroke-width": 16, "pointer-events": "stroke", cursor: "pointer" });
             (function (a, b) { hit.addEventListener("click", function () {
-                S.focusV = a; S.selI = b; S.hasSelection = true; S.detailView = "link"; syncRel(); renderAll();
+                S.focusV = a; S.selI = b; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); renderAll();
             }); hit.addEventListener("mouseenter", function () { hoverDim(a, b); });
             hit.addEventListener("mouseleave", clearHover); })(vid, r.instrument);
             gEdges.appendChild(hit);
@@ -660,15 +648,15 @@
             var ny = ry0 + idx * rowH;
             drawn.forEach(function (v) {
                 relsFor(v.id).forEach(function (r) {
-                    if (r.instrument !== iid || !S.showRel) return;
+                    if (!sameId(r.instrument, iid) || !S.showRel) return;
                     drawEdge(v.id, r, ny);
                 });
             });
-            var dim = S.hasSelection && S.selI !== iid && !(S.focusV && relsFor(S.focusV).some(function (r) { return r.instrument === iid; }));
+            var dim = S.hasSelection && !sameId(S.selI, iid) && !(S.focusV && relsFor(S.focusV).some(function (r) { return sameId(r.instrument, iid); }));
             var ng = svgEl("g", { "class": "netnode", tabindex: "0", role: "button", "aria-label": "Instrument " + (ins ? ins.name : iid) });
             if (dim) ng.setAttribute("opacity", "0.55");
             ng.appendChild(svgEl("rect", { x: nx, y: ny - 26, width: rw, height: 52, rx: 8,
-                fill: "var(--bg-card)", stroke: (S.selI === iid ? "var(--accent-blue)" : "var(--border-medium)"), "stroke-width": S.selI === iid ? 2 : 1 }));
+                fill: "var(--bg-card)", stroke: (sameId(S.selI, iid) ? "var(--accent-blue)" : "var(--border-medium)"), "stroke-width": sameId(S.selI, iid) ? 2 : 1 }));
             ng.appendChild(svgEl("circle", { cx: nx + 24, cy: ny, r: 14, fill: hueOf(iid) }));
             var ic = svgEl("text", { x: nx + 24, y: ny + 4.5, "text-anchor": "middle", fill: "#fff", "font-size": "12" });
             ic.textContent = ins ? ins.icon : "?";
@@ -677,51 +665,37 @@
             nm.textContent = trunc(ins ? ins.name : iid, 19);
             ng.appendChild(nm);
             if (S.showCounts) {
-                var shown = S.data.relationships.filter(function (x) { return x.instrument === iid && drawn.some(function (v) { return v.id === x.intervention; }); }).length;
-                var total = S.data.relationships.filter(function (x) { return x.instrument === iid; }).length;
+                var shown = S.data.relationships.filter(function (x) { return sameId(x.instrument, iid) && drawn.some(function (v) { return sameId(v.id, x.problem); }); }).length;
+                var total = S.data.relationships.filter(function (x) { return sameId(x.instrument, iid); }).length;
                 var ct = svgEl("text", { x: nx + rw - 8, y: ny + 4, "text-anchor": "end", fill: "var(--text-ghost)", "font-size": "10" });
                 ct.textContent = shown + "/" + total;
                 ng.appendChild(ct);
             }
             (function (x) {
-                ng.addEventListener("click", function () { S.selI = x; S.hasSelection = true; S.detailView = "note"; S.noteSide = "i"; syncRel(); renderAll(); });
-                ng.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); S.selI = x; S.hasSelection = true; S.detailView = "note"; S.noteSide = "i"; syncRel(); renderAll(); } });
+                ng.addEventListener("click", function () { S.selI = x; S.hasSelection = true; S.detailKind = "instrument"; S.detailSide = "instrument"; syncRel(); renderAll(); });
+                ng.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); S.selI = x; S.hasSelection = true; S.detailKind = "instrument"; S.detailSide = "instrument"; syncRel(); renderAll(); } });
                 ng.addEventListener("mouseenter", function () { hoverDim(null, x); });
                 ng.addEventListener("mouseleave", clearHover);
             })(iid);
             gRight.appendChild(ng);
         });
-        // related instruments (aside rows) + combinations (aside rows)
-        var chips = document.getElementById("relChips");
-        chips.innerHTML = "";
-        relsFor(S.focusV).forEach(function (r) {
+    }
+    function relatedHTML(v) {
+        var rels = relsFor(v.id);
+        if (!rels.length) return "";
+        var rows = rels.map(function (r) {
             var ins = byId(S.data.instruments, r.instrument);
-            var b = document.createElement("button");
-            b.type = "button"; b.className = "relrow" + (S.selI === r.instrument ? " sel" : "");
-            b.innerHTML = "<span class=\"icontile\" style=\"background:" + esc(ins && ins.hue ? ins.hue : "#999") + "\">" + esc(ins ? ins.icon : "?") + "</span><span>" + esc(ins ? ins.name : r.instrument) + "</span><span class=\"role\">" + esc(r.role) + " · " + esc(r.type) + "</span>";
-            b.addEventListener("click", function () { S.selI = r.instrument; syncRel(); renderAll(); });
-            chips.appendChild(b);
-        });
-        var combos = document.getElementById("combos");
-        combos.innerHTML = "";
-        S.data.combinations.filter(function (c) { return c.instruments.indexOf(S.selI) !== -1; }).forEach(function (c) {
-            var names = c.instruments.map(function (id) {
-                var x = byId(S.data.instruments, id);
-                return "<span class=\"combochip\">" + esc(x ? x.name : id) + "</span>";
-            }).join("<span class=\"plus\">+</span>");
-            var d = document.createElement("div");
-            d.className = "comborow";
-            d.title = c.description;
-            d.innerHTML = "<h4>" + names + "</h4><span class=\"badge " + c.effectiveness + "\">" +
-                (c.effectiveness === "high" ? "High effectiveness" : "Medium effectiveness") + "</span>";
-            combos.appendChild(d);
-        });
-        if (!combos.firstChild) combos.innerHTML = "<p style=\"font-size:0.7rem;color:var(--text-muted)\">No seeded combination uses the selected instrument yet.</p>";
+            return "<div class=\"relrow static\">" +
+                "<span class=\"icontile\" style=\"background:" + esc(ins && ins.hue ? ins.hue : "#999") + "\">" + esc(ins ? ins.icon : "?") + "</span>" +
+                "<span>" + esc(ins ? ins.name : r.instrument) + "</span>" +
+                "<span class=\"role\">" + esc(r.role) + " · " + esc(r.name) + "</span></div>";
+        }).join("");
+        return "<div class=\"specsection\"><div class=\"label\">Link instrument set</div><div class=\"relrows\">" + rows + "</div></div>";
     }
     function trunc(s, m) { s = String(s); return s.length > m ? s.slice(0, m) + "…" : s; }
     function hoverDim(vid, iid) {
         document.querySelectorAll("#map .edge").forEach(function (e) {
-            var keep = (vid && e.getAttribute("data-v") === vid) || (iid && e.getAttribute("data-i") === iid);
+            var keep = (vid && sameId(e.getAttribute("data-v"), vid)) || (iid && sameId(e.getAttribute("data-i"), iid));
             e.style.opacity = keep ? "" : "0.08";
         });
     }
@@ -732,8 +706,7 @@
     function renderMatrix() {
         var t = document.getElementById("matrixTable");
         t.innerHTML = "";
-        var vs = S.data.interventions.filter(function (v) { return S.chosen[v.id] && vPass(v); })
-            .sort(function (a, b) { return cmpCode(a.code, b.code); });
+        var vs = shownV();
         var head = document.createElement("tr");
         head.innerHTML = "<th class=\"name\">Problem \\ Instrument</th>" + S.data.instruments.map(function (i) {
             return "<th>" + esc(i.icon + " " + i.name) + "</th>";
@@ -741,19 +714,19 @@
         t.appendChild(head);
         vs.forEach(function (v) {
             var tr = document.createElement("tr");
-            var html = "<td class=\"name\">" + esc(v.code + " " + v.name) + "</td>";
+            var html = "<td class=\"name\">" + esc(v.name) + "</td>";
             S.data.instruments.forEach(function (ins) {
                 var r = null;
-                S.data.relationships.forEach(function (x) { if (x.intervention === v.id && x.instrument === ins.id) r = x; });
+                S.data.relationships.forEach(function (x) { if (sameId(x.problem, v.id) && sameId(x.instrument, ins.id)) r = x; });
                 if (r && (S.role === "all" || r.role === S.role)) {
-                    html += "<td class=\"cell\" data-v=\"" + v.id + "\" data-i=\"" + ins.id + "\" title=\"" + esc(v.name + " × " + ins.name + ": " + r.type + ", strength " + r.strength + "/5") + "\"><span class=\"dots\" role=\"img\" aria-label=\"strength " + r.strength + " of 5\">" + "●".repeat(r.strength) + "<span style=\"opacity:0.25\">" + "●".repeat(5 - r.strength) + "</span></span></td>";
+                    html += "<td class=\"cell\" data-v=\"" + v.id + "\" data-i=\"" + ins.id + "\" title=\"" + esc(v.name + " × " + ins.name + ": " + r.name + ", strength " + r.strength + "/5") + "\"><span class=\"dots\" role=\"img\" aria-label=\"strength " + r.strength + " of 5\">" + "●".repeat(r.strength) + "<span style=\"opacity:0.25\">" + "●".repeat(5 - r.strength) + "</span></span></td>";
                 } else html += "<td style=\"color:var(--text-ghost)\">·</td>";
             });
             tr.innerHTML = html;
             t.appendChild(tr);
         });
         t.querySelectorAll(".cell").forEach(function (c) {
-            c.addEventListener("click", function () { S.focusV = c.getAttribute("data-v"); S.selI = c.getAttribute("data-i"); S.hasSelection = true; S.detailView = "full"; syncRel(); setMode("network"); });
+            c.addEventListener("click", function () { S.focusV = c.getAttribute("data-v"); S.selI = c.getAttribute("data-i"); S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); setMode("network"); });
         });
     }
 
@@ -762,16 +735,15 @@
         var out = [];
         S.data.relationships.forEach(function (r) {
             if (S.role !== "all" && r.role !== S.role) return;
-            var v = byId(S.data.interventions, r.intervention), ins = byId(S.data.instruments, r.instrument);
+            var v = byId(S.data.problems, r.problem), ins = byId(S.data.instruments, r.instrument);
             if (!v || !S.chosen[v.id] || !vPass(v)) return;
             out.push({ v: v, ins: ins, r: r,
-                hay: (v.name + " " + v.category + " " + v.problem + " " + v.description + " " + (ins ? ins.name : "") + " " + v.mechanism + " " + v.instanceSet.join(" ")).toLowerCase() });
+                hay: ((v.name || "") + " " + (v.statement || "") + " " + (v.description || "") + " " + (ins ? ins.name : "")).toLowerCase() });
         });
         return out.filter(function (x) { return !S.q || x.hay.indexOf(S.q) !== -1; }).sort(function (a, b) {
             var k = S.sortKey, av, bv;
-            if (k === "code") return cmpCode(a.v.code, b.v.code) * S.sortDir;
             if (k === "instrumentName") { av = a.ins ? a.ins.name : ""; bv = b.ins ? b.ins.name : ""; }
-            else if (k === "instanceSet") { av = a.v.instanceSet.join(", "); bv = b.v.instanceSet.join(", "); }
+            else if (k === "name") { av = a.r.name || ""; bv = b.r.name || ""; }
             else { av = a.v[k] || ""; bv = b.v[k] || ""; }
             return String(av).localeCompare(String(bv)) * S.sortDir;
         });
@@ -781,64 +753,139 @@
         tb.innerHTML = "";
         tableRows().forEach(function (x) {
             var tr = document.createElement("tr");
-            tr.innerHTML = "<td>" + esc(x.v.problem) + "</td><td class=\"name\">" + esc(x.v.code + " " + x.v.name) + "</td><td>" + esc(x.v.category) + "</td>" +
-                "<td>" + esc(x.v.description) + "</td><td>" + esc(x.ins ? x.ins.name : "") + " (" + x.r.role + ")</td><td>" + esc(x.r.type) + "</td>" +
-                "<td>" + x.v.instanceSet.map(esc).join("<br>") + "</td>";
+            tr.innerHTML = "<td>" + esc(x.v.statement || "") + "</td><td class=\"name\">" + esc(x.v.name) + "</td>" +
+                "<td>" + esc(x.v.description || "") + "</td><td>" + esc(x.ins ? x.ins.name : "") + " (" + x.r.role + ")</td><td>" + esc(x.r.name) + "</td>";
             tr.style.cursor = "pointer";
-            tr.addEventListener("click", function () { S.focusV = x.v.id; S.selI = x.r.instrument; S.hasSelection = true; S.detailView = "full"; syncRel(); setMode("network"); });
+            tr.addEventListener("click", function () { S.focusV = x.v.id; S.selI = x.r.instrument; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); setMode("network"); });
             tb.appendChild(tr);
         });
     }
 
-    /* ---------- detail: Note | Link | Full, only when a network element is selected ---------- */
+    /* ---------- detail: Problem | Instrument spec sheets ---------- */
+    function listHTML(items) {
+        return "<ul>" + items.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>";
+    }
+    function chipsHTML(pairs) {
+        return "<div class=\"metachips\">" + pairs.map(function (c) {
+            return "<span class=\"metachip\"><span class=\"k\">" + esc(c[0]) + "</span>" + esc(c[1]) + "</span>";
+        }).join("") + "</div>";
+    }
+    function linkListHTML(items) {
+        return "<div class=\"caselist\">" + items.map(function (c) {
+            var label = esc(c.label || "");
+            if (c.url) return "<a class=\"caselink\" href=\"" + esc(c.url) + "\" target=\"_blank\" rel=\"noopener\">" + label + "<span class=\"go\">↗</span></a>";
+            return "<div class=\"caselink plain\">" + label + "</div>";
+        }).join("") + "</div>";
+    }
+    function refsHTML(list) {
+        if (!list || !list.length) return "";
+        return "<div class=\"specsection\"><div class=\"label\">References</div>" + linkListHTML(list) + "</div>";
+    }
+    function caseListHTML(items) {
+        return "<div class=\"caselist\">" + items.map(function (c) {
+            return "<div class=\"caseitem\">" + (c.note ? "<div class=\"cs-note\">" + esc(c.note) + "</div>" : "") + "<div class=\"cs-label\">" + esc(c.label) + "</div></div>";
+        }).join("") + "</div>";
+    }
     function noteVHTML(v) {
-        return "<div class=\"relbox\"><span class=\"kicker\" style=\"color:var(--accent-gold)\">Problem</span><h3>" + esc(v.problem) + "</h3></div>" +
-            "<dl class=\"kv\"><dd>Goals of this problem<br>• " + v.goals.map(esc).join("<br>• ") + "</dd>" +
-            "<dd>Intervention<br><strong>" + esc(v.code + " " + v.name) + "</strong><br>" + esc(v.description) + "</dd>" +
-            "<dd>Mechanism<br>" + esc(v.mechanism) + "</dd>" +
-            "<dd>Category · level · policy · target · scope<br>" + esc(v.category) + " · " + esc(v.granularity) + " level · " + esc(v.policyDomain) + " · " + esc(v.targetGroup) + " · " + esc(v.geoScope) + "</dd>" +
-            "<dd>Sub-interventions<br>• " + v.subInterventions.map(esc).join("<br>• ") + "</dd>" +
-            "<dd>Instance set<br>• " + v.instanceSet.map(esc).join("<br>• ") + "</dd></dl>";
+        var html = "";
+        if (v.statement) html += "<p class=\"specled\">" + esc(v.statement) + "</p>";
+        if (v.description) html += "<div class=\"specsection\"><div class=\"label\">Description</div><p style=\"font-size:0.72rem;color:var(--text-secondary);line-height:1.6\">" + esc(v.description) + "</p></div>";
+        if (v.goals && v.goals.length) html += "<div class=\"specsection\"><div class=\"label\">Goals</div>" + listHTML(v.goals) + "</div>";
+        var chips = [];
+        if (v.granularity) chips.push(["Level", v.granularity]);
+        if (v.policyDomain) chips.push(["Policy", v.policyDomain]);
+        if (v.targetGroup) chips.push(["Target", v.targetGroup]);
+        if (chips.length) html += "<div class=\"specsection\"><div class=\"label\">Profile</div>" + chipsHTML(chips) + "</div>";
+        html += relatedHTML(v);
+        html += refsHTML(v.references);
+        return html;
     }
-    function noteIHTML(ins) {
-        var users = S.data.relationships.filter(function (x) { return x.instrument === ins.id; }).length;
-        return "<div class=\"relbox\"><span class=\"kicker\" style=\"color:var(--accent-cyan)\">Instrument note</span><h3>" + esc(ins.name) + "</h3><p>" + esc(ins.description) + "</p>" +
-            "<p style=\"margin-top:0.3rem\"><a style=\"color:var(--accent-blue);font-size:0.66rem\" href=\"" + NOTE_URL + esc(ins.caseStudy.note) + "\">Case study: " + esc(ins.caseStudy.label) + " →</a></p></div>" +
-            "<dl class=\"kv\"><dd>Mechanism<br>" + esc(ins.mechanism) + "</dd>" +
-            "<dd>Used by<br>" + users + " recorded problem" + (users === 1 ? "" : "s") + "</dd></dl>";
+    function relationshipHTML(v, ins, r) {
+        if (!v || !ins) return "";
+        var inner = "<div class=\"relhead\"><span class=\"icontile\" style=\"background:" + esc(ins.hue || "#999") + "\">" + esc(ins.icon || "?") + "</span><span>With <strong>" + esc(v.name) + "</strong></span></div>";
+        if (!r) return "<div class=\"specsection\"><div class=\"label\">Relationship</div><div class=\"relsection\">" + inner +
+            "<p style=\"font-size:0.68rem;color:var(--text-muted);margin-top:0.45rem\">No direct relationship recorded between this instrument and the selected problem.</p></div></div>";
+        var tags = "<span class=\"tag\">" + esc(r.role) + "</span><span class=\"tag\">" + esc(r.name) + "</span><span class=\"tag\">strength " + r.strength + "/5</span>";
+        var html = "<div class=\"specsection\"><div class=\"label\">Relationship</div><div class=\"relsection\">" + inner + "<div class=\"relmeta\">" + tags + "</div>";
+        if (r.functions && r.functions.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Functions</div>" + listHTML(r.functions);
+        if (r.conditions && r.conditions.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Conditions</div>" + listHTML(r.conditions);
+        return html + "</div></div>";
     }
-    function linkHTML(v, ins, r) {
-        if (!v || !ins) return "<p style=\"font-size:0.72rem;color:var(--text-muted)\">Select a problem and an instrument.</p>";
-        var head = "<div class=\"relflow\"><div class=\"relbox\"><span class=\"kicker\" style=\"color:var(--accent-gold)\">Problem</span><h3>" + esc(v.problem) + "</h3></div>" +
-            "<span class=\"rarrow\">↓</span>" +
-            "<div class=\"relbox\"><span class=\"kicker\" style=\"color:var(--accent-cyan)\">Instrument</span><h3>" + esc(ins.name) + "</h3></div></div>";
-        if (!r) return head + "<p style=\"font-size:0.72rem;color:var(--text-muted)\">No direct relationship recorded between this pair — pick a linked instrument.</p>";
-        return head + "<dl class=\"kv\"><dt>Relationship details</dt>" +
-            "<dd>Relationship type<br><strong>" + esc(r.type[0].toUpperCase() + r.type.slice(1)) + "</strong> · " + esc(r.role) + " instrument</dd>" +
-            "<dd>Intervention mechanism<br>" + esc(v.mechanism) + "</dd>" +
-            "<dd>Instrument mechanism<br>" + esc(ins.mechanism) + "</dd>" +
-            "<dd>Strength<br><span class=\"dots\">" + "●".repeat(r.strength) + "<span style=\"opacity:0.3\">" + "●".repeat(5 - r.strength) + "</span></span></dd>" +
-            (r.useCases ? "<dd>Typical use cases<br>• " + r.useCases.map(esc).join("<br>• ") + "</dd>" : "") +
-            (r.conditions ? "<dd>Conditions / context<br>• " + r.conditions.map(esc).join("<br>• ") + "</dd>" : "") +
-            "</dl>" +
-            (r.examples ? "<div class=\"callout\"><strong>Examples</strong>• " + r.examples.map(esc).join("<br>• ") + "</div>" : "");
+    function noteIHTML(ins, v, r) {
+        var users = S.data.relationships.filter(function (x) { return sameId(x.instrument, ins.id); }).length;
+        var html = "";
+        if (ins.description) html += "<p class=\"specled\">" + esc(ins.description) + "</p>";
+        if (ins.mechanism) html += "<div class=\"specsection\"><div class=\"label\">Mechanism</div><p class=\"specpara\">" + esc(ins.mechanism) + "</p></div>";
+        var chips = [["Used by", users + (users === 1 ? " problem" : " problems")]];
+        html += "<div class=\"specsection\"><div class=\"label\">Profile</div>" + chipsHTML(chips) + "</div>";
+        html += relationshipHTML(v, ins, r);
+        var studies = ins.caseStudies || [];
+        if (studies.length) html += "<div class=\"specsection\"><div class=\"label\">Case studies</div>" + caseListHTML(studies) + "</div>";
+        html += refsHTML(ins.references);
+        return html;
+    }
+    function instrumentView(ins) {
+        var users = S.data.relationships.filter(function (x) { return sameId(x.instrument, ins.id); }).length;
+        var html = "";
+        if (ins.description) html += "<p class=\"specled\">" + esc(ins.description) + "</p>";
+        if (ins.mechanism) html += "<div class=\"specsection\"><div class=\"label\">Mechanism</div><p class=\"specpara\">" + esc(ins.mechanism) + "</p></div>";
+        var chips = [["Used by", users + (users === 1 ? " problem" : " problems")]];
+        html += "<div class=\"specsection\"><div class=\"label\">Profile</div>" + chipsHTML(chips) + "</div>";
+        var studies = ins.caseStudies || [];
+        if (studies.length) html += "<div class=\"specsection\"><div class=\"label\">Case studies</div>" + caseListHTML(studies) + "</div>";
+        var rels = S.data.relationships.filter(function (x) { return sameId(x.instrument, ins.id); });
+        if (rels.length) {
+            var rows = rels.map(function (r) {
+                var p = byId(S.data.problems, r.problem);
+                return "<div class=\"relrow static\">" +
+                    "<a class=\"problink\" data-problem=\"" + esc(r.problem) + "\">" + esc(p ? p.name : r.problem) + "</a>" +
+                    "<span class=\"role\">" + esc(r.role) + " · " + r.strength + "/5</span></div>";
+            }).join("");
+            html += "<div class=\"specsection\"><div class=\"label\">Relationships</div><div class=\"relrows\">" + rows + "</div></div>";
+        }
+        html += refsHTML(ins.references);
+        return html;
     }
     function renderDetail() {
         var body = document.getElementById("detailBody");
-        document.querySelectorAll("#detailTabs .tab").forEach(function (t) {
-            t.classList.toggle("active", t.getAttribute("data-dview") === S.detailView);
-            if (S.hasSelection) t.removeAttribute("disabled");
-            else t.setAttribute("disabled", "disabled");
-        });
+        var kicker = document.getElementById("detailKicker");
+        var title = document.getElementById("detailTitle");
+        var tabs = document.getElementById("detailTabs");
         if (!S.hasSelection) {
+            tabs.classList.remove("hidden");
+            kicker.className = "kicker"; kicker.textContent = "Inspector";
+            title.textContent = "Select a problem or instrument";
+            document.querySelectorAll("#detailTabs .tab").forEach(function (t) { t.classList.remove("active"); t.setAttribute("disabled", "disabled"); });
             body.innerHTML = "<p style=\"font-size:0.72rem;color:var(--text-muted)\">Nothing selected — click a problem, instrument, or link in the network.</p>";
             return;
         }
-        var v = byId(S.data.interventions, S.focusV), ins = byId(S.data.instruments, S.selI), r = S.rel;
-        var note = (S.noteSide === "i" && ins) ? noteIHTML(ins) : (v ? noteVHTML(v) : (ins ? noteIHTML(ins) : ""));
-        if (S.detailView === "note") body.innerHTML = note;
-        else if (S.detailView === "link") body.innerHTML = linkHTML(v, ins, r);
-        else body.innerHTML = note + linkHTML(v, ins, r);
+        var v = byId(S.data.problems, S.focusV), ins = byId(S.data.instruments, S.selI), r = S.rel;
+        if (S.detailKind === "instrument" && ins) {
+            tabs.classList.add("hidden");
+            kicker.className = "kicker instrument"; kicker.textContent = "Instrument";
+            title.textContent = ins.name;
+            body.innerHTML = instrumentView(ins);
+            return;
+        }
+        S.detailKind = "problem";
+        tabs.classList.remove("hidden");
+        kicker.className = "kicker";
+        kicker.innerHTML = "<span class=\"pk\">Problem</span><span class=\"x\">×</span><span class=\"ik\">Instrument</span>";
+        if (S.detailSide === "instrument" && !ins) S.detailSide = "problem";
+        if (S.detailSide === "problem" && !v) S.detailSide = "instrument";
+        document.querySelectorAll("#detailTabs .tab").forEach(function (t) {
+            t.classList.toggle("active", t.getAttribute("data-side") === S.detailSide);
+            t.removeAttribute("disabled");
+        });
+        if (S.detailSide === "instrument" && ins) {
+            title.textContent = ins.name;
+            body.innerHTML = noteIHTML(ins, v, r);
+        } else if (v) {
+            title.textContent = v.name;
+            body.innerHTML = noteVHTML(v);
+        } else {
+            body.innerHTML = "";
+        }
     }
 
     /* ---------- chrome ---------- */
@@ -847,7 +894,7 @@
             var s = document.getElementById(id);
             vals.forEach(function (x) { var o = document.createElement("option"); o.value = x; o.textContent = x; s.appendChild(o); });
         }
-        function uniq(fn) { var o = {}; S.data.interventions.forEach(function (v) { o[fn(v)] = true; }); return Object.keys(o).sort(); }
+        function uniq(fn) { var o = {}; allProblems().forEach(function (v) { var x = fn(v); if (x) o[x] = true; }); return Object.keys(o).sort(); }
         opts("fDomain", uniq(function (v) { return v.policyDomain; }));
         opts("fGroup", uniq(function (v) { return v.targetGroup; }));
     }
@@ -866,8 +913,8 @@
         if (S.focusV) p.push("v=" + S.focusV);
         if (S.selI) p.push("i=" + S.selI);
         if (S.hasSelection) p.push("sel=1");
-        p.push("dv=" + S.detailView);
-        p.push("ns=" + S.noteSide);
+        p.push("side=" + S.detailSide);
+        p.push("kind=" + S.detailKind);
         p.push("role=" + S.role);
         if (S.q) p.push("q=" + encodeURIComponent(S.q));
         var off = Object.keys(S.chosen).filter(function (k) { return !S.chosen[k]; });
@@ -886,8 +933,8 @@
         } catch (e) {}
         if (q.mode === "network" || q.mode === "matrix" || q.mode === "table") S.mode = q.mode;
         if (q.role === "all" || q.role === "primary" || q.role === "secondary") S.role = q.role;
-        if (q.dv === "note" || q.dv === "link" || q.dv === "full") S.detailView = q.dv;
-        if (q.ns === "v" || q.ns === "i") S.noteSide = q.ns;
+        if (q.side === "problem" || q.side === "instrument") S.detailSide = q.side;
+        if (q.kind === "problem" || q.kind === "instrument") S.detailKind = q.kind;
         if (q.q) { S.q = q.q.toLowerCase(); S.tq = q.q; }
         if (q.dom) S.domain = q.dom;
         if (q.grp) S.group = q.grp;
@@ -901,15 +948,13 @@
         if (S.mode === "network") renderMap();
         else if (S.mode === "matrix") renderMatrix();
         else renderTable();
-        var nv = shownV().length;
-        document.getElementById("meta-counts").textContent = nv + " shown · " + S.data.instruments.length + " instruments";
         writeState();
     }
 
     document.getElementById("search").addEventListener("input", function (e) { S.q = e.target.value.toLowerCase(); S.tq = e.target.value; renderAll(); });
     document.querySelectorAll(".viewmodes .tab").forEach(function (t) { t.addEventListener("click", function () { setMode(t.getAttribute("data-mode")); }); });
     document.getElementById("checkAll").addEventListener("click", function () {
-        S.data.interventions.forEach(function (v) { S.chosen[v.id] = true; });
+        allProblems().forEach(function (v) { S.chosen[v.id] = true; });
         ensureFocus(); renderAll();
     });
     document.getElementById("clearAll").addEventListener("click", function () {
@@ -940,8 +985,13 @@
     });
     document.querySelectorAll("#detailTabs .tab").forEach(function (t) { t.addEventListener("click", function () {
         if (!S.hasSelection) return;
-        S.detailView = t.getAttribute("data-dview"); renderDetail();
+        S.detailSide = t.getAttribute("data-side"); renderDetail();
     }); });
+    document.getElementById("detailBody").addEventListener("click", function (e) {
+        var a = e.target && e.target.closest ? e.target.closest(".problink[data-problem]") : null;
+        if (!a) return;
+        S.focusV = a.getAttribute("data-problem"); S.detailKind = "problem"; S.detailSide = "problem"; S.hasSelection = true; syncRel(); renderAll();
+    });
     document.querySelectorAll("#dataTable th").forEach(function (th) { th.addEventListener("click", function () {
         var k = th.getAttribute("data-key");
         if (S.sortKey === k) S.sortDir *= -1; else { S.sortKey = k; S.sortDir = 1; }
@@ -953,29 +1003,33 @@
         return r.json();
     }).then(function (data) {
         S.data = data;
-        var iids = {}; data.instruments.forEach(function (i) { iids[i.id] = true; });
-        var dangling = data.relationships.filter(function (x) { return !iids[x.instrument]; });
-        if (dangling.length) throw new Error("dangling instrument refs");
-        data.interventions.forEach(function (v) { S.chosen[v.id] = true; });
-        if (data.meta && data.meta.status) document.getElementById("meta-dataset").textContent = data.meta.status;
-        S.focusV = data.interventions.length ? data.interventions[0].id : null;
-        syncRel();
-        if (S.focusV && S.selI) { S.hasSelection = true; S.detailView = "full"; }
+        buildIndex();
+        var iids = {}, pids = {};
+        data.instruments.forEach(function (i) { iids[i.id] = true; });
+        allProblems().forEach(function (p) { pids[p.id] = true; });
+        var dangling = data.relationships.filter(function (x) { return !iids[x.instrument] || !pids[x.problem]; });
+        var danglingParent = allProblems().filter(function (p) { return p.parent != null && !pids[p.parent]; });
+        if (dangling.length) throw new Error("dangling relationship refs");
+        if (danglingParent.length) throw new Error("dangling parent refs");
+        allProblems().forEach(function (v) { S.chosen[v.id] = true; });
+        S.focusV = null;
+        ensureFocus();
+        if (S.focusV && S.selI) { S.hasSelection = true; S.detailSide = "problem"; }
         fillFilters();
         var rst = readState();
         // validate URL-provided ids against the dataset
-        if (S.focusV && !byId(data.interventions, S.focusV)) S.focusV = data.interventions.length ? data.interventions[0].id : null;
+        if (S.focusV && !byId(data.problems, S.focusV)) S.focusV = null;
         if (S.selI && !byId(data.instruments, S.selI)) S.selI = null;
-        if (rst.off) rst.off.split(",").forEach(function (id) { if (byId(data.interventions, id)) S.chosen[id] = false; });
+        if (rst.off) rst.off.split(",").forEach(function (id) { if (pids[id]) S.chosen[id] = false; });
         if (S.q) document.getElementById("search").value = rst.q || "";
         if (S.domain) document.getElementById("fDomain").value = S.domain;
         if (S.group) document.getElementById("fGroup").value = S.group;
-        syncRel();
-        if (!S.hasSelection && S.focusV && S.selI) { S.hasSelection = true; if (!rst.dv) S.detailView = "full"; }
+        ensureFocus();
+        if (!S.hasSelection && S.focusV && S.selI) { S.hasSelection = true; if (!rst.side) S.detailSide = "problem"; if (!rst.kind) S.detailKind = "problem"; }
         syncRel();
         setMode(S.mode);
     }).catch(function (err) {
-        document.getElementById("meta-counts").textContent = "Failed to load atlas.json: " + err.message;
+        console.error("Failed to load atlas.json:", err);
     });
 })();
 </script>
