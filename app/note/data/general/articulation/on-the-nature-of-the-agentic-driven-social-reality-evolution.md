@@ -9,5 +9,5 @@
 - [Technique](https://www.notion.so/Technique-15f598edb790814db56bd7b10a4de600?v=15f598edb79081e2b0e7000c9d41b09a&source=copy_link)
 - [Technology](note.html?n=social/structural/technical/technology.md)
 - [Agency - Locus Instrumentorum](../../Locus-Instrumentorum/Foundation/Agency.md)
-- [Social Ontology · Change](note.html?n=social/onto/guide/change/readme.md)
+- [Social Ontology · Change](note.html?n=social/onto/guide/change/change.md)
 - [Social Region Change Toolkit Foundation](note.html?n=social/state/action/guidance/change.md)

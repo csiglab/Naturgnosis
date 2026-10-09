@@ -14,7 +14,7 @@
 | **Name** | Canonical name of the concept. |
 | **Tags Set** | A set of semantic labels associated with the concept for categorization, navigation, filtering, and search. |
 | **Layer** | The primary sociognostic layer in which the element operates (Ontic, Agentic, Epistemic, Normative,  etc.). |
-| **Category** | The direct conceptual category of the element (Actor, Institution, Role, Resource, Belief, Goal, Norm, Event, Capability, Relationship, etc.). |
+| **Category** | The direct conceptual category of the element (Actor, Institution, Role, Resource, Belief, Goal, Intention, Norm, Event, Capability, Relationship, etc.). |
 | **Short Description** | Concise summary of the concept. |
 | **Long Description** | Detailed explanatory description of the concept. |
 | **Chronology** | Historical emergence, evolution, and temporal characteristics of the concept. |
@@ -29,7 +29,7 @@
 | Layer                 | Core Question                        | Description                                                                                |
 | --------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------ |
 | **Ontic**             | What exists?                         | Actors, artifacts, resources, organizations, events, states of affairs.                    |
-| **Agentic**           | Who acts and how?                    | Agency, capabilities, goals, decision-making, action, strategy.                            |
+| **Agentic**           | Who acts and how?                    | Agency, intention, goal formation, individual and joint agency, capabilities, goals, decision-making, action, strategy. |
 | **Relational**        | How are things connected?            | Networks, hierarchies, dependencies, exchanges, power relations.                           |
 | **Epistemic**         | What is known, believed, or assumed? | Knowledge, beliefs, models, information, uncertainty, ignorance.                           |
 | **Normative**         | What ought to be done?               | Norms, values, laws, legitimacy, obligations, permissions.                                 |
@@ -79,6 +79,10 @@
 | **Technical Element**             | Artifact or technique enabling action.                              | Computer, Steam Engine                        |
 | **Infrastructure**                | Foundational enabling system.                                       | Roads, Internet                               |
 | **Goal**                          | Desired future state.                                               | Profit, Security                              |
+| **Intention**                     | Directed commitment of a unit toward an end; the intentional structure of agency (goal formation, problematization, deliberation, decision). | Expansion Commitment, Vacancy Commitment |
+| **Individual Agency**             | Agency exercised by a single interaction unit.                      | Manager's Hiring Decision                     |
+| **Joint Agency**                  | Agency constituted by units jointly committed to a shared intention. | Bargaining Pair                               |
+| **Collective Agency**             | Agency exercised by a compound unit through its decision architecture. | Board Decision                              |
 | **Interest**                      | Stake in an outcome.                                                | Political Interest                            |
 | **Strategy**                      | Coordinated plan of action.                                         | Industrial Policy, Market Entry Strategy      |
 | **Policy**                        | Deliberate course of action adopted by an authority.                | Industrial Policy, Tax Policy                 |

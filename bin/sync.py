@@ -283,10 +283,11 @@ class SyncHandler(SimpleHTTPRequestHandler):
 
     # URL segments that must never be served to users: agent instructions,
     # authoring/ops docs, and repo dotfiles. They live alongside the served
-    # tree by convention (AGENTS.md) or history (readme.md) and ship inside
-    # the Docker image (COPY app/), so the redirect quirk hiding them is not
-    # a sufficient guard. Answer 404 (not 403) to avoid leaking existence.
-    BLOCKED_SEGMENTS = ("agents.md", "readme.md", "guideline.md")
+    # tree by convention (AGENTS.md) and ship inside the Docker image
+    # (COPY app/), so the redirect quirk hiding them is not a sufficient
+    # guard. Answer 404 (not 403) to avoid leaking existence.
+    # Corpus readme.md files are ordinary served notes (see spec/note/authoring.md).
+    BLOCKED_SEGMENTS = ("agents.md", "guideline.md")
 
     # ------------------------------------------------------------------
     # CORS

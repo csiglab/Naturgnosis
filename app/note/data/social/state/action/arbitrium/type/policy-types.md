@@ -2,7 +2,7 @@
 
 > Type-level policy courses: kinds of policy distinguished by means and posture.
 > For policy instances (deployed country and sector courses), see
-> [Policy Instances](note.html?n=social/state/action/arbitrium/policy/readme.md). For the type itself, see
+> [Policy Instances](note.html?n=social/state/action/arbitrium/policy/case-study.md). For the type itself, see
 > [Policy](note.html?n=social/state/action/guidance/policy.md).
 
 - [Productive Policy](note.html?n=social/state/action/arbitrium/type/productive-policy.md)

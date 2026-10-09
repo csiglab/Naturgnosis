@@ -7,9 +7,11 @@
 > rule, and review.
 
 > Problematization formulates the problem; [Policy](note.html?n=social/state/action/guidance/policy.md)
-> answers it with a course; the [Dimension](note.html?n=social/state/problem/dimension/readme.md)
+> answers it with a course; the [Dimension](note.html?n=social/state/problem/dimension/domain.md)
 > index scopes in which domain of social reality it sits. See
-> [Problematization](note.html?n=epistemica/problematization.md) for the process and
+> [Problematization](note.html?n=epistemica/problematization.md) for the process,
+> [Problem](note.html?n=social/problem.md) for the general element (problem as intentional
+> structure), and
 > [The Collective Action Problem](note.html?n=general/collective-action-problem.md) for
 > the coordination failure that keeps recognized problems unanswered.
 
@@ -39,7 +41,7 @@
 ## Dimensions
 
 > Every policy problem sits in a domain, at a scale, with a tractability and a
-> mandate-holder: which [Domain](note.html?n=social/state/problem/dimension/readme.md)
+> mandate-holder: which [Domain](note.html?n=social/state/problem/dimension/domain.md)
 > of social reality it belongs to (production, infrastructure, human capital, monetary,
 > governance, research, international, urban, cognition, welfare, the state); how
 > severe and wide it runs; whether instruments exist that can close it; and whose
@@ -47,7 +49,8 @@
 
 ## References
 
+- [Problem](note.html?n=social/problem.md)
 - [Policy](note.html?n=social/state/action/guidance/policy.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
-- [Dimension](note.html?n=social/state/problem/dimension/readme.md)
+- [Dimension](note.html?n=social/state/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)

@@ -122,9 +122,9 @@ QA:
 
 - [Developmentalism](note.html?n=social/cognitive/ideology/developmentalism.md)
 
-- [Social Ontology](note.html?n=social/onto/readme.md)
+- [Social Ontology](note.html?n=social/onto/onto.md)
 
-- [Social Change](note.html?n=social/onto/guide/change/readme.md)
+- [Social Change](note.html?n=social/onto/guide/change/change.md)
 
 - [Turkey’s 2030 Industry And Technology Strategy](https://www.setav.org/en/turkeys-2030-industry-and-technology-strategy)
 
