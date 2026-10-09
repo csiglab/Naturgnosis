@@ -50,6 +50,23 @@ Pfeiffer's work is especially interesting because he treated economic developmen
 
 ## QA
 
+### Which terminology did Pfeiffer use?
+
+| Your term | Pfeiffer-era terminology |
+| --- | --- |
+| **Problem** | **Übel / Mißstand / Mangel** |
+| **Policy Goal** | **Zweck / Endzweck** |
+| **Policy Mechanism** | **Mittel** |
+| **Outcome** | **Wirkung / Erfolg / Verbesserung** |
+
+### What is Pfeiffer's epistemic and action framework used to deal with matters of the state?
+
+> A closed loop from end to means to effect, run through four instruments. **(1) Teleological derivation:** prescriptions are derived "naturally" from the *Endzweck der Gesellschaft* (the end of society) — the title of his *Policeywissenschaft* (1779) states the method: fix the end first, then derive the police (policy) from it. **(2) Systematization:** the whole is ordered as *Universal-Cameral-Wissenschaft* on four pillars — statecraft (*Staats-Regierungskunst*), police science, general state economy, and finance (*Grundsätze*, 1783) — with the *Lehrbegriff* (1764–78) as the teachable compendium. **(3) Empirical survey:** the state of manufactures is taken "nach ihrer heutigen Lage" (as it presently stands) in *Die Manufacturen und Fabricken Deutschlands* (1780), i.e. observe before prescribing. **(4) Critical examination:** contemporary writings are corrected (*Berichtigungen*, 1781–84) and reform proposals are tested (*Prüfung*, 1786) against whether they increase the happiness and power of Germany. On the action side the loop closes through **improvement proposals** (*Verbesserungsvorschläge*), sectoral manuals (forestry, finance, mining, silk, fuel), and **teaching** — the Mainz chair (1782) and textbooks "for prospective state economists" turn the framework into trained administrators. This is exactly the terminology chain in the table above: *Zweck/Endzweck → Mittel → Wirkung/Erfolg/Verbesserung*, applied to each *Übel/Mißstand/Mangel* in turn.
+
+### Which techniques did Pfeiffer use to bring foreign knowledge into Germany?
+
+> Five, all evidenced in the works list. **(1) Sojourn and direct observation:** after leaving Prussian service he spent time in England before returning to German posts — firsthand contact with the leading industrial nation. **(2) Polemical import:** the *Antiphysiocrat* (1780) drags the French physiocratic system onto German ground in order to refute it — importing the debate even while rejecting the doctrine. **(3) Critical review as intake:** the *Berichtigungen* (1781–84) and *Kritische Briefe* systematically correct and digest contemporary writings "of this century," functioning as a review apparatus for foreign and domestic literature alike. **(4) Benchmarking survey:** *Die Manufacturen und Fabricken Deutschlands* (1780) surveys domestic industry "in its present state" with improvement proposals attached — the comparative-empirical technique. **(5) Institutionalization:** the Mainz professorship (1782) and the compendia convert imported and domestic knowledge into a teachable curriculum for future officials. The works list above documents no translations by his hand; any translation claim would need a source beyond this note.
+
 ### Which documents does Google Play contain about Johann Friedrich von Pfeiffer?
 
 > The [Google Play Books author cluster](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMR3dSWU1vNUxhYzBDEAkQBA%3D%3D:S:ANO1ljJ1Hb8) lists **103 scans** of works by or attributed to Pfeiffer; entries marked as duplicates are repeat scans of the same document.
