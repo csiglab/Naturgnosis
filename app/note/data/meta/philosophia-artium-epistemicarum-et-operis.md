@@ -290,6 +290,17 @@ The tree is governed by the following rules:
 
 > A very special form of description — maybe the ultimate form — clarifying cause, mechanism, or relation.
 
+### What is the relationship between a mechanism and a concrete Physical Production Technical Object — or any other kind of technical object?
+
+> A mechanism is what an organized object does together; the object is what bears the mechanism. A `Mechanism` (Ontic Order, Existential) is an arrangement of structures or interactions capable of generating, regulating, or constraining processes — gear train, enzyme complex, feedback mechanism. A technical object (`Production Technical Object` → physical like turbine, virtual like database, composed of `Constitutive Technical Object`s like bearing, CPU, schema) is the bounded existent in which such an arrangement is realized. Four relations, no mergers:
+>
+> - **Realization, not identity.** A mechanism is never free-floating; it is realized by an organized object. But it is not a part: constitutive objects compose the object (bill of materials), while the mechanism is the organized interaction of those parts producing the function — the same reason a mechanism is not identical to any single underlying process (it may coordinate several; cf. Philosophia Technicarum).
+> - **Many-to-many.** One object realizes several mechanisms (a turbine: gas expansion, bearing friction, governor feedback); one mechanism type spans objects and even spaces (feedback in a thermostat, a market, a proof-checking loop).
+> - **Epistemic bridge.** To know an object — model, explanation, prediction — is to identify the mechanisms it realizes under which constraints. The mechanism is where the ontic object meets the epistemic construction: models represent it, explanations cite it.
+> - **Validation by intervention.** A mechanism-claim is warranted when blocking, altering, or transplanting the arrangement changes the effect as predicted — validated the way descriptions are (prediction error, replication, intervention), not by inspecting parts alone.
+>
+> What must not be done: do not file a mechanism as another part in the object's composition, and do not merge the two into a hybrid type. Decompose twice when needed — the object technically (parts, acts, configurations), the mechanism epistemically (model, explanation, standard) — and cross-link the trees per `guideline/ambiguity_resolution.md`.
+
 ### How do we evaluate descriptions of reality?
 
 > An evaluation is a comprehensive assessment of a description, encompassing its validity and other relevant criteria.
