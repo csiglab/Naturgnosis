@@ -86,7 +86,7 @@ References
 
 ## Organizational Typology
 
-> See ‘Bremontix Thesaurus’.
+> See the [Glossarium](/glossarium/).
 > 
 
 ## References
