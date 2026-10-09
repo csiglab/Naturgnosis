@@ -3,13 +3,15 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research nation technique epistemica nature
 
-.PHONY: help build index notes-index qa-index search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server clean
+.PHONY: help build index notes-index qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server clean
 
 help:
-	@echo "build         regenerate notes + qa + universal index + graph layouts (+ universal graph)"
-	@echo "index         rebuild all indexes (notes + qa + search + universal)"
+	@echo "build         regenerate notes + qa + glossarium + universal index + graph layouts (+ universal graph)"
+	@echo "index         rebuild all indexes (notes + qa + glossarium + search + universal)"
 	@echo "notes-index   rebuild app/note/data/index.json from app/note/data/"
 	@echo "qa-index      rebuild app/qa/data/qa-index.json from app/qa/data/qa.json"
+	@echo "glossarium-index rebuild app/glossarium/data/index.json from app/glossarium/data/terms.json"
+	@echo "glossarium-add TERM=<file.md> add/replace one term in app/glossarium/data/terms.json"
 	@echo "search-index  rebuild app/data/search-index.json (needs notes-index first)"
 	@echo "universal-index rebuild app/data/universal-graph.json + universal-layout.json (view-only Graphive)"
 	@echo "landing-metrics rebuild app/data/landing-metrics.json (per-module counts for the hub)"
@@ -29,7 +31,7 @@ build: index production-view
 		fi; \
 	done
 
-index: notes-index qa-index search-index universal-index landing-metrics
+index: notes-index qa-index glossarium-index search-index universal-index landing-metrics
 
 notes-index:
 	$(PYTHON) bin/build_note_index.py
@@ -37,13 +39,20 @@ notes-index:
 qa-index:
 	$(PYTHON) bin/build_qa_index.py
 
-search-index: notes-index qa-index
+glossarium-index:
+	$(PYTHON) bin/build_glossarium_index.py
+
+glossarium-add:
+	@test -n "$(TERM)" || (echo "usage: make glossarium-add TERM=<file.md> [SLUG=<code>]"; exit 1)
+	$(PYTHON) bin/add_glossarium_term.py "$(TERM)" $(if $(SLUG),--slug "$(SLUG)")
+
+search-index: notes-index qa-index glossarium-index
 	$(PYTHON) bin/build_search_index.py
 
 universal-index:
 	$(PYTHON) bin/build_universal_index.py
 
-landing-metrics: notes-index qa-index
+landing-metrics: notes-index qa-index glossarium-index
 	$(PYTHON) bin/build_landing_metrics.py
 
 production-view:

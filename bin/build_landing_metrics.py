@@ -66,6 +66,14 @@ def main():
         "edges": None,
     }
 
+    glossarium = load_json(os.path.join(ROOT, "app", "glossarium", "data", "index.json"))
+    modules["glossarium"] = {
+        "nodes": (glossarium.get("count")
+                  if isinstance(glossarium, dict) and isinstance(glossarium.get("count"), int)
+                  else (len(glossarium.get("terms", [])) if isinstance(glossarium, dict) else None)),
+        "edges": None,
+    }
+
     payload = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "modules": modules,

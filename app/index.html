@@ -509,10 +509,11 @@
                 </article>
 
                 <article class="dataset">
-                    <h3><a href="/social/">Social Space</a></h3>
-                    <p class="desc">Actors, institutions, norms, relations.</p>
+                    <h3><a href="/social/">Social &amp; Nations</a></h3>
+                    <p class="desc">Actors, institutions, norms, relations — plus the illustrated nation index.</p>
                     <div class="links">
                         <a class="primary" href="/social/">Explorer &rarr;</a>
+                        <a class="primary" href="/nation/">Nations &rarr;</a>
                         <a href="/social/edit.html">Editor</a>
                     </div>
                 </article>
@@ -562,15 +563,6 @@
 
             <div class="datasets">
                 <article class="dataset">
-                    <h3><a href="/nation/">Nation Space</a></h3>
-                    <p class="desc">Illustrated index of nations.</p>
-                    <div class="links">
-                        <a class="primary" href="/nation/">Index &rarr;</a>
-                        <a href="/nation/edit.html">Editor</a>
-                    </div>
-                </article>
-
-                <article class="dataset">
                     <h3><a href="/note/">Note Space</a></h3>
                     <p class="desc">Long-form notes, plain markdown.</p>
                     <div class="links">
@@ -583,6 +575,14 @@
                     <p class="desc">Agent interrogations, browsable.</p>
                     <div class="links">
                         <a class="primary" href="/qa/">Index &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="dataset">
+                    <h3><a href="/glossarium/">Glossarium</a></h3>
+                    <p class="desc">Terms and definitions behind the ontologies.</p>
+                    <div class="links">
+                        <a class="primary" href="/glossarium/">Index &rarr;</a>
                     </div>
                 </article>
 
@@ -605,11 +605,7 @@
             <div class="routes">
                 <div class="route">
                     <div class="intent">I want to navigate social reality</div>
-                    <div class="go"><a href="/social/">Social explorer</a> or the <a href="/production/">production view</a> &mdash; the main graph and its computed derivation.</div>
-                </div>
-                <div class="route">
-                    <div class="intent">I want to compare nations</div>
-                    <div class="go">the <a href="/nation/">nation index</a> &mdash; illustrated entries with an editor for new ones.</div>
+                    <div class="go"><a href="/social/">Social explorer</a> or the <a href="/production/">production view</a> &mdash; the main graph and its computed derivation — plus the <a href="/nation/">nation index</a> for country comparison.</div>
                 </div>
                 <div class="route">
                     <div class="intent">I want to read the notes</div>
@@ -647,6 +643,7 @@
                 <a href="/research/">RESEARCH</a>
                 <a href="/note/">NOTES</a>
                 <a href="/qa/">Q/A</a>
+                <a href="/glossarium/">GLOSSARIUM</a>
                 <a href="/graph/">GRAPH</a>
                 <a href="https://github.com/csiglab/Naturgnosis">SOURCE</a>
                 <a href="/docs.html">DOCS</a>
@@ -800,6 +797,7 @@
             ['nature', 'Nature nodes'],
             ['note', 'Notes'],
             ['qa', 'Q/A'],
+            ['glossarium', 'Terms'],
             ['live-hs', 'HS catalog'],
             ['live-naics', 'NAICS catalog'],
             ['live-taxonomy', 'Product taxonomy'],
@@ -826,6 +824,9 @@
         function uurl(e) {
             if (e.surface === 'qa') {
                 return '/qa/entry.html?id=' + encodeURIComponent(e.path);
+            }
+            if (e.surface === 'glossarium') {
+                return '/glossarium/?t=' + encodeURIComponent(e.path);
             }
             if (e.surface === 'note') {
                 var p = uencPath(e.path);

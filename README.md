@@ -33,6 +33,7 @@ server (`bin/sync.py`) and shipped as one image.
 | Epistemic Space | `/epistemica/` | `/epistemica/edit.html` | CouchDB `dataset=epistemica` + mirror |
 | Nature Space | `/nature/` | `/nature/edit.html` | CouchDB `dataset=nature` + mirror |
 | Note Space | `/note/` | — | Physical markdown (`app/note/data/`) + generated index |
+| Glossarium Space | `/glossarium/` | — | Committed `app/glossarium/data/terms.json` (source) + generated index |
 
 See `spec/README.md` for the global specification and `spec/<module>/README.md` per module.
 

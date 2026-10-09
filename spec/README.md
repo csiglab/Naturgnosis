@@ -33,6 +33,7 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 | 7 | Research Space | `app/research/` | Graph explorer + editor | CouchDB (`dataset=research`) + disk mirror | bootstrapped (artifact seed corpus) |
 | 8 | Note Space | `app/note/` | Catalog + note viewer | Physical markdown (`notes/*.md`) + generated `data/index.json` | scaffolded (corpus empty) |
 | 9 | Q/A Log | `app/qa/` | Catalog + entry viewer (static, no editor) | Committed `data/qa.json` + generated `data/qa-index.json` | bootstrapped (qa-00001) |
+| 10 | Glossarium Space | `app/glossarium/` | Catalog + term viewer + select-a-word lookup | Committed `data/terms.json` (source) + generated `data/index.json` | seeded (317 terms) |
 
 ## Architecture
 

@@ -102,6 +102,28 @@ def qa_entries() -> list:
     return entries
 
 
+def glossarium_entries() -> list:
+    path = REPO / "app" / "glossarium" / "data" / "index.json"
+    if not path.is_file():
+        print("search-index: skip glossarium (no app/glossarium/data/index.json — run: make glossarium-index)")
+        return []
+    idx = load_json(path, "make glossarium-index")
+    entries = []
+    for t in idx.get("terms", []):
+        entries.append(
+            {
+                "surface": "glossarium",
+                "kind": "term",
+                "type": "",
+                "title": t.get("name", ""),
+                "path": t.get("slug", ""),
+                "tags": [a for a in (t.get("aliases") or []) if isinstance(a, str)][:5],
+                "excerpt": excerpt(t.get("excerpt", "")),
+            }
+        )
+    return entries
+
+
 def node_entries() -> list:
     entries = []
     for surface in GRAPH_MODULES:
@@ -220,6 +242,7 @@ def live_entries() -> list:
 def main() -> int:
     entries = note_entries()
     entries.extend(qa_entries())
+    entries.extend(glossarium_entries())
     entries.extend(node_entries())
     entries.extend(live_entries())
 
