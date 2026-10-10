@@ -65,3 +65,17 @@ Catalog pins (starred notes) are server-side, stored as a single `pins`
 document in the `naturgnosis` CouchDB database via `GET/POST
 /note/api/pins` (see `bin/sync.py`). The catalog hides pin UI when the API
 is unreachable (e.g. `sync.py --no-couch`).
+
+## Changelog
+
+Per-file edit history for the corpus lives in `changelog.json` (beside
+the corpus, with `changelog.schema.json`): an array of
+`{file_path, logs[]}` objects, `file_path` relative to `app/note/data/`.
+Each log is `{date: YYYY-MM-DD, summary; optional kind}` (commit-type
+words like `feat`/`fix`/`docs` suggested). Object key order follows the
+schema's `properties` order.
+
+Every change set touching the corpus appends one log per touched file, in
+the same commit. Validate with `python -m json.tool
+app/note/data/changelog.json`. The changelog is a per-file narrative for
+agents and readers; git log remains the source of truth.

@@ -672,7 +672,7 @@
     <nav class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="/">Naturgnosis</a>
-            <div class="nav-links"><a href="../data/meta/notes-treemap.html">Notes Treemap</a></div>
+            <div class="nav-links"><a href="../data/meta/atlas.html">Atlas</a></div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </nav>
@@ -855,6 +855,12 @@
 
         function encPath(p) {
             return p.split('/').map(encodeURIComponent).join('/');
+        }
+
+        function cleanQuery(sp) {
+            // Keep directory separators readable: URLSearchParams encodes '/'
+            // as '%2F', but both forms decode to the same value.
+            return sp.toString().replace(/%2F/gi, '/');
         }
 
         function hl(text, q) {
@@ -1054,7 +1060,7 @@
             sp.set('view', 'browse');
             if (dir) sp.set('dir', dir);
             if (state.section === 'pinned') sp.set('section', 'pinned');
-            return 'index.html?' + sp.toString();
+            return 'index.html?' + cleanQuery(sp);
         }
 
         function crumbsHtml() {
@@ -1124,7 +1130,7 @@
                 if (state.liveOnly) sp.set('live', '1');
                 if (state.unfinishedOnly) sp.set('unfinished', '1');
                 if (state.q.trim()) sp.set('q', state.q.trim());
-                var url = 'index.html?' + sp.toString();
+                var url = 'index.html?' + cleanQuery(sp);
                 if (push) history.pushState(snapshot(), '', url);
                 else history.replaceState(null, '', url);
             } catch (e) { /* file:// or old browser: URL stays as-is */ }
