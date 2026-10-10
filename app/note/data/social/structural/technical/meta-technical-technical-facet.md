@@ -184,8 +184,8 @@ QA:
 
 ## References
 
-- [An Essay on Political Phenomena](../../../Breviarium/an-essay-on-political-phenomena.md)
-- [A Guide To Academic Social Study](../../../Breviarium/guide-academic-social-study.md)
+- [An Essay on Political Phenomena](../../../general/an-essay-on-political-phenomena.md)
+- [A Guide To Academic Social Study](../../../general/guide-academic-social-study.md)
 - [Ricerca per l'innovazione della scuola italiana](https://www.indire.it/en/)
 - [Nuno Paulo de Sousa Arrobas Crato](https://en.wikipedia.org/wiki/Nuno_Crato)
 

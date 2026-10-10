@@ -11,7 +11,7 @@
 
 > **Note:** In this branch, we focus on **certain elements** that are difficult to place in other branches of study. On the **Onticity ladder**, these elements typically occupy the **higher levels**, meaning they often have a **broad range of relational, symbolic, or conceptual reality**, rather than being purely material or easily measurable.
 
-> Note: This is just an example - a detailed thesaurus will be created in [Element Map](./Map/README.md)
+> Note: This is just an example - a detailed thesaurus will be created in Element Map
 
 QA:
 

@@ -37,7 +37,7 @@ How to make a economic model?
 > The cycle is the engine of progress.
 > 
 
-![Deep Industry  (Production + Research) vs Superficial Industry (Production)](attachment:8efea712-5de1-4114-b083-ea939f291950:image.png)
+Deep Industry  (Production + Research) vs Superficial Industry (Production)
 
 Deep Industry  (Production + Research) vs Superficial Industry (Production)
 
@@ -382,7 +382,7 @@ International Collaboration:
 > |If Malaysia copies Embrapa blindly (old model) | 🚫 Will fall behind within 10 years. | | If Malaysia builds an Embrapa-core + AI/IoT/Robotics precision layer | 🚀 Will leapfrog into global leadership in tropical agri-tech.|
 > 
 
-![image.png](attachment:b6545fad-7b4c-4888-acd0-ad282519b99c:image.png)
+image.png
 
 Why **Split Pilot Plants** and Farmer Training From **Research**? 
 

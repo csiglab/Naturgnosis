@@ -58,5 +58,5 @@ $\exists, \text{interaction } I(a,b) \land \exists, \text{norms or expectations 
 ## References
 
 * [Social Relation](https://en.wikipedia.org/wiki/Social_relation)
-* [Social Interaction](../Ontic/Interaction.md)
-* [Social Expectation](./Expectation.md)
+* [Social Interaction](../actor/action/activity/economic/interaction/interaction.md)
+* [Social Expectation](../actor/collective/expectation.md)

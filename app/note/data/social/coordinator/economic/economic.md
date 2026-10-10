@@ -158,8 +158,8 @@
 
 - [La Tecno-Antropología una visión desde Dinamarca](https://ichan.ciesas.edu.mx/la-tecno-antropologia-una-vision-desde-dinamarca/)
 
-- [Consumption Facet](../Consumption/README.md)
+- Consumption Facet
 
 - [Economic Unit](https://en.wikipedia.org/wiki/Economic_unit)
 
-- [Market](../../Intersection/Market/README.md)
+- Market

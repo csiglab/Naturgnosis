@@ -1,6 +1,6 @@
 # Financial Market
 
-See more in [Locus Meliorandis/Finance](../../../../Locus-Meliorandis/Dimension/Finance/README.md)
+See more in Locus Meliorandis/Finance
 
 > **Financial economics** is a branch of economics that examines how financial decisions are made in markets, considering factors such as risk, return, asset pricing, and the allocation of resources over time.
 

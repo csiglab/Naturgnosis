@@ -25,5 +25,5 @@ Guiding:
 ## References
 
 - [Actor](note.html?n=social/actor/actor.md)
-- [Interaction Unit](note.html?n=social/onto/guide/unit.md)
-- [Role](note.html?n=social/onto/synontic/role.md)
+- [Interaction Unit](note.html?n=social/unit.md)
+- [Role](note.html?n=social/synontic/role.md)

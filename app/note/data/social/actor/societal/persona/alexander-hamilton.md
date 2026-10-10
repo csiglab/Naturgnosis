@@ -78,7 +78,7 @@ tags: [actor, person]
 
 ## References
 
-- [**Jean-Baptiste Colbert**](Jean-Baptiste%20Colbert%2010e598edb790816dba8af148924ecb07.md)
+- **Jean-Baptiste Colbert**
 - https://founders.archives.gov/documents/Hamilton/01-03-02-0015
 - https://archive.org/details/in.ernet.dli.2015.59580/mode/2up
 - https://archive.org/details/sim_administration-society_2002-11_34_5/page/541

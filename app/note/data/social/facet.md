@@ -59,7 +59,7 @@ tags: [facet, social-ontology, dimension, layers, analytical]
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Social Ontology](note.html?n=social/onto/guide/social-ontology.md)
+- [Social Ontology](note.html?n=social/social-ontology.md)
 - [Facet of Social Reality](http://localhost:8004/Locus-Social-Realitatis/Facet/)
 - [Field Theory](https://en.wikipedia.org/wiki/Field_theory_(sociology))
 - [System](https://righteous-guardian-68f.notion.site/System-1dac0f5171ec80c38c08f74d095235a9?source=copy_link)

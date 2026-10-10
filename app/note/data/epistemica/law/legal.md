@@ -26,6 +26,6 @@ QA:
 
 ## References
 
-- [Social Regulation](../../Locus-Social-Realitatis/Subfield/Meta/Governance/Regulation/README.md)
+- Social Regulation
 - [Goods Availability Act](https://en.wikipedia.org/wiki/Goods_Availability_Act)
-- [Kingdom of the Netherlands](../../Locus-Social-Realitatis/Subfield/Netherlands/README.md)
+- Kingdom of the Netherlands

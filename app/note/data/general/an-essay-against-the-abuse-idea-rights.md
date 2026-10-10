@@ -17,5 +17,5 @@ Key Questions:
 
 ## References
 
-- [Rights](../Locus-Social-Realitatis/Onticity/Aontic/Right.md)
+- [Rights](../social/normative/right.md)
 - Rawls, J. A Theory of Justice. Harvard University Press, 1971.

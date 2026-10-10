@@ -30,4 +30,4 @@ Status: Not started
 
 - [National Institute of Advanced Industrial Science and Technology (AIST)](https://www.aist.go.jp/index_en.html)
 
-[**Ministry of International Trade and Industry (MITI)**](Ministry%20of%20International%20Trade%20and%20Industry%20(MITI%20133956e8f40e81b5b08eea5faf0b86d7.md)
+**Ministry of International Trade and Industry (MITI)**

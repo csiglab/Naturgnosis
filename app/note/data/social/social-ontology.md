@@ -152,7 +152,7 @@ It supports stochastic modeling of perception errors, interpretation biases, and
 
 > Note: There should be a general ontological entry for Behavior; however, each Interaction Unit should also have its own specific Behavior entry reflecting its unique patterns of action and response.
 
-> See more in [Onticity Map](./Onticity/Map/README.md)
+> See more in Onticity Map
 
 | **Level**         | **Ontological Element**        | **Description**                                                                                    | **Basic Ontological Form (If Applicable)**      | **Tags**                                  |
 | ----------------- | ------------------------------ | -------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ----------------------------------------- |
@@ -200,7 +200,7 @@ In this framework, regulation is thus both a foundational ontological element pr
 
 ### Change
 
-> See more in [Ontology of Change](note.html?n=social/actor/state/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md).
+> See more in [Ontology of Change](note.html?n=social/actor/collective/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md).
 
 ### Phenomena
 
@@ -327,7 +327,7 @@ Classification of Elements of Social Reality:
 
 ### Caution
 
-> See more in [A Guide to Modelling Social Reality](../Breviarium/a-guide-to-modelling-social-reality.md).
+> See more in [A Guide to Modelling Social Reality](../general/a-guide-to-modelling-social-reality.md).
 
 > aka. Emergence Beyond the Obvious.
 
@@ -354,8 +354,8 @@ Classification of Elements of Social Reality:
 
 ## References
 
-* [Locus -Instrumentorum/External Observer](../Locus-Instrumentorum/Meta/README.md)
-* [An Essay on Political Phenomena](../Breviarium/an-essay-on-political-phenomena.md)
+* Locus -Instrumentorum/External Observer
+* [An Essay on Political Phenomena](../general/an-essay-on-political-phenomena.md)
 * [Observer](https://righteous-guardian-68f.notion.site/Observer-24bc0f5171ec8060b8f3d55b4b766042?source=copy_link)
 * [Ontology](https://righteous-guardian-68f.notion.site/Ontology-138eea37a34f43ed87c16d1818629723)
 * [Model](https://righteous-guardian-68f.notion.site/Model-1b1c0f5171ec807192cad4c8bdbc9b88?pvs=4)
@@ -370,7 +370,7 @@ Classification of Elements of Social Reality:
 * [Natural Computing](https://righteous-guardian-68f.notion.site/Natural-Computing-111c0f5171ec804196f2e48b5ee1afb5?pvs=4)
 * [Complexity Science](https://righteous-guardian-68f.notion.site/Complexity-Science-171c0f5171ec80c18335cdf06a024db6?pvs=4)
 * [Dynamical Intelligence](https://righteous-guardian-68f.notion.site/Dynamical-Intelligence-a41fde247c384e3bb5e561bf55c70f33?pvs=4)
-* [Agency](../Locus-Instrumentorum/Agency.md)
+* [Agency](agency.md)
 * [External Observer](note.html?n=epistemica/observation.md)
 * [Sociological Theory](https://en.wikipedia.org/wiki/Sociological_theory)
 * [Social Ontology](https://www.cambridge.org/core/elements/social-ontology/0F208BDE42489CF0CF77B0DE38E95BBB)

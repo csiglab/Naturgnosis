@@ -177,7 +177,7 @@ different times we shall have to resolve it in different ways, but at each stage
 > **Thermodynamics** is the branch of physics that studies the macroscopic behavior of systems based on the statistical averaging of microscopic degrees of freedom, governed by conservation laws and entropy considerations. It formalizes the relationships among **thermodynamic state variables** (e.g., energy $E$, entropy $S$, volume $V$, pressure $P$, temperature $T$, particle number $N$) under various constraints and transformations, using a mathematically consistent axiomatic framework.
 > 
 
-![image.png](attachment:fa3a5423-987b-4867-a66b-b559ef2ac3b5:image.png)
+image.png
 
 | **Main Field** | **Subfield** | **Description** |
 | --- | --- | --- |

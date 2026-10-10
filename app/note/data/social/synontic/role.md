@@ -40,6 +40,6 @@ Roles are fluid: their boundaries, meanings, and expectations shift across conte
 ## **References**
 
 * [Role](https://en.wikipedia.org/wiki/Role)
-* [Social Expectation](./Expectation.md)
+* [Social Expectation](../actor/collective/expectation.md)
 * Mead, G. H. *Mind, Self, and Society* (1934)
 * Axelrod, R. (1986). *The Evolution of Cooperation*

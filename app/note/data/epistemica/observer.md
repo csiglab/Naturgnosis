@@ -88,4 +88,4 @@
 ## References
 
 - [Cognition](https://en.wikipedia.org/wiki/Cognition)
-- [Developmentalism](note.html?n=social/cognitive/ideology/developmentalism.md)
+- [Developmentalism](note.html?n=social/actor/collective/ideology/developmentalism.md)

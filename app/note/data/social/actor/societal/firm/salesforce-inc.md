@@ -252,4 +252,4 @@ tags: [actor, firm]
 - Gartner CRM Magic Quadrant  
 - IDC, Statista, and PitchBook market data
 - [Salesforce, Inc.](https://www.salesforce.com/)
-- [A Guide to Profile a Firm](../../../Breviarium/a-guide-to-profile-a-firm.md)
+- A Guide to Profile a Firm

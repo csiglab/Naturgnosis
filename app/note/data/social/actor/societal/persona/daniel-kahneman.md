@@ -8,11 +8,11 @@ tags: [actor, person]
 
 > 
 
-![Untitled](personas/daniel-kahneman/untitled.png)
+Untitled
 
-![Untitled](personas/daniel-kahneman/untitled-1.png)
+Untitled
 
-![Untitled](personas/daniel-kahneman/untitled-2.png)
+Untitled
 
 ## Main Ideas
 

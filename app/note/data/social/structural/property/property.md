@@ -71,4 +71,4 @@
 
 - [Ontology](https://righteous-guardian-68f.notion.site/Ontology-138eea37a34f43ed87c16d1818629723?source=copy_link)
 - [Property](https://righteous-guardian-68f.notion.site/Property-271c0f5171ec807192cad4c8bdbc9b88?pvs=4)
-<!-- - [External Observer](../../../../Locus-Instrumentorum/Observer.md) -->
+<!-- - External Observer -->

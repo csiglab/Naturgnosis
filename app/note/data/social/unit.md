@@ -124,10 +124,10 @@ Guiding Questions:
 - Kahneman, D. Thinking, Fast and Slow (2011) – Heuristics and cognitive biases.
 - Aumann, R.J. (1976) – Rationality and common knowledge in game theory.
 - [Actor](./Epistemic/Actor.md)
-- [Onticity](./README.md)
-- [Actor Catalog](../../Locus-Meliorandis/Dimension/Actor/Catalog/README.md)
+- Onticity
+- Actor Catalog
 - García Sánchez, Ester. El concepto de actor: Reflexiones y propuestas para la ciencia política. Andamios 3.6 (2007): 199-216.
 - [Actors](https://www.sociopedia.co/post/actors)
-- [Agency](Agency.md)
-- [Action](Action.md)
+- [Agency](agency.md)
+- [Action](action.md)
 - [Actor Taxonomy](https://www.bremontix.xyz/lab/research/actor/)

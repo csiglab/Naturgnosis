@@ -2,13 +2,15 @@
 
 > In this note we will explore a very relevant notion for the description of the ontology of social reality — Synontic Elements.
 
+> Synontic Element — A recognition-constituted, relational element embedded in intersubjective space whose significance systematically modulates agency by structuring agents’ interpretations, expectations, deliberations, and possible actions. It exists through shared interpretation and recognition, and its agency-modulating effects depend primarily on the social meaning attributed to it rather than on its intrinsic physical properties or material substrate.
+
 ## Formulation
 
 > How should one conceptualize a ten-dollar bill?
 >
 > How should we conceptualize the role of a “tribal chief”?
 
-Humans possess the capacity to assign agency-modulating significance to both purely mental constructs and physically instantiated objects. By agency-modulating, we mean significance that alters an agent’s internal cognitive or affective states—thereby structuring interpretation, constraining deliberation, and potentially guiding action.
+> Humans possess the capacity to assign agency-modulating significance to both purely mental constructs and physically instantiated objects. By agency-modulating, we mean significance that alters an agent’s internal cognitive or affective states—thereby structuring interpretation, constraining deliberation, and potentially guiding action.
 
 Certain elements—whether:
 

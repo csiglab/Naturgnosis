@@ -20,4 +20,4 @@ Guiding Questions:
 
 ## References
 
-- [Social Ontology](note.html?n=social/onto/guide/social-ontology.md)
+- [Social Ontology](note.html?n=social/social-ontology.md)

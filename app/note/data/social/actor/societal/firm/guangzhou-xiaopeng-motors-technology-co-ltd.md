@@ -128,4 +128,4 @@ In the short to medium term, its success will likely hinge on scaling production
 ## References
 
 - [Guangzhou Xiaopeng Motors Technology Co., Ltd.](https://en.wikipedia.org/wiki/XPeng)
-- [A Guide to Profile a Firm](../../../Breviarium/a-guide-to-profile-a-firm.md)
+- A Guide to Profile a Firm

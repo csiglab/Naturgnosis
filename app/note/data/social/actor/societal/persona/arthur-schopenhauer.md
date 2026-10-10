@@ -31,4 +31,4 @@ tags: [actor, person, philosophy]
 
 - [Schopenhauer, A. (2016). The World as Will and Representation, Volume 1. Aegitas. ](https://app.notion.com/p/Schopenhauer-A-2016-The-World-as-Will-and-Representation-Volume-1-Aegitas-28f598edb79080749d53ebec43b50e04?pvs=21)
 - [Schopenhauer, A. (2016). The World as Will and Representation, Volume 2. Aegitas. ](https://app.notion.com/p/Schopenhauer-A-2016-The-World-as-Will-and-Representation-Volume-2-Aegitas-28f598edb790807ebf42c3c197930b15?pvs=21)
-- [Immanuel Kant](Immanuel%20Kant%20135598edb7908012915cfaccd644f609.md)
+- Immanuel Kant

@@ -8,7 +8,7 @@
 QA:
 
 - Which is the storage format used to store b-tree? https://www.postgresql.org/docs/current/btree.html https://github.com/postgres/postgres/blob/master/src/backend/access/nbtree/README https://dba.stackexchange.com/questions/111603/how-does-postgres-make-its-b-tree-index
-- How many **storage models** does **PostgreSQL** use? [How many **storage models** does **PostgreSQL** use?](PostgreSQL%20c3742c0a3fb54745906235947e3aa5b7.md)
+- How many **storage models** does **PostgreSQL** use? How many **storage models** does **PostgreSQL** use?
 
 ## Index
 
