@@ -166,8 +166,8 @@ def live_entries() -> list:
     catalogs = [
         {
             "surface": "live-hs",
-            "file": REPO / "app" / "note" / "data" / "live" / "social" / "product" / "hs-2022.json",
-            "page": "live/social/product/view.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "product" / "hs-2022.json",
+            "page": "social/product/hs-explorer.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
             "type": lambda x: x.get("level") or "",
@@ -177,8 +177,8 @@ def live_entries() -> list:
         },
         {
             "surface": "live-naics",
-            "file": REPO / "app" / "note" / "data" / "live" / "social" / "economic-activity" / "naics-2022.json",
-            "page": "live/social/economic-activity/view.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "action" / "activity" / "economic" / "naics-2022.json",
+            "page": "social/action/activity/economic/naics-explorer.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
             "type": lambda x: x.get("level") or "",
@@ -188,8 +188,8 @@ def live_entries() -> list:
         },
         {
             "surface": "live-taxonomy",
-            "file": REPO / "app" / "note" / "data" / "live" / "social" / "product" / "taxonomy.json",
-            "page": "live/social/product/taxonomy.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "product" / "product-taxonomy.json",
+            "page": "social/product/product-taxonomy.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: x.get("label") or x.get("id") or "",
             "type": lambda x: x.get("level") or "",
@@ -199,8 +199,8 @@ def live_entries() -> list:
         },
         {
             "surface": "live-gp",
-            "file": REPO / "app" / "note" / "data" / "live" / "technique" / "good-producers" / "entries.json",
-            "page": "live/technique/good-producers/view.html",
+            "file": REPO / "app" / "note" / "data" / "technique" / "good-producers-entries.json",
+            "page": "technique/good-producers.html",
             "items": lambda raw: raw.get("entries", []) if isinstance(raw, dict) else [],
             "title": lambda x: x.get("name") or "",
             "type": lambda x: " / ".join([t for t in (x.get("kind"), x.get("role")) if t]),

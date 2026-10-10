@@ -672,7 +672,7 @@
     <nav class="nav">
         <div class="nav-inner">
             <a class="nav-brand" href="/">Naturgnosis</a>
-            <div class="nav-links"><a href="../data/live/meta/notes-treemap.html">Notes Treemap</a></div>
+            <div class="nav-links"><a href="../data/meta/notes-treemap.html">Notes Treemap</a></div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </nav>
@@ -695,6 +695,7 @@
                 <button type="button" class="viewbtn" data-view="browse">browse</button>
                 <button type="button" class="viewbtn" data-view="files">files</button>
                 <button type="button" class="viewbtn" id="pins-toggle" aria-pressed="false" title="Show pinned notes only">&#9733; pinned</button>
+                <button type="button" class="viewbtn" id="live-toggle" aria-pressed="false" title="Show live notes only">&#9673; Live</button>
             </div>
             <div class="search-wrap">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -742,7 +743,7 @@
         var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
         var VIEWS = ['browse', 'files'];
         var GRID_PAGE = 48;
-        var state = { q: '', section: 'all', dir: '', view: 'browse', page: 1, pageSize: GRID_PAGE };
+        var state = { q: '', section: 'all', dir: '', view: 'browse', page: 1, pageSize: GRID_PAGE, liveOnly: false };
         var PINS = [];          /* pinned note paths, server order */
         var pinsAvailable = false;
         var lastTotalPages = 1;
@@ -909,6 +910,7 @@
             var q = state.q.trim().toLowerCase();
             var list = NOTES.filter(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return false;
+                if (state.liveOnly && n.kind !== 'live') return false;
                 if (parentDir(n.path) !== state.dir) return false;
                 if (!q) return true;
                 return score(n, q) >= 0;
@@ -929,6 +931,7 @@
             var q = state.q.trim().toLowerCase();
             var list = NOTES.filter(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return false;
+                if (state.liveOnly && n.kind !== 'live') return false;
                 if (!inDir(n)) return false;
                 if (!q) return true;
                 return score(n, q) >= 0;
@@ -1009,6 +1012,7 @@
             var map = {};
             NOTES.forEach(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return;
+                if (state.liveOnly && n.kind !== 'live') return;
                 var pre = state.dir + '/';
                 if (n.path.indexOf(pre) !== 0) return;
                 var rest = n.path.slice(pre.length);
@@ -1028,6 +1032,7 @@
             var map = {};
             NOTES.forEach(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return;
+                if (state.liveOnly && n.kind !== 'live') return;
                 var seg = n.path.split('/')[0] || n.path;
                 var e = map[seg] || (map[seg] = { name: seg, path: seg, count: 0, hit: false });
                 e.count++;
@@ -1065,7 +1070,7 @@
            jump back without a reload; the files view shows the count line. */
         function renderCrumbbar(subs, fileCount) {
             var bar = document.getElementById('crumbbar');
-            var filtered = state.dir || state.section !== 'all';
+            var filtered = state.dir || state.section !== 'all' || state.liveOnly;
             if (!state.dir && state.view !== 'files' && !filtered) {
                 bar.hidden = true;
                 bar.innerHTML = '';
@@ -1088,7 +1093,7 @@
             emptyEl.hidden = count > 0;
             emptyEl.textContent = state.section === 'pinned'
                 ? 'no pins yet \u2014 star a note.'
-                : 'no notes match.';
+                : (state.liveOnly ? 'no live notes match.' : 'no notes match.');
             pagerEl.hidden = totalPages <= 1;
             if (totalPages <= 1) return;
             indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
@@ -1100,7 +1105,7 @@
         /* ---------- navigation (pushState file browsing) ---------- */
 
         function snapshot() {
-            return { view: state.view, dir: state.dir, section: state.section, q: state.q };
+            return { view: state.view, dir: state.dir, section: state.section, q: state.q, live: state.liveOnly };
         }
 
         function syncUrl(push) {
@@ -1109,6 +1114,7 @@
                 sp.set('view', state.view);
                 if (state.dir) sp.set('dir', state.dir);
                 if (state.section === 'pinned') sp.set('section', 'pinned');
+                if (state.liveOnly) sp.set('live', '1');
                 if (state.q.trim()) sp.set('q', state.q.trim());
                 var url = 'index.html?' + sp.toString();
                 if (push) history.pushState(snapshot(), '', url);
@@ -1128,6 +1134,7 @@
             state.dir = d ? validDir(d) : '';
             var s = qs.get('section');
             state.section = (s && s.toLowerCase() === 'pinned') ? 'pinned' : 'all';
+            state.liveOnly = qs.get('live') === '1';
             var q = qs.get('q');
             state.q = q ? q.slice(0, 200) : '';
             state.page = 1;
@@ -1152,6 +1159,13 @@
             render();
         }
 
+        function toggleLive() {
+            state.liveOnly = !state.liveOnly;
+            state.page = 1;
+            syncUrl(false);
+            render();
+        }
+
         function setView(v) {
             if (VIEWS.indexOf(v) < 0 || v === state.view) return;
             navigate({ view: v });
@@ -1166,6 +1180,10 @@
             var on = state.section === 'pinned';
             pin.classList.toggle('active', on);
             pin.setAttribute('aria-pressed', on ? 'true' : 'false');
+            var lv = document.getElementById('live-toggle');
+            var lon = !!state.liveOnly;
+            lv.classList.toggle('active', lon);
+            lv.setAttribute('aria-pressed', lon ? 'true' : 'false');
         }
 
         /* ---------- stats modal (explorer stats-modal pattern) ---------- */
@@ -1297,6 +1315,7 @@
                 state.view = VIEWS.indexOf(s.view) >= 0 ? s.view : 'browse';
                 state.dir = s.dir || '';
                 state.section = s.section === 'pinned' ? 'pinned' : 'all';
+                state.liveOnly = !!s.live;
                 if (typeof s.q === 'string') {
                     state.q = s.q;
                     document.getElementById('search').value = s.q;
@@ -1344,6 +1363,7 @@
                 if (state.dir) document.title = state.dir + ' · Notes';
                 else if (state.view === 'files') document.title = 'All files · Notes';
                 else if (state.section === 'pinned') document.title = 'Pinned · Notes';
+                else if (state.liveOnly) document.title = 'Live · Notes';
                 render();
                 syncUrl(false);
             })
@@ -1364,6 +1384,7 @@
         });
 
         document.getElementById('pins-toggle').addEventListener('click', togglePinned);
+        document.getElementById('live-toggle').addEventListener('click', toggleLive);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {

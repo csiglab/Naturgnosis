@@ -52,12 +52,19 @@ Pfeiffer's work is especially interesting because he treated economic developmen
 
 ### Which terminology did Pfeiffer use?
 
-| Your term | Pfeiffer-era terminology |
-| --- | --- |
-| **Problem** | **Übel / Mißstand / Mangel** |
-| **Policy Goal** | **Zweck / Endzweck** |
-| **Policy Mechanism** | **Mittel** |
-| **Outcome** | **Wirkung / Erfolg / Verbesserung** |
+| Analytical Concept                 | Pfeiffer-era German terminology | English Translation(s)                                         | Meaning                                                                                                 |
+| ---------------------------------- | ------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Problem                            | **Übel**                        | Evil, ill, undesirable condition                               | An undesirable condition requiring attention or correction.                                             |
+| Problem / institutional deficiency | **Mißstand**                    | Deficiency, abuse, maladministration, unsatisfactory condition | An undesirable state of affairs, particularly in social, administrative, or institutional arrangements. |
+| Deficiency / shortage              | **Mangel**                      | Deficiency, lack, shortcoming                                  | The absence or insufficiency of something needed.                                                       |
+| Goal                               | **Ziel**                        | Goal, target                                                   | An intended endpoint or result.                                                                         |
+| Purpose                            | **Zweck**                       | Purpose, objective, end                                        | That for which an action or arrangement is undertaken.                                                  |
+| Ultimate purpose                   | **Endzweck**                    | Ultimate purpose, final end                                    | The ultimate objective that justifies intermediate purposes and actions.                                |
+| Means                              | **Mittel**                      | Means, instrument, resource                                    | Something employed to achieve a purpose.                                                                |
+| Method / procedure                 | **Verfahren**                   | Method, procedure, process                                     | An organized way of carrying out an action.                                                             |
+| Execution                          | **Ausführung**                  | Execution, implementation, carrying out                        | The practical realization of an intended action or procedure.                                           |
+| Effect                             | **Wirkung**                     | Effect, impact                                                 | What a measure, action, or arrangement produces.                                                        |
+| Success                            | **Erfolg**                      | Success, achievement                                           | The attainment of an intended objective or a favorable result.                                          |
 
 ### What is Pfeiffer's epistemic and action framework used to deal with matters of the state?
 

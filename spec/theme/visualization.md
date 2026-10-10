@@ -59,5 +59,5 @@
   breadcrumb, collapsed-to-first-level start (HS, NAICS, product taxonomy).
 - Marketing practice tree treemap — squarified, drill path, breadcrumb,
   label thresholds with counts.
-- `app/note/data/live/meta/notes-treemap.html` — sections to top tags,
+- `app/note/data/meta/notes-treemap.html` — sections to top tags,
   count/words toggle, catalog click-through.
