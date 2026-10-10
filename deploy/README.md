@@ -58,6 +58,7 @@ never be needed at runtime:
 | Workflow | Assumes | Creates / does |
 | -------- | ------- | -------------- |
 | `deploy/deploy_local.sh` | CouchDB reachable with valid creds (preflight) | builds `naturgnosis:local`, `compose up` (app only, host network) as container **`naturgnosis`**, seeds datasets from `app/*/data/data.json` |
+| `deploy/update_local.sh` (`make update-local`) | running `naturgnosis` container | copies `bin/` + `app/` in (no rebuild, honors `.dockerignore`), restarts, waits for health; seeds only with `SEED=1`. Still needs `make deploy-local` for Dockerfile, `.env`/credential, or dependency changes |
 | `deploy/deploy_server.sh` | CouchDB reachable, repo-root `.env` present (preflight) | pulls `ghcr.io/csiglab/naturgnosis:latest`, runs the container (`--network host`, mounts `.env`) |
 | `bin/sync.py` | CouchDB reachable | creates the `naturgnosis` DB if missing, bootstraps empty datasets from mirrors, serves app + API |
 | `bin/seed_couchdb.py` | CouchDB reachable | upserts dataset mirrors into CouchDB |

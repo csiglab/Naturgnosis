@@ -1,7 +1,0 @@
-# Mechanism
-
-> ...
-
-## References
-
-- [Mechanism](...)

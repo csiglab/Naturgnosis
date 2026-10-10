@@ -3,7 +3,7 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research nation technique epistemica nature
 
-.PHONY: help build index notes-index qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server clean
+.PHONY: help build index notes-index qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server update-local clean
 
 help:
 	@echo "build         regenerate notes + qa + glossarium + universal index + graph layouts (+ universal graph)"
@@ -21,6 +21,7 @@ help:
 	@echo "dev           run the sync server offline (--no-couch)"
 	@echo "deploy-local  compose up couchdb + app, then seed"
 	@echo "deploy-server pull the GHCR image and run it"
+	@echo "update-local  refresh the running container without rebuilding (indexes first; SEED=1 also seeds)"
 
 build: index production-view
 	@for m in $(MODULES); do \
@@ -72,6 +73,9 @@ deploy-local:
 
 deploy-server:
 	./deploy/deploy_server.sh
+
+update-local: index
+	bash deploy/update_local.sh
 
 clean:
 	find . -name "*.pyc" -delete
