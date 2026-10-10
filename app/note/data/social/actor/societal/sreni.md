@@ -30,16 +30,16 @@ Readable secondarily as a coordination `Activity`/`Mechanism` (aggregation-for-c
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Śreṇi | Aggregation of independent economic actors coordinating costly activities. |
-| `Collective / Organization` → Śreṇi → `Interaction Unit` | Grouping: members entering unconsumed. |
-| `Collective / Organization` → Śreṇi → `Interaction Unit` → Independent Artisan | Member trader or craftsperson retaining own enterprise. |
-| `Collective / Organization` → Śreṇi → `Agency` | Grouping: structured capacities forming intention and selecting action. |
-| `Collective / Organization` → Śreṇi → `Agency` → Head of the Śreṇi | Coordinating head (jeṭṭhaka/pamukha/pradhāna), removable by the membership. |
-| `Collective / Organization` → Śreṇi → `Institution` | Grouping: stabilized configurations of roles and rules. |
-| `Collective / Organization` → Śreṇi → `Institution` → Common Seal and Rules | Cost-lowering instruments: quality assurance and śreṇi-dharma dispute settlement. |
-| `Collective / Organization` → Śreṇi → `Activity` | Grouping: bundles of situated doings. |
-| `Collective / Organization` → Śreṇi → `Activity` → Pooled Finance | Coarse bundle of deposits, loans, and perpetual endowments. |
-| `Collective / Organization` → Śreṇi → `Activity` → Collective Bargaining | Coarse bundle of treating with kings, monasteries, and markets as one. |
+| Collective / Organization `(→ Part)` Śreṇi | Aggregation of independent economic actors coordinating costly activities. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` `Interaction Unit` | Grouping: members entering unconsumed. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` `Interaction Unit` `(→ Part)` Independent Artisan | Member trader or craftsperson retaining own enterprise. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` Agency `(→ Part)` Head of the Śreṇi | Coordinating head (jeṭṭhaka/pamukha/pradhāna), removable by the membership. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Component)` Institution | Grouping: stabilized configurations of roles and rules. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Component)` Institution `(→ Component)` Common Seal and Rules | Cost-lowering instruments: quality assurance and śreṇi-dharma dispute settlement. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` `Activity` | Grouping: bundles of situated doings. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` `Activity` `(→ Part)` Pooled Finance | Coarse bundle of deposits, loans, and perpetual endowments. |
+| Collective / Organization `(→ Part)` Śreṇi `(→ Part)` `Activity` `(→ Part)` Collective Bargaining | Coarse bundle of treating with kings, monasteries, and markets as one. |
 
 ## References
 

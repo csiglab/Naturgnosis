@@ -32,12 +32,12 @@ Produceologia models it across three analytical layers — microeconomic (produc
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Firm | Bounded collective producing and exchanging value under one governance. |
-| `Collective / Organization` → Firm → `Institution` → Firm Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
-| `Collective / Organization` → Firm → `Agency` → Firm Strategy | Plans and choices positioning the firm: corporate and business-unit strategies. |
-| `Collective / Organization` → Firm → `Price / Asset` → Firm Product Portfolio | Structured configuration of products through which value is created and captured. |
-| `Collective / Organization` → Firm → `Activity` → Firm Commercialization | Coarse bundle carrying products into markets: channels, sales, after-sales. |
-| `Collective / Organization` → Firm → `Social Relation / Network` → Commerce Market | Exchange context the firm is a member of: customers, partners, rules. |
+| Collective / Organization `(→ Part)` Firm | Bounded collective producing and exchanging value under one governance. |
+| Collective / Organization `(→ Part)` Firm `(→ Component)` Institution `(→ Component)` Firm Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
+| Collective / Organization `(→ Part)` Firm `(→ Part)` Agency `(→ Part)` Firm Strategy | Plans and choices positioning the firm: corporate and business-unit strategies. |
+| Collective / Organization `(→ Part)` Firm `(→ Part)` Price / Asset `(→ Part)` Firm Product Portfolio | Structured configuration of products through which value is created and captured. |
+| Collective / Organization `(→ Part)` Firm `(→ Part)` `Activity` `(→ Part)` Firm Commercialization | Coarse bundle carrying products into markets: channels, sales, after-sales. |
+| Collective / Organization `(→ Part)` Firm `(→ Part)` Social Relation / Network `(→ Part)` Commerce Market | Exchange context the firm is a member of: customers, partners, rules. |
 
 ## References
 

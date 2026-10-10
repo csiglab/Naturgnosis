@@ -26,26 +26,26 @@ tags: [charter, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Charter` → Charter | Founding instrument constituting an organized effort and its mandate. |
-| `Charter` → Charter → Project Charter | Instrument fixing a bounded effort's purpose, scope, authority, and deliverables. |
-| `Charter` → Charter → Team Charter | Instrument fixing a team's purpose, membership, and working bounds. |
-| `Charter` → Charter → Organizational Charter | Instrument fixing a collective's purpose, powers, and membership. |
-| `Charter` → Charter → Public Charter | Instrument fixing a public body's mandate and constraints. |
-| `Charter` → Charter → `Goal` | Grouping: the purpose the instrument declares. |
-| `Charter` → Charter → `Goal` → Chartered Purpose | Desired future state the constituted effort commits to. |
-| `Charter` → Charter → `Norm / Regulation` | Grouping: the bounds the instrument fixes. |
-| `Charter` → Charter → `Norm / Regulation` → Chartered Scope | Shared protocol fixing what the effort may touch. |
-| `Charter` → Charter → `Authority` | Grouping: the powers the instrument confers. |
-| `Charter` → Charter → `Authority` → Chartered Authority | Legitimated power the constituted effort may exercise. |
-| `Charter` → Charter → `Interaction Unit` | Grouping: the belonging the instrument fixes. |
-| `Charter` → Charter → `Interaction Unit` → Chartered Membership | Bounded belonging naming who performs the effort. |
-| `Charter` → Charter → `Product` | Grouping: the outcome the instrument demands. |
-| `Charter` → Charter → `Product` → Chartered Deliverable | Exchangeable outcome the effort must hand over. |
-| `Charter` → Charter → `Constraint` | Grouping: the binds the instrument states. |
-| `Charter` → Charter → `Constraint` → Chartered Constraint | Limitation the constituted effort must respect. |
+| Charter `(→ Part)` Charter | Founding instrument constituting an organized effort and its mandate. |
+| Charter `(→ Part)` Charter `(→ Kind)` Project Charter | Instrument fixing a bounded effort's purpose, scope, authority, and deliverables. |
+| Charter `(→ Part)` Charter `(→ Kind)` Team Charter | Instrument fixing a team's purpose, membership, and working bounds. |
+| Charter `(→ Part)` Charter `(→ Kind)` Organizational Charter | Instrument fixing a collective's purpose, powers, and membership. |
+| Charter `(→ Part)` Charter `(→ Kind)` Public Charter | Instrument fixing a public body's mandate and constraints. |
+| Charter `(→ Part)` Charter `(→ Part)` Goal | Grouping: the purpose the instrument declares. |
+| Charter `(→ Part)` Charter `(→ Part)` Goal `(→ Part)` Chartered Purpose | Desired future state the constituted effort commits to. |
+| Charter `(→ Part)` Charter `(→ Component)` Norm / Regulation | Grouping: the bounds the instrument fixes. |
+| Charter `(→ Part)` Charter `(→ Component)` Norm / Regulation `(→ Component)` Chartered Scope | Shared protocol fixing what the effort may touch. |
+| Charter `(→ Part)` Charter `(→ Part)` Authority | Grouping: the powers the instrument confers. |
+| Charter `(→ Part)` Charter `(→ Part)` Authority `(→ Kind)` Chartered Authority | Legitimated power the constituted effort may exercise. |
+| Charter `(→ Part)` Charter `(→ Part)` `Interaction Unit` | Grouping: the belonging the instrument fixes. |
+| Charter `(→ Part)` Charter `(→ Part)` `Interaction Unit` `(→ Part)` Chartered Membership | Bounded belonging naming who performs the effort. |
+| Charter `(→ Part)` Charter `(→ Part)` Product | Grouping: the outcome the instrument demands. |
+| Charter `(→ Part)` Charter `(→ Part)` Product `(→ Part)` Chartered Deliverable | Exchangeable outcome the effort must hand over. |
+| Charter `(→ Part)` Charter `(→ Part)` Constraint | Grouping: the binds the instrument states. |
+| Charter `(→ Part)` Charter `(→ Part)` Constraint `(→ Kind)` Chartered Constraint | Limitation the constituted effort must respect. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Project](note.html?n=social/actor/action/organization/project.md) (the effort a project charter constitutes)
-- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md) (the mandate a charter may execute)
+- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md) (the mandate a charter may execute)

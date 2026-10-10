@@ -26,20 +26,20 @@ tags: [schedule, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Schedule` → Schedule | Temporal allocation sequencing actions, agents, and resources. |
-| `Schedule` → Schedule → Production Schedule | Allocation sequencing manufacture to capacity and demand. |
-| `Schedule` → Schedule → Project Schedule | Allocation sequencing a bounded effort's work to its deadline. |
-| `Schedule` → Schedule → Transport Schedule | Allocation sequencing carriage to routes and slots. |
-| `Schedule` → Schedule → Class Timetable | Allocation sequencing teaching to rooms, teachers, and hours. |
-| `Schedule` → Schedule → `Activity` | Grouping: the doings the allocation times. |
-| `Schedule` → Schedule → `Activity` → Scheduled Entry | Coarse bundle of actions placed at one position of the allocation. |
-| `Schedule` → Schedule → `State` | Grouping: the positions the allocation fixes. |
-| `Schedule` → Schedule → `State` → Time Slot | Bounded interval assigned to an entry. |
-| `Schedule` → Schedule → `State` → Schedule Milestone | Snapshot at which the timed doing is judged against the allocation. |
-| `Schedule` → Schedule → `Resource` | Grouping: the means the allocation commits. |
-| `Schedule` → Schedule → `Resource` → Slot Resource Allocation | Assignment of scarce means to an entry in its slot. |
-| `Schedule` → Schedule → `Process / Event` | Grouping: the dependencies the allocation orders. |
-| `Schedule` → Schedule → `Process / Event` → Critical Path | Succession of entries whose delay delays the whole. |
+| Schedule `(→ Part)` Schedule | Temporal allocation sequencing actions, agents, and resources. |
+| Schedule `(→ Part)` Schedule `(→ Kind)` Production Schedule | Allocation sequencing manufacture to capacity and demand. |
+| Schedule `(→ Part)` Schedule `(→ Kind)` Project Schedule | Allocation sequencing a bounded effort's work to its deadline. |
+| Schedule `(→ Part)` Schedule `(→ Kind)` Transport Schedule | Allocation sequencing carriage to routes and slots. |
+| Schedule `(→ Part)` Schedule `(→ Part)` Class Timetable | Allocation sequencing teaching to rooms, teachers, and hours. |
+| Schedule `(→ Part)` Schedule `(→ Part)` `Activity` | Grouping: the doings the allocation times. |
+| Schedule `(→ Part)` Schedule `(→ Part)` `Activity` `(→ Part)` Scheduled Entry | Coarse bundle of actions placed at one position of the allocation. |
+| Schedule `(→ Part)` Schedule `(→ Part)` State | Grouping: the positions the allocation fixes. |
+| Schedule `(→ Part)` Schedule `(→ Part)` State `(→ Part)` Time Slot | Bounded interval assigned to an entry. |
+| Schedule `(→ Part)` Schedule `(→ Part)` State `(→ Part)` Schedule Milestone | Snapshot at which the timed doing is judged against the allocation. |
+| Schedule `(→ Part)` Schedule `(→ Part)` Resource | Grouping: the means the allocation commits. |
+| Schedule `(→ Part)` Schedule `(→ Part)` Resource `(→ Part)` Slot Resource Allocation | Assignment of scarce means to an entry in its slot. |
+| Schedule `(→ Part)` Schedule `(→ Part)` Process / Event | Grouping: the dependencies the allocation orders. |
+| Schedule `(→ Part)` Schedule `(→ Part)` Process / Event `(→ Part)` Critical Path | Succession of entries whose delay delays the whole. |
 
 ## References
 

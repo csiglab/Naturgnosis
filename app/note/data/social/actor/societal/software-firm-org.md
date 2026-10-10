@@ -28,11 +28,11 @@ Its layer is **Ontic**: the firm exists with staff, codebases, and accounts. Its
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Software Firm Organization | Software-making collective. |
-| `Collective / Organization` → Software Firm Organization → `Collective / Organization` | Grouping: org-model family scoping genuine instances. |
-| `Collective / Organization` → Software Firm Organization → `Collective / Organization` → Functional Org | Department-structured firm form. |
-| `Collective / Organization` → Software Firm Organization → `Collective / Organization` → Product Org | Product-team-structured firm form. |
-| `Collective / Organization` → Software Firm Organization → `Collective / Organization` → Platform Org | Platform-enabled firm form. |
+| Collective / Organization `(→ Part)` Software Firm Organization | Software-making collective. |
+| Collective / Organization `(→ Part)` Software Firm Organization `(→ Kind)` Collective / Organization | Grouping: org-model family scoping genuine instances. |
+| Collective / Organization `(→ Part)` Software Firm Organization `(→ Kind)` Collective / Organization `(→ Part)` Functional Org | Department-structured firm form. |
+| Collective / Organization `(→ Part)` Software Firm Organization `(→ Kind)` Collective / Organization `(→ Part)` Product Org | Product-team-structured firm form. |
+| Collective / Organization `(→ Part)` Software Firm Organization `(→ Kind)` Collective / Organization `(→ Part)` Platform Org | Platform-enabled firm form. |
 
 ## References
 

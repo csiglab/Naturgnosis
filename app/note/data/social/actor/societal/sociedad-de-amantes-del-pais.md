@@ -26,12 +26,12 @@ tags: [actor, learned-society, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Sociedad de Amantes del País | Patriotic learned society organizing inquiry, print, and reform. |
-| `Collective / Organization` → Sociedad de Amantes del País → `Interaction Unit` → Founding Members | Elite members convening around a shared patriotic program. |
-| `Collective / Organization` → Sociedad de Amantes del País → `Agency` → Directive Junta | Structured capacity setting the society's agenda and periodical line. |
-| `Collective / Organization` → Sociedad de Amantes del País → `Institution` → Society Statutes | Stabilized configuration of membership, dues, and editorial rules. |
-| `Collective / Organization` → Sociedad de Amantes del País → `Activity` → Periodical Publication | Coarse bundle of writing, editing, and circulating the society's paper. |
-| `Collective / Organization` → Sociedad de Amantes del País → `Activity` → Reform Advocacy | Coarse bundle pressing economic and civic improvement on the authorities. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País | Patriotic learned society organizing inquiry, print, and reform. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País `(→ Part)` `Interaction Unit` `(→ Part)` Founding Members | Elite members convening around a shared patriotic program. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País `(→ Part)` Agency `(→ Part)` Directive Junta | Structured capacity setting the society's agenda and periodical line. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País `(→ Component)` Institution `(→ Component)` Society Statutes | Stabilized configuration of membership, dues, and editorial rules. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País `(→ Part)` `Activity` `(→ Part)` Periodical Publication | Coarse bundle of writing, editing, and circulating the society's paper. |
+| Collective / Organization `(→ Part)` Sociedad de Amantes del País `(→ Part)` `Activity` `(→ Part)` Reform Advocacy | Coarse bundle pressing economic and civic improvement on the authorities. |
 
 ## References
 

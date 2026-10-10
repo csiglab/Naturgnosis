@@ -26,31 +26,31 @@ tags: [rule, guidance, normative, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Rule` → Rule | Explicitly codified constraint prescribing or prohibiting conduct. |
-| `Rule` → Rule → Legal Rule | Constraint laid down by a legal authority and backed by adjudication. |
-| `Rule` → Rule → Legal Rule → Traffic Rule | Constraint ordering movement on shared ways. |
-| `Rule` → Rule → Legal Rule → Disclosure Rule | Constraint requiring material facts to be revealed. |
-| `Rule` → Rule → Organizational Rule | Constraint a collective lays on its own members and operations. |
-| `Rule` → Rule → Organizational Rule → Quorum Rule | Constraint fixing how many must be present for a decision to bind. |
-| `Rule` → Rule → Organizational Rule → Eligibility Rule | Constraint fixing who may hold a position or receive a benefit. |
-| `Rule` → Rule → Organizational Rule → Conflict-of-Interest Rule | Constraint barring decisions where private interest taints judgment. |
-| `Rule` → Rule → Organizational Rule → Term Limit Rule | Constraint bounding how long a position may be held. |
-| `Rule` → Rule → Procedural Rule | Constraint ordering how a process is conducted. |
-| `Rule` → Rule → Procedural Rule → Majority Rule | Constraint fixing the threshold by which a vote binds. |
-| `Rule` → Rule → Procedural Rule → Recusal Rule | Constraint requiring a compromised decider to step aside. |
-| `Rule` → Rule → Technical Rule | Constraint fixing how a technique is performed or a standard met. |
-| `Rule` → Rule → Technical Rule → Match Rule | Constraint declaring which comparisons constitute identity. |
-| `Rule` → Rule → `Authority` | Grouping: the standing that lays the rule down. |
-| `Rule` → Rule → `Authority` → Rule Maker | Legitimated power issuing and amending the rule. |
-| `Rule` → Rule → `Interaction Unit` | Grouping: those bound by the rule. |
-| `Rule` → Rule → `Interaction Unit` → Rule Subject | Unit whose conduct the rule prescribes or prohibits. |
-| `Rule` → Rule → `Constraint` | Grouping: the consequence backing the rule. |
-| `Rule` → Rule → `Constraint` → Rule Sanction | Limitation or penalty attaching to breach. |
-| `Rule` → Rule → `Collective Decision Mechanism` | Grouping: the application of the rule. |
-| `Rule` → Rule → `Collective Decision Mechanism` → Rule Adjudication | Procedure deciding whether conduct breached the rule. |
+| Rule `(→ Part)` Rule | Explicitly codified constraint prescribing or prohibiting conduct. |
+| Rule `(→ Part)` Rule `(→ Kind)` Legal Rule | Constraint laid down by a legal authority and backed by adjudication. |
+| Rule `(→ Part)` Rule `(→ Kind)` Legal Rule `(→ Kind)` Traffic Rule | Constraint ordering movement on shared ways. |
+| Rule `(→ Part)` Rule `(→ Kind)` Legal Rule `(→ Kind)` Disclosure Rule | Constraint requiring material facts to be revealed. |
+| Rule `(→ Part)` Rule `(→ Kind)` Organizational Rule | Constraint a collective lays on its own members and operations. |
+| Rule `(→ Part)` Rule `(→ Kind)` Organizational Rule `(→ Kind)` Quorum Rule | Constraint fixing how many must be present for a decision to bind. |
+| Rule `(→ Part)` Rule `(→ Kind)` Organizational Rule `(→ Kind)` Eligibility Rule | Constraint fixing who may hold a position or receive a benefit. |
+| Rule `(→ Part)` Rule `(→ Kind)` Organizational Rule `(→ Kind)` Conflict-of-Interest Rule | Constraint barring decisions where private interest taints judgment. |
+| Rule `(→ Part)` Rule `(→ Kind)` Organizational Rule `(→ Kind)` Term Limit Rule | Constraint bounding how long a position may be held. |
+| Rule `(→ Part)` Rule `(→ Kind)` Procedural Rule | Constraint ordering how a process is conducted. |
+| Rule `(→ Part)` Rule `(→ Kind)` Procedural Rule `(→ Kind)` Majority Rule | Constraint fixing the threshold by which a vote binds. |
+| Rule `(→ Part)` Rule `(→ Kind)` Procedural Rule `(→ Kind)` Recusal Rule | Constraint requiring a compromised decider to step aside. |
+| Rule `(→ Part)` Rule `(→ Kind)` Technical Rule | Constraint fixing how a technique is performed or a standard met. |
+| Rule `(→ Part)` Rule `(→ Kind)` Technical Rule `(→ Kind)` Match Rule | Constraint declaring which comparisons constitute identity. |
+| Rule `(→ Part)` Rule `(→ Part)` Authority | Grouping: the standing that lays the rule down. |
+| Rule `(→ Part)` Rule `(→ Part)` Authority `(→ Part)` Rule Maker | Legitimated power issuing and amending the rule. |
+| Rule `(→ Part)` Rule `(→ Part)` `Interaction Unit` | Grouping: those bound by the rule. |
+| Rule `(→ Part)` Rule `(→ Part)` `Interaction Unit` `(→ Part)` Rule Subject | Unit whose conduct the rule prescribes or prohibits. |
+| Rule `(→ Part)` Rule `(→ Part)` Constraint | Grouping: the consequence backing the rule. |
+| Rule `(→ Part)` Rule `(→ Part)` Constraint `(→ Part)` Rule Sanction | Limitation or penalty attaching to breach. |
+| Rule `(→ Part)` Rule `(→ Part)` Collective Decision Mechanism | Grouping: the application of the rule. |
+| Rule `(→ Part)` Rule `(→ Part)` Collective Decision Mechanism `(→ Part)` Rule Adjudication | Procedure deciding whether conduct breached the rule. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Principle](note.html?n=social/actor/action/guidance/principle.md) (the standard warranting a rule)
-- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md) (the course within which rules operate)
+- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md) (the course within which rules operate)

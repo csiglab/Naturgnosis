@@ -26,26 +26,25 @@ tags: [initiative, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Initiative` → Initiative | Bounded undertaking launched to pursue a new objective. |
-| `Initiative` → Initiative → Strategic Initiative | Undertaking translating a strategic selection into new doing. |
-| `Initiative` → Initiative → Policy Initiative | Undertaking executing a newly adopted course. |
-| `Initiative` → Initiative → Reform Initiative | Undertaking changing an established arrangement. |
-| `Initiative` → Initiative → Research Initiative | Undertaking opening a new line of inquiry. |
-| `Initiative` → Initiative → Open-Data Initiative | Undertaking releasing held data into shared use. |
-| `Initiative` → Initiative → `Interaction Unit` | Grouping: the commitment behind the launch and its performers. |
-| `Initiative` → Initiative → `Interaction Unit` → Initiative Sponsor | Unit committing standing and means to the undertaking. |
-| `Initiative` → Initiative → `Interaction Unit` → Initiative Team | Bounded unit jointly performing the undertaking. |
-| `Initiative` → Initiative → `Charter` | Grouping: the constitution of the launch. |
-| `Initiative` → Initiative → `Charter` → Initiative Charter | Founding instrument fixing the undertaking's purpose and bounds. |
-| `Initiative` → Initiative → `Goal` | Grouping: the pursuit the launch fixes. |
-| `Initiative` → Initiative → `Goal` → Initiative Objective | New objective the undertaking commits to meet. |
-| `Initiative` → Initiative → `Interaction Unit` → Initiative Team | Bounded unit jointly performing the undertaking. |
-| `Initiative` → Initiative → `State` | Grouping: the judgment of the launch. |
-| `Initiative` → Initiative → `State` → Initiative Milestone | Snapshot at which the new pursuit is judged against its charter. |
+| Initiative `(→ Part)` Initiative | Bounded undertaking launched to pursue a new objective. |
+| Initiative `(→ Part)` Initiative `(→ Kind)` Strategic Initiative | Undertaking translating a strategic selection into new doing. |
+| Initiative `(→ Part)` Initiative `(→ Kind)` Policy Initiative | Undertaking executing a newly adopted course. |
+| Initiative `(→ Part)` Initiative `(→ Kind)` Reform Initiative | Undertaking changing an established arrangement. |
+| Initiative `(→ Part)` Initiative `(→ Kind)` Research Initiative | Undertaking opening a new line of inquiry. |
+| Initiative `(→ Part)` Initiative `(→ Kind)` Open-Data Initiative | Undertaking releasing held data into shared use. |
+| Initiative `(→ Part)` Initiative `(→ Part)` `Interaction Unit` | Grouping: the commitment behind the launch and its performers. |
+| Initiative `(→ Part)` Initiative `(→ Part)` `Interaction Unit` `(→ Part)` Initiative Sponsor | Unit committing standing and means to the undertaking. |
+| Initiative `(→ Part)` Initiative `(→ Part)` `Interaction Unit` `(→ Part)` Initiative Team | Bounded unit jointly performing the undertaking. |
+| Initiative `(→ Part)` Initiative `(→ Part)` Charter | Grouping: the constitution of the launch. |
+| Initiative `(→ Part)` Initiative `(→ Part)` Charter `(→ Kind)` Initiative Charter | Founding instrument fixing the undertaking's purpose and bounds. |
+| Initiative `(→ Part)` Initiative `(→ Part)` Goal | Grouping: the pursuit the launch fixes. |
+| Initiative `(→ Part)` Initiative `(→ Part)` Goal `(→ Part)` Initiative Objective | New objective the undertaking commits to meet. |
+| Initiative `(→ Part)` Initiative `(→ Part)` State | Grouping: the judgment of the launch. |
+| Initiative `(→ Part)` Initiative `(→ Part)` State `(→ Part)` Initiative Milestone | Snapshot at which the new pursuit is judged against its charter. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md) (the course an initiative may execute)
+- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md) (the course an initiative may execute)
 - [Project](note.html?n=social/actor/action/organization/project.md) (the bounded effort an initiative may become)
-- [Materials Genome Initiative](note.html?n=social/actor/state/agency/guidance/instance/policy/materials-genome-initiative.md) (a worked initiative instance)
+- [Materials Genome Initiative](note.html?n=social/actor/collective/agency/guidance/instance/policy/materials-genome-initiative.md) (a worked initiative instance)

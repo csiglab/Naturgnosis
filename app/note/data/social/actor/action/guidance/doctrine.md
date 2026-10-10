@@ -26,19 +26,19 @@ tags: [doctrine, guidance, cognitive, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Doctrine` → Doctrine | Authoritative body of guiding tenets orienting action in a domain. |
-| `Doctrine` → Doctrine → Military Doctrine | Tenets governing how a force fights and organizes. |
-| `Doctrine` → Doctrine → Military Doctrine → Counterinsurgency Doctrine | Tenets binding force to population protection over enemy destruction. |
-| `Doctrine` → Doctrine → Foreign-Policy Doctrine | Tenets governing a polity's conduct toward other polities. |
-| `Doctrine` → Doctrine → Foreign-Policy Doctrine → Monroe Doctrine | Tenets barring external powers from the Western Hemisphere. |
-| `Doctrine` → Doctrine → Foreign-Policy Doctrine → Containment Doctrine | Tenets binding policy to checking an adversary's expansion. |
-| `Doctrine` → Doctrine → Legal Doctrine | Tenets governing how law is interpreted and applied. |
-| `Doctrine` → Doctrine → Legal Doctrine → Stare Decisis Doctrine | Tenets binding courts to stand by decided cases. |
-| `Doctrine` → Doctrine → Legal Doctrine → Just-War Doctrine | Tenets bounding when force may be used and how. |
-| `Doctrine` → Doctrine → Religious Doctrine | Tenets a faith community carries as authoritative teaching. |
-| `Doctrine` → Doctrine → Religious Doctrine → Trinitarian Doctrine | Tenets confessing one God in three persons. |
-| `Doctrine` → Doctrine → Managerial Doctrine | Tenets governing how an enterprise is run. |
-| `Doctrine` → Doctrine → Managerial Doctrine → Shareholder Primacy Doctrine | Tenets binding management to owner returns above all. |
+| Doctrine `(→ Part)` Doctrine | Authoritative body of guiding tenets orienting action in a domain. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Military Doctrine | Tenets governing how a force fights and organizes. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Military Doctrine `(→ Kind)` Counterinsurgency Doctrine | Tenets binding force to population protection over enemy destruction. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Foreign-Policy Doctrine | Tenets governing a polity's conduct toward other polities. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Foreign-Policy Doctrine `(→ Kind)` Monroe Doctrine | Tenets barring external powers from the Western Hemisphere. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Foreign-Policy Doctrine `(→ Kind)` Containment Doctrine | Tenets binding policy to checking an adversary's expansion. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Legal Doctrine | Tenets governing how law is interpreted and applied. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Legal Doctrine `(→ Kind)` Stare Decisis Doctrine | Tenets binding courts to stand by decided cases. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Legal Doctrine `(→ Kind)` Just-War Doctrine | Tenets bounding when force may be used and how. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Religious Doctrine | Tenets a faith community carries as authoritative teaching. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Religious Doctrine `(→ Kind)` Trinitarian Doctrine | Tenets confessing one God in three persons. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Managerial Doctrine | Tenets governing how an enterprise is run. |
+| Doctrine `(→ Part)` Doctrine `(→ Kind)` Managerial Doctrine `(→ Kind)` Shareholder Primacy Doctrine | Tenets binding management to owner returns above all. |
 
 ## References
 

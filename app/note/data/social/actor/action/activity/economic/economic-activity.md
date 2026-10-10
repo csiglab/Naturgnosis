@@ -28,31 +28,31 @@ Readable with its acting side, the `Producer` (unit or role that performs the ac
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Economic Activity` → Provisioning Activity | Recurrent organized doing that transforms inputs into goods and services. |
-| `Economic Activity` → Provisioning Activity → `Producer` | Grouping: the acting side. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Farming Producer | Unit or role whose doing is cultivation and harvest. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Mining Producer | Unit or role whose doing is extraction from the earth. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Manufacturing Producer | Unit or role whose doing is industrial transformation. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Transport Producer | Unit or role whose doing is carriage of goods and people. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Retail Producer | Unit or role whose doing is sale to final buyers. |
-| `Economic Activity` → Provisioning Activity → `Producer` → Care Producer | Unit or role whose doing is provisioning of care. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` | Grouping: classification of producers by dominant activity. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → Primary Producer | Producer type drawing directly on nature (farming, mining, fishing). |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → Processor | Producer type transforming materials into intermediate goods. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → Assembler | Producer type combining components into finished goods. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → Distributor | Producer type moving and holding goods toward buyers. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → Service Provider | Producer type whose output is a performed service. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` | Grouping: classified aggregate. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → Agriculture | Classified aggregate of farming producers. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → Steel | Classified aggregate of steel-making producers. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → Retail Trade | Classified aggregate of retail producers. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → Software | Classified aggregate of software producers. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → `Sector` | Grouping: coarse activity group. |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → `Sector` → Primary Sector | Grouping of nature-drawing industries (farming, mining, fishing). |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → `Sector` → Secondary Sector | Grouping of transforming industries (manufacturing, construction). |
-| `Economic Activity` → Provisioning Activity → `Producer Type` → `Industry` → `Sector` → Tertiary Sector | Grouping of service industries (retail, transport, care). |
-| `Economic Activity` → Provisioning Activity → `Producer Taxonomy` | Grouping: the Noetic instrument ranking producer types. |
-| `Economic Activity` → Provisioning Activity → `Producer Taxonomy` → Industry Classification Scheme | Standardized scheme (ISIC, NAICS, GICS) tagging producers into industries. |
+| Economic Activity `(→ Part)` Provisioning Activity | Recurrent organized doing that transforms inputs into goods and services. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer | Grouping: the acting side. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Farming Producer | Unit or role whose doing is cultivation and harvest. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Mining Producer | Unit or role whose doing is extraction from the earth. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Manufacturing Producer | Unit or role whose doing is industrial transformation. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Transport Producer | Unit or role whose doing is carriage of goods and people. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Retail Producer | Unit or role whose doing is sale to final buyers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer `(→ Kind)` Care Producer | Unit or role whose doing is provisioning of care. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type | Grouping: classification of producers by dominant activity. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Primary Producer | Producer type drawing directly on nature (farming, mining, fishing). |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Processor | Producer type transforming materials into intermediate goods. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Assembler | Producer type combining components into finished goods. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Distributor | Producer type moving and holding goods toward buyers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Service Provider | Producer type whose output is a performed service. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry | Grouping: classified aggregate. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Agriculture | Classified aggregate of farming producers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Steel | Classified aggregate of steel-making producers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Retail Trade | Classified aggregate of retail producers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Software | Classified aggregate of software producers. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Sector | Grouping: coarse activity group. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Sector `(→ Kind)` Primary Sector | Grouping of nature-drawing industries (farming, mining, fishing). |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Sector `(→ Kind)` Secondary Sector | Grouping of transforming industries (manufacturing, construction). |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Type `(→ Part)` Industry `(→ Part)` Sector `(→ Kind)` Tertiary Sector | Grouping of service industries (retail, transport, care). |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Taxonomy | Grouping: the Noetic instrument ranking producer types. |
+| Economic Activity `(→ Part)` Provisioning Activity `(→ Part)` Producer Taxonomy `(→ Part)` Industry Classification Scheme | Standardized scheme (ISIC, NAICS, GICS) tagging producers into industries. |
 
 ## References
 

@@ -28,11 +28,11 @@ It is not an `Institution` (it is a deliberate actor, not a rule system). Its la
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Enterprise Research Lab | Corporate inquiry collective. |
-| `Collective / Organization` → Enterprise Research Lab → `Collective / Organization` | Grouping: lab forms of the spectrum. |
-| `Collective / Organization` → Enterprise Research Lab → `Collective / Organization` → Applied Research Lab | Market-near development lab form. |
-| `Collective / Organization` → Enterprise Research Lab → `Collective / Organization` → Exploratory Lab | Distant-inquiry lab form. |
-| `Collective / Organization` → Enterprise Research Lab → `Interaction Unit` → Corporate Sponsor | Firm absorbing lab outputs. |
+| Collective / Organization `(→ Part)` Enterprise Research Lab | Corporate inquiry collective. |
+| Collective / Organization `(→ Part)` Enterprise Research Lab `(→ Part)` Collective / Organization | Grouping: lab forms of the spectrum. |
+| Collective / Organization `(→ Part)` Enterprise Research Lab `(→ Part)` Collective / Organization `(→ Part)` Applied Research Lab | Market-near development lab form. |
+| Collective / Organization `(→ Part)` Enterprise Research Lab `(→ Part)` Collective / Organization `(→ Part)` Exploratory Lab | Distant-inquiry lab form. |
+| Collective / Organization `(→ Part)` Enterprise Research Lab `(→ Part)` `Interaction Unit` `(→ Part)` Corporate Sponsor | Firm absorbing lab outputs. |
 
 ## References
 

@@ -28,10 +28,10 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Trading House | Intermediation-specialist firm. |
-| `Collective / Organization` → Trading House → `Agency` → Trading Desk | Flow-booking decision capacity. |
-| `Collective / Organization` → Trading House → `Collective / Organization` → Overseas Office | Local-presence office form. |
-| `Collective / Organization` → Trading House → `Social Relation / Network` → Keiretsu Tie | Repeat-dealing stabilizing tie. |
+| Collective / Organization `(→ Part)` Trading House | Intermediation-specialist firm. |
+| Collective / Organization `(→ Part)` Trading House `(→ Part)` Agency `(→ Part)` Trading Desk | Flow-booking decision capacity. |
+| Collective / Organization `(→ Part)` Trading House `(→ Part)` Collective / Organization `(→ Part)` Overseas Office | Local-presence office form. |
+| Collective / Organization `(→ Part)` Trading House `(→ Part)` Social Relation / Network `(→ Part)` Keiretsu Tie | Repeat-dealing stabilizing tie. |
 
 ## References
 

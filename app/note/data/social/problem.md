@@ -9,7 +9,7 @@ tags: [problem, problematization, intention, agency, goal, social-element]
 > A **problem** is the normative gap between the current state of affairs and a desired
 > state, as apprehended by an agent capable of acting on it. This is the general element;
 > the policy-actionable specialization — a problem taken up as warranting a collective
-> course under authority — lives at [Problem](note.html?n=social/actor/state/problem/problem.md).
+> course under authority — lives at [Problem](note.html?n=social/actor/collective/problem/problem.md).
 
 ## Formulation
 
@@ -35,25 +35,25 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Intention` → Harbor Safety Commitment | Directed commitment to close the night-shift safety gap. |
-| `Intention` → Harbor Safety Commitment → `Problem / Problematization` | Grouping: the gap formulated. |
-| `Intention` → Harbor Safety Commitment → `Problem / Problematization` → Harbor Night Safety Deficit | Apprehended gap between night-shift conditions and the safety norm. |
-| `Intention` → Harbor Safety Commitment → `Goal` | Grouping: the end taken. |
-| `Intention` → Harbor Safety Commitment → `Goal` → Zero Night Injuries | Desired future state the commitment takes as its object. |
-| `Intention` → Harbor Safety Commitment → `Deliberation` | Grouping: the weighing. |
-| `Intention` → Harbor Safety Commitment → `Deliberation` → Night Council Safety Review | Weighing of staffing, lighting, and patrol means toward a commitment. |
-| `Intention` → Harbor Safety Commitment → `Decision / Choice` | Grouping: the resolution. |
-| `Intention` → Harbor Safety Commitment → `Decision / Choice` → Decision To Fund Night Patrols | Punctual resolution of the review into an owned commitment. |
+| `Intention` `(→ Part)` Harbor Safety Commitment | Directed commitment to close the night-shift safety gap. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Problem / Problematization | Grouping: the gap formulated. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Problem / Problematization `(→ Part)` Harbor Night Safety Deficit | Apprehended gap between night-shift conditions and the safety norm. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Goal | Grouping: the end taken. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Goal `(→ Part)` Zero Night Injuries | Desired future state the commitment takes as its object. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Deliberation | Grouping: the weighing. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Deliberation `(→ Part)` Night Council Safety Review | Weighing of staffing, lighting, and patrol means toward a commitment. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Decision / Choice | Grouping: the resolution. |
+| `Intention` `(→ Part)` Harbor Safety Commitment `(→ Part)` Decision / Choice `(→ Part)` Decision To Fund Night Patrols | Punctual resolution of the review into an owned commitment. |
 
 ### When does a problem become policy-actionable?
 
-> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](note.html?n=social/actor/state/problem/problem.md); the [Dimension](note.html?n=social/actor/state/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
+> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](note.html?n=social/actor/collective/problem/problem.md); the [Dimension](note.html?n=social/actor/collective/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Agency](note.html?n=social/onto/guide/agency.md)
+- [Agency](note.html?n=social/agency.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
-- [Problem](note.html?n=social/actor/state/problem/problem.md)
-- [Dimension](note.html?n=social/actor/state/problem/dimension/domain.md)
+- [Problem](note.html?n=social/actor/collective/problem/problem.md)
+- [Dimension](note.html?n=social/actor/collective/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)

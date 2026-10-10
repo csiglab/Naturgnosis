@@ -16,7 +16,7 @@ It is not an `Institution` (it is a deliberate actor rather than a stabilized sy
 
 Readable secondarily as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets, fields, and compounds. That secondary reading is prose, not a second root; the tree below is typed once.
 
-On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](note.html?n=social/actor/societal/group.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
+On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](note.html?n=social/actor/collective/group/group.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
 
 ### What is this social instance?
 
@@ -34,71 +34,59 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Organization | Bounded compound unit with identity, membership, and rules acting as one. |
-| Organization → `Type` | Grouping: subtype classification axis of the organization. |
-| Organization → `Type` → Government Organization | Public organization wielding delegated authority under law. |
-| Organization → `Type` → Government Organization → `Type` | Grouping: kinds of government organization. |
-| Organization → `Type` → Government Organization → `Type` → Ministry | Central department of state directing a policy domain. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency | Operational arm executing mandated functions at arm's length. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency → `Type` | Grouping: kinds of arm's-length public agency. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency → `Type` → Autonomous Statutory Public Agency | Operating agency created by its own statute, with legal personality and arm's-length autonomy. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency → `Type` → (Japan) Incorporated Administrative Agency | Incorporated body (*dokuritsu gyōsei hōjin*) working to minister-set medium-term objectives with managerial autonomy. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency → `Type` → Swedish Government Agency | Autonomous operating agency (*förvaltningsmyndighet*) under collective government decision, without ministerial rule. |
-| Organization → `Type` → Government Organization → `Type` → Public Agency → `Type` → UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
-| Organization → `Type` → Government Organization → `Type` → State-Owned Enterprise | Commercial organization under controlling public ownership. |
-| Organization → `Type` → Government Organization → `Type` → State-Owned Enterprise → `Type` | Grouping: kinds of state-owned enterprise. |
-| Organization → `Type` → Government Organization → `Type` → State-Owned Enterprise → `Type` → Crown Corporation | Commercially operating Crown-owned organization with board governance. |
-| Organization → `Type` → Government Organization → `Type` → Municipal Organization | Local organization governing a bounded territory and its services. |
-| Organization → `Type` → Government Organization → `Type` → Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
-| Organization → `Type` → Private Organization | Market organization converting capability into exchangeable value under private control. |
-| Organization → `Type` → Private Organization → `Type` | Grouping: kinds of private organization. |
-| Organization → `Type` → Private Organization → `Type` → Corporation | Limited-liability organization with tradable ownership shares. |
-| Organization → `Type` → Private Organization → `Type` → Partnership | Organization owned jointly by partners bearing unlimited liability. |
-| Organization → `Type` → Private Organization → `Type` → Family Firm | Organization controlled across generations by one kin group. |
-| Organization → `Type` → Private Organization → `Type` → Guild | Grouping: craft and trade collectives aggregating independent members. |
-| Organization → `Type` → Private Organization → `Type` → Guild → `Type` | Grouping: historical forms of the guild mode. |
-| Organization → `Type` → Private Organization → `Type` → Guild → `Type` → Śreṇi | Mode of aggregating independent economic actors into a collective coordinating costly activities (canonical instance: ancient Indian merchant-artisan śreṇi). |
-| Organization → `Type` → Non-Governmental Organization | Mission-driven organization, neither state nor market, serving a cause. |
-| Organization → `Type` → Non-Governmental Organization → `Type` | Grouping: kinds of non-governmental organization. |
-| Organization → `Type` → Non-Governmental Organization → `Type` → Foundation | Endowed organization disbursing grants toward a mission. |
-| Organization → `Type` → Non-Governmental Organization → `Type` → Advocacy Association | Membership organization pressing claims on authorities and publics. |
-| Organization → `Type` → Non-Governmental Organization → `Type` → Humanitarian Organization | Organization delivering relief in crisis and need. |
-| Organization → `Type` → Intergovernmental Organization | Treaty-based organization whose members are sovereign states. |
-| Organization → `Type` → Intergovernmental Organization → `Type` | Grouping: kinds of intergovernmental organization. |
-| Organization → `Type` → Intergovernmental Organization → `Type` → Universal Intergovernmental Organization | Near-global membership organization coordinating common goods. |
-| Organization → `Type` → Intergovernmental Organization → `Type` → Regional Intergovernmental Organization | Basin- or continent-scoped organization integrating member states. |
-| Organization → `Type` → Religious Organization | Organization ordering worship, doctrine, and congregation life. |
-| Organization → `Type` → Religious Organization → `Type` | Grouping: kinds of religious organization. |
-| Organization → `Type` → Religious Organization → `Type` → Congregation | Local worshipping organization gathered around rite and pastor. |
-| Organization → `Type` → Religious Organization → `Type` → Denomination | Federated organization binding congregations under shared doctrine. |
-| Organization → `Type` → Labor Organization | Organization of workers bargaining over terms of employment. |
-| Organization → `Type` → Labor Organization → `Type` | Grouping: kinds of labor organization. |
-| Organization → `Type` → Labor Organization → `Type` → Craft Union | Organization of workers sharing one trade across employers. |
-| Organization → `Type` → Labor Organization → `Type` → Industrial Union | Organization of all workers within one industry. |
-| Organization → `Type` → Cooperative Organization | Member-owned organization serving its users rather than outside capital. |
-| Organization → `Type` → Cooperative Organization → `Type` | Grouping: kinds of cooperative organization. |
-| Organization → `Type` → Cooperative Organization → `Type` → Worker Cooperative | Organization owned and governed by its workforce. |
-| Organization → `Type` → Cooperative Organization → `Type` → Consumer Cooperative | Organization owned by its customers pooling purchasing power. |
-| Organization → `Type` → Political Organization | Organization contesting or wielding political power. |
-| Organization → `Type` → Political Organization → `Type` | Grouping: kinds of political organization. |
-| Organization → `Type` → Political Organization → `Type` → Political Party | Organization fielding candidates and programs in collective choice. |
-| Organization → `Type` → Political Organization → `Type` → Movement Organization | Organization coordinating sustained collective claim-making outside office. |
-| Organization → `Organizational Unit` | Grouping: structured subunits scoping departments within the organization. |
-| Organization → `Organizational Unit` → Operating Department | Structured subunit carrying out a durable function under internal rules. |
-| Organization → `Agency` | Grouping: structured capacities forming intention and selecting action. |
-| Organization → `Agency` → Governing Board | Structured capacity deciding direction and controlling execution. |
-| Organization → `Institution` | Grouping: stabilized configurations of roles and rules hosted by the organization. |
-| Organization → `Institution` → Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
-| Organization → `Institution` → Internal Governance → `Social Role` | Grouping: expectation-tags binding members to conduct. |
-| Organization → `Institution` → Internal Governance → `Social Role` → Membership Role | Expectation-tag binding a member, a context, and an interpretation to behavior. |
-| Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` | Grouping: shared protocols stabilizing member interaction. |
-| Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule | Shared protocol stabilizing who may decide, contribute, and claim. |
-| Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` | Grouping: deontic positions of the rule. |
-| Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` → Duty of Contribution | Duty allocating effort and dues to members. |
-| Organization → `Social Relation / Network` | Grouping: structured ties binding members and subunits. |
-| Organization → `Social Relation / Network` → Membership Web | Alliance and hierarchy ties channeling coordination inside the organization. |
-| Organization → `Activity` | Grouping: bundles of situated doings. |
-| Organization → `Activity` → Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
+| Collective / Organization `(→ Part)` Organization | Bounded compound unit with identity, membership, and rules acting as one. |
+| Organization `(→ Kind)` Government Organization | Public organization wielding delegated authority under law. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Ministry | Central department of state directing a policy domain. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency | Operational arm executing mandated functions at arm's length. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` Autonomous Statutory Public Agency | Operating agency created by its own statute, with legal personality and arm's-length autonomy. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` (Japan) Incorporated Administrative Agency | Incorporated body (*dokuritsu gyōsei hōjin*) working to minister-set medium-term objectives with managerial autonomy. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` Swedish Government Agency | Autonomous operating agency (*förvaltningsmyndighet*) under collective government decision, without ministerial rule. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` State-Owned Enterprise `(→ Kind)` Crown Corporation | Commercially operating Crown-owned organization with board governance. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services. |
+| Organization `(→ Kind)` Government Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
+| Organization `(→ Kind)` Private Organization | Market organization converting capability into exchangeable value under private control. |
+| Organization `(→ Kind)` Private Organization `(→ Kind)` Corporation | Limited-liability organization with tradable ownership shares. |
+| Organization `(→ Kind)` Private Organization `(→ Kind)` Partnership | Organization owned jointly by partners bearing unlimited liability. |
+| Organization `(→ Kind)` Private Organization `(→ Kind)` Family Firm | Organization controlled across generations by one kin group. |
+| Organization `(→ Kind)` Private Organization `(→ Kind)` Guild | Grouping: craft and trade collectives aggregating independent members. |
+| Organization `(→ Kind)` Private Organization `(→ Kind)` Guild `(→ Kind)` Śreṇi | Mode of aggregating independent economic actors into a collective coordinating costly activities (canonical instance: ancient Indian merchant-artisan śreṇi). |
+| Organization `(→ Kind)` Non-Governmental Organization | Mission-driven organization, neither state nor market, serving a cause. |
+| Organization `(→ Kind)` Non-Governmental Organization `(→ Kind)` Foundation | Endowed organization disbursing grants toward a mission. |
+| Organization `(→ Kind)` Non-Governmental Organization `(→ Kind)` Advocacy Association | Membership organization pressing claims on authorities and publics. |
+| Organization `(→ Kind)` Non-Governmental Organization `(→ Kind)` Humanitarian Organization | Organization delivering relief in crisis and need. |
+| Organization `(→ Kind)` Intergovernmental Organization | Treaty-based organization whose members are sovereign states. |
+| Organization `(→ Kind)` Intergovernmental Organization `(→ Kind)` Universal Intergovernmental Organization | Near-global membership organization coordinating common goods. |
+| Organization `(→ Kind)` Intergovernmental Organization `(→ Kind)` Regional Intergovernmental Organization | Basin- or continent-scoped organization integrating member states. |
+| Organization `(→ Kind)` Religious Organization | Organization ordering worship, doctrine, and congregation life. |
+| Organization `(→ Kind)` Religious Organization `(→ Kind)` Congregation | Local worshipping organization gathered around rite and pastor. |
+| Organization `(→ Kind)` Religious Organization `(→ Kind)` Denomination | Federated organization binding congregations under shared doctrine. |
+| Organization `(→ Kind)` Labor Organization | Organization of workers bargaining over terms of employment. |
+| Organization `(→ Kind)` Labor Organization `(→ Kind)` Craft Union | Organization of workers sharing one trade across employers. |
+| Organization `(→ Kind)` Labor Organization `(→ Kind)` Industrial Union | Organization of all workers within one industry. |
+| Organization `(→ Kind)` Cooperative Organization | Member-owned organization serving its users rather than outside capital. |
+| Organization `(→ Kind)` Cooperative Organization `(→ Kind)` Worker Cooperative | Organization owned and governed by its workforce. |
+| Organization `(→ Kind)` Cooperative Organization `(→ Kind)` Consumer Cooperative | Organization owned by its customers pooling purchasing power. |
+| Organization `(→ Kind)` Political Organization | Organization contesting or wielding political power. |
+| Organization `(→ Kind)` Political Organization `(→ Kind)` Political Party | Organization fielding candidates and programs in collective choice. |
+| Organization `(→ Kind)` Political Organization `(→ Kind)` Movement Organization | Organization coordinating sustained collective claim-making outside office. |
+| Organization `(→ Part)` Organizational Unit | Grouping: structured subunits scoping departments within the organization. |
+| Organization `(→ Part)` Organizational Unit `(→ Part)` Operating Department | Structured subunit carrying out a durable function under internal rules. |
+| Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
+| Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution. |
+| Organization `(→ Part)` Institution | Grouping: stabilized configurations of roles and rules hosted by the organization. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role | Grouping: expectation-tags binding members to conduct. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role | Expectation-tag binding a member, a context, and an interpretation to behavior. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation | Grouping: shared protocols stabilizing member interaction. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule | Shared protocol stabilizing who may decide, contribute, and claim. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule `(→ Component)` Right / Obligation | Grouping: deontic positions of the rule. |
+| Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule `(→ Component)` Right / Obligation `(→ Component)` Duty of Contribution | Duty allocating effort and dues to members. |
+| Organization `(→ Part)` Social Relation / Network | Grouping: structured ties binding members and subunits. |
+| Organization `(→ Part)` Social Relation / Network `(→ Part)` Membership Web | Alliance and hierarchy ties channeling coordination inside the organization. |
+| Organization `(→ Part)` `Activity` | Grouping: bundles of situated doings. |
+| Organization `(→ Part)` `Activity` `(→ Kind)` Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
 
 ## QA
 
@@ -110,7 +98,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 - [Actor](note.html?n=social/actor/actor.md) (root hub: the actor typology this entry belongs to)
 - [Public Organization](note.html?n=social/actor/societal/public-organization.md) (government subtype; carries the agency-space QA)
 - [Firm](note.html?n=social/actor/societal/firm.md) (economic subtype of Organization)
-- [Social Group](note.html?n=social/actor/societal/group.md) (interacting aggregate — not an organization)
+- [Social Group](note.html?n=social/actor/collective/group/group.md) (interacting aggregate — not an organization)
 - [Political Party](note.html?n=social/actor/societal/political-party.md) (political subtype of Organization)
 - [Market](note.html?n=social/coordinator/market/market.md) (arena organizations act in)
 - [Product](note.html?n=social/coordinator/product/product.md) (exchangeable outcome member firms offer)

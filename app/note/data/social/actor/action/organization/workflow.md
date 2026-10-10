@@ -26,21 +26,21 @@ tags: [workflow, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Workflow` → Workflow | Defined sequence of steps routing work among actors and roles. |
-| `Workflow` → Workflow → Approval Workflow | Route moving a request through authorizations to decision. |
-| `Workflow` → Workflow → Clinical Workflow | Route moving a patient through assessment, treatment, and follow-up. |
-| `Workflow` → Workflow → Manufacturing Workflow | Route moving material through transformation to finished good. |
-| `Workflow` → Workflow → Software Workflow | Route moving code through review, test, and release. |
-| `Workflow` → Workflow → `Process / Event` | Grouping: the start of the route. |
-| `Workflow` → Workflow → `Process / Event` → Workflow Trigger | Occurrence starting a run of the route. |
-| `Workflow` → Workflow → `Social Action` | Grouping: the doings the route orders. |
-| `Workflow` → Workflow → `Social Action` → Workflow Step | Causally efficacious event placed at one station of the route. |
-| `Workflow` → Workflow → `Social Role` | Grouping: the stations of the route. |
-| `Workflow` → Workflow → `Social Role` → Step Actor | Expectation that a named role performs its station's step. |
-| `Workflow` → Workflow → `Norm / Regulation` | Grouping: the decisions the route makes. |
-| `Workflow` → Workflow → `Norm / Regulation` → Routing Rule | Shared protocol deciding each next station from the current state. |
-| `Workflow` → Workflow → `State` | Grouping: the progress the route marks. |
-| `Workflow` → Workflow → `State` → Workflow State | Snapshot of a run at one station of the route. |
+| Workflow `(→ Part)` Workflow | Defined sequence of steps routing work among actors and roles. |
+| Workflow `(→ Part)` Workflow `(→ Kind)` Approval Workflow | Route moving a request through authorizations to decision. |
+| Workflow `(→ Part)` Workflow `(→ Kind)` Clinical Workflow | Route moving a patient through assessment, treatment, and follow-up. |
+| Workflow `(→ Part)` Workflow `(→ Kind)` Manufacturing Workflow | Route moving material through transformation to finished good. |
+| Workflow `(→ Part)` Workflow `(→ Kind)` Software Workflow | Route moving code through review, test, and release. |
+| Workflow `(→ Part)` Workflow `(→ Part)` Process / Event | Grouping: the start of the route. |
+| Workflow `(→ Part)` Workflow `(→ Part)` Process / Event `(→ Part)` Workflow Trigger | Occurrence starting a run of the route. |
+| Workflow `(→ Part)` Workflow `(→ Part)` `Social Action` | Grouping: the doings the route orders. |
+| Workflow `(→ Part)` Workflow `(→ Part)` `Social Action` `(→ Part)` Workflow Step | Causally efficacious event placed at one station of the route. |
+| Workflow `(→ Part)` Workflow `(→ Component)` Social Role | Grouping: the stations of the route. |
+| Workflow `(→ Part)` Workflow `(→ Component)` Social Role `(→ Component)` Step Actor | Expectation that a named role performs its station's step. |
+| Workflow `(→ Part)` Workflow `(→ Component)` Norm / Regulation | Grouping: the decisions the route makes. |
+| Workflow `(→ Part)` Workflow `(→ Component)` Norm / Regulation `(→ Component)` Routing Rule | Shared protocol deciding each next station from the current state. |
+| Workflow `(→ Part)` Workflow `(→ Part)` State | Grouping: the progress the route marks. |
+| Workflow `(→ Part)` Workflow `(→ Part)` State `(→ Kind)` Workflow State | Snapshot of a run at one station of the route. |
 
 ## References
 

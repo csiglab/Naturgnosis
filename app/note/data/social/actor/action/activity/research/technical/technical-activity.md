@@ -28,30 +28,30 @@ Readable secondarily as a `Technical Element` in Technique Space (the technique 
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Activity` → Technical Activity | Technical-facet activity family scoping all technical doings. |
-| `Activity` → Technical Activity → Technical Intelligence | Scanning, collecting, and assessing technical information ahead of commitment. |
-| `Activity` → Technical Activity → `Technical Research` | Grouping: investigative sub-activities. |
-| `Activity` → Technical Activity → `Technical Research` → Exploratory Technical Research | Open-ended probing where the target is not yet fixed. |
-| `Activity` → Technical Activity → `Technical Research` → Foundational Technical Research | Establishing principles and phenomena that later work rests on. |
-| `Activity` → Technical Activity → `Technical Research` → Technical Characterization | Measuring and modelling what a material, process, or system is. |
-| `Activity` → Technical Activity → `Technical Research` → Technical Infrastructure Research | Research on the instruments, facilities, and methods that make research possible. |
-| `Activity` → Technical Activity → `Technical Research` → Experimental Technical Research | Controlled trials testing a hypothesis under a declared design. |
-| `Activity` → Technical Activity → Technical Development | Turning knowledge into a working artifact or process. |
-| `Activity` → Technical Activity → Technical Acquisition | Obtaining a technique from outside the acting unit: purchase, licence, or hire. |
-| `Activity` → Technical Activity → `Technical Transfer` | Grouping: moving a technique across organizational or national boundaries. |
-| `Activity` → Technical Activity → `Technical Transfer` → Inbound Technical Transfer | Bringing an external technique into the unit (external to internal). |
-| `Activity` → Technical Activity → `Technical Transfer` → Outbound Technical Transfer | Sending an internal technique to an external party (internal to external). |
-| `Activity` → Technical Activity → Technical Assimilation | Absorbing a received technique into the unit's own capability. |
-| `Activity` → Technical Activity → Technical Adaptation | Modifying a technique to fit local conditions. |
-| `Activity` → Technical Activity → Technical Verification & Validation | Establishing that the technique does what it should and meets the need. |
-| `Activity` → Technical Activity → Technical Demonstration | Showing a technique works in a representative setting. |
-| `Activity` → Technical Activity → Technical Scaling | Increasing output, size, or throughput from prototype to production. |
-| `Activity` → Technical Activity → Technical Integration | Combining a technique with other elements into a working whole. |
-| `Activity` → Technical Activity → Technical Standardization | Fixing a technique into a shared, reproducible specification. |
-| `Activity` → Technical Activity → Technical Commercialization | Bringing a technical offer to market. |
-| `Activity` → Technical Activity → Technical Operation | Running a technique in routine use. |
-| `Activity` → Technical Activity → Technical Maintenance | Preserving or restoring a technique's functional state. |
-| `Activity` → Technical Activity → Technical Transformation | Replacing or fundamentally changing a technique. |
+| `Activity` `(→ Part)` Technical Activity | Technical-facet activity family scoping all technical doings. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Intelligence | Scanning, collecting, and assessing technical information ahead of commitment. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research | Grouping: investigative sub-activities. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research `(→ Kind)` Exploratory Technical Research | Open-ended probing where the target is not yet fixed. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research `(→ Kind)` Foundational Technical Research | Establishing principles and phenomena that later work rests on. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research `(→ Part)` Technical Characterization | Measuring and modelling what a material, process, or system is. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research `(→ Kind)` Technical Infrastructure Research | Research on the instruments, facilities, and methods that make research possible. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Research `(→ Kind)` Experimental Technical Research | Controlled trials testing a hypothesis under a declared design. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Development | Turning knowledge into a working artifact or process. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Acquisition | Obtaining a technique from outside the acting unit: purchase, licence, or hire. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Transfer | Grouping: moving a technique across organizational or national boundaries. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Transfer `(→ Kind)` Inbound Technical Transfer | Bringing an external technique into the unit (external to internal). |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Transfer `(→ Kind)` Outbound Technical Transfer | Sending an internal technique to an external party (internal to external). |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Assimilation | Absorbing a received technique into the unit's own capability. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Adaptation | Modifying a technique to fit local conditions. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Verification & Validation | Establishing that the technique does what it should and meets the need. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Demonstration | Showing a technique works in a representative setting. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Scaling | Increasing output, size, or throughput from prototype to production. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Integration | Combining a technique with other elements into a working whole. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Standardization | Fixing a technique into a shared, reproducible specification. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Commercialization | Bringing a technical offer to market. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Operation | Running a technique in routine use. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Maintenance | Preserving or restoring a technique's functional state. |
+| `Activity` `(→ Part)` Technical Activity `(→ Part)` Technical Transformation | Replacing or fundamentally changing a technique. |
 
 ## QA
 

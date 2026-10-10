@@ -28,17 +28,16 @@ Readable secondarily as an epistemic pursuit (its product is warranted belief, j
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Activity` → Science | Scientific-facet activity family scoping the production, evaluation, and communication of warranted knowledge. |
-| `Activity` → Science → `Type` | Grouping: subtypes of scientific doing. |
-| `Activity` → Science → `Type` → Research Activity | Inquiry moving from a question to a warranted result; the core subtype, decomposed in its own note. |
-| `Activity` → Science → `Type` → Scientific Synthesis Activity | Integrating existing findings into a higher-order result: systematic review, meta-analysis, assessment. |
-| `Activity` → Science → `Type` → Research Assessment Activity | Judging others' work against shared standards: peer review, grant evaluation, research audit. |
-| `Activity` → Science → `Type` → Science Communication Activity | Carrying science to non-specialist publics: science journalism, outreach, public engagement (beyond peer dissemination). |
-| `Activity` → Science → `Type` → Science Advice Activity | Marshalling evidence for decision-makers: expert advice, evidence synthesis for policy. |
-| `Activity` → Science → `Institution` | Grouping: stabilized rules judging scientific claims. |
-| `Activity` → Science → `Institution` → Scientific Norm | Shared standard judging a claim: falsifiability, replication, openness, disinterestedness. |
-| `Activity` → Science → `Social Role` | Grouping: expectation-tags scientific participants occupy. |
-| `Activity` → Science → `Social Role` → Scientist | Role producing, assessing, and carrying warranted knowledge within the family. |
+| `Activity` `(→ Part)` Science | Scientific-facet activity family scoping the production, evaluation, and communication of warranted knowledge. |
+| `Activity` `(→ Part)` Science `(→ Kind)` Research Activity | Inquiry moving from a question to a warranted result; the core subtype, decomposed in its own note. |
+| `Activity` `(→ Part)` Science `(→ Kind)` Scientific Synthesis Activity | Integrating existing findings into a higher-order result: systematic review, meta-analysis, assessment. |
+| `Activity` `(→ Part)` Science `(→ Kind)` Research Assessment Activity | Judging others' work against shared standards: peer review, grant evaluation, research audit. |
+| `Activity` `(→ Part)` Science `(→ Kind)` Science Communication Activity | Carrying science to non-specialist publics: science journalism, outreach, public engagement (beyond peer dissemination). |
+| `Activity` `(→ Part)` Science `(→ Kind)` Science Advice Activity | Marshalling evidence for decision-makers: expert advice, evidence synthesis for policy. |
+| `Activity` `(→ Part)` Science `(→ Component)` Institution | Grouping: stabilized rules judging scientific claims. |
+| `Activity` `(→ Part)` Science `(→ Component)` Institution `(→ Component)` Scientific Norm | Shared standard judging a claim: falsifiability, replication, openness, disinterestedness. |
+| `Activity` `(→ Part)` Science `(→ Component)` Social Role | Grouping: expectation-tags scientific participants occupy. |
+| `Activity` `(→ Part)` Science `(→ Component)` Social Role `(→ Component)` Scientist | Role producing, assessing, and carrying warranted knowledge within the family. |
 
 ## References
 

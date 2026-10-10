@@ -28,11 +28,11 @@ Readable secondarily as an `Interaction Unit` nested in capital markets, and as 
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → KKR & Co. Inc. | Alternative investment firm converting capital mandates into managed assets. |
-| `Collective / Organization` → KKR & Co. Inc. → `Agency` → Investment Committee | Structured capacity committing fund capital to deals. |
-| `Collective / Organization` → KKR & Co. Inc. → `Activity` → Private-Equity Investing | Coarse bundle acquiring and managing companies for fund investors. |
-| `Collective / Organization` → KKR & Co. Inc. → `Price / Asset` → Portfolio Company | The claim-object the funds hold and manage. |
-| `Collective / Organization` → KKR & Co. Inc. → `Social Relation / Network` → Limited-Partner Investor | Tie carrying capital mandates from investors to the firm. |
+| Collective / Organization `(→ Part)` KKR & Co. Inc. | Alternative investment firm converting capital mandates into managed assets. |
+| Collective / Organization `(→ Part)` KKR & Co. Inc. `(→ Part)` Agency `(→ Part)` Investment Committee | Structured capacity committing fund capital to deals. |
+| Collective / Organization `(→ Part)` KKR & Co. Inc. `(→ Part)` `Activity` `(→ Part)` Private-Equity Investing | Coarse bundle acquiring and managing companies for fund investors. |
+| Collective / Organization `(→ Part)` KKR & Co. Inc. `(→ Part)` Price / Asset `(→ Part)` Portfolio Company | The claim-object the funds hold and manage. |
+| Collective / Organization `(→ Part)` KKR & Co. Inc. `(→ Part)` Social Relation / Network `(→ Part)` Limited-Partner Investor | Tie carrying capital mandates from investors to the firm. |
 
 ## References
 

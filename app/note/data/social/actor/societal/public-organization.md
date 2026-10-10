@@ -28,25 +28,24 @@ It is the government subtype of Organization: what individuates it is not its in
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Public Organization | Organization wielding delegated public authority under law. |
-| `Collective / Organization` → Public Organization → `Type` | Grouping: direct subtypes of the public organization. |
-| `Collective / Organization` → Public Organization → `Type` → Ministry | Central department of state directing a policy domain. |
-| `Collective / Organization` → Public Organization → `Type` → Public Agency | Operational arm executing mandated functions at arm's length. |
-| `Collective / Organization` → Public Organization → `Type` → State-Owned Enterprise | Commercial organization under controlling public ownership. |
-| `Collective / Organization` → Public Organization → `Type` → Municipal Organization | Local organization governing a bounded territory and its services. |
-| `Collective / Organization` → Public Organization → `Type` → Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
-| `Collective / Organization` → Public Organization → `Agency` | Grouping: structured capacities forming intention and selecting action. |
-| `Collective / Organization` → Public Organization → `Agency` → Governing Board | Structured capacity deciding direction and controlling execution. |
-| `Collective / Organization` → Public Organization → `Institution` | Grouping: stabilized configurations of roles and rules hosted by the organization. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` | Grouping: expectation-tags binding members to conduct. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role | Expectation-tag binding a member, a context, and an interpretation to behavior. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` | Grouping: shared protocols stabilizing member interaction. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule | Shared protocol stabilizing who may decide, contribute, and claim. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` | Grouping: deontic positions of the rule. |
-| `Collective / Organization` → Public Organization → `Institution` → Internal Governance → `Social Role` → Membership Role → `Norm / Regulation` → Membership Rule → `Right / Obligation` → Duty of Public Service | Duty allocating lawful, impartial service to the public. |
-| `Collective / Organization` → Public Organization → `Activity` | Grouping: bundles of situated doings. |
-| `Collective / Organization` → Public Organization → `Activity` → Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
+| Collective / Organization `(→ Part)` Public Organization | Organization wielding delegated public authority under law. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Ministry | Central department of state directing a policy domain. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency | Operational arm executing mandated functions at arm's length. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution | Grouping: stabilized configurations of roles and rules hosted by the organization. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role | Grouping: expectation-tags binding members to conduct. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role | Expectation-tag binding a member, a context, and an interpretation to behavior. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation | Grouping: shared protocols stabilizing member interaction. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule | Shared protocol stabilizing who may decide, contribute, and claim. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule `(→ Component)` Right / Obligation | Grouping: deontic positions of the rule. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role `(→ Kind)` Membership Role `(→ Component)` Norm / Regulation `(→ Component)` Membership Rule `(→ Component)` Right / Obligation `(→ Component)` Duty of Public Service | Duty allocating lawful, impartial service to the public. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` `Activity` | Grouping: bundles of situated doings. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` `Activity` `(→ Kind)` Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
 
 ## QA
 

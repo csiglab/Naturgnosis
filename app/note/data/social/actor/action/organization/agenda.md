@@ -26,31 +26,31 @@ tags: [agenda, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Agenda` → Agenda | Prioritized set of actions and initiatives ordered for collective attention and pursuit. |
-| `Agenda` → Agenda → Strategic Agenda | Set translating a strategic selection into ordered initiatives. |
-| `Agenda` → Agenda → Policy Agenda | Set executing a newly adopted course through ordered moves. |
-| `Agenda` → Agenda → Industrial Agenda | Set ordering reindustrialization, sustainability, and digital moves. |
-| `Agenda` → Agenda → Research Agenda | Set ordering inquiry lines under one pursuit. |
-| `Agenda` → Agenda → Sustainability Agenda | Set ordering emission cuts and transition moves to milestones. |
-| `Agenda` → Agenda → Sustainability Agenda → 2030 Agenda For Sustainable Development | Global set ordering 17 goals and their targets to 2030. |
-| `Agenda` → Agenda → `Goal` | Grouping: the objective the set serves. |
-| `Agenda` → Agenda → `Goal` → Agenda Objective | Desired future state the prioritized set commits to. |
-| `Agenda` → Agenda → `Activity` | Grouping: the doings the set orders. |
-| `Agenda` → Agenda → `Activity` → Agenda Item | Coarse bundle of granular actions placed in the priority order. |
-| `Agenda` → Agenda → `Initiative` | Grouping: the launches the set spawns. |
-| `Agenda` → Agenda → `Initiative` → Member Initiative | Bounded undertaking contributing its outcome to the set. |
-| `Agenda` → Agenda → `Interaction Unit` | Grouping: the commitment behind the order. |
-| `Agenda` → Agenda → `Interaction Unit` → Agenda Sponsor | Unit committing standing and means to the priority order. |
-| `Agenda` → Agenda → `Collective Decision Mechanism` | Grouping: the ordering of the set. |
-| `Agenda` → Agenda → `Collective Decision Mechanism` → Prioritization Rule | Procedure fixing which items come first and why. |
-| `Agenda` → Agenda → `State` | Grouping: the judgment of the pursuit. |
-| `Agenda` → Agenda → `State` → Agenda Milestone | Snapshot at which the ordered pursuit is judged against its objective. |
+| Agenda `(→ Part)` Agenda | Prioritized set of actions and initiatives ordered for collective attention and pursuit. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Strategic Agenda | Set translating a strategic selection into ordered initiatives. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Policy Agenda | Set executing a newly adopted course through ordered moves. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Industrial Agenda | Set ordering reindustrialization, sustainability, and digital moves. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Research Agenda | Set ordering inquiry lines under one pursuit. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Sustainability Agenda | Set ordering emission cuts and transition moves to milestones. |
+| Agenda `(→ Part)` Agenda `(→ Kind)` Sustainability Agenda `(→ Part)` 2030 Agenda For Sustainable Development | Global set ordering 17 goals and their targets to 2030. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Goal | Grouping: the objective the set serves. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Goal `(→ Part)` Agenda Objective | Desired future state the prioritized set commits to. |
+| Agenda `(→ Part)` Agenda `(→ Part)` `Activity` | Grouping: the doings the set orders. |
+| Agenda `(→ Part)` Agenda `(→ Part)` `Activity` `(→ Part)` Agenda Item | Coarse bundle of granular actions placed in the priority order. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Initiative | Grouping: the launches the set spawns. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Initiative `(→ Kind)` Member Initiative | Bounded undertaking contributing its outcome to the set. |
+| Agenda `(→ Part)` Agenda `(→ Part)` `Interaction Unit` | Grouping: the commitment behind the order. |
+| Agenda `(→ Part)` Agenda `(→ Part)` `Interaction Unit` `(→ Part)` Agenda Sponsor | Unit committing standing and means to the priority order. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Collective Decision Mechanism | Grouping: the ordering of the set. |
+| Agenda `(→ Part)` Agenda `(→ Part)` Collective Decision Mechanism `(→ Part)` Prioritization Rule | Procedure fixing which items come first and why. |
+| Agenda `(→ Part)` Agenda `(→ Part)` State | Grouping: the judgment of the pursuit. |
+| Agenda `(→ Part)` Agenda `(→ Part)` State `(→ Part)` Agenda Milestone | Snapshot at which the ordered pursuit is judged against its objective. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Strategy](note.html?n=social/actor/action/guidance/strategy.md) (the selection an agenda translates)
-- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md) (the course an agenda may execute)
+- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md) (the course an agenda may execute)
 - [Program](note.html?n=social/actor/action/organization/program.md) (the set that may implement an agenda)
 - [Plan](note.html?n=social/actor/action/organization/plan.md) (the arrangement sequencing any one move)
 - [Initiative](note.html?n=social/actor/action/organization/initiative.md) (the launch an agenda may spawn)

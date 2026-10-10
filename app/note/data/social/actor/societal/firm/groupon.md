@@ -28,11 +28,11 @@ Readable secondarily as an `Interaction Unit` nested in markets, and as a `Mediu
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Groupon, Inc. | Marketplace firm aggregating consumer demand into discounted merchant offers. |
-| `Collective / Organization` → Groupon, Inc. → `Agency` → Merchant Sales Team | Structured capacity recruiting and onboarding merchants. |
-| `Collective / Organization` → Groupon, Inc. → `Activity` → Daily-Deal Marketplace | Coarse bundle matching consumers to time-limited local offers. |
-| `Collective / Organization` → Groupon, Inc. → `Price / Asset` → Deal Voucher | Redeemable claim the buyer holds and the merchant honours. |
-| `Collective / Organization` → Groupon, Inc. → `Social Relation / Network` → Merchant Network | Tie binding the platform to the local businesses that supply offers. |
+| Collective / Organization `(→ Part)` Groupon, Inc. | Marketplace firm aggregating consumer demand into discounted merchant offers. |
+| Collective / Organization `(→ Part)` Groupon, Inc. `(→ Part)` Agency `(→ Part)` Merchant Sales Team | Structured capacity recruiting and onboarding merchants. |
+| Collective / Organization `(→ Part)` Groupon, Inc. `(→ Part)` `Activity` `(→ Part)` Daily-Deal Marketplace | Coarse bundle matching consumers to time-limited local offers. |
+| Collective / Organization `(→ Part)` Groupon, Inc. `(→ Part)` Price / Asset `(→ Part)` Deal Voucher | Redeemable claim the buyer holds and the merchant honours. |
+| Collective / Organization `(→ Part)` Groupon, Inc. `(→ Part)` Social Relation / Network `(→ Kind)` Merchant Network | Tie binding the platform to the local businesses that supply offers. |
 
 ## References
 

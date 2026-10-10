@@ -55,14 +55,14 @@ It is a capital pool with an allocation compass: investors commit capital that t
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Capital / Labor` → Mother Fund | Wholesale fund channeling pooled capital into guidance funds. |
-| `Capital / Labor` → Mother Fund → `Price / Asset` | Grouping: capital components of the fund. |
-| `Capital / Labor` → Mother Fund → `Price / Asset` → Committed Investor Capital | Investor commitment anchoring the fund and signaling mandate scale. |
-| `Capital / Labor` → Mother Fund → `Price / Asset` → Guidance Fund Stakes | Allocated positions in guidance (child) funds executing onward investment. |
-| `Capital / Labor` → Mother Fund → `Institution` | Grouping: rules stabilizing the fund's operation. |
-| `Capital / Labor` → Mother Fund → `Institution` → Allocation Mandate | Policy rule bounding which guidance funds and ends the fund may back. |
-| `Capital / Labor` → Mother Fund → `Social Relation / Network` | Grouping: ties binding the fund to its executors. |
-| `Capital / Labor` → Mother Fund → `Social Relation / Network` → Guidance Fund Tie | Ties to guidance funds channeling capital into priority targets. |
+| Capital / Labor `(→ Part)` Mother Fund | Wholesale fund channeling pooled capital into guidance funds. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Part)` Price / Asset | Grouping: capital components of the fund. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Part)` Price / Asset `(→ Part)` Committed Investor Capital | Investor commitment anchoring the fund and signaling mandate scale. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Part)` Price / Asset `(→ Part)` Guidance Fund Stakes | Allocated positions in guidance (child) funds executing onward investment. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Component)` Institution | Grouping: rules stabilizing the fund's operation. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Component)` Institution `(→ Component)` Allocation Mandate | Policy rule bounding which guidance funds and ends the fund may back. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Part)` Social Relation / Network | Grouping: ties binding the fund to its executors. |
+| Capital / Labor `(→ Part)` Mother Fund `(→ Part)` Social Relation / Network `(→ Part)` Guidance Fund Tie | Ties to guidance funds channeling capital into priority targets. |
 
 ## QA
 

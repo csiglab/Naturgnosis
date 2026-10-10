@@ -28,10 +28,10 @@ Readable secondarily as a `Social Compound` (market-as-ensemble of listed firms,
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Synontic Element` → Stock Market | Recognition-constituted equity coordinator. |
-| `Synontic Element` → Stock Market → `Price / Asset` → Listed Share | Claim-object traded in sessions. |
-| `Synontic Element` → Stock Market → `Process / Event` → Trading Session | Punctual occurrence matching orders. |
-| `Synontic Element` → Stock Market → `Institution` → Clearing House | Settlement-rule configuration. |
+| Synontic Element `(→ Part)` Stock Market | Recognition-constituted equity coordinator. |
+| Synontic Element `(→ Part)` Stock Market `(→ Part)` Price / Asset `(→ Part)` Listed Share | Claim-object traded in sessions. |
+| Synontic Element `(→ Part)` Stock Market `(→ Part)` Process / Event `(→ Part)` Trading Session | Punctual occurrence matching orders. |
+| Synontic Element `(→ Part)` Stock Market `(→ Component)` Institution `(→ Component)` Clearing House | Settlement-rule configuration. |
 
 ## References
 

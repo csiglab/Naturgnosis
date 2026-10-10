@@ -40,50 +40,49 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → Research Actor | Bounded collective producing or funding inquiry. |
-| `Collective / Organization` → Research Actor → `Type` | Grouping: subtype classification axis of the research actor. |
-| `Collective / Organization` → Research Actor → `Type` → Public Research Institute | Government-chartered institute doing mission-oriented research and technology transfer. |
-| `Collective / Organization` → Research Actor → `Type` → National Laboratory | Large-facility public establishment hosting big-science instruments. |
-| `Collective / Organization` → Research Actor → `Type` → Government Research Agency | Mission agency performing or funding inquiry under public mandate. |
-| `Collective / Organization` → Research Actor → `Type` → Research Council | Arm's-length body allocating grants and setting national research priorities. |
-| `Collective / Organization` → Research Actor → `Type` → Academy / Learned Society | Self-governing scholarly body of members that coordinates and warrants research. |
-| `Collective / Organization` → Research Actor → `Type` → Enterprise Research Lab | Corporate collective converting inquiry into firm capability. |
-| `Collective / Organization` → Research Actor → `Type` → University Research Unit | Lab or institute embedded in a university's research mission. |
-| `Collective / Organization` → Research Actor → `Type` → Research Foundation | Endowed independent body funding or performing inquiry. |
-| `Collective / Organization` → Research Actor → `Type` → Research Group | Quasi-firm team under a principal investigator. |
-| `Collective / Organization` → Research Actor → `Agency` | Grouping: structured capacities forming intention and selecting a research direction. |
-| `Collective / Organization` → Research Actor → `Agency` → Governing Council | Structured capacity deciding the research programme and controlling execution. |
-| `Collective / Organization` → Research Actor → `Agency` → Scientific Advisory Board | Structured capacity evaluating research quality and advising direction. |
-| `Collective / Organization` → Research Actor → `Social Role` | Grouping: expectation-tags occupants hold inside the actor. |
-| `Collective / Organization` → Research Actor → `Social Role` → Principal Investigator | Role owning a research programme, its staff, and its budget. |
-| `Collective / Organization` → Research Actor → `Social Role` → Researcher | Role performing inquiry within a programme. |
-| `Collective / Organization` → Research Actor → `Social Role` → Research Technician | Role maintaining instruments and supporting experiments. |
-| `Collective / Organization` → Research Actor → `Activity` | Grouping: bundles of situated doings. |
-| `Collective / Organization` → Research Actor → `Activity` → Research Activity | The core doing family the actor performs (linked entry). |
-| `Collective / Organization` → Research Actor → `Institution` | Grouping: stabilized rules and roles the actor hosts. |
-| `Collective / Organization` → Research Actor → `Institution` → Research Governance | Peer review, evaluation, and priority-setting rules sustaining inquiry. |
-| `Collective / Organization` → Research Actor → `Social Relation / Network` | Grouping: structured ties binding the actor to its environment. |
-| `Collective / Organization` → Research Actor → `Social Relation / Network` → Funding Relation | Tie carrying money and mandate from sponsors to the actor. |
-| `Collective / Organization` → Research Actor → `Social Relation / Network` → Collaboration Tie | Tie joining the actor to universities, firms, and other research bodies. |
-| `Collective / Organization` → Research Actor → `Social Compound` | Grouping: national research systems scoping their peak bodies and institutes. |
-| `Collective / Organization` → Research Actor → `Social Compound` → Chinese Research System Set | China's peak academy and its nested institutes (`chn/cas`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Chinese Research System Set → `Collective / Organization` → Chinese Academy Of Sciences | Peak academy coordinating China's research institutes and universities. |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set | Federated US ensemble of mission agencies, national laboratories, and independent institutes (`usa/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → National Science Foundation | Peak funding agency supporting US non-medical basic research (`usa/nsf`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United States Research System Set → `Collective / Organization` → Defense Advanced Research Projects Agency | Mission agency performing and funding breakthrough defense inquiry (`usa/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set | Germany's federated ensemble of academies, national centers, and institutes (`deu/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Max Planck Society | Association of basic-research institutes under shared excellence funding (`deu/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → German Research System Set → `Collective / Organization` → Fraunhofer Society | Association of applied-research institutes bridging firms and universities (`deu/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set | France's national research bodies and their institutes (`fra/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → French Research System Set → `Collective / Organization` → Centre National De La Recherche Scientifique | National research centre spanning institutes across disciplines (`fra/cnrs`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set | Japan's autonomous research institutes and their national system (`jpn/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Japanese Research System Set → `Collective / Organization` → RIKEN | Institute of physical and chemical research, a national flagship (`jpn/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set | Singapore's integrated research system of institutes and councils (`sgp/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Singapore Research System Set → `Collective / Organization` → A*STAR | Agency integrating Singapore's research institutes and funding (`sgp/astar`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set | Australia's national research bodies and institutes (`aus/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → Australian Research System Set → `Collective / Organization` → The Commonwealth Scientific And Industrial Research Organisation | Australia's national science agency (`aus/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set | The UK's national laboratories, councils, and institutes (`gbr/`). |
-| `Collective / Organization` → Research Actor → `Social Compound` → United Kingdom Research System Set → `Collective / Organization` → National Physical Laboratory | The UK's national measurement institute (`gbr/`). |
+| Collective / Organization `(→ Part)` Research Actor | Bounded collective producing or funding inquiry. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Public Research Institute | Government-chartered institute doing mission-oriented research and technology transfer. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` National Laboratory | Large-facility public establishment hosting big-science instruments. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Government Research Agency | Mission agency performing or funding inquiry under public mandate. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Research Council | Arm's-length body allocating grants and setting national research priorities. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Academy / Learned Society | Self-governing scholarly body of members that coordinates and warrants research. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Enterprise Research Lab | Corporate collective converting inquiry into firm capability. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` University Research Unit | Lab or institute embedded in a university's research mission. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Research Foundation | Endowed independent body funding or performing inquiry. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Kind)` Research Group | Quasi-firm team under a principal investigator. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting a research direction. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Agency `(→ Part)` Governing Council | Structured capacity deciding the research programme and controlling execution. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Agency `(→ Part)` Scientific Advisory Board | Structured capacity evaluating research quality and advising direction. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Social Role | Grouping: expectation-tags occupants hold inside the actor. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Social Role `(→ Component)` Principal Investigator | Role owning a research programme, its staff, and its budget. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Social Role `(→ Component)` Researcher | Role performing inquiry within a programme. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Social Role `(→ Component)` Research Technician | Role maintaining instruments and supporting experiments. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Activity` | Grouping: bundles of situated doings. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Activity` `(→ Kind)` Research Activity | The core doing family the actor performs (linked entry). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Institution | Grouping: stabilized rules and roles the actor hosts. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Component)` Institution `(→ Component)` Research Governance | Peer review, evaluation, and priority-setting rules sustaining inquiry. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Social Relation / Network | Grouping: structured ties binding the actor to its environment. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Social Relation / Network `(→ Part)` Funding Relation | Tie carrying money and mandate from sponsors to the actor. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` Social Relation / Network `(→ Part)` Collaboration Tie | Tie joining the actor to universities, firms, and other research bodies. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` | Grouping: national research systems scoping their peak bodies and institutes. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Chinese Research System Set | China's peak academy and its nested institutes (`chn/cas`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Chinese Research System Set `(→ Part)` Collective / Organization `(→ Part)` Chinese Academy Of Sciences | Peak academy coordinating China's research institutes and universities. |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United States Research System Set | Federated US ensemble of mission agencies, national laboratories, and independent institutes (`usa/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United States Research System Set `(→ Part)` Collective / Organization `(→ Part)` National Science Foundation | Peak funding agency supporting US non-medical basic research (`usa/nsf`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United States Research System Set `(→ Part)` Collective / Organization `(→ Part)` Defense Advanced Research Projects Agency | Mission agency performing and funding breakthrough defense inquiry (`usa/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` German Research System Set | Germany's federated ensemble of academies, national centers, and institutes (`deu/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` German Research System Set `(→ Part)` Collective / Organization `(→ Part)` Max Planck Society | Association of basic-research institutes under shared excellence funding (`deu/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` German Research System Set `(→ Part)` Collective / Organization `(→ Part)` Fraunhofer Society | Association of applied-research institutes bridging firms and universities (`deu/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` French Research System Set | France's national research bodies and their institutes (`fra/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` French Research System Set `(→ Part)` Collective / Organization `(→ Part)` Centre National De La Recherche Scientifique | National research centre spanning institutes across disciplines (`fra/cnrs`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Japanese Research System Set | Japan's autonomous research institutes and their national system (`jpn/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Japanese Research System Set `(→ Part)` Collective / Organization `(→ Part)` RIKEN | Institute of physical and chemical research, a national flagship (`jpn/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Singapore Research System Set | Singapore's integrated research system of institutes and councils (`sgp/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Singapore Research System Set `(→ Part)` Collective / Organization `(→ Part)` ASTAR | Agency integrating Singapore's research institutes and funding (`sgp/astar`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Australian Research System Set | Australia's national research bodies and institutes (`aus/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` Australian Research System Set `(→ Part)` Collective / Organization `(→ Part)` The Commonwealth Scientific And Industrial Research Organisation | Australia's national science agency (`aus/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United Kingdom Research System Set | The UK's national laboratories, councils, and institutes (`gbr/`). |
+| Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United Kingdom Research System Set `(→ Part)` Collective / Organization `(→ Part)` National Physical Laboratory | The UK's national measurement institute (`gbr/`). |
 
 ## References
 

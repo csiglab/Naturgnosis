@@ -28,11 +28,11 @@ Its layer is **Synontic**: licenses exist through recognized rights and recorded
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Institution` → Licensing Regime | Stabilized licensing configuration. |
-| `Institution` → Licensing Regime → `Social Role` → Licensor Role | Granting party binding rights to terms. |
-| `Institution` → Licensing Regime → `Right / Obligation` → Patent License | Grant allocating practice rights for royalties. |
-| `Institution` → Licensing Regime → `Right / Obligation` → Franchise Agreement | Grant allocating brand and system use for fees. |
-| `Institution` → Licensing Regime → `Right / Obligation` → Software License | Grant allocating execution rights under terms. |
+| Institution `(→ Part)` Licensing Regime | Stabilized licensing configuration. |
+| Institution `(→ Part)` Licensing Regime `(→ Component)` Social Role `(→ Kind)` Licensor Role | Granting party binding rights to terms. |
+| Institution `(→ Part)` Licensing Regime `(→ Component)` Right / Obligation `(→ Component)` Patent License | Grant allocating practice rights for royalties. |
+| Institution `(→ Part)` Licensing Regime `(→ Component)` Right / Obligation `(→ Component)` Franchise Agreement | Grant allocating brand and system use for fees. |
+| Institution `(→ Part)` Licensing Regime `(→ Component)` Right / Obligation `(→ Component)` Software License | Grant allocating execution rights under terms. |
 
 ## References
 

@@ -28,11 +28,11 @@ Readable secondarily through its Synontic offer reading (product-as-`Price / Ass
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Price / Asset` → Product | Priced, contracted outcome of production offered into a market. |
-| `Price / Asset` → Product → `Price / Asset` | Grouping: exemplar goods realizing the product family. |
-| `Price / Asset` → Product → `Price / Asset` → Lemon | Citrus fruit good traded fresh and processed. |
-| `Price / Asset` → Product → `Price / Asset` → Cheese | Dairy good traded fresh and aged. |
-| `Price / Asset` → Product → `Price / Asset` → Wine | Fermented beverage good traded bottled and bulk. |
+| Price / Asset `(→ Part)` Product | Priced, contracted outcome of production offered into a market. |
+| Price / Asset `(→ Part)` Product `(→ Part)` Price / Asset | Grouping: exemplar goods realizing the product family. |
+| Price / Asset `(→ Part)` Product `(→ Part)` Price / Asset `(→ Part)` Lemon | Citrus fruit good traded fresh and processed. |
+| Price / Asset `(→ Part)` Product `(→ Part)` Price / Asset `(→ Part)` Cheese | Dairy good traded fresh and aged. |
+| Price / Asset `(→ Part)` Product `(→ Part)` Price / Asset `(→ Part)` Wine | Fermented beverage good traded bottled and bulk. |
 
 ## References
 

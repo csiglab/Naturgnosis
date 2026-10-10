@@ -28,20 +28,20 @@ Readable secondarily as an epistemic pursuit (its product is warranted belief, j
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Activity` → Science → Research Activity | Scientific inquiry core: research doings moving a question to a warranted result. |
-| `Activity` → Science → Research Activity → Research Intelligence | Scanning, collecting, and assessing the state of knowledge ahead of commitment. |
-| `Activity` → Science → Research Activity → Research Framing | Turning a situation into an answerable question with scope and success criteria. |
-| `Activity` → Science → Research Activity → `Research Inquiry` | Grouping: kinds of inquiry by the knowledge sought. |
-| `Activity` → Science → Research Activity → `Research Inquiry` → Basic Research | Inquiry aimed at understanding without a near-term application. |
-| `Activity` → Science → Research Activity → `Research Inquiry` → Applied Research | Inquiry aimed at a use or problem in view. |
-| `Activity` → Science → Research Activity → `Research Inquiry` → Developmental Research | Inquiry translating findings toward a working solution. |
-| `Activity` → Science → Research Activity → `Research Inquiry` → Exploratory Research | Open-ended probing where the target is not yet fixed. |
-| `Activity` → Science → Research Activity → Research Experimentation | Controlled trials and observations under a declared design. |
-| `Activity` → Science → Research Activity → Research Analysis | Deriving structure, relations, and inference from collected material. |
-| `Activity` → Science → Research Activity → Research Modeling | Building and manipulating formal representations of the target. |
-| `Activity` → Science → Research Activity → Research Validation | Testing findings against evidence and standards (confirmation, replication). |
-| `Activity` → Science → Research Activity → Research Dissemination | Coarse bundle carrying findings to a community: writing, review, publication. |
-| `Activity` → Science → Research Activity → Research Transfer | Coarse bundle moving validated knowledge into practice, products, or policy. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity | Scientific inquiry core: research doings moving a question to a warranted result. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Intelligence | Scanning, collecting, and assessing the state of knowledge ahead of commitment. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Framing | Turning a situation into an answerable question with scope and success criteria. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Inquiry | Grouping: kinds of inquiry by the knowledge sought. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Inquiry `(→ Part)` Basic Research | Inquiry aimed at understanding without a near-term application. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Inquiry `(→ Part)` Applied Research | Inquiry aimed at a use or problem in view. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Inquiry `(→ Part)` Developmental Research | Inquiry translating findings toward a working solution. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Inquiry `(→ Part)` Exploratory Research | Open-ended probing where the target is not yet fixed. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Experimentation | Controlled trials and observations under a declared design. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Analysis | Deriving structure, relations, and inference from collected material. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Modeling | Building and manipulating formal representations of the target. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Validation | Testing findings against evidence and standards (confirmation, replication). |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Dissemination | Coarse bundle carrying findings to a community: writing, review, publication. |
+| `Activity` `(→ Part)` Science `(→ Part)` Research Activity `(→ Part)` Research Transfer | Coarse bundle moving validated knowledge into practice, products, or policy. |
 
 ## QA
 

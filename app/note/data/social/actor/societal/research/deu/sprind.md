@@ -30,28 +30,28 @@ Readable secondarily as an `Institution` (the stabilized funding regime it ancho
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Collective / Organization` → SPRIND | Federal public agency funding breakthrough innovation, seated in Leipzig. |
-| `Collective / Organization` → SPRIND → `Interaction Unit` | Grouping: the principals of the agency. |
-| `Collective / Organization` → SPRIND → `Interaction Unit` → Federal Shareholder | The Bund as sole shareholder conferring the breakthrough-innovation mandate. |
-| `Collective / Organization` → SPRIND → `Interaction Unit` → Supervisory Board | Ten-member board from science, business, ministries, and politics overseeing the agency. |
-| `Collective / Organization` → SPRIND → `Agency` | Grouping: the structured capacities directing the agency. |
-| `Collective / Organization` → SPRIND → `Agency` → Directorship | Structured capacity selecting projects and allocating funds, led by the founding director. |
-| `Collective / Organization` → SPRIND → `Collective / Organization` | Grouping: the agency's own instruments. |
-| `Collective / Organization` → SPRIND → `Collective / Organization` → SPRIND Subsidiary | Wholly owned company (e.g. beventum GmbH) realizing a flagship project. |
-| `Collective / Organization` → SPRIND → `Institution` | Grouping: the stabilized funding regime. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance | Configuration of roles, rules, and instruments under the SPRIND Freedom Act. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` | Grouping: expectations attached to positions in the regime. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` → Applicant Role | Expectation that teams submit ideas and compete in staged evaluation. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` → Applicant Role → `Norm / Regulation` | Grouping: the protocols stabilizing the competition. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` → Applicant Role → `Norm / Regulation` → Challenge Rules | Multi-stage competition protocol: only the best advance and keep funding. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` → Applicant Role → `Norm / Regulation` → Challenge Rules → `Right / Obligation` | Grouping: the deontic positions the rules allocate. |
-| `Collective / Organization` → SPRIND → `Institution` → SPRIND Funding Governance → `Social Role` → Applicant Role → `Norm / Regulation` → Challenge Rules → `Right / Obligation` → Funding Award | Claim of selected teams on staged financing instruments. |
-| `Collective / Organization` → SPRIND → `Activity` | Grouping: the agency's doings. |
-| `Collective / Organization` → SPRIND → `Activity` → Challenge Activity | Coarse bundle of staged competitions (antivirals, carbon-to-value, energy storage, biomanufacturing). |
-| `Collective / Organization` → SPRIND → `Activity` → Funken Activity | Coarse bundle of short demonstration sprints (tissue engineering, autonomous flight, EUDI wallet). |
-| `Collective / Organization` → SPRIND → `Activity` → Project Funding | Coarse bundle of start-up funding, investments and convertible loans, and R&D funding. |
-| `Collective / Organization` → SPRIND → `Capital / Labor` | Grouping: the means the agency mobilizes. |
-| `Collective / Organization` → SPRIND → `Capital / Labor` → SPRIND Budget Pool | Public productive capacity held as a multi-year portfolio against the ten-year mandate. |
+| Collective / Organization `(→ Part)` SPRIND | Federal public agency funding breakthrough innovation, seated in Leipzig. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Interaction Unit` | Grouping: the principals of the agency. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Interaction Unit` `(→ Part)` Federal Shareholder | The Bund as sole shareholder conferring the breakthrough-innovation mandate. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Interaction Unit` `(→ Part)` Supervisory Board | Ten-member board from science, business, ministries, and politics overseeing the agency. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Agency | Grouping: the structured capacities directing the agency. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Agency `(→ Part)` Directorship | Structured capacity selecting projects and allocating funds, led by the founding director. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Collective / Organization | Grouping: the agency's own instruments. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Collective / Organization `(→ Part)` SPRIND Subsidiary | Wholly owned company (e.g. beventum GmbH) realizing a flagship project. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution | Grouping: the stabilized funding regime. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance | Configuration of roles, rules, and instruments under the SPRIND Freedom Act. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role | Grouping: expectations attached to positions in the regime. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role `(→ Kind)` Applicant Role | Expectation that teams submit ideas and compete in staged evaluation. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role `(→ Kind)` Applicant Role `(→ Component)` Norm / Regulation | Grouping: the protocols stabilizing the competition. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role `(→ Kind)` Applicant Role `(→ Component)` Norm / Regulation `(→ Component)` Challenge Rules | Multi-stage competition protocol: only the best advance and keep funding. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role `(→ Kind)` Applicant Role `(→ Component)` Norm / Regulation `(→ Component)` Challenge Rules `(→ Component)` Right / Obligation | Grouping: the deontic positions the rules allocate. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Component)` Institution `(→ Component)` SPRIND Funding Governance `(→ Component)` Social Role `(→ Kind)` Applicant Role `(→ Component)` Norm / Regulation `(→ Component)` Challenge Rules `(→ Component)` Right / Obligation `(→ Component)` Funding Award | Claim of selected teams on staged financing instruments. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Activity` | Grouping: the agency's doings. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Activity` `(→ Kind)` Challenge Activity | Coarse bundle of staged competitions (antivirals, carbon-to-value, energy storage, biomanufacturing). |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Activity` `(→ Kind)` Funken Activity | Coarse bundle of short demonstration sprints (tissue engineering, autonomous flight, EUDI wallet). |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` `Activity` `(→ Part)` Project Funding | Coarse bundle of start-up funding, investments and convertible loans, and R&D funding. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Capital / Labor | Grouping: the means the agency mobilizes. |
+| Collective / Organization `(→ Part)` SPRIND `(→ Part)` Capital / Labor `(→ Part)` SPRIND Budget Pool | Public productive capacity held as a multi-year portfolio against the ten-year mandate. |
 
 ## References
 

@@ -26,25 +26,25 @@ tags: [principle, guidance, normative, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Principle` → Principle | General rule or standard guiding and evaluating action. |
-| `Principle` → Principle → Ethical Principle | Standard binding action to a conception of right conduct. |
-| `Principle` → Principle → Ethical Principle → Precautionary Principle | Standard requiring restraint under uncertainty about harm. |
-| `Principle` → Principle → Ethical Principle → Solidarity Principle | Standard binding actors to share one another's burdens. |
-| `Principle` → Principle → Legal Principle | Standard recognized by a legal order as guiding interpretation. |
-| `Principle` → Principle → Legal Principle → Proportionality Principle | Standard requiring means to fit the legitimate end without excess. |
-| `Principle` → Principle → Legal Principle → Due Process Principle | Standard requiring fair procedure before rights are burdened. |
-| `Principle` → Principle → Legal Principle → Non-Refoulement Principle | Standard prohibiting return of persons to persecution. |
-| `Principle` → Principle → Design Principle | Standard constraining how artifacts and systems are built. |
-| `Principle` → Principle → Design Principle → Least Privilege Principle | Standard granting each part only the access its task requires. |
-| `Principle` → Principle → Design Principle → Separation of Concerns Principle | Standard isolating distinct responsibilities into distinct parts. |
-| `Principle` → Principle → Methodological Principle | Standard constraining how inquiry is conducted. |
-| `Principle` → Principle → Methodological Principle → Falsifiability Principle | Standard requiring claims to expose themselves to refutation. |
-| `Principle` → Principle → Methodological Principle → Parsimony Principle | Standard preferring the simplest adequate account. |
-| `Principle` → Principle → Governance Principle | Standard binding the exercise of authority. |
-| `Principle` → Principle → Governance Principle → Subsidiarity Principle | Standard reserving decisions to the lowest competent level. |
-| `Principle` → Principle → Governance Principle → Transparency Principle | Standard requiring decisions and their reasons to be visible. |
-| `Principle` → Principle → Economic Principle | Standard binding economic coordination to a shared good. |
-| `Principle` → Principle → Economic Principle → Polluter-Pays Principle | Standard allocating environmental cost to its source. |
+| Principle `(→ Part)` Principle | General rule or standard guiding and evaluating action. |
+| Principle `(→ Part)` Principle `(→ Kind)` Ethical Principle | Standard binding action to a conception of right conduct. |
+| Principle `(→ Part)` Principle `(→ Kind)` Ethical Principle `(→ Kind)` Precautionary Principle | Standard requiring restraint under uncertainty about harm. |
+| Principle `(→ Part)` Principle `(→ Kind)` Ethical Principle `(→ Kind)` Solidarity Principle | Standard binding actors to share one another's burdens. |
+| Principle `(→ Part)` Principle `(→ Kind)` Legal Principle | Standard recognized by a legal order as guiding interpretation. |
+| Principle `(→ Part)` Principle `(→ Kind)` Legal Principle `(→ Kind)` Proportionality Principle | Standard requiring means to fit the legitimate end without excess. |
+| Principle `(→ Part)` Principle `(→ Kind)` Legal Principle `(→ Kind)` Due Process Principle | Standard requiring fair procedure before rights are burdened. |
+| Principle `(→ Part)` Principle `(→ Kind)` Legal Principle `(→ Kind)` Non-Refoulement Principle | Standard prohibiting return of persons to persecution. |
+| Principle `(→ Part)` Principle `(→ Kind)` Design Principle | Standard constraining how artifacts and systems are built. |
+| Principle `(→ Part)` Principle `(→ Kind)` Design Principle `(→ Kind)` Least Privilege Principle | Standard granting each part only the access its task requires. |
+| Principle `(→ Part)` Principle `(→ Kind)` Design Principle `(→ Kind)` Separation of Concerns Principle | Standard isolating distinct responsibilities into distinct parts. |
+| Principle `(→ Part)` Principle `(→ Kind)` Methodological Principle | Standard constraining how inquiry is conducted. |
+| Principle `(→ Part)` Principle `(→ Kind)` Methodological Principle `(→ Kind)` Falsifiability Principle | Standard requiring claims to expose themselves to refutation. |
+| Principle `(→ Part)` Principle `(→ Kind)` Methodological Principle `(→ Kind)` Parsimony Principle | Standard preferring the simplest adequate account. |
+| Principle `(→ Part)` Principle `(→ Kind)` Governance Principle | Standard binding the exercise of authority. |
+| Principle `(→ Part)` Principle `(→ Kind)` Governance Principle `(→ Kind)` Subsidiarity Principle | Standard reserving decisions to the lowest competent level. |
+| Principle `(→ Part)` Principle `(→ Kind)` Governance Principle `(→ Kind)` Transparency Principle | Standard requiring decisions and their reasons to be visible. |
+| Principle `(→ Part)` Principle `(→ Kind)` Economic Principle | Standard binding economic coordination to a shared good. |
+| Principle `(→ Part)` Principle `(→ Kind)` Economic Principle `(→ Kind)` Polluter-Pays Principle | Standard allocating environmental cost to its source. |
 
 ## References
 

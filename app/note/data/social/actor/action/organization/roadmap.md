@@ -26,21 +26,21 @@ tags: [roadmap, organization, action, social-element]
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Roadmap` → Roadmap | Sequenced long-range outlook aligning planned moves with milestones. |
-| `Roadmap` → Roadmap → Product Roadmap | Outlook sequencing an offer's evolution to its milestones. |
-| `Roadmap` → Roadmap → Technology Roadmap | Outlook sequencing capability acquisition to its milestones. |
-| `Roadmap` → Roadmap → Policy Roadmap | Outlook sequencing a course's moves to its milestones. |
-| `Roadmap` → Roadmap → Transformation Roadmap | Outlook sequencing an arrangement's change to its milestones. |
-| `Roadmap` → Roadmap → Decarbonization Roadmap | Outlook sequencing emission cuts and transition to milestones. |
-| `Roadmap` → Roadmap → `State` | Grouping: the path's declared extents and marks. |
-| `Roadmap` → Roadmap → `State` → Roadmap Horizon | Declared reach of the outlook in time. |
-| `Roadmap` → Roadmap → `State` → Roadmap Milestone | Snapshot at which the pathed moves are judged against the outlook. |
-| `Roadmap` → Roadmap → `Domain` | Grouping: the grouping of the moves. |
-| `Roadmap` → Roadmap → `Domain` → Roadmap Theme | Functional grouping binding related moves under one heading. |
-| `Roadmap` → Roadmap → `Social Relation / Network` | Grouping: the order of the moves. |
-| `Roadmap` → Roadmap → `Social Relation / Network` → Move Dependency | Structured tie binding a move to the moves it requires first. |
-| `Roadmap` → Roadmap → `Belief / Expectation` | Grouping: the takens-for-granted of the outlook. |
-| `Roadmap` → Roadmap → `Belief / Expectation` → Roadmap Assumption | Shared anticipation the pathed moves jointly rest on. |
+| Roadmap `(→ Part)` Roadmap | Sequenced long-range outlook aligning planned moves with milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Kind)` Product Roadmap | Outlook sequencing an offer's evolution to its milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Kind)` Technology Roadmap | Outlook sequencing capability acquisition to its milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Kind)` Policy Roadmap | Outlook sequencing a course's moves to its milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Kind)` Transformation Roadmap | Outlook sequencing an arrangement's change to its milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Kind)` Decarbonization Roadmap | Outlook sequencing emission cuts and transition to milestones. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` State | Grouping: the path's declared extents and marks. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` State `(→ Part)` Roadmap Horizon | Declared reach of the outlook in time. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` State `(→ Part)` Roadmap Milestone | Snapshot at which the pathed moves are judged against the outlook. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Domain | Grouping: the grouping of the moves. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Domain `(→ Part)` Roadmap Theme | Functional grouping binding related moves under one heading. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Social Relation / Network | Grouping: the order of the moves. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Social Relation / Network `(→ Part)` Move Dependency | Structured tie binding a move to the moves it requires first. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Belief / Expectation | Grouping: the takens-for-granted of the outlook. |
+| Roadmap `(→ Part)` Roadmap `(→ Part)` Belief / Expectation `(→ Part)` Roadmap Assumption | Shared anticipation the pathed moves jointly rest on. |
 
 ## References
 

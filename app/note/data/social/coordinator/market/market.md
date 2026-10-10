@@ -28,23 +28,23 @@ Readable secondarily as a `Synontic Element` (market-as-coordinator: prices, con
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Market` → Arena Market | Recognition-constituted arena where offers meet demand and prices coordinate. |
-| `Market` → Arena Market → `Interaction Unit` | Grouping: participating units. |
-| `Market` → Arena Market → `Interaction Unit` → Buyer | Unit demanding the product. |
-| `Market` → Arena Market → `Interaction Unit` → Seller | Unit offering the product. |
-| `Market` → Arena Market → `Synontic Element` | Grouping: recognition-constituted coordinators. |
-| `Market` → Arena Market → `Synontic Element` → Exchange Contract | Coordinator recognizing agreed terms. |
-| `Market` → Arena Market → `Price / Asset` | Grouping: scalar coordination variables. |
-| `Market` → Arena Market → `Price / Asset` → Clearing Price | Scalar at which offers and demands meet. |
-| `Market` → Arena Market → `Market Segment` | Grouping: demand-side slices. |
-| `Market` → Arena Market → `Market Segment` → Premium Segment | Slice served by higher-value offers. |
-| `Market` → Arena Market → `Market Segment` → Rural Segment | Slice defined by spatial access. |
-| `Market` → Arena Market → `Market Segment` → `Subsegment` | Grouping: finer slices. |
-| `Market` → Arena Market → `Market Segment` → `Subsegment` → Luxury Sedan Subsegment | Finer slice within the premium automotive segment. |
-| `Market` → Arena Market → `Market Segment` → `Subsegment` → `Niche` | Grouping: narrow specialized slices. |
-| `Market` → Arena Market → `Market Segment` → `Subsegment` → `Niche` → Vintage Typewriter Repair Niche | Narrow slice served by a specialized offer. |
-| `Market` → Arena Market → `Market Taxonomy` | Grouping: the Noetic instrument classifying markets. |
-| `Market` → Arena Market → `Market Taxonomy` → Segmentation Scheme | Standardized scheme (B2B/B2C, geographic, demographic) tagging markets. |
+| Market `(→ Part)` Arena Market | Recognition-constituted arena where offers meet demand and prices coordinate. |
+| Market `(→ Part)` Arena Market `(→ Part)` `Interaction Unit` | Grouping: participating units. |
+| Market `(→ Part)` Arena Market `(→ Part)` `Interaction Unit` `(→ Kind)` Buyer | Unit demanding the product. |
+| Market `(→ Part)` Arena Market `(→ Part)` `Interaction Unit` `(→ Kind)` Seller | Unit offering the product. |
+| Market `(→ Part)` Arena Market `(→ Part)` Synontic Element | Grouping: recognition-constituted coordinators. |
+| Market `(→ Part)` Arena Market `(→ Part)` Synontic Element `(→ Part)` Exchange Contract | Coordinator recognizing agreed terms. |
+| Market `(→ Part)` Arena Market `(→ Part)` Price / Asset | Grouping: scalar coordination variables. |
+| Market `(→ Part)` Arena Market `(→ Part)` Price / Asset `(→ Part)` Clearing Price | Scalar at which offers and demands meet. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment | Grouping: demand-side slices. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Premium Segment | Slice served by higher-value offers. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Rural Segment | Slice defined by spatial access. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Subsegment | Grouping: finer slices. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Subsegment `(→ Kind)` Luxury Sedan Subsegment | Finer slice within the premium automotive segment. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Subsegment `(→ Part)` Niche | Grouping: narrow specialized slices. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Segment `(→ Kind)` Subsegment `(→ Part)` Niche `(→ Kind)` Vintage Typewriter Repair Niche | Narrow slice served by a specialized offer. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Taxonomy | Grouping: the Noetic instrument classifying markets. |
+| Market `(→ Part)` Arena Market `(→ Part)` Market Taxonomy `(→ Part)` Segmentation Scheme | Standardized scheme (B2B/B2C, geographic, demographic) tagging markets. |
 
 ## References
 
