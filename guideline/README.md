@@ -43,8 +43,8 @@ Rules for files and directories we author:
   `bin/build_note_index.py:slugify_segment()` for the canonical form. The viewer
   resolves `note.html?n=<path>` against this directory.
 - **Country-keyed path segments** — where a directory is keyed by country (for
-  example `app/note/data/social/actor/research/<code>/` or
-  `app/note/data/social/state/space/<code>/region/`), use ISO 3166-1 alpha-3,
+  example `app/note/data/social/actor/societal/research/<code>/` or
+  `app/note/data/social/actor/state/space/<code>/region/`), use ISO 3166-1 alpha-3,
   lowercase (`usa`, `deu`, `chn`, `gbr`, `grc`); never alpha-2 or country names.
   Entities without an alpha-3 code (devolved nations, defunct states) are
   explicit exceptions.

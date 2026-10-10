@@ -197,7 +197,7 @@ Limits:
 ## References
 
 - [An Essay on the Notion of Agency](https://www.notion.so/Agency-eebe9b5a15d84a3db7a1a1273fc29a2c?source=copy_link)
-- [Techno-Productivist Agential Principle Set (T-PAPS)](techno-productivist-agential-principle-set.md)
+- [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/actor/state/agency/guidance/principle.md)
 - [The Agent–Social-Reality Hard Coupling Problem](agent-social-reality-hard-coupling-problem.md)
 - [Social Change](note.html?n=social/onto/guide/change/change.md)
 - Emirbayer, M., & Mische, A. (1998). "What Is Agency?" American Journal of Sociology, 103(4), 962-1023.

@@ -52,7 +52,7 @@
 
 > A taxonomy (conceptual structure) that renders the `social reality` intelligible.
 
-> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, agency modes, intentions, actions, action guidance, action organization, action instrumentation, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, intentions, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
+> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, agency modes, intentions, social actors, actions, action guidance, frameworks, action organization, action instrumentation, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, intentions, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
 
 > **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
 
@@ -61,6 +61,9 @@
 | **Meta** | `(root) := <<Social Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `:=` binds the root slot to the instance's type; `->` steps down containment below. | e.g. bound to `Social Compound` for a labor market; to `Institution` for a bank |
 | **Meta** | `(root) := <<Social Element>> -> Social Order` | The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together. | Social scaffolding and its coordinators |
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor | An interaction unit considered as a participant in collective life under common authority; every instance resolves to exactly one side of the partition. `Social` names the interactional dimension; `Societal` below names of-society-as-opposed-to-state. | A ministry as actor; a household as actor |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor -> State Actor | Actor constituted by public authority, wielding delegated sovereign power or executing a public mandate. | Ministry, court, central bank, state laboratory, municipality |
+| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor -> Societal Actor | Actor constituted outside public authority. | Person, household, firm, association, party, movement |
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Individual Agency | Agency exercised by a single interaction unit: the locus of personal intention and choice. | A manager's hiring decision; a voter's ballot |
 | **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Joint Agency | Agency constituted by two or more units jointly committed to a shared intention: irreducibly plural, never the sum of individual agencies. | A bargaining pair; co-signing ministers; a crew's shared commitment |
@@ -82,6 +85,7 @@
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Principle | General rule or standard guiding and evaluating action. | Precautionary principle, subsidiarity |
 | **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Rule | Explicitly codified constraint prescribing or prohibiting conduct. | Quorum rule, eligibility rule |
 | **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Doctrine | Authoritative body of guiding tenets orienting action in a domain. | Monroe Doctrine, counterinsurgency doctrine |
+| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Framework | Organizing lens and architecture structuring perception and action in a domain; operative (transformation designs) or analytic (grammars for reading change). | TP-SF-ATF, Social Region Change Toolkit Foundation |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization | Organization structure: forms arranging actions into coordinated wholes across agents and time. | Plan, Program, Project, Workflow, Schedule, Initiative, Roadmap, Charter, Agenda |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Plan | Deliberate arrangement of future actions specifying ends, means, and sequence. | Evacuation plan, business plan |
 | **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Program | Coordinated set of projects pursued under one objective. | Vaccination program, electrification program |
@@ -258,11 +262,11 @@ The tree is governed by the following rules:
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/state/action/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/actor/state/agency/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
-> Through the three `Social Action` instrument branches, one per structural job: **Action Guidance** orients (guides) subsequent action — `Strategy`, `Policy`, `Principle`, `Rule`, `Doctrine` declare ends, courses, and standards; **Action Organization** arranges (organizes) actions into coordinated wholes — `Plan`, `Program`, `Project`, `Workflow`, `Schedule`, `Initiative`, `Roadmap`, `Charter`, `Agenda` compose sequence, mandate, and timing; **Action Instrumentation** steers (coordinates and controls) execution — inspection, audit visit, permit issuance, sanction, monitoring dashboard, enforcement order are the operative means wielded by agencies to steer, monitor, and enforce organized action. Guidance declares, organization composes, instrumentation operates: a tax policy orients, a collection program arranges, the audit visit controls.
+> Through the three `Social Action` instrument branches, one per structural job: **Action Guidance** orients (guides) subsequent action — `Strategy`, `Policy`, `Principle`, `Rule`, `Doctrine`, `Framework` declare ends, courses, standards, and organizing lenses (frameworks structure perception and action; strategies select ends and means; policies authorize courses); **Action Organization** arranges (organizes) actions into coordinated wholes — `Plan`, `Program`, `Project`, `Workflow`, `Schedule`, `Initiative`, `Roadmap`, `Charter`, `Agenda` compose sequence, mandate, and timing; **Action Instrumentation** steers (coordinates and controls) execution — inspection, audit visit, permit issuance, sanction, monitoring dashboard, enforcement order are the operative means wielded by agencies to steer, monitor, and enforce organized action. Guidance declares, organization composes, instrumentation operates: a tax policy orients, a collection program arranges, the audit visit controls.
 
 ### What is the **most abstract formulation** that association can take?
 
@@ -291,11 +295,19 @@ The tree is governed by the following rules:
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem.md) and specialized for policy at [Problem](note.html?n=social/state/problem/problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem.md) and specialized for policy at [Problem](note.html?n=social/actor/state/problem/problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
 > As `Interaction Unit -> Agency -> Joint Agency`: agency constituted by two or more units' shared commitment (a bargaining pair, co-signing ministers, a crew's shared commitment). It is distinct from `Individual Agency` (one unit) and from `Collective Agency` (a compound unit acting through its decision architecture — a board, a legislature, a firm). A joint commitment is readable as several individual intentions only by losing what makes it joint: the mutual recognition that each intends *with* the other. When the mutuality itself is the instance under study, decompose the joint agency; when the parties' separate stakes are, decompose each unit's `Individual Agency` and cross-link.
+
+### Where do state and societal actors decompose?
+
+> Under `Interaction Unit -> Social Actor`, one side each. A **State Actor** is constituted by public authority and wields delegated sovereign power or executes a public mandate — ministries, courts, central banks, municipalities, state laboratories, the nation-state as actor. A **Societal Actor** is constituted outside public authority — persons, households, firms, associations, parties, movements. An actor readable as both grows one tree per reading and never carries two types on one row: a state-owned enterprise decomposes as a firm (societal) and as a state arm (state); an office-holder decomposes as a person (societal) with the office read as a `Social Role` where the mandate lives.
+
+### What makes an actor a state actor?
+
+> Two jointly necessary tests: (1) **constitution** — created, chartered, or empowered by public authority (law, sovereign act); (2) **mandate** — tasked with wielding sovereign power or executing public purposes. Activity alone does not qualify: a private contractor building roads stays societal. Ownership alone is read twice, not compromised: the SOE gets a firm tree and a state tree. Parties seek power but do not wield it — societal. Persons are societal even in office; decompose the office, not the person, where the mandate lives.
 
 ### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?
 
@@ -377,24 +389,24 @@ The tree is governed by the following rules:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Research Activity](note.html?n=social/action/activity/research/research.md)
-- [Science](note.html?n=social/action/activity/research/science/science.md)
-- [Technical Activity](note.html?n=social/action/activity/research/technical/technical-activity.md)
-- [Strategy](note.html?n=social/action/guidance/strategy.md)
-- [Policy](note.html?n=social/state/action/guidance/policy.md)
-- [Principle](note.html?n=social/action/guidance/principle.md)
-- [Rule](note.html?n=social/action/guidance/rule.md)
-- [Doctrine](note.html?n=social/action/guidance/doctrine.md)
-- [Plan](note.html?n=social/action/organization/plan.md)
-- [Program](note.html?n=social/action/organization/program.md)
-- [Project](note.html?n=social/action/organization/project.md)
-- [Workflow](note.html?n=social/action/organization/workflow.md)
-- [Schedule](note.html?n=social/action/organization/schedule.md)
-- [Initiative](note.html?n=social/action/organization/initiative.md)
-- [Roadmap](note.html?n=social/action/organization/roadmap.md)
-- [Charter](note.html?n=social/action/organization/charter.md)
+- [Research Activity](note.html?n=social/actor/action/activity/research/research.md)
+- [Science](note.html?n=social/actor/action/activity/research/science/science.md)
+- [Technical Activity](note.html?n=social/actor/action/activity/research/technical/technical-activity.md)
+- [Strategy](note.html?n=social/actor/action/guidance/strategy.md)
+- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md)
+- [Principle](note.html?n=social/actor/action/guidance/principle.md)
+- [Rule](note.html?n=social/actor/action/guidance/rule.md)
+- [Doctrine](note.html?n=social/actor/action/guidance/doctrine.md)
+- [Plan](note.html?n=social/actor/action/organization/plan.md)
+- [Program](note.html?n=social/actor/action/organization/program.md)
+- [Project](note.html?n=social/actor/action/organization/project.md)
+- [Workflow](note.html?n=social/actor/action/organization/workflow.md)
+- [Schedule](note.html?n=social/actor/action/organization/schedule.md)
+- [Initiative](note.html?n=social/actor/action/organization/initiative.md)
+- [Roadmap](note.html?n=social/actor/action/organization/roadmap.md)
+- [Charter](note.html?n=social/actor/action/organization/charter.md)
 - [Agency](note.html?n=social/onto/guide/agency.md)
-- [Problem](note.html?n=social/state/problem/problem.md)
+- [Problem](note.html?n=social/actor/state/problem/problem.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)

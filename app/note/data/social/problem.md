@@ -9,7 +9,7 @@ tags: [problem, problematization, intention, agency, goal, social-element]
 > A **problem** is the normative gap between the current state of affairs and a desired
 > state, as apprehended by an agent capable of acting on it. This is the general element;
 > the policy-actionable specialization — a problem taken up as warranting a collective
-> course under authority — lives at [Problem](note.html?n=social/state/problem/problem.md).
+> course under authority — lives at [Problem](note.html?n=social/actor/state/problem/problem.md).
 
 ## Formulation
 
@@ -47,13 +47,13 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 ### When does a problem become policy-actionable?
 
-> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](note.html?n=social/state/problem/problem.md); the [Dimension](note.html?n=social/state/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
+> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](note.html?n=social/actor/state/problem/problem.md); the [Dimension](note.html?n=social/actor/state/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Agency](note.html?n=social/onto/guide/agency.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
-- [Problem](note.html?n=social/state/problem/problem.md)
-- [Dimension](note.html?n=social/state/problem/dimension/domain.md)
+- [Problem](note.html?n=social/actor/state/problem/problem.md)
+- [Dimension](note.html?n=social/actor/state/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)

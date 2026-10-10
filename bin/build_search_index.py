@@ -177,8 +177,8 @@ def live_entries() -> list:
         },
         {
             "surface": "live-naics",
-            "file": REPO / "app" / "note" / "data" / "social" / "action" / "activity" / "economic" / "naics-2022.json",
-            "page": "social/action/activity/economic/naics-explorer.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "actor" / "action" / "activity" / "economic" / "naics-2022.json",
+            "page": "social/actor/action/activity/economic/naics-explorer.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
             "type": lambda x: x.get("level") or "",

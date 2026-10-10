@@ -59,4 +59,4 @@ Lineage: mechanical automata and clockwork devices → teleoperation and industr
 - [Biotechnology](note.html?n=technique/systems/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)
 - [Gazebo](note.html?n=technique/systems/gazebo.md) (member decomposed elsewhere: robotics simulation)
 - [Carla](note.html?n=technique/systems/carla.md) (member decomposed elsewhere: autonomous-driving simulation)
-- [UBtech Robotics](note.html?n=social/actor/firm/ubtech-robotics.md) (social-space cross-link: a robot builder, not a member of this set)
+- [UBtech Robotics](note.html?n=social/actor/societal/firm/ubtech-robotics.md) (social-space cross-link: a robot builder, not a member of this set)

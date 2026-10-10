@@ -200,7 +200,7 @@ In this framework, regulation is thus both a foundational ontological element pr
 
 ### Change
 
-> See more in [Ontology of Change](note.html?n=social/state/action/guidance/change.md).
+> See more in [Ontology of Change](note.html?n=social/actor/state/agency/guidance/framework/social-region-change-toolkit-foundation.md).
 
 ### Phenomena
 
