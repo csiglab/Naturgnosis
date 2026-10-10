@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, criminal]
 type: person
-tags: [actor, person, criminal]
 ---
 
 # Vladimir Lenin

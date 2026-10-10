@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Preference Modelling
 
 > Preference modelling is the formal representation and analysis of how individuals or agents rank, evaluate, or choose among a set of alternatives. It seeks to capture the decision-maker’s subjective tastes, priorities, and trade-offs by defining mathematical structures—such as preference relations and utility functions—that reflect their ordering of options. This modelling enables predictions of choice behavior under certainty or uncertainty, facilitates comparison of alternatives, and forms the foundation for economic analysis, game theory, and decision theory.

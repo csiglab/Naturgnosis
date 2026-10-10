@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, physics]
 type: person
-tags: [actor, person, physics]
 ---
 
 # William Thomson, 1st Baron Kelvin

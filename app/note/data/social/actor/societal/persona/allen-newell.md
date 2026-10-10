@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, cognitive-scientist, computer-science]
 type: person
-tags: [actor, person, cognitive-scientist, computer-science]
 ---
 
 # Allen Newell

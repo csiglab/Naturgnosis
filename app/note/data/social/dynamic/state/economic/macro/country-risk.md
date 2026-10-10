@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Country Risk
 
 : 12

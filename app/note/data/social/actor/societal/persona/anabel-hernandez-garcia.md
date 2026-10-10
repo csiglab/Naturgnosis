@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, investigadora]
 type: person
-tags: [actor, person, investigadora]
 ---
 
 # Anabel Hernández García

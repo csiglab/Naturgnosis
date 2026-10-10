@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Price Distortion
 
 > Price distortion = messing up the cost structure as represented by prices.

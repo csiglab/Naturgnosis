@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, sociology, theology]
 type: person
-tags: [actor, person, sociology, theology]
 ---
 
 # Luis de Molina

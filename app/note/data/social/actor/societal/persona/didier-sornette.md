@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, researcher]
 type: person
-tags: [actor, person, researcher]
 ---
 
 # Didier Sornette

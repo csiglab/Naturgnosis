@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Labor
 
 > In this note we will explore the concept of labor.

@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Socialization
 
 : 13

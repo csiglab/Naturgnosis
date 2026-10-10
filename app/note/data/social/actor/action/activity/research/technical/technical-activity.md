@@ -1,5 +1,5 @@
 ---
-tags: [activity, technical-activity, technical, social-element]
+tags: [unfinished, activity, technical-activity, technical, social-element]
 ---
 
 # Technical Activity

@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Human Resource Unit (HRU) & System
 
 > **Human Resource Management (HRM)** is the organizational function concerned with the systematic acquisition, development, deployment, governance, and reproduction of human capabilities in pursuit of organizational objectives.

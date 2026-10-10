@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Philosophy of Economics
 
 > ....

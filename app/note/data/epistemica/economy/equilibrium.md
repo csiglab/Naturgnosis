@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # General Equilibrium Theory
 
 > Is an fundamental asusmption make in clasical / an neo classical economic modelling in which  attempts to explain the behavior of supply, demand, and prices in a 

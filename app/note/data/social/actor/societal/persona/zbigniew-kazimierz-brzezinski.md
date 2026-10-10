@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, politics]
 type: person
-tags: [actor, person, politics]
 ---
 
 # Zbigniew Kazimierz Brzeziński

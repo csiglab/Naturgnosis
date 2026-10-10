@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on the Determination of the Minimal and Sufficient Conditions Required to Initiate the Development and Evolution of an Industrial Sector Toward Convergence and Overtaking
 
 > ...

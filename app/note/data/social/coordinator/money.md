@@ -1,5 +1,5 @@
 ---
-tags: [money, synontic, coordinator, social-element]
+tags: [unfinished, money, synontic, coordinator, social-element]
 ---
 
 # Money

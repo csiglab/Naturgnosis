@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Trompenaars's Model of National Culture Differences
 
 > ...

@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # A Proposal on a New Political Representation Organization
 
 > ...

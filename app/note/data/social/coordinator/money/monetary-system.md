@@ -1,5 +1,5 @@
 ---
-tags: [monetary-system, synontic, coordinator, social-element]
+tags: [unfinished, monetary-system, synontic, coordinator, social-element]
 ---
 
 # Monetary System

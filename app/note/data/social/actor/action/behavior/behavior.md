@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Behavior
 
 > **Behavior** is typically the pattern or expression of actions by Interaction Units in response to interactions, regulations, environment, or internal state.

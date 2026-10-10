@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, biology, theology]
 type: person
-tags: [actor, person, biology, theology]
 ---
 
 # Juan Ignacio Molina

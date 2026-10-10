@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, sociology]
 type: person
-tags: [actor, person, sociology]
 ---
 
 # Claude Lévi-Strauss

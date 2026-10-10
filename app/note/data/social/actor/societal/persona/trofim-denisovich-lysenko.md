@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, scientist]
 type: person
-tags: [actor, person, scientist]
 ---
 
 # Trofim Denisovich Lysenko

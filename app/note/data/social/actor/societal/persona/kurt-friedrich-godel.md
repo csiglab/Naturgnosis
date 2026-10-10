@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, logic]
 type: person
-tags: [actor, person, logic]
 ---
 
 # Kurt Friedrich Gödel

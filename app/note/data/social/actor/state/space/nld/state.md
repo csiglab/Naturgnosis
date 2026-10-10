@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Kingdom of the Netherlands
 
 > The Kingdom of the Netherlands is a sovereign political entity constituted by a constitutional monarchy and a parliamentary democracy, composed of four constituent countries—namely the Netherlands, Aruba, Curaçao, and Sint Maarten—that share a common monarch, a unified foreign policy, and defense system, while retaining distinct internal autonomy and legal systems. The Kingdom operates under a constitutional Charter that regulates the relationships among its parts, reflecting a plurinational, asymmetrically decentralized structure rooted in historical colonial ties.

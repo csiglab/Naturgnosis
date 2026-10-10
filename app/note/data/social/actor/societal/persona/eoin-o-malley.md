@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, economist, industrialist]
 type: person
-tags: [actor, person, economist, industrialist]
 ---
 
 # Eoin O'Malley

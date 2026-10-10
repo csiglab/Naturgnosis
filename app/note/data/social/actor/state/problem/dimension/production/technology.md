@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Technology
 
 > Note: That technology is basically technical knowledge.

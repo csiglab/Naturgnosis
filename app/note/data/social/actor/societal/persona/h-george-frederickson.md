@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, mangement, public-management]
 type: person
-tags: [actor, person, mangement, public-management]
 ---
 
 # H. George Frederickson

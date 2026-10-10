@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, inversor]
 type: person
-tags: [actor, person, inversor]
 ---
 
 # Martin Shkreli

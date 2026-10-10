@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, history]
 type: person
-tags: [actor, person, history]
 ---
 
 # Fernand Paul Achille Braudel

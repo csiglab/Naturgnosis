@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, mathematics]
 type: person
-tags: [actor, person, mathematics]
 ---
 
 # Alexander Grothendieck,

@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, cognitive-scientist, neuroscience]
 type: person
-tags: [actor, person, cognitive-scientist, neuroscience]
 ---
 
 # Warren Sturgis McCulloch

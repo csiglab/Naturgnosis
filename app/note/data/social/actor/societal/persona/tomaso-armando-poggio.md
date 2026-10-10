@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, neuroscience]
 type: person
-tags: [actor, person, neuroscience]
 ---
 
 # Tomaso Armando Poggio

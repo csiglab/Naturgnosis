@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, estratega, industrialist]
 type: person
-tags: [actor, person, estratega, industrialist]
 ---
 
 # Samuel Slater

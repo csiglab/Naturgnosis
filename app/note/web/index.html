@@ -696,6 +696,7 @@
                 <button type="button" class="viewbtn" data-view="files">files</button>
                 <button type="button" class="viewbtn" id="pins-toggle" aria-pressed="false" title="Show pinned notes only">&#9733; pinned</button>
                 <button type="button" class="viewbtn" id="live-toggle" aria-pressed="false" title="Show live notes only">&#9673; Live</button>
+                <button type="button" class="viewbtn" id="unfinished-toggle" aria-pressed="false" title="Show unfinished notes only">&#9681; unfinished</button>
             </div>
             <div class="search-wrap">
                 <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -743,7 +744,7 @@
         var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
         var VIEWS = ['browse', 'files'];
         var GRID_PAGE = 48;
-        var state = { q: '', section: 'all', dir: '', view: 'browse', page: 1, pageSize: GRID_PAGE, liveOnly: false };
+        var state = { q: '', section: 'all', dir: '', view: 'browse', page: 1, pageSize: GRID_PAGE, liveOnly: false, unfinishedOnly: false };
         var PINS = [];          /* pinned note paths, server order */
         var pinsAvailable = false;
         var lastTotalPages = 1;
@@ -885,6 +886,8 @@
 
         function isPinned(p) { return PINS.indexOf(p) >= 0; }
 
+        function isUnfinished(n) { return !!n.tags && n.tags.indexOf('unfinished') >= 0; }
+
         function parentDir(p) {
             var i = p.lastIndexOf('/');
             return i < 0 ? '' : p.slice(0, i);
@@ -911,6 +914,7 @@
             var list = NOTES.filter(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return false;
                 if (state.liveOnly && n.kind !== 'live') return false;
+                if (state.unfinishedOnly && !isUnfinished(n)) return false;
                 if (parentDir(n.path) !== state.dir) return false;
                 if (!q) return true;
                 return score(n, q) >= 0;
@@ -932,6 +936,7 @@
             var list = NOTES.filter(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return false;
                 if (state.liveOnly && n.kind !== 'live') return false;
+                if (state.unfinishedOnly && !isUnfinished(n)) return false;
                 if (!inDir(n)) return false;
                 if (!q) return true;
                 return score(n, q) >= 0;
@@ -1013,6 +1018,7 @@
             NOTES.forEach(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return;
                 if (state.liveOnly && n.kind !== 'live') return;
+                if (state.unfinishedOnly && !isUnfinished(n)) return;
                 var pre = state.dir + '/';
                 if (n.path.indexOf(pre) !== 0) return;
                 var rest = n.path.slice(pre.length);
@@ -1033,6 +1039,7 @@
             NOTES.forEach(function (n) {
                 if (state.section === 'pinned' && !isPinned(n.path)) return;
                 if (state.liveOnly && n.kind !== 'live') return;
+                if (state.unfinishedOnly && !isUnfinished(n)) return;
                 var seg = n.path.split('/')[0] || n.path;
                 var e = map[seg] || (map[seg] = { name: seg, path: seg, count: 0, hit: false });
                 e.count++;
@@ -1070,7 +1077,7 @@
            jump back without a reload; the files view shows the count line. */
         function renderCrumbbar(subs, fileCount) {
             var bar = document.getElementById('crumbbar');
-            var filtered = state.dir || state.section !== 'all' || state.liveOnly;
+            var filtered = state.dir || state.section !== 'all' || state.liveOnly || state.unfinishedOnly;
             if (!state.dir && state.view !== 'files' && !filtered) {
                 bar.hidden = true;
                 bar.innerHTML = '';
@@ -1093,7 +1100,7 @@
             emptyEl.hidden = count > 0;
             emptyEl.textContent = state.section === 'pinned'
                 ? 'no pins yet \u2014 star a note.'
-                : (state.liveOnly ? 'no live notes match.' : 'no notes match.');
+                : (state.liveOnly ? 'no live notes match.' : (state.unfinishedOnly ? 'no unfinished notes match.' : 'no notes match.'));
             pagerEl.hidden = totalPages <= 1;
             if (totalPages <= 1) return;
             indEl.textContent = 'page ' + state.page + ' / ' + totalPages;
@@ -1105,7 +1112,7 @@
         /* ---------- navigation (pushState file browsing) ---------- */
 
         function snapshot() {
-            return { view: state.view, dir: state.dir, section: state.section, q: state.q, live: state.liveOnly };
+            return { view: state.view, dir: state.dir, section: state.section, q: state.q, live: state.liveOnly, unfinished: state.unfinishedOnly };
         }
 
         function syncUrl(push) {
@@ -1115,6 +1122,7 @@
                 if (state.dir) sp.set('dir', state.dir);
                 if (state.section === 'pinned') sp.set('section', 'pinned');
                 if (state.liveOnly) sp.set('live', '1');
+                if (state.unfinishedOnly) sp.set('unfinished', '1');
                 if (state.q.trim()) sp.set('q', state.q.trim());
                 var url = 'index.html?' + sp.toString();
                 if (push) history.pushState(snapshot(), '', url);
@@ -1135,6 +1143,7 @@
             var s = qs.get('section');
             state.section = (s && s.toLowerCase() === 'pinned') ? 'pinned' : 'all';
             state.liveOnly = qs.get('live') === '1';
+            state.unfinishedOnly = qs.get('unfinished') === '1';
             var q = qs.get('q');
             state.q = q ? q.slice(0, 200) : '';
             state.page = 1;
@@ -1166,6 +1175,13 @@
             render();
         }
 
+        function toggleUnfinished() {
+            state.unfinishedOnly = !state.unfinishedOnly;
+            state.page = 1;
+            syncUrl(false);
+            render();
+        }
+
         function setView(v) {
             if (VIEWS.indexOf(v) < 0 || v === state.view) return;
             navigate({ view: v });
@@ -1184,6 +1200,10 @@
             var lon = !!state.liveOnly;
             lv.classList.toggle('active', lon);
             lv.setAttribute('aria-pressed', lon ? 'true' : 'false');
+            var uf = document.getElementById('unfinished-toggle');
+            var uon = !!state.unfinishedOnly;
+            uf.classList.toggle('active', uon);
+            uf.setAttribute('aria-pressed', uon ? 'true' : 'false');
         }
 
         /* ---------- stats modal (explorer stats-modal pattern) ---------- */
@@ -1316,6 +1336,7 @@
                 state.dir = s.dir || '';
                 state.section = s.section === 'pinned' ? 'pinned' : 'all';
                 state.liveOnly = !!s.live;
+                state.unfinishedOnly = !!s.unfinished;
                 if (typeof s.q === 'string') {
                     state.q = s.q;
                     document.getElementById('search').value = s.q;
@@ -1364,6 +1385,7 @@
                 else if (state.view === 'files') document.title = 'All files · Notes';
                 else if (state.section === 'pinned') document.title = 'Pinned · Notes';
                 else if (state.liveOnly) document.title = 'Live · Notes';
+                else if (state.unfinishedOnly) document.title = 'Unfinished · Notes';
                 render();
                 syncUrl(false);
             })
@@ -1385,6 +1407,7 @@
 
         document.getElementById('pins-toggle').addEventListener('click', togglePinned);
         document.getElementById('live-toggle').addEventListener('click', toggleLive);
+        document.getElementById('unfinished-toggle').addEventListener('click', toggleUnfinished);
 
         var resizeTimer = null;
         window.addEventListener('resize', function () {

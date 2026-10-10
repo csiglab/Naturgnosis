@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 Guiding Questions:
 
 - **What is the civil service?** What is its scope? How should the public-sector HR system be structured? Are teachers part of the public sector? Should We Structure HR Branches - By Role's?

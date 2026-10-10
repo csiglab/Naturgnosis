@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Good
 
 > A **good** is a tangible product or service that satisfies a consumer's needs or desires and has value in exchange for money or other consideration.

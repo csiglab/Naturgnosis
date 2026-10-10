@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Feedback
 
 > **Feedback** can be thought of as a type of signal in economics and other fields. In complex systems, feedback is a signal that conveys information about the impact of an action or decision on the system as a whole. Feedback can be positive or negative, depending on whether the impact of an action or decision amplifies or dampens the behavior of the system.

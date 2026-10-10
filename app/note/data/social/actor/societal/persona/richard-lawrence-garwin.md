@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, physics]
 type: person
-tags: [actor, person, physics]
 ---
 
 # Richard Lawrence Garwin

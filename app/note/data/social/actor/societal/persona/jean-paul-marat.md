@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, policy, politics, scientist, sociology]
 type: person
-tags: [actor, person, policy, politics, scientist, sociology]
 ---
 
 # Jean-Paul Marat

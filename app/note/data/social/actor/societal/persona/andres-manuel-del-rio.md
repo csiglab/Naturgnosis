@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person]
 type: person
-tags: [actor, person]
 ---
 
 # Andrés Manuel del Río

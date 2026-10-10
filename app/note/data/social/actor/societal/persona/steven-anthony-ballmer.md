@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, business]
 type: person
-tags: [actor, person, business]
 ---
 
 # Steven Anthony Ballmer

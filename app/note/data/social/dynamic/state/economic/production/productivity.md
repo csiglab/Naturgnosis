@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Productivity
 
 > Productivity in the economic dimension of the social sphere of reality is a **state descriptor** that expresses the relation between **inputs** and **outputs**.

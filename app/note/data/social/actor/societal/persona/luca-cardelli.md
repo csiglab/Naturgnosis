@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, biology, chemist, computer-science]
 type: person
-tags: [actor, person, biology, chemist, computer-science]
 ---
 
 # Luca Cardelli

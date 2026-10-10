@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, estratega, politics]
 type: person
-tags: [actor, person, estratega, politics]
 ---
 
 # Ernst Johannes Wigforss

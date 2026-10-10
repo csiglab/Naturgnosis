@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, philosophy]
 type: person
-tags: [actor, person, philosophy]
 ---
 
 # Gilles Deleuze

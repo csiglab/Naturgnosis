@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 > Sí, existen varios ejemplos modernos que reflejan **dinámicas similares a la identidad romana** —es decir, **identidades cívico-políticas expansivas, no étnicas**, que se construyen por medio de **instituciones, derechos, valores compartidos, y símbolos estatales**.
 > 
 

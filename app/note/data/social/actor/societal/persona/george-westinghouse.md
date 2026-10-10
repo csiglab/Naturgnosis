@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, industrialist]
 type: person
-tags: [actor, person, industrialist]
 ---
 
 # George Westinghouse

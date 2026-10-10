@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on Limits  Self Organization in Social Systems
 
 > ...

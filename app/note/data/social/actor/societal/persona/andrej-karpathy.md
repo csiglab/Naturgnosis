@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, computer-science, ml]
 type: person
-tags: [actor, person, computer-science, ml]
 ---
 
 # Andrej Karpathy

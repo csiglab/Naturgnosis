@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, computer-science]
 type: person
-tags: [actor, person, computer-science]
 ---
 
 # Leonardo Torres Quevedo

@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # The Agent–Social-Reality Hard Coupling Problem
 
 

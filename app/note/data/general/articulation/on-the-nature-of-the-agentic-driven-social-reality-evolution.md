@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # On the Nature of Agent-Driven Social Reality Evolution
 
 > ...

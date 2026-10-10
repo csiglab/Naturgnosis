@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, economist]
 type: person
-tags: [actor, person, economist]
 ---
 
 # Ha-Joon Chang

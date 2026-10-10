@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, dominicano]
 type: person
-tags: [actor, person, dominicano]
 ---
 
 # Juan Sánchez Ramírez

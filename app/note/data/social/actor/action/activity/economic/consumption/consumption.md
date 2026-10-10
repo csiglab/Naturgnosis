@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Consumption
 
 > Consumption is treated as a **facet of social reality**. While it emerges from the aggregation of individual acts of consumption, the patterns, behaviors, and outcomes at the collective level cannot be fully reduced to individual actions. In other words, the whole exhibits properties that are **more than the sum of its parts**.

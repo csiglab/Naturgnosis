@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Sweden Technical Training Ecosystem (TTE)
 
 > ...

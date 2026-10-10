@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Humanism
 
 > TO BE DONE.

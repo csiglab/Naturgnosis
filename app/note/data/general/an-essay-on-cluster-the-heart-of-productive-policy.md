@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on Cluster: The Heart of Productive Policy
 
 Tags: Lab. Teoría Métodos y Herramientas Arbitristas

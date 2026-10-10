@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on 'Burrocracia'
 
 TO BE DONE

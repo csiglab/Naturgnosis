@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person]
 type: person
-tags: [actor, person]
 ---
 
 # Heródoto de Halicarnaso

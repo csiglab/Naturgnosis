@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on Local Action and Global Outcome
 
 > The Problem of Composition: How Local Instruments Impact or Not Global Outcomes.

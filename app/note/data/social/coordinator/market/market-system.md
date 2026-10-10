@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Market System
 
 > What are the long-term effects of automation on the **labor market**?

@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, mathematics, physics]
 type: person
-tags: [actor, person, mathematics, physics]
 ---
 
 # Jules Henri Poincaré

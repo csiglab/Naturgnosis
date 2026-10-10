@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on Academic Publishing
 
 > "Calling a Academic Publishing Journal  - National Is Just a Horrible Signal;  Of Bad Quality.".

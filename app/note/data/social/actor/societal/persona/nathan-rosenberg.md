@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, economist, history]
 type: person
-tags: [actor, person, economist, history]
 ---
 
 # Nathan Rosenberg

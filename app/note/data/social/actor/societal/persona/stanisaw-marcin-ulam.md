@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, computer-science, fisico, mathematics]
 type: person
-tags: [actor, person, computer-science, fisico, mathematics]
 ---
 
 # Stanisław Marcin Ulam

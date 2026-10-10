@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Agentic Intervention
 
 > How to properly intervene in a Social Region?

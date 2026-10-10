@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, economist, estratega]
 type: person
-tags: [actor, person, economist, estratega]
 ---
 
 # Philipp von Hörnigk

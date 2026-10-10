@@ -26,6 +26,11 @@ python bin/build_note_index.py
   tags: [social-space, method]
   ---
   ```
+- The tag **`unfinished`** is reserved: it marks a note that is not yet
+  finished (stub, placeholder, or work in progress). Add it when the note
+  is not done, remove it when it is. The catalog (`/note/`) has a
+  dedicated `unfinished` filter for this tag, and typing `unfinished`
+  in the search box matches it like any other tag.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`)
   with bespoke interactivity and its own scripts. Served as-is, never
   rendered through the viewer; the catalog still indexes it (title,

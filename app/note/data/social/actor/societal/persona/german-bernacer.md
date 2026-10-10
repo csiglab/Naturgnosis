@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, economist, sociology]
 type: person
-tags: [actor, person, economist, sociology]
 ---
 
 # Germán Bernácer

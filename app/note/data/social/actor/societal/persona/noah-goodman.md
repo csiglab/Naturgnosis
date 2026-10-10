@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, cognitive-scientist]
 type: person
-tags: [actor, person, cognitive-scientist]
 ---
 
 # Noah Goodman

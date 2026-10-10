@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Panic of 1873
 
 > …

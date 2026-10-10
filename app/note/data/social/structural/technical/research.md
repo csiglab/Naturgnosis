@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Research 
 
 > The Knowledge Production System is a compound interaction-regulation system composed of recursive interaction units and layered mechanisms of validation, reproduction, and symbolic control over truth claims. It is deeply embedded in and co-evolves with its environment (culture, economy, polity).

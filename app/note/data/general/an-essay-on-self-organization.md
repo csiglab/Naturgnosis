@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # An Essay on Self Organization in Social Systems
 
 > ...

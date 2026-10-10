@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, business, computer-science]
 type: person
-tags: [actor, person, business, computer-science]
 ---
 
 # Paul Graham

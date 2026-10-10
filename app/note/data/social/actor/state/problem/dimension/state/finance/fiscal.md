@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Tax
 
 Here is a **comprehensive table** organizing the **taxonomy of taxes**:

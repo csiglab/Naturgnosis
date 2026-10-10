@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, estratega, military]
 type: person
-tags: [actor, person, estratega, military]
 ---
 
 # Napoleon Bonaparte

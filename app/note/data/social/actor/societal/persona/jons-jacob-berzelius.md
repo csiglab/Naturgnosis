@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, chemist, researcher]
 type: person
-tags: [actor, person, chemist, researcher]
 ---
 
 # Jöns Jacob Berzelius

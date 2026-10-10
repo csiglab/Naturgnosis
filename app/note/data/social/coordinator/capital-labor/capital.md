@@ -1,3 +1,6 @@
+---
+tags: [unfinished]
+---
 # Capital
 
 > Wealth !!!

@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, estratega]
 type: person
-tags: [actor, person, estratega]
 ---
 
 # Han Feizi

@@ -1,6 +1,6 @@
 ---
+tags: [unfinished, actor, person, chemist]
 type: person
-tags: [actor, person, chemist]
 ---
 
 # Antoine-François de Fourcroy
