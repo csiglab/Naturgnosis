@@ -57,6 +57,6 @@ Readable with its acting side, the `Producer` (unit or role that performs the ac
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Product](note.html?n=social/product.md)
-- [Market](note.html?n=social/market/market.md)
+- [Product](note.html?n=social/coordinator/product/product.md)
+- [Market](note.html?n=social/coordinator/market/market.md)
 - [North American Industry Classification System (NAICS) — U.S. Census Bureau](https://www.census.gov/naics/)

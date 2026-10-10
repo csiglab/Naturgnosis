@@ -166,8 +166,8 @@ def live_entries() -> list:
     catalogs = [
         {
             "surface": "live-hs",
-            "file": REPO / "app" / "note" / "data" / "social" / "product" / "hs-2022.json",
-            "page": "social/product/hs-explorer.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "coordinator" / "product" / "hs-2022.json",
+            "page": "social/coordinator/product/hs-explorer.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: ((x.get("code") or "") + " — " + (x.get("title") or "")).strip(" — "),
             "type": lambda x: x.get("level") or "",
@@ -188,8 +188,8 @@ def live_entries() -> list:
         },
         {
             "surface": "live-taxonomy",
-            "file": REPO / "app" / "note" / "data" / "social" / "product" / "product-taxonomy.json",
-            "page": "social/product/product-taxonomy.html",
+            "file": REPO / "app" / "note" / "data" / "social" / "coordinator" / "product" / "product-taxonomy.json",
+            "page": "social/coordinator/product/product-taxonomy.html",
             "items": lambda raw: raw if isinstance(raw, list) else [],
             "title": lambda x: x.get("label") or x.get("id") or "",
             "type": lambda x: x.get("level") or "",

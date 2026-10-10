@@ -40,5 +40,5 @@ Readable secondarily through its Synontic offer reading (product-as-`Price / Ass
 - Produceologia `docs/Firm/Toolkit/Product/` (MVP, lifecycle, strategy)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Economic Activity](note.html?n=social/actor/action/activity/economic/economic-activity.md)
-- [Market](note.html?n=social/market/market.md)
+- [Market](note.html?n=social/coordinator/market/market.md)
 - [Harmonized System — World Customs Organization](https://www.wcoomd.org/en/topics/nomenclature/overview.aspx)

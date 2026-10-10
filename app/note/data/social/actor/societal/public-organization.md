@@ -72,5 +72,5 @@ Five dimensions jointly locate any government agency in the `Type` branch of [Or
 - [Organization](note.html?n=social/actor/societal/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Firm](note.html?n=social/actor/societal/firm.md) (economic subtype of Organization)
 - [Political Party](note.html?n=social/actor/societal/political-party.md) (political subtype of Organization)
-- [Market](note.html?n=social/market/market.md) (arena public organizations buy, employ, and regulate in)
+- [Market](note.html?n=social/coordinator/market/market.md) (arena public organizations buy, employ, and regulate in)
 - Graph nodes of the same names: `public-organization`, `organization`, `government-agencies`, `executive-agency`, `statutory-boards-and-councils` (Social Space, dataset `social`)

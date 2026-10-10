@@ -8,4 +8,4 @@
 
 - [Matching Theory](https://en.wikipedia.org/wiki/Matching_theory)
 - [Stable Matching Theory](https://en.wikipedia.org/wiki/Stable_matching_theory)
-- [Pairing](note.html?n=social/onto/synontic/pair.md)
+- [Pairing](note.html?n=social/relation/pair.md)

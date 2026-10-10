@@ -46,5 +46,5 @@ Readable secondarily as a coordination `Activity`/`Mechanism` (aggregation-for-c
 - https://en.wikipedia.org/wiki/Shreni (definition, etymology, history 6th c. BCE–12th c. CE, governance, functions, śreṇi-dharma; Majumdar, Thapar, Basham)
 - [Organization](note.html?n=social/actor/societal/organization.md) (parent: Private Organization → Guild → Śreṇi)
 - [Firm](note.html?n=social/actor/societal/firm.md) (modern counterpart of the aggregated enterprise)
-- [Market](note.html?n=social/market/market.md) (arena the aggregation secures)
+- [Market](note.html?n=social/coordinator/market/market.md) (arena the aggregation secures)
 - Graph nodes of the same names: `sreni`, `organization`, `reality.market` (Social Space, dataset `social`); kindred instances: `Merchant Guild`, `Grand Bazaar guilds`

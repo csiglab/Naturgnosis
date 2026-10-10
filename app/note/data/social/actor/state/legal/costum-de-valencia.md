@@ -55,4 +55,4 @@ It is distinct from the `Institution` it helps constitute — the foral regime w
 - *Furs e ordinacions del regne de Valencia* (1482), Lambert Palmart.
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Rule](note.html?n=social/actor/action/guidance/rule.md) (the codified-constraint element type)
-- [Licensing Regime](note.html?n=social/licensing-regime.md) (a sibling institution whose rules allocate rights)
+- [Licensing Regime](note.html?n=social/normative/institution/licensing-regime.md) (a sibling institution whose rules allocate rights)

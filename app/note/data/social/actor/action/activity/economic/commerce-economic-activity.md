@@ -184,7 +184,7 @@ Useful terms:
 | ↳ | Credit scoring | Quantitative assessment of a counterparty's likelihood of payment, pricing credit risk into the terms. |
 | ↳ | Hedging | Offsetting price or rate exposure so a margin does not depend on when a transaction settles. |
 | **Information** | Market information | Collected facts about supply, demand, prices, and conditions, sold or shared as a service. |
-| ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](note.html?n=social/market/market.md). |
+| ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](note.html?n=social/coordinator/market/market.md). |
 | ↳ | Demand forecasting | Projecting future quantities from history, signals, and models. |
 | ↳ | Product information | Descriptions, specifications, and provenance attached to goods so buyers can choose without inspecting. |
 | ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md). |
@@ -768,7 +768,7 @@ $$
 | **Value Creation Mechanism** | **Description** |
 | --- | --- |
 | **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
-| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](note.html?n=social/product.md). |
+| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](note.html?n=social/coordinator/product/product.md). |
 | **Aggregation of fragmented supply** | Combining many small supply items into a sellable quantity, making producers too small to reach the consumer directly reachable at all. |
 | **Transformation and repackaging** | Grading, packing, cutting, assembling: changing the good so it fits a use it did not fit before. |
 | **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](note.html?n=technique/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
@@ -1492,7 +1492,7 @@ $$
 - [Economic Activity](note.html?n=social/actor/action/activity/economic/economic-activity.md)
 - [Perishable Agricultural Products Industry](note.html?n=social/actor/action/activity/economic/perishable-agricultural-products-economic-activity.md)
 - [Production Function](note.html?n=epistemica/production-function.md)
-- [Market](note.html?n=social/market/market.md)
+- [Market](note.html?n=social/coordinator/market/market.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technique/logistics-system.md)
 - [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md)
