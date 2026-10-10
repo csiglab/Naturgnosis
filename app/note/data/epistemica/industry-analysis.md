@@ -22,10 +22,10 @@ tags: [industry, analysis, swot]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Industry Analysis | Lens system for industry inquiry. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Framework` |
-| Industry Analysis → SWOT Lens | Strength-weakness-opportunity-threat cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
-| Industry Analysis → Five Forces Lens | Competitive-force cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
-| Industry Analysis → Value Chain Lens | Activity-chain cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Tool` |
+| Industry Analysis | Lens system for industry inquiry. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework` |
+| Industry Analysis → SWOT Lens | Strength-weakness-opportunity-threat cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Tool` |
+| Industry Analysis → Five Forces Lens | Competitive-force cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Tool` |
+| Industry Analysis → Value Chain Lens | Activity-chain cut. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Tool` |
 
 ## References
 

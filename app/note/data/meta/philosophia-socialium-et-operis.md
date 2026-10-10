@@ -1,3 +1,7 @@
+---
+tags: [social-ontology, method]
+---
+
 # Philosophia Socialium et Operis
 
 > Philosophia Socialium is the scaffolding used to parse, and render intelligible, association — the patterned interactions through which agents coordinate, constrain, and constitute one another.
@@ -16,7 +20,7 @@
 
 ### What is the reality we seek to coordinate within?
 
-> Observer-independent reality as the substrate of association: agents, bonds, lifeworld meanings, and institutional, cultural, and material structures that constrain and respond to social action. Reality is decomposed for inquiry in the Social Order tree below.
+> Observer-independent reality as the substrate of association: agents, bonds, lifeworld meanings, and institutional, cultural, and material structures that constrain and respond to social action. Reality is decomposed for inquiry in the decomposition-tree structure below.
 
 ### At which level of organization do we associate?
 
@@ -28,7 +32,7 @@
 
 ### What is the ontology of the target?
 
-> What is social reality like as associable? Which units, bonds, and coordinators make it up? Ontology answers by constraining what can be coordinated; its constructs for parsing (units, relations, roles, norms, coordinators, structures) live in the Social Order tree below, read always against layers and facets.
+> What is social reality like as associable? Which units, bonds, and coordinators make it up? Ontology answers by constraining what can be coordinated; its constructs for parsing (units, relations, roles, norms, coordinators, structures) live in the decomposition-tree structure below, read always against layers and facets.
 
 ### What is the nature of the `social`?
 
@@ -48,195 +52,74 @@
 
 > Social practice is grounded in the lived experience of togetherness: intentionality directed at others, mutual recognition, and the lifeworld — the pre-given horizon of shared meanings, typifications, and habitual certainties within which every encounter already finds itself. Interaction units (individuals, groups, organizations, polities, networked collectives) and agencies (structured capacities for intention, selection, execution, and feedback) are crystallizations of this phenomenological ground, not its foundation: they name how the self–other pairing stabilizes into recognizable actors, never what makes the pairing possible.
 
-### How can we characterize the social aspect of human experience?
+### What Is the Structure of a Social Element's Decomposition Tree?
+
+> How Can We Characterize the Social Dimension of Human Experience?
 
 > A taxonomy (conceptual structure) that renders the `social reality` intelligible.
 
-> Note: Social Element Type is recursive. The single table below holds the branch: `(root) := <<Social Element>> -> Social Order` (units, agencies, agency modes, intentions, social actors, actions, action guidance, frameworks, action organization, action instrumentation, relations, norms, coordinators, structures, dynamics, economic activity, markets, products). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or warranting coordination — agencies, intentions, institutions, norms, legitimacy, structures, states; the rest are association's units, acts, and coordinators.
+> A `Social Element` is a conceptual innovation that denotes a constituent of social reality, analytically identifiable as an instance of a social element type and capable of being recursively decomposed into other social elements through explicitly typed relationships.
 
-> **Note on relations:** Regarding instance decomposition and the recursive view of the social element type tree, the relations between elements are not specified in this document and are intentionally left open for now.
+#### What is the fundamental structure of a social element's `Decomposition Tree`?
 
-| **Social Category** | **Social Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
-| --- | --- | --- | --- |
-| **Meta** | `(root) := <<Social Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `:=` binds the root slot to the instance's type; `->` steps down containment below. | e.g. bound to `Social Compound` for a labor market; to `Institution` for a bank |
-| **Meta** | `(root) := <<Social Element>> -> Social Order` | The organized association side: units, agencies, actions, relations, norms, coordinators, structures, and dynamics through which agents hang together. | Social scaffolding and its coordinators |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit | Bounded entity capable of interaction: agentive, cognitive/reflexive, relational, nested, state-carrying. | Person, household, firm, party, nation-state, virtual community |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor | An interaction unit considered as a participant in collective life under common authority; every instance resolves to exactly one side of the partition. `Social` names the interactional dimension; `Societal` below names of-society-as-opposed-to-state. | A ministry as actor; a household as actor |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor -> State Actor | Actor constituted by public authority, wielding delegated sovereign power or executing a public mandate. | Ministry, court, central bank, state laboratory, municipality |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Social Actor -> Societal Actor | Actor constituted outside public authority. | Person, household, firm, association, party, movement |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency | Structured capacity to form intentions, select actions, control execution, and integrate feedback. | Deliberative council; automated policy engine; charismatic leadership |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Individual Agency | Agency exercised by a single interaction unit: the locus of personal intention and choice. | A manager's hiring decision; a voter's ballot |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Joint Agency | Agency constituted by two or more units jointly committed to a shared intention: irreducibly plural, never the sum of individual agencies. | A bargaining pair; co-signing ministers; a crew's shared commitment |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Collective Agency | Agency exercised by a compound unit through its decision architecture. | A board's decision; a legislature's vote; a firm's market entry |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention | Intentional structure: the formation and holding of goals, ends, and commitments directing agency. | A firm's expansion commitment; a worker's intent to strike |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Problematization | Apprehended gap between conditions and a norm, and the process of forming it; the social form of problematization (cf. the epistemic process). | Inflation framed as monetary vs supply-driven; a harbor safety deficit |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Deliberation | Weighing of ends, means, and alternatives toward a commitment. | Cabinet debate; board deliberation |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Decision / Choice | Punctual resolution of deliberation into an owned commitment. | Vote to acquire; decision to hire |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Goal | Desired future state coordinating effort: the object an intention takes. | Profit, full employment, carbon neutrality |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Objective / Target | Formalized, measurable specification of a goal. | 20% market share; 50% emissions cut |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization | Compound unit with identity, membership, and rules. | Corporation, trade union, congregation, platform cooperative |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Collective / Organization -> Organizational Unit | Structured actor with internal rules and identity, scoping departments within a collective. | Ministry department, factory division |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action | Causally efficacious relational event between units: interaction, solitary-social, mediated, institutionalized, collective. | Transaction, vote, strike, treaty signature, meme cascade |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity | Coarse bundle of granular social actions performed as one situated doing. | Auditing, commuting, trade negotiation, teaching a course |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Technical Activity | Coarse bundle of granular technical actions: research, development, transfer, operation, maintenance. | Technology development; plant commissioning |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance | Guidance structure: coordinators that orient, license, and constrain subsequent action. | Strategy, Policy, Principle, Rule, Doctrine |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Strategy | Deliberate selection of ends and means over a horizon, coordinating action across agents. | Industrial strategy, market-entry strategy |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Policy | Deliberate course of action adopted by an authority, guiding subsequent decisions. | Tax policy, language policy |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Principle | General rule or standard guiding and evaluating action. | Precautionary principle, subsidiarity |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Rule | Explicitly codified constraint prescribing or prohibiting conduct. | Quorum rule, eligibility rule |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Doctrine | Authoritative body of guiding tenets orienting action in a domain. | Monroe Doctrine, counterinsurgency doctrine |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Guidance -> Framework | Organizing lens and architecture structuring perception and action in a domain; operative (transformation designs) or analytic (grammars for reading change). | TP-SF-ATF, Social Region Change Toolkit Foundation |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization | Organization structure: forms arranging actions into coordinated wholes across agents and time. | Plan, Program, Project, Workflow, Schedule, Initiative, Roadmap, Charter, Agenda |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Plan | Deliberate arrangement of future actions specifying ends, means, and sequence. | Evacuation plan, business plan |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Program | Coordinated set of projects pursued under one objective. | Vaccination program, electrification program |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Project | Time-bounded organized effort toward a defined outcome. | Bridge construction project, ERP rollout |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Workflow | Defined sequence of steps routing work among actors and roles. | Approval workflow, clinical workflow |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Schedule | Temporal allocation sequencing actions, agents, and resources. | Production schedule, class timetable |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Initiative | Bounded undertaking launched to pursue a new objective. | Open-data initiative, reform initiative |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Roadmap | Sequenced long-range outlook aligning planned moves with milestones. | Product roadmap, decarbonization roadmap |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Charter | Founding instrument constituting an organized effort and its mandate. | Project charter, team charter |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Organization -> Agenda | Prioritized set of actions and initiatives ordered for collective attention and pursuit. | 2030 Agenda, industrial agenda |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Action Instrumentation | Instrumentation structure: operative means coordinating and controlling execution — instruments wielded by agencies to steer, monitor, and enforce organized action. | Inspection, audit visit, permit issuance, sanction, monitoring dashboard, enforcement order |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Interaction Pattern | Recurring relational sequences shaped by protocols, scoping repeated exchanges. | Patronage cycle, rotation system, bargaining round |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Allocation | Distribution of scarce goods by rule, scoping who receives what. | Rationing, spectrum auction, quota assignment |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Behavior | Observable pattern of actions over time, scoping an agent's conduct. | Consumer behavior, voting behavior, firm behavior |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network | Structured tie between units; kinship, alliance, exchange, hierarchy. | Supply chain, patronage web, kinship system |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role | Expectation-tag binding actor, context, and interpretation to behavior. | Teacher role, fiduciary role, citizenship |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Power Relation | Asymmetric dependence stabilized into positional advantage. | Creditor–debtor, platform–complementor, metropole–colony |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network -> Link | Minimal dyadic connection composing a network. | Kinship link, trade link |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Social Relation / Network -> Supply Chain | Chain of exchange ties from source to sale. | Coffee chain, chip chain |
-| **Relation** | (root) := <<Social Element>> -> Social Order -> Pair | Minimal dyad stabilized by mutual recognition. | Patron–client pair, mentor–mentee pair |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation | Shared protocol stabilizing interaction: building-block and emergent. | Queuing norm, accounting standard, ceasefire |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution | Stabilized configuration of roles and rules. | Central bank, marriage, land registry |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Institution -> Social Role -> Norm / Regulation -> Right / Obligation | Deontic positions allocating claims and duties. | Property right, duty of disclosure, franchise |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Legitimacy | Recognized warrant of authority. | Electoral mandate, expert accreditation |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Authority | Legitimated power to command and be obeyed. | Judicial authority, episcopal authority |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Convention | Stable coordination pattern sustained by mutual expectation, not enforcement. | Driving side, citation practices, handshake |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Cultural Script | Semantically rich behavior protocol. | Wedding script, courtroom script, bargaining script |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Symbolic System | Full set of labels and interpretive frames used by a collective. | Heraldry, liturgical calendar, scientific nomenclature |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Status | Relative standing recognized by a collective. | Prestige, rank, seniority |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Jurisdiction | Bounded domain of legitimate authority. | Municipality, court district, diocese |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Polity | Political community organized under a common authority. | City-state, tribal confederation |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Regime | Stable pattern of political rule. | Democracy, monarchy, one-party rule |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Governance Structure | Arrangement through which authority and coordination are exercised. | Hierarchy, federalism, collegial board |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Collective Decision Mechanism | Procedure for making collective choices. | Election, consensus conference, sortition |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Interest | Stake in an outcome attributed to a unit. | Political interest, vested interest |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Constraint | Limitation on action recognized in coordination. | Regulation, scarcity, quota |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Incentive | Arrangement shaping behavior toward an outcome. | Wage, tax benefit, bonus |
-| **Normative** | (root) := <<Social Element>> -> Social Order -> Habitus | Durable dispositions shaping perception and action. | Bureaucratic habitus, entrepreneurial habitus |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Belief / Expectation | Shared anticipations coordinating behavior. | Inflation expectations, eligibility beliefs |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Value / Ideology | Evaluative coordinators binding collectives. | Developmentalism, meritocracy, nationalism |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Representation | Symbolically carried image of the group to itself. | Flag, anthem, founding myth |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Identity | Shared interpretive frame binding actors into a we. | Diaspora identity, professional identity |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Collective Mental Model | Shared stabilized schema guiding perception and action. | Safety culture model, growth doctrine of a firm |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Discourse | System of statements shaping perception and action. | Development discourse, security discourse |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Narrative | Structured interpretation of events over time. | Progress narrative, decline narrative |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Symbol | Meaning-bearing sign coordinating recognition. | Logo, uniform, seal |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Language | Communication system enabling coordination. | Spanish, sign language, legalese |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Medium | Channel through which coordination flows. | Gazette, broadcast, platform feed |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Knowledge | Validated information used by actors in coordination. | Engineering knowledge, agronomic calendar |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Tagging System | Semantic labeling rendering states legible; the Noetic primitive. | Credit ratings, industry codes, diagnostic labels |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Compound | Bounded collective scoping a decomposition; the generic compound type. | Port city labor market; river basin community |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure | Constraint topology delimiting the admissible region of collective state space. | Class structure, core–periphery layout |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Environment | Fundamental (geography, resources) and derivative layers conditioning action. | River basin, spectrum commons, diaspora network |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Region | Spatially bounded zone of dense recurrent interaction. | Port city, borderland, special economic zone |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Region -> City | Spatially and institutionally organized local nexus. | Capital city, port city |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Region -> Province | Higher-order territorial aggregation with coordination functions. | Province, canton, territorial department |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure -> Class | Positional differentiation by access to resources. | Working class, rentier class |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Structure -> Hierarchy | Ranked ordering of positions. | Bureaucratic hierarchy, caste order |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Social Field | Arena of interaction governed by specific logics. | Scientific field, political field, artistic field |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Domain | Functional sphere of social activity. | Education, defense, health |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Infrastructure | Foundational enabling system. | Roads, power grid, payment rails |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Resource | Asset usable by actors. | Land, water rights, spectrum |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Property | Attribute used for description, classification, and comparison. | Wealth, population size, centrality |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Wealth | Accumulated stock of valued resources. | Household wealth, sovereign wealth |
-| **Structural** | (root) := <<Social Element>> -> Social Order -> Rent | Economic return from a position or asset. | Land rent, monopoly rent, data rent |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event | Temporally extended transformation or punctual occurrence. | Urbanization, bank run, election, schism |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon | Emergence-to-collapse trajectories: diffusion, escalation, stabilization, realignment. | Norm emergence, trust consolidation, legitimacy crisis |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> State | Complete relevant-variable snapshot of a configuration at a moment. | Fiscal stance, coalition map, readiness posture |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Social Event | Significant occurrence involving actors. | Summit, festival, funeral |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Systemic Transformation | Structural change of an order via interactions. | Revolution, market liberalization |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Crisis | Rupture threatening reproduction of an order. | Financial crisis, cabinet crisis |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Cycle | Recurrent expansion–contraction trajectory. | Business cycle, electoral cycle |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Corruption | Conversion of office into private gain. | Bribery ring, procurement kickback |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Crime | Norm-violating act processed by control institutions. | Theft wave, fraud scheme |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Violence | Coercive harm between units. | Riot, pogrom |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Polarization | Sorting of a collective into opposed camps. | Party polarization, confessional split |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Globalization | Extension of ties and flows beyond borders. | Supply-chain globalization, financial integration |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Mobility | Movement of units across positions and places. | Rural–urban migration, social mobility |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Collective / Organization -> Movement | Collective effort pursuing social or political change. | Labor movement, temperance movement |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Process / Event -> Work | Purposive effort transforming inputs. | Harvest, shift work |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Socialization | Induction of newcomers into norms. | Schooling, onboarding |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Segregation | Sorting of units into homogeneous zones. | Residential segregation, occupational segregation |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Competition | Rivalry for scarce goods or positions. | Price war, electoral race |
-| **Dynamic** | (root) := <<Social Element>> -> Social Order -> Mechanism / Phenomenon -> Technical Change | Diffusion and adoption of techniques. | Electrification, mechanization |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element | Recognition-constituted coordinator persisting through shared interpretation. | Fiat currency, border, stop sign, reputation score |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Capital / Labor | Multi-layer economic operators (potentiality and actuality of productive capacity). | Venture pool, care labor, data asset |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Price / Asset | Scalar coordination variables and claim-objects. | Spot price, license, quota |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Trust | Willingness to be vulnerable based on expectations of another. | Consumer trust, institutional trust |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Money | Medium of exchange and store of value constituted by recognition. | Fiat currency, cryptocurrency |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Label | Tagging that reclassifies its bearer. | Credit rating, certification mark |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Synontic Element -> Technique | Shared know-how coordinating production. | Double-entry bookkeeping, lean method |
-| **Action** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity | Recurrent organized doings provisioning goods and services (Ontic). | Farming, mining, manufacturing, transport, retail, care |
-| **Agents** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity -> Producer | Acting unit or role performing economic activity (Ontic). | Farm, factory, workshop, carrier, shop, utility |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type | Kind of producer by dominant activity (Noetic tag). | Primary producer, processor, assembler, distributor, service provider |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type -> Industry | Classified aggregate of producer types under a common activity (Noetic). | Agriculture, steel, retail, software |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity -> Producer -> Producer Type -> Industry -> Sector | Coarse activity group (Noetic). | Primary, secondary, tertiary, quaternary |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Interaction Unit -> Agency -> Intention -> Social Action -> Activity -> Economic Activity -> Producer Taxonomy | Descriptive instrument ranking producer types (Noetic). | ISIC, NAICS, GICS |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Market | Arena where offers meet demand and prices coordinate (Multi). | Fish market, labor market, stock exchange |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment | Slice of a market by demand characteristics (Noetic). | Premium, rural, SME |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment | Finer slice within a segment (Noetic). | Luxury sedan, entry sedan |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Segment -> Subsegment -> Niche | Narrow slice served by a specialized offer (Noetic). | Vintage typewriter repair |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Market -> Market Taxonomy | Descriptive instrument classifying markets (Noetic). | B2B/B2C, geographic, demographic |
-| **Coordinators** | (root) := <<Social Element>> -> Social Order -> Product | Exchangeable outcome of economic activity offered into a market; a good or service (Multi). | Lemon, cheese, insurance policy |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type | Kind of product, narrowest rank above the concrete product (Noetic). | Beverage, footwear |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family | Family grouping related types (Noetic). | Soft drinks |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category | Market-facing category (Noetic). | Carbonated drinks |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Type -> Product Family -> Product Category -> Product Class | Broadest rank (Noetic). | Beverages |
-| **Cognitive** | (root) := <<Social Element>> -> Social Order -> Product -> Product Taxonomy | Descriptive instrument ranking product kinds (Noetic). | UNSPSC, HS, own nomenclature |
+```text
+Social Element (parent)
+  (→ <Relationship Type>) <Social Element>*  (son)
+```
 
+#### Which are some ideas to guide the decomposotion of a `social element`?
 
-## How to decompose any social instance?
+> A reference table defining the permitted link forms that govern and standardize the recursive decomposition of a `Social Element` into its constituent and related social elements.
 
-> A decomposition of a social instance recursively expands its instance tree from the root, introducing social instances and social element types as intermediate grouping nodes to organize the decomposition. Each instance is typed by the social element type path established by its position in the tree, with the root instance's type declared once and subsequent types determined by the enclosing type segments.
+> **Note:** If a `Social Element` appears as a parent in a decomposition tree, only the child elements explicitly permitted by this reference table may be included, unless the child elements are defined by a template specified using `<<...>>`.
+>
+> **Note:** This kind of structure neither completes nor normates a decomposition. The table states only which parent–child links are permitted; it decomposes nothing by itself, and it does not dictate what any particular element must decompose into. A decomposition is complete only for a bound root instance, grown link by permitted link until every leaf resolves to an instance.
 
-> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
+| Permitted Link Form                                  | Description                                                                                                         | Tags                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| `Social Element (→ Kind) Ontic`                      | Classifies an element as ontic: an entity, structure, process, state, or property.                                  | Classification; Ontic            |
+| `Social Element (→ Kind) Synontic`                   | Classifies an element whose significance depends on shared social recognition or interpretation.                    | Classification; Synontic         |
+| `Social Element (→ Kind) Noetic`                     | Classifies an element pertaining to cognition, knowledge, belief, intention, or other mental phenomena.             | Classification; Noetic           |
+| `Social Element (→ Kind) Multi`                      | Classifies an element that spans or combines multiple fundamental categories.                                       | Classification; Multi            |
+| `Ontic (→ Kind) Interaction Unit`                    | Classifies an entity that can act or participate in social interactions.                                            | Classification; Ontic; Agency    |
+| `Ontic (→ Kind) Social Compound`                     | Classifies a compound constituted by multiple social elements or their organized relations.                         | Classification; Ontic; Structure |
+| `Ontic (→ Kind) Social Relation`                     | Classifies a relation connecting social elements.                                                                   | Classification; Ontic; Relation  |
+| `Ontic (→ Kind) Social Action`                       | Classifies an action performed by an agent within a social context.                                                 | Classification; Ontic; Action    |
+| `Ontic (→ Kind) Activity`                            | Classifies an organized course or set of social actions.                                                            | Classification; Ontic; Activity  |
+| `Ontic (→ Kind) Social Event`                        | Classifies a bounded occurrence in social reality.                                                                  | Classification; Ontic; Dynamics  |
+| `Ontic (→ Kind) Social Process`                      | Classifies a sequence of connected changes or occurrences in social reality.                                        | Classification; Ontic; Dynamics  |
+| `Ontic (→ Kind) Social State`                        | Classifies a condition of a social element or social reality at a given time.                                       | Classification; Ontic; State     |
+| `Ontic (→ Kind) Social Property`                     | Classifies a characteristic or attribute of a social element.                                                       | Classification; Ontic; Property  |
+| `Interaction Unit (→ Has) Intention`                 | Identifies an intention attributed to an interaction unit.                                                          | Agency; Intention                |
+| `Interaction Unit (→ Has) Action Guidance`           | Identifies guidance that informs or directs an interaction unit's actions.                                          | Agency; Guidance                 |
+| `Interaction Unit (→ Has) Action Organization`       | Identifies an arrangement for organizing an interaction unit's actions.                                             | Agency; Organization             |
+| `Interaction Unit (→ Has) Action Instrumentation`    | Identifies instruments or arrangements used to execute, support, monitor, or control an interaction unit's actions. | Agency; Instrumentation          |
+| `Interaction Unit (→ Participation) <<Activity>>`    | Identifies an activity in which an interaction unit participates.                                                   | Agency; Participation            |
+| `Social Compound (→ Part) <<Social Element>>`        | Identifies a social element that constitutes part of a social compound.                                             | Constitution; Structure          |
+| `Social Compound (→ Component) <<Social Element>>`   | Identifies a constituent that fulfills a structural or functional role within a social compound.                    | Constitution; Structure          |
+| `Social Compound (→ Association) <<Social Element>>` | Identifies a social element associated with a social compound without asserting that it constitutes part of it.     | Association; Relation            |
 
-The tree is governed by the following rules:
+## How to decompose any social element?
 
-* **Root:** The root is the social instance being decomposed.
-* **Structure:** Intermediate nodes provide the structure needed to organize the decomposition - they can be social instances - or social types. Social Types cannot be the final nodes in the tree - may be used as grouping nodes, but they are not themselves instances.
-* **Leaves:** Every leaf must resolve to a social instance.
-* **Typing:** Every instance is typed — by its nearest enclosing grouping segment, with the decomposition root's type declared once.
-* **Recursion:** Any instance in the tree may itself be decomposed recursively.
-* **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) := <<Social Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
-* **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Institution` grouping scoping the exchange-rule family inside a Market decomposition, whose counterpart is `(root) := <<Social Element>> -> ... -> Institution`); a same-type segment with only generic description and no scoping function stays forbidden.
-* **Well-Form Instance Tree Path Rule:** Ensure the decomposition provides a rich set of intermediate (internals) nodes - both - type and instances, aiding understanding. The set of intermediate instance nodes representing relationships such as composition, support, dependency, regulation, or other useful structural and dynamic relationships.
-* Style Rules for Intermediate Nodes
-  * **Instances:** Style intermediate nodes that represent actual social instances as plain text (no adornment).
-  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`port city` -> `Port City`, `stage-entry criterion` -> `Stage-Entry Criterion`); preserve established all-caps acronyms (`API`, `EU`). Type segments keep their table casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
-  * **Composite Instance Naming**: A *composite* instance — a nested ensemble (a `Social Compound`, `Collective / Organization`, `Region`, or sub-domain set), not an ordinary unit, role, or mechanism — takes a name ending in `Set` once it sits at a depth greater than 2. Depth counts every segment of the Instance Tree Path, backticked type groupings included, the root type grouping being depth 1. At depth 2 or less the suffix is permitted but never required: `Social Compound` -> `Port City Labor Market Set` (depth 2) keeps it, `Social Compound` -> `Trading Circuit Set` (depth 3) requires it.
-  * **Types:** Style bare social element types used as grouping nodes as `` `code` ``.
-  * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
-  * **Grouping types:** A type used only to group instances is not itself an instance and must not terminate a branch.
-  * The path link - is →.
-* **Social Element Type Tree Path**: In the definition table this column is a template carrying the `<<Social Element>>` root slot; once the root instance's type is bound (`(root) := …`), the instantiated path contains only concrete social element types — no expansion patterns or placeholders.
+> A decomposition recursively expands a social instance tree from its root: bind the root instance, then grow its subtree by attaching only links the `Permitted Link Forms` table allows, down to instance leaves. The reference tables above are scaffolding — necessary but not sufficient, and never normative: they say which links *may* appear, not which decomposition is correct for any given element. Choosing instances, depth, and stopping point remains the decomposer's work on the instance itself.
 
-| Instance Tree Path | Description |
-| --- | --- |
-|  |  |
+**Rules:**
 
-### How to decompose an instance that belongs to multiple element types?
-
-> By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.
-
-> A social element can belong to many types: a market is a `Synontic Element` readable as a `Social Compound`; a firm is a `Collective / Organization` readable as an `Institution` and as a `Social Compound`; a trading round is an `Activity` readable as a `Social Compound`. Each reading gets its own root and its own tree: the Market-as-Coordinator tree decomposes prices, assets, and recognition (coordinator content), while the Market-as-Compound tree decomposes units, relations, and norms (ensemble members). Well-formedness per tree is unchanged — every path must be a path the single table generates; leaves are instances, intermediate nodes give structure.
-
-> When the root typing is ambiguous, ask the user for disambiguation instead of guessing. If no answer comes, build the **default root**: a primary type chosen from the table above (the "How can we characterize the social aspect of human experience?" table), recorded as the note's primary belonging in the "What social element type does this social instance belong to?" Formulation answer, with secondary readings kept as `readable as …` prose. The default root is therefore always explicit in the note itself.
-
-## Terminology
-
-> The terms used across this note — unit, agency, action, relation, role, norm, institution, legitimacy, capital, labor, and the social family — are defined in the [Glossarium](../glossarium/).
+- **Form of the Table:** `Instance Tree Path | Description`.
+- **Instance Tree Path:** A unique, recursively extended path identifying an instance within the decomposition tree. It begins with the root instance and appends each successive child instance through an explicitly labeled relationship, using the form `Parent Instance (→ Relationship Type) Child Instance`. Each successive path must preserve the complete path from the root to the current instance.
+- **Root:** Begin with the first `Permitted Link Form` that connects the `Social Element` being decomposed to its lineage: `<Prefix> <Social Element> <Subtype>`.
+- **Relationship Labeling:** Every link between a parent and child must explicitly identify its relationship type using the notation `(→ Relationship Type)`. Bare arrows are not permitted.
+- **Permitted Links:** Every relationship must conform to a link form allowed by the `Permitted Link Forms` table. A link form licenses a possible relationship; it does not establish that the relationship actually exists in the instance being decomposed.
+- **Instance Grounding:** Each child must represent an element of the particular instance being decomposed, rather than merely a type that could theoretically occur within it. Type labels may be used to identify or organize instances, but classification alone does not establish that a corresponding instance exists.
+- **Recursive Expansion:** Any child instance may itself become the root of a subtree. Expand it when further decomposition is relevant to the purpose and scope of the analysis.
+- **Decomposition Scope:** Select the aspects of the instance that need to be represented. A decomposition need not include every conceivable aspect of social reality; it must adequately cover the aspects relevant to its stated purpose.
+- **Description:** Describe what the instance is, what role it plays, or why it is included in the decomposition. Descriptions clarify the instance but do not substitute for explicit relationship labels.
+- **Stopping Condition:** Stop expanding a branch when its instance is sufficiently specified for the decomposition's purpose, when further expansion is unnecessary, or when the available evidence does not justify additional decomposition. A leaf is a stopping point in the current decomposition, not necessarily an intrinsically indivisible element.
+- **Completeness:** A decomposition is complete relative to its declared scope and stopping criteria, not merely because every branch terminates. Relevant constituents, relations, structures, processes, states, and other aspects must not be omitted simply because the tree is syntactically valid.
+- **Unlicensed or Uncertain Relationships:** If a necessary relationship is not covered by the reference table, do not silently invent a permitted link or substitute an unrelated one. Identify the gap and extend the reference table when justified. If the existence of a relationship is uncertain, mark that uncertainty rather than presenting the relationship as established.
+- **Instance Identity:** Distinguish different instances even when they share the same type or description. The full `Instance Tree Path` identifies an instance's position within the particular decomposition; it does not, by itself, establish a globally unique identity outside that tree.
+- **Tree Structure:** Each non-root row must extend an existing parent path by exactly one child relationship. The same instance may appear in multiple branches when it plays different roles in the decomposition; each occurrence must have its own path.
+- **Non-Normativity of Reference Tables:** The reference tables constrain which link forms may be used. They do not prescribe a universal decomposition order, determine which children must be included, or guarantee that a decomposition is conceptually adequate.
 
 ## QA
 
@@ -262,24 +145,11 @@ The tree is governed by the following rules:
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/actor/state/agency/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
 > Through the three `Social Action` instrument branches, one per structural job: **Action Guidance** orients (guides) subsequent action — `Strategy`, `Policy`, `Principle`, `Rule`, `Doctrine`, `Framework` declare ends, courses, standards, and organizing lenses (frameworks structure perception and action; strategies select ends and means; policies authorize courses); **Action Organization** arranges (organizes) actions into coordinated wholes — `Plan`, `Program`, `Project`, `Workflow`, `Schedule`, `Initiative`, `Roadmap`, `Charter`, `Agenda` compose sequence, mandate, and timing; **Action Instrumentation** steers (coordinates and controls) execution — inspection, audit visit, permit issuance, sanction, monitoring dashboard, enforcement order are the operative means wielded by agencies to steer, monitor, and enforce organized action. Guidance declares, organization composes, instrumentation operates: a tax policy orients, a collection program arranges, the audit visit controls.
-
-### What is the **most abstract formulation** that association can take?
-
-- Units → Relations → Coordination.
-- Separate Decisions → Coupled Interaction → Stabilized Order.
-
-### Why is the category `Social Compound` required?
-
-> A **Social Compound** is required to represent coherent social ensembles whose members belong to different social element types but are related through a common collective scope, site, or coordination problem.
-
-> Without this category, the taxonomy can describe the individual elements of such an ensemble, but it lacks a type for representing **the ensemble itself as a social entity of organization**.
-
-> **Take as example:** a port city labor market. It comprises employers, households, intermediaries, hiring transactions, referral webs, exchange rules, wage levels, contracts, expectations, and hiring surges. These elements have different social element types, but are related through the common scope of matching workers to work in one basin. The **Social Compound** category provides a type for representing this coherent ensemble as a whole.
 
 ### Why shouldn't `Social Knowledge` be a social element type?
 
@@ -287,15 +157,15 @@ The tree is governed by the following rules:
 
 ### How does Social Space deal with epistemic elements — economic models and the like?
 
-> By reference, not by residence — so **link to Epistemic Space, do not integrate**. A demand forecast, a DSGE model, an input-output table, a market-segmentation study: these are epistemic artifacts, constructed, validated, and revised by observers. Decompose them epistemically (Observation Interface, Concrete Epistemic Artifact, Epistemic Standard) and link them from the social tree that uses them. What belongs in Social Space is what such artifacts leave behind in coordination: the shared expectation, the moved price, the justified norm, the classification the market acts upon. The `Producer Taxonomy`, `Product Taxonomy`, and `Market Taxonomy` rows above are Noetic instruments of exactly this kind — they live in the social decomposition as tagging handles, while the models that warrant them live in Epistemic Space. When an instance is unreadable without its model, document both readings in one multi-root note and cross-link the roots; never file the model itself as a social element.
+> By reference, not by residence — so **link to Epistemic Space, do not integrate**. A demand forecast, a DSGE model, an input-output table, a market-segmentation study: these are epistemic artifacts, constructed, validated, and revised by observers. Decompose them epistemically (Observation Interface, Concrete Epistemic Artifact, Epistemic Standard) and link them from the social tree that uses them. What belongs in Social Space is what such artifacts leave behind in coordination: the shared expectation, the moved price, the justified norm, the classification the market acts upon. Producer, Product, and Market taxonomies are Noetic instruments of exactly this kind — they live in a social decomposition as tagging handles, while the models that warrant them live in Epistemic Space. When an instance is unreadable without its model, document both readings in one multi-root note and cross-link the roots; never file the model itself as a social element.
 
 ### Why do we need the idea of a facet?
 
-> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](note.html?n=social/onto/facet.md).
+> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](note.html?n=social/facet.md).
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem.md) and specialized for policy at [Problem](note.html?n=social/actor/state/problem/problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem.md) and specialized for policy at [Problem](note.html?n=social/actor/collective/problem/problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -309,62 +179,66 @@ The tree is governed by the following rules:
 
 > Two jointly necessary tests: (1) **constitution** — created, chartered, or empowered by public authority (law, sovereign act); (2) **mandate** — tasked with wielding sovereign power or executing public purposes. Activity alone does not qualify: a private contractor building roads stays societal. Ownership alone is read twice, not compromised: the SOE gets a firm tree and a state tree. Parties seek power but do not wield it — societal. Persons are societal even in office; decompose the office, not the person, where the mandate lives.
 
-### (Case Study) What is the recursively decomposed instance tree of a Market and its Firms?
+### How to Create a Decomposition Tree?
 
-> Worked decomposition of a port city labor market and its member firms, grown from the markets-and-firms QA answer to full intermediate detail. Children are grouped under bare type-name segments, so the typing reads directly from the instance path: `Port City Labor Market Set` and `Member Firm Set` give structure (compound scoping its collectives; the firm set grouping its institution beneath it); `Employer`, `Hiring Board`, `Vacancy Commitment`, and `Hire Transaction` further structure their agencies, intentions, actions, and activities beneath them, and `Harbor Hiring Institution`, `Foreman Role`, and `Shift Allocation Norm` structure a third level of roles, norms, and obligations beneath them; every grouping segment has its own row carrying the grouped type. Typing reads directly from the instance path: each instance resolves to the nearest enclosing grouping segment's type; the tree roots at `Social Compound` scoping the labor market, decomposed here under the economic facet. The remaining rows are final-node instances — concrete contracts, wages, quotas, webs, layouts, surges, and snapshots — and `Harbor Shipyard Employer` and `Port Cooperative Employer` hang directly under the employer as exemplar leaves realizing it, with one concrete registration identifier each. Deployment-specific values and named firms appear only in rows marked exemplar.
+- `→` represents a directed relationship between two social elements. The relationship should be explicitly identified whenever necessary (e.g., `Interaction Unit → Has Agency → Agency → Has Intention → Intention → Is Directed Toward → Goal`).
 
-| Instance Tree Path | Description |
-| --- | --- |
-| `Social Compound` → Port City Labor Market Set | Bounded collective matching workers to work in one harbor basin. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` | Grouping: interaction units constituting the market. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer | Agentive unit offering work; deployments realize this unit. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` | Grouping: agencies of the employer. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board | Structured capacity selecting whom to hire and on which terms. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` | Grouping: intention structure of the board. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` → Vacancy Commitment | Directed commitment to fill prioritized openings on stated terms. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` → Vacancy Commitment → `Social Action` | Grouping: actions executing the commitment. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` → Vacancy Commitment → `Social Action` → Hire Transaction | Causally efficacious relational event binding employer to worker. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` → Vacancy Commitment → `Social Action` → Hire Transaction → `Activity` | Grouping: activity bundles stabilizing the transaction. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → `Agency` → Hiring Board → `Intention` → Vacancy Commitment → `Social Action` → Hire Transaction → `Activity` → Onboarding Activity | Coarse bundle of granular onboarding acts inducting hires into rosters and shifts. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer | Exemplar employer realizing the unit. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` | Grouping: deployment identifiers. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Harbor Shipyard Employer → `State` → Harbor Registry Identifier | Deployment identifier of the shipyard employer (exemplar value per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer | Exemplar employer realizing the unit. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer → `State` | Grouping: deployment identifiers. |
-| `Social Compound` → Port City Labor Market Set → `Interaction Unit` → Employer → Port Cooperative Employer → `State` → Cooperative Registry Identifier | Deployment identifier of the cooperative employer (exemplar value per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` | Grouping: compound units with identity and membership. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set | Compound employer with membership and rules; scopes its hiring institution. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` | Grouping: institutions of the firm set. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution | Stabilized configuration of hiring roles and rules. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` | Grouping: roles of the institution. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role | Expectation-tag binding hiring authority to shift allocation. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` | Grouping: norms of the role. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm | Shared protocol stabilizing who works which shift. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm → `Right / Obligation` | Grouping: deontic positions of the norm. |
-| `Social Compound` → Port City Labor Market Set → `Collective / Organization` → Member Firm Set → `Institution` → Harbor Hiring Institution → `Social Role` → Foreman Role → `Norm / Regulation` → Shift Allocation Norm → `Right / Obligation` → Duty To Disclose Terms | Duty allocating wage and schedule disclosure to hires. |
-| `Social Compound` → Port City Labor Market Set → `Synontic Element` | Grouping: recognition-constituted coordinators. |
-| `Social Compound` → Port City Labor Market Set → `Synontic Element` → Employment Contract | Coordinator persisting through shared recognition of its terms. |
-| `Social Compound` → Port City Labor Market Set → `Price / Asset` | Grouping: scalar coordination variables and claim-objects. |
-| `Social Compound` → Port City Labor Market Set → `Price / Asset` → Spot Wage | Scalar variable coordinating offers and acceptances (exemplar value per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Price / Asset` → Work Permit Quota | Claim-object bounding how many hires clear the gate (exemplar value per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Capital / Labor` | Grouping: multi-layer economic operators. |
-| `Social Compound` → Port City Labor Market Set → `Capital / Labor` → Dock Labor Pool | Productive capacity available to the basin (exemplar size per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Social Relation / Network` | Grouping: structured ties between units. |
-| `Social Compound` → Port City Labor Market Set → `Social Relation / Network` → Referral Web | Kinship and crew ties channeling hires to openings. |
-| `Social Compound` → Port City Labor Market Set → `Social Structure` | Grouping: constraint topologies of the market. |
-| `Social Compound` → Port City Labor Market Set → `Social Structure` → Core-Periphery Hiring Layout | Topology delimiting who hires steadily and who hires marginally. |
-| `Social Compound` → Port City Labor Market Set → `Environment` | Grouping: conditioning layers of action. |
-| `Social Compound` → Port City Labor Market Set → `Environment` → Harbor Basin Commons | Fundamental geography and derivative hiring layers conditioning the market. |
-| `Social Compound` → Port City Labor Market Set → `Region` | Grouping: zones of dense recurrent interaction. |
-| `Social Compound` → Port City Labor Market Set → `Region` → Dockside Hiring Hall Set | Spatially bounded zone where hiring recurs daily. |
-| `Social Compound` → Port City Labor Market Set → `Process / Event` | Grouping: transformations and occurrences. |
-| `Social Compound` → Port City Labor Market Set → `Process / Event` → Seasonal Hiring Surge | Temporally extended transformation straining the market each season. |
-| `Social Compound` → Port City Labor Market Set → `Mechanism / Phenomenon` | Grouping: emergence-to-collapse trajectories. |
-| `Social Compound` → Port City Labor Market Set → `Mechanism / Phenomenon` → Trust Consolidation | Trajectory stabilizing repeat hiring after defection shocks. |
-| `Social Compound` → Port City Labor Market Set → `State` | Grouping: configuration snapshots. |
-| `Social Compound` → Port City Labor Market Set → `State` → Tightness Snapshot | Complete relevant-variable snapshot of vacancies over seekers (exemplar value per deployment). |
-| `Social Compound` → Port City Labor Market Set → `Belief / Expectation` | Grouping: shared anticipations coordinating behavior. |
-| `Social Compound` → Port City Labor Market Set → `Belief / Expectation` → Wage Expectation | Shared anticipation anchoring offers and holds. |
+### Which relationship types can be used to explicitly label the `→` operator?
+
+> **Note:** Our decomposition is a top-down tree
+
+| Category       | Type          | Description                                                                                              | Link Case                                                  |
+| -------------- | ------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Taxonomic      | Kind          | Identifies a specialized type under a more general type.                                                 | `Collective (→ Kind) Political Collective`                 |
+| Taxonomic      | Instance      | Identifies an instance belonging to a type.                                                              | `State (→ Instance) Dominican Republic`                    |
+| Relational     | Has           | Identifies an element, capacity, property, or other feature possessed or held by another element.        | `Interaction Unit (→ Has) Agency`                          |
+| Constitutive   | Part          | Identifies a constituent part of an element.                                                             | `Organization (→ Part) Department`                         |
+| Constitutive   | Member        | Identifies a member of a collective.                                                                     | `Collective (→ Member) Social Actor`                       |
+| Structural     | Position      | Identifies a position within a social structure.                                                         | `Institutional Structure (→ Position) Administrative Role` |
+| Relational     | Association   | Identifies a general association between social elements when no more specific relationship is required. | `Organization (→ Association) University`                  |
+| Participatory  | Participation | Identifies an actor's participation in an activity or process.                                           | `Political Activity (→ Participation) Social Actor`        |
+| Agency         | Action        | Identifies an action performed by an actor.                                                              | `Social Actor (→ Action) Social Action`                    |
+| Intentional    | Goal          | Identifies the goal or objective of an element or activity.                                              | `Technical Activity (→ Goal) Technical Objective`          |
+| Transformative | Production    | Identifies an output produced by an activity or process.                                                 | `Technical Activity (→ Production) Technical Artifact`     |
+| Attributive    | Attribute     | Identifies a property, status, role, or other attribute of an element.                                   | `Social Actor (→ Attribute) Citizenship Status`            |
+| General        | Unspecified   | Indicates that a relationship exists or is being used in the decomposition, but its specific type has not been identified. | `Organization (→ Unspecified) University`|
+
+### (Case Study) What is the recursively decomposed 'Port City Labor Market`?
+
+| Instance Tree Path                                                                                                                                                                                                                       | Description                                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Social Compound`                                                                                                                                                                                                                        | Root instance representing the bounded labor market.                                                                                         |
+| `Social Compound` `(→ Part)` Port City Labor Market Set                                                                                                                                                                                  | Bounded labor market coordinating workers and employers within a harbor basin.                                                               |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit`                                                                                                                                                    | Grouping of interaction units participating in the market.                                                                                   |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Kind)` Employer                                                                                                                                | Employer is an interaction-unit kind represented in the market.                                                                              |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Kind)` Employer `(→ Instance)` Harbor Shipyard Employer                                                                                        | Exemplar employer operating a shipyard in the harbor.                                                                                        |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Kind)` Employer `(→ Instance)` Port Cooperative Employer                                                                                       | Exemplar employer organized as a port cooperative.                                                                                           |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Has)` `Intention`                                                                                                                              | Intention attributed to an interaction unit participating in the labor market.                                                               |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Has)` `Action Guidance`                                                                                                                        | Guidance that informs employers' and workers' labor-market decisions.                                                                        |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Has)` `Action Organization`                                                                                                                    | Arrangements through which an interaction unit organizes its labor-market actions.                                                           |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Has)` `Action Instrumentation`                                                                                                                 | Instruments and arrangements used to execute, support, monitor, or control labor-market actions.                                             |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Participation)` Hiring Activity                                                                                                                | Hiring activity in which an employer or other interaction unit participates.                                                                 |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Interaction Unit` `(→ Participation)` Onboarding Activity                                                                                                            | Activity in which an interaction unit participates to induct newly hired workers.                                                            |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound`                                                                                                                                                     | A constituent social compound within the labor market, if one is identified.                                                                 |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Member Firm Set                                                                                                                          | Set of member firms participating in the labor market.                                                                                       |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Component)` Harbor Hiring Institution                                                                                                           | Institutional arrangement of hiring roles, rules, and procedures, insofar as it constitutes a component of the market.                       |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Component)` Harbor Hiring Institution `(→ Component)` Foreman Role                                                                              | Role carrying authority or responsibility for worker selection and shift allocation within the hiring institution.                           |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Component)` Harbor Hiring Institution `(→ Component)` Foreman Role `(→ Component)` Shift Allocation Norm                                        | Norm governing the allocation of workers to shifts, if it constitutes a component of the foreman role.                                       |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Component)` Harbor Hiring Institution `(→ Component)` Foreman Role `(→ Component)` Shift Allocation Norm `(→ Component)` Duty to Disclose Terms | Obligation to disclose relevant wages and schedules to prospective hires, if represented as a constituent of the norm.                       |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Employment Contract Set                                                                                                                  | Set of employment contracts constituting part of the market.                                                                                 |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Wage Arrangement Set                                                                                                                     | Set of wage arrangements constituting part of the market.                                                                                    |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Dock Labor Pool                                                                                                                          | Available labor capacity within the harbor basin, represented as a constituent of the market.                                                |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Association)` Harbor Basin Commons                                                                                                                                           | Geographic and infrastructural setting associated with the labor market.                                                                     |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Association)` Dockside Hiring Hall Set                                                                                                                                       | Locations associated with recurring hiring interactions.                                                                                     |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Relation`                                                                                                                                                     | A social relation constituting part of the market.                                                                                           |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Relation` `(→ Component)` Referral Web                                                                                                                        | Network of personal and occupational ties channeling workers toward openings, if represented as a component of the relevant social relation. |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Core–Periphery Hiring Layout                                                                                                             | Structural arrangement distinguishing participants with stable access to hiring from those with marginal access.                             |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Process`                                                                                                                                                      | A social process constituting part of the labor market.                                                                                      |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Process` `(→ Component)` Seasonal Hiring Surge                                                                                                                | Seasonal increase in hiring demand that changes the market's operation, if represented as a component of the process.                        |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Process` `(→ Component)` Trust Consolidation                                                                                                                  | Process through which repeated interactions stabilize expectations and cooperation, if represented as part of a larger market process.       |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social State`                                                                                                                                                        | A social state constituting part of the market model.                                                                                        |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social State` `(→ Component)` Tightness Snapshot                                                                                                                     | Snapshot of vacancies relative to available workers at a specified time, if represented as a component of the modeled market state.          |
+| `Social Compound` `(→ Part)` Port City Labor Market Set `(→ Part)` `Social Compound` `(→ Part)` Wage Expectation Set                                                                                                                     | Set of wage expectations relevant to participants' offers, reservation wages, and acceptance decisions.                                      |
 
 ### Which note schema used - in order to document a social element?
 
@@ -378,7 +252,7 @@ The tree is governed by the following rules:
 ### What social element type does this social instance belong to?
 ### Which facet does this element belong to, if applicable?
 ### What is this social instance?
-### What is the recursive instance decomposition of this social instance?
+### What is the recursive instance decomposition of <<social element>>?
 
 ## References
 
@@ -393,7 +267,7 @@ The tree is governed by the following rules:
 - [Science](note.html?n=social/actor/action/activity/research/science/science.md)
 - [Technical Activity](note.html?n=social/actor/action/activity/research/technical/technical-activity.md)
 - [Strategy](note.html?n=social/actor/action/guidance/strategy.md)
-- [Policy](note.html?n=social/actor/state/agency/guidance/policy.md)
+- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md)
 - [Principle](note.html?n=social/actor/action/guidance/principle.md)
 - [Rule](note.html?n=social/actor/action/guidance/rule.md)
 - [Doctrine](note.html?n=social/actor/action/guidance/doctrine.md)
@@ -405,9 +279,11 @@ The tree is governed by the following rules:
 - [Initiative](note.html?n=social/actor/action/organization/initiative.md)
 - [Roadmap](note.html?n=social/actor/action/organization/roadmap.md)
 - [Charter](note.html?n=social/actor/action/organization/charter.md)
-- [Agency](note.html?n=social/onto/guide/agency.md)
-- [Problem](note.html?n=social/actor/state/problem/problem.md)
+- [Agency](note.html?n=social/agency.md)
+- [Problem](note.html?n=social/actor/collective/problem/problem.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
-
+- [Synontic](note.html?n=social/synontic/synontic.md)
+- [Collective](note.html?n=social/actor/collective/collective.md)
+- [Social Ontology](note.html?n=social/social-ontology.md)

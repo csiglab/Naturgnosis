@@ -22,9 +22,9 @@ tags: [profile, template, production, industry]
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Profile Templates | Comparable-profiling blueprint pair. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Blueprint` |
-| Profile Templates → Production Profile Template | System-level profiling blueprint. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Blueprint` |
-| Profile Templates → Industry Profile Template | Sector-level profiling blueprint. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Order -> Epistemic Blueprint` |
+| Profile Templates | Comparable-profiling blueprint pair. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Blueprint` |
+| Profile Templates → Production Profile Template | System-level profiling blueprint. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Blueprint` |
+| Profile Templates → Industry Profile Template | Sector-level profiling blueprint. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Blueprint` |
 
 ## References
 

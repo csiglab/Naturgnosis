@@ -52,7 +52,7 @@
 
 > The labour of natural description goes hand in hand with a layout of reality — that is its segment template: every descriptive move presupposes a cut over the event stream, and every ontic distinction earns its keep through explanatory, predictive, or interventive use.
 
-> Note: Natural Element Type is recursive. The single table below holds the branch: `(root) := <<Natural Element>> -> Natural Order` (systems, constituents, living organization, manifestations, quantities, constraints). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or bounding description — systems delimiting segments, limitation factors, constraints; the rest are nature's furniture and its manifestations.
+> Note: Natural Element Type is recursive. The type of order of every natural element is the **Natural Order**; the single table below holds its branch, `(root) := <<Natural Element>>` (systems, constituents, living organization, manifestations, quantities, constraints). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or bounding description — systems delimiting segments, limitation factors, constraints; the rest are nature's furniture and its manifestations.
 
 > **Note on levels:** every natural element carries its level of organization (micro: elements and local interactions; meso: subsystems and modules; macro: emergent patterns and systemic behavior). The same name at two levels denotes two nodes, decomposed separately and linked.
 
@@ -63,24 +63,23 @@
 | **Natural Category** | **Natural Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
 | **Meta** | `(root) := <<Natural Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `:=` binds the root slot to the instance's type; `->` steps down containment below. | e.g. bound to `Natural System` for a watershed; to `Organism` for a fox |
-| **Meta** | `(root) := <<Natural Element>> -> Natural Order` | The layered order of what *is*, as parsed for description: systems, constituents, living organization, manifestations, quantities, and constraints. | Ontic furniture and its bounds |
-| **System** | (root) := <<Natural Element>> -> Natural Order -> Natural System | Bounded set of interacting components with relations, inputs/outputs, feedback. | Solar system; cardiovascular system; watershed |
-| **System** | (root) := <<Natural Element>> -> Natural Order -> Ecosystem | System emphasizing interdependence within an environment; semi-permeable boundaries. | Biome; coral reef; gut microbiome |
-| **System** | (root) := <<Natural Element>> -> Natural Order -> Complex System | System whose collective behavior resists component-level reduction. | Climate; ant colony; immune network |
-| **Constituent** | (root) := <<Natural Element>> -> Natural Order -> Natural System -> Natural Object | Fully specified material particular. | A basalt cliff; a redwood; a lithium cell |
-| **Constituent** | (root) := <<Natural Element>> -> Natural Order -> Natural System -> Natural Object -> Building Block -> Substance / Matter | Stuff-kind individuated by composition and phase behavior. | Alloy; cellulose; plasma |
-| **Constituent** | (root) := <<Natural Element>> -> Natural Order -> Natural System -> Natural Object -> Building Block | Compositional unit recurring across systems. | Atom; amino acid; nucleotide |
-| **Living** | (root) := <<Natural Element>> -> Natural Order -> Organism | Self-maintaining, reproducing organization (autopoietic). | Bacterium; fern; fox |
-| **Living** | (root) := <<Natural Element>> -> Natural Order -> Living Process | Temporally extended biological transformation. | Photosynthesis; clotting; pathogenesis |
-| **Living** | (root) := <<Natural Element>> -> Natural Order -> Adaptation | Heritable fit between lineage and environment. | Antifreeze proteins; beak morphology |
-| **Manifestation** | (root) := <<Natural Element>> -> Natural Order -> Natural Process | Causally continuous event sequence. | Combustion; corrosion; catalysis |
-| **Manifestation** | (root) := <<Natural Element>> -> Natural Order -> Natural Process -> Phenomenon | Unified explanatory object over events/processes. | Black-body radiation; action potential; aurora |
-| **Manifestation** | (root) := <<Natural Element>> -> Natural Order -> Natural Process -> Phenomenon -> State | Snapshot configuration at a resolution. | Charge distribution; allele frequencies |
-| **Manifestation** | (root) := <<Natural Element>> -> Natural Order -> Natural Process -> Phenomenon -> State -> Trajectory | Ordered state sequence. | Succession; decay chain; epidemic curve |
-| **Quantity** | (root) := <<Natural Element>> -> Natural Order -> Property | Measurable attribute. | Mass; pH; albedo |
-| **Quantity** | (root) := <<Natural Element>> -> Natural Order -> Interaction-Derived Quantity | Joint-state quantifier over independent variables. | Momentum; heat; gravitational force |
-| **Constraint** | (root) := <<Natural Element>> -> Natural Order -> Natural Constraint | Bound imposed by law, material, or scale. | Light-speed limit; tensile strength; carrying capacity |
-| **Constraint** | (root) := <<Natural Element>> -> Natural Order -> Limitation Factor | Description-bounding property from the checklist above. | Chaos (weather); irreducibility (turbulence) |
+| **System** | (root) := <<Natural Element>> -> Natural System | Bounded set of interacting components with relations, inputs/outputs, feedback. | Solar system; cardiovascular system; watershed |
+| **System** | (root) := <<Natural Element>> -> Ecosystem | System emphasizing interdependence within an environment; semi-permeable boundaries. | Biome; coral reef; gut microbiome |
+| **System** | (root) := <<Natural Element>> -> Complex System | System whose collective behavior resists component-level reduction. | Climate; ant colony; immune network |
+| **Constituent** | (root) := <<Natural Element>> -> Natural System -> Natural Object | Fully specified material particular. | A basalt cliff; a redwood; a lithium cell |
+| **Constituent** | (root) := <<Natural Element>> -> Natural System -> Natural Object -> Building Block -> Substance / Matter | Stuff-kind individuated by composition and phase behavior. | Alloy; cellulose; plasma |
+| **Constituent** | (root) := <<Natural Element>> -> Natural System -> Natural Object -> Building Block | Compositional unit recurring across systems. | Atom; amino acid; nucleotide |
+| **Living** | (root) := <<Natural Element>> -> Organism | Self-maintaining, reproducing organization (autopoietic). | Bacterium; fern; fox |
+| **Living** | (root) := <<Natural Element>> -> Living Process | Temporally extended biological transformation. | Photosynthesis; clotting; pathogenesis |
+| **Living** | (root) := <<Natural Element>> -> Adaptation | Heritable fit between lineage and environment. | Antifreeze proteins; beak morphology |
+| **Manifestation** | (root) := <<Natural Element>> -> Natural Process | Causally continuous event sequence. | Combustion; corrosion; catalysis |
+| **Manifestation** | (root) := <<Natural Element>> -> Natural Process -> Phenomenon | Unified explanatory object over events/processes. | Black-body radiation; action potential; aurora |
+| **Manifestation** | (root) := <<Natural Element>> -> Natural Process -> Phenomenon -> State | Snapshot configuration at a resolution. | Charge distribution; allele frequencies |
+| **Manifestation** | (root) := <<Natural Element>> -> Natural Process -> Phenomenon -> State -> Trajectory | Ordered state sequence. | Succession; decay chain; epidemic curve |
+| **Quantity** | (root) := <<Natural Element>> -> Property | Measurable attribute. | Mass; pH; albedo |
+| **Quantity** | (root) := <<Natural Element>> -> Interaction-Derived Quantity | Joint-state quantifier over independent variables. | Momentum; heat; gravitational force |
+| **Constraint** | (root) := <<Natural Element>> -> Natural Constraint | Bound imposed by law, material, or scale. | Light-speed limit; tensile strength; carrying capacity |
+| **Constraint** | (root) := <<Natural Element>> -> Limitation Factor | Description-bounding property from the checklist above. | Chaos (weather); irreducibility (turbulence) |
 
 
 ## How to decompose any natural instance?
@@ -110,7 +109,7 @@ The tree is governed by the following rules:
 
 ## Terminology
 
-> The terms used across this note — system, object, substance, organism, process, phenomenon, state, trajectory, property, constraint, and the natural family — are defined in the [Glossarium](../glossarium/).
+> The terms used across this note — system, object, substance, organism, process, phenomenon, state, trajectory, property, constraint, and the natural family — are defined in the Glossarium.
 
 ## QA
 

@@ -62,7 +62,7 @@
 
 > The labour of moral practice goes hand in hand with a layout of reality — that is its deliberative template: every act presupposes a parsing of who owes what to whom, and every claim earns its keep through judged use.
 
-> Note: Moral Element Type is recursive. The single table below holds the branch: `(root) := <<Moral Element>> -> Moral Order` (agents, acts, goods, norms, judgments, responsibilities, compounds, dynamics). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or verdicting action — deliberations, principles, judgments, traditions, states, responsibilities, repairs; the rest are morality's agents, acts, and goods.
+> Note: Moral Element Type is recursive. The type of order of every moral element is the **Moral Order**; the single table below holds its branch, `(root) := <<Moral Element>>` (agents, acts, goods, norms, judgments, responsibilities, compounds, dynamics). Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Scaffold rows are those supporting, structuring, or verdicting action — deliberations, principles, judgments, traditions, states, responsibilities, repairs; the rest are morality's agents, acts, and goods.
 
 > **Note on imputability:** every moral element is read against four conditions. **Capacity** holds whether the agent can deliberate and do otherwise; **Knowledge** holds what the agent could foresee; **Freedom** holds whether coercion, deception, or necessity defeats choice; **Stakes** holds what goods stand to be harmed or secured. The same name under defeated versus intact imputability denotes two readings, decomposed separately.
 
@@ -81,31 +81,30 @@
 | **Moral Category** | **Moral Element Type Tree Path** | **Description (Role)** | **Instance(s)** |
 | --- | --- | --- | --- |
 | **Meta** | `(root) := <<Moral Element>>` | Placeholder binding to any row's type: per decomposition it takes the root instance's type, and the path continues down that type's branch in order. `:=` binds the root slot to the instance's type; `->` steps down containment below. | e.g. bound to `Moral Compound` for a stewardship compact; to `Duty / Obligation` for disclosure |
-| **Meta** | `(root) := <<Moral Element>> -> Moral Order` | The organized answerability side: agents, acts, goods, principles, duties, judgments, and responsibilities through which conduct is deliberated, verdict, and answered for. | Moral scaffolding and its claims |
-| **Agents** | (root) := <<Moral Element>> -> Moral Order -> Moral Agent | Bounded entity capable of deliberation, choice, and answerability. | Person, steward, council, fiduciary, automated advisor |
-| **Agents** | (root) := <<Moral Element>> -> Moral Order -> Moral Agent -> Conscience | Internal capacity for approval, restraint, and self-accusation. | Scrupulous review; remorse; refusal of an unlawful order |
-| **Agents** | (root) := <<Moral Element>> -> Moral Order -> Community of Responsibility | Compound unit bound by shared obligations and mutual answerability. | Ward council, stewardship board, care cooperative |
-| **Action** | (root) := <<Moral Element>> -> Moral Order -> Moral Agent -> Conscience -> Moral Act | Attributable choice under claims: commission, omission, consent, refusal. | Disclosure, promise, refusal to falsify, rescue |
-| **Action** | (root) := <<Moral Element>> -> Moral Order -> Moral Agent -> Conscience -> Moral Act -> Practice / Habit | Recurrent, recognizable pattern of right doings stabilizing character. | Promise-keeping, truth-telling, daily care rounds |
-| **Action** | (root) := <<Moral Element>> -> Moral Order -> Virtue / Vice | Settled disposition toward right or wrong action. | Fidelity, honesty, courage; negligence, servility, cruelty |
-| **Goods** | (root) := <<Moral Element>> -> Moral Order -> Value / Good | Evaluative coordinator: what is worth protecting or realizing. | Life, fairness, fidelity, truth, the commons |
-| **Normative** | (root) := <<Moral Element>> -> Moral Order -> Value / Good -> Principle / Maxim | General rule binding judgment across cases. | Do not lie; keep promises; least harm; loyalty to the principal |
-| **Normative** | (root) := <<Moral Element>> -> Moral Order -> Value / Good -> Principle / Maxim -> Duty / Obligation | Bound claim on a specified agent to act or refrain. | Duty of disclosure, duty of care, duty of obedience |
-| **Normative** | (root) := <<Moral Element>> -> Moral Order -> Value / Good -> Principle / Maxim -> Duty / Obligation -> Right | Claim entitling its holder against another's conduct. | Right to refuse, right to be told, right of the ward |
-| **Normative** | (root) := <<Moral Element>> -> Moral Order -> Precept / Code | Articulated protocol stabilizing right action within a tradition. | Hippocratic oath, stewardship charter, professional code |
-| **Deliberation** | (root) := <<Moral Element>> -> Moral Order -> Moral Dilemma / Conflict | Situation in which binding claims collide with no costless exit. | Obedience versus disclosure; loyalty versus safety |
-| **Deliberation** | (root) := <<Moral Element>> -> Moral Order -> Deliberation | Process weighing claims, consequences, and precedents toward choice. | Case conference, conscience examination, ethics review |
-| **Deliberation** | (root) := <<Moral Element>> -> Moral Order -> Decision / Choice | Punctual resolution of deliberation into an owned act. | To disclose; to refuse; to escalate |
-| **Judgment** | (root) := <<Moral Element>> -> Moral Order -> Moral Judgment | Verdict attributing right/wrong, permissible/impermissible to conduct. | Acquittal, condemnation, exoneration with warning |
-| **Judgment** | (root) := <<Moral Element>> -> Moral Order -> Justification / Excuse | Warrant sustaining or defeating blame for an act. | Necessity plea, ignorance plea, superior-orders rejection |
-| **Responsibility** | (root) := <<Moral Element>> -> Moral Order -> Responsibility / Accountability | Answerability relation binding an act to its agent. | Steward's account, command responsibility, vicarious liability |
-| **Responsibility** | (root) := <<Moral Element>> -> Moral Order -> Sanction / Repair | Response restoring a breached moral order. | Apology, restitution, punishment, forgiveness |
-| **Structural** | (root) := <<Moral Element>> -> Moral Order -> Moral Compound | Bounded ensemble scoping a decomposition; the generic compound type. | Harbor stewardship compact; ward-care compact |
-| **Structural** | (root) := <<Moral Element>> -> Moral Order -> Tradition | Transmitted morphology of precepts, exemplars, and casuistry. | Fiduciary care tradition, oath-keeping tradition |
-| **Structural** | (root) := <<Moral Element>> -> Moral Order -> Exemplar | Concrete model of virtue or vice for imitation or avoidance. | Conscientious steward, whistleblower, deserter of duty |
-| **Dynamic** | (root) := <<Moral Element>> -> Moral Order -> Consequence | Foreseeable effect entering the evaluation of an act. | Harm averted, trust broken, precedent set |
-| **Dynamic** | (root) := <<Moral Element>> -> Moral Order -> Transformation of Character | Habituation-to-corruption or reform trajectory over time. | Habituation into fidelity; corruption by small concealments |
-| **Dynamic** | (root) := <<Moral Element>> -> Moral Order -> State | Complete relevant-variable snapshot of a moral posture at a moment. | Indebted, compromised, exonerated, entrusted |
+| **Agents** | (root) := <<Moral Element>> -> Moral Agent | Bounded entity capable of deliberation, choice, and answerability. | Person, steward, council, fiduciary, automated advisor |
+| **Agents** | (root) := <<Moral Element>> -> Moral Agent -> Conscience | Internal capacity for approval, restraint, and self-accusation. | Scrupulous review; remorse; refusal of an unlawful order |
+| **Agents** | (root) := <<Moral Element>> -> Community of Responsibility | Compound unit bound by shared obligations and mutual answerability. | Ward council, stewardship board, care cooperative |
+| **Action** | (root) := <<Moral Element>> -> Moral Agent -> Conscience -> Moral Act | Attributable choice under claims: commission, omission, consent, refusal. | Disclosure, promise, refusal to falsify, rescue |
+| **Action** | (root) := <<Moral Element>> -> Moral Agent -> Conscience -> Moral Act -> Practice / Habit | Recurrent, recognizable pattern of right doings stabilizing character. | Promise-keeping, truth-telling, daily care rounds |
+| **Action** | (root) := <<Moral Element>> -> Virtue / Vice | Settled disposition toward right or wrong action. | Fidelity, honesty, courage; negligence, servility, cruelty |
+| **Goods** | (root) := <<Moral Element>> -> Value / Good | Evaluative coordinator: what is worth protecting or realizing. | Life, fairness, fidelity, truth, the commons |
+| **Normative** | (root) := <<Moral Element>> -> Value / Good -> Principle / Maxim | General rule binding judgment across cases. | Do not lie; keep promises; least harm; loyalty to the principal |
+| **Normative** | (root) := <<Moral Element>> -> Value / Good -> Principle / Maxim -> Duty / Obligation | Bound claim on a specified agent to act or refrain. | Duty of disclosure, duty of care, duty of obedience |
+| **Normative** | (root) := <<Moral Element>> -> Value / Good -> Principle / Maxim -> Duty / Obligation -> Right | Claim entitling its holder against another's conduct. | Right to refuse, right to be told, right of the ward |
+| **Normative** | (root) := <<Moral Element>> -> Precept / Code | Articulated protocol stabilizing right action within a tradition. | Hippocratic oath, stewardship charter, professional code |
+| **Deliberation** | (root) := <<Moral Element>> -> Moral Dilemma / Conflict | Situation in which binding claims collide with no costless exit. | Obedience versus disclosure; loyalty versus safety |
+| **Deliberation** | (root) := <<Moral Element>> -> Deliberation | Process weighing claims, consequences, and precedents toward choice. | Case conference, conscience examination, ethics review |
+| **Deliberation** | (root) := <<Moral Element>> -> Decision / Choice | Punctual resolution of deliberation into an owned act. | To disclose; to refuse; to escalate |
+| **Judgment** | (root) := <<Moral Element>> -> Moral Judgment | Verdict attributing right/wrong, permissible/impermissible to conduct. | Acquittal, condemnation, exoneration with warning |
+| **Judgment** | (root) := <<Moral Element>> -> Justification / Excuse | Warrant sustaining or defeating blame for an act. | Necessity plea, ignorance plea, superior-orders rejection |
+| **Responsibility** | (root) := <<Moral Element>> -> Responsibility / Accountability | Answerability relation binding an act to its agent. | Steward's account, command responsibility, vicarious liability |
+| **Responsibility** | (root) := <<Moral Element>> -> Sanction / Repair | Response restoring a breached moral order. | Apology, restitution, punishment, forgiveness |
+| **Structural** | (root) := <<Moral Element>> -> Moral Compound | Bounded ensemble scoping a decomposition; the generic compound type. | Harbor stewardship compact; ward-care compact |
+| **Structural** | (root) := <<Moral Element>> -> Tradition | Transmitted morphology of precepts, exemplars, and casuistry. | Fiduciary care tradition, oath-keeping tradition |
+| **Structural** | (root) := <<Moral Element>> -> Exemplar | Concrete model of virtue or vice for imitation or avoidance. | Conscientious steward, whistleblower, deserter of duty |
+| **Dynamic** | (root) := <<Moral Element>> -> Consequence | Foreseeable effect entering the evaluation of an act. | Harm averted, trust broken, precedent set |
+| **Dynamic** | (root) := <<Moral Element>> -> Transformation of Character | Habituation-to-corruption or reform trajectory over time. | Habituation into fidelity; corruption by small concealments |
+| **Dynamic** | (root) := <<Moral Element>> -> State | Complete relevant-variable snapshot of a moral posture at a moment. | Indebted, compromised, exonerated, entrusted |
 
 
 ## How to decompose any moral instance?
@@ -154,7 +153,7 @@ The tree is governed by the following rules:
 
 ## Terminology
 
-> The terms used across this note — agent, act, good, value, principle, duty, right, judgment, responsibility, sanction, virtue, and the moral family — are defined in the [Glossarium](../glossarium/).
+> The terms used across this note — agent, act, good, value, principle, duty, right, judgment, responsibility, sanction, virtue, and the moral family — are defined in the Glossarium.
 
 ## QA
 
