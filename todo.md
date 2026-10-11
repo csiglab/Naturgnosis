@@ -1,3 +1,5 @@
+https://en.wikipedia.org/wiki/Rhombus
+
 https://www.mrdi.org.hk/en/about-mrdi/Team
 
 What is the economic function / role of a logistic hub?
