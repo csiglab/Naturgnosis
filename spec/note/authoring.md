@@ -68,14 +68,15 @@ is unreachable (e.g. `sync.py --no-couch`).
 
 ## Changelog
 
-Per-file edit history for the corpus lives in `changelog.json` (beside
-the corpus, with `changelog.schema.json`): an array of
-`{file_path, logs[]}` objects, `file_path` relative to `app/note/data/`.
-Each log is `{date: YYYY-MM-DD, summary; optional kind}` (commit-type
-words like `feat`/`fix`/`docs` suggested). Object key order follows the
-schema's `properties` order.
+Per-file edit history for markdown notes lives in `changelog.json`
+(beside the corpus, with `changelog.schema.json`): an array of
+`{file_path, logs[]}` objects, `file_path` a corpus-relative `.md` path
+(live HTML and other assets are out of scope). Each log is
+`{date: YYYY-MM-DD, summary; optional kind}` (commit-type words like
+`feat`/`fix`/`docs` suggested). Object key order follows the schema's
+`properties` order.
 
-Every change set touching the corpus appends one log per touched file, in
-the same commit. Validate with `python -m json.tool
+Every change set touching `data/**/*.md` appends one log per touched
+note, in the same commit. Validate with `python -m json.tool
 app/note/data/changelog.json`. The changelog is a per-file narrative for
 agents and readers; git log remains the source of truth.

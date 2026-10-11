@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://naturgnosis.org/schemas/changelog.schema.json",
   "title": "Notes Corpus Changelog",
-  "description": "Per-file edit history for the notes corpus (app/note/data/). Agents append one entry per touched corpus file per change set.",
+  "description": "Per-file edit history for markdown notes in the corpus (app/note/data/**/*.md). Agents append one entry per touched markdown note per change set.",
   "$comment": "Entry objects in changelog.json must keep their object key order identical to this schema's property order.",
   "type": "array",
   "items": {
@@ -14,7 +14,8 @@
       "properties": {
         "file_path": {
           "type": "string",
-          "description": "Corpus-relative path of the changed file."
+          "pattern": "\\.md$",
+          "description": "Corpus-relative path of the changed markdown note."
         },
         "logs": {
           "type": "array",

@@ -22,8 +22,8 @@ note system (code only; none of its personal content).
   keep it in sync via the `/tmp` pins script; rebuild/commit it after any
   pin change like `index.json`.
 - `data/changelog.json` (+ `changelog.schema.json`) — hand-edited per-file
-  edit history for the corpus; agents append one entry per touched file
-  per change set (see Invariants).
+  edit history for markdown notes; agents append one entry per touched
+  `data/**/*.md` file per change set (see Invariants).
 
 ## Commands
 
@@ -45,10 +45,14 @@ curl /note/api/pins               # pinned paths
   and `bin/build_note_index.py:slugify_segment()`); the builder warns with
   the suggested form. Never run `bin/slugify_files.py` (underscore rule) here.
 - Per-file edit history lives in `data/changelog.json` (array of
-  `{file_path, logs[]}`; object key order follows `changelog.schema.json`).
-  Every agent change set touching `data/` appends one log per file
-  (`{date: YYYY-MM-DD, summary; optional kind}`). The index builder ignores
-  `*.json`, so changelog edits need no index rebuild.
+  `{file_path, logs[]}` over markdown notes only; object key order follows
+  `changelog.schema.json`). Every agent change set touching `data/**/*.md`
+  appends one log per file (`{date: YYYY-MM-DD, summary; optional kind}`).
+  The index builder ignores `*.json`, so changelog edits need no index rebuild.
+- When committing changed notes, every touched `data/**/*.md` file must
+  already be reflected in `data/changelog.json` in the same commit:
+  compare the staged file list against changelog `file_path` entries and
+  append any missing logs before committing.
 - Note paths keyed by country use ISO 3166-1 alpha-3, lowercase
   (`social/actor/research/usa/…`, `social/state/space/grc/region/…`); never alpha-2
   or country names. Entities without an alpha-3 code (devolved nations,

@@ -10,26 +10,6 @@
     ]
   },
   {
-    "file_path": "epistemica/burstiness-index.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/central-tendency.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/earth-science.md",
     "logs": [
       {
@@ -60,32 +40,12 @@
     ]
   },
   {
-    "file_path": "epistemica/fokker-planck-equation.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/goods-nomenclature.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/hawkes-process.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -101,16 +61,6 @@
   },
   {
     "file_path": "epistemica/law/legal.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/poisson-distribution.html",
     "logs": [
       {
         "date": "2026-10-10",
@@ -161,16 +111,6 @@
   },
   {
     "file_path": "epistemica/representation/space/actor/actor.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/standard-deviation.html",
     "logs": [
       {
         "date": "2026-10-10",
@@ -271,16 +211,6 @@
   },
   {
     "file_path": "general/cartilla-minima-para-razonar-sobre-el-desarrollo-economico-marcos-y-modelos.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "meta/atlas.html",
     "logs": [
       {
         "date": "2026-10-10",
@@ -396,16 +326,6 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/action/activity/economic/naics-explorer.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -636,16 +556,6 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/collective/agency/atlas/index.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -1545,7 +1455,7 @@
     ]
   },
   {
-    "file_path": "social/cognitive/culture/evaluation/trompenaars-model.md",
+    "file_path": "social/actor/collective/culture/evaluation/trompenaars-model.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1555,7 +1465,7 @@
     ]
   },
   {
-    "file_path": "social/cognitive/ideology/capitalism.md",
+    "file_path": "social/actor/collective/ideology/capitalism.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1601,26 +1511,6 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/coordinator/product/hs-explorer.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/coordinator/product/product-taxonomy.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -1770,37 +1660,7 @@
     ]
   },
   {
-    "file_path": "technique/systems/concept.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "technique/systems/concurrent-map.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
     "file_path": "technique/systems/data/postgresql.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "technique/systems/financial-sector-explorer.html",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1817,26 +1677,6 @@
         "kind": "docs",
         "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
       },
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "technique/systems/multinode/marketing-practice-tree.html",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "technique/systems/transaction-simulator.html",
-    "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
