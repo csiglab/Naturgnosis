@@ -59,6 +59,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Movement | A collective mobilized around a shared cause, identity, demand, or project, often through distributed and changing participation. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Population | An aggregation defined by a specified membership criterion, such as residence, age, occupation, language, or another attribute; collective agency is not implied. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Economic Collective | A collective constituted around economic production, exchange, ownership, work, consumption, or economic interests. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Social Class | An aggregate defined by shared position in relations of production and access to resources; see [Social Class](note.html?n=social/actor/collective/social-class.md). |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective | A collective constituted around political membership, authority, governance, power, or common political affairs. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Polity | A political collective organized around governing authority over a political community, territory, or jurisdiction. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Electorate | A collective defined by eligibility to participate in a specified electoral process. |
@@ -378,3 +379,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 - Christian List and Philip Pettit — Group Agency: The Possibility, Design, and Status of Corporate Agents (2011)
 - John R. Searle — Making the Social World: The Structure of Human Civilization (2010)
 - Raimo Tuomela — Social Ontology: Collective Intentionality and Group Agents (2013)
+
+
+- https://youtu.be/bcpQkvBCACw?si=xSXYT4EN1DgDKXfO&t=2094 (Extreanly Relevant Take On Tool - wha tmake humanity humanity - basically technogensisExtreanly Relevant Take On Tool - wha tmake humanity humanity - basically technogensis)
+

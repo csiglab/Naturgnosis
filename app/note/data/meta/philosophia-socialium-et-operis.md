@@ -269,14 +269,15 @@ Case:
 
 ## Formulation
 
-### What social element type does this social instance belong to?
-### Which facet does this element belong to, if applicable?
 ### What is this social instance?
+### What type of social element does this instance belong to?
+### Is the type of this `social element instance` unambiguous?
+### Which facet does this element belong to, if applicable?
 ### What is the recursive instance decomposition of <<social element>>?
-### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
+### <<Optional - If Add Value>>  Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
+### What Is a critical conceptual evaluation of this `social element instance`?
 
 ## References
-
 - ...
 ```
 
@@ -284,6 +285,7 @@ Case:
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Research Activity](note.html?n=social/actor/action/activity/research/research.md)
 - [Science](note.html?n=social/actor/action/activity/research/science/science.md)
 - [Technical Activity](note.html?n=social/actor/action/activity/research/technical/technical-activity.md)
