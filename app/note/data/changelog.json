@@ -361,6 +361,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Stated that link-form tables scaffold but neither complete nor normate a decomposition; fixed front-matter tags; repaired stale references; linked Synontic, Collective, Social Ontology."
       }
     ]
   },
@@ -699,6 +704,11 @@
     "logs": [
       {
         "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
+      },
+      {
+        "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
@@ -801,6 +811,16 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part); no bare arrows)."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "style",
+        "summary": "Normalized reference links to bare [Name](target); named bare Wikipedia URLs."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Added 19 Kind rows (Dyad through Chiefdom) in the given order; removed the raw draft bullets."
       }
     ]
   },
@@ -1491,16 +1511,6 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/state/agency/instrumentation/action-instrumentation.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
       }
     ]
   },

@@ -55,6 +55,10 @@ curl /note/api/pins               # pinned paths
   defunct states) are explicit exceptions.
 - Tags are optional `--- tags: [...]` front matter; `data/index.json`
   carries them and feeds the hub universal search (`bin/build_search_index.py`).
+- Reference links are bare `[Name](target)` with no trailing parenthetical
+  description; for external links `Name` is the entry title derived from
+  the URL. Put any gloss in the surrounding prose, never after the link.
+  Applies to newly added links; existing corpus links are left as-is.
 - Pins live in CouchDB doc `pins` inside the `naturgnosis` database
   (`GET/POST /note/api/pins`); the catalog hides pin UI when unreachable.
 - Viewer + catalog must stay free of cross-repo residue (no Epistecnica

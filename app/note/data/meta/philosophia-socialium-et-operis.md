@@ -99,6 +99,26 @@ Social Element (parent)
 | `Social Compound (→ Component) <<Social Element>>`   | Identifies a constituent that fulfills a structural or functional role within a social compound.                    | Constitution; Structure          |
 | `Social Compound (→ Association) <<Social Element>>` | Identifies a social element associated with a social compound without asserting that it constitutes part of it.     | Association; Relation            |
 
+### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
+
+> `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.
+
+Usage rules
+
+- Tags qualify nodes; they do not replace the underlying type. For example, Collective [Temporary] remains a collective.
+- Use a subtype when the distinction defines a recognized kind. Use a tag when the distinction qualifies an instance or can apply across multiple kinds.
+- Allow multiple tags per node. A collective can be Formal, Membership-Based, Transnational, and Agentic simultaneously.
+- Do not confuse a tag with a relationship. Hierarchical describes an organizational arrangement; (→ Part) expresses a decomposition relationship.
+- Avoid redundant tags. If a subtype already entails a characteristic in the intended context, do not add the same tag unless it provides meaningful additional information.
+- Distinguish a known absence from missing information. Non-Agentic should be used only when the absence of collective agency is established, not merely because agency has not been documented.
+
+
+Case:
+
+| Category               | Tags                  | Description                                                                                                                           | Usage                            |
+| ---------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Interaction Structure  | `Dyadic`              | Characterized by a relation or interaction between two participants.                                                                  | Dyadic Relationship              |
+
 ## How to decompose any social element?
 
 > A decomposition recursively expands a social instance tree from its root: bind the root instance, then grow its subtree by attaching only links the `Permitted Link Forms` table allows, down to instance leaves. The reference tables above are scaffolding — necessary but not sufficient, and never normative: they say which links *may* appear, not which decomposition is correct for any given element. Choosing instances, depth, and stopping point remains the decomposer's work on the instance itself.
@@ -253,6 +273,7 @@ Social Element (parent)
 ### Which facet does this element belong to, if applicable?
 ### What is this social instance?
 ### What is the recursive instance decomposition of <<social element>>?
+### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
 
 ## References
 

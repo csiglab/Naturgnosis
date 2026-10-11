@@ -30,14 +30,33 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 | --- | --- |
 | `Social Compound` | Root type: the generic bounded collective. |
 | `Social Compound` `(→ Part)` Collective | A social compound constituted by a plurality of agents or social units connected through relations that make them members or constituents of an identifiable whole. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Dyad | The minimal collective: two agents bound by a direct relation. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Triad | Three agents whose interaction introduces mediation, coalitions, and majority dynamics absent in the dyad. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Crowd | A temporary or situational aggregation of agents whose co-presence or interaction forms a collective episode. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Following | An aggregate constituted by shared attention to the same actor, source, or feed, without mutual interaction among followers. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Family | A collective constituted primarily through kinship, descent, marriage, care, or socially recognized family relations. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Neighborhood | A collective constituted by residential proximity and shared locality. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Interest Group | A collective organized around a shared interest pursued jointly or representatively. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Advocacy Group | A collective organized to press claims on authorities and publics. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Social Movement | A collective mobilized around a shared cause through sustained, distributed collective action. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Protest Collective | A collective constituted by joint dissent expressed publicly against an authority, policy, or condition. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Activist Network | A collective coordinated through ties among activists pursuing shared causes across groups. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Voluntary Association | A membership collective joined by choice around shared purposes. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Professional Association | A membership collective of an occupation's practitioners regulating practice and standing. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Cooperative | A member-owned collective serving its users rather than outside capital. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Corporation | A limited-liability collective with tradable ownership shares. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Trade Union | A collective of workers bargaining over terms of employment. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Party | A political collective organized to contest, exercise, influence, or participate in political power. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Religious Organization | A collective ordering worship, doctrine, and congregation life. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Band | A small, kinship-based collective without centralized authority. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Tribe | A collective of bands or lineages sharing descent, territory, and identity under customary leadership. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Chiefdom | A ranked collective under a centralized chiefly authority short of statehood. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Social Group | A collective constituted through social interaction, identification, shared attributes, or recurring participation. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Community | A collective connected through shared identity, mutual recognition, common life, place, practice, or a sense of belonging. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Organization | A collective with a recognizable membership boundary and an established or intentionally maintained arrangement of roles, functions, rules, and coordinated activities. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Association | A collective formed through voluntary or otherwise specified affiliation around shared interests, purposes, or activities. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Network | A collective analytically identified by a pattern of connections among its members or constituent units, without requiring a centralized structure. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Movement | A collective mobilized around a shared cause, identity, demand, or project, often through distributed and changing participation. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Crowd | A temporary or situational aggregation of agents whose co-presence or interaction forms a collective episode. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Population | An aggregation defined by a specified membership criterion, such as residence, age, occupation, language, or another attribute; collective agency is not implied. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Economic Collective | A collective constituted around economic production, exchange, ownership, work, consumption, or economic interests. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective | A collective constituted around political membership, authority, governance, power, or common political affairs. |
@@ -231,58 +250,131 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 | `Social Compound` `(→ Part)` Collective `(→ Part)` Dynamical `(→ Part)` Dissolution `(→ Part)` Liquidation and Resource Distribution | The settlement of obligations and distribution or transfer of remaining resources, where applicable. |
 | `Social Compound` `(→ Part)` Collective `(→ Part)` Dynamical `(→ Part)` Dissolution `(→ Part)` Successor Arrangement | The arrangements through which functions, obligations, assets, identity, or authority pass to successor collectives, where applicable. |
 
+### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
+
+> `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.  
+
+| Category               | Tags                  | Description                                                                                                                           | Usage                            |
+| ---------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Relationship           | `Primary`             | Characterized by close, enduring interpersonal relationships.                                                                         | Primary Group                    |
+| Relationship           | `Secondary`           | Characterized by function-specific, goal-oriented, or relatively impersonal relationships.                                            | Secondary Group                  |
+| Organizational Form    | `Formal`              | Characterized by explicitly established rules, roles, procedures, or membership criteria.                                             | Formal Group                     |
+| Organizational Form    | `Informal`            | Characterized by relationships or arrangements that are not formally established or codified.                                         | Informal Group                   |
+| Duration               | `Temporary`           | Exists for a limited period or a specific episode.                                                                                    | Temporary Collective             |
+| Duration               | `Enduring`            | Maintains its identity or constitutive relationships over an extended period.                                                         | Enduring Community               |
+| Formation              | `Emergent`            | Arises through interactions or processes without necessarily being deliberately established.                                          | Emergent Group                   |
+| Formation              | `Deliberate`          | Is intentionally constituted through coordinated action or a founding decision.                                                       | Deliberately Formed Organization |
+| Constitution           | `Kinship-Based`       | Constituted primarily through kinship, descent, marriage, or recognized family relations.                                             | Kinship-Based Collective         |
+| Constitution           | `Membership-Based`    | Constituted through recognized membership or affiliation.                                                                             | Membership-Based Association     |
+| Constitution           | `Interaction-Based`   | Constituted through social interaction or recurring participation.                                                                    | Interaction-Based Group          |
+| Constitution           | `Identity-Based`      | Connected through a shared or attributed social identity.                                                                             | Identity-Based Collective        |
+| Constitution           | `Recognition-Based`   | Sustained through mutual or socially established recognition.                                                                         | Recognition-Based Community      |
+| Constitution           | `Territorial`         | Defined partly through a relationship to a territory or geographic boundary.                                                          | Territorial Community            |
+| Constitution           | `Criterion-Defined`   | Defined by a specified inclusion or classification criterion.                                                                         | Criterion-Defined Population     |
+| Agency                 | `Agentic`             | Capable of acting as a collective through attributable decisions or coordinated action.                                               | Agentic Collective               |
+| Agency                 | `Non-Agentic`         | Not constituted or organized as a collective agent.                                                                                   | Non-Agentic Population           |
+| Organization           | `Organized`           | Possesses an established arrangement of roles, functions, relations, or coordinated activities.                                       | Organized Collective             |
+| Organization           | `Unorganized`         | Lacks an established organizational arrangement, although social relations may still exist.                                           | Unorganized Aggregate            |
+| Organization           | `Centralized`         | Concentrates significant coordination or decision-making in a central unit or authority.                                              | Centralized Organization         |
+| Organization           | `Decentralized`       | Distributes coordination or decision-making across multiple units or participants.                                                    | Decentralized Network            |
+| Organization           | `Hierarchical`        | Arranges positions or units through ranked levels of authority or precedence.                                                         | Hierarchical Organization        |
+| Organization           | `Networked`           | Characterized by a pattern of connections among participants or constituent units.                                                    | Networked Collective             |
+| Participation          | `Voluntary`           | Participation is substantially based on an individual's or unit's choice to affiliate.                                                | Voluntary Association            |
+| Participation          | `Involuntary`         | Membership or inclusion occurs without the participant's freely exercised choice.                                                     | Involuntary Membership           |
+| Composition            | `Individual-Based`    | Constituted directly by individual persons or agents.                                                                                 | Individual-Based Collective      |
+| Composition            | `Collective-Based`    | Constituted partly or primarily by other collectives.                                                                                 | Collective-Based Formation       |
+| Composition            | `Mixed`               | Comprises both individual agents and constituent collectives.                                                                         | Mixed-Composition Collective     |
+| Scale                  | `Local`               | Primarily associated with a locality or limited geographic area.                                                                      | Local Community                  |
+| Scale                  | `Regional`            | Extends across or is associated with a region.                                                                                        | Regional Collective              |
+| Scale                  | `National`            | Defined or organized at a national scale.                                                                                             | National Political Collective    |
+| Scale                  | `Transnational`       | Has constitutive relationships or activities extending across national boundaries.                                                    | Transnational Community          |
+| Scale                  | `Global`              | Extends across or is constituted in relation to the global scale.                                                                     | Global Collective                |
+| Identity               | `Ethnic`              | Associated with an ethnic identity.                                                                                                   | Ethnic Collective                |
+| Identity               | `National`            | Associated with a national identity or nationhood.                                                                                    | National Community               |
+| Identity               | `Religious`           | Associated with religious identity, beliefs, practices, or affiliation.                                                               | Religious Community              |
+| Identity               | `Cultural`            | Associated with shared cultural practices, meanings, heritage, or expression.                                                         | Cultural Collective              |
+| Identity               | `Linguistic`          | Associated with a shared language or linguistic practices.                                                                            | Linguistic Community             |
+| Economic Position      | `Class-Based`         | Defined by a shared position within an economic or class structure.                                                                   | Class-Based Collective           |
+| Economic Activity      | `Productive`          | Organized around the production of goods or services.                                                                                 | Productive Collective            |
+| Economic Activity      | `Commercial`          | Organized around commercial exchange or business activity.                                                                            | Commercial Organization          |
+| Economic Activity      | `Cooperative`         | Characterized by joint ownership, control, or coordinated pursuit of shared purposes.                                                 | Cooperative Enterprise           |
+| Political Constitution | `Political`           | Constituted around political membership, authority, governance, or common political affairs.                                          | Political Collective             |
+| Political Constitution | `Sovereign`           | Possesses or claims supreme political authority within a specified jurisdiction, subject to the relevant legal and political context. | Sovereign State                  |
+| Political Constitution | `Federal`             | Organizes political authority through constitutionally or institutionally differentiated constituent and common levels.               | Federal Polity                   |
+| Political Constitution | `Confederal`          | Connects constituent political units through common arrangements while retaining substantial separate authority.                      | Confederal Formation             |
+| Political Constitution | `Imperial`            | Characterized by asymmetric authority or control between an imperial center and subordinate political communities.                    | Imperial Formation               |
+| Governance             | `Self-Governing`      | Exercises governing authority over its own affairs.                                                                                   | Self-Governing Community         |
+| Governance             | `Externally Governed` | Subject to governing authority exercised substantially by an external entity.                                                         | Externally Governed Territory    |
+| Persistence            | `Stable`              | Maintains substantial continuity in its identity or constitutive arrangements.                                                        | Stable Collective                |
+| Persistence            | `Adaptive`            | Can change its arrangements in response to internal or external conditions.                                                           | Adaptive Organization            |
+| Persistence            | `Resilient`           | Can absorb disruptions and recover essential functions or relationships.                                                              | Resilient Community              |
+| Historical Context     | `Historical`          | Refers to a collective situated in a particular historical context or period.                                                         | Historical Polity                |
+| Historical Context     | `Indigenous`          | Relates to an Indigenous people, community, or political formation in its historical and cultural context.                            | Indigenous Political Collective  |
+| Historical Context     | `Diasporic`           | Characterized by social relationships or identities connected to dispersal from a homeland or place of origin.                        | Diasporic Community              |
+
 ## QA
 
 ### What is the identification mechanism?
 
 > A collective is identified by the tie that counts one as belonging: a charter or register for membership organizations, mutual recognition for communities, jurisdiction or census for populations and polities. The mechanism is always a constitutive relation — membership, recognition, or authority — never mere co-location. See [Membership Tie](note.html?n=social/actor/actor.md) as typed in the actor hub.
 
-### What grounds a social collective?
+### What Grounds a Social Collective? or How Does a Collection of Social Participants Become a Collective?
 
-> A collective is grounded by whatever makes its plurality one entity rather than an arbitrary set. The grounding varies by kind:
+> A collective is grounded by whatever makes a plurality of social participants constitute one social entity rather than an arbitrary set. The grounds of collectivity vary according to the kind of collective.
 
-| Collective kind | Description | Grounding mechanism |
-| --- | --- | --- |
-| Kinship-based collective | Family and descent groups | Descent and alliance |
-| Membership-based collective | Associations and organizations | Charter, roles, and admission rules |
-| Activity-based collective | Social groups and followings | Joint action and recurrent interaction |
-| Territorial collective | Populations and territorial polities | Co-location and jurisdiction |
-| Recognition-based collective | Communities and nations-as-peoples | Shared identity, symbols, and mutual recognition |
-| Authority-based collective | Political collectives and colonies | Mandate and sovereignty |
-| Provisioning-based collective | Cooperatives, firms, unions, corporations | Exchange, employment, and ownership |
-
-### What makes a collection a collective?
-
-> A collection of randomly selected people is not necessarily a collective in the social-ontological sense. A collection becomes a collective only where a constitutive relation binds the plurality into an entity: shared membership, joint action, common identity, co-location under jurisdiction, or binding authority. Without such a relation there is multiplicity but no oneness — and nothing to decompose.
-
-### Should the term grounding be used in this context?
-
-> Yes, in the constitutive sense: grounding names what makes the plurality the entity it is, not a causal foundation beneath it and not a moral justification above it. Each kind above states its own grounding mechanism; there is no single ground of collectivity as such.
+| Category         | Mechanism                       | Description                                                                                                                                                                |
+| ---------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Relational       | Social Relationships            | Participants are connected through relationships that constitute them as a social unit.                                                                                    |
+| Interactive      | Recurrent Interaction           | Participants engage in recurring interactions that sustain their association.                                                                                              |
+| Cooperative      | Joint Activity                  | Participants coordinate their actions toward shared or interdependent ends.                                                                                                |
+| Goal-Oriented    | Shared Purpose                  | Participants are associated through a common purpose or objective.                                                                                                         |
+| Identificational | Shared Identity                 | Participants recognize or are recognized as belonging to the same collective.                                                                                              |
+| Normative        | Shared Norms                    | Participants are connected through common rules, expectations, or obligations.                                                                                             |
+| Kinship-Based    | Recognized Relatedness          | Participants are constituted as a social unit through culturally recognized kinship or other forms of relatedness.                                                         |
+| Territorial      | Territorial Association         | Participants are associated through a shared territory or place of residence.                                                                                              |
+| Organizational   | Constitutive Organization       | Participants occupy differentiated positions or perform coordinated functions within an organized whole.                                                                   |
+| Institutional    | Institutionalized Relationships | Participants are connected through established institutions, roles, rules, or practices.                                                                                   |
+| Political        | Collective Governance           | Participants constitute a political unit through arrangements for collective decision-making, authority, or governance.                                                    |
+| Contractual      | Agreement                       | Participants establish a collective through explicit or implicit agreements defining their association.                                                                    |
+| Genealogical     | Shared Descent                  | Participants are classified as belonging to the same collective through recognized common ancestry or descent.                                                             |
+| Cultural         | Shared Cultural Practices       | Participants are connected through shared practices, traditions, languages, or cultural frameworks.                                                                        |
+| Symbolic         | Shared Symbols                  | Participants are associated through common symbols, narratives, representations, or emblems.                                                                               |
+| Coercive         | Imposed Association             | Participants are constituted as a collective through externally imposed arrangements, subordination, or control.                                                           |
+| Ascriptive       | External Classification         | Participants are classified as one collective by external observers or institutions, regardless of whether they recognize themselves as such.                              |
+| Aggregative      | Common Membership Criterion     | Participants constitute a defined collection because they satisfy a specified criterion, without necessarily maintaining meaningful social relationships with one another. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Actor](note.html?n=social/actor/actor.md) (root hub: the actor typology this entry belongs to)
-- [Organization](note.html?n=social/actor/societal/organization.md) (organized subtype: the full subtype tree)
-- [Social Group](note.html?n=social/actor/collective/group/group.md) (interacting aggregate — not an organization)
-- [Family](note.html?n=social/actor/societal/family.md) (kinship unit)
-- [Firm](note.html?n=social/actor/societal/firm.md) (economic subtype of Organization)
+- [Actor](note.html?n=social/actor/actor.md)
+- [Organization](note.html?n=social/actor/societal/organization.md)
+- [Social Group](note.html?n=social/actor/collective/group/group.md)
+- [Family](note.html?n=social/actor/societal/family.md)
+- [Firm](note.html?n=social/actor/societal/firm.md)
 - [Social Ontology](note.html?n=social/social-ontology.md)
-- [Facet](note.html?n=social/facet.md) (analytical dimensions scoping inquiry)
+- [Facet](note.html?n=social/facet.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)
-- https://en.wikipedia.org/wiki/Imperialism
-- https://es.wikipedia.org/wiki/Romanitas
-- https://en.wikipedia.org/wiki/Polity
-- https://en.wikipedia.org/wiki/Politeia
-- https://en.wikipedia.org/wiki/Government
-- https://en.wikipedia.org/wiki/Kokutai
-- https://en.wikipedia.org/wiki/Huaxia
-- https://en.wikipedia.org/wiki/Thomas_Hobbes
-- https://en.wikipedia.org/wiki/Territory
-- https://en.wikipedia.org/wiki/Province
-- https://en.wikipedia.org/wiki/Municipality
-- https://en.wikipedia.org/wiki/State_(polity)
-- https://en.wikipedia.org/wiki/Country
-- https://es.wikipedia.org/wiki/Patria
-- https://es.wikipedia.org/wiki/Matria
-- https://es.wikipedia.org/wiki/Metr%C3%B3poli
+- [Imperialism](https://en.wikipedia.org/wiki/Imperialism)
+- [Romanitas](https://es.wikipedia.org/wiki/Romanitas)
+- [Polity](https://en.wikipedia.org/wiki/Polity)
+- [Politeia](https://en.wikipedia.org/wiki/Politeia)
+- [Government](https://en.wikipedia.org/wiki/Government)
+- [Kokutai](https://en.wikipedia.org/wiki/Kokutai)
+- [Huaxia](https://en.wikipedia.org/wiki/Huaxia)
+- [Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes)
+- [Territory](https://en.wikipedia.org/wiki/Territory)
+- [Province](https://en.wikipedia.org/wiki/Province)
+- [Municipality](https://en.wikipedia.org/wiki/Municipality)
+- [State (polity)](https://en.wikipedia.org/wiki/State_(polity))
+- [Country](https://en.wikipedia.org/wiki/Country)
+- [Patria](https://es.wikipedia.org/wiki/Patria)
+- [Matria](https://es.wikipedia.org/wiki/Matria)
+- [Metrópoli](https://es.wikipedia.org/wiki/Metr%C3%B3poli)
+- David M. Schneider — A Critique of the Study of Kinship (1984)
+- Eduardo Viveiros de Castro — The Relative Native: Essays on Indigenous Conceptual Worlds (2015)
+- Janet Carsten — After Kinship (2004).
+- Janet Carsten — The Heat of the Hearth: The Process of Kinship in a Malay Fishing Community (1997)
+- Margaret Gilbert — On Social Facts (1989)
+- Christian List and Philip Pettit — Group Agency: The Possibility, Design, and Status of Corporate Agents (2011)
+- John R. Searle — Making the Social World: The Structure of Human Civilization (2010)
+- Raimo Tuomela — Social Ontology: Collective Intentionality and Group Agents (2013)
