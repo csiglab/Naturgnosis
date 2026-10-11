@@ -250,6 +250,16 @@
     ]
   },
   {
+    "file_path": "meta/philosophia-conceptuum-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Expanded the Evaluation section into the categorized criteria framework with minimum set; expanded the Case Study."
+      }
+    ]
+  },
+  {
     "file_path": "meta/philosophia-moralis-et-operis.md",
     "logs": [
       {
@@ -296,6 +306,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Stated that link-form tables scaffold but neither complete nor normate a decomposition; fixed front-matter tags; repaired stale references; linked Synontic, Collective, Social Ontology."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Fixed broken conceptuum reference link (double query marker)."
       }
     ]
   },
@@ -731,6 +746,21 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Added 19 Kind rows (Dyad through Chiefdom) in the given order; removed the raw draft bullets."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Added the Social Class Kind row to the decomposition tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/culture/evaluation/trompenaars-model.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -776,6 +806,16 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/ideology/capitalism.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
   },
@@ -946,6 +986,26 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/social-class.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Created the Social Class element note (Social Compound kind; kinds, constituents, class-vs-stratum QA; APA references)."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Added tags and critical-conceptual-evaluation subsections (conceptuum criteria); linked Philosophia Conceptuum et Operis."
+      },
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Redid the critical evaluation against the full conceptuum criteria set (minimum set plus high/low scorers)."
       }
     ]
   },
@@ -1455,26 +1515,6 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/culture/evaluation/trompenaars-model.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/collective/ideology/capitalism.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
     "file_path": "social/coordinator/economic/economic.md",
     "logs": [
       {
@@ -1576,6 +1616,36 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/status/citizenship.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Rewrote as the Citizenship element note (Status primary; rights-bundle and Citizen-role readings); kinds, constituents, citizenship-vs-nationality QA; APA references."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Restructured Formulation to the guide's question order (what-is, type, unambiguity, facet, decomposition)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/status/status.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Filled the Status genus note: attributive-standing type answer, kind tree, status-vs-role QA, APA references."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Restructured Formulation to the guide's question order (what-is, type, unambiguity, facet, decomposition)."
       }
     ]
   },

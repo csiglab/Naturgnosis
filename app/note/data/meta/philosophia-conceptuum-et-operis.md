@@ -83,18 +83,52 @@
 ## Evaluation
 
 > How to **evaluate concept**?
->
 
-| **Criteria** | **Description (Diagnostic Focus)** |
-| --- | --- |
-| **Internal Consistency** | **The internal, logical integrity of the boundary rule.** Does the formal specification of the concept (the intentional operator) contain logical contradictions? A concept must be mathematically and philosophically sound *in the abstract* before it is ever applied to a given situation or context. |
-| **Extensional Fidelity** | **The precision of the ontological cut.** How cleanly does the concept map to the underlying reality? High fidelity means the concept captures its intended target with minimal "leakage" (capturing phenomena it shouldn't) and minimal "truncation" (failing to capture phenomena it should). It measures the sharpness of the boundary. |
-| **Ontological Parsimony** | **The degree of structural orthogonality.** Does this concept carve out a genuinely novel vector in the state space, or is it heavily collinear with existing concepts? A rigorous concept must justify its existence by not multiplying variables unnecessarily. It should not overlap redundantly with established tools. |
-| **Epistemic Leverage** | **The functional, analytical yield.** What operational work does the concept perform? Once the cut is made, does it simplify a complex system, expose hidden mechanisms, or enable new computational or logical operations? A concept with low leverage is a stagnant abstraction; high leverage generates predictive or explanatory momentum. |
-| **Contextual Robustness** | **The invariance of the concept across varying situations.** How stable is the concept when the environmental parameters or observing conditions change? A highly robust concept maintains its structural identity and explanatory power even as the underlying dynamical system shifts across different experimental or observational situations. |
-| **Combinatorial Fluidity** | **The capacity for systemic integration.** How seamlessly can this concept be mathematically or logically coupled with other concepts within a broader epistemic scaffolding? A concept should not exist in total isolation; it must possess "hooks" that allow it to function as a node in a larger, coherent model of reality. |
-| **Inferential Productivity** | Capacity to support valid reasoning, predictions, or derivations (does it enable non-trivial inferences?). |
-| **Discriminative Power** | Ability to distinguish relevant cases from non-cases (i.e., does it carve reality at useful joints?). |
+> **Note:** The minimum set of criteria for a reasonable conceptual evaluation consists of **Conceptual Identification, Definitional Clarity, Conceptual Determinacy, Internal Consistency, Representational Adequacy, and Purpose Adequacy**.
+
+| **Category** | **Criterion** | **Diagnostic Focus** |
+|:---|:---|:---|
+| **Conceptual Specification** | Conceptual Identification | **Identity:** Is the concept being evaluated clearly distinguished from alternative formulations, related concepts, and competing interpretations? |
+| | Definitional Clarity | **Intelligibility:** Are the defining terms, relations, and conditions sufficiently clear to avoid ambiguity and unexplained assumptions? |
+| | Conceptual Determinacy | **Boundary rules:** Does the specification determine which instances qualify, which do not, and how borderline cases are handled? |
+| | Definitional Completeness | **Constitutive conditions:** Does the definition specify the conditions necessary for its intended use, including relevant exclusions and qualifications? |
+| | Internal Consistency | **Logical integrity:** Are the defining conditions, boundary rules, and theoretical commitments mutually compatible? |
+| | Structural Coherence | **Internal organization:** Are the concept's dimensions, components, attributes, and relations organized coherently without conflating distinct properties or explanatory levels? |
+| | Conceptual Tractability | **Evaluability:** Can the concept be sufficiently specified, analyzed, and applied for its intended purpose? |
+| **Representational Adequacy** | Extensional Fidelity | **Classification accuracy:** How well does the concept identify its intended instances while avoiding false inclusions and exclusions? |
+| | Intensional Adequacy | **Defining properties:** Do the defining properties capture the features relevant to the concept's intended meaning and function? |
+| | Ontological Adequacy | **Kind of entity:** Does the concept correctly characterize its target as an object, process, relation, property, collective, representation, or theoretical construct? |
+| | Discriminative Power | **Relevant distinctions:** Does the concept distinguish cases that matter for its intended analytical purpose? |
+| | Granularity Adequacy | **Level of abstraction:** Does the concept represent its target at an appropriate level of detail, avoiding excessive aggregation or fragmentation? |
+| | Empirical Adequacy | **Evidence:** Where empirical claims are involved, are the concept's applications and associated claims supported by appropriate evidence? |
+| | Representational Coverage | **Domain coverage:** Does the concept accommodate relevant variation, atypical instances, intermediate cases, and significant exceptions within its intended scope? |
+| **Conceptual Economy** | Ontological Parsimony | **Structural economy:** Does the concept introduce unnecessary entities, distinctions, or assumptions into the conceptual framework? |
+| | Conceptual Distinctiveness | **Unique contribution:** Does the concept capture a meaningful distinction not already adequately represented by existing concepts? |
+| | Redundancy Control | **Conceptual overlap:** Does the concept duplicate existing constructs without providing a sufficiently distinct analytical function? |
+| | Boundary Differentiation | **Separation from neighboring concepts:** Can the concept be distinguished from related concepts using explicit criteria? |
+| **Epistemic Performance** | Epistemic Leverage | **Analytical yield:** Does the concept make complex phenomena more intelligible, expose important structures, or enable useful analytical operations? |
+| | Inferential Productivity | **Reasoning capacity:** Does the concept support nontrivial conclusions, derivations, or predictions when combined with appropriate assumptions and evidence? |
+| | Explanatory Power | **Explanatory contribution:** Does the concept help identify mechanisms, causal relationships, or structural constraints that explain phenomena? |
+| | Predictive Utility | **Anticipatory capacity:** Does the concept contribute to predictions that perform adequately against relevant alternatives? |
+| | Information Compression | **Representational efficiency:** Does the concept summarize complexity while preserving information and distinctions relevant to its intended use? |
+| | Problem-Solving Utility | **Practical contribution:** Does the concept improve the identification, formulation, or resolution of problems? |
+| **Integration and Generality** | Contextual Robustness | **Contextual stability:** Does the concept retain its intended meaning and function across relevant changes in circumstances? |
+| | Combinatorial Fluidity | **System integration:** Can the concept be coherently combined with other concepts in a broader theoretical, analytical, or computational framework? |
+| | Relational Compatibility | **Compatibility:** Are its relationships with neighboring concepts, variables, and ontological categories mutually coherent? |
+| | Cross-Domain Portability | **Domain transfer:** Can the concept be applied across different domains without losing its defining structure or requiring substantial reformulation? |
+| | Scale Invariance | **Scale transfer:** Does the concept retain its intended meaning or explanatory function across relevant levels of analysis? |
+| | Temporal Stability | **Historical continuity:** Can the concept be applied across different periods without concealing changes in its target or silently changing its definition? |
+| **Operational and Methodological Validity** | Operationalizability | **Procedural applicability:** Can the concept be translated into appropriate indicators, classification rules, formal operations, or practical procedures? |
+| | Measurement Validity | **Construct representation:** Where measurement is intended, do the indicators adequately represent the intended construct? |
+| | Reliability | **Repeatability:** Does repeated application under comparable conditions produce sufficiently consistent results? |
+| | Inter-Subjective Reproducibility | **Agreement:** Can independent users apply the specification and obtain comparable classifications or interpretations? |
+| | Falsifiability or Refutability | **Exposure to criticism:** When associated with empirical claims, can relevant evidence challenge the hypotheses or interpretations involving the concept? |
+| | Sensitivity to Evidence | **Revisability:** Can new evidence expose misclassification, reveal defective boundaries, or justify revision? |
+| **Normative and Strategic Adequacy** | Purpose Adequacy | **Functional fit:** Is the concept appropriate for its intended descriptive, analytical, explanatory, normative, or strategic purpose? |
+| | Normative Justification | **Value justification:** Where the concept incorporates values or prescriptions, are its normative assumptions defensible? |
+| | Strategic Effectiveness | **Intervention utility:** When used to guide action, does the concept help achieve its intended objective under relevant constraints? |
+| | Performative Effects | **Effects of classification:** Does applying the concept alter the behavior, identity, institutional treatment, or organization of the entities classified? |
+| | Misuse Resistance | **Resistance to abuse:** Does the specification limit opportunities to exploit ambiguity, conceal assumptions, shift definitions opportunistically, or present contested classifications as self-evident facts? |
 
 ## Case Study
 
@@ -147,7 +181,7 @@
 5. **Recursive/Inductive** – Defines an entity by reference to itself under constraints (e.g., definition of natural numbers via Peano axioms).
 6. **Operational** – Defines a concept in terms of measurement or procedure (common in empirical sciences).
 
-## ❓ QA
+## QA
 
 ### What is the RepTarget of a Concept? Can concepts represent everything other mental representations represent?
 
@@ -188,7 +222,6 @@ There are several kinds of mental representations beyond concepts, including:
 ### What makes a concept hard to define?
 
 > …
->
 
 | **Challenge** | **Description** |
 | --- | --- |
@@ -203,7 +236,6 @@ There are several kinds of mental representations beyond concepts, including:
 ### What should we do with intractable concepts?
 
 > …
->
 
 | **Strategy** | **Description** | **Goal** |
 | --- | --- | --- |
@@ -225,7 +257,29 @@ There are several kinds of mental representations beyond concepts, including:
 
 ### Which are the limits of concept as epistemic artifact to model the world?
 
-….
+### Which are the limits of concepts as epistemic artifacts for modeling the world?
+
+> Concepts are epistemic artifacts that abstract, organize, and classify reality, but they inevitably lose information, impose boundaries, and may obscure relevant differences, relationships, and mechanisms. **The fact that a concept can be defined and its instances identified does not establish its analytical value**, since an indefinite number of concepts can be constructed; their usefulness must instead be evaluated by their empirical adequacy, discriminative power, explanatory contribution, and capacity to reveal meaningful structures or regularities that improve our understanding of reality.
+
+| Category | Limit | Description | Case |
+|---|---|---|---|
+| Representational | Information Loss | Concepts abstract selected aspects of reality, necessarily excluding information that may be relevant to other analytical purposes. | The concept of *social class* compresses diverse economic positions, property relations, and dependencies into a small number of categories. |
+| Delimitation | Arbitrary Boundaries | Conceptual boundaries may depend on conventional or analyst-defined criteria rather than meaningful discontinuities in reality. | Defining the middle class by a particular income threshold when economic position varies continuously. |
+| Definability | Infinite Conceptual Proliferation | An indefinite number of concepts can be constructed by selecting properties, combining distinctions, or imposing new criteria. The possibility of defining a concept does not establish its analytical value. | Defining a social class by a particular combination of occupation, income, educational attainment, and consumption habits without demonstrating that the resulting category reveals a meaningful social structure. |
+| Analytical Value | Lack of Epistemic Relevance | A concept may be clearly defined and consistently applicable without identifying a meaningful structure, distinction, regularity, or relationship that improves understanding. | Defining a category that groups individuals by an arbitrary combination of demographic characteristics without revealing any significant social pattern. |
+| Discrimination | Excessive Aggregation | A concept may group heterogeneous instances together, obscuring differences that are essential to explaining their properties or behavior. | Treating industrial entrepreneurs, financial investors, and small business owners as a homogeneous capitalist class. |
+| Granularity | Insufficient Resolution | A concept may be too coarse-grained to distinguish the entities, relationships, and mechanisms necessary for a particular analytical task. | Using social class to explain differences in political behavior without accounting for institutional position, economic interests, organizational affiliation, or individual circumstances. |
+| Reification | Mistaking Constructs for Reality | Analytical categories may be treated as independently existing entities, obscuring their status as conceptual constructions or representations of more complex phenomena. | Assuming that a social class necessarily possesses a unified identity, collective consciousness, or common political purpose. |
+| Dynamical Adequacy | Static Representation | Concepts may fail to capture processes, transitions, and transformations when they classify phenomena as fixed categories. | Classifying individuals by their current economic position while ignoring social mobility, changing property relations, and shifts in occupational structure. |
+| Relational Adequacy | Contextual and Relational Dependence | A concept may isolate an entity or property whose significance depends on relationships with other entities, institutions, or processes. | An individual's economic position cannot always be understood independently of labor markets, household relations, credit arrangements, and institutional constraints. |
+| Explanatory Power | Classification Without Explanation | A concept may classify phenomena without identifying the mechanisms or causal relationships that explain their properties or behavior. | Explaining political conflict by identifying the classes involved without establishing how their interests, institutions, and organizational capacities generate the conflict. |
+| Empirical Adequacy | Poor Correspondence with Reality | A concept may be logically coherent but fail to correspond adequately to observable structures or distinguish the phenomena it purports to represent. | A rigid classification of social classes may fail to accommodate individuals with mixed or changing economic positions. |
+| Operationalization | Measurement Ambiguity | The criteria used to identify or measure a concept may be ambiguous, inconsistent, or inadequate for empirical investigation. | Different researchers classify middle-class membership using income, occupation, education, wealth, or combinations of these indicators, producing incompatible results. |
+| Inferential Reliability | Unsupported Generalization | Membership in a conceptual category may be treated as sufficient grounds for attributing properties to its instances, even when those properties have not been established. | Inferring an individual's political preferences from their presumed social class. |
+| Comparative Adequacy | Dependence on Analytical Purpose | A concept's usefulness depends partly on the question being investigated; a category useful for one purpose may be inadequate for another. | An income-based classification may be useful for studying consumption but insufficient for analyzing control over productive assets. |
+| Conceptual Redundancy | No Added Analytical Contribution | A concept may reproduce distinctions already captured by existing concepts without improving explanatory precision, empirical discrimination, or analytical efficiency. | Introducing a new category of social class that does not distinguish any instances or relationships beyond those already captured by established classifications. |
+| Explanatory Circularity | Tautological Reasoning | A concept may be defined through a property and then invoked as an explanation of that same property, producing the appearance of explanation without identifying an independent mechanism. | Defining a group as economically dominant and then explaining its economic dominance by asserting that it belongs to that group. |
+| Model Dependence | Selective Representation | A concept's meaning and usefulness may depend on the wider conceptual framework in which it operates, limiting its adequacy when transferred to other contexts. | A classification of social classes developed for an industrial economy may inadequately represent social stratification in a predominantly agrarian society. |
 
 ## References
 
