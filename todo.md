@@ -1,5 +1,27 @@
 https://www.mrdi.org.hk/en/about-mrdi/Team
 
+What is the economic function / role of a logistic hub?
+
+How to fund public r&d?
+
+- Use a mother of fund of funds strategy in which:
+
+  - Money are ditributed ot thematic funds - an dthose thematics funds choose 'Fund Allocators'
+  - The fund allocators are evaluated on a set of issues.
+
+- https://www.nsfc.gov.cn/english/site_1/index.html
+
+[] Comparative Study on Peer Review Reliability of Proposed and Unproposed National Key Research and Development Programs: A Case Study of Agriculture and Rural Areas (2026)
+[] Evolution and Features of China's Central Government Funding System for Basic Research (2021)
+[] 
+
+
+Allocation Startegi:
+- Lnog Term
+
+Concect of Curvature:
+
+- ...
 
 Allow the link - as a cognitive aid.
 
