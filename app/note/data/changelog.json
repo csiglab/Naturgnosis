@@ -140,6 +140,16 @@
     ]
   },
   {
+    "file_path": "general/a-theory-of-government.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Removed the unfinished stub; the government element now lives at social/actor/collective/government/government.md."
+      }
+    ]
+  },
+  {
     "file_path": "general/agent-social-reality-reflection-problem.md",
     "logs": [
       {
@@ -1140,6 +1150,56 @@
     ]
   },
   {
+    "file_path": "social/actor/collective/government/administration.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/public-administration.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/civil-service-case-studies.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/bureaucracy/civil-service-case-studies.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/civil-service.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/civil-service.md and expanded with the civil service space characterization."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/course-of-honors.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/bureaucracy/course-of-honors.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/employee.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/employee.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
     "file_path": "social/actor/collective/government/governance/civil-service.md",
     "logs": [
       {
@@ -1191,6 +1251,56 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/hru.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/hru.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/justice.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/justice.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/law.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/law.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/mandarinate.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/bureaucracy/mandarinate.md; flattened governance/bureaucracy layers."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/system.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from government/governance/system.md; flattened governance/bureaucracy layers."
       }
     ]
   },
