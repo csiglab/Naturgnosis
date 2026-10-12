@@ -121,10 +121,10 @@ QA:
 - State
 - [Why public policies fail: Policymaking under complexity](https://www.sciencedirect.com/science/article/pii/S1517758019300931)
 - [Positive and normative economics](https://en.wikipedia.org/wiki/Positive_and_normative_economics)
-- [Social Region Change Toolkit Foundation](note.html?n=social/actor/collective/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md)
+- [Social Region Change Toolkit Foundation](note.html?n=social/actor/collective/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md)
 - [The Agent Social Reality Reflection Problem](../../../../general/agent-social-reality-reflection-problem.md)
 - [The Collective Action Problem](../../../../general/collective-action-problem.md)
 - [The Agent–Social-Reality Hard Coupling Problem](../../../../general/agent-social-reality-hard-coupling-problem.md)
-- [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/actor/collective/agency/guidance/instance/principle/t-paps.md)
+- [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/actor/collective/agency/informe/guidance/principle/t-paps.md)
 - [Agency](note.html?n=social/agency.md)
 - [Action](note.html?n=social/action.md)

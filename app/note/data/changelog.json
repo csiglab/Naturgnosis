@@ -146,6 +146,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -196,6 +201,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -206,6 +216,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -486,6 +501,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -625,6 +645,346 @@
     ]
   },
   {
+    "file_path": "social/actor/collective/agency/informe/a-comparative-development-essay-argentina-vs-spain.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from general/ into the new agency informe/ country-studies home."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/a-guide-to-german-historical-school-of-economics.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from general/ into the new agency informe/ country-studies home."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/an-essay-on-early-european-development-finance.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from general/ into the new agency informe/ country-studies home."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/an-essay-on-latin-america-economic-craft.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from general/ into the new agency informe/ country-studies home."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/framework/change-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/framework/change-framework.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-2030-agenda-for-sustainable-development.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-2030-agenda-for-sustainable-development.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-brazil-agricultural-industry.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-brazil-agricultural-industry.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-go-global.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-go-global.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-national-key-technologies-rd-program.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-863.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-program-863.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-973.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-program-973.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-emergence-of-sweden-textile-productive.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-emergence-of-sweden-textile-productive.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-invest-2035-the-uks-modern-industrial.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-invest-2035-the-uks-modern-industrial.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-nova-industria-brasil.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-nova-industria-brasil.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-singapore-tecnoproductive-development.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-singapore-tecnoproductive-development.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-sweden-industrilization.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-sweden-industrilization.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-financing-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-financing-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-industrial-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-industrial-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-infrastructure-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-infrastructure-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-innovation-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/eu-smart-specialisation-strategy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/eu-smart-specialisation-strategy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/finland-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/finland-innovation-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/israel-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/israel-innovation-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/korean-trade-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/korean-trade-policy.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/materials-genome-initiative.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/materials-genome-initiative.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/policy/specialized-smes-program.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/specialized-smes-program.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/guidance/principle/t-paps.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from social/actor/collective/agency/guidance/instance/principle/t-paps.md to the informe tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Moved from general/ into the new agency informe/ country-studies home."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/agency/informe/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "New country-studies index for agency informe/."
+      }
+    ]
+  },
+  {
     "file_path": "social/actor/collective/agency/instrumentation/action-instrumentation.md",
     "logs": [
       {
@@ -696,6 +1056,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ links to informe/guidance/."
       }
     ]
   },
@@ -706,6 +1071,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ links to informe/guidance/."
       }
     ]
   },
@@ -716,6 +1086,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -791,6 +1166,16 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/government.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Finished the Government element note (renamed from goverment.md): schema formulation, jurisdictional kinds, mandate-bound decomposition tree, boundary QA; removed the unfinished tag."
       }
     ]
   },
@@ -1421,6 +1806,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },
@@ -1616,6 +2006,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ link to informe/guidance/."
       }
     ]
   },

@@ -1,0 +1,58 @@
+{
+  "links": [
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/china-industrial-policy.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/china-innovation-policy.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/china-financing-policy.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/china-infrastructure-policy.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-go-global.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-863.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-973.md",
+      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "label": "country study",
+      "kind": "study"
+    },
+    {
+      "from": "social/actor/collective/space/chn/",
+      "to": "social/actor/collective/agency/informe/",
+      "label": "country studies",
+      "kind": "study"
+    }
+  ]
+}
