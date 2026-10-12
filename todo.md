@@ -1,5 +1,77 @@
 https://en.wikipedia.org/wiki/Rhombus
 
+- https://www.cepc.gob.es/sites/default/files/2024-07/3786504juan-pan.html?utm_source=chatgpt.com
+- https://www.oecd.org/content/dam/oecd/en/publications/reports/2005/09/modernising-government_g1gh5a93/9789264010505-en.pdf?utm_source=chatgpt.com
+- https://www.oecd.org/en/publications/public-employment-and-management-2023_5b378e11-en.html?utm_source=chatgpt.com
+- Heinrich Friedrich Karl vom Stein (1757–1831)
+- Karl August von Hardenberg (1750–1822)
+- Theodor von Schön (1773–1856)
+- Rudolf von Gneist (1816–1895)
+- Stein, Nassauer Denkschrift (1807) — administrative reform, decentralization, and public responsibility.
+- Hardenberg, Über die Reorganisation des Preußischen Staats (1807) — access to public office and comprehensive state reform.
+- The Prussian Administrative Organization Edict (1808) — the reorganization of central government and ministerial administration.
+- Humboldt, The Limits of State Action — the normative relationship between the state and the individual.
+- Gneist's writings on administrative law and self-government — the later development of constitutional and administrative thought.
+- https://books.google.com.do/books/about/Public_Personnel_Management.html?id=GuAPAQAAMAAJ&redir_esc=y
+- https://link.springer.com/book/10.1057/9781137491459?utm_source=chatgpt.com
+- https://www.oecd.org/en/publications/public-employment-and-management-2023_5b378e11-en.html?utm_source=chatgpt.com
+- https://www.routledge.com/The-Politicization-of-the-Civil-Service-in-Comparative-Perspective-A-Quest-for-Control/Peters-Pierre/p/book/9781138874558?utm_source=chatgpt.com
+- Benjamin A. Elman — A Cultural History of Civil Examinations in Late Imperial China (2000)
+- Benjamin A. Elman — Civil Examinations and Meritocracy in Late Imperial China (2013)
+- Edward C. Page — Weber's Scorecard: State Development, Bureaucracy, and Officialdom in Europe since Charlemagne (2024)
+- Patronage or Merit? Bureaucratic Recruitment in 19th and Early 20th Century Europe (2010)
+- Hugh Pemberton — “The Civil Service,” in The Oxford Handbook of Modern British Political History, 1800–2000 (2018)
+- Rodney Lowe — The Official History of the British Civil Service: Reforming the Civil Service, Volume I: The Fulton Years, 1966–81 (2011).
+- The Macaulay Report on the Indian Civil Service (1854)
+- The Fulton Report (1968)
+- Government Workforce Planning: Lessons Learned
+- SIGMA's Principles of Public Administration — a common framework for describing and assessing system design.
+- https://www.nber.org/papers/w35556?utm_source=chatgpt.com
+- A Diagnostic Study of the Civil Service in Indonesia (Asian Development Bank, 2021)
+- A. OECD — Public Governance Monitor of Sweden (2023)
+- C. Swedish Agency for Public Management — Ännu färre, ännu större (2024)
+- https://www.government.se/government-agencies/the-agency-for-financial-and-public-management-statskontoret/
+- A Labor Market for the Government.
+- Employee Evaluation.
+- Open Position  - Internal Recruitment.
+
+
+| Research problem                            | Key literature or sources                                                  | Analytical object                                                         |
+| ------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Official recruitment**                    | Elman; Miyazaki; Northcote–Trevelyan; Macaulay Report                      | Eligibility, selection, examinations, appointment                         |
+| **Qualifications and training**             | Elman; studies of European officialdom; historical recruitment regulations | Required knowledge, educational credentials, professional preparation     |
+| **Career and advancement**                  | Ho; Elman; comparative histories of European officialdom                   | Promotion, rank, career progression, status                               |
+| **Position and rank structures**            | Page; European administrative histories; civil service regulations         | Offices, grades, hierarchies, classifications                             |
+| **Social composition of the bureaucracy**   | Ho; Elman; comparative recruitment research                                | Social origins, elite reproduction, access to office                      |
+| **Political control of appointments**       | Elman; Hardenberg; Stein; comparative recruitment studies                  | Patronage, royal authority, political influence, institutional autonomy   |
+| **Personnel discipline and accountability** | Historical administrative regulations and institutional histories          | Duties, sanctions, supervision, responsibility                            |
+| **Reform and institutional change**         | Northcote–Trevelyan; Macaulay; Hardenberg; Fulton                          | Reform objectives, implementation, institutional resistance, consequences |
+
+
+
+
+
+- Examen de Residencia
+- ... 
+
+
+| Country            | Foundational document or reform                                                                      |                                Date | What to investigate                                                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **United Kingdom** | [Northcote–Trevelyan Report](https://commonslibrary.parliament.uk/research-briefings/cbp-10819/)     |                                1854 | Open competitive recruitment, merit, classification, and permanent public service.                                                    |
+| **United States**  | Pendleton Civil Service Reform Act                                                                   |                                1883 | The transition away from the spoils system and the institutionalization of merit-based recruitment.                                   |
+| **France**         | Ordinance establishing the École nationale d'administration (ENA)                                    |                                1945 | Centralized training and recruitment of senior officials; subsequent reforms to the higher civil service.                             |
+| **Spain**          | Royal Decree of 18 June 1852, associated with the Bravo Murillo reform                               |                                1852 | Administrative categories, entry examinations, remuneration, promotion, and personnel regulation.                                     |
+| **Germany**        | German civil service legislation and Prussian administrative reforms                                 | Particularly the nineteenth century | Professional qualifications, legal status, rank structures, and the relationship between bureaucratic office and career.              |
+| **Sweden**         | Constitutional and administrative reforms establishing the modern framework of public administration |  Particularly the twentieth century | Agency autonomy, administrative impartiality, and the development of position-based employment.                                       |
+| **Singapore**      | Public-service reforms following independence                                                        |                    From 1965 onward | Meritocratic recruitment, scholarship systems, leadership development, and central coordination of personnel.                         |
+| **Japan**          | National Public Service Act                                                                          |                                1947 | Competitive examinations, personnel administration, and the organization of a professional public service after the Second World War. |
+| **India**          | Macaulay's 1854 report on the Indian Civil Service and subsequent civil service reforms              |                         1854 onward | Competitive recruitment, imperial administrative institutions, and the transition to a national civil service.                        |
+| **Brazil**         | Federal constitutional and administrative reforms, particularly the 1930s onward                     |                        1930s onward | Professionalization, competitive recruitment, administrative modernization, and the organization of statutory careers.                |
+
+
+
+https://commonslibrary.parliament.uk/research-briefings/cbp-10819/?utm_source=chatgpt.com
+
 https://www.mrdi.org.hk/en/about-mrdi/Team
 
 What is the economic function / role of a logistic hub?

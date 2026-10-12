@@ -41,7 +41,9 @@ Rules for files and directories we author:
    Collisions get a `-2`, `-3`, … suffix. Never run `bin/slugify_files.py`
    (which emits `_`) on the corpus; see `spec/note/authoring.md` and
   `bin/build_note_index.py:slugify_segment()` for the canonical form. The viewer
-  resolves `note.html?n=<path>` against this directory.
+  resolves `note.html?n=<path>` against this directory. Fixed-name support files
+  (`links.json`, `pins.json`, `changelog.json`, `index.json`) are exempt from
+  the slug rule; they are never notes.
 - **Country-keyed path segments** — where a directory is keyed by country (for
   example `app/note/data/social/actor/societal/research/<code>/` or
   `app/note/data/social/actor/state/space/<code>/region/`), use ISO 3166-1 alpha-3,

@@ -19,6 +19,11 @@ spec/note/authoring.md); violations print as warnings and never fail
 the build. The canonical slug form is `slugify_segment()` (Epistecnica
 parity: NFKD to ASCII, lowercase, runs of non-alphanumerics to `-`).
 
+Support links (navigation/cognition aids) live in the single registry
+app/note/data/links.json — directed {from, to, label, kind} pairs whose
+endpoints are note paths or dir/ scopes. The builder validates and embeds
+them as a top-level "links" array in index.json (see load_links()).
+
 Usage: python3 bin/build_note_index.py
 """
 
@@ -34,6 +39,7 @@ NOTE = Path(__file__).resolve().parent.parent
 APP = NOTE / "app" / "note"
 NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
+LINKS = APP / "data" / "links.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
@@ -190,6 +196,61 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: st
     }
 
 
+def load_links(index_paths: set, warnings: list) -> list:
+    """Read the links registry and return embedded {from, to, label, kind} pairs.
+
+    The registry is the single fixed file data/links.json (a special file: never
+    a note, never naming-validated). Each entry declares a directed support link;
+    endpoints are corpus-relative note paths or dir/ prefixes. A dir `from` expands
+    to every indexed note beneath it; a dir `to` stays a scope link. Unknown
+    endpoints warn and are dropped, never failing the build.
+    """
+    if not LINKS.is_file():
+        return []
+    try:
+        raw = json.loads(LINKS.read_text(encoding="utf-8"))
+    except ValueError as exc:
+        warnings.append(f"links.json (invalid JSON: {exc})")
+        return []
+    declared = raw.get("links", []) if isinstance(raw, dict) else []
+    embedded = []
+    for e in declared:
+        if not isinstance(e, dict):
+            warnings.append("links.json (entry is not an object)")
+            continue
+        frm = e.get("from", "") or ""
+        to = e.get("to", "") or ""
+        label = e.get("label", "") or ""
+        kind = e.get("kind", "") or ""
+        if frm.endswith("/"):
+            if not (NOTES / frm).is_dir():
+                warnings.append(f"links.json (unknown dir: {frm})")
+                continue
+            sources = sorted(p for p in index_paths if p.startswith(frm))
+            if not sources:
+                warnings.append(f"links.json (empty dir: {frm})")
+                continue
+        elif frm in index_paths:
+            sources = [frm]
+        else:
+            warnings.append(f"links.json (unknown note: {frm})")
+            continue
+        if to.endswith("/"):
+            if not (NOTES / to).is_dir():
+                warnings.append(f"links.json (unknown dir: {to})")
+                continue
+            targets = [to]
+        elif to in index_paths:
+            targets = [to]
+        else:
+            warnings.append(f"links.json (unknown note: {to})")
+            continue
+        for s in sources:
+            for t in targets:
+                embedded.append({"from": s, "to": t, "label": label, "kind": kind})
+    return embedded
+
+
 def main() -> int:
     if not NOTES.is_dir():
         print(f"ERROR: notes directory not found: {NOTES}", file=sys.stderr)
@@ -209,18 +270,27 @@ def main() -> int:
     for n in notes:
         sections[n["section"]] = sections.get(n["section"], 0) + 1
 
+    index_paths = {n["path"] for n in notes}
+    link_warnings = []
+    links = load_links(index_paths, link_warnings)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
         "count": len(notes),
         "sections": sections,
         "notes": notes,
+        "links": links,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     kb = OUT.stat().st_size / 1024
     tagged = sum(1 for n in notes if n["tags"])
     print(f"notes-index: {len(notes)} notes ({tagged} tagged), {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE)} ({kb:.0f} KB)")
+    print(f"notes-links: {len(links)} embedded ({len(link_warnings)} warnings)")
+    for section, count in sorted(sections.items()):
+        print(f"  {section}: {count}")
+    warnings.extend(link_warnings)
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:
