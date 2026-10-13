@@ -128,6 +128,6 @@ Guiding Questions:
 - Actor Catalog
 - García Sánchez, Ester. El concepto de actor: Reflexiones y propuestas para la ciencia política. Andamios 3.6 (2007): 199-216.
 - [Actors](https://www.sociopedia.co/post/actors)
-- [Agency](agency/agency.md)
+- [Agency](action/public/agency.md)
 - [Action](action/action.md)
 - [Actor Taxonomy](https://www.bremontix.xyz/lab/research/actor/)

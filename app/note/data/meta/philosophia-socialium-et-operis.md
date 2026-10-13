@@ -165,7 +165,7 @@ Case:
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/agency/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/action/public/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
@@ -290,7 +290,7 @@ Case:
 - [Science](note.html?n=social/action/activity/research/science/science.md)
 - [Technical Activity](note.html?n=social/action/activity/research/technical/technical-activity.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md)
-- [Policy](note.html?n=social/agency/guidance/policy.md)
+- [Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Principle](note.html?n=social/action/guidance/principle.md)
 - [Rule](note.html?n=social/action/guidance/rule.md)
 - [Doctrine](note.html?n=social/action/guidance/doctrine.md)
@@ -302,7 +302,7 @@ Case:
 - [Initiative](note.html?n=social/action/organization/initiative.md)
 - [Roadmap](note.html?n=social/action/organization/roadmap.md)
 - [Charter](note.html?n=social/action/organization/charter.md)
-- [Agency](note.html?n=social/agency/agency.md)
+- [Agency](note.html?n=social/action/public/agency.md)
 - [Problem](note.html?n=social/problem/policy-problem.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)

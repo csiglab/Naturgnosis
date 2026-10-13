@@ -115,16 +115,16 @@ QA:
 ## References
 
 - A Defense of Industrial Policy
-- [Locus Instrumentorum](note.html?n=social/agency/instrumentation/instrumentorum-readme.md)
+- [Locus Instrumentorum](note.html?n=social/action/public/instrumentation/instrumentorum-readme.md)
 - The Agent–Social-Reality Hard Coupling Problem
 - An Essay on Self Organization in Social Systems
 - State
 - [Why public policies fail: Policymaking under complexity](https://www.sciencedirect.com/science/article/pii/S1517758019300931)
 - [Positive and normative economics](https://en.wikipedia.org/wiki/Positive_and_normative_economics)
-- [Social Region Change Toolkit Foundation](note.html?n=social/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md)
+- [Social Region Change Toolkit Foundation](note.html?n=social/action/public/informe/guidance/framework/social-region-change-toolkit-foundation.md)
 - The Agent Social Reality Reflection Problem
 - The Collective Action Problem
 - The Agent–Social-Reality Hard Coupling Problem
-- [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/agency/informe/guidance/principle/t-paps.md)
-- [Agency](note.html?n=social/agency/agency.md)
+- [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/action/public/informe/guidance/principle/t-paps.md)
+- [Agency](note.html?n=social/action/public/agency.md)
 - [Action](note.html?n=social/action/action.md)

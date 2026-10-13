@@ -5,8 +5,7 @@
 | Home | Scope |
 | --- | --- |
 | [Actor](note.html?n=social/actor/readme.md) | Interaction Unit — who acts (public / private; generic kinds) |
-| [Action](note.html?n=social/action/readme.md) | Social Action and Activity |
-| [Agency](note.html?n=social/agency/readme.md) | structured capacity to intend, select, and execute |
+| [Action](note.html?n=social/action/readme.md) | Social Action, Activity, and the public action branch (`public/`, former Agency elements) |
 | [Relation](note.html?n=social/relation/readme.md) | Social Relation / Network |
 | [Coordinator](note.html?n=social/coordinator/readme.md) | markets, money, product, capital–labor, price, technique |
 | [Problem](note.html?n=social/problem/readme.md) | problematization and problem dimensions |

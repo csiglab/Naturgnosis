@@ -45,6 +45,6 @@ tags: [initiative, organization, action, social-element]
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Policy](note.html?n=social/agency/guidance/policy.md) (the course an initiative may execute)
+- [Policy](note.html?n=social/action/public/guidance/policy.md) (the course an initiative may execute)
 - [Project](note.html?n=social/action/organization/project.md) (the bounded effort an initiative may become)
-- [Materials Genome Initiative](note.html?n=social/agency/informe/guidance/policy/materials-genome-initiative.md) (a worked initiative instance)
+- [Materials Genome Initiative](note.html?n=social/action/public/informe/guidance/policy/materials-genome-initiative.md) (a worked initiative instance)

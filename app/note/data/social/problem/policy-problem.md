@@ -6,7 +6,7 @@
 > shall head toward, and decomposes into mandate, instrument, goal, target, agency,
 > rule, and review.
 
-> Problematization formulates the problem; [Policy](note.html?n=social/agency/guidance/policy.md)
+> Problematization formulates the problem; [Policy](note.html?n=social/action/public/guidance/policy.md)
 > answers it with a course; the [Dimension](note.html?n=social/problem/dimension/domain.md)
 > index scopes in which domain of social reality it sits. See
 > [Problematization](note.html?n=epistemica/problematization.md) for the process,
@@ -50,7 +50,7 @@
 ## References
 
 - [Problem](note.html?n=social/problem/problem.md)
-- [Policy](note.html?n=social/agency/guidance/policy.md)
+- [Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
 - [Dimension](note.html?n=social/problem/dimension/domain.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)

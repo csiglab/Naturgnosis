@@ -200,7 +200,7 @@ In this framework, regulation is thus both a foundational ontological element pr
 
 ### Change
 
-> See more in [Ontology of Change](note.html?n=social/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md).
+> See more in [Ontology of Change](note.html?n=social/action/public/informe/guidance/framework/social-region-change-toolkit-foundation.md).
 
 ### Phenomena
 
@@ -370,7 +370,7 @@ Classification of Elements of Social Reality:
 * [Natural Computing](https://righteous-guardian-68f.notion.site/Natural-Computing-111c0f5171ec804196f2e48b5ee1afb5?pvs=4)
 * [Complexity Science](https://righteous-guardian-68f.notion.site/Complexity-Science-171c0f5171ec80c18335cdf06a024db6?pvs=4)
 * [Dynamical Intelligence](https://righteous-guardian-68f.notion.site/Dynamical-Intelligence-a41fde247c384e3bb5e561bf55c70f33?pvs=4)
-* [Agency](../agency/agency.md)
+* [Agency](../action/public/agency.md)
 * [External Observer](note.html?n=epistemica/observation.md)
 * [Sociological Theory](https://en.wikipedia.org/wiki/Sociological_theory)
 * [Social Ontology](https://www.cambridge.org/core/elements/social-ontology/0F208BDE42489CF0CF77B0DE38E95BBB)

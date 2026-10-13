@@ -7,5 +7,5 @@ tags: [unfinished]
 
 ## References
 
-- [Agency](note.html?n=social/agency/agency.md)
+- [Agency](note.html?n=social/action/public/agency.md)
 - [Action](note.html?n=social/action/action.md)

@@ -143,5 +143,5 @@ Instrumentalization occurs during both formulation and implementation:
 - [Principle](note.html?n=social/action/guidance/principle.md)
 - [Policy](https://en.wikipedia.org/wiki/Policy)
 - [Public Finance](https://en.wikipedia.org/wiki/Public_finance)
-- [Instrumentalization](note.html?n=social/agency/instrumentation/instrumentorum-readme.md)
+- [Instrumentalization](note.html?n=social/action/public/instrumentation/instrumentorum-readme.md)
 - OECD (2020), Policy Framework on Sound Public Governance: Baseline Features of Governments that Work Well, OECD Publishing, Paris, https://doi.org/10.1787/c03e01b3-en. 

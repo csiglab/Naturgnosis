@@ -375,7 +375,7 @@ See
 - [Public Organization](note.html?n=social/actor/public/public-organization.md)
 - [Organization](note.html?n=social/actor/organization.md)
 - [Facet](note.html?n=social/framework/facet.md)
-- [Public Policy](note.html?n=social/agency/guidance/policy.md)
+- [Public Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Plan](note.html?n=social/action/organization/plan.md)
 - [Program](note.html?n=social/action/organization/program.md)
 - [Government-Wide Administrative System](note.html?n=social/actor/public/government/administration/gov-wide-administration.md)

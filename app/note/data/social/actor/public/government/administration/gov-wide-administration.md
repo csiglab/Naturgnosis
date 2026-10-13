@@ -691,7 +691,7 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Civil Service](note.html?n=social/actor/public/government/administration/civil-service.md)
 - [Human Resource Unit](note.html?n=social/actor/public/government/administration/hru.md)
 - [Public Employee](note.html?n=social/actor/public/government/administration/employee.md)
-- [Public Policy](note.html?n=social/agency/guidance/policy.md)
+- [Public Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Facet](note.html?n=social/framework/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)

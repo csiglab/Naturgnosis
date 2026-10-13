@@ -11,15 +11,15 @@
 > theories, models — lives there or in Epistemica,
 > not here. Only operative means stay.
 
-> General tools to model and analyze in [Locus Instrumentorum](note.html?n=social/agency/instrumentation/instrumentorum-readme.md).
+> General tools to model and analyze in [Locus Instrumentorum](note.html?n=social/action/public/instrumentation/instrumentorum-readme.md).
 
 ## Operative instruments
 
-- Staffing the agency: [Selection](note.html?n=social/agency/instrumentation/bureaucracy/selection.md), [Monetary Compensation](note.html?n=social/agency/instrumentation/bureaucracy/compensation.md), [Director Appointment](note.html?n=social/agency/instrumentation/general/src/director-appointment-process.md)
-- Recognition and incentives: [Recognition Systems](note.html?n=social/agency/instrumentation/general/src/recognition.md), [Incentive](note.html?n=social/agency/instrumentation/foundation/incentive/incentive.md), [Mechanism Design](note.html?n=social/agency/instrumentation/foundation/incentive/mechanism.md), [Market Design](note.html?n=social/agency/instrumentation/market/market-design.md)
-- Diffusion and extension: [Manufacturing Extension](note.html?n=social/agency/instrumentation/production/manufacturing-extension-partnership.md), [Pilot Plant](note.html?n=social/agency/instrumentation/production/pilot-plant.md), [Accelerators](note.html?n=social/agency/instrumentation/production/startup-accelerator.md), [Protofabrica](note.html?n=social/agency/instrumentation/production/protofabrica.md), [Productivity Promotion](note.html?n=social/agency/instrumentation/production/productivity-promotion-center.md), [Practice Diffusion](note.html?n=social/agency/instrumentation/production/industrial-technical-practice-diffusion.md)
-- Monitoring instruments: [Evaluation](note.html?n=social/agency/instrumentation/evaluation/evaluation.md), [National Accounts](note.html?n=social/agency/instrumentation/evaluation/sna.md), [National Wealth](note.html?n=social/agency/instrumentation/evaluation/wealth.md), [Quality Index](note.html?n=social/agency/instrumentation/production/quality-index.md)
-- Coordination means: [Communication](note.html?n=social/agency/instrumentation/communication/communication.md), [Documentation](note.html?n=social/agency/instrumentation/documentation/documentation.md), [Institutional Design](note.html?n=social/agency/instrumentation/institutional/institutional-design.md)
+- Staffing the agency: [Selection](note.html?n=social/action/public/instrumentation/bureaucracy/selection.md), [Monetary Compensation](note.html?n=social/action/public/instrumentation/bureaucracy/compensation.md), [Director Appointment](note.html?n=social/action/public/instrumentation/general/src/director-appointment-process.md)
+- Recognition and incentives: [Recognition Systems](note.html?n=social/action/public/instrumentation/general/src/recognition.md), [Incentive](note.html?n=social/action/public/instrumentation/foundation/incentive/incentive.md), [Mechanism Design](note.html?n=social/action/public/instrumentation/foundation/incentive/mechanism.md), [Market Design](note.html?n=social/action/public/instrumentation/market/market-design.md)
+- Diffusion and extension: [Manufacturing Extension](note.html?n=social/action/public/instrumentation/production/manufacturing-extension-partnership.md), [Pilot Plant](note.html?n=social/action/public/instrumentation/production/pilot-plant.md), [Accelerators](note.html?n=social/action/public/instrumentation/production/startup-accelerator.md), [Protofabrica](note.html?n=social/action/public/instrumentation/production/protofabrica.md), [Productivity Promotion](note.html?n=social/action/public/instrumentation/production/productivity-promotion-center.md), [Practice Diffusion](note.html?n=social/action/public/instrumentation/production/industrial-technical-practice-diffusion.md)
+- Monitoring instruments: [Evaluation](note.html?n=social/action/public/instrumentation/evaluation/evaluation.md), [National Accounts](note.html?n=social/action/public/instrumentation/evaluation/sna.md), [National Wealth](note.html?n=social/action/public/instrumentation/evaluation/wealth.md), [Quality Index](note.html?n=social/action/public/instrumentation/production/quality-index.md)
+- Coordination means: [Communication](note.html?n=social/action/public/instrumentation/communication/communication.md), [Documentation](note.html?n=social/action/public/instrumentation/documentation/documentation.md), [Institutional Design](note.html?n=social/action/public/instrumentation/institutional/institutional-design.md)
 
 ## Action Typology
 
@@ -44,4 +44,4 @@
 
 ## References
 
-- [Locus Instrumentorum](note.html?n=social/agency/instrumentation/instrumentorum-readme.md)
+- [Locus Instrumentorum](note.html?n=social/action/public/instrumentation/instrumentorum-readme.md)

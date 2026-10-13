@@ -50,7 +50,7 @@ tags: [agenda, organization, action, social-element]
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md) (the selection an agenda translates)
-- [Policy](note.html?n=social/agency/guidance/policy.md) (the course an agenda may execute)
+- [Policy](note.html?n=social/action/public/guidance/policy.md) (the course an agenda may execute)
 - [Program](note.html?n=social/action/organization/program.md) (the set that may implement an agenda)
 - [Plan](note.html?n=social/action/organization/plan.md) (the arrangement sequencing any one move)
 - [Initiative](note.html?n=social/action/organization/initiative.md) (the launch an agenda may spawn)
