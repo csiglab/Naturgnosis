@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas of Government-Wide Administration Characterization Systems</title>
+<link rel="icon" href="/shared/img/favicon.ico">
+<script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+<style>
+:root {
+    /* Oxford Common Room tokens — keep identical to app/shared/theme.css */
+    --bg-void: #0b0e14;
+    --bg-surface: #11151e;
+    --bg-card: #161b26;
+    --bg-elevated: #1d2330;
+    --bg-hover: rgba(255, 255, 255, 0.04);
+    --gilt: #C4B998;
+    --parchment: #D6D1C4;
+    --thread: #4a4a4a;
+    --text-primary: #f4f3f1;
+    --text-secondary: #a8a5b0;
+    --text-muted: #9290aa;
+    --text-ghost: #82809a;
+    --accent-copper: #c9956c;
+    --accent-sage: #7ba388;
+    --accent-plum: #9b7eb0;
+    --accent-steel: #6b8caa;
+    --accent-amber: #d4a857;
+    --border-subtle: rgba(255, 255, 255, 0.05);
+    --border-medium: rgba(255, 255, 255, 0.08);
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --font-display: Georgia, 'Times New Roman', serif;
+    --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+}
+html[data-theme="light"] {
+    --bg-void: #f5f2ea;
+    --bg-surface: #efe9dc;
+    --bg-card: #fffdf8;
+    --bg-elevated: #ffffff;
+    --bg-hover: rgba(20, 22, 30, 0.04);
+    --gilt: #9a7b3f;
+    --text-primary: #1a1d24;
+    --text-secondary: #4a4f5e;
+    --text-muted: #7a7f8e;
+    --text-ghost: #9aa0ae;
+    --accent-copper: #9a7b3f;
+    --accent-sage: #4e7a5e;
+    --accent-plum: #7a5f8c;
+    --accent-steel: #4e6e8c;
+    --accent-amber: #9a742f;
+    --border-subtle: rgba(20, 22, 30, 0.10);
+    --border-medium: rgba(20, 22, 30, 0.14);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { background: var(--bg-void); }
+body { background: var(--bg-void); color: var(--text-primary); font-family: var(--font-body);
+    font-size: 14px; line-height: 1.55; min-height: 100vh; display: flex; flex-direction: column; }
+.nav { position: sticky; top: 0; z-index: 10; background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0.9rem 1.5rem; display: flex; align-items: center;
+    justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.nav-brand { font-family: var(--font-display); font-size: 1.25rem; color: var(--text-primary); text-decoration: none; }
+.nav-links { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.nav-links a { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); text-decoration: none; }
+.nav-links a:hover { color: var(--accent-copper); }
+.theme-toggle { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle);
+    padding: 0.4rem 0.7rem; cursor: pointer; border-radius: var(--radius-sm); }
+.theme-toggle:hover { color: var(--accent-copper); border-color: var(--accent-copper); }
+main { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem 4rem; width: 100%; flex: 1; }
+.lede { color: var(--text-secondary); max-width: 70ch; margin: 0.6rem 0 1.6rem; }
+.lede a { color: var(--accent-copper); }
+h1 { font-family: var(--font-display); font-weight: 500; font-size: 2rem; letter-spacing: 0.01em; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.35rem; margin: 2rem 0 0.4rem; }
+h3 { font-size: 0.8rem; font-family: var(--font-mono); letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent-copper); margin: 1.6rem 0 0.8rem; }
+.counts { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); }
+.toolbar { display: flex; gap: 0.8rem; margin: 1.2rem 0; flex-wrap: wrap; align-items: center; }
+#search { flex: 1; min-width: 220px; background: var(--bg-card); border: 1px solid var(--border-medium);
+    color: var(--text-primary); padding: 0.6rem 0.9rem; border-radius: var(--radius-sm); font-size: 0.9rem; }
+#search::placeholder { color: var(--text-ghost); }
+.tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0.4rem 0 1rem; }
+.tab { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; background: var(--bg-card);
+    color: var(--text-secondary); border: 1px solid var(--border-subtle); border-radius: 999px;
+    padding: 0.45rem 0.9rem; cursor: pointer; }
+.tab:hover { border-color: var(--accent-copper); color: var(--text-primary); }
+.tab[aria-selected="true"] { background: var(--accent-copper); border-color: var(--accent-copper); color: #11151e; }
+.sys-desc { color: var(--text-secondary); max-width: 78ch; }
+.sys-meta { font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted); margin-top: 0.5rem; }
+.sys-meta a { color: var(--accent-steel); }
+.card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+    padding: 0.9rem 1.1rem; margin: 0.6rem 0; }
+.card:target { border-color: var(--accent-copper); }
+.card-head { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+.card-name { font-weight: 600; font-size: 0.98rem; }
+.badge { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
+    border: 1px solid var(--border-medium); border-radius: 999px; padding: 0.1rem 0.55rem; color: var(--text-muted); }
+.badge.concept { color: var(--accent-sage); border-color: var(--accent-sage); }
+.badge.dimension { color: var(--accent-plum); border-color: var(--accent-plum); }
+.card-desc { color: var(--text-secondary); margin-top: 0.35rem; }
+.critique { margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted); border-left: 2px solid var(--accent-amber);
+    padding-left: 0.7rem; }
+.critique summary { cursor: pointer; font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; }
+.values { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.55rem; }
+.value { font-family: var(--font-mono); font-size: 0.7rem; background: var(--bg-elevated);
+    border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 0.2rem 0.55rem;
+    color: var(--text-secondary); }
+.anchor { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-ghost); text-decoration: none; margin-left: auto; }
+.anchor:hover { color: var(--accent-copper); }
+mark { background: var(--accent-amber); color: #11151e; border-radius: 2px; padding: 0 1px; }
+.empty { color: var(--text-muted); font-style: italic; margin: 1.5rem 0; }
+footer { border-top: 1px solid var(--border-subtle); }
+.foot-inner { max-width: 1200px; margin: 0 auto; padding: 1.2rem 1.5rem; font-size: 0.75rem; color: var(--text-muted); }
+.foot-inner a { color: var(--accent-steel); }
+#error { color: #c47d8a; margin: 1rem 0; }
+</style>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner">
+<a class="nav-brand" href="#">Atlas of Government-Wide Administration Characterization Systems</a>
+<div class="nav-links">
+<a href="../administration.md">Parent note</a>
+<a href="../gov-wide-administration.md">Gov-wide system</a>
+<a href="atlas.json">atlas.json</a>
+<a href="atlas.schema.json">schema</a>
+<button class="theme-toggle" id="themeToggle" type="button">Light / Dark</button>
+</div>
+</div></nav>
+<main>
+<h1>Atlas of Government-Wide Administration Characterization Systems</h1>
+<p class="lede" id="lede">Five characterization systems — lenses for classifying and comparing
+government-wide administrative systems, transcribed from the
+<a href="../../government/government.md">Government</a> element note. This atlas does not contain
+administrative systems themselves; those are documented in the linked notes. Concepts carry their
+<em>Concept Critique</em>; dimensions carry their <em>Value Set</em> where the characterization
+framework states one. The characterization tables in the Government note stay canonical — this atlas
+is an explorer, not a fork.</p>
+<div class="toolbar">
+<input id="search" type="search" placeholder="Search concepts, dimensions, values across all five systems…" autocomplete="off">
+<span class="counts" id="counts"></span>
+</div>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div id="error" hidden></div>
+<section id="system"></section>
+</main>
+<footer><div class="foot-inner">
+<span id="footMeta"></span> Characterization lenses, not the systems themselves. Canonical home of the tables:
+<a href="../../government/government.md">Government</a> ·
+<a href="../gov-wide-administration.md">Government-Wide Administrative System</a> ·
+<a href="../administration.md">Public Administration</a>.
+</div></footer>
+<script>
+(function () {
+    "use strict";
+    var state = { data: null, active: null, query: "" };
+
+    function $(sel) { return document.querySelector(sel); }
+
+    // Theme toggle (same key as the rest of the corpus views).
+    $("#themeToggle").addEventListener("click", function () {
+        var root = document.documentElement;
+        var next = root.dataset.theme === "light" ? "dark" : "light";
+        root.dataset.theme = next;
+        try { localStorage.setItem("naturgnosis-theme", next); } catch (e) {}
+    });
+
+    function esc(s) {
+        return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    function highlight(text, q) {
+        if (!q) return esc(text);
+        var i = String(text).toLowerCase().indexOf(q);
+        if (i < 0) return esc(text);
+        return esc(String(text).slice(0, i)) + "<mark>" +
+            esc(String(text).slice(i, i + q.length)) + "</mark>" +
+            esc(String(text).slice(i + q.length));
+    }
+
+    function entryMatches(e, q) {
+        if (!q) return true;
+        var hay = (e.name + " " + e.description + " " + (e.critique || "") + " " +
+            (e.values || []).join(" ")).toLowerCase();
+        return hay.indexOf(q) >= 0;
+    }
+
+    function slug(s) {
+        return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    }
+
+    function entryId(sysName, entryName) { return sysName + "--" + slug(entryName); }
+
+    function renderTabs() {
+        var tabs = $("#tabs");
+        tabs.innerHTML = "";
+        state.data.systems.forEach(function (sys) {
+            var b = document.createElement("button");
+            b.className = "tab";
+            b.type = "button";
+            b.setAttribute("role", "tab");
+            b.setAttribute("aria-selected", sys.name === state.active ? "true" : "false");
+            b.textContent = sys.title;
+            b.addEventListener("click", function () { setActive(sys.name, true); });
+            tabs.appendChild(b);
+        });
+    }
+
+    function renderSystem() {
+        var sys = state.data.systems.filter(function (s) { return s.name === state.active; })[0];
+        var box = $("#system");
+        if (!sys) { box.innerHTML = ""; return; }
+        var q = state.query;
+        var html = "<h2>" + esc(sys.title) + "</h2>" +
+            '<p class="sys-desc">' + esc(sys.description) + "</p>" +
+            '<p class="sys-meta">level: ' + esc(sys.level) + " · source: " + esc(sys.source_note) +
+            (sys.related_notes && sys.related_notes.length ?
+                " · related: " + sys.related_notes.map(esc).join(", ") : "") + "</p>";
+        var total = 0, shown = 0;
+        sys.categories.forEach(function (cat) {
+            var cards = "";
+            cat.entries.forEach(function (e) {
+                total += 1;
+                if (!entryMatches(e, q)) return;
+                shown += 1;
+                var id = entryId(sys.name, e.name);
+                cards += '<article class="card" id="' + id + '">' +
+                    '<div class="card-head"><span class="badge ' + e.kind + '">' + e.kind + "</span>" +
+                    '<span class="card-name">' + highlight(e.name, q) + "</span>" +
+                    '<a class="anchor" href="#' + id + '">§</a></div>' +
+                    '<p class="card-desc">' + highlight(e.description, q) + "</p>";
+                if (e.critique) {
+                    cards += '<details class="critique"><summary>Concept critique</summary>' +
+                        highlight(e.critique, q) + "</details>";
+                }
+                if (e.values && e.values.length) {
+                    cards += '<div class="values">' + e.values.map(function (v) {
+                        return '<span class="value">' + highlight(v, q) + "</span>";
+                    }).join("") + "</div>";
+                }
+                cards += "</article>";
+            });
+            if (cards) html += "<h3>" + esc(cat.name) + "</h3>" + cards;
+        });
+        if (q && !shown) {
+            html += '<p class="empty">No matches for “' + esc(state.queryRaw || q) +
+                "” in " + esc(sys.title) + ".</p>";
+        }
+        box.innerHTML = html;
+        $("#counts").textContent = q ?
+            shown + " / " + total + " entries match" :
+            sys.categories.length + " categories · " + total + " entries";
+    }
+
+    function setActive(name, push) {
+        state.active = name;
+        renderTabs();
+        renderSystem();
+        if (push) {
+            try { history.replaceState(null, "", "#" + name); } catch (e) {}
+        }
+    }
+
+    $("#search").addEventListener("input", function (ev) {
+        state.queryRaw = ev.target.value;
+        state.query = ev.target.value.trim().toLowerCase();
+        renderSystem();
+    });
+
+    function fromHash() {
+        var h = (location.hash || "").replace(/^#/, "");
+        if (!h || !state.data) return;
+        var sys = state.data.systems.filter(function (s) { return s.name === h; })[0];
+        if (sys) { setActive(sys.name, false); return; }
+        // Deep link to an entry: sys--entry.
+        var parts = h.split("--");
+        var owner = state.data.systems.filter(function (s) { return s.name === parts[0]; })[0];
+        if (owner) setActive(owner.name, false);
+    }
+    window.addEventListener("hashchange", fromHash);
+
+    fetch("atlas.json", { cache: "no-cache" }).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+    }).then(function (data) {
+        state.data = data;
+        var names = data.systems.map(function (s) { return s.name; });
+        var initial = names.indexOf((location.hash || "").replace(/^#/, "").split("--")[0]) >= 0 ?
+            location.hash.replace(/^#/, "").split("--")[0] : names[0];
+        setActive(initial, false);
+        var nEntries = 0;
+        data.systems.forEach(function (s) {
+            s.categories.forEach(function (c) { nEntries += c.entries.length; });
+        });
+        $("#footMeta").textContent = data.systems.length + " systems · " + nEntries +
+            " entries · atlas v" + (data.meta && data.meta.version) + ". ";
+        fromHash();
+    }).catch(function (err) {
+        var el = $("#error");
+        el.hidden = false;
+        el.textContent = "Failed to load atlas.json: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>

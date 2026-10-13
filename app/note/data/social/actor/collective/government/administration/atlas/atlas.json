@@ -1,0 +1,721 @@
+{
+  "meta": {
+      "description": "Five characterization systems — lenses for classifying and comparing government-wide administrative systems — transcribed from the Government element note. Concepts carry their Concept Critique; dimensions carry their Value Set where the characterization framework states one.",
+    "version": 1
+  },
+  "systems": [
+    {
+      "name": "administrative-system",
+      "title": "Administrative System",
+      "description": "Core concepts of public administration as an administrative system: what it is, what it is made of, and what it can do.",
+      "source_note": "social/actor/collective/government/government.md",
+      "level": "mixed",
+      "related_notes": [
+        "social/actor/collective/government/administration/administration.md",
+        "social/actor/collective/government/administration/gov-wide-administration.md"
+      ],
+      "categories": [
+        {
+          "name": "Administrative System",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Administration",
+              "description": "The institutions, organizations, personnel, processes, and activities through which public policies and legal mandates are administered and public affairs are managed.",
+              "critique": "Public administration is broader than civil service and includes functions beyond the implementation of public services."
+            },
+            {
+              "kind": "concept",
+              "name": "Government Administration",
+              "description": "The administrative arrangements and organized activities through which government institutions execute their responsibilities and manage public affairs.",
+              "critique": "The term may refer to administration across government or, more narrowly, to the administrative apparatus of the executive. Its scope must be specified."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Institution",
+              "description": "An institution established or recognized to exercise administrative authority, perform administrative functions, or govern administrative conduct.",
+              "critique": "An administrative institution is not necessarily identical to a single administrative organization."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Organization",
+              "description": "An organized entity or organizational unit responsible for performing administrative functions under an assigned mandate.",
+              "critique": "Organizational status, legal personality, and decision-making autonomy vary."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Structure",
+              "description": "The arrangement of administrative institutions, agencies, departments, organizational units, offices, and their hierarchical or functional relationships.",
+              "critique": "Formal structure alone does not explain operational processes, capacity, or actual patterns of coordination."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Capacity",
+              "description": "The ability of public administrative institutions to perform assigned functions, mobilize resources, exercise authority, and achieve intended results.",
+              "critique": "Capacity is multidimensional; formal staffing and budgets alone do not establish effective capability."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Capability",
+              "description": "A specific ability of an administrative actor or organization to perform a function or execute an operation under defined conditions.",
+              "critique": "Capability should be distinguished from available resources, realized performance, and overall institutional capacity."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Autonomy",
+              "description": "The degree to which an administrative organization can make decisions within its mandate without requiring authorization from another authority.",
+              "critique": "Autonomy is multidimensional and remains bounded by law, oversight, and accountability."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Discretion",
+              "description": "The scope of choice available to administrative authorities when interpreting and applying legal mandates or selecting operational alternatives.",
+              "critique": "The scope of discretion depends on applicable law and is distinct from unrestricted decision-making authority."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gov-wide-architecture",
+      "title": "Government-Wide Administrative Architecture",
+      "description": "Scope, structure, framework, functions, services, authorities, and coordination of administration across government as a whole.",
+      "source_note": "social/actor/collective/government/government.md",
+      "level": "meta",
+      "related_notes": [
+        "social/actor/collective/government/administration/gov-wide-administration.md",
+        "social/actor/collective/government/administration/administration.md"
+      ],
+      "categories": [
+        {
+          "name": "Administrative Scope",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Government-Wide Administrative System",
+              "description": "The interconnected administrative institutions, organizations, personnel, processes, resources, and relationships through which administrative functions are performed across government as a whole.",
+              "critique": "Its boundaries must specify which institutions, public entities, and levels of government are included."
+            },
+            {
+              "kind": "concept",
+              "name": "Government-Wide Administrative Structure",
+              "description": "The configuration of administrative organizations and units across government, including their hierarchical, functional, and coordinating relationships.",
+              "critique": "It represents organizational arrangements rather than the entirety of administrative processes and capabilities."
+            },
+            {
+              "kind": "concept",
+              "name": "Government-Wide Administrative Framework",
+              "description": "The cross-government legal, institutional, organizational, and procedural arrangements that establish common administrative rules and operating conditions.",
+              "critique": "A framework establishes shared arrangements but does not necessarily constitute a unified operational system."
+            },
+            {
+              "kind": "concept",
+              "name": "Government-Wide Administrative Function",
+              "description": "An administrative function performed across multiple governmental organizations or established centrally to support government as a whole.",
+              "critique": "Cross-government scope does not necessarily mean centralized execution."
+            },
+            {
+              "kind": "concept",
+              "name": "Shared Administrative Service",
+              "description": "An administrative service provided centrally or jointly to multiple public organizations, such as payroll, procurement support, or information technology.",
+              "critique": "Shared services are one possible operating arrangement, not a defining requirement of government-wide administration."
+            },
+            {
+              "kind": "concept",
+              "name": "Central Administrative Authority",
+              "description": "An authority responsible for establishing, coordinating, supervising, or administering specified arrangements across multiple public organizations.",
+              "critique": "Its powers may be advisory, regulatory, supervisory, or executive and should be specified individually."
+            }
+          ]
+        },
+        {
+          "name": "Administrative Coordination",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Interorganizational Coordination",
+              "description": "The alignment of activities, decisions, responsibilities, or resources across distinct administrative organizations.",
+              "critique": "Coordination mechanisms may be hierarchical, contractual, procedural, or network-based."
+            },
+            {
+              "kind": "concept",
+              "name": "Whole-of-Government Approach",
+              "description": "An approach that seeks to coordinate institutions, policies, resources, or operations across governmental boundaries to address shared objectives.",
+              "critique": "The approach does not necessarily require organizational integration or centralized control."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "org-administration",
+      "title": "Public Organization Administration",
+      "description": "Organization-specific administration: the internal systems, structures, functions, processes, and controls of one public organization.",
+      "source_note": "social/actor/collective/government/government.md",
+      "level": "operational",
+      "related_notes": [
+        "social/actor/societal/public-organization.md",
+        "social/actor/collective/government/administration/administration.md"
+      ],
+      "categories": [
+        {
+          "name": "Organization-Specific Administration",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Organization-Specific Administrative System",
+              "description": "The configuration of personnel, processes, resources, information, rules, and relationships through which a particular public organization performs its administrative and managerial functions.",
+              "critique": "Its scope is bounded by the organization being examined and should be distinguished from the government-wide administrative system in which it operates."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Organization-Specific Administrative Structure",
+              "description": "The internal arrangement of administrative units, offices, positions, authority relationships, and reporting lines within a particular public organization.",
+              "critique": "It describes internal organizational arrangements rather than the entire administrative system or its operational performance."
+            },
+            {
+              "kind": "concept",
+              "name": "Internal Administrative Function",
+              "description": "An administrative function performed within a particular public organization to support its mandate, management, or operations.",
+              "critique": "Internal functions may rely on shared services or external providers and are not necessarily performed entirely within the organization."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Process",
+              "description": "A structured sequence of activities, decisions, and controls through which an administrative responsibility is carried out.",
+              "critique": "A process may cross organizational boundaries and need not correspond to a single organizational unit."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Procedure",
+              "description": "A prescribed or established sequence of steps governing how a decision, transaction, or administrative matter must be processed.",
+              "critique": "A procedure specifies how an activity is conducted, not necessarily the entire process or its intended outcome."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Operation",
+              "description": "An organized execution of activities intended to produce a defined administrative output or perform a specified administrative function.",
+              "critique": "Operations should be distinguished from the broader processes, capabilities, and objectives within which they occur."
+            },
+            {
+              "kind": "concept",
+              "name": "Internal Control",
+              "description": "The organizational arrangements, procedures, and mechanisms intended to provide reasonable assurance concerning operational effectiveness, reliable reporting, asset protection, and compliance.",
+              "critique": "Internal control provides reasonable rather than absolute assurance and is distinct from independent external oversight."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Management",
+              "description": "The planning, organization, direction, coordination, and control of administrative activities and resources.",
+              "critique": "Administrative management is a set of functions, not the administrative system itself."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "personnel-civil-service",
+      "title": "Public Personnel and Civil Service",
+      "description": "Public employment, personnel systems, and personnel management: who serves, under which regime, and how they are managed.",
+      "source_note": "social/actor/collective/government/government.md",
+      "level": "mixed",
+      "related_notes": [
+        "social/actor/collective/government/administration/civil-service.md",
+        "social/actor/collective/government/administration/hru.md",
+        "social/actor/collective/government/administration/employee.md"
+      ],
+      "categories": [
+        {
+          "name": "Public Employment",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Servant",
+              "description": "A person legally recognized as holding public employment or performing public functions under an applicable legal framework.",
+              "critique": "Legal definitions vary; not every public-sector worker necessarily has public-servant status."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Employee",
+              "description": "A person employed by a public-sector entity under an applicable employment arrangement.",
+              "critique": "Public employees may be subject to civil-service, labor-law, contractual, or special statutory regimes."
+            },
+            {
+              "kind": "concept",
+              "name": "Civil Service",
+              "description": "The body of civilian public officials or the institutional and employment arrangements governing their service, depending on jurisdiction and usage.",
+              "critique": "The term may refer to personnel, an employment regime, or a broader personnel system."
+            },
+            {
+              "kind": "concept",
+              "name": "Civil Servant",
+              "description": "A public official or employee whose legal status falls within the applicable civil-service regime.",
+              "critique": "The term does not necessarily include elected officials, political appointees, military personnel, or every public employee."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Service Employment Regime",
+              "description": "The legal and institutional rules determining the employment status, rights, obligations, and conditions of specified public personnel.",
+              "critique": "Different personnel categories may operate under different regimes within the same government."
+            }
+          ]
+        },
+        {
+          "name": "Personnel System",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Civil Service System",
+              "description": "The legal, institutional, and procedural arrangements governing civil servants' recruitment, appointment, employment, development, evaluation, and separation.",
+              "critique": "Its scope depends on the personnel categories and employment relationships included."
+            },
+            {
+              "kind": "concept",
+              "name": "Civil Service System Model",
+              "description": "A conceptual representation of the institutions, actors, rules, relationships, and mechanisms characterizing a civil-service system.",
+              "critique": "A descriptive model of an existing system must be distinguished from a normative model of a desired system."
+            }
+          ]
+        },
+        {
+          "name": "Personnel Management",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Personnel Management",
+              "description": "The management of public employees, including workforce planning, recruitment, staffing, compensation, performance, development, and employee relations.",
+              "critique": "It is a management function operating within a broader public personnel system."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Workforce",
+              "description": "The body of personnel employed or engaged across a defined public-sector jurisdiction or organizational scope.",
+              "critique": "Workforce boundaries depend on whether public enterprises, contractors, temporary personnel, and other categories are included."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Service Ethics",
+              "description": "The principles and standards governing integrity, impartiality, responsibility, and appropriate conduct in public employment and public functions.",
+              "critique": "Ethical principles require institutional support and enforcement; codes alone do not ensure ethical conduct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "finance-oversight-performance",
+      "title": "Finance, Oversight, and Performance",
+      "description": "Public financial management, accountability and integrity, and administrative performance: resources in, answers out, results judged.",
+      "source_note": "social/actor/collective/government/government.md",
+      "level": "mixed",
+      "related_notes": [
+        "social/actor/collective/government/administration/gov-wide-administration.md"
+      ],
+      "categories": [
+        {
+          "name": "Public Finance and Budgeting",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Financial Management",
+              "description": "The institutions, rules, processes, and practices through which public resources are mobilized, allocated, spent, accounted for, and controlled.",
+              "critique": "It encompasses more than budgeting or accounting and may extend across government entities and levels."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Budget",
+              "description": "An authorized financial plan specifying expected public revenues, expenditures, and other fiscal transactions over a defined period.",
+              "critique": "Budget authorization, actual execution, and final expenditure are distinct."
+            },
+            {
+              "kind": "concept",
+              "name": "Budget Formulation",
+              "description": "The process through which fiscal forecasts, policy priorities, expenditure proposals, and resource constraints are translated into a proposed budget.",
+              "critique": "Formulation does not itself confer legislative or other legally required authorization."
+            },
+            {
+              "kind": "concept",
+              "name": "Budget Execution",
+              "description": "The processes through which an authorized budget is implemented, including commitment, verification, payment, and related controls.",
+              "critique": "Budget execution must be distinguished from the achievement of policy outcomes."
+            },
+            {
+              "kind": "dimension",
+              "name": "Revenue autonomy",
+              "description": "Extent to which government can determine or influence its own revenues.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Revenue structure",
+              "description": "Composition of government revenue.",
+              "values": [
+                "Tax-Dominant",
+                "Nontax-Dominant",
+                "Mixed"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Expenditure structure",
+              "description": "Distribution of expenditure across government functions.",
+              "values": [
+                "Personnel-Dominant",
+                "Transfers-Dominant",
+                "Capital-Investment-Oriented",
+                "Mixed"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Budgetary authority",
+              "description": "Distribution of responsibility for preparing, approving, and executing budgets.",
+              "values": [
+                "Centralized",
+                "Shared",
+                "Decentralized"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Fiscal decentralization",
+              "description": "Distribution of revenue and expenditure responsibilities across levels of government.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Fiscal autonomy of subnational governments",
+              "description": "Degree to which subnational governments control their revenues and expenditures.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Intergovernmental transfers",
+              "description": "Mechanisms for allocating resources between levels of government.",
+              "values": [
+                "Formula-Based",
+                "Discretionary",
+                "Earmarked",
+                "Unconditional",
+                "Mixed"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Fiscal sustainability",
+              "description": "Ability to maintain public finances without unsustainable debt accumulation or fiscal adjustment.",
+              "values": [
+                "Sustainable",
+                "At Risk",
+                "Unsustainable",
+                "Not Assessed"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Revenue, Expenditure, Procurement, and Control",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Revenue Administration",
+              "description": "The institutions and processes responsible for administering public revenue collection, assessment, compliance, and related functions.",
+              "critique": "Revenue administration is narrower than the entire public revenue system."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Expenditure Management",
+              "description": "The arrangements governing the authorization, allocation, commitment, execution, and control of public expenditure.",
+              "critique": "Expenditure control alone does not establish allocative efficiency or value for money."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Procurement System",
+              "description": "The legal, institutional, procedural, and operational arrangements governing the acquisition of goods, services, and works by public entities.",
+              "critique": "Procurement rules, institutional capacity, contract management, and actual purchasing performance are distinct aspects."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Sector Accounting",
+              "description": "The principles, standards, systems, and procedures used to record and report public-sector financial transactions and positions.",
+              "critique": "Accounting basis, reporting boundaries, and standards affect comparability across jurisdictions."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Financial Control",
+              "description": "The mechanisms used to ensure that public financial transactions comply with applicable authorization, rules, and control requirements.",
+              "critique": "Financial control is distinct from performance evaluation and broader accountability."
+            }
+          ]
+        },
+        {
+          "name": "Accountability and Oversight",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Public Accountability",
+              "description": "The obligation of public authorities or officials to explain and justify their decisions and conduct and, where applicable, face review and consequences.",
+              "critique": "Transparency alone does not establish accountability; answerability and enforceable consequences may also be required."
+            },
+            {
+              "kind": "concept",
+              "name": "Political Accountability",
+              "description": "The mechanisms through which political authorities answer to citizens, legislatures, or other politically authorized institutions.",
+              "critique": "Elections are one mechanism and may not provide continuous or issue-specific accountability."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Accountability",
+              "description": "The arrangements through which administrative organizations and officials answer for their conduct, decisions, compliance, and performance.",
+              "critique": "Internal supervision, legal review, independent oversight, and public scrutiny provide different forms of accountability."
+            },
+            {
+              "kind": "concept",
+              "name": "Financial Accountability",
+              "description": "The obligation to account for the lawful, authorized, and appropriate management of public financial resources.",
+              "critique": "Financial accountability is not limited to proving that expenditure was recorded correctly."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Oversight",
+              "description": "The examination and supervision of public institutions, decisions, finances, or performance by authorized internal or external actors.",
+              "critique": "Oversight may identify problems without possessing authority to correct them directly."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Audit",
+              "description": "An independent or appropriately authorized examination of public-sector financial statements, compliance, controls, or performance.",
+              "critique": "Financial, compliance, and performance audits address different questions and do not guarantee the absence of misconduct."
+            },
+            {
+              "kind": "concept",
+              "name": "Government Transparency",
+              "description": "The availability and accessibility of information about governmental institutions, decisions, rules, activities, finances, and performance.",
+              "critique": "Information disclosure alone does not ensure intelligibility, public participation, or accountability."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Integrity System",
+              "description": "The institutions, standards, procedures, and mechanisms intended to prevent, identify, and address corruption and other abuses of public authority.",
+              "critique": "Formal integrity arrangements do not necessarily translate into effective prevention or enforcement."
+            },
+            {
+              "kind": "concept",
+              "name": "Conflict of Interest",
+              "description": "A situation in which a public official's private interests may improperly influence, or reasonably appear to influence, the exercise of public duties.",
+              "critique": "A conflict of interest does not itself establish corruption or misconduct."
+            },
+            {
+              "kind": "dimension",
+              "name": "Legislative oversight",
+              "description": "Extent to which the legislature scrutinizes executive actions.",
+              "values": [
+                "Weak",
+                "Moderate",
+                "Strong"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "External audit",
+              "description": "Institutional arrangements for independently auditing public finances and operations.",
+              "values": [
+                "Internal Only",
+                "External Audit",
+                "Independent Supreme Audit Institution",
+                "Other"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Judicial accountability",
+              "description": "Availability and effectiveness of judicial review over public decisions.",
+              "values": [
+                "Limited",
+                "Moderate",
+                "Extensive"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Transparency",
+              "description": "Extent to which government decisions, information, and operations are publicly accessible.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Public participation",
+              "description": "Degree to which citizens participate in policymaking and public administration.",
+              "values": [
+                "Minimal",
+                "Consultative",
+                "Participatory",
+                "Institutionalized"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Integrity controls",
+              "description": "Mechanisms for preventing, detecting, and addressing corruption and misconduct.",
+              "values": [
+                "Limited",
+                "Developing",
+                "Comprehensive"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Ombudsman institution",
+              "description": "Availability of an independent institution handling complaints about public administration.",
+              "values": [
+                "Absent",
+                "Present",
+                "Present with Limited Mandate",
+                "Present with Broad Mandate"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performance and Public Value",
+          "entries": [
+            {
+              "kind": "concept",
+              "name": "Government Performance",
+              "description": "The extent to which government fulfills its assigned responsibilities and achieves intended results, considering relevant resources, outputs, outcomes, and institutional conditions.",
+              "critique": "Performance depends on the chosen objectives, indicators, attribution assumptions, and evaluation period."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Performance",
+              "description": "The extent to which administrative institutions and processes execute assigned functions and produce intended outputs and results.",
+              "critique": "Administrative performance is only one contributor to broader governmental and societal outcomes."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Efficiency",
+              "description": "The relationship between administrative resources consumed and outputs produced.",
+              "critique": "Higher output per unit of input does not necessarily imply better service quality or more equitable outcomes."
+            },
+            {
+              "kind": "concept",
+              "name": "Administrative Effectiveness",
+              "description": "The extent to which administrative activities and outputs achieve specified objectives.",
+              "critique": "Effectiveness requires explicit objectives and an appropriate basis for assessing results."
+            },
+            {
+              "kind": "concept",
+              "name": "Service Quality",
+              "description": "The extent to which a service meets specified standards and relevant recipient needs or expectations.",
+              "critique": "Quality dimensions may conflict and cannot always be represented by a single indicator."
+            },
+            {
+              "kind": "concept",
+              "name": "Institutional Performance",
+              "description": "The extent to which an institution fulfills its mandate and performs its assigned functions.",
+              "critique": "Institutional performance may be affected by external conditions beyond the institution's control."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Value",
+              "description": "The value created through public action, assessed against relevant public purposes, social outcomes, rights, legitimacy, and collective interests.",
+              "critique": "Public value is multidimensional and depends partly on normative judgments about desirable outcomes."
+            },
+            {
+              "kind": "concept",
+              "name": "Public Policy Evaluation",
+              "description": "The systematic assessment of a policy's design, implementation, results, effects, or continued relevance.",
+              "critique": "Observed changes cannot automatically be attributed to a policy without an appropriate evaluative design."
+            },
+            {
+              "kind": "dimension",
+              "name": "Effectiveness",
+              "description": "Degree to which government achieves its intended objectives.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Efficiency",
+              "description": "Relationship between public resources used and outputs or outcomes produced.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Responsiveness",
+              "description": "Ability to respond to citizens' needs and changing circumstances.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Equity",
+              "description": "Degree to which public resources, services, and outcomes are distributed fairly.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Service quality",
+              "description": "Extent to which public services meet established standards and user expectations.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Policy coherence",
+              "description": "Degree to which government policies are consistent and mutually reinforcing.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            },
+            {
+              "kind": "dimension",
+              "name": "Public trust",
+              "description": "Degree of public confidence in government institutions.",
+              "values": [
+                "Low",
+                "Moderate",
+                "High"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2258,5 +2258,45 @@
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
       }
     ]
+  },
+  {
+    "file_path": "social/actor/collective/government/administration/administration.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Filled the Public Administration hub note as a multi-root element (collective primary, activity secondary): subtype kinds, middle-depth trees, tags, evaluation, QA; detail deferred to linked entries."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Added a top-journals QA (No/Journal/Description/Information) with twelve verified outlets spanning core, governance, policy-adjacent, and functional specialties."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Transposed the top-journals QA so each journal is its own column (dropped the No column)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/administration/gov-wide-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Filled the Government-Wide Administrative System child hub as a multi-root element (collective system + coordinating activity): system-anatomy trees, tags, evaluation, terminology, QA; characterization table kept canonical in government.md by reference."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Linked the new administration/atlas/ classification atlas (live explorer over five systems) from References."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Renamed the atlas pointer to Atlas of Government-Wide Administration Characterization Systems."
+      }
+    ]
   }
 ]
