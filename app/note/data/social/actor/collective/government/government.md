@@ -120,78 +120,79 @@ It is not the `State` (the political organization that persists across successiv
 
 > The model supports the systematic characterization and comparison of governments by specifying their composition, organizational structure, allocation of competencies, authority relationships, decision arrangements, territorial organization, government-wide administrative system, particular organizations adminsitrative systems, capabilities, resources, and operations.
 
-### How is the concept of a `Government Model` operationalized?
+### How to Characterize a Government?
 
-> The model is operationalized by identifying and characterizing the government's constitutive elements, institutional configuration, organizational relationships, and operating arrangements.
-
-> What is the content of **such a model**? A structured **representation** of a government's institutions, organizational units, offices, competencies, authority relationships, administrative systems, resources, and operational capabilities, suitable for describing and comparing governments across countries.
-
-Its principal analytical dimensions are:
-
-| Dimension | Description |
-| --- | --- |
-| **Constitutive Arrangements** | The mandate, constituent agents and organizations, membership conditions, and constitutive instruments through which the government is established and maintains its identity. |
-| **Institutional Composition** | The governmental institutions within the model's defined scope. |
-| **Institutional Typology** | The classification of institutions by mandate, authority, function, organizational form, and institutional status. |
-| **Functional Differentiation** | The differentiation of governmental responsibilities into legislative, executive, judicial, regulatory, oversight, and other functions. |
-| **Organizational Structure** | The organizational units, offices, positions, and internal arrangements through which governmental institutions are structured. |
-| **Competency Allocation** | The assignment of powers, responsibilities, and decision-making competencies to institutions, organizational units, and offices. |
-| **Authority Relationships** | The hierarchical, supervisory, delegated, independent, and other authority relationships connecting institutions and their components. |
-| **Coordination Arrangements** | The mechanisms through which institutions coordinate decisions, activities, information, and resources. |
-| **Territorial Organization** | The distribution of governmental institutions, competencies, and responsibilities across national, regional, and local levels. |
-| **Collective Decision Arrangements** | The procedures and mechanisms through which government forms collective decisions and exercises authority. |
-| **Accountability Arrangements** | The relationships and mechanisms through which institutions and office-holders answer for decisions and actions. |
-| **Administrative Capabilities** | The human, organizational, informational, technological, and material capacities available to perform governmental responsibilities. |
-| **Administrative Resources** | The financial, human, material, and informational resources available to governmental institutions. |
-| **Administrative Operations** | The processes, procedures, workflows, and operational arrangements through which governmental and administrative responsibilities are performed. |
-| **Institutional Performance** | The extent to which institutions and administrative arrangements perform their responsibilities, considering effectiveness, efficiency, reliability, responsiveness, and other relevant criteria. |
-| **Government-Wide Administrative System** | The configuration of administrative systems, rules, and mechanisms operating across governmental institutions to support personnel management, public financial management, procurement, information management, internal control, and other government-wide administrative functions. |
+| Category | Dimension | Description | Value Set |
+|---|---|---|---|
+| **Political System** | Form of government | How the state organizes its highest political authorities. | Republic; Monarchy; Other |
+| Political System | Regime type | How political power is acquired, exercised, and constrained. | Democracy; Hybrid Regime; Authoritarian Regime |
+| Political System | Executive system | Relationship between the executive and legislative branches. | Presidential; Parliamentary; Semi-presidential |
+| Political System | Party system | Structure of political party competition. | One-party; Dominant-party; Two-party; Multiparty; Nonpartisan |
+| Political System | Electoral system | Rules for converting votes into political representation. | Plurality/Majority; Proportional Representation; Mixed; Other |
+| **Constitutional Structure** | Constitutional status | Legal basis governing the exercise of public authority. | Codified Constitution; Uncodified Constitutional Framework; Other |
+| Constitutional Structure | Separation of powers | Distribution of authority among the main branches of government. | Strict Separation; Parliamentary Fusion; Mixed |
+| Constitutional Structure | Executive leadership | Structure of executive authority at the national level. | Single Executive; Dual Executive; Collegial Executive |
+| Constitutional Structure | Legislative structure | Organization of the national legislature. | Unicameral; Bicameral |
+| Constitutional Structure | Judicial independence | Degree to which courts operate independently of political interference. | High; Moderate; Low; Not Assessed |
+| **Territorial Organization** | State structure | Constitutional distribution of authority across territorial units. | Unitary; Federal; Regionalized; Other |
+| Territorial Organization | Territorial decentralization | Extent to which authority is transferred to subnational governments. | Centralized; Partially Decentralized; Highly Decentralized |
+| Territorial Organization | Intermediate government | Existence and structure of territorial government between national and local levels. | None; Regional; Provincial; State-Level; Other |
+| Territorial Organization | Local government structure | Institutional organization of government at the local level. | Municipal; District-Based; Multiple Local Government Types; Other |
+| Territorial Organization | Local autonomy | Degree of political, administrative, and fiscal autonomy of local governments. | Low; Moderate; High |
+| **Administrative Organization** | See How to characterized the 'Government-Wide Administrative System'. | | |
+| **Institutional Capacity** | State capacity | Ability to implement decisions, enforce rules, and deliver public functions. | Low; Moderate; High |
+| Institutional Capacity | Administrative capacity | Ability of public organizations to plan, manage resources, and execute their mandates. | Low; Moderate; High |
+| Institutional Capacity | Regulatory capacity | Ability to formulate, implement, monitor, and enforce regulations. | Low; Moderate; High |
+| Institutional Capacity | Implementation capacity | Ability to translate policies and plans into operational results. | Low; Moderate; High |
+| Institutional Capacity | Information capacity | Ability to collect, process, integrate, and use information for decision-making. | Low; Moderate; High |
+| Institutional Capacity | Digital government maturity | Degree of digitalization and integration of public services and administrative processes. | Basic; Developing; Advanced; Integrated |
+| **Fiscal System** | Revenue autonomy | Extent to which government can determine or influence its own revenues. | Low; Moderate; High |
+| Fiscal System | Revenue structure | Composition of government revenue. | Tax-Dominant; Nontax-Dominant; Mixed |
+| Fiscal System | Expenditure structure | Distribution of expenditure across government functions. | Personnel-Dominant; Transfers-Dominant; Capital-Investment-Oriented; Mixed |
+| Fiscal System | Budgetary authority | Distribution of responsibility for preparing, approving, and executing budgets. | Centralized; Shared; Decentralized |
+| Fiscal System | Fiscal decentralization | Distribution of revenue and expenditure responsibilities across levels of government. | Low; Moderate; High |
+| Fiscal System | Fiscal autonomy of subnational governments | Degree to which subnational governments control their revenues and expenditures. | Low; Moderate; High |
+| Fiscal System | Intergovernmental transfers | Mechanisms for allocating resources between levels of government. | Formula-Based; Discretionary; Earmarked; Unconditional; Mixed |
+| Fiscal System | Fiscal sustainability | Ability to maintain public finances without unsustainable debt accumulation or fiscal adjustment. | Sustainable; At Risk; Unsustainable; Not Assessed |
+| **Public Policy** | Policy orientation | General priorities reflected in government policies. | Market-Oriented; Social-Democratic; Developmental; Welfare-Oriented; Mixed |
+| Public Policy | Policy coordination | Degree of integration across policies and government sectors. | Fragmented; Partially Coordinated; Highly Coordinated |
+| Public Policy | Policy continuity | Degree to which policies persist across political administrations. | Low; Moderate; High |
+| Public Policy | Evidence-based policymaking | Extent to which evidence and evaluation inform policy decisions. | Limited; Developing; Institutionalized |
+| Public Policy | Strategic planning | Degree to which government uses long-term objectives and plans. | Absent; Ad Hoc; Institutionalized |
+| Public Policy | Evaluation capacity | Ability to evaluate policies and programs systematically. | Limited; Developing; Advanced; Institutionalized |
+| **Public Service Delivery** | Service delivery model | Primary mechanism through which public services are provided. | Direct Public Provision; Public Enterprises; Contracted Provision; Public-Private Partnerships; Mixed |
+| Public Service Delivery | Service accessibility | Extent to which the population can access public services. | Low; Moderate; High |
+| Public Service Delivery | Service integration | Degree to which services are coordinated across institutions. | Fragmented; Partially Integrated; Fully Integrated |
+| Public Service Delivery | Service standardization | Degree to which service procedures and standards are consistent across jurisdictions. | Low; Moderate; High |
+| Public Service Delivery | Digital service provision | Extent to which public services can be accessed and completed digitally. | None; Informational; Transactional; Integrated |
+| **Accountability and Oversight** | Legislative oversight | Extent to which the legislature scrutinizes executive actions. | Weak; Moderate; Strong |
+| Accountability and Oversight | External audit | Institutional arrangements for independently auditing public finances and operations. | Internal Only; External Audit; Independent Supreme Audit Institution; Other |
+| Accountability and Oversight | Judicial accountability | Availability and effectiveness of judicial review over public decisions. | Limited; Moderate; Extensive |
+| Accountability and Oversight | Transparency | Extent to which government decisions, information, and operations are publicly accessible. | Low; Moderate; High |
+| Accountability and Oversight | Public participation | Degree to which citizens participate in policymaking and public administration. | Minimal; Consultative; Participatory; Institutionalized |
+| Accountability and Oversight | Integrity controls | Mechanisms for preventing, detecting, and addressing corruption and misconduct. | Limited; Developing; Comprehensive |
+| Accountability and Oversight | Ombudsman institution | Availability of an independent institution handling complaints about public administration. | Absent; Present; Present with Limited Mandate; Present with Broad Mandate |
+| **Intergovernmental Relations** | Authority distribution | Distribution of decision-making powers among levels of government. | Exclusive Powers; Shared Powers; Concurrent Powers; Mixed |
+| Intergovernmental Relations | Coordination mechanisms | Institutional mechanisms for collaboration between levels of government. | Hierarchical; Negotiated; Intergovernmental Councils; Joint Programs; Mixed |
+| Intergovernmental Relations | Conflict resolution | Mechanisms for resolving disputes between levels of government. | Executive Negotiation; Administrative Tribunal; Judicial Resolution; Constitutional Arbitration; Mixed |
+| Intergovernmental Relations | Mandate allocation | How responsibilities are assigned to different levels of government. | Exclusive Assignment; Shared Assignment; Overlapping Mandates |
+| **Government Performance** | Effectiveness | Degree to which government achieves its intended objectives. | Low; Moderate; High |
+| Government Performance | Efficiency | Relationship between public resources used and outputs or outcomes produced. | Low; Moderate; High |
+| Government Performance | Responsiveness | Ability to respond to citizens' needs and changing circumstances. | Low; Moderate; High |
+| Government Performance | Equity | Degree to which public resources, services, and outcomes are distributed fairly. | Low; Moderate; High |
+| Government Performance | Service quality | Extent to which public services meet established standards and user expectations. | Low; Moderate; High |
+| Government Performance | Policy coherence | Degree to which government policies are consistent and mutually reinforcing. | Low; Moderate; High |
+| Government Performance | Public trust | Degree of public confidence in government institutions. | Low; Moderate; High |
+| **Societal and Political Context** | Population size | Number of people within the government's jurisdiction. | Numeric Value |
+| Societal and Political Context | Population composition | Demographic characteristics of the population. | Age Structure; Gender Composition; Urban-Rural Distribution; Other |
+| Societal and Political Context | Economic development | Level of economic development within the jurisdiction. | Low-Income; Lower-Middle-Income; Upper-Middle-Income; High-Income |
+| Societal and Political Context | Social heterogeneity | Degree of social, linguistic, ethnic, or cultural diversity. | Low; Moderate; High |
+| Societal and Political Context | Urbanization | Proportion of the population living in urban areas. | Numeric Percentage |
+| Societal and Political Context | Political polarization | Degree of division between political groups or ideological positions. | Low; Moderate; High |
 
 ### How to characterized the 'Government-Wide Administrative System'?
 
-| Category                               | Dimension                           | Description                                                                                                                                                      |
-| -------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **System Definition**                  | Scope                               | Defines the government organizations, administrative functions, and arrangements encompassed by the system.                                                      |
-| System Definition                      | System Boundaries                   | Establishes which administrative arrangements belong to the system and which fall outside its scope.                                                             |
-| **Institutional Configuration**        | Participating Organizations         | Identifies the government organizations subject to, or participating in, government-wide administrative arrangements.                                            |
-| Institutional Configuration            | Institutional Roles                 | Characterizes the roles of organizations responsible for establishing, regulating, coordinating, supporting, and overseeing administrative arrangements.         |
-| Institutional Configuration            | Administrative Centers              | Identifies central bodies responsible for government-wide administrative functions, standards, or shared services.                                               |
-| **Administrative Authority**           | Authority Distribution              | Characterizes how administrative decision-making authority is distributed among central government bodies and individual organizations.                          |
-| Administrative Authority               | Centralization and Decentralization | Describes the extent to which administrative authority and responsibilities are concentrated in central bodies or distributed among government organizations.    |
-| Administrative Authority               | Delegation Arrangements             | Characterizes how administrative powers and responsibilities are delegated to subordinate or individual organizational units.                                    |
-| **Functional Configuration**           | Administrative Functions            | Identifies the administrative functions encompassed by the system, such as budgeting, accounting, human resources, procurement, and records management.          |
-| Functional Configuration               | Functional Allocation               | Describes how administrative functions and responsibilities are allocated across government organizations.                                                       |
-| Functional Configuration               | Functional Integration              | Characterizes the extent to which administrative functions are integrated across organizational boundaries.                                                      |
-| **Regulatory Framework**               | Legal Foundations                   | Identifies the constitutional provisions, legislation, and other legal instruments establishing or constraining administrative arrangements.                     |
-| Regulatory Framework                   | Administrative Regulations          | Characterizes the regulations and administrative requirements governing government-wide administrative activities.                                               |
-| Regulatory Framework                   | Common Standards                    | Identifies common administrative standards, classifications, procedures, and technical specifications.                                                           |
-| Regulatory Framework                   | Regulatory Authority                | Identifies the institutions empowered to issue, interpret, enforce, or oversee administrative requirements.                                                      |
-| **Organizational Relationships**       | Hierarchical Relationships          | Characterizes formal hierarchical relationships relevant to administrative authority and responsibility.                                                         |
-| Organizational Relationships           | Coordination Arrangements           | Identifies mechanisms for coordinating administrative activities across government organizations.                                                                |
-| Organizational Relationships           | Cooperation Arrangements            | Characterizes formal arrangements for interorganizational cooperation and joint administrative activities.                                                       |
-| Organizational Relationships           | Reporting Relationships             | Describes the relationships through which administrative information, performance, and compliance are reported.                                                  |
-| **Administrative Processes**           | Common Processes                    | Identifies administrative processes established or prescribed for use across government organizations.                                                           |
-| Administrative Processes               | Process Standardization             | Characterizes the extent to which administrative processes follow common procedures and requirements.                                                            |
-| Administrative Processes               | Process Integration                 | Describes how administrative processes connect across organizational boundaries.                                                                                 |
-| **Shared Services and Infrastructure** | Shared Administrative Services      | Identifies administrative services provided centrally or jointly to multiple government organizations.                                                           |
-| Shared Services and Infrastructure     | Information Systems                 | Characterizes common information systems and the administrative functions they support.                                                                          |
-| Shared Services and Infrastructure     | Data and Information Standards      | Identifies common data definitions, classification schemes, reporting formats, and information-exchange arrangements.                                            |
-| Shared Services and Infrastructure     | Digital Infrastructure              | Characterizes shared digital platforms, technical infrastructure, and interoperability mechanisms supporting administration.                                     |
-| **Resource Management**                | Budgetary Arrangements              | Describes government-wide arrangements for budget formulation, allocation, execution, and monitoring.                                                            |
-| Resource Management                    | Financial Management                | Characterizes common arrangements for accounting, financial reporting, expenditure control, and financial oversight.                                             |
-| Resource Management                    | Human Resource Management           | Identifies government-wide arrangements governing public employment, personnel administration, and workforce management.                                         |
-| Resource Management                    | Procurement and Asset Management    | Characterizes common arrangements for public procurement and the management of government assets.                                                                |
-| **Accountability and Oversight**       | Administrative Accountability       | Describes arrangements for assigning and enforcing responsibility for administrative decisions and performance.                                                  |
-| Accountability and Oversight           | Internal Control                    | Characterizes common requirements and mechanisms for controlling administrative activities and managing risks.                                                   |
-| Accountability and Oversight           | Audit and Inspection                | Identifies arrangements for auditing, inspecting, and reviewing administrative operations.                                                                       |
-| Accountability and Oversight           | Compliance Monitoring               | Describes mechanisms for monitoring compliance with government-wide administrative requirements.                                                                 |
-| **Administrative Performance**         | Performance Requirements            | Identifies government-wide expectations concerning administrative performance, efficiency, effectiveness, and service quality.                                   |
-| Administrative Performance             | Performance Measurement             | Characterizes common indicators, reporting arrangements, and methods for assessing administrative performance.                                                   |
-| Administrative Performance             | Evaluation and Improvement          | Describes arrangements for evaluating administrative systems and implementing improvements.                                                                      |
-| **System Development**                 | Administrative Reform               | Characterizes government-wide initiatives to restructure, modernize, or improve administrative arrangements.                                                     |
-| System Development                     | Institutional Adaptation            | Describes how administrative arrangements change in response to legal, organizational, technological, or operational developments.                               |
-| System Development                     | System Evolution                    | Characterizes changes in the system's institutional configuration, functional allocation, regulatory framework, and interorganizational relationships over time. |
-
+> See []()
 
 ## QA
 
@@ -356,7 +357,7 @@ Its principal analytical dimensions are:
 - [Collective](note.html?n=social/actor/collective/collective.md)
 - [Actor](note.html?n=social/actor/actor.md)
 - [Organization](note.html?n=social/actor/societal/organization.md)
-- [Public Organization](note.html?n=social/actor/societal/public-organization.md)
+- [Government-Wide Administrative System'](note.html?n=social/actor/societal/administration/gov-wide-administration.md)
 - [Public Policy](note.html?n=social/actor/collective/agency/guidance/policy.md)
 - [Facet](note.html?n=social/facet.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)

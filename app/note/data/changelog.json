@@ -2276,6 +2276,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Transposed the top-journals QA so each journal is its own column (dropped the No column)."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Pointed the Public Personnel Management journal link at its canonical SAGE homepage (/home/ppm)."
       }
     ]
   },
