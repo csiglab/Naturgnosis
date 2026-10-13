@@ -1,58 +1,94 @@
 {
   "links": [
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/china-industrial-policy.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/china-industrial-policy.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/china-innovation-policy.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/china-innovation-policy.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/china-financing-policy.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/china-financing-policy.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/china-infrastructure-policy.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/china-infrastructure-policy.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-go-global.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/case-study-china-go-global.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-863.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/case-study-china-program-863.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-973.md",
-      "to": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+      "from": "social/agency/informe/guidance/policy/case-study-china-program-973.md",
+      "to": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/actor/collective/space/chn/",
-      "to": "social/actor/collective/agency/informe/",
+      "from": "social/actor/public/space/chn/",
+      "to": "social/agency/informe/",
       "label": "country studies",
       "kind": "study"
+    },
+    {
+      "from": "social/actor/actor.md",
+      "to": "social/actor/public/",
+      "label": "public actors",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/actor.md",
+      "to": "social/actor/private/",
+      "label": "private actors",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/research.md",
+      "to": "social/actor/public/research/",
+      "label": "public research",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/research.md",
+      "to": "social/actor/private/research/",
+      "label": "private research",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/finance.md",
+      "to": "social/actor/public/finance/",
+      "label": "public finance",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/finance.md",
+      "to": "social/actor/private/finance/",
+      "label": "private finance",
+      "kind": "hierarchy"
     }
   ]
 }

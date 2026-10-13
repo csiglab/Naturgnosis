@@ -165,7 +165,7 @@ Case:
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](note.html?n=social/agency/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
@@ -181,11 +181,11 @@ Case:
 
 ### Why do we need the idea of a facet?
 
-> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](note.html?n=social/facet.md).
+> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](note.html?n=social/framework/facet.md).
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem.md) and specialized for policy at [Problem](note.html?n=social/actor/collective/problem/problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](note.html?n=epistemica/problematization.md), documented as an element at [Problem](note.html?n=social/problem/problem.md) and specialized for policy at [Problem](note.html?n=social/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -286,27 +286,27 @@ Case:
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
-- [Research Activity](note.html?n=social/actor/action/activity/research/research.md)
-- [Science](note.html?n=social/actor/action/activity/research/science/science.md)
-- [Technical Activity](note.html?n=social/actor/action/activity/research/technical/technical-activity.md)
-- [Strategy](note.html?n=social/actor/action/guidance/strategy.md)
-- [Policy](note.html?n=social/actor/collective/agency/guidance/policy.md)
-- [Principle](note.html?n=social/actor/action/guidance/principle.md)
-- [Rule](note.html?n=social/actor/action/guidance/rule.md)
-- [Doctrine](note.html?n=social/actor/action/guidance/doctrine.md)
-- [Plan](note.html?n=social/actor/action/organization/plan.md)
-- [Program](note.html?n=social/actor/action/organization/program.md)
-- [Project](note.html?n=social/actor/action/organization/project.md)
-- [Workflow](note.html?n=social/actor/action/organization/workflow.md)
-- [Schedule](note.html?n=social/actor/action/organization/schedule.md)
-- [Initiative](note.html?n=social/actor/action/organization/initiative.md)
-- [Roadmap](note.html?n=social/actor/action/organization/roadmap.md)
-- [Charter](note.html?n=social/actor/action/organization/charter.md)
-- [Agency](note.html?n=social/agency.md)
-- [Problem](note.html?n=social/actor/collective/problem/problem.md)
+- [Research Activity](note.html?n=social/action/activity/research/research.md)
+- [Science](note.html?n=social/action/activity/research/science/science.md)
+- [Technical Activity](note.html?n=social/action/activity/research/technical/technical-activity.md)
+- [Strategy](note.html?n=social/action/guidance/strategy.md)
+- [Policy](note.html?n=social/agency/guidance/policy.md)
+- [Principle](note.html?n=social/action/guidance/principle.md)
+- [Rule](note.html?n=social/action/guidance/rule.md)
+- [Doctrine](note.html?n=social/action/guidance/doctrine.md)
+- [Plan](note.html?n=social/action/organization/plan.md)
+- [Program](note.html?n=social/action/organization/program.md)
+- [Project](note.html?n=social/action/organization/project.md)
+- [Workflow](note.html?n=social/action/organization/workflow.md)
+- [Schedule](note.html?n=social/action/organization/schedule.md)
+- [Initiative](note.html?n=social/action/organization/initiative.md)
+- [Roadmap](note.html?n=social/action/organization/roadmap.md)
+- [Charter](note.html?n=social/action/organization/charter.md)
+- [Agency](note.html?n=social/agency/agency.md)
+- [Problem](note.html?n=social/problem/policy-problem.md)
 - [Problematization](note.html?n=epistemica/problematization.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Synontic](note.html?n=social/synontic/synontic.md)
-- [Collective](note.html?n=social/actor/collective/collective.md)
-- [Social Ontology](note.html?n=social/social-ontology.md)
+- [Collective](note.html?n=social/collective/collective.md)
+- [Social Ontology](note.html?n=social/framework/social-ontology.md)

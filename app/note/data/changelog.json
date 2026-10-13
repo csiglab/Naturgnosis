@@ -145,7 +145,7 @@
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Removed the unfinished stub; the government element now lives at social/actor/collective/government/government.md."
+        "summary": "Removed the unfinished stub; the government element now lives at social/actor/public/government/government.md."
       }
     ]
   },
@@ -340,7 +340,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/economic/consumption/consumption.md",
+    "file_path": "social/action/activity/economic/consumption/consumption.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/economic/consumption/demand.md",
+    "file_path": "social/action/activity/economic/consumption/demand.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/economic/economic-activity.md",
+    "file_path": "social/action/activity/economic/economic-activity.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -370,7 +370,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/economic/perishable-agricultural-products-economic-activity.md",
+    "file_path": "social/action/activity/economic/perishable-agricultural-products-economic-activity.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/economic/production/production.md",
+    "file_path": "social/action/activity/economic/production/production.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/research/research.md",
+    "file_path": "social/action/activity/research/research.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -400,7 +400,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/research/science/science.md",
+    "file_path": "social/action/activity/research/science/science.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/activity/research/technical/technical-activity.md",
+    "file_path": "social/action/activity/research/technical/technical-activity.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -420,7 +420,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/guidance/doctrine.md",
+    "file_path": "social/action/guidance/doctrine.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -430,7 +430,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/guidance/principle.md",
+    "file_path": "social/action/guidance/principle.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -440,22 +440,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/guidance/rule.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      },
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/action/guidance/strategy.md",
+    "file_path": "social/action/guidance/rule.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -470,7 +455,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/agenda.md",
+    "file_path": "social/action/guidance/strategy.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -485,7 +470,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/charter.md",
+    "file_path": "social/action/organization/agenda.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -500,7 +485,22 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/initiative.md",
+    "file_path": "social/action/organization/charter.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/organization/initiative.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/plan.md",
+    "file_path": "social/action/organization/plan.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -535,7 +535,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/program.md",
+    "file_path": "social/action/organization/program.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/project.md",
+    "file_path": "social/action/organization/project.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/roadmap.md",
+    "file_path": "social/action/organization/roadmap.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -570,7 +570,7 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/schedule.md",
+    "file_path": "social/action/organization/schedule.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -580,12 +580,22 @@
     ]
   },
   {
-    "file_path": "social/actor/action/organization/workflow.md",
+    "file_path": "social/action/organization/workflow.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
       }
     ]
   },
@@ -601,11 +611,41 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Fixed Public Organization subtype rows to the labeled-link backtick convention; added missing Public Organization path."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Reorganized the actor subtree into public/private; split mixed finance/research families; updated hub and links."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md",
+    "file_path": "social/actor/finance.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Created the Finance Actor hub linking the public/ and private/ finance halves."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -615,7 +655,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/guidance/instance/policy/materials-genome-initiative.md",
+    "file_path": "social/agency/guidance/instance/policy/materials-genome-initiative.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -630,7 +670,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/guidance/instance/principle/t-paps.md",
+    "file_path": "social/agency/guidance/instance/principle/t-paps.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -640,7 +680,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/guidance/policy.md",
+    "file_path": "social/agency/guidance/policy.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -655,7 +695,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/a-comparative-development-essay-argentina-vs-spain.md",
+    "file_path": "social/agency/informe/a-comparative-development-essay-argentina-vs-spain.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -665,7 +705,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/a-guide-to-german-historical-school-of-economics.md",
+    "file_path": "social/agency/informe/a-guide-to-german-historical-school-of-economics.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -675,7 +715,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/an-essay-on-early-european-development-finance.md",
+    "file_path": "social/agency/informe/an-essay-on-early-european-development-finance.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -685,7 +725,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/an-essay-on-latin-america-economic-craft.md",
+    "file_path": "social/agency/informe/an-essay-on-latin-america-economic-craft.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -695,287 +735,287 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/framework/change-framework.md",
+    "file_path": "social/agency/informe/guidance/framework/change-framework.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/framework/change-framework.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/framework/change-framework.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md",
+    "file_path": "social/agency/informe/guidance/framework/social-region-change-toolkit-foundation.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/framework/social-region-change-toolkit-foundation.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
+    "file_path": "social/agency/informe/guidance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-2030-agenda-for-sustainable-development.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-2030-agenda-for-sustainable-development.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-2030-agenda-for-sustainable-development.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-2030-agenda-for-sustainable-development.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-brazil-agricultural-industry.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-brazil-agricultural-industry.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-brazil-agricultural-industry.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-brazil-agricultural-industry.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-go-global.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-china-go-global.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-go-global.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-china-go-global.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-national-key-technologies-rd-program.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-china-national-key-technologies-rd-program.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-863.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-china-program-863.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-program-863.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-china-program-863.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-china-program-973.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-china-program-973.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-china-program-973.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-china-program-973.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-emergence-of-sweden-textile-productive.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-emergence-of-sweden-textile-productive.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-emergence-of-sweden-textile-productive.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-emergence-of-sweden-textile-productive.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-invest-2035-the-uks-modern-industrial.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-invest-2035-the-uks-modern-industrial.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-invest-2035-the-uks-modern-industrial.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-invest-2035-the-uks-modern-industrial.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-nova-industria-brasil.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-nova-industria-brasil.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-nova-industria-brasil.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-nova-industria-brasil.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-singapore-tecnoproductive-development.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-singapore-tecnoproductive-development.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-singapore-tecnoproductive-development.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-singapore-tecnoproductive-development.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study-sweden-industrilization.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study-sweden-industrilization.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study-sweden-industrilization.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study-sweden-industrilization.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/case-study.md",
+    "file_path": "social/agency/informe/guidance/policy/case-study.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/case-study.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/case-study.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-financing-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/china-financing-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-financing-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/china-financing-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-industrial-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/china-industrial-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-industrial-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/china-industrial-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-infrastructure-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/china-infrastructure-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-infrastructure-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/china-infrastructure-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/china-innovation-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/china-innovation-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/china-innovation-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/china-innovation-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md",
+    "file_path": "social/agency/informe/guidance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/eu-smart-specialisation-strategy.md",
+    "file_path": "social/agency/informe/guidance/policy/eu-smart-specialisation-strategy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/eu-smart-specialisation-strategy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/eu-smart-specialisation-strategy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/finland-innovation-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/finland-innovation-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/finland-innovation-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/finland-innovation-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/israel-innovation-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/israel-innovation-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/israel-innovation-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/israel-innovation-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/korean-trade-policy.md",
+    "file_path": "social/agency/informe/guidance/policy/korean-trade-policy.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/korean-trade-policy.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/korean-trade-policy.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/materials-genome-initiative.md",
+    "file_path": "social/agency/informe/guidance/policy/materials-genome-initiative.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/materials-genome-initiative.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/materials-genome-initiative.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/policy/specialized-smes-program.md",
+    "file_path": "social/agency/informe/guidance/policy/specialized-smes-program.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/policy/specialized-smes-program.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/policy/specialized-smes-program.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/guidance/principle/t-paps.md",
+    "file_path": "social/agency/informe/guidance/principle/t-paps.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
-        "summary": "Moved from social/actor/collective/agency/guidance/instance/principle/t-paps.md to the informe tree."
+        "summary": "Moved from social/agency/guidance/instance/principle/t-paps.md to the informe tree."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
+    "file_path": "social/agency/informe/history-of-the-chinese-economic-policy-toolbox.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -985,17 +1025,22 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/informe/readme.md",
+    "file_path": "social/agency/informe/readme.md",
     "logs": [
       {
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "New country-studies index for agency informe/."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
       }
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/action-instrumentation.md",
+    "file_path": "social/agency/instrumentation/action-instrumentation.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1010,7 +1055,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/evaluation/wealth.md",
+    "file_path": "social/agency/instrumentation/evaluation/wealth.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1020,7 +1065,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/foundation/foundation-for-the-meliorandis-toolkit.md",
+    "file_path": "social/agency/instrumentation/foundation/foundation-for-the-meliorandis-toolkit.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1030,7 +1075,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/foundation/instrumentorum.md",
+    "file_path": "social/agency/instrumentation/foundation/instrumentorum.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1040,7 +1085,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/general/src/director-appointment-process.md",
+    "file_path": "social/agency/instrumentation/general/src/director-appointment-process.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1050,7 +1095,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/instrumentation/instrumentorum-readme.md",
+    "file_path": "social/agency/instrumentation/instrumentorum-readme.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1060,22 +1105,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/intervention.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      },
-      {
-        "date": "2026-10-12",
-        "kind": "docs",
-        "summary": "Remapped guidance/instance/ links to informe/guidance/."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/collective/agency/locus-meliorandis-readme.md",
+    "file_path": "social/agency/intervention.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1090,7 +1120,22 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/agency/policy-types.md",
+    "file_path": "social/agency/locus-meliorandis-readme.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Remapped guidance/instance/ links to informe/guidance/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/agency/policy-types.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1105,7 +1150,27 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/collective.md",
+    "file_path": "social/agency/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/atlas/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/collective.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1140,7 +1205,137 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/culture/evaluation/trompenaars-model.md",
+    "file_path": "social/collective/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/coordinator/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/dynamic/economic/inflation.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Repaired broken internal links after the social-tree cleanup."
+      }
+    ]
+  },
+  {
+    "file_path": "social/dynamic/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/framework/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/noetic/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/normative/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/ontic/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/problem/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/property/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/relation/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/structural/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/culture/evaluation/trompenaars-model.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1150,7 +1345,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration.md",
+    "file_path": "social/actor/public/government/administration.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1160,7 +1355,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/civil-service-case-studies.md",
+    "file_path": "social/actor/public/government/civil-service-case-studies.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1170,7 +1365,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/civil-service.md",
+    "file_path": "social/actor/public/government/civil-service.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1180,7 +1375,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/course-of-honors.md",
+    "file_path": "social/actor/public/government/course-of-honors.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1190,7 +1385,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/employee.md",
+    "file_path": "social/actor/public/government/employee.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1200,7 +1395,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/governance/civil-service.md",
+    "file_path": "social/actor/public/government/governance/civil-service.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1210,7 +1405,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/governance/hr.md",
+    "file_path": "social/actor/public/government/governance/hr.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1220,7 +1415,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/governance/hru.md",
+    "file_path": "social/actor/public/government/governance/hru.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1230,7 +1425,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/government.md",
+    "file_path": "social/actor/public/government/government.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1240,7 +1435,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/hong-kong-chief-executive-policy-unit.md",
+    "file_path": "social/actor/public/government/hong-kong-chief-executive-policy-unit.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1255,7 +1450,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/hru.md",
+    "file_path": "social/actor/public/government/hru.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1265,7 +1460,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/justice.md",
+    "file_path": "social/actor/public/government/justice.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1275,7 +1470,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/law.md",
+    "file_path": "social/actor/public/government/law.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1285,7 +1480,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/mandarinate.md",
+    "file_path": "social/actor/public/government/mandarinate.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1295,7 +1490,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/system.md",
+    "file_path": "social/actor/public/government/system.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -1305,7 +1500,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/ideology/capitalism.md",
+    "file_path": "social/synontic/ideology/capitalism.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1315,7 +1510,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/institution/mancomunidad.md",
+    "file_path": "social/normative/institution/mancomunidad.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1325,7 +1520,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/legal/costum-de-valencia.md",
+    "file_path": "social/normative/legal/costum-de-valencia.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1335,7 +1530,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/bureaucracy/civil-service.md",
+    "file_path": "social/problem/dimension/bureaucracy/civil-service.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1345,7 +1540,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/domain.md",
+    "file_path": "social/problem/dimension/domain.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1355,7 +1550,22 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/education/educational-field.md",
+    "file_path": "social/problem/dimension/education/educational-field.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Repaired broken internal links after the social-tree cleanup."
+      }
+    ]
+  },
+  {
+    "file_path": "social/problem/dimension/finance/finance.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1365,7 +1575,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/finance/finance.md",
+    "file_path": "social/problem/dimension/finance/state.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1375,7 +1585,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/finance/state.md",
+    "file_path": "social/problem/dimension/international/international-domain.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1385,7 +1595,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/international/international-domain.md",
+    "file_path": "social/problem/dimension/production/change.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1395,7 +1605,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/production/change.md",
+    "file_path": "social/problem/dimension/production/firm/firm-policy.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1405,7 +1615,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/production/firm/firm-policy.md",
+    "file_path": "social/problem/dimension/production/industry/industry.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1415,7 +1625,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/production/industry/industry.md",
+    "file_path": "social/problem/dimension/production/production.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1425,7 +1635,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/production/production.md",
+    "file_path": "social/problem/dimension/production/toolkit.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1435,7 +1645,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/production/toolkit.md",
+    "file_path": "social/problem/dimension/research/research.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1445,7 +1655,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/research/research.md",
+    "file_path": "social/problem/dimension/state/government.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1455,7 +1665,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/state/government.md",
+    "file_path": "social/problem/dimension/urbanism/urbanismo.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1465,7 +1675,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/dimension/urbanism/urbanismo.md",
+    "file_path": "social/problem/policy-problem.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1475,17 +1685,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/problem/problem.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/collective/social-class.md",
+    "file_path": "social/structural/social-class.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1505,7 +1705,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/bra/brazil.md",
+    "file_path": "social/actor/public/space/bra/brazil.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1515,7 +1715,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/chn/region/hong-kong/hong-kong.md",
+    "file_path": "social/actor/public/space/chn/region/hong-kong/hong-kong.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1525,7 +1725,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/dom/rd-1-0-dominix.md",
+    "file_path": "social/actor/public/space/dom/rd-1-0-dominix.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1535,7 +1735,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/grc/region/athens.md",
+    "file_path": "social/actor/public/space/grc/region/athens.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1545,7 +1745,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/grc/region/patras.md",
+    "file_path": "social/actor/public/space/grc/region/patras.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1555,7 +1755,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/grc/region/thessaloniki.md",
+    "file_path": "social/actor/public/space/grc/region/thessaloniki.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1565,7 +1765,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/ita/production/network.md",
+    "file_path": "social/actor/public/space/ita/production/network.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1575,7 +1775,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/ita/region/piamonte.md",
+    "file_path": "social/actor/public/space/ita/region/piamonte.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1585,7 +1785,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/space/pol/poland.md",
+    "file_path": "social/actor/public/space/pol/poland.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1595,32 +1795,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/education-actor.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      },
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/enterprise-research-lab.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/finance/government-guidance-fund.md",
+    "file_path": "social/actor/education-actor.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1635,7 +1810,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/finance/mother-fund.md",
+    "file_path": "social/actor/enterprise-research-lab.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1645,57 +1820,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/firm.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/firm/groupon.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/firm/guangzhou-xiaopeng-motors-technology-co-ltd.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/firm/kkr-co-inc.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/firm/salesforce-inc.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/organization.md",
+    "file_path": "social/actor/public/finance/government-guidance-fund.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1710,57 +1835,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/persona/alexander-hamilton.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/persona/arthur-schopenhauer.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/persona/daniel-kahneman.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/persona/henri-fayol.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/persona/urho-kekkonen.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "fix",
-        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/product-development-center.md",
+    "file_path": "social/actor/private/finance/mother-fund.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1770,7 +1845,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/public-organization.md",
+    "file_path": "social/actor/firm.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1780,7 +1855,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research.md",
+    "file_path": "social/actor/private/firm/groupon.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1790,7 +1865,37 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/aus/geoscience-australia.md",
+    "file_path": "social/actor/private/firm/guangzhou-xiaopeng-motors-technology-co-ltd.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/firm/kkr-co-inc.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/firm/salesforce-inc.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/organization.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1805,17 +1910,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/deu/sprind.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/research/jpn/national-institute-of-advanced-industrial-science.md",
+    "file_path": "social/actor/private/persona/alexander-hamilton.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1825,7 +1920,47 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/nibio.md",
+    "file_path": "social/actor/private/persona/arthur-schopenhauer.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/daniel-kahneman.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/henri-fayol.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/urho-kekkonen.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/product-development-center.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1835,7 +1970,32 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/nilu.md",
+    "file_path": "social/actor/public/public-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/research.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Split the research family into public/ and private/ by public authority; hub now links both halves."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/aus/geoscience-australia.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1850,7 +2010,37 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/nina.md",
+    "file_path": "social/actor/public/research/deu/sprind.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/jpn/national-institute-of-advanced-industrial-science.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/nor/nibio.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/nor/nilu.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1865,17 +2055,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/norwegian-computing-center.md",
-    "logs": [
-      {
-        "date": "2026-10-10",
-        "kind": "docs",
-        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
-      }
-    ]
-  },
-  {
-    "file_path": "social/actor/societal/research/nor/norwegian-institute-of-public-health.md",
+    "file_path": "social/actor/public/research/nor/nina.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1890,7 +2070,17 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/ntnu.md",
+    "file_path": "social/actor/public/research/nor/norwegian-computing-center.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/nor/norwegian-institute-of-public-health.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1905,7 +2095,22 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/nor/nupi.md",
+    "file_path": "social/actor/private/research/nor/ntnu.md",
+    "logs": [
+      {
+        "date": "2026-10-10",
+        "kind": "fix",
+        "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-10",
+        "kind": "docs",
+        "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/research/nor/nupi.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1925,7 +2130,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/research/srb/mihajlo-pupin-institute.md",
+    "file_path": "social/actor/public/research/srb/mihajlo-pupin-institute.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1935,7 +2140,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/sociedad-de-amantes-del-pais.md",
+    "file_path": "social/actor/sociedad-de-amantes-del-pais.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1945,7 +2150,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/software-firm-org.md",
+    "file_path": "social/actor/software-firm-org.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1955,7 +2160,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/sreni.md",
+    "file_path": "social/actor/sreni.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1965,7 +2170,7 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/trading-house.md",
+    "file_path": "social/actor/trading-house.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -1975,7 +2180,17 @@
     ]
   },
   {
-    "file_path": "social/actor/societal/unit/unit.md",
+    "file_path": "social/synontic/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added directory scope note (corpus navigation aid)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/unit.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2005,7 +2220,7 @@
     ]
   },
   {
-    "file_path": "social/change/change.md",
+    "file_path": "social/dynamic/change.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2065,7 +2280,7 @@
     ]
   },
   {
-    "file_path": "social/facet.md",
+    "file_path": "social/framework/facet.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2085,7 +2300,7 @@
     ]
   },
   {
-    "file_path": "social/problem.md",
+    "file_path": "social/problem/problem.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2106,11 +2321,16 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Repaired broken internal links after the social-tree cleanup."
       }
     ]
   },
   {
-    "file_path": "social/social-ontology.md",
+    "file_path": "social/framework/social-ontology.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2121,11 +2341,16 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Repaired broken internal links after the social-tree cleanup."
       }
     ]
   },
   {
-    "file_path": "social/status/citizenship.md",
+    "file_path": "social/synontic/citizenship.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2140,7 +2365,7 @@
     ]
   },
   {
-    "file_path": "social/status/status.md",
+    "file_path": "social/synontic/status.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2155,7 +2380,7 @@
     ]
   },
   {
-    "file_path": "social/structural/property/property.md",
+    "file_path": "social/property/property.md",
     "logs": [
       {
         "date": "2026-10-10",
@@ -2231,6 +2456,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "fix",
+        "summary": "Repaired broken internal links after the social-tree cleanup."
       }
     ]
   },
@@ -2260,7 +2490,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration/administration.md",
+    "file_path": "social/actor/public/government/administration/administration.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -2285,7 +2515,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration/gov-wide-administration.md",
+    "file_path": "social/actor/public/government/administration/gov-wide-administration.md",
     "logs": [
       {
         "date": "2026-10-12",
@@ -2305,7 +2535,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration/informe/informe.md",
+    "file_path": "social/actor/public/government/administration/informe/informe.md",
     "logs": [
       {
         "date": "2026-10-13",
@@ -2315,7 +2545,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration/informe/course-of-honors.md",
+    "file_path": "social/actor/public/government/administration/informe/course-of-honors.md",
     "logs": [
       {
         "date": "2026-10-13",
@@ -2325,7 +2555,7 @@
     ]
   },
   {
-    "file_path": "social/actor/collective/government/administration/informe/mandarinate.md",
+    "file_path": "social/actor/public/government/administration/informe/mandarinate.md",
     "logs": [
       {
         "date": "2026-10-13",

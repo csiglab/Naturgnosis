@@ -6,6 +6,8 @@ tags: [actor, interaction-unit, agents, social-element]
 
 > An **Actor** is a bounded entity capable of interaction — agentive, cognitive/reflexive, relational, nested, state-carrying. It is the root of the social typology of who acts: individuals who decide, collectives that act as one, institutions that wield authority, and the functional forms — research, finance, trade, industry, education, party, firm — through which they engage the world.
 
+The corpus partitions actor notes by constitution: `public/` carries the state and public actors and their elements, `private/` the societal actors, `action/` the Social Action branch, and the generic type hubs — [Organization](note.html?n=social/actor/organization.md), [Firm](note.html?n=social/actor/firm.md), [Research Actor](note.html?n=social/actor/research.md), [Finance Actor](note.html?n=social/actor/finance.md), [Human](note.html?n=social/actor/human.md), [Family](note.html?n=social/actor/family.md) — sit at the actor root. Mixed families (`research`, `finance`) grow one tree per reading and are split by public authority, with a hub entry at the root linking both halves.
+
 ## Formulation
 
 ### What social element type does this social instance belong to?
@@ -61,21 +63,45 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 | Actor `(→ Part)` Social Relation / Network `(→ Part)` Alliance Tie | Structured tie binding actors in joint pursuit. |
 | Actor `(→ Part)` Social Role | Grouping: expectation-tags actors occupy. |
 | Actor `(→ Part)` Social Role `(→ Component)` Role Occupancy | Binding of an actor, a context, and an interpretation to behavior. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization | Organization wielding delegated public authority under law. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Ministry | Government organization responsible for a major policy domain and its associated administrative functions. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Department | Administrative organization or subdivision responsible for a defined governmental function or domain. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Agency | Organization established or designated to perform specified governmental or administrative functions. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Council | Collegial body established to deliberate, coordinate, advise, govern, or make decisions within a defined domain. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Commission | Body established to investigate, regulate, administer, coordinate, or perform a specified public function. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Board | Collegial governing, supervisory, advisory, or decision-making body. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Authority | Public body entrusted with specific powers, often regulatory, supervisory, or administrative. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Secretariat | Organization or administrative unit providing coordination, executive support, or administration for a government, council, or other body. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Office | Organizational unit or institution assigned a defined governmental responsibility. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Directorate | Administrative unit responsible for a particular function or operational domain. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Administration | Organization or organizational complex responsible for administering a public domain, program, or jurisdiction. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Bureau | Administrative organization or subdivision responsible for a specialized function. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Institute | Organization established to conduct specialized activities such as research, technical work, training, or public service. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Public Corporation | Public-sector corporate entity established to conduct designated commercial, financial, infrastructural, or other activities. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Public Service | Organized administrative structure responsible for delivering a defined public service. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Tribunal | Public adjudicative body responsible for resolving disputes or determining matters within its jurisdiction. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Court | Judicial body exercising legally established adjudicative authority. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Prosecutor's Office | Public organization or office responsible for prosecution and related legal functions. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Inspectorate | Organization or unit responsible for inspection, compliance verification, or oversight. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Ombudsman's Office | Institution or office responsible for investigating complaints and protecting individuals against specified forms of maladministration or abuse. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Task Force | Temporarily or specially constituted body assigned a defined objective. |
+| Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization `(→ Kind)` Public Organization `(→ Kind)` Committee | Collegial body established to deliberate, advise, coordinate, supervise, or decide on specified matters. |
 
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
-- [Organization](note.html?n=social/actor/societal/organization.md) (collective actor hub: the full subtype tree)
-- [Firm](note.html?n=social/actor/societal/firm.md) (economic subtype of Organization)
-- [Social Group](note.html?n=social/actor/collective/group/group.md) (interacting aggregate — not an organization)
-- [Human](note.html?n=social/actor/societal/human.md) (biological individual; carries personhood)
-- [Family](note.html?n=social/actor/societal/family.md) (kinship unit)
-- [Public Organization](note.html?n=social/actor/societal/public-organization.md) (government subtype; carries the agency-space QA)
-- [Education Actor](note.html?n=social/actor/societal/education-actor.md) (warranted teaching body)
-- [Laboratory](note.html?n=social/actor/societal/laboratory.md) (research host unit)
-- [Public Research Institutes](note.html?n=social/actor/societal/pri.md) (public-research role)
-- [Research Actor](note.html?n=social/actor/societal/research.md) (research-functional subtype hub: the research actor family)
-- [Political Party](note.html?n=social/actor/societal/political-party.md) (political subtype)
-- [Sociedad de Amantes del País](note.html?n=social/actor/societal/sociedad-de-amantes-del-pais.md) (learned-society type)
-- [China](note.html?n=social/actor/collective/space/chn/china.md) (nation-state instance)
+- [Organization](note.html?n=social/actor/organization.md) (collective actor hub: the full subtype tree)
+- [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
+- [Social Group](note.html?n=social/actor/private/group/group.md) (interacting aggregate — not an organization)
+- [Human](note.html?n=social/actor/human.md) (biological individual; carries personhood)
+- [Family](note.html?n=social/actor/family.md) (kinship unit)
+- [Public Organization](note.html?n=social/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
+- [Education Actor](note.html?n=social/actor/education-actor.md) (warranted teaching body)
+- [Laboratory](note.html?n=social/actor/laboratory.md) (research host unit)
+- [Public Research Institutes](note.html?n=social/actor/public/pri.md) (public-research role)
+- [Research Actor](note.html?n=social/actor/research.md) (research-functional subtype hub: the research actor family)
+- [Finance Actor](note.html?n=social/actor/finance.md) (finance-functional subtype hub: the finance actor family)
+- [Political Party](note.html?n=social/actor/political-party.md) (political subtype)
+- [Sociedad de Amantes del País](note.html?n=social/actor/sociedad-de-amantes-del-pais.md) (learned-society type)
+- [China](note.html?n=social/actor/public/space/chn/china.md) (nation-state instance)
 - Graph nodes of the same names: `person`, `firm`, `organization`, `public-organization`, `sreni` (Social Space, dataset `social`)
