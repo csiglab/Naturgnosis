@@ -635,6 +635,16 @@
     ]
   },
   {
+    "file_path": "social/actor/public/government/administration/hru.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added the Workforce (Staff Institutions) prompt block."
+      }
+    ]
+  },
+  {
     "file_path": "social/actor/readme.md",
     "logs": [
       {
@@ -2531,6 +2541,11 @@
         "date": "2026-10-13",
         "kind": "docs",
         "summary": "Renamed the atlas pointer to Atlas of Government-Wide Administration Characterization Systems."
+      },
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Added meta-system design, evaluation, and systematic-research prompt sections."
       }
     ]
   },

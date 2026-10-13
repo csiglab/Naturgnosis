@@ -25,6 +25,13 @@ Functions:
 
 > Note: I Don't Understand teh Term 'Human Resource Management (HRM)' becuase this does not manage the resources actually - it just run a set of process and task to masure that Organizational Unit are well staff - and yes  -so this manaages the agents that execute those tasks - not the agents resources of other units.
 
+- Workforce (Staff Institutions)
+  - How to hire?
+  - How to promote?
+  - How to fire?
+  - How to pay?
+- ...
+
 ## HR Operating Abstraction
 
 Guding Abstractions to guide the  Public Human Resource Operation's:

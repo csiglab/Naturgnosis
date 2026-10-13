@@ -53,42 +53,6 @@
       "to": "social/agency/informe/",
       "label": "country studies",
       "kind": "study"
-    },
-    {
-      "from": "social/actor/actor.md",
-      "to": "social/actor/public/",
-      "label": "public actors",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/actor/actor.md",
-      "to": "social/actor/private/",
-      "label": "private actors",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/actor/research.md",
-      "to": "social/actor/public/research/",
-      "label": "public research",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/actor/research.md",
-      "to": "social/actor/private/research/",
-      "label": "private research",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/actor/finance.md",
-      "to": "social/actor/public/finance/",
-      "label": "public finance",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/actor/finance.md",
-      "to": "social/actor/private/finance/",
-      "label": "private finance",
-      "kind": "hierarchy"
     }
   ]
 }

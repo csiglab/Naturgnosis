@@ -650,6 +650,35 @@ It is not an `Organizational Administration` (the internal administration of one
 | **Normative Neutrality** | The characterization distinguishes descriptive institutional properties from judgments about whether those arrangements are desirable, effective, or legitimate. |
 | **Replicability and Transparency** | Definitions, data sources, coding procedures, assumptions, and classification decisions are documented sufficiently for independent verification. |
 
+### How to reason about the design of such meta system?
+
+- Framework (Defines the overarching logic of administrative action.)
+- Princple (Guiding commitments that shape administrative behavior.)
+- Model (Doctrine) (Operating Model) (Coherent interpretations of how principles should be enacted.)
+- Administrative Type (Concrete institutional embodiments.)
+- Processes (Task) (Repeatable patterns of action.)
+- Instruments (Means used to influence behavior and outcomes of the Public Administration.)
+- Technique (Specific methods applied by administrators.)
+- Some Concrete Ideas:
+  - Stochastic Princple for Personnel Mangement (Selection, and Progression) - Plus Merit.
+  - Fast Track for Exceptional People.
+  - High Responsability for Exceptional People.
+
+
+### How to reason about the evaluation of such metasystem?
+
+- When is self-administration sufficient?
+- How much administration is necessary?
+- When is administration truly required?
+- When does administration become excessive?
+- How to evalute the scability of **Public Administration**?
+
+### How to Organize Systematic Reflection and Research on Public Administration?
+
+- Research
+- Audit
+- Performance Evaluation
+
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
