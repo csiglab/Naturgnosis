@@ -2303,5 +2303,35 @@
         "summary": "Renamed the atlas pointer to Atlas of Government-Wide Administration Characterization Systems."
       }
     ]
+  },
+  {
+    "file_path": "social/actor/collective/government/administration/informe/informe.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Created the informe entry hub for studies of concrete government-wide administration systems: study method, candidate pipeline seeded from the administration.md sample table, first two study files linked, related element notes and atlas."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/administration/informe/course-of-honors.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Moved the Roman cursus-honorum study from administration/ into informe/ as a study case (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/collective/government/administration/informe/mandarinate.md",
+    "logs": [
+      {
+        "date": "2026-10-13",
+        "kind": "docs",
+        "summary": "Moved the imperial Chinese mandarinate study from administration/ into informe/ as a study case (content unchanged)."
+      }
+    ]
   }
 ]
