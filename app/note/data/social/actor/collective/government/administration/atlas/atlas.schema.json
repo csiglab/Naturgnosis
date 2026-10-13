@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://naturgnosis.org/schemas/administration-atlas.schema.json",
-  "title": "Atlas of Government-Wide Administration Characterization Systems",
-  "description": "Characterization systems for classifying government-wide administrative systems.",
+  "title": "Atlas of Government-Wide Administration Reference Systems",
+  "description": "Reference systems (coordinate frames) for the space of government-wide administrative systems.",
   "$comment": "Data objects in atlas.json must keep their object key order identical to this schema's property order.",
   "type": "object",
   "properties": {
@@ -22,9 +22,28 @@
   ],
   "additionalProperties": false,
   "$defs": {
+    "space": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ],
+      "additionalProperties": false
+    },
     "meta": {
       "type": "object",
       "properties": {
+        "space": {
+          "$ref": "#/$defs/space"
+        },
         "description": {
           "type": "string"
         },
@@ -34,8 +53,60 @@
         }
       },
       "required": [
+        "space",
         "description",
         "version"
+      ],
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "axis": {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scale": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "ordinal"
+          ]
+        }
+      },
+      "required": [
+        "group",
+        "name",
+        "description",
+        "values",
+        "scale"
       ],
       "additionalProperties": false
     },
@@ -51,16 +122,11 @@
         "description": {
           "type": "string"
         },
-        "source_note": {
+        "frame_basis": {
           "type": "string"
         },
-        "level": {
-          "type": "string",
-          "enum": [
-            "meta",
-            "operational",
-            "mixed"
-          ]
+        "provenance": {
+          "type": "string"
         },
         "related_notes": {
           "type": "array",
@@ -68,10 +134,16 @@
             "type": "string"
           }
         },
-        "categories": {
+        "groups": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/category"
+            "$ref": "#/$defs/group"
+          }
+        },
+        "axes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/axis"
           }
         }
       },
@@ -79,62 +151,11 @@
         "name",
         "title",
         "description",
-        "source_note",
-        "level",
+        "frame_basis",
+        "provenance",
         "related_notes",
-        "categories"
-      ],
-      "additionalProperties": false
-    },
-    "category": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "entries": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/entry"
-          }
-        }
-      },
-      "required": [
-        "name",
-        "entries"
-      ],
-      "additionalProperties": false
-    },
-    "entry": {
-      "type": "object",
-      "properties": {
-        "kind": {
-          "type": "string",
-          "enum": [
-            "concept",
-            "dimension"
-          ]
-        },
-        "name": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        },
-        "critique": {
-          "type": "string"
-        },
-        "values": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "kind",
-        "name",
-        "description"
+        "groups",
+        "axes"
       ],
       "additionalProperties": false
     }
