@@ -58,8 +58,7 @@
           const params = new URLSearchParams(window.location.search);
           const pathCode = (window.location.pathname.match(/polity\/([^/]+)\//) || [])[1] || '';
           const code = (pathCode || params.get('code') || 'irl').toLowerCase();
-          const back = document.getElementById('backToEntry');
-          if (back) back.href = '/nation/web/entry.html?code=' + encodeURIComponent(code);
+          this.code = code;
           const response = await fetch('data/actors.json');
           if (!response.ok) throw new Error('Network error');
           this.processData(await response.json());
@@ -80,8 +79,19 @@
 
         // 1. Title and Hero Country Name
         if (meta.country) {
-          setText('docTitle', meta.flag + ' ' + meta.country + ' Actor Space · Naturgnosis');
+          setText('docTitle', meta.flag + ' Actor Space');
           setText('heroRegion', meta.country);
+          // Header identity: the subtitle carries the country name and links
+          // to the polity's directory view in the notes catalog (mirrors
+          // polity-entry.js on the per-polity entry page).
+          var subtitle = document.getElementById('projectSubtitle');
+          if (subtitle) {
+            subtitle.textContent = meta.country;
+            if (this.code) {
+              subtitle.href = '/note/web/index.html?dir=' +
+                encodeURIComponent('social/actor/public/polity/' + this.code);
+            }
+          }
         }
 
         // 2. Introduction Text

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Dynamic Title will be injected here -->
-  <title id="docTitle">🇦🇪 United Arab Emirates Actor Space</title>
+  <title id="docTitle">🇦🇪 Actor Space</title>
   <script>
     (function () {
       const theme = localStorage.getItem('naturgnosis-theme') || 'dark';
@@ -209,14 +209,10 @@
       align-items: center;
       gap: 0.875rem;
       text-decoration: none;
-      transition: opacity 0.25s ease;
-    }
-
-    .project-identity:hover {
-      opacity: 0.85;
     }
 
     .project-logo {
+      color: var(--fg);
       width: 38px;
       height: 38px;
       border-radius: 4px;
@@ -228,6 +224,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .project-identity:hover .project-logo {
@@ -235,21 +232,33 @@
     }
 
     .project-title {
+      display: block;
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-size: 1.125rem;
       font-weight: 500;
       color: var(--fg);
       letter-spacing: 0.02em;
       line-height: 1.2;
+      text-decoration: none;
+    }
+
+    .project-title:hover {
+      color: var(--accent);
     }
 
     .project-subtitle {
+      display: block;
       font-family: 'JetBrains Mono', monospace;
       font-size: 0.625rem;
       color: var(--muted);
       letter-spacing: 0.08em;
       text-transform: uppercase;
       margin-top: 1px;
+      text-decoration: none;
+    }
+
+    .project-subtitle:hover {
+      color: var(--accent);
     }
 
     .nav-controls {
@@ -1272,19 +1281,19 @@
   <!-- Header -->
   <header class="project-header" id="projectHeader">
     <div class="project-header-inner">
-      <a href="/nation/web/entry.html" id="backToEntry" class="project-identity" aria-label="Return to the nation entry">
-        <div class="project-logo">
+      <div class="project-identity">
+        <a class="project-logo" href="/note/data/social/actor/public/polity/index.html" aria-label="Return to the polity index">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <circle cx="12" cy="12" r="10" />
             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
             <path d="M2 12h20" />
           </svg>
-        </div>
+        </a>
         <div>
-          <div class="project-title">Naturgnosis</div>
-          <div class="project-subtitle">Laboratorium · Research</div>
+          <a class="project-title" href="/note/data/social/actor/public/polity/index.html">Naturgnosis</a>
+          <a class="project-subtitle" id="projectSubtitle" href="#">Polity</a>
         </div>
-      </a>
+      </div>
 
       <div class="nav-controls">
         <nav class="breadcrumb-nav" aria-label="Breadcrumb">

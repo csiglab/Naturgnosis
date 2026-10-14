@@ -17,7 +17,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇦🇪 United Arab Emirates Actor Space",
+          "title": "🇦🇪 Actor Space",
           "link": "actor.html"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
           "path": "social/actor/public/polity/are/actor.html",
-          "title": "🇦🇪 United Arab Emirates Actor Space",
+          "title": "🇦🇪 Actor Space",
           "kind": "representation"
         }
       ]
@@ -55,7 +55,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇦🇷 Argentina Actor Space",
+          "title": "🇦🇷 Actor Space",
           "link": "actor.html"
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "path": "social/actor/public/polity/arg/actor.html",
-          "title": "🇦🇷 Argentina Actor Space",
+          "title": "🇦🇷 Actor Space",
           "kind": "representation"
         }
       ]
@@ -93,7 +93,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇦🇺 Australia Actor Space",
+          "title": "🇦🇺 Actor Space",
           "link": "actor.html"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
           "path": "social/actor/public/polity/aus/actor.html",
-          "title": "🇦🇺 Australia Actor Space",
+          "title": "🇦🇺 Actor Space",
           "kind": "representation"
         }
       ]
@@ -247,7 +247,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇧🇷 Brazil Actor Space",
+          "title": "🇧🇷 Actor Space",
           "link": "actor.html"
         },
         {
@@ -266,7 +266,7 @@
         },
         {
           "path": "social/actor/public/polity/bra/actor.html",
-          "title": "🇧🇷 Brazil Actor Space",
+          "title": "🇧🇷 Actor Space",
           "kind": "representation"
         }
       ]
@@ -311,7 +311,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇨🇦 Canada Actor Space",
+          "title": "🇨🇦 Actor Space",
           "link": "actor.html"
         },
         {
@@ -330,7 +330,7 @@
         },
         {
           "path": "social/actor/public/polity/can/actor.html",
-          "title": "🇨🇦 Canada Actor Space",
+          "title": "🇨🇦 Actor Space",
           "kind": "representation"
         }
       ]
@@ -349,7 +349,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇨🇭 Switzerland Actor Space",
+          "title": "🇨🇭 Actor Space",
           "link": "actor.html"
         },
         {
@@ -380,7 +380,7 @@
         },
         {
           "path": "social/actor/public/polity/che/actor.html",
-          "title": "🇨🇭 Switzerland Actor Space",
+          "title": "🇨🇭 Actor Space",
           "kind": "representation"
         }
       ]
@@ -425,7 +425,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇨🇳 China Actor Space",
+          "title": "🇨🇳 Actor Space",
           "link": "actor.html"
         },
         {
@@ -480,7 +480,7 @@
         },
         {
           "path": "social/actor/public/polity/chn/actor.html",
-          "title": "🇨🇳 China Actor Space",
+          "title": "🇨🇳 Actor Space",
           "kind": "representation"
         }
       ]
@@ -641,7 +641,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇩🇰 Denmark Actor Space",
+          "title": "🇩🇰 Actor Space",
           "link": "actor.html"
         },
         {
@@ -660,7 +660,7 @@
         },
         {
           "path": "social/actor/public/polity/dnk/actor.html",
-          "title": "🇩🇰 Denmark Actor Space",
+          "title": "🇩🇰 Actor Space",
           "kind": "representation"
         }
       ]
@@ -679,7 +679,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇩🇴 Dominican Republic Actor Space",
+          "title": "🇩🇴 Actor Space",
           "link": "actor.html"
         },
         {
@@ -998,7 +998,7 @@
         },
         {
           "path": "social/actor/public/polity/dom/actor.html",
-          "title": "🇩🇴 Dominican Republic Actor Space",
+          "title": "🇩🇴 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1043,7 +1043,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇪🇸 Spain Actor Space",
+          "title": "🇪🇸 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1062,7 +1062,7 @@
         },
         {
           "path": "social/actor/public/polity/esp/actor.html",
-          "title": "🇪🇸 Spain Actor Space",
+          "title": "🇪🇸 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1145,7 +1145,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇫🇮 Finland Actor Space",
+          "title": "🇫🇮 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1164,7 +1164,7 @@
         },
         {
           "path": "social/actor/public/polity/fin/actor.html",
-          "title": "🇫🇮 Finland Actor Space",
+          "title": "🇫🇮 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1183,7 +1183,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇫🇷 France Actor Space",
+          "title": "🇫🇷 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1202,7 +1202,7 @@
         },
         {
           "path": "social/actor/public/polity/fra/actor.html",
-          "title": "🇫🇷 France Actor Space",
+          "title": "🇫🇷 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1387,7 +1387,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇮🇩 Indonesia Actor Space",
+          "title": "🇮🇩 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1406,7 +1406,7 @@
         },
         {
           "path": "social/actor/public/polity/idn/actor.html",
-          "title": "🇮🇩 Indonesia Actor Space",
+          "title": "🇮🇩 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1425,7 +1425,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇮🇳 India Actor Space",
+          "title": "🇮🇳 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1444,7 +1444,7 @@
         },
         {
           "path": "social/actor/public/polity/ind/actor.html",
-          "title": "🇮🇳 India Actor Space",
+          "title": "🇮🇳 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1463,7 +1463,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇮🇪 Ireland Actor Space",
+          "title": "🇮🇪 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1482,7 +1482,7 @@
         },
         {
           "path": "social/actor/public/polity/irl/actor.html",
-          "title": "🇮🇪 Ireland Actor Space",
+          "title": "🇮🇪 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1527,7 +1527,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇮🇱 Israel Actor Space",
+          "title": "🇮🇱 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1546,7 +1546,7 @@
         },
         {
           "path": "social/actor/public/polity/isr/actor.html",
-          "title": "🇮🇱 Israel Actor Space",
+          "title": "🇮🇱 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1565,7 +1565,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇮🇹 Italy Actor Space",
+          "title": "🇮🇹 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1620,7 +1620,7 @@
         },
         {
           "path": "social/actor/public/polity/ita/actor.html",
-          "title": "🇮🇹 Italy Actor Space",
+          "title": "🇮🇹 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1639,7 +1639,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇯🇵 Japan Actor Space",
+          "title": "🇯🇵 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1658,7 +1658,7 @@
         },
         {
           "path": "social/actor/public/polity/jpn/actor.html",
-          "title": "🇯🇵 Japan Actor Space",
+          "title": "🇯🇵 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1677,7 +1677,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇰🇷 South Korea Actor Space",
+          "title": "🇰🇷 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1696,7 +1696,7 @@
         },
         {
           "path": "social/actor/public/polity/kor/actor.html",
-          "title": "🇰🇷 South Korea Actor Space",
+          "title": "🇰🇷 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1715,7 +1715,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇲🇽 Mexico Actor Space",
+          "title": "🇲🇽 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1734,7 +1734,7 @@
         },
         {
           "path": "social/actor/public/polity/mex/actor.html",
-          "title": "🇲🇽 Mexico Actor Space",
+          "title": "🇲🇽 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1779,7 +1779,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇲🇾 Malaysia Actor Space",
+          "title": "🇲🇾 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1798,7 +1798,7 @@
         },
         {
           "path": "social/actor/public/polity/mys/actor.html",
-          "title": "🇲🇾 Malaysia Actor Space",
+          "title": "🇲🇾 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1817,7 +1817,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇳🇱 Netherlands Actor Space",
+          "title": "🇳🇱 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1860,7 +1860,7 @@
         },
         {
           "path": "social/actor/public/polity/nld/actor.html",
-          "title": "🇳🇱 Netherlands Actor Space",
+          "title": "🇳🇱 Actor Space",
           "kind": "representation"
         }
       ]
@@ -1905,7 +1905,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇳🇿 New Zealand Actor Space",
+          "title": "🇳🇿 Actor Space",
           "link": "actor.html"
         },
         {
@@ -1924,7 +1924,7 @@
         },
         {
           "path": "social/actor/public/polity/nzl/actor.html",
-          "title": "🇳🇿 New Zealand Actor Space",
+          "title": "🇳🇿 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2021,7 +2021,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇵🇹 Portugal Actor Space",
+          "title": "🇵🇹 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2040,7 +2040,7 @@
         },
         {
           "path": "social/actor/public/polity/prt/actor.html",
-          "title": "🇵🇹 Portugal Actor Space",
+          "title": "🇵🇹 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2215,7 +2215,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇸🇬 Singapore Actor Space",
+          "title": "🇸🇬 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2258,7 +2258,7 @@
         },
         {
           "path": "social/actor/public/polity/sgp/actor.html",
-          "title": "🇸🇬 Singapore Actor Space",
+          "title": "🇸🇬 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2277,7 +2277,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇸🇪 Sweden Actor Space",
+          "title": "🇸🇪 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2308,7 +2308,7 @@
         },
         {
           "path": "social/actor/public/polity/swe/actor.html",
-          "title": "🇸🇪 Sweden Actor Space",
+          "title": "🇸🇪 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2327,7 +2327,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇹🇭 Thailand Actor Space",
+          "title": "🇹🇭 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2346,7 +2346,7 @@
         },
         {
           "path": "social/actor/public/polity/tha/actor.html",
-          "title": "🇹🇭 Thailand Actor Space",
+          "title": "🇹🇭 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2443,7 +2443,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇺🇾 Uruguay Actor Space",
+          "title": "🇺🇾 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2462,7 +2462,7 @@
         },
         {
           "path": "social/actor/public/polity/ury/actor.html",
-          "title": "🇺🇾 Uruguay Actor Space",
+          "title": "🇺🇾 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2481,7 +2481,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇺🇸 United States Actor Space",
+          "title": "🇺🇸 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2500,7 +2500,7 @@
         },
         {
           "path": "social/actor/public/polity/usa/actor.html",
-          "title": "🇺🇸 United States Actor Space",
+          "title": "🇺🇸 Actor Space",
           "kind": "representation"
         }
       ]
@@ -2571,7 +2571,7 @@
           "id": "actor",
           "type": "Temporal",
           "status": "active",
-          "title": "🇻🇳 Vietnam Actor Space",
+          "title": "🇻🇳 Actor Space",
           "link": "actor.html"
         },
         {
@@ -2590,7 +2590,7 @@
         },
         {
           "path": "social/actor/public/polity/vnm/actor.html",
-          "title": "🇻🇳 Vietnam Actor Space",
+          "title": "🇻🇳 Actor Space",
           "kind": "representation"
         }
       ]

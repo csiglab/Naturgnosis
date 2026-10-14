@@ -339,7 +339,7 @@ def main(argv=None) -> int:
             dest.write_text(body, encoding="utf-8")
         n_entry += 1
         if (POLITY / code / "data" / "actors.json").is_file():
-            actor_title = f"{m['flag']} {m['name']} Actor Space"
+            actor_title = f"{m['flag']} Actor Space"
             adest = POLITY / code / "actor.html"
             abody = bake(actor_tpl, actor_title)
             if not adest.is_file() or adest.read_text(encoding="utf-8") != abody:
