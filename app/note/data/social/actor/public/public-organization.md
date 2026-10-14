@@ -4,7 +4,7 @@ tags: [public-organization, government, collective, actor, social-element]
 
 # Public Organization
 
-> A **Public Organization** is an organization wielding delegated public authority under law — the government subtype of [Organization](note.html?n=social/actor/organization.md), spanning ministries, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids.
+> A **Public Organization** is an organization wielding delegated public authority under law — the government subtype of [Organization](note.html?n=social/actor/organization.md), spanning ministries, councils, delivery and research bodies, task groups, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids.
 
 ## Formulation
 
@@ -16,11 +16,11 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### What is this social instance?
 
-> A public organization fixes *who exercises public authority and how*: the legal charter, the political principal to whom it answers, the agencies that form intention and select action, the internal governance stabilizing coordination, and the recurrent practices through which it serves, regulates, or trades. Canonical instances: ministry, public agency, state-owned enterprise, municipal organization, nonprofit public-private organization.
+> A public organization fixes *who exercises public authority and how*: the legal charter, the political principal to whom it answers, the agencies that form intention and select action, the internal governance stabilizing coordination, and the recurrent practices through which it serves, regulates, or trades. Canonical instances: ministry, council, implementation organization, policy research organization, task group, public agency, state-owned enterprise, municipal organization, nonprofit public-private organization.
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one generic Public Organization — direct subtypes plus the governance chain, at shallow depth. The full recursive expansion of the agency forms (statutory, incorporated-administrative, Swedish, UK executive) and of the Crown Corporation lives in the `Type` branch of [Organization](note.html?n=social/actor/organization.md) and is not duplicated here.
+> Boundary: one generic Public Organization — direct subtypes plus the governance chain, at shallow depth, with the agency forms expanded under Public Agency and the Crown Corporation under State-Owned Enterprise. This note is the single home of the government decomposition; the parent [Organization](note.html?n=social/actor/organization.md) carries only the stub row.
 >
 > Stopping rule: a row is terminal when it names a subtype, an agency, a role, a norm, an obligation, or a practice.
 >
@@ -29,9 +29,18 @@ It is the government subtype of Organization: what individuates it is not its in
 | Instance Tree Path | Description |
 | --- | --- |
 | Collective / Organization `(→ Part)` Public Organization | Organization wielding delegated public authority under law. |
-| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Ministry | Central department of state directing a policy domain. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Ministry | Central department of state directing a policy domain — the policy organization: decides courses, holds the budget vote, answers to the executive. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Council | Deliberative and advisory body of appointed members issuing opinions, coordination, or oversight without executive command. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Implementation Organization | Delivery body executing bounded programs and projects on the ground, distinct from the standing arm's-length operator. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Policy Research Organization | In-house institute or lab producing evidence, evaluation, and foresight for policy, constituted inside public authority. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Task Group | Temporary cross-unit team for a bounded mandate — task force, reform committee, royal commission — dissolving on delivery. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency | Operational arm executing mandated functions at arm's length. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` Autonomous Statutory Public Agency | Operating agency created by its own statute, with legal personality and arm's-length autonomy. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` (Japan) Incorporated Administrative Agency | Incorporated body (*dokuritsu gyōsei hōjin*) working to minister-set medium-term objectives with managerial autonomy. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` Swedish Government Agency | Autonomous operating agency (*förvaltningsmyndighet*) under collective government decision, without ministerial rule. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise `(→ Kind)` Crown Corporation | Commercially operating Crown-owned organization with board governance. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |

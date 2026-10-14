@@ -24,7 +24,7 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one generic Organization — its recursive subtype classification plus its direct constituents, with one normative chain (role → norm → obligation) carried to full depth per the agentic/normative spines. The first row binds the grammar root; every row after roots at `Organization`.
+> Boundary: one generic Organization — its recursive subtype classification plus its direct constituents, with one normative chain (role → norm → obligation) carried to full depth per the agentic/normative spines. The first row binds the grammar root; every row after roots at `Organization`. The `Government Organization` subtype is worked in full at [Public Organization](note.html?n=social/actor/public/public-organization.md); this tree carries only its stub row — go there for the decomposition.
 >
 > Recursion rule: a `Type` grouping may nest under any subtype (`type → subtype → type → sub-subtype`), as deep as the classification requires — the same licensed recursion as `Social Compound` nesting in compounds.
 >
@@ -35,17 +35,7 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 | Instance Tree Path | Description |
 | --- | --- |
 | Collective / Organization `(→ Part)` Organization | Bounded compound unit with identity, membership, and rules acting as one. |
-| Organization `(→ Kind)` Government Organization | Public organization wielding delegated authority under law. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Ministry | Central department of state directing a policy domain. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency | Operational arm executing mandated functions at arm's length. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` Autonomous Statutory Public Agency | Operating agency created by its own statute, with legal personality and arm's-length autonomy. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` (Japan) Incorporated Administrative Agency | Incorporated body (*dokuritsu gyōsei hōjin*) working to minister-set medium-term objectives with managerial autonomy. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` Swedish Government Agency | Autonomous operating agency (*förvaltningsmyndighet*) under collective government decision, without ministerial rule. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Public Agency `(→ Kind)` UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` State-Owned Enterprise `(→ Kind)` Crown Corporation | Commercially operating Crown-owned organization with board governance. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services. |
-| Organization `(→ Kind)` Government Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
+| Organization `(→ Kind)` Government Organization | Public organization wielding delegated authority under law — worked in full at Public Organization. |
 | Organization `(→ Kind)` Private Organization | Market organization converting capability into exchangeable value under private control. |
 | Organization `(→ Kind)` Private Organization `(→ Kind)` Corporation | Limited-liability organization with tradable ownership shares. |
 | Organization `(→ Kind)` Private Organization `(→ Kind)` Partnership | Organization owned jointly by partners bearing unlimited liability. |

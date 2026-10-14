@@ -1971,6 +1971,16 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Mirrored the new Government Organization kinds (Council, Implementation Organization, Policy Research Organization, Task Group) from the public-organization rework."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "refactor",
+        "summary": "Collapsed the Government Organization subtree to a stub row pointing at Public Organization; the decomposition now lives in one note."
       }
     ]
   },
@@ -2041,6 +2051,16 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Completed the kind branch: sharpened Ministry as the policy organization; added Council, Implementation Organization, Policy Research Organization, and Task Group."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "refactor",
+        "summary": "Received the agency-form and Crown Corporation sub-rows from Organization; this note is now the single home of the government decomposition."
       }
     ]
   },
