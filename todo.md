@@ -1,3 +1,566 @@
+Implementation Agency Governance Structure
+
+How are agencies  (non policy)  organizations (aka agencies) structure?
+
+Leadership and Governance configuration
+
+https://laws.e-gov.go.jp/law/323AC0000000120
+
+
+Public Organization space
+- Characteration systems:  How to build this systems?  Model Division Technique
+
+ - Validatoin Mechanism: Used and see how well can we represent and captures agencigies and public organizations from a country
+
+  Model Decomposition Technique: Dividing a public organization model into constituent submodels or dimensions to develop a structured characterization system.
+Element-Based Characterization: Characterizing an organization by identifying and describing its constituent elements.
+Entity-Type-Based Characterization: Classifying organizations according to their types of entities, such as ministries, statutory boards, departments, and executive agencies.
+Dimension-Based Characterization: Characterizing organizations across predefined dimensions, such as governance, leadership, organizational structure, and operational arrangements.
+Model-Based Characterization: Developing a characterization system from an overarching model of how a public organization is structured and operates.
+Comparative Characterization: Identifying common dimensions and categories that enable systematic comparisons among public organizations across jurisdictions.
+- ..
+
+| Submodel | Characterization Dimension | Possible Categories or Values | What It Captures |
+|---|---|---|---|
+| **1. Institutional Model** | Institutional Position | Government agency; agency under the Riksdag; court; other public institution | Where the organization sits within the Swedish institutional system. |
+| **2. Governance Model** | Governance Arrangement | Agency headed by an agency head; board-governed agency; agency with a governing board and executive leadership; other legally established arrangements | How formal governing responsibilities are assigned. |
+| **3. Leadership Model** | Executive Leadership | Director-General (*generaldirektör*); agency head (*myndighetschef*); board chair; other legally specified leadership arrangements | Who leads the agency and how executive responsibility is assigned. |
+| **4. Organizational Structure Model** | Internal Organizational Structure | Functional; divisional; process-based; territorial; hybrid | How the agency organizes its internal units. |
+| **5. Authority Model** | Decision-Making Authority | Executive authority; board authority; delegated authority; legally assigned decision-making powers; independent decision-making in individual cases | Who can make which decisions, and within what legal limits. |
+| **6. Government Steering Model** | Government Direction | Ordinances; agency instructions; annual appropriation directions; other formal steering instruments | How the Government establishes the agency's mandate, objectives, and operating conditions. |
+| **7. Operational Model** | Operational Deployment | Headquarters-based; headquarters–field; regional; nationwide network; hybrid | How the agency distributes and performs its operational activities. |
+| **8. Accountability and Control Model** | Accountability Arrangements | Government reporting; annual reporting; financial management controls; parliamentary scrutiny; audit and evaluation | How performance, expenditure, and compliance are monitored. |
+| **9. Administrative Independence Model** | Decision-Making Independence | Legally protected independence in individual cases; ordinary administrative discretion; statutory autonomy; other legally defined arrangements | The legal boundaries within which the agency exercises its responsibilities independently. |
+
+
+| Submodel | Characterization Dimension | Possible Categories | Example Characterization |
+|---|---|---|---|
+| **Governance Model** | Governing Structure | Governing board; executive governance; collegial governance | Board-governed |
+| **Leadership Model** | Executive Leadership | Chief executive; director-general; commissioner; executive committee | Chief-executive-led |
+| **Organizational Structure Model** | Internal Organizational Structure | Functional; divisional; territorial; hybrid | Functionally organized |
+| **Authority Model** | Decision-Making Authority | Centralized; delegated; decentralized | Delegated operational authority |
+| **Operational Model** | Operational Arrangement | Headquarters-based; headquarters–field; regional; networked | Headquarters–field arrangement |
+| **Accountability Model** | Accountability Arrangement | Ministerial; board-based; parliamentary; multiple-accountability | Ministerial and board accountability |
+
+Political Interaction Model
+Parlament Interaction Model
+
+Leadship Model:
+
+- Board–Executive
+- Executive-Led
+- Commissioner-Led
+- Council-Led
+- Committee-Governed
+- Collegial Leadership
+
+Internal Organization Model:
+
+- Functional
+- Divisional
+- Programmatic
+- Territorial
+- Headquarters–Field
+- Hybrid
+
+| Organizational Model | Typical Structural Arrangement | Description |
+|---|---|---|
+| **1. Board–Executive Model** | Governing Board → Chief Executive → Divisions | A governing board oversees the agency, while a chief executive leads its operations. |
+| **2. Executive-Led Model** | Director-General / Chief Executive → Departments or Divisions | An executive leader directly heads the organization, without a separate governing board at the agency level. |
+| **3. Commissioner-Led Model** | Commissioner → Deputy Commissioners → Departments or Divisions | A commissioner leads an organization with a regulatory, enforcement, or administrative mandate. |
+| **4. Council-Led Model** | Council → Executive Head → Organizational Units | A council provides collective governance or direction, supported by an executive leader and administrative structure. |
+| **5. Committee-Governed Model** | Governing Committee → Executive Head → Organizational Units | A committee exercises assigned governance or decision-making responsibilities. |
+| **6. Collegial Leadership Model** | Collective Executive Leadership → Organizational Units | Executive responsibilities are shared among a leadership team rather than concentrated entirely in one individual. |
+| **7. Headquarters–Regional Model** | Central Leadership → Headquarters Divisions + Regional Offices | The organization combines centralized management with geographically distributed operations. |
+| **8. Headquarters–Field Model** | Central Leadership → Functional Departments + Field Offices | Headquarters manages the organization while field offices execute its mandate locally. |
+| **9. Functional Executive Model** | Executive Head → Functional Directorates → Departments or Units | The organization is structured primarily around specialized functions. |
+| **10. Programmatic Executive Model** | Executive Head → Program Directorates → Program Units | The organization is structured primarily around programs, initiatives, or service portfolios. |
+
+
+Study 
+
+- Governance Model of  — Hong Kong Microelectronics Research and Development Institute (MRDI)
+- Incentive Structure’s
+- http://localhost:8013/note/web/note.html?n=social/actor/public-organization.md
+- Top Leadership — Appointment Process
+    - Board →
+    - …
+    - …
+    - Board Composition - People or Entities with **Skin in the Game** - by which the success of the organization - is the success of the entities in the board.
+        - This will depend on the type of organization.
+        - Every organization should have an internal audit.
+    - Board Composition Models
+- Control:
+    - Board →
+    - …
+- …
+
+| Board type | Who primarily sits on it? | Best suited for |
+| --- | --- | --- |
+| **Public Board** | Government-appointed representatives | Agencies performing public/sovereign functions |
+| **Expert Board** | Independent technical, scientific, financial, managerial experts | R&D, technology, evaluation |
+| **Industry Board** | Firms, industry associations, commercial operators | Productivity, technology adoption, export |
+| **User Board** | Organizations that use the agency's services | Enterprise-support organizations |
+| **Public–Private Board** | Government + industry | Applied technology and competitiveness |
+| **Expert–Industry Board** | Independent experts + industry | Commercially oriented technology organizations |
+| **Tripartite Board** | Government + industry + academia/research | Broad ecosystem institutions |
+| **Investor Board** | Investment professionals + capital providers + public representatives | Funds and investment vehicles |
+| **Stakeholder Board** | Multiple formally represented constituencies | Institutions with broad social/economic mandates |
+| **Independent Board** | Mostly independently selected members | Organizations where autonomy is particularly important |
+
+- How should a country manage knowledge and capacity concerning stable technical elements?
+- 
+
+→ National Publication System
+
+→ …
+
+I need to  add to Historiafphy - Technology Time and and Map.
+
+Find Books on the History of Technology
+
+- https://en.wikipedia.org/wiki/Sociality
+
+- [ ]  https://es.wikipedia.org/wiki/Pol%C3%A9mica
+- [ ]  Jilin Carbon Valley
+- [ ]  https://es.wikipedia.org/wiki/Cami%C3%B3n
+- [ ]  https://es.wikipedia.org/wiki/Tertuliano
+- [ ]  https://en.wikipedia.org/wiki/Imperialism
+- [ ]  https://es.wikipedia.org/wiki/Romanitas
+- [ ]  https://en.wikipedia.org/wiki/Polity
+- [ ]  https://en.wikipedia.org/wiki/Subordination
+- [ ]  https://en.wikipedia.org/wiki/Dependency_theory
+- [ ]  https://en.wikipedia.org/wiki/Sovereign_state
+- [ ]  https://en.wikipedia.org/wiki/Margaret_Gilbert
+- [ ]  https://en.wikipedia.org/wiki/David_M._Schneider
+- [ ]  https://www.a-star.edu.sg/api/media/2cae5f7c-1bf7-4d36-abd2-80d554dbb2a6.pdf
+
+The state wise agency - guidance - practical concrete (instances) one - shoudl be here
+
+What type of ontic element was 'The Great Game'?
+
+```
+Which was the material substrate? The Great Game is a pattern of antagonistic interstate interaction, instantiated historically in 19th-century Central Asia.
+Competition.
+Social Process are based always on interactions - ...
+State interaction is more than a process, but “process” captures its temporality and causal unfolding.
+The full ontic reality is a multi-level, emergent, strategic, institutional interaction pattern.
+```
+
+How to create a social ontology atlas?
+
+Criteria
+
+- How to display > 100 level of deapth?
+
+Is civil service design part of policy, or should we consider it separately for practical and analytical purposes?
+
+- What kind of elements if a  chinese if year plan?
+- https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions
+
+- https://www.gluckman.com/DubaiBiz.html
+- Study a Technical Actor Activity Part of a Given Social Field.
+- Study Deeply Several Technical Activity Actor
+
+- https://www.hk5yplan.gov.hk/2026-2030/en/plan.html
+- Poverty, disorder, underdevelopment, disease, ignorance, and other deficiencies can be understood as **initial states of affairs**. Their transformation into more desirable states requires the expenditure and organization of energy through **purposeful action**.
+- 
+- Competition: Perfect, Imperfect
+- Returns: Increasing, Diminishing.
+- 
+- https://en.wikipedia.org/wiki/John_Cary_(businessman)   (Ireland as a Colony - Systematic Destruction of Its Industry)
+
+Continue - With the Philosophy of the Technique:
+
+- Which is the **evolution path - of the technical organization type** - link with the overall evolution of a incapable to a capable economy?
+    - Linear
+    - Non Linear
+    - Constraint → Generate The Geometric Form.
+- Performance
+    - What is the impact on the perfomrance of the technical organization - with the technical activty set that it covers?
+    - What is the impact on the perfomrance of the technical organization - with the techncal problems doamins that it covers?
+- …
+
+Analye this — https://www.a-star.edu.sg/api/media/2cae5f7c-1bf7-4d36-abd2-80d554dbb2a6.pdf
+
+- Program → Goverment Labor  Organization  {Short Time; Permanet}
+- …
+
+- On the Scope of Organizations.
+    - Note: That the decompostion has to be modular,  if the huge scope cannot be decomopsed - in a modular manner;  because one elements interact with other in order to be realized - than - the scope is probably necesarry.
+    - How to create a decistion tree for this?
+    - `Huge Scope` → `Hong Kong Productivity Council (HKPC)`
+    - To much decomposition can create fragmentation — This is the **fragmentation problem**.
+    - Note: One can introduce an interface that pools together several underlying organization - for ease of interaction - via a unique channel mechanism.
+    - What is the smallest organizational scope that captures the important economies of integration without creating unnecessary conflicts, bureaucracy, or loss of specialization?
+    - **Broad Scope:** integration of multiple complementary functions under one organization.
+    - **Narrow Scope:** specialization around a particular function, technology, industry, or stage.
+    - **Optimal Scope:** determined by economies of scope, technological complementarity, coordination costs, incentive compatibility, accountability, and the benefits of organizational modularity.
+    - Economies of scope
+    - More Focus Scope
+        - R&D Funding.
+        - Enterprise-Level Technology Assimilation.
+        - Etc.
+- The term productivity falls short - because it means - be better at what you do - i will like more the term competitity - meanig - go and even develop new techniques; etc
+- Productivity is essentially the adoption and effective use of technique, while competitiveness is a broader concept.
+- Dominican Firm Competitiveness Aid Agency Network (Meta Empresa)
+    - https://www.sgpc.sg/ducti
+    - This should be a set of public and even private agencies (Export Promotion Should be Private).
+        - The state can not have under his trade mark - a very ‘intensive’ internationalization organization under it - but it can be weakly assoicated (from the outside point of view)
+            - Such organization - can negotiate contracts, find buyers,  conduct market research, …
+    - Tech Observatory
+    - Cluster Interaction
+    - Aid to Improve R&D Capacity
+    - Interaction Mechanism with Other Relevant State Actors.
+    - Production (Operation Efficiency Improvement Service Set)
+    - Productivity + cost, quality, innovation, differentiation, market access, adaptability, etc.
+- …
+
+| Function | Could the organization do it? |
+| --- | --- |
+| International market research | ✓ |
+| Identify foreign buyers | ✓ |
+| Build buyer databases | ✓ |
+| Find distributors/agents | ✓ |
+| Introduce Dominican firms to buyers | ✓ |
+| Negotiate commercial contracts | ✓* |
+| Represent firms abroad | ✓ |
+| Organize trade missions | ✓ |
+| Product/market matching | ✓ |
+| Export readiness assistance | ✓ |
+| Pricing and competitor research | ✓ |
+| Coordinate logistics/export services | ✓ |
+| Government-to-government trade diplomacy | **No — state function** |
+| Trade agreements / treaty negotiation | **No — state function** |
+| Regulatory representation of the state | **No — state function** |
+
+And the Organization Typology of Public Actors of Hong Honk.
+
+| Institution | Main role | Position in workflow |
+| --- | --- | --- |
+| Hong Kong Productivity Council (HKPC) | Industrial upgrading, productivity, technology adoption | **Industry upgrading / implementation** |
+| Hong Kong Applied Science and Technology Research Institute (ASTRI) | Applied technology R&D: communications, AI/sensing, smart city, etc. | **Applied R&D** |
+| Hong Kong Microelectronics Research and Development Institute (MRDI) | Microelectronics, pilot lines, industrialisation | **R&D → pilot production** |
+| Hong Kong Artificial Intelligence Research and Development Institute (AIRDI) | Strategic AI R&D | **Applied/frontier R&D** |
+| Life and Health Technology Research Institute(s) (LHTRI) | AI + life sciences, diagnostics, therapeutics, ageing | **Life-science R&D → translation** |
+
+…
+
+| Leadership selection model | Who selects the top leader? | Typical mechanism | Example |
+| --- | --- | --- | --- |
+| **Direct Political Appointment** | Minister / government | Political appointment | Government agencies |
+| **Cabinet Appointment** | Cabinet / Council of Ministers | Formal government decision | Some European agencies |
+| **Head-of-Government Appointment** | President / Prime Minister | Direct appointment | Some executive agencies |
+| **Ministerial Appointment from Shortlist** | Minister | Expert search + ministerial decision | Many specialized agencies |
+| **Board Appointment** | Board of Directors | Board selects CEO | State-owned corporations |
+| **Board + Government Approval** | Board proposes; government approves | Two-stage appointment | Some public corporations |
+| **Board Search Committee** | Search committee → Board | Competitive executive search | Research corporations |
+| **Independent Search Committee** | Independent committee | Open international search → appointment | Advanced research institutions |
+| **Competitive Public Recruitment** | Institution / board | Public vacancy + competitive selection | Some public institutions |
+| **Academic/Scientific Peer Selection** | Scientific body / peers | Peer election or selection | Some research institutions |
+| **Membership Election** | Members / association | Election by members | Fraunhofer-type associations |
+| **Foundation Trustee Appointment** | Trustees | Trustees appoint executive | Foundation research institutes |
+| **Shareholder Appointment** | Shareholder(s) | AGM/shareholder decision | State-owned companies |
+| **Dual Appointment** | Government + board | Joint appointment authority | Hybrid public corporations |
+| **Internal Succession** | Existing leadership/board | Promotion from within | Mature organizations |
+| **Mixed Model** | Government + expert search + board | Multi-stage selection | Complex mission-oriented institutions |
+- https://en.wikipedia.org/wiki/Political_economy
+- Support Links Feature / links.json
+
+> ...
+> 
+
+What is the relation with a mechanism and a conrete  Physical Production Technical Object or any kind of technical object for that matter?
+
+Sourcing Model -> Contract with the Producer.
+-> What are the natures of the contract?
+
+ngwu (4 September 2021). Whither has the Money Gone: Fund Flow and Mechanism Under a Grand Asset Management Framework. Springer Nature. ISBN 978-981-16-4931-8. Archived from the original on 29 July 2023. Retrieved 29 July 2023.
+
+Government Agency  Evaluation  (Performance)  (Integral Audit)
+
+- How do you evaluate a public organization that has operational autonomy but remains an instrument of government policy?
+- https://www.gov.scot/publications/progress-review-scottish-government-relationships-public-bodies/pages/7/
+- https://www.scottish-enterprise.com/insights-and-events/research-evaluation-and-insight/2023/evaluation-of-innovation-centre-programme-2023-summary
+- https://www.treasury.govt.nz/publications/guide/agency-level-performance-reporting-intervention-logic-based-practices
+- https://www.gao.gov/products/gao-24-106786
+- https://www.fma.govt.nz/library/corporate-publications/statement-of-performance-expectations/
+- https://www.efk.admin.ch/en/
+- https://www.performancereports.gov.sg/
+- https://www.ago.gov.sg/publications/annual-reports/
+
+Anglosphere models
+→ UK, Scotland, Australia, NZ, Canada, US
+
+Nordic models
+→ Sweden, Finland, Denmark, Norway
+
+Continental European models
+→ Netherlands, Germany, Switzerland
+
+East Asian developmental/state-capacity models
+→ Japan, South Korea, Singapore, Taiwan
+
+Other sophisticated administrative systems
+→ Estonia, Israel, UAE
+
+Sweden
+Ministry → autonomous agency → annual appropriation/performance requirements → agency implementation → reporting → audit/evaluation
+
+Finland
+Ministry → agency → performance agreement → targets → annual reporting → evaluation
+
+| Layer | Question | Main literature/documents |
+| --- | --- | --- |
+| **1. Performance concept** | *What does “performance” mean for a public organization?* | Andersen; Behn; van der Kolk |
+| **2. Measurement system** | *How do we construct indicators and targets?* | Hatry; Wholey; Gerrish; public-sector measurement literature |
+| **3. Organizational evaluation** | *Is the organization itself performing?* | OECD; national performance frameworks; annual performance statements |
+| **4. Intervention evaluation** | *Do the organization's programs actually work?* | Evaluation literature; OECD evaluation; NZ intervention logic; US GAO |
+| **5. Institutional evaluation** | *Is this the right organization/institutional form?* | UK Public Bodies Handbook; ALB reviews; framework documents; public-body reviews |
+
+| Type | Country / institution | Document | Year | What it is useful for |
+| --- | --- | --- | --- | --- |
+| **Academic paper** | General | **Andersen et al., “Performance in Public Organizations: Clarifying the Conceptual Space”** | 2016 | Fundamental conceptual paper: stakeholder perspective, formal/informal criteria, process/product focus, unit of analysis. (Wiley Online Library) |
+| **Academic paper** | General | **Behn, “Why Measure Performance? Different Purposes Require Different Measures”** | 2003 | Classic statement that performance measurement serves different purposes—evaluation, control, budgeting, motivation, learning, improvement—and therefore no single metric is sufficient. (DOI) |
+| **Academic paper** | General | **Gerrish, “The Impact of Performance Management on Performance in Public Organizations: A Meta-Analysis”** | 2016 | Empirical synthesis of whether performance-management systems actually improve public-organization performance. 49 studies / 2,188 effects. (DOI) |
+| **Academic review** | General | **van der Kolk, “Performance Measurement in the Public Sector: Mapping 20 Years of Survey Research”** | 2022 | Large review of public-sector performance measurement; distinguishes organization-level and individual-level effects and government/health/education contexts. (Wiley Online Library) |
+| **Academic review** | General | **“Ambiguity in Public Sector Performance Measurement: A Systematic Literature Review”** | 2022 | Important for understanding why public performance indicators are inherently ambiguous and politically/institutionally contested. (ScienceDirect) |
+| **Academic review** | General | **Febriyanti et al., “The Typology and Determinant of Performance Measurement for Public Sector Organizations”** | 2024 | Recent systematic review mapping performance-measurement types and organizational/individual determinants. (Tandfonline) |
+| **Academic review** | Hybrid public organizations | **“A Little Bit of Everything? Conceptualising Performance Measurement in Hybrid Public Sector Organisations”** | 2020 | Particularly important for public-private/mixed bodies; organizes performance around **economy, efficiency, effectiveness and social equity**. (ScienceDirect) |
+| **Academic / book** | General | **Wholey & Hatry, “The Case for Performance Monitoring”** | 1992 | Classic foundation for performance monitoring in public programs and organizations. |
+| **Book** | General | **Harry Hatry, *Performance Measurement: Getting Results*** | 1999 | Practical guide to constructing and using public-sector performance measures. |
+| **Book** | General | **Christopher Pollitt & Geert Bouckaert, *Public Management Reform*** | 2004 / later editions | Broader institutional context: performance management, administrative reform, accountability and organizational change. |
+| **Book** | General | **Bouckaert & Halligan, *Managing Performance: International Comparisons*** | 2008 | One of the most important comparative books for understanding national performance-management systems. |
+| **International guidance** | **OECD** | **Evaluation in Development Agencies** | 2010 | How public development agencies institutionalize evaluation: independence, resources, management use, governance and reporting. |
+| **International guidance** | **OECD** | **Performance Budgeting / performance-information framework** | various | Links public resources, objectives, outputs/outcomes and budget decisions. |
+| **International guidance** | **OECD** | **Government at a Glance** / public-sector performance indicators | recurring | Comparative indicators for government capabilities, efficiency, service quality and outcomes. |
+| **Government framework** | 🇬🇧 **United Kingdom** | **Managing Public Money** | ongoing | Core UK framework for public money, accountability, value for money, accounting officers and arm's-length bodies. |
+| **Government framework** | 🇬🇧 **United Kingdom** | **Managing Public Money: Framework Documents** | 2022– | Practical templates for relationships between departments and **Arm's-Length Bodies (ALBs)**. Framework documents govern strategy, performance, delivery and accountability. (GOV.UK) |
+| **Government handbook** | 🇬🇧 **United Kingdom** | **Public Bodies Handbook: Setting Up an Arm's-Length Body** | 2024 | Step-by-step institutional design of a new ALB through its first review period. Extremely useful for your **“should this organization exist?”** question. (GOV.UK) |
+| **Government documents** | 🇬🇧 **United Kingdom** | **Framework Documents Collection** | ongoing | Actual framework agreements between departments and ALBs. These are excellent empirical documents because they show how performance/accountability is operationalized in real organizations. (GOV.UK) |
+| **Government framework** | 🇬🇧 **United Kingdom** | **Individual ALB Framework Documents** | ongoing | Actual cases: executive agencies, NDPBs, regulators, public corporations, etc. They specify objectives, governance, reporting, monitoring and review. (GOV.UK) |
+| **Government framework** | 🏴 **Scotland** | **Public Bodies in Scotland: Guide** | ongoing | Taxonomy and governance of Executive Agencies, NDPBs, public corporations and other public bodies. (Scottish Government) |
+| **Government framework** | 🏴 **Scotland** | **Public Body Framework Document Template** | ongoing | Defines roles of Scottish Ministers, sponsor teams, boards and public bodies; useful for the actual agency-government relationship. (Scottish Government) |
+| **Government review** | 🏴 **Scotland** | **Progress Review of Scottish Government Relationships with Public Bodies** | ongoing | Particularly relevant to your research: examines how government should manage relationships, performance frameworks, accountability and autonomy. |
+| **Government framework** | 🏴 **Scotland** | **National Performance Framework** | 2007– | Higher-level outcome architecture connecting public organizations to national outcomes and indicators. Current framework/reform material is available from Scottish Government. (Scottish Government) |
+| **Government directory** | 🏴 **Scotland** | **National Public Bodies Directory** | ongoing | Useful empirical dataset: body type, funding, staffing, leadership and relationship to Scottish Government. (Scottish Government) |
+| **Government framework** | 🇦🇺 **Australia** | **Public Governance, Performance and Accountability Act 2013 (PGPA Act)** | 2013– | Legal foundation for performance, accountability, planning, reporting and governance of Commonwealth entities. |
+| **Government framework** | 🇦🇺 **Australia** | **Commonwealth Performance Framework** | ongoing | One of the clearest practical systems: **planning → measuring → reporting → evaluation**. (Department of Finance) |
+| **Government document** | 🇦🇺 **Australia** | **Corporate Plan** | annual | Primary organizational planning document: purpose, objectives, activities and performance measures. (Department of Finance) |
+| **Government document** | 🇦🇺 **Australia** | **Annual Performance Statements** | annual | Actual performance against the measures and planned results in the corporate plan and budget documents. (Department of Finance) |
+| **Government guidance** | 🇦🇺 **Australia** | **Commonwealth Evaluation Policy / Evaluation Toolkit** | ongoing | Practical evaluation of government interventions and programs, complementary to organizational performance reporting. |
+| **Government framework** | 🇳🇿 **New Zealand** | **Public Finance Act / Crown Entities Act performance architecture** | ongoing | Legal foundation for planning, reporting and accountability of departments and Crown entities. |
+| **Government guidance** | 🇳🇿 **New Zealand** | **Treasury – Reporting Performance** | ongoing | Strategic intentions, Statements of Performance Expectations, annual reports and performance information. (The Treasury New Zealand) |
+| **Government guidance** | 🇳🇿 **New Zealand** | **Agency-Level Performance Reporting: Intervention Logic Based Practices** | 2025 | Particularly strong practical document: applies **intervention logic at the agency level**, including causal links between funding, objectives and performance. (The Treasury New Zealand) |
+| **Government document** | 🇳🇿 **New Zealand** | **Statement of Performance Expectations** | annual | Agency's expected outputs/outcomes and performance measures for the coming period. |
+| **Government document** | 🇳🇿 **New Zealand** | **Statement of Intent / Strategic Intentions** | multi-year | Agency-level strategic direction and intended results. |
+| **Government guidance** | 🇨🇦 **Canada** | **Policy on Results** | ongoing | Federal architecture connecting programs, results, indicators, evaluation and decision-making. |
+| **Government framework** | 🇨🇦 **Canada** | **Departmental Results Framework (DRF)** | annual/multi-year | Core results architecture: core responsibility → departmental result → indicator → target → actual result. |
+| **Government document** | 🇨🇦 **Canada** | **Departmental Plan** | annual | Planned spending, priorities, results and performance indicators. |
+| **Government document** | 🇨🇦 **Canada** | **Departmental Results Report** | annual | Ex-post comparison between planned and actual results. |
+| **Government framework** | 🇺🇸 **United States** | **Government Performance and Results Act (GPRA)** | 1993 / updated | Foundational statutory performance-management architecture for federal agencies. |
+| **Government framework** | 🇺🇸 **United States** | **GPRA Modernization Act** | 2010 | Strengthened agency strategic plans, performance goals, cross-agency goals and reporting. |
+| **Government guidance** | 🇺🇸 **United States** | **OMB Circular A-11, Performance / Strategic Planning sections** | annual | Very detailed operational instructions for agency strategic plans, performance goals, measurement and reporting. |
+| **Government audit framework** | 🇺🇸 **United States** | **GAO Yellow Book – Government Auditing Standards** | 2024 | Defines standards for **performance audits** as well as financial and attestation work. (GAO) |
+| **Government evaluation** | 🇺🇸 **United States** | **GAO Program Evaluation / Performance Audit work** | ongoing | Excellent collection of actual evaluations of federal agencies and programs. |
+| **Government framework** | 🇸🇬 **Singapore** | **Statutory Board governance framework** | ongoing | Important model for legally separate public bodies with significant managerial autonomy under government ownership/oversight. |
+| **Government framework** | 🇰🇷 **South Korea** | **Government Performance Evaluation Framework / Act on Government Performance Evaluation** | ongoing | Highly developed government-wide performance evaluation system; useful for studying results-based management and agency evaluation. |
+| **Government framework** | 🇫🇮 **Finland** | **Performance management / results agreements for agencies** | ongoing | Useful Nordic model linking ministries and relatively autonomous agencies through performance agreements. |
+| **Government framework** | 🇸🇪 **Sweden** | **Agency Management / annual appropriation directions / annual reports** | ongoing | Important model of autonomous government agencies combined with strong ex-post accountability. |
+| **Government framework** | 🇩🇪 **Germany** | **Federal government programme evaluation / federal administration performance guidance** | ongoing | Useful contrasting model because organizational autonomy and evaluation are structured differently from Anglo-Saxon performance-management systems. |
+| **Government framework** | 🇳🇱 **Netherlands** | **Government evaluation / Policy Evaluation and Evaluation Programming framework** | ongoing | Strong evaluation culture linking policies/programmes to expenditure and results. |
+
+How to audit the auditors?
+
+- Clench (2010), “Auditing the auditors – International Standards to hold Supreme Audit Institutions to account”
+- Lagos (2026), “How Have the Transformations of Supreme Audit Institutions Shaped Contemporary Public Auditing?”
+- Johnsen et al. (2019), “Supreme Audit Institutions in a High-impact Context”
+- Viana & Carpinteiro, “Performance audit and public policy evaluation: the case of supreme audit institutions”
+- Lennox & Pittman (2010), “Auditing the auditors”
+- “How should the auditors be audited?” (2010)
+- Ramesh & Ramanathan (2021), “Auditing the auditors: A comparative study about India, UK, and the USA”
+
+## Public Body Structure in Sweden
+
+```
+
+                         RIKSDAG
+                       Parliament
+                           │
+                    legislation / budget
+                           │
+                       GOVERNMENT
+                  Prime Minister + Ministers
+                           │
+                    GOVERNMENT OFFICES
+                PM Office + 11 Ministries
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+      Government Agencies          State-owned companies
+       (≈400 central bodies)          (companies)
+             │
+       implementation
+             │
+     citizens / firms / society
+```
+
+## Swedisn Agency Model
+
+| Element | Swedish model |
+| --- | --- |
+| Legal status | Separate government authority |
+| Parent | Government / relevant ministry |
+| Political control | Government collectively |
+| Operational management | Agency leadership |
+| Head | Director-General or equivalent |
+| Funding | State budget appropriation |
+| General mandate | Government ordinance/instructions |
+| Annual direction | Appropriation directions |
+| Reporting | Annual report to Government |
+| Evaluation | Government follow-up/evaluation + audits |
+| Individual cases | **Ministers cannot intervene** |
+| Staff | Agency employees, not ministry employees |
+
+```
+       GOVERNMENT
+           │
+           │  mandate
+           │  budget
+           │  objectives
+           ▼
+      ┌───────────┐
+      │   AGENCY  │
+      └───────────┘
+           │
+           │ operations
+           │ outputs
+           │ outcomes
+           ▼
+      ANNUAL REPORT
+           │
+           ▼
+       GOVERNMENT
+           │
+           ▼
+     FOLLOW-UP /
+      EVALUATION
+```
+
+## How appoints the agency head?
+
+> Swedish government policy says that when appointing agency managers, the Government should assess applicants solely on merit and competence, with an appointment process intended to be predictable, open and traceable.
+> 
+- https://www.government.se/how-sweden-is-governed/public-agencies-and-how-they-are-governed/
+- https://www.government.se/government-policy/central-government-administration/how-state-administration-works-in-sweden/
+
+Agency leadership Selectoin models
+
+| Position | Who appoints? | Typical role |
+| --- | --- | --- |
+| **Director-General / Agency Head** | **Government** | Chief executive; responsible for agency's operations |
+| **Deputy Director-General** | **Government** | Deputy/second-in-command |
+| **County Governor / County Director** | **Government** | Leadership of county administrative boards |
+| Other senior positions | Usually **the agency itself** | Internal management |
+
+Agency Staff Selection models
+
+....
+
+Who appoints leadership? → Government
+Who actually manages? → Agency leadership
+Who defines the mandate? → Riksdag + Government
+Who evaluates/results-monitors? → Government + audit/evaluation institutions
+Who decides individual cases? → Agency, independently of ministerial interventioni.
+
+| Family | Structure | Representative countries |
+| --- | --- | --- |
+| **Executive Agency** | Government → Director-General → Agency | 🇸🇪 Sweden, 🇫🇮 Finland |
+| **Statutory Board** | Government → Board → CEO → Agency | 🇸🇬 Singapore, 🇳🇿 New Zealand |
+| **Independent Administrative Agency** | Government → Board/Director → Independent Agency | 🇯🇵 Japan |
+| **Public Corporation** | State shareholder → Board → CEO | 🇸🇪 Sweden, 🇳🇴 Norway, 🇫🇮 Finland |
+| **Merit-constrained political appointment** | Competition → shortlist → Government → Head | 🇨🇱 Chile, 🇬🇧 UK |
+
+---
+
+| Agency / public-body leadership model | Who appoints leadership? | Who actually governs the agency? | Country examples |
+| --- | --- | --- | --- |
+| **1. Government → Agency Head** | Government appoints Director-General/CEO | Agency Head | 🇸🇪 **Sweden**, 🇫🇮 Finland |
+| **2. Government → Agency Head + Advisory Board** | Government appoints head; government may appoint advisers | Agency Head | 🇸🇪 Sweden |
+| **3. Government → Governing Board → CEO** | Government appoints board; board appoints CEO | **Board** | 🇸🇬 Singapore, 🇬🇧 UK, 🇳🇿 New Zealand |
+| **4. Government → Governing Board; board collectively governs** | Government appoints board | **Board** | 🇸🇬 Singapore statutory boards |
+| **5. Government → Board + Government-appointed CEO** | Government appoints both | Board + CEO | 🇯🇵 Japan, some 🇰🇷 Korea public institutions |
+| **6. Government → Board → independently recruited CEO** | Government appoints board; board recruits CEO competitively | **Board** | 🇦🇺 Australia, 🇬🇧 UK |
+| **7. Mixed stakeholder Board → CEO** | Government + other constituencies appoint/nomin­ate board | **Board** | 🇩🇪 Germany (some research institutions), 🇳🇱 Netherlands |
+| **8. Parliament → Board / Agency Head** | Legislature selects or confirms | Board / agency head | 🇺🇸 United States (some agencies), 🇬🇧 UK (some appointments) |
+| **9. Independent Commission → Board/CEO** | Independent appointment body | Board / CEO | 🇨🇱 Chile; some 🇬🇧 UK bodies |
+| **10. Stakeholder/member-elected Board → CEO** | Members/stakeholders elect or nominate board | **Board** | 🇩🇪 Germany, 🇫🇷 France (selected institutional forms) |
+| **11. Professional/self-governing body → leadership** | Existing governing body selects leadership | Governing body | 🇩🇪 Germany / 🇨🇭 Switzerland — selected professional/public institutions |
+| **12. State shareholder → Board → CEO** | State appoints board as shareholder; board appoints CEO | **Board** | 🇸🇪 Sweden, 🇳🇴 Norway, 🇫🇮 Finland, 🇸🇬 Singapore |
+| **13. Merit competition → Government final choice** | Independent panel creates qualified shortlist; Government chooses | Agency Head | 🇨🇱 Chile |
+| **14. Career executive → Agency Head** | Senior civil-service system / Government | Agency Head | 🇯🇵 Japan, 🇰🇷 South Korea, 🇫🇷 France |
+| **15. Government → talent pool → Agency Head** | Government selects from pre-qualified senior pool | Agency Head | 🇰🇷 South Korea |
+
+How to evaluet a  model of governmance of an agency?
+
+`Institutional design → Governance → Management → Operations → Outputs → Outcomes → Impact`
+
+Governance Value Added = Performance under current governance − Performance under credible alternative
+
+| Model | Main strength to test | Main risk to test |
+| --- | --- | --- |
+| **Government → Director-General → Agency** | Clear responsibility and strong strategic control | Political dependence / weak independent challenge |
+| **Government → DG + Advisory Board** | Expertise without transferring executive authority | Board becomes decorative |
+| **Government → Board → CEO** | Separation of governance and management | Board-management conflict |
+| **Government → Board → collective management** | Collective expertise and deliberation | Slow decisions / diffuse responsibility |
+| **Government → Board + Government-appointed CEO** | Strong state control + board oversight | Excessive political influence |
+| **Government → Board → competitively selected CEO** | Professional management + public ownership | Board may lack strategic alignment |
+| **Mixed stakeholder Board → CEO** | Multiple sources of expertise | Stakeholder capture / unclear accountability |
+| **Parliament → Board/Head** | Strong democratic accountability | Politicisation / slower appointment |
+| **Independent Commission → Agency** | High institutional independence | Democratic-accountability gap |
+| **State shareholder → Board → CEO** | Corporate governance and managerial discipline | Commercial objectives can displace public mission |
+| **Merit shortlist → Government choice** | Political accountability constrained by competence | Final political choice can still dominate |
+
+Governance Model Evaluation Framework
+
+| Dimension | Question | What you measure |
+| --- | --- | --- |
+| **Mission fit** | Is the governance structure appropriate for the agency's function? | Fit between mandate and governance |
+| **Role clarity** | Are responsibilities clearly divided between government, board and management? | Overlap, gaps, conflicting instructions |
+| **Strategic alignment** | Can government establish the desired public objectives? | Alignment with national/sector objectives |
+| **Operational autonomy** | Can management make necessary operational decisions? | Decision rights, interference, administrative flexibility |
+| **Technical independence** | Can experts make decisions without inappropriate political/industry pressure? | Interference, conflicts of interest |
+| **Leadership quality** | Does the appointment system produce capable leaders? | Competence, experience, recruitment quality |
+| **Leadership stability** | Can leadership pursue a medium/long-term strategy? | Tenure, turnover, dismissal conditions |
+| **Board quality** | Does the board have the necessary expertise and independence? | Skills matrix, independence, attendance, decisions |
+| **Accountability** | Can government/Parliament/public determine whether the agency is performing? | Reporting, scrutiny, audit, evaluation |
+| **Performance orientation** | Does governance actually improve agency performance? | Outputs, outcomes, efficiency |
+| **Financial control** | Does autonomy coexist with adequate financial safeguards? | Budget discipline, internal controls, audit findings |
+| **Risk management** | Are important risks identified and controlled? | Risk systems, failures, mitigation |
+| **Stakeholder governance** | Does the model incorporate relevant external expertise without capture? | Industry/scientific/user participation |
+| **Coordination** | Can the agency coordinate with ministries and other agencies? | Duplication, cooperation, information flows |
+| **Transparency** | Can outsiders understand decisions and performance? | Disclosure, reporting, accessibility |
+| **Integrity** | Does the structure control conflicts and corruption risks? | COI declarations, procurement, revolving doors |
+| **Adaptability** | Can the agency change when its environment changes? | Reallocation, experimentation, restructuring |
+| **Transaction cost** | Is the governance architecture itself excessively costly? | Board/oversight/administrative costs |
+| **Additionality** | Does this institutional form add value compared with alternatives? | Counterfactual: ministry / corporation / board / agency |
+| **Termination/revision** | Can the governance model be changed when it stops working? | Periodic review, sunset/restructuring mechanisms |
+
+- Is the cocnetp of SME  a trap for techno productive policy?
+- https://www.abudhabi.gov.ae/en/about-the-government/government-entities
+- ….
+
+- **Yang Guangbin (杨光斌), “Political Legitimacy and Its Transformation in Contemporary China”** — Search for Yang Guangbin’s 2014 article in *Red Flag Manuscript* (《红旗文稿》), discussing the limitations of performance-based political legitimacy. The exact article title should be verified.
+- **Yang Guangbin, *Introduction to Political Science* (《政治学导论》)** — A widely used Chinese political science textbook discussing political legitimacy and political participation.
+- **Whole-Process People’s Democracy (全过程人民民主)** — Research on public participation, consultative mechanisms, and feedback in China's political system.
+- **Digital and Algorithmic Governance in China** — Research on digital platforms for public complaints, grassroots governance, and the transmission of public feedback through government hierarchies.
+- **Hindol Sengupta’s article on China’s political system** — The original article referenced in the opening sentence, needed to substantiate the comparison between China and India.
+- I need to move nations and treat them as live notes.
+
+
+
+
+
 https://www.nistep.go.jp/en/   (R&D Sysetm Agency)
 
 https://en.wikipedia.org/wiki/Rhombus
