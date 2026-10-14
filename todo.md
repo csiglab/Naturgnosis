@@ -6,11 +6,10 @@ Leadership and Governance configuration
 
 https://laws.e-gov.go.jp/law/323AC0000000120
 
+Public Organization Space:
 
-Public Organization space
 - Characteration systems:  How to build this systems?  Model Division Technique
-
- - Validatoin Mechanism: Used and see how well can we represent and captures agencigies and public organizations from a country
+- Validatoin Mechanism: Used and see how well can we represent and captures agencigies and public organizations from a country
 
   Model Decomposition Technique: Dividing a public organization model into constituent submodels or dimensions to develop a structured characterization system.
 Element-Based Characterization: Characterizing an organization by identifying and describing its constituent elements.

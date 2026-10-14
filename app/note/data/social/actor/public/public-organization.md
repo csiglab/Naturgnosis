@@ -56,9 +56,9 @@ It is the government subtype of Organization: what individuates it is not its in
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` `Activity` | Grouping: bundles of situated doings. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` `Activity` `(→ Kind)` Coordinating Activity | Coarse bundle reproducing the organization: meeting, reporting, rostering. |
 
-## QA
+### Which Canonical Characterization System Should We Use?
 
-### Which are the dimensions that make the government agency space?
+> TBD.
 
 Five dimensions jointly locate any government agency in the `Type` branch of [Organization](note.html?n=social/actor/organization.md):
 
@@ -69,6 +69,89 @@ Five dimensions jointly locate any government agency in the `Type` branch of [Or
 | Control | Ownership and control | Wholly public vs. mixed public-private (Nonprofit Public–Private Organization) |
 | Resourcing | Funding source | Budget appropriation, fees, or commercial revenue |
 | Purpose | Function | Policy direction (Ministry), operation (Public Agency), or commercial enterprise (State-Owned Enterprise, Crown Corporation) |
+
+## QA
+
+### What Is a Characterization System for the `Public Organization Space`?
+
+> `A Characterization System` for the `Public Organization Space` is a structured conceptual and methodological system for identifying, describing, distinguishing, classifying, and comparing the organizations that constitute the Public Organization Space.
+
+> The resulting characterization should enable individual organizations to be described consistently, organizational types to be distinguished systematically, and the organization space to be analyzed as a structured domain.
+
+### What is the general form of a Characterization System?
+
+| Component | Description |
+|---|---|
+| **Characterization Element** | A defined aspect of an object along which it is characterized. |
+| **Value Set** | The set of possible values that the characterization element can take. |
+| **Value Assignment Rule** | The rule or procedure used to determine the value of a characterization element for a given object. |
+| **Characterization Profile** | The collection of values assigned to an object across the characterization elements. |
+
+
+### How is the `a characterization element` derived?
+
+> A **Characterization Element** is derived by identifying a relevant aspect of the domain, conceptualizing it as a distinguishable feature of the objects being characterized, and defining how that feature can be represented.
+
+> **The Fundamental Guiding Principle:** Derive characterization elements from the relevant properties, relations, and structures of the domain, selecting and conceptualizing those aspects that enable the distinctions required for the intended purposes of the characterization system.
+
+The derivation process can be structured as follows:
+
+1. **Identify the domain and its objects.** Determine what entities the characterization system must represent.
+2. **Identify their properties, relations, and structures.** Examine what can be said about the objects and how they differ.
+3. **Determine the relevant distinctions.** Identify which differences matter for the intended analytical purposes.
+4. **Conceptualize the distinctions.** Formulate concepts that represent the relevant aspects of the objects.
+5. **Define the characterization elements.** Specify each element's meaning, scope, and relationship to the objects.
+6. **Define the value set.** Determine the possible values the element can take.
+7. **Establish assignment rules.** Specify how to determine the value for a given object.
+
+### What Concrete Methods or Strategies Can Be Used to Derive a Characterization Element?
+
+> **A Framework for Building a Characterization System is a standalone, structured set of concepts, principles, models, and methods that provides a basis for designing and developing a system for characterizing a particular domain.**
+
+| **Concrete Method * Strategy** | Description | How Does It Help Derive Characterization Elements? |
+|---|---|---|
+| **Ontological Analysis** | Identifies the entities, properties, relations, structures, and processes that constitute the domain. | Identifies domain-grounded aspects that can serve as candidates for characterization elements. |
+| **Domain Analysis** | Investigates the boundaries, composition, diversity, and organization of the domain. | Identifies which aspects of the domain need to be represented and where meaningful differences between objects arise. |
+| **Object Decomposition** | Decomposes objects into their constituent elements, properties, functions, and relationships. | Identifies candidate elements from the internal composition and organization of the objects. |
+| **Property Analysis** | Examines the properties of objects, including their types, dependencies, and variations. | Identifies properties that can be represented directly or used to formulate more abstract characterization elements. |
+| **Relational Analysis** | Examines relationships between objects and between their constituent elements. | Identifies relational characterization elements, such as an organization's relationship with a ministry. |
+| **Functional Analysis** | Examines the functions and activities performed by objects. | Identifies functional characterization elements, such as the functions an organization is authorized or expected to perform. |
+| **Comparative Analysis** | Compares instances to identify similarities and differences. | Reveals variations that may justify introducing characterization elements. |
+| **Conceptual Analysis** | Examines the meaning, scope, assumptions, and relationships of concepts used to understand the domain. | Clarifies candidate elements and establishes the conceptual distinctions they are intended to represent. |
+| **(Conceptual) Composite Model Approach** | Characterizes an object through a set of interconnected submodels, each representing a distinct aspect of the object. The submodels jointly form the complete characterization model. | Allows characterization elements to be derived within separate submodels, each addressing a particular aspect of the domain, and then integrated into a unified characterization system. |
+| **Purpose-Driven Analysis** | Starts from the questions, decisions, and analytical tasks the characterization system must support. | Identifies which aspects of objects must be represented to serve the system's intended purposes. |
+| **Existing Classification Analysis** | Examines established taxonomies, classification schemes, and typologies relevant to the domain. | Identifies existing distinctions and candidate elements while revealing gaps, ambiguities, and incompatible classifications. |
+| **Literature-Based Derivation** | Examines relevant academic and technical literature to identify established concepts, variables, attributes, and distinctions. | Provides theoretically grounded candidates for characterization elements and clarifies their established meanings. |
+| **Expert Elicitation** | Uses structured interviews, workshops, or other techniques to obtain knowledge from domain experts. | Reveals relevant aspects and distinctions that may be undocumented or difficult to identify through other methods. |
+| **Empirical Observation** | Examines actual instances through observation, documents, records, and other evidence. | Identifies observable properties and recurring patterns that can ground candidate characterization elements. |
+| **Case-Based Analysis** | Investigates selected cases in depth, including typical, atypical, and boundary cases. | Reveals overlooked properties and distinctions and tests whether candidate elements adequately represent actual instances. |
+| **Inductive Generalization** | Derives general concepts or patterns from multiple observed instances. | Produces candidate elements from recurring properties and distinctions across instances. |
+| **Deductive Derivation** | Derives implications from an existing theory, conceptual model, or set of principles. | Identifies characterization elements implied by an established theoretical account of the domain. |
+| **Abstraction** | Selects and generalizes relevant features while disregarding details unnecessary for the intended representation. | Transforms concrete observations and properties into more general characterization elements. |
+| **Construct Development** | Develops abstract concepts to represent phenomena that cannot be adequately captured by a single directly observable property. | Produces elements representing theoretical constructs, such as institutional autonomy or organizational complexity. |
+
+### How Can the Quality and Adequacy of a Characterization System for the Public Organization Space Be Evaluated?
+
+The quality and adequacy of a Characterization System for the Public Organization Space can be evaluated against the following criteria:
+
+1. **Descriptive Coverage:** Can the system capture the relevant elements and characteristics of a public organization?
+2. **Comparability:** Does the system enable meaningful comparisons between organizations?
+3. **Discriminative Power:** Can the system distinguish organizations that differ in relevant respects?
+4. **Classification Adequacy:** Can the system classify organizations into meaningful types using explicit and consistent criteria?
+5. **Descriptive Precision:** Can the system characterize individual organizations with sufficient specificity and detail?
+6. **Conceptual Clarity:** Are the concepts, definitions, and distinctions used by the system clear and unambiguous?
+7. **Internal Consistency:** Are the system's concepts, categories, dimensions, and relationships logically consistent?
+8. **Ontological Coverage:** Does the system accommodate the relevant diversity of entities and organizational forms within the Public Organization Space?
+9. **Extensional Fidelity:** Do the system's representations adequately correspond to the actual characteristics of public organizations?
+10. **Analytical Utility:** Does the system enable meaningful analysis of public organizations and the relationships between them?
+11. **Explanatory Capacity:** Does the system help explain relevant organizational differences, structures, and configurations, rather than merely describe them?
+12. **Operational Applicability:** Can the system be applied consistently to real public organizations using available evidence?
+13. **Reproducibility:** Can different users apply the system to the same organization and obtain sufficiently consistent characterizations?
+14. **Adaptability:** Can the system accommodate new organizational forms, institutional transformations, and changes in the Public Organization Space?
+15. **Parsimony:** Does the system capture the necessary distinctions without introducing unnecessary complexity or redundant categories?
+16. **Information Preservation:** Does the system preserve the information necessary for its intended analytical purposes without excessive loss through abstraction?
+17. **Extensibility:** Can the system incorporate additional characterization dimensions, categories, and properties without requiring fundamental reconstruction?
+18. **Purpose Adequacy:** Does the system provide the information and distinctions required to fulfill its intended objectives?
 
 ### How do autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms differ?
 
