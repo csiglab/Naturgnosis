@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/polity-node.schema.json",
+  "title": "Polity Node",
+  "description": "A polity node under the shared Naturgnosis node model: app/note/data/social/actor/public/polity/<code>/data/node.json (or polity/<iso>-node.json for codes without a directory). These files are the source of truth; the nation dataset mirror was dissolved into them.",
+  "$comment": "Objects must keep their key order identical to this schema's property order. Follows the Naturgnosis node model (app/social/data/schema/schema.json) with a documented polity-specific `specific`.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (the country code; normalised to the directory code where mapped)."
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical name."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "layer": {
+      "type": "string",
+      "description": "Primary sociognostic layer."
+    },
+    "category": {
+      "type": "string",
+      "description": "Direct conceptual category (e.g. Polity)."
+    },
+    "description": {
+      "type": "string"
+    },
+    "longDescription": {
+      "type": "string"
+    },
+    "chronology": {
+      "type": "object"
+    },
+    "relationships": {
+      "type": "array"
+    },
+    "specific": {
+      "$ref": "#/$defs/specific"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Provenance (e.g. source, imported)."
+    },
+    "references": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "tags",
+    "category",
+    "description",
+    "chronology",
+    "relationships",
+    "specific",
+    "metadata",
+    "references"
+  ],
+  "additionalProperties": true,
+  "$defs": {
+    "specific": {
+      "type": "object",
+      "properties": {
+        "nativeName": {
+          "type": "string"
+        },
+        "flagEmoji": {
+          "type": "string"
+        },
+        "statistics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/statistic"
+          }
+        },
+        "works": {
+          "type": "array",
+          "description": "Legacy hand-listed works; superseded by the manifest-derived works.",
+          "items": {
+            "$ref": "#/$defs/work"
+          }
+        },
+        "footer": {
+          "$ref": "#/$defs/footer"
+        }
+      },
+      "additionalProperties": true
+    },
+    "statistic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "hasIndicator": {
+          "type": "boolean"
+        },
+        "indicatorValue": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "value",
+        "label",
+        "hasIndicator"
+      ],
+      "additionalProperties": true
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "link": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "status",
+        "title",
+        "description",
+        "link"
+      ],
+      "additionalProperties": true
+    },
+    "footer": {
+      "type": "object",
+      "properties": {
+        "entityCode": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "lastRevised": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        }
+      },
+      "required": [
+        "entityCode",
+        "region",
+        "lastRevised",
+        "links"
+      ],
+      "additionalProperties": true
+    },
+    "link": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "href"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

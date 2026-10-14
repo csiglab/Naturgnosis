@@ -3,32 +3,39 @@
 ## Purpose
 
 Graph of the world's nations: states, territories, institutions, peoples, and the relations between
-them. Bootstrapped from an external dataset (see `import/`); explorer + editor copied from the Social Space app. Spec:
-`spec/nation/README.md`.
+them. Bootstrapped from an external dataset (see `import/`). Spec: `spec/nation/README.md`.
+
+> **Depleted.** The `nation` graph dataset was dissolved: its nodes now live as per-polity node
+> files under the note corpus (`social/actor/public/polity/<code>/data/node.json`), which are the
+> source of truth (see `spec/polity/README.md`). There is no `app/nation/data/data.json` and no
+> CouchDB `dataset=nation`; the remaining `web/` pages are legacy and no longer have data.
 
 ## Layout
 
-- `web/index.html` — nations index (Index Gentium style: search, tag filters, card grid).
-- `web/entry.html` — nation entry page (`?code=<iso>`; flag hero, vital statistics, works).
-- `web/rep/actor.html` — Actor Space representation (`?code=<iso>`; fetches `data/actors/<iso>.json`).
+- `web/index.html` — legacy nations index (broken: reads the dissolved `data/data.json`).
+- `web/entry.html` — legacy nation entry page (broken, same reason).
+- `web/rep/actor.html` — Actor Space representation (`?code=<iso>`; fetches the polity
+  dataset first (`polity/<code>/data/actors.json`), falls back to `data/actors/<iso>.json`).
+- Polity corpus aggregator — live note `social/actor/public/polity/index.html` in the note
+  corpus (flag grid + nation search; each flag opens its `polity/<code>/index.html` page;
+  `?code=<iso>` prefills the search; data from sibling `polity/data.json`, rebuilt with
+  `make polity-index`).
 - `web/pending.html` — themed placeholder for pending works (`?back=`).
-- `web/edit.html` — editor (`const DATASET = 'nation'`); `web/vendor/` serves the editor renderer.
-- `data/actors/` — per-country actor datasets (import-generated; shipped).
-- `data/data.json` — server-written mirror; the source of truth (no regeneration script).
+- `web/edit.html` — legacy editor; inert (no `dataset=nation`).
+- `data/actors/` — actor datasets for the codes without a polity dir (7 orphans);
+  the rest live at `polity/<code>/data/actors.json` in the note corpus.
 - `import/` — raw source exports (archival; never edit).
 
 ## Commands
 
 ```sh
-python bin/sync.py                    # serve (dataset=nation is auto-discovered)
-curl /api/graph?dataset=nation        # nodes
+python bin/sync.py                    # serve (nation is no longer a dataset)
+make polity-index                     # rebuild the polity manifest + node-backed pages
 ```
 
 ## Invariants
 
-- Dataset id is `nation`.
-- The public face is the Index Gentium–style catalog (index + entries), NOT a graph explorer. Its
-  dark mode uses the global Oxford Common Room scheme (`/shared/theme.css`); the toggle's light
+- The public face is now the polity corpus (`/note/`); this module is legacy.
+- Dark mode uses the global Oxford Common Room scheme (`/shared/theme.css`); the toggle's light
   mode is the parchment companion documented in `spec/theme/README.md`. Theme persists under the
   global `localStorage` key `naturgnosis-theme` (default dark).
-- Entries render from `data.json` only — no dependency on `import/` at runtime.

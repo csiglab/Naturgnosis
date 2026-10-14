@@ -1817,9 +1817,19 @@
           const code = (params.get('code') || 'irl').toLowerCase();
           const back = document.getElementById('backToEntry');
           if (back) back.href = 'entry.html?code=' + encodeURIComponent(code);
-          const response = await fetch('../../data/actors/' + encodeURIComponent(code) + '.json');
-          if (!response.ok) throw new Error('Network error');
-          this.processData(await response.json());
+          const candidates = [
+            '/note/data/social/actor/public/polity/' + encodeURIComponent(code) + '/data/actors.json',
+            '../../data/actors/' + encodeURIComponent(code) + '.json'
+          ];
+          let data = null;
+          for (const url of candidates) {
+            try {
+              const r = await fetch(url);
+              if (r.ok) { data = await r.json(); break; }
+            } catch (e) { /* try next candidate */ }
+          }
+          if (!data) throw new Error('Network error');
+          this.processData(data);
         } catch (e) {
           console.error('Failed to load actor data:', e);
         }

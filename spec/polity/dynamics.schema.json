@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/polity-dynamics.schema.json",
+  "title": "Polity Dynamics Overrides",
+  "description": "Optional manual overrides for the manifest-derived works: app/note/data/social/actor/public/polity/dynamics.json. Keys are corpus-relative note paths; values override a derived field (today only `type`).",
+  "$comment": "The file, when present, is an object keyed by corpus path. Unknown fields are ignored by the builder.",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/$defs/override"
+  },
+  "$defs": {
+    "override": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Temporal",
+            "Spatial",
+            "Network",
+            "note"
+          ]
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

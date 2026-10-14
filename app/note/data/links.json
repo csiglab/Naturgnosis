@@ -49,7 +49,7 @@
       "kind": "study"
     },
     {
-      "from": "social/actor/public/space/chn/",
+      "from": "social/actor/public/polity/chn/",
       "to": "social/action/public/informe/",
       "label": "country studies",
       "kind": "study"

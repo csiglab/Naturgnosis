@@ -39,7 +39,6 @@ EXCERPT_LEN = 500
 GRAPH_MODULES = (
     "social",
     "research",
-    "nation",
     "technique",
     "epistemica",
     "nature",

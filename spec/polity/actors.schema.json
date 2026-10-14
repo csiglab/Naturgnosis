@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/polity-actors.schema.json",
+  "title": "Polity Actor Dataset",
+  "description": "Per-polity actor dataset: app/note/data/social/actor/public/polity/<code>/data/actors.json (codes without a polity dir keep app/nation/data/actors/<iso>.json). Consumed by the Actor Set Evolution timeline.",
+  "$comment": "Objects must keep their key order identical to this schema's property order.",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "$ref": "#/$defs/metadata"
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/actor"
+      }
+    }
+  },
+  "required": [
+    "metadata",
+    "actors"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "lastUpdated": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "flag": {
+          "type": "string"
+        },
+        "introduction": {
+          "type": "string"
+        },
+        "evidenceConfidence": {
+          "type": "string"
+        },
+        "peerReview": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "lastUpdated",
+        "description",
+        "country",
+        "region",
+        "flag",
+        "introduction",
+        "evidenceConfidence",
+        "peerReview"
+      ],
+      "additionalProperties": true
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "date"
+      ],
+      "additionalProperties": true
+    },
+    "actor": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "private",
+            "hybrid",
+            "public"
+          ]
+        },
+        "role": {
+          "type": "string"
+        },
+        "regionOfActivity": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/event"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "role",
+        "regionOfActivity",
+        "description",
+        "events"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

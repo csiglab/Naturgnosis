@@ -646,6 +646,11 @@
         "date": "2026-10-13",
         "kind": "docs",
         "summary": "Reorganized the actor subtree into public/private; split mixed finance/research families; updated hub and links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
       }
     ]
   },
@@ -1626,6 +1631,11 @@
         "date": "2026-10-13",
         "kind": "fix",
         "summary": "Repaired broken internal links after the social-tree cleanup."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
       }
     ]
   },
@@ -1686,6 +1696,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
       }
     ]
   },
@@ -1770,92 +1785,137 @@
     ]
   },
   {
-    "file_path": "social/actor/public/space/bra/brazil.md",
+    "file_path": "social/actor/public/polity/bra/brazil.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/chn/region/hong-kong/hong-kong.md",
+    "file_path": "social/actor/public/polity/chn/region/hong-kong/hong-kong.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/dom/rd-1-0-dominix.md",
+    "file_path": "social/actor/public/polity/dom/rd-1-0-dominix.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/grc/region/athens.md",
+    "file_path": "social/actor/public/polity/grc/region/athens.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/grc/region/patras.md",
+    "file_path": "social/actor/public/polity/grc/region/patras.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/grc/region/thessaloniki.md",
+    "file_path": "social/actor/public/polity/grc/region/thessaloniki.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/ita/production/network.md",
+    "file_path": "social/actor/public/polity/ita/production/network.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/ita/region/piamonte.md",
+    "file_path": "social/actor/public/polity/ita/region/piamonte.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
   {
-    "file_path": "social/actor/public/space/pol/poland.md",
+    "file_path": "social/actor/public/polity/pol/poland.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   },
@@ -1896,6 +1956,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
       }
     ]
   },
@@ -3431,6 +3496,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
       }
     ]
   },
@@ -3456,6 +3526,2246 @@
         "date": "2026-10-14",
         "kind": "feat",
         "summary": "Expanded the tree to thirteen polity kinds in three branches (constitutional form, composite structure, dependent standing) plus Nation-State and City-State."
+      }
+    ]
+  },
+  {
+    "file_path": "social/problem/dimension/state/governance/governance.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/are/united-arab-emirates-uae.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/arg/argentina.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/aus/australia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/aut/austria.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/bel/belgium.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/bel/region/flanders.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/bhr/bahrain.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/bol/bolivia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/bwa/botswana.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/can/canada.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/che/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/che/switzerland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chl/chile.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/china.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/region/hong-kong/civil-service.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/col/colombia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/cri/costa-rica.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/cub/cuba.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/cze/czech.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/deu/education/tte.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/deu/germany.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dnk/denmark.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/breviarium/rd-1-0-dominican-state-capacity.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/demographic/rd-1-0-dominican-demographics.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/economy/digital.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/economy/history.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/economy/labor.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/education/rd-1-0-dominican-educational-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/energy/rd-1-0-dominican-energy-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/finance/rd-1-0-dominican-financial-markets.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/hacienda/rd-1-0-dominican-tributary-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/health/rd-1-0-dominican-healthcare-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/kps/rd-1-0-innovation-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/legal/constitution.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/legal/governance.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/legal/legal.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/monetary/rd-1-0-dominican-monetary-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/politics/rd-1-0-dominican-political-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/public/ppi.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/security/risk.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/security/security.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/social/rd-1-0-dominican-socioeconomics.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dom/urbanism/rd-1-0-dominican-urbanism.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ecu/ecuador.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/esp/spain.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/est/estonia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/est/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/eth/ethiopia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/fin/finland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/fra/france.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/gbr/uk.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/gha/ghana.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/grc/grecia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/hti/haiti.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/hun/hungary.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/idn/indonesia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ind/india.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/comision-economica-para-america-latina-y-el-caribe.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/international.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/nordic-council-of-ministers.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/oecd.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/onu/onu.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/international/onu/wto.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/irl/ireland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/irn/iran.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/isr/israel.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ita/italy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ita/region/venice.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/jpn/japan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/kor/south-korea.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mex/mexico.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mus/mauritius.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mys/malaysia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/nld/netherlands.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/nld/production.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/nld/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/nor/norway.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/nzl/new-zealand.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/phl/philippines.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/pri/puerto-rico.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/prt/portugal.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/pry/paraguay.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/qat/qatar.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/rou/romania.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/rus/russia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/sau/saudi-arabia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/scotland/scotland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/sgp/hr/hr.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/sgp/singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/sgp/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/swe/education/tte.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/swe/sweden.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/tha/thailand.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/tur/turkey.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/twn/taiwan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ukr/ukraine.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ury/uruguay.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/usa/united-states-of-america-usa.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ven/venezuela.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/venetia/venetia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/vnm/vietnam.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/world.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/are/united-arab-emirates-uae.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/arg/argentina.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/aus/australia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/aut/austria.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bel/belgium.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bel/region/flanders.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bhr/bahrain.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bol/bolivia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bra/brazil.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/bwa/botswana.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/can/canada.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/che/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/che/switzerland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/chl/chile.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/chn/china.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/chn/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/chn/region/hong-kong/civil-service.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/chn/region/hong-kong/hong-kong.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/col/colombia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/cri/costa-rica.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/cub/cuba.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/cze/czech.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/deu/education/tte.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/deu/germany.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dnk/denmark.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/breviarium/rd-1-0-dominican-state-capacity.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/demographic/rd-1-0-dominican-demographics.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/economy/digital.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/economy/history.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/economy/labor.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/education/rd-1-0-dominican-educational-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/energy/rd-1-0-dominican-energy-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/finance/rd-1-0-dominican-financial-markets.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/hacienda/rd-1-0-dominican-tributary-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/health/rd-1-0-dominican-healthcare-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/kps/rd-1-0-innovation-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/legal/constitution.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/legal/governance.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/legal/legal.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/monetary/rd-1-0-dominican-monetary-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/politics/rd-1-0-dominican-political-system.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/public/ppi.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/rd-1-0-dominix.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/security/risk.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/security/security.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/social/rd-1-0-dominican-socioeconomics.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/dom/urbanism/rd-1-0-dominican-urbanism.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ecu/ecuador.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/esp/spain.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/est/estonia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/est/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/eth/ethiopia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/fin/finland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/fra/france.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/gbr/uk.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/gha/ghana.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/grc/grecia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/grc/region/athens.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/grc/region/patras.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/grc/region/thessaloniki.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/hti/haiti.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/hun/hungary.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/idn/indonesia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ind/india.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/comision-economica-para-america-latina-y-el-caribe.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/international.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/nordic-council-of-ministers.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/oecd.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/onu/onu.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/international/onu/wto.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/irl/ireland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/irn/iran.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/isr/israel.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ita/italy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ita/production/network.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ita/region/piamonte.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ita/region/venice.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/jpn/japan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/kor/south-korea.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/mex/mexico.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/mus/mauritius.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/mys/malaysia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/nld/netherlands.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/nld/production.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/nld/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/nor/norway.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/nzl/new-zealand.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/phl/philippines.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/pol/poland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/pri/puerto-rico.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/prt/portugal.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/pry/paraguay.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/qat/qatar.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/rou/romania.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/rus/russia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/sau/saudi-arabia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/scotland/scotland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/sgp/hr/hr.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/sgp/singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/sgp/state.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/swe/education/tte.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/swe/sweden.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/tha/thailand.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/tur/turkey.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/twn/taiwan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ukr/ukraine.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ury/uruguay.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/usa/united-states-of-america-usa.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/ven/venezuela.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/venetia/venetia.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/vnm/vietnam.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/space/world.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "chore",
+        "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
       }
     ]
   }
