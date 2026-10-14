@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T18:41:23Z",
+ "generated": "2026-10-14T20:44:06Z",
  "modules": {
   "social": {
    "nodes": 7540,
@@ -40,7 +40,7 @@
    "edges": null
   },
   "glossarium": {
-   "nodes": 318,
+   "nodes": 319,
    "edges": null
   }
  }
