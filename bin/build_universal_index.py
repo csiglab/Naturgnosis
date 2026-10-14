@@ -2,8 +2,8 @@
 """
 Universal graph index builder (Naturgnosis hub).
 
-Aggregates the six graph dataset mirrors
-(app/{social,research,nation,technique,epistemica,nature}/data/data.json).
+Aggregates the graph dataset mirrors
+(app/{social,research,technique,epistemica,nature}/data/data.json).
 Production is a derived view over social, not a dataset, so its nodes enter
 here once, under their social uids.
 into one view-only universal graph consumed by the hub-level viewer
@@ -26,10 +26,7 @@ an editable dataset):
                                      counts, nodes:[{... , targets:[uid]}]}
     app/data/universal-layout.json  {uid: [x, y]} via bin/layout.py machinery
 
-The nation dataset is included as ordinary nodes; each nation's deep
-link points at its Index Gentium entry page
-(/nation/entry.html?code=<id>), all others at the source explorer
-(/<source>/?node=<id>).
+Each node's deep link points at its source explorer (/<source>/?node=<id>).
 
 Usage: python3 bin/build_universal_index.py
 """
@@ -49,7 +46,6 @@ EXCERPT_LEN = 500
 GRAPH_MODULES = (
     "social",
     "research",
-    "nation",
     "technique",
     "epistemica",
     "nature",
@@ -66,8 +62,6 @@ def excerpt(text: str) -> str:
 
 
 def deep_link(source: str, node_id: str) -> str:
-    if source == "nation":
-        return "/nation/entry.html?code=" + quote(str(node_id), safe="")
     return "/" + source + "/?node=" + quote(str(node_id), safe="")
 
 

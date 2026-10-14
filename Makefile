@@ -1,14 +1,16 @@
 PYTHON ?= python3
 # Datasets (CouchDB-backed). Production is a derived view, not a dataset —
 # see the production-view target below.
-MODULES := social research nation technique epistemica nature
+MODULES := social research technique epistemica nature
 
-.PHONY: help build index notes-index qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server update-local clean
+.PHONY: help build index notes-index polity-index polity-views qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server update-local clean
 
 help:
 	@echo "build         regenerate notes + qa + glossarium + universal index + graph layouts (+ universal graph)"
 	@echo "index         rebuild all indexes (notes + qa + glossarium + search + universal)"
 	@echo "notes-index   rebuild app/note/data/index.json from app/note/data/"
+	@echo "polity-index  rebuild the polity manifest (polity/data.json) for the polity aggregator"
+	@echo "polity-views  copy spec/polity/ canonical views to polity/<code>/ (no manifest rebuild)"
 	@echo "qa-index      rebuild app/qa/data/qa-index.json from app/qa/data/qa.json"
 	@echo "glossarium-index rebuild app/glossarium/data/index.json from app/glossarium/data/terms.json"
 	@echo "glossarium-add TERM=<file.md> add/replace one term in app/glossarium/data/terms.json"
@@ -32,10 +34,16 @@ build: index production-view
 		fi; \
 	done
 
-index: notes-index qa-index glossarium-index search-index universal-index landing-metrics
+index: notes-index polity-index qa-index glossarium-index search-index universal-index landing-metrics
 
 notes-index:
 	$(PYTHON) bin/build_note_index.py
+
+polity-index:
+	$(PYTHON) bin/build_polity_index.py
+
+polity-views:
+	$(PYTHON) bin/build_polity_index.py --views-only
 
 qa-index:
 	$(PYTHON) bin/build_qa_index.py

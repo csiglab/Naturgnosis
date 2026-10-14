@@ -27,7 +27,7 @@
 
 ## Case Study
 
-- [Germany Technical Training Ecosystem (TTE)](../../../actor/public/space/deu/education/tte.md)
+- [Germany Technical Training Ecosystem (TTE)](../../../actor/public/polity/deu/education/tte.md)
 
 ## References
 

@@ -293,6 +293,10 @@ class Checker:
     def check_prefix(self, src, line, raw_link, exp):
         """Viewer/catalog hrefs must resolve to /note/web/<page>."""
         url = raw_link.strip().split("#")[0]
+        if url.startswith("/"):
+            return  # absolute served path: unambiguous by construction
+                     # (existence is verified by check_url); depth prefixes
+                     # only apply to relative links.
         for page in VIEWER_PAGES:
             if page + "?" in url or url.endswith(page):
                 pre = url[:url.index(page)]

@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "app", "data", "landing-metrics.json")
 
-GRAPH_MODULES = ("social", "research", "nation", "technique", "epistemica", "nature")
+GRAPH_MODULES = ("social", "research", "technique", "epistemica", "nature")
 
 
 def load_json(path):

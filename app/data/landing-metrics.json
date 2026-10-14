@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T03:34:02Z",
+ "generated": "2026-10-14T17:35:05Z",
  "modules": {
   "social": {
    "nodes": 7540,
@@ -10,11 +10,6 @@
    "nodes": 2921,
    "edges": 14,
    "facets": 5
-  },
-  "nation": {
-   "nodes": 38,
-   "edges": 0,
-   "facets": 1
   },
   "technique": {
    "nodes": 1700,
@@ -37,7 +32,7 @@
    "facets": 17
   },
   "note": {
-   "nodes": 4075,
+   "nodes": 4172,
    "edges": null
   },
   "qa": {

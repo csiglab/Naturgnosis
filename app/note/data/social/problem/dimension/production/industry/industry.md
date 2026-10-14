@@ -8,4 +8,4 @@ Guiding Question:
 
 ## References
 
-- [Italy Industrial Cluster](../../../../actor/public/space/ita/production/network.md)
+- [Italy Industrial Cluster](../../../../actor/public/polity/ita/production/network.md)

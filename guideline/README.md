@@ -46,7 +46,7 @@ Rules for files and directories we author:
   the slug rule; they are never notes.
 - **Country-keyed path segments** — where a directory is keyed by country (for
   example `app/note/data/social/actor/public/research/<code>/` or
-  `app/note/data/social/actor/public/space/<code>/region/`), use ISO 3166-1 alpha-3,
+  `app/note/data/social/actor/public/polity/<code>/region/`), use ISO 3166-1 alpha-3,
   lowercase (`usa`, `deu`, `chn`, `gbr`, `grc`); never alpha-2 or country names.
   Entities without an alpha-3 code (devolved nations, defunct states) are
   explicit exceptions.

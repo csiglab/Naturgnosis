@@ -26,7 +26,7 @@ served by the single sync server (`bin/sync.py`) and deployed as one image.
 |---|--------|------|------|---------|--------|
 | 1 | Nature Space | `app/nature/` | Graph explorer + editor | CouchDB (`dataset=nature`) + disk mirror | bootstrapped (ontic nodes moved from epistemica) |
 | 2 | Social Space (main) | `app/social/` | Graph explorer + editor | CouchDB (`dataset=social`) + disk mirror | active |
-| 3 | Nation Space | `app/nation/` | Entry index + entry pages (Index Gentium style) + editor | CouchDB (`dataset=nation`) + disk mirror | bootstrapped |
+| 3 | Nation Space | `app/nation/` | Dissolved into the polity corpus (note module) | Per-polity node files (`app/note/data/social/actor/public/polity/<code>/data/node.json`) | depleted |
 | 4 | Production Space | `app/production/` | Graph explorer (derived view, no editor) | Generated `view.json` + `view-layout.json` from social `production-view` tags | derived |
 | 5 | Epistemic Space | `app/epistemica/` | Graph explorer + editor | CouchDB (`dataset=epistemica`) + disk mirror | bootstrapped |
 | 6 | Technique Space | `app/technique/` | Graph explorer + editor | CouchDB (`dataset=technique`) + disk mirror | bootstrapped |
@@ -104,4 +104,4 @@ Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`
 - **Data sync**: the server is the write path; before committing dataset changes, pull the server
   mirror (see README "Data Sync").
 - **Naming**: module directories are lowercase ASCII (`social`, `production`, `research`,
-  `nation`, `technique`, `epistemica`, `nature`); dataset id = module name.
+  `technique`, `epistemica`, `nature`); dataset id = module name.
