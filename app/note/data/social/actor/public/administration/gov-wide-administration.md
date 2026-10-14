@@ -23,7 +23,7 @@ tags: [administration, government-wide, collective, social-element, actor]
 
 ### What type of social element does this instance belong to?
 
-**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](note.html?n=social/actor/public/government/administration/administration.md), the parent hub, and [Collective](note.html?n=social/collective/collective.md). It is typed under [Actor](note.html?n=social/actor/actor.md), and its participating units are [Public Organization](note.html?n=social/actor/public/public-organization.md) instances directed by a [Government](note.html?n=social/actor/public/government/government.md).
+**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](note.html?n=social/actor/public/administration/administration.md), the parent hub, and [Collective](note.html?n=social/collective/collective.md). It is typed under [Actor](note.html?n=social/actor/actor.md), and its participating units are [Public Organization](note.html?n=social/actor/public/public-organization.md) instances directed by a [Government](note.html?n=social/actor/public/government.md).
 
 Its layer is **Ontic** where the system exists extra-mentally (centers, staff, shared platforms, budgets) with **Synontic** aspects (authority, standards, and compliance exist through legal warrant and shared recognition).
 
@@ -39,7 +39,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### What is the recursive instance decomposition of this instance under collective?
 
-> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](note.html?n=social/actor/public/government/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
+> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](note.html?n=social/actor/public/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
 >
 > Stopping rule: a row is terminal when it names a constituent, a center, a norm, a role, a standard, a process, a service, or a linked entry.
 >
@@ -338,7 +338,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## Terminology
 
-> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](note.html?n=social/actor/public/government/government.md) carries the dimensional detail.
+> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](note.html?n=social/actor/public/government.md) carries the dimensional detail.
 
 | Term | Definition |
 | --- | --- |
@@ -376,7 +376,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### How should the workforce in public administration be conceptualized?
 
-> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](note.html?n=social/actor/public/government/administration/civil-service.md) arrangements, supplied through [Human Resource Unit](note.html?n=social/actor/public/government/administration/hru.md) services, and occupied as [Public Employee](note.html?n=social/actor/public/government/administration/employee.md) positions. Personnel detail lives in those entries, not here.
+> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](note.html?n=social/actor/public/administration/civil-service.md) arrangements, supplied through [Human Resource Unit](note.html?n=social/actor/public/administration/hru.md) services, and occupied as [Public Employee](note.html?n=social/actor/public/administration/employee.md) positions. Personnel detail lives in those entries, not here.
 
 ### Which Frameworks and Guides Can Be Used to Develop a Characterization System for Government-Wide Public Administration Systems?
 
@@ -685,12 +685,12 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Collective](note.html?n=social/collective/collective.md)
 - [Actor](note.html?n=social/actor/actor.md)
-- [Government](note.html?n=social/actor/public/government/government.md)
-- [Public Administration](note.html?n=social/actor/public/government/administration/administration.md)
+- [Government](note.html?n=social/actor/public/government.md)
+- [Public Administration](note.html?n=social/actor/public/administration/administration.md)
 - [Public Organization](note.html?n=social/actor/public/public-organization.md)
-- [Civil Service](note.html?n=social/actor/public/government/administration/civil-service.md)
-- [Human Resource Unit](note.html?n=social/actor/public/government/administration/hru.md)
-- [Public Employee](note.html?n=social/actor/public/government/administration/employee.md)
+- [Civil Service](note.html?n=social/actor/public/administration/civil-service.md)
+- [Human Resource Unit](note.html?n=social/actor/public/administration/hru.md)
+- [Public Employee](note.html?n=social/actor/public/administration/employee.md)
 - [Public Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Facet](note.html?n=social/framework/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)

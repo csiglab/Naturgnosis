@@ -65,9 +65,9 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Electorate | A collective defined by eligibility to participate in a specified electoral process. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Party | A political collective organized to contest, exercise, influence, or participate in political power. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Coalition | A collective of actors or groups coordinated for a shared political or strategic purpose while retaining some separate identity. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Federation | A political collective whose constituent units retain some defined autonomy while participating in a common political arrangement. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Confederation | A political association of constituent polities or units linked by an agreement or common institutions while retaining substantial separate authority. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Empire | A political formation in which a ruling center or polity exercises asymmetric authority or control over multiple peoples, territories, or subordinate political units. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Polity `(→ Kind)` Federation | A political collective whose constituent units retain some defined autonomy while participating in a common political arrangement. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Polity `(→ Kind)` Confederation | A political association of constituent polities or units linked by an agreement or common institutions while retaining substantial separate authority. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Polity `(→ Kind)` Empire | A political formation in which a ruling center or polity exercises asymmetric authority or control over multiple peoples, territories, or subordinate political units. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Indigenous Political Collective | A political collective grounded in an Indigenous people, nation, or community and its own forms of political identity or authority. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Professional Collective | A collective constituted around an occupation, profession, craft, or recognized body of professional practice. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Scientific Collective | A collective organized around scientific inquiry, knowledge production, or a shared scientific field or program. |
@@ -354,6 +354,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 - [Firm](note.html?n=social/actor/firm.md)
 - [Social Ontology](note.html?n=social/framework/social-ontology.md)
 - [Facet](note.html?n=social/framework/facet.md)
+- [Polity](note.html?n=social/collective/polity.md)
 - [The Collective Action Problem](note.html?n=general/collective-action-problem.md)
 - [Imperialism](https://en.wikipedia.org/wiki/Imperialism)
 - [Romanitas](https://es.wikipedia.org/wiki/Romanitas)

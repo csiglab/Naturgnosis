@@ -53,8 +53,16 @@ It is distinct from `Policy` (the course adopted by an authority within a strate
 | Strategy `(→ Part)` Strategy `(→ Part)` Process / Event | Grouping: the revision by which the strategy is judged. |
 | Strategy `(→ Part)` Strategy `(→ Part)` Process / Event `(→ Part)` Strategic Review | Punctual occurrence reassessing ends and means against results. |
 
+### What questions guide inquiry into this instance?
+
+> Folded from the former public working note on strategy, which treated Strategy as a public-guidance subtype; Strategy is a main type of the `Action Guidance` branch, worked here.
+>
+> What is the linguistics of the term *strategy*? What is its origin? What does the term denote — what does it represent or encode? What is the meaning variance: how consistent is the term's denotation? What is the nature of the term: does it carry agentic or descriptive connotations, and how can the correctness of its use in a given context be evaluated? Which other terms can stand in place of, alongside, or instead of *strategy*? On attribution: can the strategy of others be inferred, how are such inferences evaluated, and what are their limits — how is a strategy identified, what horizon does it address, and can different long-term strategies generate the same observable pattern? Which kinds of affirmations can be made about a strategy?
+
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Policy](note.html?n=social/action/public/guidance/policy.md) (the authorized course within a strategy)
 - [Principle](note.html?n=social/action/guidance/principle.md) (the standard a strategy is evaluated against)
+- [Grand Strategy](https://en.wikipedia.org/wiki/Grand_strategy)
+- [Studies in Grand Strategy](https://jackson.yale.edu/academics/grand-strategy-program/studies-in-grand-strategy/)

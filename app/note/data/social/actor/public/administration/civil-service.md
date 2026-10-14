@@ -326,8 +326,8 @@ Los cargos que generalmente se eligen o se accede mediante un tribunal de oposic
 
 - Public Administration
 - [Civil Service](https://en.wikipedia.org/wiki/Civil_service)
-- [An Essay on 'Burrocracia'](../../../../../general/an-essay-on-burrocracia.md)
-- [A Guide to Profile State Personnel Systems](../../../../../general/a-guide-to-profile-state-personnel.md)
+- [An Essay on 'Burrocracia'](../../../../general/an-essay-on-burrocracia.md)
+- [A Guide to Profile State Personnel Systems](../../../../general/a-guide-to-profile-state-personnel.md)
 - https://en.wikipedia.org/wiki/New_Public_Management
 - https://oxfordre.com/politics/politics/view/10.1093/acrefore/9780190228637.001.0001/acrefore-9780190228637-e-1436
 - https://muse.jhu.edu/article/640275

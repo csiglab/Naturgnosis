@@ -8,7 +8,7 @@ Preguntas Guía:
 
 Aplicación:
 
-Ver [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/action/public/informe/guidance/principle/t-paps.md)
+Ver [Techno-Productivist Agential Principle Set (T-PAPS)](note.html?n=social/action/public/informe/principle/t-paps.md)
 
 ## Referencias
 

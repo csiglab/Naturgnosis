@@ -1,49 +1,49 @@
 {
   "links": [
     {
-      "from": "social/action/public/informe/guidance/policy/china-industrial-policy.md",
+      "from": "social/action/public/informe/policy/china-industrial-policy.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/china-innovation-policy.md",
+      "from": "social/action/public/informe/policy/china-innovation-policy.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/china-financing-policy.md",
+      "from": "social/action/public/informe/policy/china-financing-policy.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/china-infrastructure-policy.md",
+      "from": "social/action/public/informe/policy/china-infrastructure-policy.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/case-study-china-go-global.md",
+      "from": "social/action/public/informe/policy/case-study-china-go-global.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/case-study-china-national-key-technologies-rd-program.md",
+      "from": "social/action/public/informe/policy/case-study-china-national-key-technologies-rd-program.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/case-study-china-program-863.md",
+      "from": "social/action/public/informe/policy/case-study-china-program-863.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
     },
     {
-      "from": "social/action/public/informe/guidance/policy/case-study-china-program-973.md",
+      "from": "social/action/public/informe/policy/case-study-china-program-973.md",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
@@ -55,9 +55,27 @@
       "kind": "study"
     },
     {
+      "from": "social/actor/",
+      "to": "social/action/",
+      "label": "Action",
+      "kind": "hierarchy"
+    },
+    {
       "from": "social/actor/public/",
       "to": "social/action/public/",
       "label": "Action",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/action/public/informe/",
+      "to": "social/action/guidance/",
+      "label": "Guidance",
+      "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/public/",
+      "to": "social/collective/",
+      "label": "Collective",
       "kind": "hierarchy"
     }
   ]

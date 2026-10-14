@@ -13,10 +13,10 @@
       "title": "Submodel Characterisation Frame",
       "description": "The note's own characterisation system: an orthogonal decomposition of a well-functioning government-wide administration into 23 submodels, each carrying the dimensions that locate a system within its domain.",
       "frame_basis": "Functional submodel decomposition, optimised for comprehensive coverage and orthogonality.",
-      "provenance": "note: social/actor/public/government/administration/gov-wide-administration.md",
+      "provenance": "note: social/actor/public/administration/gov-wide-administration.md",
       "related_notes": [
-        "social/actor/public/government/administration/gov-wide-administration.md",
-        "social/actor/public/government/administration/administration.md"
+        "social/actor/public/administration/gov-wide-administration.md",
+        "social/actor/public/administration/administration.md"
       ],
       "groups": [
         {
@@ -2220,7 +2220,7 @@
       "frame_basis": "Organizational-structure coordinates (the Aston/Pugh structural school).",
       "provenance": "authored frame: organizational-structure dimensions",
       "related_notes": [
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {
@@ -2381,7 +2381,7 @@
       "frame_basis": "Extension of the note's properties table (centralization, standardization, integration, sharing, interoperability) into a full property space.",
       "provenance": "authored frame: system-wide property spectra",
       "related_notes": [
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {
@@ -2551,7 +2551,7 @@
       "frame_basis": "Distribution of the core administrative functions across performers.",
       "provenance": "authored frame: functional allocation coordinates",
       "related_notes": [
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {
@@ -2686,7 +2686,7 @@
       "frame_basis": "Distribution of formal decision rights across the administrative system.",
       "provenance": "authored frame: decision-rights coordinates",
       "related_notes": [
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {
@@ -2810,10 +2810,10 @@
       "frame_basis": "World Bank Worldwide Bureaucracy Indicators (WWBI) - public employment demographics (commercial indicator framework: public sector footprint and workforce composition).",
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
-        "social/actor/public/government/administration/civil-service.md",
-        "social/actor/public/government/administration/employee.md",
-        "social/actor/public/government/administration/hru.md",
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/civil-service.md",
+        "social/actor/public/administration/employee.md",
+        "social/actor/public/administration/hru.md",
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {
@@ -2960,9 +2960,9 @@
       "frame_basis": "World Bank Worldwide Bureaucracy Indicators (WWBI) - wage premiums, pay compression, gender pay gaps, and the public sector wage bill (commercial indicator framework: compensation and fiscal footprint).",
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
-        "social/actor/public/government/administration/civil-service.md",
-        "social/actor/public/government/administration/employee.md",
-        "social/actor/public/government/administration/gov-wide-administration.md"
+        "social/actor/public/administration/civil-service.md",
+        "social/actor/public/administration/employee.md",
+        "social/actor/public/administration/gov-wide-administration.md"
       ],
       "groups": [
         {

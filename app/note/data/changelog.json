@@ -161,6 +161,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -216,6 +221,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -231,6 +241,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -516,6 +531,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -1131,6 +1151,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ links to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -1146,6 +1171,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ links to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -1161,6 +1191,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -1216,6 +1251,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Added the Social Class Kind row to the decomposition tree."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Re-nested Federation, Confederation, and Empire as kinds of Polity; added a References link to the new Polity note."
       }
     ]
   },
@@ -1286,6 +1326,11 @@
         "date": "2026-10-13",
         "kind": "docs",
         "summary": "Added directory scope note (corpus navigation aid)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed the polity example to the new collective Polity note after deleting the unfinished normative stub."
       }
     ]
   },
@@ -2146,6 +2191,11 @@
         "date": "2026-10-12",
         "kind": "docs",
         "summary": "Remapped guidance/instance/ link to informe/guidance/."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -2366,6 +2416,11 @@
         "date": "2026-10-13",
         "kind": "fix",
         "summary": "Repaired broken internal links after the social-tree cleanup."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
       }
     ]
   },
@@ -2586,6 +2641,821 @@
         "date": "2026-10-13",
         "kind": "docs",
         "summary": "Moved the imperial Chinese mandarinate study from administration/ into informe/ as a study case (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/guidance/framework.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the Framework main-type note (Action Guidance, Normative): formulation, kinds/instances/anatomy tree, references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/guidance/policy/china-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the China Five-Year Plan instance note rooted as Plan (Action Organization): mandate, apparatus, targets, mirrored execution, and review tree."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/guidance/strategy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Folded the public working note guiding questions and grand-strategy references into the canonical Strategy note; Strategy affirmed as Action Guidance main type."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/guidance/framework/china-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/policy/ to informe/guidance/framework/ and retyped the root as Strategic Planning Instrument with all fifteen rounds as instance rows."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/guidance/framework.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Added Strategic Planning Instrument rows under Planning Framework; repointed China links after the move; referenced the Soviet, South Korean, and Indian notes."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed five informe/guidance/ links to informe/; added Strategic Planning Instrument rows and Soviet, South Korean, and Indian references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/guidance/framework/soviet-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the Soviet Five-Year Plan instance note rooted as Strategic Planning Instrument with fourteen round rows (1928-1991)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/guidance/framework/south-korea-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the South Korea Five-Year Plan instance note rooted as Strategic Planning Instrument with seven round rows (1962-1996)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/guidance/framework/india-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the India Five-Year Plan instance note rooted as Strategic Planning Instrument with twelve round rows and two plan holidays (1951-2017)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/change-framework.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/social-region-change-toolkit-foundation.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-2030-agenda-for-sustainable-development.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-brazil-agricultural-industry.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-china-go-global.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-china-national-key-technologies-rd-program.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-china-program-863.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-china-program-973.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-emergence-of-sweden-textile-productive.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-invest-2035-the-uks-modern-industrial.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-nova-industria-brasil.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-singapore-tecnoproductive-development.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study-sweden-industrilization.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/case-study.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/china-financing-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/china-industrial-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/china-infrastructure-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/china-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/eu-smart-specialisation-strategy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/finland-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/israel-innovation-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/korean-trade-policy.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/materials-genome-initiative.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/policy/specialized-smes-program.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/principle/t-paps.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/china-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved from informe/guidance/policy/ to informe/guidance/framework/ removed level (now informe/framework/); retyped root as Strategic Planning Instrument with fifteen rounds; trimmed table to Instance Tree Path and Description."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/soviet-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "fix",
+        "summary": "Trimmed decomposition table to Instance Tree Path and Description (house convention)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/south-korea-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Repointed informe/guidance/ link(s) to informe/; trimmed decomposition table to Instance Tree Path and Description."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/public/informe/framework/india-five-year-plan.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "fix",
+        "summary": "Trimmed decomposition table to Instance Tree Path and Description (house convention)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/administration.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/civil-service.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "fix",
+        "summary": "Repaired two legacy relative links shifted by the government-level removal."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/employee.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/gov-wide-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/hru.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/informe/course-of-honors.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/informe/informe.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration/informe/mandarinate.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/colegio-oficial-de-ingenieros-industriales-de-navarra.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/agencia-para-la-competitividad-de-la-empresa.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/agencia-vasca-de-desarrollo-empresarial.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/austrade.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/department-for-business-and-trade.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/enterprise-ireland.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/enterprise-singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/finnish-innovation-fund.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/germany-trade-and-invest.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/ida-ireland-industrial-development-authority.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/industrial-development-bureau.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/instituto-nacional-de-industria.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/international-trade-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/invest-hong-kong.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/israel-innovation-authority.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/istituto-per-la-ricostruzione-industriale.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/japan-external-trade-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/korea-trade-investment-promotion-agency.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/ministry-of-international-trade-and-industry.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/new-zealand-trade-and-enterprise.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/prochile.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/selectusa.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/singapore-economic-development-board.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/state-development-and-investment-corporation.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/state-owned-assets-supervision-and-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/switzerland-global-enterprise.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/taiwan-external-trade-development-council.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/development/united-states-small-business-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/government.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/hong-kong-chief-executive-policy-unit.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/suzhou-industrial-park.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "docs",
+        "summary": "Moved up to actor/public/ as the government level is removed (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/polity.md",
+    "logs": [
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Created the Polity main-type note (kinds Federation, Confederation, Empire; authority-community-jurisdiction anatomy)."
+      },
+      {
+        "date": "2026-10-14",
+        "kind": "feat",
+        "summary": "Expanded the tree to thirteen polity kinds in three branches (constitutional form, composite structure, dependent standing) plus Nation-State and City-State."
       }
     ]
   }
