@@ -1,0 +1,920 @@
+{
+  "metadata": {
+    "country": "Morocco",
+    "description": "Representative dataset of Moroccan actors (economic-policy institutions, research bodies, leading firms, and training entities).",
+    "evidenceConfidence": "Medium",
+    "flag": "🇲🇦",
+    "introduction": "A granular representation of the evolution of key actors within the social region of Morocco. This dataset traces the formation, transformation, and significant milestones of policy, research, corporate, and training entities, from the Alaouite Makhzen and protectorate administrations through independence ministries and the central bank to industrial-acceleration agencies, public research bodies, universities, and export-oriented firms.",
+    "lastUpdated": "2026-10-14",
+    "peerReview": "None",
+    "region": "North Africa",
+    "source": "Naturgnosis editorial corpus (hand-authored)"
+  },
+  "actors": [
+    {
+      "description": "The central bank of the Kingdom; issues the dirham, conducts monetary policy, and supervises banks through the CCSRS financial-stability committee.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1959-06-30",
+          "description": "Created by Dahir as the Banque du Maroc, issuing institute succeeding the Banque d'État du Maroc"
+        },
+        {
+          "category": "transformation",
+          "date": "2006-02-20",
+          "description": "New statute grants autonomy: price stability as primary mandate, Bank Al-Maghrib name adopted"
+        },
+        {
+          "category": "policy",
+          "date": "2018-01-15",
+          "description": "Dirham fluctuation band widened, first step toward a flexible exchange-rate regime"
+        }
+      ],
+      "id": "bank-al-maghrib",
+      "name": "Bank Al-Maghrib",
+      "regionOfActivity": "Rabat",
+      "role": "Central bank",
+      "type": "public"
+    },
+    {
+      "description": "Ministerial department setting economic, fiscal, and financial policy; steers the budget, customs, taxes, treasury, and state shareholdings.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1955-12-07",
+          "description": "Finance portfolio created in the first post-independence government"
+        },
+        {
+          "category": "policy",
+          "date": "1983-01-01",
+          "description": "Structural-adjustment program launches liberalization and fiscal consolidation"
+        },
+        {
+          "category": "policy",
+          "date": "2015-06-01",
+          "description": "Organic finance law (LOLF) modernizes budget programming and performance"
+        }
+      ],
+      "id": "mef",
+      "name": "Ministry of Economy and Finance",
+      "regionOfActivity": "Rabat",
+      "role": "Economic policy ministry",
+      "type": "public"
+    },
+    {
+      "description": "Directorate inside the MEF producing the macro framework, forecasts, and competitiveness studies behind each finance law.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1968-01-01",
+          "description": "Economic-studies and forecasting function organized within the ministry"
+        },
+        {
+          "category": "milestone",
+          "date": "1995-01-01",
+          "description": "Formalized as the Directorate of Studies and Financial Forecasts (DEPF)"
+        }
+      ],
+      "id": "depf",
+      "name": "Directorate of Studies and Financial Forecasts (DEPF)",
+      "regionOfActivity": "Rabat",
+      "role": "Macro forecasting",
+      "type": "public"
+    },
+    {
+      "description": "Ministry driving industrial acceleration plans, trade policy, and the automotive, aeronautics, and offshoring ecosystems.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1956-01-01",
+          "description": "Industry and commerce portfolio established at independence"
+        },
+        {
+          "category": "policy",
+          "date": "2014-04-02",
+          "description": "Industrial Acceleration Plan (2014-2020) launches sectoral ecosystems"
+        },
+        {
+          "category": "policy",
+          "date": "2021-01-01",
+          "description": "New industrial strategy targets investment charter and import substitution"
+        }
+      ],
+      "id": "ministry-industry-trade",
+      "name": "Ministry of Industry and Trade",
+      "regionOfActivity": "Rabat",
+      "role": "Industrial policy ministry",
+      "type": "public"
+    },
+    {
+      "description": "Public agency promoting private investment and export development under the investment charter.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2009-01-01",
+          "description": "Created by merging investment and export promotion bodies"
+        },
+        {
+          "category": "expansion",
+          "date": "2023-01-01",
+          "description": "New investment charter assigns AMDIE a central one-stop-shop role"
+        }
+      ],
+      "id": "amdie",
+      "name": "Moroccan Agency for Investment and Export Development (AMDIE)",
+      "regionOfActivity": "Casablanca",
+      "role": "Investment promotion",
+      "type": "public"
+    },
+    {
+      "description": "Independent authority regulating the Casablanca capital market and investor protection.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1993-01-01",
+          "description": "CDVM securities regulator created alongside market modernization"
+        },
+        {
+          "category": "transformation",
+          "date": "2016-01-01",
+          "description": "Re-founded as the AMMC with extended powers over market infrastructure"
+        }
+      ],
+      "id": "ammc",
+      "name": "Moroccan Capital Market Authority (AMMC)",
+      "regionOfActivity": "Rabat",
+      "role": "Securities regulator",
+      "type": "public"
+    },
+    {
+      "description": "Authority supervising insurance, reinsurance, brokerage, and social-welfare bodies.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2002-01-01",
+          "description": "Insurance supervision department (DAPS) modernized"
+        },
+        {
+          "category": "transformation",
+          "date": "2016-01-01",
+          "description": "ACAPS established as independent supervisory authority"
+        }
+      ],
+      "id": "acaps",
+      "name": "Supervisory Authority of Insurance and Social Welfare (ACAPS)",
+      "regionOfActivity": "Rabat",
+      "role": "Insurance regulator",
+      "type": "public"
+    },
+    {
+      "description": "Administration enforcing foreign-exchange regulations and tracking external financial flows.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1959-01-01",
+          "description": "Exchange-control administration organized after currency sovereignty"
+        },
+        {
+          "category": "policy",
+          "date": "2007-01-01",
+          "description": "Gradual convertibility measures ease current-account operations"
+        }
+      ],
+      "id": "office-des-changes",
+      "name": "Office des Changes",
+      "regionOfActivity": "Casablanca",
+      "role": "Exchange control",
+      "type": "public"
+    },
+    {
+      "description": "Africa's third stock exchange by capitalization; lists banking, telecom, mining, and industrial groups.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1929-01-01",
+          "description": "Stock exchange founded in Casablanca"
+        },
+        {
+          "category": "transformation",
+          "date": "1993-01-01",
+          "description": "Demutualized and computerized under market reforms"
+        },
+        {
+          "category": "milestone",
+          "date": "2008-01-01",
+          "description": "Adopts NSC trading platform shared with Euronext markets"
+        }
+      ],
+      "id": "bvc",
+      "name": "Casablanca Stock Exchange",
+      "regionOfActivity": "Casablanca",
+      "role": "Securities exchange",
+      "type": "hybrid"
+    },
+    {
+      "description": "Customs and indirect-tax administration collecting duties and policing trade at ports including Tanger Med.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1956-01-01",
+          "description": "Customs administration nationalized at independence"
+        },
+        {
+          "category": "transformation",
+          "date": "1977-01-01",
+          "description": "New customs code aligns procedures with international trade"
+        },
+        {
+          "category": "milestone",
+          "date": "2010-01-01",
+          "description": "Paperless BADR clearance system generalized across ports"
+        }
+      ],
+      "id": "douane",
+      "name": "Administration of Customs and Indirect Taxes",
+      "regionOfActivity": "Rabat",
+      "role": "Customs administration",
+      "type": "public"
+    },
+    {
+      "description": "Constitutional consultative body advising on economic, social, and environmental policy and inclusive development.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2011-07-01",
+          "description": "Created by the 2011 constitution"
+        },
+        {
+          "category": "milestone",
+          "date": "2021-01-01",
+          "description": "New Development Model report frames post-Covid policy consensus"
+        }
+      ],
+      "id": "cese",
+      "name": "Economic, Social and Environmental Council (CESE)",
+      "regionOfActivity": "Rabat",
+      "role": "Policy advisory council",
+      "type": "public"
+    },
+    {
+      "description": "Non-profit private research university backed by OCP; anchor of Morocco's applied-research and AI ecosystem with the Toubkal supercomputer.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2013-01-01",
+          "description": "Founded by the OCP Foundation in Benguerir"
+        },
+        {
+          "category": "expansion",
+          "date": "2020-01-01",
+          "description": "Green Tech Institute, School of Computer Science, and African Supercomputing Center launched"
+        },
+        {
+          "category": "milestone",
+          "date": "2025-01-01",
+          "description": "Co-operator of the national research, development, and innovation program (PNARDI) with CNRST"
+        }
+      ],
+      "id": "um6p",
+      "name": "Mohammed VI Polytechnic University (UM6P)",
+      "regionOfActivity": "Benguerir",
+      "role": "Research university",
+      "type": "hybrid"
+    },
+    {
+      "description": "National center funding, coordinating, and evaluating public scientific research and doctoral training.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1976-01-01",
+          "description": "Created to coordinate national scientific and technical research"
+        },
+        {
+          "category": "expansion",
+          "date": "2005-01-01",
+          "description": "IMIST information institute and associated research units attached"
+        },
+        {
+          "category": "milestone",
+          "date": "2025-01-01",
+          "description": "Co-operator of the national research, development, and innovation program (PNARDI) with UM6P"
+        }
+      ],
+      "id": "cnrst",
+      "name": "National Center for Scientific and Technical Research (CNRST)",
+      "regionOfActivity": "Rabat",
+      "role": "Research coordination",
+      "type": "public"
+    },
+    {
+      "description": "Public institute for solar energy and new-energy research, testing, and pilot platforms.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2011-01-01",
+          "description": "Founded to support the Moroccan Solar Plan (Noor)"
+        },
+        {
+          "category": "milestone",
+          "date": "2016-01-01",
+          "description": "Noor Ouarzazate complex phases come online, anchoring test programs"
+        }
+      ],
+      "id": "iresen",
+      "name": "Research Institute for Solar Energy and New Energies (IRESEN)",
+      "regionOfActivity": "Benguerir",
+      "role": "Energy research institute",
+      "type": "hybrid"
+    },
+    {
+      "description": "National agronomic research institute serving rainfed and irrigated agriculture, cereals, and arid-zone farming.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1981-01-01",
+          "description": "Reorganized as the national agronomic research institute"
+        },
+        {
+          "category": "expansion",
+          "date": "2008-01-01",
+          "description": "Regional centers aligned with the Green Morocco Plan"
+        }
+      ],
+      "id": "inra",
+      "name": "National Institute of Agronomic Research (INRA)",
+      "regionOfActivity": "Rabat",
+      "role": "Agricultural research",
+      "type": "public"
+    },
+    {
+      "description": "Foundation for advanced materials, microelectronics, and biotechnology transfer to industry.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2007-01-01",
+          "description": "Founded as a public-utility research foundation"
+        },
+        {
+          "category": "milestone",
+          "date": "2015-01-01",
+          "description": "Microelectronics and biotech platforms opened to industrial partners"
+        }
+      ],
+      "id": "mascir",
+      "name": "Moroccan Foundation for Advanced Science, Innovation and Research (MAScIR)",
+      "regionOfActivity": "Rabat",
+      "role": "Applied research foundation",
+      "type": "hybrid"
+    },
+    {
+      "description": "Corporate R&D and venturing arm of the phosphate group, industrializing green ammonia, batteries, and agtech pilots.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2022-01-01",
+          "description": "Launched as OCP's innovation and venturing vehicle"
+        },
+        {
+          "category": "expansion",
+          "date": "2023-01-01",
+          "description": "Startup campus and deeptech fund deployed around Benguerir"
+        }
+      ],
+      "id": "innovx",
+      "name": "InnovX (OCP innovation arm)",
+      "regionOfActivity": "Benguerir",
+      "role": "Corporate R&D",
+      "type": "private"
+    },
+    {
+      "description": "Biomedical research and public-health laboratory network; historic center for vaccines, serums, and epidemics surveillance.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1929-01-01",
+          "description": "Institut Pasteur established in Casablanca"
+        },
+        {
+          "category": "milestone",
+          "date": "2020-01-01",
+          "description": "Covid-19 testing and genomic-surveillance backbone"
+        }
+      ],
+      "id": "institut-pasteur",
+      "name": "Institut Pasteur du Maroc",
+      "regionOfActivity": "Casablanca",
+      "role": "Biomedical institute",
+      "type": "public"
+    },
+    {
+      "description": "Highest scientific authority advising on research policy, academy sessions, and national scientific prizes.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1993-01-01",
+          "description": "Created by Dahir as the national academy of sciences"
+        },
+        {
+          "category": "milestone",
+          "date": "2009-01-01",
+          "description": "Rabat headquarters inaugurated; resident members installed"
+        }
+      ],
+      "id": "academie-hassan-ii",
+      "name": "Hassan II Academy of Sciences and Techniques",
+      "regionOfActivity": "Rabat",
+      "role": "Academy of sciences",
+      "type": "public"
+    },
+    {
+      "description": "State phosphate and fertilizer group; world's largest phosphate exporter and engine of the Benguerir research ecosystem.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1920-08-07",
+          "description": "Office Chérifien des Phosphates created; Khouribga mining begins"
+        },
+        {
+          "category": "transformation",
+          "date": "2008-01-01",
+          "description": "Converted into a public limited company (OCP S.A.)"
+        },
+        {
+          "category": "expansion",
+          "date": "2016-01-01",
+          "description": "Jorf Lasfar fertilizer hub and slurry pipeline commissioned; African expansion accelerates"
+        }
+      ],
+      "id": "ocp",
+      "name": "OCP Group",
+      "regionOfActivity": "Casablanca",
+      "role": "Phosphate group",
+      "type": "hybrid"
+    },
+    {
+      "description": "Automaker operating the Tanger Med plant, the largest car factory in Africa, driving the export-oriented ecosystem.",
+      "events": [
+        {
+          "category": "milestone",
+          "date": "1959-01-01",
+          "description": "SOMACA assembly plant founded in Casablanca"
+        },
+        {
+          "category": "birth",
+          "date": "2012-02-09",
+          "description": "Renault Tanger Med plant inaugurated with 340,000-unit capacity"
+        },
+        {
+          "category": "expansion",
+          "date": "2023-01-01",
+          "description": "Dacia Jogger and Mobilize Duo assigned, deepening local integration"
+        }
+      ],
+      "id": "renault-maroc",
+      "name": "Renault Maroc",
+      "regionOfActivity": "Tangier",
+      "role": "Automaker",
+      "type": "private"
+    },
+    {
+      "description": "Automaker operating the Kénitra plant and supplier park; second pillar of the Moroccan car ecosystem.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2019-06-20",
+          "description": "PSA Kénitra plant inaugurated"
+        },
+        {
+          "category": "expansion",
+          "date": "2023-01-01",
+          "description": "Capacity doubled toward 200,000 units with Citroën Ami and Opel Rocks-e"
+        }
+      ],
+      "id": "stellantis-kenitra",
+      "name": "Stellantis Kénitra",
+      "regionOfActivity": "Kénitra",
+      "role": "Automaker",
+      "type": "private"
+    },
+    {
+      "description": "Public utility for electricity generation planning and drinking-water supply; operator of Noor solar and grid extension.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1963-01-01",
+          "description": "Office National de l'Électricité created for rural electrification"
+        },
+        {
+          "category": "transformation",
+          "date": "2012-01-01",
+          "description": "ONE and ONEP merged into ONEE (electricity and water)"
+        },
+        {
+          "category": "milestone",
+          "date": "2018-01-01",
+          "description": "Near-universal electrification achieved; Noor Midelt program launched"
+        }
+      ],
+      "id": "onee",
+      "name": "National Office of Electricity and Drinking Water (ONEE)",
+      "regionOfActivity": "Casablanca",
+      "role": "Energy-water utility",
+      "type": "public"
+    },
+    {
+      "description": "Historic telecom operator and largest listed group alongside banks; pan-African carrier across ten countries.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1998-01-01",
+          "description": "Split from the postal-telecom office as Maroc Telecom"
+        },
+        {
+          "category": "transformation",
+          "date": "2004-12-14",
+          "description": "Listed in Casablanca and Paris; Vivendi takes control"
+        },
+        {
+          "category": "transformation",
+          "date": "2013-11-04",
+          "description": "Etisalat acquires Vivendi's stake; Moov Africa footprint built"
+        }
+      ],
+      "id": "maroc-telecom",
+      "name": "Maroc Telecom",
+      "regionOfActivity": "Rabat",
+      "role": "Telecom operator",
+      "type": "private"
+    },
+    {
+      "description": "Largest banking group in Morocco and North Africa by market value; pan-African network across 25 countries.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2004-01-01",
+          "description": "BCM-Wafabank merger creates Attijariwafa bank"
+        },
+        {
+          "category": "expansion",
+          "date": "2008-01-01",
+          "description": "Sub-Saharan expansion via CBAO, BIM, and Société Générale buyouts"
+        },
+        {
+          "category": "milestone",
+          "date": "2025-01-01",
+          "description": "Top-ranked North African listed company by market capitalization"
+        }
+      ],
+      "id": "attijariwafa",
+      "name": "Attijariwafa Bank",
+      "regionOfActivity": "Casablanca",
+      "role": "Universal bank",
+      "type": "private"
+    },
+    {
+      "description": "Mutual-cooperative banking group rooted in popular banks; second-largest lender and major African footprint.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1961-01-01",
+          "description": "Banques Populaires network organized by Dahir"
+        },
+        {
+          "category": "transformation",
+          "date": "2004-01-01",
+          "description": "Listed vehicle BCP consolidates the group"
+        },
+        {
+          "category": "expansion",
+          "date": "2018-01-01",
+          "description": "Atlantic Bank and Banque Atlantique anchor West African growth"
+        }
+      ],
+      "id": "bcp",
+      "name": "Banque Centrale Populaire (BCP)",
+      "regionOfActivity": "Casablanca",
+      "role": "Cooperative bank",
+      "type": "hybrid"
+    },
+    {
+      "description": "Universal bank with historic trade-finance franchise and growing East and West African network.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1959-01-01",
+          "description": "Banque Marocaine du Commerce Extérieur founded for foreign trade"
+        },
+        {
+          "category": "transformation",
+          "date": "2008-01-01",
+          "description": "Rebranded Bank of Africa with continental ambitions"
+        },
+        {
+          "category": "expansion",
+          "date": "2019-01-01",
+          "description": "Casablanca Finance City headquarters tower completed"
+        }
+      ],
+      "id": "bank-of-africa",
+      "name": "Bank of Africa (BMCE Group)",
+      "regionOfActivity": "Casablanca",
+      "role": "Universal bank",
+      "type": "private"
+    },
+    {
+      "description": "Mining and metallurgy group active in gold, cobalt, and copper across Morocco and sub-Saharan Africa.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1930-01-01",
+          "description": "Mining origins in the Anti-Atlas precious-metals belt"
+        },
+        {
+          "category": "transformation",
+          "date": "1996-01-01",
+          "description": "Reorganized as Managem, the mining arm of Al Mada"
+        },
+        {
+          "category": "expansion",
+          "date": "2023-01-01",
+          "description": "Cobalt and copper projects positioned for battery value chains"
+        }
+      ],
+      "id": "managem",
+      "name": "Managem",
+      "regionOfActivity": "Casablanca",
+      "role": "Mining group",
+      "type": "private"
+    },
+    {
+      "description": "Port operator managing Casablanca and Nador terminals; key beneficiary of Tanger Med transshipment growth.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2006-12-01",
+          "description": "Split from the ports office (ODEP) as Marsa Maroc"
+        },
+        {
+          "category": "transformation",
+          "date": "2016-07-19",
+          "description": "Listed on the Casablanca Stock Exchange"
+        },
+        {
+          "category": "expansion",
+          "date": "2024-01-01",
+          "description": "Nador West Med concession extends the terminal portfolio"
+        }
+      ],
+      "id": "marsa-maroc",
+      "name": "Marsa Maroc",
+      "regionOfActivity": "Casablanca",
+      "role": "Port operator",
+      "type": "hybrid"
+    },
+    {
+      "description": "Largest private electricity producer operating the Jorf Lasfar coal complex; backbone of baseload supply.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1997-01-01",
+          "description": "Jorf Lasfar independent power project awarded"
+        },
+        {
+          "category": "transformation",
+          "date": "2013-01-01",
+          "description": "Abu Dhabi TAQA takes control"
+        },
+        {
+          "category": "milestone",
+          "date": "2024-01-01",
+          "description": "Listed among the top North African companies by market value"
+        }
+      ],
+      "id": "taqa-morocco",
+      "name": "TAQA Morocco",
+      "regionOfActivity": "El Jadida",
+      "role": "Power producer",
+      "type": "private"
+    },
+    {
+      "description": "Flag carrier connecting Casablanca's hub to Europe, Africa, and the Americas; Oneworld member.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1957-06-29",
+          "description": "Royal Air Maroc formed from Air Atlas and Air Maroc"
+        },
+        {
+          "category": "expansion",
+          "date": "2009-01-01",
+          "description": "Casablanca hub strategy targets West African connections"
+        },
+        {
+          "category": "milestone",
+          "date": "2020-04-01",
+          "description": "Joins the Oneworld alliance"
+        }
+      ],
+      "id": "ram",
+      "name": "Royal Air Maroc",
+      "regionOfActivity": "Casablanca",
+      "role": "Flag carrier",
+      "type": "public"
+    },
+    {
+      "description": "Sugar refining group controlling the national quota; agro-industrial pillar from Doukkala to Gharb.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1929-01-01",
+          "description": "Sugar refineries established in Casablanca"
+        },
+        {
+          "category": "transformation",
+          "date": "1993-01-01",
+          "description": "Privatized to the SNI/ONA holding"
+        },
+        {
+          "category": "milestone",
+          "date": "2015-01-01",
+          "description": "Listed subsidiary mills consolidated under Cosumar group"
+        }
+      ],
+      "id": "cosumar",
+      "name": "Cosumar",
+      "regionOfActivity": "Casablanca",
+      "role": "Sugar group",
+      "type": "private"
+    },
+    {
+      "description": "Fuel distribution and retail leader; downstream anchor of the Akwa Group conglomerate.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1959-01-01",
+          "description": "Afriquia fuel distribution network founded"
+        },
+        {
+          "category": "expansion",
+          "date": "1999-01-01",
+          "description": "Storage and LPG positions built nationwide"
+        },
+        {
+          "category": "milestone",
+          "date": "2020-01-01",
+          "description": "Among the top Moroccan groups by revenue alongside OCP and Renault"
+        }
+      ],
+      "id": "afriquia",
+      "name": "Afriquia SMDC",
+      "regionOfActivity": "Casablanca",
+      "role": "Fuel distributor",
+      "type": "private"
+    },
+    {
+      "description": "Oldest university and largest doctoral-training system; core of public research output.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1957-10-21",
+          "description": "Mohammed V University founded in Rabat"
+        },
+        {
+          "category": "transformation",
+          "date": "2014-09-01",
+          "description": "Split into Agdal and Souissi universities, reunified in 2021"
+        },
+        {
+          "category": "milestone",
+          "date": "2023-01-01",
+          "description": "Top-ranked Moroccan university in global rankings"
+        }
+      ],
+      "id": "um5-rabat",
+      "name": "Mohammed V University of Rabat",
+      "regionOfActivity": "Rabat",
+      "role": "University",
+      "type": "public"
+    },
+    {
+      "description": "Metropolitan university of Greater Casablanca; engineering, medicine, and management training hub.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1975-01-01",
+          "description": "University of Hassan II founded in Casablanca"
+        },
+        {
+          "category": "transformation",
+          "date": "2014-09-01",
+          "description": "Merged with Mohammedia university into a single institution"
+        }
+      ],
+      "id": "uh2-casablanca",
+      "name": "Hassan II University of Casablanca",
+      "regionOfActivity": "Casablanca",
+      "role": "University",
+      "type": "public"
+    },
+    {
+      "description": "Selective English-language public university modeled on the American system; business and engineering elite training.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1993-01-01",
+          "description": "Founded by royal Dahir in Ifrane"
+        },
+        {
+          "category": "milestone",
+          "date": "1995-01-16",
+          "description": "First cohort admitted; AACSB-accredited business school follows"
+        }
+      ],
+      "id": "al-akhawayn",
+      "name": "Al Akhawayn University",
+      "regionOfActivity": "Ifrane",
+      "role": "University",
+      "type": "public"
+    },
+    {
+      "description": "Premier grande-école training state engineers for ministries, utilities, and industry since independence.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1959-01-01",
+          "description": "École Mohammadia d'Ingénieurs founded in Rabat"
+        },
+        {
+          "category": "milestone",
+          "date": "1990-01-01",
+          "description": "Computing and telecoms tracks feed the offshoring boom"
+        }
+      ],
+      "id": "emi",
+      "name": "École Mohammadia d'Ingénieurs (EMI)",
+      "regionOfActivity": "Rabat",
+      "role": "Engineering school",
+      "type": "public"
+    },
+    {
+      "description": "National school of computer science and systems analysis; backbone of the digital-services talent pipeline.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1992-01-01",
+          "description": "ENSIAS founded in Rabat"
+        },
+        {
+          "category": "expansion",
+          "date": "2010-01-01",
+          "description": "Data, AI, and cybersecurity tracks scaled with offshoring demand"
+        }
+      ],
+      "id": "ensias",
+      "name": "National School of Computer Science (ENSIAS)",
+      "regionOfActivity": "Rabat",
+      "role": "Engineering school",
+      "type": "public"
+    },
+    {
+      "description": "Public vocational-training office running institutes (ISTA/ITA) across regions; mass technician and crafts training.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "1974-01-01",
+          "description": "OFPPT created for vocational training"
+        },
+        {
+          "category": "expansion",
+          "date": "2013-01-01",
+          "description": "Sectoral institutes aligned with industrial ecosystems (auto, aero, textile)"
+        }
+      ],
+      "id": "ofppt",
+      "name": "Office of Vocational Training (OFPPT)",
+      "regionOfActivity": "Casablanca",
+      "role": "Vocational training",
+      "type": "public"
+    },
+    {
+      "description": "Tuition-free peer-learning coding schools backed by OCP/UM6P; gamified software-engineer pipeline.",
+      "events": [
+        {
+          "category": "birth",
+          "date": "2018-01-01",
+          "description": "1337 Khouribga campus opened on the 42 model"
+        },
+        {
+          "category": "expansion",
+          "date": "2021-01-01",
+          "description": "Benguerir and YouCode satellites extend the network"
+        }
+      ],
+      "id": "ecole-1337",
+      "name": "1337 Coding School",
+      "regionOfActivity": "Khouribga",
+      "role": "Coding school",
+      "type": "hybrid"
+    }
+  ]
+}
