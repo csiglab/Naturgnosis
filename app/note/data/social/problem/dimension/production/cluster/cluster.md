@@ -402,4 +402,5 @@ industry clusters: Resources, networks, and regional advantages." *Growth and Ch
 - Functional Structure in Production Networks  - https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.666712/full
 - The capability profiles of global production networks: an empirical typology to identify opportunities for network reconfiguration and calibration - - https://www.tandfonline.com/doi/full/10.1080/09537287.2024.2387299
 - Characterization of the community structure in a large-scale production network in Japan - https://arxiv.org/abs/1706.00203
+- [Invest in Tampere](https://investintampere.com/)
 

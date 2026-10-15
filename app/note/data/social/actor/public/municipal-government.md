@@ -147,6 +147,12 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 > As their own social elements, by reference — a [Mancomunidad](note.html?n=social/normative/institution/institution/mancomunidad.md) is an institution associating municipalities; a metropolitan authority is a distinct government body. They associate the municipal government; they are not parts of it. Link them from the Association branch rather than nesting them.
 
+### How can a municipality act as a local public-service aggregator, coordinating a market of specialized providers?
+
+> New Model -> Uses Economies of Scale to improve the used of resources.
+
+> The municipality can act as a public-service aggregator by consolidating local demand, defining service standards, coordinating providers, and ensuring universal access and accountability. Rather than duplicating administrative infrastructure and production capabilities, it can rely on a coordinated market of specialized public, private, and nonprofit providers to deliver services efficiently while retaining political authority and oversight.
+
 ## References
 
 - [Government](note.html?n=social/actor/public/government.md) (parent kind; Local Government is its sub-type)
@@ -159,3 +165,6 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 - [Facet](note.html?n=social/framework/facet.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
+- [Tampere Council Model](https://www.tampere.fi/en/city-and-decision-making/decision-makers-and-decisions?utm_source=chatgpt.com)
+- [How to Make Inter‑Municipal Co‑operation Work](https://www.oecd.org/en/publications/how-to-make-inter-municipal-co-operation-work_44d03db6-en/full-report/why-engage-in-inter-municipal-co-operation-drivers-benefits-and-challenges_be24ebbb.html?utm_source=chatgpt.com)
+

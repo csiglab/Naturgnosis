@@ -1,11 +1,8 @@
-# Confucianism
-
-: 12
+# Confucius System
 
 > **Confucianism** is a complex and multifaceted philosophical, ethical, and socio-political system that originated in China over two millennia ago, based on the teachings of Confucius (Kong Fuzi or Kongzi, 551–479 BCE). It is not a religion in the traditional sense, but rather a system of moral values and principles designed to cultivate ethical behavior, social harmony, and political stability.
-> 
 
-## Index
+## ...
 
 ### **Ethical and Moral Framework**
 
@@ -54,4 +51,5 @@
 
 ## References
 
-- https://en.wikipedia.org/wiki/Confucianism
+- [Confucianism](https://en.wikipedia.org/wiki/Confucianism)
+- [Four Books and Five Classics](https://en.wikipedia.org/wiki/Four_Books_and_Five_Classics)

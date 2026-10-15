@@ -1,3 +1,7 @@
+On the usefulness of having a defense industry - as a source of technical rpogress and also clustering anckor for other industries:
+
+- https://www.insta.fi/en
+
 https://en.wikipedia.org/wiki/Credit_default_swap
 
 https://www.psd.gov.sg/newsroom/public-sector-governance-bill-by-min-ong-ye-kung-at-parliament/
@@ -1956,3 +1960,6 @@ Yin, Jianfeng; Wu, Jianwei; Wang, Ze
 | **KISTEP** — Korea Institute of S&T Evaluation and Planning | Science and technology planning and evaluation | National R&D priorities, investment analysis, research-program evaluation |
 | **KDB** — Korea Development Bank | Development finance and industrial financing | Long-term finance, industrial investment, financing of large-scale projects |
 | **KOTRA** — Korea Trade-Investment Promotion Agency | Trade promotion and international business support | Export development, market intelligence, international industrial cooperation |
+
+
+Git Attributes
