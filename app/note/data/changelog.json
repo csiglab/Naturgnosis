@@ -256,6 +256,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Updated Developmentalism link after renaming social/synontic/ideology/ to social/synontic/ideational/."
       }
     ]
   },
@@ -1141,6 +1146,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Retargeted dead Notion Morality link to the imported local note at social/synontic/ideational/morality/morality.md."
       }
     ]
   },
@@ -1590,12 +1600,17 @@
     ]
   },
   {
-    "file_path": "social/synontic/ideology/capitalism.md",
+    "file_path": "social/synontic/ideational/capitalism.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
       }
     ]
   },
@@ -2661,6 +2676,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Retargeted dead Notion Morality link (and fixed the Moralty label) to the imported local note at social/synontic/ideational/morality/morality.md."
       }
     ]
   },
@@ -2906,6 +2926,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Updated Developmentalism link after renaming social/synontic/ideology/ to social/synontic/ideational/."
       }
     ]
   },
@@ -3171,6 +3196,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Updated Developmentalism link after renaming social/synontic/ideology/ to social/synontic/ideational/."
       }
     ]
   },
@@ -7381,6 +7411,281 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/observer.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "fix",
+        "summary": "Updated Developmentalism link after renaming social/synontic/ideology/ to social/synontic/ideational/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/belief.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/bushido.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/catholica.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/civilization.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/confucianism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/developmentalism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/epicureanism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/fascism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/georgism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/humanity.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/ideational.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "docs",
+        "summary": "Bounded Ideational to socially transmitted moral schemas and routed normative machinery to Philosophia Moralis et Operis; moved directory from social/synontic/ideology/ to social/synontic/ideational/."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "docs",
+        "summary": "Linked the imported Morality subtree at social/synontic/ideational/morality/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/irreligion.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/liberalism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/marxism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/mercantilism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/nationalism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/neoliberalism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/nihilism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/patriotism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/physiocrats.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/pobrismo.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/populism.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/religion.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/tomismo.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/morality/morality.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Imported Morality exposition from the Notion export into the Ideational subtree; normalized links to bare corpus references, resolved reference titles, dropped dead Notion-internal links and empty stubs."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/morality/good.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Imported Good exposition from the Notion export into the Ideational subtree; normalized links and removed Notion export artifacts."
       }
     ]
   }

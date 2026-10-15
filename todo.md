@@ -1944,3 +1944,15 @@ https://www.government.se/government-agencies/
 Yin, Jianfeng; Wu, Jianwei; Wang, Ze
 
 - https://www.government.se/government-agencies
+
+
+
+| Organization | Principal role | Industrial-policy capacity to investigate |
+|---|---|---|
+| **MOTIR** — Ministry of Trade, Industry and Resources | Industrial strategy, sectoral policy, industrial competitiveness, trade | Strategic direction, interagency coordination, industrial-policy design |
+| **KIET** — Korea Institute for Industrial Economics & Trade | Industrial and economic research | Industrial analysis, technology and sectoral assessment, policy evaluation |
+| **KEIT** — Korea Evaluation Institute of Industrial Technology | Industrial technology R&D programs | Technology-program design, project evaluation, R&D portfolio management |
+| **KIAT** — Korea Institute for Advancement of Technology | Industrial technology advancement and industrial cooperation | Technology commercialization, industrial capability development, technology transfer |
+| **KISTEP** — Korea Institute of S&T Evaluation and Planning | Science and technology planning and evaluation | National R&D priorities, investment analysis, research-program evaluation |
+| **KDB** — Korea Development Bank | Development finance and industrial financing | Long-term finance, industrial investment, financing of large-scale projects |
+| **KOTRA** — Korea Trade-Investment Promotion Agency | Trade promotion and international business support | Export development, market intelligence, international industrial cooperation |

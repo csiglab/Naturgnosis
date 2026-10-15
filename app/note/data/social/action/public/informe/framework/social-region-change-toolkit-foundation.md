@@ -120,7 +120,7 @@ QA:
 
 - Action Toolkit
 
-- [Developmentalism](note.html?n=social/synontic/ideology/developmentalism.md)
+- [Developmentalism](note.html?n=social/synontic/ideational/developmentalism.md)
 
 - Social Ontology
 

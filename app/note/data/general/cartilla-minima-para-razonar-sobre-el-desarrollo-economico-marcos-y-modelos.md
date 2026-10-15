@@ -834,5 +834,5 @@ Key Elements:
 - [A decade of economic complexity](https://www.youtube.com/watch?v=GNTdw47HZbE)
 - [Paul Romer: Rules, Technology and Innovation](https://www.youtube.com/watch?v=0bDs5VTafEA)
 - [Technological paradigms, labour creation and destruction in a multi-sector agent- based model](https://www.youtube.com/watch?v=vuGliNvnfc4)
-- [Developmentalism](note.html?n=social/synontic/ideology/developmentalism.md)
+- [Developmentalism](note.html?n=social/synontic/ideational/developmentalism.md)
 - [Agency](../social/action/public/agency.md)
