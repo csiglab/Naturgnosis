@@ -193,11 +193,11 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### Is government-wide administration a single system?
 
-> No. The public sector is not a unitary administrable object but a heterogeneous assemblage of agencies with distinct mandates, goal functions, and professional logics. What is conventionally called Public Administration at that scale is better understood as meta-administration: coordination mechanisms, standards, shared services, and oversight architectures under which differentiated administrative regimes coexist. System detail lives in [Government-Wide Administrative System](note.html?n=social/actor/public/administration/gov-wide-administration.md).
+> No. The public sector is not a unitary administrable object but a heterogeneous assemblage of agencies with distinct mandates, goal functions, and professional logics. What is conventionally called Public Administration at that scale is better understood as meta-administration: coordination mechanisms, standards, shared services, and oversight architectures under which differentiated administrative regimes coexist. System detail lives in [Government-Wide Administrative System](note.html?n=social/actor/public/gov-wide-administration.md).
 
 ### Where do workforce, civil service, and HR units decompose?
 
-> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](note.html?n=social/actor/public/administration/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](note.html?n=social/actor/public/administration/hru.md). Individual employment positions decompose in [Public Employee](note.html?n=social/actor/public/administration/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](note.html?n=social/actor/public/administration/informe/mandarinate.md) and [Course of Honors](note.html?n=social/actor/public/administration/informe/course-of-honors.md).
+> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](note.html?n=social/actor/public/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](note.html?n=social/actor/public/catalog/hru.md). Individual employment positions decompose in [Public Employee](note.html?n=social/actor/public/catalog/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](note.html?n=social/actor/public/informe/mandarinate.md) and [Course of Honors](note.html?n=social/actor/public/informe/course-of-honors.md).
 
 ### Is there an overarching abstraction that allows us to classify and cluster government-wide administrative systems along a single dimension, such as an administrative model, administrative paradigm, administrative philosophy, or system type? What else?
 
@@ -378,10 +378,10 @@ See
 - [Public Policy](note.html?n=social/action/public/guidance/policy.md)
 - [Plan](note.html?n=social/action/organization/plan.md)
 - [Program](note.html?n=social/action/organization/program.md)
-- [Government-Wide Administrative System](note.html?n=social/actor/public/administration/gov-wide-administration.md)
-- [Civil Service](note.html?n=social/actor/public/administration/civil-service.md)
-- [Public Employee](note.html?n=social/actor/public/administration/employee.md)
-- [Human Resource Unit](note.html?n=social/actor/public/administration/hru.md)
+- [Government-Wide Administrative System](note.html?n=social/actor/public/gov-wide-administration.md)
+- [Civil Service](note.html?n=social/actor/public/civil-service.md)
+- [Public Employee](note.html?n=social/actor/public/catalog/employee.md)
+- [Human Resource Unit](note.html?n=social/actor/public/catalog/hru.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)
 - [Public Administration: Journal Rankings](https://ooir.org/journals.php?category=Public%20Administration&field=Social%20Sciences&metric=jif)

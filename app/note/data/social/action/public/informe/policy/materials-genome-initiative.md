@@ -118,10 +118,10 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 - [Physical Material Technology](note.html?n=technique/systems/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
 - [Laboratory](note.html?n=social/actor/laboratory.md) (the host unit the governance regime binds)
 - [Research Group](note.html?n=social/actor/research-group.md) (the depositing unit in the agentic spine)
-- [Public Research Institutes (PRI)](note.html?n=social/actor/public/pri.md) (the public-research role the laboratories occupy)
-- [Lawrence Berkeley National Laboratory](note.html?n=social/actor/public/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
-- [National Renewable Energy Laboratory](note.html?n=social/actor/public/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
-- [Argonne National Laboratory](note.html?n=social/actor/public/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
+- [Public Research Institutes (PRI)](note.html?n=social/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)
+- [Lawrence Berkeley National Laboratory](note.html?n=social/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
+- [National Renewable Energy Laboratory](note.html?n=social/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
+- [Argonne National Laboratory](note.html?n=social/actor/public/catalog/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
 - [SRI International](note.html?n=social/actor/private/research/usa/sri-international.md) (participant in the curated-data infrastructure)
 - National Science and Technology Council (2011). *Materials Genome Initiative for Global Competitiveness*, June 2011
 - NSTC Subcommittee on the Materials Genome Initiative (2016). *The First Five Years of the Materials Genome Initiative: Accomplishments and Technical Highlights*, August 2016

@@ -261,9 +261,10 @@ def load_links(index_paths: set, warnings: list) -> list:
 
     The registry is the single fixed file data/links.json (a special file: never
     a note, never naming-validated). Each entry declares a directed support link;
-    endpoints are corpus-relative note paths or dir/ prefixes. A dir `from` expands
-    to every indexed note beneath it; a dir `to` stays a scope link. Unknown
-    endpoints warn and are dropped, never failing the build.
+    `from` is a directory node, `to` is a directory or a note. A dir `from` stays
+    a directory node (embedded as {from: "<dir>/", ...}) — it is not expanded onto
+    its descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
+    dropped, never failing the build.
     """
     if not LINKS.is_file():
         return []
@@ -286,10 +287,7 @@ def load_links(index_paths: set, warnings: list) -> list:
             if not (NOTES / frm).is_dir():
                 warnings.append(f"links.json (unknown dir: {frm})")
                 continue
-            sources = sorted(p for p in index_paths if p.startswith(frm))
-            if not sources:
-                warnings.append(f"links.json (empty dir: {frm})")
-                continue
+            sources = [frm]
         elif frm in index_paths:
             sources = [frm]
         else:

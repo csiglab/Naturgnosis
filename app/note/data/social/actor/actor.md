@@ -98,7 +98,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Public Organization](note.html?n=social/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
 - [Education Actor](note.html?n=social/actor/education-actor.md) (warranted teaching body)
 - [Laboratory](note.html?n=social/actor/laboratory.md) (research host unit)
-- [Public Research Institutes](note.html?n=social/actor/public/pri.md) (public-research role)
+- [Public Research Institutes](note.html?n=social/actor/public/catalog/pri.md) (public-research role)
 - [Research Actor](note.html?n=social/actor/research.md) (research-functional subtype hub: the research actor family)
 - [Finance Actor](note.html?n=social/actor/finance.md) (finance-functional subtype hub: the finance actor family)
 - [Political Party](note.html?n=social/actor/political-party.md) (political subtype)

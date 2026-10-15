@@ -666,6 +666,11 @@
         "date": "2026-10-14",
         "kind": "chore",
         "summary": "Renamed actor/public/space/ to actor/public/polity/; remapped the note link."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -1986,6 +1991,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -2171,6 +2181,16 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Atlas pointer updated to five methodology-differentiated systems."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed the two atlas links to the split Atlas of Public Organization Comparative Representation Systems (atlas/public-organization.html)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -2186,6 +2206,11 @@
         "date": "2026-10-13",
         "kind": "docs",
         "summary": "Split the research family into public/ and private/ by public authority; hub now links both halves."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -2301,6 +2326,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -3116,6 +3146,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved from informe/guidance/ up to informe/ as the guidance level is removed (content unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -3576,6 +3611,16 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed administration links to the flattened social/actor/public/ paths."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated internal links/paths after the public/ type-instance reorg."
       }
     ]
   },
@@ -5886,6 +5931,1456 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Renormalized body terminology to Comparactive Representation / Comparactive Representation System / Characteristic Element / Comparative Profile; math sense keeps characterization."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/civil-service.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/employee.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/hru.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/informe/course-of-honors.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/informe/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/informe/informe.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/informe/ (directory flattened into public/)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed the two atlas links to the split government-wide administration atlas viewer."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/informe/mandarinate.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/informe/ (directory flattened into public/)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/gov-wide-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Moved up from administration/; removed generic methodology and restated evaluation criteria now canonical in the Philosophia Representationis Comparativae et Operis note, replaced with doctrine links."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed the atlas link to the split Atlas of Government-Wide Administration Comparative Representation Systems (atlas/gov-wide-administration.html)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/suzhou-industrial-park.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/colegio-oficial-de-ingenieros-industriales-de-navarra.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/hong-kong-chief-executive-policy-unit.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/pri.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/hru.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/employee.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/nina.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/norwegian-computing-center.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/nilu.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/institute-for-energy-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/nibio.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/nupi.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/simula-research-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nor/norwegian-institute-of-public-health.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/forschungszentrum-julich-gmbh.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/kaiser-wilhelm-society.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/karlsruhe-institute-of-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/max-planck-society.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/max-planck-institute-for-the-study-of-societies.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/fraunhofer-institute-for-systems-and-innovation-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/fraunhofer-society.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/fraunhofer-institute-for-material-and-beam-technology-iws.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/fraunhofer-institute-for-manufacturing-technology-and-advanced.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/max-planck-institute-for-polymer-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/sprind.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/federal-institute-for-geosciences-and-natural-resources.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/marx-planck-institute-for-sustainable-materials.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/german-aerospace-center.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/max-planck-institute-for-mathematics.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/deu/prussian-academy-of-sciences.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/gbr/national-physical-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/dnk/dnrf/dnrf/danish-national-research-foundation.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/swe/rise-research-institutes-of-sweden.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/chinese-academy-of-sciences-cas.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/state-key-laboratory-of-advanced-metallurgy.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/institute-of-high-energy-physics.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/shanghai-institute-of-ceramics.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/hong-kong-applied-science-and-technology-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/institute-of-metal-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/beijing-institute-of-mathematical-sciences-and-applications.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/shenzhen-institutes-of-advanced-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/institute-of-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/chn/cas/technical-institute-of-physics-and-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/fra/institut-national-de-recherche-en-informatique-et-en.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/fra/office-national-d-etudes-et-de-recherches-aerospatiales-onera.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/lincoln-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/manufacturing-usa.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/argonne-national-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/ames-research-center.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/national-aeronautics-and-space-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/los-alamos-national-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/national-institute-of-standards-and-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/oak-ridge-national-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/jet-propulsion-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/nsf/industry-university-cooperative-research-centers-iucrc.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/nsf/engineering-research-center-erc.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/usa/nsf/u-s-national-science-foundation-nsf.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/che/paul-scherrer-institute.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/che/swiss-federal-laboratories-for-materials-science-and-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/sgp/astar/agency-for-science-technology-and-research-a-star.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/sgp/astar/a-star-institute-of-materials-research-and-engineering.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/kor/agency-for-defense-development.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/kor/korea-development-institute.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/kor/graduate-institute-of-ferrous-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/kor/electronics-and-telecommunications-research-institute.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/national-institutes-for-quantum-science-and-technology.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/national-institute-for-materials-science.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/national-graduate-institute-for-policy-studies.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/riken.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/institute-for-materials-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/jpn/national-institute-of-advanced-industrial-science.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/srb/mihajlo-pupin-institute.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nld/netherlands-organisation-for-applied-scientific-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nld/royal-netherlands-aerospace-center.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/nld/nwo/dutch-research-council-nwo.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/bra/brazilian-agricultural-research-corporation-embrapa.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/bra/embrapii.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/bra/emater.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/arg/instituto-interdisciplinario-de-economia-politica.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/esp/csic/consejo-superior-de-investigaciones-cientificas.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/esp/csic/instituto-de-ciencias-de-la-tierra-jaume-almera.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/aus/geoscience-australia.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/aus/the-commonwealth-scientific-and-industrial-research.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/ita/cnr/consiglio-nazionale-delle-ricerche-cnr.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/fin/vtt-technical-research-centre.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/fin/rcf/research-council-of-finland.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/twn/itri.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/twn/council-for-economic-planning-and-development.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/research/twn/statistical-bureau-of-taiwan.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/export-development-canada.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/government-guidance-fund.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/exportimport-bank-of-the-united-states.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/european-central-bank.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/world-bank.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/government-national-mortgage-association.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/sveriges-riksbank.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/swiss-financial-market-supervisory-authority.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/federal-national-mortgage-association.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/monetary-authority-of-singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/development-bank-of-singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/international-monetary-fund.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/government-pension-fund-of-norway.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/federal-home-loan-mortgage-corporation.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/federal-reserve-system.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/finance/inter-american-development-bank.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/international-trade-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/new-zealand-trade-and-enterprise.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/invest-hong-kong.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/agencia-vasca-de-desarrollo-empresarial.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/israel-innovation-authority.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/korea-trade-investment-promotion-agency.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/agencia-para-la-competitividad-de-la-empresa.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/singapore-economic-development-board.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/japan-external-trade-organization.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/taiwan-external-trade-development-council.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/state-development-and-investment-corporation.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/austrade.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/istituto-per-la-ricostruzione-industriale.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/department-for-business-and-trade.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/switzerland-global-enterprise.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/prochile.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/enterprise-ireland.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/selectusa.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/state-owned-assets-supervision-and-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/finnish-innovation-fund.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/enterprise-singapore.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/ida-ireland-industrial-development-authority.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/ministry-of-international-trade-and-industry.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/industrial-development-bureau.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/instituto-nacional-de-industria.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/united-states-small-business-administration.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/catalog/development/germany-trade-and-invest.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
       }
     ]
   }

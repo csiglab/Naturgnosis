@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas of Government-Wide Administration Reference Systems</title>
+    <title>Atlas of Public Organization Comparative Representation Systems</title>
     <link rel="icon" href="/shared/img/favicon.ico">
     <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -186,8 +186,16 @@
             border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.2rem 0.65rem; }
         .groupnav a:hover { border-color: var(--accent-steel); }
         .axis { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
-            padding: 0.9rem 1.1rem; margin: 0.6rem 0; box-shadow: var(--shadow-sm); }
+            padding: 0.9rem 1.1rem 1rem; margin: 0.6rem 0; box-shadow: var(--shadow-sm);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
+        .axis.scale-nominal { box-shadow: inset 2px 0 0 rgba(107, 140, 170, 0.45), var(--shadow-sm); }
+        .axis.scale-ordinal { box-shadow: inset 2px 0 0 rgba(212, 168, 87, 0.55), var(--shadow-sm); }
+        .axis:hover { border-color: var(--border-strong); transform: translateY(-1px); }
         .axis:target { border-color: var(--accent-cyan); }
+        .legend { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
+            text-transform: uppercase; color: var(--text-muted); }
+        .legend .badge { cursor: default; }
         .axis-head { display: flex; gap: 0.55rem; align-items: baseline; flex-wrap: wrap; }
         .axis-name { font-weight: 600; font-size: 0.95rem; }
         .badge { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase;
@@ -195,6 +203,8 @@
         .badge.scale-nominal { color: var(--accent-steel); border-color: var(--accent-steel); }
         .badge.scale-ordinal { color: var(--accent-amber); border-color: var(--accent-amber); }
         .axis-desc { color: var(--text-secondary); margin-top: 0.35rem; font-size: 0.88rem; }
+        .axis-desc .axis-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--text-ghost); margin-right: 0.2rem; }
         .values { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.55rem; align-items: center; }
         .values .axis-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
             text-transform: uppercase; color: var(--text-ghost); margin-right: 0.2rem; }
@@ -216,8 +226,6 @@
             color: var(--text-muted); }
         .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
         .foot-inner a:hover { color: var(--accent-cyan); }
-        .foot-meta { width: 100%; flex-basis: 100%; letter-spacing: 0.06em; }
-        .foot-meta a { text-transform: none; letter-spacing: 0.02em; }
         #error { color: var(--accent-rose); margin: 1rem 0; }
         .hidden { display: none !important; }
         @media (max-width: 640px) {
@@ -230,9 +238,9 @@
 <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 <nav class="nav">
     <div class="nav-inner">
-        <a class="nav-brand" href="../../../../../../web/index.html">Naturgnosis</a>
+        <a class="nav-brand" href="../../../../../web/index.html">Naturgnosis</a>
         <div class="nav-right">
-            <div class="nav-links"><a href="../../../../../../web/index.html">Catalog</a></div>
+            <div class="nav-links"><a href="../../../../../web/index.html">Catalog</a></div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </div>
@@ -240,68 +248,48 @@
 <div class="layout">
 <header>
     <nav class="crumbs" aria-label="Breadcrumbs">
-        <a href="../../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/actor">collective</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/actor">government</a><span class="sep">/</span><a href="../../../../../../web/index.html?dir=social/actor">administration</a><span class="sep">/</span><span class="here">Atlas</span>
+        <a href="../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../web/index.html?dir=social/actor">actor</a><span class="sep">/</span><a href="../../../../../web/index.html?dir=social/actor/public">public</a><span class="sep">/</span><span class="here">Atlas</span>
     </nav>
-    <h1>Atlas of Government-Wide Administration Reference Systems<em>.</em></h1>
-    <p class="lede" id="lede">A set of <strong>reference systems for the space of every possible
-    government-wide administration system</strong> — coordinate frames, not classifications. Each
-    frame is a collection of independent <strong>axes</strong> with exhaustive <strong>value
-    sets</strong>: assign one value per axis and you have the <strong>coordinates</strong> of a
-    concrete system, the way coordinates locate a point in geometrical space. The frames name no
-    subsets; administrative models and typologies (Weberian, NPM, SIGMA, PEFA…) are deliberately
-    excluded — they partition the space rather than measure it. Canonical tables live in the
-    <a id="ledeGov" href="../../../../../../web/note.html?n=social/actor/public/government.md">Government</a>
+    <h1>Atlas of Public Organization Comparative Representation Systems<em>.</em></h1>
+    <p class="lede" id="lede">A set of <strong>comparative representation systems for
+    comparing public organizations across polities and periods</strong> — each system states
+    its own <strong>universe</strong>, purpose, and version, and is a set of
+    <strong>characteristic elements</strong>, each with its <strong>value set</strong> and
+    <strong>assignment rule</strong>: assign one value per element and you have the
+    <strong>comparative profile</strong> of a concrete instance. The systems name no
+    verdicts; evaluation uses the elements, never a single rank. Canonical tables live in the
+    <a id="ledeOrg" href="../../../../../web/note.html?n=social/actor/public/public-organization.md">Public Organization</a>
     note; this atlas is an explorer, not a fork.</p>
     <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
+
 </header>
 
 <section id="spaceSection" class="hidden">
-    <h2>The space, and the frames<em>.</em></h2>
+    <h2>The space, and the systems<em>.</em></h2>
     <p class="section-desc" id="spaceDesc"></p>
     <div class="panel"><div class="chips" id="spaceChips"></div></div>
 </section>
 
 <section id="gridSection" class="hidden">
-    <h2>The reference frames<em>.</em></h2>
-    <p class="section-desc">Each frame measures the same space along different axes. Select a row to
-    inspect its axes. <span class="origin note">note</span> is the example frame from the corpus;
-    <span class="origin authored">authored</span> frames are built here from corpus bases;
-    <span class="origin wwbi">WWBI</span> frames use the World Bank Worldwide Bureaucracy Indicators.</p>
+    <h2>The representation systems<em>.</em></h2>
+    <p class="section-desc">Each system profiles the same space through different characteristic
+    elements. Select a row to inspect its elements. <span class="origin note">note</span> marks
+    systems drawn directly from corpus notes; <span class="origin authored">authored</span>
+    systems are synthesized here from corpus bases.</p>
     <div class="panel"><div style="overflow-x:auto"><table class="grid" id="gridTable">
-        <thead><tr><th>Reference system</th><th>Origin</th><th>Axis basis</th><th>Groups</th><th>Axes</th></tr></thead>
+        <thead><tr><th>Comparative representation system</th><th>Origin</th><th>Basis</th><th>Elements</th></tr></thead>
         <tbody></tbody>
     </table></div></div>
 </section>
 
-<section id="guideSection">
-    <h2>How to locate a system<em>.</em></h2>
-    <p class="section-desc">The frames measure; they do not classify. To place any real
-    administration in the space:</p>
-    <ol class="steps">
-        <li><strong>Pick a frame.</strong> One frame may suffice for a focused question; using several
-        triangulates the same system from independent axes.</li>
-        <li><strong>Assign a coordinate per axis.</strong> For every axis, record the value that fits.
-        <span class="badge scale-nominal" style="font-size:0.56rem">nominal</span> axes take distinct
-        categories; <span class="badge scale-ordinal" style="font-size:0.56rem">ordinal</span> axes take a
-        rung on an ordered spectrum. Leave inapplicable axes unset rather than forcing a value.</li>
-        <li><strong>Read the configuration, not a score.</strong> Two systems are two points in the same
-        space; their distance is the pattern of agreements and differences across axes. No axis
-        aggregates into a single rank.</li>
-    </ol>
-    <div class="coords">Worked reading, mixing frames: a system at
-    <code>Centralization: Centralized</code> (properties) × <code>Staffing authority: Central personnel authority</code>
-    (decision-rights) × <code>Budgeting function: Centralized</code> (function-allocation) ×
-    <code>Public-private wage premium: Premium</code>, <code>Wage-bill size: Large</code> (WWBI) sits in the
-    centralized, fiscally heavy region of the space. Method and caveats live in the
-    <a id="guideGovWide" href="../../../../../../web/note.html?n=social/actor/public/administration/gov-wide-administration.md">Government-Wide Administrative System</a> note.</div>
-</section>
-
 <section id="explorerSection">
-    <h2>Inspect the frames<em>.</em></h2>
+    <h2>Inspect the systems<em>.</em></h2>
     <div class="toolbar">
-        <input id="search" type="search" placeholder="Search axes, value sets across all frames…" autocomplete="off">
+        <input id="search" type="search" placeholder="Search elements, value sets, rules across all systems…" autocomplete="off">
         <span class="counts" id="counts"></span>
     </div>
+    <p class="legend"><span class="badge scale-nominal">nominal</span> unordered categories
+        <span class="badge scale-ordinal">ordinal</span> ranked values</p>
     <div id="globalHits" class="hidden panel"></div>
     <div class="tabs" id="tabs" role="tablist"></div>
     <div id="error" hidden></div>
@@ -310,20 +298,15 @@
 </div>
 <footer>
     <div class="foot-inner">
-        <div class="foot-meta"><span id="footMeta"></span>Canonical tables:
-        <a id="footGov" href="../../../../../../web/note.html?n=social/actor/public/government.md">Government</a> ·
-        <a id="footGovWide" href="../../../../../../web/note.html?n=social/actor/public/administration/gov-wide-administration.md">Government-Wide Administrative System</a> ·
-        <a id="footAdmin" href="../../../../../../web/note.html?n=social/actor/public/administration/administration.md">Public Administration</a> ·
-        <a href="atlas.json">atlas.json</a> · <a href="atlas.schema.json">schema</a></div>
         <div>Naturgnosis &middot; notes</div>
-        <a href="../../../../../../web/index.html">&larr; CATALOG</a>
+        <a href="../../../../../web/index.html">&larr; CATALOG</a>
     </div>
 </footer>
 <script>
 (function () {
     "use strict";
     var WEB = "../../../../../web/";
-    var state = { data: null, active: null, query: "" };
+    var state = { meta: null, systems: [], active: null, query: "", queryRaw: "", loaded: {} };
 
     function $(sel) { return document.querySelector(sel); }
 
@@ -413,12 +396,10 @@
     }
     function originKind(sys) {
         if (sys.provenance.indexOf("note:") === 0) return "note";
-        if (sys.provenance.indexOf("WWBI") >= 0) return "wwbi";
         return "authored";
     }
     function originLabel(sys) {
-        var k = originKind(sys);
-        return k === "note" ? "note" : k === "wwbi" ? "WWBI" : "authored";
+        return originKind(sys) === "note" ? "note" : "authored";
     }
     function highlightAll(text, q) {
         text = String(text);
@@ -431,32 +412,32 @@
         }
         return out + esc(text.slice(i));
     }
-    function axisMatches(a, q) {
+    function elementMatches(e, q) {
         if (!q) return true;
-        return (a.name + " " + a.description + " " + a.values.join(" ") + " " + a.group)
+        return (e.name + " " + e.description + " " + e.value_set.join(" ") + " " + e.assignment_rule)
             .toLowerCase().indexOf(q) >= 0;
     }
     function slug(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
-    function axisId(sysName, group, name) { return sysName + "--" + slug(group) + "--" + slug(name); }
+    function elementId(sysName, name) { return sysName + "--" + slug(name); }
     function sysStats(sys) {
         var nominal = 0, ordinal = 0;
-        sys.axes.forEach(function (a) { if (a.scale === "ordinal") ordinal += 1; else nominal += 1; });
-        return { axes: sys.axes.length, groups: sys.groups.length, nominal: nominal, ordinal: ordinal };
+        sys.elements.forEach(function (e) { if (e.scale === "ordinal") ordinal += 1; else nominal += 1; });
+        return { elements: sys.elements.length, nominal: nominal, ordinal: ordinal };
     }
 
     function renderSpace() {
-        var meta = state.data.meta, space = meta.space;
+        var meta = state.meta, space = meta.space;
         if (!space) return;
         $("#spaceSection").classList.remove("hidden");
         $("#spaceDesc").textContent = space.description;
-        var nSystems = state.data.systems.length, nAxes = 0, nGroups = 0;
-        state.data.systems.forEach(function (s) { nAxes += s.axes.length; nGroups += s.groups.length; });
+        var nSystems = state.systems.length, nElements = 0;
+        state.systems.forEach(function (s) { nElements += s.elements.length; });
         function chip(k, v) {
             return '<span class="chip"><span class="k">' + esc(k) + "</span>" + esc(v) + "</span>";
         }
         $("#spaceChips").innerHTML =
             chip("Space", space.name) +
-            chip("Frames", nSystems + " reference systems · " + nGroups + " groups · " + nAxes + " axes") +
+            chip("Systems", nSystems + " comparative representation systems · " + nElements + " characteristic elements") +
             chip("Atlas", "v" + meta.version);
     }
 
@@ -464,16 +445,13 @@
         var tb = document.querySelector("#gridTable tbody");
         tb.innerHTML = "";
         $("#gridSection").classList.remove("hidden");
-        state.data.systems.forEach(function (sys) {
-            var st = sysStats(sys);
+        state.systems.forEach(function (sys) {
             var tr = document.createElement("tr");
             if (sys.name === state.active) tr.className = "active";
             tr.innerHTML = '<td class="sys">' + esc(sys.title) + "</td>" +
                 '<td><span class="origin ' + escAttr(originKind(sys)) + '">' + esc(originLabel(sys)) + "</span></td>" +
                 "<td>" + esc(sys.frame_basis) + "</td>" +
-                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + st.groups + "</td>" +
-                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + st.axes +
-                " (" + st.nominal + "n/" + st.ordinal + "o)</td>";
+                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + sys.elements.length + "</td>";
             tr.addEventListener("click", function () { setActive(sys.name, true); });
             tb.appendChild(tr);
         });
@@ -482,20 +460,18 @@
     function renderTabs() {
         var tabs = $("#tabs");
         tabs.innerHTML = "";
-        state.data.systems.forEach(function (sys) {
+        state.systems.forEach(function (sys) {
             var b = document.createElement("button");
             b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab");
             b.setAttribute("aria-selected", sys.name === state.active ? "true" : "false");
-            b.innerHTML = esc(sys.title) + ' <span class="n">(' + sys.axes.length + ")</span>";
+            b.innerHTML = esc(sys.title) + ' <span class="n">(' + sys.elements.length + ")</span>";
             b.title = sys.description;
             b.addEventListener("click", function () { setActive(sys.name, true); });
             tabs.appendChild(b);
         });
     }
 
-    function renderSystem() {
-        var sys = null;
-        state.data.systems.forEach(function (s) { if (s.name === state.active) sys = s; });
+    function renderSystem(sys) {
         var box = $("#system");
         if (!sys) { box.innerHTML = ""; return; }
         var st = sysStats(sys), q = state.query;
@@ -504,72 +480,88 @@
             '<div class="chips">' +
             '<span class="chip"><span class="k">Origin</span>' + esc(originLabel(sys)) + "</span>" +
             '<span class="chip"><span class="k">Basis</span>' + esc(sys.frame_basis) + "</span>" +
-            '<span class="chip"><span class="k">Axes</span>' + st.axes +
+            '<span class="chip"><span class="k">Elements</span>' + st.elements +
             " (" + st.nominal + " nominal · " + st.ordinal + " ordinal)</span>" +
-            '<span class="chip"><span class="k">Provenance</span>' + esc(sys.provenance) + "</span>";
+            '<span class="chip"><span class="k">Provenance</span>' + esc(sys.provenance) + "</span>" +
+            '<span class="chip"><span class="k">Version</span>v' + esc(sys.version) + "</span>";
+        if (sys.universe) {
+            html += '<span class="chip"><span class="k">Universe</span>' + esc(sys.universe) + "</span>";
+        }
+        if (sys.purpose) {
+            html += '<span class="chip"><span class="k">Purpose</span>' + esc(sys.purpose) + "</span>";
+        }
         if (sys.related_notes && sys.related_notes.length) {
             html += '<span class="chip"><span class="k">Related</span>' + sys.related_notes.map(function (p) {
                 return '<a href="' + escAttr(noteUrl(p)) + '">' + esc(shortLabel(p)) + "</a>";
             }).join(" · ") + "</span>";
         }
         html += "</div>";
-        if (sys.groups.length > 1) {
-            html += '<div class="groupnav">' + sys.groups.map(function (g) {
-                return '<a href="#' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' + esc(g.name) + "</a>";
-            }).join("") + "</div>";
-        }
-        html += "</div>";
+        html += '<p class="section-desc">Assigning every element a value gives the ' +
+            "comparative profile of an instance.</p>";
 
         var total = 0, shown = 0;
-        sys.groups.forEach(function (g) {
-            var axes = sys.axes.filter(function (a) { return a.group === g.name; });
-            var cards = "";
-            axes.forEach(function (a) {
-                total += 1;
-                if (!axisMatches(a, q)) return;
-                shown += 1;
-                var id = axisId(sys.name, a.group, a.name);
-                cards += '<article class="axis" id="' + escAttr(id) + '">' +
-                    '<div class="axis-head"><span class="badge scale-' + (a.scale || "nominal") + '">' +
-                    esc(a.scale || "nominal") + "</span>" +
-                    '<span class="axis-name">' + highlightAll(a.name, q) + "</span>" +
-                    '<a class="anchor" href="#' + escAttr(id) + '">§</a></div>' +
-                    '<p class="axis-desc">' + highlightAll(a.description, q) + "</p>" +
-                    '<div class="values"><span class="axis-label">values</span>' +
-                    a.values.map(function (v) { return '<span class="value">' + highlightAll(v, q) + "</span>"; }).join("") +
-                    "</div></article>";
-            });
-            if (cards) {
-                html += '<h3 id="' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' + esc(g.name) +
-                    ' <span class="count">· ' + axes.length + " axes</span></h3>" +
-                    (g.description ? '<p class="section-desc" style="font-size:0.85rem">' + esc(g.description) + "</p>" : "") +
-                    cards;
+        function cardFor(e) {
+            total += 1;
+            if (!elementMatches(e, q)) return "";
+            shown += 1;
+            var id = elementId(sys.name, e.name);
+            var card = '<article class="axis scale-' + (e.scale || "nominal") + '" id="' + escAttr(id) + '">' +
+                '<div class="axis-head"><span class="badge scale-' + (e.scale || "nominal") + '">' +
+                esc(e.scale || "nominal") + "</span>" +
+                '<span class="axis-name">' + highlightAll(e.name, q) + "</span>" +
+                '<a class="anchor" href="#' + escAttr(id) + '">§</a></div>' +
+                '<p class="axis-desc">' + highlightAll(e.description, q) + "</p>" +
+                '<div class="values"><span class="axis-label">value set</span>' +
+                e.value_set.map(function (v) { return '<span class="value">' + highlightAll(v, q) + "</span>"; }).join("") +
+                "</div>";
+            if (e.assignment_rule) {
+                card += '<p class="axis-desc"><span class="axis-label">assignment rule — </span>' +
+                    highlightAll(e.assignment_rule, q) + "</p>";
             }
-        });
+            return card + "</article>";
+        }
+        var body = "";
+        if (sys.groups && sys.groups.length) {
+            sys.groups.forEach(function (g) {
+                var els = sys.elements.filter(function (e) { return e.group === g.name; });
+                var cards = els.map(cardFor).join("");
+                if (cards) {
+                    body += '<h3 id="' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' + esc(g.name) +
+                        ' <span class="count">· ' + els.length + " elements</span></h3>" +
+                        (g.description ? '<p class="section-desc" style="font-size:0.85rem">' + esc(g.description) + "</p>" : "") +
+                        cards;
+                }
+            });
+            var loose = sys.elements.filter(function (e) { return !e.group; }).map(cardFor).join("");
+            body += loose;
+        } else {
+            body = sys.elements.map(cardFor).join("");
+        }
+        html += body;
         if (q && !shown) {
-            html += '<p class="empty">No axes in “' + esc(sys.title) + '” match “' + esc(state.queryRaw || q) +
+            html += '<p class="empty">No elements in “' + esc(sys.title) + '” match “' + esc(state.queryRaw || q) +
                 "”. Try the global search above.</p>";
         }
         box.innerHTML = html;
         $("#counts").textContent = q ?
-            shown + " / " + total + " axes match in " + sys.title :
-            st.axes + " axes · " + st.groups + " groups";
+            shown + " / " + total + " elements match in " + sys.title :
+            st.elements + " characteristic elements";
     }
 
     function renderGlobalHits() {
         var panel = $("#globalHits"), q = state.query;
         if (!q) { panel.classList.add("hidden"); panel.innerHTML = ""; return; }
         var html = "";
-        state.data.systems.forEach(function (sys) {
-            if (sys.name === state.active) return;
-            var hits = sys.axes.filter(function (a) { return axisMatches(a, q); });
+        state.systems.forEach(function (sys) {
+            if (sys.name === state.active || !state.loaded[sys.name]) return;
+            var hits = state.loaded[sys.name].filter(function (e) { return elementMatches(e, q); });
             if (!hits.length) return;
             html += '<p class="section-desc" style="margin-top:0.6rem"><strong style="color:var(--text-primary)">' +
-                esc(sys.title) + "</strong> — " + hits.length + " axis" + (hits.length === 1 ? "" : "es") + "</p>";
-            hits.slice(0, 8).forEach(function (a) {
-                html += '<div class="hit"><a href="#' + escAttr(axisId(sys.name, a.group, a.name)) + '" data-sys="' +
-                    escAttr(sys.name) + '">' + highlightAll(a.name, q) +
-                    '</a><span class="where">' + esc(a.group) + "</span></div>";
+                esc(sys.title) + "</strong> — " + hits.length + " element" + (hits.length === 1 ? "" : "s") + "</p>";
+            hits.slice(0, 8).forEach(function (e) {
+                html += '<div class="hit"><a href="#' + escAttr(elementId(sys.name, e.name)) + '" data-sys="' +
+                    escAttr(sys.name) + '">' + highlightAll(e.name, q) +
+                    '</a><span class="where">' + esc(e.scale || "nominal") + "</span></div>";
             });
             if (hits.length > 8) {
                 html += '<div class="hit"><a href="#' + escAttr(sys.name) + '" data-sys="' + escAttr(sys.name) +
@@ -586,44 +578,62 @@
 
     function setActive(name, push) {
         state.active = name;
-        renderTabs(); renderGrid(); renderSystem(); renderGlobalHits();
+        renderTabs(); renderGrid();
         if (push) { try { history.replaceState(null, "", "#" + name); } catch (e) {} }
+        if (state.loaded[name]) { renderSystem(state.loaded[name]); renderGlobalHits(); return; }
+        var sys = state.systems.filter(function (s) { return s.name === name; })[0];
+        if (!sys) { $("#system").innerHTML = ""; return; }
+        $("#system").innerHTML = '<p class="empty">Loading ' + esc(name) + "…</p>";
+        Promise.all(sys.elements.map(function (fn) {
+            return fetch(name + "/" + fn, { cache: "no-cache" }).then(function (r) {
+                if (!r.ok) throw new Error("HTTP " + r.status + " " + fn);
+                return r.json();
+            });
+        })).then(function (els) {
+            sys.elements = els;
+            state.loaded[name] = sys;
+            if (state.active === name) { renderSystem(sys); renderGlobalHits(); }
+        }).catch(function (err) {
+            if (state.active === name) {
+                $("#system").innerHTML = '<p class="empty">Failed to load ' + esc(name) + ": " + esc(err.message) + "</p>";
+            }
+        });
     }
 
     $("#search").addEventListener("input", function (ev) {
         state.queryRaw = ev.target.value;
         state.query = ev.target.value.trim().toLowerCase();
-        renderSystem(); renderGlobalHits();
+        if (state.loaded[state.active]) renderSystem(state.loaded[state.active]);
+        renderGlobalHits();
     });
 
     function fromHash() {
         var h = (location.hash || "").replace(/^#/, "");
-        if (!h || !state.data || h.indexOf("grp-") === 0) return;
+        if (!h || !state.systems.length) return;
         var head = h.split("--")[0];
         var found = null;
-        state.data.systems.forEach(function (s) { if (s.name === head) found = s.name; });
+        state.systems.forEach(function (s) { if (s.name === head) found = s.name; });
         if (found) setActive(found, false);
     }
     window.addEventListener("hashchange", fromHash);
 
-    fetch("atlas.json", { cache: "no-cache" }).then(function (r) {
+    fetch("public-organization.json", { cache: "no-cache" }).then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
     }).then(function (data) {
-        state.data = data;
+        state.meta = data.meta;
+        state.systems = data.systems;
+        data.systems.forEach(function (s) { state.loaded[s.name] = s; });
         var names = data.systems.map(function (s) { return s.name; });
         var head = (location.hash || "").replace(/^#/, "").split("--")[0];
         var initial = names.indexOf(head) >= 0 ? head : names[0];
+        renderSpace(); renderGrid(); renderTabs();
         setActive(initial, false);
-        var nAxes = 0;
-        data.systems.forEach(function (s) { nAxes += s.axes.length; });
-        $("#footMeta").textContent = "Reference systems for the space of government-wide administration systems · " +
-            data.systems.length + " frames · " + nAxes + " axes · atlas v" + (data.meta && data.meta.version) + ". ";
-        renderSpace(); renderGrid(); fromHash();
+        fromHash();
     }).catch(function (err) {
         var el = $("#error");
         el.hidden = false;
-        el.textContent = "Failed to load atlas.json: " + err.message;
+        el.textContent = "Failed to load atlas: " + err.message;
     });
 })();
 </script>

@@ -1063,13 +1063,22 @@
         function linkedTargets() {
             var seen = {};
             var out = [];
-            NOTES.forEach(function (n) {
-                if (parentDir(n.path) !== state.dir) return;
-                (LINKS_BY_FROM[n.path] || []).forEach(function (l) {
+            function push(list) {
+                (list || []).forEach(function (l) {
                     if (!l || !l.to || seen[l.to]) return;
                     seen[l.to] = true;
                     out.push(l);
                 });
+            }
+            /* Directory-node links: declared with a dir `from` equal to the
+               browsed directory. Shown only on that directory, never on its
+               descendants. */
+            push(LINKS_BY_FROM[state.dir]);
+            push(LINKS_BY_FROM[state.dir + '/']);
+            /* File-node links: declared with a note `from` in this directory. */
+            NOTES.forEach(function (n) {
+                if (parentDir(n.path) !== state.dir) return;
+                push(LINKS_BY_FROM[n.path]);
             });
             return out;
         }

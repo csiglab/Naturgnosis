@@ -32,7 +32,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Laboratory](note.html?n=social/actor/laboratory.md), [Research Group](note.html?n=social/actor/research-group.md), [Enterprise Research Lab](note.html?n=social/actor/enterprise-research-lab.md), [Public Research Institutes](note.html?n=social/actor/public/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
+> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Laboratory](note.html?n=social/actor/laboratory.md), [Research Group](note.html?n=social/actor/research-group.md), [Enterprise Research Lab](note.html?n=social/actor/enterprise-research-lab.md), [Public Research Institutes](note.html?n=social/actor/public/catalog/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
 >
 > Stopping rule: a row is terminal when it names a subtype, a national system, a concrete institute, an agency, a role, a norm, an obligation, or a practice, or when it links an already-decomposed entry.
 >
@@ -94,15 +94,15 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 - [Laboratory](note.html?n=social/actor/laboratory.md) (host unit of research groups)
 - [Research Group](note.html?n=social/actor/research-group.md) (quasi-firm team subtype)
 - [Enterprise Research Lab](note.html?n=social/actor/enterprise-research-lab.md) (corporate subtype)
-- [Public Research Institutes (PRI)](note.html?n=social/actor/public/pri.md) (public-research subtype)
+- [Public Research Institutes (PRI)](note.html?n=social/actor/public/catalog/pri.md) (public-research subtype)
 - [Product Development Center](note.html?n=social/actor/product-development-center.md) (sibling collective with a product mandate rather than an inquiry mandate)
-- [Max Planck Society](note.html?n=social/actor/public/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
-- [Fraunhofer Society](note.html?n=social/actor/public/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
-- [Chinese Academy of Sciences (CAS)](note.html?n=social/actor/public/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
-- [Centre National de la Recherche Scientifique](note.html?n=social/actor/public/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
-- [CSIRO](note.html?n=social/actor/public/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
-- [RIKEN](note.html?n=social/actor/public/research/jpn/riken.md) (`jpn/`)
-- [A*STAR](note.html?n=social/actor/public/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
-- [Defense Advanced Research Projects Agency (DARPA)](note.html?n=social/actor/public/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
-- [U.S. National Science Foundation (NSF)](note.html?n=social/actor/public/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
-- [ITRI](note.html?n=social/actor/public/research/twn/itri.md) (`twn/`)
+- [Max Planck Society](note.html?n=social/actor/public/catalog/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
+- [Fraunhofer Society](note.html?n=social/actor/public/catalog/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
+- [Chinese Academy of Sciences (CAS)](note.html?n=social/actor/public/catalog/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
+- [Centre National de la Recherche Scientifique](note.html?n=social/actor/public/catalog/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
+- [CSIRO](note.html?n=social/actor/public/catalog/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
+- [RIKEN](note.html?n=social/actor/public/catalog/research/jpn/riken.md) (`jpn/`)
+- [A*STAR](note.html?n=social/actor/public/catalog/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
+- [Defense Advanced Research Projects Agency (DARPA)](note.html?n=social/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
+- [U.S. National Science Foundation (NSF)](note.html?n=social/actor/public/catalog/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
+- [ITRI](note.html?n=social/actor/public/catalog/research/twn/itri.md) (`twn/`)

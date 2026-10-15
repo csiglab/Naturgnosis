@@ -1,49 +1,7 @@
 {
   "links": [
     {
-      "from": "social/action/public/informe/policy/china-industrial-policy.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/china-innovation-policy.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/china-financing-policy.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/china-infrastructure-policy.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/case-study-china-go-global.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/case-study-china-national-key-technologies-rd-program.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/case-study-china-program-863.md",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/action/public/informe/policy/case-study-china-program-973.md",
+      "from": "social/action/public/informe/policy/",
       "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
       "label": "country study",
       "kind": "study"
@@ -77,6 +35,18 @@
       "to": "social/collective/",
       "label": "Collective",
       "kind": "hierarchy"
+    },
+    {
+      "from": "social/actor/public/atlas/",
+      "to": "social/actor/public/public-organization.md",
+      "label": "public organization",
+      "kind": "atlas"
+    },
+    {
+      "from": "social/actor/public/atlas/",
+      "to": "social/actor/public/gov-wide-administration.md",
+      "label": "government-wide administration",
+      "kind": "atlas"
     }
   ]
 }

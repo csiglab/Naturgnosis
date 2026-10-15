@@ -62,7 +62,7 @@ curl /note/api/pins               # pinned paths
   compare the staged file list against changelog `file_path` entries and
   append any missing logs before committing.
 - Note paths keyed by country use ISO 3166-1 alpha-3, lowercase
-  (`social/actor/public/research/usa/…`, `social/actor/public/polity/grc/region/…`); never alpha-2
+  (`social/actor/public/catalog/research/usa/…`, `social/actor/public/polity/grc/region/…`); never alpha-2
   or country names. Entities without an alpha-3 code (devolved nations,
   defunct states) are explicit exceptions.
 - Tags are optional `--- tags: [...]` front matter; `data/index.json`

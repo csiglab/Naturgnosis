@@ -89,5 +89,5 @@ Lineage (to verify against the agency's history page at next pass): colonial geo
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md) (decomposition schema; single-type root; instance vs. type path rules)
 - [Earth Science](note.html?n=epistemica/earth-science.md) (the production-side science this agency applies; its Geological Survey infrastructure row)
 - [Geological Resource Development Technical Domain](note.html?n=technique/systems/multinode/geological-resource-development-technical-domain.md) (the agency's precompetitive data feeds that domain's Exploration Set)
-- [NINA (companion note)](note.html?n=social/actor/public/research/nor/nina.md) (sibling state survey body)
-- [NIBIO (companion note)](note.html?n=social/actor/public/research/nor/nibio.md) (sibling state survey body)
+- [NINA (companion note)](note.html?n=social/actor/public/catalog/research/nor/nina.md) (sibling state survey body)
+- [NIBIO (companion note)](note.html?n=social/actor/public/catalog/research/nor/nibio.md) (sibling state survey body)

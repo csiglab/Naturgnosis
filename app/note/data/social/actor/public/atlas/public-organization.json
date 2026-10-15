@@ -1,0 +1,740 @@
+{
+  "meta": {
+    "space": {
+      "name": "Public Organization Space",
+      "description": "Organizations wielding delegated public authority under law: ministries, councils, delivery and research bodies, task groups, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids."
+    },
+    "universe": {
+      "description": "Public organizations wielding delegated public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, religious, dynastic, party, military, colonial, or treaty.",
+      "includes": [
+        "ministries",
+        "councils",
+        "implementation (delivery) bodies",
+        "policy research bodies",
+        "task groups",
+        "arm's-length public agencies",
+        "state-owned enterprises",
+        "municipal organizations",
+        "public-private hybrids",
+        "royal and imperial household offices",
+        "provincial governorships",
+        "military-fiscal bodies",
+        "tributary and colonial offices",
+        "chartered-company organs",
+        "party organs",
+        "religious administrative bodies",
+        "hereditary offices",
+        "indigenous and customary councils",
+        "supranational bodies",
+        "courts exercising administrative authority"
+      ],
+      "excludes": [
+        "private firms without delegated authority",
+        "informal groups without a constituting order",
+        "purely domestic or household units"
+      ]
+    },
+    "description": "Four comparative representation systems for comparing public organizations across polities and periods: ontological, functional, purpose-driven, and model-derived.",
+    "version": 5
+  },
+  "systems": [
+    {
+      "name": "ontological",
+      "title": "Ontological Set",
+      "description": "Profiles what public bodies are: their legal standing, institutional kind, composition, resources, permanence, and spatial definition. Derived by ontological analysis - enumerating the entities, kinds, and modes of existence the domain contains. Use it to compare bodies as entities before asking what they do or how they relate.",
+      "frame_basis": "Ontological analysis of the domain",
+      "provenance": "authored for this atlas from the organization decomposition and agency-form comparison",
+      "related_notes": [
+        "social/actor/public/public-organization.md",
+        "meta/philosophia-representationis-comparativae-et-operis.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, religious, dynastic, party, military, colonial, or treaty.",
+      "purpose": "Compare what bodies are: existence, kind, composition, and permanence.",
+      "version": 3,
+      "elements": [
+        {
+          "name": "Institutional Standing",
+          "description": "Whether the body holds legal personality, is a dependent public body, or is an office without personhood.",
+          "value_set": [
+            "independent legal person",
+            "dependent public body",
+            "office without personhood",
+            "unincorporated state unit"
+          ],
+          "assignment_rule": "Code independent where it owns property and litigates in its own name; dependent where it is a distinct public body lacking full personhood; office where the holder, not the body, holds the legal position.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Organizational Form",
+          "description": "The recognized kind of public body.",
+          "value_set": [
+            "ministry",
+            "council",
+            "implementation body",
+            "research body",
+            "task group",
+            "public agency",
+            "state-owned enterprise",
+            "municipal organization",
+            "public-private hybrid",
+            "royal / imperial household office",
+            "provincial governorship",
+            "military-fiscal body",
+            "tributary office",
+            "colonial office",
+            "chartered-company organ",
+            "party organ",
+            "religious administrative body",
+            "hereditary office",
+            "indigenous / customary council",
+            "supranational body"
+          ],
+          "assignment_rule": "Code by charter and function jointly; hybrids take public-private hybrid only under mixed control; bodies chartered by more than one polity take supranational body.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Recruitment Mode",
+          "description": "The dominant mode by which members or post-holders are installed.",
+          "value_set": [
+            "examination / merit",
+            "patronage",
+            "hereditary",
+            "election",
+            "purchase / venality",
+            "co-optation",
+            "religious appointment",
+            "military commission",
+            "party assignment",
+            "mixed"
+          ],
+          "assignment_rule": "Code the mode filling the majority of the deciding membership; no majority mode takes mixed.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Office Maintenance",
+          "description": "How the post-holder is materially sustained.",
+          "value_set": [
+            "salary",
+            "benefice / prebend",
+            "land / fief",
+            "fees",
+            "tribute share",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant material basis of the office; salaried posts take salary; unpaid honorific posts take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Resource Base",
+          "description": "The largest class of resources the body commands.",
+          "value_set": [
+            "none (pure secretariat)",
+            "operational assets",
+            "infrastructure and estate",
+            "financial holdings",
+            "land / domain",
+            "tribute claims",
+            "benefice revenues",
+            "in-kind dues"
+          ],
+          "assignment_rule": "Code by the dominant resource of the body's operation; bodies without holdings take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Financing Mode",
+          "description": "The revenue base financing the body's operation.",
+          "value_set": [
+            "appropriation / vote",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "benefice / land revenue",
+            "in-kind",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the largest revenue share over the body's operating period.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Authority Basis",
+          "description": "The basis on which the body's authority rests.",
+          "value_set": [
+            "constitutional",
+            "statutory",
+            "executive decree",
+            "customary",
+            "religious / divine",
+            "dynastic / hereditary",
+            "party directive",
+            "military command",
+            "colonial charter",
+            "treaty"
+          ],
+          "assignment_rule": "Code the highest basis claimed for the body's authority; bodies removable by decree take executive decree.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Permanence",
+          "description": "How permanently the body is constituted.",
+          "value_set": [
+            "task-bound (dissolves on delivery)",
+            "renewable mandate",
+            "permanent"
+          ],
+          "assignment_rule": "Read the constituting order: a dissolution clause gives task-bound; a renewal term gives renewable mandate; otherwise permanent. The basis of permanence is coded under Authority Basis.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Jurisdictional Extent",
+          "description": "The scale at which the body's authority runs.",
+          "value_set": [
+            "municipal",
+            "provincial / regional",
+            "national",
+            "imperial",
+            "colonial / dependency",
+            "confederal",
+            "city-state",
+            "supranational",
+            "functional (non-territorial)",
+            "multi-territory"
+          ],
+          "assignment_rule": "Code by the polity that charters it and the reach of its remit, not by where it operates.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Territorial Basis",
+          "description": "Whether authority runs over people, land, function, or beyond territory.",
+          "value_set": [
+            "personal (over persons)",
+            "territorial (over land)",
+            "functional (over an activity)",
+            "extra-territorial",
+            "mixed"
+          ],
+          "assignment_rule": "Code personal where the remit follows persons (kin, estate, community); territorial where it follows bounded land.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Mandate Scope",
+          "description": "How wide the constituting remit runs.",
+          "value_set": [
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "household / royal domain",
+            "provincial remit",
+            "universal / general government"
+          ],
+          "assignment_rule": "Count the domains named in the constituting order, not those grown by practice.",
+          "scale": "nominal"
+        }
+      ]
+    },
+    {
+      "name": "functional",
+      "title": "Functional Set",
+      "description": "Profiles what public bodies do: the task families they perform, coded by exercised activity rather than charter rhetoric. Derived by functional analysis - enumerating the functions and activities of the domain. Use it to compare workloads and task portfolios across bodies with different legal forms.",
+      "frame_basis": "Functional analysis of the domain",
+      "provenance": "authored for this atlas from the function taxonomy and agency mandates",
+      "related_notes": [
+        "social/actor/public/public-organization.md",
+        "meta/philosophia-representationis-comparativae-et-operis.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, religious, dynastic, party, military, colonial, or treaty.",
+      "purpose": "Compare what bodies do: task families by exercised activity.",
+      "version": 3,
+      "elements": [
+        {
+          "name": "Service & Provision",
+          "description": "Whether the body delivers services, protection, or provision to end users.",
+          "value_set": [
+            "direct delivery",
+            "commissioned provision",
+            "poor relief",
+            "grain / provisioning",
+            "public works",
+            "protection",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant provision; commissioned where it funds or compels others to deliver; none for bodies that only rule or extract.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Regulation",
+          "description": "Whether the body forms binding rules, licenses, or authoritative counsel.",
+          "value_set": [
+            "rule-making",
+            "licensing",
+            "advisory",
+            "none"
+          ],
+          "assignment_rule": "Code rule-making where it issues binding rules in its own right; licensing where its only binding act is granting or refusing permissions; advisory where it only counsels; none otherwise.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Enforcement",
+          "description": "Whether the body compels compliance.",
+          "value_set": [
+            "inspection",
+            "sanctioning",
+            "coercive force",
+            "none"
+          ],
+          "assignment_rule": "Code the highest exercised in its operating period; inspection without sanction stays inspection.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Adjudication",
+          "description": "Whether the body decides individual cases with binding effect.",
+          "value_set": [
+            "binding decisions",
+            "advisory opinions",
+            "none"
+          ],
+          "assignment_rule": "Code binding only where decisions are enforceable without further approval.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Resource Extraction",
+          "description": "Whether the body draws resources from the population.",
+          "value_set": [
+            "taxation",
+            "tribute",
+            "dues / fees",
+            "corvée / labour levy",
+            "rents",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant mode by which it draws resources; bodies that only spend take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Knowledge and Record",
+          "description": "Whether the body produces knowledge, records, or evidence.",
+          "value_set": [
+            "in-house inquiry",
+            "record-keeping / census",
+            "commissioned",
+            "religious / ritual knowledge",
+            "none"
+          ],
+          "assignment_rule": "Code in-house where dedicated staff produce it on establishment; religious where the knowledge is sacral.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Ritual / Ideological Administration",
+          "description": "Whether the body carries sacral, ritual, or ideological functions.",
+          "value_set": [
+            "ritual / cultic",
+            "ideological propagation",
+            "religious law",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant sacral or ideological function exercised; secular bodies take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Military Mobilization",
+          "description": "Whether the body raises, commands, or supplies force.",
+          "value_set": [
+            "command",
+            "recruitment",
+            "logistics / supply",
+            "none"
+          ],
+          "assignment_rule": "Code the dominant military function; bodies with no force function take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Representation",
+          "description": "Whether the body aggregates estates, communities, or constituencies.",
+          "value_set": [
+            "assembly",
+            "estates",
+            "petition",
+            "council",
+            "none"
+          ],
+          "assignment_rule": "Code where the body's dominant function is to voice or aggregate constituencies.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Coordination & Oversight",
+          "description": "Whether the body coordinates or supervises other bodies.",
+          "value_set": [
+            "lead coordinator",
+            "participant",
+            "supervisory mandate",
+            "none"
+          ],
+          "assignment_rule": "Code lead coordinator where it convenes and sets the agenda of a standing coordination arrangement; supervisory only with a formal oversight mandate over named bodies.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Commercial Operation",
+          "description": "Whether the body operates commercially or by trading monopoly.",
+          "value_set": [
+            "profit-seeking",
+            "cost-recovery",
+            "monopoly trade",
+            "none"
+          ],
+          "assignment_rule": "Code by the pricing rule of its trading activity; bodies with no trading activity take none.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Emergency Powers",
+          "description": "Whether the body holds extraordinary powers.",
+          "value_set": [
+            "standing emergency powers",
+            "activated only",
+            "none"
+          ],
+          "assignment_rule": "Code standing where powers are exercisable without fresh authorization.",
+          "scale": "ordinal"
+        }
+      ]
+    },
+    {
+      "name": "purpose-driven",
+      "title": "Purpose-Driven Set",
+      "description": "Profiles what decision-makers need to know: answerability, changeability, rationalization, centralization, embeddedness, fidelity of performance signals, and risk. Derived by purpose-driven analysis - starting from the questions, decisions, and analytical tasks the comparison must support, then selecting the elements that answer them. Use it when a decision, not a description, is the output.",
+      "frame_basis": "Purpose-driven analysis from canonical comparison questions",
+      "provenance": "authored for this atlas from the evaluation and governance questions",
+      "related_notes": [
+        "social/actor/public/public-organization.md",
+        "meta/philosophia-representationis-comparativae-et-operis.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, religious, dynastic, party, military, colonial, or treaty.",
+      "purpose": "Answer decisions: answerability, changeability, rationalization, centralization, embeddedness, risk.",
+      "version": 3,
+      "elements": [
+        {
+          "name": "Accountability Depth",
+          "description": "Whether answerability carries consequences.",
+          "value_set": [
+            "full (consequences attach)",
+            "reporting only",
+            "none"
+          ],
+          "assignment_rule": "Code full where a completed accountability cycle has removed or sanctioned leadership in the body's history or class.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Changeability",
+          "description": "How the body can be reorganized or abolished.",
+          "value_set": [
+            "by executive action",
+            "by law",
+            "by custom",
+            "by dynasty or revolution",
+            "entrenched"
+          ],
+          "assignment_rule": "Code by the instrument or force needed for abolition in the body's order.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Rationalization Degree",
+          "description": "How rational-legal the body's structure is against patrimonial, charismatic, and traditional types.",
+          "value_set": [
+            "rational-legal",
+            "bureaucratic",
+            "patrimonial",
+            "charismatic",
+            "traditional",
+            "mixed"
+          ],
+          "assignment_rule": "Code rational-legal where offices are defined by rules and merit; patrimonial where offices are personal and heritable; charismatic where authority attaches to a leader.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Centralization",
+          "description": "How centralized decision-making is.",
+          "value_set": [
+            "centralized",
+            "devolved",
+            "local",
+            "fragmented"
+          ],
+          "assignment_rule": "Code by where the decisive authority sits relative to the bulk of operations.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Loss Bearer",
+          "description": "Who bears the financial or material residual loss.",
+          "value_set": [
+            "sovereign / treasury",
+            "own account",
+            "community",
+            "personal / patrimonial",
+            "shared"
+          ],
+          "assignment_rule": "Code by who absorbs a deficit or loss in practice, not in theory.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Performance Visibility",
+          "description": "How observable the body's performance is to outsiders.",
+          "value_set": [
+            "published indicators",
+            "inspection",
+            "internal only",
+            "none"
+          ],
+          "assignment_rule": "Code published with regularly released measures; inspection where external inspection exists; internal where measurement stays inside.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Mandate Clarity",
+          "description": "How precisely the mandate states what success looks like.",
+          "value_set": [
+            "quantified targets",
+            "broad objectives",
+            "vague"
+          ],
+          "assignment_rule": "Code from the constituting order, not from practice.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Capture Exposure",
+          "description": "Exposure to capture by concentrated interests.",
+          "value_set": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "assignment_rule": "Code low with tenure protections plus transparency duties; high with revolving-door leadership or concentrated interests; medium otherwise.",
+          "scale": "ordinal"
+        },
+        {
+          "name": "Patron-Client Position",
+          "description": "The body's position within patronage or faction networks.",
+          "value_set": [
+            "central patron",
+            "client",
+            "factional",
+            "autonomous"
+          ],
+          "assignment_rule": "Code central patron where it dispenses offices and largesse; autonomous where no such network binds it.",
+          "scale": "nominal"
+        }
+      ]
+    },
+    {
+      "name": "model-derived",
+      "title": "Model-Derived Set",
+      "description": "Derives characteristic elements from an overarching model of the public organization: chartered authority made operable through mandate, principals, governance, agency, execution, resources, accountability, and ecology. Each submodel contributes its elements; together they form one comparative profile. The composite-model approach worked as a system.",
+      "frame_basis": "Composite-model approach: overarching Public Organization Model in eight submodels",
+      "provenance": "authored as a new model decomposition for this atlas",
+      "related_notes": [
+        "social/actor/public/public-organization.md",
+        "meta/philosophia-representationis-comparativae-et-operis.md"
+      ],
+      "universe": "Bodies exercising or asserting public authority over a population or territory, in any polity and any period, under any basis of authority - constitutional, statutory, customary, religious, dynastic, party, military, colonial, or treaty.",
+      "purpose": "Full-model profiling: every submodel contributes elements to one profile.",
+      "version": 3,
+      "elements": [
+        {
+          "name": "Constituting Form",
+          "description": "Charter submodel: the form of the constituting instrument or order.",
+          "value_set": [
+            "written statute",
+            "charter",
+            "edict",
+            "compact",
+            "custom",
+            "oral tradition",
+            "treaty"
+          ],
+          "assignment_rule": "Cite the constituting instrument or order.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Mandate Scope",
+          "description": "Charter submodel: how wide the constituting remit runs.",
+          "value_set": [
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "household / royal domain",
+            "provincial remit",
+            "universal / general government"
+          ],
+          "assignment_rule": "Count the domains named in the constituting order, not those grown by practice.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Political Principal",
+          "description": "Principal submodel: the authority answered to.",
+          "value_set": [
+            "monarch / emperor",
+            "dynastic house",
+            "head of government",
+            "line minister",
+            "collective government",
+            "council of state",
+            "parliament",
+            "party",
+            "religious authority",
+            "metropole / colonial office",
+            "governing board",
+            "foreign sovereign"
+          ],
+          "assignment_rule": "Code the authority that appoints, directs, or dismisses the leadership.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Direction Instruments",
+          "description": "Principal submodel: the instruments carrying current objectives.",
+          "value_set": [
+            "ordinances",
+            "edicts",
+            "rescripts",
+            "letters patent",
+            "agency instructions",
+            "appropriation directions",
+            "performance agreements",
+            "framework documents"
+          ],
+          "assignment_rule": "Code the instrument whose breach has consequences.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Governing Structure",
+          "description": "Governance submodel: the arrangement deciding direction and whose signature settles a contested decision.",
+          "value_set": [
+            "monarch-led",
+            "board-governed",
+            "executive-led",
+            "commissioner-led",
+            "council-led",
+            "party committee",
+            "religious synod",
+            "assembly",
+            "committee-governed",
+            "collegial",
+            "independent in individual cases"
+          ],
+          "assignment_rule": "Code the body that can overrule the chief executive; where a contested decision is settled by an individual holder, code the matching single-leader form.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Decision Procedure",
+          "description": "Agency submodel: how contested decisions are reached.",
+          "value_set": [
+            "decree",
+            "collegial vote",
+            "assembly decision",
+            "consensus",
+            "religious ruling",
+            "deliberation"
+          ],
+          "assignment_rule": "Test with a contested decision: what procedure settles it.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Rule Mode",
+          "description": "Governance submodel: whether the body rules subjects directly or through intermediaries.",
+          "value_set": [
+            "direct rule",
+            "indirect rule",
+            "mixed"
+          ],
+          "assignment_rule": "Code indirect where authority over subjects is exercised through notables, chiefs, or elites.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Functions",
+          "description": "Execution submodel: the task family performed.",
+          "value_set": [
+            "policy direction",
+            "operation and delivery",
+            "regulation and enforcement",
+            "research and evidence",
+            "ritual / ideological",
+            "military",
+            "commercial enterprise"
+          ],
+          "assignment_rule": "Code by mandate-weighted dominant family, using evidence where available.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Operational Deployment",
+          "description": "Execution submodel: geographic distribution of activities.",
+          "value_set": [
+            "court-centered",
+            "itinerant",
+            "headquarters-based",
+            "headquarters-field",
+            "regional",
+            "nationwide network",
+            "hybrid"
+          ],
+          "assignment_rule": "Map where activities are performed, not where staff sit.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Funding Regime",
+          "description": "Resource submodel: the revenue base.",
+          "value_set": [
+            "appropriation",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "benefice / land revenue",
+            "in-kind",
+            "mixed"
+          ],
+          "assignment_rule": "Code by the largest revenue share over the operating period.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Personnel Regime",
+          "description": "Resource submodel: how people are employed and managed.",
+          "value_set": [
+            "career-based",
+            "position-based",
+            "hereditary",
+            "patronage",
+            "venal",
+            "religious",
+            "military",
+            "hybrid"
+          ],
+          "assignment_rule": "Code by the dominant installation and tenure mode.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Accountability Line",
+          "description": "Accountability submodel: the monitoring arrangement with consequences.",
+          "value_set": [
+            "sovereign reporting",
+            "religious review",
+            "party review",
+            "assembly scrutiny",
+            "government reporting",
+            "annual reporting",
+            "financial controls",
+            "audit and evaluation"
+          ],
+          "assignment_rule": "Code the arrangement that can trigger leadership consequences.",
+          "scale": "nominal"
+        },
+        {
+          "name": "Ecclesiastical Relation",
+          "description": "Ecology submodel: how the body stands toward religious authority.",
+          "value_set": [
+            "fused",
+            "caesaropapist",
+            "subordinate",
+            "independent",
+            "secular"
+          ],
+          "assignment_rule": "Code fused where religious and public authority are one; caesaropapist where the polity heads but does not fuse with religion.",
+          "scale": "nominal"
+        }
+      ]
+    }
+  ]
+}

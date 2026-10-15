@@ -4,7 +4,7 @@
 > period-by-period characterizations of how each system coordinates its agencies.
 > The element notes carry the kinds; the studies below carry the instances. Each
 > study locates its system with the reference frames of the
-> [characterization atlas](../atlas/index.html): pick the applicable frames,
+> [characterization atlas](../atlas/gov-wide-administration.html): pick the applicable frames,
 > assign one value per axis, read the resulting configuration.
 
 ## How to study a system
@@ -13,15 +13,15 @@
 > standards, shared services, authority distribution, oversight), and record its
 > coordinates axis by axis. Compare configurations across cases; do not reduce a
 > system to a single type or score. Method and caveats live in
-> [Government-Wide Administrative System](note.html?n=social/actor/public/administration/gov-wide-administration.md).
+> [Government-Wide Administrative System](note.html?n=social/actor/public/gov-wide-administration.md).
 
 ## Studies
 
-- [Course of Honors](note.html?n=social/actor/public/administration/informe/course-of-honors.md)
-- [Mandarin](note.html?n=social/actor/public/administration/informe/mandarinate.md)
+- [Course of Honors](note.html?n=social/actor/public/informe/course-of-honors.md)
+- [Mandarin](note.html?n=social/actor/public/informe/mandarinate.md)
 
 > Candidate pipeline seeded from the representative sample in
-> [Public Administration](note.html?n=social/actor/public/administration/administration.md).
+> [Public Administration](note.html?n=social/actor/public/administration.md).
 > Each case below graduates into its own study file under this directory; until
 > then the sample table carries the characterization.
 
@@ -118,10 +118,10 @@
 
 ## Related
 
-- [Public Administration](note.html?n=social/actor/public/administration/administration.md)
-- [Government-Wide Administrative System](note.html?n=social/actor/public/administration/gov-wide-administration.md)
-- [Civil Service](note.html?n=social/actor/public/administration/civil-service.md)
-- [Public Employee](note.html?n=social/actor/public/administration/employee.md)
-- [Human Resource Unit](note.html?n=social/actor/public/administration/hru.md)
+- [Public Administration](note.html?n=social/actor/public/administration.md)
+- [Government-Wide Administrative System](note.html?n=social/actor/public/gov-wide-administration.md)
+- [Civil Service](note.html?n=social/actor/public/civil-service.md)
+- [Public Employee](note.html?n=social/actor/public/catalog/employee.md)
+- [Human Resource Unit](note.html?n=social/actor/public/catalog/hru.md)
 - [Government](note.html?n=social/actor/public/government.md)
-- [Atlas of Government-Wide Administration Reference Systems](../atlas/index.html)
+- [Atlas of Government-Wide Administration Comparative Representation Systems](../atlas/gov-wide-administration.html)
