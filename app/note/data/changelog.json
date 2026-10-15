@@ -290,6 +290,21 @@
     ]
   },
   {
+    "file_path": "meta/philosophia-characterizationis-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "New meta guide: characterization systems doctrine (components, five approaches, build/validate workflows) with public-organization worked example."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Approach subsections de-linked from removed glossarium terms (kept as prose); added characterization-element pointer in components."
+      }
+    ]
+  },
+  {
     "file_path": "meta/philosophia-conceptuum-et-operis.md",
     "logs": [
       {
@@ -2126,6 +2141,26 @@
         "date": "2026-10-14",
         "kind": "refactor",
         "summary": "Received the agency-form and Crown Corporation sub-rows from Organization; this note is now the single home of the government decomposition."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Removed generic characterization doctrine now canonical in the characterization meta note (general-form table, element derivation, methods and evaluation tables); kept space-specific definition and agency table with meta-note pointer."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed characterization meta-note links to framework-for-comparative-representation.md after rename."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated characterization link text to the Latin note title."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed characterization links to the Latin note path."
       }
     ]
   },
@@ -3176,6 +3211,26 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Moved up to actor/public/ as the government level is removed; repointed internal government/ references (content otherwise unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Added pointers to the characterization meta note at frameworks and evaluation sections; domain framework content unchanged."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed characterization meta-note links to framework-for-comparative-representation.md after rename."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Updated characterization link text to the Latin note title."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Repointed characterization links to the Latin note path."
       }
     ]
   },
@@ -5786,6 +5841,36 @@
         "date": "2026-10-14",
         "kind": "chore",
         "summary": "Renamed actor/public/space/ to actor/public/polity/ in the space→polity move."
+      }
+    ]
+  },
+  {
+    "file_path": "meta/framework-for-comparative-representation.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Renamed from philosophia-characterizationis-et-operis.md and reworked as Framework for Comparative Representation: new lead frame, evaluation genericized, related-methods section completed."
+      }
+    ]
+  },
+  {
+    "file_path": "meta/philosophia-representationis-comparativae-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed to Latin operis-tradition path; title Philosophia Representationis Comparativae et Operis."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Latinized title to Philosophia Representationis Comparativae et Operis per the operis tradition; filename keeps the framework term."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renormalized body terminology to Comparactive Representation / Comparactive Representation System / Characteristic Element / Comparative Profile; math sense keeps characterization."
       }
     ]
   }

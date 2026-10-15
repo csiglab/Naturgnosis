@@ -1,3 +1,6 @@
+https://www.psd.gov.sg/newsroom/public-sector-governance-bill-by-min-ong-ye-kung-at-parliament/
+
+
 Implementation Agency Governance Structure
 
 How are agencies  (non policy)  organizations (aka agencies) structure?

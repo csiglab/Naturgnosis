@@ -382,6 +382,8 @@ It is not an `Organizational Administration` (the internal administration of one
 
 > Identify established theoretical frameworks, international standards, and comparative assessment tools that can inform the design of a comprehensive, multidimensional system for characterizing government-wide public administration systems.
 
+> The generic doctrine for building and validating characterization systems is systematized in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md); the table below lists domain frameworks instantiating it for government-wide administration.
+
 | Guiding Element | Description | Usage |
 |---|---|---|
 | **Comparative Public Administration** | Frameworks for comparing administrative structures, institutions, traditions, and practices across countries. | Identify dimensions that distinguish national administrative systems and enable systematic cross-country comparison. |
@@ -621,6 +623,8 @@ It is not an `Organizational Administration` (the internal administration of one
 
 > Establish criteria and methods for assessing the conceptual coherence, completeness, distinctiveness, operationalizability, comparability, reliability, and empirical validity of a characterization system for government-wide public administration systems.
 
+> General evaluation criteria for characterization systems are systematized in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md); the table below gives their government-wide operationalization.
+
 | Criteria | Description |
 |---|---|
 | **Conceptual Clarity** | Each concept and dimension has a precise definition, a clearly specified scope, and an identifiable relationship to the system being characterized. |
@@ -681,6 +685,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## References
 
+- [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Collective](note.html?n=social/collective/collective.md)
