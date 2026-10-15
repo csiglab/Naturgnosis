@@ -7465,12 +7465,27 @@
     ]
   },
   {
-    "file_path": "social/synontic/ideational/confucianism.md",
+    "file_path": "social/synontic/ideational/confucius-system.md",
     "logs": [
       {
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Renamed containing directory from social/synontic/ideology/ to social/synontic/ideational/ (content unchanged)."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Renamed file from social/synontic/ideational/confucianism.md to confucius-system.md (content unchanged)."
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/mencius-system.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added Mencius system note stub."
       }
     ]
   },
@@ -7686,6 +7701,66 @@
         "date": "2026-10-15",
         "kind": "feat",
         "summary": "Imported Good exposition from the Notion export into the Ideational subtree; normalized links and removed Notion export artifacts."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/guan-zhong.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Guan Zhong, Spring and Autumn chancellor of Qi; reforms, salt-and-iron monopoly, economic warfare, Guanzi."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/xu-guangqi.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Xu Guangqi, late-Ming scholar-official; Euclid translation with Ricci, Chongzhen calendar reform, Nongzheng Quanshu."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/chen-zilong.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Chen Zilong, late-Ming poet and official; editor of the Nongzheng Quanshu, Restoration Society loyalist."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/li-si.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Li Si, Qin chancellor; imperial standardization of law, measures, and script, meritocratic government, Cangjiepian."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/shen-buhai.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Shen Buhai, Han chancellor; administrative technique (shu), meritocratic selection, the lost Shenzi."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/mozi.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note: Mozi, founder of Mohism; universal love, anti-aggression, frugality, Heaven's intent, Mohist consequentialism."
       }
     ]
   }
