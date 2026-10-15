@@ -2206,6 +2206,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Updated internal links/paths after the public/ type-instance reorg."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "docs",
+        "summary": "Linked the Municipal Organization kind to the new Municipal Government note."
       }
     ]
   },
@@ -3651,6 +3656,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Updated internal links/paths after the public/ type-instance reorg."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added the Municipal Government kind under the Local Government row and referenced the new note."
       }
     ]
   },
@@ -7761,6 +7771,1551 @@
         "date": "2026-10-15",
         "kind": "feat",
         "summary": "Added persona note: Mozi, founder of Mohism; universal love, anti-aggression, frugality, Heaven's intent, Mohist consequentialism."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/louis-de-geer.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note stub: Louis De Geer (1587–1652), Walloon-Swedish industrialist and entrepreneur, father of Swedish industry."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/eva-ekeblad.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note stub: Eva Ekeblad (1724–1786), Swedish agriculturist; potato flour and alcohol, first female member of the Royal Swedish Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/james-finlayson.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note stub: James Finlayson (1772–1852), Scottish Quaker engineer who brought the Industrial Revolution to Tampere, Finland."
+      }
+    ]
+  },
+  {
+    "file_path": "history/breviarium/fue-latinoamerica-siempre-pobre.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/aclaratorios.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/agricultura.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/alhondiga.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/arbitrismo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/arte.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/asia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/austrias.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      },
+      {
+        "date": "2026-10-12",
+        "kind": "docs",
+        "summary": "Stub expansion test: replaced placeholder with Austrias identification sentence"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/barroco.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/beneficiencia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/borbones/reformas-borbonicas.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/borbones.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/british-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/capitania-general-de-santo-domingo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/carne.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/casa-de-trastamara.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/central-asia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ceramica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/chile.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ciudad.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/cofradias.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/colegio-mayor.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/colonia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/comercio-atlantico.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/comercio-pacifico.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/comercio.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/conflictos.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/conocimiento.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/consejo-de-castilla.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/convento.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/cooporaciones.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/corregidor.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/cortes.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/costumbres.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/credito.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/culinaria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/defensa.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/disolucion-monarquia-catolica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/disolucion.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/economica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/empresa.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/empresarios.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/epistemologia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/escolastica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/espanoles-americanos.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/exclavos.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/expansion.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/expediciones-borbonicas.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/fiestas.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/fiscalidad.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ganaderia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/genocidio.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/gentilicio-iberia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/gentilicio-latinoamerica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/geopolitica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/gobierno.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/gremios.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/guerra-del-mixton.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/hacienda.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/hittites.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/iberoamerica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/identidad.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/imperio-parto.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/indias.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/industria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ingenios.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/instituciones.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/italia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/juicio-de-residencia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/juntas-generales-de-guipuzcoa.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/kalmar-union.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/leyenda-negra.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/literatura.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/madereria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/manufactura-real.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/maragato.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/mayorasgo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/mestizos.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/metalurgia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/mineria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/misiones.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/mita.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/monarquia-hispanica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/mongol-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/municipio.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/musica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/nacion.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/naturales.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/nobleza.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/nueva-espana.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/obraje.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/oficios.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ordenes.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/ottoman-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/panorama-de-la-filosofia-hispanica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/paris-commune.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/patria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/pechenegs.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/politica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/pre-monarquia-catolica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/prevision-social.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/religion.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/representacion.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/republica-de-ragusa.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/roman-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/romeria.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/russian-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/slavic-people.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/soberania.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/sociedad-de-amantes-del-pais.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/sociedad-de-castas.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/song-china.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/song-dynasty.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/south-east-asia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/soviet-union.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/america.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/ganaderias.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/genetica.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/iberia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/pensamiento.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/plaza.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia/torero.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tauromaquia.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/teatro.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/textil.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tradicionalismo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tribunal-de-cuentas.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/tributos.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/trienio-liberal.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/txacala.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/universidad.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/urbanismo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/valido.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/vecino.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/viajantes.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/victimismo.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/vino.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/virrey.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/virtual-communities.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/world-energy-history.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/castilla/world-history.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/meta/inbox.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/portugal/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/russian-empire/table-of-ranks.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/soviet-union/comecon-council-for-mutual-economic-assistance.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/soviet-union/gulag.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/soviet-union/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-11",
+        "kind": "docs",
+        "summary": "Import from legacy vault: kebab-case rename, tags front matter, unfinished stubs marked"
+      }
+    ]
+  },
+  {
+    "file_path": "history/technology/technology.md",
+    "logs": [
+      {
+        "date": "2026-10-12",
+        "kind": "feat",
+        "summary": "New section: history of technology entry with book and paper references"
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/emil-aaltonen.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added persona note stub: Emil Aaltonen (1869–1949), Finnish industrialist and philanthropist, pioneer of shoe manufacturing and founder of the Emil Aaltonen Foundation."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/municipal-government.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added the generic Municipal Government note: typed under Government → Local Government, with the middle-depth recursive decomposition and cross-links to government, administration, public organization, and mancomunidad."
+      }
+    ]
+  },
+  {
+    "file_path": "social/normative/institution/institution/mancomunidad.md",
+    "logs": [
+      {
+        "date": "2026-10-15",
+        "kind": "docs",
+        "summary": "Added a reference to the new Municipal Government note as the associating municipal unit."
       }
     ]
   }

@@ -45,6 +45,7 @@ It is not the `State` (the political organization that persists across successiv
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` National Government | Government exercising public power at the level of the state as a whole. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Regional Government | Government exercising public power within a constituent region, federal unit, or autonomous territory. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government | Government exercising public power over a bounded locality and its services. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government `(→ Kind)` Municipal Government | Local Government kind governing a bounded urban locality and its services; worked in [Municipal Government](note.html?n=social/actor/public/municipal-government.md). |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution | The constituents and constitutive relations through which a plurality constitutes an identifiable government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set | The persons, agents, and organizations that constitute the government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set `(→ Part)` Constituent Agent Set | Office-holders — head of government, ministers, junior ministers — who constitute the government directly. |
@@ -363,6 +364,7 @@ It is not the `State` (the political organization that persists across successiv
 - [Facet](note.html?n=social/framework/facet.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Public Administration](note.html?n=social/actor/public/administration.md)
+- [Municipal Government](note.html?n=social/actor/public/municipal-government.md) (Local Government sub-type, urban-locality kind)
 - [Civil Service](note.html?n=social/actor/public/civil-service.md)
 - [Law](note.html?n=social/normative/law.md)
 - [Government](https://en.wikipedia.org/wiki/Government)

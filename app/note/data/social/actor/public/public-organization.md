@@ -41,7 +41,7 @@ It is the government subtype of Organization: what individuates it is not its in
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise `(→ Kind)` Crown Corporation | Commercially operating Crown-owned organization with board governance. |
-| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services — the wielding body of a [Municipal Government](note.html?n=social/actor/public/municipal-government.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution. |
@@ -92,5 +92,6 @@ Five dimensions jointly locate any government agency in the `Type` branch of [Or
 - [Organization](note.html?n=social/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
 - [Political Party](note.html?n=social/actor/political-party.md) (political subtype of Organization)
+- [Municipal Government](note.html?n=social/actor/public/municipal-government.md) (the governing collective whose wielding body is the Municipal Organization kind)
 - [Market](note.html?n=social/coordinator/market/market.md) (arena public organizations buy, employ, and regulate in)
 - Graph nodes of the same names: `public-organization`, `organization`, `government-agencies`, `executive-agency`, `statutory-boards-and-councils` (Social Space, dataset `social`)
