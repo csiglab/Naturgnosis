@@ -24,6 +24,12 @@ app/note/data/links.json — directed {from, to, label, kind} pairs whose
 endpoints are note paths or dir/ scopes. The builder validates and embeds
 them as a top-level "links" array in index.json (see load_links()).
 
+Backlinks (citation counts) are derived, not declared: the builder scans
+every indexed body for inline `note.html?n=<path>` links (code spans and
+fenced blocks excluded, self-links excluded, one vote per referrer) and
+emits app/note/data/backlinks.json — {target: [{path, title}]} for cited
+notes only, consumed by the cited-by chip in web/note.html.
+
 Usage: python3 bin/build_note_index.py
 """
 
@@ -40,6 +46,7 @@ APP = NOTE / "app" / "note"
 NOTES = APP / "data"
 OUT = APP / "data" / "index.json"
 LINKS = APP / "data" / "links.json"
+BACKLINKS = APP / "data" / "backlinks.json"
 
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
@@ -51,6 +58,7 @@ HTML_BLOCK_RE = re.compile(r"<(script|style)\b.*?</\1>", re.IGNORECASE | re.DOTA
 HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 HTML_H_RE = re.compile(r"<h([1-6])[^>]*>(.*?)</h\1>", re.IGNORECASE | re.DOTALL)
 HTML_TAG_RE = re.compile(r"<[^>]+>")
+NOTE_LINK_RE = re.compile(r"note\.html\?n=([A-Za-z0-9_.\-/]+?)(?=[)#\"'\s>]|$)")
 
 
 # æ/ø/œ/ß have no NFKD decomposition (they would vanish); transliterate first.
@@ -196,6 +204,58 @@ def entry(rel: Path, title: str, headings: list, text: str, tags: list, kind: st
     }
 
 
+def extract_note_targets(path: Path, kind: str) -> set:
+    """Inline `note.html?n=<path>` targets cited by one note body.
+
+    Fenced code blocks, inline code spans (markdown) and script/style
+    blocks (html) are stripped first so documented link examples never
+    count as citations. Fragments (`#…`) are cut; the caller validates
+    the target against the indexed paths.
+    """
+    raw = path.read_text(encoding="utf-8", errors="replace")
+    if kind == "live":
+        body = HTML_BLOCK_RE.sub(" ", raw)
+    else:
+        fm = FRONT_MATTER_RE.match(raw)
+        body = raw[fm.end():] if fm else raw
+        chunks = re.split(r"^```.*$", body, flags=re.M)
+        body = "".join(c for i, c in enumerate(chunks) if i % 2 == 0)
+        body = re.sub(r"`[^`\n]+`", " ", body)
+    targets = set()
+    for m in NOTE_LINK_RE.finditer(body):
+        target = m.group(1).split("#", 1)[0]
+        if target:
+            targets.add(target)
+    return targets
+
+
+def build_backlinks(notes: list, index_paths: set, warnings: list) -> dict:
+    """Invert inline citations to {target: [{path, title}]} for cited notes.
+
+    One vote per referrer; self-links excluded. Unknown targets warn
+    (broken inline link) and are dropped, never failing the build.
+    """
+    titles = {n["path"]: n["title"] for n in notes}
+    kinds = {n["path"]: n["kind"] for n in notes}
+    cited_by: dict = {}
+    for n in notes:
+        src = n["path"]
+        for target in extract_note_targets(NOTES / src, kinds[src]):
+            if target == src:
+                continue
+            if target not in index_paths:
+                warnings.append(f"backlinks ({src}: unknown note: {target})")
+                continue
+            cited_by.setdefault(target, set()).add(src)
+    return {
+        target: sorted(
+            ({"path": src, "title": titles[src]} for src in srcs),
+            key=lambda r: r["title"].lower(),
+        )
+        for target, srcs in sorted(cited_by.items())
+    }
+
+
 def load_links(index_paths: set, warnings: list) -> list:
     """Read the links registry and return embedded {from, to, label, kind} pairs.
 
@@ -274,6 +334,21 @@ def main() -> int:
     link_warnings = []
     links = load_links(index_paths, link_warnings)
 
+    backlink_warnings = []
+    backlinks = build_backlinks(notes, index_paths, backlink_warnings)
+    BACKLINKS.write_text(
+        json.dumps(
+            {
+                "generated": date.today().isoformat(),
+                "count": len(backlinks),
+                "backlinks": backlinks,
+            },
+            ensure_ascii=False,
+            separators=(",", ":"),
+        ),
+        encoding="utf-8",
+    )
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
@@ -288,9 +363,13 @@ def main() -> int:
     tagged = sum(1 for n in notes if n["tags"])
     print(f"notes-index: {len(notes)} notes ({tagged} tagged), {sum(n['words'] for n in notes)} words -> {OUT.relative_to(NOTE)} ({kb:.0f} KB)")
     print(f"notes-links: {len(links)} embedded ({len(link_warnings)} warnings)")
+    print(f"notes-backlinks: {len(backlinks)} cited notes, "
+          f"{sum(len(v) for v in backlinks.values())} citing pairs "
+          f"({len(backlink_warnings)} warnings)")
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     warnings.extend(link_warnings)
+    warnings.extend(backlink_warnings)
     for section, count in sorted(sections.items()):
         print(f"  {section}: {count}")
     if warnings:

@@ -33,6 +33,12 @@ under `social/actor/` (firms, banks, ministries, plus people under
   dangling, never fail) and embeds the pairs as `index.json:links`; the catalog renders
   them as `→ label` chips on file cards (note targets open the viewer, dir targets open
   the `?view=browse&dir=` listing). Rebuild and commit the index after editing links.
+- **Backlinks:** `app/note/data/backlinks.json` — derived, not declared. The
+  builder scans every indexed body for inline `note.html?n=<path>` links
+  (code spans and fenced blocks excluded, self-links excluded, one vote per
+  referrer) and emits `{target: [{path, title}]}` for cited notes only.
+  Unknown targets warn and are dropped, never failing the build. Committed
+  beside the corpus like the index; rebuild it with the same command.
 - **Pins are server-side**, not per-browser: `GET/POST /note/api/pins`
   (see `bin/sync.py`) reads and upserts a single `pins` doc in the
   `naturgnosis` CouchDB database. The server validates paths against the
@@ -69,6 +75,9 @@ under `social/actor/` (firms, banks, ministries, plus people under
   before render), raw-file link, breadcrumb back to the catalog (root
   `notes` plus every intermediate directory linking to its `?dir=` listing).
   Rejects non-kebab paths client-side (mirrors the server validation).
+  Cited notes show a `cited by N` chip in the header (from
+  `../data/backlinks.json`); clicking it opens the referrer list —
+  uncited notes show no chip.
 
 ## Operations
 

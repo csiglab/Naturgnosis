@@ -17,6 +17,10 @@ note system (code only; none of its personal content).
   with the generated `index.json` beside it.
 - `data/index.json` — **generated** by `bin/build_note_index.py`; committed
   but never hand-edited.
+- `data/backlinks.json` — **generated** by `bin/build_note_index.py`
+  (`{target: [{path, title}]}` for cited notes only, from inline
+  `note.html?n=` body links); committed but never hand-edited. Powers the
+  cited-by chip in `web/note.html`.
 - `data/links.json` — the single hand-maintained support-links registry
   (`{from, to, label, kind}` directed pairs; endpoints are note paths or
   `dir/` scopes). The builder validates and embeds it into `index.json`;

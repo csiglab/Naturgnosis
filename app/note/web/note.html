@@ -487,6 +487,7 @@
                 <span class="chip" id="meta-time"></span>
                 <a class="chip" id="meta-raw" href="#">view raw</a>
                 <button class="chip" id="meta-history" hidden>history</button>
+                <button class="chip" id="meta-refs" hidden>cited by</button>
             </div>
         </div>
 
@@ -522,6 +523,16 @@
             <button class="hist-close" id="hist-close" aria-label="Close history">&times;</button>
         </div>
         <div class="hist-body" id="hist-body"></div>
+    </div>
+
+    <div class="hist-overlay" id="refs-overlay"></div>
+    <div class="hist-modal" id="refs-modal" role="dialog" aria-modal="true" aria-label="Cited by">
+        <div class="hist-header">
+            <span class="hist-eyebrow">Cited by</span>
+            <h3 class="hist-title" id="refs-title">References</h3>
+            <button class="hist-close" id="refs-close" aria-label="Close cited-by">&times;</button>
+        </div>
+        <div class="hist-body" id="refs-body"></div>
     </div>
 
     <footer>
@@ -703,6 +714,45 @@
             if (e.key === 'Escape') closeHistory();
         });
 
+        /* ---------- cited-by references (backlinks.json) ---------- */
+
+        var refsPromise = fetch('../data/backlinks.json', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(function (d) { return (d && d.backlinks) || {}; })
+            .catch(function () { return {}; });
+
+        function openRefs(title, refs) {
+            document.getElementById('refs-title').textContent = title;
+            document.getElementById('refs-body').innerHTML = refs.map(function (r) {
+                return '<div class="hist-row"><div class="hist-text"><a href="note.html?n=' +
+                    r.path.split('/').map(encodeURIComponent).join('/') + '">' +
+                    esc(r.title || r.path) + '</a></div><div class="hist-meta">' +
+                    esc(r.path) + '</div></div>';
+            }).join('');
+            document.getElementById('refs-overlay').classList.add('open');
+            document.getElementById('refs-modal').classList.add('open');
+        }
+
+        function closeRefs() {
+            document.getElementById('refs-overlay').classList.remove('open');
+            document.getElementById('refs-modal').classList.remove('open');
+        }
+
+        function wireRefs(name, title, map) {
+            var refs = map[name] || [];
+            if (!refs.length) return;
+            var btn = document.getElementById('meta-refs');
+            btn.hidden = false;
+            btn.textContent = 'cited by ' + refs.length;
+            btn.onclick = function () { openRefs(title, refs); };
+        }
+
+        document.getElementById('refs-overlay').addEventListener('click', closeRefs);
+        document.getElementById('refs-close').addEventListener('click', closeRefs);
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeRefs();
+        });
+
         /* Split optional `---` front matter off; only `tags: [...]` is read. */
         function stripFrontMatter(md) {
             var tags = [];
@@ -828,6 +878,7 @@
                     document.getElementById('meta-raw').setAttribute('href', '../data/' + encPath(name));
                     renderTags(fm.tags);
                     histPromise.then(function (list) { wireHistory(name, list); });
+                    refsPromise.then(function (map) { wireRefs(name, title, map); });
 
                     document.getElementById('note-body').innerHTML = renderMarkdown(md);
                     try {
