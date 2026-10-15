@@ -1,3 +1,5 @@
+https://en.wikipedia.org/wiki/Credit_default_swap
+
 https://www.psd.gov.sg/newsroom/public-sector-governance-bill-by-min-ong-ye-kung-at-parliament/
 
 

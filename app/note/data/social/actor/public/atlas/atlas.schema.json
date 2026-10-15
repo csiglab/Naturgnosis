@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/public-organization-atlas.schema.json",
+  "title": "Atlas of Public Organization Comparative Representation Systems",
+  "description": "Comparative representation systems for the public organization space, differentiated by derivation methodology. Each system states its universe, purpose, and version, and derives its characteristic elements through one method. Assigning every element a value gives the comparative profile of an organization.",
+  "$comment": "Data objects in atlas.json must keep their object key order identical to this schema's property order.",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "$ref": "#/$defs/meta"
+    },
+    "systems": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/system"
+      }
+    }
+  },
+  "required": [
+    "meta",
+    "systems"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "space": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "space": {
+          "$ref": "#/$defs/space"
+        },
+        "description": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "space",
+        "description",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "element": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "value_set": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assignment_rule": {
+          "type": "string"
+        },
+        "scale": {
+          "type": "string",
+          "enum": [
+            "nominal",
+            "ordinal"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "value_set",
+        "assignment_rule",
+        "scale"
+      ],
+      "additionalProperties": false
+    },
+    "system": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "frame_basis": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "string"
+        },
+        "related_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "universe": {
+          "type": "string"
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "elements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/element"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "title",
+        "description",
+        "frame_basis",
+        "provenance",
+        "related_notes",
+        "universe",
+        "purpose",
+        "version",
+        "elements"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

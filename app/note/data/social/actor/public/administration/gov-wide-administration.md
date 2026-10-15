@@ -1,5 +1,5 @@
 ---
-tags: [administration, government-wide, collective, social-element, actor]
+tags: [administration, government-wide, collective]
 ---
 
 # Government-Wide Administrative System

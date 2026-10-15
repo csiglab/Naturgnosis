@@ -2161,6 +2161,16 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Repointed characterization links to the Latin note path."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Added pointer and reference to the new public-organization comparison atlas; TBD canonical-system slot untouched."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Atlas pointer updated to five methodology-differentiated systems."
       }
     ]
   },
@@ -3231,6 +3241,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Repointed characterization links to the Latin note path."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Trimmed tags to administration, government-wide, collective."
       }
     ]
   },

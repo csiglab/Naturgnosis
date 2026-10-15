@@ -78,7 +78,7 @@ Five dimensions jointly locate any government agency in the `Type` branch of [Or
 
 > The resulting characterization should enable individual organizations to be described consistently, organizational types to be distinguished systematically, and the organization space to be analyzed as a structured domain.
 
-> The general doctrine — general form of a characterization system, element derivation, concrete methods, and evaluation criteria — is systematized once in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md). This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table.
+> The general doctrine — general form of a characterization system, element derivation, concrete methods, and evaluation criteria — is systematized once in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md). This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Five ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](atlas/index.html).
 
 ### How do autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms differ?
 
@@ -86,6 +86,7 @@ Five dimensions jointly locate any government agency in the `Type` branch of [Or
 
 ## References
 
+- [Atlas of Public Organization Comparative Representation Systems](atlas/index.html)
 - [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Organization](note.html?n=social/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
