@@ -27636,6 +27636,70 @@
     "references": []
   },
   {
+    "id": "copleston-1946-history-of-philosophy",
+    "name": "Copleston, F. (1946–1975). A History of Philosophy, Vols. 1–9, with Vols. 10–11 supplementary. Burns Oates & Washbourne / Continuum.",
+    "tags": [
+      "reference-work",
+      "history-of-philosophy",
+      "philosophy"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "A nine-volume history of Western philosophy from ancient Greece and Rome through twentieth-century existentialism, later extended by two supplementary volumes on Russian and contemporary philosophy.",
+    "longDescription": "Copleston's *A History of Philosophy* consists of nine original volumes, later marketed as an eleven-volume collection with two supplementary works. It covers Western philosophy from ancient Greece and Rome through contemporary philosophy. A bibliographic list with links to each volume's table of contents is maintained by the University of Hildesheim.\n\n| Vol. | Title | Historical coverage |\n|---:|---|---|\n| 1 | Greece and Rome | Ancient Greek and Roman philosophy |\n| 2 | Augustine to Scotus | Medieval philosophy |\n| 3 | Ockham to Suárez | Late medieval and Renaissance philosophy |\n| 4 | Descartes to Leibniz | Seventeenth-century rationalism and early modern philosophy |\n| 5 | Hobbes to Hume | British empiricism and early modern British philosophy |\n| 6 | Wolff to Kant | German Enlightenment and Kant |\n| 7 | Fichte to Nietzsche | German idealism and nineteenth-century philosophy |\n| 8 | Bentham to Russell | British philosophy from utilitarianism through Russell |\n| 9 | Maine de Biran to Sartre | Continental philosophy through existentialism |\n| 10 | Philosophy in Russia: From Herzen to Lenin and Berdyaev | Russian philosophy (supplementary) |\n| 11 | Contemporary Philosophy: Studies of Logical Positivism and Existentialism | Logical positivism and existentialism (supplementary) |",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1946,
+          "event": "Volume 1, Greece and Rome, published",
+          "context": ""
+        },
+        {
+          "year": 1975,
+          "event": "Volume 9, Maine de Biran to Sartre, published",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "reference-work",
+      "creators": [
+        "Frederick Copleston"
+      ],
+      "year": 1946,
+      "venue": "Burns Oates & Washbourne / Continuum",
+      "identifier": ""
+    },
+    "metadata": {
+      "source": "manual-curation",
+      "imported": "2026-10-16",
+      "sourceReference": "user reading list, 2026-10-16",
+      "topics": [
+        "history-of-philosophy",
+        "philosophy"
+      ]
+    },
+    "references": [
+      {
+        "title": "Internet Archive — search: A History of Philosophy by Frederick Copleston",
+        "link": "https://archive.org/search?query=title%3A%22A+History+of+Philosophy%22+AND+creator%3A%22Frederick+Copleston%22",
+        "description": "Broadest catalogue search across the series; availability varies by edition and some volumes require controlled digital lending."
+      },
+      {
+        "title": "Open Library — A History of Philosophy (1962 nine-volume edition)",
+        "link": "https://openlibrary.org/books/OL24209577M/A_history_of_philosophy",
+        "description": "Catalogue record, not a direct readable copy."
+      },
+      {
+        "title": "University of Hildesheim — Histories of Philosophy: Copleston",
+        "link": "https://www.uni-hildesheim.de/en/histories-of-philosophy/histories-of-philosophy/english/ab-dem-20-jahrhundert/european-western-philosophy/translate-to-englisch-1946-coplestone/",
+        "description": "Bibliographic list with links to each volume's table of contents."
+      }
+    ]
+  },
+  {
     "id": "corbet-2005-linux-device-drivers-reilly-media",
     "name": "Corbet, J., Rubini, A., & Kroah-Hartman, G. (2005). Linux device drivers. O'Reilly Media, Inc..",
     "tags": [
