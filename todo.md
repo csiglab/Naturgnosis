@@ -1,10 +1,7 @@
-The quality of this informatinois streamly law;
+Tre Policy Index serves as a entry point toa  collection of pollities -  asmal catalog of a represntaive set of plgies in ordre ty deeply study collective agency, ...
 
-Some characteristic elements are missing:
+The Polity Index serves as an entry point to a collection of polities, enabling users to explore, navigate, and compare their institutional structures, social organization, and analytical representations. Each polity has its own dedicated space containing visual representations and explanatory notes, providing a foundation for systematic study across polities. Pick a flag to open that polity's page.
 
-http://localhost:8013/note/data/social/actor/public/atlas/public-organization.html#cmp/dom-dgii+swe-skatteverket/model-derived
-
-Remember that the values - re the empiral ones; not the jure ones.
 
 Study 
 
@@ -24,13 +21,9 @@ Study
     - …
 - …
 
-
 - How should a country manage knowledge and capacity concerning stable technical elements?
-- 
 
 → National Publication System
-
-→ …
 
 I need to  add to Historiafphy - Technology Time and and Map.
 
@@ -1878,3 +1871,71 @@ https://www.reddit.com/r/EconomicHistory/comments/1x6qeya/in_1344_a_florentine_g
 https://archive.org/details/historyofflorenc0000naje
 
 https://en.wikipedia.org/wiki/Guilds_of_Florence
+
+
+- Pitch systems, turbine controllers, converters, SCADA and operating systems.
+- ABB, Beckhoff and Bachmann to Vesta
+- The public oragnization comparison  charactization sytems are very weak - see the — .
+- Kolvani P, Nistotskaya M. On mechanisms of meritocratic recruitment: competence and impartiality. Journal of Institutional Economics. 2025;21:e12. doi:10.1017/S1744137425000086
+- https://www.riksdagen.se/sv/dokument-och-lagar/dokument/departementsserien/fortjanst-och-skicklighet-om-utnamningar-och_grb47/html/
+- https://www.gao.gov/assets/118810.pdf
+- https://elevanth.org/blog/2025/07/09/which-kind-of-science-reform/
+
+- https://academic.oup.com/book/5795
+- https://en.wikipedia.org/wiki/Cairo_Geniza
+
+BaiduWiki Langdao Technology
+
+https://hrcak.srce.hr/en (Universal Research Portal)
+
+https://simple.wikipedia.org/wiki/Herbert_Spencer
+
+Bernstein, Lisa. "Contract governance in small-world networks: The case of the Maghribi traders." Nw. UL Rev. 113 (2018): 1009.
+
+- Is the  concept  of stateless society even useful?  What is the limit of the concept of society? 
+- Is the concept of state to limited? Do we need a grade of state? And not a nominal value set.
+
+- [ ]  https://academic.oup.com/book/5795
+
+- [ ]  https://avehtari.github.io/Bayesian-Workflow/index.html
+- [ ]  https://charlesm93.github.io/stat547/
+
+
+- https://www.pekingnology.com/p/gordon-g-liu-on-chinas-pharmaceutical
+- https://www.fredgao.com/p/why-beijing-defends-ancient-greece
+- https://www.fredgao.com/p/why-is-beijing-issuing-a-policy-statement
+- https://en.wikipedia.org/wiki/Ibn_Battuta
+- https://en.wikipedia.org/wiki/Zheng_He
+- ...
+
+https://www.eastisread.com/p/cui-fan-the-oecds-subsidy-research
+
+Tech Productive Policy Comprehensive Life Cycle:
+
+Research
+Technical Capacity
+Initial Market
+Technical Education
+Sector Evolutionary Path
+
+| Policy family | Primary objective | Typical instruments | Intended industrial transformation |
+|---|---|---|---|
+| **1. Industrial identification and selection** | Identify industries with strategic or developmental potential | Industrial surveys, sectoral studies, advisory councils, priority-sector designation | Establish a direction for public action |
+| **2. Market formation** | Create sufficient demand for domestic production | Public procurement, demand coordination, market-development measures | Establish a viable initial market |
+| **3. Investment mobilization** | Expand productive capacity | Development-bank financing, tax incentives, investment coordination | Increase industrial capacity |
+| **4. Capital-equipment modernization** | Improve production technology and efficiency | Equipment-import approvals, financing, accelerated depreciation, modernization programs | Replace obsolete equipment with more productive machinery |
+| **5. Technology acquisition** | Obtain technologies unavailable domestically | Technology licensing, foreign-exchange allocation, foreign-technology agreements | Acquire external technological knowledge |
+| **6. Domestic technological development** | Build indigenous technical capabilities | Industrial R&D programs, technical research, collaboration between firms and research organizations | Develop the ability to improve and generate technologies |
+| **7. Supporting-industry development** | Establish domestic suppliers and complementary capabilities | Machinery-industry promotion, supplier development, technical assistance | Develop an integrated production system |
+| **8. Scale and production rationalization** | Improve productivity and production efficiency | Investment coordination, modernization, consolidation measures | Increase productivity and reduce production costs |
+| **9. Trade protection and import management** | Give domestic industries room to develop or manage external competition | Import restrictions, tariffs, foreign-exchange allocation | Facilitate domestic production and industrial upgrading |
+| **10. Export development** | Enable firms to compete in international markets | Export promotion, trade facilitation, export-related incentives | Expand sales and expose firms to international competition |
+| **11. Industrial coordination** | Coordinate investment and resolve sectoral bottlenecks | Administrative guidance, industry councils, coordination among firms and government | Align complementary investment and industrial development |
+| **12. Industrial restructuring** | Manage declining competitiveness and excess capacity | Capacity-reduction programs, restructuring support, adjustment legislation | Reallocate capital and labor toward more viable uses |
+
+- [ ]  https://archive.org/details/nietzschephiloso0000dele/mode/2up
+
+- [ ]  Is **value generation** the ordering principle of economic action? What is value generation even mean?
+
+- [ ]  https://avehtari.github.io/Bayesian-Workflow/index.html
+- [ ]  https://charlesm93.github.io/stat547/
