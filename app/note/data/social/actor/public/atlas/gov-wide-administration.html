@@ -181,10 +181,15 @@
         .sys-head { margin-top: 1.2rem; }
         .sys-head h2 { margin-top: 0; }
         .sys-desc { color: var(--text-secondary); max-width: 74ch; margin-top: 0.3rem; }
-        .groupnav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+        .groupnav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.6rem; padding: 0.55rem 0.65rem;
+            background: var(--nav-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+            position: sticky; top: 3.75rem; z-index: 5; max-height: 42vh; overflow-y: auto; }
         .groupnav a { font-family: var(--font-mono); font-size: 0.64rem; color: var(--accent-steel); text-decoration: none;
-            border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.2rem 0.65rem; }
-        .groupnav a:hover { border-color: var(--accent-steel); }
+            border: 1px solid var(--border-subtle); border-radius: 999px; padding: 0.2rem 0.65rem; white-space: nowrap; }
+        .groupnav a:hover { border-color: var(--accent-steel); color: var(--text-primary); }
+        .groupnav a .n { color: var(--text-ghost); margin-left: 0.3rem; }
+        h3[id^="grp-"] { scroll-margin-top: 8rem; }
         .axis { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
             padding: 0.9rem 1.1rem 1rem; margin: 0.6rem 0; box-shadow: var(--shadow-sm);
             transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
@@ -414,15 +419,15 @@
     }
     function elementMatches(e, q) {
         if (!q) return true;
-        return (e.name + " " + e.description + " " + e.value_set.join(" ") + " " + e.assignment_rule)
+        return (e.name + " " + e.description + " " + (e.value_set || []).join(" ") + " " + (e.value_type || "") + " " + e.assignment_rule)
             .toLowerCase().indexOf(q) >= 0;
     }
     function slug(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
     function elementId(sysName, name) { return sysName + "--" + slug(name); }
     function sysStats(sys) {
         var nominal = 0, ordinal = 0;
-        sys.elements.forEach(function (e) { if (e.scale === "ordinal") ordinal += 1; else nominal += 1; });
-        return { elements: sys.elements.length, nominal: nominal, ordinal: ordinal };
+        sys.characteristic_element_set.forEach(function (e) { if (e.scale === "ordinal") ordinal += 1; else nominal += 1; });
+        return { characteristic_element_set: sys.characteristic_element_set.length, nominal: nominal, ordinal: ordinal };
     }
 
     function renderSpace() {
@@ -431,7 +436,7 @@
         $("#spaceSection").classList.remove("hidden");
         $("#spaceDesc").textContent = space.description;
         var nSystems = state.systems.length, nElements = 0;
-        state.systems.forEach(function (s) { nElements += s.elements.length; });
+        state.systems.forEach(function (s) { nElements += s.characteristic_element_set.length; });
         function chip(k, v) {
             return '<span class="chip"><span class="k">' + esc(k) + "</span>" + esc(v) + "</span>";
         }
@@ -451,7 +456,7 @@
             tr.innerHTML = '<td class="sys">' + esc(sys.title) + "</td>" +
                 '<td><span class="origin ' + escAttr(originKind(sys)) + '">' + esc(originLabel(sys)) + "</span></td>" +
                 "<td>" + esc(sys.frame_basis) + "</td>" +
-                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + sys.elements.length + "</td>";
+                '<td style="font-family:var(--font-mono);font-size:0.72rem">' + sys.characteristic_element_set.length + "</td>";
             tr.addEventListener("click", function () { setActive(sys.name, true); });
             tb.appendChild(tr);
         });
@@ -464,7 +469,7 @@
             var b = document.createElement("button");
             b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab");
             b.setAttribute("aria-selected", sys.name === state.active ? "true" : "false");
-            b.innerHTML = esc(sys.title) + ' <span class="n">(' + sys.elements.length + ")</span>";
+            b.innerHTML = esc(sys.title) + ' <span class="n">(' + sys.characteristic_element_set.length + ")</span>";
             b.title = sys.description;
             b.addEventListener("click", function () { setActive(sys.name, true); });
             tabs.appendChild(b);
@@ -480,7 +485,7 @@
             '<div class="chips">' +
             '<span class="chip"><span class="k">Origin</span>' + esc(originLabel(sys)) + "</span>" +
             '<span class="chip"><span class="k">Basis</span>' + esc(sys.frame_basis) + "</span>" +
-            '<span class="chip"><span class="k">Elements</span>' + st.elements +
+            '<span class="chip"><span class="k">Elements</span>' + st.characteristic_element_set +
             " (" + st.nominal + " nominal · " + st.ordinal + " ordinal)</span>" +
             '<span class="chip"><span class="k">Provenance</span>' + esc(sys.provenance) + "</span>" +
             '<span class="chip"><span class="k">Version</span>v' + esc(sys.version) + "</span>";
@@ -512,7 +517,9 @@
                 '<a class="anchor" href="#' + escAttr(id) + '">§</a></div>' +
                 '<p class="axis-desc">' + highlightAll(e.description, q) + "</p>" +
                 '<div class="values"><span class="axis-label">value set</span>' +
-                e.value_set.map(function (v) { return '<span class="value">' + highlightAll(v, q) + "</span>"; }).join("") +
+                (e.value_set
+                    ? e.value_set.map(function (v) { return '<span class="value">' + highlightAll(v, q) + "</span>"; }).join("")
+                    : '<span class="value">' + highlightAll(e.value_type || "descriptive", q) + "</span>") +
                 "</div>";
             if (e.assignment_rule) {
                 card += '<p class="axis-desc"><span class="axis-label">assignment rule — </span>' +
@@ -520,22 +527,35 @@
             }
             return card + "</article>";
         }
+        var groups = sys.groups || sys.submodels || [];
         var body = "";
-        if (sys.groups && sys.groups.length) {
-            sys.groups.forEach(function (g) {
-                var els = sys.elements.filter(function (e) { return e.group === g.name; });
+        if (groups.length) {
+            var nav = groups.map(function (g) {
+                var n = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; }).length;
+                if (!n) return "";
+                return '<a href="#' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' +
+                    esc(g.name) + ' <span class="n">' + n + "</span></a>";
+            }).join("");
+            if (nav) {
+                body += '<nav class="groupnav" aria-label="Categories">' + nav + "</nav>";
+            }
+            groups.forEach(function (g) {
+                var els = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; });
                 var cards = els.map(cardFor).join("");
                 if (cards) {
-                    body += '<h3 id="' + escAttr("grp-" + sys.name + "--" + slug(g.name)) + '">' + esc(g.name) +
-                        ' <span class="count">· ' + els.length + " elements</span></h3>" +
-                        (g.description ? '<p class="section-desc" style="font-size:0.85rem">' + esc(g.description) + "</p>" : "") +
+                    var gid = "grp-" + sys.name + "--" + slug(g.name);
+                    var gdesc = g.description || g.question;
+                    body += '<h3 id="' + escAttr(gid) + '">' + esc(g.name) +
+                        ' <span class="count">· ' + els.length + " elements</span>" +
+                        ' <a class="anchor" href="#' + escAttr(gid) + '" title="Link to this category">§</a></h3>' +
+                        (gdesc ? '<p class="section-desc" style="font-size:0.85rem">' + esc(gdesc) + "</p>" : "") +
                         cards;
                 }
             });
-            var loose = sys.elements.filter(function (e) { return !e.group; }).map(cardFor).join("");
+            var loose = sys.characteristic_element_set.filter(function (e) { return !e.category; }).map(cardFor).join("");
             body += loose;
         } else {
-            body = sys.elements.map(cardFor).join("");
+            body = sys.characteristic_element_set.map(cardFor).join("");
         }
         html += body;
         if (q && !shown) {
@@ -545,7 +565,7 @@
         box.innerHTML = html;
         $("#counts").textContent = q ?
             shown + " / " + total + " elements match in " + sys.title :
-            st.elements + " characteristic elements";
+            st.characteristic_element_set + " characteristic elements";
     }
 
     function renderGlobalHits() {
@@ -584,13 +604,13 @@
         var sys = state.systems.filter(function (s) { return s.name === name; })[0];
         if (!sys) { $("#system").innerHTML = ""; return; }
         $("#system").innerHTML = '<p class="empty">Loading ' + esc(name) + "…</p>";
-        Promise.all(sys.elements.map(function (fn) {
+        Promise.all(sys.characteristic_element_set.map(function (fn) {
             return fetch(name + "/" + fn, { cache: "no-cache" }).then(function (r) {
                 if (!r.ok) throw new Error("HTTP " + r.status + " " + fn);
                 return r.json();
             });
         })).then(function (els) {
-            sys.elements = els;
+            sys.characteristic_element_set = els;
             state.loaded[name] = sys;
             if (state.active === name) { renderSystem(sys); renderGlobalHits(); }
         }).catch(function (err) {

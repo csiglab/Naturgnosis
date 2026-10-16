@@ -122,12 +122,15 @@
               "additionalProperties": false
             }
           },
-          "elements": {
+          "characteristic_element_set": {
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
                 "name": {
+                  "type": "string"
+                },
+                "category": {
                   "type": "string"
                 },
                 "description": {
@@ -148,13 +151,11 @@
                     "nominal",
                     "ordinal"
                   ]
-                },
-                "group": {
-                  "type": "string"
                 }
               },
               "required": [
                 "name",
+                "category",
                 "description",
                 "value_set",
                 "assignment_rule",
@@ -174,7 +175,7 @@
           "universe",
           "purpose",
           "version",
-          "elements"
+          "characteristic_element_set"
         ],
         "additionalProperties": false
       }

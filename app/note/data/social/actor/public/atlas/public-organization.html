@@ -146,6 +146,10 @@
             border-bottom: 1px solid var(--border-subtle); }
         table.cmp th { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em;
             text-transform: uppercase; color: var(--text-muted); font-weight: 400; }
+        table.cmp tr.cat td { position: sticky; top: 3.4rem; background: var(--bg-surface);
+            font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+            color: var(--accent-copper); font-weight: 400; border-bottom: 1px solid var(--border-strong); }
+        table.cmp tr.cat td .n { color: var(--text-ghost); letter-spacing: 0.04em; }
         table.cmp td.el { color: var(--text-primary); font-weight: 500; }
         table.cmp td.el .rule { display: block; font-weight: 300; font-size: 0.72rem;
             color: var(--text-muted); margin-top: 0.2rem; }
@@ -358,7 +362,7 @@
             var b = document.createElement("button");
             b.className = "tab"; b.type = "button"; b.setAttribute("role", "tab");
             b.setAttribute("aria-selected", s.name === state.active ? "true" : "false");
-            b.innerHTML = esc(s.title) + ' <span class="n">(' + s.elements.length + ")</span>";
+            b.innerHTML = esc(s.title) + ' <span class="n">(' + s.characteristic_element_set.length + ")</span>";
             b.title = s.description;
             b.addEventListener("click", function () { state.active = s.name; sync(); });
             tabs.appendChild(b);
@@ -373,11 +377,12 @@
             return;
         }
         var orgs = state.selected.map(orgById).filter(Boolean);
+        var nmodel = orgs.length + 1;
         var html = "<thead><tr><th>Characteristic element</th>" + orgs.map(function (o) {
             return "<th>" + esc(o.name) + "<br><span style='font-weight:300;text-transform:none;letter-spacing:0'>" +
                 esc(countryName(o.country).name) + "</span></th>";
         }).join("") + "</tr></thead><tbody>";
-        sys.elements.forEach(function (e) {
+        function rowFor(e) {
             var vals = orgs.map(function (o) {
                 var p = (o.profiles && o.profiles[sys.name]) || {};
                 return Object.prototype.hasOwnProperty.call(p, e.name) ? p[e.name] : null;
@@ -386,17 +391,29 @@
             for (var i = 1; i < vals.length; i++) {
                 if (vals[i] !== vals[0]) { differ = true; break; }
             }
-            html += "<tr><td class='el'>" + esc(e.name) +
+            var row = "<tr><td class='el'>" + esc(e.name) +
                 '<span class="rule">' + esc(e.assignment_rule) + "</span></td>";
             vals.forEach(function (v) {
                 if (v == null) {
-                    html += "<td class='val na'>—</td>";
+                    row += "<td class='val na'>—</td>";
                 } else {
-                    html += "<td class='val" + (differ ? " diff" : "") + "'>" + esc(v) + "</td>";
+                    row += "<td class='val" + (differ ? " diff" : "") + "'>" + esc(v) + "</td>";
                 }
             });
-            html += "</tr>";
-        });
+            return row + "</tr>";
+        }
+        var groups = sys.groups || sys.submodels || [];
+        if (groups.length) {
+            groups.forEach(function (g) {
+                var els = sys.characteristic_element_set.filter(function (e) { return e.category === g.name; });
+                if (!els.length) return;
+                html += '<tr class="cat"><td colspan="' + nmodel + '">' + esc(g.name) +
+                    ' <span class="n">· ' + els.length + "</span></td></tr>" + els.map(rowFor).join("");
+            });
+            html += sys.characteristic_element_set.filter(function (e) { return !e.category; }).map(rowFor).join("");
+        } else {
+            html += sys.characteristic_element_set.map(rowFor).join("");
+        }
         tbl.innerHTML = html;
         $("#resultSection").classList.remove("hidden");
     }

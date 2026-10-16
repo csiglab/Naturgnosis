@@ -127,9 +127,10 @@
           "description": "Arrangements for documenting, sharing, and applying administrative knowledge."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Coordination structure",
+          "category": "Coordination Model",
           "description": "Organizational arrangement through which administrative action is coordinated across government.",
           "value_set": [
             "Hierarchical",
@@ -140,11 +141,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Coordination Model"
+          "scale": "nominal"
         },
         {
           "name": "Coordination authority",
+          "category": "Coordination Model",
           "description": "Authority responsible for initiating, directing, and maintaining cross-government coordination.",
           "value_set": [
             "Single central authority",
@@ -155,11 +156,11 @@
             "No designated authority"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Coordination Model"
+          "scale": "nominal"
         },
         {
           "name": "Coordination intensity",
+          "category": "Coordination Model",
           "description": "Extent to which participating organizations coordinate their administrative activities.",
           "value_set": [
             "Continuous",
@@ -170,11 +171,11 @@
             "Minimal"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Coordination Model"
+          "scale": "ordinal"
         },
         {
           "name": "Conflict resolution",
+          "category": "Coordination Model",
           "description": "Mechanisms used to resolve disagreements between administrative organizations.",
           "value_set": [
             "Hierarchical escalation",
@@ -185,11 +186,11 @@
             "Unresolved disputes"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Coordination Model"
+          "scale": "nominal"
         },
         {
           "name": "Participation requirements",
+          "category": "Coordination Model",
           "description": "Extent to which administrative organizations are required to participate in coordination arrangements.",
           "value_set": [
             "Mandatory",
@@ -199,11 +200,11 @@
             "No formal participation requirements"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Coordination Model"
+          "scale": "ordinal"
         },
         {
           "name": "Functional allocation",
+          "category": "Functional Allocation Model",
           "description": "Distribution of government-wide administrative functions among central authorities and participating organizations.",
           "value_set": [
             "Centralized",
@@ -214,11 +215,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Functional Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Functional concentration",
+          "category": "Functional Allocation Model",
           "description": "Degree to which responsibility for a function is concentrated in a single organization or distributed across several organizations.",
           "value_set": [
             "Single-organization concentration",
@@ -228,11 +229,11 @@
             "Fragmented"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Functional Allocation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Functional specialization",
+          "category": "Functional Allocation Model",
           "description": "Extent to which administrative organizations specialize in particular government-wide functions.",
           "value_set": [
             "Generalist",
@@ -242,11 +243,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Functional Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Functional autonomy",
+          "category": "Functional Allocation Model",
           "description": "Degree of discretion organizations have over the execution of their assigned administrative functions.",
           "value_set": [
             "Minimal",
@@ -256,11 +257,11 @@
             "Function-dependent"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Functional Allocation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Functional overlap",
+          "category": "Functional Allocation Model",
           "description": "Extent to which administrative responsibilities overlap between institutions or organizations.",
           "value_set": [
             "None",
@@ -270,11 +271,11 @@
             "Unclear responsibility"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Functional Allocation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Functional coverage",
+          "category": "Functional Allocation Model",
           "description": "Extent to which the administrative system assigns responsibility for the relevant government-wide functions.",
           "value_set": [
             "Comprehensive",
@@ -284,11 +285,11 @@
             "Unassigned functions"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Functional Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Career and employment system",
+          "category": "Personnel Model",
           "description": "General arrangement through which public personnel enter, remain in, and progress through government employment.",
           "value_set": [
             "Career-based",
@@ -299,11 +300,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Recruitment system",
+          "category": "Personnel Model",
           "description": "Principal arrangements for recruiting personnel into administrative positions.",
           "value_set": [
             "Open competitive",
@@ -315,11 +316,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Selection authority",
+          "category": "Personnel Model",
           "description": "Organizational level responsible for selecting personnel.",
           "value_set": [
             "Central personnel authority",
@@ -330,11 +331,11 @@
             "Shared authority"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Employment security",
+          "category": "Personnel Model",
           "description": "Degree and basis of employment protection for public personnel.",
           "value_set": [
             "Permanent career tenure",
@@ -345,11 +346,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Career progression",
+          "category": "Personnel Model",
           "description": "Principal mechanism through which personnel advance to higher positions or grades.",
           "value_set": [
             "Seniority-based",
@@ -361,11 +362,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Personnel mobility",
+          "category": "Personnel Model",
           "description": "Extent to which personnel can move between government organizations and occupational groups.",
           "value_set": [
             "Government-wide mobility",
@@ -375,11 +376,11 @@
             "Limited mobility"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Remuneration system",
+          "category": "Personnel Model",
           "description": "How salaries and related compensation are determined across government.",
           "value_set": [
             "Unified pay scales",
@@ -391,11 +392,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Senior executive system",
+          "category": "Personnel Model",
           "description": "Arrangements governing the recruitment, appointment, development, and management of senior administrators.",
           "value_set": [
             "Unified senior civil service",
@@ -405,11 +406,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Personnel Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional configuration",
+          "category": "Institutional Model",
           "description": "Distribution of government-wide administrative responsibilities among institutions and administrative bodies.",
           "value_set": [
             "Single-center",
@@ -420,11 +421,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional mandate",
+          "category": "Institutional Model",
           "description": "Degree to which the responsibilities and jurisdiction of each institution are formally defined.",
           "value_set": [
             "Explicit and comprehensive",
@@ -434,11 +435,11 @@
             "Ambiguous"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional autonomy",
+          "category": "Institutional Model",
           "description": "Degree of organizational independence enjoyed by administrative institutions.",
           "value_set": [
             "Directly subordinate",
@@ -448,11 +449,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional specialization",
+          "category": "Institutional Model",
           "description": "Extent to which institutions have distinct functional mandates.",
           "value_set": [
             "Generalist institutions",
@@ -461,11 +462,11 @@
             "Overlapping specialization"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional hierarchy",
+          "category": "Institutional Model",
           "description": "Formal hierarchical relationships among institutions responsible for government-wide administration.",
           "value_set": [
             "Single hierarchy",
@@ -475,11 +476,11 @@
             "Largely nonhierarchical"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional stability",
+          "category": "Institutional Model",
           "description": "Degree of continuity in the system's institutional configuration.",
           "value_set": [
             "Stable",
@@ -489,11 +490,11 @@
             "Highly volatile"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Institutional Model"
+          "scale": "nominal"
         },
         {
           "name": "Decision-making authority",
+          "category": "Authority Model",
           "description": "Distribution of formal authority to make administrative decisions.",
           "value_set": [
             "Hierarchical",
@@ -505,11 +506,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Authority Model"
+          "scale": "nominal"
         },
         {
           "name": "Delegation arrangements",
+          "category": "Authority Model",
           "description": "Rules and practices governing the transfer of decision-making authority to subordinate or participating organizations.",
           "value_set": [
             "No delegation",
@@ -519,11 +520,11 @@
             "General delegated authority"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Authority Model"
+          "scale": "ordinal"
         },
         {
           "name": "Reserved powers",
+          "category": "Authority Model",
           "description": "Decisions retained exclusively by central or designated authorities.",
           "value_set": [
             "Extensive reserved powers",
@@ -533,11 +534,11 @@
             "Function-dependent"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Authority Model"
+          "scale": "ordinal"
         },
         {
           "name": "Rulemaking authority",
+          "category": "Authority Model",
           "description": "Distribution of authority to establish administrative rules and binding standards.",
           "value_set": [
             "Centralized",
@@ -548,11 +549,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Authority Model"
+          "scale": "nominal"
         },
         {
           "name": "Enforcement authority",
+          "category": "Authority Model",
           "description": "Distribution of authority to enforce government-wide administrative requirements.",
           "value_set": [
             "Central enforcement",
@@ -562,11 +563,11 @@
             "Limited enforcement capacity"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Authority Model"
+          "scale": "nominal"
         },
         {
           "name": "Discretion",
+          "category": "Authority Model",
           "description": "Degree of freedom organizations have when applying common administrative requirements.",
           "value_set": [
             "Minimal",
@@ -577,11 +578,11 @@
             "Function-dependent"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Authority Model"
+          "scale": "ordinal"
         },
         {
           "name": "Review and appeal rights",
+          "category": "Authority Model",
           "description": "Arrangements for reviewing administrative decisions and challenging their application.",
           "value_set": [
             "Hierarchical review",
@@ -591,11 +592,11 @@
             "Limited formal review"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Authority Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional integration",
+          "category": "Integration Model",
           "description": "Extent to which administrative institutions operate through connected governance and organizational arrangements.",
           "value_set": [
             "Unified",
@@ -605,11 +606,11 @@
             "Fragmented"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integration Model"
+          "scale": "ordinal"
         },
         {
           "name": "Procedural integration",
+          "category": "Integration Model",
           "description": "Extent to which administrative procedures and workflows are coordinated across organizations.",
           "value_set": [
             "End-to-end integrated",
@@ -619,11 +620,11 @@
             "Organization-specific"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integration Model"
+          "scale": "nominal"
         },
         {
           "name": "Information integration",
+          "category": "Integration Model",
           "description": "Extent to which administrative information is shared and usable across government organizations.",
           "value_set": [
             "Unified information environment",
@@ -633,11 +634,11 @@
             "Isolated information systems"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integration Model"
+          "scale": "ordinal"
         },
         {
           "name": "Technical interoperability",
+          "category": "Integration Model",
           "description": "Ability of administrative information systems to exchange and process information.",
           "value_set": [
             "Common architecture",
@@ -647,11 +648,11 @@
             "Incompatible systems"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integration Model"
+          "scale": "nominal"
         },
         {
           "name": "Semantic interoperability",
+          "category": "Integration Model",
           "description": "Extent to which organizations use compatible definitions, classifications, and meanings for shared information.",
           "value_set": [
             "Common data definitions",
@@ -661,11 +662,11 @@
             "Incompatible semantics"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integration Model"
+          "scale": "nominal"
         },
         {
           "name": "Integration governance",
+          "category": "Integration Model",
           "description": "Arrangements for setting priorities, standards, and responsibilities for system-wide integration.",
           "value_set": [
             "Central integration authority",
@@ -675,11 +676,11 @@
             "Absent or fragmented governance"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integration Model"
+          "scale": "nominal"
         },
         {
           "name": "Administrative standardization",
+          "category": "Standardization Model",
           "description": "Extent to which common administrative rules, procedures, classifications, and standards apply across government.",
           "value_set": [
             "Uniform",
@@ -690,11 +691,11 @@
             "Fragmented"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Standardization Model"
+          "scale": "ordinal"
         },
         {
           "name": "Standardization scope",
+          "category": "Standardization Model",
           "description": "Range of organizations, functions, and processes covered by common standards.",
           "value_set": [
             "Government-wide",
@@ -704,11 +705,11 @@
             "Narrow or limited scope"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Standardization Model"
+          "scale": "nominal"
         },
         {
           "name": "Standard-setting authority",
+          "category": "Standardization Model",
           "description": "Authority responsible for establishing common administrative standards.",
           "value_set": [
             "Single central authority",
@@ -718,11 +719,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Standardization Model"
+          "scale": "nominal"
         },
         {
           "name": "Binding force",
+          "category": "Standardization Model",
           "description": "Degree to which common standards are legally or administratively mandatory.",
           "value_set": [
             "Legally binding",
@@ -732,11 +733,11 @@
             "Voluntary"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Standardization Model"
+          "scale": "nominal"
         },
         {
           "name": "Permitted variation",
+          "category": "Standardization Model",
           "description": "Extent to which organizations may deviate from common administrative standards.",
           "value_set": [
             "No variation",
@@ -746,11 +747,11 @@
             "Organization-specific arrangements"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Standardization Model"
+          "scale": "nominal"
         },
         {
           "name": "Exception management",
+          "category": "Standardization Model",
           "description": "Procedures for requesting, authorizing, documenting, and reviewing exceptions to common standards.",
           "value_set": [
             "Central authorization",
@@ -760,11 +761,11 @@
             "Informal or undefined"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Standardization Model"
+          "scale": "nominal"
         },
         {
           "name": "Control mechanisms",
+          "category": "Administrative Control Model",
           "description": "Principal mechanisms through which authorities influence and monitor administrative organizations.",
           "value_set": [
             "Hierarchical",
@@ -776,11 +777,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Control Model"
+          "scale": "nominal"
         },
         {
           "name": "Ex ante control",
+          "category": "Administrative Control Model",
           "description": "Extent to which decisions and transactions require approval or verification before execution.",
           "value_set": [
             "Comprehensive prior approval",
@@ -790,11 +791,11 @@
             "No general prior approval"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Control Model"
+          "scale": "ordinal"
         },
         {
           "name": "Ex post control",
+          "category": "Administrative Control Model",
           "description": "Extent to which completed decisions and activities are reviewed for compliance and performance.",
           "value_set": [
             "Continuous review",
@@ -804,11 +805,11 @@
             "Minimal retrospective control"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Control Model"
+          "scale": "ordinal"
         },
         {
           "name": "Control locus",
+          "category": "Administrative Control Model",
           "description": "Organizational level at which administrative control is primarily exercised.",
           "value_set": [
             "Central authority",
@@ -818,11 +819,11 @@
             "Distributed control"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Control Model"
+          "scale": "nominal"
         },
         {
           "name": "Corrective authority",
+          "category": "Administrative Control Model",
           "description": "Authority to require corrective action when administrative deficiencies are identified.",
           "value_set": [
             "Direct corrective orders",
@@ -832,11 +833,11 @@
             "Limited corrective powers"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Control Model"
+          "scale": "ordinal"
         },
         {
           "name": "Sanctioning capacity",
+          "category": "Administrative Control Model",
           "description": "Ability to impose consequences for noncompliance or administrative misconduct.",
           "value_set": [
             "Direct sanctions",
@@ -846,11 +847,11 @@
             "No effective sanctioning mechanism"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Control Model"
+          "scale": "nominal"
         },
         {
           "name": "Risk orientation",
+          "category": "Administrative Control Model",
           "description": "Extent to which control activities are prioritized according to assessed risks.",
           "value_set": [
             "Predominantly rule-based",
@@ -860,11 +861,11 @@
             "Largely reactive"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Control Model"
+          "scale": "nominal"
         },
         {
           "name": "Shared-service provision",
+          "category": "Service-Provision Model",
           "description": "Organizational arrangement through which common administrative services are delivered.",
           "value_set": [
             "Centralized provision",
@@ -875,11 +876,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Service ownership",
+          "category": "Service-Provision Model",
           "description": "Institution responsible for defining service requirements and overseeing service delivery.",
           "value_set": [
             "Central service owner",
@@ -890,11 +891,11 @@
             "Unclear ownership"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Service delivery location",
+          "category": "Service-Provision Model",
           "description": "Where common administrative services are operationally performed.",
           "value_set": [
             "Single central provider",
@@ -905,11 +906,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Service coverage",
+          "category": "Service-Provision Model",
           "description": "Range of organizations eligible or required to use shared administrative services.",
           "value_set": [
             "Government-wide mandatory coverage",
@@ -919,11 +920,11 @@
             "Limited coverage"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Service-Provision Model"
+          "scale": "ordinal"
         },
         {
           "name": "Service financing",
+          "category": "Service-Provision Model",
           "description": "How shared administrative services are financed.",
           "value_set": [
             "Central appropriation",
@@ -934,11 +935,11 @@
             "Mixed financing"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Service-level governance",
+          "category": "Service-Provision Model",
           "description": "How service quality, responsibilities, costs, and delivery expectations are agreed and monitored.",
           "value_set": [
             "Centrally prescribed standards",
@@ -948,11 +949,11 @@
             "No formal service standards"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Outsourcing arrangements",
+          "category": "Service-Provision Model",
           "description": "Extent to which administrative service delivery is assigned to external providers.",
           "value_set": [
             "Fully public provision",
@@ -962,11 +963,11 @@
             "Function-dependent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Service-Provision Model"
+          "scale": "nominal"
         },
         {
           "name": "Rulemaking and regulation",
+          "category": "Regulatory Model",
           "description": "How government-wide administrative rules and requirements are established and applied.",
           "value_set": [
             "Unified regulatory framework",
@@ -976,11 +977,11 @@
             "Fragmented regulation"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Regulatory Model"
+          "scale": "ordinal"
         },
         {
           "name": "Regulatory scope",
+          "category": "Regulatory Model",
           "description": "Range of administrative functions and organizations governed by common regulatory arrangements.",
           "value_set": [
             "Comprehensive",
@@ -990,11 +991,11 @@
             "Fragmented"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Regulatory Model"
+          "scale": "ordinal"
         },
         {
           "name": "Regulatory hierarchy",
+          "category": "Regulatory Model",
           "description": "Relationship between general administrative rules and function-specific or organization-specific requirements.",
           "value_set": [
             "Clear hierarchy",
@@ -1004,11 +1005,11 @@
             "No clear hierarchy"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Regulatory Model"
+          "scale": "nominal"
         },
         {
           "name": "Regulatory coherence",
+          "category": "Regulatory Model",
           "description": "Degree to which administrative rules are mutually consistent and compatible.",
           "value_set": [
             "Highly coherent",
@@ -1018,11 +1019,11 @@
             "Materially conflicting"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Regulatory Model"
+          "scale": "nominal"
         },
         {
           "name": "Regulatory discretion",
+          "category": "Regulatory Model",
           "description": "Degree of freedom available to authorities when interpreting and applying administrative rules.",
           "value_set": [
             "Minimal",
@@ -1032,11 +1033,11 @@
             "Extensive"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Regulatory Model"
+          "scale": "ordinal"
         },
         {
           "name": "Rule revision",
+          "category": "Regulatory Model",
           "description": "Mechanisms for reviewing, updating, consolidating, and repealing administrative rules.",
           "value_set": [
             "Regular scheduled review",
@@ -1046,11 +1047,11 @@
             "Rarely updated"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Regulatory Model"
+          "scale": "ordinal"
         },
         {
           "name": "Regulatory consultation",
+          "category": "Regulatory Model",
           "description": "Extent to which affected organizations and stakeholders participate in developing administrative rules.",
           "value_set": [
             "Mandatory broad consultation",
@@ -1060,11 +1061,11 @@
             "No regular consultation"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Regulatory Model"
+          "scale": "ordinal"
         },
         {
           "name": "Accountability structure",
+          "category": "Accountability Model",
           "description": "Arrangement of relationships through which administrative organizations account for decisions, compliance, and results.",
           "value_set": [
             "Hierarchical",
@@ -1075,11 +1076,11 @@
             "Multiple accountability"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Accountability direction",
+          "category": "Accountability Model",
           "description": "Direction in which administrative organizations and officials are required to account for their actions.",
           "value_set": [
             "Upward",
@@ -1089,11 +1090,11 @@
             "Multidirectional"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Accountability scope",
+          "category": "Accountability Model",
           "description": "Matters for which administrative actors are required to provide explanations or accept responsibility.",
           "value_set": [
             "Legal compliance",
@@ -1104,11 +1105,11 @@
             "Comprehensive"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Reporting obligations",
+          "category": "Accountability Model",
           "description": "Requirements to submit administrative, financial, compliance, or performance information.",
           "value_set": [
             "Frequent standardized reporting",
@@ -1118,11 +1119,11 @@
             "Minimal reporting"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Oversight independence",
+          "category": "Accountability Model",
           "description": "Degree of independence enjoyed by bodies responsible for reviewing administrative conduct.",
           "value_set": [
             "Internal managerial oversight",
@@ -1132,11 +1133,11 @@
             "Constitutionally independent oversight"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Transparency obligations",
+          "category": "Accountability Model",
           "description": "Requirements to disclose administrative information to oversight bodies and the public.",
           "value_set": [
             "Comprehensive proactive disclosure",
@@ -1146,11 +1147,11 @@
             "Limited transparency"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Accountability Model"
+          "scale": "ordinal"
         },
         {
           "name": "Complaint and redress",
+          "category": "Accountability Model",
           "description": "Mechanisms through which individuals and organizations can challenge administrative decisions or service failures.",
           "value_set": [
             "Internal review",
@@ -1161,11 +1162,11 @@
             "Limited redress"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Remedial follow-through",
+          "category": "Accountability Model",
           "description": "Extent to which findings from audits, investigations, and reviews result in corrective action.",
           "value_set": [
             "Mandatory tracked remediation",
@@ -1175,11 +1176,11 @@
             "Little follow-through"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Accountability Model"
+          "scale": "nominal"
         },
         {
           "name": "Digital infrastructure",
+          "category": "Digital Architecture Model",
           "description": "Organization of the digital infrastructure supporting administrative operations across government.",
           "value_set": [
             "Centralized infrastructure",
@@ -1189,11 +1190,11 @@
             "Fragmented legacy infrastructure"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Digital Architecture Model"
+          "scale": "nominal"
         },
         {
           "name": "Platform ownership",
+          "category": "Digital Architecture Model",
           "description": "Allocation of ownership and operational responsibility for shared digital platforms.",
           "value_set": [
             "Central government ownership",
@@ -1203,11 +1204,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Digital Architecture Model"
+          "scale": "nominal"
         },
         {
           "name": "Digital service architecture",
+          "category": "Digital Architecture Model",
           "description": "Arrangement of digital platforms, applications, interfaces, and services across government.",
           "value_set": [
             "Unified platform",
@@ -1217,11 +1218,11 @@
             "Isolated agency systems"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Digital Architecture Model"
+          "scale": "ordinal"
         },
         {
           "name": "Data stewardship",
+          "category": "Digital Architecture Model",
           "description": "Allocation of responsibility for data quality, definitions, access, maintenance, and reuse.",
           "value_set": [
             "Centralized stewardship",
@@ -1231,11 +1232,11 @@
             "Unclear responsibility"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Digital Architecture Model"
+          "scale": "nominal"
         },
         {
           "name": "Data-sharing authority",
+          "category": "Digital Architecture Model",
           "description": "Rules governing whether and how administrative data can be exchanged across organizations.",
           "value_set": [
             "Government-wide sharing mandate",
@@ -1245,11 +1246,11 @@
             "No coherent framework"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Digital Architecture Model"
+          "scale": "nominal"
         },
         {
           "name": "Digital identity and access",
+          "category": "Digital Architecture Model",
           "description": "Arrangement for identifying users and managing access to administrative systems.",
           "value_set": [
             "Unified government identity",
@@ -1259,11 +1260,11 @@
             "Fragmented access arrangements"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Digital Architecture Model"
+          "scale": "ordinal"
         },
         {
           "name": "Cybersecurity governance",
+          "category": "Digital Architecture Model",
           "description": "Allocation of responsibility for setting and enforcing government-wide cybersecurity requirements.",
           "value_set": [
             "Central cybersecurity authority",
@@ -1273,11 +1274,11 @@
             "Fragmented responsibility"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Digital Architecture Model"
+          "scale": "nominal"
         },
         {
           "name": "Legacy-system dependence",
+          "category": "Digital Architecture Model",
           "description": "Degree to which administrative operations depend on outdated or difficult-to-integrate systems.",
           "value_set": [
             "Minimal",
@@ -1287,11 +1288,11 @@
             "Highly fragmented"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Digital Architecture Model"
+          "scale": "ordinal"
         },
         {
           "name": "Resource distribution",
+          "category": "Resource Allocation Model",
           "description": "How funding, personnel, and technical resources for government-wide administrative functions are allocated.",
           "value_set": [
             "Central allocation",
@@ -1302,11 +1303,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Budgetary authority",
+          "category": "Resource Allocation Model",
           "description": "Distribution of authority to propose, approve, reallocate, and control administrative budgets.",
           "value_set": [
             "Centralized",
@@ -1316,11 +1317,11 @@
             "Function-specific arrangements"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Funding predictability",
+          "category": "Resource Allocation Model",
           "description": "Degree to which administrative organizations can anticipate the resources available to them.",
           "value_set": [
             "Multiyear predictable funding",
@@ -1330,11 +1331,11 @@
             "Ad hoc financing"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Cost allocation",
+          "category": "Resource Allocation Model",
           "description": "Method used to assign the costs of shared administrative functions to participating organizations.",
           "value_set": [
             "Central absorption",
@@ -1345,11 +1346,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Resource pooling",
+          "category": "Resource Allocation Model",
           "description": "Extent to which organizations combine or share resources to support common administrative functions.",
           "value_set": [
             "Comprehensive pooling",
@@ -1359,11 +1360,11 @@
             "Independent organizational resources"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Resource Allocation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Procurement authority",
+          "category": "Resource Allocation Model",
           "description": "Distribution of authority for acquiring goods and services used in government-wide administration.",
           "value_set": [
             "Centralized procurement",
@@ -1373,11 +1374,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Resource flexibility",
+          "category": "Resource Allocation Model",
           "description": "Degree to which organizations can reallocate resources in response to changing administrative needs.",
           "value_set": [
             "Highly restricted",
@@ -1387,11 +1388,11 @@
             "Extensive discretion"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Resource Allocation Model"
+          "scale": "nominal"
         },
         {
           "name": "Administrative capacity distribution",
+          "category": "Capability Distribution Model",
           "description": "Distribution of administrative expertise and implementation capacity across government.",
           "value_set": [
             "Centralized expertise",
@@ -1402,11 +1403,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Capability Distribution Model"
+          "scale": "nominal"
         },
         {
           "name": "Strategic capacity",
+          "category": "Capability Distribution Model",
           "description": "Distribution of expertise for system-wide planning, policy development, and administrative reform.",
           "value_set": [
             "Centralized strategic capacity",
@@ -1416,11 +1417,11 @@
             "Limited system-wide capacity"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Capability Distribution Model"
+          "scale": "nominal"
         },
         {
           "name": "Technical expertise",
+          "category": "Capability Distribution Model",
           "description": "Availability and distribution of specialized professional and technical knowledge.",
           "value_set": [
             "Central expert pool",
@@ -1431,11 +1432,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Capability Distribution Model"
+          "scale": "nominal"
         },
         {
           "name": "Leadership capacity",
+          "category": "Capability Distribution Model",
           "description": "Distribution of leadership and senior management capabilities across administrative organizations.",
           "value_set": [
             "Strong government-wide leadership pool",
@@ -1445,11 +1446,11 @@
             "Limited capacity"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Capability Distribution Model"
+          "scale": "ordinal"
         },
         {
           "name": "Analytical capacity",
+          "category": "Capability Distribution Model",
           "description": "Ability to collect, interpret, and use evidence for administrative decisions and improvement.",
           "value_set": [
             "Government-wide analytical capability",
@@ -1459,11 +1460,11 @@
             "Limited capability"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Capability Distribution Model"
+          "scale": "nominal"
         },
         {
           "name": "Capability development",
+          "category": "Capability Distribution Model",
           "description": "Arrangements for developing and maintaining administrative competencies.",
           "value_set": [
             "Centralized professional development",
@@ -1473,11 +1474,11 @@
             "Limited systematic development"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Capability Distribution Model"
+          "scale": "ordinal"
         },
         {
           "name": "Capacity equalization",
+          "category": "Capability Distribution Model",
           "description": "Mechanisms for addressing differences in capability between organizations or levels of government.",
           "value_set": [
             "Mandatory common support",
@@ -1487,11 +1488,11 @@
             "No systematic equalization"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Capability Distribution Model"
+          "scale": "ordinal"
         },
         {
           "name": "Implementation responsibility",
+          "category": "Implementation Model",
           "description": "Allocation of responsibility for putting government-wide administrative policies and requirements into practice.",
           "value_set": [
             "Central implementation",
@@ -1502,11 +1503,11 @@
             "Unclear responsibility"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Implementation Model"
+          "scale": "nominal"
         },
         {
           "name": "Implementation discretion",
+          "category": "Implementation Model",
           "description": "Degree of freedom organizations have to adapt common requirements during implementation.",
           "value_set": [
             "Strictly uniform",
@@ -1516,11 +1517,11 @@
             "Negotiated implementation"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Implementation Model"
+          "scale": "nominal"
         },
         {
           "name": "Implementation sequencing",
+          "category": "Implementation Model",
           "description": "How implementation is scheduled across organizations and functions.",
           "value_set": [
             "Simultaneous government-wide rollout",
@@ -1530,11 +1531,11 @@
             "Ad hoc rollout"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Implementation Model"
+          "scale": "nominal"
         },
         {
           "name": "Implementation support",
+          "category": "Implementation Model",
           "description": "Assistance available to organizations implementing common administrative requirements.",
           "value_set": [
             "Mandatory centralized support",
@@ -1544,11 +1545,11 @@
             "Minimal support"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Implementation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Compliance variation",
+          "category": "Implementation Model",
           "description": "Degree to which organizations differ in their actual application of common requirements.",
           "value_set": [
             "Consistent compliance",
@@ -1558,11 +1559,11 @@
             "Widespread noncompliance"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Implementation Model"
+          "scale": "nominal"
         },
         {
           "name": "Implementation monitoring",
+          "category": "Implementation Model",
           "description": "Arrangements for tracking progress, identifying barriers, and verifying implementation.",
           "value_set": [
             "Continuous monitoring",
@@ -1572,11 +1573,11 @@
             "Informal or absent monitoring"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Implementation Model"
+          "scale": "ordinal"
         },
         {
           "name": "Implementation incentives",
+          "category": "Implementation Model",
           "description": "Mechanisms used to encourage or secure implementation.",
           "value_set": [
             "Mandatory directives",
@@ -1587,11 +1588,11 @@
             "Few incentives"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Implementation Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional adaptability",
+          "category": "Adaptation Model",
           "description": "Ability of the administrative system to respond to changing requirements and circumstances.",
           "value_set": [
             "Highly adaptable",
@@ -1601,11 +1602,11 @@
             "Institutionally resistant"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Reform initiation",
+          "category": "Adaptation Model",
           "description": "Distribution of authority to identify and initiate administrative reforms.",
           "value_set": [
             "Central initiation",
@@ -1616,11 +1617,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Reform coordination",
+          "category": "Adaptation Model",
           "description": "Arrangements for coordinating reform initiatives across government organizations.",
           "value_set": [
             "Central reform authority",
@@ -1630,11 +1631,11 @@
             "Ad hoc coordination"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Change velocity",
+          "category": "Adaptation Model",
           "description": "Typical pace at which the system can approve and implement administrative changes.",
           "value_set": [
             "Rapid",
@@ -1644,11 +1645,11 @@
             "Highly variable"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Experimentation",
+          "category": "Adaptation Model",
           "description": "Extent to which administrative organizations can test new approaches before wider adoption.",
           "value_set": [
             "Government-wide experimentation framework",
@@ -1658,11 +1659,11 @@
             "Experimentation discouraged"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Reform reversibility",
+          "category": "Adaptation Model",
           "description": "Ability to revise, discontinue, or reverse reforms when results are inadequate or circumstances change.",
           "value_set": [
             "Formal review and reversal mechanisms",
@@ -1672,11 +1673,11 @@
             "Case-dependent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Institutional memory",
+          "category": "Adaptation Model",
           "description": "Extent to which the system retains knowledge of previous reforms and organizational changes.",
           "value_set": [
             "Systematic records and knowledge transfer",
@@ -1686,11 +1687,11 @@
             "Frequent loss of institutional knowledge"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Adaptation Model"
+          "scale": "nominal"
         },
         {
           "name": "Performance management arrangements",
+          "category": "Performance Management Model",
           "description": "Organization of the processes through which administrative performance is defined, measured, reviewed, and used.",
           "value_set": [
             "Centralized system",
@@ -1700,11 +1701,11 @@
             "Fragmented measurement"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Performance Management Model"
+          "scale": "nominal"
         },
         {
           "name": "Indicator standardization",
+          "category": "Performance Management Model",
           "description": "Extent to which common definitions and indicators are used across administrative organizations.",
           "value_set": [
             "Fully standardized",
@@ -1714,11 +1715,11 @@
             "No common framework"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Performance Management Model"
+          "scale": "nominal"
         },
         {
           "name": "Target setting",
+          "category": "Performance Management Model",
           "description": "How administrative performance targets are established.",
           "value_set": [
             "Centrally prescribed",
@@ -1728,11 +1729,11 @@
             "No systematic targets"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Performance Management Model"
+          "scale": "ordinal"
         },
         {
           "name": "Performance reporting",
+          "category": "Performance Management Model",
           "description": "Arrangements for reporting administrative results across government.",
           "value_set": [
             "Unified reporting system",
@@ -1742,11 +1743,11 @@
             "Fragmented reporting"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Performance Management Model"
+          "scale": "ordinal"
         },
         {
           "name": "Evaluation independence",
+          "category": "Performance Management Model",
           "description": "Degree to which performance assessments are independent of the organizations being assessed.",
           "value_set": [
             "Internal self-assessment",
@@ -1756,11 +1757,11 @@
             "Independent statutory evaluation"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Performance Management Model"
+          "scale": "nominal"
         },
         {
           "name": "Performance consequences",
+          "category": "Performance Management Model",
           "description": "Extent to which performance results influence administrative decisions and organizational behavior.",
           "value_set": [
             "Direct budgetary consequences",
@@ -1770,11 +1771,11 @@
             "Little or no use"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Performance Management Model"
+          "scale": "ordinal"
         },
         {
           "name": "Benchmarking",
+          "category": "Performance Management Model",
           "description": "Extent to which organizations compare administrative performance against common benchmarks or one another.",
           "value_set": [
             "Government-wide benchmarking",
@@ -1784,11 +1785,11 @@
             "No systematic benchmarking"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Performance Management Model"
+          "scale": "ordinal"
         },
         {
           "name": "Evaluation and learning cycle",
+          "category": "Performance Management Model",
           "description": "Extent to which performance evidence leads to review, corrective action, and subsequent reassessment.",
           "value_set": [
             "Closed-loop continuous improvement",
@@ -1798,11 +1799,11 @@
             "Absent cycle"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Performance Management Model"
+          "scale": "ordinal"
         },
         {
           "name": "Strategic steering authority",
+          "category": "Governance and Steering Model",
           "description": "Authority responsible for setting the overall direction of government-wide administration.",
           "value_set": [
             "Central executive authority",
@@ -1813,11 +1814,11 @@
             "Unclear authority"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Governance and Steering Model"
+          "scale": "nominal"
         },
         {
           "name": "Leadership configuration",
+          "category": "Governance and Steering Model",
           "description": "Arrangement through which system-wide administrative leadership is exercised.",
           "value_set": [
             "Single central leader",
@@ -1828,11 +1829,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Governance and Steering Model"
+          "scale": "nominal"
         },
         {
           "name": "Priority alignment",
+          "category": "Governance and Steering Model",
           "description": "Extent to which administrative organizations align their priorities with government-wide objectives.",
           "value_set": [
             "Mandatory alignment",
@@ -1842,11 +1843,11 @@
             "Weak alignment"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Governance and Steering Model"
+          "scale": "ordinal"
         },
         {
           "name": "Cross-government decision forums",
+          "category": "Governance and Steering Model",
           "description": "Formal forums through which system-wide administrative decisions are discussed and made.",
           "value_set": [
             "Central executive forum",
@@ -1856,11 +1857,11 @@
             "No regular forum"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Governance and Steering Model"
+          "scale": "nominal"
         },
         {
           "name": "Strategic dispute resolution",
+          "category": "Governance and Steering Model",
           "description": "Mechanisms for resolving competing priorities among administrative institutions.",
           "value_set": [
             "Central executive decision",
@@ -1870,11 +1871,11 @@
             "Unresolved conflict"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Governance and Steering Model"
+          "scale": "nominal"
         },
         {
           "name": "Steering accountability",
+          "category": "Governance and Steering Model",
           "description": "Arrangements for holding system-wide leaders and steering bodies accountable for their direction and decisions.",
           "value_set": [
             "Formal mandate and reporting",
@@ -1884,11 +1885,11 @@
             "Unclear responsibility"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Governance and Steering Model"
+          "scale": "nominal"
         },
         {
           "name": "Planning horizon",
+          "category": "Strategic Planning Model",
           "description": "Time period explicitly considered in government-wide administrative planning.",
           "value_set": [
             "Short-term",
@@ -1899,11 +1900,11 @@
             "No explicit horizon"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Strategic Planning Model"
+          "scale": "nominal"
         },
         {
           "name": "Administrative strategy",
+          "category": "Strategic Planning Model",
           "description": "Extent to which government-wide administration is guided by an explicit strategic framework.",
           "value_set": [
             "Comprehensive strategy",
@@ -1913,11 +1914,11 @@
             "No explicit strategy"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Strategic Planning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Priority setting",
+          "category": "Strategic Planning Model",
           "description": "Process through which administrative development priorities are identified and ranked.",
           "value_set": [
             "Central executive prioritization",
@@ -1927,11 +1928,11 @@
             "Ad hoc prioritization"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Strategic Planning Model"
+          "scale": "nominal"
         },
         {
           "name": "Planning integration",
+          "category": "Strategic Planning Model",
           "description": "Degree to which administrative plans align with fiscal plans, workforce plans, digital strategies, and wider government objectives.",
           "value_set": [
             "Fully integrated",
@@ -1941,11 +1942,11 @@
             "Separate planning processes"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Strategic Planning Model"
+          "scale": "nominal"
         },
         {
           "name": "Planning participation",
+          "category": "Strategic Planning Model",
           "description": "Extent to which administrative organizations and affected stakeholders contribute to strategic planning.",
           "value_set": [
             "Broad mandatory participation",
@@ -1955,11 +1956,11 @@
             "Informal participation"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Strategic Planning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Plan-to-budget linkage",
+          "category": "Strategic Planning Model",
           "description": "Degree to which administrative plans influence budget allocations and resource commitments.",
           "value_set": [
             "Direct multiyear linkage",
@@ -1969,11 +1970,11 @@
             "No systematic linkage"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Strategic Planning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Strategic review",
+          "category": "Strategic Planning Model",
           "description": "Frequency and method by which administrative priorities and plans are reassessed.",
           "value_set": [
             "Scheduled comprehensive review",
@@ -1983,11 +1984,11 @@
             "Rarely reviewed"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Strategic Planning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Process architecture",
+          "category": "Administrative Process Model",
           "description": "How government-wide administrative workflows and procedures are structured.",
           "value_set": [
             "Common government-wide processes",
@@ -1997,11 +1998,11 @@
             "Fragmented processes"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Process Model"
+          "scale": "nominal"
         },
         {
           "name": "Process ownership",
+          "category": "Administrative Process Model",
           "description": "Allocation of responsibility for the design, operation, and improvement of administrative processes.",
           "value_set": [
             "Central process owner",
@@ -2011,11 +2012,11 @@
             "No clear owner"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Process Model"
+          "scale": "nominal"
         },
         {
           "name": "Workflow integration",
+          "category": "Administrative Process Model",
           "description": "Degree to which processes connect activities across organizational boundaries.",
           "value_set": [
             "End-to-end cross-government workflows",
@@ -2025,11 +2026,11 @@
             "Disconnected workflows"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Process Model"
+          "scale": "nominal"
         },
         {
           "name": "Process standardization",
+          "category": "Administrative Process Model",
           "description": "Extent to which common process designs and procedures are used across organizations.",
           "value_set": [
             "Uniform workflows",
@@ -2039,11 +2040,11 @@
             "No common approach"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Process Model"
+          "scale": "ordinal"
         },
         {
           "name": "Process automation",
+          "category": "Administrative Process Model",
           "description": "Extent to which administrative processes are automated through digital systems.",
           "value_set": [
             "End-to-end automation",
@@ -2053,11 +2054,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Process Model"
+          "scale": "nominal"
         },
         {
           "name": "Process performance",
+          "category": "Administrative Process Model",
           "description": "Extent to which process efficiency, timeliness, cost, and error rates are systematically measured.",
           "value_set": [
             "Comprehensive measurement",
@@ -2067,11 +2068,11 @@
             "No systematic measurement"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Process Model"
+          "scale": "ordinal"
         },
         {
           "name": "Process redesign",
+          "category": "Administrative Process Model",
           "description": "Arrangements for simplifying, reengineering, and improving administrative workflows.",
           "value_set": [
             "Continuous process improvement",
@@ -2082,11 +2083,11 @@
             "No systematic redesign"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Process Model"
+          "scale": "ordinal"
         },
         {
           "name": "Ethics framework",
+          "category": "Integrity and Ethics Model",
           "description": "Existence and scope of common ethical principles and conduct requirements for public administration.",
           "value_set": [
             "Unified government-wide code",
@@ -2096,11 +2097,11 @@
             "No comprehensive framework"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integrity and Ethics Model"
+          "scale": "ordinal"
         },
         {
           "name": "Conflict-of-interest management",
+          "category": "Integrity and Ethics Model",
           "description": "Arrangements for identifying, disclosing, preventing, and managing conflicts of interest.",
           "value_set": [
             "Comprehensive disclosure and management",
@@ -2110,11 +2111,11 @@
             "Limited safeguards"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integrity and Ethics Model"
+          "scale": "ordinal"
         },
         {
           "name": "Anti-corruption coordination",
+          "category": "Integrity and Ethics Model",
           "description": "Organization of responsibilities for preventing and addressing corruption across government.",
           "value_set": [
             "Central coordinating authority",
@@ -2124,11 +2125,11 @@
             "Fragmented arrangements"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integrity and Ethics Model"
+          "scale": "nominal"
         },
         {
           "name": "Whistleblowing protection",
+          "category": "Integrity and Ethics Model",
           "description": "Legal and administrative protections and reporting channels for individuals who report misconduct.",
           "value_set": [
             "Comprehensive protection and independent channels",
@@ -2138,11 +2139,11 @@
             "No dedicated framework"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integrity and Ethics Model"
+          "scale": "ordinal"
         },
         {
           "name": "Integrity oversight",
+          "category": "Integrity and Ethics Model",
           "description": "Arrangements for monitoring compliance with ethics and integrity requirements.",
           "value_set": [
             "Independent oversight",
@@ -2152,11 +2153,11 @@
             "Limited monitoring"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Integrity and Ethics Model"
+          "scale": "nominal"
         },
         {
           "name": "Disciplinary arrangements",
+          "category": "Integrity and Ethics Model",
           "description": "How misconduct is investigated, adjudicated, and sanctioned across government.",
           "value_set": [
             "Unified disciplinary framework",
@@ -2165,11 +2166,11 @@
             "Fragmented arrangements"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integrity and Ethics Model"
+          "scale": "ordinal"
         },
         {
           "name": "Integrity risk management",
+          "category": "Integrity and Ethics Model",
           "description": "Extent to which corruption and ethical risks are systematically identified and mitigated.",
           "value_set": [
             "Government-wide risk assessments",
@@ -2179,11 +2180,11 @@
             "No systematic assessment"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Integrity and Ethics Model"
+          "scale": "ordinal"
         },
         {
           "name": "Territorial coverage",
+          "category": "Intergovernmental Administration Model",
           "description": "Levels of government included in the administrative system's jurisdiction or coordination arrangements.",
           "value_set": [
             "National only",
@@ -2194,11 +2195,11 @@
             "Function-dependent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Subnational administrative autonomy",
+          "category": "Intergovernmental Administration Model",
           "description": "Degree of discretion exercised by subnational authorities over administrative arrangements.",
           "value_set": [
             "Centralized administration",
@@ -2209,11 +2210,11 @@
             "Asymmetric autonomy"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Intergovernmental coordination",
+          "category": "Intergovernmental Administration Model",
           "description": "Arrangements for coordinating administrative policies and practices across territorial levels.",
           "value_set": [
             "Hierarchical direction",
@@ -2224,11 +2225,11 @@
             "Ad hoc coordination"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Administrative standards reach",
+          "category": "Intergovernmental Administration Model",
           "description": "Extent to which government-wide administrative standards apply across territorial levels.",
           "value_set": [
             "Uniform across levels",
@@ -2238,11 +2239,11 @@
             "Separate systems"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Fiscal-administrative linkage",
+          "category": "Intergovernmental Administration Model",
           "description": "Relationship between resource transfers and administrative responsibilities across levels of government.",
           "value_set": [
             "Fully aligned responsibilities and funding",
@@ -2253,11 +2254,11 @@
             "Weak linkage"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Capacity equalization",
+          "category": "Intergovernmental Administration Model",
           "description": "Arrangements for addressing differences in administrative capability across territorial governments.",
           "value_set": [
             "Comprehensive equalization",
@@ -2268,11 +2269,11 @@
             "No systematic mechanism"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "ordinal"
         },
         {
           "name": "Intergovernmental dispute resolution",
+          "category": "Intergovernmental Administration Model",
           "description": "Mechanisms for resolving administrative disputes between territorial levels of government.",
           "value_set": [
             "Hierarchical resolution",
@@ -2283,11 +2284,11 @@
             "Informal negotiation"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Intergovernmental Administration Model"
+          "scale": "nominal"
         },
         {
           "name": "Knowledge management",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Arrangements for documenting, organizing, and making administrative knowledge available across government.",
           "value_set": [
             "Government-wide knowledge system",
@@ -2297,11 +2298,11 @@
             "No systematic arrangement"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Institutional memory",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Extent to which administrative records, precedents, decisions, and lessons survive personnel turnover and institutional change.",
           "value_set": [
             "Systematic institutional records",
@@ -2311,11 +2312,11 @@
             "Frequent knowledge loss"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "nominal"
         },
         {
           "name": "Knowledge sharing",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Extent to which administrative organizations exchange expertise, lessons, and effective practices.",
           "value_set": [
             "Mandatory knowledge-sharing arrangements",
@@ -2325,11 +2326,11 @@
             "Limited exchange"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Lessons-learned processes",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Mechanisms for identifying and applying lessons from implementation, audits, evaluations, and administrative failures.",
           "value_set": [
             "Systematic review and application",
@@ -2339,11 +2340,11 @@
             "No formal process"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "ordinal"
         },
         {
           "name": "Professional learning networks",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Arrangements for connecting administrative professionals across organizations to exchange knowledge and expertise.",
           "value_set": [
             "Government-wide professional networks",
@@ -2353,11 +2354,11 @@
             "Limited professional exchange"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "nominal"
         },
         {
           "name": "Evidence use",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Extent to which research, administrative data, evaluations, and operational evidence inform administrative decisions.",
           "value_set": [
             "Systematic evidence-based decisions",
@@ -2367,11 +2368,11 @@
             "Little systematic evidence use"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "nominal"
         },
         {
           "name": "Knowledge transfer",
+          "category": "Administrative Knowledge and Learning Model",
           "description": "Arrangements for transferring expertise and administrative knowledge between organizations, roles, and generations of personnel.",
           "value_set": [
             "Formal transfer protocols",
@@ -2381,8 +2382,7 @@
             "High dependence on individual knowledge"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Administrative Knowledge and Learning Model"
+          "scale": "ordinal"
         }
       ]
     },
@@ -2404,9 +2404,10 @@
           "description": "Configuration of the administrative structure."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Functional specialization",
+          "category": "Structural dimensions",
           "description": "Degree to which administrative units are differentiated by specialized function.",
           "value_set": [
             "Generalist",
@@ -2415,11 +2416,11 @@
             "Highly specialized"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Vertical differentiation",
+          "category": "Structural dimensions",
           "description": "Number of hierarchical levels separating top authority from operating units.",
           "value_set": [
             "Shallow",
@@ -2428,11 +2429,11 @@
             "Very deep"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Horizontal differentiation",
+          "category": "Structural dimensions",
           "description": "Number of distinct organizational units or functions coexisting at the same level.",
           "value_set": [
             "Few",
@@ -2441,11 +2442,11 @@
             "Proliferated"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Span of control",
+          "category": "Structural dimensions",
           "description": "Number of subordinates reporting to a typical supervisor.",
           "value_set": [
             "Narrow",
@@ -2453,11 +2454,11 @@
             "Wide"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Formalization",
+          "category": "Structural dimensions",
           "description": "Extent to which rules, procedures, and roles are written and prescribed.",
           "value_set": [
             "Minimal",
@@ -2466,11 +2467,11 @@
             "Pervasive"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Procedural standardization",
+          "category": "Structural dimensions",
           "description": "Extent to which like activities follow common prescribed procedures.",
           "value_set": [
             "None",
@@ -2479,11 +2480,11 @@
             "Uniform"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Centralization of authority",
+          "category": "Structural dimensions",
           "description": "Locus of decision-making authority in the hierarchy.",
           "value_set": [
             "Decentralized",
@@ -2492,11 +2493,11 @@
             "Highly centralized"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Configuration",
+          "category": "Structural dimensions",
           "description": "Overall shape of the structure.",
           "value_set": [
             "Flat",
@@ -2507,11 +2508,11 @@
             "Hybrid"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Structural dimensions"
+          "scale": "nominal"
         },
         {
           "name": "Line-staff balance",
+          "category": "Structural dimensions",
           "description": "Relative weight of line authority versus staff and advisory units.",
           "value_set": [
             "Line-dominant",
@@ -2519,11 +2520,11 @@
             "Staff-heavy"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Administrative intensity",
+          "category": "Structural dimensions",
           "description": "Proportion of administrative and managerial staff relative to operating staff.",
           "value_set": [
             "Low",
@@ -2531,11 +2532,11 @@
             "High"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Professionalization",
+          "category": "Structural dimensions",
           "description": "Extent to which staff hold formal professional qualifications.",
           "value_set": [
             "Low",
@@ -2544,11 +2545,11 @@
             "Dominant"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         },
         {
           "name": "Unit autonomy",
+          "category": "Structural dimensions",
           "description": "Organizational independence of constituent units.",
           "value_set": [
             "Subordinate",
@@ -2557,8 +2558,7 @@
             "Constitutionally independent"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Structural dimensions"
+          "scale": "ordinal"
         }
       ]
     },
@@ -2580,9 +2580,10 @@
           "description": "Graded qualities of the whole system."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Centralization",
+          "category": "Property spectra",
           "description": "Concentration of authority and coordination in centers versus agencies.",
           "value_set": [
             "Centralized",
@@ -2592,11 +2593,11 @@
             "Decentralized"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Standardization",
+          "category": "Property spectra",
           "description": "Extent of common procedures, rules, and requirements.",
           "value_set": [
             "Fragmented",
@@ -2606,11 +2607,11 @@
             "Uniform"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Integration",
+          "category": "Property spectra",
           "description": "Cross-boundary linkage of functions and processes.",
           "value_set": [
             "Siloed",
@@ -2620,11 +2621,11 @@
             "Unified"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Sharing",
+          "category": "Property spectra",
           "description": "Central or joint versus replicated service provision.",
           "value_set": [
             "Duplicated",
@@ -2633,11 +2634,11 @@
             "Fully shared"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Interoperability",
+          "category": "Property spectra",
           "description": "Cross-boundary capacity of systems and data.",
           "value_set": [
             "Incompatible",
@@ -2647,11 +2648,11 @@
             "Common architecture"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Autonomy",
+          "category": "Property spectra",
           "description": "Discretion of component organizations.",
           "value_set": [
             "Subordinate",
@@ -2661,11 +2662,11 @@
             "Extensive"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Discretion",
+          "category": "Property spectra",
           "description": "Freedom in applying common administrative requirements.",
           "value_set": [
             "Minimal",
@@ -2675,11 +2676,11 @@
             "Extensive"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Formalization",
+          "category": "Property spectra",
           "description": "Degree to which arrangements are legally or administratively prescribed.",
           "value_set": [
             "Informal",
@@ -2688,11 +2689,11 @@
             "Highly formalized"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Coordination intensity",
+          "category": "Property spectra",
           "description": "Frequency and intensity of cross-organization coordination.",
           "value_set": [
             "Minimal",
@@ -2702,11 +2703,11 @@
             "Continuous"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Transparency",
+          "category": "Property spectra",
           "description": "Public accessibility of decisions, information, and operations.",
           "value_set": [
             "Opaque",
@@ -2716,11 +2717,11 @@
             "Proactive disclosure"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Predictability",
+          "category": "Property spectra",
           "description": "Stability and anticipability of rules and resourcing.",
           "value_set": [
             "Volatile",
@@ -2729,11 +2730,11 @@
             "Highly predictable"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         },
         {
           "name": "Adaptability",
+          "category": "Property spectra",
           "description": "Capacity of the system to change its arrangements.",
           "value_set": [
             "Rigid",
@@ -2742,8 +2743,7 @@
             "Highly adaptable"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Property spectra"
+          "scale": "ordinal"
         }
       ]
     },
@@ -2765,9 +2765,10 @@
           "description": "Allocation of core administrative functions."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Budgeting function",
+          "category": "Function areas",
           "description": "Where budget formulation, allocation, and control are performed.",
           "value_set": [
             "Centralized",
@@ -2777,11 +2778,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Accounting function",
+          "category": "Function areas",
           "description": "Where accounting and financial reporting are performed.",
           "value_set": [
             "Centralized",
@@ -2791,11 +2792,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Human resource function",
+          "category": "Function areas",
           "description": "Where public-employment and workforce management are performed.",
           "value_set": [
             "Centralized",
@@ -2805,11 +2806,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Procurement function",
+          "category": "Function areas",
           "description": "Where public procurement and asset management are performed.",
           "value_set": [
             "Centralized",
@@ -2819,11 +2820,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Records and information function",
+          "category": "Function areas",
           "description": "Where records management and information exchange are performed.",
           "value_set": [
             "Centralized",
@@ -2833,11 +2834,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Digital and information function",
+          "category": "Function areas",
           "description": "Where common information systems and digital platforms are operated.",
           "value_set": [
             "Centralized",
@@ -2847,11 +2848,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Legal and regulatory function",
+          "category": "Function areas",
           "description": "Where administrative-rule drafting and interpretation are performed.",
           "value_set": [
             "Centralized",
@@ -2861,11 +2862,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Audit and inspection function",
+          "category": "Function areas",
           "description": "Where auditing, inspecting, and review are performed.",
           "value_set": [
             "Centralized",
@@ -2875,11 +2876,11 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         },
         {
           "name": "Performance-evaluation function",
+          "category": "Function areas",
           "description": "Where administrative performance is defined, measured, and used.",
           "value_set": [
             "Centralized",
@@ -2889,8 +2890,7 @@
             "Absent"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Function areas"
+          "scale": "nominal"
         }
       ]
     },
@@ -2912,9 +2912,10 @@
           "description": "Locus of authority per decision domain."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Agenda-setting authority",
+          "category": "Decision domains",
           "description": "Who sets the government-wide administrative agenda.",
           "value_set": [
             "Central executive",
@@ -2925,11 +2926,11 @@
             "Diffuse"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Rulemaking authority",
+          "category": "Decision domains",
           "description": "Who establishes administrative rules and binding standards.",
           "value_set": [
             "Centralized",
@@ -2940,11 +2941,11 @@
             "Fragmented"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Resource-allocation authority",
+          "category": "Decision domains",
           "description": "Who allocates administrative budgets and resources.",
           "value_set": [
             "Centralized",
@@ -2954,11 +2955,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Staffing authority",
+          "category": "Decision domains",
           "description": "Who selects and appoints administrative personnel.",
           "value_set": [
             "Central personnel authority",
@@ -2968,11 +2969,11 @@
             "Shared"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Execution authority",
+          "category": "Decision domains",
           "description": "Who implements administrative policies and requirements.",
           "value_set": [
             "Central",
@@ -2982,11 +2983,11 @@
             "Distributed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Oversight authority",
+          "category": "Decision domains",
           "description": "Who reviews compliance and performance.",
           "value_set": [
             "Hierarchical",
@@ -2996,11 +2997,11 @@
             "Multiple"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Sanctioning authority",
+          "category": "Decision domains",
           "description": "Who imposes consequences for noncompliance.",
           "value_set": [
             "Direct central",
@@ -3010,11 +3011,11 @@
             "None"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         },
         {
           "name": "Review and appeal authority",
+          "category": "Decision domains",
           "description": "Who hears challenges to administrative decisions.",
           "value_set": [
             "Hierarchical review",
@@ -3024,8 +3025,7 @@
             "Multiple"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Decision domains"
+          "scale": "nominal"
         }
       ]
     },
@@ -3050,9 +3050,10 @@
           "description": "Composition of the public-sector workforce."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Public-employment share",
+          "category": "Workforce composition",
           "description": "Public sector share of total employment.",
           "value_set": [
             "Very low",
@@ -3062,11 +3063,11 @@
             "Very high"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Public-employment size",
+          "category": "Workforce composition",
           "description": "Absolute size of the public workforce.",
           "value_set": [
             "Small",
@@ -3075,11 +3076,11 @@
             "Very large"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Female representation",
+          "category": "Workforce composition",
           "description": "Share of women in public employment.",
           "value_set": [
             "Low",
@@ -3088,11 +3089,11 @@
             "Parity or above"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Female-male employment ratio",
+          "category": "Workforce composition",
           "description": "Balance of women to men in public employment.",
           "value_set": [
             "Female under-representation",
@@ -3100,11 +3101,11 @@
             "Female over-representation"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Age structure",
+          "category": "Workforce composition",
           "description": "Distribution of public employees across age groups.",
           "value_set": [
             "Youth-concentrated",
@@ -3113,11 +3114,11 @@
             "Aged"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Workforce composition"
+          "scale": "nominal"
         },
         {
           "name": "Education composition",
+          "category": "Workforce composition",
           "description": "Educational attainment profile of public employees.",
           "value_set": [
             "Low-skill",
@@ -3126,11 +3127,11 @@
             "Highly qualified"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Occupational composition",
+          "category": "Workforce composition",
           "description": "Distribution of public employees across occupations.",
           "value_set": [
             "Professional-dominant",
@@ -3139,11 +3140,11 @@
             "Mixed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Workforce composition"
+          "scale": "nominal"
         },
         {
           "name": "Industry composition",
+          "category": "Workforce composition",
           "description": "Distribution of public employees across sectors.",
           "value_set": [
             "Administration-concentrated",
@@ -3151,11 +3152,11 @@
             "Diversified"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Workforce composition"
+          "scale": "nominal"
         },
         {
           "name": "Income-quintile composition",
+          "category": "Workforce composition",
           "description": "Distribution of public employees across household income quintiles.",
           "value_set": [
             "Bottom-heavy",
@@ -3164,11 +3165,11 @@
             "Broadly distributed"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Workforce composition"
+          "scale": "nominal"
         },
         {
           "name": "Formality",
+          "category": "Workforce composition",
           "description": "Share of public employment that is formal.",
           "value_set": [
             "Predominantly informal",
@@ -3176,11 +3177,11 @@
             "Predominantly formal"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Workforce composition"
+          "scale": "ordinal"
         },
         {
           "name": "Spatial distribution",
+          "category": "Workforce composition",
           "description": "Urban-rural distribution of public employees.",
           "value_set": [
             "Predominantly urban",
@@ -3188,8 +3189,7 @@
             "Predominantly rural"
           ],
           "assignment_rule": "",
-          "scale": "nominal",
-          "group": "Workforce composition"
+          "scale": "nominal"
         }
       ]
     },
@@ -3213,9 +3213,10 @@
           "description": "Compensation profile of the public workforce."
         }
       ],
-      "elements": [
+      "characteristic_element_set": [
         {
           "name": "Public-private wage premium",
+          "category": "Compensation structure",
           "description": "Competitiveness of public versus private sector wages.",
           "value_set": [
             "Large deficit",
@@ -3225,11 +3226,11 @@
             "Large premium"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Pay compression ratio",
+          "category": "Compensation structure",
           "description": "Ratio of top to bottom pay within the public sector.",
           "value_set": [
             "High compression",
@@ -3238,11 +3239,11 @@
             "Highly dispersed"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Education wage differential",
+          "category": "Compensation structure",
           "description": "Public pay differential by education level.",
           "value_set": [
             "Low",
@@ -3251,11 +3252,11 @@
             "Steep"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Occupation wage differential",
+          "category": "Compensation structure",
           "description": "Public pay differential by occupation.",
           "value_set": [
             "Low",
@@ -3264,11 +3265,11 @@
             "Steep"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Gender pay gap",
+          "category": "Compensation structure",
           "description": "Public-sector pay gap between women and men.",
           "value_set": [
             "Large gap",
@@ -3277,11 +3278,11 @@
             "Closed"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Income-quintile wage differential",
+          "category": "Compensation structure",
           "description": "Pay differential across household income quintiles within the public sector.",
           "value_set": [
             "Compressed",
@@ -3289,11 +3290,11 @@
             "Dispersed"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Wage-bill size",
+          "category": "Compensation structure",
           "description": "Public sector wage bill relative to GDP or expenditure.",
           "value_set": [
             "Small",
@@ -3302,11 +3303,11 @@
             "Very large"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         },
         {
           "name": "Wage-bill affordability",
+          "category": "Compensation structure",
           "description": "Fiscal affordability of the public wage bill.",
           "value_set": [
             "Sustainable",
@@ -3315,8 +3316,7 @@
             "Unsustainable"
           ],
           "assignment_rule": "",
-          "scale": "ordinal",
-          "group": "Compensation structure"
+          "scale": "ordinal"
         }
       ]
     }
