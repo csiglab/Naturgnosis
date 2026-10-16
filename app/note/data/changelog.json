@@ -676,6 +676,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Updated internal links/paths after the public/ type-instance reorg."
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "fix",
+        "summary": "Fixed the China link to the correct chn/prc/china.md path."
       }
     ]
   },
@@ -6101,6 +6106,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "fix",
+        "summary": "Fixed the China link to the correct chn/prc/china.md path."
       }
     ]
   },
@@ -7021,6 +7031,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Merged into catalog/ in the public/ directory reorg (type + instance consolidated)."
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "fix",
+        "summary": "Fixed the China link to the correct chn/prc/china.md path."
       }
     ]
   },
@@ -9366,6 +9381,286 @@
         "date": "2026-10-15",
         "kind": "docs",
         "summary": "Added a reference to the new Municipal Government note as the associating municipal unit."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mau/maurya-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/cho/chola-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mha/maratha-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/mug/mughal-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/oto/ottoman-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/slj/seljuk-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ach/achaemenid-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/rom/roman-republic.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/gen/republic-of-genoa.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ath/athenian-republic.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/dut/dutch-republic.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/plc/polish-lithuanian-commonwealth.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/byz/eastern-roman-empire.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/rag/ragusa.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/umy/umayyad-caliphate.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/abb/abbasid-caliphate.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/ugt/ugarit.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/crt/carthage.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/hsa/hanseatic-league.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/zhou/zhou.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/qin/qin.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/han/han.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/tang/tang.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/song/song.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/yuan/yuan.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/ming/ming.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/chn/qing/qing.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a stubbed Chinese dynasty polity note capturing its collective-agency pattern, attesting sources, and references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/public/polity/hkg/hong-kong.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added a Hong Kong root pointer note linking to the chn/prc China aggregate."
       }
     ]
   }

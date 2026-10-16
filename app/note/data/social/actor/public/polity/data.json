@@ -1,8 +1,60 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "root": "social/actor/public/polity",
-  "count": 146,
+  "count": 174,
   "codes": {
+    "abb": {
+      "name": "Abbasid Caliphate",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "abbasid-caliphate",
+          "type": "note",
+          "status": "active",
+          "title": "Abbasid Caliphate",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/abb/abbasid-caliphate.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/abb/abbasid-caliphate.md",
+          "title": "Abbasid Caliphate",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "ach": {
+      "name": "Achaemenid Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "achaemenid-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Achaemenid Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/ach/achaemenid-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/ach/achaemenid-empire.md",
+          "title": "Achaemenid Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
     "are": {
       "name": "United Arab Emirates",
       "native": "UAE / Al-Imārāt",
@@ -79,6 +131,32 @@
         }
       ]
     },
+    "ath": {
+      "name": "Athenian Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "athenian-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Athenian Republic",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/ath/athenian-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/ath/athenian-republic.md",
+          "title": "Athenian Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
     "aus": {
       "name": "Australia",
       "native": "Australia",
@@ -120,7 +198,7 @@
     "aut": {
       "name": "Austria",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇦🇹",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -146,7 +224,7 @@
     "bel": {
       "name": "Belgium",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇧🇪",
       "has_node": false,
       "counts": {
         "explanation": 2,
@@ -184,7 +262,7 @@
     "bhr": {
       "name": "Bahrain",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇧🇭",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -210,7 +288,7 @@
     "bol": {
       "name": "Bolivia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇧🇴",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -274,7 +352,7 @@
     "bwa": {
       "name": "Botswana",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇧🇼",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -293,6 +371,32 @@
         {
           "path": "social/actor/public/polity/bwa/botswana.md",
           "title": "Botswana",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "byz": {
+      "name": "Eastern Roman Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "eastern-roman-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Eastern Roman Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/byz/eastern-roman-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/byz/eastern-roman-empire.md",
+          "title": "Eastern Roman Empire",
           "kind": "explanation"
         }
       ]
@@ -388,7 +492,7 @@
     "chl": {
       "name": "Chile",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇨🇱",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -417,7 +521,7 @@
       "flag": "🇨🇳",
       "has_node": true,
       "counts": {
-        "explanation": 4,
+        "explanation": 12,
         "representation": 1
       },
       "works": [
@@ -426,69 +530,191 @@
           "type": "Temporal",
           "status": "active",
           "title": "🇨🇳 Actor Space",
-          "link": "actor.html"
+          "link": "prc/actor.html"
+        },
+        {
+          "id": "han",
+          "type": "note",
+          "status": "active",
+          "title": "Han dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/han/han.md"
+        },
+        {
+          "id": "ming",
+          "type": "note",
+          "status": "active",
+          "title": "Ming dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/ming/ming.md"
         },
         {
           "id": "china",
           "type": "note",
           "status": "active",
           "title": "China",
-          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/china.md"
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/prc/china.md"
         },
         {
           "id": "hong-kong-social-region-dynamics-1900-2025",
           "type": "note",
           "status": "active",
           "title": "Hong Kong - Social Region Dynamics 1900 - 2025",
-          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md"
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md"
         },
         {
           "id": "civil-service",
           "type": "note",
           "status": "active",
           "title": "Hong Hong Civil Service",
-          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/region/hong-kong/civil-service.md"
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/prc/region/hong-kong/civil-service.md"
         },
         {
           "id": "hong-kong",
           "type": "note",
           "status": "active",
           "title": "🇭🇰 Hong Kong",
-          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/region/hong-kong/hong-kong.md"
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md"
+        },
+        {
+          "id": "qin",
+          "type": "note",
+          "status": "active",
+          "title": "Qin dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/qin/qin.md"
+        },
+        {
+          "id": "qing",
+          "type": "note",
+          "status": "active",
+          "title": "Qing dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/qing/qing.md"
+        },
+        {
+          "id": "song",
+          "type": "note",
+          "status": "active",
+          "title": "Song dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/song/song.md"
+        },
+        {
+          "id": "tang",
+          "type": "note",
+          "status": "active",
+          "title": "Tang dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/tang/tang.md"
+        },
+        {
+          "id": "yuan",
+          "type": "note",
+          "status": "active",
+          "title": "Yuan dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/yuan/yuan.md"
+        },
+        {
+          "id": "zhou",
+          "type": "note",
+          "status": "active",
+          "title": "Zhou dynasty",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/chn/zhou/zhou.md"
         }
       ],
       "notes": [
         {
-          "path": "social/actor/public/polity/chn/china.md",
+          "path": "social/actor/public/polity/chn/han/han.md",
+          "title": "Han dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/ming/ming.md",
+          "title": "Ming dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/prc/china.md",
           "title": "China",
           "kind": "explanation"
         },
         {
-          "path": "social/actor/public/polity/chn/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
+          "path": "social/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
           "title": "Hong Kong - Social Region Dynamics 1900 - 2025",
           "kind": "explanation"
         },
         {
-          "path": "social/actor/public/polity/chn/region/hong-kong/civil-service.md",
+          "path": "social/actor/public/polity/chn/prc/region/hong-kong/civil-service.md",
           "title": "Hong Hong Civil Service",
           "kind": "explanation"
         },
         {
-          "path": "social/actor/public/polity/chn/region/hong-kong/hong-kong.md",
+          "path": "social/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md",
           "title": "🇭🇰 Hong Kong",
           "kind": "explanation"
         },
         {
-          "path": "social/actor/public/polity/chn/actor.html",
+          "path": "social/actor/public/polity/chn/qin/qin.md",
+          "title": "Qin dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/qing/qing.md",
+          "title": "Qing dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/song/song.md",
+          "title": "Song dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/tang/tang.md",
+          "title": "Tang dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/yuan/yuan.md",
+          "title": "Yuan dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/zhou/zhou.md",
+          "title": "Zhou dynasty",
+          "kind": "explanation"
+        },
+        {
+          "path": "social/actor/public/polity/chn/prc/actor.html",
           "title": "🇨🇳 Actor Space",
           "kind": "representation"
+        }
+      ]
+    },
+    "cho": {
+      "name": "Chola Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "chola-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Chola Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/cho/chola-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/cho/chola-empire.md",
+          "title": "Chola Empire",
+          "kind": "explanation"
         }
       ]
     },
     "col": {
       "name": "Colombia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇨🇴",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -514,7 +740,7 @@
     "cri": {
       "name": "Costa Rica",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇨🇷",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -537,10 +763,36 @@
         }
       ]
     },
+    "crt": {
+      "name": "Carthage",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "carthage",
+          "type": "note",
+          "status": "active",
+          "title": "Carthage",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/crt/carthage.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/crt/carthage.md",
+          "title": "Carthage",
+          "kind": "explanation"
+        }
+      ]
+    },
     "cub": {
       "name": "Cuba",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇨🇺",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -566,7 +818,7 @@
     "cze": {
       "name": "Czech Republic",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇨🇿",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -592,7 +844,7 @@
     "deu": {
       "name": "Germany",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇩🇪",
       "has_node": false,
       "counts": {
         "explanation": 2,
@@ -1003,10 +1255,36 @@
         }
       ]
     },
+    "dut": {
+      "name": "Dutch Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "dutch-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Dutch Republic",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/dut/dutch-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/dut/dutch-republic.md",
+          "title": "Dutch Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
     "ecu": {
       "name": "Ecuador",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇪🇨",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1070,7 +1348,7 @@
     "est": {
       "name": "Estonia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇪🇪",
       "has_node": false,
       "counts": {
         "explanation": 2,
@@ -1108,7 +1386,7 @@
     "eth": {
       "name": "Ethiopia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇪🇹",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1233,10 +1511,36 @@
         }
       ]
     },
+    "gen": {
+      "name": "Republic of Genoa",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "republic-of-genoa",
+          "type": "note",
+          "status": "active",
+          "title": "Republic of Genoa",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/gen/republic-of-genoa.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/gen/republic-of-genoa.md",
+          "title": "Republic of Genoa",
+          "kind": "explanation"
+        }
+      ]
+    },
     "gha": {
       "name": "Ghana",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇬🇭",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1262,7 +1566,7 @@
     "grc": {
       "name": "Grecia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇬🇷",
       "has_node": false,
       "counts": {
         "explanation": 4,
@@ -1321,10 +1625,62 @@
         }
       ]
     },
+    "hkg": {
+      "name": "Hong Kong",
+      "native": "",
+      "flag": "🇭🇰",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "hong-kong",
+          "type": "note",
+          "status": "active",
+          "title": "Hong Kong",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/hkg/hong-kong.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/hkg/hong-kong.md",
+          "title": "Hong Kong",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hsa": {
+      "name": "Hanseatic League",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "hanseatic-league",
+          "type": "note",
+          "status": "active",
+          "title": "Hanseatic League",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/hsa/hanseatic-league.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/hsa/hanseatic-league.md",
+          "title": "Hanseatic League",
+          "kind": "explanation"
+        }
+      ]
+    },
     "hti": {
       "name": "Haiti",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇭🇹",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1350,7 +1706,7 @@
     "hun": {
       "name": "Hungary",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇭🇺",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1490,7 +1846,7 @@
     "irn": {
       "name": "Iran",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇮🇷",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1701,6 +2057,32 @@
         }
       ]
     },
+    "mau": {
+      "name": "Maurya Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "maurya-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Maurya Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/mau/maurya-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/mau/maurya-empire.md",
+          "title": "Maurya Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
     "mex": {
       "name": "Mexico",
       "native": "México",
@@ -1739,10 +2121,62 @@
         }
       ]
     },
+    "mha": {
+      "name": "Maratha Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "maratha-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Maratha Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/mha/maratha-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/mha/maratha-empire.md",
+          "title": "Maratha Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "mug": {
+      "name": "Mughal Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "mughal-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Mughal Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/mug/mughal-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/mug/mughal-empire.md",
+          "title": "Mughal Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
     "mus": {
       "name": "Mauritius",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇲🇺",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1868,7 +2302,7 @@
     "nor": {
       "name": "Norway",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇳🇴",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1929,10 +2363,36 @@
         }
       ]
     },
+    "oto": {
+      "name": "Ottoman Empire",
+      "native": "Ottoman Empire / Devlet-i Aliyye",
+      "flag": "",
+      "has_node": true,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ottoman-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Ottoman Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/oto/ottoman-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/oto/ottoman-empire.md",
+          "title": "Ottoman Empire",
+          "kind": "explanation"
+        }
+      ]
+    },
     "phl": {
       "name": "Philippines",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇵🇭",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -1951,6 +2411,32 @@
         {
           "path": "social/actor/public/polity/phl/philippines.md",
           "title": "Philippines",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "plc": {
+      "name": "Polish-Lithuanian Commonwealth",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "polish-lithuanian-commonwealth",
+          "type": "note",
+          "status": "active",
+          "title": "Polish-Lithuanian Commonwealth",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/plc/polish-lithuanian-commonwealth.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/plc/polish-lithuanian-commonwealth.md",
+          "title": "Polish-Lithuanian Commonwealth",
           "kind": "explanation"
         }
       ]
@@ -1984,7 +2470,7 @@
     "pri": {
       "name": "Puerto Rico",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇵🇷",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2048,7 +2534,7 @@
     "pry": {
       "name": "Paraguay",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇵🇾",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2074,7 +2560,7 @@
     "qat": {
       "name": "Qatar",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇶🇦",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2097,10 +2583,62 @@
         }
       ]
     },
+    "rag": {
+      "name": "Republic of Ragusa",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ragusa",
+          "type": "note",
+          "status": "active",
+          "title": "Republic of Ragusa",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/rag/ragusa.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/rag/ragusa.md",
+          "title": "Republic of Ragusa",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "rom": {
+      "name": "Roman Republic",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "roman-republic",
+          "type": "note",
+          "status": "active",
+          "title": "Roman Republic",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/rom/roman-republic.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/rom/roman-republic.md",
+          "title": "Roman Republic",
+          "kind": "explanation"
+        }
+      ]
+    },
     "rou": {
       "name": "Romania",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇷🇴",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2126,7 +2664,7 @@
     "rus": {
       "name": "Russia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇷🇺",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2152,7 +2690,7 @@
     "sau": {
       "name": "Saudi Arabia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇸🇦",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2178,7 +2716,7 @@
     "scotland": {
       "name": "Scotland",
       "native": "Scotland / Alba",
-      "flag": "🏳️",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "has_node": true,
       "counts": {
         "explanation": 1,
@@ -2260,6 +2798,32 @@
           "path": "social/actor/public/polity/sgp/actor.html",
           "title": "🇸🇬 Actor Space",
           "kind": "representation"
+        }
+      ]
+    },
+    "slj": {
+      "name": "Seljuk Empire",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "seljuk-empire",
+          "type": "note",
+          "status": "active",
+          "title": "Seljuk Empire",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/slj/seljuk-empire.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/slj/seljuk-empire.md",
+          "title": "Seljuk Empire",
+          "kind": "explanation"
         }
       ]
     },
@@ -2354,7 +2918,7 @@
     "tur": {
       "name": "Turkey",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇹🇷",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2380,7 +2944,7 @@
     "twn": {
       "name": "Taiwan",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇹🇼",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2403,10 +2967,36 @@
         }
       ]
     },
+    "ugt": {
+      "name": "Ugarit",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "ugarit",
+          "type": "note",
+          "status": "active",
+          "title": "Ugarit",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/ugt/ugarit.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/ugt/ugarit.md",
+          "title": "Ugarit",
+          "kind": "explanation"
+        }
+      ]
+    },
     "ukr": {
       "name": "Ukraine",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇺🇦",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2425,6 +3015,32 @@
         {
           "path": "social/actor/public/polity/ukr/ukraine.md",
           "title": "Ukraine",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "umy": {
+      "name": "Umayyad Caliphate",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "umayyad-caliphate",
+          "type": "note",
+          "status": "active",
+          "title": "Umayyad Caliphate",
+          "link": "../../../../../../web/note.html?n=social/actor/public/polity/umy/umayyad-caliphate.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/actor/public/polity/umy/umayyad-caliphate.md",
+          "title": "Umayyad Caliphate",
           "kind": "explanation"
         }
       ]
@@ -2508,7 +3124,7 @@
     "ven": {
       "name": "Venezuela",
       "native": "",
-      "flag": "🏳️",
+      "flag": "🇻🇪",
       "has_node": false,
       "counts": {
         "explanation": 1,
@@ -2534,7 +3150,7 @@
     "venetia": {
       "name": "Venetia",
       "native": "",
-      "flag": "🏳️",
+      "flag": "",
       "has_node": false,
       "counts": {
         "explanation": 1,

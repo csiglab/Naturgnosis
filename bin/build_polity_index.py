@@ -57,7 +57,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 HTML_H_RE = re.compile(r"<h([1-6])[^>]*>(.*?)</h\1>", re.IGNORECASE | re.DOTALL)
 HTML_TAG_RE = re.compile(r"<[^>]+>")
-FALLBACK_FLAG = "\U0001F3F3\uFE0F"
+FALLBACK_FLAG = ""
 
 # Work-type convention (name -> type). A polity's works are derived from its
 # directory (representations + explanations), never hand-listed in node.json.
@@ -103,6 +103,24 @@ def html_title(path: Path) -> str:
     return path.stem
 
 
+def load_flags() -> dict:
+    """Flag overrides: polity/flags.json {code: emoji}.
+
+    Supplies flags for codes without a node file (or with an empty
+    flagEmoji), so the aggregator uses a representative flag instead of the
+    neutral fallback — ISO country flags and proxies for historical polities.
+    """
+    path = POLITY / "flags.json"
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        print(f"polity-index: WARNING: flags.json unreadable ({exc})")
+        return {}
+    return {k: v for k, v in data.items() if isinstance(v, str) and v}
+
+
 def polity_nodes() -> dict:
     """Polity source of truth: read every polity node file under polity/.
 
@@ -111,6 +129,7 @@ def polity_nodes() -> dict:
     {id: {name, native, flag}}. The nation dataset mirror was dissolved
     into these files; they are the source of truth (spec/polity/README.md).
     """
+    flags = load_flags()
     reg = {}
     for path in list(POLITY.glob("*/data/node.json")) + list(POLITY.glob("*-node.json")):
         try:
@@ -124,7 +143,7 @@ def polity_nodes() -> dict:
         reg[n["id"]] = {
             "name": n.get("name") or n["id"].upper(),
             "native": sp.get("nativeName") or "",
-            "flag": sp.get("flagEmoji") or FALLBACK_FLAG,
+            "flag": sp.get("flagEmoji") or flags.get(n["id"]) or FALLBACK_FLAG,
         }
     return reg
 
@@ -234,6 +253,7 @@ def main(argv=None) -> int:
         return 1
 
     reg = polity_nodes()
+    flags = load_flags()
     overrides = load_overrides()
     codes: dict = {}
     world: list = []
@@ -280,7 +300,7 @@ def main(argv=None) -> int:
             name, native, flag, has_node = meta["name"], meta["native"], meta["flag"], True
         else:
             shallow = min(notes, key=lambda e: e["path"].count("/"))
-            name, native, flag, has_node = shallow["title"], "", FALLBACK_FLAG, False
+            name, native, flag, has_node = shallow["title"], "", flags.get(code) or FALLBACK_FLAG, False
         payload_codes[code] = {
             "name": name,
             "native": native,
