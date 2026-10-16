@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Polity Index · Naturgnosis</title>
+<title>Atlas</title>
 <link rel="icon" href="/shared/img/favicon.ico">
 <script>
 (function () {
@@ -70,17 +70,17 @@
     --thread: rgba(43, 38, 32, 0.25);
     --text-primary: #1a1d24;
     --text-secondary: #4a4f5e;
-    --text-muted: #7a7f8e;
-    --text-ghost: #9aa0ae;
-    --accent-copper: #9a7b3f;
+    --text-muted: #5f6572;
+    --text-ghost: #63697a;
+    --accent-copper: #7c622f;
     --accent-copper-light: #7a6132;
     --accent-sage: #4e7a5e;
     --accent-plum: #7a5f8c;
     --accent-rose: #a55a68;
     --accent-amber: #9a742f;
     --accent-steel: #4e6e8c;
-    --accent-gold: #9a7b3f;
-    --accent-gold-dim: rgba(154, 123, 63, 0.12);
+    --accent-gold: #7c622f;
+    --accent-gold-dim: rgba(124, 98, 47, 0.12);
     --accent-cyan: #0e7c72;
     --accent-cyan-dim: rgba(14, 124, 114, 0.08);
     --border-subtle: rgba(20, 22, 30, 0.10);
@@ -213,7 +213,7 @@
 
   .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
   .crumbs a:hover { color: var(--accent-cyan); }
-  .crumbs .sep { margin: 0 0.5em; color: var(--text-muted); opacity: 0.5; }
+  .crumbs .sep { margin: 0 0.5em; color: var(--text-muted); }
   .crumbs .here { color: var(--accent-gold); }
 
   h1 {
@@ -264,12 +264,21 @@
     padding: 0.55rem 0.8rem 0.55rem 2rem;
     font-size: 0.85rem;
     font-family: var(--font-body);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237a87a0' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%239290aa' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: 0.6rem center;
   }
 
-  #search:focus { outline: none; border-color: var(--accent-cyan); }
+  html[data-theme="light"] #search {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235f6572' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E");
+  }
+
+  #search:focus { outline: none; border-color: var(--accent-cyan); box-shadow: 0 0 0 3px var(--accent-cyan-dim); }
+
+  .flag-card:focus-visible, .theme-toggle:focus-visible, .nav-links a:focus-visible {
+    outline: 2px solid var(--accent-copper);
+    outline-offset: 2px;
+  }
 
   .counts {
     font-family: var(--font-mono);
@@ -277,6 +286,15 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-muted);
+  }
+
+  h2 .counts {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: none;
+    color: var(--text-ghost);
   }
 
   h2 {
@@ -327,8 +345,10 @@
     color: var(--text-muted);
     margin-top: 0.3rem;
   }
-  .flag-card.dim { opacity: 0.7; }
+  .flag-card.dim { border-style: dashed; }
   .flag-card.dim .flag { font-size: 1.5rem; }
+  .flag-card.dim .name { color: var(--text-secondary); }
+  .flag-card.dim .meta { color: var(--text-muted); }
 
   .empty { color: var(--text-muted); font-style: italic; padding: 2rem 0; }
 
@@ -383,22 +403,24 @@
     <a href="../../../../../web/index.html">notes</a><span class="sep">/</span><a href="../../../../../web/index.html?dir=social">social</a><span class="sep">/</span><a href="../../../../../web/index.html?dir=social/actor/public">public</a><span class="sep">/</span><span class="here">Polity Index</span>
   </nav>
   <h1>Polity Index<em>.</em></h1>
-  <p class="lede" id="lede">Every polity keeps its representations and explanations in its own
-  directory (<code>polity/&lt;code&gt;/</code>). Pick a flag to open that polity's page —
-  <strong>representations</strong> are live HTML, explanations are notes. Coverage is honest:
-  nation ids without a same-code directory stay absent (no aliasing). Source:
-  <a href="data.json">data.json</a>.</p>
+  <p class="lede" id="lede">The <strong>Polity Index</strong> serves as an entry point to a
+  curated collection of polities — a representative set selected for the systematic study of
+  <strong>collective agency</strong>, <strong>institutional arrangements</strong>, and
+  <strong>forms of social organization</strong>. Each polity has a dedicated space containing
+  visual representations and explanatory notes that support its examination, comparison, and
+  theoretical analysis. Together, these materials provide a foundation for investigating how
+  collective agency is organized and exercised across different political and institutional
+  contexts.</p>
+  <p class="lede" id="lede-cta"><strong>Select a flag to explore a polity.</strong></p>
 
   <div class="toolbar">
     <input id="search" type="search" placeholder="Search nations by name or code…" autocomplete="off" aria-label="Search nations">
-    <span class="counts" id="counts"></span>
   </div>
 </header>
 
 <section id="flagSection">
-  <h2>Nations<em>.</em></h2>
-  <p class="section-desc">Flag cards for polities in the nation registry; dimmed cards are corpus
-  directories beyond the registry. Each opens that polity's page.</p>
+  <h2>Polity Set<em>.</em> <span class="counts" id="counts"></span></h2>
+  <p class="section-desc">Each card opens that polity's page.</p>
   <div class="flags" id="flags"></div>
 </section>
 </div>
