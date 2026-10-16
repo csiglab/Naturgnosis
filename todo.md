@@ -1939,3 +1939,5 @@ Sector Evolutionary Path
 
 - [ ]  https://avehtari.github.io/Bayesian-Workflow/index.html
 - [ ]  https://charlesm93.github.io/stat547/
+
+https://www.rieti.go.jp/en/
