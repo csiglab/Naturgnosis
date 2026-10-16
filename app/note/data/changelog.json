@@ -2211,6 +2211,16 @@
         "date": "2026-10-15",
         "kind": "docs",
         "summary": "Linked the Municipal Organization kind to the new Municipal Government note."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "feat",
+        "summary": "Fixed atlas links to absolute served paths, corrected system count, linked the new organizations comparison workbench."
+      },
+      {
+        "date": "2026-10-15",
+        "kind": "refactor",
+        "summary": "Corrected workbench org count to seventeen."
       }
     ]
   },

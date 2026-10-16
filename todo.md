@@ -1,89 +1,10 @@
-On the usefulness of having a defense industry - as a source of technical rpogress and also clustering anckor for other industries:
+The quality of this informatinois streamly law;
 
-- https://www.insta.fi/en
+Some characteristic elements are missing:
 
-https://en.wikipedia.org/wiki/Credit_default_swap
+http://localhost:8013/note/data/social/actor/public/atlas/public-organization.html#cmp/dom-dgii+swe-skatteverket/model-derived
 
-https://www.psd.gov.sg/newsroom/public-sector-governance-bill-by-min-ong-ye-kung-at-parliament/
-
-
-Implementation Agency Governance Structure
-
-How are agencies  (non policy)  organizations (aka agencies) structure?
-
-Leadership and Governance configuration
-
-https://laws.e-gov.go.jp/law/323AC0000000120
-
-Public Organization Space:
-
-- Characteration systems:  How to build this systems?  Model Division Technique
-- Validatoin Mechanism: Used and see how well can we represent and captures agencigies and public organizations from a country
-
-  Model Decomposition Technique: Dividing a public organization model into constituent submodels or dimensions to develop a structured characterization system.
-Element-Based Characterization: Characterizing an organization by identifying and describing its constituent elements.
-Entity-Type-Based Characterization: Classifying organizations according to their types of entities, such as ministries, statutory boards, departments, and executive agencies.
-Dimension-Based Characterization: Characterizing organizations across predefined dimensions, such as governance, leadership, organizational structure, and operational arrangements.
-Model-Based Characterization: Developing a characterization system from an overarching model of how a public organization is structured and operates.
-Comparative Characterization: Identifying common dimensions and categories that enable systematic comparisons among public organizations across jurisdictions.
-- ..
-
-| Submodel | Characterization Dimension | Possible Categories or Values | What It Captures |
-|---|---|---|---|
-| **1. Institutional Model** | Institutional Position | Government agency; agency under the Riksdag; court; other public institution | Where the organization sits within the Swedish institutional system. |
-| **2. Governance Model** | Governance Arrangement | Agency headed by an agency head; board-governed agency; agency with a governing board and executive leadership; other legally established arrangements | How formal governing responsibilities are assigned. |
-| **3. Leadership Model** | Executive Leadership | Director-General (*generaldirektör*); agency head (*myndighetschef*); board chair; other legally specified leadership arrangements | Who leads the agency and how executive responsibility is assigned. |
-| **4. Organizational Structure Model** | Internal Organizational Structure | Functional; divisional; process-based; territorial; hybrid | How the agency organizes its internal units. |
-| **5. Authority Model** | Decision-Making Authority | Executive authority; board authority; delegated authority; legally assigned decision-making powers; independent decision-making in individual cases | Who can make which decisions, and within what legal limits. |
-| **6. Government Steering Model** | Government Direction | Ordinances; agency instructions; annual appropriation directions; other formal steering instruments | How the Government establishes the agency's mandate, objectives, and operating conditions. |
-| **7. Operational Model** | Operational Deployment | Headquarters-based; headquarters–field; regional; nationwide network; hybrid | How the agency distributes and performs its operational activities. |
-| **8. Accountability and Control Model** | Accountability Arrangements | Government reporting; annual reporting; financial management controls; parliamentary scrutiny; audit and evaluation | How performance, expenditure, and compliance are monitored. |
-| **9. Administrative Independence Model** | Decision-Making Independence | Legally protected independence in individual cases; ordinary administrative discretion; statutory autonomy; other legally defined arrangements | The legal boundaries within which the agency exercises its responsibilities independently. |
-
-
-| Submodel | Characterization Dimension | Possible Categories | Example Characterization |
-|---|---|---|---|
-| **Governance Model** | Governing Structure | Governing board; executive governance; collegial governance | Board-governed |
-| **Leadership Model** | Executive Leadership | Chief executive; director-general; commissioner; executive committee | Chief-executive-led |
-| **Organizational Structure Model** | Internal Organizational Structure | Functional; divisional; territorial; hybrid | Functionally organized |
-| **Authority Model** | Decision-Making Authority | Centralized; delegated; decentralized | Delegated operational authority |
-| **Operational Model** | Operational Arrangement | Headquarters-based; headquarters–field; regional; networked | Headquarters–field arrangement |
-| **Accountability Model** | Accountability Arrangement | Ministerial; board-based; parliamentary; multiple-accountability | Ministerial and board accountability |
-
-Political Interaction Model
-Parlament Interaction Model
-
-Leadship Model:
-
-- Board–Executive
-- Executive-Led
-- Commissioner-Led
-- Council-Led
-- Committee-Governed
-- Collegial Leadership
-
-Internal Organization Model:
-
-- Functional
-- Divisional
-- Programmatic
-- Territorial
-- Headquarters–Field
-- Hybrid
-
-| Organizational Model | Typical Structural Arrangement | Description |
-|---|---|---|
-| **1. Board–Executive Model** | Governing Board → Chief Executive → Divisions | A governing board oversees the agency, while a chief executive leads its operations. |
-| **2. Executive-Led Model** | Director-General / Chief Executive → Departments or Divisions | An executive leader directly heads the organization, without a separate governing board at the agency level. |
-| **3. Commissioner-Led Model** | Commissioner → Deputy Commissioners → Departments or Divisions | A commissioner leads an organization with a regulatory, enforcement, or administrative mandate. |
-| **4. Council-Led Model** | Council → Executive Head → Organizational Units | A council provides collective governance or direction, supported by an executive leader and administrative structure. |
-| **5. Committee-Governed Model** | Governing Committee → Executive Head → Organizational Units | A committee exercises assigned governance or decision-making responsibilities. |
-| **6. Collegial Leadership Model** | Collective Executive Leadership → Organizational Units | Executive responsibilities are shared among a leadership team rather than concentrated entirely in one individual. |
-| **7. Headquarters–Regional Model** | Central Leadership → Headquarters Divisions + Regional Offices | The organization combines centralized management with geographically distributed operations. |
-| **8. Headquarters–Field Model** | Central Leadership → Functional Departments + Field Offices | Headquarters manages the organization while field offices execute its mandate locally. |
-| **9. Functional Executive Model** | Executive Head → Functional Directorates → Departments or Units | The organization is structured primarily around specialized functions. |
-| **10. Programmatic Executive Model** | Executive Head → Program Directorates → Program Units | The organization is structured primarily around programs, initiatives, or service portfolios. |
-
+Remember that the values - re the empiral ones; not the jure ones.
 
 Study 
 
@@ -103,18 +24,6 @@ Study
     - …
 - …
 
-| Board type | Who primarily sits on it? | Best suited for |
-| --- | --- | --- |
-| **Public Board** | Government-appointed representatives | Agencies performing public/sovereign functions |
-| **Expert Board** | Independent technical, scientific, financial, managerial experts | R&D, technology, evaluation |
-| **Industry Board** | Firms, industry associations, commercial operators | Productivity, technology adoption, export |
-| **User Board** | Organizations that use the agency's services | Enterprise-support organizations |
-| **Public–Private Board** | Government + industry | Applied technology and competitiveness |
-| **Expert–Industry Board** | Independent experts + industry | Commercially oriented technology organizations |
-| **Tripartite Board** | Government + industry + academia/research | Broad ecosystem institutions |
-| **Investor Board** | Investment professionals + capital providers + public representatives | Funds and investment vehicles |
-| **Stakeholder Board** | Multiple formally represented constituencies | Institutions with broad social/economic mandates |
-| **Independent Board** | Mostly independently selected members | Organizations where autonomy is particularly important |
 
 - How should a country manage knowledge and capacity concerning stable technical elements?
 - 
@@ -1908,8 +1817,6 @@ Allow the link - as a cognitive aid.
 | Exponential               | \(e^{\beta X}\)       | Percentage/proportional effect   |
 | Cobb–Douglas              | \(AX^\alpha Z^\beta\) | Inputs combine multiplicatively  |
 
-
-
 ======================
 
 - How to match a concil -> agency?
@@ -1930,7 +1837,6 @@ Funding
 Operation
 Evaluation
 
-
 -  Roberts, Alasdair S., Performance-Based Organizations: Assessing the Gore Plan (June 30, 1997). Public Administration Review, Vol. 57, No. 6, pp. 465-478, December 1997, Available at SSRN: https://ssrn.com/abstract=1309151
 
 Roberts, Alasdair. Public Works and Government Services: Beautiful Theory Meets Ugly Reality. HOW OTTAWA SPENDS, G. Swimmer, ed., pp. 171-203 Ottawa: Carleton University Press, 1996
@@ -1944,12 +1850,9 @@ https://en.wikipedia.org/wiki/Public_bodies_of_the_Scottish_Government
 https://en.wikipedia.org/wiki/Government_agencies_in_Sweden
 https://www.government.se/government-agencies/
 
-
 Yin, Jianfeng; Wu, Jianwei; Wang, Ze
 
 - https://www.government.se/government-agencies
-
-
 
 | Organization | Principal role | Industrial-policy capacity to investigate |
 |---|---|---|
@@ -1961,5 +1864,17 @@ Yin, Jianfeng; Wu, Jianwei; Wang, Ze
 | **KDB** — Korea Development Bank | Development finance and industrial financing | Long-term finance, industrial investment, financing of large-scale projects |
 | **KOTRA** — Korea Trade-Investment Promotion Agency | Trade promotion and international business support | Export development, market intelligence, international industrial cooperation |
 
-
 Git Attributes
+
+On the usefulness of having a defense industry - as a source of technical rpogress and also clustering anckor for other industries:
+- https://www.insta.fi/en
+- https://en.wikipedia.org/wiki/Credit_default_swap
+- https://www.psd.gov.sg/newsroom/public-sector-governance-bill-by-min-ong-ye-kung-at-parliament/
+
+https://laws.e-gov.go.jp/law/323AC0000000120
+
+https://www.reddit.com/r/EconomicHistory/comments/1x6qeya/in_1344_a_florentine_government_council_that/
+
+https://archive.org/details/historyofflorenc0000naje
+
+https://en.wikipedia.org/wiki/Guilds_of_Florence

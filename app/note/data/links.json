@@ -1,18 +1,6 @@
 {
   "links": [
     {
-      "from": "social/action/public/informe/policy/",
-      "to": "social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md",
-      "label": "country study",
-      "kind": "study"
-    },
-    {
-      "from": "social/actor/public/polity/chn/",
-      "to": "social/action/public/informe/",
-      "label": "country studies",
-      "kind": "study"
-    },
-    {
       "from": "social/actor/",
       "to": "social/action/",
       "label": "Action",
@@ -47,6 +35,12 @@
       "to": "social/actor/public/gov-wide-administration.md",
       "label": "government-wide administration",
       "kind": "atlas"
+    },
+    {
+      "from": "social/actor/public/informe/",
+      "to": "social/action/public/informe/",
+      "label": "Public Action Informe",
+      "kind": "hierarchy"
     }
   ]
 }
