@@ -1941,3 +1941,102 @@ Sector Evolutionary Path
 - [ ]  https://charlesm93.github.io/stat547/
 
 https://www.rieti.go.jp/en/
+
+
+Research on Public Action and Problems:
+
+<ScrollWheelDown># Japanese Public Action Research Institutes
+
+If by **public action research** you mean research on how the state formulates policy, organizes public institutions, mobilizes resources, implements programs, and evaluates results, the relevant Japanese ecosystem extends beyond conventional policy think tanks.
+
+I would organize it around five functions:
+
+1. **Public administration and institutional design** — how government organizations are structured and managed.
+2. **Policy formulation and analysis** — how public problems are translated into policies and instruments.
+3. **Policy implementation and operational execution** — how policies are converted into administrative activities and services.
+4. **Policy evaluation and performance research** — how outcomes, effectiveness, and implementation are assessed.
+5. **Public-sector reform and institutional capacity** — how the state develops its ability to coordinate and execute complex policies.
+
+Japan has relevant institutions in all these areas, including government research institutes, policy schools, university research centers, and independent think tanks. The distinction matters because an institute that studies policy is not necessarily an institute that studies the **organization and execution of public action**.
+
+## 1. Core institutions
+
+| Institution | Type | Relevance to public action research | Website |
+|---|---|---|---|
+| **National Graduate Institute for Policy Studies (GRIPS)** | Public policy graduate institute and research institution | Policy formulation, public-sector management, governance, and cross-ministerial policy research | [grips.ac.jp](https://www.grips.ac.jp/en/) |
+| **GRIPS Alliance** | Cross-sector policy research platform | Research that connects ministries, policymakers, academia, and the private sector; particularly useful for examining policy coordination | [GRIPS Alliance](https://www.grips.ac.jp/en/about/grips_alliance/) |
+| **Center for Research and Education in Program Evaluation (CREPE), University of Tokyo** | University-based policy evaluation center | Empirical policy evaluation, causal analysis, evidence-based policymaking, and collaboration with implementing agencies | [CREPE](https://www.crepe.e.u-tokyo.ac.jp/en/) |
+| **Research Institute of Economy, Trade and Industry (RIETI)** | Government-affiliated policy think tank | Economic policy design, institutional reform, and evidence-based policy proposals | [RIETI](https://www.rieti.go.jp/en/) |
+| **Nippon Institute for Research Advancement (NIRA)** | Policy think tank and research network | Public-sector reform, central–local relations, institutional arrangements, and policy proposals | [NIRA](https://www.english.nira.or.jp/) |
+| **Economic and Social Research Institute (ESRI)** | Cabinet Office research institute | Macroeconomic analysis and research supporting economic and social policymaking | [ESRI](https://www.esri.cao.go.jp/en/) |
+
+GRIPS is particularly relevant because it combines policy research with professional education for public officials. Its GRIPS Alliance explicitly facilitates research across ministerial and sectoral boundaries. CREPE, by contrast, focuses on rigorous empirical evaluation and the relationship between research findings and policy implementation. 【turn1view1】【turn1view2】【turn1view0】
+
+## 2. Government institutes concerned with administrative systems and execution
+
+Japan also has policy research institutions embedded within or associated with government ministries.
+
+| Institution | Primary research or administrative domain | Website |
+|---|---|---|
+| **National Institute of Public Administration** | Public administration research and training — verify the exact institutional identity before treating this English description as an official institute name | [Japanese government institutional directory](https://www.moj.go.jp/housouken/housouken02_00002.html) |
+| **Japan Institute for Labour Policy and Training (JILPT)** | Labor policy, employment systems, and workforce research | [JILPT](https://www.jil.go.jp/english/) |
+| **National Institute of Population and Social Security Research (IPSS)** | Population policy, pensions, social security, and demographic projections | [IPSS](https://www.ipss.go.jp/index-e.asp) |
+| **National Institute for Educational Policy Research (NIER)** | Education policy, educational systems, and evaluation | [NIER](https://www.nier.go.jp/English/) |
+| **Information and Communications Policy Institute** | Information and communications policy research | [Ministry of Internal Affairs and Communications](https://www.soumu.go.jp/english/) |
+| **Competition Policy Research Center (CPRC)** | Competition policy and market regulation | [Japan Fair Trade Commission](https://www.jftc.go.jp/en/) |
+
+The Ministry of Justice's directory of ministry-associated policy research institutions provides a useful starting point for expanding this list. 【turn0search2】
+
+One important distinction: **administrative training institutions, policy research institutes, and operational government agencies are different actor types**. A training institution may build administrative capabilities without conducting much original research; an operational agency may generate extensive implementation knowledge without being primarily a research organization.
+
+## 3. University research centers studying public action
+
+For research specifically on how policies work in practice, university-based centers can be especially useful.
+
+| Institution | Research focus | Website |
+|---|---|---|
+| CREPE, University of Tokyo | Program evaluation, causal inference, and evidence-based policymaking | [Website](https://www.crepe.e.u-tokyo.ac.jp/en/) |
+| GRIPS Policy Research Center | Contemporary policy research and engagement with policymakers | [Website](https://www.grips.ac.jp/en/) |
+| GRIPS Center for Science, Technology and Innovation Policy | Research on the design and governance of science, technology, and innovation policy | [GRIPS research centers](https://www.grips.ac.jp/en/) |
+| Academic research groups in public administration and public policy | Bureaucratic organization, administrative reform, decentralization, and implementation | [CiNii Research](https://cir.nii.ac.jp/) |
+
+A relevant recent academic publication is Takayasu Yuasa's 2025 paper, *The Current Situations and Issues of Policy Implementation and Evaluation in Japan: What Role Can Public Administration Studies Play?* It addresses policy implementation and evaluation specifically from the perspective of public administration research. [Read the bibliographic record and access the paper](https://cir.nii.ac.jp/crid/1390022067668673152). 【turn0search16】
+
+---
+
+## 4. A more precise classification for your institutional map
+
+I would avoid grouping every organization under the generic label *policy research institute*. Instead, classify each entity by its principal contribution to the public-action process.
+
+| Actor type | What it investigates or produces | Representative Japanese entity |
+|---|---|---|
+| **Public Administration Research Institute** | Administrative structures, bureaucracy, organizational design, and administrative reform | University research groups in public administration |
+| **Policy Analysis Institute** | Policy problems, alternatives, instruments, and expected effects | RIETI |
+| **Policy Coordination Research Platform** | Cross-ministerial and cross-sector policy problems | GRIPS Alliance |
+| **Program Evaluation Research Center** | Program effects, implementation results, and causal mechanisms | CREPE |
+| **Sectoral Policy Research Institute** | Policy within a defined domain, such as labor, education, or social security | JILPT, NIER, IPSS |
+| **Governance and Institutional Reform Think Tank** | Institutional arrangements, decentralization, and public-sector reform | NIRA |
+| **Economic and Social Analysis Institute** | Economic and social conditions informing policy decisions | ESRI |
+
+These are analytical categories rather than official Japanese legal classifications. Some institutions belong in several categories.
+
+### 5. The key distinction: policy research versus public-action research
+
+For your purposes, I would define **Public Action Research Institute** as a research organization whose principal activity is to generate systematic knowledge about the formulation, organization, implementation, coordination, or evaluation of collective public action.
+
+That definition is broader than *public policy research institute*. It includes research on:
+
+- **Policy design:** How should a public problem be translated into goals, instruments, and programs?
+- **Administrative organization:** How should authority, responsibilities, and operational functions be distributed?
+- **Implementation:** How do policies translate into actual administrative activities?
+- **Coordination:** How do ministries, agencies, local governments, and private organizations work together?
+- **Institutional capacity:** What capabilities enable the state to execute complex policies?
+- **Evaluation:** How do we determine whether an intervention achieved its intended results, and why?
+
+For a study of Japan's state capacity and administrative machinery, I would begin with **GRIPS Alliance, CREPE, RIETI, and NIRA**, then identify specialized institutes and university research groups dealing with particular administrative functions.
+
+The next step would be to examine their actual research outputs and institutional relationships, rather than assuming that their organizational names alone establish their relevance to public-action research.
+
+
+
+
