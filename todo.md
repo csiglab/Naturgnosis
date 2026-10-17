@@ -1,3 +1,36 @@
+I cannot let a steam engine analogy go by without bringing up John Wilkinson, perhaps the most underappreciated engineer of the Industrial Revolution.
+
+Watt had figured out how to dramatically improve the steam engine, but he spent years struggling to actually manufacture one. The problem was embarrassingly simple: nobody could make a sufficiently round cylinder.
+
+
+Steam Engine -> Comercialize Viable Steam Engine
+
+https://en.wikipedia.org/wiki/John_Wilkinson_(industrialist)
+
+The casting and machining tolerances were atrocious. Watt complained that one 18-inch cylinder was out of round by as much as THREE-EIGHTHS OF AN INCH. Steam leaked past the piston. He tried packing the gaps with cork, oiled rags, paper, and apparently even old hats. Nothing worked particularly well.
+
+Enter John Wilkinson, a British ironmaster whose immediate concern was manufacturing better cannons.
+
+At the time, iron cannons were commonly cast around a core, introducing defects and misalignment that could make the barrels inaccurate or dangerously weak. Wilkinson developed a process for boring cannons from solid castings, and in 1774 patented a vastly improved boring machine.
+
+The key innovation was almost comically mechanical: a massive, rigid boring bar, supported at both ends, that could cut a genuinely straight, circular hole instead of following the irregularities of the casting.
+
+He adapted this technology to Watt's cylinders. By 1776, Matthew Boulton was boasting that Wilkinson had bored a FIFTY-INCH cylinder accurate to within the thickness of an old shilling.
+
+Suddenly, the steam engine was a commercially viable machine.
+
+And the story gets better. Wilkinson became one of Watt's first customers, buying an engine to drive the blast machinery at his own ironworks. The steam engine was now helping manufacture the iron that made more steam engines possible.
+
+I find this whole episode absolutely extraordinary. The Industrial Revolution was, for a critical period, bottlenecked on the ability to make a sufficiently round hole.
+
+We remember Watt, and rightly so. We remember the invention of the steam engine and the subsequent development of thermodynamics. But the man who made the machinery that made the whole thing possible is practically a footnote.
+
+I think we consistently underestimate how much of scientific progress is actually downstream of advances in tooling, measurement, and manufacturing precision. It's not just that technology precedes theory. Sometimes the decisive breakthrough is that someone finally figures out how to build the thing the theorists have been talking about for twenty years.
+
+Anyway, I think John Wilkinson deserves considerably more credit for modern civilization than he gets.
+
+
+
 notes/epistemica/goods-nomenclature
 
 Study 
@@ -2049,4 +2082,38 @@ The next step would be to examine their actual research outputs and institutiona
 - https://cepr.org/
 
 - Gala, P., & Nicolini Gabriel, J. P. (2026). Natural resources trap and regressive specialisation: Global integration and the destruction of productive capabilities in Latin America. Economic History of Developing Regions, 1–31. https://doi.org/10.1080/20780389.2026.2713694
-- 
+- Orwin AI. Democracy under the Caliphs: Alfarabi’s Unusual Understanding of Popular Rule. The Review of Politics. 2015;77(2):171-190. doi:10.1017/S0034670515000029
+
+
+Techncal Overlap over the Product Sapce
+- > Semiconductor Equipment
+-> Solar; Panel Equipement
+
+- https://www.gov.mo/en/
+- https://gimm.pt/  (Organizational Model, How does it responded to the research interest of teh nation?)
+- https://en.wikipedia.org/wiki/KCNQ1
+- https://www.annualreviews.org/content/journals/10.1146/annurev-biophys-070816-033602
+- https://en.wikipedia.org/wiki/Potassium
+- https://hengqin.must.edu.mo/page/id-15327.html?locale=en_US
+- https://www.moleculardevices.com/
+- https://en.wikipedia.org/wiki/Morphogenesis  How form emerges?
+- https://en.wikipedia.org/wiki/The_Chemical_Basis_of_Morphogenesis
+- https://onlinelibrary.wiley.com/doi/10.1002/dvg.22380
+- https://lifesciences.danaher.com/
+- https://sklqrcm.must.edu.mo/page/id-2482.html?locale=en_US   (Lab Technical Objects)
+- https://gakku.ai/
+
+Elements; Rules -> What kinds of structures can this generates?
+
+What is the limit of this?
+
+
+https://en.wikipedia.org/wiki/Food_web
+
+https://mathworld.wolfram.com/ElementaryCellularAutomaton.html
+
+https://conwaylife.com/wiki/Universal_computer
+
+https://www.nber.org/papers/w2654
+
+
