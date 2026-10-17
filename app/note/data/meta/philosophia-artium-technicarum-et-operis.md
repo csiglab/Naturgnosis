@@ -366,6 +366,14 @@ The tree is governed by the following rules:
 | `Production Technical System` → CRM System → `Production Technical Object` → CRM Application → Salesforce → `Technical Parameter` | Grouping: deployment identifiers. |
 | `Production Technical System` → CRM System → `Production Technical Object` → CRM Application → Salesforce → `Technical Parameter` → Salesforce Org Identifier | Deployment identifier of the Salesforce org (exemplar value per deployment). |
 
+### Is the genesis of a technical element its whole story?
+
+> The genesis of an element — the invention or first demonstration of its working principle, registered under `Technical Evolution` — is necessary but not sufficient. An element becomes a *deployed* technical element only when its enabling conditions exist: the producing elements and tooling that make it manufacturable, the `Technical Resource`s it consumes, and the `Technical Constraint`s it must satisfy. These are as constitutive as the genesis, and often the harder problem.
+
+> The steam engine is the standard case. James Watt's separate-condenser engine was conceived by the 1760s, but it could not be built until a cylinder could be bored round enough to hold steam; John Wilkinson's cannon-boring machine (patented 1774) supplied that condition, and by 1776 Boulton advertised a fifty-inch cylinder accurate to a shilling's thickness. The invention was Watt's; the enabling conditions that made it deployable were Wilkinson's. Type both: the genesis side is a `Technical Evolution` entry for the element, and the enabling side is its own element — a `Producing Technical Element` (a `Material Good Producer`, e.g. a machine tool) — joined to the deployed element by a `Technical Dependency`, with the resources and limits it answers typed as `Technical Resource` and `Technical Constraint`. Never file the enabling element as a footnote to the invention.
+
+> Consequence for the decomposition: a tree that stops at the invention while leaving the producing element, resource, and constraint untyped has dropped a branch as load-bearing as the genesis it records. See [John Wilkinson](note.html?n=social/actor/private/persona/john-wilkinson.md).
+
 ### How to decompose an instance that belongs to multiple element types?
 
 > By default, a **multi-root forest**: one root per candidate type, each root growing its own well-formed tree. No instance row ever carries two types — where the table carries a fourth column it holds exactly one type path per row; otherwise typing reads from grouping segments and the declared root binding. Ambiguity is resolved by multiplication of trees, not by compromise typing.

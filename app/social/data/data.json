@@ -84726,6 +84726,75 @@
     ]
   },
   {
+    "id": "john-wilkinson",
+    "name": "John Wilkinson",
+    "tags": [
+      "actor",
+      "person",
+      "engineering",
+      "industrial-revolution",
+      "iron",
+      "machine-tools"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "John Wilkinson (1728–1808), English ironmaster of the industrial revolution; patented the cannon-boring machine (1774) and bored the cylinders that made James Watt's steam engine deployable; ran the largest ironworks in Britain and supplied and bought the engines of the Boulton and Watt partnership.",
+    "longDescription": "John Wilkinson (1728–1808), English ironmaster of the industrial revolution; patented the cannon-boring machine (1774) and bored the cylinders that made James Watt's steam engine deployable; ran the largest ironworks in Britain and supplied and bought the engines of the Boulton and Watt partnership.",
+    "chronology": {
+      "summary": "Persona (social decomposition, type person).",
+      "events": [
+        {
+          "year": 1728,
+          "event": "Born at Clifton, Cumberland.",
+          "context": "Son of Isaac Wilkinson, an iron founder."
+        },
+        {
+          "year": 1761,
+          "event": "Takes up the Bersham Ironworks near Wrexham.",
+          "context": "Basis of his boring machinery and cannon and cylinder production."
+        },
+        {
+          "year": 1774,
+          "event": "Patents the cannon-boring machine.",
+          "context": "Bores cannon, and later engine cylinders, true from the solid."
+        },
+        {
+          "year": 1775,
+          "event": "Begins boring cylinders for Boulton and Watt.",
+          "context": "Bores the cylinders that make Watt's separate-condenser engine deployable."
+        },
+        {
+          "year": 1808,
+          "event": "Dies at Bradley, Staffordshire.",
+          "context": "One of the wealthiest and most consequential ironmasters of his generation."
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "manual persona addition",
+      "createdAt": "2026-10-17",
+      "auditTrail": [
+        "enriched with social decomposition note",
+        "records the enabling conditions of the steam engine"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "John Wilkinson",
+        "link": "/note/note.html?n=social/actor/private/persona/john-wilkinson.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
+  },
+  {
     "id": "john-william-strutt-3rd-baron-rayleigh",
     "name": "John William Strutt, 3rd Baron Rayleigh",
     "tags": [
