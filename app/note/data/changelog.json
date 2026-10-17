@@ -9712,7 +9712,8 @@
       {
         "date": "2026-10-16",
         "kind": "feat",
-        "summary": "Added persona note for Al-Fārābī."
+        "summary": "Added persona note for Al-Fārābī.",
+        "commit": "ee42c642e0aade5b3bcfd6f2497f85a08510c686"
       }
     ]
   },
@@ -9722,7 +9723,8 @@
       {
         "date": "2026-10-16",
         "kind": "feat",
-        "summary": "Added persona note for Ibn Rushd."
+        "summary": "Added persona note for Ibn Rushd.",
+        "commit": "ee42c642e0aade5b3bcfd6f2497f85a08510c686"
       }
     ]
   },
@@ -9732,7 +9734,8 @@
       {
         "date": "2026-10-16",
         "kind": "feat",
-        "summary": "Added persona note for Ibn Khaldūn."
+        "summary": "Added persona note for Ibn Khaldūn.",
+        "commit": "ee42c642e0aade5b3bcfd6f2497f85a08510c686"
       }
     ]
   }
