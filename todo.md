@@ -1,3 +1,7 @@
+notes/epistemica/goods-nomenclature
+
+
+
 Tre Policy Index serves as a entry point toa  collection of pollities -  asmal catalog of a represntaive set of plgies in ordre ty deeply study collective agency, ...
 
 The Polity Index serves as an entry point to a collection of polities, enabling users to explore, navigate, and compare their institutional structures, social organization, and analytical representations. Each polity has its own dedicated space containing visual representations and explanatory notes, providing a foundation for systematic study across polities. Pick a flag to open that polity's page.
@@ -2038,5 +2042,18 @@ For a study of Japan's state capacity and administrative machinery, I would begi
 The next step would be to examine their actual research outputs and institutional relationships, rather than assuming that their organizational names alone establish their relevance to public-action research.
 
 
+- https://en.wikipedia.org/wiki/SCADA
+- The main research on which this column is based (Kiyota and Okazaki 2013) first appeared as a Discussion Paper of the Research Institute of Economy, Trade and Industry (RIETI) of Japan.
+- Beason, R and D E Weinstein (1996) ,"Growth, Economies of Scale, and Targeting in Japan (1955-1990)", Review of Economics and Statistics 78(2), pp. 286-295.
+- Ito, M and K Kiyono (1988), "Foreign Trade and Direct Investment," in Industrial Policy of Japan, 155-181, edited by Ryutaro Komiya, Masahiro Okuno-Fujiwara and Kotaro Suzumura, San Diego, CA: Academic Press.
+- Kiyota, K and T Okazaki (2005), "Foreign Technology Acquisition Policy and Firm Performance in Japan, 1957-1970", International Journal of Industrial Organization 23(7-8), pp. 563-586.
+- Kiyota, K and T Okazaki (2010), "Industrial Policy Cuts Two Ways: Evidence from Cotton Spinning Firms in Japan", Journal of Law and Economics 53(3), pp. 587-609.
+- Kiyota, K and T Okazaki (2013), "Effects of Industrial Policy on Productivity: The case of import quota removal during postwar Japan," Discussion Paper No. 13093, Research Institute of Economy, Trade and Industry (RIETI).
+- Nakakita, T (1993), "Boeki to Shihon no Jiyuuka Seisaku (Trade and Capital Liberalization Policy)," in Sengo Nihon no Keizai Kaikaku – Shijyo to Seifu (Economic Reform in Post-war Japan: Market and Government), 275-306, edited by Y Kosai and J Teranishi, Tokyo: University of Tokyo Press (in Japanese).
+- Noland, M and H Pack (2003), Industrial Policy in an Era of Globalization: Lessons from Asia, Washington, D.C.: Peterson Institute.
+- ...
+- Reichlin, L (2026), Modernising European finance – the steps we can take, CEPR Europe 2050 Paper, CEPR Press, Paris & London. https://cepr.org/publications/modernising-european-finance-steps-we-can-take
+- https://cepr.org/
 
-
+- Gala, P., & Nicolini Gabriel, J. P. (2026). Natural resources trap and regressive specialisation: Global integration and the destruction of productive capabilities in Latin America. Economic History of Developing Regions, 1–31. https://doi.org/10.1080/20780389.2026.2713694
+- 
