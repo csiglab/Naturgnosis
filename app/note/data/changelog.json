@@ -9705,5 +9705,35 @@
         "commit": "5bc6868fd23d1723d4d6adff7305802ce3188b82"
       }
     ]
+  },
+  {
+    "file_path": "social/actor/private/persona/al-farabi.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added persona note for Al-Fārābī."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/ibn-rushd.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added persona note for Ibn Rushd."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/private/persona/ibn-khaldun.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "feat",
+        "summary": "Added persona note for Ibn Khaldūn."
+      }
+    ]
   }
 ]

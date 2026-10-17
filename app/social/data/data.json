@@ -186653,5 +186653,125 @@
       "inheritanceLevel": 0
     },
     "references": []
+  },
+  {
+    "id": "al-farabi",
+    "name": "Al-Fārābī",
+    "tags": [
+      "actor",
+      "person",
+      "philosophy",
+      "political-philosophy"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Abū Naṣr Muḥammad al-Fārābī (c. 872–950), Islamic Golden Age philosopher; logic, political philosophy, and music; author of al-Madīna al-Fāḍila.",
+    "longDescription": "Abū Naṣr Muḥammad al-Fārābī (c. 872–950), Islamic Golden Age philosopher; logic, political philosophy, and music; author of al-Madīna al-Fāḍila.",
+    "chronology": {
+      "summary": "Persona (manual addition, type person)",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "manual persona addition",
+      "createdAt": "2026-10-16",
+      "auditTrail": [
+        "added manually with persona note"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Al-Fārābī",
+        "link": "/note/note.html?n=social/actor/private/persona/al-farabi.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
+  },
+  {
+    "id": "ibn-rushd",
+    "name": "Ibn Rushd",
+    "tags": [
+      "actor",
+      "person",
+      "philosophy",
+      "jurisprudence"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "Abū l-Walīd Muḥammad ibn Rushd (Averroes, 1126–1198), Andalusian philosopher, jurist, and physician; the most influential medieval commentator on Aristotle.",
+    "longDescription": "Abū l-Walīd Muḥammad ibn Rushd (Averroes, 1126–1198), Andalusian philosopher, jurist, and physician; the most influential medieval commentator on Aristotle.",
+    "chronology": {
+      "summary": "Persona (manual addition, type person)",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "manual persona addition",
+      "createdAt": "2026-10-16",
+      "auditTrail": [
+        "added manually with persona note"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Ibn Rushd",
+        "link": "/note/note.html?n=social/actor/private/persona/ibn-rushd.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
+  },
+  {
+    "id": "ibn-khaldun",
+    "name": "Ibn Khaldūn",
+    "tags": [
+      "actor",
+      "person",
+      "history",
+      "sociology"
+    ],
+    "layer": "Agentic",
+    "category": "Person",
+    "description": "ʿAbd al-Raḥmān ibn Khaldūn (1332–1406), North African historian and social thinker; author of the Muqaddimah.",
+    "longDescription": "ʿAbd al-Raḥmān ibn Khaldūn (1332–1406), North African historian and social thinker; author of the Muqaddimah.",
+    "chronology": {
+      "summary": "Persona (manual addition, type person)",
+      "events": []
+    },
+    "relationships": [],
+    "specific": {
+      "persona": {
+        "type": "person"
+      }
+    },
+    "metadata": {
+      "confidenceScore": 0.6,
+      "sourceReference": "manual persona addition",
+      "createdAt": "2026-10-16",
+      "auditTrail": [
+        "added manually with persona note"
+      ],
+      "inheritanceLevel": 0
+    },
+    "references": [
+      {
+        "title": "Ibn Khaldūn",
+        "link": "/note/note.html?n=social/actor/private/persona/ibn-khaldun.md",
+        "description": "Persona note in the Note Space."
+      }
+    ]
   }
 ]
