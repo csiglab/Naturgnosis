@@ -9718,7 +9718,9 @@
       {
         "date": "2026-10-16",
         "kind": "docs",
-        "summary": "Added SEP archive reference on Al-Fārābī’s psychology and epistemology."
+        "summary": "Added SEP archive reference on Al-Fārābī’s psychology and epistemology.",
+        "commit": "2aa4b9a1aadbbb476f7ca2ce3994e58dea466a90",
+        "before": "091bca43a065d0a470c0be3f03487490d75625a8"
       }
     ]
   },
