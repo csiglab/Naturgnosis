@@ -9714,6 +9714,11 @@
         "kind": "feat",
         "summary": "Added persona note for Al-Fārābī.",
         "commit": "ee42c642e0aade5b3bcfd6f2497f85a08510c686"
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "docs",
+        "summary": "Added SEP archive reference on Al-Fārābī’s psychology and epistemology."
       }
     ]
   },

@@ -11,3 +11,4 @@ tags: [actor, person, philosophy, political-philosophy]
 
 - [Al-Farabi](https://en.wikipedia.org/wiki/Al-Farabi)
 - [Al-Fārābī](https://plato.stanford.edu/entries/al-farabi/)
+- [al-Farabi’s Psychology and Epistemology](https://plato.stanford.edu/archives/sum2020/entries/al-farabi-psych/)
