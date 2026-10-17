@@ -67,11 +67,11 @@ tags: [epistemology, ontology, method]
 
 > The labour of epistemic practice goes hand in hand with a layout of reality — that is its ontic template: every epistemic move presupposes an ontic parsing, and every ontic distinction earns its keep through epistemic use.
 
-> Note: Epistemic Element Type is recursive. Its elements are read under two types of order: the **Epistemic Order** (inquiry: orientation, agency, target, access, representation (including constitution), construction, operation, evaluation, communication, infrastructure, and conditions, plus `Aggregate` collections) and the **Ontic Order** (segments of reality and the existential/dynamical layering of what *is*). The single table below holds both branch-rooted trees, each growing from `(root)`. Each branch root carries its path and child rows extend it; child descriptions state the role-in-parent, canonical definitions live on root rows. Template rows (`Meta`, and the `Aggregate` recursion rows) carry `<<…>>` slots bound with `:=` instead of instances. `Constraint` appears once per constraining domain — evaluation, conditions, and substrate — read it with its parent. Scaffold rows are those supporting, structuring, or validating inquiry; target rows (domains, segments, observables, objects), and all ontic content rows, are inquiry's objects and targets. Type paths use `->` throughout.
+> Note: Epistemic Element Type is recursive. Its elements are read under two types of order: the **Epistemic Order** (inquiry: orientation, agency, target, access, representation (including constitution), construction, operation, evaluation, communication, infrastructure, and conditions, plus `Aggregate` collections) and the **Ontic Order** (segments of reality and the existential/dynamical layering of what *is*). The `Permitted Link Forms` table below licenses how an element of one type decomposes into elements of another. Template slots (`<<…>>`) are bound with `:=` instead of instances. Scaffold elements supporting, structuring, or validating inquiry are distinct from the target elements (domains, segments, observables, objects) and ontic content, which are inquiry's objects. Relationships use `→` throughout.
 
 > This tries to capture the epistemic circuit  -- Why? → Who? → What? → How accessed? → What is done? → What is produced? → How judged? → Under what conditions? → What supports it?
 
-> Note: `(root) -> Epistemic Representation -> Representation`   is equal to a construction.
+> Note: An epistemic representation is also a construction — representing a target is constructing an artifact about it.
 
 #### What is the fundamental structure of an epistemic element's `Decomposition Tree`?
 
@@ -102,7 +102,7 @@ Epistemic Element (parent)
 | `Epistemic Element (→ Kind) Epistemic Infrastructure` | Classifies the material, computational, informational, and institutional structures enabling epistemic activity. | Classification; Infrastructure |
 | `Epistemic Element (→ Kind) Epistemic Context` | Classifies the surrounding conditions within which inquiry is situated and interpreted. | Classification; Conditions |
 | `Epistemic Element (→ Kind) Epistemic Target` | Classifies the addressed domain of inquiry: the reality, segment, or entities toward which inquiry is directed. | Classification; Target |
-| `Epistemic Element (→ Kind) Ontic Element` | Classifies what exists, occurs, changes, or generates effects within a segment of reality. | Classification; Ontic |
+| `Epistemic Element (→ Kind) Ontic` | Classifies what exists, occurs, changes, or generates effects within a segment of reality. | Classification; Ontic |
 | `Epistemic Orientation (→ Has) Epistemic Purpose` | Identifies the intended ultimate effect or value of the inquiry. | Orientation; Purpose |
 | `Epistemic Orientation (→ Has) Epistemic Question` | Identifies a formulated question directing inquiry toward a gap. | Orientation; Question |
 | `Epistemic Orientation (→ Has) Epistemic Goal` | Identifies a desired epistemic outcome toward which inquiry is directed. | Orientation; Goal |
@@ -147,19 +147,17 @@ Case:
 
 > A decomposition recursively expands an epistemic instance tree from its root: bind the root instance, then grow its subtree by attaching only links the `Permitted Link Forms` table allows, down to instance leaves. The reference tables above are scaffolding — necessary but not sufficient, and never normative: they say which links *may* appear, not which decomposition is correct for any given element. Choosing instances, depth, and stopping point remains the decomposer's work on the instance itself.
 
-> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of Arithmetic?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its grouping segments and the declared root binding.
+> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of Arithmetic?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its nearest enclosing grouping segment.
 
 > Begin with the ontic questionnaire — which entities, substances, mechanisms, processes, events, and phenomena constitute the fundamental ontic elements of the target science? — then type each answer below.
 
-> Note: The Instance Tree Path only contains instances — not epistemic element types.
+> Note: Instance rows in the Instance Tree Path name instances, never types. Type names appear only as backticked grouping segments and never terminate a branch.
 
-> **Epistemic Element Type Tree Path:** the expansion path typing one instance row (fourth column) — `(root) := <<Epistemic Element>>` bound to the row's table type, continued by exactly one licensed expansion: a spine-ordered suffix or a composite nesting. In other words, a Tree Path is what the single table generates. It is a type-level path (`->`), never to be confused with the Instance Tree Path (first column), which strings instances with `→`.
-
-> **Constructing the path:** (1) type the instance — find its row in the table above; (2) bind — write `(root) := <<Epistemic Element>>` as that type; (3) extend — continue with exactly one licensed expansion from the bound position (spine-ordered suffix or composite nesting under the bound root); (4) check — single types and spine-ordered chains always license; anything else must match a nested composite.
+> **Constructing the instance path:** (1) bind the root — name the instance being decomposed; (2) extend — append each child by exactly one link the `Permitted Link Forms` table licenses; (3) type — resolve each segment to its nearest enclosing grouping segment, declaring the root's type once; (4) check — every leaf resolves to an instance, and no bare type terminates a branch.
 
 **Rules:**
 
-- **Form of the Table:** `Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path`.
+- **Form of the Table:** `Instance Tree Path | Description`.
 - **Instance Tree Path:** A unique, recursively extended path identifying an instance within the decomposition tree. It begins with the root instance and appends each successive child instance through an explicitly labeled relationship, using the form `Parent Instance → Child Instance`. Each successive path must preserve the complete path from the root to the current instance. Type grouping segments are styled `` `code` ``; instance nodes are plain Title Case text.
 - **Root:** The root is the epistemic element type to which the epistemic instance being decomposed belongs or is related.
 - **Relationship Labeling:** Every link between a parent and child uses `→`. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
@@ -174,9 +172,7 @@ Case:
 - **Instance Identity:** Distinguish different instances even when they share the same type or description. The full `Instance Tree Path` identifies an instance's position within the particular decomposition; it does not, by itself, establish a globally unique identity outside that tree.
 - **Tree Structure:** Each non-root row must extend an existing parent path by exactly one child relationship. The same instance may appear in multiple branches when it plays different roles in the decomposition; each occurrence must have its own path. Ensure a rich set of intermediate (internal) nodes — both types and instances — aiding understanding: composition, representation, transformation, validation, or other useful structural relationships.
 - **Non-Normativity of Reference Tables:** The reference tables constrain which link forms may be used. They do not prescribe a universal decomposition order, determine which children must be included, or guarantee that a decomposition is conceptually adequate.
-- **Typing:** Every instance is typed — by its fourth-column Tree Path where the table carries one, otherwise by its nearest enclosing grouping segment, with the decomposition root's type declared once. Rows carrying `<<…>>` placeholders (`<<Epistemic Element>>`, `Epistemic Construction Set`) are templates, not grouping types: bind the slot (`:=`) instead of nesting instances beneath them.
-- **Well-formedness:** an instance decomposition is well-formed when every instance row's type path is a path the table generates: bind `(root) := <<Epistemic Element>>` to the root instance's type and continue down-branch in order; branch order is never skipped. Any row may serve as a decomposition root for recursive decomposition.
-- **No repetition:** The root's own type must not be unnecessarily repeated as an intermediate grouping node. Exception: a same-type segment is allowed when it scopes a genuine instance family that would otherwise hang untyped (e.g. an `Epistemic Standard` grouping scoping the standards family inside an Arithmetic decomposition, whose fourth-column counterpart is `(root) := <<Epistemic Element>> -> ... -> Epistemic Standard`); a same-type segment with only generic description and no scoping function stays forbidden.
+- **Well-formedness:** an instance decomposition is well-formed when every non-root row extends an existing path by exactly one link the `Permitted Link Forms` table licenses, every grouping segment carries a licensed type, branch order is never skipped, and every leaf resolves to an instance. Any row may serve as a decomposition root for recursive decomposition.
 * Style Rules for Intermediate Nodes
   * **Instances:** Style intermediate nodes that represent actual epistemic instances as plain text (no adornment).
   * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`measurement record` -> `Measurement Record`, `dataset field` -> `Dataset Field`); preserve established all-caps acronyms (`API`, `CSV`). Type segments keep their table casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
@@ -185,12 +181,10 @@ Case:
   * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
   * **Grouping types:** A type used only to group instances is not itself an instance and must not terminate a branch.
   * The path link - is →.
-* **Epistemic Element Type Tree Path**: In the definition table this column is a template carrying the `<<Epistemic Element>>` root slot; once the root instance's type is bound (`(root) := …`), the instantiated path contains only concrete epistemic element types — no expansion patterns or placeholders.
 
-
-| Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
-| --- | --- | --- | --- |
-|  |  |  |  |
+| Instance Tree Path | Description |
+| --- | --- |
+|  |  |
 
 ## Terminology
 

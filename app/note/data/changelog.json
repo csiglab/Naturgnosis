@@ -289,6 +289,11 @@
         "summary": "Reformed to the socialium pattern: decomposition-tree heading, fundamental-structure block, Permitted Link Forms table, tags(adjectives) section with Case, guide renamed and rules mirrored; added Purpose, Question, Object, Target Domain/Segment, Concrete Epistemic Artifact, Formation, Interpretation types; removed empty Index.",
         "commit": "5bc6868fd23d1723d4d6adff7305802ce3188b82",
         "before": "a8ae047a58b241cc158603ad1c56bc8f4af8fa9d"
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "fix",
+        "summary": "Removed orphaned type-path references after the definition table's removal; aligned the guide with the two-column instance tree."
       }
     ]
   },
