@@ -322,7 +322,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Added the QA question on whether the genesis of a technical element is its whole story, distinguishing genesis from its enabling conditions under the existing types."
+        "summary": "Added the QA question on whether the genesis of a technical element is its whole story, distinguishing genesis from its enabling conditions under the existing types.",
+        "commit": "68b6b61e4725782273bc1ac747c54d48c7e35eb9",
+        "before": "df03a4a76707f1fdf26f554022ebe9280d5994ff"
       }
     ]
   },
@@ -9786,7 +9788,8 @@
       {
         "date": "2026-10-17",
         "kind": "feat",
-        "summary": "Decomposed John Wilkinson as a societal actor per the social guide; recorded his boring machine and its role as the enabling condition of Watt's steam engine."
+        "summary": "Decomposed John Wilkinson as a societal actor per the social guide; recorded his boring machine and its role as the enabling condition of Watt's steam engine.",
+        "commit": "68b6b61e4725782273bc1ac747c54d48c7e35eb9"
       }
     ]
   }
