@@ -60,12 +60,17 @@
     ]
   },
   {
-    "file_path": "epistemica/law/legal.md",
+    "file_path": "social/normative/legal/legal.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "docs",
+        "summary": "Moved from epistemica/law/legal.md — law belongs to the social normative stratum."
       }
     ]
   },
@@ -276,6 +281,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-16",
+        "kind": "docs",
+        "summary": "Reformed to the socialium pattern: decomposition-tree heading, fundamental-structure block, Permitted Link Forms table, tags(adjectives) section with Case, guide renamed and rules mirrored; added Purpose, Question, Object, Target Domain/Segment, Concrete Epistemic Artifact, Formation, Interpretation types; removed empty Index."
       }
     ]
   },
@@ -9661,6 +9671,26 @@
         "date": "2026-10-16",
         "kind": "feat",
         "summary": "Added a Hong Kong root pointer note linking to the chn/prc China aggregate."
+      }
+    ]
+  },
+  {
+    "file_path": "social/normative/legal/contract.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "docs",
+        "summary": "Moved from epistemica/law/contract.md — law belongs to the social normative stratum."
+      }
+    ]
+  },
+  {
+    "file_path": "social/normative/legal/legal-theory.md",
+    "logs": [
+      {
+        "date": "2026-10-16",
+        "kind": "docs",
+        "summary": "Moved from epistemica/law/legal-theory.md — law belongs to the social normative stratum."
       }
     ]
   }

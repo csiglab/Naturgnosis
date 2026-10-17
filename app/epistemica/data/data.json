@@ -6186,68 +6186,6 @@
     "references": []
   },
   {
-    "id": "legal-theory",
-    "name": "Legal Theory",
-    "tags": [
-      "arbitriologia-import"
-    ],
-    "category": "epistemicFramework",
-    "layer": "Epistemic",
-    "description": "Law constrains rulers and ruled symmetrically",
-    "longDescription": "Law constrains rulers and ruled symmetrically",
-    "chronology": {
-      "summary": "Idea Set",
-      "events": []
-    },
-    "relationships": [],
-    "specific": {
-      "relatedSpace": "social"
-    },
-    "metadata": {
-      "confidenceScore": 0.55,
-      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Facet/Ideational/Liberalism.md",
-      "createdAt": "2026-09-28T00:00:00Z",
-      "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Idea Set)"
-      ],
-      "inheritanceLevel": 0,
-      "migrated_from": "social",
-      "migrated_at": "2026-10-02"
-    },
-    "references": []
-  },
-  {
-    "id": "legal-theory-jurisprudence",
-    "name": "Legal Theory (Jurisprudence)",
-    "tags": [
-      "arbitriologia-import"
-    ],
-    "category": "epistemicFramework",
-    "layer": "Epistemic",
-    "description": "Theorizes how law structures social reality by defining rights, duties, and legitimate authority; bridges normative and institutional dimensions.",
-    "longDescription": "Theorizes how law structures social reality by defining rights, duties, and legitimate authority; bridges normative and institutional dimensions.",
-    "chronology": {
-      "summary": "Field Space",
-      "events": []
-    },
-    "relationships": [],
-    "specific": {
-      "relatedSpace": "social"
-    },
-    "metadata": {
-      "confidenceScore": 0.55,
-      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Instrumentorum/Foundation/README.md",
-      "createdAt": "2026-09-28T00:00:00Z",
-      "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (other-table, section: Field Space)"
-      ],
-      "inheritanceLevel": 0,
-      "migrated_from": "social",
-      "migrated_at": "2026-10-02"
-    },
-    "references": []
-  },
-  {
     "id": "lewis-model",
     "name": "Lewis Model",
     "tags": [
@@ -9518,37 +9456,6 @@
     ]
   },
   {
-    "id": "property-rights-theory",
-    "name": "Property Rights Theory",
-    "tags": [
-      "arbitriologia-import"
-    ],
-    "category": "epistemicFramework",
-    "layer": "Epistemic",
-    "description": "Explores how the allocation and enforcement of property rights affect economic behavior and resource allocation.",
-    "longDescription": "Explores how the allocation and enforcement of property rights affect economic behavior and resource allocation.",
-    "chronology": {
-      "summary": "Frameworks",
-      "events": []
-    },
-    "relationships": [],
-    "specific": {
-      "relatedSpace": "social"
-    },
-    "metadata": {
-      "confidenceScore": 0.55,
-      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Instrumentorum/Foundation/Economy/Domain/Institutional.md",
-      "createdAt": "2026-09-28T00:00:00Z",
-      "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Frameworks)"
-      ],
-      "inheritanceLevel": 0,
-      "migrated_from": "social",
-      "migrated_at": "2026-10-02"
-    },
-    "references": []
-  },
-  {
     "id": "prospect-theory",
     "name": "Prospect Theory",
     "tags": [
@@ -9801,37 +9708,6 @@
         "description": "Long-name to code convention with year-month-short keys and provenance index."
       }
     ]
-  },
-  {
-    "id": "rights-theory",
-    "name": "Rights Theory",
-    "tags": [
-      "arbitriologia-import"
-    ],
-    "category": "epistemicFramework",
-    "layer": "Epistemic",
-    "description": "Pre-political or legally entrenched rights",
-    "longDescription": "Pre-political or legally entrenched rights",
-    "chronology": {
-      "summary": "Idea Set",
-      "events": []
-    },
-    "relationships": [],
-    "specific": {
-      "relatedSpace": "social"
-    },
-    "metadata": {
-      "confidenceScore": 0.55,
-      "sourceReference": "/home/dbremont/Code/Laboratorium/Arbitriologia/docs/Locus-Social-Realitatis/Facet/Ideational/Liberalism.md",
-      "createdAt": "2026-09-28T00:00:00Z",
-      "auditTrail": [
-        "arbitriologia-import 2026-09-28 table row (entity-table, section: Idea Set)"
-      ],
-      "inheritanceLevel": 0,
-      "migrated_from": "social",
-      "migrated_at": "2026-10-02"
-    },
-    "references": []
   },
   {
     "id": "sec-filings-guide",

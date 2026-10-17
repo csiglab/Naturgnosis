@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T20:46:47Z",
+ "generated": "2026-10-16T23:41:20Z",
  "modules": {
   "social": {
    "nodes": 7540,
@@ -17,7 +17,7 @@
    "facets": 37
   },
   "epistemica": {
-   "nodes": 308,
+   "nodes": 304,
    "edges": 154,
    "facets": 15
   },
