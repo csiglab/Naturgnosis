@@ -32,6 +32,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 CHANGELOG = REPO / "app" / "note" / "data" / "changelog.json"
 
+DATA_PREFIX = "app/note/data/"
 LOG_KEY_ORDER = ("date", "kind", "summary", "commit", "before")
 
 
@@ -45,8 +46,14 @@ def git(*args, check=True):
 
 
 def changed_files(sha):
+    # Return corpus-relative paths (changelog file_path form), not repo paths.
     out = git("diff-tree", "--no-commit-id", "--name-only", "-r", sha)
-    return {f.strip() for f in out.stdout.splitlines() if f.strip()}
+    files = set()
+    for line in out.stdout.splitlines():
+        f = line.strip()
+        if f.startswith(DATA_PREFIX):
+            files.add(f[len(DATA_PREFIX):])
+    return files
 
 
 def commit_date(sha):
