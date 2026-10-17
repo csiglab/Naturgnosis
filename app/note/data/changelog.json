@@ -293,7 +293,9 @@
       {
         "date": "2026-10-16",
         "kind": "fix",
-        "summary": "Removed orphaned type-path references after the definition table's removal; aligned the guide with the two-column instance tree."
+        "summary": "Removed orphaned type-path references after the definition table's removal; aligned the guide with the two-column instance tree.",
+        "commit": "bfb1baff1efa4a4f28c1b0f7d3e9de0b1e266d1f",
+        "before": "bf9ce98e16a710dc3d263b8e936d33adaa79a89e"
       }
     ]
   },
