@@ -136,6 +136,16 @@ Level-2 subfields:
 - `sociology`: `social-networks`, `inequality`, `institutions-culture`, `demography`.
 - `statistics`: `inference`, `bayesian`, `time-series`, `experimental-design`.
 
+### Provenance (`metadata.sourceReference` / `metadata.document`)
+
+`metadata.sourceReference` records where the node's content was authored (the original document
+path, e.g. a `cartilla` reference). `metadata.document`, when present, records the Epistecnica
+document the node is bound to — set by `bin/import_epistecnica_documents.py`, which matches
+documents to existing nodes by **work identity** (title similarity), never by source path, and on
+a match links the document (setting `metadata.document` and appending an absolute-path
+`references` entry) instead of creating a duplicate node. The explorer shows both as `Source` and
+`Document` rows.
+
 ## Data flow
 
 - `app/research/data/data.json` — seed + Epistecnica-document import (canonical node model;

@@ -18,6 +18,7 @@ seed corpus. Spec: `spec/research/README.md`.
 
 ```sh
 python bin/sync.py                    # serve (dataset=research is auto-discovered)
+python bin/import_epistecnica_documents.py --dry-run   # stage Epistecnica documents (data.json only)
 python bin/layout.py --data-file app/research/data/data.json --layout-file app/research/data/layout.json --group-by metadata.topics.0 --group-fallback category
 python bin/seed_couchdb.py --dataset research
 curl /api/graph?dataset=research      # nodes
@@ -29,3 +30,7 @@ curl /api/graph?dataset=research      # nodes
 - The web app is a copy of the social one: propagate shared fixes from the other graph modules.
 - `category` values come from the spec's artifact vocabulary; keep the seed corpus curated (no
   bulk imports without an `import/` workflow).
+- `bin/import_epistecnica_documents.py` touches **only** `app/research/data/data.json` (no
+  manifest, no CouchDB, no notes). It matches documents to nodes by work identity and links
+  (`metadata.document` + a `references` entry) instead of duplicating; run `bin/layout.py` +
+  `make build` after, and a human runs `make seed` to go live.

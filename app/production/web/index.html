@@ -2779,6 +2779,10 @@
                     html += '<div class="dp-field"><span class="dp-field-label">Source</span>' +
                         '<div class="dp-field-value">' + escDP(md.sourceReference) + '</div></div>';
                 }
+                if (md.document) {
+                    html += '<div class="dp-field"><span class="dp-field-label">Document</span>' +
+                        '<div class="dp-field-value">' + escDP(md.document) + '</div></div>';
+                }
                 if (md.createdAt) {
                     html += '<div class="dp-field"><span class="dp-field-label">Created</span>' +
                         '<div class="dp-field-value">' + escDP(md.createdAt) + '</div></div>';

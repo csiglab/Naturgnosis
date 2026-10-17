@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T01:47:25Z",
+ "generated": "2026-10-17T18:26:36Z",
  "modules": {
   "social": {
    "nodes": 7543,
@@ -7,7 +7,7 @@
    "facets": 55
   },
   "research": {
-   "nodes": 2922,
+   "nodes": 3277,
    "edges": 14,
    "facets": 5
   },
