@@ -350,6 +350,20 @@
             margin-left: 0.5rem;
         }
         .hist-text { font-size: 0.85rem; line-height: 1.55; color: var(--text-secondary); }
+        .hist-links {
+            margin-top: 0.35rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem 0.8rem;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+        }
+        .hist-links a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        .hist-links a:hover { text-decoration: underline; }
+        .hist-links .sep { color: var(--text-muted); }
         @media (prefers-reduced-motion: reduce) {
             .hist-overlay, .hist-modal { transition: none; }
         }
@@ -670,6 +684,9 @@
             return p.split('/').map(encodeURIComponent).join('/');
         }
 
+        /* GitHub repo base for commit / before / after links (changelog.json). */
+        var NOTE_REPO = 'https://github.com/csiglab/Naturgnosis';
+
         /* ---------- per-file changelog history (changelog.json) ---------- */
 
         var histPromise = fetch('../data/changelog.json', { headers: { 'Accept': 'application/json' } })
@@ -677,13 +694,31 @@
             .then(function (d) { return Array.isArray(d) ? d : []; })
             .catch(function () { return []; });
 
+        function historyLinks(name, l) {
+            if (!l.commit) return '';
+            var path = 'app/note/data/' + encPath(name);
+            var links =
+                '<a href="' + NOTE_REPO + '/commit/' + encodeURIComponent(l.commit) +
+                '" target="_blank" rel="noopener">commit</a>';
+            if (l.before) {
+                links += '<span class="sep">|</span>' +
+                    '<a href="' + NOTE_REPO + '/blob/' + encodeURIComponent(l.before) + '/' + path +
+                    '" target="_blank" rel="noopener">before</a>';
+            }
+            links += '<span class="sep">|</span>' +
+                '<a href="' + NOTE_REPO + '/blob/' + encodeURIComponent(l.commit) + '/' + path +
+                '" target="_blank" rel="noopener">after</a>';
+            return '<div class="hist-links">' + links + '</div>';
+        }
+
         function openHistory(name, logs) {
             var body = document.getElementById('hist-body');
             document.getElementById('hist-title').textContent = name;
             var rows = logs.slice().reverse().map(function (l) {
                 return '<div class="hist-row"><div class="hist-meta">' + esc(l.date || '') +
                     (l.kind ? '<span class="k">' + esc(l.kind) + '</span>' : '') + '</div>' +
-                    '<div class="hist-text">' + esc(l.summary || '') + '</div></div>';
+                    '<div class="hist-text">' + esc(l.summary || '') + '</div>' +
+                    historyLinks(name, l) + '</div>';
             }).join('');
             body.innerHTML = rows;
             document.getElementById('hist-overlay').classList.add('open');

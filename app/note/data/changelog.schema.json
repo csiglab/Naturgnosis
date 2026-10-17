@@ -44,6 +44,16 @@
         "summary": {
           "type": "string",
           "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$",
+          "description": "Full sha of the commit that introduced the change; filled post-commit by bin/link_changelog_commits.py."
+        },
+        "before": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$",
+          "description": "Full sha of the parent commit — the 'state before'. Omitted when the note did not exist there. The 'state after' is the introducing commit itself."
         }
       },
       "required": [

@@ -80,3 +80,23 @@ Every change set touching `data/**/*.md` appends one log per touched
 note, in the same commit. Validate with `python -m json.tool
 app/note/data/changelog.json`. The changelog is a per-file narrative for
 agents and readers; git log remains the source of truth.
+
+### Commit links (post-commit)
+
+Each log may carry two optional fields, filled **after** the change-set
+commit (the introducing sha is unknowable when the entry is authored):
+
+- `commit` — full sha of the commit that introduced the change.
+- `before` — full sha of its parent (the "state before"). Omitted when the
+  note did not exist there. The "state after" is the introducing commit.
+
+Fill them with the helper, then commit the json-only annotation:
+
+```
+python bin/link_changelog_commits.py            # HEAD; --commit <sha>, --check
+```
+
+The viewer renders **commit** (`…/commit/<sha>`), **before**
+(`…/blob/<before>/app/note/data/<path>`), and **after**
+(`…/blob/<commit>/app/note/data/<path>`) links per entry. Going forward
+only — entries authored before this tool stay unlinked.

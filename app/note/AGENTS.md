@@ -61,6 +61,12 @@ curl /note/api/pins               # pinned paths
   already be reflected in `data/changelog.json` in the same commit:
   compare the staged file list against changelog `file_path` entries and
   append any missing logs before committing.
+- Commit links are filled **post-commit**: the introducing sha is unknowable
+  when the entry is authored. After the change-set commit, run
+  `python bin/link_changelog_commits.py` to stamp `commit` (and `before` when
+  the note existed at the parent) on the logs it introduced, then commit the
+  json-only annotation. Entries without these fields render plain; see
+  `spec/note/authoring.md`.
 - Note paths keyed by country use ISO 3166-1 alpha-3, lowercase
   (`social/actor/public/catalog/research/usa/…`, `social/actor/public/polity/grc/region/…`); never alpha-2
   or country names. Entities without an alpha-3 code (devolved nations,

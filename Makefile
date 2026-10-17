@@ -3,7 +3,7 @@ PYTHON ?= python3
 # see the production-view target below.
 MODULES := social research technique epistemica nature
 
-.PHONY: help build index notes-index polity-index polity-views qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view seed serve dev deploy-local deploy-server update-local clean
+.PHONY: help build index notes-index polity-index polity-views qa-index glossarium-index glossarium-add search-index universal-index landing-metrics production-view changelog-link seed serve dev deploy-local deploy-server update-local clean
 
 help:
 	@echo "build         regenerate notes + qa + glossarium + universal index + graph layouts (+ universal graph)"
@@ -18,6 +18,7 @@ help:
 	@echo "universal-index rebuild app/data/universal-graph.json + universal-layout.json (view-only Graphive)"
 	@echo "landing-metrics rebuild app/data/landing-metrics.json (per-module counts for the hub)"
 	@echo "production-view rebuild app/production/data/view.json (derived view over social)"
+	@echo "changelog-link stamp commit links on changelog logs introduced by HEAD"
 	@echo "seed          push app/*/data/data.json into CouchDB"
 	@echo "serve         run the sync server (needs CouchDB + .env)"
 	@echo "dev           run the sync server offline (--no-couch)"
@@ -66,6 +67,9 @@ landing-metrics: notes-index qa-index glossarium-index
 
 production-view:
 	$(PYTHON) bin/build_production_view.py
+
+changelog-link:
+	$(PYTHON) bin/link_changelog_commits.py
 
 seed:
 	$(PYTHON) bin/seed_couchdb.py
