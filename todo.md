@@ -1,12 +1,5 @@
 notes/epistemica/goods-nomenclature
 
-
-
-Tre Policy Index serves as a entry point toa  collection of pollities -  asmal catalog of a represntaive set of plgies in ordre ty deeply study collective agency, ...
-
-The Polity Index serves as an entry point to a collection of polities, enabling users to explore, navigate, and compare their institutional structures, social organization, and analytical representations. Each polity has its own dedicated space containing visual representations and explanatory notes, providing a foundation for systematic study across polities. Pick a flag to open that polity's page.
-
-
 Study 
 
 - Governance Model of  — Hong Kong Microelectronics Research and Development Institute (MRDI)
