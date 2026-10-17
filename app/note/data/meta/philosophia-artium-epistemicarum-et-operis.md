@@ -121,6 +121,7 @@ Epistemic Element (parent)
 | `Representational System (→ Part) Constitutive Substrate` | Identifies the rules and structures constituting a representational system. | Representation; Substrate |
 | `Epistemic Target (→ Has) Segment of Reality` | Identifies a bounded portion of reality selected as the domain of analysis. | Target; Segment |
 | `Epistemic Target (→ Has) Observable` | Identifies a feature of a target registrable under an observational regime. | Target; Observable |
+| `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is situated and interpreted. | Context; Conditions |
 
 ### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
 

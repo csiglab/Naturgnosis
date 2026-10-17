@@ -28350,15 +28350,39 @@
     "name": "Baruch Spinoza",
     "tags": [
       "actor",
-      "person"
+      "person",
+      "philosophy",
+      "metaphysics",
+      "political-philosophy"
     ],
     "layer": "Agentic",
     "category": "Person",
-    "description": "Baruch Spinoza",
-    "longDescription": "Baruch Spinoza",
+    "description": "Benedictus de Spinoza (Baruch Spinoza, 1632–1677), Dutch philosopher of the early Enlightenment; expelled from Amsterdam's Sephardic community in 1656; rationalist monism (substance, Deus sive Natura) and political philosophy; author of the Ethics and Tractatus Theologico-Politicus.",
+    "longDescription": "Benedictus de Spinoza (Baruch Spinoza, 1632–1677), Dutch philosopher of the early Enlightenment; expelled from Amsterdam's Sephardic community in 1656; rationalist monism (substance, Deus sive Natura) and political philosophy; author of the Ethics and Tractatus Theologico-Politicus.",
     "chronology": {
-      "summary": "Persona (Epistecnica import, type person)",
-      "events": []
+      "summary": "Persona (social decomposition, type person).",
+      "events": [
+        {
+          "year": 1632,
+          "event": "Born in Amsterdam.",
+          "context": "Into the city’s Portuguese-Jewish (Sephardic) community."
+        },
+        {
+          "year": 1656,
+          "event": "Expelled from the Amsterdam Sephardic community by herem.",
+          "context": "Cherem issued by the Talmud Torah congregation on 27 July 1656."
+        },
+        {
+          "year": 1670,
+          "event": "Publishes the Tractatus Theologico-Politicus anonymously.",
+          "context": "Defends freedom of thought and the separation of philosophy from theology."
+        },
+        {
+          "year": 1677,
+          "event": "Dies in The Hague; the Opera Posthuma appears.",
+          "context": "The Ethics, Political Treatise, and other works are published posthumously."
+        }
+      ]
     },
     "relationships": [],
     "specific": {
@@ -28368,10 +28392,10 @@
     },
     "metadata": {
       "confidenceScore": 0.6,
-      "sourceReference": "epistecnica personas baruch-spinoza.md",
-      "createdAt": "2026-09-24",
+      "sourceReference": "manual persona addition",
+      "createdAt": "2026-10-17",
       "auditTrail": [
-        "imported by bin/import_persona_actors.py"
+        "enriched with social decomposition note"
       ],
       "inheritanceLevel": 0
     },
