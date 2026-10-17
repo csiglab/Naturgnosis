@@ -300,7 +300,9 @@
       {
         "date": "2026-10-17",
         "kind": "feat",
-        "summary": "Added the `Epistemic Context (→ Has) Epistemic Condition` permitted link form so context instances can be decomposed."
+        "summary": "Added the `Epistemic Context (→ Has) Epistemic Condition` permitted link form so context instances can be decomposed.",
+        "commit": "08504236ccf930e115ef82aad42f10fa68fc3217",
+        "before": "49e430c581b09bdfdc6fde0d3147b9597ac516e3"
       }
     ]
   },
@@ -9767,7 +9769,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Added the Epistemic Practice section: a multi-root epistemic decomposition forest (11 trees) cross-linked to Works, per Philosophia Artium Epistemicarum et Operis; constructions typed as content artifacts (theories, models, explanations) rather than their documents."
+        "summary": "Added the Epistemic Practice section: a multi-root epistemic decomposition forest (11 trees) cross-linked to Works, per Philosophia Artium Epistemicarum et Operis; constructions typed as content artifacts (theories, models, explanations) rather than their documents.",
+        "commit": "08504236ccf930e115ef82aad42f10fa68fc3217",
+        "before": "49e430c581b09bdfdc6fde0d3147b9597ac516e3"
       }
     ]
   }
