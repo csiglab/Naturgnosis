@@ -435,6 +435,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
       }
     ]
   },
@@ -445,6 +450,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
       }
     ]
   },
@@ -2125,6 +2135,11 @@
         "date": "2026-10-14",
         "kind": "refactor",
         "summary": "Collapsed the Government Organization subtree to a stub row pointing at Public Organization; the decomposition now lives in one note."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
       }
     ]
   },
@@ -2555,6 +2570,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
       }
     ]
   },
@@ -2569,12 +2589,17 @@
     ]
   },
   {
-    "file_path": "social/coordinator/product/product.md",
+    "file_path": "social/coordinator/good/product.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
       }
     ]
   },
@@ -2735,6 +2760,11 @@
         "date": "2026-10-15",
         "kind": "fix",
         "summary": "Retargeted dead Notion Morality link (and fixed the Moralty label) to the imported local note at social/synontic/ideational/morality/morality.md."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Merged the moral-Good exposition from the Ideational subtree into this note; the duplicate social/synontic/ideational/morality/good.md was removed."
       }
     ]
   },
@@ -7635,6 +7665,11 @@
         "date": "2026-10-15",
         "kind": "feat",
         "summary": "Populated the Ideational hub as a social-philosophy note: typed the family under Synontic Element, added boundary table, category axes, and a catalog linking all ideational children."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Retargeted the Good catalog link to social/synontic/good.md after the moral-Good merge removed social/synontic/ideational/morality/good.md."
       }
     ]
   },
@@ -9790,6 +9825,36 @@
         "kind": "feat",
         "summary": "Decomposed John Wilkinson as a societal actor per the social guide; recorded his boring machine and its role as the enabling condition of Watt's steam engine.",
         "commit": "68b6b61e4725782273bc1ac747c54d48c7e35eb9"
+      }
+    ]
+  },
+  {
+    "file_path": "social/coordinator/good/good.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
+      }
+    ]
+  },
+  {
+    "file_path": "social/coordinator/good/object.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/activity/economic/commerce-economic-activity.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped links after the note reorg: the Product link to coordinator/good, and the two Goods Nomenclature links to the economic Good note (their former target epistemica/goods-nomenclature.md was removed)."
       }
     ]
   }

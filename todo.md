@@ -1,34 +1,3 @@
-I cannot let a steam engine analogy go by without bringing up John Wilkinson, perhaps the most underappreciated engineer of the Industrial Revolution.
-
-Watt had figured out how to dramatically improve the steam engine, but he spent years struggling to actually manufacture one. The problem was embarrassingly simple: nobody could make a sufficiently round cylinder.
-
-
-Steam Engine -> Comercialize Viable Steam Engine
-
-https://en.wikipedia.org/wiki/John_Wilkinson_(industrialist)
-
-The casting and machining tolerances were atrocious. Watt complained that one 18-inch cylinder was out of round by as much as THREE-EIGHTHS OF AN INCH. Steam leaked past the piston. He tried packing the gaps with cork, oiled rags, paper, and apparently even old hats. Nothing worked particularly well.
-
-Enter John Wilkinson, a British ironmaster whose immediate concern was manufacturing better cannons.
-
-At the time, iron cannons were commonly cast around a core, introducing defects and misalignment that could make the barrels inaccurate or dangerously weak. Wilkinson developed a process for boring cannons from solid castings, and in 1774 patented a vastly improved boring machine.
-
-The key innovation was almost comically mechanical: a massive, rigid boring bar, supported at both ends, that could cut a genuinely straight, circular hole instead of following the irregularities of the casting.
-
-He adapted this technology to Watt's cylinders. By 1776, Matthew Boulton was boasting that Wilkinson had bored a FIFTY-INCH cylinder accurate to within the thickness of an old shilling.
-
-Suddenly, the steam engine was a commercially viable machine.
-
-And the story gets better. Wilkinson became one of Watt's first customers, buying an engine to drive the blast machinery at his own ironworks. The steam engine was now helping manufacture the iron that made more steam engines possible.
-
-I find this whole episode absolutely extraordinary. The Industrial Revolution was, for a critical period, bottlenecked on the ability to make a sufficiently round hole.
-
-We remember Watt, and rightly so. We remember the invention of the steam engine and the subsequent development of thermodynamics. But the man who made the machinery that made the whole thing possible is practically a footnote.
-
-I think we consistently underestimate how much of scientific progress is actually downstream of advances in tooling, measurement, and manufacturing precision. It's not just that technology precedes theory. Sometimes the decisive breakthrough is that someone finally figures out how to build the thing the theorists have been talking about for twenty years.
-
-Anyway, I think John Wilkinson deserves considerably more credit for modern civilization than he gets.
-
 
 
 notes/epistemica/goods-nomenclature

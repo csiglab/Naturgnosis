@@ -78,7 +78,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 | Ethical / philosophical school | [Confucius System](note.html?n=social/synontic/ideational/confucius-system.md) | Moral cultivation, ritual propriety, and social harmony. |
 | Ethical / philosophical school | [Mencius System](note.html?n=social/synontic/ideational/mencius-system.md) | Confucian moral philosophy centered on human nature and benevolence. |
 | Ethical / philosophical school | [Humanism](note.html?n=social/synontic/ideational/humanity.md) | Human dignity and flourishing as the measure of value. |
-| Ethical / philosophical school | [Good](note.html?n=social/synontic/ideational/morality/good.md) | The evaluative target of moral and ideational judgment. |
+| Ethical / philosophical school | [Good](note.html?n=social/synontic/good.md) | The evaluative target of moral and ideational judgment. |
 | Civilizational worldview | [Civilization](note.html?n=social/synontic/ideational/civilization.md) | A complex, contested framing of collective historical order. |
 | Meta-concept | [Ideology](note.html?n=social/synontic/ideology.md) | The general structure of stabilized idea-and-value systems. |
 | Meta-concept | [Belief System](note.html?n=social/synontic/ideational/belief.md) | The structure maintaining and revising belief content. |
