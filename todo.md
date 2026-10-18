@@ -1,3 +1,6 @@
+Freedom
+
+-> See our world in us; with unger
 
 
 notes/epistemica/goods-nomenclature
@@ -2085,4 +2088,5 @@ https://conwaylife.com/wiki/Universal_computer
 
 https://www.nber.org/papers/w2654
 
-
+- https://forge.ndstudio.gov/?s=x  (Useful Organizational Form)
+- ...
