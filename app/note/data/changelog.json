@@ -45,7 +45,9 @@
       {
         "date": "2026-10-10",
         "kind": "docs",
-        "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
+        "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -439,7 +441,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -454,7 +458,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -2139,7 +2145,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -2574,7 +2582,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move."
+        "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -2599,7 +2609,8 @@
       {
         "date": "2026-10-17",
         "kind": "refactor",
-        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3"
       }
     ]
   },
@@ -2764,7 +2775,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Merged the moral-Good exposition from the Ideational subtree into this note; the duplicate social/synontic/ideational/morality/good.md was removed."
+        "summary": "Merged the moral-Good exposition from the Ideational subtree into this note; the duplicate social/synontic/ideational/morality/good.md was removed.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -7669,7 +7682,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Retargeted the Good catalog link to social/synontic/good.md after the moral-Good merge removed social/synontic/ideational/morality/good.md."
+        "summary": "Retargeted the Good catalog link to social/synontic/good.md after the moral-Good merge removed social/synontic/ideational/morality/good.md.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -7819,7 +7834,9 @@
       {
         "date": "2026-10-15",
         "kind": "feat",
-        "summary": "Imported Good exposition from the Notion export into the Ideational subtree; normalized links and removed Notion export artifacts."
+        "summary": "Imported Good exposition from the Notion export into the Ideational subtree; normalized links and removed Notion export artifacts.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   },
@@ -9834,7 +9851,8 @@
       {
         "date": "2026-10-17",
         "kind": "refactor",
-        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3"
       }
     ]
   },
@@ -9844,7 +9862,8 @@
       {
         "date": "2026-10-17",
         "kind": "refactor",
-        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change."
+        "summary": "Moved with the coordinator/product -> coordinator/good directory rename; no content change.",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3"
       }
     ]
   },
@@ -9854,7 +9873,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped links after the note reorg: the Product link to coordinator/good, and the two Goods Nomenclature links to the economic Good note (their former target epistemica/goods-nomenclature.md was removed)."
+        "summary": "Remapped links after the note reorg: the Product link to coordinator/good, and the two Goods Nomenclature links to the economic Good note (their former target epistemica/goods-nomenclature.md was removed).",
+        "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
+        "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
       }
     ]
   }
