@@ -411,7 +411,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -520,7 +522,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -535,7 +539,8 @@
       {
         "date": "2026-10-17",
         "kind": "refactor",
-        "summary": "Renamed from guidance/principle.md to Social Action Principle; the path and title now name the social-action reading of the general Principle concept."
+        "summary": "Renamed from guidance/principle.md to Social Action Principle; the path and title now name the social-action reading of the general Principle concept.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45"
       }
     ]
   },
@@ -555,7 +560,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -835,7 +842,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -1275,7 +1284,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -2982,7 +2993,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -3012,7 +3025,9 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
+        "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
       }
     ]
   },
@@ -9925,7 +9940,8 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Added the general exploration of principle: kinds (ontic/epistemic/technical/normative), the functional-character/scope/justificatory axes, and the distinction from law, rule, method, criterion, axiom, and heuristic."
+        "summary": "Added the general exploration of principle: kinds (ontic/epistemic/technical/normative), the functional-character/scope/justificatory axes, and the distinction from law, rule, method, criterion, axiom, and heuristic.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45"
       }
     ]
   },
@@ -9935,7 +9951,8 @@
       {
         "date": "2026-10-17",
         "kind": "docs",
-        "summary": "Added the Dialectic note proposing the neutral term antagonistic interaction, with dialectic as its loaded subset."
+        "summary": "Added the Dialectic note proposing the neutral term antagonistic interaction, with dialectic as its loaded subset.",
+        "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45"
       }
     ]
   }
