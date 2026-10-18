@@ -63,6 +63,6 @@ It is distinct from `Policy` (the course adopted by an authority within a strate
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Policy](note.html?n=social/action/public/guidance/policy.md) (the authorized course within a strategy)
-- [Principle](note.html?n=social/action/guidance/principle.md) (the standard a strategy is evaluated against)
+- [Social Action Principle](note.html?n=social/action/guidance/social-action-principle.md) (the standard a strategy is evaluated against)
 - [Grand Strategy](https://en.wikipedia.org/wiki/Grand_strategy)
 - [Studies in Grand Strategy](https://jackson.yale.edu/academics/grand-strategy-program/studies-in-grand-strategy/)

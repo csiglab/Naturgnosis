@@ -44,4 +44,4 @@ tags: [doctrine, guidance, cognitive, social-element]
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md) (the selection a doctrine judges)
-- [Principle](note.html?n=social/action/guidance/principle.md) (the standards a doctrine carries)
+- [Social Action Principle](note.html?n=social/action/guidance/social-action-principle.md) (the standards a doctrine carries)

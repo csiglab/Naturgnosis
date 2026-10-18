@@ -140,7 +140,7 @@ Instrumentalization occurs during both formulation and implementation:
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md)
 - [Rule](note.html?n=social/action/guidance/rule.md)
-- [Principle](note.html?n=social/action/guidance/principle.md)
+- [Social Action Principle](note.html?n=social/action/guidance/social-action-principle.md)
 - [Policy](https://en.wikipedia.org/wiki/Policy)
 - [Public Finance](https://en.wikipedia.org/wiki/Public_finance)
 - [Instrumentalization](note.html?n=social/action/public/instrumentation/instrumentorum-readme.md)

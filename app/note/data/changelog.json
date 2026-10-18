@@ -407,6 +407,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Fixed broken conceptuum reference link (double query marker)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -511,16 +516,26 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
   {
-    "file_path": "social/action/guidance/principle.md",
+    "file_path": "social/action/guidance/social-action-principle.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "refactor",
+        "summary": "Renamed from guidance/principle.md to Social Action Principle; the path and title now name the social-action reading of the general Principle concept."
       }
     ]
   },
@@ -536,6 +551,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -811,6 +831,11 @@
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Redid the instance tree in the guide's labeled-link convention ((→ Kind)/(→ Part)/(→ Component); no bare arrows)."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -1246,6 +1271,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Repointed informe/guidance/ reference(s) to informe/ after the guidance level removal."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -2948,6 +2978,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Folded the public working note guiding questions and grand-strategy references into the canonical Strategy note; Strategy affirmed as Action Guidance main type."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -2973,6 +3008,11 @@
         "date": "2026-10-14",
         "kind": "docs",
         "summary": "Repointed five informe/guidance/ links to informe/; added Strategic Planning Instrument rows and Soviet, South Korean, and Indian references."
+      },
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Remapped the Principle link to the renamed Social Action Principle note."
       }
     ]
   },
@@ -9876,6 +9916,26 @@
         "summary": "Remapped links after the note reorg: the Product link to coordinator/good, and the two Goods Nomenclature links to the economic Good note (their former target epistemica/goods-nomenclature.md was removed).",
         "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
         "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
+      }
+    ]
+  },
+  {
+    "file_path": "meta/principle.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Added the general exploration of principle: kinds (ontic/epistemic/technical/normative), the functional-character/scope/justificatory axes, and the distinction from law, rule, method, criterion, axiom, and heuristic."
+      }
+    ]
+  },
+  {
+    "file_path": "meta/dialectic.md",
+    "logs": [
+      {
+        "date": "2026-10-17",
+        "kind": "docs",
+        "summary": "Added the Dialectic note proposing the neutral term antagonistic interaction, with dialectic as its loaded subset."
       }
     ]
   }

@@ -2,15 +2,15 @@
 tags: [principle, guidance, normative, social-element]
 ---
 
-# Principle
+# Social Action Principle
 
-> **Principle** is the general rule or standard that guides and evaluates action — the guidance coordinator invoked to warrant a decision, constrain discretion, or judge a result, without prescribing the concrete steps that a `Rule` or `Plan` would fix.
+> **Social Action Principle** is the general rule or standard that guides and evaluates action — the guidance coordinator invoked to warrant a decision, constrain discretion, or judge a result, without prescribing the concrete steps that a `Rule` or `Plan` would fix. It is the social-action reading of [Principle](note.html?n=meta/principle.md), the general concept.
 
 ## Formulation
 
 ### What social element type does this social instance belong to?
 
-**Principle belongs to the `Principle` social element type (Action category, `Action Guidance` branch, Normative layer)** — a recognition-constituted standard that orients evaluation. It is distinct from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Doctrine` (an authoritative body of tenets), and from `Policy` (a course adopted by an authority).
+**Social Action Principle belongs to the `Principle` social element type (Action category, `Action Guidance` branch, Normative layer)** — a recognition-constituted standard that orients evaluation. It is distinct from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Doctrine` (an authoritative body of tenets), and from `Policy` (a course adopted by an authority).
 
 ### What is this social instance?
 
@@ -49,5 +49,6 @@ tags: [principle, guidance, normative, social-element]
 ## References
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
+- [Principle](note.html?n=meta/principle.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md) (the selection a principle evaluates)
 - [Rule](note.html?n=social/action/guidance/rule.md) (the constraint a principle warrants)

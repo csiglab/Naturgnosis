@@ -291,7 +291,7 @@ Case:
 - [Technical Activity](note.html?n=social/action/activity/research/technical/technical-activity.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md)
 - [Policy](note.html?n=social/action/public/guidance/policy.md)
-- [Principle](note.html?n=social/action/guidance/principle.md)
+- [Social Action Principle](note.html?n=social/action/guidance/social-action-principle.md)
 - [Rule](note.html?n=social/action/guidance/rule.md)
 - [Doctrine](note.html?n=social/action/guidance/doctrine.md)
 - [Plan](note.html?n=social/action/organization/plan.md)

@@ -54,7 +54,7 @@ The planning-framework kind is worked as an instance at [China Five-Year Plan](n
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Strategy](note.html?n=social/action/guidance/strategy.md)
-- [Principle](note.html?n=social/action/guidance/principle.md)
+- [Social Action Principle](note.html?n=social/action/guidance/social-action-principle.md)
 - [China Five-Year Plan](note.html?n=social/action/public/informe/framework/china-five-year-plan.md)
 - [Soviet Five-Year Plan](note.html?n=social/action/public/informe/framework/soviet-five-year-plan.md)
 - [South Korea Five-Year Plan](note.html?n=social/action/public/informe/framework/south-korea-five-year-plan.md)
