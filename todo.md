@@ -1,9 +1,3 @@
-Freedom
-
--> See our world in us; with unger
-
-
-notes/epistemica/goods-nomenclature
 
 Study 
 
@@ -729,7 +723,8 @@ Allow the link - as a cognitive aid.
     - [ ]  https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process
     - [ ]  https://en.wikipedia.org/wiki/Bauxite
     - [ ]  https://en.wikipedia.org/wiki/Aluminium_oxide→  Move the documetns in Epistenica  to Naturnogiss;   create a notes on them (Documentorum) → link to the nodes.  (if a boos is being analyzi  in Epistemica - it shoudl link to it ;  dont repeat the
-    - [ ]  https://en.wikipedia.org/wiki/Phosphorite
+    - [ ]  https://en.wikipedia.o
+    - ...rg/wiki/Phosphorite
     - [ ]  https://en.wikipedia.org/wiki/Fertilizer → and **Crop Productivity.**
     - [ ]  https://alloy.phys.cmu.edu/
     - [ ]  https://en.wikipedia.org/wiki/Welding
@@ -2090,3 +2085,19 @@ https://www.nber.org/papers/w2654
 
 - https://forge.ndstudio.gov/?s=x  (Useful Organizational Form)
 - ...
+
+
+
+
+(Add this to naturgnosis)
+https://www.quantbiolab.com/
+
+
+
+Freedom
+
+-> See our world in us; with unger
+
+
+notes/epistemica/goods-nomenclature
+
