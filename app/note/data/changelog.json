@@ -9980,7 +9980,8 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Added the Theoretical Framework Program note: the Public Shared Action Space as core element, main goals (explanation, collective action and meta-action, epistemic asymmetry), subgoals, and the naming questions."
+        "summary": "Added the Theoretical Framework Program note: the Public Shared Action Space as core element, main goals (explanation, collective action and meta-action, epistemic asymmetry), subgoals, and the naming questions.",
+        "commit": "49667e6bc8c4ff9dc8d11f77dbc902d722ee7bbd"
       }
     ]
   }
