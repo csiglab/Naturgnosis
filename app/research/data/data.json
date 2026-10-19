@@ -141875,5 +141875,142 @@
         "description": "Original document in Epistecnica."
       }
     ]
+  },
+  {
+    "id": "baumgarten-1750-aesthetica",
+    "name": "Baumgarten, A. G. (1750–1758). Aesthetica. Johann Christian Kleyb.",
+    "tags": [
+      "philosophy",
+      "aesthetics",
+      "monograph"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1750,
+          "event": "Published by Johann Christian Kleyb",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Alexander Gottlieb Baumgarten"
+      ],
+      "year": 1750,
+      "venue": "Johann Christian Kleyb",
+      "identifier": ""
+    },
+    "metadata": {
+      "source": "epistecnica-document-import",
+      "imported": "2026-10-18",
+      "sourceReference": "books/baumgarten-1750-aesthetica.md",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Baumgarten, A. G. (1750–1758). Aesthetica. Johann Christian Kleyb.",
+        "link": "/home/dbremont/Code/Epistecnica/src/document/app/documents/books/baumgarten-1750-aesthetica.md",
+        "description": "Original document in Epistecnica."
+      }
+    ]
+  },
+  {
+    "id": "deleuze-1983-nietzsche-philosophy",
+    "name": "Deleuze, G. (1983). Nietzsche and philosophy (H. Tomlinson, Trans.). Columbia University Press.",
+    "tags": [
+      "philosophy",
+      "monograph"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1983,
+          "event": "Published by Columbia University Press",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Gilles Deleuze"
+      ],
+      "year": 1983,
+      "venue": "Columbia University Press",
+      "identifier": ""
+    },
+    "metadata": {
+      "source": "epistecnica-document-import",
+      "imported": "2026-10-18",
+      "sourceReference": "books/deleuze-1983-nietzsche-philosophy.md",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Deleuze, G. (1983). Nietzsche and philosophy (H. Tomlinson, Trans.). Columbia University Press.",
+        "link": "/home/dbremont/Code/Epistecnica/src/document/app/documents/books/deleuze-1983-nietzsche-philosophy.md",
+        "description": "Original document in Epistecnica."
+      }
+    ]
+  },
+  {
+    "id": "korzybski-1933-science-and-sanity",
+    "name": "Korzybski, A. (1933). Science and sanity: An introduction to non-Aristotelian systems and general semantics. International Non-Aristotelian Library.",
+    "tags": [
+      "philosophy",
+      "epistemology",
+      "monograph"
+    ],
+    "layer": "Research",
+    "category": "Book",
+    "description": "",
+    "longDescription": "",
+    "chronology": {
+      "summary": "",
+      "events": [
+        {
+          "year": 1933,
+          "event": "Published by International Non-Aristotelian Library Publishing Company",
+          "context": ""
+        }
+      ]
+    },
+    "relationships": [],
+    "specific": {
+      "kind": "monograph",
+      "creators": [
+        "Alfred Korzybski"
+      ],
+      "year": 1933,
+      "venue": "International Non-Aristotelian Library Publishing Company",
+      "identifier": ""
+    },
+    "metadata": {
+      "source": "epistecnica-document-import",
+      "imported": "2026-10-18",
+      "sourceReference": "books/korzybski-1933-science-and-sanity.md",
+      "topics": []
+    },
+    "references": [
+      {
+        "title": "Korzybski, A. (1933). Science and sanity: An introduction to non-Aristotelian systems and general semantics. International Non-Aristotelian Library.",
+        "link": "/home/dbremont/Code/Epistecnica/src/document/app/documents/books/korzybski-1933-science-and-sanity.md",
+        "description": "Original document in Epistecnica."
+      }
+    ]
   }
 ]
