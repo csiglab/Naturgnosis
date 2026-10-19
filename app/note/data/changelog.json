@@ -7744,7 +7744,9 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Added Taoism to the catalog of ideational elements (ethical / philosophical school)."
+        "summary": "Added Taoism to the catalog of ideational elements (ethical / philosophical school).",
+        "commit": "a8be587a23ed882f2bb28db91f4012eb8c7189c6",
+        "before": "ccc63ea78cb266f8ea54b19c8e1bac24ff1bbe0e"
       }
     ]
   },
@@ -9967,7 +9969,8 @@
       {
         "date": "2026-10-18",
         "kind": "docs",
-        "summary": "Added the Taoism note: the Dao as ground, wu wei and ziran, a deconstructive reading, the Schopenhauer comparison, and the QA on the text's foundation (metaphysics + agency, individual social action guidance)."
+        "summary": "Added the Taoism note: the Dao as ground, wu wei and ziran, a deconstructive reading, the Schopenhauer comparison, and the QA on the text's foundation (metaphysics + agency, individual social action guidance).",
+        "commit": "a8be587a23ed882f2bb28db91f4012eb8c7189c6"
       }
     ]
   }
