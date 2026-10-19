@@ -9973,5 +9973,15 @@
         "commit": "a8be587a23ed882f2bb28db91f4012eb8c7189c6"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/framework/program.md",
+    "logs": [
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Added the Theoretical Framework Program note: the Public Shared Action Space as core element, main goals (explanation, collective action and meta-action, epistemic asymmetry), subgoals, and the naming questions."
+      }
+    ]
   }
 ]
