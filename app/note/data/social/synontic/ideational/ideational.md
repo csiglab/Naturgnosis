@@ -77,6 +77,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 | Ethical / philosophical school | [Nihilism](note.html?n=social/synontic/ideational/nihilism.md) | Rejection of meaning, value, and purpose. |
 | Ethical / philosophical school | [Confucius System](note.html?n=social/synontic/ideational/confucius-system.md) | Moral cultivation, ritual propriety, and social harmony. |
 | Ethical / philosophical school | [Mencius System](note.html?n=social/synontic/ideational/mencius-system.md) | Confucian moral philosophy centered on human nature and benevolence. |
+| Ethical / philosophical school | [Taoism](note.html?n=social/synontic/ideational/taoism.md) | Alignment with the Dao through wu wei and ziran. |
 | Ethical / philosophical school | [Humanism](note.html?n=social/synontic/ideational/humanity.md) | Human dignity and flourishing as the measure of value. |
 | Ethical / philosophical school | [Good](note.html?n=social/synontic/good.md) | The evaluative target of moral and ideational judgment. |
 | Civilizational worldview | [Civilization](note.html?n=social/synontic/ideational/civilization.md) | A complex, contested framing of collective historical order. |

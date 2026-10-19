@@ -7740,6 +7740,11 @@
         "summary": "Retargeted the Good catalog link to social/synontic/good.md after the moral-Good merge removed social/synontic/ideational/morality/good.md.",
         "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
         "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
+      },
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Added Taoism to the catalog of ideational elements (ethical / philosophical school)."
       }
     ]
   },
@@ -9953,6 +9958,16 @@
         "kind": "docs",
         "summary": "Added the Dialectic note proposing the neutral term antagonistic interaction, with dialectic as its loaded subset.",
         "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45"
+      }
+    ]
+  },
+  {
+    "file_path": "social/synontic/ideational/taoism.md",
+    "logs": [
+      {
+        "date": "2026-10-18",
+        "kind": "docs",
+        "summary": "Added the Taoism note: the Dao as ground, wu wei and ziran, a deconstructive reading, the Schopenhauer comparison, and the QA on the text's foundation (metaphysics + agency, individual social action guidance)."
       }
     ]
   }
