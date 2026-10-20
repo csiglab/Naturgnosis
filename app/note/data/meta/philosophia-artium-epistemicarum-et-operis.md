@@ -91,6 +91,7 @@ Epistemic Element (parent)
 | Permitted Link Form | Description | Tags |
 | --- | --- | --- |
 | `Epistemic Element (→ Kind) Aggregate` | Classifies an element as a structured collection of epistemic elements organized as a coherent epistemic whole. | Classification; Aggregate |
+| `Epistemic Element (→ Kind) Epistemic Element` | Classifies an epistemic element as a particular kind of epistemic element, establishing a taxonomic relationship between a general type and its more specific type. | Classification; Kind |
 | `Epistemic Element (→ Kind) Epistemic Orientation` | Classifies an element as the directing structure of inquiry: purpose, questions, goals, gaps, and roles. | Classification; Orientation |
 | `Epistemic Element (→ Kind) Epistemic Agency` | Classifies an entity or organized activity that performs epistemic operations. | Classification; Agency |
 | `Epistemic Element (→ Kind) Epistemic Access` | Classifies the means by which aspects of a target become registrable by an epistemic agent or system. | Classification; Access |
@@ -119,6 +120,7 @@ Epistemic Element (parent)
 | `Epistemic Representation (→ Has) Representational System` | Identifies a system of signs, symbols, structures, and rules within which representations can be formed and interpreted. | Representation; System |
 | `Representational System (→ Part) Representation Element` | Identifies a combinable constituent of a representational system. | Representation; Element |
 | `Representational System (→ Part) Constitutive Substrate` | Identifies the rules and structures constituting a representational system. | Representation; Substrate |
+|`Constitutive Substrate (→ Has) Property` | Identifies a property of the objects a representational system encodes: an attribute determined by the system's elements, carrying a value, and expressed through the representation. | Representation; Property|
 | `Epistemic Target (→ Has) Segment of Reality` | Identifies a bounded portion of reality selected as the domain of analysis. | Target; Segment |
 | `Epistemic Target (→ Has) Observable` | Identifies a feature of a target registrable under an observational regime. | Target; Observable |
 | `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is situated and interpreted. | Context; Conditions |
