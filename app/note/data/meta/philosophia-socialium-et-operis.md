@@ -271,7 +271,7 @@ Case:
 
 ### What is this social instance?
 ### What type of social element does this instance belong to?
-### Is the type of this `social element instance` unambiguous?
+### Is the type of this `social element instance` ambiguous?
 ### Which facet does this element belong to, if applicable?
 ### What is the recursive instance decomposition of <<social element>>?
 ### <<Optional - If Add Value>>  Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
