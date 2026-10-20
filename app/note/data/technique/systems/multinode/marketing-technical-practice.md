@@ -6,7 +6,7 @@
 
 ### What technical element type does this technical instance belong to?
 
-**Marketing Technical Practice belongs to the `Technical Element Set` technical element type — carrying its domain semantics as a nested composite.**
+**Marketing Technical Practice belongs to the `Technical Element Set` technical element type — containing a nested `Marketing Technical Domain Set` reading.**
 
 More specifically:
 
@@ -955,26 +955,10 @@ It is an Element Set because it is a coherent, bounded collection of heterogeneo
 | `Technical Element Set` → Marketing Technical Practice → Sender-Reputation Maintenance | Activity preserving sending-identity standing (warmup tending, complaint watching). |
 | `Technical Element Set` → Marketing Technical Practice → List Re-Engagement | Activity restoring lapsed contacts or pruning them (exemplar per deployment). |
 
-## Marketing Science
-
-> Marketing Science models market behavior — audiences, choice, and response — as a segment of reality; persuasion itself is not typed here as an epistemic practice.
-
-### What epistemic target does Marketing Science model?
-
-Market behavior as a reality segment: audiences, channels, messages, and choice outcomes, in the pattern of an epistemic domain such as `Human Social Network` — a portion of social reality that epistemic practice targets and models. The instrumental side (how demand is pursued by intervention) is the technical ensemble decomposed above.
-
-### What claims and models does Marketing Science make about it?
-
-Segmentation models (who responds to what), response and attribution models (which touchpoints drive outcomes, under assumptions like last-touch or multi-touch), and experimental claims (variant A outperforms holdout by a measured lift). Each claim carries its scope conditions: population, window, channel mix, and consent regime.
-
-### How is validity evaluated?
-
-Through experiments (A/B, holdouts, geo-splits), observational fit (model vs realized funnel), and replication limits (effects that hold in one season, segment, or channel may not transfer). A claim is accepted only with its boundary: what was measured, on whom, over which window, under which model.
-
 ## References
 
 - [Philosophia Artium Technicarum et Operis](note.html?n=meta/philosophia-artium-technicarum-et-operis.md)
-- [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Marketing Science](note.html?n=epistemica/marketing-science.md)
 - [M3AAWG Messaging Best Practices](https://www.m3aawg.org/)
 - [IAB Transparency & Consent Framework](https://iabtechlab.com/)
 - [RFC 7489 DMARC](https://www.rfc-editor.org/rfc/rfc7489.html)

@@ -9984,5 +9984,25 @@
         "commit": "49667e6bc8c4ff9dc8d11f77dbc902d722ee7bbd"
       }
     ]
+  },
+  {
+    "file_path": "epistemica/marketing-science.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Moved the Marketing Science note from Epistecnica into the epistemica corpus; references repointed to the Naturgnosis guide and the companion technique note."
+      }
+    ]
+  },
+  {
+    "file_path": "technique/systems/multinode/marketing-technical-practice.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Moved the inline Marketing Science section into the epistemica companion note, aligned the domain-set prose, and repointed the references."
+      }
+    ]
   }
 ]
