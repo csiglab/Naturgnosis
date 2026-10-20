@@ -123,6 +123,7 @@ Epistemic Element (parent)
 |`Constitutive Substrate (→ Has) Property` | Identifies a property of the objects a representational system encodes: an attribute determined by the system's elements, carrying a value, and expressed through the representation. | Representation; Property|
 | `Epistemic Target (→ Has) Segment of Reality` | Identifies a bounded portion of reality selected as the domain of analysis. | Target; Segment |
 | `Epistemic Target (→ Has) Observable` | Identifies a feature of a target registrable under an observational regime. | Target; Observable |
+| `Epistemic Target (→ Has) Target Element` | Constituent objects or units of the target that are subject to reckoning. |
 | `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is situated and interpreted. | Context; Conditions |
 
 ### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
@@ -291,15 +292,8 @@ Case:
 | `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Activity` → Calculating | Organized sequence of calculational acts toward exact reckoning. |
 | `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Activity` → Proving | Organized derivation of arithmetical propositions from stated axioms. |
 | `Aggregate` → Arithmetic → `Epistemic Target` | Grouping: targets of arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Target Domain` | Grouping: domains addressed. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Target Domain` → Discrete Quantity | Bounded domain: multitude countable exactly — flocks, tallies, ledger columns — and its exact determinations. |
 | `Aggregate` → Arithmetic → `Epistemic Target` → `Target Segment` | Grouping: segments under reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Target Segment` → Counted Collection | Delimited multitude selected for counting, e.g. a flock at shearing. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Observable` | Grouping: registrable features of the target. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Observable` → Tally | One registered unit of count — spoken, shown, or stroked — under the counting regime. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Epistemic Object` | Grouping: constituted objects of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Epistemic Object` → Sum Sought | The value constituted as the thing to be found: the product fifty-six as target before reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Access` | Grouping: access to the countable. |
+| `Aggregate` → Arithmetic → `Epistemic Target` → `Observable` | Observable properties or features of the target that can be registered for arithmetic purposes. |
 | `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Interface` | Grouping: interfaces coupling multitude to count. |
 | `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Interface` → Tally Stick | Notched stick coupling a flock to the reckoner's count, one notch per head. |
 | `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Encoding` | Grouping: encodings of the count. |
