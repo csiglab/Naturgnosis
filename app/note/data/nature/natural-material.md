@@ -90,7 +90,7 @@ technically, the formation naturally
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (parent: all observer-independent reality)
-- [Earth](note.html?n=nature/earth.md) (parent: the planet system)
+- [Earth](note.html?n=nature/conceptual-model-natural-system/earth.md) (parent: the planet system)
 - [Natural Biogenic](note.html?n=nature/biogenic-material.md) (child: all matter made by life)
 - [Natural Abiogenic](note.html?n=nature/earth-material.md) (child: all physical matter not made by life)
 - [Technical Material](note.html?n=technique/technical-material.md) (counterpart: all intentionally transformed matter)

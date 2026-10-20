@@ -14,7 +14,11 @@ note system (code only; none of its personal content).
 - `web/notes.css` — markdown typography (Oxford Common Room tokens).
 - `web/vendor/` — third-party `marked.min.js` (keeps upstream name).
 - `data/` — the corpus home: hand-edited markdown + live HTML (kebab-case),
-  with the generated `index.json` beside it.
+  with the generated `index.json` beside it. Top-level sections include
+  `nature/` (natural elements; the Modelo import is mirrored under
+  `nature/conceptual-model-natural-system/`), `human/`, `miscellanea/`,
+  `data-collection/`, plus the pre-existing `social/`, `technique/`,
+  `epistemica/`, `history/`, `general/`, and `meta/` sections.
 - `data/index.json` — **generated** by `bin/build_note_index.py`; committed
   but never hand-edited.
 - `data/backlinks.json` — **generated** by `bin/build_note_index.py`
@@ -44,6 +48,8 @@ curl /note/api/pins               # pinned paths
 ## Invariants
 
 - `data/` holds the hand-edited corpus; `data/index.json` is generated.
+- Do not create `app/note/import/`; third-party material is integrated as
+  normalized notes and assets under `data/`.
 - Schema-backed JSON in the corpus keeps its object key order identical to the
   corresponding schema's `properties` order; reorder the schema first, then
   conform the data (e.g. `data/social/state/action/atlas/atlas.json` follows

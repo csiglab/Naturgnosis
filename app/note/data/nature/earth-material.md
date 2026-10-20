@@ -5,10 +5,10 @@
 > than by use or price. (File name `earth-material.md` is kept stable so existing
 > `?n=nature/earth-material.md` links and node `noteRef`s keep resolving; the canonical human
 > term lives in this heading.) Parent instances [Nature](note.html?n=nature/nature.md),
-> [Earth](note.html?n=nature/earth.md), and
+> [Earth](note.html?n=nature/conceptual-model-natural-system/earth.md), and
 > [Natural Material](note.html?n=nature/natural-material.md); sibling
 > [Natural Biogenic](note.html?n=nature/biogenic-material.md); composed of
-> [Mineral](note.html?n=nature/mineral.md) kinds; exemplified by the worked
+> [Mineral](note.html?n=nature/conceptual-model-natural-system/mineral.md) kinds; exemplified by the worked
 > [Quarry](note.html?n=nature/quarry.md). Worked per
 > [How to decompose any natural instance?](note.html?n=meta/philosophia-naturalis-et-operis.md).
 
@@ -21,7 +21,7 @@ composition, texture, and phase behavior, recurring across crustal systems (stra
 basins, soils) — here archetyped by limestone at meso scale. Entered via the composition
 spine (`Natural Object -> Building Block -> Substance / Matter`): a **limestone bed** is the
 building-block occurrence, the earth material is the substance-kind it instantiates. Same
-name at micro scale (a thin section, a [Mineral](note.html?n=nature/mineral.md) grain) and
+name at micro scale (a thin section, a [Mineral](note.html?n=nature/conceptual-model-natural-system/mineral.md) grain) and
 macro scale (a formation) denotes distinct nodes — record the level per instance; minerals
 decompose as the child kind in `mineral.md`.
 
@@ -85,7 +85,7 @@ admixtures belong to [Natural Biogenic](note.html?n=nature/biogenic-material.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](note.html?n=nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](note.html?n=nature/natural-material.md) (parent: all untransformed matter)
-- [Earth](note.html?n=nature/earth.md) (parent: the planet system)
+- [Earth](note.html?n=nature/conceptual-model-natural-system/earth.md) (parent: the planet system)
 - [Natural Biogenic](note.html?n=nature/biogenic-material.md) (sibling: all matter made by life)
-- [Mineral](note.html?n=nature/mineral.md) (child: crystalline solid kinds composing aggregates)
+- [Mineral](note.html?n=nature/conceptual-model-natural-system/mineral.md) (child: crystalline solid kinds composing aggregates)
 - [Quarry](note.html?n=nature/quarry.md) (worked instance: excavated rock mass)

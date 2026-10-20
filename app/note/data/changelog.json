@@ -10004,5 +10004,6075 @@
         "summary": "Moved the inline Marketing Science section into the epistemica companion note, aligned the domain-set prose, and repointed the references."
       }
     ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/acid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/acid.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/acoustics-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/acoustics-phenomena.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/action-potential.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/action-potential.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/active-ingredient.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/active-ingredient.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/adaptation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/adaptation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/adiabatic.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/adiabatic.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/adipose-tissue.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/adipose-tissue.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/allergen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/allergen.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/alloy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/alloy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/amine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/amine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/animal-locomotion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/animal-locomotion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ant.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ant.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/antigen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/antigen.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/archaea.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/archaea.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/atmosphere.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/atmosphere.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/autopoiesis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/autopoiesis.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/bacteria.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/bacteria.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/base.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/base.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/bioenergy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/bioenergy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/biomaterial.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/biomaterial.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/biome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/biome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/biomolecule.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/biomolecule.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/biopolymer.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/biopolymer.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/black-body-radiation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/black-body-radiation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/black-body.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/black-body.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/body-object.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/body-object.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/boundary.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/boundary.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/brain.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/brain.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/californium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/californium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/carbohydrate.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/carbohydrate.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cardiovascular-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cardiovascular-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/catalysis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/catalysis.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cell.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cell.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cellulose.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cellulose.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/charge-carrier.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/charge-carrier.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-bond.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-bond.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-decomposition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-decomposition.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/actinium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/actinium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/aluminum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/aluminum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/americium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/americium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/antimony.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/antimony.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/argon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/argon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/arsenic.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/arsenic.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/astatine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/astatine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/barium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/barium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/berkelium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/berkelium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/beryllium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/beryllium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/bismuth.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/bismuth.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/bohrium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/bohrium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/boron.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/boron.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/bromine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/bromine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/cadmium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cadmium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/carbon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/carbon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/cerium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cerium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/cesium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cesium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/chlorine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chlorine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/chromium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chromium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/cobalt.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cobalt.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/copernicium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/copernicium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/copper.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/copper.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/curium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/curium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/darmstadtium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/darmstadtium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/dubnium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/dubnium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/dysprosium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/dysprosium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/einsteinium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/einsteinium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/erbium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/erbium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/europium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/europium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/fermium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fermium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/flerovium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/flerovium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/fluorine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fluorine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/francium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/francium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/gadolinium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gadolinium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/gallium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gallium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/germanium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/germanium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/gold.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gold.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/hafnium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hafnium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/hassium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hassium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/helium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/helium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/holmium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/holmium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/hydrogen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hydrogen.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/indium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/indium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/iodine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/iodine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/iridium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/iridium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/iron.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/iron.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/krypton.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/krypton.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/lanthanum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/lanthanum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/lawrencium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/lawrencium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/lead.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/lead.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/lithium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/lithium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/livermorium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/livermorium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/lutetium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/lutetium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/manganese.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/manganese.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/meitnerium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/meitnerium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/mendelevium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/mendelevium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/mercury.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/mercury.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/molybdenum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/molybdenum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/moscovium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/moscovium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/neodymium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/neodymium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/neon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/neon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/neptunium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/neptunium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/nickel.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/nickel.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/nihonium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/nihonium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/nobelium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/nobelium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/oganesson.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/oganesson.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/osmium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/osmium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/palladium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/palladium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/platinum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/platinum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/plutonium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/plutonium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/polonium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/polonium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/praseodymium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/praseodymium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/promethium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/promethium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/protactinium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/protactinium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/radium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/radium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/radon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/radon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/rhenium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rhenium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/rhodium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rhodium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/roentgenium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/roentgenium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/rubidium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rubidium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/ruthenium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ruthenium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/rutherfordium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rutherfordium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/samarium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/samarium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/scandium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/scandium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/seaborgium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/seaborgium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/selenium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/selenium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/silicon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/silicon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/silver.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/silver.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/sodium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/sodium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/strontium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/strontium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/tantalum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tantalum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/technetium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/technetium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/tellurium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tellurium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/tennessine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tennessine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/terbium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/terbium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/thallium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/thallium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/thorium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/thorium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/thulium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/thulium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/tin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tin.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/titanium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/titanium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/tungsten.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tungsten.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/untitled.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/untitled.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/uranium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/uranium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/vanadium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/vanadium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/xenon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/xenon.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/ytterbium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ytterbium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/yttrium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/yttrium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/zinc.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/zinc.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/zirconium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/zirconium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-formula.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-formula.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-processes.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-processes.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-property.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-property.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-representation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-representation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-solution.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-solution.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-substance.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-substance.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-synthesis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chemical-synthesis.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chromosome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/chromosome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/circulatory-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/circulatory-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/clotting.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/clotting.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/combustion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/combustion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/concentration.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/concentration.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/condensed-matter-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/condensed-matter-phenomena.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/converter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/converter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/corrosion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/corrosion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/coupling.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/coupling.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/critical-state.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/critical-state.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cyanide.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/cyanide.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/discrete.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/discrete.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/dna.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/dna.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/drug.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/drug.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/earth-crust.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/earth-crust.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/earth-water-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/earth-water-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/earth.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/earth.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electric-charge.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electric-charge.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electric-current.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electric-current.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electrical-conductor.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electrical-conductor.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electrochemistry.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electrochemistry.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electromagnet.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electromagnet.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electromagnetic-radiation-emr.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electromagnetic-radiation-emr.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electron-hole.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electron-hole.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electron.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/electron.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/emulsion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/emulsion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/endocrine-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/endocrine-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/energy-level.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/energy-level.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/energy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/energy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/entry.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/entry.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/epigenome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/epigenome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/extracellular-matrix.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/extracellular-matrix.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/extruder.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/extruder.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/feedback.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/feedback.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fine-chemicals.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fine-chemicals.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/first-passage-time.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/first-passage-time.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/floating.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/floating.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fluid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fluid.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/force.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/force.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fragility.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fragility.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/free-particle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/free-particle.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fundamental-molecular-interaction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fundamental-molecular-interaction.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fungi.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fungi.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fungus.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/fungus.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gas.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gas.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gene.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gene.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/genetic-material.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/genetic-material.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/genetic-recombination.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/genetic-recombination.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/genome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/genome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gland.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gland.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gravitational-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gravitational-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gravitational-wave.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gravitational-wave.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/graviton.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/graviton.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gravity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/gravity.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/heat.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/heat.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/hierarchy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hierarchy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/homophily.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/homophily.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/hormone.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hormone.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human-genome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/human-genome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human-memory.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/human-memory.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human-nervous-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/human-nervous-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human-vision-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/human-vision-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/hydrosphere.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/hydrosphere.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/incompressible-flow.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/incompressible-flow.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/industrial-enzyme.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/industrial-enzyme.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/inertia.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/inertia.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ingestor.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ingestor.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/interface.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/interface.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/isolated.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/isolated.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/isomorphism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/isomorphism.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/isotope.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/isotope.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/kinetic-energy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/kinetic-energy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/light.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/light.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/limulus-amebocyte-lysate.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/limulus-amebocyte-lysate.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/linear-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/linear-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/liquid-crystal-lc.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/liquid-crystal-lc.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/liquid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/liquid.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/living-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/living-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/magnetism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/magnetism.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/mass-transport.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/mass-transport.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/material-failure.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/material-failure.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/material.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/material.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/matter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/matter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/metabolism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/metabolism.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/metal.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/metal.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/microbiome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/microbiome.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/microbiota.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/microbiota.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/microencapsulation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/microencapsulation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/mineral.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/mineral.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/molecular-assembly.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/molecular-assembly.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/molecular-binding.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/molecular-binding.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/molecular-motor.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/molecular-motor.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/momentum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/momentum.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/morphogenesis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/morphogenesis.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/neuron.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/neuron.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/neurotransmitter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/neurotransmitter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/niobium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/niobium.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/nucleotide.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/nucleotide.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/nutrition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/nutrition.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/observer-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/observer-effect.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ocean-current.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ocean-current.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/optical-filter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/optical-filter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/optical-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/optical-phenomena.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/organ-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/organ-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/organ.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/organ.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/organic-matter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/organic-matter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/oxygen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/oxygen.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/parasitism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/parasitism.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/particle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/particle.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/pathogen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/pathogen.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/periodic.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/periodic.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ph.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/ph.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/phase-change-materials-pcms.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/phase-change-materials-pcms.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/photoelectric-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/photoelectric-effect.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/pollination.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/pollination.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/polymer.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/polymer.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/porosity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/porosity.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/potential-energy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/potential-energy.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/power-law.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/power-law.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/prion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/prion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/producer.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/producer.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/propulsion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/propulsion.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/protein.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/protein.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/protists.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/protists.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/pyrolysis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/pyrolysis.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/quantum-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/quantum-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/radiation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/radiation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/radio-wave.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/radio-wave.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/rainforest.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rainforest.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/reaction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/reaction.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/recombinant-dna.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/recombinant-dna.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/rock.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rock.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/rotation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/rotation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/scopolamine.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/scopolamine.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/semiconductor.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/semiconductor.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/separation-process-purification-isolation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/separation-process-purification-isolation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/signal-transduction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/signal-transduction.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/solar-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/solar-system.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/solid-state-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/solid-state-phenomena.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/spin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/spin.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/stability.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/stability.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/standard-model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/standard-model.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/steam.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/steam.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/steel.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/steel.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/superconductivity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/superconductivity.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/supporter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/supporter.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/suspension.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/suspension.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/time-dilation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/time-dilation.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/tissue.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tissue.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/toxin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/toxin.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/transient.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/transient.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/transport-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/transport-phenomena.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/tundra.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/tundra.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/unstable.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/unstable.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/virulence-factor.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/virulence-factor.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/virus.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/virus.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/viscous-liquid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/viscous-liquid.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/wave-particle-duality.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/wave-particle-duality.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/wave.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/wave.md."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/work.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Replaced with normalized Modelo export content and relocated from nature/work.md."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/asch-conformity-experiments.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/bell-test.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/boseeinstein-condensate.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/davissongermer-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/discovery-of-penicillin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/discovery-of-the-higgs-boson.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/double-slit-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/einsteinpodolskyrosen-paradox.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/franckhertz-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/laws-of-motion-and-universal-gravitation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/michelson-morley-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/observation-of-cells.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/piagets-conservation-task.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/quantum-eraser-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/quantum-teleportation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/quantum-zeno-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/rutherford-scattering-experiments.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/sterngerlach-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/telescopic-observations.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/the-bobo-doll-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/the-little-albert-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/the-marshmallow-test.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/natural-science-data-collection-experimentation/wheeler-s-delayed-choice-experiment.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/behavior.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/biobehavior.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/decision-maker.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/emotion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/herding-behavior.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/incentive-structure.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/incentive.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/mental-health.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/personal-behavioral-pathology.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/personality.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/behavioral/conceptual-model-behavioral/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/abstraction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/analogies.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/belief.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/categorization.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/abbreviation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/abductive-reasoning.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/abstraction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/act-r-adaptive-control-of-thought-rational.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/addiction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/attention.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/auditory-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/barnum-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/blooms-taxonomy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/bystander-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/castellano.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/categorization.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/central-nervous-system-cns.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/circle-of-competence.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/cognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/cognitive-architecture.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/cognitive-development.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/collective-cognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/concept.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/connectionism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/connectome.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/consciouses.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/distributed-cognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/dunning-kruger-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/english.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/familiarity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/flynn-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/frame.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/french.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/german.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/golem-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/grammar.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/grammatical-tense.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/greek.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/halo-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/hawthorne-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/hebrew.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/horn-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/human-language-origin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/idea.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/information-search.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/intelligence.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/intelligibility.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/interleaved-practice.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/iq.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/kolb-s-experiential-learning-cycle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/language-acquisition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/language.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/latin.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/learning.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/lexicology.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/linguistics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/meaning.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/mental-image.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/mental-model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/mere-exposure-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/metacognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/mind-body-dualism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/mind.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/morphology.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/motivation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/motor-control.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/name.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/neuroplasticity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/nocebo-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/numerical-cognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/object.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/perception.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/phonetics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/phonology.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/polish.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/practice.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/pragmatics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/priming.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/pygmalion-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/reasoning.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/reference.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/representation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/rosenthal-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/skill.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/sleep.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/soar-state-operator-and-result.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/social-cognition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/space-repetition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/stimulus.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/swedish.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/symbol.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/syntax.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/theory-of-mind.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/thinking.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/topic.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/visual-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/conceptual-model-cognition/zeigarnik-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/heuristics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/intuition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/mental-imagery.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/metaphors.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/narratives.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/notation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/reference-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/schemas.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/serendipity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/syllogisms.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "human/cognitive/thinking.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/2008-global-financial-crisis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/a-case-study-of-a-dissipative-system-damped-pendul.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/analyzing-the-impact-of-work-content-on-stress-and.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/arab-spring.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/brexit-referendum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/chernobyl-reactor-explosion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/collapse-of-the-soviet-union.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/concrete-strength.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/einstein-field-equations.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/fukushima-nuclear-disaster.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/how-to-model-and-simulate-acoustic-phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/how-to-simulate-a-gas-explosion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/how-to-simulate-an-antenna.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/how-to-simulate-and-model-electromagnetic-phenomen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/how-to-simulate-the-diffusion-of-particles-using-t.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/hydrogen-qm-model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/modeling-the-effects-of-skill-and-luck-on-outcomes.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/nlf-modelling.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/physical-ontology-map.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/price-dynamics-analysis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/repressilator.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/residential-land-market-model.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/rise-of-industrial-japan.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/social-idea-space-evolution.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/space-model-for-physical-systems.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/stroop-effect.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/student-dropout.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/user-system-interaction-event-stream.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/user-system-interaction-log-stream.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea/what-is-the-used-of-a-keyboard-strokes-dataset.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/action-at-a-distance.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/action.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/anthropic-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/atom.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cell-signaling.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/calcium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/californium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/magnesium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/niobium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/nitrogen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/oxygen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/phosphorus.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/potassium.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-element/chemical-element-database/sulfur.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-substance/base.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/chemical-substance/chemical-compound.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cloning.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/composite.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/constitutive-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/cooperation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/death.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/diffusion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electrical-circuit.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electromagnetic-field-em.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electromagnetic-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electron-configuration.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/electrophoresis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/energy-force.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/enzyme.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/equivalence-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/evolution.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/field.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/frequency-periodicity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/fundamental-interaction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/galilean-relativity-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gamma-function.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/gauge-symmetry.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/heisenberg-uncertainty-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/heredity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/higgs-mechanism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human-auditory-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/human.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/hydraulics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/interaction.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/interferometry.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ion-channel.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/ionophore.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/kinematics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/kinetics.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/leptospira.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/lipid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/mass.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/material-structure.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/metabolite.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/microorganism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/microscopy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/mixture.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/molecule.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/motion.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/motor-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/multicellular-organism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/muscle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/nitrogen.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/nucleic-acid.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/nutrient.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/organism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/pathogenesis.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/pauli-exclusion-principle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/peptide.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/perturbation-testing.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/phenomena.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/photon.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/physical-change.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/physical-property.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/plant.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/principle-of-relativity.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/principle-of-superposition.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/process.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/property.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/quantization.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/quantum-entanglement.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/quasiparticle.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/receptive-fields.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/regulation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/replication.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/respiratory-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/rna-sequencing.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/rna.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/schrodinger-equation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/self-preservation.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/soil.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/spectroscopy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/static-fluid-system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/stem-cell.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/stigmergy.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/symmetry.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/system.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/temperature.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/time.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/transformation-of-matter.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/turbulence.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/unicellular-organism.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/universe.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/vacuum.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/vortex.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/wave-function.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/conceptual-model-natural-system/weight.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "feat",
+        "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy."
+      }
+    ]
+  },
+  {
+    "file_path": "data-collection/data-collection.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Merged Modelo/Notion export root content from Modelo/Data Collection 1bac0f5171ec80c281a6fe2c60cbfc58.md under Source (Notion export)."
+      }
+    ]
+  },
+  {
+    "file_path": "human/human.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Merged Modelo/Notion export root content from Modelo/Human 24cc0f5171ec8037924cc34bde27159a.md under Source (Notion export)."
+      }
+    ]
+  },
+  {
+    "file_path": "miscellanea/miscellanea.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Merged Modelo/Notion export root content from Modelo/Miscellanea 1b1c0f5171ec80c7b7faceb8cd2e4021.md under Source (Notion export)."
+      }
+    ]
+  },
+  {
+    "file_path": "modelo.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Merged Modelo/Notion export root content from Modelo 336ac85433564cbc96a824a1ef4bbfb3.md under Source (Notion export)."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/nature.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "docs",
+        "summary": "Merged Modelo/Notion export root content from Modelo/Nature 554701ca10264f4091f1e9e8fd7aec04.md under Source (Notion export)."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/biogenic-material.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Updated migrated Nature links to the mirrored conceptual-model paths."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/earth-material.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Updated migrated Nature links to the mirrored conceptual-model paths."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/natural-material.md",
+    "logs": [
+      {
+        "date": "2026-10-20",
+        "kind": "refactor",
+        "summary": "Updated migrated Nature links to the mirrored conceptual-model paths."
+      }
+    ]
   }
 ]
