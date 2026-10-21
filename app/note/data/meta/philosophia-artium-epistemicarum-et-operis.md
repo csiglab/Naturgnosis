@@ -383,7 +383,7 @@ Case:
 
 ### What is this epistemic instance?
 ### What epistemic element type does this epistemic instance belong to?
-### Is the type of this `epistemic element instance` unambiguous?
+### Is the type of this `epistemic element instance` ambiguous?
 ### What is the recursive instance decomposition of this epistemic instance?
 ### What Is a critical conceptual evaluation of this `epistemic element instance`?
 
