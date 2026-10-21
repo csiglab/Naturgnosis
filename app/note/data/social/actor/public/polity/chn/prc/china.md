@@ -113,6 +113,26 @@ It is about:
 
 > ...
 
+## Origins of the Yiwu Market
+
+The reform-era origin thread: the founding of Yiwu's small-commodities
+market and the Xiaogang decollectivization story — in the popular account
+the death-penalty threat to the Xiaogang villagers is exaggerated, but the
+risk was real.
+
+- [Xie Gaohua: Founding father of world's largest small commodities market](http://www.china.org.cn/china/2018-05/09/content_51178703.htm)
+- [Xiaogang, Anhui](https://en.wikipedia.org/wiki/Xiaogang,_Anhui)
+  - Mead (2000), China Economic Review — [China's agricultural reforms: The importance of private plots](https://www.sciencedirect.com/science/article/abs/pii/S1043951X99000152)
+  - Rothschild (2025), The China Quarterly — [State Repression and Selective Expression: Communal Canteens and the "Collective" Memory of China's Great Leap Famine](https://www.cambridge.org/core/journals/china-quarterly/article/state-repression-and-selective-expression-communal-canteens-and-the-collective-memory-of-chinas-great-leap-famine/C002C5B0FEAF60CF1EAD87211D6070CE)
+  - Dikötter (2016), The China Quarterly — [The Silent Revolution: Decollectivization from Below during the Cultural Revolution](https://www.cambridge.org/core/journals/china-quarterly/article/silent-revolution-decollectivization-from-below-during-the-cultural-revolution/CCD3EE7D2A6238468DA57F301CA0BB68)
+  - Giorcelli & Li (2026), Review of Economic Studies — [Technology Transfer and Early Industrial Development: Evidence from the Sino-Soviet Alliance](https://academic.oup.com/restud/advance-article/doi/10.1093/restud/rdag047/8688845)
+  - Yang (2026), Journal of Comparative Economics — [Legacy of Soviet-aided industrialization in China: A quasi-experiment](https://www.sciencedirect.com/science/article/abs/pii/S0147596726000673)
+  - Erickson (2014), Acta Astronautica — [China's space development history: A comparison of the rocket and satellite sectors](https://www.sciencedirect.com/science/article/abs/pii/S0094576514002227)
+  - Tuan, Ng & Zhao (2009), Journal of Asian Economics — [China's post-economic reform growth: The role of FDI and productivity progress](https://www.sciencedirect.com/science/article/abs/pii/S1049007809000128)
+  - Tuan & Ng (1995), Journal of Asian Economics — [Hong Kong's outward investment and regional economic integration with Guangdong](https://www.sciencedirect.com/science/article/abs/pii/1049007895900063)
+- Zhou, Yan & Sun (2022), Research Policy — [Climbing the Ladder: Inward Sourcing as an Upgrading Capability in Global Value Chains](https://doi.org/10.1016/j.respol.2021.104439)
+- …
+
 ## References
 
 - https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private
