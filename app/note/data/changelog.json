@@ -336,7 +336,9 @@
       {
         "date": "2026-10-23",
         "kind": "docs",
-        "summary": "Fixed the references (dead note and lab links, bare concepts, orphan quote) and enriched the guide with a terminology table, a technical-circuit legend, a formal Production Support branch, six QA distinctions, and a selected bibliography."
+        "summary": "Fixed the references (dead note and lab links, bare concepts, orphan quote) and enriched the guide with a terminology table, a technical-circuit legend, a formal Production Support branch, six QA distinctions, and a selected bibliography.",
+        "commit": "d877636a387717f51bf71ca3f86e0ff37543ecc8",
+        "before": "0ef4f9706adbac538db7eda81dcef10229f5742c"
       }
     ]
   },
