@@ -327,6 +327,16 @@
         "summary": "Added the QA question on whether the genesis of a technical element is its whole story, distinguishing genesis from its enabling conditions under the existing types.",
         "commit": "68b6b61e4725782273bc1ac747c54d48c7e35eb9",
         "before": "df03a4a76707f1fdf26f554022ebe9280d5994ff"
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Adopted the epistemicarum document structure: front matter tags, decomposition-tree wrapper with fundamental structure and permitted-link reference, tags section, expanded decomposition rules, QA reordering, and the aligned note schema. Replaced the four-column technical type table with a three-column permitted-link table and reduced the instance table to two columns."
+      },
+      {
+        "date": "2026-10-23",
+        "kind": "docs",
+        "summary": "Fixed the references (dead note and lab links, bare concepts, orphan quote) and enriched the guide with a terminology table, a technical-circuit legend, a formal Production Support branch, six QA distinctions, and a selected bibliography."
       }
     ]
   },
