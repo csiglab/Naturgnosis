@@ -64,7 +64,7 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 | Organization `(→ Part)` Organizational Unit | Grouping: structured subunits scoping departments within the organization. |
 | Organization `(→ Part)` Organizational Unit `(→ Part)` Operating Department | Structured subunit carrying out a durable function under internal rules. |
 | Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
-| Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution. |
+| Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution; worked at [Board](note.html?n=social/actor/board.md). |
 | Organization `(→ Part)` Institution | Grouping: stabilized configurations of roles and rules hosted by the organization. |
 | Organization `(→ Part)` Institution `(→ Component)` Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
 | Organization `(→ Part)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role | Grouping: expectation-tags binding members to conduct. |
@@ -87,6 +87,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Actor](note.html?n=social/actor/actor.md) (root hub: the actor typology this entry belongs to)
 - [Public Organization](note.html?n=social/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
+- [Board](note.html?n=social/actor/board.md) (the governing-body agency: kinds, anatomy, and terminology)
 - [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
 - [Social Group](note.html?n=social/actor/private/group/group.md) (interacting aggregate — not an organization)
 - [Political Party](note.html?n=social/actor/political-party.md) (political subtype of Organization)

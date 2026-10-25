@@ -44,7 +44,7 @@ It is the government subtype of Organization: what individuates it is not its in
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services — the wielding body of a [Municipal Government](note.html?n=social/actor/public/municipal-government.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
-| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution; worked at [Board](note.html?n=social/actor/board.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution | Grouping: stabilized configurations of roles and rules hosted by the organization. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role | Grouping: expectation-tags binding members to conduct. |
@@ -79,6 +79,8 @@ It is the government subtype of Organization: what individuates it is not its in
 > Along the five dimensions above: the **Autonomous Statutory Public Agency** draws autonomy from its own statute and legal personality; the **(Japan) Incorporated Administrative Agency** trades incorporation for bounded autonomy inside minister-set objectives; the **UK Executive Agency** trades a framework document for operational autonomy without separate legal personality; the **Swedish Government Agency** is constitutionally insulated from individual ministerial command while remaining under collective government direction; the **Crown Corporation** sits at the commercial pole — Crown-owned, board-governed, revenue-funded — bordering the Private Organization reading.
 
 ### What types of board composition structures exist?
+
+> The board element itself — its kinds, anatomy, and terminology — is documented at [Board](note.html?n=social/actor/board.md). This section keeps the public-organization-specific composition types.
 
 | **Board Composition Type** | **Defining Composition Principle** | **What Types of Organizations Is It Best Suited For?** |
 |---|---|---|
@@ -197,6 +199,7 @@ It is the government subtype of Organization: what individuates it is not its in
 - [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Organization](note.html?n=social/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
+- [Board](note.html?n=social/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
 - [Firm](note.html?n=social/actor/firm.md) (economic subtype of Organization)
 - [Political Party](note.html?n=social/actor/political-party.md) (political subtype of Organization)
 - [Municipal Government](note.html?n=social/actor/public/municipal-government.md) (the governing collective whose wielding body is the Municipal Organization kind)

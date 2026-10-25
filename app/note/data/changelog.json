@@ -770,6 +770,11 @@
         "date": "2026-10-16",
         "kind": "fix",
         "summary": "Fixed the China link to the correct chn/prc/china.md path."
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Linked the Public Organization Board kind to the new Board element note."
       }
     ]
   },
@@ -2201,6 +2206,11 @@
         "summary": "Remapped the Product link after the coordinator/product -> coordinator/good move.",
         "commit": "5df814512ef0a5a2bcb599cbea1222cc42c535e3",
         "before": "f2c976923dcd269da00972d8f3ffd75c897975b8"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Linked the Governing Board row and references to the new Board element note."
       }
     ]
   },
@@ -2336,6 +2346,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Corrected workbench org count to seventeen."
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Linked the Governing Board row and board-composition section to the new Board element note."
       }
     ]
   },
@@ -16705,6 +16720,16 @@
         "date": "2026-10-25",
         "kind": "feat",
         "summary": "Add the connectome as an epistemic construction note about a natural target, filed under nature, linked to the epistemica section and to the Sporns 2011 research node."
+      }
+    ]
+  },
+  {
+    "file_path": "social/actor/board.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Add the Board element note: governing-body agency, board kinds and anatomy, Spanish terminology equivalents, and the advisory and statutory-board boundary cases."
       }
     ]
   }
