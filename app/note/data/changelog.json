@@ -10015,6 +10015,11 @@
         "kind": "docs",
         "summary": "Added the Theoretical Framework Program note: the Public Shared Action Space as core element, main goals (explanation, collective action and meta-action, epistemic asymmetry), subgoals, and the naming questions.",
         "commit": "49667e6bc8c4ff9dc8d11f77dbc902d722ee7bbd"
+      },
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Added Main Elements: cooperation as joint agency, and individual agency."
       }
     ]
   },
@@ -16737,6 +16742,26 @@
         "kind": "feat",
         "summary": "Add the Board element note: governing-body agency, board kinds and anatomy, Spanish terminology equivalents, and the advisory and statutory-board boundary cases.",
         "commit": "dd22748266b3c96bd05ba8a27d1098a21dc0e7c2"
+      }
+    ]
+  },
+  {
+    "file_path": "meta/material.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "docs",
+        "summary": "Added a stub note on extracting content from reading material as an organization of epistemic, technical, and normative elements."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/further-reading.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "chore",
+        "summary": "Removed the placeholder nature note; its decomposition was never worked."
       }
     ]
   }

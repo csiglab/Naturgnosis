@@ -4,6 +4,11 @@
 
 > The Goal is the develop a set of theories (expalanation, technical, normative) etc -- about -- the Public Shared Action Space of Free Actors -- Specialy Polity.
 
+Main Elements:
+
+- Cooperation  (Joint Agency)
+- Individual Agency
+
 ## Core Element
 
 **Public Shared Action Space** (*Public Shared Action Substrate*)
