@@ -26,9 +26,13 @@ note system (code only; none of its personal content).
   `note.html?n=` body links); committed but never hand-edited. Powers the
   cited-by chip in `web/note.html`.
 - `data/links.json` — the single hand-maintained support-links registry
-  (`{from, to, label, kind}` directed pairs; endpoints are note paths or
-  `dir/` scopes). The builder validates and embeds it into `index.json`;
-  rebuild/commit the index after editing links.
+  (`{from, to, label, kind}` directed pairs; endpoints are note paths,
+  `dir/` scopes, or `{EPISTENICA}/...` external targets with
+  `kind: "external"`). External cards show the resolved route on hover and
+  resolve the base from `EPISTENICA_URL` via `GET /note/api/config`; unset
+  means disabled. The builder validates
+  and embeds it into `index.json`; rebuild/commit the index after editing
+  links.
 - `data/pins.json` is the committed local mirror of the CouchDB `pins` doc
   (server-written; never hand-edit). Until the server writes it directly,
   keep it in sync via the `/tmp` pins script; rebuild/commit it after any

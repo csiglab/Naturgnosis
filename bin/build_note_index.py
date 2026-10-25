@@ -21,8 +21,10 @@ parity: NFKD to ASCII, lowercase, runs of non-alphanumerics to `-`).
 
 Support links (navigation/cognition aids) live in the single registry
 app/note/data/links.json — directed {from, to, label, kind} pairs whose
-endpoints are note paths or dir/ scopes. The builder validates and embeds
-them as a top-level "links" array in index.json (see load_links()).
+endpoints are note paths, dir/ scopes, or external {EPISTENICA}/... targets
+(kind "external", resolved in the browser from EPISTENICA_URL via
+/note/api/config). The builder validates and embeds them as a top-level
+"links" array in index.json (see load_links()).
 
 Backlinks (citation counts) are derived, not declared: the builder scans
 every indexed body for inline `note.html?n=<path>` links (code spans and
@@ -59,6 +61,9 @@ HTML_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTA
 HTML_H_RE = re.compile(r"<h([1-6])[^>]*>(.*?)</h\1>", re.IGNORECASE | re.DOTALL)
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 NOTE_LINK_RE = re.compile(r"note\.html\?n=([A-Za-z0-9_.\-/]+?)(?=[)#\"'\s>]|$)")
+EXTERNAL_PREFIX = "{EPISTENICA}/"
+EXTERNAL_KIND = "external"
+EXTERNAL_MAX_LEN = 400
 
 
 # æ/ø/œ/ß have no NFKD decomposition (they would vanish); transliterate first.
@@ -256,14 +261,38 @@ def build_backlinks(notes: list, index_paths: set, warnings: list) -> dict:
     }
 
 
+def valid_external_target(to: str) -> bool:
+    """True if `to` is a safe `{EPISTENICA}/...` external target.
+
+    The placeholder is kept in index.json and resolved in the browser from
+    EPISTENICA_URL. Reject anything that could escape the configured base
+    (absolute paths, traversal, schemes) or break the href (whitespace,
+    control characters, backslashes).
+    """
+    if not to.startswith(EXTERNAL_PREFIX) or len(to) > EXTERNAL_MAX_LEN:
+        return False
+    suffix = to[len(EXTERNAL_PREFIX):]
+    if not suffix or any(ch.isspace() or ord(ch) < 0x20 or ord(ch) == 0x7F for ch in suffix):
+        return False
+    if "\\" in suffix or any(ch in suffix for ch in "\"'<>"):
+        return False
+    path = suffix.split("?", 1)[0].split("#", 1)[0].rstrip("/")
+    if path.startswith("/") or "//" in path:
+        return False
+    if path and any(seg in ("", ".", "..") for seg in path.split("/")):
+        return False
+    return True
+
+
 def load_links(index_paths: set, warnings: list) -> list:
     """Read the links registry and return embedded {from, to, label, kind} pairs.
 
     The registry is the single fixed file data/links.json (a special file: never
     a note, never naming-validated). Each entry declares a directed support link;
-    `from` is a directory node, `to` is a directory or a note. A dir `from` stays
-    a directory node (embedded as {from: "<dir>/", ...}) — it is not expanded onto
-    its descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
+    `from` is a directory node, `to` is a directory, a note, or an external
+    {EPISTENICA}/... target (kind "external"). A dir `from` stays a directory
+    node (embedded as {from: "<dir>/", ...}) — it is not expanded onto its
+    descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
     dropped, never failing the build.
     """
     if not LINKS.is_file():
@@ -293,7 +322,18 @@ def load_links(index_paths: set, warnings: list) -> list:
         else:
             warnings.append(f"links.json (unknown note: {frm})")
             continue
-        if to.endswith("/"):
+        if kind == EXTERNAL_KIND or to.startswith(EXTERNAL_PREFIX):
+            if kind != EXTERNAL_KIND:
+                warnings.append(f"links.json (external target needs kind 'external': {to})")
+                continue
+            if not label:
+                warnings.append(f"links.json (external target needs a label: {to})")
+                continue
+            if not valid_external_target(to):
+                warnings.append(f"links.json (invalid external target: {to})")
+                continue
+            targets = [to]
+        elif to.endswith("/"):
             if not (NOTES / to).is_dir():
                 warnings.append(f"links.json (unknown dir: {to})")
                 continue

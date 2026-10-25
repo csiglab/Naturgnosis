@@ -32,6 +32,7 @@ Set in a repo-root `.env` (never committed; see `.env.example`):
 | `COUCHDB_USER` / `COUCHDB_PASSWORD` | — | CouchDB auth (required) |
 | `NATURGNOSIS_PORT` | `8011` | public port of the app (host networking) |
 | `PORT` | `8000` | container-internal port (set from `NATURGNOSIS_PORT` by compose) |
+| `EPISTENICA_URL` | `http://localhost:8000` | `sync.py` — base for `{EPISTENICA}/...` external note links (served by `GET /note/api/config`) |
 
 ## Ports
 

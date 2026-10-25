@@ -34,11 +34,17 @@ is a file type, not a section; see `authoring.md` for the authoring rules.
   The notes index also feeds the hub universal search
   (`bin/build_search_index.py` → `app/data/search-index.json`).
 - **Support links:** `app/note/data/links.json` — the single hand-maintained registry
-  of directed navigation links (`{from, to, label, kind}`; endpoints are note paths or
-  `dir/` scopes). The builder validates every endpoint against the corpus (warn + drop
-  dangling, never fail) and embeds the pairs as `index.json:links`; the catalog renders
-  them as `→ label` chips on file cards (note targets open the viewer, dir targets open
-  the `?view=browse&dir=` listing). Rebuild and commit the index after editing links.
+  of directed navigation links (`{from, to, label, kind}`; endpoints are note paths,
+  `dir/` scopes, or `{EPISTENICA}/...` external targets with `kind: "external"`). The
+  builder validates every local endpoint against the corpus (warn + drop dangling, never
+  fail), validates external targets for a safe path/query under the configured base, and
+  embeds the pairs as `index.json:links`; the catalog renders local targets as `→ label`
+  chips on file cards (note targets open the viewer, dir targets open the
+  `?view=browse&dir=` listing). External targets render as linked cards with an out mark;
+  the resolved route is shown on hover and they open in a new tab. External cards resolve
+  the placeholder from `EPISTENICA_URL` through `GET /note/api/config` at render time;
+  when the base is unset they render disabled. Rebuild and commit the index after editing
+  links.
 - **Backlinks:** `app/note/data/backlinks.json` — derived, not declared. The
   builder scans every indexed body for inline `note.html?n=<path>` links
   (code spans and fenced blocks excluded, self-links excluded, one vote per

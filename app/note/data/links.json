@@ -41,6 +41,12 @@
       "to": "social/action/public/informe/",
       "label": "Public Action Informe",
       "kind": "hierarchy"
+    },
+    {
+      "from": "epistemica/network/",
+      "to": "{EPISTENICA}/note/?view=browse&dir=epistemica/network",
+      "label": "Network",
+      "kind": "external"
     }
   ]
 }

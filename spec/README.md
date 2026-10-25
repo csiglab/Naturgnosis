@@ -93,7 +93,7 @@ and fail with a clear log when unreachable. Contract and failure modes: `deploy/
   Port: `NATURGNOSIS_PORT` (default 8011).
 
 Configuration (`.env`, never committed): `COUCHDB_URL`, `COUCHDB_DB=naturgnosis`, `COUCHDB_USER`,
-`COUCHDB_PASSWORD`.
+`COUCHDB_PASSWORD`, `EPISTENICA_URL` (base for `{EPISTENICA}/...` note links).
 
 ## Conventions
 

@@ -24,6 +24,7 @@ API (all same origin):
     POST /api/graph/save             -> upsert {nodes:[...], dataset} into CouchDB
     POST /api/layout/recompute       -> regenerate layout.json (?dataset= optional)
     GET  /api/health                 -> service + CouchDB status
+    GET  /note/api/config            -> external link base (EPISTENICA_URL)
     GET  /note/api/pins              -> pinned note paths for the notes catalog
     POST /note/api/pins              -> pin/unpin {path, pinned} a note
 
@@ -59,6 +60,7 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
 SAVE_ENDPOINT = "/api/graph/save"
+CONFIG_ENDPOINT = "/note/api/config"
 PINS_ENDPOINT = "/note/api/pins"
 PINS_DOC_ID = "pins"
 NOTE_SEGMENT_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -80,6 +82,24 @@ def _load_env():
                 continue
             key, _, val = line.partition("=")
             os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+def normalize_epistenica_url(raw):
+    """Return a safe base URL for {EPISTENICA} links, or '' when unusable.
+
+    The notes catalog joins this base with the `{EPISTENICA}/...` targets in
+    links.json, so only an absolute http(s) URL without a trailing slash is
+    accepted. Empty/invalid values disable external link cards client-side.
+    """
+    url = (raw or "").strip().rstrip("/")
+    if not url:
+        return ""
+    parsed = urllib.parse.urlparse(url)
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return ""
+    if parsed.username or parsed.password or parsed.query or parsed.fragment:
+        return ""
+    return url
 
 
 _load_env()
@@ -276,6 +296,7 @@ class SyncHandler(SimpleHTTPRequestHandler):
     couch = None                  # CouchClient
     datasets = None               # {module_name: Path(data.json)}
     modules = None                # set of module names (for URL rewriting)
+    epistenica_url = ""           # base for {EPISTENICA} note links
 
     # Static subdirectories served directly from the module directory
     # (i.e. NOT rewritten into <module>/web/).
@@ -351,6 +372,10 @@ class SyncHandler(SimpleHTTPRequestHandler):
 
         if path == LOAD_ENDPOINT:
             self._handle_graph(params)
+            return
+
+        if path == CONFIG_ENDPOINT:
+            self._handle_config()
             return
 
         if path == PINS_ENDPOINT:
@@ -479,6 +504,10 @@ class SyncHandler(SimpleHTTPRequestHandler):
                 },
             }
         )
+
+    def _handle_config(self):
+        """GET /note/api/config -> base URL for {EPISTENICA} external links."""
+        self._send_json({"epistenica_url": self.epistenica_url})
 
     # ------------------------------------------------------------------
     # Note pins (server-side catalog preferences, CouchDB-backed)
@@ -996,6 +1025,15 @@ def main():
     )
 
     parser.add_argument(
+        "--epistenica-url",
+        default=os.environ.get("EPISTENICA_URL", ""),
+        help=(
+            "Base URL for {EPISTENICA}/... note links (default: "
+            "$EPISTENICA_URL; empty disables external link cards)."
+        ),
+    )
+
+    parser.add_argument(
         "--no-couch",
         action="store_true",
         help=(
@@ -1076,6 +1114,13 @@ def main():
     SyncHandler.couch = couch
     SyncHandler.datasets = datasets
     SyncHandler.modules = modules
+    SyncHandler.epistenica_url = normalize_epistenica_url(args.epistenica_url)
+    if args.epistenica_url and not SyncHandler.epistenica_url:
+        print(
+            "[sync] WARNING: EPISTENICA_URL is not an absolute http(s) URL; "
+            "external note links disabled",
+            file=sys.stderr,
+        )
 
     handler = partial(
         SyncHandler,

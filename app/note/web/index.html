@@ -614,6 +614,14 @@
 
         .card-dir .card-kind { color: var(--accent-gold); border-color: var(--accent-gold); }
 
+        /* External links (links.json kind "external"): same linked card,
+           resolved from {EPISTENICA}/... against EPISTENICA_URL. */
+        .card-external .card-thumb svg { color: var(--accent-cyan); }
+
+        .card-external.is-disabled { opacity: 0.55; }
+
+        .card-external.is-disabled .card-link { cursor: default; }
+
         .card-pin {
             position: absolute;
             top: 0.4rem;
@@ -800,6 +808,8 @@
         var LINKS = [];           /* embedded support links {from, to, label, kind} */
         var LINKS_BY_FROM = {};   /* note path -> outgoing links */
         var NOTE_BY_PATH = {};    /* note path -> note (for link target kinds) */
+        var EPISTENICA_BASE = ''; /* EPISTENICA_URL from /note/api/config */
+        var EXT_PREFIX = '{EPISTENICA}';
         var SEG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
         var VIEWS = ['browse', 'files'];
         var GRID_PAGE = 48;
@@ -917,6 +927,10 @@
             var d = document.createElement('div');
             d.textContent = s == null ? '' : String(s);
             return d.innerHTML;
+        }
+
+        function escAttr(s) {
+            return esc(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
         }
 
         function encPath(p) {
@@ -1051,6 +1065,25 @@
             return n.kind === 'live' ? '../data/' + encPath(n.path) : 'note.html?n=' + encPath(n.path);
         }
 
+        /* External support links: `to` is {EPISTENICA}/... in index.json;
+           the base comes from EPISTENICA_URL via /note/api/config. */
+        function normalizeBase(raw) {
+            if (typeof raw !== 'string') return '';
+            var url = raw.trim().replace(/\/+$/, '');
+            if (!/^https?:\/\/[^/\s]+/i.test(url)) return '';
+            return url;
+        }
+
+        function isExternalLink(l) {
+            return !!l && l.kind === 'external' && typeof l.to === 'string' &&
+                l.to.indexOf(EXT_PREFIX + '/') === 0;
+        }
+
+        function externalHref(to) {
+            if (!EPISTENICA_BASE) return '';
+            return EPISTENICA_BASE + to.slice(EXT_PREFIX.length);
+        }
+
         var ICON_DIR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>';
 
         var ICON_FILE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>';
@@ -1100,6 +1133,29 @@
                 '</div></a></div>';
         }
 
+        /* External link card: folder glyph + out mark, label only; the
+           resolved route is shown on hover. New tab. Disabled when
+           EPISTENICA_URL is unset so a deployment never links to a guessed
+           host. */
+        function externalCard(l, labels) {
+            var href = externalHref(l.to);
+            var name = (labels || []).join(' \u00b7 ') || l.label || 'External';
+            var route = l.to.replace(EXT_PREFIX, '');
+            var inner = '<div class="card-thumb">' + ICON_DIR + linkMark() + '</div>' +
+                '<div class="card-body">' +
+                '<div class="card-name">' + esc(name) + '</div>' +
+                '</div>';
+            if (href) {
+                return '<div class="card card-external card-linked">' +
+                    '<a class="card-link" href="' + escAttr(href) + '" target="_blank" rel="noopener noreferrer" ' +
+                    'title="' + escAttr(href) + '" aria-label="' + escAttr(name + ' (external)') + '">' +
+                    inner + '</a></div>';
+            }
+            return '<div class="card card-external card-linked is-disabled" ' +
+                'title="' + escAttr(route + ' — EPISTENICA_URL is not configured') + '">' +
+                '<div class="card-link">' + inner + '</div></div>';
+        }
+
         function dirCards(subs) {
             var q = state.q.trim().toLowerCase();
             return subs.map(function (s) { return dirCard(s, q); }).join('');
@@ -1113,8 +1169,9 @@
 
         /* Linked group (links.json): outgoing support links declared by the
            notes strictly in the current browse dir, rendered as entries — a
-           file link (the target's own file card) or a dir link (a folder card
-           for the scope). Shown only without a search query, outside
+           file link (the target's own file card), a dir link (a folder card
+           for the scope), or an external link (a card resolved from
+           EPISTENICA_URL). Shown only without a search query, outside
            pagination like folder cards. */
         function linkedTargets() {
             var seen = {};
@@ -1147,12 +1204,18 @@
             if (!targets.length) return '';
             var dirs = [];
             var files = [];
+            var externals = [];
             var labels = {};
             targets.forEach(function (l) {
                 var to = l.to;
                 if (l.label) {
                     if (labels[to] === undefined) labels[to] = [];
                     if (labels[to].indexOf(l.label) < 0) labels[to].push(l.label);
+                }
+                if (isExternalLink(l)) {
+                    if (state.section === 'pinned' || state.liveOnly || state.unfinishedOnly) return;
+                    externals.push(l);
+                    return;
                 }
                 if (to.charAt(to.length - 1) === '/') {
                     var trim = to.replace(/\/$/, '');
@@ -1175,11 +1238,17 @@
                     files.push(n);
                 }
             });
-            if (!dirs.length && !files.length) return '';
+            if (!dirs.length && !files.length && !externals.length) return '';
             dirs.sort(function (a, b) { return a.name.localeCompare(b.name); });
             files.sort(function (a, b) { return a.title.localeCompare(b.title); });
+            externals.sort(function (a, b) {
+                var an = (labels[a.to] || [a.to]).join(' \u00b7 ');
+                var bn = (labels[b.to] || [b.to]).join(' \u00b7 ');
+                return an.localeCompare(bn);
+            });
             function badgeFor(to) { return (labels[to] || []).join(' \u00b7 '); }
             return dirs.map(function (s) { return dirCard(s, q, badgeFor(s._to)); }).join('') +
+                externals.map(function (l) { return externalCard(l, labels[l.to]); }).join('') +
                 files.map(function (n) { return fileCard(n, q, badgeFor(n.path)); }).join('');
         }
 
@@ -1554,8 +1623,8 @@
                     LINKS_BY_FROM[l.from].push(l);
                 });
                 document.getElementById('foot-date').textContent = idx.generated;
-                /* Pins degrade silently: no API -> no pin UI. */
-                return fetch('/note/api/pins', { headers: { 'Accept': 'application/json' } })
+                /* Pins and external-link config degrade silently. */
+                var pinsReq = fetch('/note/api/pins', { headers: { 'Accept': 'application/json' } })
                     .then(function (r) {
                         if (!r.ok) throw new Error('HTTP ' + r.status);
                         return r.json();
@@ -1567,6 +1636,16 @@
                         pinsAvailable = true;
                     })
                     .catch(function () { pinsAvailable = false; });
+                var configReq = fetch('/note/api/config', { headers: { 'Accept': 'application/json' } })
+                    .then(function (r) {
+                        if (!r.ok) throw new Error('HTTP ' + r.status);
+                        return r.json();
+                    })
+                    .then(function (d) {
+                        EPISTENICA_BASE = normalizeBase(d && d.epistenica_url);
+                    })
+                    .catch(function () { EPISTENICA_BASE = ''; });
+                return Promise.all([pinsReq, configReq]);
             })
             .then(function () {
                 readUrl();

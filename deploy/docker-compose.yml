@@ -27,3 +27,4 @@ services:
       COUCHDB_DB: ${COUCHDB_DB:-naturgnosis}
       COUCHDB_USER: ${COUCHDB_USER:-admin}
       COUCHDB_PASSWORD: ${COUCHDB_PASSWORD:?set COUCHDB_PASSWORD (env or .env)}
+      EPISTENICA_URL: ${EPISTENICA_URL:-http://localhost:8000}
