@@ -774,7 +774,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Linked the Public Organization Board kind to the new Board element note."
+        "summary": "Linked the Public Organization Board kind to the new Board element note.",
+        "commit": "dd22748266b3c96bd05ba8a27d1098a21dc0e7c2",
+        "before": "cf0d9008bc79ee3e211e5a3483baabbcf46b3771"
       }
     ]
   },
@@ -2210,7 +2212,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Linked the Governing Board row and references to the new Board element note."
+        "summary": "Linked the Governing Board row and references to the new Board element note.",
+        "commit": "dd22748266b3c96bd05ba8a27d1098a21dc0e7c2",
+        "before": "cf0d9008bc79ee3e211e5a3483baabbcf46b3771"
       }
     ]
   },
@@ -2350,7 +2354,9 @@
       {
         "date": "2026-10-25",
         "kind": "docs",
-        "summary": "Linked the Governing Board row and board-composition section to the new Board element note."
+        "summary": "Linked the Governing Board row and board-composition section to the new Board element note.",
+        "commit": "dd22748266b3c96bd05ba8a27d1098a21dc0e7c2",
+        "before": "cf0d9008bc79ee3e211e5a3483baabbcf46b3771"
       }
     ]
   },
@@ -16729,7 +16735,8 @@
       {
         "date": "2026-10-25",
         "kind": "feat",
-        "summary": "Add the Board element note: governing-body agency, board kinds and anatomy, Spanish terminology equivalents, and the advisory and statutory-board boundary cases."
+        "summary": "Add the Board element note: governing-body agency, board kinds and anatomy, Spanish terminology equivalents, and the advisory and statutory-board boundary cases.",
+        "commit": "dd22748266b3c96bd05ba8a27d1098a21dc0e7c2"
       }
     ]
   }
