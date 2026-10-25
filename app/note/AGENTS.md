@@ -16,7 +16,8 @@ note system (code only; none of its personal content).
 - `data/` — the corpus home: hand-edited markdown + live HTML (kebab-case),
   with the generated `index.json` beside it. Top-level sections include
   `nature/` (natural elements; the Modelo import is mirrored under
-  `nature/conceptual-model-natural-system/`), `human/`, `miscellanea/`,
+  `nature/conceptual-model-natural-system/`, and `nature/construction/` holds
+  epistemic constructions about natural targets), `human/`, `miscellanea/`,
   `data-collection/`, plus the pre-existing `social/`, `technique/`,
   `epistemica/`, `history/`, `general/`, and `meta/` sections.
 - `data/index.json` — **generated** by `bin/build_note_index.py`; committed
@@ -62,6 +63,9 @@ curl /note/api/pins               # pinned paths
   `spec/note/authoring.md`
   and `bin/build_note_index.py:slugify_segment()`); the builder warns with
   the suggested form. Never run `bin/slugify_files.py` (underscore rule) here.
+- Filing vs typing: an epistemic construction about a natural target — a
+  model, law, representation, or dataset describing something in nature —
+  fill it under (`nature/construction/`).
 - Per-file edit history lives in `data/changelog.json` (array of
   `{file_path, logs[]}` over markdown notes only; object key order follows
   `changelog.schema.json`). Every agent change set touching `data/**/*.md`

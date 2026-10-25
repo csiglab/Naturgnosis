@@ -110370,7 +110370,13 @@
         "statistics"
       ]
     },
-    "references": []
+    "references": [
+      {
+        "title": "Connectome",
+        "link": "/note/note.html?n=nature/construction/connectome.md",
+        "description": "Note in the Note Space."
+      }
+    ]
   },
   {
     "id": "squire-2004-memory-systems-brain-brief-history",

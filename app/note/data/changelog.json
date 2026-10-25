@@ -16697,5 +16697,15 @@
         "before": "fb070ca8e44fffd020bbbb7dec435c259bf98c0a"
       }
     ]
+  },
+  {
+    "file_path": "nature/construction/connectome.md",
+    "logs": [
+      {
+        "date": "2026-10-25",
+        "kind": "feat",
+        "summary": "Add the connectome as an epistemic construction note about a natural target, filed under nature, linked to the epistemica section and to the Sporns 2011 research node."
+      }
+    ]
   }
 ]

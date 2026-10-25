@@ -47,6 +47,18 @@
       "to": "{EPISTENICA}/note/?view=browse&dir=epistemica/network",
       "label": "Network",
       "kind": "external"
+    },
+    {
+      "from": "/",
+      "to": "{EPISTENICA}/note/?view=browse&dir=philosophia-naturalis",
+      "label": "Philosophia Naturalis",
+      "kind": "external"
+    },
+    {
+      "from": "nature/construction/",
+      "to": "epistemica/",
+      "label": "Construction",
+      "kind": "hierarchy"
     }
   ]
 }
