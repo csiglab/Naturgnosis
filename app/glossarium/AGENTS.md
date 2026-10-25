@@ -20,13 +20,13 @@ glossarium system; the term corpus was imported from there under explicit intent
 - `data/terms.json` — **source of truth**: hand-maintained `[{slug, name, aliases, body}]`,
   committed; add/replace entries with `bin/add_glossarium_term.py` (or edit by hand).
 - `data/index.json` — **generated** from `terms.json` by `bin/build_glossarium_index.py`
-  (slug/name/aliases/excerpt/text/words); committed but never hand-edited.
+  (slug/name/aliases/excerpt/text/words); gitignored, never hand-edited.
 
 ## Commands
 
 ```sh
 python bin/add_glossarium_term.py path/to/term.md [--slug <code>]  # add/replace one term
-python bin/build_glossarium_index.py  # rebuild data/index.json from data/terms.json (commit it)
+python bin/build_glossarium_index.py  # rebuild data/index.json from data/terms.json (gitignored)
 python bin/sync.py --no-couch         # static smoke test: /glossarium/ → 200
 ```
 

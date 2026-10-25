@@ -100,6 +100,13 @@ behavior, or clearly scope a change to one module.
   seed/bootstrap coverage (`bin/seed_couchdb.py`, server startup) in the same change set.
 - `app/note/data/` is the notes corpus (hand-edited markdown); `app/note/data/index.json`
   beside it is generated — never edit it by hand (run `python bin/build_note_index.py`).
+- Derived artifacts are **gitignored, never committed**: the `Generated` block in `.gitignore`
+  lists them (note/qa/glossarium/search indexes, backlinks, universal graph + layout, landing
+  metrics, production view + layout, module layouts, the polity manifest). `make build`
+  regenerates them; `deploy/Dockerfile` bakes them at image build. A fresh clone has none of
+  them, so run `make build` before serving locally. Only sources are tracked — graph mirrors,
+  the note corpus, `terms.json`, `qa.json`, `links.json`, `pins.json`, `changelog.json`,
+  `spec/polity/`.
 - `.env` is never committed.
 
 ### Keep Work Scoped
@@ -126,9 +133,9 @@ python bin/sync.py                   # full: needs CouchDB + COUCHDB_* env or .e
 ### Common commands
 
 ```sh
-python bin/build_note_index.py       # regenerate notes index (commit the result)
+python bin/build_note_index.py       # regenerate notes index (gitignored)
 python bin/seed_couchdb.py           # push all mirrors into CouchDB
-make build                           # regenerate graph layouts
+make build                           # regenerate every gitignored artifact
 make deploy-local                    # compose up couchdb + app, then seed
 ```
 

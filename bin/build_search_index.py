@@ -4,8 +4,8 @@ Universal search index builder (Naturgnosis hub).
 
 Merges the notes corpus index plus a snapshot of the six graph datasets
 (social owns the production nodes; production is a derived view, not a dataset)
-into one committed file, app/data/search-index.json, consumed by the hub
-search box (/). Stdlib only. Ported from Epistecnica's
+into one generated file, app/data/search-index.json (gitignored), consumed by
+the hub search box (/). Stdlib only. Ported from Epistecnica's
 bin/build_search_index.py; machinery only, no content carried over.
 
 - Notes (no backend needed): trimmed to {surface, kind, type, title,
@@ -20,8 +20,8 @@ bin/build_search_index.py; machinery only, no content carried over.
   build-time nature is visible.
 
 The notes index must exist first (make notes-index); a missing index
-aborts the build with a hint. Regenerate deliberately before
-build/deploy — the file is committed, like the per-corpus index.
+aborts the build with a hint. Regenerate before serving/deploying — the
+file is gitignored (the image rebuilds it), like the per-corpus indexes.
 
 Usage: python3 bin/build_search_index.py
 """

@@ -8,7 +8,8 @@
 Long-form notes for the Naturgnosis note module (`/note/`): catalog at
 `/note/`, single-note viewer at `/note/note.html?n=<path>`. This directory
 is the **source of truth** — hand-edited markdown, never machine-edited.
-After any change, rebuild the search index and commit it:
+After any change, rebuild the indexes locally (they are gitignored; the
+image rebuilds them at deploy time):
 
 ```sh
 python bin/build_note_index.py

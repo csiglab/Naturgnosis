@@ -77,7 +77,7 @@ Then:
 ```sh
 python bin/sync.py --no-couch   # offline: static serving only (API returns 503)
 python bin/sync.py              # full: needs CouchDB + .env
-make build                      # regenerate notes index + graph layouts
+make build                      # regenerate generated artifacts (gitignored: indexes, views, layouts)
 make seed                       # push mirrors into CouchDB
 ```
 

@@ -76,10 +76,11 @@ Social Space; see `app/production/AGENTS.md`.)
   count. When adding a node that plays a view's role, tag it in the owning editor at
   creation time.
 - **Builders**: one script per view (`bin/build_<space>_view.py`, stdlib only) reads the
-  owning mirror(s) and writes committed `view.json` + `view-layout.json` into the view
+  owning mirror(s) and writes gitignored `view.json` + `view-layout.json` into the view
   module's `data/` — never `data.json`/`layout.json` (those names would resurrect the
-  module as an editable dataset). Regenerate deliberately (`make <space>-view`); the files
-  are committed, like the search index. Only edges with both ends in the view are kept.
+  module as an editable dataset). Regenerate with `make <space>-view`; like the search
+  index they are generated, not committed (the image rebuilds them). Only edges with both
+  ends in the view are kept.
 - **Viewers**: the view explorer fetches `view.json`; there is no editor (edit in the
   owning space). New views follow this shape; do not invent a second mechanism.
 

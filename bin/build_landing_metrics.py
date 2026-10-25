@@ -1,6 +1,6 @@
 """Build landing-page metrics: per-module node/edge counts baked at build time.
 
-Reads graph mirrors + notes index, writes committed app/data/landing-metrics.json
+Reads graph mirrors + notes index, writes generated (gitignored) app/data/landing-metrics.json
 (fetched by app/index.html; renders em-dash when absent).
 Stdlib only. Never fails the build: missing inputs degrade to nulls.
 """

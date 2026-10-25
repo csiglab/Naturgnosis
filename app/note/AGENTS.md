@@ -20,11 +20,11 @@ note system (code only; none of its personal content).
   epistemic constructions about natural targets), `human/`, `miscellanea/`,
   `data-collection/`, plus the pre-existing `social/`, `technique/`,
   `epistemica/`, `history/`, `general/`, and `meta/` sections.
-- `data/index.json` — **generated** by `bin/build_note_index.py`; committed
-  but never hand-edited.
+- `data/index.json` — **generated** by `bin/build_note_index.py`; gitignored,
+  never hand-edited, never committed.
 - `data/backlinks.json` — **generated** by `bin/build_note_index.py`
   (`{target: [{path, title}]}` for cited notes only, from inline
-  `note.html?n=` body links); committed but never hand-edited. Powers the
+  `note.html?n=` body links); gitignored, never hand-edited. Powers the
   cited-by chip in `web/note.html`.
 - `data/links.json` — the single hand-maintained support-links registry
   (`{from, to, label, kind}` directed pairs; endpoints are note paths,
@@ -32,8 +32,8 @@ note system (code only; none of its personal content).
   `kind: "external"`). External cards show the resolved route on hover and
   resolve the base from `EPISTENICA_URL` via `GET /note/api/config`; unset
   means disabled. The builder validates
-  and embeds it into `index.json`; rebuild/commit the index after editing
-  links.
+  and embeds it into `index.json`; rebuild the index after editing
+  links (the index itself stays gitignored).
 - `data/pins.json` is the committed local mirror of the CouchDB `pins` doc
   (server-written; never hand-edit). Until the server writes it directly,
   keep it in sync via the `/tmp` pins script; rebuild/commit it after any
@@ -45,7 +45,7 @@ note system (code only; none of its personal content).
 ## Commands
 
 ```sh
-python bin/build_note_index.py    # rebuild data/index.json (commit it)
+python bin/build_note_index.py    # rebuild data/index.json (gitignored)
 python bin/sync.py                # serve + pins API (no dataset needed)
 curl /note/api/pins               # pinned paths
 ```

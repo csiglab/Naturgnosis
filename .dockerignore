@@ -5,13 +5,11 @@
 .gitignore
 .dockerignore
 .vscode
-spec
 deploy/docker-compose.yml
 deploy/deploy_local.sh
 deploy/deploy_server.sh
 deploy/preflight.sh
 deploy/README.md
-Makefile
 build.sh
 AGENTS.md
 README.md

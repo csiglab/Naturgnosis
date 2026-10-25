@@ -11,13 +11,13 @@ Spec: `spec/qa/README.md`.
 - `web/index.html` — catalog (full-text search, agent/run/tag facets, pagination).
 - `web/entry.html?id=<qa-id>` — single Q/A viewer (question, answer, meta, prev/next).
 - `data/qa.json` — source of truth: hand-normalized `[{id, question, answer, agent, run, date, source, tags, status}]`.
-- `data/qa-index.json` — **generated** by `bin/build_qa_index.py`; committed but never hand-edited.
+- `data/qa-index.json` — **generated** by `bin/build_qa_index.py`; gitignored, never hand-edited.
 - `import/` — raw third-party log exports, archival; never edit by hand.
 
 ## Commands
 
 ```sh
-python bin/build_qa_index.py    # rebuild data/qa-index.json (commit it)
+python bin/build_qa_index.py    # rebuild data/qa-index.json (gitignored)
 python bin/sync.py --no-couch   # static smoke test: /qa/ → 200
 ```
 

@@ -6,3 +6,24 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Generated — rebuilt by `make build` (the image does this at build time);
+# never committed, never hand-edited. Sources stay tracked: the graph
+# mirrors (`app/*/data/data.json`), the note corpus, `terms.json`, `qa.json`,
+# `links.json`, `pins.json`, `changelog.json`, and `spec/polity/`.
+app/data/landing-metrics.json
+app/data/search-index.json
+app/data/universal-graph.json
+app/data/universal-layout.json
+app/glossarium/data/index.json
+app/note/data/backlinks.json
+app/note/data/index.json
+app/note/data/social/actor/public/polity/data.json
+app/production/data/view-layout.json
+app/production/data/view.json
+app/qa/data/qa-index.json
+app/social/data/layout.json
+app/research/data/layout.json
+app/technique/data/layout.json
+app/epistemica/data/layout.json
+app/nature/data/layout.json

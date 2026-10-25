@@ -54,6 +54,13 @@ never be needed at runtime:
 | `app/*/view/` | long-form notes (e.g. social actor notes) |
 | `app/*/import/` | archival third-party exports (provenance) |
 
+The image also carries the **generated** artifacts (note/qa/glossarium/search indexes,
+backlinks, universal graph + layout, landing metrics, production view + layout, module layouts,
+polity manifest). They are gitignored, so `deploy/Dockerfile` bakes them during the build
+(`make production-view && make build`, which is why `Makefile` and `spec/` are in the build
+context). A bare checkout has none of them: run `make build` before serving locally without
+Docker.
+
 ## What each workflow assumes vs. creates
 
 | Workflow | Assumes | Creates / does |
