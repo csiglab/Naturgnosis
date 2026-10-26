@@ -2,7 +2,7 @@
 """
 Polity manifest builder (note corpus).
 
-Scans app/note/data/social/actor/public/polity/** for per-nation content —
+Scans app/note/data/social/collective/actor/public/polity/** for per-nation content —
 markdown (*.md, kind "explanation") and self-contained HTML live notes
 (*.html, kind "representation") — and emits polity/data.json, the data
 source for the polity aggregator live note (polity/index.html: flag grid +
@@ -47,7 +47,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "app" / "note" / "data"
-POLITY = DATA / "social" / "actor" / "public" / "polity"
+POLITY = DATA / "social" / "collective" / "actor" / "public" / "polity"
 OUT = POLITY / "data.json"
 ENTRY_TEMPLATE = REPO / "spec" / "polity" / "entry.html"
 ACTOR_TEMPLATE = REPO / "spec" / "polity" / "actor.html"
@@ -316,7 +316,7 @@ def main(argv=None) -> int:
 
     payload = {
         "generated": date.today().isoformat(),
-        "root": "social/actor/public/polity",
+        "root": "social/collective/actor/public/polity",
         "count": sum(len(v) for v in codes.values()) + len(world) + len(international),
         "codes": payload_codes,
         "world": sorted(world, key=lambda e: e["path"]),

@@ -328,7 +328,7 @@ Case:
 
 > The steam engine is the standard case. James Watt's separate-condenser engine was conceived by the 1760s, but it could not be built until a cylinder could be bored round enough to hold steam; John Wilkinson's cannon-boring machine (patented 1774) supplied that condition, and by 1776 Boulton advertised a fifty-inch cylinder accurate to a shilling's thickness. The invention was Watt's; the enabling conditions that made it deployable were Wilkinson's. Type both: the genesis side is a `Technical Evolution` entry for the element, and the enabling side is its own element — a `Producing Technical Element` (a `Material Good Producer`, e.g. a machine tool) — joined to the deployed element by a `Technical Dependency`, with the resources and limits it answers typed as `Technical Resource` and `Technical Constraint`. Never file the enabling element as a footnote to the invention.
 
-> Consequence for the decomposition: a tree that stops at the invention while leaving the producing element, resource, and constraint untyped has dropped a branch as load-bearing as the genesis it records. See [John Wilkinson](note.html?n=social/actor/private/persona/john-wilkinson.md).
+> Consequence for the decomposition: a tree that stops at the invention while leaving the producing element, resource, and constraint untyped has dropped a branch as load-bearing as the genesis it records. See [John Wilkinson](note.html?n=social/collective/actor/private/persona/john-wilkinson.md).
 
 ### What is the role of engineering?
 

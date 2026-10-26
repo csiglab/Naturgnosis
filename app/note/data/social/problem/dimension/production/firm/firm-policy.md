@@ -106,4 +106,4 @@ What is the relation of **firm characteristic** → **cost**?
 
 ## References
 
-- [Firm](../../../../actor/firm.md)
+- [Firm](../../../../collective/actor/firm.md)

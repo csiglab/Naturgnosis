@@ -16,7 +16,7 @@ tags: [social-class, collective, social-element, actor]
 
 ### What type of social element does this instance belong to?
 
-**Social Class belongs to `Social Compound` as its primary kind** — an aggregate collective defined by shared structural position; see [Collective](note.html?n=social/collective/collective.md). Its layer is **Ontic** (positions in production exist extra-mentally) with **Synontic** aspects (class consciousness and identity, where recognition constitutes the class *for itself*). It is typed under [Actor](note.html?n=social/actor/actor.md), the root hub of the actor typology.
+**Social Class belongs to `Social Compound` as its primary kind** — an aggregate collective defined by shared structural position; see [Collective](note.html?n=social/collective/collective.md). Its layer is **Ontic** (positions in production exist extra-mentally) with **Synontic** aspects (class consciousness and identity, where recognition constitutes the class *for itself*). It is typed under [Actor](note.html?n=social/collective/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as an **Interaction Unit** where mobilized (strikes, parties, struggle — the class acting in history) and as carrying **Status** (class honor, prestige, lifestyle deference). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -98,7 +98,7 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Collective](note.html?n=social/collective/collective.md) (the genus: aggregate kinds of the social compound)
-- [Actor](note.html?n=social/actor/actor.md) (root hub: classes act as Interaction Units when mobilized)
+- [Actor](note.html?n=social/collective/actor/actor.md) (root hub: classes act as Interaction Units when mobilized)
 - [Status](note.html?n=social/synontic/status.md) (class honor and prestige as standing)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - Marx, K., & Engels, F. (1848). *The Communist manifesto*.

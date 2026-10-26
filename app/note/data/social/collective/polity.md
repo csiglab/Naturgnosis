@@ -55,6 +55,6 @@ Readable secondarily as an `Interaction Unit` (a bounded entity capable of inter
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Collective](note.html?n=social/collective/collective.md)
-- [Government](note.html?n=social/actor/public/government.md)
+- [Government](note.html?n=social/collective/actor/public/government.md)
 - [Polity](https://en.wikipedia.org/wiki/Polity)
 - [State (polity)](https://en.wikipedia.org/wiki/State_(polity))

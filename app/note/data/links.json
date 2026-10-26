@@ -1,13 +1,13 @@
 {
   "links": [
     {
-      "from": "social/actor/",
+      "from": "social/collective/actor/",
       "to": "social/action/",
       "label": "Action",
       "kind": "hierarchy"
     },
     {
-      "from": "social/actor/public/",
+      "from": "social/collective/actor/public/",
       "to": "social/action/public/",
       "label": "Action",
       "kind": "hierarchy"
@@ -19,25 +19,25 @@
       "kind": "hierarchy"
     },
     {
-      "from": "social/actor/public/",
+      "from": "social/collective/actor/public/",
       "to": "social/collective/",
       "label": "Collective",
       "kind": "hierarchy"
     },
     {
-      "from": "social/actor/public/atlas/",
-      "to": "social/actor/public/public-organization.md",
+      "from": "social/collective/actor/public/atlas/",
+      "to": "social/collective/actor/public/public-organization.md",
       "label": "public organization",
       "kind": "atlas"
     },
     {
-      "from": "social/actor/public/atlas/",
-      "to": "social/actor/public/gov-wide-administration.md",
+      "from": "social/collective/actor/public/atlas/",
+      "to": "social/collective/actor/public/gov-wide-administration.md",
       "label": "government-wide administration",
       "kind": "atlas"
     },
     {
-      "from": "social/actor/public/informe/",
+      "from": "social/collective/actor/public/informe/",
       "to": "social/action/public/informe/",
       "label": "Public Action Informe",
       "kind": "hierarchy"

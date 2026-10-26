@@ -6,7 +6,7 @@
 ## Status: depleted (superseded by the polity corpus)
 
 The `nation` graph dataset was **dissolved**: each node now lives as a per-polity node file under
-the note corpus (`app/note/data/social/actor/public/polity/<code>/data/node.json`), which is the
+the note corpus (`app/note/data/social/collective/actor/public/polity/<code>/data/node.json`), which is the
 source of truth (see `spec/polity/README.md`). There is no `app/nation/data/data.json` and no
 CouchDB `dataset=nation`; the module's `web/` pages are legacy. The space formulation below is
 retained for reference.
@@ -33,7 +33,7 @@ Division, Language, Currency, Treaty, Alliance, Disputed Territory.
 ## Sources
 
 - Index Gentium (`csiglab/research-CountryIndex`) — country catalog work; natural seed corpus.
-- Actor notes under `app/note/data/social/actor/` (states, central banks, ministries).
+- Actor notes under `app/note/data/social/collective/actor/` (states, central banks, ministries).
 
 
 ## Data provenance
@@ -58,7 +58,7 @@ notes and its CDN dependency).
   search). Present for 8 countries (chn, hkg, ind, irl, mys, nzl, tha, vnm); datasets live as
   `polity/<code>/data/actors.json` in the note corpus (7 codes without a polity dir keep
   `data/actors/<iso>.json`; e.g. Ireland: 645 actors, 1700–2025).
-- **Polity Index** `social/actor/public/polity/index.html` (note corpus live note) — flag-grid
+- **Polity Index** `social/collective/actor/public/polity/index.html` (note corpus live note) — flag-grid
   aggregator over the per-nation polity corpus (`polity/<code>/` holds each polity's
   representations (HTML) and explanations (markdown); `?code=<iso>` preselects one polity).
   Data comes from the sibling `polity/data.json` manifest (`make polity-index`); nation ids

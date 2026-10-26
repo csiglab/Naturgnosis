@@ -82,7 +82,7 @@ curl /note/api/pins               # pinned paths
   json-only annotation. Entries without these fields render plain; see
   `spec/note/authoring.md`.
 - Note paths keyed by country use ISO 3166-1 alpha-3, lowercase
-  (`social/actor/public/catalog/research/usa/…`, `social/actor/public/polity/grc/region/…`); never alpha-2
+  (`social/collective/actor/public/catalog/research/usa/…`, `social/collective/actor/public/polity/grc/region/…`); never alpha-2
   or country names. Entities without an alpha-3 code (devolved nations,
   defunct states) are explicit exceptions.
 - Tags are optional `--- tags: [...]` front matter; `data/index.json`

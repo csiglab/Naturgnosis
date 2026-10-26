@@ -18,7 +18,7 @@ app/data/universal-layout.json
 app/glossarium/data/index.json
 app/note/data/backlinks.json
 app/note/data/index.json
-app/note/data/social/actor/public/polity/data.json
+app/note/data/social/collective/actor/public/polity/data.json
 app/production/data/view-layout.json
 app/production/data/view.json
 app/qa/data/qa-index.json

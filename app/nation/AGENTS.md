@@ -6,7 +6,7 @@ Graph of the world's nations: states, territories, institutions, peoples, and th
 them. Bootstrapped from an external dataset (see `import/`). Spec: `spec/nation/README.md`.
 
 > **Depleted.** The `nation` graph dataset was dissolved: its nodes now live as per-polity node
-> files under the note corpus (`social/actor/public/polity/<code>/data/node.json`), which are the
+> files under the note corpus (`social/collective/actor/public/polity/<code>/data/node.json`), which are the
 > source of truth (see `spec/polity/README.md`). There is no `app/nation/data/data.json` and no
 > CouchDB `dataset=nation`; the remaining `web/` pages are legacy and no longer have data.
 
@@ -16,7 +16,7 @@ them. Bootstrapped from an external dataset (see `import/`). Spec: `spec/nation/
 - `web/entry.html` — legacy nation entry page (broken, same reason).
 - `web/rep/actor.html` — Actor Space representation (`?code=<iso>`; fetches the polity
   dataset first (`polity/<code>/data/actors.json`), falls back to `data/actors/<iso>.json`).
-- Polity corpus aggregator — live note `social/actor/public/polity/index.html` in the note
+- Polity corpus aggregator — live note `social/collective/actor/public/polity/index.html` in the note
   corpus (flag grid + nation search; each flag opens its `polity/<code>/index.html` page;
   `?code=<iso>` prefills the search; data from sibling `polity/data.json`, rebuilt with
   `make polity-index`).

@@ -89,7 +89,7 @@
             subtitle.textContent = meta.country;
             if (this.code) {
               subtitle.href = '/note/web/index.html?dir=' +
-                encodeURIComponent('social/actor/public/polity/' + this.code);
+                encodeURIComponent('social/collective/actor/public/polity/' + this.code);
             }
           }
         }

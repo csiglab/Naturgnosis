@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://naturgnosis.org/schemas/polity-node.schema.json",
   "title": "Polity Node",
-  "description": "A polity node under the shared Naturgnosis node model: app/note/data/social/actor/public/polity/<code>/data/node.json (or polity/<iso>-node.json for codes without a directory). These files are the source of truth; the nation dataset mirror was dissolved into them.",
+  "description": "A polity node under the shared Naturgnosis node model: app/note/data/social/collective/actor/public/polity/<code>/data/node.json (or polity/<iso>-node.json for codes without a directory). These files are the source of truth; the nation dataset mirror was dissolved into them.",
   "$comment": "Objects must keep their key order identical to this schema's property order. Follows the Naturgnosis node model (app/social/data/schema/schema.json) with a documented polity-specific `specific`.",
   "type": "object",
   "properties": {

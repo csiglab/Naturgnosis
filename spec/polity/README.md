@@ -1,6 +1,6 @@
 # Polity Pages
 
-Per-nation hub pages for the polity corpus (`app/note/data/social/actor/public/polity/<code>/`),
+Per-nation hub pages for the polity corpus (`app/note/data/social/collective/actor/public/polity/<code>/`),
 ported from the nation module's views and hydrated at runtime.
 
 ## Layout
@@ -58,7 +58,7 @@ stored in `node.json`; the builder recomputes them from the directory on every
   URL for explanations.
 
 Optional manual type overrides: `polity/dynamics.json`
-(`{"social/actor/public/polity/arg/actor.html": {"type": "Spatial"}}`).
+(`{"social/collective/actor/public/polity/arg/actor.html": {"type": "Spatial"}}`).
 
 ## Contract
 
@@ -69,7 +69,7 @@ Optional manual type overrides: `polity/dynamics.json`
 - The header identity hydrates at runtime: the brand (logo + "Naturgnosis")
   links to the polity index (`polity/index.html`), and the subtitle carries
   the polity's country name and links to its notes directory view
-  (`/note/web/index.html?dir=social/actor/public/polity/<code>`).
+  (`/note/web/index.html?dir=social/collective/actor/public/polity/<code>`).
 - Only `<title>` is baked per code at stamp time (catalog discovery); bodies
   stay identical to the originals.
 - Static links must stay checker-clean (`bin/check_note_links.py`) for depth

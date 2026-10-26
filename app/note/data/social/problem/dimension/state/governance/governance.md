@@ -20,4 +20,4 @@
 - https://en.wikipedia.org/wiki/Public_administration
 - https://en.wikipedia.org/wiki/Governance
 - [Órgano Colegiado](https://es.wikipedia.org/wiki/Órgano_colegiado)
-- [Governance](../../../../actor/public/polity/dom/legal/governance.md)
+- [Governance](../../../../collective/actor/public/polity/dom/legal/governance.md)

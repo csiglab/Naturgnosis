@@ -1496,6 +1496,6 @@ $$
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technique/logistics-system.md)
 - [Marketing Technical Practice](note.html?n=technique/systems/multinode/marketing-technical-practice.md)
-- [Costco Wholesale Corporation](note.html?n=social/actor/private/firm/costco-wholesale-corporation.md)
-- [Amazon.com, Inc.](note.html?n=social/actor/private/firm/amazon-com-inc.md)
+- [Costco Wholesale Corporation](note.html?n=social/collective/actor/private/firm/costco-wholesale-corporation.md)
+- [Amazon.com, Inc.](note.html?n=social/collective/actor/private/firm/amazon-com-inc.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)

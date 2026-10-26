@@ -8,8 +8,8 @@
 Viewer machinery ported from Epistecnica's note system (code only — none
 of its personal notes). The corpus lives in `app/note/data/` in topic-first
 sections (`social/` social-ontology concepts and social actors
-under `social/actor/` (firms, banks, ministries, plus people under
-`social/actor/private/persona/`), `technique/` tools/systems/libraries/platforms/instances
+under `social/collective/actor/` (firms, banks, ministries, plus people under
+`social/collective/actor/private/persona/`), `technique/` tools/systems/libraries/platforms/instances
 (plus housekeeping under `technique/operation/`), `nature/` natural elements
 (the `Modelo` import is mirrored under `nature/conceptual-model-natural-system/`),
 `human/`, `miscellanea/`, `data-collection/`, and `meta/` task guides);

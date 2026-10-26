@@ -14,7 +14,7 @@ tags: [citizenship, status, polity, social-element]
 
 ### What type of social element does this instance belong to?
 
-**Citizenship belongs to `Status` as its primary kind** — an attributive standing recognized by a collective, here the polity; see [Status](note.html?n=social/synontic/status.md). Its layer is **Synontic** (conferred standing, existing through collective recognition) with **Ontic** anchors (registers, documents, territory). It is typed under [Actor](note.html?n=social/actor/actor.md), the root hub of the actor typology.
+**Citizenship belongs to `Status` as its primary kind** — an attributive standing recognized by a collective, here the polity; see [Status](note.html?n=social/synontic/status.md). Its layer is **Synontic** (conferred standing, existing through collective recognition) with **Ontic** anchors (registers, documents, territory). It is typed under [Actor](note.html?n=social/collective/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as **Normative** (the rights–obligations bundle: vote, protection, duties, allegiance) and as a **Social Role** (the Citizen member role through which the standing is occupied). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -60,7 +60,7 @@ Readable secondarily as **Normative** (the rights–obligations bundle: vote, pr
 
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Status](note.html?n=social/synontic/status.md) (the genus: standing recognized by a collective)
-- [Actor](note.html?n=social/actor/actor.md) (root hub: standings attach to actors)
+- [Actor](note.html?n=social/collective/actor/actor.md) (root hub: standings attach to actors)
 - [Collective](note.html?n=social/collective/collective.md) (the conferring body)
 - Marshall, T. H. (1950). Citizenship and social class. In *Citizenship and social class and other essays* (pp. 1–85). Cambridge University Press.
 - Brubaker, R. (1992). *Citizenship and nationhood in France and Germany*. Harvard University Press.
