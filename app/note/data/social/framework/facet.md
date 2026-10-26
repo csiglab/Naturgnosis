@@ -36,7 +36,7 @@ tags: [facet, social-ontology, dimension, layers, analytical]
 | **Artistic** | Aesthetic creation, cultural production, critique, and symbolic capital. |
 | **Innovation** | Invention, applied knowledge, technological development, and problem-solving activities. |
 | **Recreational** | Leisure, sports, games, and organized recreational activity. |
-| **Scientific** | Knowledge production, research, experimentation, peer evaluation, and formalized inquiry. |
+| **Scientific** (the research facet) | Knowledge production, research, experimentation, peer evaluation, and formalized inquiry — historical grounding and structuring exemplars in [Research Facet](note.html?n=social/facet/research.md). |
 
 ## Facets and layers
 

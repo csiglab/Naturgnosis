@@ -18,4 +18,5 @@
 | [Collective](note.html?n=social/collective/readme.md) | Social Compound genus |
 | [Actor](note.html?n=social/collective/actor/readme.md) | Interaction Unit — who acts (public / private; generic kinds); filed under `collective/actor/` |
 | [Framework](note.html?n=social/framework/readme.md) | social ontology framework and method |
+| [Facet](note.html?n=social/facet/readme.md) | per-facet notes (research = the Scientific facet) |
 | [Atlas](note.html?n=social/atlas/readme.md) | live atlas and ontical maps |

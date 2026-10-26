@@ -1607,6 +1607,10 @@
         "summary": "Repointed `social/actor/...` links to `social/collective/actor/...` after the actor corpus moved under Collective.",
         "commit": "b4c30f44b9c851008382617c268cf1304f232349",
         "before": "5d0ac48408aa9f4c768ad8b965d7c4894ac59fe4"
+      },
+      {
+        "date": "2026-10-26",
+        "summary": "Added the Facet row to the section map (social/facet/)."
       }
     ]
   },
@@ -2991,6 +2995,10 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-26",
+        "summary": "Annotated the Scientific catalog row as the research facet and linked the new research facet note."
       }
     ]
   },
@@ -29758,6 +29766,26 @@
         "kind": "feat",
         "summary": "New element note: The Royal Society of London for Improving Natural Knowledge (Social Compound, kind Scientific Collective; societal per the state-actor tests; graph node node.25638a3ba2274307a8d42661d1f9e470 cross-referenced).",
         "commit": "b4c30f44b9c851008382617c268cf1304f232349"
+      }
+    ]
+  },
+  {
+    "file_path": "social/facet/research.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "New facet note: the research facet (the catalog's Scientific facet) — historical arc from Republic of Letters to chartered societies, six structuring moves, corpus map, references."
+      }
+    ]
+  },
+  {
+    "file_path": "social/facet/readme.md",
+    "logs": [
+      {
+        "date": "2026-10-26",
+        "kind": "feat",
+        "summary": "New per-facet section hub listing the research facet note."
       }
     ]
   }
