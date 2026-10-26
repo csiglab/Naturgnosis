@@ -1610,7 +1610,9 @@
       },
       {
         "date": "2026-10-26",
-        "summary": "Added the Facet row to the section map (social/facet/)."
+        "summary": "Added the Facet row to the section map (social/facet/).",
+        "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504",
+        "before": "cf1efcc34a026fb00ac87d8007f7ce0138e77ea9"
       }
     ]
   },
@@ -2998,7 +3000,9 @@
       },
       {
         "date": "2026-10-26",
-        "summary": "Annotated the Scientific catalog row as the research facet and linked the new research facet note."
+        "summary": "Annotated the Scientific catalog row as the research facet and linked the new research facet note.",
+        "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504",
+        "before": "cf1efcc34a026fb00ac87d8007f7ce0138e77ea9"
       }
     ]
   },
@@ -29775,7 +29779,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "New facet note: the research facet (the catalog's Scientific facet) — historical arc from Republic of Letters to chartered societies, six structuring moves, corpus map, references."
+        "summary": "New facet note: the research facet (the catalog's Scientific facet) — historical arc from Republic of Letters to chartered societies, six structuring moves, corpus map, references.",
+        "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504"
       }
     ]
   },
@@ -29785,7 +29790,8 @@
       {
         "date": "2026-10-26",
         "kind": "feat",
-        "summary": "New per-facet section hub listing the research facet note."
+        "summary": "New per-facet section hub listing the research facet note.",
+        "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504"
       }
     ]
   }
