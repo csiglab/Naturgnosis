@@ -29785,7 +29785,9 @@
       {
         "date": "2026-10-26",
         "kind": "docs",
-        "summary": "Flagged the note in front matter as AI-generated needing total reform; added the reserved `unfinished` tag so the flag shows in the catalog."
+        "summary": "Flagged the note in front matter as AI-generated needing total reform; added the reserved `unfinished` tag so the flag shows in the catalog.",
+        "commit": "ace3724c73c04eda96a13c73ec4e104aa3412ee8",
+        "before": "12ab4b4b4d4e13bf16213c5d95394906541e32df"
       }
     ]
   },
