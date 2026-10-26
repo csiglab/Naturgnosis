@@ -1,6 +1,5 @@
 ./app/note/data/social/collective/framework/program.md
 
-
 Study 
 
 - Governance Model of  — Hong Kong Microelectronics Research and Development Institute (MRDI)
@@ -2086,14 +2085,10 @@ https://conwaylife.com/wiki/Universal_computer
 https://www.nber.org/papers/w2654
 
 - https://forge.ndstudio.gov/?s=x  (Useful Organizational Form)
-- ...
-
-
 
 
 (Add this to naturgnosis)
 https://www.quantbiolab.com/
-
 
 
 Freedom
@@ -2103,3 +2098,38 @@ Freedom
 
 notes/epistemica/goods-nomenclature
 
+
+- (China - Australia Education Join Vencture) Sullivan, John; Silver, Alan (1997). "The RMIT Wuhan Project". *High Educ Policy*. **10** (2): 145–149. doi):10.1016/S0952-8733(97)00007-X. S2CID) 153302032.
+- https://www.rmit.edu.au/
+- https://www.wust.edu.cn/english/
+
+
+- https://www.avcr.cz/en/(Czech Basic Research Body)
+- https://en.wikipedia.org/wiki/Albert_of_Saxony_(philosopher)
+- https://es.wikipedia.org/wiki/Caucho_sint%C3%A9tico
+- https://en.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl#Works
+- `On the Idea of Production of the Means of Production` → …
+- Fix (https://github.com/csiglab/Naturgnosis/blob/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) Which does  not adhere to the current model?
+
+
+Chemical Reaction:
+
+- https://archive.org/details/whychemicalreact0000keel/page/n259/mode/2up
+- https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/
+- https://mjfbhatkuli.org/pdf/chemistry/2_Physical_Chemistry_by_Atkins_&_Paula.pdf
+
+- 
+- https://bactra.org/notebooks/network-data-analysis.html
+- https://www.tandfonline.com/doi/abs/10.1080/10618600.2012.738106
+
+
+- https://en.wikipedia.org/wiki/Finite_element_method
+- How do we observed reality atlas - in epistemology
+    - https://en.wikipedia.org/wiki/Angle-resolved_photoemission_spectroscopy
+- …
+
+- https://en.wikipedia.org/wiki/Institut_de_France
+- https://en.wikipedia.org/wiki/Coll%C3%A8ge_des_Quatre-Nations
+- https://en.wikipedia.org/wiki/Peace_of_Westphalia
+- https://www.kyoto-u.ac.jp/en
+- 

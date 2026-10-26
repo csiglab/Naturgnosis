@@ -29781,6 +29781,11 @@
         "kind": "feat",
         "summary": "New facet note: the research facet (the catalog's Scientific facet) — historical arc from Republic of Letters to chartered societies, six structuring moves, corpus map, references.",
         "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504"
+      },
+      {
+        "date": "2026-10-26",
+        "kind": "docs",
+        "summary": "Flagged the note in front matter as AI-generated needing total reform; added the reserved `unfinished` tag so the flag shows in the catalog."
       }
     ]
   },
