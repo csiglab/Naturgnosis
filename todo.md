@@ -2132,4 +2132,10 @@ Chemical Reaction:
 - https://en.wikipedia.org/wiki/Coll%C3%A8ge_des_Quatre-Nations
 - https://en.wikipedia.org/wiki/Peace_of_Westphalia
 - https://www.kyoto-u.ac.jp/en
-- 
+
+
+Ancient Indian  `Republic`:
+- https://en.wikipedia.org/wiki/Vajjika_League
+- https://en.wikipedia.org/wiki/Shakya
+
+
