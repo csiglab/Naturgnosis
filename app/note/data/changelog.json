@@ -16657,7 +16657,9 @@
       {
         "date": "2026-10-28",
         "kind": "refactor",
-        "summary": "Move the note content to the Epistecnica corpus (nature/cognition/meaning.md); leave a stub pointing at it."
+        "summary": "Move the note content to the Epistecnica corpus (nature/cognition/meaning.md); leave a stub pointing at it.",
+        "commit": "ec973e8d605c4314948c517e9d43b696aa5d6720",
+        "before": "eb16e72afc6a559d12c0af6af27db9b37c367f85"
       }
     ]
   },
