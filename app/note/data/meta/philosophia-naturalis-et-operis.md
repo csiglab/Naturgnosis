@@ -70,16 +70,6 @@ tags: [nature, ontology, method]
 
 > An `Ontic Element` is a concept that denotes an element of observer-independent reality, analytically identifiable as an instance of an ontic element type and capable of being recursively decomposed into other ontic elements through explicitly typed relationships. Note: This is a deliberately loose definition of the reality denoted by the concept.
 
-> Note: Ontic Element Type is recursive. The type of order of every ontic element is the **Ontic Order**. The `Permitted Link Forms` table below licenses how an element of one type decomposes into elements of another, and the **relationship table** names the connector that states each licensed relation. Template slots (`<<…>>`), where used, are bound with `:=` instead of instances. Relationships use `(→ Relationship Type)` throughout.
-
-> **Note on layers:** the template of reality divides into **Ontic** (elements that exist independently of observers), **Synontic** (elements that exist through distributed cognition and interaction), and **Meta Ontic** (information). This guide licenses the **Ontic** layer only: a norm, institution, protocol, or affordance decomposes under the socialium guide, and information decomposes under the epistemicarum guide. No row carries two layers.
-
-> **Note on levels:** every ontic element carries its level of organization (micro: elements and local interactions; meso: subsystems and modules; macro: emergent patterns and systemic behavior). The same name at two levels denotes two nodes, decomposed separately and linked. Level is a gate on every decomposition, not a type.
-
-> **Note on generic composites:** Different names may be used to refer to generic composites of ontic elements, such as *biome*, *catchment*, *reef system*, or similar concepts. Each carries its own semantics. For simplicity we use **`Ontic Element Set`** as the generic type; ensemble scopes (biomes, catchments, reef systems) bind the placeholder as `Ontic Element Set`. `Substantive` heads the existential spine, with `Natural System` and `Organism` among its natural kinds.
-
-> Recursion is introduced by allowing a composite to have another composite as an instance: an `Ontic Element Set` may contain `Ontic Element Set`s (a reef within a catchment); a `Natural System` may contain further systems and whole sets besides its objects. Nesting composites in composites is what makes the type tree recursive.
-
 #### What is the fundamental structure of an ontic element's `Decomposition Tree`?
 
 ```text
@@ -98,17 +88,6 @@ Ontic Element (parent)
 > **Note:** This kind of structure neither completes nor normates a decomposition. The table states only which parent–child links are permitted; it decomposes nothing by itself, and it does not dictate what any particular element must decompose into. A decomposition is complete only for a bound root instance, grown link by permitted link until every leaf resolves to an instance.
 
 > **Note on specialization:** a type introduced through `(→ Kind)` carries the links licensed on the type it specializes, and a link licensed on a type accepts that type's kinds as children. An `Ecosystem` therefore takes the object, organism, mechanism, process, attribute, and bound links licensed on `Natural System`; a `Substance / Matter` takes the links of the `Substance` it specializes; and `Ontic Element (→ Attribute) Property` accepts an `Interaction-Derived Quantity` as its child.
-
-**Ontic questionnaire.** Before typing, answer for the segment under study:
-
-- Which entities and substances exist here?
-- Which mechanisms generate or regulate its processes?
-- Which processes unfold, through which events, into which states and trajectories?
-- Which phenomena and epiphenomena are predicated over those trajectories?
-- Which properties, aspects, and variable aspects does it carry?
-- Which spaces, times, environments, and substrates situate it?
-- Which constraints bound it?
-- Which agents and intentions act in it?
 
 | Permitted Link Form | Description | Layer; Category |
 | --- | --- | --- |
@@ -169,17 +148,20 @@ Ontic Element (parent)
 | `Mixture Event Stream (→ Part) Event Stream` | A component stream of the mixture. | Ontic; Constitutive |
 | `Epiphenomenon (→ Kind) Phenomenon` | The phenomenon the epiphenomenon is a byproduct of. | Ontic; Dynamical |
 | `Agent (→ Has) Intention` | The directed commitment the agent holds. | Ontic; Relational |
-| `Ontic Element (→ Attribute) Property` | An attribute carried by any ontic element. | Ontic; Attributive |
-| `Ontic Element (→ Attribute) Aspect` | An aspect under which the element can be considered. | Ontic; Attributive |
-| `Ontic Element (→ Attribute) Variable Aspect` | An aspect whose value varies across its states. | Ontic; Attributive |
-| `Ontic Element (→ Attribute) State` | A configuration the element exhibits. | Ontic; Attributive |
-| `Ontic Element (→ Attribute) Event Stream` | The stream of manifestations the element generates. | Ontic; Attributive |
-| `Ontic Element (→ Situation) Space` | The position or extension the element occupies. | Ontic; Situational |
-| `Ontic Element (→ Situation) Time` | The temporal ordering the element is situated in. | Ontic; Situational |
-| `Ontic Element (→ Situation) Environment` | The external conditions affecting the element. | Ontic; Situational |
-| `Ontic Element (→ Substrate) Substrate` | The underlying bearer or material the element depends on. | Ontic; Situational |
-| `Ontic Element (→ Bound) Constraint` | A bound on the element's behavior, extent, or change. | Ontic; Constraint |
-| `Ontic Element (→ Bound) Limitation Factor` | A description-bounding property of the element. | Ontic; Constraint |
+| `<<Ontic Element>> (→ Attribute) Property` | An attribute carried by any ontic element. | Ontic; Attributive |
+| `<<Ontic Element>> (→ Attribute) Aspect` | An aspect under which the element can be considered. | Ontic; Attributive |
+| `<<Ontic Element>> (→ Attribute) Variable Aspect` | An aspect whose value varies across its states. | Ontic; Attributive |
+| `<<Ontic Element>> (→ Attribute) State` | A configuration the element exhibits. | Ontic; Attributive |
+| `<<Ontic Element>> (→ Attribute) Event Stream` | The stream of manifestations the element generates. | Ontic; Attributive |
+| `<<Ontic Element>> (→ Situation) Space` | The position or extension the element occupies. | Ontic; Situational |
+| `<<Ontic Element>> (→ Situation) Time` | The temporal ordering the element is situated in. | Ontic; Situational |
+| `<<Ontic Element>> (→ Situation) Environment` | The external conditions affecting the element. | Ontic; Situational |
+| `<<Ontic Element>> (→ Substrate) Substrate` | The underlying bearer or material the element depends on. | Ontic; Situational |
+| `<<Ontic Element>> (→ Bound) Constraint` | A bound on the element's behavior, extent, or change. | Ontic; Constraint |
+| `<<Ontic Element>> (→ Bound) Limitation Factor` | A description-bounding property of the element. | Ontic; Constraint |
+| `<<Ontic Element>> (→ <<Relationship Type>>) <<Ontic Element>>` | Template: the ultimate generic link form. The parent slot binds to the type of the element being decomposed, the relationship slot binds to a label from the relationship table, and the child slot binds to any ontic element type. It states the form every specific row above specializes; it licenses no link by itself, and each slot must be bound to a type and a label before the row can be used. | Ontic; Template |
+
+> **Note on the template row.** `<<Ontic Element>>` and `<<Relationship Type>>` are slots, not types: `:=` binds them, `→` steps down. The template row is the most general form the tree can take — every row is a parent type, a labelled relation, and a child type. It never substitutes for the specific rows: those decide which parent may reach which child, and by which label.
 
 ### Which relationship types can be used to explicitly label the `→` operator?
 
@@ -289,6 +271,10 @@ Case:
 ### Why label every link?
 
 > Because a bare arrow hides which relation is asserted. `(→ Part)`, `(→ Generation)`, `(→ Predication)`, and `(→ Bound)` are different claims about the same pair of nodes: a mechanism generating a process is not a part of it, and a constraint bounding a system is not one of its attributes. The label is what makes a path checkable against the `Permitted Link Forms` table and what keeps two trees from silently sharing a connector they do not share.
+
+### What is the ultimate generic link form?
+
+> `<<Ontic Element>> (→ <<Relationship Type>>) <<Ontic Element>>` — the template every permitted link form specializes: a parent type, a labelled relation, a child type. Slots are bound per decomposition: `<<Ontic Element>>` := the type of the element being decomposed (or of the child, in an inner slot), `<<Relationship Type>>` := a label from the relationship table. It states the form, not a licence: the specific rows decide which parent–child pairs are permitted and by which label.
 
 ### How does this `Ontic Order` relate to the epistemicarum's `Ontic` link form?
 
@@ -408,6 +394,18 @@ Case:
 ### What is the recursive instance decomposition of this ontic instance?
 ### Which limitation factors bound this description?
 ### What Is a critical conceptual evaluation of this `ontic element instance`?
+
+## Appendix
+
+> Note: Ontic Element Type is recursive. The type of order of every ontic element is the **Ontic Order**. The `Permitted Link Forms` table below licenses how an element of one type decomposes into elements of another, and the **relationship table** names the connector that states each licensed relation. Template slots (`<<…>>`), where used, are bound with `:=` instead of instances. Relationships use `(→ Relationship Type)` throughout.
+
+> **Note on layers:** the template of reality divides into **Ontic** (elements that exist independently of observers), **Synontic** (elements that exist through distributed cognition and interaction), and **Meta Ontic** (information). This guide licenses the **Ontic** layer only: a norm, institution, protocol, or affordance decomposes under the socialium guide, and information decomposes under the epistemicarum guide. No row carries two layers.
+
+> **Note on levels:** every ontic element carries its level of organization (micro: elements and local interactions; meso: subsystems and modules; macro: emergent patterns and systemic behavior). The same name at two levels denotes two nodes, decomposed separately and linked. Level is a gate on every decomposition, not a type.
+
+> **Note on generic composites:** Different names may be used to refer to generic composites of ontic elements, such as *biome*, *catchment*, *reef system*, or similar concepts. Each carries its own semantics. For simplicity we use **`Ontic Element Set`** as the generic type; ensemble scopes (biomes, catchments, reef systems) bind the placeholder as `Ontic Element Set`. `Substantive` heads the existential spine, with `Natural System` and `Organism` among its natural kinds.
+
+> Recursion is introduced by allowing a composite to have another composite as an instance: an `Ontic Element Set` may contain `Ontic Element Set`s (a reef within a catchment); a `Natural System` may contain further systems and whole sets besides its objects. Nesting composites in composites is what makes the type tree recursive.
 
 ## References
 
