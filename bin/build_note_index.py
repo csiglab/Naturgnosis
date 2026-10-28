@@ -64,6 +64,8 @@ NOTE_LINK_RE = re.compile(r"note\.html\?n=([A-Za-z0-9_.\-/]+?)(?=[)#\"'\s>]|$)")
 EXTERNAL_PREFIX = "{EPISTENICA}/"
 EXTERNAL_KIND = "external"
 EXTERNAL_MAX_LEN = 400
+# `{EPISTENICA}/note/note.html?n=…` cites the sibling corpus, not this one.
+EXTERNAL_NOTE_LINK_RE = re.compile(r"\{EPISTENICA\}/note/note\.html\?[^)\s\"'<>]*")
 
 
 # æ/ø/œ/ß have no NFKD decomposition (they would vanish); transliterate first.
@@ -226,6 +228,7 @@ def extract_note_targets(path: Path, kind: str) -> set:
         chunks = re.split(r"^```.*$", body, flags=re.M)
         body = "".join(c for i, c in enumerate(chunks) if i % 2 == 0)
         body = re.sub(r"`[^`\n]+`", " ", body)
+    body = EXTERNAL_NOTE_LINK_RE.sub(" ", body)
     targets = set()
     for m in NOTE_LINK_RE.finditer(body):
         target = m.group(1).split("#", 1)[0]

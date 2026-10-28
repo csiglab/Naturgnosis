@@ -59,6 +59,12 @@
       "to": "epistemica/",
       "label": "Construction",
       "kind": "hierarchy"
+    },
+    {
+      "from": "human/cognitive/conceptual-model-cognition/",
+      "to": "{EPISTENICA}/note/note.html?n=nature/cognition/meaning.md",
+      "label": "Meaning",
+      "kind": "external"
     }
   ]
 }

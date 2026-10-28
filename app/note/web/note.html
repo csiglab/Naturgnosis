@@ -687,6 +687,52 @@
         /* GitHub repo base for commit / before / after links (changelog.json). */
         var NOTE_REPO = 'https://github.com/csiglab/Naturgnosis';
 
+        /* ---------- external links (body markdown, {EPISTENICA}/…) ----------
+           The base comes from EPISTENICA_URL via /note/api/config, the same
+           route the catalog uses for its external cards; a note never carries
+           a hardcoded host. Unset base leaves the anchor inert. */
+        var EXT_PREFIX_RE = /^\{EPISTENICA\}\//;
+
+        function normalizeBase(raw) {
+            if (typeof raw !== 'string') return '';
+            var url = raw.trim().replace(/\/+$/, '');
+            if (!/^https?:\/\/[^/\s]+/i.test(url)) return '';
+            return url;
+        }
+
+        var epistenicaPromise = fetch('/note/api/config', { headers: { 'Accept': 'application/json' } })
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (d) { return normalizeBase(d && d.epistenica_url); })
+            .catch(function () { return ''; });
+
+        function resolveExternalLinks(root, base) {
+            if (!root) return;
+            var anchors = root.getElementsByTagName('a');
+            for (var i = 0; i < anchors.length; i++) {
+                var a = anchors[i];
+                var raw = a.getAttribute('href');
+                if (!raw) continue;
+                /* marked runs hrefs through encodeURI, so the braces may arrive
+                   as %7B/%7D — normalize before matching. */
+                var dec = raw.replace(/%7B/gi, '{').replace(/%7D/gi, '}');
+                if (!EXT_PREFIX_RE.test(dec)) continue;
+                var suffix = dec.replace(EXT_PREFIX_RE, '');
+                if (!base) {
+                    a.setAttribute('data-external', 'unconfigured');
+                    a.setAttribute('title', suffix + ' — EPISTENICA_URL is not configured');
+                    a.removeAttribute('href');
+                    continue;
+                }
+                a.setAttribute('href', base + '/' + suffix);
+                a.setAttribute('target', '_blank');
+                a.setAttribute('rel', 'noopener noreferrer');
+                a.setAttribute('data-external', 'resolved');
+            }
+        }
+
         /* ---------- per-file changelog history (changelog.json) ---------- */
 
         var histPromise = fetch('../data/changelog.json', { headers: { 'Accept': 'application/json' } })
@@ -916,6 +962,9 @@
                     refsPromise.then(function (map) { wireRefs(name, title, map); });
 
                     document.getElementById('note-body').innerHTML = renderMarkdown(md);
+                    epistenicaPromise.then(function (base) {
+                        resolveExternalLinks(document.getElementById('note-body'), base);
+                    });
                     try {
                         if (typeof renderMathInElement === 'function') {
                             renderMathInElement(document.getElementById('note-body'), {

@@ -16653,6 +16653,11 @@
         "kind": "feat",
         "summary": "Imported from Modelo/Notion export and mirrored into the corpus hierarchy.",
         "commit": "5b055837d0051053c96cc3f7841a08f449d17246"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "refactor",
+        "summary": "Move the note content to the Epistecnica corpus (nature/cognition/meaning.md); leave a stub pointing at it."
       }
     ]
   },
