@@ -390,9 +390,7 @@ Case:
 ### What is this ontic instance?
 ### What ontic element type does this ontic instance belong to?
 ### Is the type of this `ontic element instance` ambiguous?
-### At which level of organization does this instance sit?
 ### What is the recursive instance decomposition of this ontic instance?
-### Which limitation factors bound this description?
 ### What Is a critical conceptual evaluation of this `ontic element instance`?
 
 ## Appendix
