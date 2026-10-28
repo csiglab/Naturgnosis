@@ -119,8 +119,8 @@ corpus; the ambiguity reading lives beside these conventions.
 
 - Technique content — `app/note/data/meta/philosophia-artium-technicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-technicarum-et-operis.md)):
-  "How to decompose any technical instance?", single recursive table
-  (`(root) := <<Technical Element>>`, system/practice/evaluation spines),
+  "How to decompose any technical instance?", permitted link forms table with the
+  technical circuit questions, instance table typed by backticked grouping segments,
   multi-type (multi-root forest) rule, CRM case study, technical-element note schema.
 - Epistemic content — `app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md)):
@@ -135,10 +135,18 @@ corpus; the ambiguity reading lives beside these conventions.
    layer test (Ontic/Synontic/Noetic/Multi), facet assignment, social-element note schema.
 - Natural content — `app/note/data/meta/philosophia-naturalis-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)):
-  "How to decompose any natural instance?", single recursive table
-  (`(root) := <<Natural Element>>`, composition/manifestation spines),
-  level of organization, Limitation checklist, natural-element note schema. Presupposes
-  the epistemicarum definitions; restates nothing from it.
+  "How to decompose any natural instance?", the **Ontic Order**: permitted link forms table
+  over the ontic template (Substantive, Entity, Substance, Mechanism; Event, Process, Event
+  Stream, Phenomenon, Trajectory; State, Property, Aspect; Space, Time, Environment,
+  Substrate, Constraint), the relationship table that labels every connector (`(→ Kind)`,
+  `(→ Part)`, `(→ Generation)`, …), with the natural kinds kept as specializations, the
+  ontic questionnaire, the path-typed instance table whose every row is the full path from
+  `Ontic Element`, the layer gate (Ontic only — synontic elements to the socialium guide,
+  information to the epistemicarum), level-of-organization gate, Limitation checklist,
+  quarry case study, ontic-element note schema. Presupposes the epistemicarum definitions;
+  restates nothing from it. Legacy instance notes still carry the earlier bold-instance,
+  four-column form and unlabelled links; their natural type names survive as kinds, but
+  follow the workflow, not the legacy rows.
 - Concept content — `app/note/data/meta/philosophia-conceptuum-et-operis.md`
   ([viewer](/note/note.html?n=meta/philosophia-conceptuum-et-operis.md)):
   "Philosophia Conceptuum et Operis", the concept of a concept — formulation, ontology,

@@ -408,6 +408,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Rebuilt as the Ontic Order: root type Ontic Element, ontic template with the natural kinds kept as specializations, permitted link forms, relationship table labelling every connector (Kind, Instance, Part, Member, Component, Has, Association, Occurrence, Generation, Predication, Participation, Attribute, Situation, Substrate, Bound), full paths from Ontic Element, layer gate, ontic questionnaire, quarry case study, and ontic-element note schema."
       }
     ]
   },
@@ -18806,6 +18811,11 @@
         "summary": "Merged Modelo/Notion export root content from Modelo/Nature 554701ca10264f4091f1e9e8fd7aec04.md under Source (Notion export).",
         "commit": "5b055837d0051053c96cc3f7841a08f449d17246",
         "before": "fb070ca8e44fffd020bbbb7dec435c259bf98c0a"
+      },
+      {
+        "date": "2026-10-28",
+        "kind": "docs",
+        "summary": "Rebound the root placeholder from <<Natural Element>> to <<Ontic Element>> and updated the workflow reference to the Ontic Order."
       }
     ]
   },

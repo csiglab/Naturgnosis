@@ -18,8 +18,8 @@
 observer-independent furniture with interacting components (matter, life, earth bodies,
 fields), inputs/outputs (solar influx, radiogenic heat, meteoritic input, radiative loss),
 and feedback (climate — weathering — biosphere; mantle — crust — surface) whose collective
-behavior resists component-level reduction. It binds `(root) := <<Natural Element>>` as the
-generic system all other natural notes specialize.
+behavior resists component-level reduction. It binds `(root) := <<Ontic Element>>` as the
+generic ontic root all other natural notes specialize.
 
 ### What is this natural instance?
 
@@ -218,7 +218,7 @@ the formation naturally (`guideline/ambiguity_resolution.md`).
 
 ## References
 
-- [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Naturalis et Operis](note.html?n=meta/philosophia-naturalis-et-operis.md) (workflow, Ontic Order, ontic questionnaire, Limitation checklist, level gate, layer gate)
 - [Philosophia Artium Epistemicarum et Operis](note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Earth](note.html?n=nature/conceptual-model-natural-system/earth.md) (child: the planet system)

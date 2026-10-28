@@ -17,12 +17,19 @@
    in a natural note.
 2. **Primary workflow.**
    [Philosophia Naturalis et Operis](/note/note.html?n=meta/philosophia-naturalis-et-operis.md)
-   — "How to decompose any natural instance?", the Tabular view (6 categories → 17
-   element types, with role and instances), the Recursive view with its binding and
-   spine expansion rules, and "Which note schema used - in order to document a natural
-   element?". Two gates apply to every instance: each element carries its **level of
-   organization** (the same name at two levels is two nodes), and the **Limitation
-   checklist** (13 items) is recorded as ontic properties of the segment.
+   — "How to decompose any natural instance?": the **Ontic Order**, built from the ontic
+   template as a `Permitted Link Forms` table (substances, entities, mechanisms, events,
+   processes, states, trajectories, phenomena, properties, aspects, spaces, times,
+   environments, substrates, constraints) with the natural kinds kept as specializations,
+   the relationship table that labels every connector (`(→ Kind)`, `(→ Part)`,
+   `(→ Generation)`, …), the ontic questionnaire, the instance table typed by backticked
+   grouping segments with every row the full path from `Ontic Element`, the quarry case
+   study, and "Which note schema used - in order to document an ontic element?".
+   Four gates apply to every instance: the **layer gate** (Ontic only — synontic elements
+   go to the socialium guide, information to the epistemicarum), the **full path** from
+   `Ontic Element` with **every link labelled**, each element's **level of organization**
+   (the same name at two levels is two nodes), and the **Limitation checklist** (13 items)
+   recorded as ontic properties of the segment.
 3. **Multi-typed instances.**
    [Ambiguity Resolution](ambiguity_resolution.md) plus "How to
     decompose an instance that belongs to multiple element types?" in the

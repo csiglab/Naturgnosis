@@ -15,9 +15,11 @@ expand them into full records.
 
 ## Boundary
 
-- **Nature (this module)** holds elements whose referent is observer-independent reality
-  (cf. the Ontic Order branch in `/note/note.html?n=meta/philosophia-artium-epistemicarum-et-operis.md`).
-  Epistemic scaffolding — operators, standards, frameworks, artifacts, methods — stays in
+- **Nature (this module)** holds elements whose referent is observer-independent reality —
+  the Ontic layer, typed by the Ontic Order in
+  `/note/note.html?n=meta/philosophia-naturalis-et-operis.md`. Synontic elements belong to
+  the social reading and information belongs to the epistemicarum guide. Epistemic
+  scaffolding — operators, standards, frameworks, artifacts, methods — stays in
   `epistemica`, even when it describes natural phenomena.
 - New nature content is decomposed per "How to decompose any natural instance?"
    (`/note/note.html?n=meta/philosophia-naturalis-et-operis.md`); see the nature route
