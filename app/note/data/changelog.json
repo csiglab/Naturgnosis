@@ -412,7 +412,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Rebuilt as the Ontic Order: root type Ontic Element, ontic template with the natural kinds kept as specializations, permitted link forms, relationship table labelling every connector (Kind, Instance, Part, Member, Component, Has, Association, Occurrence, Generation, Predication, Participation, Attribute, Situation, Substrate, Bound), full paths from Ontic Element, layer gate, ontic questionnaire, quarry case study, and ontic-element note schema."
+        "summary": "Rebuilt as the Ontic Order: root type Ontic Element, ontic template with the natural kinds kept as specializations, permitted link forms, relationship table labelling every connector (Kind, Instance, Part, Member, Component, Has, Association, Occurrence, Generation, Predication, Participation, Attribute, Situation, Substrate, Bound), full paths from Ontic Element, layer gate, ontic questionnaire, quarry case study, and ontic-element note schema.",
+        "commit": "c2dd08b13797b2e488f0a06160d73c95fd7e45ab",
+        "before": "fa740fcdac20f04492e15125baf64ee2a6f8923b"
       }
     ]
   },
@@ -18815,7 +18817,9 @@
       {
         "date": "2026-10-28",
         "kind": "docs",
-        "summary": "Rebound the root placeholder from <<Natural Element>> to <<Ontic Element>> and updated the workflow reference to the Ontic Order."
+        "summary": "Rebound the root placeholder from <<Natural Element>> to <<Ontic Element>> and updated the workflow reference to the Ontic Order.",
+        "commit": "c2dd08b13797b2e488f0a06160d73c95fd7e45ab",
+        "before": "fa740fcdac20f04492e15125baf64ee2a6f8923b"
       }
     ]
   },
