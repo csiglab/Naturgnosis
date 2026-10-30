@@ -4117,7 +4117,7 @@
     "layer": "Epistemic",
     "category": "epistemicDomain",
     "description": "The inquiry domain that makes the Earth intelligible: its spheres, the processes moving matter and energy through them, the archives holding its history, and the models predicting what it will do next.",
-    "longDescription": "A family of disciplines rather than one, decomposed recursively in note epistemica/earth-science.md: fourteen sub-field families (solid earth, geophysical, geochemical, hydrological, cryospheric, atmospheric, climate, ocean, historical, earth-life, planetary, geospatial, applied, and earth system sciences), each holding its disciplines and their sub-fields, plus the scaffolding shared across them. Bounded cut: the planetary body and its deep history are in; the observing instruments (technique), the industries and agencies acting on the results (social and production), and the Earth as a natural instance (nature) are out. Secondary readings: the Earth as a Segment of Reality is a natural instance decomposed under Philosophia Naturalis; the accumulated maps, models, and records are its DCESA. No row carries two types.",
+    "longDescription": "A family of disciplines rather than one, decomposed recursively in note epistemica/discipline/earth-science.md: fourteen sub-field families (solid earth, geophysical, geochemical, hydrological, cryospheric, atmospheric, climate, ocean, historical, earth-life, planetary, geospatial, applied, and earth system sciences), each holding its disciplines and their sub-fields, plus the scaffolding shared across them. Bounded cut: the planetary body and its deep history are in; the observing instruments (technique), the industries and agencies acting on the results (social and production), and the Earth as a natural instance (nature) are out. Secondary readings: the Earth as a Segment of Reality is a natural instance decomposed under Philosophia Naturalis; the accumulated maps, models, and records are its DCESA. No row carries two types.",
     "chronology": {
       "summary": "From eighteenth-century mineralogy and mining, through stratigraphy and evolutionary succession, to seismology revealing the interior, plate tectonics and radiometric dating making deep history testable, and satellite geodesy and coupled climate modelling making the whole system a state to predict.",
       "events": []
@@ -4162,7 +4162,7 @@
     ],
     "specific": {
       "inquiryKind": "observation-and-archive-driven-planetary-inference",
-      "noteRef": "epistemica/earth-science.md",
+      "noteRef": "epistemica/discipline/earth-science.md",
       "domainScope": "the planetary body, mineral grain to planetary interior, present and deep past",
       "knowledgeBoundaries": "open system under deep time, interior partial observability, and non-repeatable events",
       "primaryObjects": [
@@ -4179,7 +4179,7 @@
     },
     "metadata": {
       "confidenceScore": 0.8,
-      "sourceReference": "Philosophia Artium Epistemicarum decomposition; note epistemica/earth-science.md.",
+      "sourceReference": "Philosophia Artium Epistemicarum decomposition; note epistemica/discipline/earth-science.md.",
       "createdAt": "2026-09-29T00:00:00Z",
       "auditTrail": [
         {
@@ -4193,7 +4193,7 @@
     "references": [
       {
         "title": "Philosophia Artium Epistemicarum et Operis",
-        "description": "Decomposition workflow and element-type table; note epistemica/earth-science.md."
+        "description": "Decomposition workflow and element-type table; note epistemica/discipline/earth-science.md."
       },
       {
         "title": "Agricultural Science (epistemica:plant-science-001)",
@@ -8144,7 +8144,7 @@
     "layer": "Epistemic",
     "category": "epistemicDomain",
     "description": "The inquiry domain that makes the agricultural organism intelligible: what a crop plant or livestock animal is, how it grows and allocates, how it responds to water, nutrient, temperature, and disease pressure, how its product responds to processing and storage, and how those responses are predicted, tested, and improved.",
-    "longDescription": "Bounded cut: the crop plant, the soil-plant system, the crop community, the seed and propagation system, the livestock animal, the animal-housing system, the herd and flock, the breeding population, the food matrix, and the pathogen, pest, and spoilage populations acting on them are in; cultivation, husbandry, and processing hardware (technique), the farm, firm, and market organization (social and production), and the organism as a living system at organ, tissue, and cellular level (nature) are out. Measurement executed in the field, the barn, or the pilot plant is technical; what it warrants believing is epistemic (see meta/ambiguity-resolution.md). The accumulated fits, trial series, feeding and processing trials, composition tables, assemblies, and ontic maps form this domain’s DCESA. Full middle-depth decomposition in note epistemica/agricultural-science.md; counterpart technique:plant-cultivation-001.",
+    "longDescription": "Bounded cut: the crop plant, the soil-plant system, the crop community, the seed and propagation system, the livestock animal, the animal-housing system, the herd and flock, the breeding population, the food matrix, and the pathogen, pest, and spoilage populations acting on them are in; cultivation, husbandry, and processing hardware (technique), the farm, firm, and market organization (social and production), and the organism as a living system at organ, tissue, and cellular level (nature) are out. Measurement executed in the field, the barn, or the pilot plant is technical; what it warrants believing is epistemic (see meta/ambiguity-resolution.md). The accumulated fits, trial series, feeding and processing trials, composition tables, assemblies, and ontic maps form this domain’s DCESA. Full middle-depth decomposition in note epistemica/discipline/agricultural-science.md; counterpart technique:plant-cultivation-001.",
     "chronology": {
       "summary": "From the herbarium and determinate description through Linnaean classification, microscopy and germ theory, physiology and Mendelian genetics, to population genetics, crop simulation, herd recording and BLUP sire evaluation, food chemistry and thermal process science, and high-throughput phenotyping with genome-enabled prediction.",
       "events": []

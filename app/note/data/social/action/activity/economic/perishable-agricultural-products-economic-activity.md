@@ -595,7 +595,7 @@ $$
 - https://onlinelibrary.wiley.com/doi/10.1111/jbl.12367
 - [Economic Activity](note.html?n=social/action/activity/economic/economic-activity.md)
 - [Commerce Economic Activity](note.html?n=social/action/activity/economic/commerce-economic-activity.md)
-- [Agricultural Science](note.html?n=epistemica/agricultural-science.md)
+- [Agricultural Science](note.html?n=epistemica/discipline/agricultural-science.md)
 - [Production Function](note.html?n=epistemica/production-function.md)
 - [Retail Supply–Demand Matching](note.html?n=technique/retail-supply-demand-matching.md)
 - [Logistics System](note.html?n=technique/logistics-system.md)

@@ -1,21 +1,31 @@
 [
   {
-    "file_path": "epistemica/agricultural-science.md",
+    "file_path": "epistemica/discipline/agricultural-science.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/agricultural-science.md — a discipline-family root; filed under `epistemica/discipline/`."
       }
     ]
   },
   {
-    "file_path": "epistemica/earth-science.md",
+    "file_path": "epistemica/discipline/earth-science.md",
     "logs": [
       {
         "date": "2026-10-10",
         "kind": "docs",
         "summary": "Dropped the `-> <Order>` segment from decomposition paths per the reworked guide."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/earth-science.md — a discipline-family root; filed under `epistemica/discipline/`."
       }
     ]
   },
@@ -12152,12 +12162,17 @@
     ]
   },
   {
-    "file_path": "epistemica/marketing-science.md",
+    "file_path": "epistemica/discipline/marketing-science.md",
     "logs": [
       {
         "date": "2026-10-20",
         "kind": "feat",
         "summary": "Moved the Marketing Science note from Epistecnica into the epistemica corpus; references repointed to the Naturgnosis guide and the companion technique note."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/marketing-science.md — a discipline-family root; filed under `epistemica/discipline/`."
       }
     ]
   },
@@ -29827,6 +29842,256 @@
         "kind": "feat",
         "summary": "New per-facet section hub listing the research facet note.",
         "commit": "35cb3c77f2e7df6f3d0a8426661bc89744e9a504"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/economy.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/economy.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/microeconomia.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/microeconomia.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/macroeconomia.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/macroeconomia.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/behavioral.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/behavioral.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/developmental.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/developmental.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/institutional.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/institutional.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/international.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/international.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/public.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/public.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/industrial.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/industrial.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/financial.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/financial.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/welfare.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/welfare.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/innovation.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/innovation.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/political.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/political.md — economics is a discipline (epistemic practice); filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/economic-research.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/economic-research.md — the discipline's research practice, not a theory; filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/discipline/history-of-economic-thinking.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/history/history-of-economic-thinking.md — the discipline's intellectual history, not a theory; filed under `epistemica/discipline/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/keynesian.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/keynesian.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/marginalism.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/marginalism.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/equilibrium.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/equilibrium.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/organizational.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/organizational.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/matching.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/matching.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/model/open-economy.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/model/open-economy.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/model/closed-economy.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/model/closed-economy.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/model/monetary/phillips.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/model/monetary/phillips.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/model/monetary/triffin.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/model/monetary/triffin.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/theory/history/trade.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Moved from epistemica/economy/history/trade.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
       }
     ]
   }
