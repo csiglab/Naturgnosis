@@ -382,8 +382,6 @@ It is not an `Organizational Administration` (the internal administration of one
 
 > Identify established theoretical frameworks, international standards, and comparative assessment tools that can inform the design of a comprehensive, multidimensional system for characterizing government-wide public administration systems.
 
-> The generic doctrine for building and validating characterization systems is systematized in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md); the table below lists domain frameworks instantiating it for government-wide administration.
-
 | Guiding Element | Description | Usage |
 |---|---|---|
 | **Comparative Public Administration** | Frameworks for comparing administrative structures, institutions, traditions, and practices across countries. | Identify dimensions that distinguish national administrative systems and enable systematic cross-country comparison. |
@@ -402,8 +400,6 @@ It is not an `Organizational Administration` (the internal administration of one
 | **International Administrative Standards and Guidance** | Standards and guidance relevant to organizational governance, risk management, internal control, human resource management, and information management. | Define specific dimensions and operational criteria for evaluating administrative processes and control arrangements. |
 | **National Administrative Legislation and Civil Service Rules** | Constitutional provisions, civil service statutes, administrative laws, regulations, and government-wide personnel rules. | Identify formal institutional arrangements and distinguish legally established systems from observed practices. |
 | **Comparative Administrative Case Studies** | Empirical studies documenting how administrative systems operate in different countries and historical contexts. | Test whether proposed dimensions capture meaningful institutional variation and identify omitted characteristics. |
-
-> Generic methods for deriving and validating dimensions — system decomposition, taxonomy development, typology construction, morphological analysis, multidimensional measurement, configuration analysis, case selection, and iterative framework development — are systematized once in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md); they are not restated here.
 
 ### Which Types of Elements Are Used to Construct the Dimensions of a Government-Wide Administrative System Characterization?
 
@@ -432,13 +428,13 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### Why Is Model-Based Characterization More Useful Than Element-Based or Entity-Type-Based Characterization?
 
-> Because it organizes characteristics around how the system's functions, relationships, and mechanisms operate rather than listing components or classifying entities — the composite-model approach to a Comparactive Representation System, systematized in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md).
+> Because it organizes characteristics around how the system's functions, relationships, and mechanisms operate rather than listing components or classifying entities — the composite-model approach to characterization.
 
 ### How to Evaluate a Characterization System for Government-Wide Public Administration Systems?
 
 > Establish criteria and methods for assessing the conceptual coherence, completeness, distinctiveness, operationalizability, comparability, reliability, and empirical validity of a characterization system for government-wide public administration systems.
 
-> The general evaluation criteria are systematized in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md); the table below lists only the government-wide-specific additions and does not restate them.
+> The table below lists the evaluation criteria specific to government-wide administration.
 
 | Criteria | Description |
 |---|---|
@@ -483,7 +479,6 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## References
 
-- [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](note.html?n=meta/philosophia-conceptuum-et-operis.md)
 - [Collective](note.html?n=social/collective/collective.md)

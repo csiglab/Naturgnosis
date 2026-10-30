@@ -2754,6 +2754,11 @@
         "kind": "chore",
         "summary": "Relocated from `social/actor/...` to `social/collective/actor/...` (actor corpus moved under Collective); in-note links updated.",
         "commit": "b4c30f44b9c851008382617c268cf1304f232349"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Removed the references to the retired comparativae philosophia; the Public Organization Space instantiation is unchanged."
       }
     ]
   },
@@ -7264,6 +7269,11 @@
         "date": "2026-10-15",
         "kind": "refactor",
         "summary": "Renormalized body terminology to Comparactive Representation / Comparactive Representation System / Characteristic Element / Comparative Profile; math sense keeps characterization."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Retired the note: its characterization-system doctrine has no successor in the corpus, and its remaining references were removed from the two public-organization notes and the public-organization atlas."
       }
     ]
   },
@@ -7390,6 +7400,11 @@
         "kind": "chore",
         "summary": "Relocated from `social/actor/...` to `social/collective/actor/...` (actor corpus moved under Collective); in-note links updated.",
         "commit": "b4c30f44b9c851008382617c268cf1304f232349"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Removed the references to the retired comparativae philosophia and rewrote the two lead-ins and the evaluation preamble accordingly."
       }
     ]
   },

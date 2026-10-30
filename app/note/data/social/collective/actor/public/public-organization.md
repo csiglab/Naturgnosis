@@ -68,7 +68,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 > The resulting characterization should enable individual organizations to be described consistently, organizational types to be distinguished systematically, and the organization space to be analyzed as a structured domain.
 
-> The general doctrine — general form of a characterization system, element derivation, concrete methods, and evaluation criteria — is systematized once in [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md). This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](/note/data/social/collective/actor/public/atlas/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organizations Compared](/note/data/social/collective/actor/public/atlas/public-organization.html).
+> This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](/note/data/social/collective/actor/public/atlas/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organizations Compared](/note/data/social/collective/actor/public/atlas/public-organization.html).
 
 ### How can the degree of separation between policy formulation and operational execution be characterized, measured, and evaluated in relation to an organization's overall performance?
 
@@ -196,7 +196,6 @@ It is the government subtype of Organization: what individuates it is not its in
 
 - [Atlas of Public Organization Comparative Representation Systems](/note/data/social/collective/actor/public/atlas/public-organization-characterization-systems.html)
 - [Public Organizations Compared](/note/data/social/collective/actor/public/atlas/public-organization.html)
-- [Philosophia Representationis Comparativae et Operis](note.html?n=meta/philosophia-representationis-comparativae-et-operis.md)
 - [Philosophia Socialium et Operis](note.html?n=meta/philosophia-socialium-et-operis.md)
 - [Organization](note.html?n=social/collective/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Board](note.html?n=social/collective/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
