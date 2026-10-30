@@ -2758,7 +2758,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Removed the references to the retired comparativae philosophia; the Public Organization Space instantiation is unchanged."
+        "summary": "Removed the references to the retired comparativae philosophia; the Public Organization Space instantiation is unchanged.",
+        "commit": "eee6412f0f8ab559de635e92a74472bb03a84ffe",
+        "before": "456d1abf33d9e2f0725633be8627f136d18f9c5d"
       }
     ]
   },
@@ -7273,7 +7275,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Retired the note: its characterization-system doctrine has no successor in the corpus, and its remaining references were removed from the two public-organization notes and the public-organization atlas."
+        "summary": "Retired the note: its characterization-system doctrine has no successor in the corpus, and its remaining references were removed from the two public-organization notes and the public-organization atlas.",
+        "commit": "eee6412f0f8ab559de635e92a74472bb03a84ffe",
+        "before": "456d1abf33d9e2f0725633be8627f136d18f9c5d"
       }
     ]
   },
@@ -7404,7 +7408,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Removed the references to the retired comparativae philosophia and rewrote the two lead-ins and the evaluation preamble accordingly."
+        "summary": "Removed the references to the retired comparativae philosophia and rewrote the two lead-ins and the evaluation preamble accordingly.",
+        "commit": "eee6412f0f8ab559de635e92a74472bb03a84ffe",
+        "before": "456d1abf33d9e2f0725633be8627f136d18f9c5d"
       }
     ]
   },
