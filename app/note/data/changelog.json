@@ -486,7 +486,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Replaced the flat permitted-links star with a five-layer lane grammar: `Moral Element -> Kind -> Moral Element Set -> Kind -> Moral Order / Moral Compound -> Has -> <<Moral Lane>> -> Has -> lane constituent`. Added the ten lanes as structural types (Agency, Goods, Claim, Action, Deliberation, Adjudication, Answerability, Transmission, Dynamics, Condition) with fourteen slot expansions, collapsed the twenty-five `Kind` rows, retired the category tags, added the `Binds`, `Governs`, `Assesses`, `Establishes`, `Conditions`, `Scopes` and `Realized By` labels, and re-typed the case study along lanes (79 rows)."
+        "summary": "Replaced the flat permitted-links star with a five-layer lane grammar: `Moral Element -> Kind -> Moral Element Set -> Kind -> Moral Order / Moral Compound -> Has -> <<Moral Lane>> -> Has -> lane constituent`. Added the ten lanes as structural types (Agency, Goods, Claim, Action, Deliberation, Adjudication, Answerability, Transmission, Dynamics, Condition) with fourteen slot expansions, collapsed the twenty-five `Kind` rows, retired the category tags, added the `Binds`, `Governs`, `Assesses`, `Establishes`, `Conditions`, `Scopes` and `Realized By` labels, and re-typed the case study along lanes (79 rows).",
+        "commit": "cb1c85b1bf865d9bff910bb0b1bcc8bede63659e",
+        "before": "1d9328aee7828462a573223598ec0fbf011295f5"
       }
     ]
   },
