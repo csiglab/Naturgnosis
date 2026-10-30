@@ -370,6 +370,11 @@
         "summary": "Rewrote the CRM System case: every Instance Tree Path now begins at the root node `Technical Element` and labels each link (`(→ Kind)`, `(→ Has)`, `(→ Part)`, `(→ Instance)`); inserted the missing `Technical Evaluation` segments above `Verification` and `Validation`; placed the exemplar deployments beside the application instead of beneath it; replaced the 'Grouping:' placeholders with descriptions of what each segment holds; and aligned the path, root, labeling and well-formedness rules with the labelled-link form. Added a critical conceptual evaluation of the `Technical Element` definition's own wording, in criterion/verdict/diagnostic form across the Philosophia Conceptuum criteria. Replaced the definition of `Technical Element` with a role-and-test formulation — a role in a purposeful transformation of reality, admission decided by whether removal, substitution, or alteration changes the transformation — and re-scored the critical evaluation against the revised wording.",
         "commit": "c32c8eee7e95be22a51abb3532557f4dca5e9e17",
         "before": "a0f9d406c6e1d9fc3f8014699763b7ea67e418c0"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Relabelled the CRM case's 129 non-subtype `Kind` links with the relationship-type table's semantics (`Has`, `Governed By`, `Evaluated By`, `Maintained By`, `Enables`, `Produces`), keeping `Kind` only for true subtyping; documented the generic link form and the `Instance` exemption in the Permitted Links rule, restored the Root rule's grouping-segment clause, scoped the `Set` suffix to ensembles, and removed the empty link-types heading."
       }
     ]
   },
