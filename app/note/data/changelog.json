@@ -374,7 +374,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Relabelled the CRM case's 129 non-subtype `Kind` links with the relationship-type table's semantics (`Has`, `Governed By`, `Evaluated By`, `Maintained By`, `Enables`, `Produces`), keeping `Kind` only for true subtyping; documented the generic link form and the `Instance` exemption in the Permitted Links rule, restored the Root rule's grouping-segment clause, scoped the `Set` suffix to ensembles, and removed the empty link-types heading."
+        "summary": "Relabelled the CRM case's 129 non-subtype `Kind` links with the relationship-type table's semantics (`Has`, `Governed By`, `Evaluated By`, `Maintained By`, `Enables`, `Produces`), keeping `Kind` only for true subtyping; documented the generic link form and the `Instance` exemption in the Permitted Links rule, restored the Root rule's grouping-segment clause, scoped the `Set` suffix to ensembles, and removed the empty link-types heading.",
+        "commit": "534850e3d3a181a0a6d46ba0a8188c9078173df0",
+        "before": "3d9160310f5b2d7b18deb7557c0eb5b43a00bdf9"
       }
     ]
   },
