@@ -365,7 +365,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Pruned the mechanism/technical-object QA and the description-evaluation QA; both are superseded by the surviving mechanism-realization and validation answers."
+        "summary": "Pruned the mechanism/technical-object QA and the description-evaluation QA; both are superseded by the surviving mechanism-realization and validation answers.",
+        "commit": "68c7f58c74a32ee827ee172ac2a72caaac6b5268",
+        "before": "ea3906c7a9e47b4ee3f921006b68608a648f93e8"
       }
     ]
   },
@@ -573,7 +575,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Pruned the superseded decomposition-structure preamble and the tags(adjectives) section and its Case table; the fundamental-structure block and the permitted-link `Tags` column carry both jobs."
+        "summary": "Pruned the superseded decomposition-structure preamble and the tags(adjectives) section and its Case table; the fundamental-structure block and the permitted-link `Tags` column carry both jobs.",
+        "commit": "68c7f58c74a32ee827ee172ac2a72caaac6b5268",
+        "before": "ea3906c7a9e47b4ee3f921006b68608a648f93e8"
       }
     ]
   },
