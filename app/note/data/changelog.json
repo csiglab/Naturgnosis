@@ -30243,5 +30243,15 @@
         "summary": "Moved from epistemica/economy/history/trade.md — a model/theory produced by the field, not a discipline; filed under `epistemica/theory/`."
       }
     ]
+  },
+  {
+    "file_path": "meta/philosophia-artium-lectionis-et-operis.md",
+    "logs": [
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added a References section linking the raw GitHub sources of the element guides (epistemicarum, technicarum, conceptuum, naturalis, socialium, moralis, dialectic, principle) and the ambiguity reading; repaired the front-matter delimiter."
+      }
+    ]
   }
 ]
