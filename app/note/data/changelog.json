@@ -361,6 +361,11 @@
         "summary": "Named every link in the Arithmetic instance tree paths with its relationship type, added the five missing parent rows, and rebased the tree on `Epistemic Element → Epistemic Element Set → Epistemic Practice → Arithmetic`; restored the tags section.",
         "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
         "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Pruned the mechanism/technical-object QA and the description-evaluation QA; both are superseded by the surviving mechanism-realization and validation answers."
       }
     ]
   },
@@ -564,6 +569,11 @@
         "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
         "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
         "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Pruned the superseded decomposition-structure preamble and the tags(adjectives) section and its Case table; the fundamental-structure block and the permitted-link `Tags` column carry both jobs."
       }
     ]
   },

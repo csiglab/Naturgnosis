@@ -52,14 +52,6 @@ tags: [social-ontology, method]
 
 > Social practice is grounded in the lived experience of togetherness: intentionality directed at others, mutual recognition, and the lifeworld — the pre-given horizon of shared meanings, typifications, and habitual certainties within which every encounter already finds itself. Interaction units (individuals, groups, organizations, polities, networked collectives) and agencies (structured capacities for intention, selection, execution, and feedback) are crystallizations of this phenomenological ground, not its foundation: they name how the self–other pairing stabilizes into recognizable actors, never what makes the pairing possible.
 
-### What Is the Structure of a Social Element's Decomposition Tree?
-
-> How Can We Characterize the Social Dimension of Human Experience?
-
-> A taxonomy (conceptual structure) that renders the `social reality` intelligible.
-
-> A `Social Element` is a conceptual innovation that denotes a constituent of social reality, analytically identifiable as an instance of a social element type and capable of being recursively decomposed into other social elements through explicitly typed relationships.
-
 #### What is the fundamental structure of a social element's `Decomposition Tree`?
 
 ```text
@@ -107,26 +99,6 @@ Social Element (parent)
 | --- | --- | --- |
 | `<<Social Element>>` | any type licensed in this guide | Binds the parent or child of a permitted link; the specific rows decide which pairs are permitted. |
 | `<<Activity>>` | `Activity` | The coarse bundle of granular social actions in which an interaction unit participates. |
-
-### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
-
-> `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.
-
-Usage rules
-
-- Tags qualify nodes; they do not replace the underlying type. For example, Collective [Temporary] remains a collective.
-- Use a subtype when the distinction defines a recognized kind. Use a tag when the distinction qualifies an instance or can apply across multiple kinds.
-- Allow multiple tags per node. A collective can be Formal, Membership-Based, Transnational, and Agentic simultaneously.
-- Do not confuse a tag with a relationship. Hierarchical describes an organizational arrangement; (→ Part) expresses a decomposition relationship.
-- Avoid redundant tags. If a subtype already entails a characteristic in the intended context, do not add the same tag unless it provides meaningful additional information.
-- Distinguish a known absence from missing information. Non-Agentic should be used only when the absence of collective agency is established, not merely because agency has not been documented.
-
-
-Case:
-
-| Category               | Tags                  | Description                                                                                                                           | Usage                            |
-| ---------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| Interaction Structure  | `Dyadic`              | Characterized by a relation or interaction between two participants.                                                                  | Dyadic Relationship              |
 
 ## How to decompose any social element?
 
