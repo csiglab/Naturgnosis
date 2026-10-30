@@ -30,7 +30,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Retyped `Epistemic Framework Domain` rows as `Epistemic Domain` per the reworked guide: families, disciplines, and sub-fields are one type, distinguished by path position."
+        "summary": "Retyped `Epistemic Framework Domain` rows as `Epistemic Domain` per the reworked guide: families, disciplines, and sub-fields are one type, distinguished by path position.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -356,7 +358,9 @@
       {
         "date": "2026-10-30",
         "kind": "fix",
-        "summary": "Named every link in the Arithmetic instance tree paths with its relationship type, added the five missing parent rows, and rebased the tree on `Epistemic Element → Epistemic Element Set → Epistemic Practice → Arithmetic`; restored the tags section."
+        "summary": "Named every link in the Arithmetic instance tree paths with its relationship type, added the five missing parent rows, and rebased the tree on `Epistemic Element → Epistemic Element Set → Epistemic Practice → Arithmetic`; restored the tags section.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -416,7 +420,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -446,7 +452,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -466,7 +474,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -500,7 +510,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -537,7 +549,9 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -12120,7 +12134,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Retyped the epistemic forest after the guide rework: `Epistemic Target` → `Epistemic Domain`, target segments → `Segment of Reality`, `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Object` → `Concrete Epistemic Artifact`, `Error`/`Feedback` → `Epistemic Error`/`Epistemic Feedback`."
+        "summary": "Retyped the epistemic forest after the guide rework: `Epistemic Target` → `Epistemic Domain`, target segments → `Segment of Reality`, `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Object` → `Concrete Epistemic Artifact`, `Error`/`Feedback` → `Epistemic Error`/`Epistemic Feedback`.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
@@ -18971,7 +18987,9 @@
       {
         "date": "2026-10-30",
         "kind": "refactor",
-        "summary": "Retyped the decomposition after the guide rework: `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Target` → `Epistemic Domain`."
+        "summary": "Retyped the decomposition after the guide rework: `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Target` → `Epistemic Domain`.",
+        "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
+        "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
       }
     ]
   },
