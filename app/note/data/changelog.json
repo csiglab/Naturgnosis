@@ -30250,7 +30250,8 @@
       {
         "date": "2026-10-30",
         "kind": "docs",
-        "summary": "Added a References section linking the raw GitHub sources of the element guides (epistemicarum, technicarum, conceptuum, naturalis, socialium, moralis, dialectic, principle) and the ambiguity reading; repaired the front-matter delimiter."
+        "summary": "Added a References section linking the raw GitHub sources of the element guides (epistemicarum, technicarum, conceptuum, naturalis, socialium, moralis, dialectic, principle) and the ambiguity reading; repaired the front-matter delimiter.",
+        "commit": "ee59f29899e8505a88256915e3ebc6edbfaa8d8d"
       }
     ]
   }
