@@ -83,7 +83,7 @@ tags: [actor, person, philosophy, metaphysics, political-philosophy]
 
 ## Epistemic Practice
 
-> Spinoza is also a profound epistemic agent, and his social note carries an epistemic reading beside its social one. His practice is the organized work of an `Epistemic Agent` binding together an `Epistemic Orientation` (the pursuit of blessedness through adequate knowledge), an `Epistemic Operation` (deduction *more geometrico* and historical-critical exegesis), an `Epistemic Representation` (the geometrical order and the Hebrew grammar), a body of `Epistemic Construction`s (the substance-monism metaphysics, the theory of the affects, the political theory, and the rest), an `Epistemic Evaluation` (adequacy and geometrical certainty), an `Epistemic Access` regime (sense-experience, reason, intuitive knowledge, and the Scriptural text), an `Epistemic Communication` circuit (manuscript circulation, anonymous and posthumous publication, the correspondence), the `Epistemic Context` of *herem* and censorship, and the `Epistemic Infrastructure` of his workshop, library, and circles.
+> Spinoza is also a profound epistemic agent, and his social note carries an epistemic reading beside its social one. His practice is the organized work of an `Epistemic Agent` binding together an `Epistemic Orientation` (the pursuit of blessedness through adequate knowledge), an `Epistemic Operation` (deduction *more geometrico* and historical-critical exegesis), an `Epistemic Representation` (the geometrical order and the Hebrew grammar), a `Concrete Epistemic Artifact Set` (the substance-monism metaphysics, the theory of the affects, the political theory, and the rest), an `Epistemic Evaluation` (adequacy and geometrical certainty), an `Epistemic Access` regime (sense-experience, reason, intuitive knowledge, and the Scriptural text), an `Epistemic Communication` circuit (manuscript circulation, anonymous and posthumous publication, the correspondence), the `Epistemic Context` of *herem* and censorship, and the `Epistemic Infrastructure` of his workshop, library, and circles.
 >
 > Per the ambiguity reading (`guideline/ambiguity_resolution.md`), this is a multi-root note: the primary reading is social ([Formulation](#formulation)) and the epistemic reading is a full secondary tree set. The reading is decomposed below as a forest — one tree per epistemic element, grown from the epistemic guide's permitted link forms — and cross-linked to the [Works](#works) table. No row carries two types and no reading is merged into a hybrid type.
 
@@ -130,39 +130,39 @@ tags: [actor, person, philosophy, metaphysics, political-philosophy]
 | `Epistemic Representation` → Spinoza's Epistemic Representations → `Representational System` → Biblical Hebrew → `Representation Element` → Hebrew Lexeme | A biblical Hebrew word and its determined sense. |
 | `Epistemic Representation` → Spinoza's Epistemic Representations → `Representational System` → Biblical Hebrew → `Constitutive Substrate` → Grammar Rule | The regularities governing biblical Hebrew forms. |
 |  |  |
-| **▸ `Epistemic Construction` → Spinoza's Epistemic Constructions** | **Root tree 5 of 11.** The content artifacts produced to organize, preserve, and extend knowledge; each may be carried by several documents ([Works](#works)). |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Substance Monism Theory | Theory of the one infinite, self-caused substance, its attributes, and its modes; carried by the *Ethics*, the *Short Treatise*, and the *Correspondence*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Mind–Body Identity Theory | Theory that mind and body are one thing expressed under two attributes; carried by *Ethics* II and the *Short Treatise*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Theory of the Affects | Theory ordering the emotions as properties of the mind by their causes; carried by *Ethics* III. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Threefold Knowledge Model | Model of the three kinds of knowledge — imagination, reason, and intuitive knowledge; carried by *Ethics* II and the *TIE*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Human Freedom Theory | Theory of freedom as knowledge of necessity and the intellectual love of God; carried by *Ethics* IV–V and the *Short Treatise*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Concept of Conatus | Concept of the striving by which each thing perseveres in being; carried by *Ethics* III and *Metaphysical Thoughts*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Cartesian Philosophy Reconstruction | Geometrical reconstruction of Descartes's philosophy; carried by the *Principles of Cartesian Philosophy* and *Metaphysical Thoughts*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Historical-Critical Theory of Scripture | Theory that Scripture is interpreted from its own language, history, and author; carried by the *TTP*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Biblical Hebrew Description | Description of the forms and regularities of biblical Hebrew; carried by the *Hebrew Grammar* and the *TTP*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Political Theory | Theory of the natural foundations of the state and the best constitution; carried by the *TTP* and the *Political Treatise*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Rainbow Explanation | Geometrical and physical explanation of the rainbow; carried by *On the Rainbow*. |
-| `Epistemic Construction` → Spinoza's Epistemic Constructions → `Epistemic Construction` → Probability Theory | Theory of the mathematics of chance; carried by *On the Calculation of Chances*. |
+| **▸ `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts** | **Root tree 5 of 11.** The content artifacts produced to organize, preserve, and extend knowledge; each may be carried by several documents ([Works](#works)). |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Substance Monism Theory | Theory of the one infinite, self-caused substance, its attributes, and its modes; carried by the *Ethics*, the *Short Treatise*, and the *Correspondence*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Mind–Body Identity Theory | Theory that mind and body are one thing expressed under two attributes; carried by *Ethics* II and the *Short Treatise*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Theory of the Affects | Theory ordering the emotions as properties of the mind by their causes; carried by *Ethics* III. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Threefold Knowledge Model | Model of the three kinds of knowledge — imagination, reason, and intuitive knowledge; carried by *Ethics* II and the *TIE*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Human Freedom Theory | Theory of freedom as knowledge of necessity and the intellectual love of God; carried by *Ethics* IV–V and the *Short Treatise*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Concept of Conatus | Concept of the striving by which each thing perseveres in being; carried by *Ethics* III and *Metaphysical Thoughts*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Cartesian Philosophy Reconstruction | Geometrical reconstruction of Descartes's philosophy; carried by the *Principles of Cartesian Philosophy* and *Metaphysical Thoughts*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Historical-Critical Theory of Scripture | Theory that Scripture is interpreted from its own language, history, and author; carried by the *TTP*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Biblical Hebrew Description | Description of the forms and regularities of biblical Hebrew; carried by the *Hebrew Grammar* and the *TTP*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Political Theory | Theory of the natural foundations of the state and the best constitution; carried by the *TTP* and the *Political Treatise*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Rainbow Explanation | Geometrical and physical explanation of the rainbow; carried by *On the Rainbow*. |
+| `Concrete Epistemic Artifact` → Spinoza's Concrete Epistemic Artifacts → `Concrete Epistemic Artifact` → Probability Theory | Theory of the mathematics of chance; carried by *On the Calculation of Chances*. |
 |  |  |
 | **▸ `Epistemic Evaluation` → Spinoza's Evaluative Regime** | **Root tree 6 of 11.** The structures through which constructions and operations are assessed. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Standard` → Geometrical Demonstration Standard | A claim stands only if each step follows by stated rule from the definitions and axioms. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Standard` → Adequacy Standard | An idea stands only if it is clear, distinct, and adequate. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Criterion` → Certainty Criterion | Truth is its own criterion; the adequate idea is the norm of itself. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Constraint` → Imagination-Bound Knowledge | The first kind of knowledge, tied to the senses, remains inadequate. |
-| `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Error` → Anthropomorphic Error | Attributing will, purpose, and passion to God. |
+| `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Error` → Anthropomorphic Error | Attributing will, purpose, and passion to God. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Validation` → Deductive Coherence Check | Verifying that each proposition coheres with the whole system. |
 | `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Validation` → Scriptural Consistency Check | Verifying that an interpretation accords with the text's teaching. |
-| `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Feedback` → Exegetical Revision | Returning a failed reading to the interpretive operation. |
+| `Epistemic Evaluation` → Spinoza's Evaluative Regime → `Epistemic Feedback` → Exegetical Revision | Returning a failed reading to the interpretive operation. |
 |  |  |
-| **▸ `Epistemic Target` → Spinoza's Target Domain** | **Root tree 7 of 11.** The reality toward which the inquiry is directed. |
-| `Epistemic Target` → Spinoza's Target Domain → `Target Domain` → Substance | The infinite, self-caused being: God or Nature. |
-| `Epistemic Target` → Spinoza's Target Domain → `Target Domain` → Scripture | The sacred text of the Hebrew and Christian traditions. |
-| `Epistemic Target` → Spinoza's Target Domain → `Target Domain` → Political Order | The commonwealth and the natural foundations of its authority. |
-| `Epistemic Target` → Spinoza's Target Domain → `Target Segment` → The Affects | The emotions considered as properties of the human mind. |
-| `Epistemic Target` → Spinoza's Target Domain → `Target Segment` → Human Bondage | The condition of being determined by passive affects. |
-| `Epistemic Target` → Spinoza's Target Domain → `Observable` → Affective Expression | A registrable feature of the emotions in body and mind. |
-| `Epistemic Target` → Spinoza's Target Domain → `Epistemic Object` → Conatus | The striving by which each thing perseveres in being, constituted as an object of explanation. |
-| `Epistemic Target` → Spinoza's Target Domain → `Epistemic Object` → The Modes | The finite affections of substance, constituted as objects of deduction. |
+| **▸ `Epistemic Domain` → Spinoza's Target Domain** | **Root tree 7 of 11.** The reality toward which the inquiry is directed. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Segment of Reality` → Substance | The infinite, self-caused being: God or Nature. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Segment of Reality` → Scripture | The sacred text of the Hebrew and Christian traditions. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Segment of Reality` → Political Order | The commonwealth and the natural foundations of its authority. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Segment of Reality` → The Affects | The emotions considered as properties of the human mind. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Segment of Reality` → Human Bondage | The condition of being determined by passive affects. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Observable` → Affective Expression | A registrable feature of the emotions in body and mind. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Concrete Epistemic Artifact` → Conatus | The striving by which each thing perseveres in being, constituted as an object of explanation. |
+| `Epistemic Domain` → Spinoza's Target Domain → `Concrete Epistemic Artifact` → The Modes | The finite affections of substance, constituted as objects of deduction. |
 |  |  |
 | **▸ `Epistemic Access` → Spinoza's Access Regime** | **Root tree 8 of 11.** The means by which the target becomes registrable. |
 | `Epistemic Access` → Spinoza's Access Regime → `Observation Interface` → Sense-Experience | The interface registering the first kind of knowledge. |

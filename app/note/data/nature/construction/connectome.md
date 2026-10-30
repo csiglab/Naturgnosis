@@ -34,8 +34,8 @@ and 10^14 synapses beneath the parcellation.
 
 ### What epistemic element type does this epistemic instance belong to?
 
-**`Epistemic Construction`** — the kind of element produced to organize, preserve, explain,
-or extend knowledge about a target, here a concrete artifact (`<<Epistemic Construction>>`:
+**`Concrete Epistemic Artifact`** — the kind of element produced to organize, preserve, explain,
+or extend knowledge about a target, here a concrete artifact (`<<Concrete Epistemic Artifact>>`:
 a dataset with its model and record) rather than a type. Its standing is `Validated` only
 against the criteria and resolution it states: a connectome is warranted as an edge claim
 at a given parcellation, threshold, and reconstruction method, not as the wiring in itself.
@@ -51,7 +51,7 @@ the artifact is documented here.
 
 Second, artifact versus representation: the connectivity matrix and the connectogram are
 an `Epistemic Representation` — the sign system in which the artifact's content is encoded
-— while the artifact's element type is `Epistemic Construction`. The guide settles the
+— while the artifact's element type is `Concrete Epistemic Artifact`. The guide settles the
 overlap — an epistemic representation is also a construction — so the primary type is
 Construction, and the encoding is decomposed as its representation layer. No compromise
 type is introduced.
@@ -65,17 +65,17 @@ type is introduced.
 > separate decomposition per artifact (dataset, model, pipeline).
 >
 > Identity: every Instance Tree Path is a valid prefix of the tree, and the placeholder is
-> rebound per row — an artifact row from `Epistemic Construction`, an interface row from
+> rebound per row — an artifact row from `Concrete Epistemic Artifact`, an interface row from
 > `Observation Interface`, never both on one row.
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
-| Connectome | The constructed connectivity of one nervous system at a stated parcellation, resolution, and pipeline. | Construction | `(root) := <<Epistemic Element>> -> Epistemic Construction` |
-| Connectome → Synaptic Wiring | The bounded segment of reality described: neurons and their synapses. Natural target; not decomposed here. | Target | `(root) := <<Epistemic Element>> -> Epistemic Target -> Segment of Reality -> System` |
-| Connectome → Connectome Dataset | Node set and edge list (or connectivity matrix) at the stated parcellation and resolution. | Construction | `(root) := <<Epistemic Element>> -> Epistemic Construction` |
-| Connectome → Connectome Model | Graph-theoretic model read off the dataset: degree, hubs, modules, and the null models they are tested against. | Construction | `(root) := <<Epistemic Element>> -> Epistemic Construction` |
-| Connectome → Parcellation Scheme | The convention fixing what counts as a node: region atlas, cell type, or individual neuron. | Construction | `(root) := <<Epistemic Element>> -> Epistemic Construction` |
-| Connectome → Reconstruction Record | Provenance of the artifact: specimen, modality, registration, segmentation, synapse detection, thresholds applied. | Construction | `(root) := <<Epistemic Element>> -> Epistemic Construction` |
+| Connectome | The constructed connectivity of one nervous system at a stated parcellation, resolution, and pipeline. | Construction | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
+| Connectome → Synaptic Wiring | The bounded segment of reality described: neurons and their synapses. Natural target; not decomposed here. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain -> Segment of Reality -> System` |
+| Connectome → Connectome Dataset | Node set and edge list (or connectivity matrix) at the stated parcellation and resolution. | Construction | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
+| Connectome → Connectome Model | Graph-theoretic model read off the dataset: degree, hubs, modules, and the null models they are tested against. | Construction | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
+| Connectome → Parcellation Scheme | The convention fixing what counts as a node: region atlas, cell type, or individual neuron. | Construction | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
+| Connectome → Reconstruction Record | Provenance of the artifact: specimen, modality, registration, segmentation, synapse detection, thresholds applied. | Construction | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
 | Connectome → Graph Notation | Adjacency matrix, edge list, and connectogram: the sign system the artifact's content is encoded in. | Representation | `(root) := <<Epistemic Element>> -> Epistemic Representation -> Representational System` |
 | Connectome → Electron Microscope | Boundary mechanism coupling tissue to registration at synapse resolution. | Access | `(root) := <<Epistemic Element>> -> Observation Interface -> Transduction` |
 | Connectome → Diffusion MRI Scanner | Boundary mechanism coupling white matter to registration at region resolution. | Access | `(root) := <<Epistemic Element>> -> Observation Interface -> Transduction` |

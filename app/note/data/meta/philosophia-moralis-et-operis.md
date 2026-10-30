@@ -107,6 +107,23 @@
 | **Dynamic** | (root) := <<Moral Element>> -> State | Complete relevant-variable snapshot of a moral posture at a moment. | Indebted, compromised, exonerated, entrusted |
 
 
+### Which are the available expansions of the slots?
+
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
+
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Moral Element>>` | Meta | Placeholder binding to any branch root; the path continues down that root's branch in order. |
+| `<<Moral Element>>` | Agents | Bounded entities capable of deliberation, choice, and answerability, with their conscience and compound units. |
+| `<<Moral Element>>` | Action | Attributable choices, their settled dispositions, and recurrent practices of right doing. |
+| `<<Moral Element>>` | Goods | What is worth protecting or realizing — the evaluative coordinators of conduct. |
+| `<<Moral Element>>` | Normative | Principles, duties, rights, and codes that bind judgment across cases. |
+| `<<Moral Element>>` | Deliberation | Weighing claims, consequences, and precedents through to an owned decision. |
+| `<<Moral Element>>` | Judgment | Verdicts attributing right or wrong to conduct, with their justifications and excuses. |
+| `<<Moral Element>>` | Responsibility | Answerability binding an act to its agent, and the sanctions or repairs restoring order. |
+| `<<Moral Element>>` | Structural | Compounds, traditions, and exemplars scoping a moral order. |
+| `<<Moral Element>>` | Dynamic | Consequences, transformations of character, and states of a moral posture over time. |
+
 ## How to decompose any moral instance?
 
 > A decomposition of a moral instance expands its tree from the root — the conduct under assessment — adding the agents, acts, goods, principles, duties, judgments, and responsibilities that bind, move, verdict, and answer for it.

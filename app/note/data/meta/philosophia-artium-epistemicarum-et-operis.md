@@ -10,8 +10,6 @@ tags: [epistemology, ontology, method]
 
 > This note is a guide connecting Reality (Nature) with its Representation — modeling, computation, formal systems, algorithms, observers, and representations. It is the complement of Philosophia Artium Technicarum et Operis: where that note systematizes intervention in reality, this one systematizes how reality becomes intelligible.
 
-> Physics is a training ground for rigorous modeling because it enforces precise, testable, and feedback-rich representations of reality. The value lies in transferring this epistemic discipline — rather than its specific models — into more complex domains like social systems.
-
 ## Formulation
 
 ### What is the nature of epistemic practice?
@@ -20,7 +18,7 @@ tags: [epistemology, ontology, method]
 
 > An epistemic activity is any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
 
-> The goal of epistemology is (1) to construct and maintain the scaffolding mechanisms of inquiry, and (2) to construct, validate, and derived a set of  Concrete Epistemic Artifact Set (DCESA) that represents reality.
+> The goal of epistemology is (1) to construct and maintain the scaffolding mechanisms of inquiry, and (2) to construct, validate, and derive the set of constructions about a domain — the Domain Epistemic Construction Set (DCESA) — that represents reality.
 
 ### What is the role of the `episteme` in human experience?
 
@@ -57,21 +55,11 @@ tags: [epistemology, ontology, method]
 
 > What is reality like? Which elements make it up? How do we identify them? How do we think deeply about change — and about change as an element of reality itself? Ontology answers by constraining what can be known; its constructs for parsing (segments, entities, processes, phenomena) live in the Artifact tree below, and its full template in the Ontic Order branch of the table.
 
-### What Is the Structure of an Epistemic Element's Decomposition Tree?
+### What Is a `Epistemic Element`?
 
-> How can we characterize the epistemical aspect of human experience?
+> An Epistemic Element is anything that occupies a role in the practice by which reality is made intelligible: the reality cut as a target; the practice that investigates it; the constructions it produces; or anything that enables, constrains, evaluates, communicates, or conditions that practice.
 
-> A taxonomy (conceptual structure) that renders the *inquiry-oriented* and *representation-oriented* practice of agents intelligible.
-
-> An `Epistemic Element` is a conceptual innovation that denotes a constituent of epistemic reality, analytically identifiable as an instance of an epistemic element type and capable of being recursively decomposed into other epistemic elements through explicitly typed relationships.
-
-> The labour of epistemic practice goes hand in hand with a layout of reality — that is its ontic template: every epistemic move presupposes an ontic parsing, and every ontic distinction earns its keep through epistemic use.
-
-> Note: Epistemic Element Type is recursive. Its elements are read under two types of order: the **Epistemic Order** (inquiry: orientation, agency, target, access, representation (including constitution), construction, operation, evaluation, communication, infrastructure, and conditions, plus `Aggregate` collections) and the **Ontic Order** (segments of reality and the existential/dynamical layering of what *is*). The `Permitted Link Forms` table below licenses how an element of one type decomposes into elements of another. Template slots (`<<…>>`) are bound with `:=` instead of instances. Scaffold elements supporting, structuring, or validating inquiry are distinct from the target elements (domains, segments, observables, objects) and ontic content, which are inquiry's objects. Relationships use `→` throughout.
-
-> This tries to capture the epistemic circuit  -- Why? → Who? → What? → How accessed? → What is done? → What is produced? → How judged? → Under what conditions? → What supports it?
-
-> Note: An epistemic representation is also a construction — representing a target is constructing an artifact about it.
+> Its boundaries are broad by design — a domain, a task, a notation, a dataset, and an ontic segment sit in the same category — but they are not empty: an element qualifies when its absence, substitution, or alteration changes what inquiry can reach, produce, or warrant, and the types order what it admits. The term denotes the category; the elements it covers are its instances.
 
 #### What is the fundamental structure of an epistemic element's `Decomposition Tree`?
 
@@ -90,86 +78,147 @@ Epistemic Element (parent)
 
 | Permitted Link Form | Description | Tags |
 | --- | --- | --- |
-| `Epistemic Element (→ Kind) Aggregate` | Classifies an element as a structured collection of epistemic elements organized as a coherent epistemic whole. | Classification; Aggregate |
-| `Epistemic Element (→ Kind) Epistemic Element` | Classifies an epistemic element as a particular kind of epistemic element, establishing a taxonomic relationship between a general type and its more specific type. | Classification; Kind |
-| `Epistemic Element (→ Kind) Epistemic Orientation` | Classifies an element as the directing structure of inquiry: purpose, questions, goals, gaps, and roles. | Classification; Orientation |
-| `Epistemic Element (→ Kind) Epistemic Agency` | Classifies an entity or organized activity that performs epistemic operations. | Classification; Agency |
-| `Epistemic Element (→ Kind) Epistemic Access` | Classifies the means by which aspects of a target become registrable by an epistemic agent or system. | Classification; Access |
-| `Epistemic Element (→ Kind) Epistemic Representation` | Classifies the structures through which epistemic content is encoded, interpreted, and manipulated. | Classification; Representation |
-| `Epistemic Element (→ Kind) Epistemic Construction` | Classifies an epistemic artifact produced to organize, preserve, explain, or extend knowledge about a target. | Classification; Construction |
-| `Epistemic Element (→ Kind) Epistemic Operation` | Classifies the operations and procedures through which agents investigate targets and transform epistemic content. | Classification; Operation |
-| `Epistemic Element (→ Kind) Epistemic Evaluation` | Classifies the evaluative processes and structures through which constructions and operations are assessed. | Classification; Evaluation |
-| `Epistemic Element (→ Kind) Epistemic Communication` | Classifies the transmission, inscription, publication, and coordination of epistemic content. | Classification; Communication |
-| `Epistemic Element (→ Kind) Epistemic Infrastructure` | Classifies the material, computational, informational, and institutional structures enabling epistemic activity. | Classification; Infrastructure |
-| `Epistemic Element (→ Kind) Epistemic Context` | Classifies the surrounding conditions within which inquiry is situated and interpreted. | Classification; Conditions |
-| `Epistemic Element (→ Kind) Epistemic Target` | Classifies the addressed domain of inquiry: the reality, segment, or entities toward which inquiry is directed. | Classification; Target |
-| `Epistemic Element (→ Kind) Ontic` | Classifies what exists, occurs, changes, or generates effects within a segment of reality. | Classification; Ontic |
-| `Epistemic Orientation (→ Has) Epistemic Purpose` | Identifies the intended ultimate effect or value of the inquiry. | Orientation; Purpose |
-| `Epistemic Orientation (→ Has) Epistemic Question` | Identifies a formulated question directing inquiry toward a gap. | Orientation; Question |
-| `Epistemic Orientation (→ Has) Epistemic Goal` | Identifies a desired epistemic outcome toward which inquiry is directed. | Orientation; Goal |
-| `Epistemic Orientation (→ Has) Epistemic Gap` | Identifies a deficiency in available knowledge relative to the inquiry's target. | Orientation; Gap |
-| `Epistemic Orientation (→ Has) Epistemic Role` | Identifies the function an element performs within an epistemic order. | Orientation; Role |
+| `<<Epistemic Element>> (→ <Relationship Type>) <<Epistemic Element>>` | Abstract form: any link between two epistemic element nodes, its label licensed by the relationship-type table in QA. | Form; General |
+| `Epistemic Element (→ Kind) Epistemic Element Set` | Classifies an element as a coherent aggregate of epistemic elements. | Classification; Set |
+| `Epistemic Element Set (→ Member) <<Epistemic Element>>` | Identifies a member of the aggregate; membership, not composition. | Composition; Set |
+| `Epistemic Element Set (→ Kind) Epistemic Domain` | Classifies a set as an inquiry whole organized by a bounded cut of reality. | Classification; Set |
+| `Epistemic Element Set (→ Kind) Epistemic Practice` | Classifies a set as an organized pattern of inquiry carried on by agents — the doing. | Classification; Set |
+| `Epistemic Domain (→ Part) Epistemic Domain` | Identifies a sub-domain: field, sub-field, family, or specialty. | Composition; Domain |
+| `Epistemic Domain (→ Has) Segment of Reality` | Identifies the bounded portion of reality the domain cuts. | Domain; Target |
+| `Epistemic Domain (→ Has) Observable` | Identifies a feature of the segment registrable for inquiry. | Domain; Observable |
+| `Epistemic Domain (→ Has) Epistemic Framework` | Identifies a lens system the domain reasons with. | Domain; Framework |
+| `Epistemic Domain (→ Has) Epistemic Practice` | Identifies the practice carried on upon the cut; the inverse of `Addresses`. | Domain; Practice |
+| `Segment of Reality (→ Kind) <<Ontic Element>>` | Binds the segment to its ontic type in the naturalis or social grammar. | Domain; Ontic |
+| `Epistemic Practice (→ Part) Epistemic Practice` | Identifies a sub-practice: program, laboratory, school, or specialty. | Composition; Practice |
+| `Epistemic Practice (→ Has) Epistemic Task` | Identifies a discrete unit of planned inquiry work assigned to an agent. | Composition; Practice |
+| `Epistemic Task (→ Has) Epistemic Method` | Identifies a generalized method for a class of inquiry tasks. | Composition; Practice |
+| `Epistemic Method (→ Instance) Epistemic Procedure` | Identifies the situated application of a method to a particular inquiry. | Composition; Practice |
+| `Epistemic Procedure (→ Part) Epistemic Act` | Identifies a primitive inquiry act performed by an agent. | Composition; Practice |
+| `Epistemic Procedure (→ Part) Epistemic Procedure` | Identifies a step or sub-routine of a larger procedure. | Composition; Practice |
+| `Epistemic Task (→ Has) Epistemic Operation` | Identifies the operation a task applies. | Composition; Practice |
+| `Epistemic Practice (→ Has) <<Epistemic Lane>>` | Identifies a lane the practice carries. | Composition; Practice |
+| `Epistemic Practice (→ Addresses) Epistemic Domain` | Identifies the cut of reality the practice works on. | Composition; Practice |
+| `Epistemic Practice (→ Produces) Epistemic Construction` | Identifies a construction the practice leaves behind. | Composition; Practice |
+| `Epistemic Element (→ Kind) <<Epistemic Lane>>` | Classifies an element as one of the inquiry lanes. | Classification; Lane |
+| `Epistemic Orientation (→ Has) <<Orientation Element>>` | Identifies a directing element of the orientation. | Orientation; Purpose |
 | `Epistemic Agency (→ Has) Epistemic Agent` | Identifies an entity capable of performing epistemic operations. | Agency; Agent |
-| `Epistemic Agency (→ Has) Epistemic Act` | Identifies a discrete epistemic action performed by an epistemic agent. | Agency; Act |
-| `Epistemic Agency (→ Has) Epistemic Activity` | Identifies an organized sequence of epistemic acts directed toward an epistemic purpose. | Agency; Activity |
-| `Epistemic Operation (→ Kind) Action` | Classifies an operation that directly transforms, compares, evaluates, or derives epistemic content. | Operation; Action |
-| `Epistemic Operation (→ Kind) Organization` | Classifies the organization of epistemic actions into reproducible, coordinated, or goal-directed structures. | Operation; Organization |
-| `Epistemic Construction (→ Kind) <<Epistemic Construction>>` | Classifies a concrete epistemic construction — description, record, dataset, concept, model, explanation, prediction, theory — without asserting which artifact kind it is. | Construction; Artifact |
-| `Epistemic Access (→ Has) Observation Interface` | Identifies a boundary mechanism coupling a target to an epistemic system for registration. | Access; Interface |
-| `Epistemic Access (→ Has) Observation Record` | Identifies a registered representation of an observed aspect of a target. | Access; Record |
-| `Epistemic Representation (→ Has) Representational System` | Identifies a system of signs, symbols, structures, and rules within which representations can be formed and interpreted. | Representation; System |
-| `Representational System (→ Part) Representation Element` | Identifies a combinable constituent of a representational system. | Representation; Element |
-| `Representational System (→ Part) Epistemic Element` | General constituent link to be used with care when an epistemic element cannot be classified more specifically as a `Representation Element`. It accommodates cases in which a representational system incorporates both representations and theoretical structures governing them, as in mathematics, where mathematical objects and representations coexist with the theories that define and relate them. | Representation; Element; General |
-| `Representational System (→ Part) Constitutive Substrate` | Identifies the rules and structures constituting a representational system. | Representation; Substrate |
-|`Constitutive Substrate (→ Has) Property` | Identifies a property of the objects a representational system encodes: an attribute determined by the system's elements, carrying a value, and expressed through the representation. | Representation; Property|
-| `Epistemic Target (→ Has) Segment of Reality` | Identifies a bounded portion of reality selected as the domain of analysis. | Target; Segment |
-| `Epistemic Target (→ Has) Observable` | Identifies a feature of a target registrable under an observational regime. | Target; Observable |
-| `Epistemic Target (→ Has) Target Element` | Constituent objects or units of the target that are subject to reckoning. |
-| `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is situated and interpreted. | Context; Conditions |
+| `Epistemic Access (→ Has) Observation Interface` | Identifies a boundary mechanism coupling a segment to registration. | Access; Interface |
+| `Observation Interface (→ Part) <<Observation Element>>` | Identifies an interface constituent. | Composition; Access |
+| `Epistemic Access (→ Has) Observation Encoding` | Identifies the format in which a registered observation is carried. | Access; Encoding |
+| `Epistemic Access (→ Has) Observation Record` | Identifies a registered representation of an observed aspect. | Access; Record |
+| `Observation Record (→ Represents) Observable` | Identifies the observable feature a record stands for. | Access; Representation |
+| `Epistemic Representation (→ Has) Representational System` | Identifies a sign system within which representations are formed and interpreted. | Representation; System |
+| `Representational System (→ Part) Representation Element` | Identifies a combinable constituent of the system. | Representation; Element |
+| `Representational System (→ Part) Constitutive Substrate` | Identifies the rules and structures constituting the system. | Representation; Substrate |
+| `Representational System (→ Part) Epistemic Element` | General constituent link, used with care when no more specific classification applies. | Representation; Element; General |
+| `Constitutive Substrate (→ Has) Property` | Identifies a property the system encodes. | Representation; Property |
+| `Constitutive Substrate (→ Part) <<Constitutive Element>>` | Identifies a constituting rule or structure. | Representation; Substrate |
+| `Epistemic Element (→ Kind) Epistemic Construction` | Classifies a construction: an artifact produced to organize, preserve, explain, or extend knowledge about a target. | Classification; Construction |
+| `Epistemic Construction (→ Kind) <<Epistemic Construction>>` | Classifies a construction kind without asserting which kind before it is bound. | Classification; Construction |
+| `Epistemic Construction (→ Part) Epistemic Construction` | Identifies a constituent construction: a theory holds models, a model holds constructs. | Composition; Construction |
+| `Epistemic Construction (→ Has) Epistemic Blueprint` | Identifies the construction form the construction is built in. | Construction; Representation |
+| `Epistemic Construction (→ Represents) <<Represented Aspect>>` | Identifies what the construction stands for. | Construction; Representation |
+| `Epistemic Construction (→ Derived From) Observation Record` | Identifies the records the construction was built from. | Construction; Derivation |
+| `Epistemic Construction (→ Evaluated By) Validation` | Identifies the check that discharges doubt about the construction. | Construction; Evaluation |
+| `Epistemic Construction (→ Governed By) Epistemic Standard` | Identifies the standard the construction must satisfy. | Construction; Evaluation |
+| `Epistemic Element (→ Kind) Epistemic Blueprint` | Classifies a construction form: a quasi-construction, the encoding format of constructions rather than their content. | Classification; Construction |
+| `Epistemic Element (→ Kind) Epistemic Operation` | Classifies an operation of inquiry, read as a root in its own right. | Classification; Operation |
+| `Epistemic Operation (→ Kind) <<Operation Element>>` | Classifies an operation of inquiry. | Operation; Action |
+| `Action (→ Kind) Inference` | Classifies a derivation of content from premises. | Operation; Inference |
+| `Inference (→ Kind) Deduction` | Classifies a derivation in which the conclusion follows necessarily. | Operation; Inference |
+| `Organization (→ Kind) Principle` | Classifies a rule that guides proceeding. | Operation; Principle |
+| `Epistemic Operation (→ Transforms) Epistemic Construction` | Identifies the construction an operation produces or rewrites. | Operation; Construction |
+| `Epistemic Operation (→ Governed By) Epistemic Standard` | Identifies the standard the operation must satisfy. | Operation; Evaluation |
+| `Epistemic Evaluation (→ Has) <<Evaluation Element>>` | Identifies an evaluative constituent. | Evaluation; Standard |
+| `Epistemic Element (→ Kind) Epistemic Feedback` | Classifies feedback read as a root in its own right. | Classification; Evaluation |
+| `Epistemic Communication (→ Has) <<Communication Element>>` | Identifies a communication constituent. | Communication; Inscription |
+| `Epistemic Infrastructure (→ Has) <<Infrastructure Element>>` | Identifies an infrastructure constituent. | Infrastructure; Tool |
+| `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is interpreted. | Context; Conditions |
+| `Epistemic Element (→ Kind) Epistemic Framework` | Classifies a lens system read as a root in its own right. | Classification; Framework |
+| `Epistemic Framework (→ Part) Epistemic Tool` | Identifies a lens constituent. | Composition; Framework |
+| `Epistemic Framework (→ Has) Epistemic Construction` | Identifies the constructs a framework holds. | Composition; Framework |
+| `Epistemic Element (→ Kind) Ontic` | Classifies what exists, occurs, changes, or generates effects within a segment of reality. | Classification; Ontic |
+| `Ontic (→ Kind) <<Ontic Element>>` | Binds the element to its ontic type in the naturalis or social grammar. | Classification; Ontic |
 
-### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
+### Which are the available expansions of the slots?
 
-> `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
 
-Usage rules
-
-- Tags qualify nodes; they do not replace the underlying type. For example, Validated [Stochastic] remains a model.
-- Use a subtype when the distinction defines a recognized kind. Use a tag when the distinction qualifies an instance or can apply across multiple kinds.
-- Allow multiple tags per node. A model can be Calibrated, Stochastic, and Published simultaneously.
-- Do not confuse a tag with a relationship. Validated describes an assessed standing; (→ Validation) expresses a decomposition relationship.
-- Avoid redundant tags. If a subtype already entails a characteristic in the intended context, do not add the same tag unless it provides meaningful additional information.
-- Distinguish a known absence from missing information. Non-Reproducible should be used only when the failure to reproduce is established, not merely because reproduction has not been attempted.
-
-
-Case:
-
-| Category | Tags | Description | Usage |
-| --- | --- | --- | --- |
-| Epistemic Standard | `Stochastic` | Characterized by probabilistically distributed outcomes. | Stochastic Process |
-| Epistemic Construction | `Validated` | Standing on a passed validation against its stated criteria. | Validated Model |
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Epistemic Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
+| `<<Relationship Type>>` | any label in the relationship table | Names the relation asserted; the permitted table decides which labels may join which types. |
+| `<<Ontic Element>>` | any type licensed in `philosophia-naturalis-et-operis` | The ontic reading of a segment; grown in the naturalis tree, never here. |
+| `<<Epistemic Lane>>` | `Epistemic Orientation` | Why: the purpose, questions, goals, gaps, and roles directing the practice. |
+| `<<Epistemic Lane>>` | `Epistemic Agency` | Who: the agents and roles that carry the practice. |
+| `<<Epistemic Lane>>` | `Epistemic Access` | How registered: the interfaces, encodings, and records the practice works through. |
+| `<<Epistemic Lane>>` | `Epistemic Representation` | In what: the notations and representational systems the practice reads and writes. |
+| `<<Epistemic Lane>>` | `Epistemic Evaluation` | How judged: the standards, criteria, errors, checks, and feedback. |
+| `<<Epistemic Lane>>` | `Epistemic Communication` | How shared: inscription, publication, and coordination. |
+| `<<Epistemic Lane>>` | `Epistemic Infrastructure` | What supports it: tools, repositories, and institutions. |
+| `<<Epistemic Lane>>` | `Epistemic Context` | Under what conditions: the surrounding conditions of the practice. |
+| `<<Orientation Element>>` | `Epistemic Purpose` | The intended ultimate effect or value of the inquiry. |
+| `<<Orientation Element>>` | `Epistemic Question` | A formulated question directing inquiry toward a gap. |
+| `<<Orientation Element>>` | `Epistemic Goal` | A desired epistemic outcome toward which inquiry is directed. |
+| `<<Orientation Element>>` | `Epistemic Gap` | A deficiency in available knowledge relative to the target. |
+| `<<Orientation Element>>` | `Epistemic Role` | The function an element or agent performs within the practice. |
+| `<<Observation Element>>` | `Transduction` | The conversion of a segment's state into a registrable signal. |
+| `<<Observation Element>>` | `Sampling` | The selection of which occurrences or positions are registered. |
+| `<<Constitutive Element>>` | `Convention` | A stabilized notational or interpretative choice. |
+| `<<Constitutive Element>>` | `Formation` | A rule of well-formed combination. |
+| `<<Constitutive Element>>` | `Foundation` | The axioms or principles a system is founded on. |
+| `<<Constitutive Element>>` | `Interpretation` | A meaning assignment from symbols to what they denote. |
+| `<<Epistemic Construction>>` | `Description` | A structured affirmation about a segment of reality. |
+| `<<Epistemic Construction>>` | `Record` | An observation persisted as an addressable entry. |
+| `<<Epistemic Construction>>` | `Dataset` | A structured collection of records for analysis. |
+| `<<Epistemic Construction>>` | `Concept` | A constructed discriminator of aspects of the segment. |
+| `<<Epistemic Construction>>` | `Model` | A construction enabling prediction or explanation of the segment. |
+| `<<Epistemic Construction>>` | `Explanation` | A description clarifying cause, mechanism, or relation. |
+| `<<Epistemic Construction>>` | `Prediction` | A description asserting an unobserved state or outcome. |
+| `<<Epistemic Construction>>` | `Theory` | A system of constructs and claims about the segment. |
+| `<<Epistemic Construction>>` | `Trajectory` | An ordered sequence of states attributed to the segment. |
+| `<<Represented Aspect>>` | `Segment of Reality` | The bounded portion of reality a construction stands for. |
+| `<<Represented Aspect>>` | `Observable` | A registrable feature of the segment a construction encodes. |
+| `<<Operation Element>>` | `Action` | An operation that directly transforms, compares, or derives content. |
+| `<<Operation Element>>` | `Organization` | An arrangement of actions into a reproducible structure. |
+| `<<Operation Element>>` | `Epistemic Operator` | A named transformation read as an operator. |
+| `<<Evaluation Element>>` | `Epistemic Standard` | The norm against which an artifact or operation is judged. |
+| `<<Evaluation Element>>` | `Epistemic Criterion` | The property on which the judgment turns. |
+| `<<Evaluation Element>>` | `Epistemic Constraint` | A bound on what the inquiry can achieve or hold. |
+| `<<Evaluation Element>>` | `Epistemic Error` | A deviation of an artifact or operation from its standard. |
+| `<<Evaluation Element>>` | `Validation` | A check that tests an artifact against reality. |
+| `<<Evaluation Element>>` | `Verification` | A check that tests an artifact against its blueprint. |
+| `<<Evaluation Element>>` | `Epistemic Feedback` | The return of an evaluation into the next operation. |
+| `<<Communication Element>>` | `Epistemic Inscription` | A persistent rendering of epistemic content. |
+| `<<Communication Element>>` | `Epistemic Publication` | The release of content to a readership. |
+| `<<Communication Element>>` | `Epistemic Coordination` | The alignment of several agents' epistemic work. |
+| `<<Infrastructure Element>>` | `Epistemic Tool` | An implement that extends what an agent can do. |
+| `<<Infrastructure Element>>` | `Information Repository` | A store consulted instead of recomputed. |
+| `<<Infrastructure Element>>` | `Epistemic Institution` | A body that sustains inquiry across generations. |
 
 ## How to decompose any epistemic element?
 
 > A decomposition recursively expands an epistemic instance tree from its root: bind the root instance, then grow its subtree by attaching only links the `Permitted Link Forms` table allows, down to instance leaves. The reference tables above are scaffolding — necessary but not sufficient, and never normative: they say which links *may* appear, not which decomposition is correct for any given element. Choosing instances, depth, and stopping point remains the decomposer's work on the instance itself.
 
-> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of Arithmetic?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its nearest enclosing grouping segment.
+> See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of Arithmetic?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its nearest enclosing grouping segment and naming every link with its relationship type.
 
 > Begin with the ontic questionnaire — which entities, substances, mechanisms, processes, events, and phenomena constitute the fundamental ontic elements of the target science? — then type each answer below.
 
 > Note: Instance rows in the Instance Tree Path name instances, never types. Type names appear only as backticked grouping segments and never terminate a branch.
 
-> **Constructing the instance path:** (1) bind the root — name the instance being decomposed; (2) extend — append each child by exactly one link the `Permitted Link Forms` table licenses; (3) type — resolve each segment to its nearest enclosing grouping segment, declaring the root's type once; (4) check — every leaf resolves to an instance, and no bare type terminates a branch.
+> **Constructing the instance path:** (1) bind the root — name the instance being decomposed; (2) extend — append each child by exactly one link the `Permitted Link Forms` table licenses, labelling it `(→ Relationship Type)`; (3) type — resolve each segment to its nearest enclosing grouping segment, declaring the root's type once; (4) check — every leaf resolves to an instance, no bare type terminates a branch, and no bare arrow remains.
 
 **Rules:**
 
 - **Form of the Table:** `Instance Tree Path | Description`.
-- **Instance Tree Path:** A unique, recursively extended path identifying an instance within the decomposition tree.  It is the full path from Epistemic Element: --  It begins with the root instance and appends each successive child instance through an explicitly labeled relationship, using the form `Parent Instance → Child Instance`. Each successive path must preserve the complete path from the root to the current instance. Type grouping segments are styled `` `code` ``; instance nodes are plain Title Case text.
-- **Relationship Labeling:** Every link between a parent and child uses `→`. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
-- **Permitted Links:** Every relationship must conform to a link form allowed by the `Permitted Link Forms` table. A link form licenses a possible relationship; it does not establish that the relationship actually exists in the instance being decomposed.
-- **Instance Grounding:** Each child must represent an element of the particular instance being decomposed, rather than merely a type that could theoretically occur within it. Type labels may be used to identify or organize instances, but classification alone does not establish that a corresponding instance exists.
+- **Instance Tree Path**: A unique, recursively extended path identifying an instance within the decomposition tree. It begins at the root node `Epistemic Element`, descends the licensed kind chain to the instance's type, and appends each successive child through an explicitly labeled relationship, using the form Parent Instance (→ Relationship Type) Child Instance. Each successive path must preserve the complete path from the root to the current instance.
+- **Root**: Every path begins at `Epistemic Element`; an inquiry whole binds `Epistemic Element Set → Kind → Epistemic Practice` (the doing) or `Epistemic Element Set → Kind → Epistemic Domain` (the cut), and takes its instance name as the root. A domain-rooted tree reaches its practice by `Has`; a practice-rooted tree reaches its domain by `Addresses`.
+- **Relationship Labeling:** Every link between a parent and child names its relationship type, styled `(→ Kind)`, `(→ Has)`, `(→ Part)`, `(→ Instance)`, `(→ Addresses)`, `(→ Produces)`, or another label from the relationship table. A bare arrow is not permitted. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
+- **Grouping Segments:** Every backticked grouping segment names a type licensed by the `Permitted Link Forms` table. A type that is not a row there may not appear in a tree, even when the relationship itself is permitted.
+- **One Type per Distinction:** Do not type the same distinction twice. A discipline is an `Epistemic Domain` carrying the `Institutionalized` tag, never a `Epistemic Discipline` row; a set is disaggregated by `Member`, never by `Part`.
+- **Permitted Links:** Every relationship must conform to a link form allowed by the `Permitted Link Forms` table. A link form licenses a possible relationship; it does not establish that the relationship actually exists in the instance being decomposed. `Instance` binds a type segment to an instance and needs no entry in that table.
 - **Recursive Expansion:** Any epistemic instance identified in the tree may itself be decomposed recursively.
 - **Decomposition Scope:** Select the aspects of the instance that need to be represented. A decomposition need not include every conceivable aspect of epistemic reality; it must adequately cover the aspects relevant to its stated purpose.
-- **Description:** Describe what the instance is, what role it plays, or why it is included in the decomposition. Descriptions clarify the instance but do not substitute for explicit relationship labels.
 - **Stopping Condition:** Stop expanding a branch when its instance is sufficiently specified for the decomposition's purpose, when further expansion is unnecessary, or when the available evidence does not justify additional decomposition. A leaf is a stopping point in the current decomposition, not necessarily an intrinsically indivisible element. Every leaf must resolve to an epistemic instance.
 - **Completeness:** A decomposition is complete relative to its declared scope and stopping criteria, not merely because every branch terminates. Relevant constituents, relations, structures, processes, states, and other aspects must not be omitted simply because the tree is syntactically valid.
 - **Unlicensed or Uncertain Relationships:** If a necessary relationship is not covered by the reference table, do not silently invent a permitted link or substitute an unrelated one. Identify the gap and extend the reference table when justified. If the existence of a relationship is uncertain, mark that uncertainty rather than presenting the relationship as established.
@@ -177,22 +226,15 @@ Case:
 - **Tree Structure:** Each non-root row must extend an existing parent path by exactly one child relationship. The same instance may appear in multiple branches when it plays different roles in the decomposition; each occurrence must have its own path. Ensure a rich set of intermediate (internal) nodes — both types and instances — aiding understanding: composition, representation, transformation, validation, or other useful structural relationships.
 - **Non-Normativity of Reference Tables:** The reference tables constrain which link forms may be used. They do not prescribe a universal decomposition order, determine which children must be included, or guarantee that a decomposition is conceptually adequate.
 - **Well-formedness:** an instance decomposition is well-formed when every non-root row extends an existing path by exactly one link the `Permitted Link Forms` table licenses, every grouping segment carries a licensed type, branch order is never skipped, and every leaf resolves to an instance. Any row may serve as a decomposition root for recursive decomposition.
-* Style Rules for Intermediate Nodes
-  * **Instances:** Style intermediate nodes that represent actual epistemic instances as plain text (no adornment).
-  * **Naming:** Name every instance node in Title Case — capitalize every whitespace- or hyphen-separated word (`measurement record` -> `Measurement Record`, `dataset field` -> `Dataset Field`); preserve established all-caps acronyms (`API`, `CSV`). Type segments keep their table casing. The rule governs node names in Instance Tree Paths only; descriptions stay sentence-case prose.
-  * **Composite Instance Naming**: A *composite* instance — a nested ensemble (a sub-`Aggregate`, sub-domain set, or same-typed family), not an ordinary object, record, or mechanism — takes a name ending in `Set` once it sits at a depth greater than 2. Depth counts every segment of the Instance Tree Path, backticked type groupings included, the root type grouping being depth 1. At depth 2 or less the suffix is permitted but never required: `Aggregate` -> `Arithmetic Inquiry Set` (depth 2) keeps it. (The Arithmetic tree below exercises no composite past depth 2, so the requirement bites only in deeper decompositions.)
-  * **Types:** Style bare epistemic element types used as grouping nodes as `` `code` ``.
-  * **Distinction:** Never style an instance and a type in the same way; the distinction must be immediately visible.
-  * **Grouping types:** A type used only to group instances is not itself an instance and must not terminate a branch.
-  * The path link - is →.
+- **Naming Guidelines:**
+  * **Naming:** Name every instance node in Title Case.
+  * **Composite Instance Naming**: Name an ensemble — a set, a practice, a domain, or a construction corpus — with the suffix Set (Epistemic Element Set, Drug Modelling Set), etc.
+* **Description:** Describe what the instance is, what role it plays, or why it is included in the decomposition. Descriptions clarify the instance but do not substitute for explicit relationship labels.
 
 | Instance Tree Path | Description |
 | --- | --- |
 |  |  |
 
-## Terminology
-
-> The terms used across this note — being, entity, substance, relation, phenomenon, concept, proposition, truth, knowledge, fact, theory, hypothesis, evidence, explanation, and the epistemic family — are defined in the Glossarium.
 
 ## QA
 
@@ -238,9 +280,17 @@ Case:
 
 > Any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
 
+### What is the relation between `Epistemic Practice` and `Epistemic Activity`?
+
+> **Practice is the pattern; Activity is the pattern exercised in time.** A practice organizes what recurs — tasks, methods, procedures, acts, roles, standards, instruments, and notations; an activity is one scheduled exercising of it — a field season, a modelling run, a proof campaign, a classification batch. Every activity belongs to a practice the way every exercised function belongs to a capability: the same duality, temporal instead of modal.
+
+### Do we need `Epistemic Activity` as an epistemic element in the decomposition?
+
+> **No.** A fully specified `Epistemic Practice` — its tasks, methods, procedures, acts, roles, standards, and control points — leaves no additional structural role for activity to contribute. Activity describes operation rather than structure, so it is not a decomposition node: decompose the practice.
+
 ### What is a description?
 
-> A structured affirmation about a segment of reality, carried by an epistemic artifact.
+> A structured affirmation about a segment of reality, carried by an epistemic construction.
 
 ### What is an explanation?
 
@@ -263,11 +313,39 @@ Case:
 
 ### How do we validate our descriptions of reality?
 
-> By testing the artifact against reality: prediction error, replication, and failed or successful intervention.
+> By testing the construction against reality: prediction error, replication, and failed or successful intervention.
 
 ### Which aspects of reality result from multiplicative interaction?
 
 > **Interaction-derived quantities** are ontic aspects quantifying the **joint state** of two or more independent ontic variables: momentum, kinetic energy, angular momentum, gravitational force, heat, revenue, cost, wage bill, information gain.
+
+### Which area of reality is best suited for studying in order to improve my epistemic practice?
+
+> Physics is a training ground for rigorous modeling because it enforces precise, testable, and feedback-rich representations of reality. The value lies in transferring this epistemic discipline — rather than its specific models — into more complex domains like social systems.
+
+### Which relationship types can be used to explicitly label the → operator?
+
+| Category | Type | Description | Link Case for |
+|---|---|---|---|
+| Classification | `Kind` | Establishes a taxonomic relationship in which the child specifies what kind of element the parent is. | Classifying an element under a more specific type. |
+| Composition | `Part` | Identifies a constituent that forms part of the parent element. | Decomposing a system, structure, or aggregate into its constituent elements. |
+| Composition | `Member` | Identifies an element belonging to a set or aggregate, without asserting that it forms part of another element. | Disaggregating an `Epistemic Element Set` or `Epistemic Domain`. |
+| Composition | `Has` | Identifies an element, property, or feature belonging to or associated with the parent. | Identifying components, attributes, properties, or associated elements. |
+| Composition | `Instance` | Identifies a situated realization of a generalized type — a method, a technique, a practice. | Connecting a generalized method to the procedure that applies it. |
+| Composition | `Addresses` | Identifies the domain a practice works on. | Connecting an `Epistemic Practice` to the cut it targets. |
+| Composition | `Produces` | Identifies the construction a practice or task leaves behind. | Connecting an `Epistemic Practice` to its constructions. |
+| Constitution | `Constituted By` | Identifies the elements, rules, or structures that constitute the identity or organization of the parent. | Decomposing a representational or conceptual system into its constitutive foundations. |
+| Realization | `Realized By` | Identifies a concrete instance through which an abstract type, system, or mechanism is realized. | Connecting an abstract structure or type to its concrete realization. |
+| Instantiation | `Instance Of` | Identifies the general type or class to which a particular instance belongs. | Connecting a concrete instance to its defining type. |
+| Derivation | `Derived From` | Identifies the source from which an element is obtained or derived. | Identifying the premises, data, or elements from which another element originates. |
+| Transformation | `Transforms` | Identifies an element that is transformed or produced through an operation performed by the parent. | Representing transformations between input and output elements. |
+| Representation | `Represents` | Identifies the reality, entity, or content represented by the parent. | Connecting a representation to its referent or represented target. |
+| Causation | `Causes` | Identifies an element whose action or occurrence produces an effect in another element. | Representing causal relationships between phenomena or processes. |
+| Regulation | `Regulates` | Identifies an element that controls, constrains, or modulates the behavior of another element. | Representing regulatory relationships and feedback structures. |
+| Dependence | `Depends On` | Identifies an element whose existence, behavior, or operation depends on another element. | Representing structural, functional, or operational dependencies. |
+| Association | `Related To` | Establishes an association between elements when no more specific relationship applies. | Representing a relevant relationship that cannot be classified more specifically. |
+| General | `Unspecified` | Establishes a relationship between two elements when the nature of their connection is relevant but has not yet been identified or classified. | Representing a known or suspected connection whose specific relationship type remains undetermined. |
+
 
 ### (Case Study) What is the recursively decomposed instance tree of Arithmetic?
 
@@ -275,102 +353,173 @@ Case:
 
 | Instance Tree Path | Description |
 | --- | --- |
-| `Aggregate` → Arithmetic | The organized inquiry system of discrete quantity: its orientation, target, representations, operations, and evaluations. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` | Grouping: orientation of arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Purpose` | Grouping: purposes of the inquiry. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Purpose` → Exact Reckoning Purpose | Telos: determine exact discrete quantity — count, sum, product, quotient — leaving no remainder of doubt. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Question` | Grouping: questions directing reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Question` → Uncomputed Product | Formulated question directing reckoning toward the gap: what is seven times eight, as yet uncomputed. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Gap` | Grouping: gaps motivating reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Orientation` → `Epistemic Gap` → Missing Product Gap | Deficiency in available reckoning: the product not yet known, represented, or warranted. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` | Grouping: agencies of arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Agent` | Grouping: agents performing reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Agent` → Reckoner | Entity counting, calculating, and proving; pupils, clerks, and mathematicians realize this agent. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Act` | Grouping: primitive acts of the reckoner. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Act` → Tallying Act | Primitive act marking one stroke per item counted. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Activity` | Grouping: organized activities of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Activity` → Calculating | Organized sequence of calculational acts toward exact reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Agency` → `Epistemic Activity` → Proving | Organized derivation of arithmetical propositions from stated axioms. |
-| `Aggregate` → Arithmetic → `Epistemic Target` | Grouping: targets of arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Target Segment` | Grouping: segments under reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Target` → `Observable` | Observable properties or features of the target that can be registered for arithmetic purposes. |
-| `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Interface` | Grouping: interfaces coupling multitude to count. |
-| `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Interface` → Tally Stick | Notched stick coupling a flock to the reckoner's count, one notch per head. |
-| `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Encoding` | Grouping: encodings of the count. |
-| `Aggregate` → Arithmetic → `Epistemic Access` → `Observation Encoding` → Five-Bar Tally Encoding | Strokes grouped in fives for reading at a glance. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` | Grouping: representations of number. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` | Grouping: sign systems of arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System | Signs with place rules forming numerals; notations realize this system. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → Hindu-Arabic Numerals | Exemplar notation realizing the system: place-valued decimal digits. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → Roman Numerals | Exemplar notation realizing the system: additive letter signs. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Representation Element` | Grouping: combinable constituents. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Representation Element` → Decimal Digit | One of 0–9 combining into numerals. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Representation Element` → Operator Glyph | `+ − × ÷ =` combining numerals into equations. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Representation Element` → Forty-Two | The numeral token `42` denoting forty-two. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Representation Element` → Product Equation | The equation expression `7 × 8 = 56` as a checkable artifact. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` | Grouping: rules and structures constituting the system. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → Number | Abstract construct identifying discrete multitude, order, and ratio. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → Place Value | Position-weighted magnitude carried by numeral places. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Convention` | Grouping: stabilized notational choices. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Convention` → Decimal Convention | Ten symbols including zero; positions weigh powers. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Formation` | Grouping: rules of well-formed combination. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Formation` → Numeral Formation Rule | How digits compose into well-formed numerals. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Formation` → Successor | Next-after relation generating the number series. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → Zero | The empty count constituted as a number. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Foundation` | Grouping: axioms and foundings. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Foundation` → Addition Definition | Addition recursed from successor: adding one is taking the successor. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Foundation` → First-Order Arithmetic | Axiom system underlying formal reckoning: zero, successor, induction; axiom systems realize these axioms. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Foundation` → First-Order Arithmetic → Peano Arithmetic | Exemplar axiom system realizing these axioms: induction over all predicates. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Foundation` → First-Order Arithmetic → Presburger Arithmetic | Exemplar axiom system without multiplication: complete and decidable. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Interpretation` | Grouping: meaning assignments. |
-| `Aggregate` → Arithmetic → `Epistemic Representation` → `Representational System` → Numeral System → `Constitutive Substrate` → `Interpretation` → Decimal Place Encoding | Number → numeral mapping under decimal place value. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` | Grouping: operations on numerals. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` | Grouping: direct transformations. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Reckoning | Rule-governed transformation of represented quantities. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Reckoning → `Procedure` | Grouping: ordered routines of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Reckoning → `Procedure` → Column Addition | Place-ordered summation with carrying. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Reckoning → `Procedure` → Column Addition → `Procedure` | Grouping: steps of the addition. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Reckoning → `Procedure` → Column Addition → `Procedure` → Carry Step | Ten-for-one regrouping moving excess to the next place. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → Magnitude Comparison | Operational act judging greater, lesser, or equal between numerals. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → `Inference` | Grouping: derivations from premises. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → `Inference` → `Deduction` | Grouping: necessary derivations. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Action` → `Inference` → `Deduction` → Induction Proof | Proof by mathematical induction: base and step deriving the universal claim — deductive in epistemic standing. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` | Grouping: coordinated routines. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` → `Method` | Grouping: generalized ways of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` → `Method` → Shift-And-Add Multiplication | Generalized routine reducing products to shifted additions. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` → `Principle` | Grouping: rules guiding reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` → `Principle` → Induction Principle | What holds of zero and passes to successors holds of all numbers. |
-| `Aggregate` → Arithmetic → `Epistemic Operation` → `Organization` → `Principle` → Commutativity Principle | Order-independence of addition and multiplication. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` | Grouping: assessments of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Standard` | Grouping: standards judging arithmetic. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Standard` → Correctness Standard | A computation stands only if independent recomputation agrees. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Standard` → Proof Validity Standard | A proof stands only if each step follows by stated rule. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Standard` → Place-Value Standard | A numeral stands only if each place weighs its power of ten. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Criterion` | Grouping: evaluated properties. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Criterion` → Exactness Criterion | The result is exact or it is wrong; approximation has no standing here. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Constraint` | Grouping: limits on reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Epistemic Constraint` → Working Memory Limit | Only so many partial products are held at once; the column relieves memory. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Error` | Grouping: deviations from the true value. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Error` → Dropped-Carry Error | Off-by-ten slip losing a carry, rendering seven times eight as fifty-four. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Validation` | Grouping: checks discharging doubt. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Validation` → Inverse Check | Division undoing multiplication to validate the product. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Validation` → Casting Out Nines | Modular-nine checksum validating long reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Feedback` | Grouping: evaluations returned to reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Evaluation` → `Feedback` → Recount After Mismatch | Recomputation ordered by a failed check. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` | Grouping: transmission of reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` → `Epistemic Inscription` | Grouping: persistent renderings. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` → `Epistemic Inscription` → Chalkboard Sum | Worked reckoning kept on the board for checking. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` → `Epistemic Publication` | Grouping: published reckonings. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` → `Epistemic Publication` → Reckoning Primer | Printed tables and rules teaching reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Communication` → `Epistemic Publication` → Reckoning Primer → Liber Abaci | Exemplar primer realizing the genre: Fibonacci's 1202 transmission of place-valued reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` | Grouping: structures enabling reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Epistemic Tool` | Grouping: tools of the reckoner. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Epistemic Tool` → Calculator | Device performing calculation for the reckoner. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Epistemic Tool` → Calculator → Abacus | Exemplar calculator realizing the tool: place-valued beads. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Information Repository` | Grouping: stored reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Information Repository` → Table Book | Bound addition and multiplication tables consulted instead of recomputed. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Epistemic Institution` | Grouping: bodies sustaining reckoning. |
-| `Aggregate` → Arithmetic → `Epistemic Infrastructure` → `Epistemic Institution` → Schoolroom | Instruction drilling reckoning across generations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic | The organized inquiry whole of discrete quantity, read as the practice of exact reckoning and the domain it cuts. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` | Grouping: the cut the practice addresses — discrete quantity, cut from the segment of reality below. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` | Grouping: orientation of arithmetic. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Purpose` | Grouping: purposes of the inquiry. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Purpose` (→ Instance) Exact Reckoning Purpose | Telos: determine exact discrete quantity — count, sum, product, quotient — leaving no remainder of doubt. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` | Grouping: questions directing reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` (→ Instance) Uncomputed Product | Formulated question directing reckoning toward the gap: what is seven times eight, as yet uncomputed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` | Grouping: gaps motivating reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` (→ Instance) Missing Product Gap | Deficiency in available reckoning: the product not yet known, represented, or warranted. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` | Grouping: agencies of arithmetic. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` | Grouping: agents performing reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Instance) Reckoner | Entity counting, calculating, and proving; pupils, clerks, and mathematicians realize this agent. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Segment of Reality` | Grouping: the bounded portion of reality arithmetic cuts — collections of distinct items. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Segment of Reality` (→ Instance) Discrete Multitude | The segment itself: countable collections — heads of a flock, coins in a purse, days in a month. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Observable` | Grouping: features of the segment registrable for reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Observable` (→ Instance) Cardinality | The registrable feature: how many, independent of what is counted. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Access` | Grouping: the access regime through which multitude is registered. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Access` (→ Has) `Observation Interface` | Grouping: interfaces coupling multitude to count. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Access` (→ Has) `Observation Interface` (→ Instance) Tally Stick | Notched stick coupling a flock to the reckoner's count, one notch per head. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Access` (→ Has) `Observation Encoding` | Grouping: encodings of the count. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Access` (→ Has) `Observation Encoding` (→ Instance) Five-Bar Tally Encoding | Strokes grouped in fives for reading at a glance. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` | Grouping: representations of number. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` | Grouping: sign systems of arithmetic. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System | Signs with place rules forming numerals; notations realize this system. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Instance) Hindu-Arabic Numerals | Exemplar notation realizing the system: place-valued decimal digits. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Instance) Roman Numerals | Exemplar notation realizing the system: additive letter signs. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Representation Element` | Grouping: combinable constituents. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Representation Element` (→ Instance) Decimal Digit | One of 0–9 combining into numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Representation Element` (→ Instance) Operator Glyph | `+ − × ÷ =` combining numerals into equations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Representation Element` (→ Instance) Forty-Two | The numeral token `42` denoting forty-two. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Representation Element` (→ Instance) Product Equation | The equation expression `7 × 8 = 56` as a checkable artifact. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` | Grouping: rules and structures constituting the system. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Instance) Number | Abstract construct identifying discrete multitude, order, and ratio. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Instance) Place Value | Position-weighted magnitude carried by numeral places. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Convention` | Grouping: stabilized notational choices. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Convention` (→ Instance) Decimal Convention | Ten symbols including zero; positions weigh powers. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Formation` | Grouping: rules of well-formed combination. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Formation` (→ Instance) Numeral Formation Rule | How digits compose into well-formed numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Formation` (→ Instance) Successor | Next-after relation generating the number series. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Instance) Zero | The empty count constituted as a number. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Foundation` | Grouping: axioms and foundings. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Addition Definition | Addition recursed from successor: adding one is taking the successor. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) First-Order Arithmetic | Axiom system underlying formal reckoning: zero, successor, induction; axiom systems realize these axioms. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) First-Order Arithmetic (→ Instance) Peano Arithmetic | Exemplar axiom system realizing these axioms: induction over all predicates. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) First-Order Arithmetic (→ Instance) Presburger Arithmetic | Exemplar axiom system without multiplication: complete and decidable. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Interpretation` | Grouping: meaning assignments. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Numeral System (→ Part) `Constitutive Substrate` (→ Part) `Interpretation` (→ Instance) Decimal Place Encoding | Number → numeral mapping under decimal place value. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` | Grouping: the discrete units of planned reckoning work. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` | Grouping: the generalized methods the tasks run. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method | Generalized method adding place-ordered numerals from the units column upward. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method (→ Instance) `Epistemic Procedure` | Grouping: the situated procedure the method is applied as. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method (→ Instance) `Epistemic Procedure` (→ Instance) Column Addition | Place-ordered summation with carrying. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method (→ Instance) `Epistemic Procedure` (→ Instance) Column Addition (→ Part) `Epistemic Procedure` | Grouping: the carry sub-procedure. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method (→ Instance) `Epistemic Procedure` (→ Instance) Column Addition (→ Part) `Epistemic Procedure` (→ Instance) Carry Step | Ten-for-one regrouping moving excess to the next place. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Shift-And-Add Multiplication | Generalized routine reducing products to shifted additions. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method | Generalized routine recording one stroke per item counted. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method (→ Instance) `Epistemic Procedure` | Grouping: the situated tallying procedure. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method (→ Instance) `Epistemic Procedure` (→ Instance) Tally Procedure | The situated tallying routine. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method (→ Instance) `Epistemic Procedure` (→ Instance) Tally Procedure (→ Part) `Epistemic Act` | Grouping: the primitive acts of tallying. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method (→ Instance) `Epistemic Procedure` (→ Instance) Tally Procedure (→ Part) `Epistemic Act` (→ Instance) Tallying Act | Primitive act marking one stroke per item counted. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Calculating Method | Generalized sequence of calculational acts toward exact reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Proving Method | Generalized derivation of arithmetical propositions from stated axioms. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` | Grouping: operations on numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` | Grouping: direct transformations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Instance) Magnitude Comparison | Operational act judging greater, lesser, or equal between numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` | Grouping: derivations from premises. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` (→ Kind) `Deduction` | Grouping: necessary derivations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` (→ Kind) `Deduction` (→ Instance) Induction Proof | Proof by mathematical induction: base and step deriving the universal claim — deductive in epistemic standing. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` | Grouping: coordinated routines. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` | Grouping: rules guiding reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` (→ Instance) Induction Principle | What holds of zero and passes to successors holds of all numbers. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` (→ Instance) Commutativity Principle | Order-independence of addition and multiplication. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` | Grouping: the constructions arithmetic produces about discrete quantity — what the DCESA does not leave unrecorded. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Sum Statement | A description: seven times eight are fifty-six, carried as a claim about the segment. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Evenness | A concept: the constructed property a number carries when it divides into two exact halves. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Multiplication Table | A dataset: products indexed by factor, consulted instead of recomputed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Carrying Explanation | An explanation: why regrouping ten ones into one ten preserves the sum. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` | Grouping: assessments of reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` | Grouping: standards judging arithmetic. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` (→ Instance) Correctness Standard | A computation stands only if independent recomputation agrees. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` (→ Instance) Proof Validity Standard | A proof stands only if each step follows by stated rule. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Standard` (→ Instance) Place-Value Standard | A numeral stands only if each place weighs its power of ten. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Criterion` | Grouping: evaluated properties. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Criterion` (→ Instance) Exactness Criterion | The result is exact or it is wrong; approximation has no standing here. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Constraint` | Grouping: limits on reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Constraint` (→ Instance) Working Memory Limit | Only so many partial products are held at once; the column relieves memory. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Error` | Grouping: deviations from the true value. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Error` (→ Instance) Dropped-Carry Error | Off-by-ten slip losing a carry, rendering seven times eight as fifty-four. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Validation` | Grouping: checks discharging doubt. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Validation` (→ Instance) Inverse Check | Division undoing multiplication to validate the product. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Validation` (→ Instance) Casting Out Nines | Modular-nine checksum validating long reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Feedback` | Grouping: evaluations returned to reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Evaluation` (→ Has) `Epistemic Feedback` (→ Instance) Recount After Mismatch | Recomputation ordered by a failed check. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` | Grouping: transmission of reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` (→ Has) `Epistemic Inscription` | Grouping: persistent renderings. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` (→ Has) `Epistemic Inscription` (→ Instance) Chalkboard Sum | Worked reckoning kept on the board for checking. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` (→ Has) `Epistemic Publication` | Grouping: published reckonings. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` (→ Has) `Epistemic Publication` (→ Instance) Reckoning Primer | Printed tables and rules teaching reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Communication` (→ Has) `Epistemic Publication` (→ Instance) Reckoning Primer (→ Instance) Liber Abaci | Exemplar primer realizing the genre: Fibonacci's 1202 transmission of place-valued reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` | Grouping: structures enabling reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Epistemic Tool` | Grouping: tools of the reckoner. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Epistemic Tool` (→ Instance) Calculator | Device performing calculation for the reckoner. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Epistemic Tool` (→ Instance) Calculator (→ Instance) Abacus | Exemplar calculator realizing the tool: place-valued beads. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Information Repository` | Grouping: stored reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Information Repository` (→ Instance) Table Book | Bound addition and multiplication tables consulted instead of recomputed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Epistemic Institution` | Grouping: bodies sustaining reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Infrastructure` (→ Has) `Epistemic Institution` (→ Instance) Schoolroom | Instruction drilling reckoning across generations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Context` | Grouping: the surrounding conditions under which reckoning is situated. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Context` (→ Has) `Epistemic Condition` | Grouping: the conditions under which reckoning is carried on. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Context` (→ Has) `Epistemic Condition` (→ Instance) Oral Transmission Condition | Reckoning must be held in memory and recited: no external store is assumed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Context` (→ Has) `Epistemic Condition` (→ Instance) Exactness Demand Condition | Exchange and accounting admit no approximation: a wrong count is a loss, not an estimate. |
+
+### What Is a critical conceptual evaluation of `Epistemic Element`?
+
+> Evaluated is the definition, not its use: "An `Epistemic Element` is anything that occupies a role in the practice by which reality is made intelligible — the reality cut as a target, the practice that investigates it, the constructions it produces, or what enables, constrains, evaluates, communicates, or conditions that practice. An element qualifies when its absence, substitution, or alteration changes what inquiry can reach, produce, or warrant; what passes no such test lies outside the category. Epistemic elements are typed as kinds of the Epistemic Order and, when composite, decompose into further epistemic elements through explicitly typed relationships."
+
+| Criterion | Verdict | Diagnostic |
+| --- | --- | --- |
+| **Conceptual Specification** | | |
+| Conceptual Identification | High | **Identity:** the differentia is stated — "occupies a role in the practice by which reality is made intelligible" — and the role list (target cut, practice, construction, enabling, constraining, evaluating, communicating, conditioning element) marks the category off from `Epistemic Domain`, `Epistemic Practice`, and `Epistemic Framework`, which are positions inside it. |
+| Definitional Clarity | Moderate–High | **Intelligibility:** the definiens is explicit and non-circular; the residual vagueness sits in "made intelligible" and "can reach, produce, or warrant", both of which require the inquiry to be named. |
+| Conceptual Determinacy | Moderate–High | **Boundary rules:** the removal test decides borderline cases — a notation that changes what can be warranted is in, a set of data that changes what can be predicted is in, a distant fact no inquiry reaches is refused. |
+| Definitional Completeness | Moderate–High | **Constitutive conditions:** membership condition, role list, test, exclusion principle, typing, and decomposition are all stated; an exhaustive list of exclusions is not. |
+| Internal Consistency | High | **Logical integrity:** membership does not run through the type system; typing only classifies what the role test has already admitted, and decomposability follows membership instead of establishing it. |
+| Structural Coherence | High | **Internal organization:** one criterion (role), one test (change on removal), two consequences (typing and decomposition), stated in that order, with no competing register. |
+| Conceptual Tractability | High | **Evaluability:** name the inquiry, place the element in a role, test whether it changes anything; then type and decompose. |
+| **Representational Adequacy** | | |
+| Extensional Fidelity | Moderate–High | **Classification accuracy:** identical elements are admitted or refused by the role test; the extension of the kinds remains bound to the reference table. |
+| Intensional Adequacy | High | **Defining properties:** the inquiry and the role positions are the stated defining properties, not a proxy for them. |
+| Ontological Adequacy | High | **Kind of entity:** it defines elements; the category/instance distinction is carried explicitly, and an ontic segment enters only as the target role, never as a second category. |
+| Discriminative Power | Moderate–High | **Relevant distinctions:** separates target cut, doing, lens, construction, and ontic segment — roles the earlier wording merged into "epistemic content". |
+| Granularity Adequacy | High | **Level of abstraction:** role membership is level-free, and recursion fixes granularity per purpose. |
+| Empirical Adequacy | Moderate | **Evidence:** the removal test is checkable case by case, though the definition itself is analytic rather than empirical. |
+| Representational Coverage | High | **Domain coverage:** the role positions cover domains, practices, tasks, methods, constructions, interfaces, standards, constraints, feedback, infrastructure, and the ontic segments they target. |
+| **Conceptual Economy** | | |
+| Ontological Parsimony | Moderate–High | **Structural economy:** one criterion, one test, two consequences in a single sentence — at the cost of a longer definiens than the loose original. |
+| Conceptual Distinctiveness | High | **Unique contribution:** role-plus-test is not the vocabulary of the neighbouring philosophiae. |
+| Redundancy Control | High | **Conceptual overlap:** domain, practice, and framework are disjoint wholes, so the membership test does not repeat the typing rules; typing and decomposability each do one job. |
+| Boundary Differentiation | Moderate–High | **Separation from neighbours:** domain, practice, framework, construction, and ontic segment are marked by role position rather than by table entry alone. |
+| **Epistemic Performance** | | |
+| Epistemic Leverage | High | **Analytical yield:** admission becomes a decision that can be made and audited before any typing or decomposition begins. |
+| Inferential Productivity | Moderate | **Reasoning capacity:** it supports role-based inference — if a construction represents a segment, the access, standards, and practice that produced it exist — beyond the trivial "decomposes into epistemic elements". |
+| Explanatory Power | Moderate | **Explanatory contribution:** it says why an element is epistemic: what can be understood or warranted changes without it. |
+| Predictive Utility | Low–Moderate | **Anticipatory capacity:** it predicts role-mates, not behaviour. |
+| Information Compression | Moderate | **Representational efficiency:** the admission rule is compressed into one sentence, longer than the loose original but usable. |
+| Problem-Solving Utility | High | **Practical contribution:** admission and decomposition are both checkable operations. |
+| **Integration and Generality** | | |
+| Contextual Robustness | High | **Contextual stability:** no knower or experience clause; the definition holds where inquiry is distributed, institutional, or non-human. |
+| Combinatorial Fluidity | Moderate–High | **System integration:** a role in one inquiry types cleanly into the shared link grammar; composition still depends on the reference table. |
+| Relational Compatibility | Moderate | **Compatibility:** compatible across the epistemic, ontic, and social orders by re-reading an element under a role, though relation vocabulary remains unshared. |
+| Cross-Domain Portability | High | **Domain transfer:** role-in-inquiry travels across domains without reformulation. |
+| Scale Invariance | High | **Scale transfer:** roles apply at every scale, and composites recurse. |
+| Temporal Stability | Moderate | **Historical continuity:** "made intelligible" is epoch-relative; what counts as an epistemic problem is historically redefined. |
+| **Operational and Methodological Validity** | | |
+| Operationalizability | High | **Procedural applicability:** name the inquiry, assign the role, test removal — then type and decompose. |
+| Measurement Validity | Not applicable | **Construct representation:** no measurement is intended at the category level; measures sit beneath it as `Epistemic Standard` and `Epistemic Criterion`. |
+| Reliability | Moderate–High | **Repeatability:** the test narrows divergence to what the inquiry is taken to be. |
+| Inter-Subjective Reproducibility | Moderate | **Agreement:** clear cases converge; a contested purpose still needs a user question, which the guide already requires for ambiguous roots. |
+| Falsifiability or Refutability | Moderate | **Exposure to criticism:** the test can fail — an element whose removal changes nothing is refused. |
+| Sensitivity to Evidence | Moderate–High | **Revisability:** evidence about an inquiry can reclassify an element, or expose a missing role. |
+| **Normative and Strategic Adequacy** | | |
+| Purpose Adequacy | High | **Functional fit:** fit for admission, typing, and decomposition in one instrument. |
+| Normative Justification | Not applicable | **Value justification:** no values are embedded; prescriptions enter through `Epistemic Standard` and the normative philosophia. |
+| Strategic Effectiveness | High | **Intervention utility:** the role positions map onto the circuit questions (why, who, what, how accessed, what is done, what is produced, how judged, under what conditions, what supports it). |
+| Performative Effects | Moderate | **Effects of classification:** admission still reorganises how an inquiry is taught, funded, and governed, now with a test behind it. |
+| Misuse Resistance | Moderate | **Resistance to abuse:** the role test blocks mere relabelling, though "intelligible" can still be stretched by a determined user. |
 
 ### Which note schema used - in order to document an epistemic element?
 

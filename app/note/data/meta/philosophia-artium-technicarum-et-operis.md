@@ -139,27 +139,14 @@ Technical Element (parent)
 | `Technical Element (→ Kind) Technical Obsolescence` | Condition in which a technical artifact loses technical, economic, or social viability relative to alternatives. | Classification; Lifecycle |
 
 
-### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
+### Which are the available expansions of the slots?
 
-> `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
 
-Usage rules
-
-- Tags qualify nodes; they do not replace the underlying type. For example, Deprecated [Technical Standard] remains a technical standard.
-- Use a subtype when the distinction defines a recognized kind. Use a tag when the distinction qualifies an instance or can apply across multiple kinds.
-- Allow multiple tags per node. A `Production Technical Object` can be `Virtual`, `Certified`, and `Obsolescent` simultaneously.
-- Do not confuse a tag with a relationship. `Verified` describes an assessed standing; a permitted link such as `Technical Evaluation (→ Kind) Verification` expresses decomposition.
-- Avoid redundant tags. If a subtype already entails a characteristic in the intended context, do not add the same tag unless it provides meaningful additional information.
-- Distinguish a known absence from missing information. `Non-Reproducible` should be used only when the failure to reproduce is established, not merely because reproduction has not been attempted.
-
-Case:
-
-| Technical Category | Tags | Description | Usage |
-| --- | --- | --- | --- |
-| Technical Standard | `Deprecated` | Superseded by a later specification but still in use. | Legacy Protocol |
-| Production Technical Object | `Virtual` | Operative structure primarily informational or computational. | Database Engine |
-| Technical Maintenance | `Preventive` | Performed before failure to preserve functional state. | Scheduled Recalibration |
-
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Technical Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
+| `<<Relationship Type>>` | any label in the relationship-type table | Names the relation asserted; this guide's table decides which labels may join which types. |
 
 ## How to decompose any technical instance?
 
@@ -178,7 +165,6 @@ Case:
 - **Root:** Every path begins at the root node `Technical Element`. The instance's own type is declared once as a grouping segment (`Technical Element` → `Production Technical System` → `CRM System`), never as the path head.
 - **Relationship Labeling:** Every link between a parent and child names its relationship type, styled `` `(→ Kind)` `` — `Kind`, `Has`, `Part`, `Instance`, or any other type from the relationship-type table. A bare arrow is not permitted. Typing reads from type segments, never from the link: an instance resolves to its nearest enclosing type segment, with the decomposition root's type declared once.
 - **Permitted Links:** Every relationship must conform to a link form allowed by the `Permitted Link Forms` table, whose first row is the generic form licensing any labelled link between two technical elements. `Instance` binds a type segment to an instance and needs no entry in that table.
-- **Instance Grounding:** Each child must represent an element of the particular instance being decomposed, rather than merely a type that could theoretically occur within it. Type labels may be used to identify or organize instances, but classification alone does not establish that a corresponding instance exists.
 - **Recursive Expansion:** Any technical instance identified in the tree may itself be decomposed recursively; any row may serve as a decomposition root.
 - **Decomposition Scope:** Select the aspects of the instance that need to be represented. A decomposition need not include every conceivable aspect of technical reality; it must adequately cover the aspects relevant to its stated purpose.
 - **Stopping Condition:** Stop expanding a branch when its instance is sufficiently specified for the decomposition's purpose, when further expansion is unnecessary, or when the available evidence does not justify additional decomposition. A leaf is a stopping point in the current decomposition, not necessarily an intrinsically indivisible element. Every leaf must resolve to a technical instance.

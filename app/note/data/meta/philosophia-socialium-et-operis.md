@@ -99,6 +99,15 @@ Social Element (parent)
 | `Social Compound (→ Component) <<Social Element>>`   | Identifies a constituent that fulfills a structural or functional role within a social compound.                    | Constitution; Structure          |
 | `Social Compound (→ Association) <<Social Element>>` | Identifies a social element associated with a social compound without asserting that it constitutes part of it.     | Association; Relation            |
 
+### Which are the available expansions of the slots?
+
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
+
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Social Element>>` | any type licensed in this guide | Binds the parent or child of a permitted link; the specific rows decide which pairs are permitted. |
+| `<<Activity>>` | `Activity` | The coarse bundle of granular social actions in which an interaction unit participates. |
+
 ### Which are the tags(adjectives) that can be used  to enrich the nodes of the decompsotion?
 
 > `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.

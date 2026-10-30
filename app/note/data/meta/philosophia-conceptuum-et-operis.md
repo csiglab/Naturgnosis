@@ -80,6 +80,19 @@
 | Effective Abstraction | A higher-level model or metaphor that **summarizes complex processes** but may not directly map onto physical entities (e.g., “center of gravity,” “ecosystem health,” “software bug”). |
 | Strategic (Agentic) | <<Concepts>> used to *intervene in, steer, or manipulate systems*, often combining descriptive + analytical content but optimized for action rather than truth. They may be simplified, partial, or intentionally coarse. (e.g., “development model,” “market liberalization,” “industrial policy,” “containment strategy”, “overproduction”). |
 
+### Which are the available expansions of the slots?
+
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
+
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Concepts>>` | Descriptive | Aim to describe or categorize reality as it is. |
+| `<<Concepts>>` | Analytical | Used to analyze structures or relations within reality. |
+| `<<Concepts>>` | Normative | Carry value judgments or prescribe ideals and standards. |
+| `<<Concepts>>` | Scientific Concept | A construct embedded in a theory, operationalized and measurable, generating testable predictions. |
+| `<<Concepts>>` | Effective Abstraction | A higher-level model or metaphor summarizing complex processes without mapping directly onto entities. |
+| `<<Concepts>>` | Strategic (Agentic) | Used to intervene in, steer, or manipulate systems, optimized for action rather than truth. |
+
 ## Evaluation
 
 > How to **evaluate concept**?

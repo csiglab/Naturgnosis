@@ -43,27 +43,40 @@ VOCAB = {"Social Compound", "Interaction Unit", "Social Action", "Activity",
 # vocabulary is the guide's declared types plus every grouping segment
 # realized in its Arithmetic worked case.
 EPISTEMIC_VOCAB = {
-    "Epistemic Element", "Aggregate",
+    "Epistemic Element", "Epistemic Element Set", "Epistemic Domain",
+    "Epistemic Practice", "Epistemic Task", "Epistemic Method",
+    "Epistemic Procedure", "Epistemic Act",
+    "Epistemic Construction", "Concrete Epistemic Artifact", "Concrete Epistemic Artifact Set",
+    "Epistemic Framework", "Epistemic Blueprint",
     "Epistemic Orientation", "Epistemic Purpose", "Epistemic Question",
     "Epistemic Goal", "Epistemic Gap", "Epistemic Role",
     "Epistemic Agency", "Epistemic Agent", "Epistemic Act", "Epistemic Activity",
+    "Epistemic Activity (Process)",
     "Epistemic Access", "Observation Interface", "Observation Record",
-    "Observation Encoding",
-    "Epistemic Representation", "Representational System",
-    "Representation Element", "Constitutive Substrate",
+    "Observation Encoding", "Transduction", "Sampling", "Observable",
+    "Segment of Reality",
+    "Epistemic Representation", "Epistemic Representation Form",
+    "Representational System",
+    "Representation Element", "Constitutive Substrate", "Property",
     "Convention", "Formation", "Foundation", "Interpretation",
-    "Epistemic Construction", "Epistemic Operation", "Action", "Organization",
+    "Epistemic Operation", "Action", "Organization", "Epistemic Operator",
     "Method", "Principle", "Inference", "Deduction", "Procedure",
     "Epistemic Evaluation", "Epistemic Standard", "Epistemic Criterion",
-    "Epistemic Constraint", "Error", "Validation", "Feedback",
+    "Epistemic Constraint", "Epistemic Error", "Validation", "Verification",
+    "Epistemic Feedback",
     "Epistemic Communication", "Epistemic Inscription", "Epistemic Publication",
+    "Epistemic Coordination",
     "Epistemic Infrastructure", "Epistemic Tool", "Information Repository",
     "Epistemic Institution", "Epistemic Context", "Epistemic Condition",
-    "Epistemic Target", "Target Domain", "Target Segment", "Observable",
-    "Epistemic Object", "Segment of Reality", "Ontic",
+    "Ontic",
 }
 EPISTEMIC_ONLY = EPISTEMIC_VOCAB - VOCAB - {"Ontic"}
-LABEL_RE = re.compile(r"\(→ ([A-Za-z]+)\)")
+EPISTEMIC_LABELS = LABELS | {
+    "Instance Of", "Derived From", "Evaluated By", "Governed By",
+    "Represents", "Transforms", "Addresses", "Produces",
+    "Depends On", "Related To", "Unspecified",
+}
+LABEL_RE = re.compile(r"\(→ ([A-Za-z][A-Za-z ]*)\)")
 BACKTICK_RE = re.compile(r"`([^`]+)`")
 
 
@@ -92,11 +105,14 @@ def _tables(lines):
 
 
 def _is_epistemic(rows):
-    if any("(→" in cell for _, cell in rows):
+    has_epistemic_type = any(
+        set(m.strip() for m in BACKTICK_RE.findall(cell)) & EPISTEMIC_ONLY
+        for _, cell in rows
+    )
+    if not has_epistemic_type:
         return False
-    return any(BACKTICK_RE.findall(cell) and
-               set(m.strip() for m in BACKTICK_RE.findall(cell)) & EPISTEMIC_ONLY
-               for _, cell in rows)
+    labels = {lab for _, cell in rows for lab in LABEL_RE.findall(cell)}
+    return not labels or labels <= EPISTEMIC_LABELS
 
 
 def check_file(path):
@@ -110,9 +126,10 @@ def check_file(path):
         epistemic = _is_epistemic(rows)
         for i, cell in rows:
             if epistemic:
-                # 1. epistemic links are bare arrows, never labeled
-                if LABEL_RE.search(cell):
-                    issues.append(f"{path}:{i}: labeled link in epistemic path cell")
+                # 1. labels from the epistemic relationship vocabulary
+                for lab in LABEL_RE.findall(cell):
+                    if lab not in EPISTEMIC_LABELS:
+                        issues.append(f"{path}:{i}: unknown relationship label `(→ {lab})`")
                 # 2. backticks only on epistemic vocabulary segments
                 for bt in BACKTICK_RE.findall(cell):
                     if bt.strip() not in EPISTEMIC_VOCAB:
@@ -127,7 +144,7 @@ def check_file(path):
                 if "\u2192" in stripped:
                     issues.append(f"{path}:{i}: bare arrow in path cell")
                 # 3. backticks only on vocabulary segments
-                for seg in re.split(r"`?\(→ [A-Za-z]+\)`?", cell):
+                for seg in re.split(r"`?\(→ [A-Za-z][A-Za-z ]*\)`?", cell):
                     for bt in BACKTICK_RE.findall(seg):
                         if bt.strip() not in VOCAB:
                             issues.append(f"{path}:{i}: backticked non-vocabulary segment `{bt.strip()}`")

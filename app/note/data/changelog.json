@@ -26,6 +26,11 @@
         "date": "2026-10-30",
         "kind": "docs",
         "summary": "Moved from epistemica/earth-science.md — a discipline-family root; filed under `epistemica/discipline/`."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Retyped `Epistemic Framework Domain` rows as `Epistemic Domain` per the reworked guide: families, disciplines, and sub-fields are one type, distinguished by path position."
       }
     ]
   },
@@ -322,6 +327,36 @@
         "summary": "Added the `Epistemic Context (→ Has) Epistemic Condition` permitted link form so context instances can be decomposed.",
         "commit": "08504236ccf930e115ef82aad42f10fa68fc3217",
         "before": "49e430c581b09bdfdc6fde0d3147b9597ac516e3"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Rewrote the Permitted Link Forms table: collapsed the set kinds to `Epistemic Domain` (discipline as an `Institutionalized` tag), retired `Epistemic Target`/`Target Domain`/`Target Segment`/`Epistemic Framework Domain`, renamed the artifact type to `Concrete Epistemic Artifact`, licensed the construction, evaluation, communication, infrastructure, and context strata, added `Member` and grouping-segment rules, and regrew the Arithmetic case study with its artifact and context branches."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added `Epistemic Practice` as the structural unit of decomposition (per the technicarum rule: practice is the pattern, activity the pattern exercised), with the `Task → Method → Procedure → Act` ladder, the practice lanes, `Addresses`/`Produces`/`Instance` labels, and `Domain → Has Practice`; demoted `Epistemic Activity` and moved `Act`/`Method`/`Procedure` out of the Agency and Operation lanes. Re-rooted the Arithmetic case study at the practice."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Collapsed artifact naming into `Epistemic Construction` (removed `Concrete Epistemic Artifact` and its set kind; `Epistemic Blueprint` kept as a construction form), and refactored the Permitted Link Forms table from 100 rows to 66 by introducing ten named template slots (`<<Epistemic Lane>>`, `<<Epistemic Construction>>`, `<<Evaluation Element>>`, and the rest) instead of repeating near-identical rows."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Answered \"What Is a `Epistemic Element`?\" with the role-test definition (technical-guide form) and added the critical conceptual evaluation of `Epistemic Element` — the 41-criterion table mirroring technicarum."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "fix",
+        "summary": "Named every link in the Arithmetic instance tree paths with its relationship type, added the five missing parent rows, and rebased the tree on `Epistemic Element → Epistemic Element Set → Epistemic Practice → Arithmetic`; restored the tags section."
       }
     ]
   },
@@ -377,6 +412,11 @@
         "summary": "Relabelled the CRM case's 129 non-subtype `Kind` links with the relationship-type table's semantics (`Has`, `Governed By`, `Evaluated By`, `Maintained By`, `Enables`, `Produces`), keeping `Kind` only for true subtyping; documented the generic link form and the `Instance` exemption in the Permitted Links rule, restored the Root rule's grouping-segment clause, scoped the `Set` suffix to ensembles, and removed the empty link-types heading.",
         "commit": "534850e3d3a181a0a6d46ba0a8188c9078173df0",
         "before": "3d9160310f5b2d7b18deb7557c0eb5b43a00bdf9"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
       }
     ]
   },
@@ -402,6 +442,11 @@
         "date": "2026-10-11",
         "kind": "docs",
         "summary": "Expanded the Evaluation section into the categorized criteria framework with minimum set; expanded the Case Study."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
       }
     ]
   },
@@ -417,6 +462,11 @@
         "date": "2026-10-10",
         "kind": "fix",
         "summary": "Remapped moved-note links / fixed viewer prefixes / unlinked dead ends via check_note_links."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
       }
     ]
   },
@@ -446,6 +496,11 @@
         "summary": "Documented the ultimate generic link form (`<<Ontic Element>> (→ <<Relationship Type>>) <<Ontic Element>>`) in the permitted table, with a template note and QA, and fixed the row format.",
         "commit": "952f20aa7f665187f6566c753c7e4698fca944e4",
         "before": "16f2d1e39ed732d74f5ec5528fceee1ae312d534"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
       }
     ]
   },
@@ -478,6 +533,11 @@
         "summary": "Remapped the Principle link to the renamed Social Action Principle note.",
         "commit": "6a0cb2bea2d99fd9d4593ada395253a3d9107f45",
         "before": "29ce8abd61c63c0f850581570dcf14d6ff3dc99e"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list."
       }
     ]
   },
@@ -12056,6 +12116,11 @@
         "kind": "chore",
         "summary": "Relocated from `social/actor/...` to `social/collective/actor/...` (actor corpus moved under Collective); in-note links updated.",
         "commit": "b4c30f44b9c851008382617c268cf1304f232349"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Retyped the epistemic forest after the guide rework: `Epistemic Target` → `Epistemic Domain`, target segments → `Segment of Reality`, `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Object` → `Concrete Epistemic Artifact`, `Error`/`Feedback` → `Epistemic Error`/`Epistemic Feedback`."
       }
     ]
   },
@@ -18902,6 +18967,11 @@
         "date": "2026-10-25",
         "kind": "feat",
         "summary": "Add the connectome as an epistemic construction note about a natural target, filed under nature, linked to the epistemica section and to the Sporns 2011 research node."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Retyped the decomposition after the guide rework: `Epistemic Construction` → `Concrete Epistemic Artifact`, `Epistemic Target` → `Epistemic Domain`."
       }
     ]
   },

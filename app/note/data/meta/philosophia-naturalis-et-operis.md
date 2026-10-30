@@ -188,6 +188,15 @@ Ontic Element (parent)
 
 > `Instance` binds a type segment to an instance and needs no entry in the `Permitted Link Forms` table. `Unspecified` is the declared escape hatch: use it only when the relation cannot be identified, and replace it with a specific type once it can.
 
+### Which are the available expansions of the slots?
+
+> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
+
+| Slot | Expansion | Description |
+| --- | --- | --- |
+| `<<Ontic Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
+| `<<Relationship Type>>` | any label in the relationship table | Names the relation asserted; the table decides which labels may join which types. |
+
 ### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
 
 > `Tags` are analytical qualifiers attached to a node to characterize its properties, composition, relationships, formation, or mode of operation without creating a separate subtype for every variation.

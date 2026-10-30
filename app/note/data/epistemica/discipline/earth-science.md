@@ -18,7 +18,7 @@ tags: [earth, geology, geoscience, research]
 
 The cut is made explicit, since a domain without a boundary is not a domain. What is **in**: the whole planetary body — solid, deep, water, air, ice, life, and the magnetic envelope — together with its history, which is preserved in rock, sediment, ice, and tree ring. What is **out**: the instruments that observe it (technique, decomposed under the technicarum grammar), the industries and agencies that decide what to do with it (social and production), the Earth as a natural instance in its own right (nature), and the planetary bodies other than Earth except where they test an Earth theory (Cosmochemistry and Planetary Geology sit inside, on that ground alone).
 
-Typing follows the philosophia. A **family** — Solid Earth Sciences, Geophysical Sciences, and their siblings — is an `Epistemic Framework Domain`: a disciplinary family grouping frameworks by shared structure and reasoning style. A **discipline** and each of its **sub-fields** is an `Epistemic Domain`: a bounded cut over the segment it targets, valid as a decomposition root in its own right. The shared scaffolding takes the type of the element it is — artifact, interface, process, standard, constraint, feedback, gap, infrastructure, agent.
+Typing follows the philosophia. A **family** — Solid Earth Sciences, Geophysical Sciences, and their siblings — is an `Epistemic Domain` holding its sub-domains by `Part`: a disciplinary family grouping frameworks by shared structure and reasoning style. A **discipline** and each of its **sub-fields** is likewise an `Epistemic Domain`: a bounded cut over the segment it targets, valid as a decomposition root in its own right. Disciplinarity is carried as the tag `Institutionalized`, never as a second type. The shared scaffolding takes the type of the element it is — artifact, interface, process, standard, constraint, feedback, gap, infrastructure, agent.
 
 Secondary readings, kept as prose rather than compromise typing: Earth Science read as a `Domain Concrete Epistemic Artifact Set (DCESA)` is the accumulated map, model, and record set itself; the Earth as a `Segment of Reality` is a natural instance and takes its own root under the naturalis grammar. No row below carries two types.
 
@@ -34,7 +34,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 
 > Boundary: one domain family, decomposed at middle depth — the purpose, the segments modelled, fourteen sub-field families with their disciplines and sub-fields, and the scaffolding shared across them. Sub-field expansion stops at the level where a sub-field has a distinct cut, instrument, and literature; deeper expansion is a separate decomposition per sub-field.
 >
-> Identity: every Instance Tree Path is a valid prefix of the tree, and the placeholder is rebound per row — a family row is typed from `Epistemic Framework Domain`, a discipline and sub-field row from `Epistemic Domain`, never both on one row.
+> Identity: every Instance Tree Path is a valid prefix of the tree, and the placeholder is rebound per row — a family row, a discipline row, and a sub-field row are all typed from `Epistemic Domain`, never two types on one row; the family/discipline distinction is carried by position in the path.
 
 | Instance Tree Path | Description | Epistemic Category | Epistemic Element Type Tree Path |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Biosphere | The living layer, from microbes in rock to forests and soils, exchanging matter with every other sphere. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain -> Segment of Reality -> Ecosystem` |
 | Earth Science → Magnetosphere | The domain of influence of the planetary magnetic field, including the radiation belts and the solar wind boundary. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain -> Segment of Reality -> Sphere` |
 | Earth Science → Earth System | The coupled whole, the object of Earth system science and of every coupled model. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain -> Segment of Reality -> Ecosystem` |
-| Earth Science → Solid Earth Sciences | The crust and its rocks: what they are made of, how they are ordered in time, and how they are shaped. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Solid Earth Sciences | The crust and its rocks: what they are made of, how they are ordered in time, and how they are shaped. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Solid Earth Sciences → Mineralogy | Identity, composition, and internal order of natural minerals. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Solid Earth Sciences → Mineralogy → Descriptive Mineralogy | Identification of a mineral from hand specimen and optical properties. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Solid Earth Sciences → Mineralogy → Mineral Chemistry | Compositional variation within and between mineral species. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -94,7 +94,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Solid Earth Sciences → Geotectonics → Subduction Zone Tectonics | Slab descent, arc magmatism, and accretion. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Solid Earth Sciences → Geotectonics → Collision Orogeny | Crustal thickening and the mountain belts it raises. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Solid Earth Sciences → Geotectonics → Back-Arc Extension | Extension behind a consuming boundary. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Geophysical Sciences | The Earth read through force fields and wave response rather than through rock in hand. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Geophysical Sciences | The Earth read through force fields and wave response rather than through rock in hand. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geophysical Sciences → Seismology | The elastic response of the Earth, from tremors to the global record of quakes. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geophysical Sciences → Seismology → Earthquake Seismology | Source, path, and site effects behind a felt or recorded event. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geophysical Sciences → Seismology → Seismotectonics | The tectonic setting that explains where events cluster. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -125,7 +125,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Geophysical Sciences → Marine Geophysics → Marine Magnetic Surveying | Crustal age and offset from the marine magnetic anomaly pattern. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geophysical Sciences → Marine Geophysics → Marine Gravity Surveying | Bathymetry and crustal structure from the free-air field. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geophysical Sciences → Marine Geophysics → Bathymetric Surveying | Sea-floor depth from multibeam and echo sounding. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Geochemical Sciences | The Earth read through composition, reactions, and the atomic clocks that date events. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Geochemical Sciences | The Earth read through composition, reactions, and the atomic clocks that date events. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geochemical Sciences → Geochemistry | How elements behave: their partitioning, equilibria, and inventories. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geochemical Sciences → Geochemistry → Thermodynamic Geochemistry | Mineral and fluid equilibria computed from Gibbs energy. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geochemical Sciences → Geochemistry → Trace Element Geochemistry | Elements at ppm level as fingerprints of source and process. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -154,7 +154,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Geochemical Sciences → Geochemistry Of Natural Waters → Acid Mine Drainage | Oxidation-driven acidity and metal release from mine workings. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geochemical Sciences → Geochemistry Of Natural Waters → Groundwater Geochemistry | Water–rock reaction along flow paths. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geochemical Sciences → Geochemistry Of Natural Waters → Isotope Hydrology | Stable and radiogenic isotopes partitioning the water cycle. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Hydrological Sciences | Where water is, where it goes, and what it carries. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Hydrological Sciences | Where water is, where it goes, and what it carries. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Hydrological Sciences → Surface Hydrology | Runoff, catchment response, and the flood that follows. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Hydrological Sciences → Surface Hydrology → Watershed Hydrology | Water balance and response of a catchment. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Hydrological Sciences → Surface Hydrology → Flood Hydrology | Flood frequency, routing, and inundation. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -175,7 +175,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Hydrological Sciences → Limnology → Lake Limnology | Thermal and chemical stratification and the organisms in it. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Hydrological Sciences → Limnology → Paleolimnology | Reconstructing past lake conditions from their sediments. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Hydrological Sciences → Limnology → Lake Sediment Dating | Resolving the chronology of a sediment sequence. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Cryosphere Sciences | The frozen part of the system, and the feedback loop it closes with carbon. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Cryosphere Sciences | The frozen part of the system, and the feedback loop it closes with carbon. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Cryosphere Sciences → Glaciology | Ice as a flowing, deforming body, and as an archive. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Cryosphere Sciences → Glaciology → Glacier Mass Balance | Accumulation against ablation, the state variable of a glacier. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Cryosphere Sciences → Glaciology → Ice Dynamics | Flow and stress transfer within ice and at its bed. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -187,7 +187,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Cryosphere Sciences → Permafrost Science → Thermokarst | Subsidence and cratering as ice-rich ground thaws. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Cryosphere Sciences → Permafrost Science → Permafrost Hydrology | Flow over and within frozen ground. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Cryosphere Sciences → Permafrost Science → Permafrost Carbon Feedback | CO2 and methane released as frozen carbon defrosts. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Atmospheric Sciences | The air column: what it is made of, how it moves, and how it holds water and charge. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Atmospheric Sciences | The air column: what it is made of, how it moves, and how it holds water and charge. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Atmospheric Sciences → Meteorology | Short-horizon behaviour of the lower atmosphere. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Atmospheric Sciences → Meteorology → Synoptic Meteorology | The frontal and pressure systems of the synoptic scale. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Atmospheric Sciences → Meteorology → Mesoscale Meteorology | Convective and mesoscale phenomena resolved by observation. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -215,7 +215,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Atmospheric Sciences → Atmospheric Electricity → Thunderstorm Electrification | Charge separation in the thunderstorm updraught. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Atmospheric Sciences → Atmospheric Electricity → Lightning Physics | Leader and return-stroke physics. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Atmospheric Sciences → Atmospheric Electricity → Ionospheric Electric Fields | The electric coupling from troposphere to ionosphere. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Climate Sciences | The statistics and mechanisms of weather over decades, and their change. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Climate Sciences | The statistics and mechanisms of weather over decades, and their change. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Climate Sciences → Physical Climatology | The large-scale circulation that sets a climate. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Climate Sciences → Physical Climatology → Climate Dynamics | The energetics of the climate system. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Climate Sciences → Physical Climatology → Climate Extremes | Heat waves, droughts, floods, and their return periods. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -231,7 +231,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Climate Sciences → Climate Modelling → Ensemble Prediction | Perturbed runs quantifying irreducible uncertainty. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Climate Sciences → Climate Modelling → Downscaling | Deriving local fields from coarse model output. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Climate Sciences → Climate Modelling → Earth System Model Coupling | Joining component models with consistent fluxes. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Ocean Sciences | The water column and its floor: motion, chemistry, life, and the sediments it keeps. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Ocean Sciences | The water column and its floor: motion, chemistry, life, and the sediments it keeps. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Ocean Sciences → Physical Oceanography | Motion, stratification, and heat transport in seawater. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Ocean Sciences → Physical Oceanography → Ocean Circulation | The overturning and gyres that redistribute heat. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Ocean Sciences → Physical Oceanography → Coastal Oceanography | Estuarine, shelf, and tidal dynamics. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -253,7 +253,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Ocean Sciences → Marine Geology → Submarine Geomorphology | Seafloor landforms from turbidites to mid-ocean ridges. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Ocean Sciences → Marine Geology → Ocean Drilling Records | Sediment and basement recovered in long cores. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Ocean Sciences → Marine Geology → Marine Tephrochronology | Ash layers correlating marine and ice records. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Historical Earth Sciences | The Earth read through what it preserved: fossils, sediments, and archives. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Historical Earth Sciences | The Earth read through what it preserved: fossils, sediments, and archives. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Historical Earth Sciences → Paleontology | Past life recovered from the rock record. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Historical Earth Sciences → Paleontology → Vertebrate Paleontology | Fish to tetrapods and their extinctions. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Historical Earth Sciences → Paleontology → Invertebrate Paleontology | Molluscs, arthropods, and their assemblages. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -271,7 +271,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Historical Earth Sciences → Paleoceanography → Paleoceanographic Circulation | Reconstructed overturning from proxies. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Historical Earth Sciences → Paleoceanography → Fossil Assemblage Reconstruction | Assemblages as water-mass indicators. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Historical Earth Sciences → Paleoceanography → Cretaceous And Cenozoic Ocean Records | The long record of sea level and chemistry. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Earth-Life Sciences | The living layer as a geochemical engine, and the interface where it is studied. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Earth-Life Sciences | The living layer as a geochemical engine, and the interface where it is studied. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth-Life Sciences → Biogeochemistry | Element cycles moved by organisms, across scales. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth-Life Sciences → Biogeochemistry → Carbon Cycle Biogeochemistry | Fluxes between atmosphere, biosphere, and crust. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth-Life Sciences → Biogeochemistry → Nitrogen Cycle Biogeochemistry | Fixation, nitrification, and denitrification. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -289,7 +289,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Earth-Life Sciences → Soil Science → Soil Mineralogy | Mineralogy of the fine fraction, including clay minerals. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth-Life Sciences → Soil Science → Soil Survey And Classification | Mapping and taxonomic grouping of soil bodies. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth-Life Sciences → Soil Science → Soil Carbon Stocks | Quantity and persistence of soil organic carbon. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Planetary Sciences | The same inquiry run on bodies other than Earth, which is also the test of the Earth theories. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Planetary Sciences | The same inquiry run on bodies other than Earth, which is also the test of the Earth theories. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Planetary Sciences → Planetary Geology | Geology of the Moon, planets, and small bodies. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Planetary Sciences → Planetary Geology → Planetary Geomorphology | Landforms and surface processes off Earth. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Planetary Sciences → Planetary Geology → Impact Cratering | Crater production, scaling, and age from crater counts. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -304,7 +304,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Planetary Sciences → Astrobiology → Biosignature Detection | What evidence would count as life, and its discrimination. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Planetary Sciences → Astrobiology → Extremophile Biology | Organisms at the edge of the habitable envelope. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Planetary Sciences → Astrobiology → Planetary Protection | Contamination policy governing sample return and landing. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Geospatial Sciences | The measurement and representation layer: how the surface is observed and stored. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Geospatial Sciences | The measurement and representation layer: how the surface is observed and stored. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geospatial Sciences → Remote Sensing | Non-contact observation of the surface, from orbital and aerial platforms. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geospatial Sciences → Remote Sensing → Optical Remote Sensing | Reflectance in the visible and near infrared. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geospatial Sciences → Remote Sensing → Thermal Infrared Remote Sensing | Surface temperature from emitted radiance. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -326,7 +326,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Geospatial Sciences → Geographic Information Science → Terrain Analysis | Slope, aspect, curvature, and hydrological routing from a DEM. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geospatial Sciences → Geographic Information Science → Cartographic Generalization | Choosing what to keep when scale reduces. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Geospatial Sciences → Geographic Information Science → Geoinformatics | Representation and search over spatial and temporal fields. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Applied Earth Sciences | Earth science turned to a decision: resources, hazard, containment, and health. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Applied Earth Sciences | Earth science turned to a decision: resources, hazard, containment, and health. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Applied Earth Sciences → Economic Geology | Locating and characterizing mineral resources. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Applied Earth Sciences → Economic Geology → Mineral Deposit Geology | Deposit type, geometry, and grade distribution. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Applied Earth Sciences → Economic Geology → Ore Deposit Geochemistry | Element pathfinders identifying the mineralizing system. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
@@ -372,7 +372,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 | Earth Science → Applied Earth Sciences → Forensic Geology | Mineral evidence in legal investigation. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Applied Earth Sciences → Forensic Geology → Soil And Dust Matching | Association of a sample with a place of origin. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Applied Earth Sciences → Forensic Geology → Crime Scene Geological Sampling | Sampling and preservation protocol for trace mineral evidence. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
-| Earth Science → Earth System Science | The integrative layer: what it takes to model the coupled whole rather than one part. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Framework Domain` |
+| Earth Science → Earth System Science | The integrative layer: what it takes to model the coupled whole rather than one part. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth System Science → Earth System Modelling | Flux-coupled models of the interacting spheres. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth System Science → Earth System Modelling → Coupled Carbon Cycle Modelling | Land, ocean, and atmosphere carbon exchange. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
 | Earth Science → Earth System Science → Earth System Modelling → Land Surface Modelling | Energy, water, and vegetation at the surface. | Target | `(root) := <<Epistemic Element>> -> Epistemic Domain` |
