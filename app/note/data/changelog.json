@@ -477,6 +477,16 @@
         "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
         "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
         "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "docs",
+        "summary": "Reformed to the epistemic note's form: front-matter tags, member-test definition, fundamental-structure block, Permitted Link Forms table (replacing the category/spine taxonomy), nested slot table, relationship-type table, mirrored decomposition rules with labelled links, re-labelled full-chain case study, and a proportionate critical conceptual evaluation."
+      },
+      {
+        "date": "2026-10-30",
+        "kind": "refactor",
+        "summary": "Replaced the flat permitted-links star with a five-layer lane grammar: `Moral Element -> Kind -> Moral Element Set -> Kind -> Moral Order / Moral Compound -> Has -> <<Moral Lane>> -> Has -> lane constituent`. Added the ten lanes as structural types (Agency, Goods, Claim, Action, Deliberation, Adjudication, Answerability, Transmission, Dynamics, Condition) with fourteen slot expansions, collapsed the twenty-five `Kind` rows, retired the category tags, added the `Binds`, `Governs`, `Assesses`, `Establishes`, `Conditions`, `Scopes` and `Realized By` labels, and re-typed the case study along lanes (79 rows)."
       }
     ]
   },
