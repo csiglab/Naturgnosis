@@ -400,7 +400,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Removed `Segment of Reality (→ Kind) <<Ontic Element>>`: the epistemica tree names the segment and stops, leaving its ontic reading to the naturalis or social tree. Turned `Epistemic Practice (→ Part) Epistemic Practice` into `Member`, the only disaggregation a set admits per the guide's own rule, and marked `Domain (→ Has) Practice` as the inverse view of `Addresses`. Added the Inverse Pairs and Acyclicity rules, widened the `<<Ontic Element>>` slot to the social grammar, and added the segment QA."
+        "summary": "Removed `Segment of Reality (→ Kind) <<Ontic Element>>`: the epistemica tree names the segment and stops, leaving its ontic reading to the naturalis or social tree. Turned `Epistemic Practice (→ Part) Epistemic Practice` into `Member`, the only disaggregation a set admits per the guide's own rule, and marked `Domain (→ Has) Practice` as the inverse view of `Addresses`. Added the Inverse Pairs and Acyclicity rules, widened the `<<Ontic Element>>` slot to the social grammar, and added the segment QA.",
+        "commit": "3bff0a93c43247ee0c1925aa7fe1a4f2e76ff829",
+        "before": "73d4e30fb5769979adbf392f087b2a1f9855663b"
       }
     ]
   },
