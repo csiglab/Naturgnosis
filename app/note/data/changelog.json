@@ -435,7 +435,9 @@
       {
         "date": "2026-10-31",
         "kind": "feat",
-        "summary": "Added `Transformation Rule` to the `<<Constitutive Element>>` expansions: an operation specifies a result, not an order of acts, so arithmetic operations live as rewrite licences in the `Constitutive Substrate` rather than as acts or methods. Extended the Arithmetic case with the `Transformation Rule` branch (`Addition Rule`, `Multiplication Rule`) and marked `Addition Definition` superseded by `Addition Rule`; added `Is multiplication an Epistemic Act, an Epistemic Method, or a constituent of the representation?`."
+        "summary": "Added `Transformation Rule` to the `<<Constitutive Element>>` expansions: an operation specifies a result, not an order of acts, so arithmetic operations live as rewrite licences in the `Constitutive Substrate` rather than as acts or methods. Extended the Arithmetic case with the `Transformation Rule` branch (`Addition Rule`, `Multiplication Rule`) and marked `Addition Definition` superseded by `Addition Rule`; added `Is multiplication an Epistemic Act, an Epistemic Method, or a constituent of the representation?`.",
+        "commit": "f58d4a121a72cea41bb9309528dbfcd8d944c63c",
+        "before": "1375f42d6cee21ec2052c24a92e29d1eb5542ef2"
       }
     ]
   },
