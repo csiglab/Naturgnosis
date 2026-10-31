@@ -414,7 +414,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Removed the guide's self-contradictions: deleted `Element (→ Kind) Ontic` and `Ontic (→ Kind) <<Ontic Element>>` (this note licenses no ontic link form), turned `Epistemic Domain (→ Part) Epistemic Domain` into `(→ Member)` per the one-type-per-distinction rule, retired the orphan `Property` type, and dropped the undefined `Institutionalized` tag. Declared `Governed By` and `Evaluated By` in the relationship table and gave them properties. Moved the method-to-act prescription out of the decomposition: new `Act Metadata` rule and QA saying an act carries its prescribing method on its node, never as a link. Added QA definitions for `Epistemic Method`, `Epistemic Domain`, and `Segment of Reality` vs `Observable`. Renamed DCESA to DESA and replaced two stale references to sections removed in the earlier migration."
+        "summary": "Removed the guide's self-contradictions: deleted `Element (→ Kind) Ontic` and `Ontic (→ Kind) <<Ontic Element>>` (this note licenses no ontic link form), turned `Epistemic Domain (→ Part) Epistemic Domain` into `(→ Member)` per the one-type-per-distinction rule, retired the orphan `Property` type, and dropped the undefined `Institutionalized` tag. Declared `Governed By` and `Evaluated By` in the relationship table and gave them properties. Moved the method-to-act prescription out of the decomposition: new `Act Metadata` rule and QA saying an act carries its prescribing method on its node, never as a link. Added QA definitions for `Epistemic Method`, `Epistemic Domain`, and `Segment of Reality` vs `Observable`. Renamed DCESA to DESA and replaced two stale references to sections removed in the earlier migration.",
+        "commit": "bc2095d6d657d09c0fb1c690da2324e0a4bbf3d4",
+        "before": "f4bf5ec86f55bdf28f336ae9a554f48478127f1b"
       }
     ]
   },
