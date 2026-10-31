@@ -403,6 +403,11 @@
         "summary": "Removed `Segment of Reality (→ Kind) <<Ontic Element>>`: the epistemica tree names the segment and stops, leaving its ontic reading to the naturalis or social tree. Turned `Epistemic Practice (→ Part) Epistemic Practice` into `Member`, the only disaggregation a set admits per the guide's own rule, and marked `Domain (→ Has) Practice` as the inverse view of `Addresses`. Added the Inverse Pairs and Acyclicity rules, widened the `<<Ontic Element>>` slot to the social grammar, and added the segment QA.",
         "commit": "3bff0a93c43247ee0c1925aa7fe1a4f2e76ff829",
         "before": "73d4e30fb5769979adbf392f087b2a1f9855663b"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Moved the ontic questionnaire to the naturalis guide and left a pointer here; widened the `<<Action Element>>` slot to `Inference`, `Observation`, `Measurement`, `Classification`, `Computation`, and `Comparison`; removed `Epistemic Operator` as method-ish; added `Epistemic Agent (→ Kind) Epistemic Collective` and `Epistemic Collective (→ Member) Epistemic Agent` with a Schoolroom Reckoning Corps in the case. Fixed the minor defects: dropped the undefined 'branch order' clause, removed the unused `:=` binding claim, corrected the root wording, added the Kind Trees rule and the relationship-properties block, and required grouping descriptions to say more than the path."
       }
     ]
   },
@@ -574,6 +579,11 @@
         "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
         "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
         "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "docs",
+        "summary": "Added the ontic questionnaire as the opening step of the decomposition workflow, moved here from the epistemicarum guide."
       }
     ]
   },

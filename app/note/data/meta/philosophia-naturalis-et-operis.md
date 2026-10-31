@@ -223,6 +223,8 @@ Case:
 
 > A decomposition recursively expands an ontic instance tree from its root: bind the root instance, then grow its subtree by attaching only links the `Permitted Link Forms` table and the relationship table allow, down to instance leaves. The reference tables above are scaffolding — necessary but not sufficient, and never normative: they say which links *may* appear, not which decomposition is correct for any given element. Choosing instances, depth, and stopping point remains the decomposer's work on the instance itself.
 
+> Begin with the ontic questionnaire — which entities, substances, mechanisms, processes, events, and phenomena constitute the fundamental ontic elements of the target? — then type each answer below.
+
 > See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of a Quarry?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its nearest enclosing grouping segment and labelling every link.
 
 > Note: Instance rows in the Instance Tree Path name instances, never types. Type names appear only as backticked grouping segments and never terminate a branch.

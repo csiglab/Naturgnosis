@@ -101,6 +101,8 @@ Epistemic Element (parent)
 | `Epistemic Element (→ Kind) <<Epistemic Lane>>` | Classifies an element as one of the inquiry lanes. | Classification; Lane |
 | `Epistemic Orientation (→ Has) <<Orientation Element>>` | Identifies a directing element of the orientation. | Orientation; Purpose |
 | `Epistemic Agency (→ Has) Epistemic Agent` | Identifies an entity capable of performing epistemic acts. | Agency; Agent |
+| `Epistemic Agent (→ Kind) Epistemic Collective` | Classifies an agent as a body whose members inquire jointly. | Agency; Collective |
+| `Epistemic Collective (→ Member) Epistemic Agent` | Identifies a member agent of the collective. | Agency; Member |
 | `Epistemic Agency (→ Has) Epistemic Role` | Identifies a position an agent occupies within the practice. | Agency; Role |
 | `Epistemic Access (→ Has) Observation Interface` | Identifies a boundary mechanism coupling a segment to registration. | Access; Interface |
 | `Observation Interface (→ Part) <<Observation Element>>` | Identifies an interface constituent. | Composition; Access |
@@ -142,7 +144,7 @@ Epistemic Element (parent)
 
 ### Which are the available expansions of the slots?
 
-> A slot (`<<…>>`) is bound with `:=`, never with an instance. Each row names one type the slot may take.
+> A slot (`<<…>>`) is bound to a **type**, never to an instance. Each row names one type the slot may take.
 
 | Slot | Expansion | Description |
 | --- | --- | --- |
@@ -189,7 +191,11 @@ Epistemic Element (parent)
 | `<<Represented Aspect>>` | `Segment of Reality` | The bounded portion of reality a construction stands for. |
 | `<<Represented Aspect>>` | `Observable` | A registrable feature of the segment a construction encodes. |
 | `<<Action Element>>` | `Inference` | A derivation of content from premises. |
-| `<<Action Element>>` | `Epistemic Operator` | A named transformation read as an operator. |
+| `<<Action Element>>` | `Observation` | The registration of a state through an interface. |
+| `<<Action Element>>` | `Measurement` | The assignment of a value to an observable under a scale. |
+| `<<Action Element>>` | `Classification` | The assignment of an instance to a type. |
+| `<<Action Element>>` | `Computation` | A rule-governed transformation of represented content. |
+| `<<Action Element>>` | `Comparison` | A judgment of identity, difference, or order between two items. |
 | `<<Evaluation Element>>` | `Epistemic Standard` | The norm against which an artifact or act is judged. |
 | `<<Evaluation Element>>` | `Epistemic Criterion` | The property on which the judgment turns. |
 | `<<Evaluation Element>>` | `Epistemic Constraint` | A bound on what the inquiry can achieve or hold. |
@@ -210,7 +216,7 @@ Epistemic Element (parent)
 
 > See the worked case in QA below (### (Case Study) What is the recursively decomposed instance tree of Arithmetic?). Read the case table as the worked in-path-typed tree: the empty table here is filled the same way, typing each row from its nearest enclosing grouping segment and naming every link with its relationship type.
 
-> Begin with the ontic questionnaire — which entities, substances, mechanisms, processes, events, and phenomena constitute the fundamental ontic elements of the target science? — then type each answer below.
+> The ontic questionnaire belongs to the naturalis or social grammar; this guide starts on the other side of it — with the practice that cuts the segment.
 
 > Note: Instance rows in the Instance Tree Path name instances, never types. Type names appear only as backticked grouping segments and never terminate a branch.
 
@@ -220,7 +226,7 @@ Epistemic Element (parent)
 
 - **Form of the Table:** `Instance Tree Path | Description`.
 - **Instance Tree Path**: A unique, recursively extended path identifying an instance within the decomposition tree. It begins at the root node `Epistemic Element`, descends the licensed kind chain to the instance's type, and appends each successive child through an explicitly labeled relationship, using the form Parent Instance (→ Relationship Type) Child Instance. Each successive path must preserve the complete path from the root to the current instance.
-- **Root**: Every path begins at `Epistemic Element`; an inquiry whole binds `Epistemic Element Set → Kind → Epistemic Practice` (the doing) or `Epistemic Element Set → Kind → Epistemic Domain` (the cut), and takes its instance name as the root. A domain-rooted tree reaches its practice by `Has`; a practice-rooted tree reaches its domain by `Addresses`.
+- **Root**: Every path begins at `Epistemic Element`; an inquiry whole binds `Epistemic Element Set → Kind → Epistemic Practice` (the doing) or `Epistemic Element Set → Kind → Epistemic Domain` (the cut), and names the whole it binds as the root. A domain-rooted tree reaches its practice by `Has`; a practice-rooted tree reaches its domain by `Addresses`.
 - **Relationship Labeling:** Every link between a parent and child names its relationship type, styled `(→ Kind)`, `(→ Has)`, `(→ Part)`, `(→ Instance)`, `(→ Addresses)`, `(→ Produces)`, or another label from the relationship table. A bare arrow is not permitted. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
 - **Grouping Segments:** Every backticked grouping segment names a type licensed by the `Permitted Link Forms` table. A type that is not a row there may not appear in a tree, even when the relationship itself is permitted.
 - **One Type per Distinction:** Do not type the same distinction twice. A discipline is an `Epistemic Domain` carrying the `Institutionalized` tag, never a `Epistemic Discipline` row; a set is disaggregated by `Member`, never by `Part`.
@@ -234,12 +240,13 @@ Epistemic Element (parent)
 - **Tree Structure:** Each non-root row must extend an existing parent path by exactly one child relationship. The same instance may appear in multiple branches when it plays different roles in the decomposition; each occurrence must have its own path. Ensure a rich set of intermediate (internal) nodes — both types and instances — aiding understanding: composition, representation, transformation, validation, or other useful structural relationships.
 - **Inverse Pairs:** `Epistemic Domain (→ Has) Epistemic Practice` and `Epistemic Practice (→ Addresses) Epistemic Domain` assert one fact from two ends. A single path takes exactly one direction — the one its root implies — and never both.
 - **Acyclicity:** No path may return to an instance it already contains. The structure is a tree; a relationship that would close a loop belongs to another tree, linked rather than grown.
+- **Kind Trees:** When the purpose is to say what kinds a type admits — the kinds of `Model`, the kinds of `Epistemic Tool` — root the tree at the type and use `Kind` links only. A kind tree stops at types, never at instances, and the leaf-instance rule does not apply to it. It is a second instrument, not an instance decomposition, and the two are never mixed in one table.
 - **Non-Normativity of Reference Tables:** The reference tables constrain which link forms may be used. They do not prescribe a universal decomposition order, determine which children must be included, or guarantee that a decomposition is conceptually adequate.
-- **Well-formedness:** an instance decomposition is well-formed when every non-root row extends an existing path by exactly one link the `Permitted Link Forms` table licenses, every grouping segment carries a licensed type, branch order is never skipped, and every leaf resolves to an instance. Any row may serve as a decomposition root for recursive decomposition.
+- **Well-formedness:** an instance decomposition is well-formed when every non-root row extends an existing path by exactly one link the `Permitted Link Forms` table licenses, every grouping segment carries a licensed type, and every leaf resolves to an instance. Any row may serve as a decomposition root for recursive decomposition.
 - **Naming Guidelines:**
   * **Naming:** Name every instance node in Title Case.
   * **Composite Instance Naming**: Name an ensemble — a set, a practice, a domain, or a construction corpus — with the suffix Set (Epistemic Element Set, Drug Modelling Set), etc.
-* **Description:** Describe what the instance is, what role it plays, or why it is included in the decomposition. Descriptions clarify the instance but do not substitute for explicit relationship labels.
+* **Description:** Describe what the instance is, what role it plays, or why it is included in the decomposition. A grouping row says what the group holds and by which principle it is grouped; repeating the path is not a description. Descriptions clarify the instance but do not substitute for explicit relationship labels.
 
 | Instance Tree Path | Description |
 | --- | --- |
@@ -288,7 +295,7 @@ Epistemic Element (parent)
 
 ### What is an epistemic act?
 
-> Any primitive act performed by an observer to construct, transform, evaluate, or apply knowledge about reality. `Epistemic Act` is the doing root; `Inference`, `Deduction`, and the `Epistemic Operator` are its kinds.
+> Any primitive act performed by an observer to construct, transform, evaluate, or apply knowledge about reality. `Epistemic Act` is the doing root; `Inference`, `Observation`, `Measurement`, `Classification`, `Computation`, and `Comparison` are its kinds, with `Deduction` a kind of inference.
 
 ### What is an epistemic activity?
 
@@ -377,6 +384,8 @@ Epistemic Element (parent)
 | Association | `Related To` | Establishes an association between elements when no more specific relationship applies. | Representing a relevant relationship that cannot be classified more specifically. |
 | General | `Unspecified` | Establishes a relationship between two elements when the nature of their connection is relevant but has not yet been identified or classified. | Representing a known or suspected connection whose specific relationship type remains undetermined. |
 
+> **Properties of the relationship types.** `Kind`, `Part`, `Depends On`, and `Derived From` are transitive; `Member` and `Instance` are not — a member of a member is not a member, and an instance of an instance is not an instance. `Instance` and `Instance Of` are inverses, and `Addresses` is the inverse of the domain-side `Has` (see the Inverse Pairs rule); no other pair in this table is inverse. `Represents`, `Produces`, `Transforms`, `Causes`, and `Regulates` are irreflexive. No label is symmetric. `Related To` and `Unspecified` assert no properties at all; use them only when a more determinate label cannot be established.
+
 
 ### (Case Study) What is the recursively decomposed instance tree of Arithmetic?
 
@@ -392,6 +401,9 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` | Grouping: agencies of arithmetic. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` | Grouping: agents performing reckoning. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Instance) Reckoner | Entity counting, calculating, and proving; pupils, clerks, and mathematicians realize this agent. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Kind) `Epistemic Collective` | Grouping: the bodies that carry reckoning jointly. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Kind) `Epistemic Collective` (→ Instance) Schoolroom Reckoning Corps | The masters and pupils who carry arithmetic together, each accountable to the others for a count. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Kind) `Epistemic Collective` (→ Instance) Schoolroom Reckoning Corps (→ Member) `Epistemic Agent` (→ Instance) Reckoner | The individual reckoner as a member of the corps. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Role` | Grouping: the positions agents occupy in the practice. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Role` (→ Instance) Recitation Master | Position charged with hearing recitations and correcting them. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Segment of Reality` | Grouping: the bounded portion of reality arithmetic cuts — collections of distinct items. |
@@ -438,8 +450,8 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method | Generalized method adding place-ordered numerals from the units column upward. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Method` (→ Instance) Column Arithmetic Method (→ Part) `Epistemic Method` (→ Instance) Carry Step | Ten-for-one regrouping moving excess to the next place. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Method` (→ Instance) Shift-And-Add Multiplication | Generalized routine reducing products to shifted additions. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Instance) Magnitude Comparison | Act judging greater, lesser, or equal between numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Kind) `Computation` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Kind) `Comparison` (→ Instance) Magnitude Comparison | Act judging greater, lesser, or equal between numerals. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` | Grouping: the orientation the sitting poses for itself. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` | Grouping: the question the sitting directs reckoning toward. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` (→ Instance) Uncomputed Product | Formulated question directing reckoning toward the gap: what is seven times eight, as yet uncomputed. |
