@@ -428,7 +428,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retired `Epistemic Domain`: it reified the `Addresses` relation, its description naming a field and its children holding the target. Practices now `Address` the `Segment of Reality` directly, `Has` the `Observable`s they register, and `Has` the `Epistemic Framework` they reason with; sub-fields are member practices, and the Inverse Pairs rule went with the pair. Made `Epistemic Framework` a kind of `Epistemic Element Set` — a group of elements read as one lens, Monte Carlo methods being the example — and moved its tool row from `Part` to `Has`. Relaxed One Type per Distinction so a set disaggregates by `Member` or `Has`, with `Part` reserved for structured wholes. Rehung the case study on the segment, replaced the `Epistemic Domain` QA with the retirement answer, and added `What is an Epistemic Framework?`."
+        "summary": "Retired `Epistemic Domain`: it reified the `Addresses` relation, its description naming a field and its children holding the target. Practices now `Address` the `Segment of Reality` directly, `Has` the `Observable`s they register, and `Has` the `Epistemic Framework` they reason with; sub-fields are member practices, and the Inverse Pairs rule went with the pair. Made `Epistemic Framework` a kind of `Epistemic Element Set` — a group of elements read as one lens, Monte Carlo methods being the example — and moved its tool row from `Part` to `Has`. Relaxed One Type per Distinction so a set disaggregates by `Member` or `Has`, with `Part` reserved for structured wholes. Rehung the case study on the segment, replaced the `Epistemic Domain` QA with the retirement answer, and added `What is an Epistemic Framework?`.",
+        "commit": "6fe8ef9d24f491273c7286c49c0d0489c672be1e",
+        "before": "00968e2fc358a557363d4e15e7e71fa239351c30"
       }
     ]
   },
