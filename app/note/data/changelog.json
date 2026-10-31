@@ -372,7 +372,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Split the doing three ways: kept `Epistemic Practice` as the inquiry whole, added `Epistemic Activity` (the situated bundle) and `Epistemic Activity (→ Part) Epistemic Action`, reversed the retired 'do we need Activity?' answer, and renamed `Epistemic Operation` to `Epistemic Action` with `Epistemic Act` as its primitive kind. Added the `Epistemic Guidance` and `Epistemic Organization` lanes with their slots (`Principle`, `Protocol`, `Methodology`; `Programme`, `Project`, `Workflow`, `Schedule`, `Division of Labour`), moved `Principle` out of the retired `Organization (→ Kind) Principle` row, dropped 'program' from the sub-practice wording, and grew the Arithmetic case study with the action, activity, guidance, and organization branches."
+        "summary": "Split the doing three ways: kept `Epistemic Practice` as the inquiry whole, added `Epistemic Activity` (the situated bundle) and `Epistemic Activity (→ Part) Epistemic Action`, reversed the retired 'do we need Activity?' answer, and renamed `Epistemic Operation` to `Epistemic Action` with `Epistemic Act` as its primitive kind. Added the `Epistemic Guidance` and `Epistemic Organization` lanes with their slots (`Principle`, `Protocol`, `Methodology`; `Programme`, `Project`, `Workflow`, `Schedule`, `Division of Labour`), moved `Principle` out of the retired `Organization (→ Kind) Principle` row, dropped 'program' from the sub-practice wording, and grew the Arithmetic case study with the action, activity, guidance, and organization branches.",
+        "commit": "85bf57bc1f28f1930037a27b7797ad74e70f87a3",
+        "before": "d9d7af34b00f529bed39403f49c6f8484c9fc76e"
       }
     ]
   },
@@ -439,7 +441,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Licensed `Technical Activity` as the situated bundle inside a `Technical Practice` (`Technical Practice (→ Has) Technical Activity`, `Technical Activity (→ Part) Technical Act`) and reversed the retired 'do we need Technical Activity?' answer to match epistemicarum."
+        "summary": "Licensed `Technical Activity` as the situated bundle inside a `Technical Practice` (`Technical Practice (→ Has) Technical Activity`, `Technical Activity (→ Part) Technical Act`) and reversed the retired 'do we need Technical Activity?' answer to match epistemicarum.",
+        "commit": "85bf57bc1f28f1930037a27b7797ad74e70f87a3",
+        "before": "d9d7af34b00f529bed39403f49c6f8484c9fc76e"
       }
     ]
   },
