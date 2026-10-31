@@ -18,7 +18,7 @@ tags: [epistemology, ontology, method]
 
 > An epistemic act is any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
 
-> The goal of epistemology is (1) to construct and maintain the scaffolding mechanisms of inquiry, and (2) to construct, validate, and derive the set of constructions about a domain — the Domain Epistemic Construction Set (DCESA) — that represents reality.
+> The goal of epistemology is (1) to construct and maintain the scaffolding mechanisms of inquiry, and (2) to construct, validate, and derive the set of constructions about a domain — the Domain Epistemic Artifact Set (DESA) — that represents reality.
 
 ### What is the role of the `episteme` in human experience?
 
@@ -40,7 +40,7 @@ tags: [epistemology, ontology, method]
 
 > Observer-independent reality: it exists whether perceived or modeled; it is composed of entities and processes with causal effects; it is dynamic and interconnected, producing emergent patterns; and it is accessible — imperfectly — through observation and inference constrained by what actually exists.
 
-> Reality is decomposed for inquiry in the Ontic Order tree below.
+> Reality is cut for inquiry into segments; each segment is then decomposed in the naturalis or social grammar, never here.
 
 ### At which level of organization do we inquire?
 
@@ -53,7 +53,7 @@ tags: [epistemology, ontology, method]
 
 ### What is the ontology of the target?
 
-> What is reality like? Which elements make it up? How do we identify them? How do we think deeply about change — and about change as an element of reality itself? Ontology answers by constraining what can be known; its constructs for parsing (segments, entities, processes, phenomena) live in the Artifact tree below, and its full template in the Ontic Order branch of the table.
+> What is reality like? Which elements make it up? How do we identify them? How do we think deeply about change — and about change as an element of reality itself? Ontology answers by constraining what can be known; its constructs for parsing (segments, entities, processes, phenomena) appear below as the target elements a domain `Has`, and its full template belongs to the naturalis grammar.
 
 ### What Is a `Epistemic Element`?
 
@@ -84,7 +84,7 @@ Epistemic Element (parent)
 | `Epistemic Element Set (→ Kind) Epistemic Domain` | Classifies a set as an inquiry whole organized by a bounded cut of reality. | Classification; Set |
 | `Epistemic Element Set (→ Kind) Epistemic Practice` | Classifies a set as an organized pattern of inquiry carried on by agents — the doing. | Classification; Set |
 | `Epistemic Element (→ Kind) Epistemic Activity` | Classifies a situated bundle of inquiry doings, read as a root in its own right. | Classification; Activity |
-| `Epistemic Domain (→ Part) Epistemic Domain` | Identifies a sub-domain: field, sub-field, family, or specialty. | Composition; Domain |
+| `Epistemic Domain (→ Member) Epistemic Domain` | Identifies a sub-domain as a member of the aggregate: field, sub-field, family, or specialty. | Composition; Member |
 | `Epistemic Domain (→ Has) Segment of Reality` | Identifies the bounded portion of reality the domain cuts. | Domain; Target |
 | `Epistemic Domain (→ Has) Observable` | Identifies a feature of the segment registrable for inquiry. | Domain; Observable |
 | `Epistemic Domain (→ Has) Epistemic Framework` | Identifies a lens system the domain reasons with. | Domain; Framework |
@@ -113,7 +113,6 @@ Epistemic Element (parent)
 | `Representational System (→ Part) Representation Element` | Identifies a combinable constituent of the system. | Representation; Element |
 | `Representational System (→ Part) Constitutive Substrate` | Identifies the rules and structures constituting the system. | Representation; Substrate |
 | `Representational System (→ Part) Epistemic Element` | General constituent link, used with care when no more specific classification applies. | Representation; Element; General |
-| `Constitutive Substrate (→ Has) Property` | Identifies a property the system encodes. | Representation; Property |
 | `Constitutive Substrate (→ Part) <<Constitutive Element>>` | Identifies a constituting rule or structure. | Representation; Substrate |
 | `Epistemic Element (→ Kind) Epistemic Construction` | Classifies a construction: an artifact produced to organize, preserve, explain, or extend knowledge about a target. | Classification; Construction |
 | `Epistemic Construction (→ Kind) <<Epistemic Construction>>` | Classifies a construction kind without asserting which kind before it is bound. | Classification; Construction |
@@ -139,8 +138,6 @@ Epistemic Element (parent)
 | `Epistemic Element (→ Kind) Epistemic Framework` | Classifies a lens system read as a root in its own right. | Classification; Framework |
 | `Epistemic Framework (→ Part) Epistemic Tool` | Identifies a lens constituent. | Composition; Framework |
 | `Epistemic Framework (→ Has) Epistemic Construction` | Identifies the constructs a framework holds. | Composition; Framework |
-| `Epistemic Element (→ Kind) Ontic` | Classifies what exists, occurs, changes, or generates effects within a segment of reality. | Classification; Ontic |
-| `Ontic (→ Kind) <<Ontic Element>>` | Binds the element to its ontic type in the naturalis or social grammar. | Classification; Ontic |
 
 ### Which are the available expansions of the slots?
 
@@ -150,7 +147,6 @@ Epistemic Element (parent)
 | --- | --- | --- |
 | `<<Epistemic Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
 | `<<Relationship Type>>` | any label in the relationship table | Names the relation asserted; the permitted table decides which labels may join which types. |
-| `<<Ontic Element>>` | any type licensed in `philosophia-naturalis-et-operis` or `philosophia-socialium-et-operis` | The ontic reading of a segment; grown in the naturalis or social tree, never here. |
 | `<<Epistemic Lane>>` | `Epistemic Orientation` | Why: the standingly posed purposes, questions, and gaps that direct the practice, and the ones an activity poses for itself. |
 | `<<Epistemic Lane>>` | `Epistemic Agency` | Who: the agents and roles that carry the practice. |
 | `<<Epistemic Lane>>` | `Epistemic Access` | How registered: the interfaces, encodings, and records the practice works through. |
@@ -229,8 +225,9 @@ Epistemic Element (parent)
 - **Root**: Every path begins at `Epistemic Element`; an inquiry whole binds `Epistemic Element Set → Kind → Epistemic Practice` (the doing) or `Epistemic Element Set → Kind → Epistemic Domain` (the cut), and names the whole it binds as the root. A domain-rooted tree reaches its practice by `Has`; a practice-rooted tree reaches its domain by `Addresses`.
 - **Relationship Labeling:** Every link between a parent and child names its relationship type, styled `(→ Kind)`, `(→ Has)`, `(→ Part)`, `(→ Instance)`, `(→ Addresses)`, `(→ Produces)`, or another label from the relationship table. A bare arrow is not permitted. Typing reads from grouping segments, never from the link: an instance resolves to its nearest enclosing grouping segment's type, with the decomposition root's type declared once.
 - **Grouping Segments:** Every backticked grouping segment names a type licensed by the `Permitted Link Forms` table. A type that is not a row there may not appear in a tree, even when the relationship itself is permitted.
-- **One Type per Distinction:** Do not type the same distinction twice. A discipline is an `Epistemic Domain` carrying the `Institutionalized` tag, never a `Epistemic Discipline` row; a set is disaggregated by `Member`, never by `Part`.
+- **One Type per Distinction:** Do not type the same distinction twice. A discipline is an `Epistemic Domain`, never an `Epistemic Discipline` row; a set is disaggregated by `Member`, never by `Part`.
 - **Permitted Links:** Every relationship must conform to a link form allowed by the `Permitted Link Forms` table. A link form licenses a possible relationship; it does not establish that the relationship actually exists in the instance being decomposed. `Instance` binds a type segment to an instance and needs no entry in that table.
+- **Act Metadata:** Which method prescribes an act, and which activity performs it, is recorded as metadata on the act's node — never as a further link in its path. The path records composition alone; a method's act-set is not grown as a branch, because the acts are carried by the activity that runs them (see "How is the method that prescribes an act recorded?" in QA).
 - **Recursive Expansion:** Any epistemic instance identified in the tree may itself be decomposed recursively.
 - **Decomposition Scope:** Select the aspects of the instance that need to be represented. A decomposition need not include every conceivable aspect of epistemic reality; it must adequately cover the aspects relevant to its stated purpose.
 - **Stopping Condition:** Stop expanding a branch when its instance is sufficiently specified for the decomposition's purpose, when further expansion is unnecessary, or when the available evidence does not justify additional decomposition. A leaf is a stopping point in the current decomposition, not necessarily an intrinsically indivisible element. Every leaf must resolve to an epistemic instance.
@@ -301,9 +298,17 @@ Epistemic Element (parent)
 
 > A situated bundle of inquiry doings that applies one or more methods — a field season, a modelling run, a proof campaign, a classification batch. The bundle is the unit: which methods were run, which acts were performed together, in which sitting, toward what joint result. Activity is neither a synonym for the practice nor a synonym for the act; it carries the situated side that a method, being general, cannot.
 
+### What is an `Epistemic Method`?
+
+> A generalized routine a class of activities runs: the reproducible order of acts that a competent agent can be taught and can decompose into sub-methods. It is general where the activity is situated — the same method run in two sittings is one method and two activities. A method prescribes acts but never contains them: the acts belong to the activity that performs them (see "How is the method that prescribes an act recorded?").
+
 ### What is the relation between `Epistemic Practice`, `Epistemic Activity`, `Epistemic Method`, and `Epistemic Act`?
 
-> **Four levels of one doing.** `Epistemic Practice` is the whole that recurs and endures — activities, methods, acts, roles, standards, instruments, and notations, together with the lanes that carry them; it is what a discipline, laboratory, school, or specialty *is*. `Epistemic Activity` is one situated exercising of it — the bundle in time, which applies a method or several. `Epistemic Method` is the generalized routine a class of activities runs, applied through primitive acts. `Epistemic Act` is the granular act itself. Practice answers *what is carried on*; activity answers *what is happening now*; method answers *how it is done*; act answers *what is being done*. Every activity belongs to a practice, every activity applies a method, and every activity performs the acts its method prescribes.
+> **Four levels of one doing.** `Epistemic Practice` is the whole that recurs and endures — activities, methods, acts, roles, standards, instruments, and notations, together with the lanes that carry them; it is what a discipline, laboratory, school, or specialty *is*. `Epistemic Activity` is one situated exercising of it — the bundle in time, which applies a method or several. `Epistemic Method` is the generalized routine a class of activities runs, applied through primitive acts. `Epistemic Act` is the granular act itself. Practice answers *what is carried on*; activity answers *what is happening now*; method answers *how it is done*; act answers *what is being done*. Every activity belongs to a practice, every activity applies a method, and every activity performs the acts its method prescribes. That prescription is metadata, not a link: which method lays an act down is recorded on the act's node, while the path shows the activity that performed it.
+
+### How is the method that prescribes an act recorded?
+
+> As node metadata on the act, not as a link. There is no `Prescribes` link form and no `Method (→ Part) Act`: an act is composed into the activity that performs it, while which method lays it down and which sitting executes it are attributes of the act's node. Keeping the prescription out of the path keeps one tree per doing — the activity shows what was performed together, the method shows what is teachable, and the act's metadata ties the two without growing a second branch.
 
 ### Do we need `Epistemic Activity` as an epistemic element in the decomposition?
 
@@ -319,7 +324,15 @@ Epistemic Element (parent)
 
 ### Where does the ontic reading of a segment grow?
 
-> In the naturalis or social grammar, and never here. The epistemica tree names the segment a domain cuts and stops: decomposing the segment into physical or social types would mix the inquiry with its target, and would have to be redone for every reading of the same segment. Link the segment to its ontic tree; do not grow that tree under a practice. A segment read both ways — a fishery as ecosystem and as market — gets one tree per reading, never two types on one row.
+> In the naturalis or social grammar, and never here. The epistemica tree names the segment a domain cuts and stops: decomposing the segment into physical or social types would mix the inquiry with its target, and would have to be redone for every reading of the same segment. This guide licenses no link form for the ontic reading — the segment is named here and the tree that types it belongs to another note. A segment read both ways — a fishery as ecosystem and as market — gets one tree per reading, never two types on one row.
+
+### What is an `Epistemic Domain`?
+
+> The bounded cut of reality a practice works on — a field, sub-field, family, or specialty, carried as a `Kind` of `Epistemic Element Set` whose members are its sub-domains. It is the target side of the practice/domain pair: the practice `Addresses` it, and it `Has` the segment it cuts, the observables registrable within that segment, and the framework it reasons with. A domain does not inquire; it is what inquiry is directed at.
+
+### How does `Segment of Reality` differ from `Observable`?
+
+> The segment is the bounded portion of reality itself; an observable is a feature of that portion which can be registered. A fishery is a segment; its stock size is an observable. The segment is held once per reading of reality; observables multiply within the reading.
 
 ### Why is there no `Epistemic Task`?
 
@@ -328,6 +341,10 @@ Epistemic Element (parent)
 ### Why is there no `Epistemic Procedure`?
 
 > Because `Method` and `Procedure` were one distinction seen from two sides — general versus situated — and the situated side is the `Epistemic Activity`. Once activity is defined as the bundle that *applies* a method, "the same method, run here and there" is two activities sharing a method, and no procedure type is needed. What a procedure nested — steps and sub-routines — the method nests as sub-methods.
+
+### Why is there no separate `Property` type?
+
+> Because `Observable` already names a feature of a segment that can be registered, and the `Constitutive Substrate` names its own constituents through the `<<Constitutive Element>>` slot: convention, formation, foundation, interpretation. A bare `Property` row carried no type of its own and would have duplicated the observable under a weaker name.
 
 ### Where do guidance and organization decompose?
 
@@ -380,11 +397,13 @@ Epistemic Element (parent)
 | Representation | `Represents` | Identifies the reality, entity, or content represented by the parent. | Connecting a representation to its referent or represented target. |
 | Causation | `Causes` | Identifies an element whose act or occurrence produces an effect in another element. | Representing causal relationships between phenomena or processes. |
 | Regulation | `Regulates` | Identifies an element that controls, constrains, or modulates the behavior of another element. | Representing regulatory relationships and feedback structures. |
+| Regulation | `Governed By` | Identifies the standard, rule, or normative framework an element is regulated by. | Connecting a construction or an act to the standard it must satisfy. |
+| Evaluation | `Evaluated By` | Identifies the evaluation, verification, or validation applied to an element. | Connecting a construction or an act to the check that discharges doubt about it. |
 | Dependence | `Depends On` | Identifies an element whose existence, behavior, or operation depends on another element. | Representing structural, functional, or operational dependencies. |
 | Association | `Related To` | Establishes an association between elements when no more specific relationship applies. | Representing a relevant relationship that cannot be classified more specifically. |
 | General | `Unspecified` | Establishes a relationship between two elements when the nature of their connection is relevant but has not yet been identified or classified. | Representing a known or suspected connection whose specific relationship type remains undetermined. |
 
-> **Properties of the relationship types.** `Kind`, `Part`, `Depends On`, and `Derived From` are transitive; `Member` and `Instance` are not — a member of a member is not a member, and an instance of an instance is not an instance. `Instance` and `Instance Of` are inverses, and `Addresses` is the inverse of the domain-side `Has` (see the Inverse Pairs rule); no other pair in this table is inverse. `Represents`, `Produces`, `Transforms`, `Causes`, and `Regulates` are irreflexive. No label is symmetric. `Related To` and `Unspecified` assert no properties at all; use them only when a more determinate label cannot be established.
+> **Properties of the relationship types.** `Kind`, `Part`, `Depends On`, and `Derived From` are transitive; `Member` and `Instance` are not — a member of a member is not a member, and an instance of an instance is not an instance. `Instance` and `Instance Of` are inverses, and `Addresses` is the inverse of the domain-side `Has` (see the Inverse Pairs rule); no other pair in this table is inverse. `Represents`, `Produces`, `Transforms`, `Causes`, `Regulates`, `Governed By`, and `Evaluated By` are irreflexive; `Governed By` and `Evaluated By` are not transitive. No label is symmetric. `Related To` and `Unspecified` assert no properties at all; use them only when a more determinate label cannot be established.
 
 
 ### (Case Study) What is the recursively decomposed instance tree of Arithmetic?
@@ -470,7 +489,7 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` | Grouping: arrangements coordinating reckoning work. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` | Grouping: arrangements of reckoning work in time. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` (→ Instance) Recitation Rota | Rotation assigning pupils to recitation turns. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` | Grouping: the constructions arithmetic produces about discrete quantity — what the DCESA does not leave unrecorded. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` | Grouping: the constructions arithmetic produces about discrete quantity — what the DESA does not leave unrecorded. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Sum Statement | A description: seven times eight are fifty-six, carried as a claim about the segment. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Evenness | A concept: the constructed property a number carries when it divides into two exact halves. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Multiplication Table | A dataset: products indexed by factor, consulted instead of recomputed. |

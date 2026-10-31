@@ -410,6 +410,11 @@
         "summary": "Moved the ontic questionnaire to the naturalis guide and left a pointer here; widened the `<<Action Element>>` slot to `Inference`, `Observation`, `Measurement`, `Classification`, `Computation`, and `Comparison`; removed `Epistemic Operator` as method-ish; added `Epistemic Agent (→ Kind) Epistemic Collective` and `Epistemic Collective (→ Member) Epistemic Agent` with a Schoolroom Reckoning Corps in the case. Fixed the minor defects: dropped the undefined 'branch order' clause, removed the unused `:=` binding claim, corrected the root wording, added the Kind Trees rule and the relationship-properties block, and required grouping descriptions to say more than the path.",
         "commit": "137c4646c69b6124394459c103f9e1ab4dc0e02d",
         "before": "de664c1a76e95e8d83daca40d4efbfbbce319899"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Removed the guide's self-contradictions: deleted `Element (→ Kind) Ontic` and `Ontic (→ Kind) <<Ontic Element>>` (this note licenses no ontic link form), turned `Epistemic Domain (→ Part) Epistemic Domain` into `(→ Member)` per the one-type-per-distinction rule, retired the orphan `Property` type, and dropped the undefined `Institutionalized` tag. Declared `Governed By` and `Evaluated By` in the relationship table and gave them properties. Moved the method-to-act prescription out of the decomposition: new `Act Metadata` rule and QA saying an act carries its prescribing method on its node, never as a link. Added QA definitions for `Epistemic Method`, `Epistemic Domain`, and `Segment of Reality` vs `Observable`. Renamed DCESA to DESA and replaced two stale references to sections removed in the earlier migration."
       }
     ]
   },
