@@ -386,7 +386,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Retired `Epistemic Method (→ Part) Epistemic Act`: a method prescribes acts, the activity performs them, so its only decomposition is into sub-methods. Re-pathed the Tally Session and Proof Campaign act branches under the activity and aligned all three activities on the same shape."
+        "summary": "Retired `Epistemic Method (→ Part) Epistemic Act`: a method prescribes acts, the activity performs them, so its only decomposition is into sub-methods. Re-pathed the Tally Session and Proof Campaign act branches under the activity and aligned all three activities on the same shape.",
+        "commit": "ddcddb250b567d592c68b5363d24ac825aa7e68d",
+        "before": "0beafc73b3187593753052789e9eaaa05d339055"
       }
     ]
   },
