@@ -94,6 +94,7 @@ Epistemic Element (parent)
 | `Epistemic Practice (→ Has) Epistemic Activity` | Identifies a situated bundle of inquiry doings that applies one or more methods. | Composition; Activity |
 | `Epistemic Activity (→ Has) Epistemic Method` | Identifies a generalized method the activity applies. | Composition; Activity |
 | `Epistemic Activity (→ Part) Epistemic Act` | Identifies a primitive inquiry act the activity bundles. | Composition; Activity |
+| `Epistemic Activity (→ Has) Epistemic Orientation` | Identifies the orientation a situated activity poses for itself. | Composition; Activity |
 | `Epistemic Method (→ Part) Epistemic Method` | Identifies a step or sub-method of a larger method. | Composition; Method |
 | `Epistemic Practice (→ Has) <<Epistemic Lane>>` | Identifies a lane the practice carries. | Composition; Practice |
 | `Epistemic Practice (→ Addresses) Epistemic Domain` | Identifies the cut of reality the practice works on. | Composition; Practice |
@@ -101,6 +102,7 @@ Epistemic Element (parent)
 | `Epistemic Element (→ Kind) <<Epistemic Lane>>` | Classifies an element as one of the inquiry lanes. | Classification; Lane |
 | `Epistemic Orientation (→ Has) <<Orientation Element>>` | Identifies a directing element of the orientation. | Orientation; Purpose |
 | `Epistemic Agency (→ Has) Epistemic Agent` | Identifies an entity capable of performing epistemic acts. | Agency; Agent |
+| `Epistemic Agency (→ Has) Epistemic Role` | Identifies a position an agent occupies within the practice. | Agency; Role |
 | `Epistemic Access (→ Has) Observation Interface` | Identifies a boundary mechanism coupling a segment to registration. | Access; Interface |
 | `Observation Interface (→ Part) <<Observation Element>>` | Identifies an interface constituent. | Composition; Access |
 | `Epistemic Access (→ Has) Observation Encoding` | Identifies the format in which a registered observation is carried. | Access; Encoding |
@@ -148,7 +150,7 @@ Epistemic Element (parent)
 | `<<Epistemic Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
 | `<<Relationship Type>>` | any label in the relationship table | Names the relation asserted; the permitted table decides which labels may join which types. |
 | `<<Ontic Element>>` | any type licensed in `philosophia-naturalis-et-operis` | The ontic reading of a segment; grown in the naturalis tree, never here. |
-| `<<Epistemic Lane>>` | `Epistemic Orientation` | Why: the purpose, questions, goals, gaps, and roles directing the practice. |
+| `<<Epistemic Lane>>` | `Epistemic Orientation` | Why: the standingly posed purposes, questions, and gaps that direct the practice, and the ones an activity poses for itself. |
 | `<<Epistemic Lane>>` | `Epistemic Agency` | Who: the agents and roles that carry the practice. |
 | `<<Epistemic Lane>>` | `Epistemic Access` | How registered: the interfaces, encodings, and records the practice works through. |
 | `<<Epistemic Lane>>` | `Epistemic Representation` | In what: the notations and representational systems the practice reads and writes. |
@@ -162,7 +164,6 @@ Epistemic Element (parent)
 | `<<Orientation Element>>` | `Epistemic Question` | A formulated question directing inquiry toward a gap. |
 | `<<Orientation Element>>` | `Epistemic Goal` | A desired epistemic outcome toward which inquiry is directed. |
 | `<<Orientation Element>>` | `Epistemic Gap` | A deficiency in available knowledge relative to the target. |
-| `<<Orientation Element>>` | `Epistemic Role` | The function an element or agent performs within the practice. |
 | `<<Guidance Element>>` | `Epistemic Principle` | A general rule that guides inquiry without being an end or a norm of judgment. |
 | `<<Guidance Element>>` | `Epistemic Protocol` | The course an inquiry is laid down to follow, prescribed rather than performed. |
 | `<<Guidance Element>>` | `Epistemic Methodology` | A directive account of how methods are chosen, combined, and justified. |
@@ -300,6 +301,14 @@ Epistemic Element (parent)
 
 > **Yes — the earlier answer of no is reversed.** A fully specified practice names its methods and acts, but leaves unsaid which of them were performed together, in which sitting, toward what joint result: the bundle is load-bearing. Socialium reached the same conclusion and retired `Practice` in favour of `Activity` (see "Do we actually need `Activity` and `Practice`?" there); epistemicarum keeps `Practice` because here the whole is a doing rather than an organization of actors, and adds `Activity` as the bundle inside it. The retired answer is kept as the history of the decision.
 
+### What is the difference between standing and situated orientation?
+
+> Two scopes, one lane. **Standing orientation** is what the practice is constituted to answer — its purpose, the questions that define the field, the open problems it institutionally maintains; it outlives any agent and any sitting, and `Epistemic Practice (→ Has) Epistemic Orientation` carries it. **Situated orientation** is the question a particular activity poses and the gap it is set against — "what is seven times eight, as yet uncomputed"; it is answered or abandoned when the sitting ends, and `Epistemic Activity (→ Has) Epistemic Orientation` carries it. The same lane type serves both because both are why-directed; the owner decides the scope. Filing a situated question on the practice makes it look permanent, which is why the Arithmetic case keeps its purpose at the practice and its question and gap at the sitting.
+
+### Why is `Epistemic Role` an agency element?
+
+> Because a role is a position an agent occupies, not a direction inquiry takes. Purpose, question, goal, and gap answer *why*; a role answers *who* — which agent stands where in the practice. Socialium files roles under the collective and moralis under the agent's office, so `Epistemic Agency (→ Has) Epistemic Role` is the matching home; leaving it in Orientation let the "why" lane carry an element that does not direct anything.
+
 ### Why is there no `Epistemic Task`?
 
 > Because the two jobs a task did are already carried. The planned unit of work is the `Epistemic Method`; the allocation of work across agents is `Epistemic Organization (→ Has) Epistemic Division of Labour`. A third type standing between the activity and its method only restated, in weaker terms, what the method already is.
@@ -375,13 +384,11 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` | Grouping: orientation of arithmetic. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Purpose` | Grouping: purposes of the inquiry. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Purpose` (→ Instance) Exact Reckoning Purpose | Telos: determine exact discrete quantity — count, sum, product, quotient — leaving no remainder of doubt. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` | Grouping: questions directing reckoning. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` (→ Instance) Uncomputed Product | Formulated question directing reckoning toward the gap: what is seven times eight, as yet uncomputed. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` | Grouping: gaps motivating reckoning. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` (→ Instance) Missing Product Gap | Deficiency in available reckoning: the product not yet known, represented, or warranted. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` | Grouping: agencies of arithmetic. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` | Grouping: agents performing reckoning. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Agent` (→ Instance) Reckoner | Entity counting, calculating, and proving; pupils, clerks, and mathematicians realize this agent. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Role` | Grouping: the positions agents occupy in the practice. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Agency` (→ Has) `Epistemic Role` (→ Instance) Recitation Master | Position charged with hearing recitations and correcting them. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Segment of Reality` | Grouping: the bounded portion of reality arithmetic cuts — collections of distinct items. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Segment of Reality` (→ Instance) Discrete Multitude | The segment itself: countable collections — heads of a flock, coins in a purse, days in a month. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Addresses) `Epistemic Domain` (→ Has) `Observable` | Grouping: features of the segment registrable for reckoning. |
@@ -428,6 +435,11 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Method` (→ Instance) Shift-And-Add Multiplication | Generalized routine reducing products to shifted additions. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Act` (→ Instance) Magnitude Comparison | Act judging greater, lesser, or equal between numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` | Grouping: the orientation the sitting poses for itself. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` | Grouping: the question the sitting directs reckoning toward. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Question` (→ Instance) Uncomputed Product | Formulated question directing reckoning toward the gap: what is seven times eight, as yet uncomputed. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` | Grouping: the deficiency the sitting is set against. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Has) `Epistemic Orientation` (→ Has) `Epistemic Gap` (→ Instance) Missing Product Gap | Deficiency in available reckoning: the product not yet known, represented, or warranted. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Proof Campaign | A season of proofs carried out on the stated axioms. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Proof Campaign (→ Has) `Epistemic Method` (→ Instance) Proving Method | Generalized derivation of arithmetical propositions from stated axioms. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Proof Campaign (→ Has) `Epistemic Method` (→ Instance) Calculating Method | Generalized sequence of calculational acts toward exact reckoning. |
