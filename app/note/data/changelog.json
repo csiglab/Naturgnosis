@@ -396,6 +396,11 @@
         "summary": "Scoped orientation by owner: kept standing orientation on the practice and added `Epistemic Activity (→ Has) Epistemic Orientation` for the question and gap a sitting poses, moving `Uncomputed Product` and `Missing Product Gap` under the Column Sum Session. Moved `Epistemic Role` from the orientation slot to `Epistemic Agency (→ Has) Epistemic Role`, and grounded it with the Recitation Master instance.",
         "commit": "d1ce93762a36780f334bbd0a0e4b6a3f344a7714",
         "before": "f1aaf52685d4e9eba78c03c3571e0f0128e0f97d"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Removed `Segment of Reality (→ Kind) <<Ontic Element>>`: the epistemica tree names the segment and stops, leaving its ontic reading to the naturalis or social tree. Turned `Epistemic Practice (→ Part) Epistemic Practice` into `Member`, the only disaggregation a set admits per the guide's own rule, and marked `Domain (→ Has) Practice` as the inverse view of `Addresses`. Added the Inverse Pairs and Acyclicity rules, widened the `<<Ontic Element>>` slot to the social grammar, and added the segment QA."
       }
     ]
   },

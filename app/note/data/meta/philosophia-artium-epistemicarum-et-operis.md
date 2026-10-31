@@ -88,9 +88,8 @@ Epistemic Element (parent)
 | `Epistemic Domain (→ Has) Segment of Reality` | Identifies the bounded portion of reality the domain cuts. | Domain; Target |
 | `Epistemic Domain (→ Has) Observable` | Identifies a feature of the segment registrable for inquiry. | Domain; Observable |
 | `Epistemic Domain (→ Has) Epistemic Framework` | Identifies a lens system the domain reasons with. | Domain; Framework |
-| `Epistemic Domain (→ Has) Epistemic Practice` | Identifies the practice carried on upon the cut; the inverse of `Addresses`. | Domain; Practice |
-| `Segment of Reality (→ Kind) <<Ontic Element>>` | Binds the segment to its ontic type in the naturalis or social grammar. | Domain; Ontic |
-| `Epistemic Practice (→ Part) Epistemic Practice` | Identifies a sub-practice: laboratory, school, tradition, or specialty. | Composition; Practice |
+| `Epistemic Domain (→ Has) Epistemic Practice` | Identifies the practice used upon the cut — the inverse view of `Addresses`, taken when the domain is the root. | Domain; Practice |
+| `Epistemic Practice (→ Member) Epistemic Practice` | Identifies a sub-practice as a member of the aggregate: laboratory, school, tradition, or specialty. | Composition; Member |
 | `Epistemic Practice (→ Has) Epistemic Activity` | Identifies a situated bundle of inquiry doings that applies one or more methods. | Composition; Activity |
 | `Epistemic Activity (→ Has) Epistemic Method` | Identifies a generalized method the activity applies. | Composition; Activity |
 | `Epistemic Activity (→ Part) Epistemic Act` | Identifies a primitive inquiry act the activity bundles. | Composition; Activity |
@@ -149,7 +148,7 @@ Epistemic Element (parent)
 | --- | --- | --- |
 | `<<Epistemic Element>>` | any type licensed in this guide | Binds the parent or child of the generic link form; the specific rows decide which pairs are permitted. |
 | `<<Relationship Type>>` | any label in the relationship table | Names the relation asserted; the permitted table decides which labels may join which types. |
-| `<<Ontic Element>>` | any type licensed in `philosophia-naturalis-et-operis` | The ontic reading of a segment; grown in the naturalis tree, never here. |
+| `<<Ontic Element>>` | any type licensed in `philosophia-naturalis-et-operis` or `philosophia-socialium-et-operis` | The ontic reading of a segment; grown in the naturalis or social tree, never here. |
 | `<<Epistemic Lane>>` | `Epistemic Orientation` | Why: the standingly posed purposes, questions, and gaps that direct the practice, and the ones an activity poses for itself. |
 | `<<Epistemic Lane>>` | `Epistemic Agency` | Who: the agents and roles that carry the practice. |
 | `<<Epistemic Lane>>` | `Epistemic Access` | How registered: the interfaces, encodings, and records the practice works through. |
@@ -233,6 +232,8 @@ Epistemic Element (parent)
 - **Unlicensed or Uncertain Relationships:** If a necessary relationship is not covered by the reference table, do not silently invent a permitted link or substitute an unrelated one. Identify the gap and extend the reference table when justified. If the existence of a relationship is uncertain, mark that uncertainty rather than presenting the relationship as established.
 - **Instance Identity:** Distinguish different instances even when they share the same type or description. The full `Instance Tree Path` identifies an instance's position within the particular decomposition; it does not, by itself, establish a globally unique identity outside that tree.
 - **Tree Structure:** Each non-root row must extend an existing parent path by exactly one child relationship. The same instance may appear in multiple branches when it plays different roles in the decomposition; each occurrence must have its own path. Ensure a rich set of intermediate (internal) nodes — both types and instances — aiding understanding: composition, representation, transformation, validation, or other useful structural relationships.
+- **Inverse Pairs:** `Epistemic Domain (→ Has) Epistemic Practice` and `Epistemic Practice (→ Addresses) Epistemic Domain` assert one fact from two ends. A single path takes exactly one direction — the one its root implies — and never both.
+- **Acyclicity:** No path may return to an instance it already contains. The structure is a tree; a relationship that would close a loop belongs to another tree, linked rather than grown.
 - **Non-Normativity of Reference Tables:** The reference tables constrain which link forms may be used. They do not prescribe a universal decomposition order, determine which children must be included, or guarantee that a decomposition is conceptually adequate.
 - **Well-formedness:** an instance decomposition is well-formed when every non-root row extends an existing path by exactly one link the `Permitted Link Forms` table licenses, every grouping segment carries a licensed type, branch order is never skipped, and every leaf resolves to an instance. Any row may serve as a decomposition root for recursive decomposition.
 - **Naming Guidelines:**
@@ -308,6 +309,10 @@ Epistemic Element (parent)
 ### Why is `Epistemic Role` an agency element?
 
 > Because a role is a position an agent occupies, not a direction inquiry takes. Purpose, question, goal, and gap answer *why*; a role answers *who* — which agent stands where in the practice. Socialium files roles under the collective and moralis under the agent's office, so `Epistemic Agency (→ Has) Epistemic Role` is the matching home; leaving it in Orientation let the "why" lane carry an element that does not direct anything.
+
+### Where does the ontic reading of a segment grow?
+
+> In the naturalis or social grammar, and never here. The epistemica tree names the segment a domain cuts and stops: decomposing the segment into physical or social types would mix the inquiry with its target, and would have to be redone for every reading of the same segment. Link the segment to its ontic tree; do not grow that tree under a practice. A segment read both ways — a fishery as ecosystem and as market — gets one tree per reading, never two types on one row.
 
 ### Why is there no `Epistemic Task`?
 
