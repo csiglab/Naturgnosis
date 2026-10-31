@@ -421,7 +421,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Closed the last licensing loopholes: removed the catch-all link form and the general `Representational System (→ Part) Epistemic Element` row, so the permitted table is exhaustive. Added `Root Types` (any licensed type may open a tree) and `Path Stability` (a path changes only by appending; a moved occurrence is marked superseded, never rewritten). Collapsed the realization labels to `Instance` alone, retiring `Instance Of` and `Realized By`, and retired `Epistemic Blueprint` in favour of `Epistemic Construction (→ Has) Representational System`. Added `How is a type retired?` as the procedure behind the guide's own history. In the case study, `Number` and `Zero` moved from `Constitutive Substrate` to the constructions branch as concepts, and `Place Value` was retired as restated by `Decimal Convention` with `Decimal Place Encoding`."
+        "summary": "Closed the last licensing loopholes: removed the catch-all link form and the general `Representational System (→ Part) Epistemic Element` row, so the permitted table is exhaustive. Added `Root Types` (any licensed type may open a tree) and `Path Stability` (a path changes only by appending; a moved occurrence is marked superseded, never rewritten). Collapsed the realization labels to `Instance` alone, retiring `Instance Of` and `Realized By`, and retired `Epistemic Blueprint` in favour of `Epistemic Construction (→ Has) Representational System`. Added `How is a type retired?` as the procedure behind the guide's own history. In the case study, `Number` and `Zero` moved from `Constitutive Substrate` to the constructions branch as concepts, and `Place Value` was retired as restated by `Decimal Convention` with `Decimal Place Encoding`.",
+        "commit": "21eb844526863b09794fd8e48d5cea1f58bfc8d8",
+        "before": "c8212d78b7e884f2ea42afcd551b2c3023ca300c"
       }
     ]
   },
