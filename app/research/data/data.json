@@ -18240,45 +18240,6 @@
     "references": []
   },
   {
-    "id": "bottema-2000-theoretical-kinematics-dover-publications",
-    "name": "Bottema, O., & Roth, B. (2000). Theoretical kinematics. Dover Publications.",
-    "tags": [
-      "monograph"
-    ],
-    "layer": "Research",
-    "category": "Book",
-    "description": "",
-    "longDescription": "",
-    "chronology": {
-      "summary": "",
-      "events": [
-        {
-          "year": 2000,
-          "event": "Published by Dover Publications",
-          "context": ""
-        }
-      ]
-    },
-    "relationships": [],
-    "specific": {
-      "kind": "monograph",
-      "creators": [
-        "O Bottema",
-        "B Roth"
-      ],
-      "year": 2000,
-      "venue": "Dover Publications",
-      "identifier": ""
-    },
-    "metadata": {
-      "source": "epistecnica-document-import",
-      "imported": "2026-10-05",
-      "sourceReference": "books/bottema-2000-theoretical-kinematics-dover-publications.md",
-      "topics": []
-    },
-    "references": []
-  },
-  {
     "id": "bouchaud-2000-wealth-condensation-simple-model-economy",
     "name": "Bouchaud, J. P., & Mézard, M. (2000). Wealth condensation in a simple model of economy. Physica A: Statistical Mechanics and its Applications, 282(3–4), 536–545.",
     "tags": [
