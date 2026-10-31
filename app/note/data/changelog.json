@@ -424,6 +424,11 @@
         "summary": "Closed the last licensing loopholes: removed the catch-all link form and the general `Representational System (→ Part) Epistemic Element` row, so the permitted table is exhaustive. Added `Root Types` (any licensed type may open a tree) and `Path Stability` (a path changes only by appending; a moved occurrence is marked superseded, never rewritten). Collapsed the realization labels to `Instance` alone, retiring `Instance Of` and `Realized By`, and retired `Epistemic Blueprint` in favour of `Epistemic Construction (→ Has) Representational System`. Added `How is a type retired?` as the procedure behind the guide's own history. In the case study, `Number` and `Zero` moved from `Constitutive Substrate` to the constructions branch as concepts, and `Place Value` was retired as restated by `Decimal Convention` with `Decimal Place Encoding`.",
         "commit": "21eb844526863b09794fd8e48d5cea1f58bfc8d8",
         "before": "c8212d78b7e884f2ea42afcd551b2c3023ca300c"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Retired `Epistemic Domain`: it reified the `Addresses` relation, its description naming a field and its children holding the target. Practices now `Address` the `Segment of Reality` directly, `Has` the `Observable`s they register, and `Has` the `Epistemic Framework` they reason with; sub-fields are member practices, and the Inverse Pairs rule went with the pair. Made `Epistemic Framework` a kind of `Epistemic Element Set` — a group of elements read as one lens, Monte Carlo methods being the example — and moved its tool row from `Part` to `Has`. Relaxed One Type per Distinction so a set disaggregates by `Member` or `Has`, with `Part` reserved for structured wholes. Rehung the case study on the segment, replaced the `Epistemic Domain` QA with the retirement answer, and added `What is an Epistemic Framework?`."
       }
     ]
   },
