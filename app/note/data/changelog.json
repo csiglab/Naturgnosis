@@ -407,7 +407,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Moved the ontic questionnaire to the naturalis guide and left a pointer here; widened the `<<Action Element>>` slot to `Inference`, `Observation`, `Measurement`, `Classification`, `Computation`, and `Comparison`; removed `Epistemic Operator` as method-ish; added `Epistemic Agent (→ Kind) Epistemic Collective` and `Epistemic Collective (→ Member) Epistemic Agent` with a Schoolroom Reckoning Corps in the case. Fixed the minor defects: dropped the undefined 'branch order' clause, removed the unused `:=` binding claim, corrected the root wording, added the Kind Trees rule and the relationship-properties block, and required grouping descriptions to say more than the path."
+        "summary": "Moved the ontic questionnaire to the naturalis guide and left a pointer here; widened the `<<Action Element>>` slot to `Inference`, `Observation`, `Measurement`, `Classification`, `Computation`, and `Comparison`; removed `Epistemic Operator` as method-ish; added `Epistemic Agent (→ Kind) Epistemic Collective` and `Epistemic Collective (→ Member) Epistemic Agent` with a Schoolroom Reckoning Corps in the case. Fixed the minor defects: dropped the undefined 'branch order' clause, removed the unused `:=` binding claim, corrected the root wording, added the Kind Trees rule and the relationship-properties block, and required grouping descriptions to say more than the path.",
+        "commit": "137c4646c69b6124394459c103f9e1ab4dc0e02d",
+        "before": "de664c1a76e95e8d83daca40d4efbfbbce319899"
       }
     ]
   },
@@ -583,7 +585,9 @@
       {
         "date": "2026-10-31",
         "kind": "docs",
-        "summary": "Added the ontic questionnaire as the opening step of the decomposition workflow, moved here from the epistemicarum guide."
+        "summary": "Added the ontic questionnaire as the opening step of the decomposition workflow, moved here from the epistemicarum guide.",
+        "commit": "137c4646c69b6124394459c103f9e1ab4dc0e02d",
+        "before": "de664c1a76e95e8d83daca40d4efbfbbce319899"
       }
     ]
   },
