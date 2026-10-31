@@ -16,7 +16,7 @@ tags: [epistemology, ontology, method]
 
 > Epistemology: (Reality; Ontology) → Description & Validation.
 
-> An epistemic activity is any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
+> An epistemic action is any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
 
 > The goal of epistemology is (1) to construct and maintain the scaffolding mechanisms of inquiry, and (2) to construct, validate, and derive the set of constructions about a domain — the Domain Epistemic Construction Set (DCESA) — that represents reality.
 
@@ -83,25 +83,28 @@ Epistemic Element (parent)
 | `Epistemic Element Set (→ Member) <<Epistemic Element>>` | Identifies a member of the aggregate; membership, not composition. | Composition; Set |
 | `Epistemic Element Set (→ Kind) Epistemic Domain` | Classifies a set as an inquiry whole organized by a bounded cut of reality. | Classification; Set |
 | `Epistemic Element Set (→ Kind) Epistemic Practice` | Classifies a set as an organized pattern of inquiry carried on by agents — the doing. | Classification; Set |
+| `Epistemic Element (→ Kind) Epistemic Activity` | Classifies a situated bundle of inquiry doings, read as a root in its own right. | Classification; Activity |
 | `Epistemic Domain (→ Part) Epistemic Domain` | Identifies a sub-domain: field, sub-field, family, or specialty. | Composition; Domain |
 | `Epistemic Domain (→ Has) Segment of Reality` | Identifies the bounded portion of reality the domain cuts. | Domain; Target |
 | `Epistemic Domain (→ Has) Observable` | Identifies a feature of the segment registrable for inquiry. | Domain; Observable |
 | `Epistemic Domain (→ Has) Epistemic Framework` | Identifies a lens system the domain reasons with. | Domain; Framework |
 | `Epistemic Domain (→ Has) Epistemic Practice` | Identifies the practice carried on upon the cut; the inverse of `Addresses`. | Domain; Practice |
 | `Segment of Reality (→ Kind) <<Ontic Element>>` | Binds the segment to its ontic type in the naturalis or social grammar. | Domain; Ontic |
-| `Epistemic Practice (→ Part) Epistemic Practice` | Identifies a sub-practice: program, laboratory, school, or specialty. | Composition; Practice |
+| `Epistemic Practice (→ Part) Epistemic Practice` | Identifies a sub-practice: laboratory, school, tradition, or specialty. | Composition; Practice |
 | `Epistemic Practice (→ Has) Epistemic Task` | Identifies a discrete unit of planned inquiry work assigned to an agent. | Composition; Practice |
+| `Epistemic Practice (→ Has) Epistemic Activity` | Identifies a situated bundle of inquiry doings carried on within the practice. | Composition; Activity |
+| `Epistemic Activity (→ Part) Epistemic Action` | Identifies an inquiry action the activity bundles. | Composition; Activity |
 | `Epistemic Task (→ Has) Epistemic Method` | Identifies a generalized method for a class of inquiry tasks. | Composition; Practice |
 | `Epistemic Method (→ Instance) Epistemic Procedure` | Identifies the situated application of a method to a particular inquiry. | Composition; Practice |
 | `Epistemic Procedure (→ Part) Epistemic Act` | Identifies a primitive inquiry act performed by an agent. | Composition; Practice |
 | `Epistemic Procedure (→ Part) Epistemic Procedure` | Identifies a step or sub-routine of a larger procedure. | Composition; Practice |
-| `Epistemic Task (→ Has) Epistemic Operation` | Identifies the operation a task applies. | Composition; Practice |
+| `Epistemic Task (→ Has) Epistemic Action` | Identifies the action a task applies. | Composition; Practice |
 | `Epistemic Practice (→ Has) <<Epistemic Lane>>` | Identifies a lane the practice carries. | Composition; Practice |
 | `Epistemic Practice (→ Addresses) Epistemic Domain` | Identifies the cut of reality the practice works on. | Composition; Practice |
 | `Epistemic Practice (→ Produces) Epistemic Construction` | Identifies a construction the practice leaves behind. | Composition; Practice |
 | `Epistemic Element (→ Kind) <<Epistemic Lane>>` | Classifies an element as one of the inquiry lanes. | Classification; Lane |
 | `Epistemic Orientation (→ Has) <<Orientation Element>>` | Identifies a directing element of the orientation. | Orientation; Purpose |
-| `Epistemic Agency (→ Has) Epistemic Agent` | Identifies an entity capable of performing epistemic operations. | Agency; Agent |
+| `Epistemic Agency (→ Has) Epistemic Agent` | Identifies an entity capable of performing epistemic actions. | Agency; Agent |
 | `Epistemic Access (→ Has) Observation Interface` | Identifies a boundary mechanism coupling a segment to registration. | Access; Interface |
 | `Observation Interface (→ Part) <<Observation Element>>` | Identifies an interface constituent. | Composition; Access |
 | `Epistemic Access (→ Has) Observation Encoding` | Identifies the format in which a registered observation is carried. | Access; Encoding |
@@ -122,18 +125,19 @@ Epistemic Element (parent)
 | `Epistemic Construction (→ Evaluated By) Validation` | Identifies the check that discharges doubt about the construction. | Construction; Evaluation |
 | `Epistemic Construction (→ Governed By) Epistemic Standard` | Identifies the standard the construction must satisfy. | Construction; Evaluation |
 | `Epistemic Element (→ Kind) Epistemic Blueprint` | Classifies a construction form: a quasi-construction, the encoding format of constructions rather than their content. | Classification; Construction |
-| `Epistemic Element (→ Kind) Epistemic Operation` | Classifies an operation of inquiry, read as a root in its own right. | Classification; Operation |
-| `Epistemic Operation (→ Kind) <<Operation Element>>` | Classifies an operation of inquiry. | Operation; Action |
-| `Action (→ Kind) Inference` | Classifies a derivation of content from premises. | Operation; Inference |
-| `Inference (→ Kind) Deduction` | Classifies a derivation in which the conclusion follows necessarily. | Operation; Inference |
-| `Organization (→ Kind) Principle` | Classifies a rule that guides proceeding. | Operation; Principle |
-| `Epistemic Operation (→ Transforms) Epistemic Construction` | Identifies the construction an operation produces or rewrites. | Operation; Construction |
-| `Epistemic Operation (→ Governed By) Epistemic Standard` | Identifies the standard the operation must satisfy. | Operation; Evaluation |
+| `Epistemic Element (→ Kind) Epistemic Action` | Classifies an act of inquiry, read as a root in its own right. | Classification; Action |
+| `Epistemic Action (→ Kind) <<Action Element>>` | Classifies an act of inquiry. | Action; Classification |
+| `Epistemic Act (→ Kind) Inference` | Classifies a derivation of content from premises. | Action; Inference |
+| `Inference (→ Kind) Deduction` | Classifies a derivation in which the conclusion follows necessarily. | Action; Inference |
+| `Epistemic Action (→ Transforms) Epistemic Construction` | Identifies the construction an action produces or rewrites. | Action; Construction |
+| `Epistemic Action (→ Governed By) Epistemic Standard` | Identifies the standard the action must satisfy. | Action; Evaluation |
 | `Epistemic Evaluation (→ Has) <<Evaluation Element>>` | Identifies an evaluative constituent. | Evaluation; Standard |
 | `Epistemic Element (→ Kind) Epistemic Feedback` | Classifies feedback read as a root in its own right. | Classification; Evaluation |
 | `Epistemic Communication (→ Has) <<Communication Element>>` | Identifies a communication constituent. | Communication; Inscription |
 | `Epistemic Infrastructure (→ Has) <<Infrastructure Element>>` | Identifies an infrastructure constituent. | Infrastructure; Tool |
 | `Epistemic Context (→ Has) Epistemic Condition` | Identifies a surrounding condition within which inquiry is interpreted. | Context; Conditions |
+| `Epistemic Guidance (→ Has) <<Guidance Element>>` | Identifies a directive constituent that steers inquiry. | Guidance; Directive |
+| `Epistemic Organization (→ Has) <<Organization Element>>` | Identifies an arrangement constituent that coordinates inquiry work. | Organization; Arrangement |
 | `Epistemic Element (→ Kind) Epistemic Framework` | Classifies a lens system read as a root in its own right. | Classification; Framework |
 | `Epistemic Framework (→ Part) Epistemic Tool` | Identifies a lens constituent. | Composition; Framework |
 | `Epistemic Framework (→ Has) Epistemic Construction` | Identifies the constructs a framework holds. | Composition; Framework |
@@ -157,11 +161,21 @@ Epistemic Element (parent)
 | `<<Epistemic Lane>>` | `Epistemic Communication` | How shared: inscription, publication, and coordination. |
 | `<<Epistemic Lane>>` | `Epistemic Infrastructure` | What supports it: tools, repositories, and institutions. |
 | `<<Epistemic Lane>>` | `Epistemic Context` | Under what conditions: the surrounding conditions of the practice. |
+| `<<Epistemic Lane>>` | `Epistemic Guidance` | Under what direction: the principles, protocols, and methodologies that steer inquiry. |
+| `<<Epistemic Lane>>` | `Epistemic Organization` | Arranged how: the programmes, projects, workflows, schedules, and divisions of labour that coordinate inquiry. |
 | `<<Orientation Element>>` | `Epistemic Purpose` | The intended ultimate effect or value of the inquiry. |
 | `<<Orientation Element>>` | `Epistemic Question` | A formulated question directing inquiry toward a gap. |
 | `<<Orientation Element>>` | `Epistemic Goal` | A desired epistemic outcome toward which inquiry is directed. |
 | `<<Orientation Element>>` | `Epistemic Gap` | A deficiency in available knowledge relative to the target. |
 | `<<Orientation Element>>` | `Epistemic Role` | The function an element or agent performs within the practice. |
+| `<<Guidance Element>>` | `Epistemic Principle` | A general rule that guides inquiry without being an end or a norm of judgment. |
+| `<<Guidance Element>>` | `Epistemic Protocol` | The course an inquiry is laid down to follow, prescribed rather than performed. |
+| `<<Guidance Element>>` | `Epistemic Methodology` | A directive account of how methods are chosen, combined, and justified. |
+| `<<Organization Element>>` | `Epistemic Programme` | A coordinated set of inquiry projects under one objective. |
+| `<<Organization Element>>` | `Epistemic Project` | A bounded unit of organized inquiry with an end and a term. |
+| `<<Organization Element>>` | `Epistemic Workflow` | An arrangement of inquiry tasks into a reproducible sequence. |
+| `<<Organization Element>>` | `Epistemic Schedule` | An arrangement of inquiry work in time. |
+| `<<Organization Element>>` | `Epistemic Division of Labour` | An allocation of inquiry roles and tasks across agents. |
 | `<<Observation Element>>` | `Transduction` | The conversion of a segment's state into a registrable signal. |
 | `<<Observation Element>>` | `Sampling` | The selection of which occurrences or positions are registered. |
 | `<<Constitutive Element>>` | `Convention` | A stabilized notational or interpretative choice. |
@@ -179,16 +193,15 @@ Epistemic Element (parent)
 | `<<Epistemic Construction>>` | `Trajectory` | An ordered sequence of states attributed to the segment. |
 | `<<Represented Aspect>>` | `Segment of Reality` | The bounded portion of reality a construction stands for. |
 | `<<Represented Aspect>>` | `Observable` | A registrable feature of the segment a construction encodes. |
-| `<<Operation Element>>` | `Action` | An operation that directly transforms, compares, or derives content. |
-| `<<Operation Element>>` | `Organization` | An arrangement of actions into a reproducible structure. |
-| `<<Operation Element>>` | `Epistemic Operator` | A named transformation read as an operator. |
-| `<<Evaluation Element>>` | `Epistemic Standard` | The norm against which an artifact or operation is judged. |
+| `<<Action Element>>` | `Epistemic Act` | A primitive act of inquiry performed by an agent. |
+| `<<Action Element>>` | `Epistemic Operator` | A named transformation read as an operator. |
+| `<<Evaluation Element>>` | `Epistemic Standard` | The norm against which an artifact or action is judged. |
 | `<<Evaluation Element>>` | `Epistemic Criterion` | The property on which the judgment turns. |
 | `<<Evaluation Element>>` | `Epistemic Constraint` | A bound on what the inquiry can achieve or hold. |
-| `<<Evaluation Element>>` | `Epistemic Error` | A deviation of an artifact or operation from its standard. |
+| `<<Evaluation Element>>` | `Epistemic Error` | A deviation of an artifact or action from its standard. |
 | `<<Evaluation Element>>` | `Validation` | A check that tests an artifact against reality. |
 | `<<Evaluation Element>>` | `Verification` | A check that tests an artifact against its blueprint. |
-| `<<Evaluation Element>>` | `Epistemic Feedback` | The return of an evaluation into the next operation. |
+| `<<Evaluation Element>>` | `Epistemic Feedback` | The return of an evaluation into the next action. |
 | `<<Communication Element>>` | `Epistemic Inscription` | A persistent rendering of epistemic content. |
 | `<<Communication Element>>` | `Epistemic Publication` | The release of content to a readership. |
 | `<<Communication Element>>` | `Epistemic Coordination` | The alignment of several agents' epistemic work. |
@@ -276,17 +289,33 @@ Epistemic Element (parent)
 > - **Fundamental descriptive artifacts (concepts/aspects)** — concepts directly describing recurring structures of reality, enabling compression; meaningful standalone (motion, mass, force, opportunity cost). These identify **what** is described.
 > - **Epistemic scaffolding tools** — frameworks supporting construction, organization, and reasoning about descriptions (numbers, geometry, logic, probability, calculus, graphs). These provide **how** descriptions are represented and manipulated.
 
+### What is an epistemic action?
+
+> Any act performed by an observer to construct, transform, evaluate, or apply knowledge about reality. `Epistemic Action` is the doing root; `Epistemic Act` is its primitive unit, and `Inference`, `Deduction`, and the `Epistemic Operator` are its kinds.
+
 ### What is an epistemic activity?
 
-> Any operation performed by an observer to construct, transform, evaluate, or apply knowledge about reality.
+> A situated bundle of epistemic actions carried on within a practice — a field season, a modelling run, a proof campaign, a classification batch. The bundle is the unit: which acts belong together, in which sitting, toward what joint result. Activity is neither a synonym for the practice nor a synonym for the act; it is the middle term.
 
-### What is the relation between `Epistemic Practice` and `Epistemic Activity`?
+### What is the relation between `Epistemic Practice`, `Epistemic Activity`, and `Epistemic Action`?
 
-> **Practice is the pattern; Activity is the pattern exercised in time.** A practice organizes what recurs — tasks, methods, procedures, acts, roles, standards, instruments, and notations; an activity is one scheduled exercising of it — a field season, a modelling run, a proof campaign, a classification batch. Every activity belongs to a practice the way every exercised function belongs to a capability: the same duality, temporal instead of modal.
+> **Three levels of one doing.** `Epistemic Practice` is the whole that recurs and endures — tasks, methods, procedures, roles, standards, instruments, and notations, together with the lanes that carry them; it is what a discipline, laboratory, school, or specialty *is*. `Epistemic Activity` is one situated exercising of it — the bundle in time. `Epistemic Action` is the granular act inside that bundle. Practice answers *what is carried on*; activity answers *what is happening now*; action answers *what is being done*. Every activity belongs to a practice, and every activity decomposes into the actions it bundles, the way every exercised pattern decomposes into its performances.
 
 ### Do we need `Epistemic Activity` as an epistemic element in the decomposition?
 
-> **No.** A fully specified `Epistemic Practice` — its tasks, methods, procedures, acts, roles, standards, and control points — leaves no additional structural role for activity to contribute. Activity describes operation rather than structure, so it is not a decomposition node: decompose the practice.
+> **Yes — the earlier answer of no is reversed.** A fully specified practice names its tasks, methods, and procedures, but leaves unsaid which of them were performed together, in which sitting, toward what joint result: the bundle is load-bearing. Socialium reached the same conclusion and retired `Practice` in favour of `Activity` (see "Do we actually need `Activity` and `Practice`?" there); epistemicarum keeps `Practice` because here the whole is a doing rather than an organization of actors, and adds `Activity` as the bundle inside it. The retired answer is kept as the history of the decision.
+
+### Where do guidance and organization decompose?
+
+> As lanes of the practice: `Epistemic Practice (→ Has) Epistemic Guidance` and `Epistemic Practice (→ Has) Epistemic Organization`. Guidance holds the directives that orient inquiry without being an end (`Epistemic Orientation`) or a norm of judgment (`Epistemic Evaluation`) — principle, protocol, methodology. Organization holds the arrangements that coordinate inquiry work rather than describe it — programme, project, workflow, schedule, division of labour. Neither is a `Has`-branch of `Epistemic Action`: socialium attaches guidance, organization, and instrumentation to the `Interaction Unit` because that grammar roots on actors, while this one roots on doings, so the practice owns them. Instrumentation needs no lane here — `Epistemic Tool` and `Observation Interface` already carry it.
+
+### Why is `Organization` no longer a kind of `Epistemic Action`?
+
+> Because an arrangement is not an act. The retired row `Organization (→ Kind) Principle` typed a rule as an arrangement and an arrangement as an action, twice over. A principle is a directive and now sits under `Epistemic Guidance`; the reproducible structure of acts that "arrangement of actions" once named is `Epistemic Procedure`; and the arrangement of inquiry work across agents and time is the `Epistemic Organization` lane.
+
+### Why is `Epistemic Operation` now `Epistemic Action`?
+
+> Because `Operation` and `Action` named one thing at two levels — `Epistemic Operation (→ Kind) Action` — which is a distinction without a difference. `Action` is the type socialium and moralis already use for the doing, `Act` names the primitive unit inside it, and `Operation` survives only as ordinary English in "the action a task applies."
 
 ### What is a description?
 
@@ -323,7 +352,7 @@ Epistemic Element (parent)
 | Realization | `Realized By` | Identifies a concrete instance through which an abstract type, system, or mechanism is realized. | Connecting an abstract structure or type to its concrete realization. |
 | Instantiation | `Instance Of` | Identifies the general type or class to which a particular instance belongs. | Connecting a concrete instance to its defining type. |
 | Derivation | `Derived From` | Identifies the source from which an element is obtained or derived. | Identifying the premises, data, or elements from which another element originates. |
-| Transformation | `Transforms` | Identifies an element that is transformed or produced through an operation performed by the parent. | Representing transformations between input and output elements. |
+| Transformation | `Transforms` | Identifies an element that is transformed or produced through an action performed by the parent. | Representing transformations between input and output elements. |
 | Representation | `Represents` | Identifies the reality, entity, or content represented by the parent. | Connecting a representation to its referent or represented target. |
 | Causation | `Causes` | Identifies an element whose action or occurrence produces an effect in another element. | Representing causal relationships between phenomena or processes. |
 | Regulation | `Regulates` | Identifies an element that controls, constrains, or modulates the behavior of another element. | Representing regulatory relationships and feedback structures. |
@@ -400,17 +429,23 @@ Epistemic Element (parent)
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Tallykeeping Method (→ Instance) `Epistemic Procedure` (→ Instance) Tally Procedure (→ Part) `Epistemic Act` (→ Instance) Tallying Act | Primitive act marking one stroke per item counted. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Calculating Method | Generalized sequence of calculational acts toward exact reckoning. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Method` (→ Instance) Proving Method | Generalized derivation of arithmetical propositions from stated axioms. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` | Grouping: operations on numerals. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` | Grouping: direct transformations. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Instance) Magnitude Comparison | Operational act judging greater, lesser, or equal between numerals. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` | Grouping: derivations from premises. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` (→ Kind) `Deduction` | Grouping: necessary derivations. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Action` (→ Kind) `Inference` (→ Kind) `Deduction` (→ Instance) Induction Proof | Proof by mathematical induction: base and step deriving the universal claim — deductive in epistemic standing. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` | Grouping: coordinated routines. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` | Grouping: rules guiding reckoning. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` (→ Instance) Induction Principle | What holds of zero and passes to successors holds of all numbers. |
-| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Operation` (→ Kind) `Organization` (→ Kind) `Principle` (→ Instance) Commutativity Principle | Order-independence of addition and multiplication. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` | Grouping: acts on numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` | Grouping: primitive acts of reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Instance) Reckoning | Rule-governed transformation of represented quantities. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Instance) Magnitude Comparison | Act judging greater, lesser, or equal between numerals. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Kind) `Inference` | Grouping: derivations from premises. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Kind) `Inference` (→ Kind) `Deduction` | Grouping: necessary derivations. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Task` (→ Has) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Kind) `Inference` (→ Kind) `Deduction` (→ Instance) Induction Proof | Proof by mathematical induction: base and step deriving the universal claim — deductive in epistemic standing. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` | Grouping: situated bundles of reckoning work. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session | One sitting in which a column addition is worked through. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Activity` (→ Instance) Column Sum Session (→ Part) `Epistemic Action` (→ Kind) `Epistemic Act` (→ Instance) Tallying Act | The marking act the sitting performs. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Guidance` | Grouping: the directives steering reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Guidance` (→ Has) `Epistemic Principle` | Grouping: general rules guiding reckoning. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Guidance` (→ Has) `Epistemic Principle` (→ Instance) Induction Principle | What holds of zero and passes to successors holds of all numbers. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Guidance` (→ Has) `Epistemic Principle` (→ Instance) Commutativity Principle | Order-independence of addition and multiplication. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` | Grouping: arrangements coordinating reckoning work. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` | Grouping: arrangements of reckoning work in time. |
+| `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Has) `Epistemic Organization` (→ Has) `Epistemic Schedule` (→ Instance) Recitation Rota | Rotation assigning pupils to recitation turns. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` | Grouping: the constructions arithmetic produces about discrete quantity — what the DCESA does not leave unrecorded. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Sum Statement | A description: seven times eight are fifty-six, carried as a claim about the segment. |
 | `Epistemic Element` (→ Kind) `Epistemic Element Set` (→ Kind) `Epistemic Practice` (→ Instance) Arithmetic (→ Produces) `Epistemic Construction` (→ Instance) Evenness | A concept: the constructed property a number carries when it divides into two exact halves. |

@@ -368,6 +368,11 @@
         "summary": "Pruned the mechanism/technical-object QA and the description-evaluation QA; both are superseded by the surviving mechanism-realization and validation answers.",
         "commit": "68c7f58c74a32ee827ee172ac2a72caaac6b5268",
         "before": "ea3906c7a9e47b4ee3f921006b68608a648f93e8"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Split the doing three ways: kept `Epistemic Practice` as the inquiry whole, added `Epistemic Activity` (the situated bundle) and `Epistemic Activity (→ Part) Epistemic Action`, reversed the retired 'do we need Activity?' answer, and renamed `Epistemic Operation` to `Epistemic Action` with `Epistemic Act` as its primitive kind. Added the `Epistemic Guidance` and `Epistemic Organization` lanes with their slots (`Principle`, `Protocol`, `Methodology`; `Programme`, `Project`, `Workflow`, `Schedule`, `Division of Labour`), moved `Principle` out of the retired `Organization (→ Kind) Principle` row, dropped 'program' from the sub-practice wording, and grew the Arithmetic case study with the action, activity, guidance, and organization branches."
       }
     ]
   },
@@ -430,6 +435,11 @@
         "summary": "Added the slot-expansion table (`Slot | Expansion | Description`), one row per expansion, replacing the inline slot list.",
         "commit": "5e8b51e02a2ec7f79e523fbb1d1fa90c5db3a171",
         "before": "72693ba8643a5c768371aff971d7745ebbea30eb"
+      },
+      {
+        "date": "2026-10-31",
+        "kind": "refactor",
+        "summary": "Licensed `Technical Activity` as the situated bundle inside a `Technical Practice` (`Technical Practice (→ Has) Technical Activity`, `Technical Activity (→ Part) Technical Act`) and reversed the retired 'do we need Technical Activity?' answer to match epistemicarum."
       }
     ]
   },

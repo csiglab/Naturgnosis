@@ -117,10 +117,13 @@ Technical Element (parent)
 | `Technical Element (→ Kind) Technical Quality` | Degree to which desirable technical properties are possessed under relevant conditions. | Classification; Capability |
 | `Technical Element (→ Kind) Technical Performance` | Realized quantitative behavior under specified conditions. | Classification; Capability |
 | `Technical Element (→ Kind) Technical Practice` | Repeatable, organized pattern of technical work integrating activities, techniques, principles, standards, and tools. | Classification; Technique |
+| `Technical Element (→ Kind) Technical Activity` | Situated bundle of technical doings carried on within a practice. | Classification; Technique |
+| `Technical Practice (→ Has) Technical Activity` | Identifies a situated bundle of technical doings carried on within the practice. | Composition; Technique |
 | `Technical Practice (→ Has) Technical Task` | Discrete unit of planned technical work assigned to an agent. | Composition; Technique |
 | `Technical Task (→ Has) General Technique` | Generalized method for performing a class of technical operations. | Composition; Technique |
 | `General Technique (→ Instance) Operative Technique` | Situated application of a technique by an agent to a particular technical situation. | Classification; Technique |
 | `Operative Technique (→ Has) Technical Act` | Primitive Technique performed by an agent on reality or a technical object. | Composition; Technique |
+| `Technical Activity (→ Part) Technical Act` | Identifies a technical act the activity bundles. | Composition; Technique |
 | `Technical Practice (→ Has) Constitutive Technique` | A technique embodied in a technical element that constitutes part of its technical organization, establishing an internal dynamic logic through which the element operates and fulfills its technical role. | Composition; Technique |
 | `Technical Practice (→ Has) Technical Interface & Actuation` | Boundary and means through which an agent encodes intent and acts upon a technical object or reality. | Composition; Technique |
 | `Technical Element (→ Kind) Technical Feedback` | Information about intervention effects or system state that enables adjustment and error correction. | Classification; Control |
@@ -241,12 +244,12 @@ Technical Element (parent)
 
 ### What is the relation between `Technical Practice` and `Technical Activity`?
 
-> **Technical Practice** is the pattern; **Technical Activity** is the pattern exercised in time. A Practice organizes *what* recurs — activities, techniques, principles, standards, tools; an Activity is one scheduled exercising of it — brief → build → launch → monitor → close. Every Activity belongs to a Practice the way every exercised Function belongs to a Capability: the same duality, temporal instead of modal.
+> **Technical Practice** is the whole that recurs and endures; **Technical Activity** is one situated exercising of it — brief → build → launch → monitor → close. A Practice organizes *what* is carried on — tasks, techniques, principles, standards, tools; an Activity is the bundle in time — which of them were performed together, in which sitting, toward what joint result. Every Activity belongs to a Practice, and every Activity decomposes into the technical acts it bundles. Practice answers *what is carried on*; Activity answers *what is happening now*; the Act answers *what is being done*.
 > 
 
-### Do we actually need `Technical Activity` as a technical element in the decomposition of a technical element, or is it already covered by `Technical Practice`, similar to the relationship between `Technical Function` and `Technical Capability`?
+### Do we actually need `Technical Activity` as a technical element in the decomposition of a technical element, or is it already covered by `Technical Practice`?
 
-> **No.** A fully specified `Technical Practice`—including its Tasks, Techniques, Acts, standards, and control gates—leaves no additional structural role for `Technical Activity` to contribute. An Activity is the **temporal instantiation of a Practice**: it describes the Practice as it is actually being performed over time. Like `Technical Function`, it therefore describes **operation rather than structure** and is not necessary for the structural decomposition of a technical element.
+> **Yes — the earlier answer of no is reversed.** A fully specified `Technical Practice` — its tasks, techniques, acts, standards, and control gates — names the units, but leaves unsaid which of them were performed together, in which sitting, toward what joint result. The bundle is load-bearing for decomposition: without `Technical Activity`, instance trees cannot name what a set of technical acts jointly constitutes. Like its epistemic cousin (cf. "Do we need `Epistemic Activity` as an epistemic element in the decomposition?" in Philosophia Artium Epistemicarum et Operis), the bundle is structural, not merely temporal. The retired answer is kept as the history of the decision.
 
 
 ### Why is the category `Technical Element Set` required?
