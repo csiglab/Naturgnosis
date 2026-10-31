@@ -393,7 +393,9 @@
       {
         "date": "2026-10-31",
         "kind": "refactor",
-        "summary": "Scoped orientation by owner: kept standing orientation on the practice and added `Epistemic Activity (→ Has) Epistemic Orientation` for the question and gap a sitting poses, moving `Uncomputed Product` and `Missing Product Gap` under the Column Sum Session. Moved `Epistemic Role` from the orientation slot to `Epistemic Agency (→ Has) Epistemic Role`, and grounded it with the Recitation Master instance."
+        "summary": "Scoped orientation by owner: kept standing orientation on the practice and added `Epistemic Activity (→ Has) Epistemic Orientation` for the question and gap a sitting poses, moving `Uncomputed Product` and `Missing Product Gap` under the Column Sum Session. Moved `Epistemic Role` from the orientation slot to `Epistemic Agency (→ Has) Epistemic Role`, and grounded it with the Recitation Master instance.",
+        "commit": "d1ce93762a36780f334bbd0a0e4b6a3f344a7714",
+        "before": "f1aaf52685d4e9eba78c03c3571e0f0128e0f97d"
       }
     ]
   },
