@@ -7,6 +7,11 @@
 > **Epistecnica** will focus on what man intentionally pursues through deep study and some level of
 > mastery, specifically for **@dbremont**.
 
+INTEGRATED WITH:
+
+- EPISTENICA (NOTES)
+- AUTOREGIA PKS - NODES.
+
 Goals:
 
 - We aim to stabilize a generative system that produces a **Domain Epistemic Artifact Set (DESA)**
