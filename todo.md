@@ -1,4 +1,9 @@
+Cavendish, H. (1766). Three papers, containing experiments on factitious air. *Philosophical Transactions of the Royal Society of London, 56*, 141–184. https://doi.org/10.1098/rstl.1766.0022
+
+https://en.wikipedia.org/wiki/Comptes_rendus_de_l%27Acad%C3%A9mie_des_Sciences
+
 ./app/note/data/social/collective/framework/program.md
+i
 
 Study 
 
@@ -2139,3 +2144,27 @@ Ancient Indian  `Republic`:
 - https://en.wikipedia.org/wiki/Shakya
 
 https://en.wikipedia.org/wiki/Hyperscale_computing
+
+- https://en.wikipedia.org/wiki/Ottomanism
+- https://en.wikipedia.org/wiki/Phanariots
+- https://en.wikipedia.org/wiki/Millet_(Ottoman_Empire)
+
+- https://www.ncetm.org.uk/
+
+- https://en.wikipedia.org/wiki/Corning_Inc.
+
+Gov Expenditure as a Porcetajge of GDP: https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/ESP/ITA/ZAF/IND
+Interest in Public Debt -- https://www.imf.org/external/datamapper/ie@FPP/ITA
+
+Can we expand all of the GDP?
+
+Hows to interpret savings?
+
+https://plato.stanford.edu/entries/chemistry/
+
+https://en.wikipedia.org/wiki/Royal_Netherlands_Academy_of_Arts_and_Sciences
+
+How to name my pubilc entities of the same type university, hostpital etc?
+
+- https://www.ens-rennes.fr/; Take this form ecolole normale superior (type of institution) ENS - <Distintive Signal - Name> Rennes.
+- 

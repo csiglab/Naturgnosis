@@ -885,9 +885,9 @@ Meaning as function, not essence:
 - **Finley, K. (2025).** *Embodied Cognition and the Grip of Computational Metaphors*. Ergo.
 - Anderson, M. L. (2003). Embodied cognition: A field guide. 149(1), 91–130.
 - [Epistemology](https://app.notion.com/p/Epistemology-0e47f3d857c544c6b08bc991c24c8891?pvs=21)
-- [Human Memory](note.html?n=nature/conceptual-model-natural-system/human-memory.md)
+- [Human Memory](note.html?n=nature/human-memory.md)
 - [Reference System](note.html?n=human/cognitive/reference-system.md)
-- [What are the different cognitive states achieved after learning?](note.html?n=nature/conceptual-model-natural-system/human-memory.md)
+- [What are the different cognitive states achieved after learning?](note.html?n=nature/human-memory.md)
 - https://www.youtube.com/watch?v=3Eqr780xUuY&t=13s
 - https://www.youtube.com/watch?v=DgvV3IbUedo&t=196s
 - https://www.youtube.com/watch?v=jvdo-SlGl4A

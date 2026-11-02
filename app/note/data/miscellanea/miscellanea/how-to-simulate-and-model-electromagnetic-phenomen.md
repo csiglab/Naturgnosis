@@ -124,10 +124,10 @@ See  [Maxwell's Fundamental Electromagnetic Formulation](https://app.notion.com/
 ## References
 
 - https://www.openems.de/
-- [Fundamental Interaction](note.html?n=nature/conceptual-model-natural-system/fundamental-interaction.md)
+- [Fundamental Interaction](note.html?n=nature/fundamental-interaction.md)
 -
-- [Electromagnetic Field (EM)](note.html?n=nature/conceptual-model-natural-system/electromagnetic-field-em.md)
-- [**Electromagnetic Radiation** (**EMR**)](note.html?n=nature/conceptual-model-natural-system/electromagnetic-radiation-emr.md)
+- [Electromagnetic Field (EM)](note.html?n=nature/electromagnetic-field-em.md)
+- [**Electromagnetic Radiation** (**EMR**)](note.html?n=nature/electromagnetic-radiation-emr.md)
 
 ## Provenance
 

@@ -15,8 +15,8 @@ note system (code only; none of its personal content).
 - `web/vendor/` — third-party `marked.min.js` (keeps upstream name).
 - `data/` — the corpus home: hand-edited markdown + live HTML (kebab-case),
   with the generated `index.json` beside it. Top-level sections include
-  `nature/` (natural elements; the Modelo import is mirrored under
-  `nature/conceptual-model-natural-system/`, and `nature/construction/` holds
+  `nature/` (natural elements; the Modelo import is flattened directly into
+  `nature/`, and `nature/construction/` holds
   epistemic constructions about natural targets), `human/`, `miscellanea/`,
   `data-collection/`, plus the pre-existing `social/`, `technique/`,
   `epistemica/`, `history/`, `general/`, and `meta/` sections.

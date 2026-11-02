@@ -11,7 +11,7 @@ sections (`social/` social-ontology concepts and social actors
 under `social/collective/actor/` (firms, banks, ministries, plus people under
 `social/collective/actor/private/persona/`), `technique/` tools/systems/libraries/platforms/instances
 (plus housekeeping under `technique/operation/`), `nature/` natural elements
-(the `Modelo` import is mirrored under `nature/conceptual-model-natural-system/`),
+(the `Modelo` import is flattened directly into `nature/`),
 `human/`, `miscellanea/`, `data-collection/`, and `meta/` task guides);
 interactive pages live beside their topics as `*.html` live notes — liveness
 is a file type, not a section; see `authoring.md` for the authoring rules.

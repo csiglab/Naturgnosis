@@ -204,7 +204,7 @@ Then **learning** occurs when: $\exists \, t_1, t_2 \in \mathbb{T}, \, t_1 < t_2
 
 ## References
 
-- [Human Memory](note.html?n=nature/conceptual-model-natural-system/human-memory.md)
+- [Human Memory](note.html?n=nature/human-memory.md)
 - Keshav, S., Cheriton, D. R. (2007). How to Read a Paper.
 - Leubepin, F. (2013). How to Read (and Understand) a Social Science Journal Article.
 - Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). Improving Students’ Learning With Effective Learning Techniques.

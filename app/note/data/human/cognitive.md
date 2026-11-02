@@ -49,7 +49,7 @@ Goals:
 > **The "mind" is not a direct scientific concept like “neuron” or “force,” but rather an *effective abstraction* that can be decomposed into scientific constructs.** It acts as a conceptual umbrella for a set of cognitive functions — some of which are scientifically robust and operationalizable.
 >
 
-> See more in [Brain](note.html?n=nature/conceptual-model-natural-system/brain.md), [Representation](note.html?n=human/cognitive/conceptual-model-cognition/representation.md),   [Cognition](note.html?n=human/cognitive/conceptual-model-cognition/cognition.md),
+> See more in [Brain](note.html?n=nature/brain.md), [Representation](note.html?n=human/cognitive/conceptual-model-cognition/representation.md),   [Cognition](note.html?n=human/cognitive/conceptual-model-cognition/cognition.md),
 >
 
 | **Category** | **Study Target** | **Description** | **Cognitive Research** | **Research Justification** |
@@ -95,7 +95,7 @@ Goals:
 
 ### Modelling
 
-> See more in [Modelling](note.html?n=nature/conceptual-model-natural-system/brain.md)
+> See more in [Modelling](note.html?n=nature/brain.md)
 >
 
 > How do we represent brain functions (and the underlying processes and systems)?
@@ -138,7 +138,7 @@ Goals:
 
 ## References
 
-- [Brain](note.html?n=nature/conceptual-model-natural-system/brain.md)
+- [Brain](note.html?n=nature/brain.md)
 - https://en.wikipedia.org/wiki/Linguistics
 - https://en.wikipedia.org/wiki/Psychology
 - https://en.wikipedia.org/wiki/Cognitive_model

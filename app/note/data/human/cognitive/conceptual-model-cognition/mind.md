@@ -60,7 +60,7 @@ tags: [human, cognition]
 
 ## References
 
-- [Brain](note.html?n=nature/conceptual-model-natural-system/brain.md)
+- [Brain](note.html?n=nature/brain.md)
 - https://en.wikipedia.org/wiki/Mind
 - https://en.wikipedia.org/wiki/Philosophy_of_mind
 - https://en.wikipedia.org/wiki/Conatus
